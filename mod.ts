@@ -42,11 +42,17 @@ let views: AppBskyLabelerDefs.LabelerView[];
 	);
 
 	views = viewChunks.flat(1).sort((a, b) => (b.likeCount || 0) - (a.likeCount || 0));
+
+	// Remap the DID so we can get sorted DID listing as well
+	dids = views.map((view) => view.creator.did);
 }
 
 {
 	await Promise.all([
 		Deno.writeTextFile('./labelers.min.json', JSON.stringify(views)),
 		Deno.writeTextFile('./labelers.json', JSON.stringify(views, null, '\t')),
+
+		Deno.writeTextFile('./did.min.json', JSON.stringify(dids)),
+		Deno.writeTextFile('./did.json', JSON.stringify(dids, null, '\t')),
 	]);
 }
