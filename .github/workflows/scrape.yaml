@@ -14,8 +14,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Deno
         uses: denoland/setup-deno@v1
-          with:
-            deno-version: '~1.42'
+        with:
+          deno-version: '~1.42'
       - name: Run scraping script
         run: deno run -A mod.ts
       - name: Push to repository
