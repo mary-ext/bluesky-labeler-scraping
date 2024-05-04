@@ -41,7 +41,9 @@ let views: AppBskyLabelerDefs.LabelerView[];
 		}),
 	);
 
-	views = viewChunks.flat(1).sort((a, b) => (b.likeCount || 0) - (a.likeCount || 0));
+	const collator = new Intl.Collator('en-US');
+
+	views = viewChunks.flat(1).sort((a, b) => collator.compare(a.uri, b.uri));
 
 	// Remap the DID so we can get sorted DID listing as well
 	dids = views.map((view) => view.creator.did);
