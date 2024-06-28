@@ -39,9 +39,7 @@ Last updated {{time}}[^1]
 
 		let body = ``;
 		body += `<a href=https://bsky.app/profile/${profile.did}><b>${escape(displayName, false)}</b></a>`;
-		if (description) {
-			body += `<br>${description}`;
-		}
+		body += `<br>${escape(description, false) || `<i>No description</i>`}`;
 
 		table += `| ${body} | ${likeCount} |\n`;
 	}
