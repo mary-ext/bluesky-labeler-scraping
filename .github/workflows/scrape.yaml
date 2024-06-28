@@ -17,6 +17,8 @@ jobs:
           deno-version: '~1.42'
       - name: Run scraping script
         run: deno run -A mod.ts
+      - name: Generate markdown
+        run: deno run -A markdown.ts
       - name: Push to repository
         run: |
           git config user.name github-actions[bot]
