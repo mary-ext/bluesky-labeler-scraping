@@ -70,5 +70,5 @@ Last updated {{time}}[^1]
 }
 
 function escape(str: string) {
-	return str.replace(/[<&|"]/g, (c) => '&#' + c.charCodeAt(0) + ';');
+	return str.replace(/[<&|"#*~=>\-.`\[!]/g, (c) => '&#' + c.charCodeAt(0) + ';');
 }
