@@ -38,8 +38,8 @@ Last updated {{time}}[^1]
 			.replaceAll('\n', '<br>');
 
 		let body = ``;
-		body += `<a href=https://bsky.app/profile/${profile.did}><b>${escape(displayName, false)}</b></a>`;
-		body += `<br>${escape(description, false) || `<i>No description</i>`}`;
+		body += `<a href=https://bsky.app/profile/${profile.did}><b>${escape(displayName)}</b></a>`;
+		body += `<br>${escape(description) || `<i>No description</i>`}`;
 
 		table += `| ${body} | ${likeCount} |\n`;
 	}
@@ -69,18 +69,6 @@ Last updated {{time}}[^1]
 	}
 }
 
-function escape(str: string, attr: boolean) {
-	let escaped = '';
-	let last = 0;
-
-	for (let idx = 0, len = str.length; idx < len; idx++) {
-		const char = str.charCodeAt(idx);
-
-		if (char === 38 || (attr ? char === 34 : char === 60)) {
-			escaped += str.substring(last, idx) + ('&#' + char + ';');
-			last = idx + 1;
-		}
-	}
-
-	return escaped + str.substring(last);
+function escape(str: string) {
+	return str.replace(/[<&|"]/g, (c) => '&#' + c.charCodeAt(0) + ';');
 }
