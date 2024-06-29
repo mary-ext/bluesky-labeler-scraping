@@ -1,6 +1,6 @@
 # Bluesky labelers
 
-Last updated 2024-06-29T01:02:30.922Z[^1]
+Last updated 2024-06-29T03:46:44.102Z[^1]
 
 <!-- table-start -->
 | Labeler | Likes |
@@ -11,10 +11,10 @@ Last updated 2024-06-29T01:02:30.922Z[^1]
 | <a href=https://bsky.app/profile/did:plc:bpkpvmwpd3nr2ry4btt55ack><b>AI Imagery Labeler</b></a><br>Labeler and moderation list maintainer for identifying AI imagery. | 733 |
 | <a href=https://bsky.app/profile/did:plc:i65enriuag7n5fgkopbqtkyk><b>Profile Labeller</b></a><br>Labels accounts based on facts about profile records, post history, etc. Automatic. | 388 |
 | <a href=https://bsky.app/profile/did:plc:newitj5jo3uel7o4mnf3vj2o><b>XBlock Screenshot Labeler</b></a><br>Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers. | 363 |
-| <a href=https://bsky.app/profile/did:plc:e4elbtctnfqocyfcml6h2lf7><b>Anti&#45;Alf Aktion</b></a><br>Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as as certain facts about content found in usernames, descriptions, and posts. | 234 |
+| <a href=https://bsky.app/profile/did:plc:e4elbtctnfqocyfcml6h2lf7><b>Anti-Alf Aktion</b></a><br>Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as as certain facts about content found in usernames, descriptions, and posts. | 234 |
 | <a href=https://bsky.app/profile/did:plc:z3yk2cflhmn6vmzo3f5ixqh4><b>𓄿 The Yard Crow</b></a><br>The Yard Crow watches | 199 |
 | <a href=https://bsky.app/profile/did:plc:smtbhjnwsvcxzvez2nbf7mar><b>Crypto Labeler</b></a><br>Labels crypto spammers and their spammy posts. | 189 |
-| <a href=https://bsky.app/profile/did:plc:wp7hxfjl5l4zlptn7y6774lk><b>Bad Accessibility / Alt Text Labeler</b></a><br>Moderation service for identifying posts and media with user&#45;hostile accessibility properties. Managed by @baatl.bsky.social. | 157 |
+| <a href=https://bsky.app/profile/did:plc:wp7hxfjl5l4zlptn7y6774lk><b>Bad Accessibility / Alt Text Labeler</b></a><br>Moderation service for identifying posts and media with user-hostile accessibility properties. Managed by @baatl.bsky.social. | 157 |
 | <a href=https://bsky.app/profile/did:plc:jcce2sa3fgue4wiocvf7e7xj><b>Birthdays</b></a><br>Labels for showing when it's a user's birthday | 128 |
 | <a href=https://bsky.app/profile/did:plc:mjyeurqmqjeexbgigk3yytvb><b>No GIFS Please</b></a><br>GIF hiding labeler. Nothing else. | 114 |
 | <a href=https://bsky.app/profile/did:plc:5o2g6wwchb3tgwrhl2atauzu><b>Moderation Tripazeada</b></a><br>Maintaining safety for Tripazeada members and their CC's. | 87 |
@@ -26,38 +26,38 @@ Last updated 2024-06-29T01:02:30.922Z[^1]
 | <a href=https://bsky.app/profile/did:plc:eeptyms6w2crpi6h73ok7qjt><b>The Shreyan Labeler</b></a><br>Labels stuff probably | 34 |
 | <a href=https://bsky.app/profile/did:plc:3eivfiql4memqxkryeu4tqnk><b>Spoiler Droid</b></a><br>A 3rd party Bluesky labeler service account run by @shawn.party | 26 |
 | <a href=https://bsky.app/profile/did:plc:z2i5ah5elywxdcr64i7xai3z><b>Ваша лавка з бабцями</b></a><br>Все знаємо, за всім слідкуємо, все запам'ятовуємо. | 24 |
-| <a href=https://bsky.app/profile/did:plc:skibpmllbhxvbvwgtjxl3uao><b>Anti&#45;Aging</b></a><br>Critics are saying: | 23 |
+| <a href=https://bsky.app/profile/did:plc:skibpmllbhxvbvwgtjxl3uao><b>Anti-Aging</b></a><br>Critics are saying: | 23 |
 | <a href=https://bsky.app/profile/did:plc:cnn3jrtucivembf66xe6fdfs><b>Moe Moderation 🎀</b></a><br>Moderation services for progressive weebs who believe no one should face stigma or harassment for enjoying or creating controversial fiction, mainly anime, manga, games, hentai, fan art, and doujin works. | 23 |
 | <a href=https://bsky.app/profile/did:plc:fcikraffwejtuqffifeykcml><b>FF14非公式ラベリング</b></a><br>FF14の拡張ごとの文字列をラベリングするラベラーです。仕様上、100%ラベリングできませんのでご注意ください。 | 22 |
 | <a href=https://bsky.app/profile/did:plc:olmiw2wkm3qoxinal7w5fbnl><b>BlueCosmos</b></a><br>青き清浄なるインターネットのために。 | 13 |
 | <a href=https://bsky.app/profile/did:plc:hwmrwmykflexnxm32pdat5gq><b>CourtesyBot</b></a><br>Examine a user's recent courtesy fav behavior by tagging @courtesybot.bsky.social in a reply to the target user. | 10 |
 | <a href=https://bsky.app/profile/did:plc:oz5zavafp7szpd2yyko57ccz><b>divylabeler.bsky.social</b></a><br><i>No description</i> | 10 |
-| <a href=https://bsky.app/profile/did:plc:fro6kbnitc47ia5x23ds4o3b><b>Стало гірше</b></a><br>Бойкотуйте контент країни агресора&#33; Не оплачуйте ракети ворога і не обслуговуйте його інформаційно. | 10 |
-| <a href=https://bsky.app/profile/did:plc:j2zujaxuq33c7nbcqyvgvyvk><b>The Nexus of Labels</b></a><br>A Bluesky labeler from https://privacy.thenexus.today ... currently experimental to kick the tires&#33; | 9 |
-| <a href=https://bsky.app/profile/did:plc:e2pq4mw6ivyle3lavxptuh56><b>Oh No&#33; Zone</b></a><br>Testing out an Ozone labeling service. | 8 |
-| <a href=https://bsky.app/profile/did:plc:nyfwpkztgsrbhrjewnw2p7yo><b>Довгоносик&#45;Модератор</b></a><br><i>No description</i> | 8 |
+| <a href=https://bsky.app/profile/did:plc:fro6kbnitc47ia5x23ds4o3b><b>Стало гірше</b></a><br>Бойкотуйте контент країни агресора! Не оплачуйте ракети ворога і не обслуговуйте його інформаційно. | 10 |
+| <a href=https://bsky.app/profile/did:plc:j2zujaxuq33c7nbcqyvgvyvk><b>The Nexus of Labels</b></a><br>A Bluesky labeler from https://privacy.thenexus.today ... currently experimental to kick the tires! | 9 |
+| <a href=https://bsky.app/profile/did:plc:e2pq4mw6ivyle3lavxptuh56><b>Oh No! Zone</b></a><br>Testing out an Ozone labeling service. | 8 |
+| <a href=https://bsky.app/profile/did:plc:nyfwpkztgsrbhrjewnw2p7yo><b>Довгоносик-Модератор</b></a><br><i>No description</i> | 8 |
 | <a href=https://bsky.app/profile/did:plc:4vf7tgwlg6edds2g2nixyjda><b>Labeler test</b></a><br>3rd party labeler. Operated by @admin.bsky.day | 6 |
-| <a href=https://bsky.app/profile/did:plc:z7wmj3d5t7ytjf4nrh5nq6zx><b>Lapor Pak&#33;</b></a><br>&#34;Lapor Pak&#33;&#34; is an experimental Indonesian labeler. We provide professional community moderation services to keep your feed clean, safe, and hassle&#45;free. | 6 |
+| <a href=https://bsky.app/profile/did:plc:z7wmj3d5t7ytjf4nrh5nq6zx><b>Lapor Pak!</b></a><br>"Lapor Pak!" is an experimental Indonesian labeler. We provide professional community moderation services to keep your feed clean, safe, and hassle-free. | 6 |
 | <a href=https://bsky.app/profile/did:plc:bqaoaao7n5qqv2pf7rtyncqs><b>Department 7 Labeler</b></a><br>A labeler for curating content on your skyline.  Unofficially targeting most sorts of content you would expect to see CW'd on Mastodon. | 5 |
 | <a href=https://bsky.app/profile/did:plc:4ffrdzuhiq4coouadh5btkbf><b>Papercut Rodeo</b></a><br>Labeler for behaviors that aren’t malicious, but that some people find mildly irritating. | 5 |
 | <a href=https://bsky.app/profile/did:plc:7fkqmr7dfu6vanyxvjtloos3><b>ほりべあラベラー</b></a><br>ラベラーのテスト用 | 5 |
 | <a href=https://bsky.app/profile/did:plc:j3axwmdgrvnd73yrlemynsne><b>Chinese Labeler</b></a><br>专注于华语社区，提供精准的信息标注服务，守护健康言论，促进文化交流。 | 3 |
 | <a href=https://bsky.app/profile/did:plc:2qhdv5xwffbogrfoqcqzpady><b>Pro Cycling Labeler</b></a><br>Providing labels for: | 3 |
-| <a href=https://bsky.app/profile/did:plc:ar7c4by46qjdydhdevvrndac><b>Bluesky Moderation Service</b></a><br>Official Bluesky moderation service. https://bsky.social/about/support/community&#45;guidelines | 2 |
+| <a href=https://bsky.app/profile/did:plc:ar7c4by46qjdydhdevvrndac><b>Bluesky Moderation Service</b></a><br>Official Bluesky moderation service. https://bsky.social/about/support/community-guidelines | 2 |
 | <a href=https://bsky.app/profile/did:plc:exlb5xx2t4pgtjqzdm6ntsgh><b>Example Moderation Labeler</b></a><br><i>No description</i> | 2 |
 | <a href=https://bsky.app/profile/did:plc:cug2evrqa3nhdbvlfd2cvtky><b>Flatlander</b></a><br>Official account for the Flatlander custom feed and labeling service. Developed and managed by @joelh.social. | 2 |
 | <a href=https://bsky.app/profile/did:plc:l2s5mv6h2j5gyoacsxdxdfom><b>labeler.divy.zone</b></a><br><i>No description</i> | 2 |
-| <a href=https://bsky.app/profile/did:plc:qjehb7vyu2hw7mtm4qjsh4h4><b>Labels of Aotearoa</b></a><br>Applying only the most important&#42; moderation labels to the most important&#42;&#42; accounts on Aoteroa sky. | 2 |
+| <a href=https://bsky.app/profile/did:plc:qjehb7vyu2hw7mtm4qjsh4h4><b>Labels of Aotearoa</b></a><br>Applying only the most important* moderation labels to the most important** accounts on Aoteroa sky. | 2 |
 | <a href=https://bsky.app/profile/did:plc:rprd6z2sgvsdokjsbadytyun><b>Lio's Label System</b></a><br>Labeling Service by @pogcha.mp | 2 |
-| <a href=https://bsky.app/profile/did:plc:3o4ajsgts2fsuexm5ai6wln5><b>mombot</b></a><br>I decide what I like&#33; | 2 |
+| <a href=https://bsky.app/profile/did:plc:3o4ajsgts2fsuexm5ai6wln5><b>mombot</b></a><br>I decide what I like! | 2 |
 | <a href=https://bsky.app/profile/did:plc:orkjknb6lx4snybzwsolhatt><b>Labeler of @imax.in.ua</b></a><br>Test instance at this time. Do not subscribe unless you know what you're doing. | 1 |
 | <a href=https://bsky.app/profile/did:plc:zpkpugmisg3tv5as5almklq6><b>Lotor Online Labeler</b></a><br><i>No description</i> | 1 |
 | <a href=https://bsky.app/profile/did:plc:bv3lcacietc6fkdokxfqtdkj><b>NunnyBabbit</b></a><br>a labeler i guess | 1 |
 | <a href=https://bsky.app/profile/did:plc:hjhlwomi2kwyrss5w5i5l7xq><b>Sunaba Moderation</b></a><br><i>No description</i> | 1 |
-| <a href=https://bsky.app/profile/did:plc:3ej5knrqezo3meltfsb4vwnv><b>tda&#45;labeler.bsky.social</b></a><br><i>No description</i> | 1 |
+| <a href=https://bsky.app/profile/did:plc:3ej5knrqezo3meltfsb4vwnv><b>tda-labeler.bsky.social</b></a><br><i>No description</i> | 1 |
 | <a href=https://bsky.app/profile/did:plc:gq3qf7nawgpkt6co7z62fnqm><b>test bot please ignore</b></a><br>testbed account for fiddling with bsky | 1 |
 | <a href=https://bsky.app/profile/did:plc:chk262mwftsprs3dgzpijywo><b>The Perfect Brain Labeler</b></a><br>Labels as decided by a perfect brain. | 1 |
-| <a href=https://bsky.app/profile/did:plc:3wabolcdllw3w5lnwbrrlp7z><b>topical&#45;moderation.bsky.social</b></a><br><i>No description</i> | 1 |
+| <a href=https://bsky.app/profile/did:plc:3wabolcdllw3w5lnwbrrlp7z><b>topical-moderation.bsky.social</b></a><br><i>No description</i> | 1 |
 | <a href=https://bsky.app/profile/did:plc:mcskx665cnmnkgqnunk6lkrk><b>Wyvern</b></a><br><i>No description</i> | 1 |
 | <a href=https://bsky.app/profile/did:plc:pozgajl56zcftf6nzps46z65><b>abandoned</b></a><br>abandoned | 0 |
 | <a href=https://bsky.app/profile/did:plc:jwqm25l6zbkgmorz3k35hf32><b>CurationKeeper</b></a><br>This is simply experimenting with labellers, this won't do anything 🙃 | 0 |
