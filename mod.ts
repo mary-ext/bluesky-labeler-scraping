@@ -14,13 +14,11 @@ const chunked = <T>(arr: T[], size: number): T[][] => {
 let dids: At.DID[];
 
 {
-	const resp = await fetch('https://blue.mackuba.eu/labellers/');
-	const text = await resp.text();
+	const resp = await fetch('https://blue.mackuba.eu/xrpc/blue.feeds.mod.getLabellers');
+	const json = await resp.json();
 
-	dids = Array.from(
-		text.matchAll(/class="did".*?(did:[a-z]+:[a-zA-Z0-9._:%-]*[a-zA-Z0-9._-]).*?>/g),
-		(v) => v[1] as At.DID,
-	);
+	// deno-lint-ignore no-explicit-any
+	dids = json.labellers.map((labeler: any) => labeler.did);
 }
 
 let views: AppBskyLabelerDefs.LabelerView[];
