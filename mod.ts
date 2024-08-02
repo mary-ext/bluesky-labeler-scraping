@@ -1,5 +1,5 @@
-import { BskyXRPC } from 'jsr:@mary/bluesky-client@0.5.11';
-import type { AppBskyLabelerDefs, At } from 'jsr:@mary/bluesky-client@0.5.11/lexicons';
+import { BskyXRPC } from '@mary/bluesky-client';
+import type { AppBskyLabelerDefs, At } from '@mary/bluesky-client/lexicons';
 
 const chunked = <T>(arr: T[], size: number): T[][] => {
 	const chunks: T[][] = [];

@@ -2,13 +2,18 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@mary/bluesky-client@0.5.11": "jsr:@mary/bluesky-client@0.5.11"
+      "jsr:@mary/bluesky-client@^0.5.27": "jsr:@mary/bluesky-client@0.5.27"
     },
     "jsr": {
-      "@mary/bluesky-client@0.5.11": {
-        "integrity": "a12c80ee7dc34c2f3fcb86aa96ce01c5ff9326b7f8f1cad362a434235da88c64"
+      "@mary/bluesky-client@0.5.27": {
+        "integrity": "3b56bab15ea0de60ef5887e75e742793f683a9e3bee49bb9a608d672305f8c45"
       }
     }
   },
-  "remote": {}
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@mary/bluesky-client@^0.5.27"
+    ]
+  }
 }
