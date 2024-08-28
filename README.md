@@ -1,22 +1,22 @@
 # Bluesky labelers
 
-Last updated 2024-08-27T01:08:22.566Z[^1]
+Last updated 2024-08-28T01:09:01.694Z[^1]
 
 <!-- table-start -->
 | Labeler | Likes |
 | --- | --- |
-| <a href=https://bsky.app/profile/did:plc:hysbs7znfgxyb4tsvetzo4sk><b>TTRPG Class Identifier</b></a><br>Like &#38; Subscribe to find out your class | 5761 |
-| <a href=https://bsky.app/profile/did:plc:yojwcfgpkxq35sv5wioglqad><b>Perisai 🛡️</b></a><br>Perisai adalah sistem pelabelan akun untuk melindungi kamu melihat akun dan konten yang kamu inginkan atau tidak inginkan pada lini masa. | 4507 |
+| <a href=https://bsky.app/profile/did:plc:hysbs7znfgxyb4tsvetzo4sk><b>TTRPG Class Identifier</b></a><br>Like &#38; Subscribe to find out your class | 5763 |
+| <a href=https://bsky.app/profile/did:plc:yojwcfgpkxq35sv5wioglqad><b>Perisai 🛡️</b></a><br>Perisai adalah sistem pelabelan akun untuk melindungi kamu melihat akun dan konten yang kamu inginkan atau tidak inginkan pada lini masa. | 4566 |
 | <a href=https://bsky.app/profile/did:plc:aksxl7qy5azlzfm2jstcwqtz><b>Kiki/Bouba Labeller</b></a><br>Are you kiki or bouba? Like this labeller to find out | 1864 |
 | <a href=https://bsky.app/profile/did:plc:wkoofae5uytcm7bjncmev6n6><b>Pronouns</b></a><br>Set your pronouns as labels | 1010 |
-| <a href=https://bsky.app/profile/did:plc:bpkpvmwpd3nr2ry4btt55ack><b>AI Imagery Labeler</b></a><br>Labeler and moderation list maintainer for identifying AI imagery. | 962 |
+| <a href=https://bsky.app/profile/did:plc:bpkpvmwpd3nr2ry4btt55ack><b>AI Imagery Labeler</b></a><br>Labeler and moderation list maintainer for identifying AI imagery. | 963 |
 | <a href=https://bsky.app/profile/did:plc:i65enriuag7n5fgkopbqtkyk><b>Profile Labeller</b></a><br>Labels accounts based on facts about profile records, post history, etc. Automatic. | 521 |
-| <a href=https://bsky.app/profile/did:plc:newitj5jo3uel7o4mnf3vj2o><b>XBlock Screenshot Labeller</b></a><br>Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers. | 445 |
-| <a href=https://bsky.app/profile/did:plc:2qawvcwumvgxmed6iy6pmt6l><b>SonaSky</b></a><br>Show off your sona (label)! | 393 |
-| <a href=https://bsky.app/profile/did:plc:z3yk2cflhmn6vmzo3f5ixqh4><b>𓄿 The Yard Crow</b></a><br>The Yard Crow watches | 361 |
+| <a href=https://bsky.app/profile/did:plc:newitj5jo3uel7o4mnf3vj2o><b>XBlock Screenshot Labeller</b></a><br>Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers. | 446 |
+| <a href=https://bsky.app/profile/did:plc:2qawvcwumvgxmed6iy6pmt6l><b>SonaSky</b></a><br>Show off your sona (label)! | 413 |
+| <a href=https://bsky.app/profile/did:plc:z3yk2cflhmn6vmzo3f5ixqh4><b>𓄿 The Yard Crow</b></a><br>The Yard Crow watches | 360 |
 | <a href=https://bsky.app/profile/did:plc:e4elbtctnfqocyfcml6h2lf7><b>Anti-Alf Aktion</b></a><br>Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored. | 292 |
-| <a href=https://bsky.app/profile/did:plc:4ugewi6aca52a62u62jccbl7><b>Asuka's Anti-Transphobia Field</b></a><br>You're transphobic? | 268 |
-| <a href=https://bsky.app/profile/did:plc:wp7hxfjl5l4zlptn7y6774lk><b>Bad Accessibility / Alt Text Labeler</b></a><br>Moderation service for identifying posts and media with user-hostile accessibility properties. Managed by @baatl.bsky.social. | 248 |
+| <a href=https://bsky.app/profile/did:plc:4ugewi6aca52a62u62jccbl7><b>Asuka's Anti-Transphobia Field</b></a><br>You're transphobic? How disgusting. | 268 |
+| <a href=https://bsky.app/profile/did:plc:wp7hxfjl5l4zlptn7y6774lk><b>Bad Accessibility / Alt Text Labeler</b></a><br>Moderation service for identifying posts and media with user-hostile accessibility properties. Managed by @baatl.bsky.social. | 251 |
 | <a href=https://bsky.app/profile/did:plc:smtbhjnwsvcxzvez2nbf7mar><b>Crypto Labeler</b></a><br>Labels crypto spammers and their spammy posts. | 223 |
 | <a href=https://bsky.app/profile/did:plc:fqfzpua2rp5io5nmxcixvdvm><b>The Cave of Trophonius</b></a><br>Can you handle knowledge of your fate? Will you even remember? Will you be driven mad? | 207 |
 | <a href=https://bsky.app/profile/did:plc:jcce2sa3fgue4wiocvf7e7xj><b>Birthdays</b></a><br>Labels for showing when it's a user's birthday | 175 |
@@ -66,6 +66,7 @@ Last updated 2024-08-27T01:08:22.566Z[^1]
 | <a href=https://bsky.app/profile/did:plc:exlb5xx2t4pgtjqzdm6ntsgh><b>Example Moderation Labeler</b></a><br><i>No description</i> | 2 |
 | <a href=https://bsky.app/profile/did:plc:rprd6z2sgvsdokjsbadytyun><b>Lio's Label System</b></a><br>Labeling Service by @pogcha.mp | 2 |
 | <a href=https://bsky.app/profile/did:plc:3senheyfatcgrq5b2diwxlgs><b>marklabeler3.bsky.social</b></a><br><i>No description</i> | 2 |
+| <a href=https://bsky.app/profile/did:plc:4s3i2xuwzggf4zqknkq7f53a><b>Mood Labeler (WIP)</b></a><br>Work in progress! | 2 |
 | <a href=https://bsky.app/profile/did:plc:coynarrmyjsm2s3zkbbr5iow><b>black cat labels</b></a><br><i>No description</i> | 1 |
 | <a href=https://bsky.app/profile/did:plc:orkjknb6lx4snybzwsolhatt><b>Labeler of @imax.in.ua</b></a><br>Test instance at this time. Do not subscribe unless you know what you're doing. | 1 |
 | <a href=https://bsky.app/profile/did:plc:l2s5mv6h2j5gyoacsxdxdfom><b>labeler.divy.zone</b></a><br><i>No description</i> | 1 |
