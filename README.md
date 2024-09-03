@@ -1,6 +1,6 @@
 # Bluesky labelers
 
-Last updated 2024-09-03T15:25:53.697Z[^1]
+Last updated 2024-09-03T15:31:11.943Z[^1]
 
 <!-- table-start -->
 | Labeler | Likes |
@@ -8,9 +8,9 @@ Last updated 2024-09-03T15:25:53.697Z[^1]
 | <a href=https://bsky.app/profile/did:plc:hysbs7znfgxyb4tsvetzo4sk><b>TTRPG Class Identifier</b></a><br>Like &#38; Subscribe to find out your class | 5923 |
 | <a href=https://bsky.app/profile/did:plc:yojwcfgpkxq35sv5wioglqad><b>Perisai 🛡️</b></a><br>Perisai adalah sistem pelabelan akun untuk melindungi kamu melihat akun dan konten yang kamu inginkan atau tidak inginkan pada lini masa. | 4902 |
 | <a href=https://bsky.app/profile/did:plc:bpkpvmwpd3nr2ry4btt55ack><b>AI Imagery Labeler</b></a><br>Labeler and moderation list maintainer for identifying AI imagery. | 2958 |
-| <a href=https://bsky.app/profile/did:plc:wkoofae5uytcm7bjncmev6n6><b>Pronouns</b></a><br>Set your pronouns as labels | 2116 |
+| <a href=https://bsky.app/profile/did:plc:wkoofae5uytcm7bjncmev6n6><b>Pronouns</b></a><br>Set your pronouns as labels | 2115 |
 | <a href=https://bsky.app/profile/did:plc:aksxl7qy5azlzfm2jstcwqtz><b>Kiki/Bouba Labeller</b></a><br>Are you kiki or bouba? Like this labeller to find out | 1887 |
-| <a href=https://bsky.app/profile/did:plc:2qawvcwumvgxmed6iy6pmt6l><b>SonaSky [Delayed by ~a few seconds]</b></a><br>Show off your fursona (label)! | 646 |
+| <a href=https://bsky.app/profile/did:plc:2qawvcwumvgxmed6iy6pmt6l><b>SonaSky [Delayed by ~a minute]</b></a><br>Show off your fursona (label)! | 647 |
 | <a href=https://bsky.app/profile/did:plc:i65enriuag7n5fgkopbqtkyk><b>Profile Labeller</b></a><br>Labels accounts based on facts about profile records, post history, etc. Automatic. | 605 |
 | <a href=https://bsky.app/profile/did:plc:newitj5jo3uel7o4mnf3vj2o><b>XBlock Screenshot Labeller</b></a><br>Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers. | 490 |
 | <a href=https://bsky.app/profile/did:plc:e4elbtctnfqocyfcml6h2lf7><b>Anti-Alf Aktion</b></a><br>Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored. | 426 |
