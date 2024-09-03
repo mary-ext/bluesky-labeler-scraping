@@ -5,25 +5,35 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Deno
-        uses: denoland/setup-deno@v1
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          deno-version: '~1.42'
-      - name: Run scraping script
-        run: deno run -A mod.ts
-      - name: Generate markdown
-        run: deno run -A markdown.ts
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Run scrape script
+        run: bun run ./scripts/scrape.ts
+
+      - name: Run generate-markdown script
+        run: bun run ./scripts/generate-markdown.ts
+
       - name: Push to repository
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-          git add README.md labelers.json labelers.min.json did.json did.min.json
+          git add README.md labelers/
           git commit -m "update: $(date --iso-8601=seconds)" || exit 0
           git push

@@ -1,6 +1,13 @@
-import { AppBskyLabelerDefs } from 'jsr:@mary/bluesky-client@0.5.11/lexicons';
+import '@atcute/bluesky/lexicons';
 
-const views: AppBskyLabelerDefs.LabelerView[] = JSON.parse(await Deno.readTextFile('./labelers.json'));
+import * as fs from 'node:fs';
+
+import type { AppBskyLabelerDefs } from '@atcute/client/lexicons';
+
+const glob = new Bun.Glob('./labelers/**/*.json');
+const views = Array.from(glob.scanSync(), (f): AppBskyLabelerDefs.LabelerViewDetailed => {
+	return JSON.parse(fs.readFileSync(f, 'utf-8'));
+});
 
 {
 	const TABLE_RE = /(?<=<!-- table-start -->)[^]*(?=<!-- table-end -->)/;
@@ -48,7 +55,7 @@ Last updated {{time}}[^1]
 	let shouldWrite = true;
 
 	try {
-		const source = await Deno.readTextFile('./README.md');
+		const source = fs.readFileSync('./README.md', 'utf-8');
 
 		if (TABLE_RE.exec(source)?.[0] === table) {
 			shouldWrite = false;
@@ -58,11 +65,9 @@ Last updated {{time}}[^1]
 
 	// Write the markdown file
 	if (shouldWrite) {
-		const final = template
-			.replace('{{time}}', new Date().toISOString())
-			.replace(TABLE_RE, table);
+		const final = template.replace('{{time}}', new Date().toISOString()).replace(TABLE_RE, table);
 
-		await Deno.writeTextFile('./README.md', final);
+		fs.writeFileSync('./README.md', final);
 		console.log(`wrote to readme`);
 	} else {
 		console.log(`writing skipped`);
