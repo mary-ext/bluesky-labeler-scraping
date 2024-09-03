@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:f7fr3fmpevkmhodlzktuobvx/app.bsky.labeler.service/self",
+	"cid": "bafyreialgf7sukyssetwvgwutw366q5quvr64jxgwcxpy3uq3w2sbmietu",
+	"creator": {
+		"did": "did:plc:f7fr3fmpevkmhodlzktuobvx",
+		"handle": "engagement-hacks.bsky.social",
+		"displayName": "Engagement Hacks Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:f7fr3fmpevkmhodlzktuobvx/bafkreiegle7gsub3a5cxd76tfg3f7oaw4lpqpthvpxb3bgjxiz7vfzhhvi@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-08-07T03:08:37.074Z",
+		"description": "Labels accounts suspected of engagement hacking (e.g. mass following accounts in an effort to get return follows, especially if unfollowing afterwards).\n\nFully manual. DM to appeal.",
+		"indexedAt": "2024-08-07T22:16:55.274Z"
+	},
+	"likeCount": 20,
+	"indexedAt": "2024-08-07T21:59:16.318Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "engagement-hack",
+				"locales": [
+					{
+						"description": "Users performing engagement hacks, such as mass following & then unfollowing users.",
+						"lang": "en",
+						"name": "Engagement Hackers"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"engagement-hack"
+		]
+	}
+}

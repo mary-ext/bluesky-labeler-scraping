@@ -1,0 +1,66 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:oz5zavafp7szpd2yyko57ccz/app.bsky.labeler.service/self",
+	"cid": "bafyreicvlxc45eheut6h5wxri6u23pmvnn2cznyxbqq23pxjg52tnuahhi",
+	"creator": {
+		"did": "did:plc:oz5zavafp7szpd2yyko57ccz",
+		"handle": "divylabeler.bsky.social",
+		"displayName": "",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-13T16:00:01.399Z",
+		"indexedAt": "2024-03-14T03:04:58.507Z"
+	},
+	"likeCount": 11,
+	"indexedAt": "2024-03-14T03:13:05.549Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gold-star",
+				"locales": [
+					{
+						"description": "Gold star",
+						"lang": "en",
+						"name": "⭐"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "pal",
+				"locales": [
+					{
+						"description": "This person is a proper pal.",
+						"lang": "en",
+						"name": "Pal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "silly",
+				"locales": [
+					{
+						"description": "Known source of silliness",
+						"lang": "en",
+						"name": "Silly"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"pal",
+			"silly",
+			"gold-star"
+		]
+	}
+}

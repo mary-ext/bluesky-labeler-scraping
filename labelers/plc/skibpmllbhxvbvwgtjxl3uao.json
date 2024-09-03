@@ -1,0 +1,208 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:skibpmllbhxvbvwgtjxl3uao/app.bsky.labeler.service/self",
+	"cid": "bafyreiflzrtqmmlnlc25j2olnpzdev2dzic5zkyo2ra6qkk5yczcxeixpe",
+	"creator": {
+		"did": "did:plc:skibpmllbhxvbvwgtjxl3uao",
+		"handle": "anti-aging.bsky.social",
+		"displayName": "Anti-Aging",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:skibpmllbhxvbvwgtjxl3uao/bafkreihiwmmbhaviyucjicvmdcqgcs6wdn2jtb3rnikp44bbxeien34e4q@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-21T17:08:47.399Z",
+		"description": "Critics are saying:\n\"deeply fucking unserious labeler\"\n\"cringe fr\"\n\"sad lonely jackass\"\n\"hateful rightwing shrew who can't make friends\"\n\"Moderation as satire has arrived\"\n\"the anti-aging labeller is fun, even though whoever runs it is clearly insane\"",
+		"indexedAt": "2024-05-24T14:02:08.055Z"
+	},
+	"likeCount": 36,
+	"indexedAt": "2024-03-21T18:09:54.541Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plum-eater",
+				"locales": [
+					{
+						"description": "Ate all my plums that I was keeping in the icebox.",
+						"lang": "en",
+						"name": "Plum Eater"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "label-hater",
+				"locales": [
+					{
+						"description": "This user hates labels and/or labelers",
+						"lang": "en",
+						"name": "Label Hater"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "jeremy",
+				"locales": [
+					{
+						"description": "This user has self-identified as a Jeremy (alternative spellings not accepted)",
+						"lang": "en",
+						"name": "Jeremy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "watermarks",
+				"locales": [
+					{
+						"description": "This label is for posts with memes that are watermarked or users who consistently watermark their memes.",
+						"lang": "en",
+						"name": "Watermarks Memes"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "reposts-without-likes",
+				"locales": [
+					{
+						"description": "Come on dude that's rude as hell.",
+						"lang": "en",
+						"name": "Reposts Without Liking"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "cryptid",
+				"locales": [
+					{
+						"description": "Accounts which may be cryptids posing as humans",
+						"lang": "en",
+						"name": "Possible Cryptid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "accessibility-scolding",
+				"locales": [
+					{
+						"description": "Alt text is great actually but you don’t have to yell at people about it. Also, you’re probably doing it wrong too.",
+						"lang": "en",
+						"name": "Alt-text Scolds"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "mutual-aid",
+				"locales": [
+					{
+						"description": "Mutual aid is actually fine and good. But capitalism is killing us all, and some of us would prefer not to be reminded of our own experience with poverty when that's all you post.",
+						"lang": "en",
+						"name": "Oops! All Mutual Aid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "simping",
+				"locales": [
+					{
+						"description": "She's not gonna fuck you for being her unpaid marketing intern. You're having a parasocial relationship with women who don't even know you exist.",
+						"lang": "en",
+						"name": "Simping"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "cringe",
+				"locales": [
+					{
+						"description": "You posted cringe, bro.",
+						"lang": "en",
+						"name": "Cringe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "bad-selfies",
+				"locales": [
+					{
+						"description": "Staring blankly into space, eyes wide, head empty",
+						"lang": "en",
+						"name": "Bad Selfies"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elder-watch",
+				"locales": [
+					{
+						"description": "Individuals who think they deserve respect for being early members of a niche micro-blogging platform.",
+						"lang": "en",
+						"name": "Elder Watch"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"accessibility-scolding",
+			"bad-selfies",
+			"british",
+			"cringe",
+			"cryptid",
+			"elder-watch",
+			"jeremy",
+			"label-hater",
+			"mutual-aid",
+			"plum-eater",
+			"reposts-without-likes",
+			"simping",
+			"watermarks"
+		]
+	}
+}

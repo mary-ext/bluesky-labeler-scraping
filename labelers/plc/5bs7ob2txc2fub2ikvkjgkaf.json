@@ -1,0 +1,252 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:5bs7ob2txc2fub2ikvkjgkaf/app.bsky.labeler.service/self",
+	"cid": "bafyreifa2vutj4osy5k4mcwn4ar2735a2oro5i6ysx2grnsxq333h7d4gy",
+	"creator": {
+		"did": "did:plc:5bs7ob2txc2fub2ikvkjgkaf",
+		"handle": "labeller.iftas.org",
+		"displayName": "IFTAS Labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5bs7ob2txc2fub2ikvkjgkaf/bafkreie6g7ihqgk5c3qjymcb5qch5hmsq7njdafgnjrltuzkpugcr46owa@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-18T14:08:18.229Z",
+		"description": "https://about.iftas.org",
+		"indexedAt": "2024-03-26T20:48:44.208Z"
+	},
+	"likeCount": 67,
+	"indexedAt": "2024-03-26T20:36:22.453Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "defamation",
+				"locales": [
+					{
+						"description": "A legal claim based on asserting something about a person that is shared with others and which causes harm to the reputation of the statement’s subject (the legal elements and applicable defenses vary by jurisdiction).",
+						"lang": "en",
+						"name": "Defamation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "csea",
+				"locales": [
+					{
+						"description": "A broad category that encompasses both the sharing of material depicting child sexual abuse, other sexualized content depicting children, and includes grooming.",
+						"lang": "en",
+						"name": "Child Sexual Exploitation and Abuse"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "sg-csam",
+				"locales": [
+					{
+						"description": "Self-Generated imagery or videos created by person who is a child and engaged in or is depicted as being engaged in explicit sexual activity.",
+						"lang": "en",
+						"name": "Self-generated Child Sexual Abuse Material "
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "cg-csam",
+				"locales": [
+					{
+						"description": "Computer-generated images or videos which show a person who is a child and engaged in or is depicted as being engaged in explicit sexual activity.",
+						"lang": "en",
+						"name": "Computer Generated Child Sexual Abuse Material"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "csam",
+				"locales": [
+					{
+						"description": "Imagery or videos which show a person who is a child and engaged in or is depicted as being engaged in explicit sexual activity.",
+						"lang": "en",
+						"name": "Child Sexual Abuse Material"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "cross-platform-abuse",
+				"locales": [
+					{
+						"description": "Where a bad actor or group will organize a campaign of abuse (such as harassment, trolling or disinformation) using multiple online services.",
+						"lang": "en",
+						"name": "Cross Platform Abuse"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "counterfeit",
+				"locales": [
+					{
+						"description": "The unauthorized manufacture or sale of merchandise or services with an inauthentic trademark, which may have the effect of deceiving consumers into believing they are authentic.",
+						"lang": "en",
+						"name": "Counterfeit"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "copyright-infringement",
+				"locales": [
+					{
+						"description": "The use of material that is protected by copyright law (such as text, image, or video) in a way that violates the rights of the copyright holder, without the rightsholder’s permission and without an applicable copyright exception or limitation.",
+						"lang": "en",
+						"name": "Copyright Infringement"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "coordinated-inauthentic-behaviour",
+				"locales": [
+					{
+						"description": "Organized online activity where an account or groups of accounts including “fake” secondary accounts (which exist solely or mainly to engage in such campaigns) act to mislead people or fraudulently elevate the popularity or visibility of content or accounts, such as mass-following an account to raise its clout.",
+						"lang": "en",
+						"name": "Coordinated Inauthentic Behaviour"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "content-and-conduct-related-risk",
+				"locales": [
+					{
+						"description": "The possibility of certain illegal, dangerous, or otherwise harmful content or behavior, including risks to human rights, which are prohibited by relevant policies and terms of service.",
+						"lang": "en",
+						"name": "Content and Conduct Related Risk"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "catfishing",
+				"locales": [
+					{
+						"description": "Where someone creates a fake persona on an online service, such as social media or a dating application, and forms a relationship with someone who believes the persona to be real.",
+						"lang": "en",
+						"name": "Catfishing"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "brigading",
+				"locales": [
+					{
+						"description": "Coordinated, often pre-planned, mass online activity to affect a piece of content, or an account, or an entire community or message board. Examples include coordinated upvoting or downvoting a post to affect its distribution, mass-reporting an account (usually falsely) for abuse in an attempt to cause the service provider to suspend it, or inundating a business with good or bad reviews.",
+						"lang": "en",
+						"name": "Brigading"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "astroturfing",
+				"locales": [
+					{
+						"description": "Organized activity intended to create the deceptive appearance of broad, authentic grassroots support or opposition to a given cause or organization, when in reality the activity is being motivated, funded or coordinated by a single or small number of obscured sources.",
+						"lang": "en",
+						"name": "Astroturfing"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "apt",
+				"locales": [
+					{
+						"description": "APT actors are well-resourced and engage in sophisticated malicious cyber activity that is targeted and aimed at prolonged network/system intrusion. APT objectives could include espionage, data theft, and network/system disruption or destruction.",
+						"lang": "en",
+						"name": "Advanced Persistent Threat"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "account-takeover",
+				"locales": [
+					{
+						"description": "Where an unauthorized user gains control of a user account, through means such as hacking, phishing or buying leaked credentials.",
+						"lang": "en",
+						"name": "Account Takeover"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"defamation",
+			"csea",
+			"sg-csam",
+			"cg-csam",
+			"csam",
+			"cross-platform-abuse",
+			"counterfeit",
+			"copyright-infringement",
+			"coordinated-inauthentic-behaviour",
+			"content-and-conduct-related-risk",
+			"catfishing",
+			"brigading",
+			"astroturfing",
+			"apt",
+			"account-takeover"
+		]
+	}
+}

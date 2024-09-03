@@ -1,0 +1,94 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:j3axwmdgrvnd73yrlemynsne/app.bsky.labeler.service/self",
+	"cid": "bafyreievbdddltkvwdom34boqpmii47y7wc6ljijqfytqpd7nvewhevrxe",
+	"creator": {
+		"did": "did:plc:j3axwmdgrvnd73yrlemynsne",
+		"handle": "labeler.launchpadx.top",
+		"displayName": "Chinese Labeler",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-03-15T16:12:10.512Z",
+		"description": "专注于华语社区，提供精准的信息标注服务，守护健康言论，促进文化交流。\n\nFocus on the Chinese-speaking community, provide accurate labeling services, safeguard healthy discourse, and promote cultural exchanges.",
+		"indexedAt": "2024-03-15T16:32:30.909Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-03-15T17:19:17.718Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "Unwanted, repeated, or unrelated actions that bother users.",
+						"lang": "en",
+						"name": "Spam"
+					},
+					{
+						"description": "困扰用户的不需要的、重复的或不相关的垃圾信息。",
+						"lang": "zh-CN",
+						"name": "垃圾信息"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "rumor",
+				"locales": [
+					{
+						"description": "Approach with caution, as these claims lack evidence from credible sources.",
+						"lang": "en",
+						"name": "Rumor"
+					},
+					{
+						"description": "需谨慎对待，因为这些说法缺乏可靠来源的证据。",
+						"lang": "zh-CN",
+						"name": "谣言"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "scam",
+				"locales": [
+					{
+						"description": "Scams, phishing & fraud.",
+						"lang": "en",
+						"name": "Scam"
+					},
+					{
+						"description": "诈骗、钓鱼和欺诈信息。",
+						"lang": "zh-CN",
+						"name": "诈骗"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"!hide",
+			"!warn",
+			"porn",
+			"sexual",
+			"nudity",
+			"spam",
+			"rumor",
+			"scam"
+		]
+	}
+}

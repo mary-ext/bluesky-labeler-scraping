@@ -1,0 +1,94 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:z7wmj3d5t7ytjf4nrh5nq6zx/app.bsky.labeler.service/self",
+	"cid": "bafyreiaazypnwgmuv2uvvle2iwimc5o5rhvdyrvru4cngwwqdbnlezm4hq",
+	"creator": {
+		"did": "did:plc:z7wmj3d5t7ytjf4nrh5nq6zx",
+		"handle": "lapor.bsky.social",
+		"displayName": "Lapor Pak!",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [
+			{
+				"src": "did:plc:z7wmj3d5t7ytjf4nrh5nq6zx",
+				"uri": "at://did:plc:z7wmj3d5t7ytjf4nrh5nq6zx/app.bsky.actor.profile/self",
+				"cid": "bafyreia5gg4krvhvtzn3akmpximiunv2vn7pqexlfcyq7pik5boegkfy3e",
+				"val": "!no-unauthenticated",
+				"cts": "2024-03-14T06:34:52.057Z"
+			}
+		],
+		"createdAt": "2024-03-14T06:34:48.629Z",
+		"description": "\"Lapor Pak!\" is an experimental Indonesian labeler. We provide professional community moderation services to keep your feed clean, safe, and hassle-free.",
+		"indexedAt": "2024-06-09T15:38:55.510Z"
+	},
+	"likeCount": 12,
+	"indexedAt": "2024-03-16T07:00:44.590Z",
+	"labels": [],
+	"policies": {
+		"description": "Test labeler to show off labeling functionality",
+		"labelValueDefinitions": [
+			{
+				"adultsOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "judi-online",
+				"locales": [
+					{
+						"description": "Moderasi untuk segala jenis perjudian yang dilakukan di internet",
+						"lang": "id",
+						"name": "Judi Online"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultsOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "jualan",
+				"locales": [
+					{
+						"description": "Akun jualan dan segala bentuk pemasaran afiliasi",
+						"lang": "id",
+						"name": "Akun Jualan"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultsOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "terverifikasi",
+				"locales": [
+					{
+						"description": "Akun resmi institusi, figur publik, atau merek tertentu yang sudah diverifikasi oleh komunitas",
+						"lang": "id",
+						"name": "✅ Akun Terverifikasi"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"!hide",
+			"!warn",
+			"!no-unauthenticated",
+			"porn",
+			"sexual",
+			"graphic-media",
+			"sexual-figurative",
+			"nudity",
+			"spam",
+			"scam",
+			"impersonation",
+			"judi-online",
+			"jualan",
+			"terverifikasi"
+		]
+	}
+}

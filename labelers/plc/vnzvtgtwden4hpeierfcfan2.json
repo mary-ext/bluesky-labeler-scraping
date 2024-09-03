@@ -1,0 +1,39 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:vnzvtgtwden4hpeierfcfan2/app.bsky.labeler.service/self",
+	"cid": "bafyreihzay5o22jvo5olcgtzaed5kahrbl7a2zvz7mwxalo6rrf5hkaoda",
+	"creator": {
+		"did": "did:plc:vnzvtgtwden4hpeierfcfan2",
+		"handle": "atproto-spoilers.bsky.social",
+		"displayName": "Atproto Spoilers",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-14T02:16:52.361Z",
+		"description": "Test labeler to show off labeling functionality",
+		"indexedAt": "2024-03-14T20:16:51.509Z"
+	},
+	"likeCount": 42,
+	"indexedAt": "2024-03-14T02:36:20.451Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"blurs": "content",
+				"identifier": "atproto-spoiler",
+				"locales": [
+					{
+						"description": "Spoilers about upcoming atproto features",
+						"lang": "en",
+						"name": "Atproto Spoiler"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"atproto-spoiler"
+		]
+	}
+}

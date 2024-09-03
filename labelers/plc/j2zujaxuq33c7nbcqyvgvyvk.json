@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:j2zujaxuq33c7nbcqyvgvyvk/app.bsky.labeler.service/self",
+	"cid": "bafyreih4rtta2mx5o6s4vn3lglu7psf46napsxqpsdoliqrccsvu7nvbz4",
+	"creator": {
+		"did": "did:plc:j2zujaxuq33c7nbcqyvgvyvk",
+		"handle": "nexus-labeler.bsky.social",
+		"displayName": "The Nexus of Labels",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j2zujaxuq33c7nbcqyvgvyvk/bafkreig757einz2rjdap22qgartvpzdjxdmtzfwihiujha5g34f5fkblhu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-16T04:53:28.726Z",
+		"description": "A Bluesky labeler from https://privacy.thenexus.today ... currently experimental to kick the tires!",
+		"indexedAt": "2024-03-16T06:40:51.308Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-03-16T06:00:44.721Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "Account-Takeover",
+				"locales": [
+					{
+						"description": "Where an unauthorized user gains control of a user account, through means such as hacking, phishing or buying leaked credentials.",
+						"lang": "en",
+						"name": "Account Takeover"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "amplifying-disinfo",
+				"locales": [
+					{
+						"description": "Sharing screenshots, quotes, or links to disfinformation -- even if it's an attempt to debunk the disinfo",
+						"lang": "en",
+						"name": "Amplifying Disinformation"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "election-disinfo",
+				"locales": [
+					{
+						"description": "Disinformation about elections",
+						"lang": "en",
+						"name": "Election Disinfo"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"Account-Takeover",
+			"amplifying-disinfo"
+		]
+	}
+}

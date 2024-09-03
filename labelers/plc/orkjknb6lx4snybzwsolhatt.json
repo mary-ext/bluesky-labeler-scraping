@@ -1,0 +1,70 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:orkjknb6lx4snybzwsolhatt/app.bsky.labeler.service/self",
+	"cid": "bafyreiconmgxuw6nlesobiadafzekzwh6zt3dlkk4h7xmb6ht6m3svtzie",
+	"creator": {
+		"did": "did:plc:orkjknb6lx4snybzwsolhatt",
+		"handle": "labeler.bsky.imax.in.ua",
+		"displayName": "Labeler of @imax.in.ua",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-26T00:15:27.790Z",
+		"description": "Test instance at this time. Do not subscribe unless you know what you're doing.",
+		"indexedAt": "2024-03-26T12:28:46.910Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-07-21T10:46:25.000Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "homophobia",
+				"locales": [
+					{
+						"description": "Користувач може проявляти гомофобію",
+						"lang": "uk",
+						"name": "Гомофобія"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "misogyny",
+				"locales": [
+					{
+						"description": "Користувач може проявляти мізогінію",
+						"lang": "uk",
+						"name": "Мізогінія"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"identifier": "!no-unauthenticated",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "!no-unauthenticated"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"homophobia",
+			"misogyny",
+			"!no-unauthenticated"
+		]
+	}
+}

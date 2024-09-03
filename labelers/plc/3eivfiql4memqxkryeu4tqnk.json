@@ -1,0 +1,89 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
+	"cid": "bafyreibk2j6nlvg3nfqzwdnwyuobwaegavcvmt4up26u6eq3lzocsem4oe",
+	"creator": {
+		"did": "did:plc:3eivfiql4memqxkryeu4tqnk",
+		"handle": "mod.shawn.party",
+		"displayName": "Spoiler Droid",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3eivfiql4memqxkryeu4tqnk/bafkreifya3f6tigz76pqjxowxmsfugcpbpobn4w7in6fjs7x5l4hdte3ze@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-03-14T15:43:58.957Z",
+		"description": "A 3rd party Bluesky labeler service account run by @shawn.party\n\nMy primary purpose is labeling #spoiler posts here on BlueSky",
+		"indexedAt": "2024-07-17T03:49:09.873Z"
+	},
+	"likeCount": 41,
+	"indexedAt": "2024-03-16T02:38:37.026Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "list-fiend",
+				"locales": [
+					{
+						"description": "Basically, this list is for people that just want to be on a list",
+						"lang": "en",
+						"name": "List Admirers"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "ai-related-content",
+				"locales": [
+					{
+						"description": "Content that may be AI-related or AI-generated",
+						"lang": "en",
+						"name": "AI-Related Content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "spoiler",
+				"locales": [
+					{
+						"description": "Posts marked as potential spoilers",
+						"lang": "en",
+						"name": "Spoiler Content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "star-wars-feed",
+				"locales": [
+					{
+						"description": "Test: Curated Star Wars content",
+						"lang": "en",
+						"name": "TEST: Star Wars Feed Content"
+					}
+				],
+				"severity": "none"
+			}
+		],
+		"labelValues": [
+			"list-fiend",
+			"ai-related-content",
+			"spoiler"
+		]
+	}
+}

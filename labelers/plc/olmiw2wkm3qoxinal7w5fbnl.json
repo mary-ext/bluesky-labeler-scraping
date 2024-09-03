@@ -1,0 +1,209 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:olmiw2wkm3qoxinal7w5fbnl/app.bsky.labeler.service/self",
+	"cid": "bafyreigqweaatw7y2ivamb6oys4pbv42wff22s42mlb4wp526mgzh6ebja",
+	"creator": {
+		"did": "did:plc:olmiw2wkm3qoxinal7w5fbnl",
+		"handle": "blue-cosmos.bsky.social",
+		"displayName": "BlueCosmos",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:olmiw2wkm3qoxinal7w5fbnl/bafkreihvhj3qrdgqf3no6b4mptc4saxyagfujigayxp6iakg2y2pvwagzy@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-04-06T12:10:30.331Z",
+		"description": "青き清浄なるインターネットのために。\n\n煩わしいアカウントを一掃するためのモデレーションサービス。\n主に日本語圏を対象としています。\n\nThis is a moderation service for Japanese user.",
+		"indexedAt": "2024-04-07T09:24:26.809Z"
+	},
+	"likeCount": 14,
+	"indexedAt": "2024-04-07T05:46:00.243Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "beautysalon",
+				"locales": [
+					{
+						"description": "エステ等に誘導する目的のアカウント",
+						"lang": "jp",
+						"name": "エステ系"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "lowquality",
+				"locales": [
+					{
+						"description": "運営ははっきりしているが極めて質が悪いメディア。\n例えば、sputoniknews,DailyMail,epochtimes",
+						"lang": "jp",
+						"name": "質が悪いメディア"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "joke",
+				"locales": [
+					{
+						"description": "嘘であることがわかるだろうと読者に期待する内容",
+						"lang": "jp",
+						"name": "冗談"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "批判や事実の指摘ではなくただの嫌がらせをリプライや引用で行うユーザー",
+						"lang": "ja",
+						"name": "トロール"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "duplicate",
+				"locales": [
+					{
+						"description": "他人の画像または投稿内容を無断でコピーして使用している",
+						"lang": "ja",
+						"name": "盗用"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "shorturl",
+				"locales": [
+					{
+						"description": "短縮URLはセキュリティ上よくない場合が多い",
+						"lang": "ja",
+						"name": "短縮URLを使用している"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "toomuchfollow",
+				"locales": [
+					{
+						"description": "フォロー数が5Kを超えているユーザー",
+						"lang": "ja",
+						"name": "フォローが多すぎ"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "afiliatelink",
+				"locales": [
+					{
+						"description": "プロフィールまたは投稿内容にアフィリエイトへの誘導あり",
+						"lang": "ja",
+						"name": "アフィリエイトへの誘導"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unreliable",
+				"locales": [
+					{
+						"description": "情報に科学的根拠がない",
+						"lang": "ja",
+						"name": "科学的根拠に欠ける情報"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fake",
+				"locales": [
+					{
+						"description": "ファクトチェックにより虚偽の可能性が高い情報",
+						"lang": "ja",
+						"name": "虚偽であることが疑われる情報"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "unknownsource",
+				"locales": [
+					{
+						"description": "サイトの運営者情報がない等の信頼性が疑われるソース",
+						"lang": "ja",
+						"name": "信頼性の低い情報源"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "intolerant",
+				"locales": [
+					{
+						"description": "他者の意見や行動、特性に対して寛容さを欠くアカウント",
+						"lang": "jp",
+						"name": "不寛容"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"beautysalon",
+			"toomuchfollow",
+			"afiliatelink",
+			"lowquality",
+			"unknownsource",
+			"joke",
+			"troll",
+			"duplicate",
+			"unreliable",
+			"fake",
+			"intolerant"
+		]
+	}
+}

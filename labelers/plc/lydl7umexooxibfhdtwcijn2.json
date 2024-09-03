@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:lydl7umexooxibfhdtwcijn2/app.bsky.labeler.service/self",
+	"cid": "bafyreictvwk4holzbubz3ujol45rvhgkrfauqsjhe4ldi3ysfrxobzbgrm",
+	"creator": {
+		"did": "did:plc:lydl7umexooxibfhdtwcijn2",
+		"handle": "moderation.veryun.cool",
+		"displayName": "Test Moderation Labeler",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-04-16T18:56:01.465Z",
+		"indexedAt": "2024-04-17T10:53:28.710Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-04-17T10:45:10.841Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "test-label",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Test Label"
+					}
+				],
+				"severity": "inform|alert|none"
+			}
+		],
+		"labelValues": [
+			"A",
+			"Test"
+		]
+	}
+}

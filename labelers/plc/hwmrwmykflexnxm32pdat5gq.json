@@ -1,0 +1,44 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:hwmrwmykflexnxm32pdat5gq/app.bsky.labeler.service/self",
+	"cid": "bafyreiclrffk2fqoulbksy6me7bqhwyi6plyoibsnxpllz3rvnvpjjtcb4",
+	"creator": {
+		"did": "did:plc:hwmrwmykflexnxm32pdat5gq",
+		"handle": "courtesybot.bsky.social",
+		"displayName": "CourtesyBot",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hwmrwmykflexnxm32pdat5gq/bafkreie6zw7c3mfwb3epfmfu22senz7mcbiq4pq43ryqnqmjfuhwh5wcri@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2023-05-29T17:17:58.077Z",
+		"description": "Examine a user's recent courtesy fav behavior by tagging @courtesybot.bsky.social in a reply to the target user.",
+		"indexedAt": "2024-06-22T19:49:37.210Z"
+	},
+	"likeCount": 16,
+	"indexedAt": "2024-06-22T21:13:48.729Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "courtesyHero",
+				"locales": [
+					{
+						"description": "Users with impeccable courtesy fave rates. Users must qualify with at least 50 scanned posts and have at least a 95% courtesy fave rate.",
+						"lang": "en",
+						"name": "CourtesyHero"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"courtesyHero"
+		]
+	}
+}

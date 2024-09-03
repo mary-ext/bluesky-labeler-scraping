@@ -1,0 +1,238 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
+	"cid": "bafyreiayrpnnb6cjoyj5iyya3vf52fovqfuoezi7feyblzlvdvbinwlcgq",
+	"creator": {
+		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
+		"handle": "labeler.mountainherder.xyz",
+		"displayName": "Anti-Alf Aktion",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e4elbtctnfqocyfcml6h2lf7/bafkreigy6e3jq4pp5u37h7yuud74bjdrldwoqbop2mbpqzotigdv5neolu@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "following"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-02-20T06:15:04.884Z",
+		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
+		"indexedAt": "2024-07-21T03:55:20.275Z"
+	},
+	"likeCount": 426,
+	"indexedAt": "2024-03-15T04:13:56.272Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "terf-gc",
+				"locales": [
+					{
+						"description": "Profile contains explicit self-description of user being a “Trans-Exclusionary Radical Feminist” (TERF) or “Gender Critical” (GC).",
+						"lang": "en",
+						"name": "TERF"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "dinosaur-emoji",
+				"locales": [
+					{
+						"description": "Profile description which includes 🦖.",
+						"lang": "en",
+						"name": "🦖: Dinosaur Emoji"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "fundraising-link-at",
+				"locales": [
+					{
+						"description": "Applied to posts which contain a link to alt-tech sites commonly used for fundraising or requesting money, such as givesendgo.com. Read more about alt-tech here: https://en.wikipedia.org/wiki/Alt-tech",
+						"lang": "en",
+						"name": "Fundraising Link: Alt-tech"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "inverted-red-triangle",
+				"locales": [
+					{
+						"description": "Username and / or description which includes 🔻.",
+						"lang": "en",
+						"name": "🔻: Inverted Red Triangle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "beans",
+				"locales": [
+					{
+						"description": "This is a label for people who want a badge that says \"Beans\" on their profile.",
+						"lang": "en",
+						"name": "Beans"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "zeta",
+				"locales": [
+					{
+						"description": "Username and / or description which contains the Greek letter Zeta (ζ).",
+						"lang": "en",
+						"name": "ζ: Zeta"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "fundraising-link",
+				"locales": [
+					{
+						"description": "Applied to posts which contain a link to sites commonly used for fundraising or requesting money, such as gofundme or ko-fi.",
+						"lang": "en",
+						"name": "Fundraising Link"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chicago-pizza",
+				"locales": [
+					{
+						"description": "You know what you did",
+						"lang": "en",
+						"name": "Chicago-style pizza liker (derogatory)"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "bluesky-elder",
+				"locales": [
+					{
+						"description": "This user has been here since before the media tab. This label is not a label of honor—no highly esteemed deed is commemorated here.",
+						"lang": "en",
+						"name": "Bluesky Elder"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "sensual-alf",
+				"locales": [
+					{
+						"description": "Lewd and rude Alf.",
+						"lang": "en",
+						"name": "Sensual Alf"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "assadist",
+				"locales": [
+					{
+						"description": "Username, description, or content that supports Syrian dictator Bashar al-Assad, or denies the atrocities committed by his regime. If you heve never worked for Grayzone or are not Vanessa Beeley this likely will never apply to you.",
+						"lang": "en",
+						"name": "Assad Apologist"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "hammer-sickle",
+				"locales": [
+					{
+						"description": "Username and / or description which includes ☭. (English only)",
+						"lang": "en",
+						"name": "☭: Hammer & Sickle"
+					}
+				],
+				"severity": "warn"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-format",
+				"locales": [
+					{
+						"description": "ＣＯＮＴＥＮＴ",
+						"lang": "en",
+						"name": "The Format™"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "alf",
+				"locales": [
+					{
+						"description": "You know what this is for.",
+						"lang": "en",
+						"name": "Alf"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"terf-gc",
+			"dinosaur-emoji",
+			"inverted-red-triangle",
+			"zeta",
+			"hammer-sickle",
+			"fundraising-link",
+			"fundraising-link-at",
+			"chicago-pizza",
+			"beans",
+			"bluesky-elder",
+			"sensual-alf",
+			"alf",
+			"the-format",
+			"assadist"
+		]
+	}
+}

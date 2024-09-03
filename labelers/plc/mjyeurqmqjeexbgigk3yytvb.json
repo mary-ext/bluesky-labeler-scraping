@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:mjyeurqmqjeexbgigk3yytvb/app.bsky.labeler.service/self",
+	"cid": "bafyreiap3d5pp6xb4eqgf4b4737suvzqnviq3jkb5ayukwf3ikvpd6ynaa",
+	"creator": {
+		"did": "did:plc:mjyeurqmqjeexbgigk3yytvb",
+		"handle": "nogifsplease.bsky.social",
+		"displayName": "No GIFS Please",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mjyeurqmqjeexbgigk3yytvb/bafkreid66ubven72ikrjwntmnfsool2cyjigekclydrmi4zjrrzgd66eny@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-04-24T20:57:21.352Z",
+		"description": "GIF hiding labeler. Nothing else.",
+		"indexedAt": "2024-04-24T21:00:27.304Z"
+	},
+	"likeCount": 133,
+	"indexedAt": "2024-04-24T21:52:58.565Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "tenor-gif-no-text",
+				"locales": [
+					{
+						"description": "A post with a Tenor GIF that does not include accompanying text.",
+						"lang": "en",
+						"name": "Tenor GIF with no text."
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "tenor-gif",
+				"locales": [
+					{
+						"description": "Any post that contains a Tenor GIF, regardless of other criteria.",
+						"lang": "en",
+						"name": "Tenor GIF"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"tenor-gif-no-text",
+			"tenor-gif"
+		]
+	}
+}

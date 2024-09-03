@@ -1,0 +1,117 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:qezlipqc4yfk2lebu7533zyr/app.bsky.labeler.service/self",
+	"cid": "bafyreideoybushrqsde6f3wlnbfj57a3t4u26iul45lxzhd24rdujoydze",
+	"creator": {
+		"did": "did:plc:qezlipqc4yfk2lebu7533zyr",
+		"handle": "newsdetective.bsky.social",
+		"displayName": "News Detective",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qezlipqc4yfk2lebu7533zyr/bafkreiantd4lp4a6v63glt4zwdgecskm3t52hbfuid2mcj6k4uitfd6nya@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-02-20T05:36:22.071Z",
+		"description": "Making the truth transparent to all. Now fact-checking Bluesky. Newsdetective.org.",
+		"indexedAt": "2024-08-08T20:42:04.674Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-06-15T18:25:52.818Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "satire",
+				"locales": [
+					{
+						"description": "This label is given to satiric posts. To see why this post was labeled this way (or to disagree) go to newsdetective.org.",
+						"lang": "en",
+						"name": "Satire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "noinfo",
+				"locales": [
+					{
+						"description": "This label is given to facts that are not possible to fact-check due to the unavailability of information.To see why this post was labeled this way (or to disagree) go to newsdetective.org.",
+						"lang": "en",
+						"name": "No available information"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "other",
+				"locales": [
+					{
+						"description": "This label is given to facts that cannot be confirmed since they are a personal opinion or other type of uncheckable content. To see why this post was labeled this way (or to disagree) go to newsdetective.org.",
+						"lang": "en",
+						"name": "Can't be true or false (Opinion, poem, etc.)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "exaggerated-misleading",
+				"locales": [
+					{
+						"description": "This label is given to facts that are partially true but tend to exaggerate. To see why this post was labeled this way (or to disagree) go to newsdetective.org.",
+						"lang": "en",
+						"name": "Exaggerated/ Misleading"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "false-fact",
+				"locales": [
+					{
+						"description": "This label is given to facts that are deemed to be false. To see why this post was labeled this way (or to disagree) go to newsdetective.org.",
+						"lang": "en",
+						"name": "False Fact"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "true-fact",
+				"locales": [
+					{
+						"description": "This label is given to facts that are deemed to be true. To see why this post was labeled this way (or to disagree) go to newsdetective.org.",
+						"lang": "en",
+						"name": "True Fact"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"satire",
+			"noinfo",
+			"other",
+			"exaggerated-misleading",
+			"false-fact",
+			"true-fact"
+		]
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4ffrdzuhiq4coouadh5btkbf/app.bsky.labeler.service/self",
+	"cid": "bafyreihe4bkkpmm6gtwadlwv755e55u6lwc4iwe3552f5az7dsqwd64xte",
+	"creator": {
+		"did": "did:plc:4ffrdzuhiq4coouadh5btkbf",
+		"handle": "papercut.rodeo",
+		"displayName": "Papercut Rodeo",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-05-18T18:32:25.737Z",
+		"description": "Labeler for behaviors that aren’t malicious, but that some people find mildly irritating.\n\nDisclaimer: This labeler is fully automated, there’s no human passing judgement on you, and only subscribers will see them.",
+		"indexedAt": "2024-05-30T00:44:24.055Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-05-19T23:24:38.927Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "gif",
+				"locales": [
+					{
+						"description": "Posts containing a GIF.",
+						"lang": "en",
+						"name": "GIFs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gif-only",
+				"locales": [
+					{
+						"description": "Posts containing _only_ a GIF.",
+						"lang": "en",
+						"name": "GIFs Only"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "quote-chain",
+				"locales": [
+					{
+						"description": "Posts which quote a post, which quotes a post, which quotes a post...",
+						"lang": "en",
+						"name": "Quote Chains"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gif-enthusiast",
+				"locales": [
+					{
+						"description": "Accounts whose replies frequently include animated GIFs.",
+						"lang": "en",
+						"name": "GIF Enthusiast"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"gif",
+			"gif-only",
+			"quote-chain",
+			"gif-enthusiast"
+		]
+	}
+}

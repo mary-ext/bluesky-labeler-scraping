@@ -1,0 +1,341 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:bqaoaao7n5qqv2pf7rtyncqs/app.bsky.labeler.service/self",
+	"cid": "bafyreiellwcf3c6cbvzjr7k7gcipidbwu6537tk5xle57t74bgur32ejju",
+	"creator": {
+		"did": "did:plc:bqaoaao7n5qqv2pf7rtyncqs",
+		"handle": "department7.org",
+		"displayName": "Department 7 Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bqaoaao7n5qqv2pf7rtyncqs/bafkreiddoxgtdotxlkw3zl7bggpjcpf5ovrwzjav3wnp4vnd77bplicuxy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-15T19:57:04.082Z",
+		"description": "A labeler for curating content on your skyline.  Unofficially targeting most sorts of content you would expect to see CW'd on Mastodon.\n\nNot an official service of Bluesky.",
+		"indexedAt": "2024-05-20T04:56:49.955Z"
+	},
+	"likeCount": 7,
+	"indexedAt": "2024-05-29T06:34:03.320Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "dni-requested",
+				"locales": [
+					{
+						"description": "User has requested they not be commented on, reposted, and/or quoted, or has requested interaction from only a direct set of users.  We strongly suggest you mark these users as 'hidden' to prevent unwanted interactions.",
+						"lang": "en",
+						"name": "DNI Requested"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harm-domestic",
+				"locales": [
+					{
+						"description": "Acts, depictions, descriptions, or promotion of domestic abuse.",
+						"lang": "en",
+						"name": "Domestic Abuse"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harm-child",
+				"locales": [
+					{
+						"description": "Acts, depictions, descriptions, or promotion of child abuse.",
+						"lang": "en",
+						"name": "Child Abuse"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harm-self",
+				"locales": [
+					{
+						"description": "Acts, depictions, descriptions, promotion, or ideation of self-harm or suicide.",
+						"lang": "en",
+						"name": "Self-Harm"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harm-child",
+				"locales": [
+					{
+						"description": "Acts, depictions, descriptions, or promotion of child abuse.",
+						"lang": "en",
+						"name": "Child Abuse"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harm-animal",
+				"locales": [
+					{
+						"description": "Acts, depictions, descriptions, or promotion of animal abuse.",
+						"lang": "en",
+						"name": "Animal Abuse"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "fire",
+				"locales": [
+					{
+						"description": "Depictions, descriptions, or promotion of fire and/or flames.",
+						"lang": "en",
+						"name": "Fire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "firearms",
+				"locales": [
+					{
+						"description": "Depictions, descriptions, or promotion of firearms.",
+						"lang": "en",
+						"name": "Firearms"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "flesh",
+				"locales": [
+					{
+						"description": "Depictions, descriptions, or promotion of latex, leather, rubber, and other materials used to evoke the sensation of dead flesh.",
+						"lang": "en",
+						"name": "Latex/Leather/Rubber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bigotry",
+				"locales": [
+					{
+						"description": "Acts, depictions, descriptions, or promotion of bigotry, including racism, sexism, ablism, homophobia, transphobia, and acephobia.  (Individual labels are not provided for brevity)",
+						"lang": "en",
+						"name": "Bigotry"
+					}
+				],
+				"severity": "warn"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "denial-covid",
+				"locales": [
+					{
+						"description": "Denial or downplaying the death count, risks, transmissibility, or existance of COVID-19.",
+						"lang": "en",
+						"name": "COVID-19 denial"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "cons",
+				"locales": [
+					{
+						"description": "Promotion, support, or legitimization of any conservative political party.",
+						"lang": "en",
+						"name": "Conservatism"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "denial-vaccine",
+				"locales": [
+					{
+						"description": "Denial or downplaying the effectiveness of vaccines.",
+						"lang": "en",
+						"name": "Vaccine denial"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "denial-genocide",
+				"locales": [
+					{
+						"description": "Denial or downplaying any genocide, historical or ongoing.",
+						"lang": "en",
+						"name": "Genocide denial"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "fud-ai",
+				"locales": [
+					{
+						"description": "Posts aimed at creating fear, uncertainty, and doubt about AI.",
+						"lang": "en",
+						"name": "AI FUD"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tax-misinfo",
+				"locales": [
+					{
+						"description": "Myths about taxes (primarially US), using IRS publications as a guide",
+						"lang": "en",
+						"name": "Tax Misinformation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "fud-gmo",
+				"locales": [
+					{
+						"description": "Posts aimed at creating fear, uncertainty, and doubt about genetically modified organisms.",
+						"lang": "en",
+						"name": "GMO FUD"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "urbanism",
+				"locales": [
+					{
+						"description": "Promotion, support, or legitimazation of a philosophy aimed at limiting access to cities to a certain class or race.",
+						"lang": "en",
+						"name": "Urbanism"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "yikes",
+				"locales": [
+					{
+						"description": "Links, discussion, or promotion of certain sites.",
+						"lang": "en",
+						"name": "Darksites"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "quackery",
+				"locales": [
+					{
+						"description": "Medical malfeasance, using the publications of Quackwatch as a guide.",
+						"lang": "en",
+						"name": "Quackery"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "drugs",
+				"locales": [
+					{
+						"description": "Depictions, descriptions, or promotion of drugs (including alcohol and tobacco)",
+						"lang": "en",
+						"name": "Drugs/Alcohol/Tobacco"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"dni-requested",
+			"drugs",
+			"bigotry",
+			"fire",
+			"firearms",
+			"flesh",
+			"harm-self",
+			"harm-domestic",
+			"harm-child",
+			"harm-animal",
+			"denial-covid",
+			"denial-genocide",
+			"denial-vaccine",
+			"cons",
+			"fud-ai",
+			"fud-gmo",
+			"quackery",
+			"tax-misinfo",
+			"urbanism",
+			"yikes"
+		]
+	}
+}

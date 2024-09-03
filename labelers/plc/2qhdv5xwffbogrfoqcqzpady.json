@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:2qhdv5xwffbogrfoqcqzpady/app.bsky.labeler.service/self",
+	"cid": "bafyreiaxykmt6tpfznqjbzz7vpfx7artderabwao4fva7nxwcnh3mkohpi",
+	"creator": {
+		"did": "did:plc:2qhdv5xwffbogrfoqcqzpady",
+		"handle": "labeler.procycling.social",
+		"displayName": "Pro Cycling Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qhdv5xwffbogrfoqcqzpady/bafkreibdrusy7wvekhytka2gfsfmyglaucrenu4eabrwou3t3j3vnyy364@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-06-13T13:27:43.348Z",
+		"description": "Providing labels for:\n\n* race spoilers: if you haven't watched the race yet \n* off topic content: to keep it out of the Pro cycling chatter feed: https://bsky.app/profile/did:plc:542d7hnrdfvkldeieefmajxl/feed/discovercycling",
+		"indexedAt": "2024-06-13T20:40:09.811Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-06-13T20:35:13.852Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "unrelated",
+				"locales": [
+					{
+						"description": "This content has been marked unrelated to pro cycling, as was possibly mis-included in the Pro Cycling Chatter feed.",
+						"lang": "en",
+						"name": "Unrelated content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "race-spoiler",
+				"locales": [
+					{
+						"description": "This content may spoil a race for those who haven't watched it yet.",
+						"lang": "en",
+						"name": "Race Spoiler"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"race-spoiler",
+			"unrelated"
+		]
+	}
+}

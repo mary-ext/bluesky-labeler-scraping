@@ -1,0 +1,119 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:3o4ajsgts2fsuexm5ai6wln5/app.bsky.labeler.service/self",
+	"cid": "bafyreiendwkkkj56p2oio6zehw42xaezmxyy5ekp54v77eh2kg74k6gfcu",
+	"creator": {
+		"did": "did:plc:3o4ajsgts2fsuexm5ai6wln5",
+		"handle": "mombot.at.dingdongdata.com",
+		"displayName": "mombot",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3o4ajsgts2fsuexm5ai6wln5/bafkreibh5b26ds3hm2ea3zud2pbt6dfshehgtxdjx6lttdlaihttwcid6q@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-13T05:22:28.747Z",
+		"description": "I decide what I like!",
+		"indexedAt": "2024-03-28T21:56:22.409Z"
+	},
+	"likeCount": 4,
+	"indexedAt": "2024-03-28T05:44:10.803Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "great",
+				"locales": [
+					{
+						"description": "S-tier stuff, right here.",
+						"lang": "en",
+						"name": "great"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "good",
+				"locales": [
+					{
+						"description": "This post contains some of that good-good.",
+						"lang": "en",
+						"name": "good"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "annoying",
+				"locales": [
+					{
+						"description": "This post annoys mombot!",
+						"lang": "en",
+						"name": "annoying"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dumb",
+				"locales": [
+					{
+						"description": "This post is maximum stupid.",
+						"lang": "en",
+						"name": "dumb"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mombot-dislikey",
+				"locales": [
+					{
+						"description": "Mombot thinks this person isn't all that and a slice of pie.",
+						"lang": "en",
+						"name": "mombot dislikey"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mombot-likey",
+				"locales": [
+					{
+						"description": "Mombot approves of this person and thinks you will too.",
+						"lang": "en",
+						"name": "mombot likey!"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"good",
+			"great",
+			"dumb",
+			"annoying",
+			"demented",
+			"awful",
+			"mombot-dislikey",
+			"mombot-likey"
+		]
+	}
+}

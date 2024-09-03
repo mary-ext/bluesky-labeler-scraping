@@ -1,0 +1,87 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:wp7hxfjl5l4zlptn7y6774lk/app.bsky.labeler.service/self",
+	"cid": "bafyreibqevl5hcijoq3z47dfhfwnz2arkh5d7nkftzvfi6cvmebsnsoj6m",
+	"creator": {
+		"did": "did:plc:wp7hxfjl5l4zlptn7y6774lk",
+		"handle": "baatl.mastod.one",
+		"displayName": "Bad Accessibility / Alt Text Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wp7hxfjl5l4zlptn7y6774lk/bafkreihfo4rjnyuchgxdssrqp6pcdftd647crasmz2lb6gs2ef74agmg3e@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-16T23:47:25.864Z",
+		"description": "Moderation service for identifying posts and media with user-hostile accessibility properties. Managed by @baatl.bsky.social.",
+		"indexedAt": "2024-03-19T12:10:37.708Z"
+	},
+	"likeCount": 265,
+	"indexedAt": "2024-03-19T10:44:47.168Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "mis-alt-text",
+				"locales": [
+					{
+						"description": "Media posted with alt text describing it in a way that can't be understood without access to the media, such as captions that assume the reader can see the image.",
+						"lang": "en",
+						"name": "Misused Alt Text"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "unicode-abuse",
+				"locales": [
+					{
+						"description": "Exploitation of Unicode text characters for a purely-graphical effect, which inhibits the text's readability outside of visual contexts (such as translation, or when read aloud by text-to-speech software).",
+						"lang": "en",
+						"name": "Unicode Abuse"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "non-alt-text",
+				"locales": [
+					{
+						"description": "Media posted with alt text that conveys effectively nothing at all (such as just the words \"alt text\").",
+						"lang": "en",
+						"name": "Meaningless Alt Text"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "no-alt-text",
+				"locales": [
+					{
+						"description": "Media posted without any alt text provided.",
+						"lang": "en",
+						"name": "No Alt Text"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"no-alt-text",
+			"non-alt-text",
+			"mis-alt-text",
+			"unicode-abuse"
+		]
+	}
+}

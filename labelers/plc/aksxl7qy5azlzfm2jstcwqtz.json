@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:aksxl7qy5azlzfm2jstcwqtz/app.bsky.labeler.service/self",
+	"cid": "bafyreiffruqdjmwvpld6inhrngdxukt74kbcf4yom53ba45d4pvwywfvui",
+	"creator": {
+		"did": "did:plc:aksxl7qy5azlzfm2jstcwqtz",
+		"handle": "kiki-bouba.mozzius.dev",
+		"displayName": "Kiki/Bouba Labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:aksxl7qy5azlzfm2jstcwqtz/bafkreiebyiy3lkj65irsv6x4oddskoord4hk5bbzzo2omoaimqhq7lpcle@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-06-23T18:32:43.859Z",
+		"description": "Are you kiki or bouba? Like this labeller to find out\n\nNote: your avatar will be sent to GPT-4o for evaluation",
+		"indexedAt": "2024-06-24T10:30:42.879Z"
+	},
+	"likeCount": 1887,
+	"indexedAt": "2024-06-24T01:16:31.688Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "kiki",
+				"locales": [
+					{
+						"description": "User has been judged and deemed kiki",
+						"lang": "en",
+						"name": "Kiki"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "bouba",
+				"locales": [
+					{
+						"description": "User has been judged and deemed bouba",
+						"lang": "en",
+						"name": "Bouba"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"kiki",
+			"bouba"
+		]
+	}
+}

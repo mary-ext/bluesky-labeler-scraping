@@ -1,0 +1,90 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:lcdcygpdeiittdmdeddxwt4w/app.bsky.labeler.service/self",
+	"cid": "bafyreifdvajsoft25bcvf4zgmgbcm7zmpt7vdinn55rv7jmphojxyld7aq",
+	"creator": {
+		"did": "did:plc:lcdcygpdeiittdmdeddxwt4w",
+		"handle": "laelaps.fyi",
+		"displayName": "Laelaps",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lcdcygpdeiittdmdeddxwt4w/bafkreidjonmm7jkthlewiykaw3hrhv6sncivbpnad63sqebvgvy77736b4@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-07-21T11:13:31.775Z",
+		"description": "An anti-zoophilia labeler, from the team behind the Zoophile Mute List.\n\nCriteria and evidence: https://zml.heika.dog/",
+		"indexedAt": "2024-07-26T11:35:57.873Z"
+	},
+	"likeCount": 197,
+	"indexedAt": "2024-07-24T05:19:21.576Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "open-zoo",
+				"locales": [
+					{
+						"description": "Publicly identifying as a zoophile. This includes profiles with known coded dogwhistles like the zeta symbol (ζ), the triangles and four-pointed star (◤✦◢), or the Phoenician aleph (𐤀), or having a handle that's linked to a zoophile-centric domain name.",
+						"lang": "en",
+						"name": "Open Zoophile"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "interacts-with-zoos",
+				"locales": [
+					{
+						"description": "Actively interacting with open zoophiles. This includes, but is not limited to: liking or reposting posts related to, replying to, or following a large amount of open zoophiles.",
+						"lang": "en",
+						"name": "Interacts With Zoophiles"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoo-supporter",
+				"locales": [
+					{
+						"description": "Supporting or defending zoophiles or their associates, or creating spaces that welcome zoophiles.",
+						"lang": "en",
+						"name": "Zoophile Supporter"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "outed-zoo",
+				"locales": [
+					{
+						"description": "Being publicly identified as a zoophile by a reputable whistleblower, or being found participating in conversations which advocate for or admit to zoophilic acts.",
+						"lang": "en",
+						"name": "Outed Zoophile"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"open-zoo",
+			"interacts-with-zoos",
+			"zoo-supporter",
+			"outed-zoo"
+		]
+	}
+}

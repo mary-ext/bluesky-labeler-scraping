@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
+	"cid": "bafyreih7cxecmujclvbpnuunl7of7mgl6fwjxi24fwr375dnbnawrk6ngm",
+	"creator": {
+		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
+		"handle": "uspol.blakeslabs.com",
+		"displayName": "US Politics Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bxnuth7kms5l57v2milp5gb3/bafkreidtiwjy3br6gxckr4wullqtklriu5dd2pam6zsvowgi4gvduyp6c4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-08-12T03:01:07.474Z",
+		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health.\n\nThis might not be turned on right now.",
+		"indexedAt": "2024-08-12T04:34:47.573Z"
+	},
+	"likeCount": 7,
+	"indexedAt": "2024-08-12T04:19:46.363Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "lgbtq",
+				"locales": [
+					{
+						"description": "About LGBTQ+ politics, policies, and laws in the US.",
+						"lang": "en",
+						"name": "US LGBTQ+ politics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kamala-harris",
+				"locales": [
+					{
+						"description": "Content that talks about the 2024 presidential candidate for the Democratic party.",
+						"lang": "en",
+						"name": "Kamala Harris"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "trump",
+				"locales": [
+					{
+						"description": "Anything talking about this former president of the United States.",
+						"lang": "en",
+						"name": "Donald Trump"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"lgbtq",
+			"trump",
+			"kamala-harris"
+		]
+	}
+}

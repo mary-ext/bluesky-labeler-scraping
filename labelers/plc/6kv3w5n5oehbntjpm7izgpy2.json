@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:6kv3w5n5oehbntjpm7izgpy2/app.bsky.labeler.service/self",
+	"cid": "bafyreihvqcn2aetqlqxuuqziibr44s7x6i5nd5ukqidqj4r264lhtpthsq",
+	"creator": {
+		"did": "did:plc:6kv3w5n5oehbntjpm7izgpy2",
+		"handle": "kind-labeler.bsky.social",
+		"displayName": "Please Be Kind",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6kv3w5n5oehbntjpm7izgpy2/bafkreidgcg3ng5pnt6wstdnjwqel6brl6b7545ouu4ez43tjtpotxn3pdm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-07-21T00:43:03.775Z",
+		"description": "a labeler for intentionally unkind or rude skeets, also for intentionally kind skeets",
+		"indexedAt": "2024-07-21T00:43:52.075Z"
+	},
+	"likeCount": 17,
+	"indexedAt": "2024-07-21T23:27:00.665Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "rude",
+				"locales": [
+					{
+						"description": "Intentionally rude or unkind behavior. This is an unprompted, knowing, intentional attempt to hurt someone’s feelings.",
+						"lang": "en",
+						"name": "Rude"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kind",
+				"locales": [
+					{
+						"description": "This post or user makes an intentional attempt to be caring and kind, making the world a better place. DO NOT SET THIS TO HIDE",
+						"lang": "en",
+						"name": "Kind"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"rude",
+			"kind"
+		]
+	}
+}

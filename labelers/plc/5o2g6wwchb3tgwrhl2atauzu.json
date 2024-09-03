@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:5o2g6wwchb3tgwrhl2atauzu/app.bsky.labeler.service/self",
+	"cid": "bafyreiexehkkdlanyuyttqf7iwn65reati4ghwldfkhsji2oxcdsq7or4q",
+	"creator": {
+		"did": "did:plc:5o2g6wwchb3tgwrhl2atauzu",
+		"handle": "moderation.tripazeada.club",
+		"displayName": "Moderation Tripazeada",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-04-08T22:04:35.070Z",
+		"description": "Maintaining safety for Tripazeada members and their CC's.\n\nhttps://discord.gg/tripazeada\n\nNon-official Bluesky account.\nFrom fans, to fans.",
+		"indexedAt": "2024-04-14T00:42:16.208Z"
+	},
+	"likeCount": 95,
+	"indexedAt": "2024-04-12T23:36:31.558Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "inseguro",
+				"locales": [
+					{
+						"description": "Accounts that may contain hateful content or hate speech against the Tripazeada community.",
+						"lang": "en",
+						"name": "Suspicious account"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "Toxic",
+				"locales": [
+					{
+						"description": "Users who are toxic towards Tripazeada members, content creators or who may hurt others mentally or physically.",
+						"lang": "en",
+						"name": "Toxicity"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "hate",
+				"locales": [
+					{
+						"description": "Users who have hateful behavior against content creators, Tripzada members, cellbit fans or roier fans.",
+						"lang": "en",
+						"name": "Hating communities"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"inseguro",
+			"Toxic",
+			"hate"
+		]
+	}
+}

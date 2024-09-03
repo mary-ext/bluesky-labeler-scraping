@@ -1,0 +1,75 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:otusnqiucw3sm56ne27wt6tv/app.bsky.labeler.service/self",
+	"cid": "bafyreicqyqhigpbqyrj5v2m6opuokzr6wfzkognmefzobbapigmpsan5za",
+	"creator": {
+		"did": "did:plc:otusnqiucw3sm56ne27wt6tv",
+		"handle": "test.futur.blue",
+		"displayName": "futur's yapper",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:otusnqiucw3sm56ne27wt6tv/bafkreieetoxp6hei32nstipxuspvoy6pkk3xtj3t27jlnh3fou2ozoynmm@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-02-18T15:07:06.641Z",
+		"description": "what's this",
+		"indexedAt": "2024-05-23T02:25:00.253Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-09-01T22:58:23.799Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "nerd",
+				"locales": [
+					{
+						"description": "Chief nerd",
+						"lang": "en",
+						"name": "Nerd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "another-label",
+				"locales": [
+					{
+						"description": "the label is to be described in a linguistic matter containing subsequent syllables",
+						"lang": "en",
+						"name": "does this one work too"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "testinges",
+				"locales": [
+					{
+						"description": "testi",
+						"lang": "en",
+						"name": "teeeeest"
+					}
+				],
+				"severity": "none"
+			}
+		],
+		"labelValues": [
+			"nerd",
+			"another-label",
+			"testinges"
+		]
+	}
+}

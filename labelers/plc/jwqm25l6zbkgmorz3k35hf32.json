@@ -1,0 +1,255 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
+	"cid": "bafyreifbsraktfhj3cqiy4s3irtwuimhwua2n7werib4czs7bqb46qrlaa",
+	"creator": {
+		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
+		"handle": "curationkeeper.bsky.social",
+		"displayName": "CurationKeeper",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jwqm25l6zbkgmorz3k35hf32/bafkreigo5axlnpdujk44ocijjplbrdjgkvmlso7gyfoflp3347j5funujy@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "following"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-06-17T17:11:39.257Z",
+		"description": "This is simply experimenting with labellers, this won't do anything 🙃\n",
+		"indexedAt": "2024-06-27T07:34:49.377Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-09-03T15:30:04.580Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "contains-skeet",
+				"locales": [
+					{
+						"description": "...",
+						"lang": "en",
+						"name": "Contains the word: \"skeet\""
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-youtube",
+				"locales": [
+					{
+						"description": "Posts that contain a youtube.com or youtu.be link.",
+						"lang": "en",
+						"name": "Has Youtube Link."
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "badge",
+				"locales": [
+					{
+						"description": "Testing a badge.",
+						"lang": "en",
+						"name": "badge"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-dlvr",
+				"locales": [
+					{
+						"description": "Posts that contain a dlvr.it link.",
+						"lang": "en",
+						"name": "Has dlvr Link."
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-murrtube",
+				"locales": [
+					{
+						"description": "Posts that contain a link to Murrtube.net",
+						"lang": "en",
+						"name": "Has Murrtube Link."
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-image-repost",
+				"locales": [
+					{
+						"description": "If a repost contains an image.",
+						"lang": "en",
+						"name": "Has Image. (Reposts)"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-no-image-repost",
+				"locales": [
+					{
+						"description": "If a repost does not contain an image.",
+						"lang": "en",
+						"name": "Has no image. (Reposts)"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-chaturbate",
+				"locales": [
+					{
+						"description": "Posts that contain a link to chaturbate.com (and dlvr.it)",
+						"lang": "en",
+						"name": "Has Chaturbate Link."
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-twitch",
+				"locales": [
+					{
+						"description": "Posts that contain a link to twitch.tv",
+						"lang": "en",
+						"name": "Has Twitch Link."
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-image-post",
+				"locales": [
+					{
+						"description": "If a post contains an image.",
+						"lang": "en",
+						"name": "Has Image. (Post)"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-no-image-post",
+				"locales": [
+					{
+						"description": "If a post does not contain an image.",
+						"lang": "en",
+						"name": "Has No Image. (Post)"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-image-reply",
+				"locales": [
+					{
+						"description": "If a reply contains an image.",
+						"lang": "en",
+						"name": "Has Image. (Replies)"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-no-image-reply",
+				"locales": [
+					{
+						"description": "If a reply does not contain an image.",
+						"lang": "en",
+						"name": "Has No Image. (Replies)"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "ai-art",
+				"locales": [
+					{
+						"description": "Art with the relevent Ai related tags. (Not Implimented)",
+						"lang": "en",
+						"name": "Ai Art"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "testing-stuff",
+				"locales": [
+					{
+						"description": "This is a test",
+						"lang": "en",
+						"name": "Test"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"contains-skeet",
+			"has-link-youtube",
+			"badge",
+			"has-link-dlvr",
+			"has-link-murrtube",
+			"has-image-repost",
+			"has-no-image-repost",
+			"has-link-chaturbate",
+			"has-link-twitch",
+			"has-image-post",
+			"has-no-image-post",
+			"has-image-reply",
+			"has-no-image-reply",
+			"ai-art",
+			"testing-stuff"
+		]
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:an6ro7od3invm4vowxehbrdz/app.bsky.labeler.service/self",
+	"cid": "bafyreica5txgubnuuymyii7okdh7kbe3nugqh7awgch3jcikwdcvhsn3ma",
+	"creator": {
+		"did": "did:plc:an6ro7od3invm4vowxehbrdz",
+		"handle": "hbms.hexandcube.eu.org",
+		"displayName": "HBMS",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:an6ro7od3invm4vowxehbrdz/bafkreieoy55yhxqbripvvpmn4bns2fqmxa6bcu2m62wybt3w6twexnohme@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-06-29T15:09:15.580Z",
+		"description": "Hexandcube's Bluesky Moderation Service\n\nA public manual labeler service, currently moderated by @hexandcube.eu.org",
+		"indexedAt": "2024-06-29T17:27:43.379Z"
+	},
+	"likeCount": 5,
+	"indexedAt": "2024-06-29T16:02:37.445Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "generative_ai",
+				"locales": [
+					{
+						"description": "Media generated using Artificial Intelligence models",
+						"lang": "en",
+						"name": "Generative AI"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scam",
+				"locales": [
+					{
+						"description": "Scam or fraud attempt",
+						"lang": "en",
+						"name": "Scam"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crypto",
+				"locales": [
+					{
+						"description": "Cryptocurrency promoting spam account",
+						"lang": "en",
+						"name": "Crypto Spam"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "satire",
+				"locales": [
+					{
+						"description": "Satirical content",
+						"lang": "en",
+						"name": "Satire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hbms_moderator",
+				"locales": [
+					{
+						"description": "Moderator of the Hexandcube Bluesky Moderation Service (HBMS)",
+						"lang": "en",
+						"name": "HBMS Moderator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "misinformation",
+				"locales": [
+					{
+						"description": "Spreading false or misleading info, including unverified claims and harmful conspiracy theories.",
+						"lang": "en",
+						"name": "Misinformation"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"generative_ai",
+			"scam",
+			"crypto",
+			"satire",
+			"hbms_moderator",
+			"misinformation"
+		]
+	}
+}

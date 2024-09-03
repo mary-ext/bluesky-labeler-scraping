@@ -1,0 +1,40 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:fckjqanjagumq5qw4ozwj7go/app.bsky.labeler.service/self",
+	"cid": "bafyreigmfc6nphmlp6zfsindsutafvxmuimowjzdbii2ocgybprck7jtqm",
+	"creator": {
+		"did": "did:plc:fckjqanjagumq5qw4ozwj7go",
+		"handle": "matsui0000.bsky.social",
+		"displayName": "",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-05-01T04:19:04.969Z",
+		"indexedAt": "2024-05-01T04:19:06.825Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-05-01T06:08:21.764Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "test-label",
+				"locales": [
+					{
+						"description": "Ozoneのテスト用ラベル",
+						"lang": "ja",
+						"name": "テストラベル"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"test-label"
+		]
+	}
+}

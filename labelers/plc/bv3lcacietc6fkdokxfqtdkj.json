@@ -1,0 +1,108 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:bv3lcacietc6fkdokxfqtdkj/app.bsky.labeler.service/self",
+	"cid": "bafyreicxuwhmjgpaif2bshlbo5rvnv7vvvesqw43dkmwbdhqque3whzphe",
+	"creator": {
+		"did": "did:plc:bv3lcacietc6fkdokxfqtdkj",
+		"handle": "nunnybabbit.bsky.social",
+		"displayName": "NunnyBabbit Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bv3lcacietc6fkdokxfqtdkj/bafkreiej2rlluer2b4dqxboxcocfgrvmjoxhnyld2ahdyktnoozq6sfriy@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-03-30T08:47:19.922Z",
+		"description": "Labeler & Label driven feeds\nhe/they, it (situational)\nto opt-out from user lists and feeds, block this account or DM me a request.\noperated by @nunnybabbit-aon.bsky.social (Profile is 18+)",
+		"indexedAt": "2024-08-29T08:06:22.519Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-06-09T05:18:29.756Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "engagement-hacking",
+				"locales": [
+					{
+						"description": "Accounts that are liking posts from new accounts in a seemingly automated manner.",
+						"lang": "en",
+						"name": "Engagement Hacking"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "diaper",
+				"locales": [
+					{
+						"description": "Media contains or depicts diapers or similar undergarments. Unless excluded from the feed, posts with the label will be shown in the Diaper (Label) feed.\nNot applicable to accounts.",
+						"lang": "en",
+						"name": "Diaper"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "feces",
+				"locales": [
+					{
+						"description": "Media contains or depicts feces or defecating characters. Unless excluded from the feed, posts with the label will be shown in the Scat (Label) feed.\nNot applicable to accounts.",
+						"lang": "en",
+						"name": "Feces"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "urine",
+				"locales": [
+					{
+						"description": "Media contains or depicts urine, urinating characters or urine stains. Unless excluded from the feed, posts with the label will be shown in the Watersports (Label) feed.\nNot applicable to accounts.",
+						"lang": "en",
+						"name": "Urine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "long-image",
+				"locales": [
+					{
+						"description": "Posts that are very long due to the single image in the post being tall which can often cover the whole screen.",
+						"lang": "en",
+						"name": "Long Image"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"urine",
+			"feces",
+			"diaper",
+			"animalistic-mask",
+			"long-image",
+			"engagement-hacking",
+			"exclude-feed",
+			"classification-forced"
+		]
+	}
+}

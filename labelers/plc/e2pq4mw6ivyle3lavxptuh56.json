@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:e2pq4mw6ivyle3lavxptuh56/app.bsky.labeler.service/self",
+	"cid": "bafyreiax5wy4jx76zjbhhjs7gsoo2vf43xtp4qf4l6tho662r26gugsfg4",
+	"creator": {
+		"did": "did:plc:e2pq4mw6ivyle3lavxptuh56",
+		"handle": "ohnozone.bsky.social",
+		"displayName": "Oh No! Zone",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-15T19:07:48.728Z",
+		"description": "Testing out an Ozone labeling service.\n\nThis is an experiment. Don't rely on this service for real harm-reduction.",
+		"indexedAt": "2024-03-17T19:20:53.809Z"
+	},
+	"likeCount": 9,
+	"indexedAt": "2024-03-15T19:09:46.914Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "alt-right-nazis",
+				"locales": [
+					{
+						"description": "\"Alt-Right,\" freeze-peachers, and assorted Nazis",
+						"lang": "en",
+						"name": "\"Alt-Right\" and assorted Nazis"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crypto",
+				"locales": [
+					{
+						"description": "Crypto BS",
+						"lang": "en",
+						"name": "Crypto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "transphobia",
+				"locales": [
+					{
+						"description": "Transphobic content",
+						"lang": "en",
+						"name": "Transphobia"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"alt-right-nazis",
+			"crypto",
+			"transphobia"
+		]
+	}
+}

@@ -1,0 +1,8563 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:2qawvcwumvgxmed6iy6pmt6l/app.bsky.labeler.service/self",
+	"cid": "bafyreih7wwoqqzrq36mb7yxyys6v6e7z22dhfwrcn7ll6tahpolqiek7su",
+	"creator": {
+		"did": "did:plc:2qawvcwumvgxmed6iy6pmt6l",
+		"handle": "sonasky.bsky.social",
+		"displayName": "SonaSky [Delayed by ~a minute]",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qawvcwumvgxmed6iy6pmt6l/bafkreibmuo3cd4sygf5qpcau2snwk4iriq6plnkvvupbmhj4jtuze54kqy@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-08-07T21:31:32.074Z",
+		"description": "Show off your fursona (label)!\n❓: Add=❤️! Remove=💔.\n🔍: Browse/Requests: https://sonasky-browse.bunnys.ky/ <-- READ/LEIA\n\n🐇🧑‍💻: @astra.bunnys.ky <- 18+\n🖼️: @snowfox.gay <- 18+\nCursor @ 2024-09-03T15:29:48Z, Delays ~= a minute",
+		"indexedAt": "2024-09-03T15:30:52.603Z"
+	},
+	"likeCount": 647,
+	"indexedAt": "2024-09-03T14:32:10.996Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rabbit",
+				"locales": [
+					{
+						"description": "This user is a Rabbit! AKA: bunny, bnuy, bun",
+						"lang": "en",
+						"name": "Rabbit"
+					},
+					{
+						"description": "Este usuário é um Coelho! AKA: Coelho, Coelinho.",
+						"lang": "pt-BR",
+						"name": "Coelha/Coelho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fox",
+				"locales": [
+					{
+						"description": "This user is a Fox!",
+						"lang": "en",
+						"name": "Fox"
+					},
+					{
+						"description": "Este usuário é uma Raposa! AKA: Raposo, Raposa, Raposinho, Raposinha.",
+						"lang": "pt-BR",
+						"name": "Raposa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "red-panda",
+				"locales": [
+					{
+						"description": "This user is a Red Panda! AKA: wah",
+						"lang": "en",
+						"name": "Red Panda"
+					},
+					{
+						"description": "Este usuário é um Panda vermelho! AKA: wawawa",
+						"lang": "pt-BR",
+						"name": "Panda Vermelho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "deer",
+				"locales": [
+					{
+						"description": "This user is a Deer! Bleat!",
+						"lang": "en",
+						"name": "Deer"
+					},
+					{
+						"description": "Este usuário é um Veado!",
+						"lang": "pt-BR",
+						"name": "Veado"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pokemon",
+				"locales": [
+					{
+						"description": "This user is a Pokemon!",
+						"lang": "en",
+						"name": "Pokemon"
+					},
+					{
+						"description": "Este usuário é um Pokémon! Qualquer tipo!",
+						"lang": "pt-BR",
+						"name": "Pokémon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dog",
+				"locales": [
+					{
+						"description": "This user is a Dog! (AKA: puppy, doggo, pupper)",
+						"lang": "en",
+						"name": "Dog"
+					},
+					{
+						"description": "Este usuário é um Cachorro! AKA: Cachorrinho, Doguinho.",
+						"lang": "pt-BR",
+						"name": "Cachorro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragon",
+				"locales": [
+					{
+						"description": "This user is a Dragon!",
+						"lang": "en",
+						"name": "Dragon"
+					},
+					{
+						"description": "Este usuário é um Dragão!",
+						"lang": "pt-BR",
+						"name": "Dragão"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skunk",
+				"locales": [
+					{
+						"description": "This user is a Skunk!",
+						"lang": "en",
+						"name": "Skunk"
+					},
+					{
+						"description": "Este usuário é um Gambá! ",
+						"lang": "pt-BR",
+						"name": "Gambá"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hyena",
+				"locales": [
+					{
+						"description": "This user is a Hyena!",
+						"lang": "en",
+						"name": "Hyena"
+					},
+					{
+						"description": "Este usuário é uma Hiena!",
+						"lang": "pt-BR",
+						"name": "Hiena"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "horse",
+				"locales": [
+					{
+						"description": "This user is a Horse!",
+						"lang": "en",
+						"name": "Horse"
+					},
+					{
+						"description": "Este usuário é um Cavalo!",
+						"lang": "pt-BR",
+						"name": "Cavalo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bear",
+				"locales": [
+					{
+						"description": "This user is a Bear!",
+						"lang": "en",
+						"name": "Bear"
+					},
+					{
+						"description": "Este usuário é um Urso! Qualquer tipo de urso!",
+						"lang": "pt-BR",
+						"name": "Urso"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "otter",
+				"locales": [
+					{
+						"description": "This user is an Otter!",
+						"lang": "en",
+						"name": "Otter"
+					},
+					{
+						"description": "Este usuário é uma Lontra! AKA: Leão-marinho.",
+						"lang": "pt-BR",
+						"name": "Lontra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bird",
+				"locales": [
+					{
+						"description": "This user is a Bird!",
+						"lang": "en",
+						"name": "Bird"
+					},
+					{
+						"description": "Este usuário é um Pássaro! AKA: Piriquito, Piu.",
+						"lang": "pt-BR",
+						"name": "Pássaro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "raccoon",
+				"locales": [
+					{
+						"description": "This user is a Raccoon!",
+						"lang": "en",
+						"name": "Raccoon"
+					},
+					{
+						"description": "Este usuário é um Guaxinim! AKA: Guaxo",
+						"lang": "pt-BR",
+						"name": "Guaxinim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mouse",
+				"locales": [
+					{
+						"description": "This user is a Mouse!",
+						"lang": "en",
+						"name": "Mouse"
+					},
+					{
+						"description": "Este usuário é um Roedor! AKA: Rato.",
+						"lang": "pt-BR",
+						"name": "Roedor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rat",
+				"locales": [
+					{
+						"description": "This user is a Rat!",
+						"lang": "en",
+						"name": "Rat"
+					},
+					{
+						"description": "Este usuário é um Rato!",
+						"lang": "pt-BR",
+						"name": "Rato"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cat",
+				"locales": [
+					{
+						"description": "This user is a Cat!",
+						"lang": "en",
+						"name": "Cat"
+					},
+					{
+						"description": "Este usuário é um Gato! AKA: Gatinho.",
+						"lang": "pt-BR",
+						"name": "Gato"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "big-cat",
+				"locales": [
+					{
+						"description": "This user is a Big Cat!",
+						"lang": "en",
+						"name": "Big Cat"
+					},
+					{
+						"description": "Este usuário é um Gato Grande! AKA: Gatão, Onças",
+						"lang": "pt-BR",
+						"name": "Gato Grande"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wolf",
+				"locales": [
+					{
+						"description": "This user is a Wolf!",
+						"lang": "en",
+						"name": "Wolf"
+					},
+					{
+						"description": "Este usuário é um Lobo! AKA: Lobão, Lobinho.",
+						"lang": "pt-BR",
+						"name": "Lobo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hybrid",
+				"locales": [
+					{
+						"description": "This user is a Hybrid!",
+						"lang": "en",
+						"name": "Hybrid"
+					},
+					{
+						"description": "Este usuário é um Híbrido!",
+						"lang": "pt-BR",
+						"name": "Híbrido"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "protogen",
+				"locales": [
+					{
+						"description": "This user is a Protogen! Beep-boop.",
+						"lang": "en",
+						"name": "Protogen"
+					},
+					{
+						"description": "Este usuário é um Protogen! AKA: Torradeira.",
+						"lang": "pt-BR",
+						"name": "Protogen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kanvi",
+				"locales": [
+					{
+						"description": "This user is a Kan'vi! https://kanvi.carrd.co/ [Tags: open-species]",
+						"lang": "en",
+						"name": "Kan'vi"
+					},
+					{
+						"description": "Este usuário é um Kan'vi! https://kanvi.carrd.co/ [Tags: livre-espécie]",
+						"lang": "pt-BR",
+						"name": "Kan'vi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "taur",
+				"locales": [
+					{
+						"description": "This user is a Taur! (See other labels to see what kind)",
+						"lang": "en",
+						"name": "Taur"
+					},
+					{
+						"description": "Este usuário é um Touro! (Verifique as outras tags para o tipo.)",
+						"lang": "pt-BR",
+						"name": "Touro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snake",
+				"locales": [
+					{
+						"description": "This user is a Snake! [Category: Snake]",
+						"lang": "en",
+						"name": "Snake"
+					},
+					{
+						"description": "Este usuário é uma Cobra! [Category: Cobra]",
+						"lang": "pt-BR",
+						"name": "Cobra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shark",
+				"locales": [
+					{
+						"description": "This user is a Shark!",
+						"lang": "en",
+						"name": "Shark"
+					},
+					{
+						"description": "Este usuário é um Tubarão! AKA: Tubas.",
+						"lang": "pt-BR",
+						"name": "Tubarão"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sergal",
+				"locales": [
+					{
+						"description": "This user is a Sergal!",
+						"lang": "en",
+						"name": "Sergal"
+					},
+					{
+						"description": "Este usuário é um Sergal!",
+						"lang": "pt-BR",
+						"name": "Sergal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orca",
+				"locales": [
+					{
+						"description": "This user is an Orca!",
+						"lang": "en",
+						"name": "Orca"
+					},
+					{
+						"description": "Este usuário é uma Orca!",
+						"lang": "pt-BR",
+						"name": "Orca"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "seal",
+				"locales": [
+					{
+						"description": "This user is a Seal!",
+						"lang": "en",
+						"name": "Seal"
+					},
+					{
+						"description": "Este usuário é uma Foca! AKA: Foca-Marinha.",
+						"lang": "pt-BR",
+						"name": "Foca"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tiger",
+				"locales": [
+					{
+						"description": "This user is a Tiger!",
+						"lang": "en",
+						"name": "Tiger"
+					},
+					{
+						"description": "Este usuário é um Tigre!",
+						"lang": "pt-BR",
+						"name": "Tigre"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chameleon",
+				"locales": [
+					{
+						"description": "This user is a Chameleon!",
+						"lang": "en",
+						"name": "Chameleon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "capybara",
+				"locales": [
+					{
+						"description": "This user is a Capybara!",
+						"lang": "en",
+						"name": "Capybara"
+					},
+					{
+						"description": "Este usuário é uma Capivara! AKA: Capi.",
+						"lang": "pt-BR",
+						"name": "Capivara"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jackal",
+				"locales": [
+					{
+						"description": "This user is a Jackal!",
+						"lang": "en",
+						"name": "Jackal"
+					},
+					{
+						"description": "Este usuário é um Chacal! AKA: Lacaio.",
+						"lang": "pt-BR",
+						"name": "Chacal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yinglet",
+				"locales": [
+					{
+						"description": "This user is a Yinglet! https://en.wikifur.com/wiki/Out-of-Placers",
+						"lang": "en",
+						"name": "Yinglet"
+					},
+					{
+						"description": "Este usuário é um Yinglet! https://en.wikifur.com/wiki/Out-of-Placers",
+						"lang": "pt-BR",
+						"name": "Yinglet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kangaroo",
+				"locales": [
+					{
+						"description": "This user is a Kangaroo!",
+						"lang": "en",
+						"name": "Kangaroo"
+					},
+					{
+						"description": "Este usuário é um Canguru!",
+						"lang": "pt-BR",
+						"name": "Canguru"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "coyote",
+				"locales": [
+					{
+						"description": "This user is a Coyote!",
+						"lang": "en",
+						"name": "Coyote"
+					},
+					{
+						"description": "Este usuário é um Coiote! AKA: Lobo da América.",
+						"lang": "pt-BR",
+						"name": "Coiote"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "squirrel",
+				"locales": [
+					{
+						"description": "This user is a Squirrel!",
+						"lang": "en",
+						"name": "Squirrel"
+					},
+					{
+						"description": "Este usuário é um Esquilo! AKA: Roedor.",
+						"lang": "pt-BR",
+						"name": "Esquilo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cheetah",
+				"locales": [
+					{
+						"description": "This user is a Cheetah!",
+						"lang": "en",
+						"name": "Cheetah"
+					},
+					{
+						"description": "Este usuário é um Leopardo! AKA: Pantera, Chita.",
+						"lang": "pt-BR",
+						"name": "Leopardo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snow-leopard",
+				"locales": [
+					{
+						"description": "This user is a Snow Leopard!",
+						"lang": "en",
+						"name": "Snow Leopard"
+					},
+					{
+						"description": "Este usuário é um Leopardo da Neve!",
+						"lang": "pt-BR",
+						"name": "Leopardo da neve"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "possum",
+				"locales": [
+					{
+						"description": "This user is a Possum! (Phalangeriformes; NOT the same as an opossum which is sometimes called \"possum\" as well in North America)",
+						"lang": "en",
+						"name": "Possum"
+					},
+					{
+						"description": "Este usuário é um Possum! (Alternativos: Diferente do outro nomeado de \"Opossum\" e derivados.)",
+						"lang": "pt-BR",
+						"name": "Possum"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bat",
+				"locales": [
+					{
+						"description": "This user is a Bat!",
+						"lang": "en",
+						"name": "Bat"
+					},
+					{
+						"description": "Este usuário é um Morcego!",
+						"lang": "pt-BR",
+						"name": "Morcego"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mustelid",
+				"locales": [
+					{
+						"description": "This user is a Mustelid! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Mustelid"
+					},
+					{
+						"description": "Este usuário é um Téxugo! AKA: Lontras, Doninhas, Furões e derivados.",
+						"lang": "pt-BR",
+						"name": "Texugo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "marten",
+				"locales": [
+					{
+						"description": "This user is a Marten! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Marten"
+					},
+					{
+						"description": "Este usuário é um Marto! [Category: Marto]",
+						"lang": "pt-BR",
+						"name": "Marto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ferret",
+				"locales": [
+					{
+						"description": "This user is a Ferret! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Ferret"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "weasel",
+				"locales": [
+					{
+						"description": "This user is a Weasel! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Weasel"
+					},
+					{
+						"description": "Este usuário é um Furão! AKA: Furãozinho, Lontra.",
+						"lang": "pt-BR",
+						"name": "Furão"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stoat",
+				"locales": [
+					{
+						"description": "This user is a Stoat! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Stoat"
+					},
+					{
+						"description": "Este usuário é um Arminho! AKA: Furão.",
+						"lang": "pt-BR",
+						"name": "Arminho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unicorn",
+				"locales": [
+					{
+						"description": "This user is an Unicorn!",
+						"lang": "en",
+						"name": "Unicorn"
+					},
+					{
+						"description": "Este usuário é um Unicórnio! AKA: Cavalo.",
+						"lang": "pt-BR",
+						"name": "Unicórnio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crocodile",
+				"locales": [
+					{
+						"description": "This user is a Crocodile!",
+						"lang": "en",
+						"name": "Crocodile"
+					},
+					{
+						"description": "Este usuário é um Crocodilo! AKA: Lodilo.",
+						"lang": "pt-BR",
+						"name": "Crocodilo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alligator",
+				"locales": [
+					{
+						"description": "This user is an Alligator!",
+						"lang": "en",
+						"name": "Alligator"
+					},
+					{
+						"description": "Este usuário é um Jacaré! AKA: Jaré.",
+						"lang": "pt-BR",
+						"name": "Jacaré"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alpaca",
+				"locales": [
+					{
+						"description": "This user is an Alpaca!",
+						"lang": "en",
+						"name": "Alpaca"
+					},
+					{
+						"description": "Este usuário é uma Alpaca! AKA: Llama.",
+						"lang": "pt-BR",
+						"name": "Alpaca"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "llama",
+				"locales": [
+					{
+						"description": "This user is a Llama!",
+						"lang": "en",
+						"name": "Llama"
+					},
+					{
+						"description": "Este usuário é uma Llama! AKA: Alpaca, Lama.",
+						"lang": "pt-BR",
+						"name": "Llama"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "goat",
+				"locales": [
+					{
+						"description": "This user is a Goat!",
+						"lang": "en",
+						"name": "Goat"
+					},
+					{
+						"description": "Este usuário é uma Cabra! AKA: Cabrito, Bode.",
+						"lang": "pt-BR",
+						"name": "Cabra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "phoenix",
+				"locales": [
+					{
+						"description": "This user is a Phoenix!",
+						"lang": "en",
+						"name": "Phoenix"
+					},
+					{
+						"description": "Este usuário é uma Fẽnix!",
+						"lang": "pt-BR",
+						"name": "Fênix"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eel",
+				"locales": [
+					{
+						"description": "This user is an Eel!",
+						"lang": "en",
+						"name": "Eel"
+					},
+					{
+						"description": "Este usuário é uma Enguia!",
+						"lang": "pt-BR",
+						"name": "Enguia"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fish",
+				"locales": [
+					{
+						"description": "This user is a Fish!",
+						"lang": "en",
+						"name": "Fish"
+					},
+					{
+						"description": "Este usuário é um Peixe! AKA: Peixinho",
+						"lang": "pt-BR",
+						"name": "Peixe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plane-dragon",
+				"locales": [
+					{
+						"description": "This user is a Plane Dragon!",
+						"lang": "en",
+						"name": "Plane Dragon"
+					},
+					{
+						"description": "Este usuário é um Dragão Nave!",
+						"lang": "pt-BR",
+						"name": "Dragão Nave"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lizard",
+				"locales": [
+					{
+						"description": "This user is a Lizard!",
+						"lang": "en",
+						"name": "Lizard"
+					},
+					{
+						"description": "Este usuário é um Lagarto! AKA: Lagartixa, Camaleão.",
+						"lang": "pt-BR",
+						"name": "Lagarto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "manokit",
+				"locales": [
+					{
+						"description": "This user is a Manokit!",
+						"lang": "en",
+						"name": "Manokit"
+					},
+					{
+						"description": "Este usuário é um Manokit!",
+						"lang": "pt-BR",
+						"name": "Manokit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gryphon",
+				"locales": [
+					{
+						"description": "This user is a Gryphon!",
+						"lang": "en",
+						"name": "Gryphon"
+					},
+					{
+						"description": "Este usuário é um Grifo!",
+						"lang": "pt-BR",
+						"name": "Grifo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wolverine",
+				"locales": [
+					{
+						"description": "This user is a Wolverine!",
+						"lang": "en",
+						"name": "Wolverine"
+					},
+					{
+						"description": "Este usuário é um Carcajo! AKA: Lobão, Wolverine.",
+						"lang": "pt-BR",
+						"name": "Carcaju"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lynx",
+				"locales": [
+					{
+						"description": "This user is a Lynx!",
+						"lang": "en",
+						"name": "Lynx"
+					},
+					{
+						"description": "Este usuário é um Lince! AKA: Gato, Lobo-cerval.",
+						"lang": "pt-BR",
+						"name": "Lince"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "werewolf",
+				"locales": [
+					{
+						"description": "This user is a Werewolf!",
+						"lang": "en",
+						"name": "Werewolf"
+					},
+					{
+						"description": "Este usuário é um Lobisomen!",
+						"lang": "pt-BR",
+						"name": "Lobisomen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "coywolf",
+				"locales": [
+					{
+						"description": "This user is a Coywolf!",
+						"lang": "en",
+						"name": "Coywolf"
+					},
+					{
+						"description": "Este usuário é um Coiote! AKA: Lobo.",
+						"lang": "pt-BR",
+						"name": "Coiote"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "boar",
+				"locales": [
+					{
+						"description": "This user is a Boar!",
+						"lang": "en",
+						"name": "Boar"
+					},
+					{
+						"description": "Este usuário é um Javali! AKA: Varão.",
+						"lang": "pt-BR",
+						"name": "Javali"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kobold",
+				"locales": [
+					{
+						"description": "This user is a Kobold!",
+						"lang": "en",
+						"name": "Kobold"
+					},
+					{
+						"description": "Este usuário é um Kobold!",
+						"lang": "pt-BR",
+						"name": "Kobold"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cryptid",
+				"locales": [
+					{
+						"description": "This user is a Cryptid!",
+						"lang": "en",
+						"name": "Cryptid"
+					},
+					{
+						"description": "Este usuário é um Cryptid! AKA: Híbrido.",
+						"lang": "pt-BR",
+						"name": "Cryptid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mythical-creature",
+				"locales": [
+					{
+						"description": "This user is a Mythical Creature!",
+						"lang": "en",
+						"name": "Mythical Creature"
+					},
+					{
+						"description": "Este usuário é uma Criatura Mítica!",
+						"lang": "pt-BR",
+						"name": "Criatura Mítica"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eldritch-creature",
+				"locales": [
+					{
+						"description": "This user is an Eldritch Creature!",
+						"lang": "en",
+						"name": "Eldritch Creature"
+					},
+					{
+						"description": "Este usuário é uma Criatura Sobrenatural! AKA: Eldricth, Mítico.",
+						"lang": "pt-BR",
+						"name": "Criatura Sobrenatural"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "puma",
+				"locales": [
+					{
+						"description": "This user is a Puma!",
+						"lang": "en",
+						"name": "Puma"
+					},
+					{
+						"description": "Este usuário é uma Puma! AKA: Onça-parda.",
+						"lang": "pt-BR",
+						"name": "Puma"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tanuki",
+				"locales": [
+					{
+						"description": "This user is a Tanuki!",
+						"lang": "en",
+						"name": "Tanuki"
+					},
+					{
+						"description": "Este usuário é um Tanuki! AKA: Guaxinim.",
+						"lang": "pt-BR",
+						"name": "Tanuki"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bovine",
+				"locales": [
+					{
+						"description": "This user is a Bovine!",
+						"lang": "en",
+						"name": "Bovine"
+					},
+					{
+						"description": "Este usuário é um Bovino!",
+						"lang": "pt-BR",
+						"name": "Bovino"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "red-wolf",
+				"locales": [
+					{
+						"description": "This user is a Red Wolf!",
+						"lang": "en",
+						"name": "Red Wolf"
+					},
+					{
+						"description": "Este usuário é um Lobo Cinzento! AKA: Lobo.",
+						"lang": "pt-BR",
+						"name": "Lobo Cinzento"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fennec-fox",
+				"locales": [
+					{
+						"description": "This user is a Fennec Fox!",
+						"lang": "en",
+						"name": "Fennec Fox"
+					},
+					{
+						"description": "Este usuário é uma Raposa Feneco! AKA: Raposa.",
+						"lang": "pt-BR",
+						"name": "Raposa Feneco"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "saber",
+				"locales": [
+					{
+						"description": "This user is a Saber!",
+						"lang": "en",
+						"name": "Saber"
+					},
+					{
+						"description": "Este usuário é um Saber!",
+						"lang": "pt-BR",
+						"name": "Saber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "saber-toothed-cat",
+				"locales": [
+					{
+						"description": "This user is a Saber-Toothed Cat!",
+						"lang": "en",
+						"name": "Saber-Toothed Cat"
+					},
+					{
+						"description": "Este usuário é um Smilodon! AKA: Tigre-dente-de-sabre.",
+						"lang": "pt-BR",
+						"name": "Smilodon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "donkey",
+				"locales": [
+					{
+						"description": "This user is a Donkey! Hee-haw~!",
+						"lang": "en",
+						"name": "Donkey"
+					},
+					{
+						"description": "Este usuário é um Burro! Não literalmente.",
+						"lang": "pt-BR",
+						"name": "Burro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "leopard",
+				"locales": [
+					{
+						"description": "This user is a Leopard!",
+						"lang": "en",
+						"name": "Leopard"
+					},
+					{
+						"description": "Este usuário é um Leopardo! AKA: Pantera, Leão.",
+						"lang": "pt-BR",
+						"name": "Leopardo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chakat",
+				"locales": [
+					{
+						"description": "This user is a Chakat!",
+						"lang": "en",
+						"name": "Chakat"
+					},
+					{
+						"description": "Este usuário é um Chakat! AKA: Pantera, Onça.",
+						"lang": "pt-BR",
+						"name": "Chakat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hedgehog",
+				"locales": [
+					{
+						"description": "This user is a Hedgehog!",
+						"lang": "en",
+						"name": "Hedgehog"
+					},
+					{
+						"description": "Este usuário é um Ouriço! AKA: Roedor, Gandú.",
+						"lang": "pt-BR",
+						"name": "Ouriço"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "monster-dog",
+				"locales": [
+					{
+						"description": "This user is a Monster Dog!",
+						"lang": "en",
+						"name": "Monster Dog"
+					},
+					{
+						"description": "Este usuário é um Dog Monstro! AKA: Híbrido, Cachorro.",
+						"lang": "pt-BR",
+						"name": "Dog Monstro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pooltoy",
+				"locales": [
+					{
+						"description": "This user is a Pooltoy! Squeak!",
+						"lang": "en",
+						"name": "Pooltoy"
+					},
+					{
+						"description": "Este usuário é um tipo de Pooltoy! AKA: Borracha, Piscina.",
+						"lang": "pt-BR",
+						"name": "Pooltoy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dolphin",
+				"locales": [
+					{
+						"description": "This user is a Dolphin!",
+						"lang": "en",
+						"name": "Dolphin"
+					},
+					{
+						"description": "Este usuário é um Golfinho!",
+						"lang": "pt-BR",
+						"name": "Golfinho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dinosaur",
+				"locales": [
+					{
+						"description": "This user is a Dinosaur!",
+						"lang": "en",
+						"name": "Dinosaur"
+					},
+					{
+						"description": "Este usuário é um DInossauro! Rawr!",
+						"lang": "pt-BR",
+						"name": "Dinossauro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "deathclaw",
+				"locales": [
+					{
+						"description": "This user is a Deathclaw!",
+						"lang": "en",
+						"name": "Deathclaw"
+					},
+					{
+						"description": "Este usuário é um Deathclaw! AKA: Dragão",
+						"lang": "pt-BR",
+						"name": "Deathclaw"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lion",
+				"locales": [
+					{
+						"description": "This user is a Lion!",
+						"lang": "en",
+						"name": "Lion"
+					},
+					{
+						"description": "Este usuário é um Leão! AKA: Gato.",
+						"lang": "pt-BR",
+						"name": "Leão"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "reptile",
+				"locales": [
+					{
+						"description": "This user is a Reptile!",
+						"lang": "en",
+						"name": "Reptile"
+					},
+					{
+						"description": "Este usuário é um Réptil!",
+						"lang": "pt-BR",
+						"name": "Réptil"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unknown",
+				"locales": [
+					{
+						"description": "This user is... not yet known! Maybe they're still trying to figure out.",
+						"lang": "en",
+						"name": "404 Fursona Not Found"
+					},
+					{
+						"description": "Este usuário é.. não descoberto ainda! Ainda tentando desvendar.",
+						"lang": "pt-BR",
+						"name": "404 Usuário não achado"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "species-fluid",
+				"locales": [
+					{
+						"description": "This user's fursona species may change often!",
+						"lang": "en",
+						"name": "Species Fluid"
+					},
+					{
+						"description": "Este usuário é ser que transforma muito!",
+						"lang": "pt-BR",
+						"name": "Espécie Líquida"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snail",
+				"locales": [
+					{
+						"description": "This user is a Snail!",
+						"lang": "en",
+						"name": "Snail"
+					},
+					{
+						"description": "Este usuário é uma Lesma! AKA: Caracol.",
+						"lang": "pt-BR",
+						"name": "Lesma"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "insect",
+				"locales": [
+					{
+						"description": "This user is an Insect!",
+						"lang": "en",
+						"name": "Insect"
+					},
+					{
+						"description": "Este usuário é um Inseto! Bzzzz!",
+						"lang": "pt-BR",
+						"name": "Inseto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "avali",
+				"locales": [
+					{
+						"description": "This user is an Avali! https://en.wikifur.com/wiki/Avali",
+						"lang": "en",
+						"name": "Avali"
+					},
+					{
+						"description": "Este usuário é um Avali! https://en.wikifur.com/wiki/Avali",
+						"lang": "pt-BR",
+						"name": "Avali"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alien",
+				"locales": [
+					{
+						"description": "This user is an Alien!",
+						"lang": "en",
+						"name": "Alien"
+					},
+					{
+						"description": "Este usuário é um Alien!",
+						"lang": "pt-BR",
+						"name": "Alien"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dingo",
+				"locales": [
+					{
+						"description": "This user is a Dingo!",
+						"lang": "en",
+						"name": "Dingo"
+					},
+					{
+						"description": "Este usuário é um Dingo! AKA: Cachorro, Lobo.",
+						"lang": "pt-BR",
+						"name": "Dingo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "coastal-wolf",
+				"locales": [
+					{
+						"description": "This user is a Coastal Wolf! https://en.wikipedia.org/wiki/Vancouver_Coastal_Sea_wolf",
+						"lang": "en",
+						"name": "Coastal Wolf"
+					},
+					{
+						"description": "Este usuário é um Lobo Costeiro! https://en.wikipedia.org/wiki/Vancouver_Coastal_Sea_wolf",
+						"lang": "pt-BR",
+						"name": "Lobo Costeiro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "maned-wolf",
+				"locales": [
+					{
+						"description": "This user is a Maned Wolf!",
+						"lang": "en",
+						"name": "Maned Wolf"
+					},
+					{
+						"description": "Este usuário é um Lobo-Guará! AKA: Lobo.",
+						"lang": "pt-BR",
+						"name": "Lobo-Guará"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jackalope",
+				"locales": [
+					{
+						"description": "This user is a Jackalope!",
+						"lang": "en",
+						"name": "Jackalope"
+					},
+					{
+						"description": "Este usuário é um Lebrípole! AKA: Coelho, Cervo, Jackalope.",
+						"lang": "pt-BR",
+						"name": "Lebrípole"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shiba-inu",
+				"locales": [
+					{
+						"description": "This user is a Shiba Inu!",
+						"lang": "en",
+						"name": "Shiba Inu"
+					},
+					{
+						"description": "Este usuário é um Shiba! Au au!",
+						"lang": "pt-BR",
+						"name": "Shiba Inu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shikoku-inu",
+				"locales": [
+					{
+						"description": "This user is a Shikoku Inu!",
+						"lang": "en",
+						"name": "Shikoku Inu"
+					},
+					{
+						"description": "Este usuário é um Shikoku Inu! AKA: Cachorro.",
+						"lang": "pt-BR",
+						"name": "Shikoku Inu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vampire",
+				"locales": [
+					{
+						"description": "This user is a Vampire!",
+						"lang": "en",
+						"name": "Vampire"
+					},
+					{
+						"description": "Este usuário é um Vampiro!",
+						"lang": "pt-BR",
+						"name": "Vampiro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "supernatural-creature",
+				"locales": [
+					{
+						"description": "This user is a Supernatural Creature!",
+						"lang": "en",
+						"name": "Supernatural Creature"
+					},
+					{
+						"description": "Este usuário é uma Criatura Sobrenatural!",
+						"lang": "pt-BR",
+						"name": "Criatura Sobrenatural"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yokai",
+				"locales": [
+					{
+						"description": "This user is a Yokai!",
+						"lang": "en",
+						"name": "Yokai"
+					},
+					{
+						"description": "Este usuário é um Yokai! AKA: Criatura Mágica, Kitsune.",
+						"lang": "pt-BR",
+						"name": "Youkai"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hellhound",
+				"locales": [
+					{
+						"description": "This user is a Hellhound!",
+						"lang": "en",
+						"name": "Hellhound"
+					},
+					{
+						"description": "Este usuário é um Cérbero! AKA: Cérbero, Cachorro",
+						"lang": "pt-BR",
+						"name": "Hellhound"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "demon",
+				"locales": [
+					{
+						"description": "This user is a Demon!",
+						"lang": "en",
+						"name": "Demon"
+					},
+					{
+						"description": "Este usuário é um Demônio!",
+						"lang": "pt-BR",
+						"name": "Demônio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "salamander",
+				"locales": [
+					{
+						"description": "This user is a Salamander!",
+						"lang": "en",
+						"name": "Salamander"
+					},
+					{
+						"description": "Este usuário é uma Salamandra!",
+						"lang": "pt-BR",
+						"name": "Salamandra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neopet",
+				"locales": [
+					{
+						"description": "This user is a Neopet! [Category: Neopet]",
+						"lang": "en",
+						"name": "Neopet"
+					},
+					{
+						"description": "Este usuário é um mascote Neopet! [Category: Neopet]",
+						"lang": "pt-BR",
+						"name": "Neopet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crux",
+				"locales": [
+					{
+						"description": "This user is a Crux! https://en.wikifur.com/wiki/Crux_(species)",
+						"lang": "en",
+						"name": "Crux"
+					},
+					{
+						"description": "Este usuário é um Crux!",
+						"lang": "pt-BR",
+						"name": "Crux"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "raptor",
+				"locales": [
+					{
+						"description": "This user is a Raptor! [Category: Dinosaur]",
+						"lang": "en",
+						"name": "Raptor"
+					},
+					{
+						"description": "Este usuário é um Velociraptor! [Category: Dinossauro]",
+						"lang": "pt-BR",
+						"name": "Velociraptor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shapeshifter",
+				"locales": [
+					{
+						"description": "This user is a Shapeshifter!",
+						"lang": "en",
+						"name": "Shapeshifter"
+					},
+					{
+						"description": "Este usuário é um Metamorfo!",
+						"lang": "pt-BR",
+						"name": "Metamorfo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "axolotl",
+				"locales": [
+					{
+						"description": "This user is an Axolotl!",
+						"lang": "en",
+						"name": "Axolotl"
+					},
+					{
+						"description": "Este usuário é um Axolote",
+						"lang": "pt-BR",
+						"name": "Axolote"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eagle",
+				"locales": [
+					{
+						"description": "This user is an Eagle! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Eagle"
+					},
+					{
+						"description": "Este usuário é uma Águia! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Águia"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "falcon",
+				"locales": [
+					{
+						"description": "This user is a Falcon! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Falcon"
+					},
+					{
+						"description": "Este usuário é um Falcão! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Falcão"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chicken",
+				"locales": [
+					{
+						"description": "This user is a Chicken! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Chicken"
+					},
+					{
+						"description": "Este usuário é uma Galinha! có-có-có! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Galinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "duck",
+				"locales": [
+					{
+						"description": "This user is a Duck! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Duck"
+					},
+					{
+						"description": "Este usuário é uma Pato! quac-quac! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Pato"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parrot",
+				"locales": [
+					{
+						"description": "This user is a Parrot! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Parrot"
+					},
+					{
+						"description": "Este usuário é um Papagaio! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Papagaio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crow",
+				"locales": [
+					{
+						"description": "This user is a Crow! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Crow"
+					},
+					{
+						"description": "Este usuário é um Corvo! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Corvo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "raven",
+				"locales": [
+					{
+						"description": "This user is a Raven! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Raven"
+					},
+					{
+						"description": "Este usuário é um Corvo! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Corvo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blue-jay",
+				"locales": [
+					{
+						"description": "This user is a Blue Jay! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Blue Jay"
+					},
+					{
+						"description": "Este usuário é um Gaio-azul! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Gaio-azul"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "goose",
+				"locales": [
+					{
+						"description": "This user is a Goose! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Goose"
+					},
+					{
+						"description": "Este usuário é um Ganso! quá quá! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Ganso"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "swan",
+				"locales": [
+					{
+						"description": "This user is a Swan! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Swan"
+					},
+					{
+						"description": "Este usuário é um Cisne! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Cisne"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "penguin",
+				"locales": [
+					{
+						"description": "This user is a Penguin! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Penguin"
+					},
+					{
+						"description": "Este usuário é um Pinguim! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Pinguim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pigeon",
+				"locales": [
+					{
+						"description": "This user is a Pigeon! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Pigeon"
+					},
+					{
+						"description": "Este usuário é um Pombo! prú prú [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Pombo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dove",
+				"locales": [
+					{
+						"description": "This user is a Dove! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Dove"
+					},
+					{
+						"description": "Este usuário é um Pombo! prú prú [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Pombo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cardinal",
+				"locales": [
+					{
+						"description": "This user is a Cardinal! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Cardinal"
+					},
+					{
+						"description": "Este usuário é um Cardeal! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Cardeal "
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robin",
+				"locales": [
+					{
+						"description": "This user is a Robin! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Robin"
+					},
+					{
+						"description": "Este usuário é um Pisco-de-peito-ruivo! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Pisco"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gecko",
+				"locales": [
+					{
+						"description": "This user is a Gecko!",
+						"lang": "en",
+						"name": "Gecko"
+					},
+					{
+						"description": "Este usuário é um Gecko!",
+						"lang": "pt-BR",
+						"name": "Gecko "
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "quox",
+				"locales": [
+					{
+						"description": "This user is a Quox! https://breezewiki.com/towerofdruaga/wiki/Quox",
+						"lang": "en",
+						"name": "Quox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chimera",
+				"locales": [
+					{
+						"description": "This user is a Chimera!",
+						"lang": "en",
+						"name": "Chimera"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kitsune",
+				"locales": [
+					{
+						"description": "This user is a Kitsune!",
+						"lang": "en",
+						"name": "Kitsune"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sheep",
+				"locales": [
+					{
+						"description": "This user is a Sheep!",
+						"lang": "en",
+						"name": "Sheep"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ram",
+				"locales": [
+					{
+						"description": "This user is a Ram!",
+						"lang": "en",
+						"name": "Ram"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "owl",
+				"locales": [
+					{
+						"description": "This user is an Owl! Hoot!",
+						"lang": "en",
+						"name": "Owl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robot",
+				"locales": [
+					{
+						"description": "This user is a Robot!",
+						"lang": "en",
+						"name": "Robot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "komodo-dragon",
+				"locales": [
+					{
+						"description": "This user is a Komodo Dragon!",
+						"lang": "en",
+						"name": "Komodo Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pig",
+				"locales": [
+					{
+						"description": "This user is a Pig!",
+						"lang": "en",
+						"name": "Pig"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "golden-retriever",
+				"locales": [
+					{
+						"description": "This user is a Golden Retriever!",
+						"lang": "en",
+						"name": "Golden Retriever"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peafowl",
+				"locales": [
+					{
+						"description": "This user is a Peafowl! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Peafowl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "serval",
+				"locales": [
+					{
+						"description": "This user is a Serval!",
+						"lang": "en",
+						"name": "Serval"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lionbear",
+				"locales": [
+					{
+						"description": "This user is a Lionbear!",
+						"lang": "en",
+						"name": "Lionbear"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elk",
+				"locales": [
+					{
+						"description": "This user is an Elk!",
+						"lang": "en",
+						"name": "Elk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mightyena",
+				"locales": [
+					{
+						"description": "This user is a Mightyena! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Mightyena"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "moose",
+				"locales": [
+					{
+						"description": "This user is a Moose!",
+						"lang": "en",
+						"name": "Moose"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sloth",
+				"locales": [
+					{
+						"description": "This user is a Sloth!",
+						"lang": "en",
+						"name": "Sloth"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "macaw",
+				"locales": [
+					{
+						"description": "This user is a Macaw! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Macaw"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "giant-panda",
+				"locales": [
+					{
+						"description": "This user is a Giant Panda!",
+						"lang": "en",
+						"name": "Giant Panda"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hamster",
+				"locales": [
+					{
+						"description": "This user is a Hamster!",
+						"lang": "en",
+						"name": "Hamster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "polar-bear",
+				"locales": [
+					{
+						"description": "This user is a Polar Bear!",
+						"lang": "en",
+						"name": "Polar Bear"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "frog",
+				"locales": [
+					{
+						"description": "This user is a Frog!",
+						"lang": "en",
+						"name": "Frog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gnoll",
+				"locales": [
+					{
+						"description": "This user is a Gnoll!",
+						"lang": "en",
+						"name": "Gnoll"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "african-crested-porcupine",
+				"locales": [
+					{
+						"description": "This user is an African Crested Porcupine!",
+						"lang": "en",
+						"name": "African Crested Porcupine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "arctic-fox",
+				"locales": [
+					{
+						"description": "This user is an Arctic Fox! AKA: Snowfox, Snow Fox",
+						"lang": "en",
+						"name": "Snowfox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tasmanian-devil",
+				"locales": [
+					{
+						"description": "This user is a Tasmanian Devil!",
+						"lang": "en",
+						"name": "Tasmanian Devil"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pangolin",
+				"locales": [
+					{
+						"description": "This user is a Pangolin!",
+						"lang": "en",
+						"name": "Pangolin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rhino",
+				"locales": [
+					{
+						"description": "This user is a Rhino!",
+						"lang": "en",
+						"name": "Rhino"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "porcupine",
+				"locales": [
+					{
+						"description": "This user is a Porcupine!",
+						"lang": "en",
+						"name": "Porcupine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gargoyle",
+				"locales": [
+					{
+						"description": "This user is a Gargoyle!",
+						"lang": "en",
+						"name": "Gargoyle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zebra",
+				"locales": [
+					{
+						"description": "This user is a Zebra!",
+						"lang": "en",
+						"name": "Zebra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hawk",
+				"locales": [
+					{
+						"description": "This user is a Hawk!",
+						"lang": "en",
+						"name": "Hawk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "monkey",
+				"locales": [
+					{
+						"description": "This user is a Monkey!",
+						"lang": "en",
+						"name": "Monkey"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cabbit",
+				"locales": [
+					{
+						"description": "This user is a Cabbit!",
+						"lang": "en",
+						"name": "Cabbit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "badger",
+				"locales": [
+					{
+						"description": "This user is a Badger! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Badger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jaguar",
+				"locales": [
+					{
+						"description": "This user is a Jaguar!",
+						"lang": "en",
+						"name": "Jaguar"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "giraffe",
+				"locales": [
+					{
+						"description": "This user is a Giraffe!",
+						"lang": "en",
+						"name": "Giraffe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spider",
+				"locales": [
+					{
+						"description": "This user is a Spider!",
+						"lang": "en",
+						"name": "Spider"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "langurhali",
+				"locales": [
+					{
+						"description": "This user is a Langurhali! https://en.wikifur.com/wiki/Vera#Langurhali",
+						"lang": "en",
+						"name": "Langurhali"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "black-bear",
+				"locales": [
+					{
+						"description": "This user is a Black Bear!",
+						"lang": "en",
+						"name": "Black Bear"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "platypus",
+				"locales": [
+					{
+						"description": "This user is a Platypus!",
+						"lang": "en",
+						"name": "Platypus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bee",
+				"locales": [
+					{
+						"description": "This user is a Bee!",
+						"lang": "en",
+						"name": "Bee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "husky",
+				"locales": [
+					{
+						"description": "This user is a Husky!",
+						"lang": "en",
+						"name": "Husky"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sparkledog",
+				"locales": [
+					{
+						"description": "This user is a Sparkledog!",
+						"lang": "en",
+						"name": "Sparkledog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sparklefur",
+				"locales": [
+					{
+						"description": "This user is a Sparklefur!",
+						"lang": "en",
+						"name": "Sparklefur"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lemur",
+				"locales": [
+					{
+						"description": "This user is a Lemur!",
+						"lang": "en",
+						"name": "Lemur"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "toy",
+				"locales": [
+					{
+						"description": "This user is a Toy!",
+						"lang": "en",
+						"name": "Toy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "meerkat",
+				"locales": [
+					{
+						"description": "This user is a Meerkat!",
+						"lang": "en",
+						"name": "Meerkat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kudu",
+				"locales": [
+					{
+						"description": "This user is a Kudu!",
+						"lang": "en",
+						"name": "Kudu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gorgonopsid",
+				"locales": [
+					{
+						"description": "This user is a Gorgonopsid!",
+						"lang": "en",
+						"name": "Gorgonopsid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plushie",
+				"locales": [
+					{
+						"description": "This user is a Plushie!",
+						"lang": "en",
+						"name": "Plushie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "weavile",
+				"locales": [
+					{
+						"description": "This user is a Weavile! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Weavile"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blue-marlin",
+				"locales": [
+					{
+						"description": "This user is a Blue Marlin!",
+						"lang": "en",
+						"name": "Blue Marlin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elephant",
+				"locales": [
+					{
+						"description": "This user is an Elephant!",
+						"lang": "en",
+						"name": "Elephant"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mammoth",
+				"locales": [
+					{
+						"description": "This user is a Mammoth!",
+						"lang": "en",
+						"name": "Mammoth"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "caracal",
+				"locales": [
+					{
+						"description": "This user is a Caracal!",
+						"lang": "en",
+						"name": "Caracal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bobcat",
+				"locales": [
+					{
+						"description": "This user is a Bobcat!",
+						"lang": "en",
+						"name": "Bobcat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kaiju",
+				"locales": [
+					{
+						"description": "This user is a Kaiju!",
+						"lang": "en",
+						"name": "Kaiju"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "monster",
+				"locales": [
+					{
+						"description": "This user is a Monster!",
+						"lang": "en",
+						"name": "Monster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cow",
+				"locales": [
+					{
+						"description": "This user is a Cow!",
+						"lang": "en",
+						"name": "Cow"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "muscovy-duck",
+				"locales": [
+					{
+						"description": "This user is a Muscovy Duck!",
+						"lang": "en",
+						"name": "Muscovy Duck"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dachshund",
+				"locales": [
+					{
+						"description": "This user is a Dachshund!",
+						"lang": "en",
+						"name": "Dachshund"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hound-dog",
+				"locales": [
+					{
+						"description": "This user is a Hound Dog!",
+						"lang": "en",
+						"name": "Hound Dog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "small-dog",
+				"locales": [
+					{
+						"description": "This user is a Small Dog!",
+						"lang": "en",
+						"name": "Small Dog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tiger-dragon",
+				"locales": [
+					{
+						"description": "This user is a Tiger-Dragon!",
+						"lang": "en",
+						"name": "Tiger-Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dracat",
+				"locales": [
+					{
+						"description": "This user is a Dracat!",
+						"lang": "en",
+						"name": "Dracat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chihuahua",
+				"locales": [
+					{
+						"description": "This user is a Chihuahua!",
+						"lang": "en",
+						"name": "Chihuahua"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "african-wild-dog",
+				"locales": [
+					{
+						"description": "This user is an African Wild Dog!",
+						"lang": "en",
+						"name": "African Wild Dog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skulldog",
+				"locales": [
+					{
+						"description": "This user is a Skulldog!",
+						"lang": "en",
+						"name": "Skulldog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "toon",
+				"locales": [
+					{
+						"description": "This user is a Toon!",
+						"lang": "en",
+						"name": "Toon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "coral-reef",
+				"locales": [
+					{
+						"description": "This user is a Coral Reef!",
+						"lang": "en",
+						"name": "Coral Reef"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hummingbird",
+				"locales": [
+					{
+						"description": "This user is a Hummingbird! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Hummingbird"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lucario",
+				"locales": [
+					{
+						"description": "This user is a Lucario! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Lucario"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cocker-spaniel",
+				"locales": [
+					{
+						"description": "This user is a Cocker Spaniel!",
+						"lang": "en",
+						"name": "Cocker Spaniel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "angel",
+				"locales": [
+					{
+						"description": "This user is an Angel!",
+						"lang": "en",
+						"name": "Angel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "solar",
+				"locales": [
+					{
+						"description": "This user's fursona can be described as Solar!",
+						"lang": "en",
+						"name": "Solar"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wolf-dragon",
+				"locales": [
+					{
+						"description": "This user is a Wolf Dragon!",
+						"lang": "en",
+						"name": "Wolf Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ocelot",
+				"locales": [
+					{
+						"description": "This user is an Ocelot!",
+						"lang": "en",
+						"name": "Ocelot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pembroke-welsh-corgi",
+				"locales": [
+					{
+						"description": "This user is a Pembroke Welsh Corgi!",
+						"lang": "en",
+						"name": "Pembroke Welsh Corgi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cardigan-welsh-corgi",
+				"locales": [
+					{
+						"description": "This user is a Cardigan Welsh Corgi!",
+						"lang": "en",
+						"name": "Cardigan Welsh Corgi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "beaver",
+				"locales": [
+					{
+						"description": "This user is a Beaver!",
+						"lang": "en",
+						"name": "Beaver"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tayra",
+				"locales": [
+					{
+						"description": "This user is a Tayra! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Tayra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "golden-jackal",
+				"locales": [
+					{
+						"description": "This user is a Golden Jackal!",
+						"lang": "en",
+						"name": "Golden Jackal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "teshari",
+				"locales": [
+					{
+						"description": "This user is a Teshari! https://ss13polaris.com/index.php?title=Teshari",
+						"lang": "en",
+						"name": "Teshari"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yoshi",
+				"locales": [
+					{
+						"description": "This user is a Yoshi!",
+						"lang": "en",
+						"name": "Yoshi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "guinea-pig",
+				"locales": [
+					{
+						"description": "This user is a Guinea Pig!",
+						"lang": "en",
+						"name": "Guinea Pig"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "arctic-wolf",
+				"locales": [
+					{
+						"description": "This user is an Arctic Wolf! AKA: white wolf, polar wolf, Arctic grey wolf",
+						"lang": "en",
+						"name": "Arctic Wolf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tibetan-fox",
+				"locales": [
+					{
+						"description": "This user is a Tibetan Fox! AKA: Tibetan sand fox",
+						"lang": "en",
+						"name": "Tibetan Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rexouium",
+				"locales": [
+					{
+						"description": "This user is a Rexouium! #VRChat About: https://www.furaffinity.net/view/36134921/",
+						"lang": "en",
+						"name": "Rexouium"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "housefly",
+				"locales": [
+					{
+						"description": "This user is a Housefly!",
+						"lang": "en",
+						"name": "Housefly"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ninetales",
+				"locales": [
+					{
+						"description": "This user is a Ninetales! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Ninetales"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "reindeer",
+				"locales": [
+					{
+						"description": "This user is a Reindeer/Caribou. https://en.wikipedia.org/wiki/Reindeer#Naming",
+						"lang": "en",
+						"name": "Reindeer/Caribou"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "taidum",
+				"locales": [
+					{
+						"description": "This user is a Taidum! #VRChat - https://en.wikifur.com/wiki/Taidum",
+						"lang": "en",
+						"name": "Taidum"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bohemian-shepherd",
+				"locales": [
+					{
+						"description": "This user is a Bohemian Shepherd!",
+						"lang": "en",
+						"name": "Bohemian Shepherd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "obstagoon",
+				"locales": [
+					{
+						"description": "This user is an Obstagoon! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Obstagoon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "golden-eagle",
+				"locales": [
+					{
+						"description": "This user is a Golden Eagle! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Golden Eagle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "genet",
+				"locales": [
+					{
+						"description": "This user is a Genet!",
+						"lang": "en",
+						"name": "Genet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wyvern",
+				"locales": [
+					{
+						"description": "This user is a Wyvern!",
+						"lang": "en",
+						"name": "Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "heeler",
+				"locales": [
+					{
+						"description": "This user is a Heeler!",
+						"lang": "en",
+						"name": "Heeler"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blue-heeler",
+				"locales": [
+					{
+						"description": "This user is a Blue Heeler!",
+						"lang": "en",
+						"name": "Blue Heeler"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "red-heeler",
+				"locales": [
+					{
+						"description": "This user is a Red Heeler!",
+						"lang": "en",
+						"name": "Red Heeler"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "carbuncle",
+				"locales": [
+					{
+						"description": "This user is a Carbuncle! [Category: Final Fantasy]; https://finalfantasy.fandom.com/wiki/Carbuncle_(summon)",
+						"lang": "en",
+						"name": "Carbuncle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alicorn",
+				"locales": [
+					{
+						"description": "This user is an Alicorn! AKA: Winged Unicorn",
+						"lang": "en",
+						"name": "Alicorn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pegasus",
+				"locales": [
+					{
+						"description": "This user is a Pegasus!",
+						"lang": "en",
+						"name": "Pegasus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hyacinth-macaw",
+				"locales": [
+					{
+						"description": "This user is a Hyacinth Macaw! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Hyacinth Macaw"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "digimon",
+				"locales": [
+					{
+						"description": "This user is a Digimon!",
+						"lang": "en",
+						"name": "Digimon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "slipfin",
+				"locales": [
+					{
+						"description": "This user is a Slipfin! #VRChat",
+						"lang": "en",
+						"name": "Slipfin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "goodra",
+				"locales": [
+					{
+						"description": "This user is a Goodra! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Goodra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bat-eared-fox",
+				"locales": [
+					{
+						"description": "This user is a Bat-Eared Fox!",
+						"lang": "en",
+						"name": "Bat-Eared Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "werefox",
+				"locales": [
+					{
+						"description": "This user is a Werefox!",
+						"lang": "en",
+						"name": "Werefox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orangutan",
+				"locales": [
+					{
+						"description": "This user is an Orangutan!",
+						"lang": "en",
+						"name": "Orangutan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bug",
+				"locales": [
+					{
+						"description": "This user is a Bug!",
+						"lang": "en",
+						"name": "Bug"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "border-collie",
+				"locales": [
+					{
+						"description": "This user is a Border Collie!",
+						"lang": "en",
+						"name": "Border Collie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "white-tiger",
+				"locales": [
+					{
+						"description": "This user is a White Tiger!",
+						"lang": "en",
+						"name": "White Tiger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "salandit",
+				"locales": [
+					{
+						"description": "This user is a Salandit! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Salandit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cacomistle",
+				"locales": [
+					{
+						"description": "This user is a Cacomistle! [Category: Cacomistle]",
+						"lang": "en",
+						"name": "Cacomistle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ringtail",
+				"locales": [
+					{
+						"description": "This user is a Ringtail! [Category: Cacomistle]",
+						"lang": "en",
+						"name": "Ringtail"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kingfisher",
+				"locales": [
+					{
+						"description": "This user is a Kingfisher! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Kingfisher"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "german-shepherd",
+				"locales": [
+					{
+						"description": "This user is a German Shepherd!",
+						"lang": "en",
+						"name": "German Shepherd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lumex",
+				"locales": [
+					{
+						"description": "This user is a Lumex! [Tags: open-species]",
+						"lang": "en",
+						"name": "Lumex"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sphinx",
+				"locales": [
+					{
+						"description": "This user is a Sphinx!",
+						"lang": "en",
+						"name": "Sphinx"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "synth",
+				"locales": [
+					{
+						"description": "This user is a Synth!",
+						"lang": "en",
+						"name": "Synth"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "turtle",
+				"locales": [
+					{
+						"description": "This user is a Turtle!",
+						"lang": "en",
+						"name": "Turtle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "drake",
+				"locales": [
+					{
+						"description": "This user is a Drake!",
+						"lang": "en",
+						"name": "Drake"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robot-dragon",
+				"locales": [
+					{
+						"description": "This user is a Robot Dragon!",
+						"lang": "en",
+						"name": "Robot Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hare",
+				"locales": [
+					{
+						"description": "This user is a Hare! AKA: bunny",
+						"lang": "en",
+						"name": "Hare"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clown",
+				"locales": [
+					{
+						"description": "This user is a Clown!",
+						"lang": "en",
+						"name": "Clown"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fisher",
+				"locales": [
+					{
+						"description": "This user is a Fisher! [Category: Mustelid]",
+						"lang": "en",
+						"name": "Fisher"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lizardfolk",
+				"locales": [
+					{
+						"description": "This user is a Lizardfolk!",
+						"lang": "en",
+						"name": "Lizardfolk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pikachu",
+				"locales": [
+					{
+						"description": "This user is a Pikachu! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Pikachu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oni",
+				"locales": [
+					{
+						"description": "This user is an Oni! [Category: Folklore]",
+						"lang": "en",
+						"name": "Oni"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "merfolk",
+				"locales": [
+					{
+						"description": "This user is a Merfolk!",
+						"lang": "en",
+						"name": "Merfolk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clouded-leopard",
+				"locales": [
+					{
+						"description": "This user is a Clouded Leopard!",
+						"lang": "en",
+						"name": "Clouded Leopard"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stellers-jay",
+				"locales": [
+					{
+						"description": "This user is a Steller's Jay! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Steller's Jay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "This user is a Troll! [Category: Folklore]",
+						"lang": "en",
+						"name": "Troll (Folklore)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "moth",
+				"locales": [
+					{
+						"description": "This user is a Moth!",
+						"lang": "en",
+						"name": "Moth"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "charmander",
+				"locales": [
+					{
+						"description": "This user is a Charmander! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Charmander"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "panther",
+				"locales": [
+					{
+						"description": "This user is a Panther!",
+						"lang": "en",
+						"name": "Panther"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "marsupial",
+				"locales": [
+					{
+						"description": "This user is a Marsupial! [Category: Marsupial]",
+						"lang": "en",
+						"name": "Marsupial"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tasmanian-tiger",
+				"locales": [
+					{
+						"description": "This user is a Tasmanian Tiger! AKA: Thylacine [Category: Marsupial]",
+						"lang": "en",
+						"name": "Tasmanian Tiger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wolfdog",
+				"locales": [
+					{
+						"description": "This user is a Wolfdog!",
+						"lang": "en",
+						"name": "Wolfdog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "southern-ethiopian-wolf",
+				"locales": [
+					{
+						"description": "This user is a Southern Ethiopian Wolf!",
+						"lang": "en",
+						"name": "Southern Ethiopian Wolf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ampwave",
+				"locales": [
+					{
+						"description": "This user is an Ampwave! [Tags: open-species] https://www.ampwavespecies.com/",
+						"lang": "en",
+						"name": "Ampwave"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skunkbear",
+				"locales": [
+					{
+						"description": "This user is a Skunkbear!",
+						"lang": "en",
+						"name": "Skunkbear"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoroark",
+				"locales": [
+					{
+						"description": "This user is a Zoroark! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Zoroark"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "opossum",
+				"locales": [
+					{
+						"description": "This user is an Opossum! AKA: Possum [Category: Marsupial]",
+						"lang": "en",
+						"name": "Opossum"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "egyptian-cobra",
+				"locales": [
+					{
+						"description": "This user is an Egyptian Cobra! [Category: Snake]",
+						"lang": "en",
+						"name": "Egyptian Cobra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cobra",
+				"locales": [
+					{
+						"description": "This user is a Cobra! [Category: Snake]",
+						"lang": "en",
+						"name": "Cobra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "boa-constrictor",
+				"locales": [
+					{
+						"description": "This user is a Boa Constrictor! AKA: Common Boa. [Category: Snake]",
+						"lang": "en",
+						"name": "Boa Constrictor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "amphibian",
+				"locales": [
+					{
+						"description": "This user is an Amphibian!",
+						"lang": "en",
+						"name": "Amphibian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bird-wyvern",
+				"locales": [
+					{
+						"description": "This user is a Bird Wyvern! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Bird Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "brute-wyvern",
+				"locales": [
+					{
+						"description": "This user is a Brute Wyvern! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Brute Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "carapaceon",
+				"locales": [
+					{
+						"description": "This user is a Carapaceon! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Carapaceon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fanged-beast",
+				"locales": [
+					{
+						"description": "This user is a Fanged Beast! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Fanged Beast"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fanged-wyvern",
+				"locales": [
+					{
+						"description": "This user is a Fanged Wyvern! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Fanged Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "herbivore",
+				"locales": [
+					{
+						"description": "This user is a Herbivore!",
+						"lang": "en",
+						"name": "Herbivore"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "flying-wyvern",
+				"locales": [
+					{
+						"description": "This user is a Flying Wyvern! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Flying Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lynian",
+				"locales": [
+					{
+						"description": "This user is a Lynian! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Lynian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neopteron",
+				"locales": [
+					{
+						"description": "This user is a Neopteron! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Neopteron"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "piscine-wyvern",
+				"locales": [
+					{
+						"description": "This user is a Piscine Wyvern! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Piscine Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snake-wyvern",
+				"locales": [
+					{
+						"description": "This user is a Snake Wyvern! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Snake Wyvern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "temnoceran",
+				"locales": [
+					{
+						"description": "This user is a Temnoceran! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Temnoceran"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wingdrake",
+				"locales": [
+					{
+						"description": "This user is a Wingdrake! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Wingdrake"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "leviathan",
+				"locales": [
+					{
+						"description": "This user is a Leviathan! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Leviathan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elder-dragon",
+				"locales": [
+					{
+						"description": "This user is an Elder Dragon! [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Elder Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "canterwit",
+				"locales": [
+					{
+						"description": "This user is a Canterwit! [Tags: closed-species] https://canterwit.weebly.com/introduction.html",
+						"lang": "en",
+						"name": "Canterwit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "furred-dragon",
+				"locales": [
+					{
+						"description": "This user is a Furred Dragon!",
+						"lang": "en",
+						"name": "Furred Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eastern-dragon",
+				"locales": [
+					{
+						"description": "This user is an Eastern Dragon!",
+						"lang": "en",
+						"name": "Eastern Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "arctic-hare",
+				"locales": [
+					{
+						"description": "This user is an Arctic Hare!",
+						"lang": "en",
+						"name": "Arctic Hare"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koopa",
+				"locales": [
+					{
+						"description": "This user is a Koopa!",
+						"lang": "en",
+						"name": "Koopa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jerboa",
+				"locales": [
+					{
+						"description": "This user is a Jerboa!",
+						"lang": "en",
+						"name": "Jerboa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "arcanine",
+				"locales": [
+					{
+						"description": "This user is an Arcanine! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Arcanine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "monster-girl",
+				"locales": [
+					{
+						"description": "This user is a Monster Girl!",
+						"lang": "en",
+						"name": "Monster Girl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skaven",
+				"locales": [
+					{
+						"description": "This user is a Skaven!",
+						"lang": "en",
+						"name": "Skaven"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wererat",
+				"locales": [
+					{
+						"description": "This user is a Wererat!",
+						"lang": "en",
+						"name": "Wererat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eevee",
+				"locales": [
+					{
+						"description": "This user is an Eevee! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Eevee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sylveon",
+				"locales": [
+					{
+						"description": "This user is a Sylveon! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Sylveon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "puffball",
+				"locales": [
+					{
+						"description": "This user is a Puffball! (think: Kirby)",
+						"lang": "en",
+						"name": "Puffball"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cozumel-raccoon",
+				"locales": [
+					{
+						"description": "This user is a Cozumel Raccoon!",
+						"lang": "en",
+						"name": "Cozumel Raccoon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "malagasy-giant-rat",
+				"locales": [
+					{
+						"description": "This user is a Malagasy Giant Rat!",
+						"lang": "en",
+						"name": "Malagasy Giant Rat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inkblot-toon",
+				"locales": [
+					{
+						"description": "This user is an Inkblot Toon!",
+						"lang": "en",
+						"name": "Inkblot Toon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "anomalocaris",
+				"locales": [
+					{
+						"description": "This user is an Anomalocaris!",
+						"lang": "en",
+						"name": "Anomalocaris"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "manticore",
+				"locales": [
+					{
+						"description": "This user is a Manticore!",
+						"lang": "en",
+						"name": "Manticore"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scottish-fold-munchkin",
+				"locales": [
+					{
+						"description": "This user is a Scottish Fold Munchkin!",
+						"lang": "en",
+						"name": "Scottish Fold Munchkin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "striped-hyena",
+				"locales": [
+					{
+						"description": "This user is a Striped Hyena!",
+						"lang": "en",
+						"name": "Striped Hyena"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "brown-hyena",
+				"locales": [
+					{
+						"description": "This user is a Brown Hyena!",
+						"lang": "en",
+						"name": "Brown Hyena"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vulpix",
+				"locales": [
+					{
+						"description": "This user is a Vulpix! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Vulpix"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "flamingo",
+				"locales": [
+					{
+						"description": "This user is a Flamingo! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Flamingo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plant",
+				"locales": [
+					{
+						"description": "This user is a Plant!",
+						"lang": "en",
+						"name": "Plant"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "argonian",
+				"locales": [
+					{
+						"description": "This user is an Argonian!",
+						"lang": "en",
+						"name": "Argonian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lombax",
+				"locales": [
+					{
+						"description": "This user is a Lombax!",
+						"lang": "en",
+						"name": "Lombax"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nargacuga",
+				"locales": [
+					{
+						"description": "This user is a Nargacuga!  [Category: Monster Hunter]",
+						"lang": "en",
+						"name": "Nargacuga"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "swampert",
+				"locales": [
+					{
+						"description": "This user is a Swampert! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Swampert"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vaporeon",
+				"locales": [
+					{
+						"description": "This user is a Vaporeon!  [Category: Pokemon]",
+						"lang": "en",
+						"name": "Vaporeon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stingray",
+				"locales": [
+					{
+						"description": "This user is a Stingray!",
+						"lang": "en",
+						"name": "Stingray"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "seagull",
+				"locales": [
+					{
+						"description": "This user is a Seagull! AKA: Gull.  [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Seagull"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "triceratops",
+				"locales": [
+					{
+						"description": "This user is a Triceratops!",
+						"lang": "en",
+						"name": "Triceratops"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "australian-shepherd",
+				"locales": [
+					{
+						"description": "This user is an Australian Shepherd!",
+						"lang": "en",
+						"name": "Australian Shepherd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hrothgar",
+				"locales": [
+					{
+						"description": "This user is a Hrothgar!",
+						"lang": "en",
+						"name": "Hrothgar"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "greyhound",
+				"locales": [
+					{
+						"description": "This user is a Greyhound!",
+						"lang": "en",
+						"name": "Greyhound"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "umbreon",
+				"locales": [
+					{
+						"description": "This user is an Umbreon! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Umbreon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "platinum-fox",
+				"locales": [
+					{
+						"description": "This user is a Platinum Fox! AKA: Silver Fox, Black Fox, Blue Fox",
+						"lang": "en",
+						"name": "Platinum Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bandicoot",
+				"locales": [
+					{
+						"description": "This user is a Bandicoot! [Category: Marsupial]",
+						"lang": "en",
+						"name": "Bandicoot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koala",
+				"locales": [
+					{
+						"description": "This user is a Koala! [Category: Marsupial]",
+						"lang": "en",
+						"name": "Koala"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "potoroo",
+				"locales": [
+					{
+						"description": "This user is a Potoroo! [Category: Marsupial]",
+						"lang": "en",
+						"name": "Potoroo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sugar-glider",
+				"locales": [
+					{
+						"description": "This user is a Sugar Glider! [Category: Marsupial]",
+						"lang": "en",
+						"name": "Sugar Glider"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cougar",
+				"locales": [
+					{
+						"description": "This user is a Cougar!",
+						"lang": "en",
+						"name": "Cougar"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "buizel",
+				"locales": [
+					{
+						"description": "This user is a Buizel! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Buizel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lupe",
+				"locales": [
+					{
+						"description": "This user is a Lupe! [Category: Neopet]",
+						"lang": "en",
+						"name": "Lupe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aisha",
+				"locales": [
+					{
+						"description": "This user is an Aisha! [Category: Neopet]",
+						"lang": "en",
+						"name": "Aisha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bori",
+				"locales": [
+					{
+						"description": "This user is a Bori! [Category: Neopet]",
+						"lang": "en",
+						"name": "Bori"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ixi",
+				"locales": [
+					{
+						"description": "This user is an Ixi! [Category: Neopet]",
+						"lang": "en",
+						"name": "Ixi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kougra",
+				"locales": [
+					{
+						"description": "This user is a Kougra! [Category: Neopet]",
+						"lang": "en",
+						"name": "Kougra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "xweetok",
+				"locales": [
+					{
+						"description": "This user is a Xweetok! [Category: Neopet]",
+						"lang": "en",
+						"name": "Xweetok"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zafara",
+				"locales": [
+					{
+						"description": "This user is a Zafara! [Category: Neopet]",
+						"lang": "en",
+						"name": "Zafara"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liger",
+				"locales": [
+					{
+						"description": "This user is a Liger!",
+						"lang": "en",
+						"name": "Liger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sabertooth-liger",
+				"locales": [
+					{
+						"description": "This user is a Sabertooth Liger!",
+						"lang": "en",
+						"name": "Sabertooth Liger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "grey-wolf",
+				"locales": [
+					{
+						"description": "This user is a Grey Wolf!",
+						"lang": "en",
+						"name": "Grey Wolf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "borzoi",
+				"locales": [
+					{
+						"description": "This user is a Borzoi!",
+						"lang": "en",
+						"name": "Borzoi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fossa",
+				"locales": [
+					{
+						"description": "This user is a Fossa!",
+						"lang": "en",
+						"name": "Fossa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cross-fox",
+				"locales": [
+					{
+						"description": "This user is a Cross Fox!",
+						"lang": "en",
+						"name": "Cross Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gray-fox",
+				"locales": [
+					{
+						"description": "This user is a Gray Fox!",
+						"lang": "en",
+						"name": "Gray Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "island-fox",
+				"locales": [
+					{
+						"description": "This user is an Island Fox!",
+						"lang": "en",
+						"name": "Island Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "satyr",
+				"locales": [
+					{
+						"description": "This user is a Satyr!",
+						"lang": "en",
+						"name": "Satyr"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pony",
+				"locales": [
+					{
+						"description": "This user is a Pony!",
+						"lang": "en",
+						"name": "Pony"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "radioactive",
+				"locales": [
+					{
+						"description": "☢️This user is radioactive☢️",
+						"lang": "en",
+						"name": "Radioactive"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dovekie",
+				"locales": [
+					{
+						"description": "This user is a Dovekie! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Dovekie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "human",
+				"locales": [
+					{
+						"description": "This user might not necessarily have a fursona, but they're supportive of furries/the fandom!",
+						"lang": "en",
+						"name": "Human"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chocobo",
+				"locales": [
+					{
+						"description": "This user is a Chocobo! [Category: Final Fantasy]",
+						"lang": "en",
+						"name": "Chocobo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chao",
+				"locales": [
+					{
+						"description": "This user is a Chao! [Category: Sonic the Hedgehog]",
+						"lang": "en",
+						"name": "Chao"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "binturong",
+				"locales": [
+					{
+						"description": "This user is a Binturong!",
+						"lang": "en",
+						"name": "Binturong"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dryad",
+				"locales": [
+					{
+						"description": "This user is a Dryad!",
+						"lang": "en",
+						"name": "Dryad"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nimbat",
+				"locales": [
+					{
+						"description": "This user is a Nimbat! (from Dust: An Elysian Tail)",
+						"lang": "en",
+						"name": "Nimbat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gieeg",
+				"locales": [
+					{
+						"description": "This user is a Gieeg! AKA: Geeg. From Earthbound.",
+						"lang": "en",
+						"name": "Gieeg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pup",
+				"locales": [
+					{
+						"description": "This user is a pup!",
+						"lang": "en",
+						"name": "Pup"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "multiple-characters",
+				"locales": [
+					{
+						"description": "This user has multiple characters/fursonas! [Category: Meta]",
+						"lang": "en",
+						"name": "Multi-Character"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "multiple-forms",
+				"locales": [
+					{
+						"description": "This user's fursona may take multiple forms! For example, they may sometimes be depicted as one species, and other times as another. See other labels! [Category: Meta]",
+						"lang": "en",
+						"name": "Multi-Form"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "leopard-gecko",
+				"locales": [
+					{
+						"description": "This user is a Leopard Gecko!",
+						"lang": "en",
+						"name": "Leopard Gecko"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "slugcat",
+				"locales": [
+					{
+						"description": "This user is a Slugcat!",
+						"lang": "en",
+						"name": "Slugcat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vulture",
+				"locales": [
+					{
+						"description": "This user is a Vulture! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Vulture"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bearded-vulture",
+				"locales": [
+					{
+						"description": "This user is a Bearded Vulture! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Bearded Vulture"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cape-fox",
+				"locales": [
+					{
+						"description": "This user is a Cape Fox! AKA: asse, cama fox or silver-backed fox",
+						"lang": "en",
+						"name": "Cape Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "salmonid",
+				"locales": [
+					{
+						"description": "This user is a Salmonid! from Splatoon (video game)",
+						"lang": "en",
+						"name": "Salmonid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hobkin",
+				"locales": [
+					{
+						"description": "This user is a Hobkin! #VRChat https://en.wikifur.com/wiki/Hobkin",
+						"lang": "en",
+						"name": "Hobkin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chipori",
+				"locales": [
+					{
+						"description": "This user is a Chipori! #VRChat",
+						"lang": "en",
+						"name": "Chipori"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "slime",
+				"locales": [
+					{
+						"description": "This user is a Slime!",
+						"lang": "en",
+						"name": "Slime"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "quaker-parrot",
+				"locales": [
+					{
+						"description": "This user is a Quaker Parrot! [Category: Avian/Bird] AKA: monk parakeet, monk parrot",
+						"lang": "en",
+						"name": "Quaker Parrot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nardoragon",
+				"locales": [
+					{
+						"description": "This user is a Nardoragon! #VRChat",
+						"lang": "en",
+						"name": "Nardoragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "caitian",
+				"locales": [
+					{
+						"description": "This user is a Caitian! [Category: Star Trek]",
+						"lang": "en",
+						"name": "Caitian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gorn",
+				"locales": [
+					{
+						"description": "This user is a Gorn! [Category: Star Trek]",
+						"lang": "en",
+						"name": "Gorn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zora",
+				"locales": [
+					{
+						"description": "This user is a Zora! [Category: The Legend of Zelda]",
+						"lang": "en",
+						"name": "Zora"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rito",
+				"locales": [
+					{
+						"description": "This user is a Rito! [Category: The Legend of Zelda]",
+						"lang": "en",
+						"name": "Rito"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "faun",
+				"locales": [
+					{
+						"description": "This user is a Faun!",
+						"lang": "en",
+						"name": "Faun"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "winged",
+				"locales": [
+					{
+						"description": "This user is winged (meaning they have wings)!",
+						"lang": "en",
+						"name": "Winged"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "soundbyte",
+				"locales": [
+					{
+						"description": "This user is a Soundbyte! #VRChat",
+						"lang": "en",
+						"name": "Soundbyte"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "purobyte",
+				"locales": [
+					{
+						"description": "This user is a Purobyte! #VRChat",
+						"lang": "en",
+						"name": "Purobyte"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mongoose",
+				"locales": [
+					{
+						"description": "This user is a Mongoose!",
+						"lang": "en",
+						"name": "Mongoose"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "felkin",
+				"locales": [
+					{
+						"description": "This user is a Felkin! [Tags: closed-species] https://www.deviantart.com/leachymonster/art/Official-Felkin-Species-Guide-522020670, https://cloud.refsheet.net/images/images/000/847/307/medium/1576090003.xenoforge_felkin__ref_2018.png?1619652249",
+						"lang": "en",
+						"name": "Felkin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cockatiel",
+				"locales": [
+					{
+						"description": "This user is a Cockatiel! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Cockatiel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pronghorn",
+				"locales": [
+					{
+						"description": "This user is a Pronghorn!",
+						"lang": "en",
+						"name": "Pronghorn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pudu",
+				"locales": [
+					{
+						"description": "This user is a Pudu!",
+						"lang": "en",
+						"name": "Pudu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orc",
+				"locales": [
+					{
+						"description": "This user is an Orc!",
+						"lang": "en",
+						"name": "Orc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skiltaire",
+				"locales": [
+					{
+						"description": "This user is a Skiltaire! AKA: Skiltare. https://en.wikifur.com/wiki/Skiltaire. Created by Mark Merlino (Sylys Sable) in 1971.",
+						"lang": "en",
+						"name": "Skiltaire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mobian",
+				"locales": [
+					{
+						"description": "This user is a Mobian! [Category: Sonic the Hedgehog]",
+						"lang": "en",
+						"name": "Mobian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cornerian",
+				"locales": [
+					{
+						"description": "This user is a Cornerian! [Category: Star Fox]",
+						"lang": "en",
+						"name": "Cornerian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "allosaurus",
+				"locales": [
+					{
+						"description": "This user is an Allosaurus! [Category: Dinosaur]",
+						"lang": "en",
+						"name": "Allosaurus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragonborn",
+				"locales": [
+					{
+						"description": "This user is a Dragonborn! [Category: D&D]",
+						"lang": "en",
+						"name": "Dragonborn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "worgen",
+				"locales": [
+					{
+						"description": "This user is a Worgen! [Category: World of Warcraft]",
+						"lang": "en",
+						"name": "Worgen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "drone",
+				"locales": [
+					{
+						"description": "This user is a Drone! [Modifier]",
+						"lang": "en",
+						"name": "Drone"
+					},
+					{
+						"description": "Este usuário é um Drone! [Modifier]",
+						"lang": "pt-BR",
+						"name": "Drone"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "samurott",
+				"locales": [
+					{
+						"description": "This user is a Samurott! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Samurott"
+					},
+					{
+						"description": "Este usuário é um Samurott! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Samurott"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "iguana",
+				"locales": [
+					{
+						"description": "This user is an Iguana!",
+						"lang": "en",
+						"name": "Iguana"
+					},
+					{
+						"description": "Este usuário é um Iguana!",
+						"lang": "pt-BR",
+						"name": "Iguana"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bearded-dragon",
+				"locales": [
+					{
+						"description": "This user is a Bearded Dragon!",
+						"lang": "en",
+						"name": "Bearded Dragon"
+					},
+					{
+						"description": "Este usuário é um Dragão-barbudo! AKA: Pogona",
+						"lang": "pt-BR",
+						"name": "Dragão-barbudo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bat-pony",
+				"locales": [
+					{
+						"description": "This user is a Bat Pony! [Category: My Little Pony]",
+						"lang": "en",
+						"name": "Bat Pony"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sandwing",
+				"locales": [
+					{
+						"description": "This user is a Sandwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Sandwing"
+					},
+					{
+						"description": "Este usuário é um Sandwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Sandwing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "icewing",
+				"locales": [
+					{
+						"description": "This user is an Icewing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Icewing"
+					},
+					{
+						"description": "Este usuário é um Icewing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Icewing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rainwing",
+				"locales": [
+					{
+						"description": "This user is a Rainwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Rainwing"
+					},
+					{
+						"description": "Este usuário é um Rainwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Rainwing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nightwing",
+				"locales": [
+					{
+						"description": "This user is a Nightwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Nightwing"
+					},
+					{
+						"description": "Este usuário é um Nightwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Nightwing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mudwing",
+				"locales": [
+					{
+						"description": "This user is a Mudwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Mudwing"
+					},
+					{
+						"description": "Este usuário é um Mudwing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Mudwing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skywing",
+				"locales": [
+					{
+						"description": "This user is a Skywing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Skywing"
+					},
+					{
+						"description": "Este usuário é um Skywing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Skywing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "seawing",
+				"locales": [
+					{
+						"description": "This user is a Seawing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "en",
+						"name": "Seawing"
+					},
+					{
+						"description": "Este usuário é um Seawing! [Category: Wings of Fire] Pyrrhian Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Seawing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "silkwing",
+				"locales": [
+					{
+						"description": "This user is a Silkwing! [Category: Wings of Fire] Pantalan Dragon Tribes",
+						"lang": "en",
+						"name": "Silkwing"
+					},
+					{
+						"description": "Este usuário é um Silkwing! [Category: Wings of Fire] Pantalan Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Silkwing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hivewing",
+				"locales": [
+					{
+						"description": "This user is a Hivewing! [Category: Wings of Fire] Pantalan Dragon Tribes",
+						"lang": "en",
+						"name": "Hivewing"
+					},
+					{
+						"description": "Este usuário é um Hivewing! [Category: Wings of Fire] Pantalan Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Hivewing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "leafwing",
+				"locales": [
+					{
+						"description": "This user is a Leafwing! [Category: Wings of Fire] Pantalan Dragon Tribes",
+						"lang": "en",
+						"name": "Leafwing"
+					},
+					{
+						"description": "Este usuário é um Leafwing! [Category: Wings of Fire] Pantalan Dragon Tribes",
+						"lang": "pt-BR",
+						"name": "Leafwing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dobermann",
+				"locales": [
+					{
+						"description": "This user is a Dobermann!",
+						"lang": "en",
+						"name": "Dobermann"
+					},
+					{
+						"description": "Este usuário é um Dobermann!",
+						"lang": "pt-BR",
+						"name": "Dobermann"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "samoyed",
+				"locales": [
+					{
+						"description": "This user is a Samoyed!",
+						"lang": "en",
+						"name": "Samoyed"
+					},
+					{
+						"description": "Este usuário é um Samoiedo!",
+						"lang": "pt-BR",
+						"name": "Samoiedo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "luxray",
+				"locales": [
+					{
+						"description": "This user is a Luxray! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Luxray"
+					},
+					{
+						"description": "Este usuário é um Luxray! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Luxray"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "solgaleo",
+				"locales": [
+					{
+						"description": "This user is a Solgaleo! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Solgaleo"
+					},
+					{
+						"description": "Este usuário é um Solgaleo! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Solgaleo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mew",
+				"locales": [
+					{
+						"description": "This user is a Mew! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Mew"
+					},
+					{
+						"description": "Este usuário é um Mew! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Mew"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pooka",
+				"locales": [
+					{
+						"description": "This user is a Pooka! [Category: Odin Sphere] #videogame #lagomorph #alien #shapeshifter",
+						"lang": "en",
+						"name": "Pooka"
+					},
+					{
+						"description": "Este usuário é uma Pooka! [Category: Odin Sphere] #videogame #lagomorfos #alien #metamorfo",
+						"lang": "pt-BR",
+						"name": "Pooka"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rottweiler",
+				"locales": [
+					{
+						"description": "This user is a Rottweiler!",
+						"lang": "en",
+						"name": "Rottweiler"
+					},
+					{
+						"description": "Este usuário é um Rottweiler! AKA: Rottinho",
+						"lang": "pt-BR",
+						"name": "Rottweiler"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "succubus",
+				"locales": [
+					{
+						"description": "This user is a Succubus! [Category: Folklore]",
+						"lang": "en",
+						"name": "Succubus"
+					},
+					{
+						"description": "Este usuário é um Súcubo! [Category: Folclore]",
+						"lang": "pt-BR",
+						"name": "Súcubo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "incubus",
+				"locales": [
+					{
+						"description": "This user is an Incubus! [Category: Folklore]",
+						"lang": "en",
+						"name": "Incubus"
+					},
+					{
+						"description": "Este usuário é um Íncubo! [Category: Folclore]",
+						"lang": "pt-BR",
+						"name": "Íncubo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dramster",
+				"locales": [
+					{
+						"description": "This user is a Dramster! https://bsky.app/profile/dramsterden.bsky.social [Tags: open-species]",
+						"lang": "en",
+						"name": "Dramster"
+					},
+					{
+						"description": "Este usuário é um Dramster! https://bsky.app/profile/dramsterden.bsky.social [Tags: livre-espécie]",
+						"lang": "pt-BR",
+						"name": "Dramster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "time-lord",
+				"locales": [
+					{
+						"description": "This user is a Time Lord! [Category: Doctor Who] Combine with other species labels.",
+						"lang": "en",
+						"name": "Time Lord"
+					},
+					{
+						"description": "Este usuário é um Senhor do Tempo! [Category: Doctor Who] Combine com rótulos de outras espécies.",
+						"lang": "pt-BR",
+						"name": "Senhor do Tempo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "iberian-lynx",
+				"locales": [
+					{
+						"description": "This user is an Iberian Lynx!",
+						"lang": "en",
+						"name": "Iberian Lynx"
+					},
+					{
+						"description": "Este usuário é um Lince-ibérico! AKA: liberne, lobo-cerval, gato-fantasma, gato-cerval e gato-lince",
+						"lang": "pt-BR",
+						"name": "Lince-ibérico"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "amphimorpho",
+				"locales": [
+					{
+						"description": "This user is an Amphimorpho! https://amphimorpho.carrd.co/#info  [Tags: open-species]",
+						"lang": "en",
+						"name": "Amphimorpho"
+					},
+					{
+						"description": "Este usuário é um Amphimorpho! https://amphimorpho.carrd.co/#info  [Tags: livre-espécie]",
+						"lang": "pt-BR",
+						"name": "Amphimorpho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "displacer-beast",
+				"locales": [
+					{
+						"description": "This user is a Displacer Beast! [Category: D&D] https://www.aidedd.org/dnd/monstres.php?vo=displacer-beast",
+						"lang": "en",
+						"name": "Displacer Beast"
+					},
+					{
+						"description": "Este usuário é uma Besta Deslocadora! AKA: Displacer Beast [Category: D&D] https://www.aidedd.org/dnd/monstres.php?vo=displacer-beast",
+						"lang": "pt-BR",
+						"name": "Besta Deslocadora"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "totodile",
+				"locales": [
+					{
+						"description": "This user is a Totodile! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Totodile"
+					},
+					{
+						"description": "Este usuário é um Totodile! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Totodile"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "glitchy",
+				"locales": [
+					{
+						"description": "This user is glitchy! (in regards to a protogen or other cybernetic species) [Tag: modifier]",
+						"lang": "en",
+						"name": "Glitchy"
+					},
+					{
+						"description": "Este usuário é um Bugado! (em relação a um protogen ou outra espécie cibernética) [Tag: modifier]",
+						"lang": "pt-BR",
+						"name": "Bugado"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sable",
+				"locales": [
+					{
+						"description": "This user is a Sable!",
+						"lang": "en",
+						"name": "Sable"
+					},
+					{
+						"description": "Este usuário é uma Zibelina! AKA: Marta-zibelina",
+						"lang": "pt-BR",
+						"name": "Zibelina"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inca-ren",
+				"locales": [
+					{
+						"description": "This user is an Inca-Ren! [Tags: open-species] https://www.furaffinity.net/view/4063389/",
+						"lang": "en",
+						"name": "Inca-Ren"
+					},
+					{
+						"description": "Este usuário é um Ren-Inca! [Tags: livre-espécie] https://www.furaffinity.net/view/4063389/",
+						"lang": "pt-BR",
+						"name": "Ren-Inca"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peryton",
+				"locales": [
+					{
+						"description": "This user is a Peryton!",
+						"lang": "en",
+						"name": "Peryton"
+					},
+					{
+						"description": "Este usuário é um Perítio! AKA: Períton",
+						"lang": "pt-BR",
+						"name": "Perítio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "faerie",
+				"locales": [
+					{
+						"description": "This user is a Faerie! AKA: Fairy [Category: Folklore]",
+						"lang": "en",
+						"name": "Faerie"
+					},
+					{
+						"description": "Este usuário é uma Fada! [Category: Folclore]",
+						"lang": "pt-BR",
+						"name": "Fada"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "valravn",
+				"locales": [
+					{
+						"description": "This user is a Valravn! [Category: Folklore]",
+						"lang": "en",
+						"name": "Valravn"
+					},
+					{
+						"description": "Este usuário é um Valravn! AKA: Corvo dos mortos",
+						"lang": "pt-BR",
+						"name": "Valravn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "seraph",
+				"locales": [
+					{
+						"description": "This user is a Seraph!",
+						"lang": "en",
+						"name": "Seraph"
+					},
+					{
+						"description": "Este usuário é um Anjo Serafim!",
+						"lang": "pt-BR",
+						"name": "Anjo Serafim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "werecreature",
+				"locales": [
+					{
+						"description": "This user is a Werecreature!",
+						"lang": "en",
+						"name": "Werecreature"
+					},
+					{
+						"description": "Este usuário é um Homem-criatura!",
+						"lang": "pt-BR",
+						"name": "Homem-criatura"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "burmecian",
+				"locales": [
+					{
+						"description": "This user is a Burmecian! [Category: Final Fantasy]; https://finalfantasy.fandom.com/wiki/Burmecian",
+						"lang": "en",
+						"name": "Burmecian"
+					},
+					{
+						"description": "Este usuário é um Burmecian! [Category: Final Fantasy]; https://finalfantasy.fandom.com/wiki/Burmecian",
+						"lang": "pt-BR",
+						"name": "Burmecian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "absol",
+				"locales": [
+					{
+						"description": "This user is an Absol! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Absol"
+					},
+					{
+						"description": "Este usuário é um Absol! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Absol"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minotaur",
+				"locales": [
+					{
+						"description": "This user is a Minotaur!",
+						"lang": "en",
+						"name": "Minotaur"
+					},
+					{
+						"description": "Este usuário é um Minotauro!",
+						"lang": "pt-BR",
+						"name": "Minotauro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bull",
+				"locales": [
+					{
+						"description": "This user is a Bull!",
+						"lang": "en",
+						"name": "Bull"
+					},
+					{
+						"description": "Este usuário é um Touro!",
+						"lang": "pt-BR",
+						"name": "Touro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "albatross",
+				"locales": [
+					{
+						"description": "This user is an Albatross! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Albatross"
+					},
+					{
+						"description": "Este usuário é um Albatroz! AKA: Piau [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Albatroz"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mystian",
+				"locales": [
+					{
+						"description": "This user is a Mystian! [Tags: open-species]",
+						"lang": "en",
+						"name": "Mystian"
+					},
+					{
+						"description": "Este usuário é uma Mystian! [Tags: livre-espécie]",
+						"lang": "pt-BR",
+						"name": "Mystian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "swift-fox",
+				"locales": [
+					{
+						"description": "This user is a Swift Fox!",
+						"lang": "en",
+						"name": "Swift Fox"
+					},
+					{
+						"description": "Este usuário é uma Raposa-orelhuda! AKA: Raposa-veloz",
+						"lang": "pt-BR",
+						"name": "Raposa-orelhuda"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kangaroo-rat",
+				"locales": [
+					{
+						"description": "This user is a Kangaroo Rat!",
+						"lang": "en",
+						"name": "Kangaroo Rat"
+					},
+					{
+						"description": "Este usuário é um Rato-Canguru! AKA: Dipodomys",
+						"lang": "pt-BR",
+						"name": "Rato-Canguru"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "digital-creature",
+				"locales": [
+					{
+						"description": "This user is a Digital Creature! AKA: Computer Program",
+						"lang": "en",
+						"name": "Digital Creature"
+					},
+					{
+						"description": "Este usuário é uma Criatura Digital! AKA: Programa de Computador",
+						"lang": "pt-BR",
+						"name": "Criatura Digital"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "computer-virus",
+				"locales": [
+					{
+						"description": "This user is a Computer Virus! AKA: Malware",
+						"lang": "en",
+						"name": "Computer Virus"
+					},
+					{
+						"description": "Este usuário é um Vírus de Computador! AKA: Malware",
+						"lang": "pt-BR",
+						"name": "Vírus de Computador"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "slug",
+				"locales": [
+					{
+						"description": "This user is a Slug!",
+						"lang": "en",
+						"name": "Slug"
+					},
+					{
+						"description": "Este usuário é uma Lesma!",
+						"lang": "pt-BR",
+						"name": "Lesma"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sea-slug",
+				"locales": [
+					{
+						"description": "This user is a Sea Slug!",
+						"lang": "en",
+						"name": "Sea Slug"
+					},
+					{
+						"description": "Este usuário é uma Lesma-marinha! AKA: Lesma-do-mar",
+						"lang": "pt-BR",
+						"name": "Lesma-marinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eurasian-eagle-owl",
+				"locales": [
+					{
+						"description": "This user is an Eurasian Eagle Owl! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Eurasian Eagle Owl"
+					},
+					{
+						"description": "Este usuário é um Bufo-real! AKA: Bubo bubo",
+						"lang": "pt-BR",
+						"name": "Bufo-real"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "flying-fox",
+				"locales": [
+					{
+						"description": "This user is a Flying Fox! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Flying Fox"
+					},
+					{
+						"description": "Este usuário é uma Raposa-voadora! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Raposa-voadora"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "guardian-spirit",
+				"locales": [
+					{
+						"description": "This user is a Spirit! AKA: Guardian Spirit. From the Ori video games.",
+						"lang": "en",
+						"name": "Spirit (Ori)"
+					},
+					{
+						"description": "Este usuário é um Espírito! AKA: Espírito Guardião. Do game Ori.",
+						"lang": "pt-BR",
+						"name": "Espírito (Ori)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bernese-mountain-dog",
+				"locales": [
+					{
+						"description": "This user is a Bernese Mountain Dog!",
+						"lang": "en",
+						"name": "Bernese Mountain Dog"
+					},
+					{
+						"description": "Este usuário é um Boiadeiro-bernês! AKA: Boiadeiro de Berna",
+						"lang": "pt-BR",
+						"name": "Boiadeiro-bernês"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bangaa",
+				"locales": [
+					{
+						"description": "This user is a Bangaa! [Category: Final Fantasy] https://finalfantasy.fandom.com/wiki/Bangaa",
+						"lang": "en",
+						"name": "Bangaa"
+					},
+					{
+						"description": "Este usuário é um Bangaa! [Category: Final Fantasy] https://finalfantasy.fandom.com/wiki/Bangaa",
+						"lang": "pt-BR",
+						"name": "Bangaa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wickerbeast",
+				"locales": [
+					{
+						"description": "This user is a Wickerbeast! #VRChat https://www.wickercave.net/ [Tags: open-species]",
+						"lang": "en",
+						"name": "Wickerbeast"
+					},
+					{
+						"description": "Este usuário é um Wickerbeast! #VRChat https://www.wickercave.net/ [Tags: livre-espécie]",
+						"lang": "pt-BR",
+						"name": "Wickerbeast"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alaskan-malamute",
+				"locales": [
+					{
+						"description": "This user is an Alaskan Malamute!",
+						"lang": "en",
+						"name": "Malamute"
+					},
+					{
+						"description": "Este usuário é um Malamute do Alaska!",
+						"lang": "pt-BR",
+						"name": "Malamute"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "monitor-lizard",
+				"locales": [
+					{
+						"description": "This user is a Monitor Lizard!",
+						"lang": "en",
+						"name": "Monitor Lizard"
+					},
+					{
+						"description": "Este usuário é um Lagarto-monitor! AKA:  Varanus",
+						"lang": "pt-BR",
+						"name": "Lagarto-monitor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blue-tongued-skink",
+				"locales": [
+					{
+						"description": "This user is a Blue-Tongued Skink!",
+						"lang": "en",
+						"name": "Blue-Tongued Skink"
+					},
+					{
+						"description": "Este usuário é um Lagarto-de-língua-azul!",
+						"lang": "pt-BR",
+						"name": "Lagarto-de-língua-azul"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "living-vehicle",
+				"locales": [
+					{
+						"description": "This user is a Living Vehicle!",
+						"lang": "en",
+						"name": "Living Vehicle"
+					},
+					{
+						"description": "Este usuário é um Veículo Vivo!",
+						"lang": "pt-BR",
+						"name": "Veículo Vivo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "balinese",
+				"locales": [
+					{
+						"description": "This user is a Balinese cat!",
+						"lang": "en",
+						"name": "Balinese"
+					},
+					{
+						"description": "Este usuário é um gato Balinês!",
+						"lang": "pt-BR",
+						"name": "Gato Balinês"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "siamese",
+				"locales": [
+					{
+						"description": "This user is a Siamese cat!",
+						"lang": "en",
+						"name": "Siamese"
+					},
+					{
+						"description": "Este usuário é um gato Siamês!",
+						"lang": "pt-BR",
+						"name": "Gato Siamês"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bison",
+				"locales": [
+					{
+						"description": "This user is a Bison!",
+						"lang": "en",
+						"name": "Bison"
+					},
+					{
+						"description": "Este usuário é um Bisão! AKA: búfalo",
+						"lang": "pt-BR",
+						"name": "Bisão"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mewlin",
+				"locales": [
+					{
+						"description": "This user is a Mewlin! #VRChat",
+						"lang": "en",
+						"name": "Mewlin"
+					},
+					{
+						"description": "Este usuário é um Mewlin! #VRChat",
+						"lang": "pt-BR",
+						"name": "Mewlin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "great-pyrenees",
+				"locales": [
+					{
+						"description": "This user is a Great Pyrenees! AKA: Pyrenean Mountain Dog, Chien de Montagne des Pyrénées, Patou",
+						"lang": "en",
+						"name": "Great Pyrenees"
+					},
+					{
+						"description": "Este usuário é um Cão de montanha dos Pirenéus! AKA: Chien de Montagne des Pyrénées, Patou",
+						"lang": "pt-BR",
+						"name": "Cão de montanha dos Pirenéus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "charr",
+				"locales": [
+					{
+						"description": "This user is a Charr! (from Guild Wars)",
+						"lang": "en",
+						"name": "Charr"
+					},
+					{
+						"description": "Este usuário é um Charr!",
+						"lang": "pt-BR",
+						"name": "Charr"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mule",
+				"locales": [
+					{
+						"description": "This user is a Mule!",
+						"lang": "en",
+						"name": "Mule"
+					},
+					{
+						"description": "Este usuário é uma Jumento! AKA: burro, asno, mula",
+						"lang": "pt-BR",
+						"name": "Jumento"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ender-dragon",
+				"locales": [
+					{
+						"description": "This user is an Ender Dragon!",
+						"lang": "en",
+						"name": "Ender Dragon"
+					},
+					{
+						"description": "Este usuário é um Dragão do Ender!",
+						"lang": "pt-BR",
+						"name": "Dragão do Ender"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stegosaurus",
+				"locales": [
+					{
+						"description": "This user is a Stegosaurus! [Category: Dinosaur]",
+						"lang": "en",
+						"name": "Stegosaurus"
+					},
+					{
+						"description": "Este usuário é um Estegossauro! AKA: estegossáurio [Category: Dinossauro]",
+						"lang": "pt-BR",
+						"name": "Estegossauro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "therian",
+				"locales": [
+					{
+						"description": "This user is a Therian! [Category: Meta] While this label is not a species, it denotes the user is a Therian and the user may use another species label to denote a theriotype.",
+						"lang": "en",
+						"name": "Therian"
+					},
+					{
+						"description": "Este usuário é Therian! [Category: Meta] Embora este rótulo não seja uma espécie, ele indica que o usuário é um Therian e o usuário pode usar outro rótulo de espécie para denotar um teriótipo.",
+						"lang": "pt-BR",
+						"name": "Therian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "therian-and-furry",
+				"locales": [
+					{
+						"description": "This user is a Therian AND a furry! [Category: Meta] While this label is not a species, it denotes the user is a Therian and the user may use another species label to denote a theriotype. Also, not every Therian is necessarily a furry, so this label lets the user be specific that they are both!",
+						"lang": "en",
+						"name": "Therian Furry"
+					},
+					{
+						"description": "Este usuário é Therian e Furry! [Category: Meta] Embora este rótulo não seja uma espécie, ele indica que o usuário é um Therian e o usuário pode usar outro rótulo de espécie para denotar um teriótipo Além disso, nem todo Therian é necessariamente furry, então esse rótulo permite que o usuário especifique que é ambos!.",
+						"lang": "pt-BR",
+						"name": "Therian Furry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spotted-hyena",
+				"locales": [
+					{
+						"description": "This user is a Spotted Hyena!",
+						"lang": "en",
+						"name": "Spotted Hyena"
+					},
+					{
+						"description": "Este usuário é uma Hiena-malhada!",
+						"lang": "pt-BR",
+						"name": "Hiena-malhada"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "swaria",
+				"locales": [
+					{
+						"description": "This user is a Swaria! #VRChat",
+						"lang": "en",
+						"name": "Swaria"
+					},
+					{
+						"description": "Este usuário é um Swaria! #VRChat",
+						"lang": "pt-BR",
+						"name": "Swaria"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rikkor",
+				"locales": [
+					{
+						"description": "This user is a Rikkor! #VRChat",
+						"lang": "en",
+						"name": "Rikkor"
+					},
+					{
+						"description": "Este usuário é um Rikkor! #VRChat",
+						"lang": "pt-BR",
+						"name": "Rikkor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "potoo",
+				"locales": [
+					{
+						"description": "This user is a Potoo! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Potoo"
+					},
+					{
+						"description": "Este usuário é um Urutau! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Urutau"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ampharos",
+				"locales": [
+					{
+						"description": "This user is an Ampharos! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Ampharos"
+					},
+					{
+						"description": "Este usuário é um Ampharos! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Ampharos"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "corvid",
+				"locales": [
+					{
+						"description": "This user is a Corvid! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Corvid"
+					},
+					{
+						"description": "Este usuário é um Corvídeo! AKA: corvo, corvelo, gaio, gralha, gralho, cornelha, pega, frouva, choia, chuca e quebra-nozes [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Corvídeo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "magpie",
+				"locales": [
+					{
+						"description": "This user is a Magpie! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Magpie"
+					},
+					{
+						"description": "Este usuário é uma Pega! [Category: Ave/Pássaro]",
+						"lang": "pt-BR",
+						"name": "Pega"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scrub-jay",
+				"locales": [
+					{
+						"description": "This user is a Scrub Jay! [Category: Avian/Bird]",
+						"lang": "en",
+						"name": "Scrub Jay"
+					},
+					{
+						"description": "Este usuário é um Gaio-da-califórnia!",
+						"lang": "pt-BR",
+						"name": "Gaio-da-califórnia"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "darkrai",
+				"locales": [
+					{
+						"description": "This user is a Darkrai! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Darkrai"
+					},
+					{
+						"description": "Este usuário é um Darkrai! [Category: Pokemon]",
+						"lang": "pt-BR",
+						"name": "Darkrai"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zigzagoon",
+				"locales": [
+					{
+						"description": "This user is a Zigzagoon! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Zigzagoon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "octopus",
+				"locales": [
+					{
+						"description": "This user is an Octopus! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Octopus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kirin-pony",
+				"locales": [
+					{
+						"description": "This user is a Kirin (from My Little Pony)!",
+						"lang": "en",
+						"name": "Kirin (Pony)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lycanroc",
+				"locales": [
+					{
+						"description": "This user is a Lycanroc! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Lycanroc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ivysaur",
+				"locales": [
+					{
+						"description": "This user is an Ivysaur! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Ivysaur"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zeraora",
+				"locales": [
+					{
+						"description": "This user is a Zeraora! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Zeraora"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skitty",
+				"locales": [
+					{
+						"description": "This user is a Skitty! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Skitty"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liepard",
+				"locales": [
+					{
+						"description": "This user is a Liepard! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Liepard"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mutt",
+				"locales": [
+					{
+						"description": "This user is a Mutt! AKA: mongrel, mixed-breed dog",
+						"lang": "en",
+						"name": "Mutt"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "typhlosion",
+				"locales": [
+					{
+						"description": "This user is a Typhlosion! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Typhlosion"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dracthyr",
+				"locales": [
+					{
+						"description": "This user is a Dracthyr! [Category: World of Warcraft]",
+						"lang": "en",
+						"name": "Dracthyr"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aggron",
+				"locales": [
+					{
+						"description": "This user is an Aggron! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Aggron"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "halsanju-or-fecto",
+				"locales": [
+					{
+						"description": "This user is a Halsanju! AKA: Fecto. From Kirby and the Forgotten Land (video game).",
+						"lang": "en",
+						"name": "Halsanju/Fecto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "swedish-vallhund",
+				"locales": [
+					{
+						"description": "This user is a Swedish Vallhund!",
+						"lang": "en",
+						"name": "Swedish Vallhund"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "raichu",
+				"locales": [
+					{
+						"description": "This user is a Raichu! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Raichu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pokefusion",
+				"locales": [
+					{
+						"description": "This user is a Pokefusion! [Category: Pokemon] Similar to the Hybrid label, but specific to Pokemon; use with other Pokemon species labels!",
+						"lang": "en",
+						"name": "Pokefusion"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "croconaw",
+				"locales": [
+					{
+						"description": "This user is a Croconaw! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Croconaw"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "feraligatr",
+				"locales": [
+					{
+						"description": "This user is a Feraligatr! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Feraligatr"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "drizzile",
+				"locales": [
+					{
+						"description": "This user is a Drizzile! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Drizzile"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "serperior",
+				"locales": [
+					{
+						"description": "This user is a Serperior! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Serperior"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pangoro",
+				"locales": [
+					{
+						"description": "This user is a Pangoro! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Pangoro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "miqote",
+				"locales": [
+					{
+						"description": "This user is a Miqo'te! [Category: Final Fantasy]",
+						"lang": "en",
+						"name": "Miqo'te"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kemonomimi",
+				"locales": [
+					{
+						"description": "This user is a Kemonomimi! Kemonomimi are characters that have animal ears, tails or other animal characteristics on an otherwise human body.",
+						"lang": "en",
+						"name": "Kemonomimi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nekomimi",
+				"locales": [
+					{
+						"description": "This user is a Nekomimi! Nekomimi are a type of Kemonomimi (characters that have animal ears, tails or other animal characteristics on an otherwise human body) where the character has cat ears, tails, or other feline characteristics on an otherwise human body.",
+						"lang": "en",
+						"name": "Nekomimi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inumimi",
+				"locales": [
+					{
+						"description": "This user is a Inumimi! Inumimi are a type of Kemonomimi (characters that have animal ears, tails or other animal characteristics on an otherwise human body) where the character has dog ears, tails, or other canine characteristics on an otherwise human body.",
+						"lang": "en",
+						"name": "Inumimi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sandslash",
+				"locales": [
+					{
+						"description": "This user is a Sandslash!",
+						"lang": "en",
+						"name": "Sandslash"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "braixen",
+				"locales": [
+					{
+						"description": "This user is a Braixen!",
+						"lang": "en",
+						"name": "Braixen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zangoose",
+				"locales": [
+					{
+						"description": "This user is a Zangoose!",
+						"lang": "en",
+						"name": "Zangoose"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "boxer",
+				"locales": [
+					{
+						"description": "This user is a Boxer!",
+						"lang": "en",
+						"name": "Boxer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "manta-ray",
+				"locales": [
+					{
+						"description": "This user is a Manta Ray!",
+						"lang": "en",
+						"name": "Manta Ray"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"rabbit",
+			"deer",
+			"red-panda",
+			"hybrid",
+			"taur",
+			"fox",
+			"pokemon",
+			"dog",
+			"dragon",
+			"skunk",
+			"hyena",
+			"horse",
+			"bear",
+			"otter",
+			"bird",
+			"raccoon",
+			"mouse",
+			"rat",
+			"cat",
+			"big-cat",
+			"wolf",
+			"protogen",
+			"kanvi",
+			"snake",
+			"shark",
+			"sergal",
+			"orca",
+			"seal",
+			"tiger",
+			"chameleon",
+			"capybara",
+			"jackal",
+			"yinglet",
+			"kangaroo",
+			"coyote",
+			"squirrel",
+			"cheetah",
+			"snow-leopard",
+			"possum",
+			"bat",
+			"mustelid",
+			"marten",
+			"ferret",
+			"weasel",
+			"stoat",
+			"unicorn",
+			"crocodile",
+			"alligator",
+			"alpaca",
+			"llama",
+			"goat",
+			"phoenix",
+			"eel",
+			"fish",
+			"plane-dragon",
+			"lizard",
+			"manokit",
+			"gryphon",
+			"wolverine",
+			"lynx",
+			"werewolf",
+			"coywolf",
+			"boar",
+			"kobold",
+			"cryptid",
+			"mythical-creature",
+			"eldritch-creature",
+			"puma",
+			"tanuki",
+			"bovine",
+			"red-wolf",
+			"fennec-fox",
+			"saber",
+			"saber-toothed-cat",
+			"donkey",
+			"leopard",
+			"chakat",
+			"hedgehog",
+			"monster-dog",
+			"pooltoy",
+			"dolphin",
+			"dinosaur",
+			"deathclaw",
+			"lion",
+			"reptile",
+			"unknown",
+			"species-fluid",
+			"snail",
+			"insect",
+			"avali",
+			"alien",
+			"dingo",
+			"coastal-wolf",
+			"maned-wolf",
+			"jackalope",
+			"shiba-inu",
+			"shikoku-inu",
+			"vampire",
+			"supernatural-creature",
+			"yokai",
+			"hellhound",
+			"demon",
+			"salamander",
+			"neopet",
+			"crux",
+			"raptor",
+			"shapeshifter",
+			"axolotl",
+			"eagle",
+			"falcon",
+			"chicken",
+			"duck",
+			"parrot",
+			"crow",
+			"raven",
+			"blue-jay",
+			"goose",
+			"swan",
+			"penguin",
+			"pigeon",
+			"dove",
+			"cardinal",
+			"robin",
+			"gecko",
+			"quox",
+			"chimera",
+			"kitsune",
+			"sheep",
+			"ram",
+			"owl",
+			"robot",
+			"komodo-dragon",
+			"pig",
+			"golden-retriever",
+			"peafowl",
+			"serval",
+			"lionbear",
+			"elk",
+			"mightyena",
+			"mooseel",
+			"sloth",
+			"macaw",
+			"giant-panda",
+			"hamster",
+			"polar-bear",
+			"frog",
+			"gnoll",
+			"african-crested-porcupine",
+			"arctic-fox",
+			"tasmanian-devil",
+			"pangolin",
+			"rhino",
+			"porcupine",
+			"gargoyle",
+			"zebra",
+			"hawk",
+			"monkey",
+			"cabbit",
+			"badger",
+			"jaguar",
+			"giraffe",
+			"spider",
+			"langurhali",
+			"black-bear",
+			"platypus",
+			"bee",
+			"husky",
+			"sparkledog",
+			"sparklefur",
+			"lemur",
+			"toy",
+			"meerkat",
+			"kudu",
+			"gorgonopsid",
+			"plushie",
+			"weavile",
+			"blue-marlin",
+			"elephant",
+			"mammoth",
+			"caracal",
+			"bobcat",
+			"kaiju",
+			"monster",
+			"cow",
+			"muscovy-duck",
+			"dachshund",
+			"hound-dog",
+			"small-dog",
+			"tiger-dragon",
+			"dracat",
+			"chihuahua",
+			"african-wild-dog",
+			"skulldog",
+			"toon",
+			"coral-reef",
+			"hummingbird",
+			"lucario",
+			"cocker-spaniel",
+			"angel",
+			"solar",
+			"wolf-dragon",
+			"ocelot",
+			"pembroke-welsh-corgi",
+			"cardigan-welsh-corgi",
+			"beaver",
+			"tayra",
+			"golden-jackal",
+			"teshari",
+			"yoshi",
+			"guinea-pig",
+			"arctic-wolf",
+			"tibetan-fox",
+			"rexouium",
+			"housefly",
+			"ninetales",
+			"reindeer",
+			"taidum",
+			"bohemian-shepherd",
+			"obstagoon",
+			"golden-eagle",
+			"genet",
+			"wyvern",
+			"heeler",
+			"blue-heeler",
+			"red-heeler",
+			"carbuncle",
+			"alicorn",
+			"pegasus",
+			"hyacinth-macaw",
+			"digimon",
+			"slipfin",
+			"goodra",
+			"bat-eared-fox",
+			"orangutan",
+			"bug",
+			"border-collie",
+			"white-tiger",
+			"salandit",
+			"cacomistle",
+			"ringtail",
+			"kingfisher",
+			"german-shepherd",
+			"lumex",
+			"sphinx",
+			"synth",
+			"turtle",
+			"drake",
+			"robot-dragon",
+			"hare",
+			"clown",
+			"fisher",
+			"lizardfolk",
+			"pikachu",
+			"oni",
+			"merfolk",
+			"clouded-leopard",
+			"stellers-jay",
+			"troll",
+			"moth",
+			"charmander",
+			"panther",
+			"marsupial",
+			"tasmanian-tiger",
+			"wolfdog",
+			"southern-ethiopian-wolf",
+			"ampwave",
+			"skunkbear",
+			"zoroark",
+			"opossum",
+			"egyptian-cobra",
+			"cobra",
+			"boa-constrictor",
+			"amphibian",
+			"bird-wyvern",
+			"brute-wyvern",
+			"carapaceon",
+			"fanged-beast",
+			"fanged-wyvern",
+			"herbivore",
+			"flying-wyvern",
+			"lynian",
+			"neopteron",
+			"piscine-wyvern",
+			"snake-wyvern",
+			"temnoceran",
+			"wingdrake",
+			"leviathan",
+			"elder-dragon",
+			"canterwit",
+			"furred-dragon",
+			"eastern-dragon",
+			"arctic-hare",
+			"koopa",
+			"jerboa",
+			"arcanine",
+			"monster-girl",
+			"skaven",
+			"eevee",
+			"sylveon",
+			"puffball",
+			"cozumel-raccoon",
+			"malagasy-giant-rat",
+			"inkblot-toon",
+			"anomalocaris",
+			"manticore",
+			"scottish-fold-munchkin",
+			"striped-hyena",
+			"brown-hyena",
+			"vulpix",
+			"flamingo",
+			"plant",
+			"argonian",
+			"lombax",
+			"nargacuga",
+			"swampert",
+			"vaporeon",
+			"stingray",
+			"seagull",
+			"triceratops",
+			"australian-shepherd",
+			"hrothgar",
+			"greyhound",
+			"umbreon",
+			"platinum-fox",
+			"bandicoot",
+			"koala",
+			"potoroo",
+			"sugar-glider",
+			"cougar",
+			"buizel",
+			"lupe",
+			"aisha",
+			"bori",
+			"ixi",
+			"kougra",
+			"xweetok",
+			"zafara",
+			"liger",
+			"sabertooth-liger",
+			"grey-wolf",
+			"borzoi",
+			"fossa",
+			"cross-fox",
+			"gray-fox",
+			"island-fox",
+			"satyr",
+			"pony",
+			"radioactive",
+			"dovekie",
+			"human",
+			"chocobo",
+			"chao",
+			"binturong",
+			"dryad",
+			"nimbat",
+			"gieeg",
+			"pup",
+			"multiple-characters",
+			"multiple-forms",
+			"leopard-gecko",
+			"slugcat",
+			"vulture",
+			"bearded-vulture",
+			"cape-fox",
+			"salmonid",
+			"hobkin",
+			"chipori",
+			"slime",
+			"quaker-parrot",
+			"nardoragon",
+			"caitian",
+			"gorn",
+			"zora",
+			"rito",
+			"faun",
+			"winged",
+			"soundbyte",
+			"purobyte",
+			"mongoose",
+			"felkin",
+			"cockatiel",
+			"pronghorn",
+			"pudu",
+			"orc",
+			"skiltaire",
+			"mobian",
+			"cornerian",
+			"allosaurus",
+			"dragonborn",
+			"worgen",
+			"drone",
+			"samurott",
+			"iguana",
+			"bearded-dragon",
+			"bat-pony",
+			"sandwing",
+			"icewing",
+			"rainwing",
+			"nightwing",
+			"mudwing",
+			"skywing",
+			"seawing",
+			"silkwing",
+			"hivewing",
+			"leafwing",
+			"dobermann",
+			"samoyed",
+			"luxray",
+			"solgaleo",
+			"mew",
+			"pooka",
+			"rottweiler",
+			"succubus",
+			"incubus",
+			"dramster",
+			"time-lord",
+			"iberian-lynx",
+			"amphimorpho",
+			"displacer-beast",
+			"totodile",
+			"glitchy",
+			"sable",
+			"inca-ren",
+			"peryton",
+			"faerie",
+			"valravn",
+			"seraph",
+			"werecreature",
+			"burmecian",
+			"absol",
+			"minotaur",
+			"bull",
+			"albatross",
+			"mystian",
+			"swift-fox",
+			"kangaroo-rat",
+			"digital-creature",
+			"computer-virus",
+			"slug",
+			"sea-slug",
+			"eurasian-eagle-owl",
+			"flying-fox",
+			"guardian-spirit",
+			"bernese-mountain-dog",
+			"bangaa",
+			"wickerbeast",
+			"alaskan-malamute",
+			"monitor-lizard",
+			"blue-tongued-skink",
+			"living-vehicle",
+			"balinese",
+			"siamese",
+			"bison",
+			"mewlin",
+			"great-pyrenees",
+			"charr",
+			"mule",
+			"ender-dragon",
+			"stegosaurus",
+			"therian",
+			"therian-and-furry",
+			"spotted-hyena",
+			"swaria",
+			"rikkor",
+			"potoo",
+			"ampharos",
+			"corvid",
+			"magpie",
+			"scrub-jay",
+			"darkrai",
+			"zigzagoon",
+			"octopus",
+			"kirin-pony",
+			"lycanroc",
+			"ivysaur",
+			"zeraora",
+			"skitty",
+			"liepard",
+			"mutt",
+			"typhlosion",
+			"dracthyr",
+			"aggron",
+			"halsanju-or-fecto",
+			"swedish-vallhund",
+			"raichu",
+			"pokefusion",
+			"croconaw",
+			"feraligatr",
+			"drizzile",
+			"serperior",
+			"pangoro",
+			"miqote",
+			"kemonomimi",
+			"nekomimi",
+			"inumimi",
+			"sandslash",
+			"braixen",
+			"zangoose",
+			"boxer",
+			"manta-ray"
+		]
+	}
+}

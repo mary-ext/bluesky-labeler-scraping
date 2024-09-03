@@ -1,0 +1,195 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:i65enriuag7n5fgkopbqtkyk/app.bsky.labeler.service/self",
+	"cid": "bafyreihy5rtjewewmxykjd7htnhmsgymttowu4e4wqvqww6dsobjqcbeoa",
+	"creator": {
+		"did": "did:plc:i65enriuag7n5fgkopbqtkyk",
+		"handle": "profile-labels.bossett.social",
+		"displayName": "Profile Labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:i65enriuag7n5fgkopbqtkyk/bafkreicyuvug6ocec6weddr2znoskxonccxabiyfxoenspavmpmx2wvmbm@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "none"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-04-26T21:01:35.689Z",
+		"description": "Labels accounts based on facts about profile records, post history, etc. Automatic.\nSupport @bossett.social / Code https://github.com/Bossett/bsky-profile-labeller / Help out https://ko-fi.com/bossett",
+		"indexedAt": "2024-06-01T21:33:21.793Z"
+	},
+	"likeCount": 605,
+	"indexedAt": "2024-06-21T10:34:20.680Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "newaccount",
+				"locales": [
+					{
+						"description": "This user began posting from this account less than 30 days ago.",
+						"lang": "en",
+						"name": "New Account"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "newhandle",
+				"locales": [
+					{
+						"description": "This user began using this handle on this account less than 30 days ago.",
+						"lang": "en",
+						"name": "Changed Handle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "noavatar",
+				"locales": [
+					{
+						"description": "This user has not set an avatar.",
+						"lang": "en",
+						"name": "No Avatar"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nodisplayname",
+				"locales": [
+					{
+						"description": "This user has not set a display name.",
+						"lang": "en",
+						"name": "No Display Name"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "onlyreplies",
+				"locales": [
+					{
+						"description": "This user has not made a non-reply post.",
+						"lang": "en",
+						"name": "Only Replies"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rapidposts",
+				"locales": [
+					{
+						"description": "This account has been posting at closely timed intervals without a break the last 30 posts.",
+						"lang": "en",
+						"name": "Periodic"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nonplcdid",
+				"locales": [
+					{
+						"description": "This user has a did from a namespace other than did:plc: (and therefore handle history not available).",
+						"lang": "en",
+						"name": "Non-PLC DID"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bridgy",
+				"locales": [
+					{
+						"description": "This user is on a non-ATProto network, bridged in from Bridgy (https://fed.brid.gy/docs).",
+						"lang": "en",
+						"name": "Bridgy User"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nostr",
+				"locales": [
+					{
+						"description": "This user originates from Nostr and has been bridged in via other networks by Bridgy. Does NOT include users who have just validated a handle with an npub signature.",
+						"lang": "en",
+						"name": "Nostr User"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "threads",
+				"locales": [
+					{
+						"description": "This user originates from Threads and has been bridged in by Bridgy.",
+						"lang": "en",
+						"name": "Threads User"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stephanie",
+				"locales": [
+					{
+						"description": "Stephanie goes by Stephanie.",
+						"lang": "en",
+						"name": "Stephanie"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"newaccount",
+			"newhandle",
+			"noavatar",
+			"nodisplayname",
+			"onlyreplies",
+			"rapidposts",
+			"nonplcdid",
+			"bridgy",
+			"nostr",
+			"threads",
+			"stephanie"
+		]
+	}
+}

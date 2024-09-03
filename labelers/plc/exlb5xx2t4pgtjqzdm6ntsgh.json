@@ -1,0 +1,161 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:exlb5xx2t4pgtjqzdm6ntsgh/app.bsky.labeler.service/self",
+	"cid": "bafyreia7y7x35dolc4kolpnjtvhkzmhkmf5f6rsd5lm3v7wyohrhmga3uu",
+	"creator": {
+		"did": "did:plc:exlb5xx2t4pgtjqzdm6ntsgh",
+		"handle": "exml.bsky.social",
+		"displayName": "Example Moderation Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:exlb5xx2t4pgtjqzdm6ntsgh/bafkreicu6tsgin7c4mhxpgqq6y7odp7cjkt7uys6ddq63srj7he4rukgkm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-04-05T11:37:26.367Z",
+		"indexedAt": "2024-04-05T11:40:24.510Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-04-05T14:15:38.331Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "severity-none-blurs-none",
+				"locales": [
+					{
+						"description": "The \"severity-none-blurs-none\" label.",
+						"lang": "en",
+						"name": "severity: none, blurs: none"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "severity-none-blurs-media",
+				"locales": [
+					{
+						"description": "The \"severity-none-blurs-media\" label.",
+						"lang": "en",
+						"name": "severity: none, blurs: media"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "severity-none-blurs-content",
+				"locales": [
+					{
+						"description": "The \"severity-none-blurs-content\" label.",
+						"lang": "en",
+						"name": "severity: none, blurs: content"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "severity-alert-blurs-none",
+				"locales": [
+					{
+						"description": "The \"severity-alert-blurs-none\" label.",
+						"lang": "en",
+						"name": "severity: alert, blurs: none"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "severity-alert-blurs-media",
+				"locales": [
+					{
+						"description": "The \"severity-alert-blurs-media\" label.",
+						"lang": "en",
+						"name": "severity: alert, blurs: media"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "severity-alert-blurs-content",
+				"locales": [
+					{
+						"description": "The \"severity-alert-blurs-content\" label.",
+						"lang": "en",
+						"name": "severity: alert, blurs: content"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "severity-inform-blurs-none",
+				"locales": [
+					{
+						"description": "The \"severity-inform-blurs-none\" label.",
+						"lang": "en",
+						"name": "severity: inform, blurs: none"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "severity-inform-blurs-media",
+				"locales": [
+					{
+						"description": "The \"severity-inform-blurs-media\" label.",
+						"lang": "en",
+						"name": "severity: inform, blurs: media"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "severity-inform-blurs-content",
+				"locales": [
+					{
+						"description": "The \"severity-inform-blurs-content\" label.",
+						"lang": "en",
+						"name": "severity: inform, blurs: content"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"severity-inform-blurs-content",
+			"severity-inform-blurs-media",
+			"severity-inform-blurs-none",
+			"severity-alert-blurs-content",
+			"severity-alert-blurs-media",
+			"severity-alert-blurs-none",
+			"severity-none-blurs-content",
+			"severity-none-blurs-media",
+			"severity-none-blurs-none"
+		]
+	}
+}

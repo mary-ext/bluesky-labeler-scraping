@@ -1,0 +1,40 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:mcskx665cnmnkgqnunk6lkrk/app.bsky.labeler.service/self",
+	"cid": "bafyreiazna4luyxycbzmfbali2f5dobfgyb2p33xzt2zpg4klnftiv2v4i",
+	"creator": {
+		"did": "did:plc:mcskx665cnmnkgqnunk6lkrk",
+		"handle": "wyvern.blue",
+		"displayName": "Wyvern",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2023-09-21T13:53:56.566Z",
+		"indexedAt": "2024-01-20T07:00:40.287Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-03-15T06:51:33.536Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonation",
+				"locales": [
+					{
+						"description": "Impersonation of a public figure or group.",
+						"lang": "en",
+						"name": "Impersonator"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"impersonation"
+		]
+	}
+}

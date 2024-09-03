@@ -1,0 +1,90 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4ugewi6aca52a62u62jccbl7/app.bsky.labeler.service/self",
+	"cid": "bafyreigbgmxc7dwtrrybce2w27pduunmwe5ap2c3bqrtgjqghi4bhtdygu",
+	"creator": {
+		"did": "did:plc:4ugewi6aca52a62u62jccbl7",
+		"handle": "asukafield.xyz",
+		"displayName": "Asuka's Anti-Transphobia Field",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4ugewi6aca52a62u62jccbl7/bafkreic7mbze2x643hq2n74myqnq7twm5ma77aqbcq77nynlu56dal2oiu@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-07-16T20:15:57.873Z",
+		"description": "You're transphobic? How disgusting.\n\n(she/her)",
+		"indexedAt": "2024-08-27T06:25:03.321Z"
+	},
+	"likeCount": 297,
+	"indexedAt": "2024-07-17T05:05:36.072Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "misgendering",
+				"locales": [
+					{
+						"description": "Post label. Posts labeled \"Misgendering & Deadnaming\" demonstrate a lack of respect for a trans person's identity in the vein of misgendering, degendering, and deadnaming. This includes intentional and unintentional behavior. Repetitious or severe acts of disrespect likely entail other labels.",
+						"lang": "en",
+						"name": "Misgendering & Deadnaming"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transphobia",
+				"locales": [
+					{
+						"description": "Post/account label. Posts labeled \"Transphobia (General)\" demonstrate a generally transphobic stance. This includes intentional and unintentional behavior. Repetitious or severe general transphobia likely entails an account label.",
+						"lang": "en",
+						"name": "Transphobia (General)"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transmisogyny",
+				"locales": [
+					{
+						"description": "Post/account label. Posts labeled \"Transmisogyny\" demonstrate a transmisogynistic stance. This includes intentional and unintentional behavior. Repetitious or severe transmisogyny likely entails an account label.",
+						"lang": "en",
+						"name": "Transmisogyny"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "enbyphobia",
+				"locales": [
+					{
+						"description": "Post/account label. Posts labeled \"Enbyphobia\" demonstrate an enbyphobic stance, which includes transmedicalism. This includes intentional and unintentional behavior. Repetitious or severe enbyphobia likely entails an account label.",
+						"lang": "en",
+						"name": "Enbyphobia"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"misgendering",
+			"transphobia",
+			"transmisogyny",
+			"enbyphobia"
+		]
+	}
+}

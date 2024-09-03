@@ -1,0 +1,135 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:cnn3jrtucivembf66xe6fdfs/app.bsky.labeler.service/self",
+	"cid": "bafyreif2u25pvhjnv6f5g6h3tncwvk57h3gyxzy2jmtjbouhlf6hx6aggm",
+	"creator": {
+		"did": "did:plc:cnn3jrtucivembf66xe6fdfs",
+		"handle": "moderation.moe",
+		"displayName": "Moe Moderation 🎀",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cnn3jrtucivembf66xe6fdfs/bafkreihsgy6rp56lfg3yqz3lfm3iuwarxihbryvpmyej4wdpjhfxpm763i@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2023-07-23T11:25:32.768Z",
+		"description": "Moderation services for progressive weebs who believe no one should face stigma or harassment for enjoying or creating controversial fiction, mainly anime, manga, games, hentai, fan art, and doujin works.\n\nRead more at moderation.moe/about",
+		"indexedAt": "2024-06-05T21:04:18.096Z"
+	},
+	"likeCount": 29,
+	"indexedAt": "2024-04-09T22:58:31.907Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dni",
+				"locales": [
+					{
+						"description": "User who has expressed a wish that those who enjoy, defend, or create controversial fiction not interact with them.",
+						"lang": "en",
+						"name": "Do not interact 🚧"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "anti",
+				"locales": [
+					{
+						"description": "User who has expressed a belief in the \"danger\" or \"immorality\" of controversial fiction or those who enjoy, defend, or create such works.",
+						"lang": "en",
+						"name": "Anti ☣️"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hostile",
+				"locales": [
+					{
+						"description": "User who has acted in a hostile manner towards those who enjoy, defend, or create controversial fiction.\n\nHostile actions include a) committing, b) expressing a willingness to commit, or c) expressing approval of others committing any of the following acts:\n\n1) Stigmatize or call out.\n2) Harass.\n3) Keyword search to argue.\n4) List or label in a way that implies a \"danger.\"\n5) Campaign to censor works or deplatform.\n\nThis label is intended for unprovoked hostility. If the transgressor was provoked this label requires a much higher burden of proof.\n\n⚠️ We recommend you use our block list of the same name to avoid harassment, shaming, or drama.",
+						"lang": "en",
+						"name": "Hostile 💢"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "reactionary",
+				"locales": [
+					{
+						"description": "User has expressed overt anti-progressive sentiments or reactionary politics while defending or visibly enjoying controversial fiction.",
+						"lang": "en",
+						"name": "Reactionary 🗑️"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "harassing-defender",
+				"locales": [
+					{
+						"description": "User has without provocation repeatedly harassed those with negative views on controversial fiction.",
+						"lang": "en",
+						"name": "Harasser of antis 🤡"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "anti-discourse",
+				"locales": [
+					{
+						"description": "Discourse posts with a negative view on controversial fiction.",
+						"lang": "en",
+						"name": "Negative discourse ☣️"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "neutral-pro-discourse",
+				"locales": [
+					{
+						"description": "Discourse posts with a neutral or positive view on controversial fiction.",
+						"lang": "en",
+						"name": "Neutral/positive discourse 💬"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"dni",
+			"anti",
+			"hostile",
+			"reactionary",
+			"harassing-defender",
+			"anti-discourse",
+			"neutral-pro-discourse"
+		]
+	}
+}

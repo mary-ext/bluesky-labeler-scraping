@@ -1,0 +1,75 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:cug2evrqa3nhdbvlfd2cvtky/app.bsky.labeler.service/self",
+	"cid": "bafyreiauevicmzo3mqxjmznkz455gl4laofi4fiwzijaw6w574c5idf74m",
+	"creator": {
+		"did": "did:plc:cug2evrqa3nhdbvlfd2cvtky",
+		"handle": "flatlander.social",
+		"displayName": "Flatlander",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cug2evrqa3nhdbvlfd2cvtky/bafkreibl27kpvmff3ijax56cbuxlsbreys5b22xh5oix4jo5ymectjy2ji@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2023-09-08T22:05:05.195Z",
+		"description": "Official account for the Flatlander custom feed and labeling service. Developed and managed by @joelh.social.\n\nBecome a patron to keep the lights on at patreon.com/sk_flatlanders",
+		"indexedAt": "2024-06-06T22:15:21.910Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-05-27T21:50:03.026Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "skpoli-political-party",
+				"locales": [
+					{
+						"description": "All content from an account representing a currently active political party in Saskatchewan",
+						"lang": "en",
+						"name": "Sask Political Party"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "skpoli-politician",
+				"locales": [
+					{
+						"description": "All content from a person that is active in Sask Politics. This will include elected MLAs, candidates, or other prominent figures",
+						"lang": "en",
+						"name": "Sask Politician"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "skpoli-content",
+				"locales": [
+					{
+						"description": "Content that is directly related to Sask politics. ",
+						"lang": "en",
+						"name": "Sask Political Content"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"skpoli-political-party",
+			"skpoli-politician",
+			"skpoli-content"
+		]
+	}
+}

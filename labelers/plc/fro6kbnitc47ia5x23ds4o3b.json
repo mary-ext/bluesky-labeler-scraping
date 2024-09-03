@@ -1,0 +1,107 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:fro6kbnitc47ia5x23ds4o3b/app.bsky.labeler.service/self",
+	"cid": "bafyreihhkid6j4nryrizshqg625ix5vnlnlsqim6qi3qep7kxddfoy3x2m",
+	"creator": {
+		"did": "did:plc:fro6kbnitc47ia5x23ds4o3b",
+		"handle": "arta.mobik.zip",
+		"displayName": "Стало гірше",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fro6kbnitc47ia5x23ds4o3b/bafkreihrocaqebwbpbilkguwcr6mvetomzomhgvpupzea6fnhfrn73mhqe@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2023-07-24T17:53:26.957Z",
+		"description": "Бойкотуйте контент країни агресора! Не оплачуйте ракети ворога і не обслуговуйте його інформаційно.\n\nВсі списки та часті запитання: mobik.zip\n\nЦентр протидії дезинформації: cpd.gov.ua",
+		"indexedAt": "2024-03-26T20:00:14.209Z"
+	},
+	"likeCount": 33,
+	"indexedAt": "2024-07-21T10:55:15.000Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "anonymous-account",
+				"locales": [
+					{
+						"description": "Даний акаунт ніяк не ідентифікує хто саме його веде. Подібні акаунти часто використовуються для розповсюдження дезінформації.",
+						"lang": "uk",
+						"name": "Анонімний акаунт"
+					},
+					{
+						"description": "This account does not indicate who is behind it. Such tactic is very common in distributing disinfo.",
+						"lang": "en",
+						"name": "Anonymous account"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "impersonation",
+				"locales": [
+					{
+						"description": "Видають або видавали себе за іншу людину, без її дозволу.",
+						"lang": "uk",
+						"name": "Імперсонатор"
+					},
+					{
+						"description": "Pretends, or pretended in the past, to be someone they are not.",
+						"lang": "en",
+						"name": "Impersonator"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "osint",
+				"locales": [
+					{
+						"description": "Публікує інформацію з відкритих джерел. Високий ризик розповсюдження дезінформації та ІПСО.",
+						"lang": "uk",
+						"name": "OSINT"
+					},
+					{
+						"description": "Publishes information from public sources with little to no vetting. High risk of posting disinfo.",
+						"lang": "en",
+						"name": "OSINT"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "Автоматизований акаунт. Високий ризик розповсюдження дезінформації та ІПСО.",
+						"lang": "uk",
+						"name": "Бот"
+					},
+					{
+						"description": "Automated account. High risk of posting disinfo.",
+						"lang": "en",
+						"name": "Bot"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"anonymous-account",
+			"impersonation",
+			"osint",
+			"bot"
+		]
+	}
+}
