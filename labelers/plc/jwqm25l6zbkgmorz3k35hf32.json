@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreifbsraktfhj3cqiy4s3irtwuimhwua2n7werib4czs7bqb46qrlaa",
+	"cid": "bafyreiez45lr2mxmdotmuhapv6k6hgemcofcrxwso4eqxjygpnkr3db7eq",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "contains-xitter",
+				"locales": [
+					{
+						"description": "...",
+						"lang": "en",
+						"name": "Contains the word: Xitter"
+					}
+				],
+				"severity": "none"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -50,20 +64,6 @@
 					}
 				],
 				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "badge",
-				"locales": [
-					{
-						"description": "Testing a badge.",
-						"lang": "en",
-						"name": "badge"
-					}
-				],
-				"severity": "inform"
 			},
 			{
 				"adultOnly": true,
@@ -235,9 +235,9 @@
 			}
 		],
 		"labelValues": [
+			"contains-xitter",
 			"contains-skeet",
 			"has-link-youtube",
-			"badge",
 			"has-link-dlvr",
 			"has-link-murrtube",
 			"has-image-repost",

@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qawvcwumvgxmed6iy6pmt6l/app.bsky.labeler.service/self",
-	"cid": "bafyreih7wwoqqzrq36mb7yxyys6v6e7z22dhfwrcn7ll6tahpolqiek7su",
+	"cid": "bafyreiarbhg33mcydtwdknvdkw7kzx56o4jjxrkusjbzei6yhb5mtkgw6m",
 	"creator": {
 		"did": "did:plc:2qawvcwumvgxmed6iy6pmt6l",
 		"handle": "sonasky.bsky.social",
-		"displayName": "SonaSky [Delayed by ~a minute]",
+		"displayName": "SonaSky [Delayed by ~10 minutes]",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qawvcwumvgxmed6iy6pmt6l/bafkreibmuo3cd4sygf5qpcau2snwk4iriq6plnkvvupbmhj4jtuze54kqy@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-08-07T21:31:32.074Z",
-		"description": "Show off your fursona (label)!\n❓: Add=❤️! Remove=💔.\n🔍: Browse/Requests: https://sonasky-browse.bunnys.ky/ <-- READ/LEIA\n\n🐇🧑‍💻: @astra.bunnys.ky <- 18+\n🖼️: @snowfox.gay <- 18+\nCursor @ 2024-09-03T15:29:48Z, Delays ~= a minute",
-		"indexedAt": "2024-09-03T15:30:52.603Z"
+		"description": "Show off your fursona (label)!\n❓: Add=❤️! Remove=💔.\n🔍: Browse/Requests: https://sonasky-browse.bunnys.ky/ <-- READ/LEIA\n\n🐇🧑‍💻: @astra.bunnys.ky <- 18+\n🖼️: @snowfox.gay <- 18+\nCursor @ 2024-09-04T00:58:39Z, Delays ~= 10 minutes",
+		"indexedAt": "2024-09-04T01:08:37.599Z"
 	},
-	"likeCount": 647,
-	"indexedAt": "2024-09-03T14:32:10.996Z",
+	"likeCount": 663,
+	"indexedAt": "2024-09-03T22:27:19.871Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -7993,7 +7993,7 @@
 				"identifier": "sandslash",
 				"locales": [
 					{
-						"description": "This user is a Sandslash!",
+						"description": "This user is a Sandslash! [Category: Pokemon]",
 						"lang": "en",
 						"name": "Sandslash"
 					}
@@ -8007,7 +8007,7 @@
 				"identifier": "braixen",
 				"locales": [
 					{
-						"description": "This user is a Braixen!",
+						"description": "This user is a Braixen! [Category: Pokemon]",
 						"lang": "en",
 						"name": "Braixen"
 					}
@@ -8021,7 +8021,7 @@
 				"identifier": "zangoose",
 				"locales": [
 					{
-						"description": "This user is a Zangoose!",
+						"description": "This user is a Zangoose! [Category: Pokemon]",
 						"lang": "en",
 						"name": "Zangoose"
 					}
@@ -8052,6 +8052,48 @@
 						"description": "This user is a Manta Ray!",
 						"lang": "en",
 						"name": "Manta Ray"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "goblin",
+				"locales": [
+					{
+						"description": "This user is a Goblin! [Category: D&D]",
+						"lang": "en",
+						"name": "Goblin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snorlax",
+				"locales": [
+					{
+						"description": "This user is a Snorlax! [Category: Pokemon]",
+						"lang": "en",
+						"name": "Snorlax"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "objecthead",
+				"locales": [
+					{
+						"description": "This user is an Objecthead! \"Object Head\" refers to humanoids or creatures with objects for heads; a common example is a TV Head.",
+						"lang": "en",
+						"name": "Objecthead"
 					}
 				],
 				"severity": "inform"
@@ -8557,7 +8599,10 @@
 			"braixen",
 			"zangoose",
 			"boxer",
-			"manta-ray"
+			"manta-ray",
+			"goblin",
+			"snorlax",
+			"objecthead"
 		]
 	}
 }
