@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreiez45lr2mxmdotmuhapv6k6hgemcofcrxwso4eqxjygpnkr3db7eq",
+	"cid": "bafyreifq3dozkw4sfft75fngmiqm3zgdj3x6o5kja7anrmrth3sjo3aoz4",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "badge-test",
+				"locales": [
+					{
+						"description": "Testing a badge.",
+						"lang": "en",
+						"name": "Badge Test"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -218,23 +232,10 @@
 					}
 				],
 				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "testing-stuff",
-				"locales": [
-					{
-						"description": "This is a test",
-						"lang": "en",
-						"name": "Test"
-					}
-				],
-				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"badge-test",
 			"contains-xitter",
 			"contains-skeet",
 			"has-link-youtube",
@@ -248,8 +249,7 @@
 			"has-no-image-post",
 			"has-image-reply",
 			"has-no-image-reply",
-			"ai-art",
-			"testing-stuff"
+			"ai-art"
 		]
 	}
 }

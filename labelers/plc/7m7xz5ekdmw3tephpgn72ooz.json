@@ -1,12 +1,12 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreihuvq4zf3cbzc6fcxjcfrbdfkwfpux5qabs67d7b3kzgsy2ii76ie",
+	"cid": "bafyreicwwstdbolyfbd4ul2fgzqhgjrdkd3pouaqy3mg3e3dhbju4qp7tu",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
 		"displayName": "Moods",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7m7xz5ekdmw3tephpgn72ooz/bafkreibtnishjznkm6sfokwfyjvobtuojjpckdvevs2oukxajy52dghf5i@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7m7xz5ekdmw3tephpgn72ooz/bafkreib3myc6yysejdsmusavbm2dx6hikganv6cqa6ryebnc3ltkqzfeqa@jpeg",
 		"associated": {
 			"labeler": true,
 			"chat": {
@@ -16,13 +16,265 @@
 		"labels": [],
 		"createdAt": "2024-08-30T06:33:01.334Z",
 		"description": "Show the world how are you feeling today! 😎\n\nSubscribe, find your preferred mood in the \"Posts\" section and like it (up to four!). DM for requests 👀\n\nCreated by @fran.pw, based on @pronouns.adorable.mom's code.\n\nLike the labeler ❤️ More moods coming soon",
-		"indexedAt": "2024-08-31T21:20:19.905Z"
+		"indexedAt": "2024-09-04T07:41:37.035Z"
 	},
 	"likeCount": 53,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "seal",
+				"locales": [
+					{
+						"description": "I'm feeling playful/adaptable/sociable.",
+						"lang": "en",
+						"name": "Mood: 🦭"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragon-face",
+				"locales": [
+					{
+						"description": "I'm feeling powerful/majestic/mythical.",
+						"lang": "en",
+						"name": "Mood: 🐲"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "panda",
+				"locales": [
+					{
+						"description": "I'm feeling gentle/adorable/peaceful.",
+						"lang": "en",
+						"name": "Mood: 🐼"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mouse",
+				"locales": [
+					{
+						"description": "I'm feeling timid/cute/innocent.",
+						"lang": "en",
+						"name": "Mood: 🐭"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pig-nose",
+				"locales": [
+					{
+						"description": "I'm feeling playful/silly/earthy.",
+						"lang": "en",
+						"name": "Mood: 🐽"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unicorn",
+				"locales": [
+					{
+						"description": "I'm feeling magical/imaginative/rare.",
+						"lang": "en",
+						"name": "Mood: 🦄"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "black-cat",
+				"locales": [
+					{
+						"description": "I'm feeling mysterious/superstitious/enigmatic.",
+						"lang": "en",
+						"name": "Mood: 🐈‍⬛"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cat",
+				"locales": [
+					{
+						"description": "I'm feeling curious/independent/graceful.",
+						"lang": "en",
+						"name": "Mood: 🐱"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "raccoon",
+				"locales": [
+					{
+						"description": "I'm feeling cunning/mischievous/resourceful.",
+						"lang": "en",
+						"name": "Mood: 🦝"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wolf",
+				"locales": [
+					{
+						"description": "I'm feeling fierce/independent/mysterious.",
+						"lang": "en",
+						"name": "Mood: 🐺"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dog",
+				"locales": [
+					{
+						"description": "I'm feeling loyal/friendly/playful.",
+						"lang": "en",
+						"name": "Mood: 🐶"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fox",
+				"locales": [
+					{
+						"description": "I'm feeling clever/sly/agile.",
+						"lang": "en",
+						"name": "Mood: 🦊"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cowboy-hat-face",
+				"locales": [
+					{
+						"description": "Howdy!",
+						"lang": "en",
+						"name": "Mood: 🤠"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "star",
+				"locales": [
+					{
+						"description": "I feel like a superstar!",
+						"lang": "en",
+						"name": "Mood: ⭐"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vampire",
+				"locales": [
+					{
+						"description": "I'm feeling mysterious/dark/seductive.",
+						"lang": "en",
+						"name": "Mood: 🧛"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "coffin",
+				"locales": [
+					{
+						"description": "I'm feeling grim/morbid/final.",
+						"lang": "en",
+						"name": "Mood: ⚰️"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fallen-leaf",
+				"locales": [
+					{
+						"description": "I'm feeling nostalgic/transitional/tranquil.",
+						"lang": "en",
+						"name": "Mood: 🍂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "maple-leaf",
+				"locales": [
+					{
+						"description": "I'm feeling autumnal/cozy/serene.",
+						"lang": "en",
+						"name": "Mood: 🍁"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -655,6 +907,24 @@
 			}
 		],
 		"labelValues": [
+			"seal",
+			"dragon-face",
+			"panda",
+			"mouse",
+			"pig-nose",
+			"unicorn",
+			"black-cat",
+			"cat",
+			"raccoon",
+			"wolf",
+			"dog",
+			"fox",
+			"cowboy-hat-face",
+			"star",
+			"vampire",
+			"coffin",
+			"fallen-leaf",
+			"maple-leaf",
 			"face-without-mouth",
 			"crocodile",
 			"frog",
