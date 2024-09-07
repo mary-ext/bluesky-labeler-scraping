@@ -1,12 +1,12 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:otusnqiucw3sm56ne27wt6tv/app.bsky.labeler.service/self",
-	"cid": "bafyreicqyqhigpbqyrj5v2m6opuokzr6wfzkognmefzobbapigmpsan5za",
+	"cid": "bafyreicfajhaq6x5jxkcqh6dihvh7fv73cmw4i4nee2izrlvb6po37v5iu",
 	"creator": {
 		"did": "did:plc:otusnqiucw3sm56ne27wt6tv",
 		"handle": "test.futur.blue",
-		"displayName": "futur's yapper",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:otusnqiucw3sm56ne27wt6tv/bafkreieetoxp6hei32nstipxuspvoy6pkk3xtj3t27jlnh3fou2ozoynmm@jpeg",
+		"displayName": "Elements Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:otusnqiucw3sm56ne27wt6tv/bafkreihxkxjmclmmchjveeaa3wvtc3mfktz5rbffnhoz3xrawm5hd6ixl4@jpeg",
 		"associated": {
 			"labeler": true,
 			"chat": {
@@ -15,61 +15,76 @@
 		},
 		"labels": [],
 		"createdAt": "2024-02-18T15:07:06.641Z",
-		"description": "what's this",
-		"indexedAt": "2024-05-23T02:25:00.253Z"
+		"description": "Like a post to select an element that represents you.",
+		"indexedAt": "2024-09-06T13:22:50.918Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-09-01T22:58:23.799Z",
+	"likeCount": 1,
+	"indexedAt": "2024-09-06T12:49:01.814Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content",
+				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nerd",
+				"identifier": "fire",
 				"locales": [
 					{
-						"description": "Chief nerd",
+						"description": "Fierce and passionate, fire ignites transformation, consuming impurities and rekindling growth from the ashes.",
 						"lang": "en",
-						"name": "Nerd"
+						"name": "Fire"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": true,
-				"blurs": "content",
+				"adultOnly": false,
+				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "another-label",
+				"identifier": "water",
 				"locales": [
 					{
-						"description": "the label is to be described in a linguistic matter containing subsequent syllables",
+						"description": "Fluid and adaptable, water flows around obstacles, carving its path with gentle persistence and soothing calm.",
 						"lang": "en",
-						"name": "does this one work too"
+						"name": "Water"
 					}
 				],
-				"severity": "alert"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "hide",
-				"identifier": "testinges",
+				"defaultSetting": "warn",
+				"identifier": "air",
 				"locales": [
 					{
-						"description": "testi",
+						"description": "Invisible yet essential, air moves freely and swiftly, carrying whispers of change and the breath of life.",
 						"lang": "en",
-						"name": "teeeeest"
+						"name": "Air"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "earth",
+				"locales": [
+					{
+						"description": "Solid and unyielding, earth provides a steadfast foundation and a sense of stability amidst chaos.",
+						"lang": "en",
+						"name": "Earth"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"nerd",
-			"another-label",
-			"testinges"
+			"fire",
+			"water",
+			"air",
+			"earth"
 		]
 	}
 }
