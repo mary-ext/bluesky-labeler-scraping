@@ -1,20 +1,20 @@
 {
   "uri": "at://did:plc:yv4nuaj3jshcuh2d2ivykgiz/app.bsky.labeler.service/self",
-  "cid": "bafyreieu37p7iwulsssc2wb5p4c4umt6zmd7b4edc4bqjeevcrjgcr5ooi",
+  "cid": "bafyreigua4ndedluozd6i6kdihmfhcpighbn6iqml6v3viptxi2im32nne",
   "creator": {
     "did": "did:plc:yv4nuaj3jshcuh2d2ivykgiz",
     "handle": "sortinghat.bsky.sh",
-    "displayName": "Sorting Hat (DOES NOT WORK YET)",
+    "displayName": "Sorting Hat",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yv4nuaj3jshcuh2d2ivykgiz/bafkreierpwk4ymqy66lffcixs7qiec2s34xvfco4izva2cjnhi6mewbvjq@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2024-09-06T12:22:47.126Z",
-    "description": "There’s nothing hidden in your head\nThe Sorting Hat can’t see,\nSo try me on and I will tell you\nWhere you ought to be.\n\nLike the labeler to get your house!  \n\nTo remove, like this: https://bsky.app/profile/sortinghat.bsky.sh/post/3l3izhv734g2o",
-    "indexedAt": "2024-09-06T18:49:41.822Z"
+    "description": "There’s nothing hidden in your head\nThe Sorting Hat can’t see,\nSo try me on and I will tell you\nWhere you ought to be.\n\nLike the labeler to get your house!\n\nby @alice.bsky.sh\n\nTo remove, like https://bsky.app/profile/sortinghat.bsky.sh/post/3l3izhv734g2o",
+    "indexedAt": "2024-09-07T01:31:25.919Z"
   },
-  "indexedAt": "2024-09-07T01:00:47.050Z",
+  "indexedAt": "2024-09-07T20:52:55.187Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -22,12 +22,17 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "gryffindor",
+        "identifier": "ravenclaw",
         "locales": [
           {
-            "description": "Brave, bold, and daring.",
+            "description": "Wise, creative, and curious.",
             "lang": "en",
-            "name": "Gryffindor 🦁"
+            "name": "Ravenclaw 🦅"
+          },
+          {
+            "description": "Sábio, criativo e curioso.",
+            "lang": "pt-BR",
+            "name": "Corvinal 🦅"
           }
         ],
         "severity": "inform"
@@ -42,6 +47,11 @@
             "description": "Ambitious, cunning, and resourceful.",
             "lang": "en",
             "name": "Slytherin 🐍"
+          },
+          {
+            "description": "Ambicioso, astuto e engenhoso.",
+            "lang": "pt-BR",
+            "name": "Sonserina 🐍"
           }
         ],
         "severity": "inform"
@@ -50,12 +60,17 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ravenclaw",
+        "identifier": "gryffindor",
         "locales": [
           {
-            "description": "Wise, creative, and curious.",
+            "description": "Brave, bold, and daring.",
             "lang": "en",
-            "name": "Ravenclaw 🦅"
+            "name": "Gryffindor 🦁"
+          },
+          {
+            "description": "Corajoso, ousado e destemido.",
+            "lang": "pt-BR",
+            "name": "Grifinória 🦁"
           }
         ],
         "severity": "inform"
@@ -70,15 +85,20 @@
             "description": "Loyal, hardworking, and fair.",
             "lang": "en",
             "name": "Hufflepuff 🦡"
+          },
+          {
+            "description": "Leal, trabalhador e justo.",
+            "lang": "pt-BR",
+            "name": "Lufa-Lufa 🦡"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "gryffindor",
-      "slytherin",
       "ravenclaw",
+      "slytherin",
+      "gryffindor",
       "hufflepuff"
     ]
   }
