@@ -1,0 +1,75 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:o47jwym4ufayfdpvwniablaa/app.bsky.labeler.service/self",
+	"cid": "bafyreih55ceqamip3vef4m2cmlisb7cifn73ksq64zh23zo4oaq5qt2dfy",
+	"creator": {
+		"did": "did:plc:o47jwym4ufayfdpvwniablaa",
+		"handle": "transsecurity.triis.lol",
+		"displayName": "LGBT+ Security",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o47jwym4ufayfdpvwniablaa/bafkreigzkdlgjywh3s5mg6mernc6tj3qaqlie4dtfveh542rzhk3ofumxy@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "none"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-09-06T19:23:25.622Z",
+		"description": "Rotulador destinado a toda comunidade LGBT+ \nSempre denuncie posts, contas e conteúdos contra a comunidade LGBT.",
+		"indexedAt": "2024-09-08T00:37:47.219Z"
+	},
+	"likeCount": 29,
+	"indexedAt": "2024-09-07T23:47:40.060Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "Assedio",
+				"locales": [
+					{
+						"description": "Sinalizar comportamentos ou conteúdos que constituem assédio direcionado a pessoas LGBT.\n",
+						"lang": "pt-BR",
+						"name": "Assédio"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "Odio",
+				"locales": [
+					{
+						"description": "Identificar e marcar discursos de ódio direcionados à comunidade LGBT.",
+						"lang": "pt-BR",
+						"name": "Discurso de ódio"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "hide",
+				"identifier": "Transfobia",
+				"locales": [
+					{
+						"description": "Sinalizar conteúdos ou interações que contenham comentários LGBTfóbicos, sejam eles explícitos ou sutis.\n",
+						"lang": "pt-BR",
+						"name": "LGBTfobia\n"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"Assedio",
+			"Odio",
+			"Transfobia"
+		]
+	}
+}
