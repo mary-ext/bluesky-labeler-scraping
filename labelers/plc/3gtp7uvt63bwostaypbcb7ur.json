@@ -1,22 +1,25 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3gtp7uvt63bwostaypbcb7ur/app.bsky.labeler.service/self",
-	"cid": "bafyreiblycluupsbgb4r2zo4ei5msurlg2ahi4xex7dz6tdmsuhc3bqxbi",
+	"cid": "bafyreihzniwduqoxhcrw5b4ri5bsu5cxaowq5ybh7v5gdshxxquaar7eka",
 	"creator": {
 		"did": "did:plc:3gtp7uvt63bwostaypbcb7ur",
 		"handle": "etiquetasdoorkut.bsky.social",
 		"displayName": "Etiquetas do Orkut",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3gtp7uvt63bwostaypbcb7ur/bafkreiaa6kyeaefwrl4bkxogityqhkvfc54u7wlhs22kgrt2g2gwabokne@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3gtp7uvt63bwostaypbcb7ur/bafkreifa7zenqbgd3cmzchhlezmmhicmxz4jk6ajkzpulrfrvj46barade@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "none"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-09-07T19:45:01.920Z",
-		"description": "work in progress",
-		"indexedAt": "2024-09-07T20:31:15.322Z"
+		"description": "As legendas do Orkut agora em forma de etiquetas aqui no Bluesky!\n\nComo usar:\n- Inscreva-se neste etiquetador clicando no botão do cabeçalho\n- Vá na aba de \"Posts\" e curta no post para gerar suas etiquetas\n\nEm desenvolvimento. Vai ter bugs!\n\n@joseli.to",
+		"indexedAt": "2024-09-08T20:12:45.219Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-09-07T21:10:57.265Z",
+	"likeCount": 467,
+	"indexedAt": "2024-09-08T17:39:26.066Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,19 +27,169 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "fa",
+				"locales": [
+					{
+						"description": "sou fã",
+						"lang": "en",
+						"name": "🌟"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "confiavel",
+				"locales": [
+					{
+						"description": "confiável",
+						"lang": "en",
+						"name": "🙂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "muitoconfiavel",
+				"locales": [
+					{
+						"description": "muito confiável",
+						"lang": "en",
+						"name": "🙂🙂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "superconfiavel",
 				"locales": [
 					{
-						"description": "superconfiavel",
+						"description": "super confiável",
 						"lang": "en",
-						"name": "superconfiavel"
+						"name": "🙂🙂🙂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "legal",
+				"locales": [
+					{
+						"description": "legal",
+						"lang": "en",
+						"name": "🧊"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "muitolegal",
+				"locales": [
+					{
+						"description": "muito legal",
+						"lang": "en",
+						"name": "🧊🧊"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "superlegal",
+				"locales": [
+					{
+						"description": "super legal",
+						"lang": "en",
+						"name": "🧊🧊🧊"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sexy",
+				"locales": [
+					{
+						"description": "sexy",
+						"lang": "en",
+						"name": "🩷"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "muitosexy",
+				"locales": [
+					{
+						"description": "muito sexy",
+						"lang": "en",
+						"name": "🩷🩷"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "supersexy",
+				"locales": [
+					{
+						"description": "super sexy",
+						"lang": "en",
+						"name": "🩷🩷🩷"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "syngred",
+				"locales": [
+					{
+						"description": "ultra sexy, uma deusa",
+						"lang": "en",
+						"name": "💛💛💛💛💛"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"superconfiavel"
+			"fa",
+			"confiavel",
+			"muitoconfiavel",
+			"superconfiavel",
+			"legal",
+			"muitolegal",
+			"superlegal",
+			"sexy",
+			"muitosexy",
+			"supersexy",
+			"syngred"
 		]
 	}
 }

@@ -1,24 +1,40 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rfymv3uqbppip7fq4i4zhhdi/app.bsky.labeler.service/self",
-	"cid": "bafyreicfzi3rmr47xbgnjlrudwkfuncwujpjf2nd4zf7cfwzps5a3dfimm",
+	"cid": "bafyreig4q53fbjo4tqy2tbpfnvtmj7iuhdsqdrnm374wvzqzuw3ia7snum",
 	"creator": {
 		"did": "did:plc:rfymv3uqbppip7fq4i4zhhdi",
 		"handle": "dcheros.bsky.social",
 		"displayName": "",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rfymv3uqbppip7fq4i4zhhdi/bafkreicutflwkuoikk6v2ejqfg2bds3wrp7i5it5u7ecwnmjd2fjwx4nsi@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "following"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-09-08T00:11:44.623Z",
-		"indexedAt": "2024-09-08T00:11:44.623Z"
+		"indexedAt": "2024-09-08T15:11:00.321Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-09-07T23:18:13.699Z",
+	"likeCount": 32,
+	"indexedAt": "2024-09-08T16:32:23.187Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Superman",
+				"locales": [
+					{
+						"description": "Look, up in the sky, it's a bird, it's a plane, it's Superman!",
+						"lang": "pt-br",
+						"name": "Superman"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"blurs": "none",
 				"defaultSetting": "warn",
@@ -34,6 +50,7 @@
 			}
 		],
 		"labelValues": [
+			"Superman",
 			"Batman"
 		]
 	}

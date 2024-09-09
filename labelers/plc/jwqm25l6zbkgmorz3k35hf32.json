@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreifq3dozkw4sfft75fngmiqm3zgdj3x6o5kja7anrmrth3sjo3aoz4",
+	"cid": "bafyreielz2azjbaxsxdvc4u3zownlhcuhxg2mnuxmu3g4yf3f4gjv4hfje",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -15,38 +15,178 @@
 		},
 		"labels": [],
 		"createdAt": "2024-06-17T17:11:39.257Z",
-		"description": "This is simply experimenting with labellers, this won't do anything 🙃\n",
-		"indexedAt": "2024-06-27T07:34:49.377Z"
+		"description": "This is simply experimenting with labellers, this won't do anything 🙃\n\nCursor @ 2024-09-08T11:29:37Z, Delays ~= a few seconds",
+		"indexedAt": "2024-09-08T11:30:12.720Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-09-03T15:30:04.580Z",
+	"indexedAt": "2024-09-08T07:58:06.900Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "badge-test",
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "ai-art",
 				"locales": [
 					{
-						"description": "Testing a badge.",
+						"description": "Art with the relevent Ai related tags. (Not Implimented)",
 						"lang": "en",
-						"name": "Badge Test"
+						"name": "Ai Art"
 					}
 				],
-				"severity": "inform"
+				"severity": "none"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
-				"identifier": "contains-xitter",
+				"identifier": "has-no-image-reply",
 				"locales": [
 					{
-						"description": "...",
+						"description": "If a reply does not contain an image.",
 						"lang": "en",
-						"name": "Contains the word: Xitter"
+						"name": "Has No Image: Reply"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-image-reply",
+				"locales": [
+					{
+						"description": "If a reply contains an image.",
+						"lang": "en",
+						"name": "Has Image: Reply"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-no-image-post",
+				"locales": [
+					{
+						"description": "If a post does not contain an image.",
+						"lang": "en",
+						"name": "Has No Image: Post"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-image-post",
+				"locales": [
+					{
+						"description": "If a post contains an image.",
+						"lang": "en",
+						"name": "Has Image: Post"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-no-image-repost",
+				"locales": [
+					{
+						"description": "If a repost does not contain an image.",
+						"lang": "en",
+						"name": "Has No Image: Repost"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-image-repost",
+				"locales": [
+					{
+						"description": "If a repost contains an image.",
+						"lang": "en",
+						"name": "Has Image: Repost"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-twitch",
+				"locales": [
+					{
+						"description": "Posts that contain a link to twitch.tv",
+						"lang": "en",
+						"name": "Has Link: Twitch"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-chaturbate",
+				"locales": [
+					{
+						"description": "Posts that contain a link to chaturbate.com",
+						"lang": "en",
+						"name": "Has Link: Chaturbate"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-murrtube",
+				"locales": [
+					{
+						"description": "Posts that contain a link to Murrtube.net",
+						"lang": "en",
+						"name": "Has Link: Murrtube"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-dlvr",
+				"locales": [
+					{
+						"description": "Posts that contain a dlvr.it link.",
+						"lang": "en",
+						"name": "Has Link: dlvr"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "has-link-youtube",
+				"locales": [
+					{
+						"description": "Posts that contain a youtube.com or youtu.be link.",
+						"lang": "en",
+						"name": "Has Link: Youtube"
 					}
 				],
 				"severity": "none"
@@ -69,182 +209,42 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
-				"identifier": "has-link-youtube",
+				"identifier": "contains-xitter",
 				"locales": [
 					{
-						"description": "Posts that contain a youtube.com or youtu.be link.",
+						"description": "...",
 						"lang": "en",
-						"name": "Has Youtube Link."
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": true,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-link-dlvr",
-				"locales": [
-					{
-						"description": "Posts that contain a dlvr.it link.",
-						"lang": "en",
-						"name": "Has dlvr Link."
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": true,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-link-murrtube",
-				"locales": [
-					{
-						"description": "Posts that contain a link to Murrtube.net",
-						"lang": "en",
-						"name": "Has Murrtube Link."
+						"name": "Contains the word: Xitter"
 					}
 				],
 				"severity": "none"
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-image-repost",
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "badge",
 				"locales": [
 					{
-						"description": "If a repost contains an image.",
+						"description": "Testing a badge.",
 						"lang": "en",
-						"name": "Has Image. (Reposts)"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-no-image-repost",
-				"locales": [
-					{
-						"description": "If a repost does not contain an image.",
-						"lang": "en",
-						"name": "Has no image. (Reposts)"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": true,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-link-chaturbate",
-				"locales": [
-					{
-						"description": "Posts that contain a link to chaturbate.com (and dlvr.it)",
-						"lang": "en",
-						"name": "Has Chaturbate Link."
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-link-twitch",
-				"locales": [
-					{
-						"description": "Posts that contain a link to twitch.tv",
-						"lang": "en",
-						"name": "Has Twitch Link."
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-image-post",
-				"locales": [
-					{
-						"description": "If a post contains an image.",
-						"lang": "en",
-						"name": "Has Image. (Post)"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-no-image-post",
-				"locales": [
-					{
-						"description": "If a post does not contain an image.",
-						"lang": "en",
-						"name": "Has No Image. (Post)"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-image-reply",
-				"locales": [
-					{
-						"description": "If a reply contains an image.",
-						"lang": "en",
-						"name": "Has Image. (Replies)"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "has-no-image-reply",
-				"locales": [
-					{
-						"description": "If a reply does not contain an image.",
-						"lang": "en",
-						"name": "Has No Image. (Replies)"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "media",
-				"defaultSetting": "hide",
-				"identifier": "ai-art",
-				"locales": [
-					{
-						"description": "Art with the relevent Ai related tags. (Not Implimented)",
-						"lang": "en",
-						"name": "Ai Art"
+						"name": "Badge Test"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"badge-test",
+			"badge",
 			"contains-xitter",
 			"contains-skeet",
 			"has-link-youtube",
 			"has-link-dlvr",
 			"has-link-murrtube",
-			"has-image-repost",
-			"has-no-image-repost",
 			"has-link-chaturbate",
 			"has-link-twitch",
+			"has-image-repost",
+			"has-no-image-repost",
 			"has-image-post",
 			"has-no-image-post",
 			"has-image-reply",

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dsae6lz5garrdkbicuor4chs/app.bsky.labeler.service/self",
-	"cid": "bafyreieojyd5oz7ki4kxmyzqjtv5nxyquixhojf5uxs4uts6oe2vafdgwu",
+	"cid": "bafyreih4g47t474ienhj75vzed6fsain62pwpmru67bosgn3jfx4qnwi24",
 	"creator": {
 		"did": "did:plc:dsae6lz5garrdkbicuor4chs",
 		"handle": "ozone.birb.house",
@@ -18,7 +18,7 @@
 		"description": "A labeling service for the games industry. Managed by @trezy.codes.\n\nLabels are applied manually and may be delayed.",
 		"indexedAt": "2024-09-06T13:02:31.127Z"
 	},
-	"likeCount": 357,
+	"likeCount": 386,
 	"indexedAt": "2024-09-05T05:16:42.644Z",
 	"labels": [],
 	"policies": {
@@ -69,6 +69,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "show",
+				"identifier": "games-business",
+				"locales": [
+					{
+						"description": "People involved with the business side of the games industry, such as marketing, ",
+						"lang": "en",
+						"name": "Games Business"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "show",
 				"identifier": "games-educator",
 				"locales": [
 					{
@@ -86,7 +100,7 @@
 				"identifier": "games-journalist",
 				"locales": [
 					{
-						"description": "Individual journalists covering the games industry. If requesting this role, please include reference to your work.",
+						"description": "Individual journalists covering the games industry. All accounts with this label have been vetted and verified.",
 						"lang": "en",
 						"name": "Games Journalist"
 					}
@@ -128,7 +142,7 @@
 				"identifier": "games-publication",
 				"locales": [
 					{
-						"description": "Physical and digital publications that cover games.",
+						"description": "Physical and digital publications that cover games. All accounts with this label have been vetted and verified.",
 						"lang": "en",
 						"name": "Games Publication"
 					}
@@ -142,9 +156,23 @@
 				"identifier": "games-publisher",
 				"locales": [
 					{
-						"description": "Companies that have published games.",
+						"description": "Companies that have published games. All accounts with this label have been vetted and verified.",
 						"lang": "en",
 						"name": "Games Publisher"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "show",
+				"identifier": "games-research",
+				"locales": [
+					{
+						"description": "People that focus on researching the games industry.",
+						"lang": "en",
+						"name": "Games Research"
 					}
 				],
 				"severity": "inform"
@@ -154,12 +182,14 @@
 			"game-dev",
 			"game-studio",
 			"games-archivist",
+			"games-business",
 			"games-educator",
 			"games-journalist",
 			"games-organizer",
 			"games-podcast",
 			"games-publication",
-			"games-publisher"
+			"games-publisher",
+			"games-research"
 		]
 	}
 }
