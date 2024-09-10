@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ubt73xes4uesthuuhbqwf37d/app.bsky.labeler.service/self",
-	"cid": "bafyreiac543mdeu4eb25mzej3xdbbbdnuzdb2n6bdemump2pwycmxrhifi",
+	"cid": "bafyreigufjgryps2gimu6h6oorbegu6wx5djs6lyimvuiwbthwzxoqzu7q",
 	"creator": {
 		"did": "did:plc:ubt73xes4uesthuuhbqwf37d",
 		"handle": "kickflip.renahlee.com",
@@ -15,14 +15,42 @@
 		},
 		"labels": [],
 		"createdAt": "2024-07-03T23:30:29.079Z",
-		"description": "𝐍𝐚𝐭𝐢𝐨𝐧𝐬\n\nHourly limit lifts soon but you can still use it 🩵\n\nDM a flag emoji to receive a label and 🏳️ to remove all. Runs hourly. Make sure it’s your last message 🙂\n\nReserved: 🌐🧼🏯♾️🥞🛹",
-		"indexedAt": "2024-09-07T23:00:11.720Z"
+		"description": "𝐍𝐚𝐭𝐢𝐨𝐧𝐬\n\nHourly limit lifts soon but you can still use it 🩵\n\nDM a flag emoji to receive a label and 🏳️ to remove all. Runs hourly. Make sure it’s your last message 🙂\n\nReserved: 🌐🧼🏯♾️🥞📰🧹🛹",
+		"indexedAt": "2024-09-09T21:07:12.121Z"
 	},
 	"likeCount": 199,
-	"indexedAt": "2024-09-08T23:03:41.000Z",
+	"indexedAt": "2024-09-09T21:04:06.246Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "prd",
+				"locales": [
+					{
+						"description": "Pride Nation",
+						"lang": "en",
+						"name": "🏳️‍🌈"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "trn",
+				"locales": [
+					{
+						"description": "Trans Nation",
+						"lang": "en",
+						"name": "🏳️‍⚧️"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -3611,34 +3639,6 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "prd",
-				"locales": [
-					{
-						"description": "Pride Nation",
-						"lang": "en",
-						"name": "🏳️‍🌈"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "trn",
-				"locales": [
-					{
-						"description": "Trans Nation",
-						"lang": "en",
-						"name": "🏳️‍⚧️"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
 				"identifier": "fri",
 				"locales": [
 					{
@@ -3779,12 +3779,40 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "kiki",
+				"locales": [
+					{
+						"description": "Koriko",
+						"lang": "en",
+						"name": "🧹"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "mark",
 				"locales": [
 					{
 						"description": "The Bathhouse",
 						"lang": "en",
 						"name": "🏯"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mis",
+				"locales": [
+					{
+						"description": "Misinformation Nation",
+						"lang": "en",
+						"name": "📰"
 					}
 				],
 				"severity": "inform"
@@ -3847,6 +3875,8 @@
 			}
 		],
 		"labelValues": [
+			"prd",
+			"trn",
 			"ad",
 			"ae",
 			"af",
@@ -4103,8 +4133,6 @@
 			"eu",
 			"un",
 			"met",
-			"prd",
-			"trn",
 			"fri",
 			"ahoy",
 			"cross",
@@ -4115,7 +4143,9 @@
 			"hell",
 			"bot",
 			"ihop",
+			"kiki",
 			"mark",
+			"mis",
 			"mob",
 			"skate",
 			"soap",

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:6dla7xy2kvakqvhj566tmwbe/app.bsky.labeler.service/self",
-	"cid": "bafyreifbprv7lz5s4phfibtxiriuwfps4me4b6ezp54jto25krp2isgada",
+	"cid": "bafyreid7pgy2um4afzrmq33nlspjrj3jc3kq6gipi3yjr7cyn3255md33a",
 	"creator": {
 		"did": "did:plc:6dla7xy2kvakqvhj566tmwbe",
 		"handle": "teans.bsky.my",
@@ -17,8 +17,8 @@
 		"createdAt": "2024-09-06T19:55:25.223Z",
 		"indexedAt": "2024-09-07T02:46:56.221Z"
 	},
-	"likeCount": 3,
-	"indexedAt": "2024-09-08T22:18:49.494Z",
+	"likeCount": 4,
+	"indexedAt": "2024-09-09T12:20:09.054Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -26,12 +26,17 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "keyum",
+				"identifier": "aaa-sun-aries",
 				"locales": [
 					{
-						"description": "test",
+						"description": "Aries",
 						"lang": "en",
-						"name": "Test 1"
+						"name": "♈ ☀️"
+					},
+					{
+						"description": "Áries",
+						"lang": "pt-BR",
+						"name": "♈ ☀️"
 					}
 				],
 				"severity": "inform"
@@ -40,20 +45,25 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "keydois",
+				"identifier": "bbb-moon-aries",
 				"locales": [
 					{
-						"description": "test",
+						"description": "Aries",
 						"lang": "en",
-						"name": "Test 2"
+						"name": "♈ 🌙"
+					},
+					{
+						"description": "Áries",
+						"lang": "pt-BR",
+						"name": "♈ 🌙"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"keyum",
-			"keydois"
+			"aaa-sun-aries",
+			"bbb-moon-aries"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dsae6lz5garrdkbicuor4chs/app.bsky.labeler.service/self",
-	"cid": "bafyreih4g47t474ienhj75vzed6fsain62pwpmru67bosgn3jfx4qnwi24",
+	"cid": "bafyreignnoiepuhuwfzpvxqgj64fhb6x37bwsnz7z342vulgvt5hnqxkj4",
 	"creator": {
 		"did": "did:plc:dsae6lz5garrdkbicuor4chs",
 		"handle": "ozone.birb.house",
@@ -10,7 +10,7 @@
 		"associated": {
 			"labeler": true,
 			"chat": {
-				"allowIncoming": "following"
+				"allowIncoming": "all"
 			}
 		},
 		"labels": [],
@@ -18,7 +18,7 @@
 		"description": "A labeling service for the games industry. Managed by @trezy.codes.\n\nLabels are applied manually and may be delayed.",
 		"indexedAt": "2024-09-06T13:02:31.127Z"
 	},
-	"likeCount": 386,
+	"likeCount": 423,
 	"indexedAt": "2024-09-05T05:16:42.644Z",
 	"labels": [],
 	"policies": {
@@ -30,7 +30,7 @@
 				"identifier": "game-dev",
 				"locales": [
 					{
-						"description": "People directly involved in the development of a game, including programmers, designers, narrative, animators, writers, artists, composers, etc. This is available for any section of the industry, from AAA to indie to hobbyists.",
+						"description": "Anybody that is directly involved in the development of a game. This includes including programmers, designers, narrative, animators, writers, artists, composers, QA, localisation, etc. This is available for any section of the industry, from AAA to indie to hobbyists.",
 						"lang": "en",
 						"name": "Game Dev"
 					}
@@ -44,7 +44,7 @@
 				"identifier": "game-studio",
 				"locales": [
 					{
-						"description": "Companies that contribute to the development of games. This includes consulting and outsourcing companies that may not build games from start to finish, but support other studios with getting their games across the finish line.",
+						"description": "Companies that contribute to the development of games. This includes indie studios, AAA studios, consulting and outsourcing companies, etc.\n\n⚠️ Requires verification.",
 						"lang": "en",
 						"name": "Game Studio"
 					}
@@ -58,7 +58,7 @@
 				"identifier": "games-archivist",
 				"locales": [
 					{
-						"description": "The diligent people that are preserving games history.",
+						"description": "The diligent people that preserve some part of games industry history.",
 						"lang": "en",
 						"name": "Games Archivist"
 					}
@@ -72,7 +72,7 @@
 				"identifier": "games-business",
 				"locales": [
 					{
-						"description": "People involved with the business side of the games industry, such as marketing, ",
+						"description": "Individuals involved with the business side of the games industry. This includes as marketing, PR, publishing, finance, etc.",
 						"lang": "en",
 						"name": "Games Business"
 					}
@@ -100,7 +100,7 @@
 				"identifier": "games-journalist",
 				"locales": [
 					{
-						"description": "Individual journalists covering the games industry. All accounts with this label have been vetted and verified.",
+						"description": "Individual journalists covering the games industry.\n\n⚠️ Requires verification.",
 						"lang": "en",
 						"name": "Games Journalist"
 					}
@@ -114,7 +114,7 @@
 				"identifier": "games-organizer",
 				"locales": [
 					{
-						"description": "Events organizers that focus on the games industry. Event size is irrelevant, as we're interested in everything from local meetups to international conferences.",
+						"description": "Event organizers that focus on the games industry. Event size is irrelevant; everything from local meetups to international conferences counts.",
 						"lang": "en",
 						"name": "Games Organizer"
 					}
@@ -128,7 +128,7 @@
 				"identifier": "games-podcast",
 				"locales": [
 					{
-						"description": "Podcasts about games. NOT for individual podcasters.",
+						"description": "Podcasts about games, as well as individual podcasters.",
 						"lang": "en",
 						"name": "Games Podcast"
 					}
@@ -142,7 +142,7 @@
 				"identifier": "games-publication",
 				"locales": [
 					{
-						"description": "Physical and digital publications that cover games. All accounts with this label have been vetted and verified.",
+						"description": "Physical and digital publications that cover games.\n\n⚠️ Requires verification.",
 						"lang": "en",
 						"name": "Games Publication"
 					}
@@ -156,7 +156,7 @@
 				"identifier": "games-publisher",
 				"locales": [
 					{
-						"description": "Companies that have published games. All accounts with this label have been vetted and verified.",
+						"description": "Companies that have published games.\n\n⚠️ Requires verification.",
 						"lang": "en",
 						"name": "Games Publisher"
 					}
@@ -170,7 +170,7 @@
 				"identifier": "games-research",
 				"locales": [
 					{
-						"description": "People that focus on researching the games industry.",
+						"description": "Anybody that focuses on researching games and the games industry.",
 						"lang": "en",
 						"name": "Games Research"
 					}
