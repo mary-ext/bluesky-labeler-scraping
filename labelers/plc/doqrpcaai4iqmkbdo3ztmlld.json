@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:doqrpcaai4iqmkbdo3ztmlld/app.bsky.labeler.service/self",
-	"cid": "bafyreihh6lxpnd6nikdyroebkt5e3rfqhsgcerxe6t2ttsylq2lttzcomu",
+	"cid": "bafyreihn4spznd4oiwceuhlocpx4vuj2eos33xdhpopx2k6st6i5li7bzy",
 	"creator": {
 		"did": "did:plc:doqrpcaai4iqmkbdo3ztmlld",
 		"handle": "danielhe4rtless.bsky.social",
@@ -15,19 +15,89 @@
 		"description": "scylladb goes brrr",
 		"indexedAt": "2024-09-03T18:46:38.499Z"
 	},
-	"likeCount": 3,
-	"indexedAt": "2024-09-07T19:57:09.209Z",
+	"likeCount": 9,
+	"indexedAt": "2024-09-10T04:39:32.654Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
-				"adultOnly": true,
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "typescript",
+				"locales": [
+					{
+						"description": "TypeScript is a superset of JavaScript that adds static typing to the language, enhancing code quality and development experience.",
+						"lang": "en",
+						"name": "TypeScript"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rust",
+				"locales": [
+					{
+						"description": "Rust is a systems programming language focused on safety, speed, and concurrency, often used for performance-critical applications.",
+						"lang": "en",
+						"name": "Rust"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "python",
+				"locales": [
+					{
+						"description": "Python is a high-level, versatile programming language known for its easy readability and vast ecosystem, used in web development, data science, automation, and more.",
+						"lang": "en",
+						"name": "Python"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "go",
+				"locales": [
+					{
+						"description": "Go (also known as Golang) is an open-source programming language designed for simplicity, reliability, and efficiency, particularly for building large-scale systems.",
+						"lang": "en",
+						"name": "Go"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "php",
+				"locales": [
+					{
+						"description": "PHP is a widely-used server-side scripting language especially suited for web development, powering many websites and web applications.",
+						"lang": "en",
+						"name": "PHP"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
 				"identifier": "backend",
 				"locales": [
 					{
-						"description": "Server folks",
+						"description": "Backend development refers to the server-side of an application and everything that communicates between the database and the browser.",
 						"lang": "en",
 						"name": "Backend"
 					}
@@ -41,17 +111,67 @@
 				"identifier": "frontend",
 				"locales": [
 					{
-						"description": "button painter",
+						"description": "Frontend development refers to the client-side of an application and is focused on what users interact with in the browser.",
 						"lang": "en",
 						"name": "Frontend"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "devops",
+				"locales": [
+					{
+						"description": "DevOps involves practices that combine software development and IT operations to shorten the development life cycle.",
+						"lang": "en",
+						"name": "DevOps"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fullstack",
+				"locales": [
+					{
+						"description": "Full Stack development covers both frontend and backend development to create complete web applications.",
+						"lang": "en",
+						"name": "Full Stack"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "database",
+				"locales": [
+					{
+						"description": "Databases store and organize data and provide mechanisms for accessing, managing, and updating that data efficiently.",
+						"lang": "en",
+						"name": "DBA"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"typescript",
+			"rust",
+			"python",
+			"go",
+			"php",
 			"backend",
-			"frontend"
+			"frontend",
+			"devops",
+			"fullstack",
+			"database"
 		]
 	}
 }

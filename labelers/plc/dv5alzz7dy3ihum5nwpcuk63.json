@@ -1,0 +1,39 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:dv5alzz7dy3ihum5nwpcuk63/app.bsky.labeler.service/self",
+	"cid": "bafyreigr7sdncukwe3tov7ishzgq5uvqxnhvq2kkt6jj6u2d3fijp7bflm",
+	"creator": {
+		"did": "did:plc:dv5alzz7dy3ihum5nwpcuk63",
+		"handle": "ozone.pds.skyfeed.dev",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "0001-01-01T00:00:00.000Z",
+		"indexedAt": "0001-01-01T00:00:00.000Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-09-10T12:15:43.667Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Label Display Name"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"test"
+		]
+	}
+}
