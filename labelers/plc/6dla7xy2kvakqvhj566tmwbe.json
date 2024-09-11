@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:6dla7xy2kvakqvhj566tmwbe/app.bsky.labeler.service/self",
-  "cid": "bafyreid7pgy2um4afzrmq33nlspjrj3jc3kq6gipi3yjr7cyn3255md33a",
+  "cid": "bafyreiaz56o5joibmnucoxvo4y5izmvbbns7c6gamzkbpz3i2yzflcu6ce",
   "creator": {
     "did": "did:plc:6dla7xy2kvakqvhj566tmwbe",
     "handle": "teans.bsky.my",
-    "displayName": "wait soon",
+    "displayName": "Times de Futebol",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6dla7xy2kvakqvhj566tmwbe/bafkreiaq6berfzfeoyecxathi5hyfxzlzdl2u3osfmiuij3yukasvlk36i@jpeg",
     "associated": {
       "labeler": true,
@@ -14,9 +14,10 @@
     },
     "labels": [],
     "createdAt": "2024-09-06T19:55:25.223Z",
-    "indexedAt": "2024-09-07T02:46:56.221Z"
+    "description": "Exiba um 🏷️ Rótulo do seu Time do Coração em seu Perfil.\n\n1 - Inscreva-se e Curta ♥️.\n2 - Escolha o seu time na Lista, 👉 https://meutime.bsky.my\n  ► 2.1 - Curta a postagem referente ao seu time.\n\nREMOVER: Curta esse post 👉 https://bit.ly/3AYyy0R",
+    "indexedAt": "2024-09-10T23:26:45.326Z"
   },
-  "indexedAt": "2024-09-09T12:20:09.054Z",
+  "indexedAt": "2024-09-10T22:58:28.335Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,17 +25,17 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "aaa-sun-aries",
+        "identifier": "flamengo",
         "locales": [
           {
-            "description": "Aries",
+            "description": "Flamengo fan",
             "lang": "en",
-            "name": "♈ ☀️"
+            "name": "🔴⚫️ Flamengo"
           },
           {
-            "description": "Áries",
+            "description": "Torcedor do Flamengo",
             "lang": "pt-BR",
-            "name": "♈ ☀️"
+            "name": "🔴⚫️ Flamengo"
           }
         ],
         "severity": "inform"
@@ -43,25 +44,345 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bbb-moon-aries",
+        "identifier": "palmeiras",
         "locales": [
           {
-            "description": "Aries",
+            "description": "Palmeiras fan",
             "lang": "en",
-            "name": "♈ 🌙"
+            "name": "🟢⚪️ Palmeiras"
           },
           {
-            "description": "Áries",
+            "description": "Torcedor do Palmeiras",
             "lang": "pt-BR",
-            "name": "♈ 🌙"
+            "name": "🟢⚪️ Palmeiras"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "corinthians",
+        "locales": [
+          {
+            "description": "Corinthians fan",
+            "lang": "en",
+            "name": "⚫️⚪️ Corinthians"
+          },
+          {
+            "description": "Torcedor do Corinthians",
+            "lang": "pt-BR",
+            "name": "⚫️⚪️ Corinthians"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "botafogo",
+        "locales": [
+          {
+            "description": "Botafogo fan",
+            "lang": "en",
+            "name": "⚫️⚪️ Botafogo"
+          },
+          {
+            "description": "Torcedor do Botafogo",
+            "lang": "pt-BR",
+            "name": "⚫️⚪️ Botafogo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sao-paulo",
+        "locales": [
+          {
+            "description": "São Paulo fan",
+            "lang": "en",
+            "name": "🔴⚪️ São Paulo"
+          },
+          {
+            "description": "Torcedor do São Paulo",
+            "lang": "pt-BR",
+            "name": "🔴⚪️ São Paulo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gremio",
+        "locales": [
+          {
+            "description": "Grêmio fan",
+            "lang": "en",
+            "name": "🔵⚫️ Grêmio"
+          },
+          {
+            "description": "Torcedor do Grêmio",
+            "lang": "pt-BR",
+            "name": "🔵⚫️ Grêmio"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "internacional",
+        "locales": [
+          {
+            "description": "Internacional fan",
+            "lang": "en",
+            "name": "🔴⚪️ Internacional"
+          },
+          {
+            "description": "Torcedor do Internacional",
+            "lang": "pt-BR",
+            "name": "🔴⚪️ Internacional"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "atletico-mg",
+        "locales": [
+          {
+            "description": "Atlético Mineiro fan",
+            "lang": "en",
+            "name": "⚪️⚫️ Atlético Mineiro"
+          },
+          {
+            "description": "Torcedor do Atlético Mineiro",
+            "lang": "pt-BR",
+            "name": "⚪️⚫️ Atlético Mineiro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cruzeiro",
+        "locales": [
+          {
+            "description": "Cruzeiro fan",
+            "lang": "en",
+            "name": "🔵⚪️ Cruzeiro"
+          },
+          {
+            "description": "Torcedor do Cruzeiro",
+            "lang": "pt-BR",
+            "name": "🔵⚪️ Cruzeiro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "santos",
+        "locales": [
+          {
+            "description": "Santos fan",
+            "lang": "en",
+            "name": "⚫️⚪️ Santos"
+          },
+          {
+            "description": "Torcedor do Santos",
+            "lang": "pt-BR",
+            "name": "⚫️⚪️ Santos"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vasco",
+        "locales": [
+          {
+            "description": "Vasco fan",
+            "lang": "en",
+            "name": "⚫️⚪️ Vasco"
+          },
+          {
+            "description": "Torcedor do Vasco",
+            "lang": "pt-BR",
+            "name": "⚫️⚪️ Vasco"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fortaleza",
+        "locales": [
+          {
+            "description": "Fortaleza fan",
+            "lang": "en",
+            "name": "🔵🔴 Fortaleza"
+          },
+          {
+            "description": "Torcedor do Fortaleza",
+            "lang": "pt-BR",
+            "name": "🔵🔴 Fortaleza"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "athletico-pr",
+        "locales": [
+          {
+            "description": "Athletico-PR fan",
+            "lang": "en",
+            "name": "🔴⚫️ Athletico-PR"
+          },
+          {
+            "description": "Torcedor do Athletico-PR",
+            "lang": "pt-BR",
+            "name": "🔴⚫️ Athletico-PR"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bahia",
+        "locales": [
+          {
+            "description": "Bahia fan",
+            "lang": "en",
+            "name": "🔵🔴 Bahia"
+          },
+          {
+            "description": "Torcedor do Bahia",
+            "lang": "pt-BR",
+            "name": "🔵🔴 Bahia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "goias",
+        "locales": [
+          {
+            "description": "Goiás fan",
+            "lang": "en",
+            "name": "🟢⚪️ Goiás"
+          },
+          {
+            "description": "Torcedor do Goiás",
+            "lang": "pt-BR",
+            "name": "🟢⚪️ Goiás"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cuiaba",
+        "locales": [
+          {
+            "description": "Cuiabá fan",
+            "lang": "en",
+            "name": "🟢🟡 Cuiabá"
+          },
+          {
+            "description": "Torcedor do Cuiabá",
+            "lang": "pt-BR",
+            "name": "🟢🟡 Cuiabá"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "america-mg",
+        "locales": [
+          {
+            "description": "América-MG fan",
+            "lang": "en",
+            "name": "🟢⚫️ América-MG"
+          },
+          {
+            "description": "Torcedor do América-MG",
+            "lang": "pt-BR",
+            "name": "🟢⚫️ América-MG"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "coritiba",
+        "locales": [
+          {
+            "description": "Coritiba fan",
+            "lang": "en",
+            "name": "🟢⚪️ Coritiba"
+          },
+          {
+            "description": "Torcedor do Coritiba",
+            "lang": "pt-BR",
+            "name": "🟢⚪️ Coritiba"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "aaa-sun-aries",
-      "bbb-moon-aries"
+      "flamengo",
+      "palmeiras",
+      "corinthians",
+      "botafogo",
+      "sao-paulo",
+      "gremio",
+      "internacional",
+      "atletico-mg",
+      "cruzeiro",
+      "santos",
+      "vasco",
+      "fortaleza",
+      "athletico-pr",
+      "bahia",
+      "goias",
+      "cuiaba",
+      "america-mg",
+      "coritiba"
     ]
   }
 }
