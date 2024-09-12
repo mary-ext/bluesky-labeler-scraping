@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:d4qkzogjiqnn4uekdxh3pzda/app.bsky.labeler.service/self",
-	"cid": "bafyreie2navdxdmkybrfdxzxb2ro4flltqxcvwufmog53t4c2dfdpsjixq",
+	"cid": "bafyreifjorvsx3z7mcckk3wkg4kyc7tct25dunfnhp6gefoo6hokid3lbq",
 	"creator": {
 		"did": "did:plc:d4qkzogjiqnn4uekdxh3pzda",
 		"handle": "togepi.skiddle.id",
@@ -15,10 +15,223 @@
 		"description": "A Personal Moderator for @skiddle.id and all accounts on my PDS.",
 		"indexedAt": "2024-09-10T14:52:59.822Z"
 	},
-	"likeCount": 3,
+	"likeCount": 4,
 	"indexedAt": "2024-09-10T14:42:25.510Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "autobase",
+				"locales": [
+					{
+						"description": "Akun otobasis bekerja dengan meneruskan pesan dari pengguna sehingga bersifat anonim.",
+						"lang": "id",
+						"name": "Otobasis"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "roleplayer",
+				"locales": [
+					{
+						"description": "Akun Roleplay mempunyai eksklusifitas tersendiri dikarenakan fundamentalnya yang bermain peran.",
+						"lang": "id",
+						"name": "Roleplay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "olgambling",
+				"locales": [
+					{
+						"description": "Akun yang menawarkan permainan judi daring.",
+						"lang": "id",
+						"name": "Perjudian Daring"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "scam",
+				"locales": [
+					{
+						"description": "Akun penipuan yang mengatasnamakan suatu entitas.",
+						"lang": "id",
+						"name": "Penipuan"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonation",
+				"locales": [
+					{
+						"description": "Akun yang meniru identitas figur lain baik untuk lelucon atau penipuan.",
+						"lang": "id",
+						"name": "Peniruan Identitas"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "affiliator",
+				"locales": [
+					{
+						"description": "Akun afiliasi yang menawarkan produk dari program afiliasi dengan entitas tertentu.",
+						"lang": "id",
+						"name": "Pegiat Afiliasi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "ncseventeen",
+				"locales": [
+					{
+						"description": "Akun khusus dewasa baik dalam tulisan maupun media visual.",
+						"lang": "id",
+						"name": "Khusus Dewasa"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "crypto",
+				"locales": [
+					{
+						"description": "Akun yang mempromosikan mata uang kripto.",
+						"lang": "id",
+						"name": "Kripto"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "pornography",
+				"locales": [
+					{
+						"description": "Akun yang mempromosikan pornografi.",
+						"lang": "id",
+						"name": "Pornografi"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "adultery",
+				"locales": [
+					{
+						"description": "Akun yang mempromosikan pencabulan.",
+						"lang": "id",
+						"name": "Pencabulan"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "prostitution",
+				"locales": [
+					{
+						"description": "Akun yang menjajakan jasa prostitusi baik daring atau luring.",
+						"lang": "id",
+						"name": "Prostitusi"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "hoax",
+				"locales": [
+					{
+						"description": "Informasi palsu yang bertujuan untuk penyesatan akan suatu fakta.",
+						"lang": "id",
+						"name": "Hoaks"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "hatespeech",
+				"locales": [
+					{
+						"description": "Kiriman yang mengandung ujaran kebencian untuk mendiskreditkan subjek tertentu.",
+						"lang": "id",
+						"name": "Ujaran Kebencian"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "rudecomment",
+				"locales": [
+					{
+						"description": "Kiriman yang mengandung perkataan kasar.",
+						"lang": "id",
+						"name": "Perkataan Kasar"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"autobase",
+			"roleplayer",
+			"olgambling",
+			"scam",
+			"impersonation",
+			"affiliator",
+			"ncseventeen",
+			"crypto",
+			"pornography",
+			"adultery",
+			"prostitution",
+			"hoax",
+			"hatespeech",
+			"rudecomment"
+		]
 	}
 }

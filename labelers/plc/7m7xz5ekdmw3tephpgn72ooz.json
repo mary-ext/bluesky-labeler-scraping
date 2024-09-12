@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreiaeaaqwwjxhuprfgp4baaqe54qiao5mx7qugp3a67ssjvblzez5tm",
+	"cid": "bafyreia5wvjdzsien7j6mvuxwwk3uovzai6xe4capqykrvquezywtq44n4",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -18,11 +18,53 @@
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in \"Posts\" and ❤️\n3️⃣ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw, based on @pronouns.adorable.mom\n\n📨 DM for requests",
 		"indexedAt": "2024-09-06T18:18:01.623Z"
 	},
-	"likeCount": 80,
+	"likeCount": 82,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "books",
+				"locales": [
+					{
+						"description": "In a reading mood.",
+						"lang": "en",
+						"name": "Mood: 📚"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "open-book",
+				"locales": [
+					{
+						"description": "In the mood for some studying.",
+						"lang": "en",
+						"name": "Mood: 📖"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ramen-love",
+				"locales": [
+					{
+						"description": "I'm feeling creative/affectionate/playful.",
+						"lang": "en",
+						"name": "Mood: 🍥🩷"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1117,6 +1159,9 @@
 			}
 		],
 		"labelValues": [
+			"books",
+			"open-book",
+			"ramen-love",
 			"airplane",
 			"world-map",
 			"low-battery",

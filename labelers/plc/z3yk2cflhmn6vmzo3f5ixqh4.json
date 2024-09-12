@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-	"cid": "bafyreidccebcil36amgo5v7r5gc7tjqnagolvicruk4lg5yca6wqk3rtwm",
+	"cid": "bafyreib3i7cchso2yoyx2lzniqotmljrvbtltaxngbbffgaa3immdpvpnq",
 	"creator": {
 		"did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
 		"handle": "yardcrow.com",
@@ -18,7 +18,7 @@
 		"description": "The Yard Crow watches\nHandcrafted and Artisanal labels administered by @patri.xyz\n(contact for questions or to request non-participation!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\n(upon request, most labels can be text or emoji)",
 		"indexedAt": "2024-09-09T04:24:43.621Z"
 	},
-	"likeCount": 422,
+	"likeCount": 423,
 	"indexedAt": "2024-05-11T07:33:13.462Z",
 	"labels": [],
 	"policies": {
@@ -173,6 +173,34 @@
 						"description": "Cineaste: This account explores the art of film through creation or critique.",
 						"lang": "en",
 						"name": "🎦"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "t-celebrity",
+				"locales": [
+					{
+						"description": "🤩: Celebrity News: This account shares pop and celebrity culture news.",
+						"lang": "en",
+						"name": "Celebrity News"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "celebrity",
+				"locales": [
+					{
+						"description": "Celebrity News: This account shares pop and celebrity culture news.",
+						"lang": "en",
+						"name": "🤩"
 					}
 				],
 				"severity": "inform"
@@ -1799,6 +1827,8 @@
 			"t-busy",
 			"calm",
 			"t-calm",
+			"celebrity",
+			"t-celebrity",
 			"cineaste",
 			"t-cineaste",
 			"comics",

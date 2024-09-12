@@ -1,0 +1,60 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:657bbv43hgcuypiqbkuuiz4s/app.bsky.labeler.service/self",
+	"cid": "bafyreihfevsmds5r32gyb5mqajewhhpzcfngzmdbtru7gkxvrtwxbwh7oe",
+	"creator": {
+		"did": "did:plc:657bbv43hgcuypiqbkuuiz4s",
+		"handle": "silencebrand.bsky.social",
+		"displayName": "SILENCE, BRAND",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:657bbv43hgcuypiqbkuuiz4s/bafkreidwps4ftjk3py2lqni6y56devqrd4nv6dznydc62zt2mfqguutny4@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-09-11T14:47:13.418Z",
+		"description": "Semi-automated labeler that looks for brand accounts.\n\nhttps://silencebrand.xyz",
+		"indexedAt": "2024-09-11T18:09:36.023Z"
+	},
+	"likeCount": 8,
+	"indexedAt": "2024-09-11T18:07:07.744Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "potential-brand",
+				"locales": [
+					{
+						"description": "This account was detected by automation as a potential brand account and may not be not a standard user. \n\nCurrent detection criteria: account handle matches domain in top 50,000 domains worldwide per CloudFlare.",
+						"lang": "en",
+						"name": "Potential Brand Account"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "brand",
+				"locales": [
+					{
+						"description": "This account appears to represent a brand and may not be not a standard user.",
+						"lang": "en",
+						"name": "Brand Account"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"brand",
+			"potential-brand"
+		]
+	}
+}

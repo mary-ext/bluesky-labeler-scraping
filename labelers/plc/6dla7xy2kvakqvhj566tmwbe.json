@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:6dla7xy2kvakqvhj566tmwbe/app.bsky.labeler.service/self",
-	"cid": "bafyreiaz56o5joibmnucoxvo4y5izmvbbns7c6gamzkbpz3i2yzflcu6ce",
+	"cid": "bafyreia63gy7e2d2oj5w3lga52cinzq55nzaxjtxnj7lswlvs55sg66isq",
 	"creator": {
 		"did": "did:plc:6dla7xy2kvakqvhj566tmwbe",
 		"handle": "teans.bsky.my",
-		"displayName": "Times de Futebol",
+		"displayName": "Meu Time",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6dla7xy2kvakqvhj566tmwbe/bafkreiaq6berfzfeoyecxathi5hyfxzlzdl2u3osfmiuij3yukasvlk36i@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-09-06T19:55:25.223Z",
-		"description": "Exiba um 🏷️ Rótulo do seu Time do Coração em seu Perfil.\n\n1 - Inscreva-se e Curta ♥️.\n2 - Escolha o seu time na Lista, 👉 https://meutime.bsky.my\n  ► 2.1 - Curta a postagem referente ao seu time.\n\nREMOVER: Curta esse post 👉 https://bit.ly/3AYyy0R",
-		"indexedAt": "2024-09-10T23:26:45.326Z"
+		"description": "Exiba um 🏷️ Rótulo do seu Time do Coração em seu Perfil.\n\n1 - Inscreva-se no Rotulador ♥️.\n2 - Agora escolha o seu time na Lista, 👉 https://meutime.bsky.my\nou Curta a postagem referente ao seu time.\n\nREMOVER: Curta esse post 👉 https://bit.ly/3AYyy0R",
+		"indexedAt": "2024-09-11T19:21:54.720Z"
 	},
 	"likeCount": 3,
-	"indexedAt": "2024-09-10T22:58:28.335Z",
+	"indexedAt": "2024-09-11T22:28:30.627Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -336,12 +336,12 @@
 					{
 						"description": "América-MG fan",
 						"lang": "en",
-						"name": "🟢⚫️ América-MG"
+						"name": "🟢⚪️ América-MG"
 					},
 					{
 						"description": "Torcedor do América-MG",
 						"lang": "pt-BR",
-						"name": "🟢⚫️ América-MG"
+						"name": "🟢⚪️ América-MG"
 					}
 				],
 				"severity": "inform"
@@ -361,6 +361,25 @@
 						"description": "Torcedor do Coritiba",
 						"lang": "pt-BR",
 						"name": "🟢⚪️ Coritiba"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ceara",
+				"locales": [
+					{
+						"description": "Ceará fan",
+						"lang": "en",
+						"name": "⚫️⚪️ Ceará"
+					},
+					{
+						"description": "Torcedor do Ceará",
+						"lang": "pt-BR",
+						"name": "⚫️⚪️ Ceará"
 					}
 				],
 				"severity": "inform"
@@ -384,7 +403,8 @@
 			"goias",
 			"cuiaba",
 			"america-mg",
-			"coritiba"
+			"coritiba",
+			"ceara"
 		]
 	}
 }
