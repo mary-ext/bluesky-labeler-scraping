@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:o47jwym4ufayfdpvwniablaa/app.bsky.labeler.service/self",
-	"cid": "bafyreih55ceqamip3vef4m2cmlisb7cifn73ksq64zh23zo4oaq5qt2dfy",
+	"cid": "bafyreif744rfbcng4iucxoaychqcvxdcbhwuq27e2erpinbi2b5nyxuqya",
 	"creator": {
 		"did": "did:plc:o47jwym4ufayfdpvwniablaa",
 		"handle": "comunidade.lgbt",
@@ -18,20 +18,48 @@
 		"description": "Rotulador destinado a toda comunidade LGBT+ \nSempre denuncie posts, contas e conteúdos que vão contra a comunidade LGBT.\nVamos fazer o Bluesky um lugar melhor para a comunidade LGBT",
 		"indexedAt": "2024-09-08T18:54:20.518Z"
 	},
-	"likeCount": 127,
+	"likeCount": 134,
 	"indexedAt": "2024-09-07T23:47:40.060Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "confiavel",
+				"locales": [
+					{
+						"description": "Este rótulo confirma que esta conta pertence a uma figura pública, celebridade, ativista ou influenciador autêntico da comunidade LGBT. Ele garante que o perfil é legítimo, ajudando a evitar confusões com contas falsas ou imitadoras.",
+						"lang": "en",
+						"name": "Confiável"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "inform",
+				"identifier": "imitacao",
+				"locales": [
+					{
+						"description": "Usada para marcar perfis que estão se passando por indivíduos da comunidade LGBT de maneira maliciosa, seja para enganar, prejudicar ou manipular, visando proteger a identidade e a autenticidade das pessoas afetadas.",
+						"lang": "en",
+						"name": "Imitação"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "Assedio",
+				"identifier": "assedio",
 				"locales": [
 					{
 						"description": "Sinalizar comportamentos ou conteúdos que constituem assédio direcionado a pessoas LGBT.\n",
-						"lang": "pt-BR",
+						"lang": "en",
 						"name": "Assédio"
 					}
 				],
@@ -41,11 +69,11 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "Odio",
+				"identifier": "odio",
 				"locales": [
 					{
 						"description": "Identificar e marcar discursos de ódio direcionados à comunidade LGBT.",
-						"lang": "pt-BR",
+						"lang": "en",
 						"name": "Discurso de ódio"
 					}
 				],
@@ -53,13 +81,13 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
+				"blurs": "content",
 				"defaultSetting": "hide",
-				"identifier": "Transfobia",
+				"identifier": "lgbtfobia",
 				"locales": [
 					{
 						"description": "Sinalizar conteúdos ou interações que contenham comentários LGBTfóbicos, sejam eles explícitos ou sutis.\n",
-						"lang": "pt-BR",
+						"lang": "en",
 						"name": "LGBTfobia\n"
 					}
 				],
@@ -67,9 +95,11 @@
 			}
 		],
 		"labelValues": [
-			"Assedio",
-			"Odio",
-			"Transfobia"
+			"confiavel",
+			"imitacao",
+			"assedio",
+			"odio",
+			"lgbtfobia"
 		]
 	}
 }

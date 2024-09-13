@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:657bbv43hgcuypiqbkuuiz4s/app.bsky.labeler.service/self",
-	"cid": "bafyreihfevsmds5r32gyb5mqajewhhpzcfngzmdbtru7gkxvrtwxbwh7oe",
+	"cid": "bafyreib3mfhwj6icmnrow6elp3bde35yhppejrywhu23qlcr7irff4gi2u",
 	"creator": {
 		"did": "did:plc:657bbv43hgcuypiqbkuuiz4s",
 		"handle": "silencebrand.bsky.social",
@@ -18,11 +18,25 @@
 		"description": "Semi-automated labeler that looks for brand accounts.\n\nhttps://silencebrand.xyz",
 		"indexedAt": "2024-09-11T18:09:36.023Z"
 	},
-	"likeCount": 8,
+	"likeCount": 9,
 	"indexedAt": "2024-09-11T18:07:07.744Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonation-brand",
+				"locales": [
+					{
+						"description": "This account appears to be impersonating a brand. Bluesky moderation has a better system for this, but this is an intermediary label to use while official Bluesky moderation reviews reports.",
+						"lang": "en",
+						"name": "Potential Brand Impersonation"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -54,7 +68,8 @@
 		],
 		"labelValues": [
 			"brand",
-			"potential-brand"
+			"potential-brand",
+			"impersonation-brand"
 		]
 	}
 }
