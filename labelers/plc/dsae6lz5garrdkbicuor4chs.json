@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dsae6lz5garrdkbicuor4chs/app.bsky.labeler.service/self",
-	"cid": "bafyreicy6hmvakxcqm4klodtvcnarqsywbcuhdzkfve4za4g5dtqzlyuqy",
+	"cid": "bafyreies4gzscbswolz7ltrzafhjnogldiiey6yrleupfcsup7boaiec3u",
 	"creator": {
 		"did": "did:plc:dsae6lz5garrdkbicuor4chs",
 		"handle": "ozone.birb.house",
@@ -18,11 +18,25 @@
 		"description": "A labeling service for the games industry. Managed by @trezy.codes.\n\nLabels are applied manually and may be delayed.",
 		"indexedAt": "2024-09-06T13:02:31.127Z"
 	},
-	"likeCount": 473,
+	"likeCount": 483,
 	"indexedAt": "2024-09-05T05:16:42.644Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "show",
+				"identifier": "game",
+				"locales": [
+					{
+						"description": "An account representing an individual game.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Game"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -97,6 +111,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "show",
+				"identifier": "games-educator",
+				"locales": [
+					{
+						"description": "An account representing a games industry event.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Games Event"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "show",
 				"identifier": "games-journalist",
 				"locales": [
 					{
@@ -111,12 +139,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "show",
-				"identifier": "games-organizer",
+				"identifier": "games-media",
 				"locales": [
 					{
-						"description": "Event organizers that focus on the games industry. Event size is irrelevant; everything from local meetups to international conferences counts.",
+						"description": "Non-credentialed accounts that cover and produce content about the games industry; Youtubers, podcasters, indie blogs, etc.",
 						"lang": "en",
-						"name": "Games Organizer"
+						"name": "Games Media"
 					}
 				],
 				"severity": "inform"
@@ -125,12 +153,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "show",
-				"identifier": "games-podcast",
+				"identifier": "games-organizer",
 				"locales": [
 					{
-						"description": "Podcasts about games, as well as individual podcasters.",
+						"description": "Event organizers that focus on the games industry. Event size is irrelevant; everything from local meetups to international conferences counts.",
 						"lang": "en",
-						"name": "Games Podcast"
+						"name": "Games Organizer"
 					}
 				],
 				"severity": "inform"
@@ -180,16 +208,18 @@
 		],
 		"labelValues": [
 			"game-dev",
-			"game-studio",
 			"games-archivist",
 			"games-business",
 			"games-educator",
-			"games-journalist",
+			"games-media",
 			"games-organizer",
-			"games-podcast",
+			"games-research",
+			"game",
+			"game-studio",
+			"games-event",
+			"games-journalist",
 			"games-publication",
-			"games-publisher",
-			"games-research"
+			"games-publisher"
 		]
 	}
 }
