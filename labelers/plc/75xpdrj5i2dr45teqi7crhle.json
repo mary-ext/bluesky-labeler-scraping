@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:75xpdrj5i2dr45teqi7crhle/app.bsky.labeler.service/self",
+	"cid": "bafyreid6t6dc37hlpwfgy245xzyag2sqgebvn3pmvya4f26yocubz56pqm",
+	"creator": {
+		"did": "did:plc:75xpdrj5i2dr45teqi7crhle",
+		"handle": "video-labeller.frostie.dev",
+		"displayName": "No videos",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:75xpdrj5i2dr45teqi7crhle/bafkreiccedtnnbcguggdkm6h5zhavi5qfmiofufkmliwjeiaxks6su54qm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-09-14T09:12:50.810Z",
+		"description": "DISCLAIMER: THIS IS NOT FUNCTIONAL YET\n\n[WIP] Labeling service to hide videos from your feed! (if you want that for some reason)\n\n100% uptime not guaranteed. Built by @frostie.dev",
+		"indexedAt": "2024-09-14T11:34:33.409Z"
+	},
+	"likeCount": 7,
+	"indexedAt": "2024-09-14T11:28:55.506Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "all-videos",
+				"locales": [
+					{
+						"description": "Any videos posted on the Bluesky network",
+						"lang": "en",
+						"name": "Videos"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "no-alt-video",
+				"locales": [
+					{
+						"description": "Videos posted on the Bluesky network that do not have ALT text",
+						"lang": "en",
+						"name": "Videos with no ALT text"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "test label for development purposes",
+						"lang": "en",
+						"name": ":3"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"all-videos",
+			"no-alt-video",
+			"test"
+		]
+	}
+}
