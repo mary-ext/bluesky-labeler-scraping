@@ -1,0 +1,59 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:mieazp4jyowmtq2wsuez5dd5/app.bsky.labeler.service/self",
+	"cid": "bafyreihu4n2v724sbvtnea5kvdcj57uopkbduvf52c3josrgz4uyr3cami",
+	"creator": {
+		"did": "did:plc:mieazp4jyowmtq2wsuez5dd5",
+		"handle": "nah.sickos.club",
+		"displayName": "Noted Sickos",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mieazp4jyowmtq2wsuez5dd5/bafkreiecu3qbivrafoxzplc2xt6ts2lnc2dvizl4imog3btbte42boxepq@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "following"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-07-12T14:27:04.274Z",
+		"indexedAt": "2024-09-17T02:27:15.206Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-09-17T02:21:31.124Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "weird-dude",
+				"locales": [
+					{
+						"description": "The vibes are off.",
+						"lang": "en",
+						"name": "Friggin' Weird"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "nah",
+				"locales": [
+					{
+						"description": "Members don't want to see this.",
+						"lang": "en",
+						"name": "Nah"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"weird-dude",
+			"nah"
+		]
+	}
+}
