@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:r5zogjmxhhn6v23dv47li6pc/app.bsky.labeler.service/self",
+	"cid": "bafyreigmnjl35sidxqze5hosmgkqrlyvyptmv4cbxgtotdfmnd2atgabm4",
+	"creator": {
+		"did": "did:plc:r5zogjmxhhn6v23dv47li6pc",
+		"handle": "app-for.bsky.social",
+		"displayName": "BlueSky for Phone",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r5zogjmxhhn6v23dv47li6pc/bafkreifbpzb3xluysv5nndd3umtulaj6oaqagz2w2y652wbhh724idghgy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-09-21T15:53:58.613Z",
+		"description": "Bringing you back the old Twitter experience to BlueSky\n\ncreated by @rezhajul.io\n\n",
+		"indexedAt": "2024-09-21T20:11:20.109Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-09-21T18:10:16.428Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bsky-iphone",
+				"locales": [
+					{
+						"description": "You are using BlueSky from iPhone",
+						"lang": "en",
+						"name": "BlueSky for iPhone"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bsky-android",
+				"locales": [
+					{
+						"description": "You are using BlueSky from Android",
+						"lang": "en",
+						"name": "BlueSky for Android"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"bsky-iphone",
+			"bsky-android"
+		]
+	}
+}
