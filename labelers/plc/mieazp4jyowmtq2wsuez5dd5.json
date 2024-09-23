@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mieazp4jyowmtq2wsuez5dd5/app.bsky.labeler.service/self",
-	"cid": "bafyreihu4n2v724sbvtnea5kvdcj57uopkbduvf52c3josrgz4uyr3cami",
+	"cid": "bafyreifb7jzc3uhnved3azokapi24c4mvpac42qncglqlrx3a7uiglkb4y",
 	"creator": {
 		"did": "did:plc:mieazp4jyowmtq2wsuez5dd5",
 		"handle": "nah.sickos.club",
@@ -15,19 +15,33 @@
 		},
 		"labels": [],
 		"createdAt": "2024-07-12T14:27:04.274Z",
-		"description": "A labeler for sickos",
-		"indexedAt": "2024-09-19T01:39:08.012Z"
+		"description": "A private labeler for sickos. Non-members can subscribe, but labels are applied based our needs and desires rather than any public set of rules and reports by non-members may be ignored.",
+		"indexedAt": "2024-09-22T18:17:00.906Z"
 	},
-	"likeCount": 2,
+	"likeCount": 5,
 	"indexedAt": "2024-09-17T02:21:31.124Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "debate-pervert",
+				"locales": [
+					{
+						"description": "User just likes to ask questions but isn’t particularly interested in changing their priors.",
+						"lang": "en",
+						"name": "Debate Pervert"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "ignore",
-				"identifier": "weird-dude",
+				"identifier": "friggin-weird",
 				"locales": [
 					{
 						"description": "The vibes are off.",
@@ -53,7 +67,8 @@
 			}
 		],
 		"labelValues": [
-			"weird-dude",
+			"debate-pervert",
+			"friggin-weird",
 			"nah"
 		]
 	}

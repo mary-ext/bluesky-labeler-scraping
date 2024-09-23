@@ -1,0 +1,60 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:b3pn34agqqchkaf75v7h43dk/app.bsky.labeler.service/self",
+	"cid": "bafyreig3twyeeeosu5mfevem24iybldzdojntfvnkdyhqb3rmsebivqn6u",
+	"creator": {
+		"did": "did:plc:b3pn34agqqchkaf75v7h43dk",
+		"handle": "bsky.mom",
+		"displayName": "Julia",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:b3pn34agqqchkaf75v7h43dk/bafkreig342blric7zzw3ov6f2g3efvv56nlaw5inb4m2pgtolqhjgqzsui@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-04-22T01:44:52.791Z",
+		"description": "<# @haileyok.com :#\nhttps://github.com/notjuliet",
+		"indexedAt": "2024-09-22T23:15:15.308Z"
+	},
+	"likeCount": 24,
+	"indexedAt": "2024-09-22T21:06:07.743Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "tenor-gif",
+				"locales": [
+					{
+						"description": "Any post that contains a Tenor GIF, regardless of other criteria.",
+						"lang": "en",
+						"name": "Tenor GIF"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wifey",
+				"locales": [
+					{
+						"description": "My wifey :#",
+						"lang": "en",
+						"name": "<#"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"tenor-gif",
+			"wifey"
+		]
+	}
+}
