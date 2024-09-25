@@ -1,0 +1,195 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:qcar2pfq4qms4knijyal5xak/app.bsky.labeler.service/self",
+	"cid": "bafyreicffy2d7zlgt6kduxencc4wdll66yogjswlydbvnnfqzvk6seshze",
+	"creator": {
+		"did": "did:plc:qcar2pfq4qms4knijyal5xak",
+		"handle": "creatorlabeler.bsky.social",
+		"displayName": "Content Creator Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qcar2pfq4qms4knijyal5xak/bafkreifytbdmct2x5jwhuyn7ss5ww7qmsgw7keih7din4tibbihamh2ara@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-09-24T06:29:09.106Z",
+		"description": "I'm a labeler service for defining people who are content creators with labels!\n\nI'm currently a manual process at the moment and will try my best to get to everyone!\n\n(May or may not get every single category, but I'm trying!)",
+		"indexedAt": "2024-09-24T16:34:51.905Z"
+	},
+	"likeCount": 7,
+	"indexedAt": "2024-09-24T07:55:45.356Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "animator",
+				"locales": [
+					{
+						"description": "A content creator who likes creating animations!",
+						"lang": "en",
+						"name": "Animator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vstreamer",
+				"locales": [
+					{
+						"description": "Content creators that, much like a VTuber, use various mediums to represent themself through livestream platforms!",
+						"lang": "en",
+						"name": "Vstreamer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "artistdesigner",
+				"locales": [
+					{
+						"description": "Content creators who make art or designs! This is reserved for non-AI. Please understand.",
+						"lang": "en",
+						"name": "Artist/Designer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "streamer",
+				"locales": [
+					{
+						"description": "A content creator who makes content through streaming on various services like Twitch, YouTube, and more! You may or may not have seen their clips floating around on different services as well!",
+						"lang": "en",
+						"name": "Streamer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "singer",
+				"locales": [
+					{
+						"description": "Content Creator who performs through singing! Whether it's their own songs or performing covers of other songs!",
+						"lang": "en",
+						"name": "Singer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "musician",
+				"locales": [
+					{
+						"description": "Content Creators who specialize in creating or performing music! Whether it's their own music or performing covers of other scores!",
+						"lang": "en",
+						"name": "Musician"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vtuber",
+				"locales": [
+					{
+						"description": "Content creators that specifically use either 2D/3D/PNG models/images to represent themselves and their brand! Over time, they're not only just on YouTube, but other services as well!",
+						"lang": "en",
+						"name": "Virtual YouTuber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "videographers",
+				"locales": [
+					{
+						"description": "Content creators who mostly make content by posting videos!",
+						"lang": "en",
+						"name": "Videographers/Vloggers"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Photographers",
+				"locales": [
+					{
+						"description": "Content Creator label for photographers! Anything where you're legitimately taking a picture! Whether it be nature, cosplay, etc!",
+						"lang": "en",
+						"name": "Photographers"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Writer",
+				"locales": [
+					{
+						"description": "Content Creator label for Writers! Those who create content whether it be writing books, blog posts, articles, etc!",
+						"lang": "en",
+						"name": "Writer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Influencer",
+				"locales": [
+					{
+						"description": "An influencer is a content creator for their own personal brand! (This is a catch all, kinda.)",
+						"lang": "en",
+						"name": "Influencer"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"animator",
+			"vstreamer",
+			"artistdesigner",
+			"streamer",
+			"singer",
+			"musician",
+			"vtuber",
+			"videographers",
+			"Photographers",
+			"Writer",
+			"Influencer"
+		]
+	}
+}

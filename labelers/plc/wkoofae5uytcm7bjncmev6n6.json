@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreifupanxrg7ho5v3zx4lwscfpvligszbamaj4kqhiorte6swj2inry",
+	"cid": "bafyreifoj5cutzrjh7pdabk64ky4vdeoawthea5gglk7nvtbhpt3ucyfyy",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-07-06T19:13:50.778Z",
-		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search here: pronouns.adorable.mom\nTo remove: bsky.app/profile/pronouns.adorable.mom/post/3kwsqucto3j2a\n\nContact: @bsky.mom\nDonate: https://ko-fi.com/notjuliet",
-		"indexedAt": "2024-09-10T14:09:37.318Z"
+		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search here: pronouns.adorable.mom\nTo remove: bsky.app/profile/pronouns.adorable.mom/post/3kwsqucto3j2a\n\ndev: @bsky.mom\ndonate: https://ko-fi.com/notjuliet",
+		"indexedAt": "2024-09-24T18:54:30.906Z"
 	},
-	"likeCount": 3020,
-	"indexedAt": "2024-09-20T22:19:34.254Z",
+	"likeCount": 3029,
+	"indexedAt": "2024-09-24T18:29:27.011Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -806,6 +806,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "she-they",
+				"locales": [
+					{
+						"description": "This user uses she/her and they/them pronouns.",
+						"lang": "en",
+						"name": "she/they"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "he-they",
+				"locales": [
+					{
+						"description": "This user uses he/him and they/them pronouns.",
+						"lang": "en",
+						"name": "he/they"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "she-it",
+				"locales": [
+					{
+						"description": "This user uses she/her and it/its pronouns.",
+						"lang": "en",
+						"name": "she/it"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "he-it",
+				"locales": [
+					{
+						"description": "This usesr uses he/him and it/its pronouns.",
+						"lang": "en",
+						"name": "he/it"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "they-it",
+				"locales": [
+					{
+						"description": "This user uses they/them and it/its pronouns.",
+						"lang": "en",
+						"name": "they/it"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -864,7 +934,12 @@
 			"rat-rats",
 			"shark-sharks",
 			"proper-nouns",
-			"skyware-aware"
+			"skyware-aware",
+			"she-they",
+			"he-they",
+			"she-it",
+			"he-it",
+			"they-it"
 		]
 	}
 }
