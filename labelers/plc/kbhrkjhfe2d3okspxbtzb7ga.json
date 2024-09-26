@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:kbhrkjhfe2d3okspxbtzb7ga/app.bsky.labeler.service/self",
+	"cid": "bafyreifzivzvkkvagernizdp6aocqlkijm2ld6mi7ndc7ztpq5mqf2poyq",
+	"creator": {
+		"did": "did:plc:kbhrkjhfe2d3okspxbtzb7ga",
+		"handle": "mlb.blueskysportslabeler.xyz",
+		"displayName": "Baseball Fandom Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kbhrkjhfe2d3okspxbtzb7ga/bafkreidencmdv6mjyszodwcskwzjn7xdi32uu4362tnlellsbczcbo7ks4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-09-25T23:27:18.708Z",
+		"description": "A labeling service to show your fandom of MLB teams, maintained by @cooperlund.bsky.social",
+		"indexedAt": "2024-09-26T01:02:47.207Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-09-26T00:49:46.840Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nyy",
+				"locales": [
+					{
+						"description": "A Fan of the New York Yankees",
+						"lang": "en",
+						"name": "New York Yankees"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bal",
+				"locales": [
+					{
+						"description": "A Fan of the Baltimore Orioles",
+						"lang": "en",
+						"name": "Baltimore Orioles"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "min",
+				"locales": [
+					{
+						"description": "A Fan of the Minnesota Twins",
+						"lang": "en",
+						"name": "Minnesota Twins"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"nyy",
+			"bal",
+			"min"
+		]
+	}
+}

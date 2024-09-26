@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qcar2pfq4qms4knijyal5xak/app.bsky.labeler.service/self",
-	"cid": "bafyreicffy2d7zlgt6kduxencc4wdll66yogjswlydbvnnfqzvk6seshze",
+	"cid": "bafyreibf3dzrhu4xobnkpv2tzdpppyfmu5vvpwf3obh42oxqk3ip64sfse",
 	"creator": {
 		"did": "did:plc:qcar2pfq4qms4knijyal5xak",
 		"handle": "creatorlabeler.bsky.social",
@@ -15,14 +15,28 @@
 		},
 		"labels": [],
 		"createdAt": "2024-09-24T06:29:09.106Z",
-		"description": "I'm a labeler service for defining people who are content creators with labels!\n\nI'm currently a manual process at the moment and will try my best to get to everyone!\n\n(May or may not get every single category, but I'm trying!)",
-		"indexedAt": "2024-09-24T16:34:51.905Z"
+		"description": "I'm a labeler service for defining people who are content creators with labels!\n\nAll labels are currently applied and appealed manually! Currently. All requests will be reviewed in time. 💖\n\n(May or may not get every single category, but I'm trying!)",
+		"indexedAt": "2024-09-25T05:25:34.208Z"
 	},
-	"likeCount": 7,
+	"likeCount": 24,
 	"indexedAt": "2024-09-24T07:55:45.356Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "voiceactor",
+				"locales": [
+					{
+						"description": "One that makes content using their own voice! Different from singing. They bring content to life with the way they act out using their vocal talent!",
+						"lang": "en",
+						"name": "Voice Actor"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -153,7 +167,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "Writer",
+				"identifier": "writer",
 				"locales": [
 					{
 						"description": "Content Creator label for Writers! Those who create content whether it be writing books, blog posts, articles, etc!",
@@ -167,7 +181,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "Influencer",
+				"identifier": "influencer",
 				"locales": [
 					{
 						"description": "An influencer is a content creator for their own personal brand! (This is a catch all, kinda.)",
@@ -179,6 +193,7 @@
 			}
 		],
 		"labelValues": [
+			"voiceactor",
 			"animator",
 			"vstreamer",
 			"artistdesigner",
@@ -188,8 +203,8 @@
 			"vtuber",
 			"videographers",
 			"Photographers",
-			"Writer",
-			"Influencer"
+			"writer",
+			"influencer"
 		]
 	}
 }
