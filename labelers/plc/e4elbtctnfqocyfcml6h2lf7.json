@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreibgppeo64kzxc2h3shcuzx2mytkzunwsf7jn2dhosdu5iczz7q5pm",
+	"cid": "bafyreifijvtr3heqki6cgrqva6yjwgafuzsed5wtkzdrse7zjzplklumze",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "labeler.mountainherder.xyz",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "MAGA",
+				"locales": [
+					{
+						"description": "Username and / or description which includes MAGA, TRUMP, or TRUMP 2024.",
+						"lang": "en",
+						"name": "MAGA"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -205,6 +219,7 @@
 			}
 		],
 		"labelValues": [
+			"maga-trump",
 			"terf-gc",
 			"dinosaur-emoji",
 			"inverted-red-triangle",
