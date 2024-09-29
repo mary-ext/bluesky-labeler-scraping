@@ -1,0 +1,247 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:2ltd23paa5klwzsreeqrybkw/app.bsky.labeler.service/self",
+	"cid": "bafyreifs3olxletdnlv4epbuwnuuragcu2vqzh6s7skmuqeyn6flagpkpa",
+	"creator": {
+		"did": "did:plc:2ltd23paa5klwzsreeqrybkw",
+		"handle": "bot-labeler.bsky.social",
+		"displayName": "Bot Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2ltd23paa5klwzsreeqrybkw/bafkreiaqqlirjiunfklo2xojzjg3jerb7twksidlevm3ho6x52fb3m6gxa@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-09-27T18:44:32.409Z",
+		"description": "I categorize and label bot accounts on BlueSky, making it easier to navigate and interact with the platform.\nMaintained by : @oclisan.bsky.social",
+		"indexedAt": "2024-09-28T20:23:35.708Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-09-28T11:35:14.469Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "An automated or semi-automated account.",
+						"lang": "en",
+						"name": "Bot"
+					},
+					{
+						"description": "Un compte automatisé ou semi-automatisé.",
+						"lang": "fr",
+						"name": "Bot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "crypto-bot",
+				"locales": [
+					{
+						"description": "Bots related to cryptocurrency, trading, or blockchain.",
+						"lang": "en",
+						"name": "Crypto Bot"
+					},
+					{
+						"description": "Bots associés aux cryptomonnaies, trading ou blockchain.",
+						"lang": "fr",
+						"name": "Bot Crypto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "tool-bot",
+				"locales": [
+					{
+						"description": "Bots offering utility services like notifications, reminders, or weather updates.",
+						"lang": "en",
+						"name": "Tool Bot"
+					},
+					{
+						"description": "Bots offrant des services utilitaires comme les notifications, rappels, météo.",
+						"lang": "fr",
+						"name": "Bot Outils"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "game-bot",
+				"locales": [
+					{
+						"description": "Bots related to video games or board games, providing assistance or quiz services.",
+						"lang": "en",
+						"name": "Game Bot"
+					},
+					{
+						"description": "Bots liés aux jeux vidéo ou de société, assistant ou proposant des quiz.",
+						"lang": "fr",
+						"name": "Bot de Jeu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "social-bot",
+				"locales": [
+					{
+						"description": "Bots automating social interactions like messages, likes, or reposts.",
+						"lang": "en",
+						"name": "Social Bot"
+					},
+					{
+						"description": "Bots automatisant les interactions sociales (messages, likes, reposts automatiques).",
+						"lang": "fr",
+						"name": "Bot Social"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "spam-bot",
+				"locales": [
+					{
+						"description": "Bots primarily used for advertising spam.",
+						"lang": "en",
+						"name": "Spam Bot"
+					},
+					{
+						"description": "Bots utilisés principalement pour du spam publicitaire.",
+						"lang": "fr",
+						"name": "Bot Spam"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "meme-bot",
+				"locales": [
+					{
+						"description": "Bots posting memes or humorous content regularly.",
+						"lang": "en",
+						"name": "Meme Bot"
+					},
+					{
+						"description": "Bots postant des memes ou du contenu humoristique régulièrement.",
+						"lang": "fr",
+						"name": "Bot Meme"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "creative-bot",
+				"locales": [
+					{
+						"description": "Bots generating creative content like emojis, artwork, or mashups.",
+						"lang": "en",
+						"name": "Creative Bot"
+					},
+					{
+						"description": "Bots générant du contenu créatif comme des émojis, des œuvres d'art ou des mashups.",
+						"lang": "fr",
+						"name": "Bot Créatif"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "gambling-bot",
+				"locales": [
+					{
+						"description": "Bots related to gambling and betting activities.",
+						"lang": "en",
+						"name": "Gambling Bot"
+					},
+					{
+						"description": "Bots liés aux jeux d'argent et aux paris.",
+						"lang": "fr",
+						"name": "Bot de Jeux d'Argent"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "adult-bot",
+				"locales": [
+					{
+						"description": "Bots with sexual or adult content.",
+						"lang": "en",
+						"name": "Adult Bot"
+					},
+					{
+						"description": "Bots avec du contenu sexuel ou adulte.",
+						"lang": "fr",
+						"name": "Bot Adulte"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "photography-bot",
+				"locales": [
+					{
+						"description": "Bots dedicated to photography / sharing images.",
+						"lang": "en",
+						"name": "Photography Bot"
+					},
+					{
+						"description": "Bots dédiés à la photographie / partageant des images.",
+						"lang": "fr",
+						"name": "Bot Photographie"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"bot",
+			"crypto-bot",
+			"tool-bot",
+			"game-bot",
+			"social-bot",
+			"spam-bot",
+			"meme-bot",
+			"creative-bot",
+			"gambling-bot",
+			"adult-bot",
+			"photography-bot"
+		]
+	}
+}

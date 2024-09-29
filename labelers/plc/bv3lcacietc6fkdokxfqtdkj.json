@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bv3lcacietc6fkdokxfqtdkj/app.bsky.labeler.service/self",
-	"cid": "bafyreig362nhiutxmsopic5gdoazp4voxhyasvrrqh3eyskjbdyz3xiih4",
+	"cid": "bafyreihqdtol2gzgmrfbsx3427gvsdr3xorxsjbhn2woss26lxd6mdpumu",
 	"creator": {
 		"did": "did:plc:bv3lcacietc6fkdokxfqtdkj",
 		"handle": "nunnybabbit.bsky.social",
@@ -18,7 +18,7 @@
 		"description": "Labeler & Label driven feeds\nhe/they, it (situational)\nto opt-out from user lists and feeds, block this account or DM me a request.\noperated by @nunnybabbit-aon.bsky.social (Profile is 18+)",
 		"indexedAt": "2024-08-29T08:06:22.519Z"
 	},
-	"likeCount": 9,
+	"likeCount": 10,
 	"indexedAt": "2024-06-09T05:18:29.756Z",
 	"labels": [],
 	"policies": {
@@ -78,6 +78,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "captured",
+				"locales": [
+					{
+						"description": "Used as an indicator that a post has been labeled. Useful for users who don't warn/hide media labeled by this labeler but would like to submit posts to the labeler's feeds through the \"report\" feature.\n\nDo not set to hide, as doing so will have the undesirable effect of hiding posts from labels which aren't publicly defined.",
+						"lang": "en",
+						"name": "Captured"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -88,7 +102,8 @@
 			"long-image",
 			"engagement-hacking",
 			"exclude-feed",
-			"classification-forced"
+			"classification-forced",
+			"captured"
 		]
 	}
 }

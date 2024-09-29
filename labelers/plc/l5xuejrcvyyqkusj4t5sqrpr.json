@@ -1,21 +1,24 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:l5xuejrcvyyqkusj4t5sqrpr/app.bsky.labeler.service/self",
-	"cid": "bafyreiddec5brf35cube2y6ytglqkvgyy4oitrtfkmlqnw4kovu2rbdj4q",
+	"cid": "bafyreihis5tf6t3k4x3r6n6e3otysqvbxibh3yg425qvpzvreuxl4xtx3i",
 	"creator": {
 		"did": "did:plc:l5xuejrcvyyqkusj4t5sqrpr",
 		"handle": "timedocoracao.bsky.social",
-		"displayName": "",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:l5xuejrcvyyqkusj4t5sqrpr/bafkreidhmi52j73ho7mybsvzx3nyeaia5nksepvyfbt7evnhrkibkn4f5u@jpeg",
+		"displayName": "Teste",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:l5xuejrcvyyqkusj4t5sqrpr/bafkreidx5nf7fwqu3rdvv4rouaodcplz4ynk2gx3lcylpll7ouh4ghkplq@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-09-26T04:18:00.706Z",
-		"indexedAt": "2024-09-26T04:18:00.706Z"
+		"indexedAt": "2024-09-28T16:53:39.909Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-09-27T20:18:25.565Z",
+	"likeCount": 1,
+	"indexedAt": "2024-09-28T20:10:05.351Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,12 +26,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "time-1",
+				"identifier": "visual",
 				"locales": [
 					{
-						"description": "Time 1",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
 						"lang": "en",
-						"name": "Time 1"
+						"name": "Visual"
 					}
 				],
 				"severity": "inform"
@@ -37,20 +40,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "time-2",
+				"identifier": "scanner",
 				"locales": [
 					{
-						"description": "Time 2",
+						"description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
 						"lang": "en",
-						"name": "Time 2"
+						"name": "Scanner"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"time-1",
-			"time-2"
+			"visual",
+			"scanner"
 		]
 	}
 }
