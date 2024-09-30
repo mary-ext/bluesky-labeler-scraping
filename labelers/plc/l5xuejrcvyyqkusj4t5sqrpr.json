@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:l5xuejrcvyyqkusj4t5sqrpr/app.bsky.labeler.service/self",
-	"cid": "bafyreihis5tf6t3k4x3r6n6e3otysqvbxibh3yg425qvpzvreuxl4xtx3i",
+	"cid": "bafyreievydf7jmcxpgdievhmifsyerrviutvvolutoy7jjl5jnv42gypfy",
 	"creator": {
 		"did": "did:plc:l5xuejrcvyyqkusj4t5sqrpr",
 		"handle": "timedocoracao.bsky.social",
@@ -18,7 +18,7 @@
 		"indexedAt": "2024-09-28T16:53:39.909Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-09-28T20:10:05.351Z",
+	"indexedAt": "2024-09-29T19:45:37.273Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -49,11 +49,41 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "time-um",
+				"locales": [
+					{
+						"description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+						"lang": "en",
+						"name": "Time um"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "time-dois",
+				"locales": [
+					{
+						"description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+						"lang": "en",
+						"name": "Time dois"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"visual",
-			"scanner"
+			"scanner",
+			"time-um",
+			"time-dois"
 		]
 	}
 }

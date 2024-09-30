@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:kbhrkjhfe2d3okspxbtzb7ga/app.bsky.labeler.service/self",
-	"cid": "bafyreihtxoz74w2oxzqs4vvplp2ttxvd6s2d4pi7t57keqrvfsy4gor6ii",
+	"cid": "bafyreiaycdfyuhn4rrlmsmamk7jzl4zhdtzbn5r2gk766rs7x6mffwhrra",
 	"creator": {
 		"did": "did:plc:kbhrkjhfe2d3okspxbtzb7ga",
 		"handle": "mlb.blueskysportslabeler.xyz",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-09-26T01:02:47.207Z"
 	},
 	"likeCount": 6,
-	"indexedAt": "2024-09-26T01:26:02.208Z",
+	"indexedAt": "2024-09-30T01:04:29.730Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -346,20 +346,6 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "cin",
-				"locales": [
-					{
-						"description": "A Fan of the Cincinatti Reds",
-						"lang": "en",
-						"name": "Cincinatti Reds"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
 				"identifier": "pit",
 				"locales": [
 					{
@@ -439,6 +425,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cin",
+				"locales": [
+					{
+						"description": "A Fan of the Cincinnati Reds",
+						"lang": "en",
+						"name": "Cincinnati Reds"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -465,13 +465,13 @@
 			"mil",
 			"chc",
 			"stl",
-			"cin",
 			"pit",
 			"lad",
 			"sdp",
 			"ari",
 			"sfg",
-			"col"
+			"col",
+			"cin"
 		]
 	}
 }
