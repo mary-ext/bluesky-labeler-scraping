@@ -1,12 +1,12 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:pbmxe3tfpkts72wi74weijpo/app.bsky.labeler.service/self",
-	"cid": "bafyreig4iizjlappcmvqh5pdd53tbvphigd6malpj4q57xmdbnpolgx4c4",
+	"cid": "bafyreidseb5jtue2zrsf44td4oyuqnlczynbd3plch4rdglv7slhorgmfm",
 	"creator": {
 		"did": "did:plc:pbmxe3tfpkts72wi74weijpo",
 		"handle": "khronos.world",
-		"displayName": "WIP",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pbmxe3tfpkts72wi74weijpo/bafkreihxnn5qtlfixjp2fu3mszr56vih4uj27d3c5frftvpa2ftmaaqxmq@jpeg",
+		"displayName": "Khronos, Time Zone Labels 🕛",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pbmxe3tfpkts72wi74weijpo/bafkreia4mn5e7bfxnnixy4kcf4oakwt4e4xdo3zjk2opak36n4wkkberza@jpeg",
 		"associated": {
 			"labeler": true,
 			"chat": {
@@ -15,31 +15,816 @@
 		},
 		"labels": [],
 		"createdAt": "2024-09-29T03:03:20.915Z",
-		"description": "SUBSCRIBE and LIKE the post(s) with your desired timezone (up to 4).\nFind them in the POSTS tab.\nTo REMOVE:\n\ndev: katie :)\ndonate: wahoo",
-		"indexedAt": "2024-09-29T05:57:52.206Z"
+		"description": "SUBSCRIBE and LIKE the post(s) with your desired time zone (up to 4).\nFind them in the POSTS tab.\nTo REMOVE: https://bsky.app/profile/khronos.world/post/3l5bifhe2rp2s\n\nOperator: @katie.kawaii.social\nDonate: https://ko-fi.com/katitties",
+		"indexedAt": "2024-09-30T06:14:13.006Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-09-29T04:44:27.106Z",
+	"likeCount": 139,
+	"indexedAt": "2024-09-30T03:31:36.000Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "test",
+				"defaultSetting": "inform",
+				"identifier": "early-bird",
 				"locales": [
 					{
-						"description": "tesssssssssst",
+						"description": "This user indicates that they are usually active earlier in the day.",
 						"lang": "en",
-						"name": "testlabel"
+						"name": "Early Bird 🐦"
+					},
+					{
+						"description": "Este usuário indica que geralmente fica ativo no início do dia.",
+						"lang": "pt",
+						"name": "Madrugador 🐦"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "night-owl",
+				"locales": [
+					{
+						"description": "This user indicates that they are usually active later in the day.",
+						"lang": "en",
+						"name": "Night Owl 🦉"
+					},
+					{
+						"description": "Este usuário indica que geralmente fica ativo no final do dia.",
+						"lang": "pt",
+						"name": "Notívago 🦉"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-twelve",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-12:00 time. Principal locations: Anywhere on Earth, Baker Island, Howland Island",
+						"lang": "en",
+						"name": "UTC-12:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-12:00. Principais localizações: Em qualquer lugar da Terra, Baker Island, Howland Island",
+						"lang": "pt",
+						"name": "UTC-12:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-eleven",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-11:00 time. Principal locations: American Samoa, Niue, Jarvis Island, Kingman Reef, Midway Atoll, Palmyra Atoll",
+						"lang": "en",
+						"name": "UTC-11:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-11:00. Principais localizações: American Samoa, Niue, Jarvis Island, Kingman Reef, Midway Atoll, Palmyra Atoll",
+						"lang": "pt",
+						"name": "UTC-11:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-ten",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-10:00 time. Principal locations: Hawaii, French Polynesia, Cook Islands",
+						"lang": "en",
+						"name": "UTC-10:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-10:00. Principais localizações: Hawaii, French Polynesia, Cook Islands",
+						"lang": "pt",
+						"name": "UTC-10:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-nine",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-09:00 time. Principal locations: Alaska, Hall Island, Gambier Islands",
+						"lang": "en",
+						"name": "UTC-09:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-09:00. Principais localizações: Alaska, Hall Island, Gambier Islands",
+						"lang": "pt",
+						"name": "UTC-09:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-eight",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-08:00 time. Principal locations: British Columbia, Baja California, California, Idaho, Nevada, Oregon, Washington, Pitcairn Islands, Clipperton Island",
+						"lang": "en",
+						"name": "UTC-08:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-08:00. Principais localizações: British Columbia, Baja California, California, Idaho, Nevada, Oregon, Washington, Pitcairn Islands, Clipperton Island",
+						"lang": "pt",
+						"name": "UTC-08:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-seven",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-07:00 time. Principal locations: Alberta, Yukon, Arizona, Colorado, Montana, New Mexico, Utah, Wyoming, Baja California Sur, Sinaloa, Sonora",
+						"lang": "en",
+						"name": "UTC-07:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-07:00. Principais localizações: Alberta, Yukon, Arizona, Colorado, Montana, New Mexico, Utah, Wyoming, Baja California Sur, Sinaloa, Sonora",
+						"lang": "pt",
+						"name": "UTC-07:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-six",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-06:00 time. Principal locations: Manitoba, Chihuahua, Coahuila de Zaragoza, Alabama, Arkansas, Illinois, Louisiana, Missouri, Wisconsin, Saskatchewan, Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Easter Island",
+						"lang": "en",
+						"name": "UTC-06:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-06:00. Principais localizações: Manitoba, Chihuahua, Coahuila de Zaragoza, Alabama, Arkansas, Illinois, Louisiana, Missouri, Wisconsin, Saskatchewan, Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Easter Island",
+						"lang": "pt",
+						"name": "UTC-06:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-five",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-05:00 time. Principal locations: Quebec, Delaware, Maine, Maryland, New York, Ohio, Pennsylvania, Virginia, Colombia, Ecuador, Peru, Panama, Jamaica, Cuba, Haiti, Bahamas",
+						"lang": "en",
+						"name": "UTC-05:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-05:00. Principais localizações: Quebec, Delaware, Maine, Maryland, New York, Ohio, Pennsylvania, Virginia, Colombia, Ecuador, Peru, Panama, Jamaica, Cuba, Haiti, Bahamas",
+						"lang": "pt",
+						"name": "UTC-05:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-four",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-04:00 time. Principal locations: New Brunswick, Nova Scotia, Price Edward Island, Bermuda, Bolivia, Amazonas, Guyana, Venezuela, Chile, Paraguay, Barbados, Dominican Republic",
+						"lang": "en",
+						"name": "UTC-04:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-04:00. Principais localizações: New Brunswick, Nova Scotia, Price Edward Island, Bermuda, Bolivia, Amazonas, Guyana, Venezuela, Chile, Paraguay, Barbados, Dominican Republic",
+						"lang": "pt",
+						"name": "UTC-04:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-three",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-03:00 time. Principal locations: Argentina, São Paulo, Brasília, Uruguay, Suriname, French Guiana",
+						"lang": "en",
+						"name": "UTC-03:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-03:00. Principais localizações: Argentina, São Paulo, Brasília, Uruguay, Suriname, French Guiana",
+						"lang": "pt",
+						"name": "UTC-03:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-two",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-02:00 time. Principal locations: Greenland",
+						"lang": "en",
+						"name": "UTC-02:00 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-02:00. Principais localizações: Greenland",
+						"lang": "pt",
+						"name": "UTC-02:00 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-one",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-01:00 time. Principal locations: Cape Verde, Azores Islands",
+						"lang": "en",
+						"name": "UTC-01:00 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-01:00. Principais localizações: Cape Verde, Azores Islands",
+						"lang": "pt",
+						"name": "UTC-01:00 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-zero",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+00:00 time. Principal locations: United Kingdom, Portugal, Iceland, Ivory Coast, Liberia, Ghana, Guinea, Sierra Leone, Senegal, Mali, Mauritania",
+						"lang": "en",
+						"name": "UTC+00:00 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+00:00. Principais localizações: United Kingdom, Portugal, Iceland, Ivory Coast, Liberia, Ghana, Guinea, Sierra Leone, Senegal, Mali, Mauritania",
+						"lang": "pt",
+						"name": "UTC+00:00 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-one",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+01:00 time. Principal locations: Algeria, Nigeria, Chad, Tunisia, Morocco, Angolia, Spain, France, Germany, Italy, Poland, Norway, Sweden, Netherlands, Croatia, Hungary, Serbia",
+						"lang": "en",
+						"name": "UTC+01:00 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+01:00. Principais localizações: Algeria, Nigeria, Chad, Tunisia, Morocco, Angolia, Spain, France, Germany, Italy, Poland, Norway, Sweden, Netherlands, Croatia, Hungary, Serbia",
+						"lang": "pt",
+						"name": "UTC+01:00 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-two",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+02:00 time. Principal locations: Palestine, Lebanon, Lithuania, Romania, Ukraine, Greece, Finland, Bulgaria, Libya, Sudan, Zambia, Zimbabwe, South Africa, Mozambique, Botswanna",
+						"lang": "en",
+						"name": "UTC+02:00 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+02:00. Principais localizações: Palestine, Lebanon, Lithuania, Romania, Ukraine, Greece, Finland, Bulgaria, Libya, Sudan, Zambia, Zimbabwe, South Africa, Mozambique, Botswanna",
+						"lang": "pt",
+						"name": "UTC+02:00 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-three",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+03:00 time. Principal locations: Moscow, Belarus, Turkey, Syria, Iraq, Jordan, Saudi Arabia, Yemen, Ethiopia, Somalia, Kenya, Madagascar, Tanzia, Uganda",
+						"lang": "en",
+						"name": "UTC+03:00 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+03:00. Principais localizações: Moscow, Belarus, Turkey, Syria, Iraq, Jordan, Saudi Arabia, Yemen, Ethiopia, Somalia, Kenya, Madagascar, Tanzia, Uganda",
+						"lang": "pt",
+						"name": "UTC+03:00 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-four",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+04:00 time. Principal locations: Samara, Georgia, Armenia, Azerbaijan, Oman, United Arab Emirates, Mauritius",
+						"lang": "en",
+						"name": "UTC+04:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+04:00. Principais localizações: Samara, Georgia, Armenia, Azerbaijan, Oman, United Arab Emirates, Mauritius",
+						"lang": "pt",
+						"name": "UTC+04:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-five",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+05:00 time. Principal locations: Maldives, Pakistan, Kazakhstan, Tajikistan, Turkmenistan, Uzbekistan",
+						"lang": "en",
+						"name": "UTC+05:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+05:00. Principais localizações: Maldives, Pakistan, Kazakhstan, Tajikistan, Turkmenistan, Uzbekistan",
+						"lang": "pt",
+						"name": "UTC+05:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-six",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+06:00 time. Principal locations: Omsk, Kyrgyzstan, Bangladesh, Bhutan",
+						"lang": "en",
+						"name": "UTC+06:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+06:00. Principais localizações: Omsk, Kyrgyzstan, Bangladesh, Bhutan",
+						"lang": "pt",
+						"name": "UTC+06:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-seven",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+07:00 time. Principal locations: Krasnoyarsk, Khovd, Bayan-Ölgii, Java, Sumatra, Cambodia, Laos, Thailand, Vietnam, Christmas Island",
+						"lang": "en",
+						"name": "UTC+07:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+07:00. Principais localizações: Krasnoyarsk, Khovd, Bayan-Ölgii, Java, Sumatra, Cambodia, Laos, Thailand, Vietnam, Christmas Island",
+						"lang": "pt",
+						"name": "UTC+07:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-eight",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+08:00 time. Principal locations: Mainland China, Hong Kong, Macau, Taiwan, Irkutsk, Ulaanbaatar, Brunei, Sulawesi, Malaysia, Phillipines, Singapore, Western Australia",
+						"lang": "en",
+						"name": "UTC+08:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+08:00. Principais localizações: Mainland China, Hong Kong, Macau, Taiwan, Irkutsk, Ulaanbaatar, Brunei, Sulawesi, Malaysia, Phillipines, Singapore, Western Australia",
+						"lang": "pt",
+						"name": "UTC+08:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-nine",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+09:00 time. Principal locations: Japan, Korea, Yakutsk, East Timor, Western New Guinea, Maluku, Palau",
+						"lang": "en",
+						"name": "UTC+09:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+09:00. Principais localizações: Japan, Korea, Yakutsk, East Timor, Western New Guinea, Maluku, Palau",
+						"lang": "pt",
+						"name": "UTC+09:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-ten",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+10:00 time. Principal locations: Vladivostok, Queensland, Papa New Guinea, Guam, New South Wales, Victoria",
+						"lang": "en",
+						"name": "UTC+10:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+10:00. Principais localizações: Vladivostok, Queensland, Papa New Guinea, Guam, New South Wales, Victoria",
+						"lang": "pt",
+						"name": "UTC+10:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-eleven",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+11:00 time. Principal locations: Magadan, Kosrae, Pohnpei, Solomon Islands, Vanuatu, Norfolk Island, Macquarie Island",
+						"lang": "en",
+						"name": "UTC+11:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+11:00. Principais localizações: Magadan, Kosrae, Pohnpei, Solomon Islands, Vanuatu, Norfolk Island, Macquarie Island",
+						"lang": "pt",
+						"name": "UTC+11:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-twelve",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+12:00 time. Principal locations: New Zealand, Kamchatka, Tuvalu, Wake Island, Marshall Islands, Kiribati, Nauru, Fiji",
+						"lang": "en",
+						"name": "UTC+12:00 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+12:00. Principais localizações: New Zealand, Kamchatka, Tuvalu, Wake Island, Marshall Islands, Kiribati, Nauru, Fiji",
+						"lang": "pt",
+						"name": "UTC+12:00 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-thirteen",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+13:00 time. Principal locations: Phoenix Islands, Tokelau, Samoa, Tonga",
+						"lang": "en",
+						"name": "UTC+13:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+13:00. Principais localizações: Phoenix Islands, Tokelau, Samoa, Tonga",
+						"lang": "pt",
+						"name": "UTC+13:00 🌎 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-fourteen",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+14:00 time. Principal locations: Line Islands",
+						"lang": "en",
+						"name": "UTC+14:00 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+14:00. Principais localizações: Line Islands",
+						"lang": "pt",
+						"name": "UTC+14:00 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-nine-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-09:30 time. Principal locations: Marquesas Islands",
+						"lang": "en",
+						"name": "UTC-09:30 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-09:30. Principais localizações: Marquesas Islands",
+						"lang": "pt",
+						"name": "UTC-09:30 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-minus-three-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC-03:30 time. Principal locations: Newfoundland, Labrador",
+						"lang": "en",
+						"name": "UTC-03:30 🌎"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC-03:30. Principais localizações: Newfoundland, Labrador",
+						"lang": "pt",
+						"name": "UTC-03:30 🌎"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-three-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+03:30 time. Principal locations: Iran",
+						"lang": "en",
+						"name": "UTC+03:30 🌍"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+03:30. Principais localizações: Iran",
+						"lang": "pt",
+						"name": "UTC+03:30 🌍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-four-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+04:30 time. Principal locations: Afghanistan",
+						"lang": "en",
+						"name": "UTC+04:30 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+04:30. Principais localizações: Afghanistan",
+						"lang": "pt",
+						"name": "UTC+04:30 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-five-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+05:30 time. Principal locations: India, Sri Lanka",
+						"lang": "en",
+						"name": "UTC+05:30 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+05:30. Principais localizações: India, Sri Lanka",
+						"lang": "pt",
+						"name": "UTC+05:30 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-five-quarter",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+05:45 time. Principal locations: Nepal",
+						"lang": "en",
+						"name": "UTC+05:45 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+05:45. Principais localizações: Nepal",
+						"lang": "pt",
+						"name": "UTC+05:45 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-six-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+06:30 time. Principal locations: Myanmar/Burma, Coco Island, Cocos (Keeling) Islands",
+						"lang": "en",
+						"name": "UTC+06:30 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+06:30. Principais localizações: Myanmar/Burma, Coco Island, Cocos (Keeling) Islands",
+						"lang": "pt",
+						"name": "UTC+06:30 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-eight-quarter",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+08:45 time. Principal locations: Caiguna, Cocklebiddy, Eucla, Madura, Mundrabilla, Border Village",
+						"lang": "en",
+						"name": "UTC+08:45 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+08:45. Principais localizações: Caiguna, Cocklebiddy, Eucla, Madura, Mundrabilla, Border Village",
+						"lang": "pt",
+						"name": "UTC+08:45 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-nine-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+09:30 time. Principal locations: APY Lands, Alice Springs, Adelaide, Broken Hill",
+						"lang": "en",
+						"name": "UTC+09:30 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+09:30. Principais localizações: APY Lands, Alice Springs, Adelaide, Broken Hill",
+						"lang": "pt",
+						"name": "UTC+09:30 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-ten-thirty",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+10:30 time. Principal locations: Lord Howe Island",
+						"lang": "en",
+						"name": "UTC+10:30 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+10:30. Principais localizações: Lord Howe Island",
+						"lang": "pt",
+						"name": "UTC+10:30 🌏"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "utc-plus-twelve-quarter",
+				"locales": [
+					{
+						"description": "This user indicates that they operate on UTC+12:45 time. Principal locations: Chatham Islands",
+						"lang": "en",
+						"name": "UTC+12:45 🌏"
+					},
+					{
+						"description": "Este usuário indica que opera no horário UTC+12:45. Principais localizações: Chatham Islands",
+						"lang": "pt",
+						"name": "UTC+12:45 🌏"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"test"
+			"early-bird",
+			"night-owl",
+			"utc-minus-twelve",
+			"utc-minus-eleven",
+			"utc-minus-ten",
+			"utc-minus-nine",
+			"utc-minus-eight",
+			"utc-minus-seven",
+			"utc-minus-six",
+			"utc-minus-five",
+			"utc-minus-four",
+			"utc-minus-three",
+			"utc-minus-two",
+			"utc-minus-one",
+			"utc-plus-zero",
+			"utc-plus-one",
+			"utc-plus-two",
+			"utc-plus-three",
+			"utc-plus-four",
+			"utc-plus-five",
+			"utc-plus-six",
+			"utc-plus-seven",
+			"utc-plus-eight",
+			"utc-plus-nine",
+			"utc-plus-ten",
+			"utc-plus-eleven",
+			"utc-plus-twelve",
+			"utc-plus-thirteen",
+			"utc-plus-fourteen",
+			"utc-minus-nine-thirty",
+			"utc-minus-three-thirty",
+			"utc-plus-three-thirty",
+			"utc-plus-four-thirty",
+			"utc-plus-five-thirty",
+			"utc-plus-five-quarter",
+			"utc-plus-six-thirty",
+			"utc-plus-eight-quarter",
+			"utc-plus-nine-thirty",
+			"utc-plus-ten-thirty",
+			"utc-plus-twelve-quarter"
 		]
 	}
 }
