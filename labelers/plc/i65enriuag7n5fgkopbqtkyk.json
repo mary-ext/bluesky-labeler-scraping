@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:i65enriuag7n5fgkopbqtkyk/app.bsky.labeler.service/self",
-	"cid": "bafyreihy5rtjewewmxykjd7htnhmsgymttowu4e4wqvqww6dsobjqcbeoa",
+	"cid": "bafyreidj2sscjqp5gnpo5g6chj6pdv5zp6skazc7kv64hpm7aqtko5ipuq",
 	"creator": {
 		"did": "did:plc:i65enriuag7n5fgkopbqtkyk",
 		"handle": "profile-labels.bossett.social",
@@ -18,8 +18,8 @@
 		"description": "Labels accounts based on facts about profile records, post history, etc. Automatic.\nSupport @bossett.social / Code https://github.com/Bossett/bsky-profile-labeller / Help out https://ko-fi.com/bossett",
 		"indexedAt": "2024-06-01T21:33:21.793Z"
 	},
-	"likeCount": 719,
-	"indexedAt": "2024-06-21T10:34:20.680Z",
+	"likeCount": 720,
+	"indexedAt": "2024-10-02T20:27:23.534Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -47,6 +47,20 @@
 						"description": "This user began using this handle on this account less than 30 days ago.",
 						"lang": "en",
 						"name": "Changed Handle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "incomplete",
+				"locales": [
+					{
+						"description": "This user is missing a profile picture or display name.",
+						"lang": "en",
+						"name": "Incomplete Profile"
 					}
 				],
 				"severity": "inform"
@@ -181,8 +195,7 @@
 		"labelValues": [
 			"newaccount",
 			"newhandle",
-			"noavatar",
-			"nodisplayname",
+			"incomplete",
 			"onlyreplies",
 			"rapidposts",
 			"nonplcdid",
