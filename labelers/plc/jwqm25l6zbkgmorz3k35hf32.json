@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreihpcjzbnx4h4rkcphjlrfep6uu5zwuoazjl4wilqhn2fhckhn6y3a",
+	"cid": "bafyreihhxv2zfelrisdtrzlfy3wd7wfsrwo4m27kkxsygguq6dc4nojlou",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -19,11 +19,42 @@
 		"indexedAt": "2024-10-01T12:48:31.907Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-09-28T17:47:12.127Z",
+	"indexedAt": "2024-10-03T15:44:33.009Z",
 	"labels": [],
 	"policies": {
-		"labelValueDefinitions": [],
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "test2",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Test 2"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Test"
+					}
+				],
+				"severity": "inform"
+			}
+		],
 		"labelValues": [
+			"test2",
+			"test",
 			"contains-xitter",
 			"contains-skeet",
 			"has-link-youtube",
