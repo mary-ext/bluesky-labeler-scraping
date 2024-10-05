@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mieazp4jyowmtq2wsuez5dd5/app.bsky.labeler.service/self",
-  "cid": "bafyreifb7jzc3uhnved3azokapi24c4mvpac42qncglqlrx3a7uiglkb4y",
+  "cid": "bafyreib2gag62ozrxsg5kyiwzdqxuioycairdoghx5ya2anftqi4vyagym",
   "creator": {
     "did": "did:plc:mieazp4jyowmtq2wsuez5dd5",
     "handle": "nah.sickos.club",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "lie",
+        "locales": [
+          {
+            "description": "Whether through omission, misdirection, or just outright so, this post is a lie.",
+            "lang": "en",
+            "name": "This is a lie"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -65,6 +79,7 @@
       }
     ],
     "labelValues": [
+      "lie",
       "debate-pervert",
       "friggin-weird",
       "nah"
