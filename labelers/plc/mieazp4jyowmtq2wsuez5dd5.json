@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mieazp4jyowmtq2wsuez5dd5/app.bsky.labeler.service/self",
-	"cid": "bafyreib2gag62ozrxsg5kyiwzdqxuioycairdoghx5ya2anftqi4vyagym",
+	"cid": "bafyreid6qeygu2blfoh5bzh4xqk2vfigeoqh7oaehbpc5mckidlbahl7ze",
 	"creator": {
 		"did": "did:plc:mieazp4jyowmtq2wsuez5dd5",
 		"handle": "nah.sickos.club",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "bigot",
+				"locales": [
+					{
+						"description": "This person is a bigot.",
+						"lang": "en",
+						"name": "Bigot"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -81,6 +95,7 @@
 			}
 		],
 		"labelValues": [
+			"bigot",
 			"lie",
 			"debate-pervert",
 			"friggin-weird",

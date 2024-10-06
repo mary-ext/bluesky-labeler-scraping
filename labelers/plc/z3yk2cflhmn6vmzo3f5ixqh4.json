@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-	"cid": "bafyreidocx2tzkp6evzv7z6e4fyewvmhll7ratcja5dted5hmxynfqnzve",
+	"cid": "bafyreigtsp4eiurveiltskv4cmlunh5f4ucfwx7whqyl3vyp6ueznxxthe",
 	"creator": {
 		"did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
 		"handle": "yardcrow.com",
@@ -18,7 +18,7 @@
 		"description": "The Yard Crow watches\nHandcrafted and Artisanal labels administered by @patri.xyz\n(contact for questions or to request non-participation!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\n(upon request, most labels can be text or emoji)",
 		"indexedAt": "2024-09-09T04:24:43.621Z"
 	},
-	"likeCount": 431,
+	"likeCount": 430,
 	"indexedAt": "2024-05-11T07:33:13.462Z",
 	"labels": [],
 	"policies": {
@@ -1651,6 +1651,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "no-advice",
+				"locales": [
+					{
+						"description": "No Advice Zone. This account does not want unrequested solutions in replies.",
+						"lang": "en",
+						"name": "🤫🙉 NO"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "f-flag",
 				"locales": [
 					{
@@ -2003,6 +2017,7 @@
 			"z-boar",
 			"whiteheart",
 			"vacation",
+			"no-advice",
 			"f-flag",
 			"jobs",
 			"cookie",
