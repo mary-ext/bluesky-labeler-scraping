@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreigyratvjezz4kfnni3fwadnhddttogk7epyjqmn4jjojvc4pvj5ky",
+  "cid": "bafyreidh27wzkcc44y4xt27mubs5gnll6x7v3tu3ujfsk7pyospbmld4uu",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "labeler.mountainherder.xyz",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "disinformation-network",
+        "locales": [
+          {
+            "description": "This post links to sources known to be part of pro-Kremlin and pro-Assad disinformation networks.",
+            "lang": "en",
+            "name": "Disinformation Network"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -217,6 +231,7 @@
       }
     ],
     "labelValues": [
+      "disinformation-network",
       "maga-trump",
       "terf-gc",
       "dinosaur-emoji",
