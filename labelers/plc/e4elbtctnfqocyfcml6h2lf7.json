@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreigyratvjezz4kfnni3fwadnhddttogk7epyjqmn4jjojvc4pvj5ky",
+	"cid": "bafyreidh27wzkcc44y4xt27mubs5gnll6x7v3tu3ujfsk7pyospbmld4uu",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "labeler.mountainherder.xyz",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-07-21T03:55:20.275Z"
 	},
-	"likeCount": 546,
+	"likeCount": 550,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "disinformation-network",
+				"locales": [
+					{
+						"description": "This post links to sources known to be part of pro-Kremlin and pro-Assad disinformation networks.",
+						"lang": "en",
+						"name": "Disinformation Network"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -219,6 +233,7 @@
 			}
 		],
 		"labelValues": [
+			"disinformation-network",
 			"maga-trump",
 			"terf-gc",
 			"dinosaur-emoji",

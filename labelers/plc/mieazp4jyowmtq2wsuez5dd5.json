@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mieazp4jyowmtq2wsuez5dd5/app.bsky.labeler.service/self",
-	"cid": "bafyreid6qeygu2blfoh5bzh4xqk2vfigeoqh7oaehbpc5mckidlbahl7ze",
+	"cid": "bafyreiao7mmqepxlnt363uaqpz6mvruufhbqtb2ur2npyfzkth3utw6xjy",
 	"creator": {
 		"did": "did:plc:mieazp4jyowmtq2wsuez5dd5",
 		"handle": "nah.sickos.club",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "wrecker",
+				"locales": [
+					{
+						"description": "This account, whether deliberately or by ignorance, promotes right-wing causes through left-wing rhetoric.",
+						"lang": "en",
+						"name": "Wrecker"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -95,6 +109,7 @@
 			}
 		],
 		"labelValues": [
+			"wrecker",
 			"bigot",
 			"lie",
 			"debate-pervert",
