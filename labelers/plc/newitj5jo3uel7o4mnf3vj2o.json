@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:newitj5jo3uel7o4mnf3vj2o/app.bsky.labeler.service/self",
-	"cid": "bafyreidtzgplpp7d34ffntn7pmeedd5sre6oxe4nzxemgpuyvwhtqzbeie",
+	"cid": "bafyreig3exi2q3fwrrfisvufmcmgl6f7zisziiviichamd4s3ws3lzst54",
 	"creator": {
 		"did": "did:plc:newitj5jo3uel7o4mnf3vj2o",
 		"handle": "xblock.aendra.dev",
@@ -18,34 +18,20 @@
 		"description": "Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers.\n\nMislabelled posts: please report (specifying XBlock) using the Bluesky \"report post\" button!\n\n🌐 xblock.aendra.com",
 		"indexedAt": "2024-08-01T00:59:11.675Z"
 	},
-	"likeCount": 561,
-	"indexedAt": "2024-04-14T12:44:41.480Z",
+	"likeCount": 579,
+	"indexedAt": "2024-10-09T00:32:14.777Z",
 	"labels": [],
 	"policies": {
 		"description": "Labels screenshots from Twitter (and elsewhere) because life is too short to be that angry",
 		"labelValueDefinitions": [
 			{
-				"adultOnly": false,
-				"blurs": "media",
-				"defaultSetting": "hide",
-				"identifier": "discord-screenshot",
-				"locales": [
-					{
-						"description": "[work-in-progress] Screenshot from Discord. Currently all labelling of Discord screenshots is manual while we train our image classification model to recognise them.",
-						"lang": "en",
-						"name": "Discord screenshot"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "ignore",
 				"identifier": "uncategorised-screenshot",
 				"locales": [
 					{
-						"description": "[EXPERIMENTAL] Miscellaneous screenshots detected by a computer vision model. After human intervention, this label is dropped and a more specific one is added",
+						"description": "[EXPERIMENTAL] Miscellaneous screenshots detected by a computer vision model. After human intervention, this label is dropped and a more specific one is added.",
 						"lang": "en",
 						"name": "Uncategorised screenshot"
 					}
@@ -53,173 +39,143 @@
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "news-screenshot",
-				"locales": [
-					{
-						"description": "[EXPERIMENTAL] Contains a news website screenshot. Warning: blurs content instead of just media like other labels! Currently hand-moderated as I build the model",
-						"lang": "en",
-						"name": "News media screenshot"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "twitter-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Twitter, contents may or may not be offensive",
+						"description": "A screenshot taken on Twitter, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Twitter screenshot"
+						"name": "Twitter screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
-				"blurs": "media",
-				"defaultSetting": "warn",
-				"identifier": "bluesky-screenshot",
-				"locales": [
-					{
-						"description": "Potentially a screenshot taken on Bluesky, contents may or may not be offensive",
-						"lang": "en",
-						"name": "Possible Bluesky screenshot"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "threads-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Threads, contents may or may not be offensive",
+						"description": "A screenshot taken on Threads, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Threads screenshot"
+						"name": "Threads screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "fediverse-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Fediverse, contents may or may not be offensive",
+						"description": "A screenshot taken on Fediverse, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Fediverse screenshot"
+						"name": "Fediverse screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
+				"adultsOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "bluesky-screenshot",
+				"locales": [
+					{
+						"description": "A screenshot taken on Bluesky, contents may or may not be offensive",
+						"lang": "en",
+						"name": "Bluesky screenshot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "facebook-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Facebook, contents may or may not be offensive",
+						"description": "A screenshot taken on Facebook, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Facebook screenshot"
+						"name": "Facebook screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "instagram-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Instagram, contents may or may not be offensive",
+						"description": "A screenshot taken on Instagram, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Instagram screenshot"
+						"name": "Instagram screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "tumblr-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Tumblr, contents may or may not be offensive",
+						"description": "A screenshot taken on Tumblr, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Tumblr screenshot"
+						"name": "Tumblr screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "reddit-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on Reddit, contents may or may not be offensive",
+						"description": "A screenshot taken on Reddit, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Possible Reddit screenshot"
+						"name": "Reddit screenshot"
 					}
 				],
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
-				"blurs": "media",
-				"defaultSetting": "ignore",
-				"identifier": "ngl-screenshot",
-				"locales": [
-					{
-						"description": "Potentially a screenshot taken on ngl.link, an anonymous question asking platform",
-						"lang": "en",
-						"name": "Possible NGL screenshot"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
+				"adultsOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
 				"identifier": "altright-screenshot",
 				"locales": [
 					{
-						"description": "Potentially a screenshot taken on an alt-right platform (Truth Social, Gab, et cetera), contents quite likely offensive",
+						"description": "A screenshot taken on an alt-right platform (Truth Social, Gab, et cetera), contents quite likely offensive",
 						"lang": "en",
-						"name": "Possible alt-right platform screenshot"
+						"name": "Alt-right platform screenshot"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"uncategorised-screenshot",
 			"twitter-screenshot",
-			"bluesky-screenshot",
-			"altright-screenshot",
-			"discord-screenshot",
-			"ngl-screenshot",
 			"threads-screenshot",
 			"fediverse-screenshot",
+			"bluesky-screenshot",
 			"facebook-screenshot",
 			"instagram-screenshot",
 			"tumblr-screenshot",
 			"reddit-screenshot",
-			"uncategorised-screenshot"
+			"altright-screenshot"
 		]
 	}
 }
