@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:pagzrgpjlsfhxljg5rchn6ow/app.bsky.labeler.service/self",
-	"cid": "bafyreibhdxhpanjugpojx34rbtx4fc4fvdmkq5wadzwcugu7tfzh7ktqoi",
+	"cid": "bafyreidx6q5hsstap5nqutm24jgwcbiqxrgvafb6wtvvri2kmxq2pdknke",
 	"creator": {
 		"did": "did:plc:pagzrgpjlsfhxljg5rchn6ow",
 		"handle": "aeon.netwatch.dev",
@@ -18,8 +18,8 @@
 		"description": "Arbeits- und Erziehungsorgan der Nation 🇩🇪",
 		"indexedAt": "2024-10-09T17:15:51.911Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-10-10T01:10:18.408Z",
+	"likeCount": 3,
+	"indexedAt": "2024-10-10T02:11:43.721Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -134,6 +134,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stcr",
+				"locales": [
+					{
+						"description": "Sicherheitstechniker-Controller-Replika - 'Storch' - Delivering soldiers to the fray like hatchlings from an egg. Spindly limbs belying strength, a commander of the legion. Strides purposefully, orchestrating the winged ballet of war.",
+						"lang": "en",
+						"name": "STCR 🛡"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "drmr",
+				"locales": [
+					{
+						"description": "Each time the dreamer turns over in their sleep, the world turns over too.",
+						"lang": "en",
+						"name": "DRMR 🌌"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -144,7 +172,9 @@
 			"klbr",
 			"lstr",
 			"mnhr",
-			"star"
+			"star",
+			"stcr",
+			"drmr"
 		]
 	}
 }
