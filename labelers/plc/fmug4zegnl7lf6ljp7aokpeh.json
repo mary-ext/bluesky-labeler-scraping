@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:fmug4zegnl7lf6ljp7aokpeh/app.bsky.labeler.service/self",
-	"cid": "bafyreicwti3rbx3t72zdiubvl74aa3znwwwj2zl2eokellnyn6relmm5vy",
+	"cid": "bafyreiesliig2hjjrhjvcxgo3ahs6fo3jbab6atlnhkgo7pzvkqrzowkr4",
 	"creator": {
 		"did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
 		"handle": "labels.medsky.social",
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-09T03:18:20.007Z",
-		"description": "Labeling service for physicians on #Medsky to identify their medical specialties and subspecialties, curated by @richardferro.bsky.social",
-		"indexedAt": "2024-10-09T03:49:42.209Z"
+		"description": "Labeling service for #Medsky to identify medical specialties, curated by @richardferro.bsky.social\n\nINSTRUCTIONS:\n1. SUBSCRIBE to labeler\n2. OPEN specialty thread\n3. LIKE the post with desired specialty\n4. ENJOY!\nX. REMOVE badge by liking “remove” post",
+		"indexedAt": "2024-10-11T21:56:18.006Z"
 	},
-	"likeCount": 4,
-	"indexedAt": "2024-10-09T05:47:53.501Z",
+	"likeCount": 15,
+	"indexedAt": "2024-10-11T02:03:10.379Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,12 +27,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "family-medicine",
+				"identifier": "pre-med",
 				"locales": [
 					{
-						"description": "This user is a Family Physician",
+						"description": "This user is an Undergraduate Student on a Pre-Medical Track",
 						"lang": "en",
-						"name": "Family Medicine"
+						"name": "Pre-Med"
 					}
 				],
 				"severity": "inform"
@@ -41,12 +41,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "preventative-medicine",
+				"identifier": "medical-student",
 				"locales": [
 					{
-						"description": "This user is a Preventative Medicine Physician",
+						"description": "This user is in Medical School",
 						"lang": "en",
-						"name": "Preventative Medicine"
+						"name": "Medical Student"
 					}
 				],
 				"severity": "inform"
@@ -55,12 +55,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "geriatrics",
+				"identifier": "abdominal-radiology",
 				"locales": [
 					{
-						"description": "This user is a Geriatrician",
+						"description": "This user works in the field of Abdominal Radiology",
 						"lang": "en",
-						"name": "Geriatrician"
+						"name": "Abdominal Radiology"
 					}
 				],
 				"severity": "inform"
@@ -69,12 +69,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "sports-medicine",
+				"identifier": "addiction-psychiatry",
 				"locales": [
 					{
-						"description": "This user is a Sports Medicine Physician",
+						"description": "This user works in the field of Addiction Psychiatry",
 						"lang": "en",
-						"name": "Sports Medicine"
+						"name": "Addiction Psychiatry"
 					}
 				],
 				"severity": "inform"
@@ -83,12 +83,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "global-health",
+				"identifier": "addiction-medicine",
 				"locales": [
 					{
-						"description": "This user is a Global Health Physician",
+						"description": "This user works in the field of Addiction Medicine",
 						"lang": "en",
-						"name": "Global Health"
+						"name": "Addiction Medicine"
 					}
 				],
 				"severity": "inform"
@@ -97,12 +97,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "internal-medicine",
+				"identifier": "adolescent-medicine",
 				"locales": [
 					{
-						"description": "This user is an Internist",
+						"description": "This user works in the field of Adolescent Medicine",
 						"lang": "en",
-						"name": "Internal Medicine"
+						"name": "Adolescent Medicine"
 					}
 				],
 				"severity": "inform"
@@ -111,12 +111,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "pediatrics",
+				"identifier": "acta",
 				"locales": [
 					{
-						"description": "This user is a Pediatrician",
+						"description": "This user works in the field of Adult Cardiothoracic Anesthesiology",
 						"lang": "en",
-						"name": "Pediatrics"
+						"name": "ACTA"
 					}
 				],
 				"severity": "inform"
@@ -125,12 +125,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "neonatology",
+				"identifier": "adult-congenital-heart-disease",
 				"locales": [
 					{
-						"description": "This user is a Neonatologist",
+						"description": "This user works in the field of Adult Congenital Heart Disease",
 						"lang": "en",
-						"name": "Neonatology"
+						"name": "Adult Congenital Heart Disease"
 					}
 				],
 				"severity": "inform"
@@ -139,12 +139,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "pediatric-intensivist",
+				"identifier": "adult-reconstructive-orthopedics",
 				"locales": [
 					{
-						"description": "This user is a Pediatric Intensivist",
+						"description": "This user works in the field of Adult Reconstructive Orthopedics",
 						"lang": "en",
-						"name": "Pediatric Intensivist"
+						"name": "Adult Reconstructive Orthopedics"
 					}
 				],
 				"severity": "inform"
@@ -153,12 +153,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "ob-gyn",
+				"identifier": "aerospace-medicine",
 				"locales": [
 					{
-						"description": "This user is an OB/GYN physician",
+						"description": "This user works in the field of Aerospace Medicine",
 						"lang": "en",
-						"name": "OB/GYN"
+						"name": "Aerospace Medicine"
 					}
 				],
 				"severity": "inform"
@@ -167,54 +167,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "neurology",
+				"identifier": "allergy-immunology",
 				"locales": [
 					{
-						"description": "This user is a Neurologist",
+						"description": "This user works in the field of Allergy/Immunology",
 						"lang": "en",
-						"name": "Neurology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "psychiatry",
-				"locales": [
-					{
-						"description": "This user is a Psychiatrist",
-						"lang": "en",
-						"name": "Psychiatry"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "otolaryngology",
-				"locales": [
-					{
-						"description": "This user is an Otolaryngologist",
-						"lang": "en",
-						"name": "Otolaryngology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "urology",
-				"locales": [
-					{
-						"description": "This user is a Urologist",
-						"lang": "en",
-						"name": "Urology"
+						"name": "Allergy/Immunology"
 					}
 				],
 				"severity": "inform"
@@ -226,7 +184,7 @@
 				"identifier": "anesthesiology",
 				"locales": [
 					{
-						"description": "This user is an Anesthesiologist",
+						"description": "This user works in the field of Anesthesiology",
 						"lang": "en",
 						"name": "Anesthesiology"
 					}
@@ -237,12 +195,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "radiology",
+				"identifier": "accm",
 				"locales": [
 					{
-						"description": "This user is a Radiologist",
+						"description": "This user works in the field of Anesthesiology Critical Care Medicine",
 						"lang": "en",
-						"name": "Radiology"
+						"name": "ACCM"
 					}
 				],
 				"severity": "inform"
@@ -251,12 +209,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "interventional-radiology",
+				"identifier": "transfusion-medicine",
 				"locales": [
 					{
-						"description": "This user is an Interventional Radiologist",
+						"description": "This user works in the field of Blood Banking/Transfusion Medicine",
 						"lang": "en",
-						"name": "Interventional Radiology"
+						"name": "Transfusion Medicine"
 					}
 				],
 				"severity": "inform"
@@ -265,292 +223,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "pathology",
+				"identifier": "brain-injury-medicine",
 				"locales": [
 					{
-						"description": "This user is a Pathologist",
+						"description": "This user works in the field of Brain Injury Medicine",
 						"lang": "en",
-						"name": "Pathology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "emergency-medicine",
-				"locales": [
-					{
-						"description": "This user is an Emergency Physician",
-						"lang": "en",
-						"name": "Emergency Medicine"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "critical-care",
-				"locales": [
-					{
-						"description": "This user is a Critical Care Physician",
-						"lang": "en",
-						"name": "Critical Care"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "ophthalmology",
-				"locales": [
-					{
-						"description": "This user is an Ophthalmologist",
-						"lang": "en",
-						"name": "Ophthalmology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "dermatology",
-				"locales": [
-					{
-						"description": "This user is a Dermatologist",
-						"lang": "en",
-						"name": "Dermatology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "cardiology",
-				"locales": [
-					{
-						"description": "This user is a Cardiologist",
-						"lang": "en",
-						"name": "Cardiology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "interventional-cardiology",
-				"locales": [
-					{
-						"description": "This user is an Interventional Cardiologist",
-						"lang": "en",
-						"name": "Interventional Cardiology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "gastroenterology",
-				"locales": [
-					{
-						"description": "This user is a Gastroenterologist",
-						"lang": "en",
-						"name": "Gastroenterology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "pulmonology",
-				"locales": [
-					{
-						"description": "This user is a Pulmonologist",
-						"lang": "en",
-						"name": "Pulmonology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "hematology",
-				"locales": [
-					{
-						"description": "This user is a Hematologist",
-						"lang": "en",
-						"name": "Hematology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "oncology",
-				"locales": [
-					{
-						"description": "This user is an Oncologist",
-						"lang": "en",
-						"name": "Oncology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "rheumatology",
-				"locales": [
-					{
-						"description": "This user is a Rheumatologist",
-						"lang": "en",
-						"name": "Rheumatology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "endocrinology",
-				"locales": [
-					{
-						"description": "This user is an Endocrinologist",
-						"lang": "en",
-						"name": "Endocrinology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "reproductive-endocrinology",
-				"locales": [
-					{
-						"description": "This user is a Reproductive Endocrinologist",
-						"lang": "en",
-						"name": "Reproductive Endocrinology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "nephrology",
-				"locales": [
-					{
-						"description": "This user is a Nephrologist",
-						"lang": "en",
-						"name": "Nephrology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "infectious-disease",
-				"locales": [
-					{
-						"description": "This user is an Infectious Disease Physician",
-						"lang": "en",
-						"name": "Infectious Disease"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "immunology",
-				"locales": [
-					{
-						"description": "This user is an Immunologist",
-						"lang": "en",
-						"name": "Immunology"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "general-surgery",
-				"locales": [
-					{
-						"description": "This user is a General Surgeon",
-						"lang": "en",
-						"name": "General Surgery"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "plastic-surgery",
-				"locales": [
-					{
-						"description": "This user is a Plastic Surgeon",
-						"lang": "en",
-						"name": "Plastic Surgery"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "orthopedic-surgery",
-				"locales": [
-					{
-						"description": "This user is an Orthopedic Surgeon",
-						"lang": "en",
-						"name": "Orthopedic Surgery"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "trauma-surgery",
-				"locales": [
-					{
-						"description": "This user is a Trauma Surgeon",
-						"lang": "en",
-						"name": "Trauma Surgery"
+						"name": "Brain Injury Medicine"
 					}
 				],
 				"severity": "inform"
@@ -562,9 +240,2081 @@
 				"identifier": "cardiothoracic-surgery",
 				"locales": [
 					{
-						"description": "This user is a Cardiothoracic Surgeon",
+						"description": "This user works in the field of Cardiothoracic Surgery",
 						"lang": "en",
 						"name": "Cardiothoracic Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cardiovascular-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Cardiovascular Medicine",
+						"lang": "en",
+						"name": "Cardiovascular Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "child-adolescent-psychiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Child & Adolescent Psychiatry",
+						"lang": "en",
+						"name": "Child & Adolescent Psychiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "child-abuse-pediatrics",
+				"locales": [
+					{
+						"description": "This user works in the field of Child Abuse Pediatrics",
+						"lang": "en",
+						"name": "Child Abuse Pediatrics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cardiac-electrophysiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Clinical Cardiac Electrophysiology",
+						"lang": "en",
+						"name": "Cardiac Electrophysiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clinical-informatics",
+				"locales": [
+					{
+						"description": "This user works in the field of Clinical Informatics",
+						"lang": "en",
+						"name": "Clinical Informatics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clinical-neurophysiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Clinical Neurophysiology",
+						"lang": "en",
+						"name": "Clinical Neurophysiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "colorectal-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Colon & Rectal Surgery",
+						"lang": "en",
+						"name": "Colorectal Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "complex-family-planning",
+				"locales": [
+					{
+						"description": "This user works in the field of Complex Family Planning",
+						"lang": "en",
+						"name": "Complex Family Planning"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "community-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Community Medicine",
+						"lang": "en",
+						"name": "Community Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "congenital-cardiac-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Congenital Cardiac Surgery",
+						"lang": "en",
+						"name": "Congenital Cardiac Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "consultation-liaison-psychiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Consultation-Liaison Psychiatry",
+						"lang": "en",
+						"name": "Consultation-Liaison Psychiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "craniofacial-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Craniofacial Surgery",
+						"lang": "en",
+						"name": "Craniofacial Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "critical-care-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Critical Care Medicine",
+						"lang": "en",
+						"name": "Critical Care Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cytopathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Cytopathology",
+						"lang": "en",
+						"name": "Cytopathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dermatology",
+				"locales": [
+					{
+						"description": "This user works in the field of Dermatology",
+						"lang": "en",
+						"name": "Dermatology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dermatopathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Dermatopathology",
+						"lang": "en",
+						"name": "Dermatopathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "developmental-behavioral-pediatrics",
+				"locales": [
+					{
+						"description": "This user works in the field of Developmental-Behavioral Pediatrics",
+						"lang": "en",
+						"name": "Developmental-Behavioral Pediatrics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "diagnostic-radiology-nuclear-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Diagnostic Radiology/Nuclear Medicine",
+						"lang": "en",
+						"name": "Diagnostic Radiology/Nuclear Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ems",
+				"locales": [
+					{
+						"description": "This user works in the field of Emergency Medical Services",
+						"lang": "en",
+						"name": "EMS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "emergency-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Emergency Medicine",
+						"lang": "en",
+						"name": "Emergency Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "em-anesthesiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Emergency Medicine/Anesthesiology",
+						"lang": "en",
+						"name": "EM/Anesthesiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "em-fm",
+				"locales": [
+					{
+						"description": "This user works in the field of Emergency Medicine/Family Medicine",
+						"lang": "en",
+						"name": "EM/FM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "endocrinology",
+				"locales": [
+					{
+						"description": "This user works in the field of Endocrinology",
+						"lang": "en",
+						"name": "Endocrinology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "epilepsy",
+				"locales": [
+					{
+						"description": "This user works in the field of Epilepsy",
+						"lang": "en",
+						"name": "Epilepsy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "family-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Family Medicine",
+						"lang": "en",
+						"name": "Family Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fm-onmm",
+				"locales": [
+					{
+						"description": "This user works in the field of Family Medicine/Osteopathic Neuromusculoskeletal Medicine",
+						"lang": "en",
+						"name": "FM/ONMM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fm-pm",
+				"locales": [
+					{
+						"description": "This user works in the field of Family Medicine/Preventive Medicine",
+						"lang": "en",
+						"name": "FM/PM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "urogynecology",
+				"locales": [
+					{
+						"description": "This user works in the field of Urogynecology",
+						"lang": "en",
+						"name": "Urogynecology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "foot-ankle-orthopedics",
+				"locales": [
+					{
+						"description": "This user works in the field of Foot & Ankle Orthopedics",
+						"lang": "en",
+						"name": "Foot & Ankle Orthopedics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "forensic-pathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Forensic Pathology",
+						"lang": "en",
+						"name": "Forensic Pathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "forensic-psychiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Forensic Psychiatry",
+						"lang": "en",
+						"name": "Forensic Psychiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gastroenterology",
+				"locales": [
+					{
+						"description": "This user works in the field of Gastroenterology",
+						"lang": "en",
+						"name": "Gastroenterology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "general-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of General Surgery",
+						"lang": "en",
+						"name": "General Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "genetics",
+				"locales": [
+					{
+						"description": "This user works in the field of Genetics",
+						"lang": "en",
+						"name": "Genetics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "geriatric-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Geriatric Medicine",
+						"lang": "en",
+						"name": "Geriatric Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "geriatric-psychiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Geriatric Psychiatry",
+						"lang": "en",
+						"name": "Geriatric Psychiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "global-health",
+				"locales": [
+					{
+						"description": "This user works in the field of Global Health",
+						"lang": "en",
+						"name": "Global Health"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gyn-onc",
+				"locales": [
+					{
+						"description": "This user works in the field of Gynecologic Oncology",
+						"lang": "en",
+						"name": "Gyn/Onc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hand-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Hand Surgery",
+						"lang": "en",
+						"name": "Hand Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "healthcare-administration",
+				"locales": [
+					{
+						"description": "This user works in the field of Healthcare Administration",
+						"lang": "en",
+						"name": "Healthcare Administration"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "health-policy",
+				"locales": [
+					{
+						"description": "This user works in the field of Healthcare Policy",
+						"lang": "en",
+						"name": "Health Policy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hematology",
+				"locales": [
+					{
+						"description": "This user works in the field of Hematology",
+						"lang": "en",
+						"name": "Hematology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "heme-onc",
+				"locales": [
+					{
+						"description": "This user works in the field of Hematology & Medical Oncology",
+						"lang": "en",
+						"name": "Heme/Onc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hematopathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Hematopathology",
+						"lang": "en",
+						"name": "Hematopathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiv-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of HIV Medicine",
+						"lang": "en",
+						"name": "HIV Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hospice-palliative",
+				"locales": [
+					{
+						"description": "This user works in the field of Hospice & Palliative Medicine",
+						"lang": "en",
+						"name": "Hospice/Palliative"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "infectious-disease",
+				"locales": [
+					{
+						"description": "This user works in the field of Infectious Disease",
+						"lang": "en",
+						"name": "Infectious Disease"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "internal-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine",
+						"lang": "en",
+						"name": "Internal Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-anesthesiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Anesthesiology",
+						"lang": "en",
+						"name": "IM/Anesthesiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-derm",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Dermatology",
+						"lang": "en",
+						"name": "IM/Derm"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-em",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Emergency Medicine",
+						"lang": "en",
+						"name": "IM/EM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-em-critical-care",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Emergency Medicine/Critical Care Medicine",
+						"lang": "en",
+						"name": "IM/EM/Critical Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-fm",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Family Medicine",
+						"lang": "en",
+						"name": "IM/FM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-genetics",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Medical Genetics & Genomics",
+						"lang": "en",
+						"name": "IM/Genetics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-peds",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Pediatrics",
+						"lang": "en",
+						"name": "IM/Peds"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-physiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Physical Medicine & Rehabilitation",
+						"lang": "en",
+						"name": "IM/Physiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-pm",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Preventive Medicine",
+						"lang": "en",
+						"name": "IM/PM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "im-psych",
+				"locales": [
+					{
+						"description": "This user works in the field of Internal Medicine/Psychiatry",
+						"lang": "en",
+						"name": "IM/Psych"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "interventional-cardiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Interventional Cardiology",
+						"lang": "en",
+						"name": "Interventional Cardiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "interventional-pulmonology",
+				"locales": [
+					{
+						"description": "This user works in the field of Interventional Pulmonology",
+						"lang": "en",
+						"name": "Interventional Pulmonology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "interventional-radiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Interventional Radiology",
+						"lang": "en",
+						"name": "Interventional Radiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mfi",
+				"locales": [
+					{
+						"description": "This user works in the field of Maternal-Fetal Medicine",
+						"lang": "en",
+						"name": "MFI"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "genetics-mfi",
+				"locales": [
+					{
+						"description": "This user works in the field of Medical Genetics & Genomics/Maternal-Fetal Medicine",
+						"lang": "en",
+						"name": "Genetics/MFI"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "medical-microbiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Medical Microbiology",
+						"lang": "en",
+						"name": "Medical Microbiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "medical-toxicology",
+				"locales": [
+					{
+						"description": "This user works in the field of Medical Toxicology",
+						"lang": "en",
+						"name": "Medical Toxicology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "msdo",
+				"locales": [
+					{
+						"description": "This user works in the field of Micrographic Surgery & Dermatologic Oncology",
+						"lang": "en",
+						"name": "MSDO"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "msk-oncology",
+				"locales": [
+					{
+						"description": "This user works in the field of Musculoskeletal Oncology",
+						"lang": "en",
+						"name": "MSK Oncology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "msk-radiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Musculoskeletal Radiology",
+						"lang": "en",
+						"name": "MSK Radiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neonatal-perinatal-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Neonatal-Perinatal Medicine",
+						"lang": "en",
+						"name": "Neonatal-Perinatal Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nephrology",
+				"locales": [
+					{
+						"description": "This user works in the field of Nephrology",
+						"lang": "en",
+						"name": "Nephrology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neurocritical-care",
+				"locales": [
+					{
+						"description": "This user works in the field of Neurocritical Care",
+						"lang": "en",
+						"name": "Neurocritical Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neurodevelopmental-disabilities",
+				"locales": [
+					{
+						"description": "This user works in the field of Neurodevelopmental Disabilities",
+						"lang": "en",
+						"name": "Neurodevelopmental Disabilities"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neuroendovascular-intervention",
+				"locales": [
+					{
+						"description": "This user works in the field of Neuroendovascular Intervention",
+						"lang": "en",
+						"name": "Neuroendovascular Intervention"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neurosurgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Neurological Surgery",
+						"lang": "en",
+						"name": "Neurosurgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neurology",
+				"locales": [
+					{
+						"description": "This user works in the field of Neurology",
+						"lang": "en",
+						"name": "Neurology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neurology-physiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Neurology/Physical Medicine & Rehabilitation",
+						"lang": "en",
+						"name": "Neurology/Physiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neuromuscular-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Neuromuscular Medicine",
+						"lang": "en",
+						"name": "Neuromuscular Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neuropathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Neuropathology",
+						"lang": "en",
+						"name": "Neuropathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neuroradiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Neuroradiology",
+						"lang": "en",
+						"name": "Neuroradiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neurotology",
+				"locales": [
+					{
+						"description": "This user works in the field of Neurotology",
+						"lang": "en",
+						"name": "Neurotology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nuclear-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Nuclear Medicine",
+						"lang": "en",
+						"name": "Nuclear Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ob-gyn",
+				"locales": [
+					{
+						"description": "This user works in the field of Obstetrics & Gynecology",
+						"lang": "en",
+						"name": "Ob/Gyn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "occupational-environmental-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Occupational & Environmental Medicine",
+						"lang": "en",
+						"name": "Occupational & Environmental Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oncology",
+				"locales": [
+					{
+						"description": "This user works in the field of Oncology",
+						"lang": "en",
+						"name": "Oncology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "obstetric-anesthesiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Obstetric Anesthesiology",
+						"lang": "en",
+						"name": "Obstetric Anesthesiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oculoplastic-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Ophthalmic Plastic & Reconstructive Surgery",
+						"lang": "en",
+						"name": "Oculoplastic Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ophthalmology",
+				"locales": [
+					{
+						"description": "This user works in the field of Ophthalmology",
+						"lang": "en",
+						"name": "Ophthalmology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orthopedic-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Orthopedic Surgery",
+						"lang": "en",
+						"name": "Orthopedic Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orthopedic-sports",
+				"locales": [
+					{
+						"description": "This user works in the field of Orthopedic Sports Medicine",
+						"lang": "en",
+						"name": "Orthopedic Sports"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orthopedic-spine",
+				"locales": [
+					{
+						"description": "This user works in the field of Orthopedic Surgery of the Spine",
+						"lang": "en",
+						"name": "Orthopedic Spine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orthopedic-trauma",
+				"locales": [
+					{
+						"description": "This user works in the field of Orthopedic Trauma",
+						"lang": "en",
+						"name": "Orthopedic Trauma"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "onmm",
+				"locales": [
+					{
+						"description": "This user works in the field of Osteopathic Neuromusculoskeletal Medicine",
+						"lang": "en",
+						"name": "ONMM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ent",
+				"locales": [
+					{
+						"description": "This user works in the field of Otolaryngology",
+						"lang": "en",
+						"name": "ENT"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ent-head-neck",
+				"locales": [
+					{
+						"description": "This user works in the field of Otolaryngology-Head & Neck Surgery",
+						"lang": "en",
+						"name": "ENT/Head & Neck"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pain-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Pain Medicine",
+						"lang": "en",
+						"name": "Pain Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pathology",
+						"lang": "en",
+						"name": "Pathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pediatrics",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatrics",
+						"lang": "en",
+						"name": "Pediatrics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-anesthesiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Anesthesiology",
+						"lang": "en",
+						"name": "Peds Anesthesiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-cardiac-anesthesiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Cardiac Anesthesiology",
+						"lang": "en",
+						"name": "Peds Cardiac Anesthesiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-cardiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Cardiology",
+						"lang": "en",
+						"name": "Peds Cardiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-critical-care",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Critical Care Medicine",
+						"lang": "en",
+						"name": "Peds Critical Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-dermatology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Dermatology",
+						"lang": "en",
+						"name": "Peds Dermatology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-em",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Emergency Medicine",
+						"lang": "en",
+						"name": "Peds EM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-endocrinology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Endocrinology",
+						"lang": "en",
+						"name": "Peds Endocrinology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-gi",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Gastroenterology",
+						"lang": "en",
+						"name": "Peds GI"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-heme-onc",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Hematology/Oncology",
+						"lang": "en",
+						"name": "Peds Heme/Onc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-hospital-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Hospital Medicine",
+						"lang": "en",
+						"name": "Peds Hospital Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-id",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Infectious Disease",
+						"lang": "en",
+						"name": "Peds ID"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-nephrology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Nephrology",
+						"lang": "en",
+						"name": "Peds Nephrology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-neurology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Neurology",
+						"lang": "en",
+						"name": "Peds Neurology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-orthopedics",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Orthopedics",
+						"lang": "en",
+						"name": "Peds Orthopedics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-ent",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Otolaryngology",
+						"lang": "en",
+						"name": "Peds ENT"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-pathology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Pathology",
+						"lang": "en",
+						"name": "Peds Pathology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-physiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatrics/Physical Medicine & Rehabilitation",
+						"lang": "en",
+						"name": "Peds Physiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-pulmonology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Pulmonology",
+						"lang": "en",
+						"name": "Peds Pulmonology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-radiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Radiology",
+						"lang": "en",
+						"name": "Peds Radiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-rheumatology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Rheumatology",
+						"lang": "en",
+						"name": "Peds Rheumatology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Surgery",
+						"lang": "en",
+						"name": "Peds Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-transplant-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Transplant Medicine",
+						"lang": "en",
+						"name": "Peds Transplant Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-urology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatric Urology",
+						"lang": "en",
+						"name": "Peds Urology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peds-genetics",
+				"locales": [
+					{
+						"description": "This user works in the field of Pediatrics/Medical Genetics & Genomics",
+						"lang": "en",
+						"name": "Peds Genetics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plastic-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Plastic Surgery",
+						"lang": "en",
+						"name": "Plastic Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "psychiatry",
+				"locales": [
+					{
+						"description": "This user works in the field of Psychiatry",
+						"lang": "en",
+						"name": "Psychiatry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "psychiatry-fm",
+				"locales": [
+					{
+						"description": "This user works in the field of Psychiatry/Family Medicine",
+						"lang": "en",
+						"name": "Psychiatry/FM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "psychiatry-neurology",
+				"locales": [
+					{
+						"description": "This user works in the field of Psychiatry/Neurology",
+						"lang": "en",
+						"name": "Psychiatry/Neurology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "public-health",
+				"locales": [
+					{
+						"description": "This user works in the field of Public Health",
+						"lang": "en",
+						"name": "Public Health"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "preventive-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of General Preventive Medicine",
+						"lang": "en",
+						"name": "Preventive Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "primary-care",
+				"locales": [
+					{
+						"description": "This user works in the field of Primary Care",
+						"lang": "en",
+						"name": "Primary Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pulmonology",
+				"locales": [
+					{
+						"description": "This user works in the field of Pulmonology",
+						"lang": "en",
+						"name": "Pulmonology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pulm-critical-care",
+				"locales": [
+					{
+						"description": "This user works in the field of Pulmonology & Critical Care Medicine",
+						"lang": "en",
+						"name": "Pulm/Critical Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "radiation-oncology",
+				"locales": [
+					{
+						"description": "This user works in the field of Radiation Oncology",
+						"lang": "en",
+						"name": "Radiation Oncology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "diagnostic-radiology",
+				"locales": [
+					{
+						"description": "This user works in the field of Radiology-Diagnostic",
+						"lang": "en",
+						"name": "Diagnostic Radiology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "raapm",
+				"locales": [
+					{
+						"description": "This user works in the field of Regional Anesthesiology & Acute Pain Medicine",
+						"lang": "en",
+						"name": "RAAPM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rei",
+				"locales": [
+					{
+						"description": "This user works in the field of Reproductive Endocrinology & Infertility",
+						"lang": "en",
+						"name": "REI"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rei-genetics",
+				"locales": [
+					{
+						"description": "This user works in the field of Reproductive Endocrinology & Infertility/Medical Genetics & Genomics",
+						"lang": "en",
+						"name": "REI/Genetics"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rheumatology",
+				"locales": [
+					{
+						"description": "This user works in the field of Rheumatology",
+						"lang": "en",
+						"name": "Rheumatology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sleep-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Sleep Medicine",
+						"lang": "en",
+						"name": "Sleep Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spinal-cord-injury-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Spinal Cord Injury Medicine",
+						"lang": "en",
+						"name": "Spinal Cord Injury Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sports-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Sports Medicine",
+						"lang": "en",
+						"name": "Sports Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "surgical-critical-care",
+				"locales": [
+					{
+						"description": "This user works in the field of Surgical Critical Care",
+						"lang": "en",
+						"name": "Surgical Critical Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "surgical-oncology",
+				"locales": [
+					{
+						"description": "This user works in the field of Surgical Oncology",
+						"lang": "en",
+						"name": "Surgical Oncology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "thoracic-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Thoracic Surgery",
+						"lang": "en",
+						"name": "Thoracic Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transgender-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Transgender Medicine",
+						"lang": "en",
+						"name": "Transgender Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transgender-medicine-surgery",
+				"locales": [
+					{
+						"description": "This user works in the field of Transgender Medicine & Surgery",
+						"lang": "en",
+						"name": "Transgender Medicine & Surgery"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transplant-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Transplant Medicine",
+						"lang": "en",
+						"name": "Transplant Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "undersea-hyperbaric-medicine",
+				"locales": [
+					{
+						"description": "This user works in the field of Undersea & Hyperbaric Medicine",
+						"lang": "en",
+						"name": "Undersea & Hyperbaric Medicine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "urology",
+				"locales": [
+					{
+						"description": "This user works in the field of Urology",
+						"lang": "en",
+						"name": "Urology"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vascular-neurology",
+				"locales": [
+					{
+						"description": "This user works in the field of Vascular Neurology",
+						"lang": "en",
+						"name": "Vascular Neurology"
 					}
 				],
 				"severity": "inform"
@@ -576,70 +2326,180 @@
 				"identifier": "vascular-surgery",
 				"locales": [
 					{
-						"description": "This user is a Vascular Surgeon",
+						"description": "This user works in the field of Vascular Surgery",
 						"lang": "en",
 						"name": "Vascular Surgery"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "podiatry",
-				"locales": [
-					{
-						"description": "This user is a Podiatrist",
-						"lang": "en",
-						"name": "Podiatry"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"family-medicine",
-			"preventative-medicine",
-			"geriatrics",
-			"sports-medicine",
-			"global-health",
-			"internal-medicine",
-			"pediatrics",
-			"neonatology",
-			"pediatric-intensivist",
-			"ob-gyn",
-			"neurology",
-			"psychiatry",
-			"otolaryngology",
-			"urology",
+			"pre-med",
+			"medical-student",
+			"abdominal-radiology",
+			"addiction-psychiatry",
+			"addiction-medicine",
+			"adolescent-medicine",
+			"acta",
+			"adult-congenital-heart-disease",
+			"adult-reconstructive-orthopedics",
+			"aerospace-medicine",
+			"allergy-immunology",
 			"anesthesiology",
-			"radiology",
-			"interventional-radiology",
-			"pathology",
-			"emergency-medicine",
-			"critical-care",
-			"ophthalmology",
-			"dermatology",
-			"cardiology",
-			"interventional-cardiology",
-			"gastroenterology",
-			"pulmonology",
-			"hematology",
-			"oncology",
-			"rheumatology",
-			"endocrinology",
-			"reproductive-endocrinology",
-			"nephrology",
-			"infectious-disease",
-			"immunology",
-			"general-surgery",
-			"plastic-surgery",
-			"orthopedic-surgery",
-			"trauma-surgery",
+			"accm",
+			"transfusion-medicine",
+			"brain-injury-medicine",
 			"cardiothoracic-surgery",
-			"vascular-surgery",
-			"podiatry"
+			"cardiovascular-medicine",
+			"child-adolescent-psychiatry",
+			"child-abuse-pediatrics",
+			"cardiac-electrophysiology",
+			"clinical-informatics",
+			"clinical-neurophysiology",
+			"colorectal-surgery",
+			"complex-family-planning",
+			"community-medicine",
+			"congenital-cardiac-surgery",
+			"consultation-liaison-psychiatry",
+			"craniofacial-surgery",
+			"critical-care-medicine",
+			"cytopathology",
+			"dermatology",
+			"dermatopathology",
+			"developmental-behavioral-pediatrics",
+			"diagnostic-radiology-nuclear-medicine",
+			"ems",
+			"emergency-medicine",
+			"em-anesthesiology",
+			"em-fm",
+			"endocrinology",
+			"epilepsy",
+			"family-medicine",
+			"fm-onmm",
+			"fm-pm",
+			"urogynecology",
+			"foot-ankle-orthopedics",
+			"forensic-pathology",
+			"forensic-psychiatry",
+			"gastroenterology",
+			"general-surgery",
+			"genetics",
+			"geriatric-medicine",
+			"geriatric-psychiatry",
+			"global-health",
+			"gyn-onc",
+			"hand-surgery",
+			"healthcare-administration",
+			"health-policy",
+			"hematology",
+			"heme-onc",
+			"hematopathology",
+			"hiv-medicine",
+			"hospice-palliative",
+			"infectious-disease",
+			"internal-medicine",
+			"im-anesthesiology",
+			"im-derm",
+			"im-em",
+			"im-em-critical-care",
+			"im-fm",
+			"im-genetics",
+			"im-peds",
+			"im-physiatry",
+			"im-pm",
+			"im-psych",
+			"interventional-cardiology",
+			"interventional-pulmonology",
+			"interventional-radiology",
+			"mfi",
+			"genetics-mfi",
+			"medical-microbiology",
+			"medical-toxicology",
+			"msdo",
+			"msk-oncology",
+			"msk-radiology",
+			"neonatal-perinatal-medicine",
+			"nephrology",
+			"neurocritical-care",
+			"neurodevelopmental-disabilities",
+			"neuroendovascular-intervention",
+			"neurosurgery",
+			"neurology",
+			"neurology-physiatry",
+			"neuromuscular-medicine",
+			"neuropathology",
+			"neuroradiology",
+			"neurotology",
+			"nuclear-medicine",
+			"ob-gyn",
+			"occupational-environmental-medicine",
+			"oncology",
+			"obstetric-anesthesiology",
+			"oculoplastic-surgery",
+			"ophthalmology",
+			"orthopedic-surgery",
+			"orthopedic-sports",
+			"orthopedic-spine",
+			"orthopedic-trauma",
+			"onmm",
+			"ent",
+			"ent-head-neck",
+			"pain-medicine",
+			"pathology",
+			"pediatrics",
+			"peds-anesthesiology",
+			"peds-cardiac-anesthesiology",
+			"peds-cardiology",
+			"peds-critical-care",
+			"peds-dermatology",
+			"peds-em",
+			"peds-endocrinology",
+			"peds-gi",
+			"peds-heme-onc",
+			"peds-hospital-medicine",
+			"peds-id",
+			"peds-nephrology",
+			"peds-neurology",
+			"peds-orthopedics",
+			"peds-ent",
+			"peds-pathology",
+			"peds-physiatry",
+			"peds-pulmonology",
+			"peds-radiology",
+			"peds-rheumatology",
+			"peds-surgery",
+			"peds-transplant-medicine",
+			"peds-urology",
+			"peds-genetics",
+			"plastic-surgery",
+			"psychiatry",
+			"psychiatry-fm",
+			"psychiatry-neurology",
+			"public-health",
+			"preventive-medicine",
+			"primary-care",
+			"pulmonology",
+			"pulm-critical-care",
+			"radiation-oncology",
+			"diagnostic-radiology",
+			"raapm",
+			"rei",
+			"rei-genetics",
+			"rheumatology",
+			"sleep-medicine",
+			"spinal-cord-injury-medicine",
+			"sports-medicine",
+			"surgical-critical-care",
+			"surgical-oncology",
+			"thoracic-surgery",
+			"transgender-medicine",
+			"transgender-medicine-surgery",
+			"transplant-medicine",
+			"undersea-hyperbaric-medicine",
+			"urology",
+			"vascular-neurology",
+			"vascular-surgery"
 		]
 	}
 }
