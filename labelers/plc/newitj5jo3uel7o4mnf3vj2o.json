@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:newitj5jo3uel7o4mnf3vj2o/app.bsky.labeler.service/self",
-  "cid": "bafyreig3exi2q3fwrrfisvufmcmgl6f7zisziiviichamd4s3ws3lzst54",
+  "cid": "bafyreiagdhxg7k5vxqf6htskfxc6nznm7ajf4oesoollhx7xnfuoll2pay",
   "creator": {
     "did": "did:plc:newitj5jo3uel7o4mnf3vj2o",
     "handle": "xblock.aendra.dev",
@@ -22,6 +22,20 @@
   "policies": {
     "description": "Labels screenshots from Twitter (and elsewhere) because life is too short to be that angry",
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "newsmedia-screenshot",
+        "locales": [
+          {
+            "description": "(coming soon): screenshots from news websites",
+            "lang": "en",
+            "name": "Newsmedia screenshot"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultsOnly": false,
         "blurs": "media",
@@ -164,6 +178,7 @@
       }
     ],
     "labelValues": [
+      "newsmedia-screenshot",
       "uncategorised-screenshot",
       "twitter-screenshot",
       "threads-screenshot",
