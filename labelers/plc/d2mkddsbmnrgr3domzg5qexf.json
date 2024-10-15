@@ -1,0 +1,80 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
+	"cid": "bafyreibbqt3mj77qlmmp2nafnxj36sfweyzrit34bh5duxnovuxja7ae5i",
+	"creator": {
+		"did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
+		"handle": "blacksky.app",
+		"displayName": "Blacksky Moderation",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d2mkddsbmnrgr3domzg5qexf/bafkreifqlx2zfwuilxm2hmzer27ekc4pxbx3qs3tk6ynfgyy3nvqbkusia@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2023-06-19T18:00:22.743Z",
+		"description": "Creating a safe space for Black community building. We built the Blacksky feeds, this mod service, an atproto implementation called \"rsky\" and more. https://www.blackskyweb.xyz/",
+		"indexedAt": "2024-10-14T20:27:25.406Z"
+	},
+	"likeCount": 35,
+	"indexedAt": "2024-10-14T18:53:43.309Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "antiblack-harassment",
+				"locales": [
+					{
+						"description": "Content that targets individuals or groups based on their Black identity with derogatory, hateful, or dehumanizing language or imagery. This label is applied to content that perpetuates harmful stereotypes, slurs, or direct harassment aimed at Black individuals or communities.",
+						"lang": "en",
+						"name": "Antiblack Harassment"
+					},
+					{
+						"description": "Conteúdo que tem como alvo indivíduos ou grupos com base em sua identidade negra com linguagem ou imagens depreciativas, odiosas ou desumanizantes. Este rótulo é aplicado a conteúdo que perpetua estereótipos prejudiciais, calúnias ou assédio direto direcionado a indivíduos ou comunidades negras.",
+						"lang": "pt",
+						"name": "Assédio Antinegro"
+					},
+					{
+						"description": "Contenu qui cible des individus ou des groupes en raison de leur identité noire avec un langage ou des images désobligeantes, haineuses ou déshumanisantes. Cette étiquette s'applique au contenu qui perpétue des stéréotypes préjudiciables, des insultes ou du harcèlement direct visant des individus ou des communautés noires.",
+						"lang": "fr",
+						"name": "Harcèlement Anti-Noir"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "misogynoir",
+				"locales": [
+					{
+						"description": "Content that expresses hatred, bias, or prejudice against Black women, specifically where racism, sexism, and/or transphobia intersect. This includes sexual harassment, objectification, and targeted attacks on Black women’s identity or appearance.",
+						"lang": "en",
+						"name": "Misogynoir"
+					},
+					{
+						"description": "Conteúdo que expresse ódio, parcialidade ou preconceito contra mulheres negras, especificamente onde racismo, sexismo e/ou transfobia se cruzam. Isso inclui assédio sexual, objetificação e ataques direcionados à identidade ou aparência de mulheres negras.",
+						"lang": "pt",
+						"name": "Misogynoir"
+					},
+					{
+						"description": "Contenu exprimant de la haine, des préjugés ou des partis pris à l’égard des femmes noires, en particulier lorsque le racisme, le sexisme et/ou la transphobie se croisent. Cela comprend le harcèlement sexuel, l’objectification et les attaques ciblées sur l’identité ou l’apparence des femmes noires.",
+						"lang": "fr",
+						"name": "Misogynoir"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"misogynoir",
+			"antiblack-harassment"
+		]
+	}
+}

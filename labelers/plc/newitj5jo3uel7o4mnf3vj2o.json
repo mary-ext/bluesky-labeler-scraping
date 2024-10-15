@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:newitj5jo3uel7o4mnf3vj2o/app.bsky.labeler.service/self",
-	"cid": "bafyreig3exi2q3fwrrfisvufmcmgl6f7zisziiviichamd4s3ws3lzst54",
+	"cid": "bafyreiagdhxg7k5vxqf6htskfxc6nznm7ajf4oesoollhx7xnfuoll2pay",
 	"creator": {
 		"did": "did:plc:newitj5jo3uel7o4mnf3vj2o",
 		"handle": "xblock.aendra.dev",
@@ -18,12 +18,26 @@
 		"description": "Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers.\n\nMislabelled posts: please report (specifying XBlock) using the Bluesky \"report post\" button!\n\n🌐 xblock.aendra.com",
 		"indexedAt": "2024-08-01T00:59:11.675Z"
 	},
-	"likeCount": 628,
+	"likeCount": 626,
 	"indexedAt": "2024-10-09T00:32:14.777Z",
 	"labels": [],
 	"policies": {
 		"description": "Labels screenshots from Twitter (and elsewhere) because life is too short to be that angry",
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "newsmedia-screenshot",
+				"locales": [
+					{
+						"description": "(coming soon): screenshots from news websites",
+						"lang": "en",
+						"name": "Newsmedia screenshot"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultsOnly": false,
 				"blurs": "media",
@@ -166,6 +180,7 @@
 			}
 		],
 		"labelValues": [
+			"newsmedia-screenshot",
 			"uncategorised-screenshot",
 			"twitter-screenshot",
 			"threads-screenshot",
