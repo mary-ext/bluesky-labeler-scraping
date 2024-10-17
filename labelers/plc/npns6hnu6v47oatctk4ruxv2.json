@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:npns6hnu6v47oatctk4ruxv2/app.bsky.labeler.service/self",
-	"cid": "bafyreia5idtkcsjl2tseyctjm4bdfudegsftahnncvjcjh5weq26r6gqou",
+	"cid": "bafyreid4vysy7g4a5inmjlcqjhkefp65lsvozy225pmv6kazqbmfqu6jve",
 	"creator": {
 		"did": "did:plc:npns6hnu6v47oatctk4ruxv2",
 		"handle": "gnl-labeler.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "한국어 성인 콘텐츠를 올리거나 해당 콘텐츠 위주로 상호작용하는 계정을 라벨링합니다.",
 		"indexedAt": "2024-10-15T16:22:19.806Z"
 	},
-	"likeCount": 32,
+	"likeCount": 41,
 	"indexedAt": "2024-10-13T13:09:27.086Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gnl-self-harm",
+				"locales": [
+					{
+						"description": "한국어로 된 자해 및 우울전시 위주의 계정에 라벨을 지정합니다.",
+						"lang": "ko",
+						"name": "자해 및 우울 트리거 계정"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": true,
 				"blurs": "content",
@@ -41,6 +55,7 @@
 			}
 		],
 		"labelValues": [
+			"gnl-self-harm",
 			"gnl-adult"
 		]
 	}

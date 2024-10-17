@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-	"cid": "bafyreigtsp4eiurveiltskv4cmlunh5f4ucfwx7whqyl3vyp6ueznxxthe",
+	"cid": "bafyreie7yzjzksbq7mjis73v7t5qxrqfw4cdow2wwsbocynpwh5xwbaomy",
 	"creator": {
 		"did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
 		"handle": "yardcrow.com",
@@ -18,7 +18,7 @@
 		"description": "The Yard Crow watches\nHandcrafted and Artisanal labels administered by @patri.xyz\n(contact for questions or to request non-participation!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\n(upon request, most labels can be text or emoji)",
 		"indexedAt": "2024-09-09T04:24:43.621Z"
 	},
-	"likeCount": 432,
+	"likeCount": 433,
 	"indexedAt": "2024-05-11T07:33:13.462Z",
 	"labels": [],
 	"policies": {
@@ -803,34 +803,6 @@
 						"description": "🧻: Duly ordained and authorized.",
 						"lang": "en",
 						"name": "shitposter"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "silly",
-				"locales": [
-					{
-						"description": "Silly: A silly sort, goose or gander, not the kind to gripe or slander.",
-						"lang": "en",
-						"name": "🪿"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "t-silly",
-				"locales": [
-					{
-						"description": "🪿: A silly sort, goose or gander, not the kind to gripe or slander.",
-						"lang": "en",
-						"name": "silly"
 					}
 				],
 				"severity": "inform"
@@ -1836,9 +1808,51 @@
 				"identifier": "ordercrow",
 				"locales": [
 					{
-						"description": "Order of the Crows: A crow doesn't hoard its riches, but calls others to share them.",
+						"description": "Order of the Crow: A crow doesn't hoard its riches, but calls others to share them.",
 						"lang": "en",
 						"name": "⚔️𓅀"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orderfrog",
+				"locales": [
+					{
+						"description": "Order of the Frog: Even in the smallest puddles, a green frog finds adventure.",
+						"lang": "en",
+						"name": "⚔️🐸"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ordergoose",
+				"locales": [
+					{
+						"description": "Order of the Goose: After all, we have wings, what are they, but to fly with?",
+						"lang": "en",
+						"name": "⚔️🪿"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orderlizard",
+				"locales": [
+					{
+						"description": "Order of the Lizard:  Remove the lizard from its stone, it will look for its stone again.",
+						"lang": "en",
+						"name": "⚔️🦎"
 					}
 				],
 				"severity": "inform"
@@ -2031,6 +2045,9 @@
 			"h-zombie",
 			"h-witch",
 			"ordercrow",
+			"orderfrog",
+			"ordergoose",
+			"orderlizard",
 			"teambsky",
 			"n-usa",
 			"n-brazil",
