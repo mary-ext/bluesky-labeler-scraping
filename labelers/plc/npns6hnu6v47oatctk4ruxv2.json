@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:npns6hnu6v47oatctk4ruxv2/app.bsky.labeler.service/self",
-  "cid": "bafyreia5idtkcsjl2tseyctjm4bdfudegsftahnncvjcjh5weq26r6gqou",
+  "cid": "bafyreid4vysy7g4a5inmjlcqjhkefp65lsvozy225pmv6kazqbmfqu6jve",
   "creator": {
     "did": "did:plc:npns6hnu6v47oatctk4ruxv2",
     "handle": "gnl-labeler.bsky.social",
@@ -18,6 +18,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gnl-self-harm",
+        "locales": [
+          {
+            "description": "한국어로 된 자해 및 우울전시 위주의 계정에 라벨을 지정합니다.",
+            "lang": "ko",
+            "name": "자해 및 우울 트리거 계정"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": true,
         "blurs": "content",
@@ -39,6 +53,7 @@
       }
     ],
     "labelValues": [
+      "gnl-self-harm",
       "gnl-adult"
     ]
   }
