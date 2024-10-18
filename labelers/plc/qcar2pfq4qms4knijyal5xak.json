@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qcar2pfq4qms4knijyal5xak/app.bsky.labeler.service/self",
-  "cid": "bafyreibf3dzrhu4xobnkpv2tzdpppyfmu5vvpwf3obh42oxqk3ip64sfse",
+  "cid": "bafyreibud4scxv3qq5whueqgdobue6rakq3l7tg4faugvgbxa44cjmbrzu",
   "creator": {
     "did": "did:plc:qcar2pfq4qms4knijyal5xak",
     "handle": "creatorlabeler.bsky.social",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "asmrtist",
+        "locales": [
+          {
+            "description": "ASMRtists are content creators as you would expect focus on ASMR and being able to stimulate a good feel from certain sounds produced!",
+            "lang": "en",
+            "name": "ASMRtist"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -191,6 +205,7 @@
       }
     ],
     "labelValues": [
+      "asmrtist",
       "voiceactor",
       "animator",
       "vstreamer",
