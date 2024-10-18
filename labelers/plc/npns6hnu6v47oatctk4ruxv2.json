@@ -1,25 +1,39 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:npns6hnu6v47oatctk4ruxv2/app.bsky.labeler.service/self",
-	"cid": "bafyreid4vysy7g4a5inmjlcqjhkefp65lsvozy225pmv6kazqbmfqu6jve",
+	"cid": "bafyreiajb62geff3g2lnikgiddefj56vtne6sfpul4sm7v54twyunxrpgm",
 	"creator": {
 		"did": "did:plc:npns6hnu6v47oatctk4ruxv2",
 		"handle": "gnl-labeler.bsky.social",
 		"displayName": "한국어 모더레이션 서비스 \"그늘\"",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:npns6hnu6v47oatctk4ruxv2/bafkreidlc4gz6bkto2pgot5hvz6umfpmngynscyubykxhbxllgoflyms64@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:npns6hnu6v47oatctk4ruxv2/bafkreihtmvw6wodqldrf3qv3czoipoyw5rtfgnjv6cttq4qi6owxcq5zni@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-10-13T12:36:02.807Z",
 		"description": "한국어 성인 콘텐츠를 올리거나 해당 콘텐츠 위주로 상호작용하는 계정을 라벨링합니다.",
-		"indexedAt": "2024-10-15T16:22:19.806Z"
+		"indexedAt": "2024-10-17T08:27:20.914Z"
 	},
-	"likeCount": 41,
+	"likeCount": 129,
 	"indexedAt": "2024-10-13T13:09:27.086Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "gnl-word-offensive",
+				"locales": [
+					{
+						"description": "사람에 따라 불쾌감을 느낄 수도 있는 비속어가 포함된 포스트입니다.",
+						"lang": "ko",
+						"name": "비속어 (작업 중)"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -41,12 +55,12 @@
 				"identifier": "gnl-adult",
 				"locales": [
 					{
-						"description": "(작업 중) 한국어로 된 성인물을 업로드하거나, 해당 콘텐츠와 주로 상호작용하는 계정에 라벨을 지정합니다.",
+						"description": "한국어로 된 성인물 혹은 해당 콘텐츠와 주로 상호작용하는 계정에 라벨을 지정합니다.",
 						"lang": "ko",
-						"name": "성인물 관련 계정"
+						"name": "성인물 관련"
 					},
 					{
-						"description": "(작업 중) 한국어로 된 성인 컨텐츠를 업로드하는 계정에 라벨을 지정합니다.",
+						"description": "Adult contents in Korean timeline, and accounts frequently interacting with or posting them.",
 						"lang": "en",
 						"name": "Adult content accounts (KR)"
 					}
@@ -55,6 +69,7 @@
 			}
 		],
 		"labelValues": [
+			"gnl-word-offensive",
 			"gnl-self-harm",
 			"gnl-adult"
 		]

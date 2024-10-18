@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreihu52jnqkqes2vawkqzza474aclx5wvl54wipvqk5zcmgoz26kqca",
+	"cid": "bafyreicklnni6numdqzpcmn3gck42w2u7rets2ybb3magfowcviw5hoxry",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-07-06T19:13:50.778Z",
-		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search here: pronouns.adorable.mom\n\ncontact: @bsky.mom\ndonate: https://ko-fi.com/notjuliet\nsource code: https://github.com/notjuliet/pronouns-bsky",
-		"indexedAt": "2024-10-13T10:39:20.307Z"
+		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search here: pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @bsky.mom\ndonate: https://ko-fi.com/notjuliet",
+		"indexedAt": "2024-10-18T01:11:54.126Z"
 	},
-	"likeCount": 3185,
-	"indexedAt": "2024-10-08T00:38:05.489Z",
+	"likeCount": 3531,
+	"indexedAt": "2024-10-17T19:15:27.149Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -856,7 +856,7 @@
 				"identifier": "he-it",
 				"locales": [
 					{
-						"description": "This usesr uses he/him and it/its pronouns.",
+						"description": "This user uses he/him and it/its pronouns.",
 						"lang": "en",
 						"name": "he/it"
 					}
@@ -887,6 +887,62 @@
 						"description": "A spooky urbanite. Do not approach with a car.",
 						"lang": "en",
 						"name": "🧡"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "look-at-pin",
+				"locales": [
+					{
+						"description": "Look at the pinned post for pronouns.",
+						"lang": "en",
+						"name": "look at pinned"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pup-puppy",
+				"locales": [
+					{
+						"description": "This user uses pup/puppy pronouns.",
+						"lang": "en",
+						"name": "pup/puppy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "star-stars",
+				"locales": [
+					{
+						"description": "This user uses star/stars pronouns.",
+						"lang": "en",
+						"name": "star/stars"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plush-plushie",
+				"locales": [
+					{
+						"description": "This user uses plush/plushie/plushself pronouns.",
+						"lang": "en",
+						"name": "plush/plushie/plushself"
 					}
 				],
 				"severity": "inform"
@@ -954,7 +1010,11 @@
 			"she-it",
 			"he-it",
 			"they-it",
-			"bootur"
+			"bootur",
+			"look-at-pin",
+			"pup-puppy",
+			"star-stars",
+			"plush-plushie"
 		]
 	}
 }
