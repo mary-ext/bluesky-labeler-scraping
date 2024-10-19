@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:npns6hnu6v47oatctk4ruxv2/app.bsky.labeler.service/self",
-	"cid": "bafyreiajb62geff3g2lnikgiddefj56vtne6sfpul4sm7v54twyunxrpgm",
+	"cid": "bafyreiakbx4nba5nmw4nduimwj5zf43vwp7qsz2baxfeq7ehin5cw66jwm",
 	"creator": {
 		"did": "did:plc:npns6hnu6v47oatctk4ruxv2",
 		"handle": "gnl-labeler.bsky.social",
@@ -12,10 +12,10 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-13T12:36:02.807Z",
-		"description": "한국어 성인 콘텐츠를 올리거나 해당 콘텐츠 위주로 상호작용하는 계정을 라벨링합니다.",
-		"indexedAt": "2024-10-17T08:27:20.914Z"
+		"description": "한국어 포스트를 자동으로 분류하여 필요에 따라 숨길 수 있는 라벨링 기능을 제공합니다.",
+		"indexedAt": "2024-10-18T17:33:50.805Z"
 	},
-	"likeCount": 129,
+	"likeCount": 151,
 	"indexedAt": "2024-10-13T13:09:27.086Z",
 	"labels": [],
 	"policies": {
@@ -24,12 +24,26 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
+				"identifier": "gnl-word-political",
+				"locales": [
+					{
+						"description": "(작업 중) 한국 국내 정치 현안에 관련된 포스트입니다. 일반적인 경우 숨기지 않는 것을 권장합니다.",
+						"lang": "ko",
+						"name": "정치 관련"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
 				"identifier": "gnl-word-offensive",
 				"locales": [
 					{
-						"description": "사람에 따라 불쾌감을 느낄 수도 있는 비속어가 포함된 포스트입니다.",
+						"description": "(작업 중) 사람에 따라 불쾌감을 느낄 수도 있는 비속어가 포함된 포스트입니다. 일반적인 경우 숨기지 않는 것을 권장합니다.",
 						"lang": "ko",
-						"name": "비속어 (작업 중)"
+						"name": "비속어"
 					}
 				],
 				"severity": "inform"
@@ -69,6 +83,7 @@
 			}
 		],
 		"labelValues": [
+			"gnl-word-political",
 			"gnl-word-offensive",
 			"gnl-self-harm",
 			"gnl-adult"

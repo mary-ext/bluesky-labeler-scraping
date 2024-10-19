@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ubt73xes4uesthuuhbqwf37d/app.bsky.labeler.service/self",
-	"cid": "bafyreib62mfglupqefae7tsms6ximeqlpv2a3ajlamyzu4w5vg5mij7xdi",
+	"cid": "bafyreibzrwwel7rhm7orxgupngenzta3quc67zhdxcoqsbuxr47hu3glsa",
 	"creator": {
 		"did": "did:plc:ubt73xes4uesthuuhbqwf37d",
 		"handle": "kickflip.renahlee.com",
@@ -15,10 +15,10 @@
 		},
 		"labels": [],
 		"createdAt": "2024-07-03T23:30:29.079Z",
-		"description": "𝐍𝐚𝐭𝐢𝐨𝐧𝐬\n\nRuns hourly. DM a flag emoji to receive a label and 🏳️ to remove all. Make sure it’s your last message 🙂\n\nReserved: 🌐🧼🏯♾️🥞📰🧹🤍🛹",
-		"indexedAt": "2024-10-17T19:15:33.011Z"
+		"description": "𝐍𝐚𝐭𝐢𝐨𝐧𝐬\n\nRuns every 15 min. DM a flag emoji (one at a time, wait for confirmation) to receive a label and 🏳️ to remove all. Make sure it’s your last message 🙂\n\nReserved: 🌐🧼🏯♾️🥞📰🧹🤍🛹",
+		"indexedAt": "2024-10-18T19:29:41.807Z"
 	},
-	"likeCount": 270,
+	"likeCount": 420,
 	"indexedAt": "2024-09-10T06:04:52.219Z",
 	"labels": [],
 	"policies": {
@@ -3886,6 +3886,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bis",
+				"locales": [
+					{
+						"description": "Bisexual Nation",
+						"lang": "en",
+						"name": "💙💜🩷"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ic",
+				"locales": [
+					{
+						"description": "Canary Islands",
+						"lang": "en",
+						"name": "🇮🇨"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3991,6 +4019,7 @@
 			"hr",
 			"ht",
 			"hu",
+			"ic",
 			"id",
 			"ie",
 			"il",
@@ -4164,7 +4193,8 @@
 			"skate",
 			"soap",
 			"www",
-			"ten"
+			"ten",
+			"bis"
 		]
 	}
 }
