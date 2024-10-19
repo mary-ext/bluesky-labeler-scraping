@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qcar2pfq4qms4knijyal5xak/app.bsky.labeler.service/self",
-  "cid": "bafyreibud4scxv3qq5whueqgdobue6rakq3l7tg4faugvgbxa44cjmbrzu",
+  "cid": "bafyreihwwgglg4wbu2iag6bti4tevessblyaknukb2fu6guthn57p7ztra",
   "creator": {
     "did": "did:plc:qcar2pfq4qms4knijyal5xak",
     "handle": "creatorlabeler.bsky.social",
@@ -21,6 +21,48 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "l-threedimensional-artist",
+        "locales": [
+          {
+            "description": "3D Artists are content creators who specialize in 3D graphics! From character, environmental, vehicular, etc!",
+            "lang": "en",
+            "name": "3D Artist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "l-game-reviewer",
+        "locales": [
+          {
+            "description": "Game Reviewers are content creators that specifically review video games in written articles or video formats!",
+            "lang": "en",
+            "name": "Game Reviewer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "youtaite",
+        "locales": [
+          {
+            "description": "Utaite/Youtaite are content creators who are cover song artists.",
+            "lang": "en",
+            "name": "Utaite/Youtaite"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -56,7 +98,7 @@
         "identifier": "animator",
         "locales": [
           {
-            "description": "A content creator who likes creating animations!",
+            "description": "A content creator who likes creating animations! Whether it's 2D or 3D. Or in certain programs like Live2D or MMD!",
             "lang": "en",
             "name": "Animator"
           }
@@ -205,6 +247,9 @@
       }
     ],
     "labelValues": [
+      "l-threedimensional-artist",
+      "l-game-reviewer",
+      "youtaite",
       "asmrtist",
       "voiceactor",
       "animator",
