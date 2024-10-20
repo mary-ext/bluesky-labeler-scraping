@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ffv7lgt5rzmhnhzfum6ktzwm/app.bsky.labeler.service/self",
-	"cid": "bafyreibzbmtyyxehovdlsj4g3lhsmdepd2wecjl2k7ogmym2knib5mpq4m",
+	"cid": "bafyreicjsdpd6rgdpdkzy55ha6szln4nleqwrl3utjuk3hl5l2souak6bm",
 	"creator": {
 		"did": "did:plc:ffv7lgt5rzmhnhzfum6ktzwm",
 		"handle": "sports-labeler.hooray.social",
@@ -18,8 +18,8 @@
 		"description": "For showing your team pride!\n\nMaintained by @matt.loar.name. Still under development, let me know if you encounter issues.",
 		"indexedAt": "2024-10-11T20:18:40.206Z"
 	},
-	"likeCount": 8,
-	"indexedAt": "2024-10-14T01:25:54.217Z",
+	"likeCount": 10,
+	"indexedAt": "2024-10-19T17:21:44.930Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -2318,6 +2318,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nba-phi",
+				"locales": [
+					{
+						"description": "Fan of the Philadelphia 76ers",
+						"lang": "en",
+						"name": "Philadelphia 76ers"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -2484,7 +2498,8 @@
 			"wnba-ny",
 			"wnba-phx",
 			"wnba-sea",
-			"wnba-was"
+			"wnba-was",
+			"nba-phi"
 		]
 	}
 }

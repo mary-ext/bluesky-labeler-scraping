@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qcar2pfq4qms4knijyal5xak/app.bsky.labeler.service/self",
-	"cid": "bafyreihwwgglg4wbu2iag6bti4tevessblyaknukb2fu6guthn57p7ztra",
+	"cid": "bafyreicziympdfo3sskorqffog7ofh6fnjxodv3ccet4cuzdj2riantu4y",
 	"creator": {
 		"did": "did:plc:qcar2pfq4qms4knijyal5xak",
 		"handle": "creatorlabeler.bsky.social",
@@ -18,11 +18,67 @@
 		"description": "I'm a labeler service for defining people who are content creators with labels!\n\nAll labels are currently applied and appealed manually! Currently. All requests will be reviewed in time. 💖\n\n(May or may not get every single category, but I'm trying!)",
 		"indexedAt": "2024-09-25T05:25:34.208Z"
 	},
-	"likeCount": 129,
+	"likeCount": 870,
 	"indexedAt": "2024-09-24T07:55:45.356Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "label-podcast",
+				"locales": [
+					{
+						"description": "Podcasters are content creators who focus on audio programs, episodically or however format they want!",
+						"lang": "en",
+						"name": "Podcaster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "l-justvtuber",
+				"locales": [
+					{
+						"description": "VTubers are content creators of various mediums using 2D/3D/PNG! This one is specifically for those who consider themselves VTubers, but are not attached to a platform like YouTube for proper differentiation.",
+						"lang": "en",
+						"name": "VTuber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "l-videoeditor",
+				"locales": [
+					{
+						"description": "Video Editors and VFX Artists are content creators that have assisted others or themselves to create edited or add visual effects to video content in various and ways!",
+						"lang": "en",
+						"name": "Video Editor/VFX Arist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "label-educator",
+				"locales": [
+					{
+						"description": "Educators are certainly a form of content creator as well! Being subject matter experts of their choosing, they bring informative content whether on streams, in writing, or on video!",
+						"lang": "en",
+						"name": "Educator"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -249,6 +305,10 @@
 			}
 		],
 		"labelValues": [
+			"label-podcast",
+			"l-justvtuber",
+			"l-videoeditor",
+			"label-educator",
 			"l-threedimensional-artist",
 			"l-game-reviewer",
 			"youtaite",

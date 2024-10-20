@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:roh5lg5iwlwfo2y4rsesjt4p/app.bsky.labeler.service/self",
-	"cid": "bafyreibi5uvd5dsebzwn3yxecwtb77givkst5vigxvc5kyrv5wlr2ao2ay",
+	"cid": "bafyreihjvx35yicoflhvlzkjw44v7q3tf3jugn6r6bsptpbtnzpxrmo324",
 	"creator": {
 		"did": "did:plc:roh5lg5iwlwfo2y4rsesjt4p",
 		"handle": "pronomezinhos.felina.fish",
-		"displayName": ">> VER POST MAIS RECENTE <<",
+		"displayName": "Pronomes 🇧🇷🇵🇹",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:roh5lg5iwlwfo2y4rsesjt4p/bafkreicgvfsaxazstpdzldyh7ewqej62zh2j4kbmzmfakgosuycwzbxcaq@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-08-31T22:07:02.703Z",
-		"description": "Adicione seus pronomes ao seu perfil!! 🏷️\n\nComo?\n1.Inscreva-se no perfil (Subscribe)\n2. Dê like nos posts com os pronomes que deseja adicionar (até 4)\nPS.: Para remover pronomes, dê like no post com ❌ (primeiro post)\n\nPrecisa de ajuda? Pode mandar DM!",
-		"indexedAt": "2024-09-16T22:07:34.909Z"
+		"description": "1. Inscreva-se no perfil (subscribe)\n2. Dê like nos posts com os pronomes que deseja adicionar (até 4)\nPS.: Para remover pronomes, dê like no post com ❌ (post pinnado)\n\ncontato: @felina.fish\nfeito com ajuda de @alice.bsky.sh @bsky.mom @skyware.js.org",
+		"indexedAt": "2024-10-19T20:27:14.011Z"
 	},
-	"likeCount": 806,
-	"indexedAt": "2024-09-29T01:59:37.849Z",
+	"likeCount": 816,
+	"indexedAt": "2024-10-19T22:58:44.588Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -33,13 +33,518 @@
 						"description": "pronomes ela/dela!",
 						"lang": "en",
 						"name": "ela/dela"
+					},
+					{
+						"description": "pronomes ela/dela!",
+						"lang": "pt-BR",
+						"name": "ela/dela"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ele",
+				"locales": [
+					{
+						"description": "pronomes ele/dele!",
+						"lang": "en",
+						"name": "ele/dele"
+					},
+					{
+						"description": "pronomes ele/dele!",
+						"lang": "pt-BR",
+						"name": "ele/dele"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elu",
+				"locales": [
+					{
+						"description": "pronomes elu/delu!",
+						"lang": "en",
+						"name": "elu/delu"
+					},
+					{
+						"description": "pronomes elu/delu!",
+						"lang": "pt-BR",
+						"name": "elu/delu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ile",
+				"locales": [
+					{
+						"description": "pronomes ile/dile!",
+						"lang": "en",
+						"name": "ile/dile"
+					},
+					{
+						"description": "pronomes ile/dile!",
+						"lang": "pt-BR",
+						"name": "ile/dile"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ilu",
+				"locales": [
+					{
+						"description": "pronomes ilu/dilu!",
+						"lang": "en",
+						"name": "ilu/dilu"
+					},
+					{
+						"description": "pronomes ilu/dilu!",
+						"lang": "pt-BR",
+						"name": "ilu/dilu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "qualquer",
+				"locales": [
+					{
+						"description": "caso você não tenha preferência, utiliza qualquer pronome!",
+						"lang": "en",
+						"name": "qualquer pronome"
+					},
+					{
+						"description": "caso você não tenha preferência, utiliza qualquer pronome!",
+						"lang": "pt-BR",
+						"name": "qualquer pronome"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "evitar",
+				"locales": [
+					{
+						"description": "se você prefere que evitem usar pronomes!",
+						"lang": "en",
+						"name": "evitar usar pronomes"
+					},
+					{
+						"description": "se você prefere que evitem usar pronomes!",
+						"lang": "pt-BR",
+						"name": "evitar usar pronomes"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bio",
+				"locales": [
+					{
+						"description": "caso prefira deixar claro que seus pronomes estão na sua bio!",
+						"lang": "en",
+						"name": "pronomes na bio"
+					},
+					{
+						"description": "caso prefira deixar claro que seus pronomes estão na sua bio!",
+						"lang": "pt-BR",
+						"name": "pronomes na bio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elas",
+				"locales": [
+					{
+						"description": "pronome ela/dela para pessoas plurais ou sistemas",
+						"lang": "en",
+						"name": "elas/delas"
+					},
+					{
+						"description": "pronomes ela/dela para pessoas plurais ou sistemas!",
+						"lang": "pt-BR",
+						"name": "elas/delas"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eles",
+				"locales": [
+					{
+						"description": "pronome ele/dele para pessoas plurais ou sistemas",
+						"lang": "en",
+						"name": "eles/deles"
+					},
+					{
+						"description": "pronome ele/dele para pessoas plurais ou sistemas",
+						"lang": "pt-BR",
+						"name": "eles/deles"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elus",
+				"locales": [
+					{
+						"description": "pronome neutro para pessoas plurais ou sistemas",
+						"lang": "en",
+						"name": "elus/delus"
+					},
+					{
+						"description": "pronome neutro para pessoas plurais ou sistemas",
+						"lang": "pt-BR",
+						"name": "elus/delus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "doguinha",
+				"locales": [
+					{
+						"description": "para puppygirls ~",
+						"lang": "en",
+						"name": "cachorrinha"
+					},
+					{
+						"description": "para puppygirls ~",
+						"lang": "pt-BR",
+						"name": "cachorrinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "doguinho",
+				"locales": [
+					{
+						"description": "para puppyboys ~",
+						"lang": "en",
+						"name": "cachorrinho"
+					},
+					{
+						"description": "para puppyboys ~",
+						"lang": "pt-BR",
+						"name": "cachorrinho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "doguinhe",
+				"locales": [
+					{
+						"description": "para puppyenbies ~",
+						"lang": "en",
+						"name": "cachorrinhe"
+					},
+					{
+						"description": "para puppyenbies ~",
+						"lang": "pt-BR",
+						"name": "cachorrinhe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cata",
+				"locales": [
+					{
+						"description": "para catgirls ~",
+						"lang": "en",
+						"name": "gatinha"
+					},
+					{
+						"description": "para catgirls ~",
+						"lang": "pt-BR",
+						"name": "gatinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cato",
+				"locales": [
+					{
+						"description": "para catboys ~",
+						"lang": "en",
+						"name": "gatinho"
+					},
+					{
+						"description": "para catboys ~",
+						"lang": "pt-BR",
+						"name": "gatinho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cate",
+				"locales": [
+					{
+						"description": "para catenbies ~",
+						"lang": "en",
+						"name": "gatinhe"
+					},
+					{
+						"description": "para catenbies ~",
+						"lang": "pt-BR",
+						"name": "gatinhe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "corva",
+				"locales": [
+					{
+						"description": "para crowgirls ~",
+						"lang": "en",
+						"name": "corvinha"
+					},
+					{
+						"description": "para crowgirls ~",
+						"lang": "pt-BR",
+						"name": "corvinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "corvo",
+				"locales": [
+					{
+						"description": "para crowboys ~",
+						"lang": "en",
+						"name": "corvinho"
+					},
+					{
+						"description": "para crowboys ~",
+						"lang": "pt-BR",
+						"name": "corvinho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "corve",
+				"locales": [
+					{
+						"description": "para crowenbies ~",
+						"lang": "en",
+						"name": "corvinhe"
+					},
+					{
+						"description": "para crowenbies ~",
+						"lang": "pt-BR",
+						"name": "corvinhe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bnuuyf",
+				"locales": [
+					{
+						"description": "para bunnygirls ~",
+						"lang": "en",
+						"name": "coelhinha"
+					},
+					{
+						"description": "para bunnygirls ~",
+						"lang": "pt-BR",
+						"name": "coelhinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bnnuym",
+				"locales": [
+					{
+						"description": "para bunnyboys ~",
+						"lang": "en",
+						"name": "coelhinho"
+					},
+					{
+						"description": "para bunnyboys ~",
+						"lang": "pt-BR",
+						"name": "coelhinho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bnuuy",
+				"locales": [
+					{
+						"description": "para bunnyenbies ~",
+						"lang": "en",
+						"name": "coelhinhe"
+					},
+					{
+						"description": "para bunnyenbies ~",
+						"lang": "pt-BR",
+						"name": "coelhinhe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fishinha",
+				"locales": [
+					{
+						"description": "para fishgirls ~",
+						"lang": "en",
+						"name": "peixinha"
+					},
+					{
+						"description": "para fishgirls ~",
+						"lang": "pt-BR",
+						"name": "peixinha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fishinho",
+				"locales": [
+					{
+						"description": "para fishboys ~",
+						"lang": "en",
+						"name": "peixinho"
+					},
+					{
+						"description": "para fishboys ~",
+						"lang": "pt-BR",
+						"name": "peixinho"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fishinhe",
+				"locales": [
+					{
+						"description": "para fish enbies~",
+						"lang": "en",
+						"name": "peixinhe"
+					},
+					{
+						"description": "para fish enbies~",
+						"lang": "pt-BR",
+						"name": "peixinhe"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"ela"
+			"ela",
+			"ele",
+			"elu",
+			"ile",
+			"ilu",
+			"qualquer",
+			"evitar",
+			"bio",
+			"elas",
+			"eles",
+			"elus",
+			"doguinha",
+			"doguinho",
+			"doguinhe",
+			"cata",
+			"cato",
+			"cate",
+			"corva",
+			"corvo",
+			"corve",
+			"bnuuyf",
+			"bnnuym",
+			"bnuuy",
+			"fishinha",
+			"fishinho",
+			"fishinhe"
 		]
 	}
 }

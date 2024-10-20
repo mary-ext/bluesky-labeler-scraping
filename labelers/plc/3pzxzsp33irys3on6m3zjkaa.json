@@ -1,0 +1,54 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:3pzxzsp33irys3on6m3zjkaa/app.bsky.labeler.service/self",
+	"cid": "bafyreicvf2wqo7d7acoxwcgphumv6sxvteijt7vsjuhcvm3epwo2llcv5i",
+	"creator": {
+		"did": "did:plc:3pzxzsp33irys3on6m3zjkaa",
+		"handle": "moderation.lovergirl.gay",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "0001-01-01T00:00:00.000Z",
+		"indexedAt": "0001-01-01T00:00:00.000Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-10-19T12:38:12.753Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "!warn",
+				"locales": [
+					{
+						"description": "Warning for content",
+						"lang": "en",
+						"name": "Warning for content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "!hide",
+				"locales": [
+					{
+						"description": "Content was hidden by lovergirl.gay",
+						"lang": "en",
+						"name": "Hidden content"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"!warn",
+			"!hide"
+		]
+	}
+}

@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreiei3x5gxkaeibxyat4kd37ofjv7o42i4y5jsi5lgz3r4bfmo7rqtm",
+	"cid": "bafyreih5zqdo3sb3w6hqxgem5duufzkwvmbaxd6h3am3yfrleassusyqky",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
-		"handle": "labeler.mountainherder.xyz",
+		"handle": "skywatch.blue",
 		"displayName": "Anti-Alf Aktion",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e4elbtctnfqocyfcml6h2lf7/bafkreidj56ewohaguhuksoqwo4cybck6vf5h3ssc4iarzvrrzdgzbc2rpa@jpeg",
 		"associated": {
@@ -15,14 +15,56 @@
 		},
 		"labels": [],
 		"createdAt": "2024-02-20T06:15:04.884Z",
-		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.\n\nPFP courtesy @trans.bsky.social",
-		"indexedAt": "2024-10-07T11:15:55.607Z"
+		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
+		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 592,
+	"likeCount": 614,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "sports-betting",
+				"locales": [
+					{
+						"description": "Applied to posts which contain a link to sites commonly used for sports betting, such as Draft Kings or Fan Duel.",
+						"lang": "en",
+						"name": "Sports Betting Link"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "nazi-symbolism",
+				"locales": [
+					{
+						"description": "Username, handle, and / or description which includes Nazi and neo-nazi symbols, including swastikas, references to the 14 words and Hitler's initials, or double lightning bolts.",
+						"lang": "en",
+						"name": "Nazi Symbolism"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "rmve-imve",
+				"locales": [
+					{
+						"description": "Account or post advocates for or supports racially, ethnically, or ideologically motivated extremism.",
+						"lang": "en",
+						"name": "RMVE/IMVE"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -156,7 +198,7 @@
 				"identifier": "bluesky-elder",
 				"locales": [
 					{
-						"description": "This user has been here since before the media tab. This label is not a label of honor—no highly esteemed deed is commemorated here.",
+						"description": "This user has been here since before the media tab (August 2023). This label is not a label of honor—no highly esteemed deed is commemorated here.",
 						"lang": "en",
 						"name": "Bluesky Elder"
 					}
@@ -219,6 +261,9 @@
 			}
 		],
 		"labelValues": [
+			"sports-betting",
+			"nazi-symbolism",
+			"rmve-imve",
 			"disinformation-network",
 			"maga-trump",
 			"terf-gc",
