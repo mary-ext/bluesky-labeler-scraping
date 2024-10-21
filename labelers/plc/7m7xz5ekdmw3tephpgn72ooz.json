@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreihf3747jsffhaxuvjqwys362w5nfwh6gxzbennwjtnri27czu3gxa",
+	"cid": "bafyreier4zuw5z7oyvlnnyl6vlipbugjucnw5wjk2hhd3zhjtxeyq3plau",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -18,11 +18,109 @@
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in \"Posts\" and ❤️\n3️⃣ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw, based on @pronouns.adorable.mom\n\n📨 DM for requests",
 		"indexedAt": "2024-09-06T18:18:01.623Z"
 	},
-	"likeCount": 192,
+	"likeCount": 222,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "leaf-fluttering-in-wind",
+				"locales": [
+					{
+						"description": "I'm feeling fresh/calm/free.",
+						"lang": "en",
+						"name": "Mood: 🍃"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dni",
+				"locales": [
+					{
+						"description": "Do not interact.",
+						"lang": "en",
+						"name": "Mood: 🚫 DNI"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unamused-face",
+				"locales": [
+					{
+						"description": "I'm feeling disappointed/frustrated/bored.",
+						"lang": "en",
+						"name": "Mood: 😒"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hand-with-fingers-splayed",
+				"locales": [
+					{
+						"description": "Talk to the hand.",
+						"lang": "en",
+						"name": "Mood: 🖐️"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dizzy",
+				"locales": [
+					{
+						"description": "I'm feeling dazed/magical/surreal.",
+						"lang": "en",
+						"name": "Mood: 💫"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rabbit-face",
+				"locales": [
+					{
+						"description": "I'm feeling playful/innocent/energetic.",
+						"lang": "en",
+						"name": "Mood: 🐰"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shrimping",
+				"locales": [
+					{
+						"description": "Shrimping.",
+						"lang": "en",
+						"name": "Mood: 🦐🍤"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1173,6 +1271,13 @@
 			}
 		],
 		"labelValues": [
+			"leaf-fluttering-in-wind",
+			"dni",
+			"unamused-face",
+			"hand-with-fingers-splayed",
+			"dizzy",
+			"rabbit-face",
+			"shrimping",
 			"face-with-monocle",
 			"books",
 			"open-book",

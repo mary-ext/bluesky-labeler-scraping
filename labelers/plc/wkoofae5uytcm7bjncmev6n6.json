@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreidjyixqqeb57u2t5rpajmk3ejuwdkyss4tucmozxpuc5tyq2q35eu",
+	"cid": "bafyreig3j3fqzwtq5ydeqsdsv7qpks2uulrkvhcdaj6tx7elghzys6ku6e",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @bsky.mom\ndonate: https://ko-fi.com/notjuliet\nbuilt on top of @skyware.js.org",
 		"indexedAt": "2024-10-19T15:52:20.010Z"
 	},
-	"likeCount": 5225,
-	"indexedAt": "2024-10-19T15:40:25.844Z",
+	"likeCount": 5807,
+	"indexedAt": "2024-10-20T13:20:49.049Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1086,6 +1086,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fox-foxs",
+				"locales": [
+					{
+						"description": "This user uses fox/foxs pronouns.",
+						"lang": "en",
+						"name": "fox/foxs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fen-fens",
+				"locales": [
+					{
+						"description": "This user uses fen/fens pronouns.",
+						"lang": "en",
+						"name": "fen/fens"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1164,7 +1192,9 @@
 			"shi-hir",
 			"zhe-zhem",
 			"xey-xem",
-			"hy-hym"
+			"hy-hym",
+			"fox-foxs",
+			"fen-fens"
 		]
 	}
 }

@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4wgmwsq4t3tg55ffl3r7ocec/app.bsky.labeler.service/self",
+	"cid": "bafyreidha6cforkqwvtjuwgt4h4be5rucxrh5xmojguay3i5ds5fvphlvy",
+	"creator": {
+		"did": "did:plc:4wgmwsq4t3tg55ffl3r7ocec",
+		"handle": "self-labeler.snarfed.org",
+		"displayName": "Self Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4wgmwsq4t3tg55ffl3r7ocec/bafkreibn4x6lbv25az3vy5wahjozxwmmnotskeftskunmoolckaw2bs7bm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-20T05:04:40.906Z",
+		"description": "Labeler that emits self-labels in posts and profiles.\n\nhttps://github.com/bluesky-social/atproto/discussions/2885\nhttps://github.com/snarfed/self-labeler\n\nby @snarfed.org",
+		"indexedAt": "2024-10-20T05:56:01.310Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-10-20T23:09:41.627Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bridged-from-bridgy-fed-activitypub",
+				"locales": [
+					{
+						"description": "This is a fediverse account that Bridgy Fed is bridging into Bluesky.",
+						"lang": "en",
+						"name": "Bridged from fediverse"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bridged-from-bridgy-fed-web",
+				"locales": [
+					{
+						"description": "This is a web site that Bridgy Fed is bridging into Bluesky.",
+						"lang": "en",
+						"name": "Bridged from web"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"bridged-from-bridgy-fed-activitypub",
+			"bridged-from-bridgy-fed-web"
+		]
+	}
+}

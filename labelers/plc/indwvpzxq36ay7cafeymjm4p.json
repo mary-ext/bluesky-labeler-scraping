@@ -1,24 +1,641 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:indwvpzxq36ay7cafeymjm4p/app.bsky.labeler.service/self",
-	"cid": "bafyreihopfrpf5pojttc3tww7ei67mjyxtaanbr4tj55wjgk7wllaophiu",
+	"cid": "bafyreiac2bdrqfguxo44xdpqjztw2kfirh6vnjdj44m3fthnjkej7pyxyu",
 	"creator": {
 		"did": "did:plc:indwvpzxq36ay7cafeymjm4p",
 		"handle": "holofanbase.zomrade.live",
-		"displayName": "",
+		"displayName": "Hololive Fanbase Labels",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:indwvpzxq36ay7cafeymjm4p/bafkreiagxbzvgelo5zy7cnpn4fkrbelx666pm7fvlegn47ml25grfcgc5y@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-10-19T07:30:49.308Z",
-		"indexedAt": "2024-10-19T07:30:49.308Z"
+		"description": "A labeling service that allows you to represent your favorite oshi! \nAfter subscribing, use by liking posts in the \"Posts\" tab below. \n4 max per user\nLike pinned post to remove all labels. \n\nContact: @bricks04.zomrade.live\nBuilt on top of @skyware.js.org",
+		"indexedAt": "2024-10-20T12:28:41.707Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-10-19T17:13:22.674Z",
+	"likeCount": 10,
+	"indexedAt": "2024-10-20T14:50:11.895Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "soratomo",
+				"locales": [
+					{
+						"description": "Tokino Sora's fanbase",
+						"lang": "en",
+						"name": "🐻Sora-tomo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robosa",
+				"locales": [
+					{
+						"description": "Roboco-san's fanbase.",
+						"lang": "en",
+						"name": "🤖Robosa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "threefivep",
+				"locales": [
+					{
+						"description": "Sakura Miko's fanbase",
+						"lang": "en",
+						"name": "🌸35P"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hoshiyomi",
+				"locales": [
+					{
+						"description": "Hoshimachi Suisei's fanbase",
+						"lang": "en",
+						"name": "☄️Hoshiyomi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pioneer",
+				"locales": [
+					{
+						"description": "AZKi's fanbase.",
+						"lang": "en",
+						"name": "⚒️Pioneer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sukonbu",
+				"locales": [
+					{
+						"description": "Shirakami Fubuki's fanbase",
+						"lang": "en",
+						"name": "🌽Sukonbu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "matsurisu",
+				"locales": [
+					{
+						"description": "Natsuiro Matsuri's fanbase",
+						"lang": "en",
+						"name": "🏮Matsurisu"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "haaton",
+				"locales": [
+					{
+						"description": "Akai Haato's fanbase",
+						"lang": "en",
+						"name": "❤️‍🔥Haaton"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rosetai",
+				"locales": [
+					{
+						"description": "Aki Rosenthal's fanbase.",
+						"lang": "en",
+						"name": "🍎Rose-tai"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kapumin",
+				"locales": [
+					{
+						"description": "Yozora Mel's fanbase.",
+						"lang": "en",
+						"name": "🌟Kapu-min"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shiokko",
+				"locales": [
+					{
+						"description": "Murasaki Shion's fanbase. ",
+						"lang": "en",
+						"name": "🌙Shiokko"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ayame",
+				"locales": [
+					{
+						"description": "Nakiri Ayame's fanbase. ",
+						"lang": "en",
+						"name": "😈Nakiri-gumi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chocomates",
+				"locales": [
+					{
+						"description": "Yuzuki Choco's fanbase. ",
+						"lang": "en",
+						"name": "💋Chocomate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "subatomo",
+				"locales": [
+					{
+						"description": "Oozora Subaru's fanbase.",
+						"lang": "en",
+						"name": "🚑Suba-tomo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aquacrew",
+				"locales": [
+					{
+						"description": "Minato Aqua's fanbase. ",
+						"lang": "en",
+						"name": "⚓️Aqua Crew"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "miofam",
+				"locales": [
+					{
+						"description": "Ookami Mio's fanbase. ",
+						"lang": "en",
+						"name": "🌲Mio-fam"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "onigiris",
+				"locales": [
+					{
+						"description": "Nekomata Okayu's fanbase. ",
+						"lang": "en",
+						"name": "🍙Onigiri"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koronesuki",
+				"locales": [
+					{
+						"description": "Inugami Korone's fanbase. ",
+						"lang": "en",
+						"name": "🥐Koronesuki"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nousagi",
+				"locales": [
+					{
+						"description": "Usada Pekora's fanbase. ",
+						"lang": "en",
+						"name": "👯Nousagi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elfriend",
+				"locales": [
+					{
+						"description": "Shiranui Flare's fanbase. ",
+						"lang": "en",
+						"name": "🔥Elfriend"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shirogane",
+				"locales": [
+					{
+						"description": "Shirogane Noel's fanbase. ",
+						"lang": "en",
+						"name": "⚔️Shirogane kishidan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "houshou",
+				"locales": [
+					{
+						"description": "Houshou Marine's fanbase. ",
+						"lang": "en",
+						"name": "🏴‍☠️Houshou no Ichimi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "heymin",
+				"locales": [
+					{
+						"description": "Amane Kanata's fanbase. ",
+						"lang": "en",
+						"name": "💫Hey-min"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "luknights",
+				"locales": [
+					{
+						"description": "Himemori Luna's fanbase. ",
+						"lang": "en",
+						"name": "🍬Lu-knight"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "watamates",
+				"locales": [
+					{
+						"description": "Tsunomaki Watame's fanbase. ",
+						"lang": "en",
+						"name": "🐏Watamate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "towafam",
+				"locales": [
+					{
+						"description": "Tokoyami Towa's fanbase. ",
+						"lang": "en",
+						"name": "👾TowaFam"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tatsunoko",
+				"locales": [
+					{
+						"description": "Kiryu Coco's fanbase. ",
+						"lang": "en",
+						"name": "🐉Tatsunoko"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yukimin",
+				"locales": [
+					{
+						"description": "Yukihana Lamy's fanbase. ",
+						"lang": "en",
+						"name": "☃️Yukimin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nekko",
+				"locales": [
+					{
+						"description": "Momosuzu Nene's fanbase. ",
+						"lang": "en",
+						"name": "🍑Nekko"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ssrb",
+				"locales": [
+					{
+						"description": "Shishiro Botan's fanbase. ",
+						"lang": "en",
+						"name": "♌SSRB"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "omaruza",
+				"locales": [
+					{
+						"description": "Omaru Polka's fanbase. ",
+						"lang": "en",
+						"name": "🎪Omaruza"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plusmate",
+				"locales": [
+					{
+						"description": "Laplus Darkness's fanbase. ",
+						"lang": "en",
+						"name": "🛸💜Plusmate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "luitomo",
+				"locales": [
+					{
+						"description": "Takane Lui's fanbase. ",
+						"lang": "en",
+						"name": "🥀Lui-tomo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kassistant",
+				"locales": [
+					{
+						"description": "Hakui Koyori's fanbase. ",
+						"lang": "en",
+						"name": "🧪Assistant"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shiikuin",
+				"locales": [
+					{
+						"description": "Sakamata Chloe's fanbase. ",
+						"lang": "en",
+						"name": "🎣Shiikuin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kazamatai",
+				"locales": [
+					{
+						"description": "Kazama Iroha's fanbase. ",
+						"lang": "en",
+						"name": "🍃Kazama-tai"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dokusha",
+				"locales": [
+					{
+						"description": "Hiodoshi Ao's fanbase. ",
+						"lang": "en",
+						"name": "🖋️Dokusha"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "otonozei",
+				"locales": [
+					{
+						"description": "Otonose Kanade's fanbase. ",
+						"lang": "en",
+						"name": "🎹✨Otonozei"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hishominarai",
+				"locales": [
+					{
+						"description": "Ichijou Ririka's fanbase. ",
+						"lang": "en",
+						"name": "🌃Hishominarai"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dendoshi",
+				"locales": [
+					{
+						"description": "Juufuutei Raden's fanbase. ",
+						"lang": "en",
+						"name": "🐚Dendoshi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "massugumi",
+				"locales": [
+					{
+						"description": "Todoroki Hajime's fanbase. ",
+						"lang": "en",
+						"name": "🐧⚡Massu-gumi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "risuner",
+				"locales": [
+					{
+						"description": "Ayunda Risu's fanbase. ",
+						"lang": "en",
+						"name": "🐿️Risuner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "moonafic",
+				"locales": [
+					{
+						"description": "Moona Hoshinova's fanbase. ",
+						"lang": "en",
+						"name": "🔮Moonafic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ioforia",
+				"locales": [
+					{
+						"description": "Airani Iofifteen's fanbase. ",
+						"lang": "en",
+						"name": "🎨IOFORIA"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -28,7 +645,7 @@
 					{
 						"description": "Kureiji Ollie's fanbase. ",
 						"lang": "en",
-						"name": "🧟Zomrade"
+						"name": "🧟‍♀️Zomrade"
 					}
 				],
 				"severity": "inform"
@@ -37,35 +654,829 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "merakyats",
-				"locales": [
-					{
-						"description": "Pavolia Reine's fanbase. ",
-						"lang": "en",
-						"name": "🦚MERAKyats"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "melfriends",
+				"identifier": "melfriend",
 				"locales": [
 					{
 						"description": "Anya Melfissa's fanbase. ",
 						"lang": "en",
-						"name": "🍂MelFriends"
+						"name": "🍂Melfriend"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "merakyat",
+				"locales": [
+					{
+						"description": "Pavolia Reine's fanbase. ",
+						"lang": "en",
+						"name": "🦚MERAKyat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zecretary",
+				"locales": [
+					{
+						"description": "Vestia Zeta's fanbase. ",
+						"lang": "en",
+						"name": "📜Zecretary"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pemaloe",
+				"locales": [
+					{
+						"description": "Kaela Kovalskia's fanbase. ",
+						"lang": "en",
+						"name": "🔨Pemaloe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koboker",
+				"locales": [
+					{
+						"description": "Kobo Kanaeru's fanbase. ",
+						"lang": "en",
+						"name": "☔Koboker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "deadbeat",
+				"locales": [
+					{
+						"description": "Mori Calliope's fanbase. ",
+						"lang": "en",
+						"name": "💀Dead Beat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kfp",
+				"locales": [
+					{
+						"description": "Takanashi Kiara's fanbase. ",
+						"lang": "en",
+						"name": "🐔KFP"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "takodachi",
+				"locales": [
+					{
+						"description": "Ninomae Ina'nis's fanbase. ",
+						"lang": "en",
+						"name": "🐙Takodachi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chumbud",
+				"locales": [
+					{
+						"description": "Gawr Gura's fanbase.",
+						"lang": "en",
+						"name": "🔱Chumbud"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "teamate",
+				"locales": [
+					{
+						"description": "Watson Amelia's fanbase. ",
+						"lang": "en",
+						"name": "🔎Teamate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "irystocrat",
+				"locales": [
+					{
+						"description": "IRyS's fanbase. ",
+						"lang": "en",
+						"name": "💎IRyStocrat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kronie",
+				"locales": [
+					{
+						"description": "Ouro Kronii's fanbase. ",
+						"lang": "en",
+						"name": "⏳Kronie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sapling",
+				"locales": [
+					{
+						"description": "Ceres Fauna's fanbase. ",
+						"lang": "en",
+						"name": "🌿Sapling"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hooman",
+				"locales": [
+					{
+						"description": "Nanashi Mumei's fanbase. ",
+						"lang": "en",
+						"name": "🪶Hooman"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "baerat",
+				"locales": [
+					{
+						"description": "Hakos Baelz's fanbase. ",
+						"lang": "en",
+						"name": "🎲Baerat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sanallite",
+				"locales": [
+					{
+						"description": "Tsukumo Sana's fanbase. ",
+						"lang": "en",
+						"name": "🪐Sanallite"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "novelites",
+				"locales": [
+					{
+						"description": "Shiori Novella's fanbase. ",
+						"lang": "en",
+						"name": "👁‍🗨Novelite"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pebble",
+				"locales": [
+					{
+						"description": "Koseki Bijou's fanbase. ",
+						"lang": "en",
+						"name": "🗿Pebble"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jailbird",
+				"locales": [
+					{
+						"description": "Nerissa Ravencroft's fanbase. ",
+						"lang": "en",
+						"name": "🎼Jailbird"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fruffian",
+				"locales": [
+					{
+						"description": "Fuwawa Abyssgard's fanbase. ",
+						"lang": "en",
+						"name": "🐾🩵Ruffian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mruffian",
+				"locales": [
+					{
+						"description": "Mococo Abyssgard's fanbase. ",
+						"lang": "en",
+						"name": "🐾🩷Ruffian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fmruffian",
+				"locales": [
+					{
+						"description": "Fuwamoco Abyssgard's fanbase. ",
+						"lang": "en",
+						"name": "🐾🩵🩷Ruffian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rosarian",
+				"locales": [
+					{
+						"description": "Elizabeth Rose Bloodflame's fanbase.",
+						"lang": "en",
+						"name": "💄Rosarian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "grem",
+				"locales": [
+					{
+						"description": "Gigi Murin's fanbase. ",
+						"lang": "en",
+						"name": "👧Grem"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "otomo",
+				"locales": [
+					{
+						"description": "Cecilia Immergreen's fanbase. ",
+						"lang": "en",
+						"name": "🍵Otomo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chattino",
+				"locales": [
+					{
+						"description": "Raora Panthera's fanbase. ",
+						"lang": "en",
+						"name": "🐱Chattino"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chattina",
+				"locales": [
+					{
+						"description": "Raora Panthera's fanbase.",
+						"lang": "en",
+						"name": "🐱Chattina"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chattini",
+				"locales": [
+					{
+						"description": "Raora Panthera's fanbase. ",
+						"lang": "en",
+						"name": "🐱Chattini"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hanamigumi",
+				"locales": [
+					{
+						"description": "Hanasaki Miyabi's fanbase. ",
+						"lang": "en",
+						"name": "🌺Hanamigumi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "izuru",
+				"locales": [
+					{
+						"description": "Kanade Izuru's fanbase. ",
+						"lang": "en",
+						"name": "🎸"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "familiaran",
+				"locales": [
+					{
+						"description": "Arurandeisu's fanbase. ",
+						"lang": "en",
+						"name": "🍕Familiaran"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tuner",
+				"locales": [
+					{
+						"description": "Rikka's fanbase. ",
+						"lang": "en",
+						"name": "⚙️Tuner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "astella",
+				"locales": [
+					{
+						"description": "Astel Leda's fanbase. ",
+						"lang": "en",
+						"name": "🎭Astella"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kishimen",
+				"locales": [
+					{
+						"description": "Kishido Temma's fanbase. ",
+						"lang": "en",
+						"name": "🦔💨Kishimen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yregular",
+				"locales": [
+					{
+						"description": "Yukoku Roberu's fanbase. ",
+						"lang": "en",
+						"name": "🍷Regular"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shiengumi",
+				"locales": [
+					{
+						"description": "Kageyama Shien's fanbase. ",
+						"lang": "en",
+						"name": "🟣Shiengumi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "omaesan",
+				"locales": [
+					{
+						"description": "Aragami Oga's fanbase. ",
+						"lang": "en",
+						"name": "🐃OMAEsan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tsukibito",
+				"locales": [
+					{
+						"description": "Yatogami Fuma's fanbase. ",
+						"lang": "en",
+						"name": "🦝TSUKIBITO"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fantom",
+				"locales": [
+					{
+						"description": "Utsugi Uyu's fanbase. ",
+						"lang": "en",
+						"name": "🃏Fantom"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "riofam",
+				"locales": [
+					{
+						"description": "Minase Rio's fanbase. ",
+						"lang": "en",
+						"name": "🕯️RIOFAM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "altventurer",
+				"locales": [
+					{
+						"description": "Regis Altare's fanbase. ",
+						"lang": "en",
+						"name": "🎇Altventurer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "axelotl",
+				"locales": [
+					{
+						"description": "Axel Syrios' fanbase. ",
+						"lang": "en",
+						"name": "⛓️Axelotl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "magnation",
+				"locales": [
+					{
+						"description": "Magni Dezmond's fanbase. ",
+						"lang": "en",
+						"name": "🧤MAGNATION"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vestie",
+				"locales": [
+					{
+						"description": "Noir Vesper's fanbase. ",
+						"lang": "en",
+						"name": "📗Vestie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bettelion",
+				"locales": [
+					{
+						"description": "Gavis Bettel's fanbase. ",
+						"lang": "en",
+						"name": "🎩Bettelion"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "machiroon",
+				"locales": [
+					{
+						"description": "Machina X Flayon's fanbase. ",
+						"lang": "en",
+						"name": "🪫Machiroon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hakkito",
+				"locales": [
+					{
+						"description": "Banzoin Hakka's fanbase. ",
+						"lang": "en",
+						"name": "🔅Hakkito"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koillective",
+				"locales": [
+					{
+						"description": "Josuiji Shinri's fanbase. ",
+						"lang": "en",
+						"name": "🏹Koillective"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sorawrity",
+				"locales": [
+					{
+						"description": "Jurard T Rexford's fanbase. ",
+						"lang": "en",
+						"name": "🦖SoRAWRity"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bubble",
+				"locales": [
+					{
+						"description": "Goldbullet's fanbase. ",
+						"lang": "en",
+						"name": "🦅Bubble"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "octoposse",
+				"locales": [
+					{
+						"description": "Octavio's fanbase. ",
+						"lang": "en",
+						"name": "ထOctoposse"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ruzader",
+				"locales": [
+					{
+						"description": "Crimzon Ruse's fanbase. ",
+						"lang": "en",
+						"name": "💢Ruzader"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"soratomo",
+			"robosa",
+			"threefivep",
+			"hoshiyomi",
+			"pioneer",
+			"sukonbu",
+			"matsurisu",
+			"haaton",
+			"rosetai",
+			"kapumin",
+			"shiokko",
+			"ayame",
+			"chocomates",
+			"subatomo",
+			"aquacrew",
+			"miofam",
+			"onigiris",
+			"koronesuki",
+			"nousagi",
+			"elfriend",
+			"shirogane",
+			"houshou",
+			"heymin",
+			"luknights",
+			"watamates",
+			"towafam",
+			"tatsunoko",
+			"yukimin",
+			"nekko",
+			"ssrb",
+			"omaruza",
+			"plusmate",
+			"luitomo",
+			"kassistant",
+			"shiikuin",
+			"kazamatai",
+			"dokusha",
+			"otonozei",
+			"hishominarai",
+			"dendoshi",
+			"massugumi",
+			"risuner",
+			"moonafic",
+			"ioforia",
 			"zomrade",
-			"merakyats",
-			"melfriends"
+			"melfriend",
+			"merakyat",
+			"zecretary",
+			"pemaloe",
+			"koboker",
+			"deadbeat",
+			"kfp",
+			"takodachi",
+			"chumbud",
+			"teamate",
+			"irystocrat",
+			"kronie",
+			"sapling",
+			"hooman",
+			"baerat",
+			"sanallite",
+			"novelites",
+			"pebble",
+			"jailbird",
+			"fruffian",
+			"mruffian",
+			"fmruffian",
+			"rosarian",
+			"grem",
+			"otomo",
+			"chattino",
+			"chattina",
+			"chattini",
+			"hanamigumi",
+			"izuru",
+			"familiaran",
+			"tuner",
+			"astella",
+			"kishimen",
+			"yregular",
+			"shiengumi",
+			"omaesan",
+			"tsukibito",
+			"fantom",
+			"riofam",
+			"altventurer",
+			"axelotl",
+			"magnation",
+			"vestie",
+			"bettelion",
+			"machiroon",
+			"hakkito",
+			"koillective",
+			"sorawrity",
+			"bubble",
+			"octoposse",
+			"ruzader"
 		]
 	}
 }
