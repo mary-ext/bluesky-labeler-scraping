@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:g52s5ksv6ujn4glre3dehbm5/app.bsky.labeler.service/self",
-	"cid": "bafyreifetbda3vp4rcyugyvls5nak3ikifxuwm4ulzdzmcmaokzrcrgkvq",
+	"cid": "bafyreidbthkpvknayplmqepdrhbufii2ivtmmgbitx36bdiht4rnijqo6q",
 	"creator": {
 		"did": "did:plc:g52s5ksv6ujn4glre3dehbm5",
 		"handle": "filter.bsky.estela.moe",
@@ -12,42 +12,66 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-20T22:17:04.209Z",
-		"description": "垃圾分类 人人有责\n喂服务器: https://ko-fi.com/saeziae",
-		"indexedAt": "2024-10-21T00:34:54.713Z"
+		"description": "蓝天让生活更美好\nBlue sky, better life.",
+		"indexedAt": "2024-10-21T17:41:56.411Z"
 	},
-	"likeCount": 0,
+	"likeCount": 16,
 	"indexedAt": "2024-10-20T22:45:39.872Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
-				"identifier": "transfobic",
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "erotic",
 				"locales": [
 					{
-						"description": "Content that discriminates against transgender people.",
+						"description": "There may be mistakes.",
 						"lang": "en",
-						"name": "Transfobic"
+						"name": "Erotic (Aggressive filter)"
 					},
 					{
-						"description": "歧视跨性别者的内容",
+						"description": "可能存在误判。",
+						"lang": "zh-CN",
+						"name": "色情（激进过滤）"
+					},
+					{
+						"description": "可能存在誤判。",
+						"lang": "zh-TW",
+						"name": "色情（激進過濾）"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "transphobic",
+				"locales": [
+					{
+						"description": "Content that discriminates against trans and gender-diverse people.",
+						"lang": "en",
+						"name": "Transphobic"
+					},
+					{
+						"description": "歧视跨性别者与性别多元人群的内容",
 						"lang": "zh-CN",
 						"name": "恐跨"
 					},
 					{
-						"description": "歧視跨性別者的內容",
+						"description": "歧視跨性別者與性別多元人群的內容",
 						"lang": "zh-TW",
 						"name": "恐跨"
 					}
 				],
-				"severity": "inform|alert|none"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
+				"blurs": "content",
+				"defaultSetting": "warn",
 				"identifier": "china-propaganda",
 				"locales": [
 					{
@@ -66,13 +90,88 @@
 						"name": "大外宣"
 					}
 				],
-				"severity": "inform|alert|none"
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Spam and scam"
+					},
+					{
+						"description": "",
+						"lang": "zh-CN",
+						"name": "垃圾信息"
+					},
+					{
+						"description": "",
+						"lang": "zh-TW",
+						"name": "垃圾訊息"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonating",
+				"locales": [
+					{
+						"description": "Someone pretends to be another person or entity.",
+						"lang": "en",
+						"name": "Impersonating"
+					},
+					{
+						"description": "冒充他人",
+						"lang": "zh-CN",
+						"name": "冒充"
+					},
+					{
+						"description": "冒充他人",
+						"lang": "zh-TW",
+						"name": "冒充"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "self-harm",
+				"locales": [
+					{
+						"description": "Content related to self-harm and graphic injury.",
+						"lang": "en",
+						"name": "Self-harm"
+					},
+					{
+						"description": "自伤与血腥的内容",
+						"lang": "zh-CN",
+						"name": "自伤"
+					},
+					{
+						"description": "自傷與血腥的內容",
+						"lang": "zh-TW",
+						"name": "自傷"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"porn",
-			"transfobic",
-			"china-propaganda"
+			"erotic",
+			"transphobic",
+			"china-propaganda",
+			"spam",
+			"impersonating",
+			"self-harm"
 		]
 	}
 }

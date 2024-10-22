@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreih5zqdo3sb3w6hqxgem5duufzkwvmbaxd6h3am3yfrleassusyqky",
+	"cid": "bafyreiff5r4fn7gkbfg3ewt7r7oaqyjcb4nmap2iueskkw3jf6l6q6yhja",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 626,
+	"likeCount": 645,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "elon-musk",
+				"locales": [
+					{
+						"description": "\"Username, handle, and / or description which includes reference to Elon Musk.\"",
+						"lang": "en",
+						"name": "Elon Musk"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -261,6 +275,7 @@
 			}
 		],
 		"labelValues": [
+			"elon-musk",
 			"sports-betting",
 			"nazi-symbolism",
 			"rmve-imve",
