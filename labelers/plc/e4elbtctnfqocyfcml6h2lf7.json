@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreih5zqdo3sb3w6hqxgem5duufzkwvmbaxd6h3am3yfrleassusyqky",
+  "cid": "bafyreiff5r4fn7gkbfg3ewt7r7oaqyjcb4nmap2iueskkw3jf6l6q6yhja",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "elon-musk",
+        "locales": [
+          {
+            "description": "\"Username, handle, and / or description which includes reference to Elon Musk.\"",
+            "lang": "en",
+            "name": "Elon Musk"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -259,6 +273,7 @@
       }
     ],
     "labelValues": [
+      "elon-musk",
       "sports-betting",
       "nazi-symbolism",
       "rmve-imve",

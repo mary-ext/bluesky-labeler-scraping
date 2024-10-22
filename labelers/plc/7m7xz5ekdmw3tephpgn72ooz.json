@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-  "cid": "bafyreier4zuw5z7oyvlnnyl6vlipbugjucnw5wjk2hhd3zhjtxeyq3plau",
+  "cid": "bafyreihu5n67ksbtun3sq3h2baihb47afa7rptjolegetmavxmplkhl4xa",
   "creator": {
     "did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
     "handle": "moods.fran.pw",
@@ -21,6 +21,48 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alien",
+        "locales": [
+          {
+            "description": "I'm feeling unusual/mysterious/strange.",
+            "lang": "en",
+            "name": "Mood: 👽"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "technologist",
+        "locales": [
+          {
+            "description": "In a coding mood.",
+            "lang": "en",
+            "name": "Mood: 🧑‍💻"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "duck",
+        "locales": [
+          {
+            "description": "I'm feeling playful/alert/quirky.",
+            "lang": "en",
+            "name": "Mood: 🦆"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1269,6 +1311,9 @@
       }
     ],
     "labelValues": [
+      "alien",
+      "technologist",
+      "duck",
       "leaf-fluttering-in-wind",
       "dni",
       "unamused-face",
