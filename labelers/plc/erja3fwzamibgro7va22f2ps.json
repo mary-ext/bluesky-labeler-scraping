@@ -1,0 +1,102 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:erja3fwzamibgro7va22f2ps/app.bsky.labeler.service/self",
+	"cid": "bafyreiheeha64jf2qxyg7nq2luzqw7zb4iwn7jkwnkgnc443v6iv7imlau",
+	"creator": {
+		"did": "did:plc:erja3fwzamibgro7va22f2ps",
+		"handle": "hiresky.birdwrongs.sh",
+		"displayName": "Hiresky",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:erja3fwzamibgro7va22f2ps/bafkreif3fggixz7jraxrsfyk6jobtzcnfvqldlovbubywsbso6g5aj4w2e@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-22T01:53:57.306Z",
+		"description": "because you don't want to go on linkedin. lets you add/read profile labels related to looking for work and hiring. WIP THIS DOESN'T WORK YET FYI",
+		"indexedAt": "2024-10-22T05:38:02.208Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-10-22T02:03:09.547Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiresky-lfw",
+				"locales": [
+					{
+						"description": "This user is actively looking for new opportunities.",
+						"lang": "en",
+						"name": "Looking for Work"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiresky-comms-open",
+				"locales": [
+					{
+						"description": "This user has commissions open.",
+						"lang": "en",
+						"name": "Commissions Open"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiresky-comms-closed",
+				"locales": [
+					{
+						"description": "This user does commissions, but is not currently able to take on new ones.",
+						"lang": "en",
+						"name": "Commissions Closed"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiresky-freelance",
+				"locales": [
+					{
+						"description": "This user does freelance work for hire.",
+						"lang": "en",
+						"name": "Freelancer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiresky-hiring",
+				"locales": [
+					{
+						"description": "This user or organization is currently looking to fill a position or positions.",
+						"lang": "en",
+						"name": "Now Hiring"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"hiresky-lfw",
+			"hiresky-comms-open",
+			"hiresky-comms-closed",
+			"hiresky-freelance",
+			"hiresky-hiring"
+		]
+	}
+}

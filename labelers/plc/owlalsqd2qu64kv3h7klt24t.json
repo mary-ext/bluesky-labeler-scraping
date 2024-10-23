@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreihixvn2vliblkbhiguh4oedr5lp4ge3kgv5cv3jgm5eommdp7ds5q",
+	"cid": "bafyreib2thjmryqxugaynb44u7rz5agvl35u326qlp2fsnwretx4o7fq3e",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -15,11 +15,123 @@
 		"description": "Identify the game engine that you use on your profile and everywhere you post!",
 		"indexedAt": "2024-10-21T15:16:21.111Z"
 	},
-	"likeCount": 18,
+	"likeCount": 96,
 	"indexedAt": "2024-10-21T13:55:25.974Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragonruby",
+				"locales": [
+					{
+						"description": "DragonRuby 2D Engine, from https://dragonruby.org/",
+						"lang": "en",
+						"name": "DragonRuby"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tic80",
+				"locales": [
+					{
+						"description": "TIC-80 tiny computer, from https://tic80.com/",
+						"lang": "en",
+						"name": "TIC-80"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pico8",
+				"locales": [
+					{
+						"description": "PICO-8 Fantasy Console, from https://www.lexaloffle.com/pico-8.php",
+						"lang": "en",
+						"name": "PICO-8"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "love",
+				"locales": [
+					{
+						"description": "LÖVE 2D Framework, from https://love2d.org/",
+						"lang": "en",
+						"name": "LÖVE"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "twine",
+				"locales": [
+					{
+						"description": "Twine Engine, from https://twinery.org/",
+						"lang": "en",
+						"name": "Twine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "source",
+				"locales": [
+					{
+						"description": "Source Engine, from https://developer.valvesoftware.com/wiki/SDK_Installation",
+						"lang": "en",
+						"name": "Source Engine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "custom-engine",
+				"locales": [
+					{
+						"description": "This account is using a custom, potentially in-house engine solution!",
+						"lang": "en",
+						"name": "Custom/In-house Engine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bevy",
+				"locales": [
+					{
+						"description": "Bevy Engine, from https://bevyengine.org/",
+						"lang": "en",
+						"name": "Bevy Engine"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -135,14 +247,21 @@
 		],
 		"labelValues": [
 			"gamemaker",
+			"godot",
+			"unreal",
+			"unity",
+			"rpg-maker",
+			"twine",
+			"love",
+			"source",
+			"bevy",
 			"pygame",
 			"renpy",
 			"construct",
 			"dragonruby",
-			"rpg-maker",
-			"unity",
-			"unreal",
-			"godot"
+			"tic80",
+			"pico8",
+			"custom-engine"
 		]
 	}
 }

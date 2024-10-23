@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreice7xrbcn6y5txmlc7agkswmjirmvmycemsbra4odj47hs645sngm",
+	"cid": "bafyreidvoh3ylmypj27zqrtm5ios5nqnmexfqob724kb4z63iycn7di2tm",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @bsky.mom\ndonate: https://ko-fi.com/notjuliet\nbuilt on top of @skyware.js.org",
 		"indexedAt": "2024-10-19T15:52:20.010Z"
 	},
-	"likeCount": 6312,
-	"indexedAt": "2024-10-21T02:01:57.066Z",
+	"likeCount": 6636,
+	"indexedAt": "2024-10-22T20:01:45.605Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1170,6 +1170,90 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "they-she",
+				"locales": [
+					{
+						"description": "This user uses they/them and she/her pronouns.",
+						"lang": "en",
+						"name": "they/she"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "they-he",
+				"locales": [
+					{
+						"description": "This user uses they/them and he/him pronouns.",
+						"lang": "en",
+						"name": "they/he"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "it-she",
+				"locales": [
+					{
+						"description": "This user uses it/its and she/her pronouns.",
+						"lang": "en",
+						"name": "it/she"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "it-he",
+				"locales": [
+					{
+						"description": "This user uses it/its and he/him pronouns.",
+						"lang": "en",
+						"name": "it/he"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "it-they",
+				"locales": [
+					{
+						"description": "This user uses it/its and they/them pronouns.",
+						"lang": "en",
+						"name": "it/they"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eris",
+				"locales": [
+					{
+						"description": "This user is very gay (cute).",
+						"lang": "en",
+						"name": "gay"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1254,7 +1338,13 @@
 			"it-we",
 			"vamp-vamps",
 			"ze-zir",
-			"sea-seas"
+			"sea-seas",
+			"they-she",
+			"they-he",
+			"it-she",
+			"it-he",
+			"it-they",
+			"eris"
 		]
 	}
 }

@@ -1,0 +1,86 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:n3timvoib5nau7gvwd6cshap/app.bsky.labeler.service/self",
+	"cid": "bafyreifs3g2zyiwdolzulwt4coxktfyy2mjl6eqb3n7ndozhng6dgtqo24",
+	"creator": {
+		"did": "did:plc:n3timvoib5nau7gvwd6cshap",
+		"handle": "bladerunner.club",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:n3timvoib5nau7gvwd6cshap/bafkreibgg4yqzqa7jhjahmbc33ngbd3yl45r7jsatw37dt3xglsdy35sui@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-22T16:35:39.408Z",
+		"indexedAt": "2024-10-22T16:35:39.408Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-10-22T17:13:47.768Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "jabroni",
+				"locales": [
+					{
+						"description": "yeah... jabronis!",
+						"lang": "en",
+						"name": "Jabroni"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "bladerunner",
+				"locales": [
+					{
+						"description": "The labelled account has been awarded the special role of bladerunner because of their accuracy in hunting down good bots and bad bots.",
+						"lang": "en",
+						"name": "Bladerunner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "good-bot",
+				"locales": [
+					{
+						"description": "The labelled account is a bot that has been flagged as a useful bot account by other users.",
+						"lang": "en",
+						"name": "Good bot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media",
+				"defaultSetting": "alert",
+				"identifier": "bad-bot",
+				"locales": [
+					{
+						"description": "The labelled account is a bot that has been flagged for unwanted activities on the network.",
+						"lang": "en",
+						"name": "Bad bot"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"good-bot",
+			"bladerunner",
+			"jabroni",
+			"bad-bot"
+		]
+	}
+}

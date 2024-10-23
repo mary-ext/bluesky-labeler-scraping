@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bwzi3lmu3dcinjbl7odg5uyo/app.bsky.labeler.service/self",
-	"cid": "bafyreifbvd55djoou3pir3m7aulkk6xdtcobtri6les2utkmq2geodtu74",
+	"cid": "bafyreihzwddcq3egshx2y3bx4gvyqc2cfmifpeiswm67zrk7yhur2wqx44",
 	"creator": {
 		"did": "did:plc:bwzi3lmu3dcinjbl7odg5uyo",
 		"handle": "helluva-labeler.bsky.social",
@@ -18,7 +18,7 @@
 		"description": "[WIP] Label yourself with your favorite Helluva Boss characters! Simply subscribe, then like one of the character replies in the Posts tab to gain that badge!\n\nMore characters will be added, potentially even from Hazbin.\n\nBuilt upon @skyware.js.org",
 		"indexedAt": "2024-10-21T23:24:45.308Z"
 	},
-	"likeCount": 5,
+	"likeCount": 9,
 	"indexedAt": "2024-10-21T20:59:26.587Z",
 	"labels": [],
 	"policies": {
@@ -30,7 +30,7 @@
 				"identifier": "blitzo-fan",
 				"locales": [
 					{
-						"description": "A fan of Blitzo Buckzo.",
+						"description": "A fan of Blitzø Buckzo.",
 						"lang": "en",
 						"name": "Blitzø Fan"
 					}
@@ -58,7 +58,7 @@
 				"identifier": "millie-fan",
 				"locales": [
 					{
-						"description": "A fan of Mildred \"Millie\" Knolastname.",
+						"description": "A fan of Millie Knolastname.",
 						"lang": "en",
 						"name": "Millie Fan"
 					}
@@ -209,6 +209,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "sallie-may-fan",
+				"locales": [
+					{
+						"description": "A fan of Sallie May.",
+						"lang": "en",
+						"name": "Sallie May Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "asmodeus-fan",
 				"locales": [
 					{
@@ -251,12 +265,96 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "barbie-wire-fan",
+				"locales": [
+					{
+						"description": "A fan of Barbie Wire.",
+						"lang": "en",
+						"name": "Barbie Wire Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "chaz-fan",
 				"locales": [
 					{
 						"description": "A fan of Chazwick \"Chaz\" Thurman.",
 						"lang": "en",
 						"name": "Chaz Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "paimon-fan",
+				"locales": [
+					{
+						"description": "A fan of Paimon.",
+						"lang": "en",
+						"name": "Paimon Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "andrealphus-fan",
+				"locales": [
+					{
+						"description": "A fan of Andrealphus.",
+						"lang": "en",
+						"name": "Andrealphus Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vassago-fan",
+				"locales": [
+					{
+						"description": "A fan of Vassago.",
+						"lang": "en",
+						"name": "Vassago Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "emberlynn-fan",
+				"locales": [
+					{
+						"description": "A fan of Emberlynn Pinkle.",
+						"lang": "en",
+						"name": "Emberlynn Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "baby-goat-fan",
+				"locales": [
+					{
+						"description": "A fan of that one baby goat from the Chupacabra episode.",
+						"lang": "en",
+						"name": "Baby Goat Fan"
 					}
 				],
 				"severity": "inform"
@@ -276,10 +374,17 @@
 			"crimson-fan",
 			"wally-fan",
 			"vortex-fan",
+			"sallie-may-fan",
 			"asmodeus-fan",
 			"mammon-fan",
 			"beelzebub-fan",
-			"chaz-fan"
+			"barbie-wire-fan",
+			"chaz-fan",
+			"paimon-fan",
+			"andrealphus-fan",
+			"vassago-fan",
+			"emberlynn-fan",
+			"baby-goat-fan"
 		]
 	}
 }
