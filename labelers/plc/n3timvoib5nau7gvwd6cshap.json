@@ -1,86 +1,87 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:n3timvoib5nau7gvwd6cshap/app.bsky.labeler.service/self",
-	"cid": "bafyreifs3g2zyiwdolzulwt4coxktfyy2mjl6eqb3n7ndozhng6dgtqo24",
+	"cid": "bafyreigkop2k7yr6u5r7z2efbjbbuf4vf4vjita6vqll5hksnrjn3mjaj4",
 	"creator": {
 		"did": "did:plc:n3timvoib5nau7gvwd6cshap",
 		"handle": "bladerunner.club",
-		"displayName": "",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:n3timvoib5nau7gvwd6cshap/bafkreibgg4yqzqa7jhjahmbc33ngbd3yl45r7jsatw37dt3xglsdy35sui@jpeg",
+		"displayName": "good bot / bad bot",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:n3timvoib5nau7gvwd6cshap/bafkreigvw3evv43qkddsvpyk64dzuhvwglarv6v4h6k6y73ibf4cvpd6ka@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-10-22T16:35:39.408Z",
-		"indexedAt": "2024-10-22T16:35:39.408Z"
+		"description": "community assessment of replicants, good and bad\n\n(reports are not monitored actively)",
+		"indexedAt": "2024-10-23T17:21:17.409Z"
 	},
-	"likeCount": 1,
+	"likeCount": 5,
 	"indexedAt": "2024-10-22T17:13:47.768Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "inform",
-				"identifier": "jabroni",
-				"locales": [
-					{
-						"description": "yeah... jabronis!",
-						"lang": "en",
-						"name": "Jabroni"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "inform",
-				"identifier": "bladerunner",
-				"locales": [
-					{
-						"description": "The labelled account has been awarded the special role of bladerunner because of their accuracy in hunting down good bots and bad bots.",
-						"lang": "en",
-						"name": "Bladerunner"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "inform",
-				"identifier": "good-bot",
-				"locales": [
-					{
-						"description": "The labelled account is a bot that has been flagged as a useful bot account by other users.",
-						"lang": "en",
-						"name": "Good bot"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content|media",
-				"defaultSetting": "alert",
+				"blurs": "content",
+				"defaultSetting": "warn",
 				"identifier": "bad-bot",
 				"locales": [
 					{
-						"description": "The labelled account is a bot that has been flagged for unwanted activities on the network.",
+						"description": "An annoying or misleading bot account, as flagged by the community",
 						"lang": "en",
-						"name": "Bad bot"
+						"name": "🤖 Bad Bot"
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "good-bot",
+				"locales": [
+					{
+						"description": "A bot, but flagged as useful by the community",
+						"lang": "en",
+						"name": "🤖 Good Bot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bladerunner",
+				"locales": [
+					{
+						"description": "Accounts who are particularly skilled at identifying replicants",
+						"lang": "en",
+						"name": "🥷 Blade Runner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jabroni",
+				"locales": [
+					{
+						"description": "Lamers messing with the assessment process",
+						"lang": "en",
+						"name": "🤡 Jabroni"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"bad-bot",
 			"good-bot",
 			"bladerunner",
-			"jabroni",
-			"bad-bot"
+			"jabroni"
 		]
 	}
 }

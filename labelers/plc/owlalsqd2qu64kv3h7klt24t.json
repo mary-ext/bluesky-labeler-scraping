@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreib2thjmryqxugaynb44u7rz5agvl35u326qlp2fsnwretx4o7fq3e",
+	"cid": "bafyreieaz77ne5sptltlwkz2hs3crm4e626cea2w7jivizqomguwjrnu7y",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -15,7 +15,7 @@
 		"description": "Identify the game engine that you use on your profile and everywhere you post!",
 		"indexedAt": "2024-10-21T15:16:21.111Z"
 	},
-	"likeCount": 96,
+	"likeCount": 130,
 	"indexedAt": "2024-10-21T13:55:25.974Z",
 	"labels": [],
 	"policies": {
@@ -24,10 +24,262 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "quake-engine",
+				"locales": [
+					{
+						"description": "This user uses the Quake Engine.",
+						"lang": "en",
+						"name": "Quake Engine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "doom-engine",
+				"locales": [
+					{
+						"description": "This user uses the DOOM Engine.",
+						"lang": "en",
+						"name": "DOOM Engine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wolf3d",
+				"locales": [
+					{
+						"description": "This user uses the Wolf3D Engine.",
+						"lang": "en",
+						"name": "Wolf3D Engine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "game-modder",
+				"locales": [
+					{
+						"description": "This user is using an existing game as a base for making their own spin off it. Whether it's to add new additions, new story, making extra content in general, or a completely different experience at its core.\n\nNote: While all games do not relevantly support modding in their own  right, some companies do.",
+						"lang": "en",
+						"name": "Modding a game"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "playdate-sdk",
+				"locales": [
+					{
+						"description": "This user uses the Playdate SDK, from https://play.date/dev/",
+						"lang": "en",
+						"name": "Playdate SDK"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pixijs",
+				"locales": [
+					{
+						"description": "This user uses Pixijs, from https://pixijs.com/",
+						"lang": "en",
+						"name": "Pixijs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "phaser",
+				"locales": [
+					{
+						"description": "This user uses Phaser, from https://phaser.io/",
+						"lang": "en",
+						"name": "Phaser"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lovr",
+				"locales": [
+					{
+						"description": "This user uses LÖVR framework, from https://lovr.org/",
+						"lang": "en",
+						"name": "LÖVR"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gdevelop",
+				"locales": [
+					{
+						"description": "This user uses GDevelop engine, from https://gdevelop.io/",
+						"lang": "en",
+						"name": "GDevelop"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "defold",
+				"locales": [
+					{
+						"description": "This user uses Defold engine, from https://defold.com/",
+						"lang": "en",
+						"name": "Defold"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cubeengine",
+				"locales": [
+					{
+						"description": "This user uses Cube Engine, from http://cubeengine.com/",
+						"lang": "en",
+						"name": "Cube Engine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gold-source",
+				"locales": [
+					{
+						"description": "This user uses Gold Source engine, from https://developer.valvesoftware.com/wiki/GoldSrc",
+						"lang": "en",
+						"name": "Gold Source"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clickteamfusion",
+				"locales": [
+					{
+						"description": "This user uses Clickteam Fusion, from https://www.clickteam.com/",
+						"lang": "en",
+						"name": "Clickteam Fusion"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "game-platform-editor",
+				"locales": [
+					{
+						"description": "This user uses a game platform that includes its own built in or standalone game builder, that publishes to said platform. Usually applies to games such as (but not limited to) UEFN (Unreal Editor for Fortnite), Roblox, Core Games and s&box.",
+						"lang": "en",
+						"name": "Game Platform Services w/ Editor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "game-level-editor",
+				"locales": [
+					{
+						"description": "This user uses a level editor for a specific game.",
+						"lang": "en",
+						"name": "Level Editor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "haxeflixel",
+				"locales": [
+					{
+						"description": "This user uses HaxeFlixel 2D Game Engine, from https://haxeflixel.com/",
+						"lang": "en",
+						"name": "HaxeFlixel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "voxatron",
+				"locales": [
+					{
+						"description": "This user uses Voxatron Fantasy Console, from https://www.lexaloffle.com/voxatron.php",
+						"lang": "en",
+						"name": "Voxatron"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "picotron",
+				"locales": [
+					{
+						"description": "This user uses Picotron Fantasy Workstation, from https://www.lexaloffle.com/picotron.php",
+						"lang": "en",
+						"name": "Picotron"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "dragonruby",
 				"locales": [
 					{
-						"description": "DragonRuby 2D Engine, from https://dragonruby.org/",
+						"description": "This user uses DragonRuby 2D Engine, from https://dragonruby.org/",
 						"lang": "en",
 						"name": "DragonRuby"
 					}
@@ -38,10 +290,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "tic80",
+				"identifier": "tic-eighty",
 				"locales": [
 					{
-						"description": "TIC-80 tiny computer, from https://tic80.com/",
+						"description": "This user uses TIC-80 tiny computer, from https://tic80.com/",
 						"lang": "en",
 						"name": "TIC-80"
 					}
@@ -52,10 +304,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "pico8",
+				"identifier": "pico-eight",
 				"locales": [
 					{
-						"description": "PICO-8 Fantasy Console, from https://www.lexaloffle.com/pico-8.php",
+						"description": "This user uses PICO-8 Fantasy Console, from https://www.lexaloffle.com/pico-8.php",
 						"lang": "en",
 						"name": "PICO-8"
 					}
@@ -69,7 +321,7 @@
 				"identifier": "love",
 				"locales": [
 					{
-						"description": "LÖVE 2D Framework, from https://love2d.org/",
+						"description": "This user uses LÖVE 2D Engine, from https://love2d.org/",
 						"lang": "en",
 						"name": "LÖVE"
 					}
@@ -83,7 +335,7 @@
 				"identifier": "twine",
 				"locales": [
 					{
-						"description": "Twine Engine, from https://twinery.org/",
+						"description": "This user uses Twine Engine, from https://twinery.org/",
 						"lang": "en",
 						"name": "Twine"
 					}
@@ -97,7 +349,7 @@
 				"identifier": "source",
 				"locales": [
 					{
-						"description": "Source Engine, from https://developer.valvesoftware.com/wiki/SDK_Installation",
+						"description": "This user uses Source Engine, from https://developer.valvesoftware.com/wiki/SDK_Installation",
 						"lang": "en",
 						"name": "Source Engine"
 					}
@@ -111,7 +363,7 @@
 				"identifier": "custom-engine",
 				"locales": [
 					{
-						"description": "This account is using a custom, potentially in-house engine solution!",
+						"description": "This user is using a custom, in-house engine solution!",
 						"lang": "en",
 						"name": "Custom/In-house Engine"
 					}
@@ -125,7 +377,7 @@
 				"identifier": "bevy",
 				"locales": [
 					{
-						"description": "Bevy Engine, from https://bevyengine.org/",
+						"description": "This user uses Bevy Engine, from https://bevyengine.org/",
 						"lang": "en",
 						"name": "Bevy Engine"
 					}
@@ -139,7 +391,7 @@
 				"identifier": "pygame",
 				"locales": [
 					{
-						"description": "Pygame Framework, from https://www.pygame.org/",
+						"description": "This user uses Pygame Framework, from https://www.pygame.org/",
 						"lang": "en",
 						"name": "Pygame"
 					}
@@ -153,7 +405,7 @@
 				"identifier": "construct",
 				"locales": [
 					{
-						"description": "Construct Engine, from https://www.construct.net/",
+						"description": "This user uses Construct Engine, from https://www.construct.net/",
 						"lang": "en",
 						"name": "Construct"
 					}
@@ -167,7 +419,7 @@
 				"identifier": "renpy",
 				"locales": [
 					{
-						"description": "Ren'Py Visual Novel Engine, from https://www.renpy.org/",
+						"description": "This user uses Ren'Py Visual Novel Engine, from https://www.renpy.org/",
 						"lang": "en",
 						"name": "Ren'Py"
 					}
@@ -181,7 +433,7 @@
 				"identifier": "rpg-maker",
 				"locales": [
 					{
-						"description": "RPG Maker Engine, from https://www.rpgmakerweb.com/",
+						"description": "This user uses RPG Maker Engine, from https://www.rpgmakerweb.com/",
 						"lang": "en",
 						"name": "RPG Maker"
 					}
@@ -195,7 +447,7 @@
 				"identifier": "gamemaker",
 				"locales": [
 					{
-						"description": "GameMaker Engine, from https://gamemaker.io/",
+						"description": "This user uses GameMaker Engine, from https://gamemaker.io/",
 						"lang": "en",
 						"name": "GameMaker"
 					}
@@ -209,7 +461,7 @@
 				"identifier": "godot",
 				"locales": [
 					{
-						"description": "Godot Engine, from https://godotengine.org/",
+						"description": "This user uses Godot Engine, from https://godotengine.org/",
 						"lang": "en",
 						"name": "Godot"
 					}
@@ -223,7 +475,7 @@
 				"identifier": "unreal",
 				"locales": [
 					{
-						"description": "Unreal Engine, from https://www.unrealengine.com/",
+						"description": "This user uses Unreal Engine, from https://www.unrealengine.com/",
 						"lang": "en",
 						"name": "Unreal Engine"
 					}
@@ -237,7 +489,7 @@
 				"identifier": "unity",
 				"locales": [
 					{
-						"description": "Unity, from https://unity.com/",
+						"description": "This user uses Unity, from https://unity.com/",
 						"lang": "en",
 						"name": "Unity"
 					}
@@ -253,14 +505,32 @@
 			"rpg-maker",
 			"twine",
 			"love",
+			"lovr",
 			"source",
 			"bevy",
 			"pygame",
 			"renpy",
 			"construct",
 			"dragonruby",
-			"tic80",
-			"pico8",
+			"tic-eighty",
+			"pico-eight",
+			"picotron",
+			"voxatron",
+			"playdate-sdk",
+			"gdevelop",
+			"phaser",
+			"pixijs",
+			"defold",
+			"haxeflixel",
+			"clickteamfusion",
+			"cubeengine",
+			"gold-source",
+			"quake-engine",
+			"doom-engine",
+			"wolf3d",
+			"game-modder",
+			"game-platform-editor",
+			"game-level-editor",
 			"custom-engine"
 		]
 	}

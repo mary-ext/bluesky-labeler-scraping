@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreienv34wridaeiunup7qtysuy25pevidh7uvmpoluvwiuttptpofqe",
+	"cid": "bafyreig27jjof3bav2n5766esndbjr4tuy35siglclkaf2yoophz7jnhcm",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
-		"displayName": "Furry Creator Labeler",
+		"displayName": "FurSky Creators",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hr236rnywyk3xjl4vt4emyc3/bafkreihcfmcm25pumh5d4d7dgogbtnufz4vd5gap3dksl3epduua4u2fau@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-21T22:36:51.209Z",
-		"description": "Welcome to the Furry Creator Labeler!\n\nManaged by @deckardholiday.audioelk.com\n\nDM with your desired labels! (Automated label application is WIP)\n\nDM for label suggestions!\n\nSelect Your Sona: @sonasky.bsky.social (UNAFFILIATED)",
-		"indexedAt": "2024-10-22T16:48:20.310Z"
+		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n\nAutomation bot by: @astra.bunnys.ky <- 18+\nManaged by: @deckardholiday.audioelk.com <- 18+\n\nCursor @ 2024-10-24T01:14:11Z, Delays ~= a few seconds",
+		"indexedAt": "2024-10-24T01:14:17.511Z"
 	},
-	"likeCount": 11,
-	"indexedAt": "2024-10-22T03:47:54.194Z",
+	"likeCount": 14,
+	"indexedAt": "2024-10-24T01:00:14.292Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,38 +27,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "animator",
-				"locales": [
-					{
-						"description": "This User is an Animator!",
-						"lang": "en",
-						"name": "Animator"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "game-developer",
-				"locales": [
-					{
-						"description": "This User is a Game Developer!",
-						"lang": "en",
-						"name": "Game Developer"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
 				"identifier": "developer",
 				"locales": [
 					{
-						"description": "This User is a Developer!",
+						"description": "This user is a Developer!",
 						"lang": "en",
 						"name": "Developer"
 					}
@@ -69,12 +41,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "graphic-designer",
+				"identifier": "sound-editor",
 				"locales": [
 					{
-						"description": "This User is a Graphic Designer!",
+						"description": "This user is a Sound Editor!",
 						"lang": "en",
-						"name": "Graphic Designer"
+						"name": "Sound Editor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sound-designer",
+				"locales": [
+					{
+						"description": "This user is a Sound Designer!",
+						"lang": "en",
+						"name": "Sound Designer"
 					}
 				],
 				"severity": "inform"
@@ -86,7 +72,7 @@
 				"identifier": "comms-closed",
 				"locales": [
 					{
-						"description": "This User is Closed for Commissions!",
+						"description": "This user is a Comms Closed!",
 						"lang": "en",
 						"name": "Comms Closed"
 					}
@@ -100,7 +86,7 @@
 				"identifier": "comms-open",
 				"locales": [
 					{
-						"description": "This User is Open for Commissions!",
+						"description": "This user is a Comms Open!",
 						"lang": "en",
 						"name": "Comms Open"
 					}
@@ -111,12 +97,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fursuiter",
+				"identifier": "3d",
 				"locales": [
 					{
-						"description": "This User is a Fursuiter!",
+						"description": "This user is a 3d!",
 						"lang": "en",
-						"name": "Fursuiter"
+						"name": "3d"
 					}
 				],
 				"severity": "inform"
@@ -125,12 +111,124 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fursuit-maker",
+				"identifier": "2d",
 				"locales": [
 					{
-						"description": "This User is a Fursuit Maker!",
+						"description": "This user is a 2d!",
 						"lang": "en",
-						"name": "Fursuit Maker"
+						"name": "2d"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "writer",
+				"locales": [
+					{
+						"description": "This user is a Writer!",
+						"lang": "en",
+						"name": "Writer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sound-mixer",
+				"locales": [
+					{
+						"description": "This user is a Sound Mixer!",
+						"lang": "en",
+						"name": "Sound Mixer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "voice-actor",
+				"locales": [
+					{
+						"description": "This user is a Voice Actor!",
+						"lang": "en",
+						"name": "Voice Actor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "animator",
+				"locales": [
+					{
+						"description": "This user is an Animator!",
+						"lang": "en",
+						"name": "Animator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "artist",
+				"locales": [
+					{
+						"description": "This user is an Artist!",
+						"lang": "en",
+						"name": "Artist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "editor",
+				"locales": [
+					{
+						"description": "This user is an Editor!",
+						"lang": "en",
+						"name": "Editor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "publisher",
+				"locales": [
+					{
+						"description": "This user is a Publisher!",
+						"lang": "en",
+						"name": "Publisher"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sound-engineer",
+				"locales": [
+					{
+						"description": "This user is a Sound Engineer!",
+						"lang": "en",
+						"name": "Sound Engineer"
 					}
 				],
 				"severity": "inform"
@@ -142,7 +240,7 @@
 				"identifier": "composer",
 				"locales": [
 					{
-						"description": "This User is a Composer!",
+						"description": "This user is a Composer!",
 						"lang": "en",
 						"name": "Composer"
 					}
@@ -156,7 +254,7 @@
 				"identifier": "musician",
 				"locales": [
 					{
-						"description": "This User is a Musician!",
+						"description": "This user is a Musician!",
 						"lang": "en",
 						"name": "Musician"
 					}
@@ -167,12 +265,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "voice-actor",
+				"identifier": "singer",
 				"locales": [
 					{
-						"description": "This User is a Voice Actor!",
+						"description": "This user is a Singer!",
 						"lang": "en",
-						"name": "Voice Actor"
+						"name": "Singer"
 					}
 				],
 				"severity": "inform"
@@ -181,12 +279,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "sound-designer",
+				"identifier": "streamer",
 				"locales": [
 					{
-						"description": "This User is a Sound Designer!",
+						"description": "This user is a Streamer!",
 						"lang": "en",
-						"name": "Sound Designer"
+						"name": "Streamer"
 					}
 				],
 				"severity": "inform"
@@ -195,12 +293,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "sound-engineer",
+				"identifier": "videographer",
 				"locales": [
 					{
-						"description": "This User is a Sound Engineer!",
+						"description": "This user is a Videographer!",
 						"lang": "en",
-						"name": "Sound Engineer"
+						"name": "Videographer"
 					}
 				],
 				"severity": "inform"
@@ -209,12 +307,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "2d-art",
+				"identifier": "fursuiter",
 				"locales": [
 					{
-						"description": "This User works in 2D!",
+						"description": "This user is a Fursuiter!",
 						"lang": "en",
-						"name": "2D"
+						"name": "Fursuiter"
 					}
 				],
 				"severity": "inform"
@@ -223,12 +321,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "3d-art",
+				"identifier": "fursuit-maker",
 				"locales": [
 					{
-						"description": "This User works in 3D!",
+						"description": "This user is a Fursuit Maker!",
 						"lang": "en",
-						"name": "3D"
+						"name": "Fursuit Maker"
 					}
 				],
 				"severity": "inform"
@@ -237,12 +335,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "writer",
+				"identifier": "game-developer",
 				"locales": [
 					{
-						"description": "This User is a Writer!",
+						"description": "This user is a Game Developer!",
 						"lang": "en",
-						"name": "Writer"
+						"name": "Game Developer"
 					}
 				],
 				"severity": "inform"
@@ -251,35 +349,42 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "artist",
+				"identifier": "enigma",
 				"locales": [
 					{
-						"description": "This User is an Artist!",
+						"description": "This user is an Enigma!",
 						"lang": "en",
-						"name": "Artist"
+						"name": "Enigma"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"animator",
-			"game-developer",
 			"developer",
-			"graphic-designer",
+			"sound-editor",
+			"sound-designer",
 			"comms-closed",
 			"comms-open",
-			"fursuiter",
-			"fursuit-maker",
+			"3d",
+			"2d",
+			"writer",
+			"sound-mixer",
+			"voice-actor",
+			"animator",
+			"artist",
+			"editor",
+			"publisher",
+			"sound-engineer",
 			"composer",
 			"musician",
-			"voice-actor",
-			"sound-designer",
-			"sound-engineer",
-			"2d-art",
-			"3d-art",
-			"writer",
-			"artist"
+			"singer",
+			"streamer",
+			"videographer",
+			"fursuiter",
+			"fursuit-maker",
+			"game-developer",
+			"enigma"
 		]
 	}
 }
