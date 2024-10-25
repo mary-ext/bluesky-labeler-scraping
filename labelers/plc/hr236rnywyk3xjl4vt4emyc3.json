@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreig27jjof3bav2n5766esndbjr4tuy35siglclkaf2yoophz7jnhcm",
+	"cid": "bafyreib6rb43ztwpzdx4o3264axunschd7xiragctpv7ilffucczgpdcnu",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
-		"displayName": "FurSky Creators",
+		"displayName": "FurSky Creators [Delayed by ~17 hours]",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hr236rnywyk3xjl4vt4emyc3/bafkreihcfmcm25pumh5d4d7dgogbtnufz4vd5gap3dksl3epduua4u2fau@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-21T22:36:51.209Z",
-		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n\nAutomation bot by: @astra.bunnys.ky <- 18+\nManaged by: @deckardholiday.audioelk.com <- 18+\n\nCursor @ 2024-10-24T01:14:11Z, Delays ~= a few seconds",
-		"indexedAt": "2024-10-24T01:14:17.511Z"
+		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n\nAutomation bot by: @astra.bunnys.ky <- 18+\nManaged by: @deckardholiday.audioelk.com <- 18+\n\nCursor @ 2024-10-24T08:08:58Z, Delays ~= 17 hours",
+		"indexedAt": "2024-10-25T01:10:04.407Z"
 	},
-	"likeCount": 14,
-	"indexedAt": "2024-10-24T01:00:14.292Z",
+	"likeCount": 55,
+	"indexedAt": "2024-10-24T02:25:08.296Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -358,6 +358,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "podcaster",
+				"locales": [
+					{
+						"description": "This user is a Podcaster!",
+						"lang": "en",
+						"name": "Podcaster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "graphic-designer",
+				"locales": [
+					{
+						"description": "This user is a Graphic Designer!",
+						"lang": "en",
+						"name": "Graphic Designer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "photographer",
+				"locales": [
+					{
+						"description": "This user is a Photographer!",
+						"lang": "en",
+						"name": "Photographer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vn-dev",
+				"locales": [
+					{
+						"description": "This user is a Vn Dev!",
+						"lang": "en",
+						"name": "Vn Dev"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "community-manager",
+				"locales": [
+					{
+						"description": "This user is a Community Manager!",
+						"lang": "en",
+						"name": "Community Manager"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -384,7 +454,12 @@
 			"fursuiter",
 			"fursuit-maker",
 			"game-developer",
-			"enigma"
+			"enigma",
+			"podcaster",
+			"graphic-designer",
+			"photographer",
+			"vn-dev",
+			"community-manager"
 		]
 	}
 }

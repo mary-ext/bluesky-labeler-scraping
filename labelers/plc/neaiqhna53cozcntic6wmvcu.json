@@ -1,21 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:neaiqhna53cozcntic6wmvcu/app.bsky.labeler.service/self",
-	"cid": "bafyreidpe5ixi4flemllv5vdb55uhx5vxn5txiu2dj4galgaasnp2p5woy",
+	"cid": "bafyreibalvp6uyztrb62bwe6wqact7c4c5lb7oklji3ll4inum5ayrfiza",
 	"creator": {
 		"did": "did:plc:neaiqhna53cozcntic6wmvcu",
 		"handle": "mhweaponlabeler.bsky.social",
-		"displayName": "",
+		"displayName": "Monster Hunter Weapons Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:neaiqhna53cozcntic6wmvcu/bafkreia3zefsclmnkqanlup3fwumy3otb27nei46vnlc6a6nylkfpoufae@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-10-23T23:59:57.808Z",
-		"indexedAt": "2024-10-23T23:59:57.808Z"
+		"description": "Show which weapons do you use in Monster Hunter. Thinking about limiting to 2 weapons so it matches Wilds double weapon :) (Still WIP)\n\nManaged by @AeoluxJorge.bsky.social",
+		"indexedAt": "2024-10-24T12:29:46.807Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-10-24T00:12:01.847Z",
+	"likeCount": 3,
+	"indexedAt": "2024-10-24T20:32:04.883Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -37,12 +38,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "greatsword",
+				"identifier": "chargeblade",
 				"locales": [
 					{
-						"description": "Great Sword",
+						"description": "Charge Blade",
 						"lang": "en",
-						"name": "Great Sword"
+						"name": "Charge Blade"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "switchaxe",
+				"locales": [
+					{
+						"description": "Switch Axe",
+						"lang": "en",
+						"name": "Switch Axe"
 					}
 				],
 				"severity": "inform"
@@ -135,40 +150,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "switchaxe",
-				"locales": [
-					{
-						"description": "Switch Axe",
-						"lang": "en",
-						"name": "Switch Axe"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "chargeblade",
-				"locales": [
-					{
-						"description": "Charge Blade",
-						"lang": "en",
-						"name": "Charge Blade"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
 				"identifier": "insectglaive",
 				"locales": [
 					{
 						"description": "Insect Glaive",
 						"lang": "en",
 						"name": "Insect Glaive"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "greatsword",
+				"locales": [
+					{
+						"description": "Great Sword",
+						"lang": "en",
+						"name": "Great Sword"
 					}
 				],
 				"severity": "inform"
@@ -218,16 +219,16 @@
 		],
 		"labelValues": [
 			"longsword",
-			"greatsword",
+			"chargeblade",
+			"switchaxe",
 			"swordandshield",
 			"dualblades",
 			"hammer",
 			"huntinghorn",
 			"lance",
 			"gunlance",
-			"switchaxe",
-			"chargeblade",
 			"insectglaive",
+			"greatsword",
 			"lightbowgun",
 			"heavybowgun",
 			"bow"

@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hojkdezizv2hv7rhslu4frmw/app.bsky.labeler.service/self",
-	"cid": "bafyreiamsx6c24waccphpbvvtxq2rakmb3kdu33sb5uu6awif7myzp4q2u",
+	"cid": "bafyreifid5unzjzvlosxwu7uenfn2q7ye6dnbut4be2mzaanb4uqnwgh3q",
 	"creator": {
 		"did": "did:plc:hojkdezizv2hv7rhslu4frmw",
-		"handle": "bskyomg24.bsky.social",
+		"handle": "testingignore.roblox.social",
 		"displayName": "",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hojkdezizv2hv7rhslu4frmw/bafkreiahbirl3x4nimlor4czozzuvqd6kl7kibqw5g6mxb64z232inx5ba@jpeg",
 		"associated": {
@@ -18,7 +18,7 @@
 		"indexedAt": "2024-10-20T23:42:35.411Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-10-24T00:52:56.813Z",
+	"indexedAt": "2024-10-24T03:00:46.600Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -35,10 +35,25 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "testinglabelsecond",
+				"locales": [
+					{
+						"description": "What am I doing",
+						"lang": "en",
+						"name": "Test2"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"testing"
+			"testing",
+			"testinglabelsecond"
 		]
 	}
 }

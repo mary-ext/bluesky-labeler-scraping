@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:64jp26k5qmkevacivliezf43/app.bsky.labeler.service/self",
-	"cid": "bafyreiffhcqmkf3emzkdwnxulqohwvvyooah6ccsqmlnuw5ueyf5nvaoba",
+	"cid": "bafyreifqrj42vu57fcqd3bl4gc7xsx2frth3mcfjtsqp3wzxuqmrvgeypu",
 	"creator": {
 		"did": "did:plc:64jp26k5qmkevacivliezf43",
 		"handle": "fandomsky.net",
@@ -18,6 +18,26 @@
 	"indexedAt": "2024-10-23T05:43:06.100Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "Test-Label 1",
+				"locales": [
+					{
+						"description": "Test Label description. 1",
+						"lang": "en",
+						"name": "Test Label Display Name 1"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"Test-Label 1",
+			"Test-Label 2",
+			"Test-Label 3"
+		]
 	}
 }
