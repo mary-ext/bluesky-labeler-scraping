@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:blwl5jhgk7eygww2bhkt56hg/app.bsky.labeler.service/self",
+	"cid": "bafyreigxydesteuueazytikwwea5w3rn6lh7pbuf43wcx3tpqrnn3mnl7u",
+	"creator": {
+		"did": "did:plc:blwl5jhgk7eygww2bhkt56hg",
+		"handle": "backdate.mozzius.dev",
+		"displayName": "Backdated post labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:blwl5jhgk7eygww2bhkt56hg/bafkreibhqvltt44nyk65v4m7prafh5km5kpf5ogr3hoyty5o23kvqofigu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-25T07:01:39.615Z",
+		"description": "Marks backdated posts - i.e. posts where the creation date does not match the time they first showed up on the firehose\n\nRun by @samuel.bsky.team",
+		"indexedAt": "2024-10-25T07:18:57.507Z"
+	},
+	"likeCount": 71,
+	"indexedAt": "2024-10-25T07:45:30.335Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "backdated",
+				"locales": [
+					{
+						"description": "This post's self-identified creation timestamp does not match the time that it first appeared on the firehose. This may be because it's an imported archival post from a service like BlueArk, or it might be misleading.",
+						"lang": "en",
+						"name": "Backdated post"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "forwarddated",
+				"locales": [
+					{
+						"description": "This post was made by a time traveller (or, more likely, was submitted with an incorrect creation date)",
+						"lang": "en",
+						"name": "Post from the future"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"backdated",
+			"forwarddated"
+		]
+	}
+}

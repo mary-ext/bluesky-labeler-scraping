@@ -1,22 +1,25 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:p6eqp5xkulucs6ebeoqtveze/app.bsky.labeler.service/self",
-	"cid": "bafyreigvyo4diingynbdrayotgj6phvsdc2odtoswbo6227dfx7pi4lzgi",
+	"cid": "bafyreiacz3hefdtdjbjrcdpmde4g4jcuy6dqqspdt7wmplsxonjtuyqndq",
 	"creator": {
 		"did": "did:plc:p6eqp5xkulucs6ebeoqtveze",
-		"handle": "ozone.roblox.social",
-		"displayName": "Roblox Developer Labels",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:p6eqp5xkulucs6ebeoqtveze/bafkreicf6rkklu45uopgrzy7kdbiumlfowsiu7ry3spdnue3b7djxcncpi@jpeg",
+		"handle": "labeller.roblox.social",
+		"displayName": "Roblox Developer Labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:p6eqp5xkulucs6ebeoqtveze/bafkreihdcfwgeuj44rmfsrmspgxq7q3cv4mghb2nh4zoggjqm6abqqrvwa@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-10-20T21:47:54.606Z",
-		"description": "Labels for developers creating on the Roblox platform. To receive a label, subscribe & mention this account with your desired label. \n\nLabels may take a day or longer to be applied!\n\nRan by @as.omg.lol",
-		"indexedAt": "2024-10-21T04:59:13.213Z"
+		"description": "Labels for developers creating & reporting on the Roblox platform. To receive a label, subscribe & mention this account with your desired label. \n\nLabels may take a day or longer to be applied!\n\nRan by @as.omg.lol",
+		"indexedAt": "2024-10-25T08:25:59.111Z"
 	},
-	"likeCount": 47,
-	"indexedAt": "2024-10-20T22:47:50.270Z",
+	"likeCount": 50,
+	"indexedAt": "2024-10-25T13:46:44.846Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,26 +27,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "robloxnews",
+				"identifier": "robloxdev",
 				"locales": [
 					{
-						"description": "An account dedicated to sharing Roblox news.\n\n✅ This profile was verified through independent means.",
+						"description": "Anyone who is directly involved in creating Roblox experiences. This includes programmers, community managers, modelers, animators, composers, artists, etc.",
 						"lang": "en",
-						"name": "Roblox News Account"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "robloxexperience",
-				"locales": [
-					{
-						"description": "Any active and maintained Roblox experiences. An experience tied to this category is required to have 1M+ hours of overall playtime in the last 90 days.\n\n✅ This profile was verified through independent means.",
-						"lang": "en",
-						"name": "Roblox Experience"
+						"name": "Roblox Dev"
 					}
 				],
 				"severity": "inform"
@@ -55,9 +44,37 @@
 				"identifier": "ugccreator",
 				"locales": [
 					{
-						"description": "Anybody with credible UGC history.",
+						"description": "Anyone with credible UGC history.",
 						"lang": "en",
 						"name": "Roblox UGC Creator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robloxexperience",
+				"locales": [
+					{
+						"description": "Any Roblox experience/game that is currently under development or actively maintained.",
+						"lang": "en",
+						"name": "Roblox Game"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robloxteam",
+				"locales": [
+					{
+						"description": "Companies/Studios that actively create and contribute to the development of experiences/games on Roblox.",
+						"lang": "en",
+						"name": "Roblox Game Studio"
 					}
 				],
 				"severity": "inform"
@@ -69,9 +86,23 @@
 				"identifier": "robloxemployee",
 				"locales": [
 					{
-						"description": "Only verified Roblox Employee's may receive this label.\n\n✅ This profile was verified through independent means.",
+						"description": "Only verified users employed at Roblox Corporation may receive this label. \n\n✅ This profile was verified through independent means.",
 						"lang": "en",
 						"name": "Roblox Employee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robloxnews",
+				"locales": [
+					{
+						"description": "This profile is dedicated to sharing news about Roblox. \n\n✅ This profile was verified through independent means.",
+						"lang": "en",
+						"name": "Roblox News"
 					}
 				],
 				"severity": "inform"
@@ -83,23 +114,9 @@
 				"identifier": "robloxteedev",
 				"locales": [
 					{
-						"description": "Anybody that has top engaging experiences, required to be part of the internal Guilded server Roblox provides.\n\n✅ This profile was verified through independent means.",
+						"description": "Anyone that has created or contributed to top engaging experiences on the platform. \n\n✅ This profile was verified through independent means.",
 						"lang": "en",
 						"name": "Roblox Top Engaging Experiences"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "robloxdev",
-				"locales": [
-					{
-						"description": "Anybody that is directly involved in creating Roblox experiences. This includes programmers, community managers, modelers, animators, composers, artists, etc.",
-						"lang": "en",
-						"name": "Roblox Dev"
 					}
 				],
 				"severity": "inform"
@@ -108,10 +125,11 @@
 		"labelValues": [
 			"robloxdev",
 			"ugccreator",
+			"robloxexperience",
+			"robloxteam",
 			"robloxemployee",
 			"robloxnews",
-			"robloxteedev",
-			"robloxexperience"
+			"robloxteedev"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:npns6hnu6v47oatctk4ruxv2/app.bsky.labeler.service/self",
-	"cid": "bafyreiaibnyjrrtm4hojnqumw5swp332f6nwzs7dsle4jud2h356pdr3py",
+	"cid": "bafyreibmdvt5ahi6t6wmg6ymun4jdk724o3rmhifg47nsjsgkr5ijirrfa",
 	"creator": {
 		"did": "did:plc:npns6hnu6v47oatctk4ruxv2",
 		"handle": "gnl-labeler.bsky.social",
@@ -15,11 +15,125 @@
 		"description": "한국어 포스트를 자동으로 분류하여 필요에 따라 숨길 수 있는 라벨링 기능을 제공합니다.",
 		"indexedAt": "2024-10-21T03:26:52.609Z"
 	},
-	"likeCount": 184,
+	"likeCount": 186,
 	"indexedAt": "2024-10-13T13:09:27.086Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gnl-selflabel-spoiler",
+				"locales": [
+					{
+						"description": "작성자가 #그늘셀프_스포 태그를 포함한 게시물입니다.",
+						"lang": "ko",
+						"name": "셀프 라벨 (스포일러)"
+					},
+					{
+						"description": "Tagged with #그늘셀프_스포 by the author.",
+						"lang": "en",
+						"name": "Self Labeled (Spoiler)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gnl-selflabel-trigger",
+				"locales": [
+					{
+						"description": "작성자가 #그늘셀프_트리거 태그를 포함한 게시물입니다.",
+						"lang": "ko",
+						"name": "셀프 라벨 (트리거)"
+					},
+					{
+						"description": "Tagged with #그늘셀프_트리거 by the author.",
+						"lang": "en",
+						"name": "Self Labeled (Trigger)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "gnl-selflabel-image",
+				"locales": [
+					{
+						"description": "작성자가 #그늘셀프_미디어 태그를 포함한 게시물입니다.",
+						"lang": "ko",
+						"name": "셀프 라벨 (미디어)"
+					},
+					{
+						"description": "Tagged with #그늘셀프_미디어 by the author.",
+						"lang": "en",
+						"name": "Self Labeled (Media Only)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gnl-selflabel-offensive",
+				"locales": [
+					{
+						"description": "작성자가 #그늘셀프_욕설 태그를 포함한 게시물입니다.",
+						"lang": "ko",
+						"name": "셀프 라벨 (욕설)"
+					},
+					{
+						"description": "Tagged with #그늘셀프_욕설 by the author.",
+						"lang": "en",
+						"name": "Self Labeled (Language)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "gnl-selflabel",
+				"locales": [
+					{
+						"description": "작성자가 #그늘셀프 태그를 포함한 게시물입니다.",
+						"lang": "ko",
+						"name": "셀프 라벨 (기타)"
+					},
+					{
+						"description": "Tagged with #그늘셀프 by the author.",
+						"lang": "en",
+						"name": "Self Labeled (Generic)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "gnl-word-sexual",
+				"locales": [
+					{
+						"description": "(작업 중) 성적인 단어가 언급된 포스트를 라벨링합니다. 단어 인식 기준이 부정확할 수 있으므로 \"숨기기\" 설정은 추천하지 않습니다.",
+						"lang": "ko",
+						"name": "성적인 단어"
+					},
+					{
+						"description": "(WIP) Labels posts with sexually suggestive language in Korean. Using the \"Hide\" option is not recommended due to detection instabilities.",
+						"lang": "en",
+						"name": "Sexual Language (KR)"
+					}
+				],
+				"severity": "none"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -30,6 +144,11 @@
 						"description": "한국어로 된 자해 및 우울전시 위주의 계정에 라벨을 지정합니다.",
 						"lang": "ko",
 						"name": "자해 및 우울 트리거 계정"
+					},
+					{
+						"description": "Labels posts/accounts with self-harm or severe depression themes.",
+						"lang": "en",
+						"name": "Self-Harm and Depression (KR)"
 					}
 				],
 				"severity": "none"
@@ -46,15 +165,21 @@
 						"name": "성인물 관련"
 					},
 					{
-						"description": "Adult contents in Korean timeline, and accounts frequently interacting with or posting them.",
+						"description": "Adult contents in Korean, and accounts frequently interacting with or posting them.",
 						"lang": "en",
-						"name": "Adult content accounts (KR)"
+						"name": "Adult Content (KR)"
 					}
 				],
 				"severity": "none"
 			}
 		],
 		"labelValues": [
+			"gnl-selflabel-spoiler",
+			"gnl-selflabel-trigger",
+			"gnl-selflabel-image",
+			"gnl-selflabel-offensive",
+			"gnl-selflabel",
+			"gnl-word-sexual",
 			"gnl-self-harm",
 			"gnl-adult"
 		]

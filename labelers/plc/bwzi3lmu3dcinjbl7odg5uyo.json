@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bwzi3lmu3dcinjbl7odg5uyo/app.bsky.labeler.service/self",
-	"cid": "bafyreihzwddcq3egshx2y3bx4gvyqc2cfmifpeiswm67zrk7yhur2wqx44",
+	"cid": "bafyreie73mhfjezk6ytrcjw2yp4ibtvtrpl2homx4mhoy32vhv5gcmupg4",
 	"creator": {
 		"did": "did:plc:bwzi3lmu3dcinjbl7odg5uyo",
 		"handle": "helluva-labeler.bsky.social",
@@ -15,14 +15,28 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-21T20:45:24.909Z",
-		"description": "[WIP] Label yourself with your favorite Helluva Boss characters! Simply subscribe, then like one of the character replies in the Posts tab to gain that badge!\n\nMore characters will be added, potentially even from Hazbin.\n\nBuilt upon @skyware.js.org",
-		"indexedAt": "2024-10-21T23:24:45.308Z"
+		"description": "Label yourself with your favorite Hellaverse (Hazbin Hotel and Helluva Boss) characters! \n\nSimply subscribe, visit the #helluva-labeler-category tag to find categories, and like the replies for the characters you like!\n\nBuilt upon @skyware.js.org",
+		"indexedAt": "2024-10-25T11:01:53.611Z"
 	},
 	"likeCount": 11,
 	"indexedAt": "2024-10-21T20:59:26.587Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--helluva-boss-main-characters",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Helluva Boss - Main Characters ----"
+					}
+				],
+				"severity": "none"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -92,6 +106,118 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--hazbin-hotel-main-characters",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Hazbin Hotel - Main Characters ----"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "charlie-fan",
+				"locales": [
+					{
+						"description": "A fan of Charlie Maorningstar.",
+						"lang": "en",
+						"name": "Charlie Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vaggie-fan",
+				"locales": [
+					{
+						"description": "A fan of Vaggie.",
+						"lang": "en",
+						"name": "Vaggie Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "angel-dust-fan",
+				"locales": [
+					{
+						"description": "A fan of Angel Dust.",
+						"lang": "en",
+						"name": "Angel Dust Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "husk-fan",
+				"locales": [
+					{
+						"description": "A fan of Husk.",
+						"lang": "en",
+						"name": "Husk Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "niffty-fan",
+				"locales": [
+					{
+						"description": "A fan of Niffty.",
+						"lang": "en",
+						"name": "Niffty Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sir-pentious-fan",
+				"locales": [
+					{
+						"description": "A fan of Sir Pentious.",
+						"lang": "en",
+						"name": "Sir Pentious Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--helluva-boss-recurring-characters",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Helluva Boss - Recurring Characters ----"
+					}
+				],
+				"severity": "none"
 			},
 			{
 				"adultOnly": false,
@@ -222,6 +348,160 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--hazbin-hotel-recurring-characters",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Hazbin Hotel - Recurring Characters ----"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adam-fan",
+				"locales": [
+					{
+						"description": "A fan of Adam.",
+						"lang": "en",
+						"name": "Adam Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lute-fan",
+				"locales": [
+					{
+						"description": "A fan of Lute.",
+						"lang": "en",
+						"name": "Lute Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "egg-boiz-fan",
+				"locales": [
+					{
+						"description": "A fan of Egg Boiz.",
+						"lang": "en",
+						"name": "Egg Boiz Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cherri-bomb-fan",
+				"locales": [
+					{
+						"description": "A fan of Cherri Bomb.",
+						"lang": "en",
+						"name": "Cherri Bomb Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sera-fan",
+				"locales": [
+					{
+						"description": "A fan of Sera.",
+						"lang": "en",
+						"name": "Sera Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "emily-fan",
+				"locales": [
+					{
+						"description": "A fan of Emily.",
+						"lang": "en",
+						"name": "Emily Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "razzle-and-dazzle-fan",
+				"locales": [
+					{
+						"description": "A fan of Razzle and Dazzle.",
+						"lang": "en",
+						"name": "Razzle and Dazzle Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lillith-fan",
+				"locales": [
+					{
+						"description": "A fan of Lillith.",
+						"lang": "en",
+						"name": "Lillith Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--seven-deadly-sins",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Seven Deadly Sins ----"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lucifer-fan",
+				"locales": [
+					{
+						"description": "A fan of Lucifer Morningstar.",
+						"lang": "en",
+						"name": "Lucifer Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
 				"defaultSetting": "warn",
 				"identifier": "asmodeus-fan",
 				"locales": [
@@ -260,6 +540,132 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--overlords",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Overlords ----"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alastor-fan",
+				"locales": [
+					{
+						"description": "A fan of Alastor.",
+						"lang": "en",
+						"name": "Alastor Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rosie-fan",
+				"locales": [
+					{
+						"description": "A fan of Rosie.",
+						"lang": "en",
+						"name": "Rosie Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "valentino-fan",
+				"locales": [
+					{
+						"description": "A fan of Valentino.",
+						"lang": "en",
+						"name": "Valentino Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "velvette-fan",
+				"locales": [
+					{
+						"description": "A fan of Velvette.",
+						"lang": "en",
+						"name": "Velvette Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vox-fan",
+				"locales": [
+					{
+						"description": "A fan of Vox.",
+						"lang": "en",
+						"name": "Vox Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "carmilla-fan",
+				"locales": [
+					{
+						"description": "A fan of Carmilla Carmine.",
+						"lang": "en",
+						"name": "Carmilla Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zestial-fan",
+				"locales": [
+					{
+						"description": "A fan of Zestial.",
+						"lang": "en",
+						"name": "Zestial Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--helluva-boss-minor-characters",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Helluva Boss - Minor Characters ----"
+					}
+				],
+				"severity": "none"
 			},
 			{
 				"adultOnly": false,
@@ -358,14 +764,107 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "donotuse-category--hazbin-hotel-minor-characters",
+				"locales": [
+					{
+						"description": "Meta-label used to visually divide characters.\r\n\r\nYour setting for this label won't affect anything.",
+						"lang": "en",
+						"name": "---- Hazbin Hotel - Minor Characters ----"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "keekee-fan",
+				"locales": [
+					{
+						"description": "A fan of KeeKee.",
+						"lang": "en",
+						"name": "KeeKee Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fat-nuggets-fan",
+				"locales": [
+					{
+						"description": "A fan of Fat Nuggets.",
+						"lang": "en",
+						"name": "Fat Nuggets Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "katie-fan",
+				"locales": [
+					{
+						"description": "A fan of Katie Killjoy.",
+						"lang": "en",
+						"name": "Katie Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tom-fan",
+				"locales": [
+					{
+						"description": "A fan of Tom Trench.",
+						"lang": "en",
+						"name": "Tom Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mimzy-fan",
+				"locales": [
+					{
+						"description": "A fan of Mimzy.",
+						"lang": "en",
+						"name": "Mimzy Fan"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"donotuse-category--helluva-boss-main-characters",
 			"blitzo-fan",
 			"moxxie-fan",
 			"millie-fan",
 			"loona-fan",
 			"stolas-fan",
+			"donotuse-category--hazbin-hotel-main-characters",
+			"charlie-fan",
+			"vaggie-fan",
+			"angel-dust-fan",
+			"husk-fan",
+			"niffty-fan",
+			"sir-pentious-fan",
+			"donotuse-category--helluva-boss-recurring-characters",
 			"fizzarolli-fan",
 			"striker-fan",
 			"verosika-fan",
@@ -375,16 +874,42 @@
 			"wally-fan",
 			"vortex-fan",
 			"sallie-may-fan",
+			"donotuse-category--hazbin-hotel-recurring-characters",
+			"adam-fan",
+			"lute-fan",
+			"egg-boiz-fan",
+			"cherri-bomb-fan",
+			"sera-fan",
+			"emily-fan",
+			"razzle-and-dazzle-fan",
+			"lillith-fan",
+			"donotuse-category--seven-deadly-sins",
+			"lucifer-fan",
 			"asmodeus-fan",
 			"mammon-fan",
 			"beelzebub-fan",
+			"donotuse-category--overlords",
+			"alastor-fan",
+			"rosie-fan",
+			"valentino-fan",
+			"velvette-fan",
+			"vox-fan",
+			"carmilla-fan",
+			"zestial-fan",
+			"donotuse-category--helluva-boss-minor-characters",
 			"barbie-wire-fan",
 			"chaz-fan",
 			"paimon-fan",
 			"andrealphus-fan",
 			"vassago-fan",
 			"emberlynn-fan",
-			"baby-goat-fan"
+			"baby-goat-fan",
+			"donotuse-category--hazbin-hotel-minor-characters",
+			"keekee-fan",
+			"fat-nuggets-fan",
+			"katie-fan",
+			"tom-fan",
+			"mimzy-fan"
 		]
 	}
 }

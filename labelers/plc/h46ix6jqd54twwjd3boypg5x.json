@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:h46ix6jqd54twwjd3boypg5x/app.bsky.labeler.service/self",
+	"cid": "bafyreieahdcjrgj323u5s3z7jlhnxwzo2lj6nsqs62nxhm5a4gw6ydxz6q",
+	"creator": {
+		"did": "did:plc:h46ix6jqd54twwjd3boypg5x",
+		"handle": "prts-label.rhodesisland.space",
+		"displayName": "PRTS Labeling Service",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:h46ix6jqd54twwjd3boypg5x/bafkreibdp3vqaoodyqqgcixrtozvhntihk3u5gduay27feihcsasauexha@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-24T18:48:53.806Z",
+		"description": "Work in Progress.\n\nA labeling service for the Doctors involved in the world of Arknights.",
+		"indexedAt": "2024-10-25T18:26:07.707Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-10-25T20:07:15.541Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "faction-rhodes-island",
+				"locales": [
+					{
+						"description": "Rhodes Island Pharmaceuticals Inc. is a registered drug R&D company working on medical solutions for countries, organizations, and individuals infected with Oripathy. ",
+						"lang": "en",
+						"name": "Rhodes Island"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "faction-reunion",
+				"locales": [
+					{
+						"description": "A radical Infected organization, Reunion rallies around the cause of Infected nationalism, rejecting racial and national identities. ",
+						"lang": "en",
+						"name": "Reunion Movement"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"faction-rhodes-island",
+			"faction-reunion"
+		]
+	}
+}

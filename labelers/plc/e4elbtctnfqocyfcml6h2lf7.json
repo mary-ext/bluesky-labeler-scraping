@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreib3qlipsehyhaoiakt4mjvsu5hmiddufb2n6tk5q22oacmvksclou",
+	"cid": "bafyreibm25mdgwkjh24h63q3xuqdgv5lsq2carojjfjpgizwl6lhdxqr7y",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 665,
+	"likeCount": 668,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "troll-sign",
+				"locales": [
+					{
+						"description": "Applied to posts which contain phrases or hashtags used in organized raids of the site by external actors.",
+						"lang": "en",
+						"name": "Troll Sign"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -100,7 +114,7 @@
 				"identifier": "maga-trump",
 				"locales": [
 					{
-						"description": "Username and / or description which includes MAGA, TRUMP, or TRUMP 2024.",
+						"description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024.",
 						"lang": "en",
 						"name": "MAGA"
 					}
@@ -275,6 +289,7 @@
 			}
 		],
 		"labelValues": [
+			"troll-sign",
 			"elon-musk",
 			"sports-betting",
 			"nazi-symbolism",

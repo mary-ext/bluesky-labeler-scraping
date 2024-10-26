@@ -1,0 +1,44 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:77uoxcpiz5ljvaoceel3w5nv/app.bsky.labeler.service/self",
+	"cid": "bafyreicxbh3mhj2kfewhnlrxgucwvbhc2qtw2id4qqkazvzxs6fy6opxvm",
+	"creator": {
+		"did": "did:plc:77uoxcpiz5ljvaoceel3w5nv",
+		"handle": "ozone.ally.cat",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:77uoxcpiz5ljvaoceel3w5nv/bafkreidvdwmjz64jf5gzbaskmetscfv6o374oyhxwnta2icuy6uhkeegau@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-10-25T19:04:40.708Z",
+		"indexedAt": "2024-10-25T19:04:40.708Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-10-25T22:27:08.803Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "this is a test label! (You can ignore it)",
+						"lang": "en",
+						"name": "Test Label"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"test"
+		]
+	}
+}

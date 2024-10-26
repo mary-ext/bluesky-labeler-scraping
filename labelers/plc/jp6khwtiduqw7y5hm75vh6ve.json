@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jp6khwtiduqw7y5hm75vh6ve/app.bsky.labeler.service/self",
-	"cid": "bafyreidj5h6yhojjgsgbiffmvr4pl5fy4265aewsewe4ef64hwxyj2nyii",
+	"cid": "bafyreidmlnnq3jonqmqvwxb7asjsmr7awvbpjkcqfff5f36vuzgbowr4oi",
 	"creator": {
 		"did": "did:plc:jp6khwtiduqw7y5hm75vh6ve",
 		"handle": "locate.aviva.gay",
@@ -16,35 +16,51 @@
 		"indexedAt": "2024-10-23T19:42:50.808Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-10-25T01:11:10.377Z",
+	"indexedAt": "2024-10-25T22:36:06.120Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"blurs": "none",
-				"identifier": "us-wi-madison",
+				"identifier": "relation-bheidefj-boundary",
+				"locales": [
+					{
+						"description": "Ciudad de México, Cuauhtémoc, Ciudad de México, México",
+						"lang": "en",
+						"name": "Ciudad de México CMX 🇲🇽"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "relation-ddfcaea-boundary",
 				"locales": [
 					{
 						"description": "Madison, Dane County, Wisconsin, United States",
 						"lang": "en",
 						"name": "Madison WI 🇺🇸"
-					},
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "relation-cechjb-boundary",
+				"locales": [
 					{
-						"description": "Localizado emMadison, Dane County, Wisconsin, United States",
-						"lang": "pt",
-						"name": "Madison WI 🇺🇸"
-					},
-					{
-						"description": "Situado enMadison, Dane County, Wisconsin, United States",
-						"lang": "es",
-						"name": "Madison WI 🇺🇸"
+						"description": "Fitchburg, Dane County, Wisconsin, United States",
+						"lang": "en",
+						"name": "Fitchburg WI 🇺🇸"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"us-wi-madison"
+			"relation-bheidefj-boundary",
+			"relation-ddfcaea-boundary",
+			"relation-cechjb-boundary"
 		]
 	}
 }
