@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:roj4uljbc4iupezb3sv2mhee/app.bsky.labeler.service/self",
-  "cid": "bafyreig7vk74rm42rinr7eoukt76iuu766stfdi45bjc6omlxvfooq7afu",
+  "cid": "bafyreihoswdsijcekxlyfac5ohtsiqvlbngwtmikbhxkkr66no7l42vyle",
   "creator": {
     "did": "did:plc:roj4uljbc4iupezb3sv2mhee",
     "handle": "teletextlabeler.bsky.social",
@@ -11,10 +11,10 @@
     },
     "labels": [],
     "createdAt": "2024-10-24T14:42:47.214Z",
-    "description": "An opt-in labeling service for Teletext enthusiasts!\n\nSubscribe to the labeler using the button at the top of this profile (it's free) to see your own and other people's labels.\n\nLike the appropriate posts to apply those labels to your own account.",
-    "indexedAt": "2024-10-24T21:23:05.608Z"
+    "description": "A labeling service for Teletext enthusiasts!\n\n1. Subscribe to see your own and other people's labels\n2. Like the relevant posts to apply labels to your own account\n\nYour likes may vanish when the labeler is refreshed, but don't worry, the labels won't.",
+    "indexedAt": "2024-10-25T15:04:17.812Z"
   },
-  "indexedAt": "2024-10-24T16:40:42.256Z",
+  "indexedAt": "2024-10-25T15:17:09.218Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -84,6 +84,20 @@
             "description": "This person makes hardware for the display and/or insertion of teletext.",
             "lang": "en",
             "name": "🛠 Teletext Hardware Maker"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "merch",
+        "locales": [
+          {
+            "description": "This person makes teletext-inspired merchandise.",
+            "lang": "en",
+            "name": "🛒 Teletext Merch"
           }
         ],
         "severity": "inform"
@@ -193,6 +207,7 @@
       "employee",
       "fan",
       "hardware",
+      "merch",
       "podcast",
       "recoverer",
       "service",

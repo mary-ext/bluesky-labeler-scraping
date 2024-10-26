@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreib3qlipsehyhaoiakt4mjvsu5hmiddufb2n6tk5q22oacmvksclou",
+  "cid": "bafyreibm25mdgwkjh24h63q3xuqdgv5lsq2carojjfjpgizwl6lhdxqr7y",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "troll-sign",
+        "locales": [
+          {
+            "description": "Applied to posts which contain phrases or hashtags used in organized raids of the site by external actors.",
+            "lang": "en",
+            "name": "Troll Sign"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -98,7 +112,7 @@
         "identifier": "maga-trump",
         "locales": [
           {
-            "description": "Username and / or description which includes MAGA, TRUMP, or TRUMP 2024.",
+            "description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024.",
             "lang": "en",
             "name": "MAGA"
           }
@@ -273,6 +287,7 @@
       }
     ],
     "labelValues": [
+      "troll-sign",
       "elon-musk",
       "sports-betting",
       "nazi-symbolism",
