@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreibm25mdgwkjh24h63q3xuqdgv5lsq2carojjfjpgizwl6lhdxqr7y",
+	"cid": "bafyreiaa5cntfptdjyco3obsgo7knl4l4ymsjfm4qrbyode6hkv7ky2vuy",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,21 +18,103 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 668,
+	"likeCount": 670,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
+				"blurs": "none",
+				"identifier": "alf",
+				"locales": [
+					{
+						"description": "You know what this is for.",
+						"lang": "en",
+						"name": "Alf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "alt-tech",
+				"locales": [
+					{
+						"description": "Applied to posts which contain a link to sites which are considered alt-tech, such as givesendgo.com or rumble.com. Read more about alt-tech here: https://en.wikipedia.org/wiki/Alt-tech",
+						"lang": "en",
+						"name": "Alt-tech"
+					}
+				],
+				"severity": "alert"
+			},
+			{
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
-				"identifier": "troll-sign",
+				"identifier": "assadist",
 				"locales": [
 					{
-						"description": "Applied to posts which contain phrases or hashtags used in organized raids of the site by external actors.",
+						"description": "Username, description, or content that supports Syrian dictator Bashar al-Assad, or denies the atrocities committed by his regime. If you heve never worked for Grayzone or are not Vanessa Beeley this likely will never apply to you.",
 						"lang": "en",
-						"name": "Troll Sign"
+						"name": "Assad Apologist"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "beans",
+				"locales": [
+					{
+						"description": "This is a label for people who want a badge that says \"Beans\" on their profile.",
+						"lang": "en",
+						"name": "Beans"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "bluesky-elder",
+				"locales": [
+					{
+						"description": "This user has been here since before the media tab (August 2023). This label is not a label of honor—no highly esteemed deed is commemorated here.",
+						"lang": "en",
+						"name": "Bluesky Elder"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "dinosaur-emoji",
+				"locales": [
+					{
+						"description": "Profile description which includes 🦖. This emoji is frequently used by transphobes from the UK to self-identify. ",
+						"lang": "en",
+						"name": "🦖: Dinosaur Emoji"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "disinformation-network",
+				"locales": [
+					{
+						"description": "This post links to sources known to be part of pro-Kremlin and pro-Assad disinformation networks. More detail available here: https://bsky.app/profile/labeler.mountainherder.xyz/post/3l5uvdirylt2e",
+						"lang": "en",
+						"name": "Disinformation Network"
 					}
 				],
 				"severity": "alert"
@@ -55,15 +137,57 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
-				"identifier": "sports-betting",
+				"identifier": "fundraising-link",
 				"locales": [
 					{
-						"description": "Applied to posts which contain a link to sites commonly used for sports betting, such as Draft Kings or Fan Duel.",
+						"description": "Applied to posts which contain a link to sites commonly used for fundraising or requesting money, such as gofundme or ko-fi.",
 						"lang": "en",
-						"name": "Sports Betting Link"
+						"name": "Fundraising Link"
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "hammer-sickle",
+				"locales": [
+					{
+						"description": "Username and / or description which includes ☭. (English only)",
+						"lang": "en",
+						"name": "☭: Hammer & Sickle"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "inverted-red-triangle",
+				"locales": [
+					{
+						"description": "Username and / or description which includes 🔻.",
+						"lang": "en",
+						"name": "🔻: Inverted Red Triangle"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "maga-trump",
+				"locales": [
+					{
+						"description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024.",
+						"lang": "en",
+						"name": "MAGA"
+					}
+				],
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
@@ -95,14 +219,14 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "disinformation-network",
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "sensual-alf",
 				"locales": [
 					{
-						"description": "This post links to sources known to be part of pro-Kremlin and pro-Assad disinformation networks. More detail available here: https://bsky.app/profile/labeler.mountainherder.xyz/post/3l5uvdirylt2e",
+						"description": "Lewd and rude Alf.",
 						"lang": "en",
-						"name": "Disinformation Network"
+						"name": "Sensual Alf"
 					}
 				],
 				"severity": "alert"
@@ -111,15 +235,15 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
-				"identifier": "maga-trump",
+				"identifier": "sports-betting",
 				"locales": [
 					{
-						"description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024.",
+						"description": "Applied to posts which contain a link to sites commonly used for sports betting, such as Draft Kings or Fan Duel.",
 						"lang": "en",
-						"name": "MAGA"
+						"name": "Sports Betting Link"
 					}
 				],
-				"severity": "alert"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
@@ -139,62 +263,6 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "ignore",
-				"identifier": "dinosaur-emoji",
-				"locales": [
-					{
-						"description": "Profile description which includes 🦖. This emoji is frequently used by transphobes from the UK to self-identify. ",
-						"lang": "en",
-						"name": "🦖: Dinosaur Emoji"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "warn",
-				"identifier": "alt-tech",
-				"locales": [
-					{
-						"description": "Applied to posts which contain a link to sites which are considered alt-tech, such as givesendgo.com or rumble.com. Read more about alt-tech here: https://en.wikipedia.org/wiki/Alt-tech",
-						"lang": "en",
-						"name": "Alt-tech"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "inverted-red-triangle",
-				"locales": [
-					{
-						"description": "Username and / or description which includes 🔻.",
-						"lang": "en",
-						"name": "🔻: Inverted Red Triangle"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "beans",
-				"locales": [
-					{
-						"description": "This is a label for people who want a badge that says \"Beans\" on their profile.",
-						"lang": "en",
-						"name": "Beans"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
 				"identifier": "zeta",
 				"locales": [
 					{
@@ -204,110 +272,27 @@
 					}
 				],
 				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "fundraising-link",
-				"locales": [
-					{
-						"description": "Applied to posts which contain a link to sites commonly used for fundraising or requesting money, such as gofundme or ko-fi.",
-						"lang": "en",
-						"name": "Fundraising Link"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "bluesky-elder",
-				"locales": [
-					{
-						"description": "This user has been here since before the media tab (August 2023). This label is not a label of honor—no highly esteemed deed is commemorated here.",
-						"lang": "en",
-						"name": "Bluesky Elder"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "media",
-				"defaultSetting": "warn",
-				"identifier": "sensual-alf",
-				"locales": [
-					{
-						"description": "Lewd and rude Alf.",
-						"lang": "en",
-						"name": "Sensual Alf"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "assadist",
-				"locales": [
-					{
-						"description": "Username, description, or content that supports Syrian dictator Bashar al-Assad, or denies the atrocities committed by his regime. If you heve never worked for Grayzone or are not Vanessa Beeley this likely will never apply to you.",
-						"lang": "en",
-						"name": "Assad Apologist"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "hammer-sickle",
-				"locales": [
-					{
-						"description": "Username and / or description which includes ☭. (English only)",
-						"lang": "en",
-						"name": "☭: Hammer & Sickle"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"blurs": "none",
-				"identifier": "alf",
-				"locales": [
-					{
-						"description": "You know what this is for.",
-						"lang": "en",
-						"name": "Alf"
-					}
-				],
-				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"troll-sign",
-			"elon-musk",
-			"sports-betting",
-			"nazi-symbolism",
-			"rmve-imve",
-			"disinformation-network",
-			"maga-trump",
-			"terf-gc",
-			"dinosaur-emoji",
-			"inverted-red-triangle",
-			"zeta",
-			"hammer-sickle",
-			"fundraising-link",
+			"alf",
 			"alt-tech",
+			"assadist",
 			"beans",
 			"bluesky-elder",
+			"dinosaur-emoji",
+			"disinformation-network",
+			"elon-musk",
+			"fundraising-link",
+			"hammer-sickle",
+			"inverted-red-triangle",
+			"maga-trump",
+			"nazi-symbolism",
+			"rmve-imve",
 			"sensual-alf",
-			"alf",
-			"assadist"
+			"sports-betting",
+			"terf-gc",
+			"zeta"
 		]
 	}
 }

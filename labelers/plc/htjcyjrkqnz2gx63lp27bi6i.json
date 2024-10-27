@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:htjcyjrkqnz2gx63lp27bi6i/app.bsky.labeler.service/self",
-	"cid": "bafyreih4psdcf2xvuuitb5nazb74mdvs4g5a7657izhewbj2uokwt5mqby",
+	"cid": "bafyreieq7qlepprwz434lmuxrfe5dm6pj7sgpz2cg6kuw52l4gl3oogo7e",
 	"creator": {
 		"did": "did:plc:htjcyjrkqnz2gx63lp27bi6i",
 		"handle": "labeler.brioco.space",
@@ -17,6 +17,49 @@
 	"indexedAt": "2024-10-25T04:46:59.045Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "bs-papega",
+				"locales": [
+					{
+						"description": "Papega map player. Enjoys and prefers papega-style maps.",
+						"lang": "en",
+						"name": "Papega"
+					},
+					{
+						"description": "パペーガマップの好み。",
+						"lang": "ja",
+						"name": "パペーガ"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "bs-mapper",
+				"locales": [
+					{
+						"description": "This Account makes custom Beat Saber Maps",
+						"lang": "en",
+						"name": "🎼Mapper"
+					},
+					{
+						"description": "カスタムマップを作っています。",
+						"lang": "ja",
+						"name": "🎼マッパー"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"bs-papega",
+			"bs-mapper"
+		]
 	}
 }

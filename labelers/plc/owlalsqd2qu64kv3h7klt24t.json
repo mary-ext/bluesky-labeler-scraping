@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreieaz77ne5sptltlwkz2hs3crm4e626cea2w7jivizqomguwjrnu7y",
+	"cid": "bafyreib6kfabrffvnrffhlxb7udvlqlene3m4gpvqdhkibuyrhcftkp4fm",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -15,11 +15,39 @@
 		"description": "Identify the game engine that you use on your profile and everywhere you post!",
 		"indexedAt": "2024-10-21T15:16:21.111Z"
 	},
-	"likeCount": 159,
+	"likeCount": 175,
 	"indexedAt": "2024-10-21T13:55:25.974Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ebitengine",
+				"locales": [
+					{
+						"description": "This user is using Ebitengine, from https://ebitengine.org/",
+						"lang": "en",
+						"name": "Ebitengine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Three.js",
+				"locales": [
+					{
+						"description": "This user is using Three.js, from https://threejs.org/",
+						"lang": "en",
+						"name": "Three.js"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -520,6 +548,8 @@
 			"gdevelop",
 			"phaser",
 			"pixijs",
+			"three.js",
+			"ebitengine",
 			"defold",
 			"haxeflixel",
 			"clickteamfusion",

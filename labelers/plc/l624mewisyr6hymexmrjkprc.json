@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:l624mewisyr6hymexmrjkprc/app.bsky.labeler.service/self",
-	"cid": "bafyreie6s4gd3ewudp3ysdeksdfxkqkjqlqesbf6bifqy5jwrhzaujqe3q",
+	"cid": "bafyreiag22piovpbh2dtket4lnr4inebckhwnqz2jcb3ypsyyxp6xbuxhi",
 	"creator": {
 		"did": "did:plc:l624mewisyr6hymexmrjkprc",
 		"handle": "creatorlabeler.bsky.social",
@@ -18,11 +18,25 @@
 		"description": "Heyo! I'm the Content Creator Labeler!\n\nI'm simply a labeling service to show the different kinds of content creators out there!\n\nThis system is entirely voluntary! Not required or anything!\n\nPlease report for any AI/Bots in Artist/Designer!",
 		"indexedAt": "2024-10-20T05:02:44.713Z"
 	},
-	"likeCount": 2811,
+	"likeCount": 2852,
 	"indexedAt": "2024-10-20T04:19:18.286Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "l-cosplay",
+				"locales": [
+					{
+						"description": "Cosplayers are content creators who dress up as characters from television, film, video games, or anime!",
+						"lang": "en",
+						"name": "Cosplayer"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -305,6 +319,7 @@
 			}
 		],
 		"labelValues": [
+			"l-cosplay",
 			"label-podcast",
 			"l-justvtuber",
 			"l-videoeditor",

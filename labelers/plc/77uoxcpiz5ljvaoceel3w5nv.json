@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:77uoxcpiz5ljvaoceel3w5nv/app.bsky.labeler.service/self",
-	"cid": "bafyreicxbh3mhj2kfewhnlrxgucwvbhc2qtw2id4qqkazvzxs6fy6opxvm",
+	"cid": "bafyreico6agcup4efclsmdkp4irub36uajrvpvgmelepjuu336ru4st4tm",
 	"creator": {
 		"did": "did:plc:77uoxcpiz5ljvaoceel3w5nv",
 		"handle": "ozone.ally.cat",
-		"displayName": "",
+		"displayName": "content canary",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:77uoxcpiz5ljvaoceel3w5nv/bafkreidvdwmjz64jf5gzbaskmetscfv6o374oyhxwnta2icuy6uhkeegau@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,9 +15,10 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-25T19:04:40.708Z",
-		"indexedAt": "2024-10-25T19:04:40.708Z"
+		"description": "Post content self-labeling to help filter posts.\n\nDM me your posts with (just) the name of the label you want and it will be automatically applied.\n\nreports will be ignored (maybe i'll add labeling others' posts later)\n\nWant more labels? DM @ally.cat",
+		"indexedAt": "2024-10-26T17:09:48.405Z"
 	},
-	"likeCount": 0,
+	"likeCount": 1,
 	"indexedAt": "2024-10-25T22:27:08.803Z",
 	"labels": [],
 	"policies": {
@@ -35,10 +36,145 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "abdl",
+				"locales": [
+					{
+						"description": "General ABDL (adult baby/diaper lover) content.",
+						"lang": "en",
+						"name": "ABDL"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "ageplay",
+				"locales": [
+					{
+						"description": "Content involving ageplay, where a participant plays as a different age.",
+						"lang": "en",
+						"name": "Ageplay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "agere",
+				"locales": [
+					{
+						"description": "Content involving (SFW) age regression.",
+						"lang": "en",
+						"name": "Agere"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "bondage",
+				"locales": [
+					{
+						"description": "Content involving bondage, restraints, or other forms of physical restraint.",
+						"lang": "en",
+						"name": "Bondage"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "diapers",
+				"locales": [
+					{
+						"description": "Content involving diapers.",
+						"lang": "en",
+						"name": "Diapers"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "incest",
+				"locales": [
+					{
+						"description": "Content involving incest.",
+						"lang": "en",
+						"name": "Incest"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "nsfw",
+				"locales": [
+					{
+						"description": "Content that is not safe for work, or is sexually explicit.",
+						"lang": "en",
+						"name": "NSFW"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "petplay",
+				"locales": [
+					{
+						"description": "Content involving a participant is treated as a pet.",
+						"lang": "en",
+						"name": "Petplay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "piss",
+				"locales": [
+					{
+						"description": "Urine / watersports / desparation / etc. content.",
+						"lang": "en",
+						"name": "Piss"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"test"
+			"test",
+			"abdl",
+			"ageplay",
+			"agere",
+			"bondage",
+			"diapers",
+			"incest",
+			"nsfw",
+			"petplay",
+			"piss"
 		]
 	}
 }
