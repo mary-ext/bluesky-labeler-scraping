@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:j2f7hqwhrstdmtidaslcaqjd/app.bsky.labeler.service/self",
-	"cid": "bafyreibaisto3yfrswbqxlk3sys6bzubghywbe6bkt3vko37znaemabsv4",
+	"cid": "bafyreibowro6sbat2d26b3j3uzdoeyxih6zcxt4zdnkjj4fosqq3rbu7vy",
 	"creator": {
 		"did": "did:plc:j2f7hqwhrstdmtidaslcaqjd",
-		"handle": "idollabeler.bsky.social",
+		"handle": "idol.coded.mom",
 		"displayName": "Idol Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j2f7hqwhrstdmtidaslcaqjd/bafkreicjj6xbdj5gah2uvnrvdgg4t4mqz77b3roks3ck6lkwce3abxmpvm@jpeg",
 		"associated": {
@@ -13,10 +13,10 @@
 		"labels": [],
 		"createdAt": "2024-09-04T18:35:50.932Z",
 		"description": "[WORK IN PROGRESS]\n\nAre you a Love Live fan?\n\nShow everyone what your best girl is with a cool label!",
-		"indexedAt": "2024-09-07T19:51:56.519Z"
+		"indexedAt": "2024-10-27T20:14:49.410Z"
 	},
 	"likeCount": 5,
-	"indexedAt": "2024-09-04T19:49:19.942Z",
+	"indexedAt": "2024-10-28T01:13:02.338Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -30,6 +30,20 @@
 						"description": "Your best girl is Honoka!",
 						"lang": "en",
 						"name": "honoka"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kotori",
+				"locales": [
+					{
+						"description": "Your best girl is Kotori!",
+						"lang": "en",
+						"name": "kotori"
 					}
 				],
 				"severity": "inform"
@@ -52,40 +66,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "hanayo",
+				"identifier": "eli",
 				"locales": [
 					{
-						"description": "Your best girl is Hanayo!",
+						"description": "Your best girl is Eli!",
 						"lang": "en",
-						"name": "hanayo"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "rin",
-				"locales": [
-					{
-						"description": "Your best girl is Rin!",
-						"lang": "en",
-						"name": "rin"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "maki",
-				"locales": [
-					{
-						"description": "Your best girl is Maki!",
-						"lang": "en",
-						"name": "maki"
+						"name": "eli"
 					}
 				],
 				"severity": "inform"
@@ -122,12 +108,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "kotori",
+				"identifier": "maki",
 				"locales": [
 					{
-						"description": "Your best girl is Kotori!",
+						"description": "Your best girl is Maki!",
 						"lang": "en",
-						"name": "kotori"
+						"name": "maki"
 					}
 				],
 				"severity": "inform"
@@ -136,12 +122,40 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "eli",
+				"identifier": "rin",
 				"locales": [
 					{
-						"description": "Your best girl is Eli!",
+						"description": "Your best girl is Rin!",
 						"lang": "en",
-						"name": "eli"
+						"name": "rin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hanayo",
+				"locales": [
+					{
+						"description": "Your best girl is Hanayo!",
+						"lang": "en",
+						"name": "hanayo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rina",
+				"locales": [
+					{
+						"description": "Your best girl is Rina!",
+						"lang": "en",
+						"name": "rina"
 					}
 				],
 				"severity": "inform"
@@ -149,14 +163,15 @@
 		],
 		"labelValues": [
 			"honoka",
+			"kotori",
 			"umi",
-			"hanayo",
-			"rin",
-			"maki",
+			"eli",
 			"nozomi",
 			"nico",
-			"kotori",
-			"eli"
+			"maki",
+			"rin",
+			"hanayo",
+			"rina"
 		]
 	}
 }

@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:z3gcplqmf4fq7pk2glxd664g/app.bsky.labeler.service/self",
+	"cid": "bafyreidazoe6slmvqlwyyfvhhshr5aomswsoummcq642mkhzwdthf6tts4",
+	"creator": {
+		"did": "did:plc:z3gcplqmf4fq7pk2glxd664g",
+		"handle": "vgm-labeler.ivgorchestra.com",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z3gcplqmf4fq7pk2glxd664g/bafkreihpvnicf4vyy56qu3i47rzyjeugc2vpgzgfd7o6psdasezldvas5e@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-27T12:29:09.711Z",
+		"indexedAt": "2024-10-27T12:29:09.711Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-10-27T12:53:05.330Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "test-label",
+				"locales": [
+					{
+						"description": "This is only for development purposes.",
+						"lang": "en",
+						"name": "Test Label"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"test-label"
+		]
+	}
+}

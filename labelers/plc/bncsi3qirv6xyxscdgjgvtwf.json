@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:bncsi3qirv6xyxscdgjgvtwf/app.bsky.labeler.service/self",
+	"cid": "bafyreibc3axzwghnpazc5l3gnhvbtnsniu4xy5i2e742ieswx7bd63z7ty",
+	"creator": {
+		"did": "did:plc:bncsi3qirv6xyxscdgjgvtwf",
+		"handle": "ctbybot.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bncsi3qirv6xyxscdgjgvtwf/bafkreic7db763rl52ji6c5urqgacy7hvycszw2u3ktqpbbtf4rf6fcj4a4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-27T17:31:33.507Z",
+		"description": "this is a bot created by @ctby.bsky.social",
+		"indexedAt": "2024-10-27T17:32:04.912Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-10-27T17:44:17.175Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "high_ratio",
+				"locales": [
+					{
+						"description": "This user follows a lot more accounts than they have followers.",
+						"lang": "en",
+						"name": "High Following Ratio"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"high_ratio"
+		]
+	}
+}

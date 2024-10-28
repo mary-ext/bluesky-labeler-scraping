@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreib6kfabrffvnrffhlxb7udvlqlene3m4gpvqdhkibuyrhcftkp4fm",
+	"cid": "bafyreig2wyh5qsulvbu7fxlwgifiqazlvcas75yjyf7dwpmo5x5u3xrk5i",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Identify the game engine that you use on your profile and everywhere you post!",
 		"indexedAt": "2024-10-21T15:16:21.111Z"
 	},
-	"likeCount": 175,
+	"likeCount": 189,
 	"indexedAt": "2024-10-21T13:55:25.974Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "penjintwo",
+				"locales": [
+					{
+						"description": "This user uses Penjin, from https://github.com/pokeparadox/PenjinTwo",
+						"lang": "en",
+						"name": "Penjin"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -550,6 +564,7 @@
 			"pixijs",
 			"three.js",
 			"ebitengine",
+			"penjintwo",
 			"defold",
 			"haxeflixel",
 			"clickteamfusion",

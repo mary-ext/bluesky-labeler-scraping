@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:htjcyjrkqnz2gx63lp27bi6i/app.bsky.labeler.service/self",
-	"cid": "bafyreieq7qlepprwz434lmuxrfe5dm6pj7sgpz2cg6kuw52l4gl3oogo7e",
+	"cid": "bafyreifip4wo4th2cdmtmkk2q52ybfreye7wn5qnkamyzllcuqsy4z2bvm",
 	"creator": {
 		"did": "did:plc:htjcyjrkqnz2gx63lp27bi6i",
 		"handle": "labeler.brioco.space",
@@ -22,12 +22,31 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "inform",
+				"identifier": "bs-tech",
+				"locales": [
+					{
+						"description": "Tech map enjoyer",
+						"lang": "en",
+						"name": "Tech player"
+					},
+					{
+						"description": "Tech map enjoyer",
+						"lang": "ja",
+						"name": "Tech player"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
 				"identifier": "bs-papega",
 				"locales": [
 					{
 						"description": "Papega map player. Enjoys and prefers papega-style maps.",
 						"lang": "en",
-						"name": "Papega"
+						"name": "Pepega"
 					},
 					{
 						"description": "パペーガマップの好み。",
@@ -58,6 +77,7 @@
 			}
 		],
 		"labelValues": [
+			"bs-tech",
 			"bs-papega",
 			"bs-mapper"
 		]
