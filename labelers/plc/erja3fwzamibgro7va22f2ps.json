@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:erja3fwzamibgro7va22f2ps/app.bsky.labeler.service/self",
-	"cid": "bafyreib7tospqscrwkg22kog26dxtwdkohqgyz7meihilugnyfcaa3ajwi",
+	"cid": "bafyreif2pxd3ysnwpycm66war3vmn3336g425wfnwisjdv33s4yp7d76eu",
 	"creator": {
 		"did": "did:plc:erja3fwzamibgro7va22f2ps",
 		"handle": "hiresky.birdwrongs.sh",
@@ -15,8 +15,8 @@
 		"description": "because you don't want to go on linkedin. lets you add/read profile labels related to looking for work and hiring. WIP THIS DOESN'T WORK YET FYI",
 		"indexedAt": "2024-10-23T04:34:16.308Z"
 	},
-	"likeCount": 4,
-	"indexedAt": "2024-10-23T03:55:02.282Z",
+	"likeCount": 18,
+	"indexedAt": "2024-10-29T01:09:35.711Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -89,6 +89,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hiresky-careerchanger",
+				"locales": [
+					{
+						"description": "I'm changing career paths and am looking for ways to get my foot in the door.",
+						"lang": "en",
+						"name": "Career-Changer"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -96,7 +110,8 @@
 			"hiresky-comms-open",
 			"hiresky-comms-closed",
 			"hiresky-freelance",
-			"hiresky-hiring"
+			"hiresky-hiring",
+			"hiresky-careerchanger"
 		]
 	}
 }

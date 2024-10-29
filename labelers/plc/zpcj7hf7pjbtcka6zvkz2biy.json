@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zpcj7hf7pjbtcka6zvkz2biy/app.bsky.labeler.service/self",
-	"cid": "bafyreibla6fiptsn2zz7vecan6i623ycvnnsxvwyq6c36qdilbm6fcxbti",
+	"cid": "bafyreicsj5k4jc5wwp4jw45ciorqpw26rnevhwrycflmosj4jcp5y3u6pq",
 	"creator": {
 		"did": "did:plc:zpcj7hf7pjbtcka6zvkz2biy",
 		"handle": "zoosky.zdu.se",
@@ -12,14 +12,28 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-27T10:42:35.908Z",
-		"description": "Helps people with this sexual orientation self-describe.",
-		"indexedAt": "2024-10-27T20:31:31.907Z"
+		"description": "Helps people with this sexual orientation self-describe and find each other. #Zoosexuality #Zoophilia #Zoopride\n\nPlease stay away from labellers run by antis / bigots, as you give them hidden moderation privileges over your feed.",
+		"indexedAt": "2024-10-28T20:57:51.210Z"
 	},
-	"likeCount": 4,
+	"likeCount": 14,
 	"indexedAt": "2024-10-27T11:08:09.985Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "open-zoo",
+				"locales": [
+					{
+						"description": "Account of a person who identifies as a zoo. This label is sourced from an anti blocklist. It is a transitional label while we move onto the ones below.",
+						"lang": "en",
+						"name": "Open Zoo"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -66,10 +80,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "zoo-artist",
+				"identifier": "zoo-creator",
 				"locales": [
 					{
-						"description": "This person creates zoo-oriented art and content (any medium: graphic, written, audiovisual, etc...)",
+						"description": "(SELF-LABELLING COMING SOON) This person creates zoo-oriented art and content (any medium: graphic, written, audiovisual, etc...)",
 						"lang": "en",
 						"name": "Zoo Artist / Creator"
 					}
@@ -83,37 +97,9 @@
 				"identifier": "zoo-activist",
 				"locales": [
 					{
-						"description": "This person participates in efforts to destigmatize zoosexuality and help it become a more widely accepted sexual orientation.",
+						"description": "(SELF-LABELLING COMING SOON) This person participates in efforts to destigmatize zoosexuality and help it become a more widely accepted sexual orientation.",
 						"lang": "en",
 						"name": "Zoo Activist"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "zoo-therian",
-				"locales": [
-					{
-						"description": "This person identifies as zoosexual and a therian.",
-						"lang": "en",
-						"name": "Zoo Therian"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "zoo-furry",
-				"locales": [
-					{
-						"description": "This person identifies as zoosexual and a member of the furry fandom.",
-						"lang": "en",
-						"name": "Zoofur"
 					}
 				],
 				"severity": "inform"
@@ -125,7 +111,7 @@
 				"identifier": "zoosexual",
 				"locales": [
 					{
-						"description": "This person identifies as zoosexual.",
+						"description": "(SELF-LABELLING COMING SOON) This person identifies as zoosexual.",
 						"lang": "en",
 						"name": "Zoosexual"
 					}
@@ -139,7 +125,7 @@
 				"identifier": "zoo-ally",
 				"locales": [
 					{
-						"description": "This person does not identify as zoosexual but supports and accepts people who do.",
+						"description": "(SELF-LABELLING COMING SOON) This person does not identify as zoosexual but supports and accepts people who do.",
 						"lang": "en",
 						"name": "Zoo Ally"
 					}
@@ -153,7 +139,7 @@
 				"identifier": "zoo-exclusive",
 				"locales": [
 					{
-						"description": "This person identifies as a zoosexual who is exclusively attracted to non-human animals.",
+						"description": "(SELF-LABELLING COMING SOON) This person identifies as a zoosexual who is exclusively attracted to non-human animals.",
 						"lang": "en",
 						"name": "Zoo Exclusive"
 					}
@@ -167,7 +153,7 @@
 				"identifier": "zoocurious",
 				"locales": [
 					{
-						"description": "This person identifies someone who is on the fence about their zoosexuality or just started exploring this side of their sexuality.",
+						"description": "(SELF-LABELLING COMING SOON)This person identifies someone who is on the fence about their zoosexuality or just started exploring this side of their sexuality.",
 						"lang": "en",
 						"name": "Zoocurious"
 					}
@@ -176,17 +162,13 @@
 			}
 		],
 		"labelValues": [
+			"open-zoo",
 			"zoosexual",
 			"zoo-exclusive",
 			"zoocurious",
 			"zoo-ally",
-			"zoo-furry",
-			"zoo-therian",
-			"zoo-artist",
-			"zoo-activist",
-			"zoo-vegan",
-			"zoo-vegetarian",
-			"zoo-pescatarian"
+			"zoo-creator",
+			"zoo-activist"
 		]
 	}
 }

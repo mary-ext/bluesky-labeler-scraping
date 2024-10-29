@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreiasvavxhnpjwsa45d3jxbn3wgmgvzmgsbuva73eknlmc4ovzqxab4",
+	"cid": "bafyreihh5bag3actn2jf6pc4hz4s5gqiv4rhd4htgaoiiai7ixkg66nixa",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
-		"displayName": "FurSky Creators [RATE LIMITED - RESUMES 10/27 AT 23:41:28 GMT]",
+		"displayName": "FurSky Creators",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hr236rnywyk3xjl4vt4emyc3/bafkreihcfmcm25pumh5d4d7dgogbtnufz4vd5gap3dksl3epduua4u2fau@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,14 +15,42 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-21T22:36:51.209Z",
-		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n🔍: Browse Roles: https://furskycreators.audioelk.com\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nCursor @ [RATE LIMITED - RESUMES 10/27 AT 23:41:28 GMT]",
-		"indexedAt": "2024-10-27T18:29:48.613Z"
+		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n🔍: Browse Roles: https://furskycreators.audioelk.com\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nCursor @ 2024-10-28T22:46:18Z, Delays ~= a few seconds",
+		"indexedAt": "2024-10-28T22:46:24.511Z"
 	},
-	"likeCount": 79,
-	"indexedAt": "2024-10-24T02:25:08.296Z",
+	"likeCount": 80,
+	"indexedAt": "2024-10-28T21:51:07.167Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "two-d-artist",
+				"locales": [
+					{
+						"description": "This user works in 2D!",
+						"lang": "en",
+						"name": "2D"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "three-d-artist",
+				"locales": [
+					{
+						"description": "This user works in 3D!",
+						"lang": "en",
+						"name": "3D"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -428,9 +456,235 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "2d-artist",
+				"locales": [
+					{
+						"description": "This user is a 2d Artist!",
+						"lang": "en",
+						"name": "2D"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "performance-artist",
+				"locales": [
+					{
+						"description": "This user is a Performance Artist!",
+						"lang": "en",
+						"name": "Performance Artist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "youtuber",
+				"locales": [
+					{
+						"description": "This user is a Youtuber!",
+						"lang": "en",
+						"name": "Youtuber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vrchat-texturer",
+				"locales": [
+					{
+						"description": "This user is a Vrchat Texturer!",
+						"lang": "en",
+						"name": "Vrchat Texturer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tiktoker",
+				"locales": [
+					{
+						"description": "This user is a Tiktoker!",
+						"lang": "en",
+						"name": "TikToker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sculptor",
+				"locales": [
+					{
+						"description": "This user is a Sculptor!",
+						"lang": "en",
+						"name": "Sculptor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "convention",
+				"locales": [
+					{
+						"description": "This user is a Convention!",
+						"lang": "en",
+						"name": "Convention"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "convention-staff",
+				"locales": [
+					{
+						"description": "This user is a Convention Staff!",
+						"lang": "en",
+						"name": "Convention Staff"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stage-technician",
+				"locales": [
+					{
+						"description": "This user is a Stage Technician!",
+						"lang": "en",
+						"name": "Stage Technician"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stage-manager",
+				"locales": [
+					{
+						"description": "This user is a Stage Manager!",
+						"lang": "en",
+						"name": "Stage Manager"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "director",
+				"locales": [
+					{
+						"description": "This user is a Director!",
+						"lang": "en",
+						"name": "Director"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dancer",
+				"locales": [
+					{
+						"description": "This user is a Dancer!",
+						"lang": "en",
+						"name": "Dancer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vrchat-modeler",
+				"locales": [
+					{
+						"description": "This user is a Vrchat Modeler!",
+						"lang": "en",
+						"name": "Vrchat Modeler"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scientist",
+				"locales": [
+					{
+						"description": "This user is a Scientist!",
+						"lang": "en",
+						"name": "Scientist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rhythm-game-dev",
+				"locales": [
+					{
+						"description": "This user is a Rhythm Game Dev!",
+						"lang": "en",
+						"name": "Rhythm Game Dev"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rhythm-game-charter",
+				"locales": [
+					{
+						"description": "This user is a Rhythm Game Charter!",
+						"lang": "en",
+						"name": "Rhythm Game Charter"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"two-d-artist",
+			"three-d-artist",
 			"developer",
 			"sound-editor",
 			"sound-designer",
@@ -459,7 +713,23 @@
 			"graphic-designer",
 			"photographer",
 			"vn-dev",
-			"community-manager"
+			"community-manager",
+			"twod-artist",
+			"performance-artist",
+			"youtuber",
+			"vrchat-texturer",
+			"tiktoker",
+			"sculptor",
+			"convention",
+			"convention-staff",
+			"stage-technician",
+			"stage-manager",
+			"director",
+			"dancer",
+			"vrchat-modeler",
+			"scientist",
+			"rhythm-game-dev",
+			"rhythm-game-charter"
 		]
 	}
 }
