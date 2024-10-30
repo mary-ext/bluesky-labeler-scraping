@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreihh5bag3actn2jf6pc4hz4s5gqiv4rhd4htgaoiiai7ixkg66nixa",
+	"cid": "bafyreibxlpy7dql3wwyjk3uzu7bgz6fkeixek7sfwy3gk2zbewcngteu2i",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
@@ -15,14 +15,28 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-21T22:36:51.209Z",
-		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n🔍: Browse Roles: https://furskycreators.audioelk.com\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nCursor @ 2024-10-28T22:46:18Z, Delays ~= a few seconds",
-		"indexedAt": "2024-10-28T22:46:24.511Z"
+		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n🔍: Browse Roles: https://furskycreators.audioelk.com\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nLabels may take up to 24 hours to update!",
+		"indexedAt": "2024-10-30T00:59:04.329Z"
 	},
-	"likeCount": 80,
-	"indexedAt": "2024-10-28T21:51:07.167Z",
+	"likeCount": 85,
+	"indexedAt": "2024-10-29T14:39:48.122Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blogger",
+				"locales": [
+					{
+						"description": "This user is a blogger!",
+						"lang": "en",
+						"name": "Blogger"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -680,9 +694,94 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "onlyfans",
+				"locales": [
+					{
+						"description": "This user has an OnlyFans!",
+						"lang": "en",
+						"name": "OnlyFans"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "justforfans",
+				"locales": [
+					{
+						"description": "This user has a Justforfans!",
+						"lang": "en",
+						"name": "JustForFans"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adult-performer",
+				"locales": [
+					{
+						"description": "This user is an Adult Performer!",
+						"lang": "en",
+						"name": "Adult Performer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "murrsuiter",
+				"locales": [
+					{
+						"description": "This user is a Murrsuiter!",
+						"lang": "en",
+						"name": "Murrsuiter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adult-toy-maker",
+				"locales": [
+					{
+						"description": "This user is an Adult Toy Maker!",
+						"lang": "en",
+						"name": "Adult Toy Maker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nsfw-label",
+				"locales": [
+					{
+						"description": "This user works on NSFW material!",
+						"lang": "en",
+						"name": "NSFW"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"blogger",
 			"two-d-artist",
 			"three-d-artist",
 			"developer",
@@ -729,7 +828,13 @@
 			"vrchat-modeler",
 			"scientist",
 			"rhythm-game-dev",
-			"rhythm-game-charter"
+			"rhythm-game-charter",
+			"onlyfans",
+			"justforfans",
+			"adult-performer",
+			"murrsuiter",
+			"adult-toy-maker",
+			"nsfw-label"
 		]
 	}
 }

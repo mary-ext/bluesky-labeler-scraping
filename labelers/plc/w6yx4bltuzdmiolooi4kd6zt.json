@@ -1,0 +1,52 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:w6yx4bltuzdmiolooi4kd6zt/app.bsky.labeler.service/self",
+	"cid": "bafyreibxpwn4gsajxwrl5y6ninfljfxa5tivmr56v5tjdciwcmrxqpuxt4",
+	"creator": {
+		"did": "did:plc:w6yx4bltuzdmiolooi4kd6zt",
+		"handle": "skeetground.wang.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:w6yx4bltuzdmiolooi4kd6zt/bafkreihsrsx5pwyzr4ped7lqcel43guuje34p2xm377kzsb56dfaq227pm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-26T03:01:06.709Z",
+		"indexedAt": "2024-10-26T03:01:06.709Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-10-30T00:52:47.318Z",
+	"labels": [
+		{
+			"src": "did:plc:w6yx4bltuzdmiolooi4kd6zt",
+			"uri": "at://did:plc:w6yx4bltuzdmiolooi4kd6zt/app.bsky.labeler.service/self",
+			"cid": "bafyreibxpwn4gsajxwrl5y6ninfljfxa5tivmr56v5tjdciwcmrxqpuxt4",
+			"val": "testLabel",
+			"cts": "2024-10-30T00:52:47.318Z"
+		}
+	],
+	"policies": {
+		"$type": "app.bsky.labeler.defs#labelerPolicies",
+		"labelValueDefinitions": [
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "testLabel",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "this is a test label",
+						"lang": "en",
+						"name": "test label"
+					}
+				],
+				"severity": "none"
+			}
+		],
+		"labelValues": [
+			"testLabel"
+		]
+	}
+}

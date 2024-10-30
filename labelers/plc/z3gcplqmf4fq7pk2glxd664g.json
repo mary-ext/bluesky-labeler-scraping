@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:z3gcplqmf4fq7pk2glxd664g/app.bsky.labeler.service/self",
-	"cid": "bafyreidazoe6slmvqlwyyfvhhshr5aomswsoummcq642mkhzwdthf6tts4",
+	"cid": "bafyreicskv56clvim5l7klb4xt4rlmmc2g3adhngai26wwwuityaqwy26e",
 	"creator": {
 		"did": "did:plc:z3gcplqmf4fq7pk2glxd664g",
 		"handle": "vgm-labeler.ivgorchestra.com",
@@ -26,16 +26,61 @@
 				"identifier": "test-label",
 				"locales": [
 					{
-						"description": "This is only for development purposes.",
+						"description": "Development purposes.",
 						"lang": "en",
 						"name": "Test Label"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "composer",
+				"locales": [
+					{
+						"description": "Composer of Video Game Music.",
+						"lang": "en",
+						"name": "Composer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "musician",
+				"locales": [
+					{
+						"description": "Video Game Music Musician.",
+						"lang": "en",
+						"name": "Musician"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "content-creator",
+				"locales": [
+					{
+						"description": "Creating content related to Video Game Music.",
+						"lang": "en",
+						"name": "Content Creator"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"test-label"
+			"test-label",
+			"composer",
+			"musician",
+			"content-creator"
 		]
 	}
 }
