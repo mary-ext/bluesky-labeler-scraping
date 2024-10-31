@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreibxlpy7dql3wwyjk3uzu7bgz6fkeixek7sfwy3gk2zbewcngteu2i",
+	"cid": "bafyreiavjmbsyfctwla3pip7y4fhbu4gbcw7cfwqn3psatxwa2a2z2zbfq",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n🔍: Browse Roles: https://furskycreators.audioelk.com\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nLabels may take up to 24 hours to update!",
 		"indexedAt": "2024-10-30T00:59:04.329Z"
 	},
-	"likeCount": 85,
-	"indexedAt": "2024-10-29T14:39:48.122Z",
+	"likeCount": 88,
+	"indexedAt": "2024-10-30T15:19:33.537Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -778,6 +778,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nsfw",
+				"locales": [
+					{
+						"description": "This user is a Nsfw!",
+						"lang": "en",
+						"name": "Nsfw"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -834,7 +848,8 @@
 			"adult-performer",
 			"murrsuiter",
 			"adult-toy-maker",
-			"nsfw-label"
+			"nsfw-label",
+			"nsfw"
 		]
 	}
 }
