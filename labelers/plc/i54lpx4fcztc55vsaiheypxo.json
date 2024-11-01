@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:i54lpx4fcztc55vsaiheypxo/app.bsky.labeler.service/self",
-	"cid": "bafyreibhpjl43jvrneb5xskv2rcpdlhxfhspcj7ahg2o7bgftfke4pftre",
+	"cid": "bafyreifun765fuw6k735x5zc7c7t6iijkxf6kzxr723as4rov4gc76r63i",
 	"creator": {
 		"did": "did:plc:i54lpx4fcztc55vsaiheypxo",
 		"handle": "pokemon.sonasky.app",
@@ -15,8 +15,8 @@
 		"description": "Main: @sonasky.app <-- subscribe to this too!\nThis account will serve as a labeler for specific Pokémon species.\n\nShow off your Pokésona (label)!\n❓: Add=❤️! Remove=💔. (see main/below for posts)\n🔍: Browse/Status: https://sonasky.app/",
 		"indexedAt": "2024-10-30T06:23:51.426Z"
 	},
-	"likeCount": 65,
-	"indexedAt": "2024-10-30T05:22:26.422Z",
+	"likeCount": 95,
+	"indexedAt": "2024-10-31T22:29:06.979Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1293,6 +1293,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "celebi",
+				"locales": [
+					{
+						"description": "This user is a Celebi!",
+						"lang": "en",
+						"name": "Celebi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pidgeot",
+				"locales": [
+					{
+						"description": "This user is a Pidgeot!",
+						"lang": "en",
+						"name": "Pidgeot"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1386,7 +1414,9 @@
 			"archen",
 			"greninja",
 			"chesnaught",
-			"mimikyu"
+			"mimikyu",
+			"celebi",
+			"pidgeot"
 		]
 	}
 }

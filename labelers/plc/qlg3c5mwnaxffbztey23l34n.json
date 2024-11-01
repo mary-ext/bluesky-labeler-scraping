@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:qlg3c5mwnaxffbztey23l34n/app.bsky.labeler.service/self",
+	"cid": "bafyreidlroiaemtlzof7qbk6uu3megjh7cxnmninxgzlihvyevok2cixfm",
+	"creator": {
+		"did": "did:plc:qlg3c5mwnaxffbztey23l34n",
+		"handle": "test.fandomsky.net",
+		"displayName": "FandomSky test labeler please ignore",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qlg3c5mwnaxffbztey23l34n/bafkreigmif6vkiirs6zkkhm7iupeaug7lc7ajajj2myx4ya2kofrqed55e@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-31T07:54:38.726Z",
+		"description": "This is a test labeler please ignore\n\nJoin the Fandom Fun! 🎉\nHeart your favorite fandom posts to claim your label! ❤️\\nYour fandom not in the list? Send me a DM to add it!",
+		"indexedAt": "2024-10-31T08:06:26.926Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-10-31T08:28:45.294Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "Fans of Test!",
+						"lang": "en",
+						"name": "Test"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "testpost2",
+				"locales": [
+					{
+						"description": "Fans of Testpost2!",
+						"lang": "en",
+						"name": "Testpost2"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"test",
+			"testpost2"
+		]
+	}
+}

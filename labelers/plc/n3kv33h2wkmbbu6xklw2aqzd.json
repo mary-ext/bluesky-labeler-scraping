@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:n3kv33h2wkmbbu6xklw2aqzd/app.bsky.labeler.service/self",
-	"cid": "bafyreifeokkutnchvuqfp43azcmyum6dtzjvwpsjzfdygkwzjc5m57y5ju",
+	"cid": "bafyreif3q3azzxv5snwhn244sffzwb3sukwqmzd632p4yg7xlebso7gm6q",
 	"creator": {
 		"did": "did:plc:n3kv33h2wkmbbu6xklw2aqzd",
 		"handle": "vgm-test-labeler.bsky.social",
@@ -15,9 +15,462 @@
 		"indexedAt": "2024-10-30T20:25:58.226Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-10-30T20:35:30.065Z",
+	"indexedAt": "2024-10-31T23:59:39.463Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "composer",
+				"locales": [
+					{
+						"description": "Creates original musical compositions for games",
+						"lang": "en",
+						"name": "Composer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "content-creator",
+				"locales": [
+					{
+						"description": "Produces game music-related content (videos, streams, etc.)",
+						"lang": "en",
+						"name": "Content Creator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cover-artist",
+				"locales": [
+					{
+						"description": "Performs cover versions of game music",
+						"lang": "en",
+						"name": "Cover Artist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "educator",
+				"locales": [
+					{
+						"description": "Specialises in educational material around game music",
+						"lang": "en",
+						"name": "Educator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vgm-audio",
+				"locales": [
+					{
+						"description": "Works on sound and audio within the games industry",
+						"lang": "en",
+						"name": "Game Audio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ludomusicologist",
+				"locales": [
+					{
+						"description": "Analyzes and discusses game music composition",
+						"lang": "en",
+						"name": "Ludomusicologist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "musician",
+				"locales": [
+					{
+						"description": "Performs or records musical pieces for games",
+						"lang": "en",
+						"name": "Musician"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orchestra",
+				"locales": [
+					{
+						"description": "Creates or performs orchestral game music arrangements",
+						"lang": "en",
+						"name": "Orchestra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "music-production",
+				"locales": [
+					{
+						"description": "Handles recording, mixing, and mastering of game music",
+						"lang": "en",
+						"name": "Production"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "record-label",
+				"locales": [
+					{
+						"description": "Publishes and distributes game music albums",
+						"lang": "en",
+						"name": "Record Label"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "voice-actor",
+				"locales": [
+					{
+						"description": "Provides character voices and vocal performances for games",
+						"lang": "en",
+						"name": "Voice Actor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "ambient",
+				"locales": [
+					{
+						"description": "Atmospheric, ambient arrangements and compositions of game music",
+						"lang": "en",
+						"name": "Ambient"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "big-band",
+				"locales": [
+					{
+						"description": "Large jazz ensemble arrangements of game music",
+						"lang": "en",
+						"name": "Big Band"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "chamber-music",
+				"locales": [
+					{
+						"description": "Small ensemble classical arrangements of game music",
+						"lang": "en",
+						"name": "Chamber Music"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "chiptune-artist",
+				"locales": [
+					{
+						"description": "Music using retro gaming sound chips",
+						"lang": "en",
+						"name": "Chiptune"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "classical-piano",
+				"locales": [
+					{
+						"description": "Classical piano arrangements of game music",
+						"lang": "en",
+						"name": "Classical Piano"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "edm",
+				"locales": [
+					{
+						"description": "Dance music arrangements of game music",
+						"lang": "en",
+						"name": "EDM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "folk",
+				"locales": [
+					{
+						"description": "Traditional folk-style arrangements of game music",
+						"lang": "en",
+						"name": "Folk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "funk",
+				"locales": [
+					{
+						"description": "Funk arrangements and adaptations of game music",
+						"lang": "en",
+						"name": "Funk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "hip-hop",
+				"locales": [
+					{
+						"description": "Hip hop arrangements and remixes of game music",
+						"lang": "en",
+						"name": "Hip Hop"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "jazz",
+				"locales": [
+					{
+						"description": "Jazz arrangements of game music",
+						"lang": "en",
+						"name": "Jazz"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "jazz-fusion",
+				"locales": [
+					{
+						"description": "Blend of jazz with other genres in game music",
+						"lang": "en",
+						"name": "Jazz Fusion"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "lo-fi",
+				"locales": [
+					{
+						"description": "Relaxed, low-fidelity arrangements of game music",
+						"lang": "en",
+						"name": "Lo-fi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "metal",
+				"locales": [
+					{
+						"description": "Metal arrangements of game music",
+						"lang": "en",
+						"name": "Metal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "orchestral",
+				"locales": [
+					{
+						"description": "Full orchestral arrangements of game music",
+						"lang": "en",
+						"name": "Orchestral"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "pop",
+				"locales": [
+					{
+						"description": "Pop music arrangements and adaptations of game music",
+						"lang": "en",
+						"name": "Pop"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "prog-rock",
+				"locales": [
+					{
+						"description": "Prog rock arrangements of game music",
+						"lang": "en",
+						"name": "Prog Rock"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "rock",
+				"locales": [
+					{
+						"description": "Rock arrangements of game music",
+						"lang": "en",
+						"name": "Rock"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "synthwave",
+				"locales": [
+					{
+						"description": "Synthwave arrangements and adaptations of game music",
+						"lang": "en",
+						"name": "Synthwave"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "world-music",
+				"locales": [
+					{
+						"description": "Traditional world music influences in game music",
+						"lang": "en",
+						"name": "World Music"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"composer",
+			"content-creator",
+			"cover-artist",
+			"educator",
+			"vgm-audio",
+			"ludomusicologist",
+			"musician",
+			"orchestra",
+			"music-production",
+			"record-label",
+			"voice-actor",
+			"ambient",
+			"big-band",
+			"chamber-music",
+			"chiptune-artist",
+			"classical-piano",
+			"edm",
+			"folk",
+			"funk",
+			"hip-hop",
+			"jazz",
+			"jazz-fusion",
+			"lo-fi",
+			"metal",
+			"orchestral",
+			"pop",
+			"prog-rock",
+			"rock",
+			"synthwave",
+			"world-music"
+		]
 	}
 }

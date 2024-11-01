@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreifgaknoamysrd5nw3xw4inlob4pedzqhv7h3cgr336hznlsjsbmtm",
+	"cid": "bafyreihsge6xy6gujrdg6slntwlfzbu4i6ib4xognbp2ap6ocjmbscr6oi",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @blockch.ain.mom\ndonate: https://ko-fi.com/notjuliet\nbuilt on top of @skyware.js.org",
 		"indexedAt": "2024-10-30T04:10:36.428Z"
 	},
-	"likeCount": 7358,
-	"indexedAt": "2024-10-24T03:55:22.629Z",
+	"likeCount": 7380,
+	"indexedAt": "2024-10-31T21:17:34.471Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1282,6 +1282,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "e-h-hs",
+				"locales": [
+					{
+						"description": "This user uses *e/h*/h*s pronouns.",
+						"lang": "en",
+						"name": "*e/h*"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "atp-adp",
+				"locales": [
+					{
+						"description": "This user uses atp/adp pronouns.",
+						"lang": "en",
+						"name": "atp/adp"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cat-cats",
+				"locales": [
+					{
+						"description": "This user uses cat/cats/catself pronouns.",
+						"lang": "en",
+						"name": "cat/cats"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1374,7 +1416,10 @@
 			"it-they",
 			"eris",
 			"she-he",
-			"he-she"
+			"he-she",
+			"e-h-hs",
+			"atp-adp",
+			"cat-cats"
 		]
 	}
 }
