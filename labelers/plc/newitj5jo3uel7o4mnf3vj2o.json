@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:newitj5jo3uel7o4mnf3vj2o/app.bsky.labeler.service/self",
-	"cid": "bafyreiagdhxg7k5vxqf6htskfxc6nznm7ajf4oesoollhx7xnfuoll2pay",
+	"cid": "bafyreiat75elv63kg42j5lr4gm4d4xpibjejlqhutwwe3fldbkgsgczmwm",
 	"creator": {
 		"did": "did:plc:newitj5jo3uel7o4mnf3vj2o",
 		"handle": "xblock.aendra.dev",
@@ -31,12 +31,40 @@
 				"identifier": "newsmedia-screenshot",
 				"locales": [
 					{
-						"description": "(coming soon): screenshots from news websites",
+						"description": "(coming soon) Screenshots from news websites",
 						"lang": "en",
-						"name": "Newsmedia screenshot"
+						"name": "Possible news screenshot"
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultsOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "discord-screenshot",
+				"locales": [
+					{
+						"description": "An image detected as a screenshot taken from Discord, contents may or may not be offensive",
+						"lang": "en",
+						"name": "Possible Discord screenshot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultsOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "ngl-screenshot",
+				"locales": [
+					{
+						"description": "An image detected as a screenshot taken from NGL, contents may or may not be offensive",
+						"lang": "en",
+						"name": "Possible NGL screenshot"
+					}
+				],
+				"severity": "inform"
 			},
 			{
 				"adultsOnly": false,
@@ -45,7 +73,7 @@
 				"identifier": "uncategorised-screenshot",
 				"locales": [
 					{
-						"description": "[EXPERIMENTAL] Miscellaneous screenshots detected by a computer vision model. After human intervention, this label is dropped and a more specific one is added.",
+						"description": "Miscellaneous screenshots detected by a computer vision model. After human intervention, this label is dropped and a more specific one is added.",
 						"lang": "en",
 						"name": "Uncategorised screenshot"
 					}
@@ -59,9 +87,9 @@
 				"identifier": "twitter-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Twitter, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Twitter, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Twitter screenshot"
+						"name": "Possible Twitter screenshot"
 					}
 				],
 				"severity": "inform"
@@ -73,9 +101,9 @@
 				"identifier": "threads-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Threads, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Threads, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Threads screenshot"
+						"name": "Possible Threads screenshot"
 					}
 				],
 				"severity": "inform"
@@ -87,9 +115,9 @@
 				"identifier": "fediverse-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Fediverse, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Mastodon et al, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Fediverse screenshot"
+						"name": "Possible Fediverse screenshot"
 					}
 				],
 				"severity": "inform"
@@ -101,9 +129,9 @@
 				"identifier": "bluesky-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Bluesky, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Bluesky, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Bluesky screenshot"
+						"name": "Possible Bluesky screenshot"
 					}
 				],
 				"severity": "inform"
@@ -115,9 +143,9 @@
 				"identifier": "facebook-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Facebook, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Facebook, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Facebook screenshot"
+						"name": "Possible Facebook screenshot"
 					}
 				],
 				"severity": "inform"
@@ -129,9 +157,9 @@
 				"identifier": "instagram-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Instagram, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Instagram, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Instagram screenshot"
+						"name": "Possible Instagram screenshot"
 					}
 				],
 				"severity": "inform"
@@ -143,9 +171,9 @@
 				"identifier": "tumblr-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Tumblr, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Tumblr, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Tumblr screenshot"
+						"name": "Possible Tumblr screenshot"
 					}
 				],
 				"severity": "inform"
@@ -157,9 +185,9 @@
 				"identifier": "reddit-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on Reddit, contents may or may not be offensive",
+						"description": "An image detected as a screenshot taken from Reddit, contents may or may not be offensive",
 						"lang": "en",
-						"name": "Reddit screenshot"
+						"name": "Possible Reddit screenshot"
 					}
 				],
 				"severity": "inform"
@@ -171,26 +199,27 @@
 				"identifier": "altright-screenshot",
 				"locales": [
 					{
-						"description": "A screenshot taken on an alt-right platform (Truth Social, Gab, et cetera), contents quite likely offensive",
+						"description": "An image detected as a screenshot taken on an alt-right platform (Truth Social, Gab, 4chan, et cetera), contents quite likely offensive",
 						"lang": "en",
-						"name": "Alt-right platform screenshot"
+						"name": "Possible Alt-right platform screenshot"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"newsmedia-screenshot",
-			"uncategorised-screenshot",
 			"twitter-screenshot",
+			"bluesky-screenshot",
+			"altright-screenshot",
+			"newsmedia-screenshot",
+			"ngl-screenshot",
+			"discord-screenshot",
 			"threads-screenshot",
 			"fediverse-screenshot",
-			"bluesky-screenshot",
 			"facebook-screenshot",
 			"instagram-screenshot",
 			"tumblr-screenshot",
-			"reddit-screenshot",
-			"altright-screenshot"
+			"reddit-screenshot"
 		]
 	}
 }

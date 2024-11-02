@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreie23b3crhrwf26edf7h2hs3ngqe5lq5i2czeaectku5yjzdrq55ri",
+	"cid": "bafyreihgfk4gdanm6tjvcpq735tylq5ms7cjuajpa24c42hkxmmiy3dhje",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Identify the game engine that you use on your profile and everywhere you post!",
 		"indexedAt": "2024-10-21T15:16:21.111Z"
 	},
-	"likeCount": 203,
+	"likeCount": 205,
 	"indexedAt": "2024-10-21T13:55:25.974Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-forge",
+				"locales": [
+					{
+						"description": "This user is using The Forge, from https://theforge.dev/",
+						"lang": "en",
+						"name": "The Forge"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -585,6 +599,7 @@
 			"cubeengine",
 			"gbstudio",
 			"gold-source",
+			"the-forge",
 			"quake-engine",
 			"doom-engine",
 			"wolf3d",

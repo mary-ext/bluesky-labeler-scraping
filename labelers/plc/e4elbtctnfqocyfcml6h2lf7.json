@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreiaa5cntfptdjyco3obsgo7knl4l4ymsjfm4qrbyode6hkv7ky2vuy",
+	"cid": "bafyreiciysstfmjuro7wqqzasy4dhv6myaoivejw7l2l3vdbljj6r5yvxu",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -45,20 +45,6 @@
 						"description": "Applied to posts which contain a link to sites which are considered alt-tech, such as givesendgo.com or rumble.com. Read more about alt-tech here: https://en.wikipedia.org/wiki/Alt-tech",
 						"lang": "en",
 						"name": "Alt-tech"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "assadist",
-				"locales": [
-					{
-						"description": "Username, description, or content that supports Syrian dictator Bashar al-Assad, or denies the atrocities committed by his regime. If you heve never worked for Grayzone or are not Vanessa Beeley this likely will never apply to you.",
-						"lang": "en",
-						"name": "Assad Apologist"
 					}
 				],
 				"severity": "alert"
@@ -112,7 +98,7 @@
 				"identifier": "disinformation-network",
 				"locales": [
 					{
-						"description": "This post links to sources known to be part of pro-Kremlin and pro-Assad disinformation networks. More detail available here: https://bsky.app/profile/labeler.mountainherder.xyz/post/3l5uvdirylt2e",
+						"description": "This post links to sources known to be part of pro-Kremlin and pro-Assad disinformation networks. More detail available here: https://bsky.app/profile/skywatch.blue/post/3l5uvdirylt2e",
 						"lang": "en",
 						"name": "Disinformation Network"
 					}
@@ -140,7 +126,7 @@
 				"identifier": "fundraising-link",
 				"locales": [
 					{
-						"description": "Applied to posts which contain a link to sites commonly used for fundraising or requesting money, such as gofundme or ko-fi.",
+						"description": "Applied to posts which contain a link to sites commonly used for fundraising or requesting money, such as gofundme or ko-fi. Never applied to profiles or accounts.",
 						"lang": "en",
 						"name": "Fundraising Link"
 					}
@@ -154,7 +140,7 @@
 				"identifier": "hammer-sickle",
 				"locales": [
 					{
-						"description": "Username and / or description which includes ☭. (English only)",
+						"description": "Username and / or description which includes ☭.",
 						"lang": "en",
 						"name": "☭: Hammer & Sickle"
 					}
@@ -182,7 +168,7 @@
 				"identifier": "maga-trump",
 				"locales": [
 					{
-						"description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024.",
+						"description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024, or a preponderance of posts with #MAGA and #TRUMP2024 hashtags or spam.",
 						"lang": "en",
 						"name": "MAGA"
 					}
@@ -266,7 +252,7 @@
 				"identifier": "zeta",
 				"locales": [
 					{
-						"description": "Username and / or description which contains the Greek letter Zeta (ζ).",
+						"description": "Username and / or description which contains the Greek letter Zeta (ζ), triangles and four-pointed star (◤✦◢), or the Phoenician aleph (𐤀). Please subscribe to @laelaps.fyi for more comprehensive labeling on zoophilia related accounts.",
 						"lang": "en",
 						"name": "ζ: Zeta"
 					}
@@ -277,7 +263,6 @@
 		"labelValues": [
 			"alf",
 			"alt-tech",
-			"assadist",
 			"beans",
 			"bluesky-elder",
 			"dinosaur-emoji",
