@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-  "cid": "bafyreie23b3crhrwf26edf7h2hs3ngqe5lq5i2czeaectku5yjzdrq55ri",
+  "cid": "bafyreihgfk4gdanm6tjvcpq735tylq5ms7cjuajpa24c42hkxmmiy3dhje",
   "creator": {
     "did": "did:plc:owlalsqd2qu64kv3h7klt24t",
     "handle": "gameengines.bsky.social",
@@ -18,6 +18,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "the-forge",
+        "locales": [
+          {
+            "description": "This user is using The Forge, from https://theforge.dev/",
+            "lang": "en",
+            "name": "The Forge"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -583,6 +597,7 @@
       "cubeengine",
       "gbstudio",
       "gold-source",
+      "the-forge",
       "quake-engine",
       "doom-engine",
       "wolf3d",
