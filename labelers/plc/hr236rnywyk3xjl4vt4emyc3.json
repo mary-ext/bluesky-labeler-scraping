@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreife3ty4qrxbugnbxx2giknip6i2nt4zbn65mcqvrdiopjnungt3ri",
+	"cid": "bafyreiagyfj4rbk2dnslrq4svttrx3oe7zh5524vs4x7q2vionxrlinpja",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Show off what you do!\n❓: Add=❤️! Remove=💔.\n🔍: Browse Roles: https://furskycreators.audioelk.com\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nLabels may take up to 24 hours to take affect!",
 		"indexedAt": "2024-11-02T18:32:23.280Z"
 	},
-	"likeCount": 109,
-	"indexedAt": "2024-10-30T15:19:33.537Z",
+	"likeCount": 111,
+	"indexedAt": "2024-11-03T16:32:47.574Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -750,6 +750,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "community",
+				"locales": [
+					{
+						"description": "This user is a Community!",
+						"lang": "en",
+						"name": "Community"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "commissioner",
+				"locales": [
+					{
+						"description": "This user likes to commission work!",
+						"lang": "en",
+						"name": "Commissioner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rp",
+				"locales": [
+					{
+						"description": "This user is open to SFW Role Play!",
+						"lang": "en",
+						"name": "RP"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "erp",
+				"locales": [
+					{
+						"description": "This user is open to erotic role play!\n\nNSFW",
+						"lang": "en",
+						"name": "ERP"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vendor",
+				"locales": [
+					{
+						"description": "This user creates and sells merchandise!",
+						"lang": "en",
+						"name": "Vendor"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -804,7 +874,12 @@
 			"adult-performer",
 			"murrsuiter",
 			"adult-toy-maker",
-			"nsfw-label"
+			"nsfw-label",
+			"community",
+			"commissioner",
+			"rp",
+			"erp",
+			"vendor"
 		]
 	}
 }

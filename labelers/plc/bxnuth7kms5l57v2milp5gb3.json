@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
-	"cid": "bafyreih7cxecmujclvbpnuunl7of7mgl6fwjxi24fwr375dnbnawrk6ngm",
+	"cid": "bafyreicjtz2j6tyruhbqkfnkrq4kr6hytp4rq2a7cozpy5kh7oyuljy2va",
 	"creator": {
 		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
 		"handle": "uspol.blakeslabs.com",
@@ -15,11 +15,67 @@
 		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health.\n\nThis might not be turned on right now.",
 		"indexedAt": "2024-08-12T04:34:47.573Z"
 	},
-	"likeCount": 23,
+	"likeCount": 25,
 	"indexedAt": "2024-08-12T04:19:46.363Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "miscellaneous-uspol",
+				"locales": [
+					{
+						"description": "Posts about politics in the United States which do not conform to any other category.",
+						"lang": "en",
+						"name": "Uncategorized US political post"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "democrats",
+				"locales": [
+					{
+						"description": "Catch-all for posts about or quoting Democratic politicians.",
+						"lang": "en",
+						"name": "Democrats"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "election",
+				"locales": [
+					{
+						"description": "Posts about any government elections occurring within the United States, including the presidential, gubernatorial, general, midterm, federal, state, county, and municipal elections.",
+						"lang": "en",
+						"name": "US Elections"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "republicans",
+				"locales": [
+					{
+						"description": "Catch-all for posts about or quoting Republican politicians.",
+						"lang": "en",
+						"name": "Republicans"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -64,9 +120,13 @@
 			}
 		],
 		"labelValues": [
-			"lgbtq",
 			"trump",
-			"kamala-harris"
+			"kamala-harris",
+			"election",
+			"democrats",
+			"republicans",
+			"lgbtq",
+			"miscellaneous-uspol"
 		]
 	}
 }

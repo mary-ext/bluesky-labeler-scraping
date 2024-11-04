@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:i65enriuag7n5fgkopbqtkyk/app.bsky.labeler.service/self",
-	"cid": "bafyreihb6uvuyljicoij7sg2aq3odi7juw7izfawjwb3phlvonalz3hej4",
+	"cid": "bafyreiayx4cyktxsu2p3jtpww27ovhcj5lavvpwzlrr3votbcliohc53wm",
 	"creator": {
 		"did": "did:plc:i65enriuag7n5fgkopbqtkyk",
 		"handle": "profile-labels.bossett.social",
@@ -18,25 +18,11 @@
 		"description": "Labels accounts based on facts about profile records, post history, etc. Automatic.\nSupport @bossett.social / Code https://github.com/Bossett/bsky-profile-labeller / Help out https://ko-fi.com/bossett",
 		"indexedAt": "2024-10-28T18:29:32.009Z"
 	},
-	"likeCount": 967,
-	"indexedAt": "2024-10-08T08:15:19.290Z",
+	"likeCount": 971,
+	"indexedAt": "2024-11-03T18:21:29.488Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "newaccount",
-				"locales": [
-					{
-						"description": "This user began posting from this account less than 30 days ago.",
-						"lang": "en",
-						"name": "New Account"
-					}
-				],
-				"severity": "inform"
-			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -165,7 +151,6 @@
 			}
 		],
 		"labelValues": [
-			"newaccount",
 			"newhandle",
 			"incomplete",
 			"onlyreplies",
