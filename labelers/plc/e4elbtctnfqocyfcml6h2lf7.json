@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreiciysstfmjuro7wqqzasy4dhv6myaoivejw7l2l3vdbljj6r5yvxu",
+	"cid": "bafyreiftufm5ad4kbb3o3klwil7vvzymzfasa26yb4afnlch2gn3qzlfju",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 683,
-	"indexedAt": "2024-03-15T04:13:56.272Z",
+	"likeCount": 687,
+	"indexedAt": "2024-11-04T23:30:27.482Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "fringe-media",
+				"locales": [
+					{
+						"description": "Applied to posts which contain a link to sites known to be sources of disinformation and misinformation. Includes: americanactionnews.com, thepoliticalinsider.com, americadaily.com, bles.com, dkn.tv, theepochtimes.(com, de, fr, gr), genuinenewspaper.com, tierrapura.org, truthandtradition.news, visiontimes.com, bigleaguepolitics.com, cnsnews.com, mrctv.org, newsbusters.org, flvoicenews.com, breitbart.com, americasvoice.news, gnews.org, dailycaller.com, thefederalist.com, lewrockwell.com, loomered.com, newsmax.com, oann.com, patriotpost.us, prageru.com, truthfeed.com, thegatewaypundit.com, westernjournal.com, townhall.com, zerohedge.com, dailywire.com, washingtontimes.com, texasscorecard.com",
+						"lang": "en",
+						"name": "Fringe Media & Disinfo"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"blurs": "none",
 				"identifier": "alf",
@@ -268,6 +282,7 @@
 			"dinosaur-emoji",
 			"disinformation-network",
 			"elon-musk",
+			"fringe-media",
 			"fundraising-link",
 			"hammer-sickle",
 			"inverted-red-triangle",

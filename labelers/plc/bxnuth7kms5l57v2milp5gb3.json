@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
-	"cid": "bafyreicjtz2j6tyruhbqkfnkrq4kr6hytp4rq2a7cozpy5kh7oyuljy2va",
+	"cid": "bafyreicujqgqizpajmtjpcpvqbracbmttlslbjyi22tj7g5vnrhzxqf3zq",
 	"creator": {
 		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
 		"handle": "uspol.blakeslabs.com",
@@ -15,11 +15,39 @@
 		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health.\n\nThis might not be turned on right now.",
 		"indexedAt": "2024-08-12T04:34:47.573Z"
 	},
-	"likeCount": 25,
-	"indexedAt": "2024-08-12T04:19:46.363Z",
+	"likeCount": 27,
+	"indexedAt": "2024-11-04T18:23:09.284Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "military",
+				"locales": [
+					{
+						"description": "Actions of the US military or National Guards, at home or abroad. May be violent or gory. Military aid that isn't \"boots on the ground\", i.e. sending arms, fall under the foreign relations label.",
+						"lang": "en",
+						"name": "US Military"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "foreign-relations",
+				"locales": [
+					{
+						"description": "United States diplomacy, support, condemnations, etc of foreign nations, the United Nations, the European Union, or similar foreign entities.",
+						"lang": "en",
+						"name": "Foreign Relations with the US"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -125,6 +153,8 @@
 			"election",
 			"democrats",
 			"republicans",
+			"foreign-relations",
+			"military",
 			"lgbtq",
 			"miscellaneous-uspol"
 		]
