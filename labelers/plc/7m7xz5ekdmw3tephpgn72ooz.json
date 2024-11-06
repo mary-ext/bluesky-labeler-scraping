@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreicrhaaaehi5vaf7gxmfw67tmgtdteqidu4pthyfwyl25jgljwskq4",
+	"cid": "bafyreihnus36uucfkipgds2ndbwqlbyuwrewthlj7izqurm3h4c735om2i",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -18,11 +18,179 @@
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️\n3️⃣ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
 		"indexedAt": "2024-10-24T17:02:48.006Z"
 	},
-	"likeCount": 292,
+	"likeCount": 293,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bear",
+				"locales": [
+					{
+						"description": "I'm feeling strong/protective/cozy.",
+						"lang": "en",
+						"name": "Mood: 🐻"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lion",
+				"locales": [
+					{
+						"description": "I'm feeling brave/majestic/fierce.",
+						"lang": "en",
+						"name": "Mood: 🦁"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "face-with-a-thermometer",
+				"locales": [
+					{
+						"description": "I'm feeling sick/feverish/weak.",
+						"lang": "en",
+						"name": "Mood: 🤒"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hot-face",
+				"locales": [
+					{
+						"description": "I'm feeling horny/overheated/exhausted.",
+						"lang": "en",
+						"name": "Mood: 🥵"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shopping-cart",
+				"locales": [
+					{
+						"description": "In a shopping mood.",
+						"lang": "en",
+						"name": "Mood: 🛒"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "potted-plant",
+				"locales": [
+					{
+						"description": "In a mood for growing plants.",
+						"lang": "en",
+						"name": "Mood: 🪴"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "santa-claus",
+				"locales": [
+					{
+						"description": "I'm feeling jolly/giving/magical.",
+						"lang": "en",
+						"name": "Mood: 🎅"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wrapped-gift",
+				"locales": [
+					{
+						"description": "I'm feeling excited/generous/anticipatory.",
+						"lang": "en",
+						"name": "Mood: 🎁"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "christmas-tree",
+				"locales": [
+					{
+						"description": "I'm feeling Christmas-y/festive/joyful.",
+						"lang": "en",
+						"name": "Mood: 🎄"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "umbrella-with-rain-drops",
+				"locales": [
+					{
+						"description": "I'm feeling cozy/rainy/reflective.",
+						"lang": "en",
+						"name": "Mood: ☔"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snowflake",
+				"locales": [
+					{
+						"description": "I'm feeling cold/delicate/unique.",
+						"lang": "en",
+						"name": "Mood: ❄️"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snowman",
+				"locales": [
+					{
+						"description": "I'm feeling cheerful/wintry/playful.",
+						"lang": "en",
+						"name": "Mood: ☃️"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1383,6 +1551,18 @@
 			}
 		],
 		"labelValues": [
+			"bear",
+			"lion",
+			"face-with-a-thermometer",
+			"hot-face",
+			"shopping-cart",
+			"snowman",
+			"snowflake",
+			"umbrella-with-rain-drops",
+			"christmas-tree",
+			"wrapped-gift",
+			"santa-claus",
+			"potted-plant",
 			"peach",
 			"face-with-spiral-eyes",
 			"drawing",

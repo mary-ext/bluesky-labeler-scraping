@@ -1,22 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
-	"cid": "bafyreicujqgqizpajmtjpcpvqbracbmttlslbjyi22tj7g5vnrhzxqf3zq",
+	"cid": "bafyreidjiaeybe4u4esk5waqmdg2xeflm4rd4x26nzpuxfqgfmq2q5d6fy",
 	"creator": {
 		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
 		"handle": "uspol.blakeslabs.com",
 		"displayName": "US Politics Labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bxnuth7kms5l57v2milp5gb3/bafkreidtiwjy3br6gxckr4wullqtklriu5dd2pam6zsvowgi4gvduyp6c4@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bxnuth7kms5l57v2milp5gb3/bafkreigcpmtypah5uxifivyb7dzzwfdtbtx2tekwmzgxnrakwnd3wepg4e@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-08-12T03:01:07.474Z",
-		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health.\n\nThis might not be turned on right now.",
-		"indexedAt": "2024-08-12T04:34:47.573Z"
+		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health. Ran by @halsco.de.\n\nWe are now live and active. See pinned post for policy.",
+		"indexedAt": "2024-11-06T00:12:15.181Z"
 	},
-	"likeCount": 27,
-	"indexedAt": "2024-11-04T18:23:09.284Z",
+	"likeCount": 33,
+	"indexedAt": "2024-08-12T04:19:46.363Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -88,7 +88,7 @@
 						"name": "US Elections"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
@@ -136,7 +136,7 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "trump",
+				"identifier": "donald-trump",
 				"locales": [
 					{
 						"description": "Anything talking about this former president of the United States.",
@@ -148,7 +148,7 @@
 			}
 		],
 		"labelValues": [
-			"trump",
+			"donald-trump",
 			"kamala-harris",
 			"election",
 			"democrats",
