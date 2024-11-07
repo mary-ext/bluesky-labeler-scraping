@@ -1,0 +1,116 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:ht4kk2tp5gphohd5p45zbkoh/app.bsky.labeler.service/self",
+	"cid": "bafyreiaeizqrh4lvdmzdrbia3pklwssl7vannnz3xpms4lh62eo35tu4mm",
+	"creator": {
+		"did": "did:plc:ht4kk2tp5gphohd5p45zbkoh",
+		"handle": "nomedia.mutrano.com.br",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ht4kk2tp5gphohd5p45zbkoh/bafkreidpagxyqg7ozstptuvu575lrc6fmsgcfjqnni5ro5ovutxbscrkoq@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-03T14:14:58.179Z",
+		"indexedAt": "2024-11-03T14:14:58.179Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-06T20:45:17.366Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "video",
+				"locales": [
+					{
+						"description": "Qualquer post com um vídeo",
+						"lang": "en",
+						"name": "Vídeos"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "video-sem-alt",
+				"locales": [
+					{
+						"description": "Qualquer post com um vídeo sem alt",
+						"lang": "en",
+						"name": "Vídeos sem alt"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "gif",
+				"locales": [
+					{
+						"description": "Qualquer post com um GIF",
+						"lang": "en",
+						"name": "GIFs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "gif-sem-alt",
+				"locales": [
+					{
+						"description": "Qualquer post com um GIF sem alt",
+						"lang": "en",
+						"name": "GIFs sem alt"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "foto",
+				"locales": [
+					{
+						"description": "Qualquer post com uma foto",
+						"lang": "en",
+						"name": "Fotos"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "foto-sem-alt",
+				"locales": [
+					{
+						"description": "Qualquer post de uma foto sem alt",
+						"lang": "en",
+						"name": "Fotos sem alt"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"video",
+			"video-sem-alt",
+			"gif",
+			"gif-sem-alt",
+			"foto",
+			"foto-sem-alt"
+		]
+	}
+}

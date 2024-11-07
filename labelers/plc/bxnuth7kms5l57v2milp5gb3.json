@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
-	"cid": "bafyreidjiaeybe4u4esk5waqmdg2xeflm4rd4x26nzpuxfqgfmq2q5d6fy",
+	"cid": "bafyreiagwhn2tr4pw4unn3fffibkmabdlmoejgeb5n4fxdadsg52jqddoi",
 	"creator": {
 		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
-		"handle": "uspol.blakeslabs.com",
+		"handle": "uspol.bluesky.bot",
 		"displayName": "US Politics Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bxnuth7kms5l57v2milp5gb3/bafkreigcpmtypah5uxifivyb7dzzwfdtbtx2tekwmzgxnrakwnd3wepg4e@jpeg",
 		"associated": {
@@ -15,11 +15,25 @@
 		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health. Ran by @halsco.de.\n\nWe are now live and active. See pinned post for policy.",
 		"indexedAt": "2024-11-06T00:12:15.181Z"
 	},
-	"likeCount": 33,
+	"likeCount": 44,
 	"indexedAt": "2024-08-12T04:19:46.363Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "trump-administration",
+				"locales": [
+					{
+						"description": "About members of the President-Elect's Cabinet, or other Trump-Vance government appointees, or their actions, including JD Vance and RFK Jr.",
+						"lang": "en",
+						"name": "The Trump-Vance Administration"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -125,7 +139,7 @@
 				"identifier": "kamala-harris",
 				"locales": [
 					{
-						"description": "Content that talks about the 2024 presidential candidate for the Democratic party.",
+						"description": "Content that talks about the 2024 presidential candidate for the Democratic party. (This label will likely be retired soon, in favor of the \"Election\" and \"Democrats\" labels.)",
 						"lang": "en",
 						"name": "Kamala Harris"
 					}
@@ -139,7 +153,7 @@
 				"identifier": "donald-trump",
 				"locales": [
 					{
-						"description": "Anything talking about this former president of the United States.",
+						"description": "Anything talking about this President-Elect of the United States.",
 						"lang": "en",
 						"name": "Donald Trump"
 					}
@@ -151,6 +165,7 @@
 			"donald-trump",
 			"kamala-harris",
 			"election",
+			"trump-administration",
 			"democrats",
 			"republicans",
 			"foreign-relations",

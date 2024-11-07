@@ -1,22 +1,25 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
-	"uri": "at://did:plc:2hjiighgnarqscwwk2cesnup/app.bsky.labeler.service/self",
-	"cid": "bafyreifsg2pta2qofifpnyys5b77dsjdovb5eh367n2pnwmbgtwmjqrax4",
+	"uri": "at://did:plc:2yc4jsi5espbzxj3oatb7cwf/app.bsky.labeler.service/self",
+	"cid": "bafyreiczkowiavjacamrgtcxdd4yeizkuh5k5mqgupex6k5cchxxdcpnpm",
 	"creator": {
-		"did": "did:plc:2hjiighgnarqscwwk2cesnup",
-		"handle": "mbti.bsky.sh",
-		"displayName": "MBTI labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2hjiighgnarqscwwk2cesnup/bafkreicclqrynacqw6zlxghtwhalsdu3bpboeq4ajydwpaykyyrzmmv6ka@jpeg",
+		"did": "did:plc:2yc4jsi5espbzxj3oatb7cwf",
+		"handle": "habitica.solimaniac.com",
+		"displayName": "WIP",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2yc4jsi5espbzxj3oatb7cwf/bafkreiejqecyemj4xx4qmdr4clee4tn6bp4hpfulbajulcpdwagy3bvgvu@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
-		"createdAt": "2024-10-31T00:09:22.429Z",
-		"description": "Subscribe & like the labeler, then like the post(s) with your MBTI type(s) (up to 2 in case you're also on the border of two like I am)\n\ncreated by @alice.bsky.sh",
-		"indexedAt": "2024-10-31T00:59:28.735Z"
+		"createdAt": "2024-11-05T04:23:08.979Z",
+		"description": "work in progress! @solimaniac.com",
+		"indexedAt": "2024-11-06T02:49:26.378Z"
 	},
-	"likeCount": 51,
-	"indexedAt": "2024-10-31T00:57:54.778Z",
+	"likeCount": 0,
+	"indexedAt": "2024-11-06T23:41:52.625Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,12 +27,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fise-isfp",
+				"identifier": "warrior",
 				"locales": [
 					{
-						"description": "FiSe (ISFP)",
+						"description": "This user is a warrior.",
 						"lang": "en",
-						"name": "FiSe (ISFP)"
+						"name": "Warrior ⚔️"
 					}
 				],
 				"severity": "inform"
@@ -38,12 +41,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "tine-intp",
+				"identifier": "mage",
 				"locales": [
 					{
-						"description": "TiNe (INTP)",
+						"description": "This user is a mage.",
 						"lang": "en",
-						"name": "TiNe (INTP)"
+						"name": "Mage 🧙"
 					}
 				],
 				"severity": "inform"
@@ -52,12 +55,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fine-infp",
+				"identifier": "healer",
 				"locales": [
 					{
-						"description": "FiNe (INFP)",
+						"description": "This user is a healer.",
 						"lang": "en",
-						"name": "FiNe (INFP)"
+						"name": "Healer 💚"
 					}
 				],
 				"severity": "inform"
@@ -66,12 +69,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "tise-istp",
+				"identifier": "rogue",
 				"locales": [
 					{
-						"description": "TiSe (ISTP)",
+						"description": "This user is a rogue.",
 						"lang": "en",
-						"name": "TiSe (ISTP)"
+						"name": "Rogue 🥷🏻"
 					}
 				],
 				"severity": "inform"
@@ -80,12 +83,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nife-infj",
+				"identifier": "max-level",
 				"locales": [
 					{
-						"description": "NiFe (INFJ)",
+						"description": "This user is the maximum level.",
 						"lang": "en",
-						"name": "NiFe (INFJ)"
+						"name": "Max Level"
 					}
 				],
 				"severity": "inform"
@@ -94,12 +97,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nite-intj",
+				"identifier": "level-80",
 				"locales": [
 					{
-						"description": "NiTe (INTJ)",
+						"description": "This user is level 80 to 99.",
 						"lang": "en",
-						"name": "NiTe (INTJ)"
+						"name": "Level 80+"
 					}
 				],
 				"severity": "inform"
@@ -108,12 +111,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "sife-isfj",
+				"identifier": "level-50",
 				"locales": [
 					{
-						"description": "SiFe (ISFJ)",
+						"description": "This user is level 50 to 79.",
 						"lang": "en",
-						"name": "SiFe (ISFJ)"
+						"name": "Level 50+"
 					}
 				],
 				"severity": "inform"
@@ -122,12 +125,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "site-istj",
+				"identifier": "level-30",
 				"locales": [
 					{
-						"description": "SiTe (ISTJ)",
+						"description": "This user is level 30 to 49.",
 						"lang": "en",
-						"name": "SiTe (ISTJ)"
+						"name": "Level 30+"
 					}
 				],
 				"severity": "inform"
@@ -136,12 +139,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "feni-enfj",
+				"identifier": "level-10",
 				"locales": [
 					{
-						"description": "FeNi (ENFJ)",
+						"description": "This user is level 10 to 29.",
 						"lang": "en",
-						"name": "FeNi (ENFJ)"
+						"name": "Level 10+"
 					}
 				],
 				"severity": "inform"
@@ -150,12 +153,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fesi-esfj",
+				"identifier": "level-0",
 				"locales": [
 					{
-						"description": "FeSi (ESFJ)",
+						"description": "This user is level 10 or less.",
 						"lang": "en",
-						"name": "FeSi (ESFJ)"
+						"name": "< Level 10"
 					}
 				],
 				"severity": "inform"
@@ -164,12 +167,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "teni-entj",
+				"identifier": "max-hp",
 				"locales": [
 					{
-						"description": "TeNi (ENTJ)",
+						"description": "This user has maximum health points.",
 						"lang": "en",
-						"name": "TeNi (ENTJ)"
+						"name": "Max HP"
 					}
 				],
 				"severity": "inform"
@@ -178,12 +181,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "tesi-estj",
+				"identifier": "high-hp",
 				"locales": [
 					{
-						"description": "TeSi (ESTJ)",
+						"description": "This user has more than half of their health points.",
 						"lang": "en",
-						"name": "TeSi (ESTJ)"
+						"name": "High HP"
 					}
 				],
 				"severity": "inform"
@@ -192,12 +195,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nefi-enfp",
+				"identifier": "low-hp",
 				"locales": [
 					{
-						"description": "NeFi (ENFP)",
+						"description": "This user has less than half of their health points.",
 						"lang": "en",
-						"name": "NeFi (ENFP)"
+						"name": "Low HP"
 					}
 				],
 				"severity": "inform"
@@ -206,12 +209,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "neti-entp",
+				"identifier": "max-mana",
 				"locales": [
 					{
-						"description": "NeTi (ENTP)",
+						"description": "This user has maximum mana points.",
 						"lang": "en",
-						"name": "NeTi (ENTP)"
+						"name": "Max Mana"
 					}
 				],
 				"severity": "inform"
@@ -220,12 +223,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "sefi-esfp",
+				"identifier": "high-mana",
 				"locales": [
 					{
-						"description": "SeFi (ESFP)",
+						"description": "This user has more than half of their mana points.",
 						"lang": "en",
-						"name": "SeFi (ESFP)"
+						"name": "High Mana"
 					}
 				],
 				"severity": "inform"
@@ -234,34 +237,34 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "seti-estp",
+				"identifier": "low-mana",
 				"locales": [
 					{
-						"description": "SeTi (ESTP)",
+						"description": "This user has less than half of their mana points.",
 						"lang": "en",
-						"name": "SeTi (ESTP)"
+						"name": "Low Mana"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"fise-isfp",
-			"tine-intp",
-			"fine-infp",
-			"tise-istp",
-			"nife-infj",
-			"nite-intj",
-			"sife-isfj",
-			"site-istj",
-			"feni-enfj",
-			"fesi-esfj",
-			"teni-entj",
-			"tesi-estj",
-			"nefi-enfp",
-			"neti-entp",
-			"sefi-esfp",
-			"seti-estp"
+			"warrior",
+			"mage",
+			"healer",
+			"rogue",
+			"max-level",
+			"level-80",
+			"level-50",
+			"level-30",
+			"level-10",
+			"level-0",
+			"max-hp",
+			"high-hp",
+			"low-hp",
+			"max-mana",
+			"high-mana",
+			"low-mana"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
-	"cid": "bafyreibk2j6nlvg3nfqzwdnwyuobwaegavcvmt4up26u6eq3lzocsem4oe",
+	"cid": "bafyreibtszwciy5t4xgawhs74b6lpf4qu4i7tpoqe3nzoeyriqod7aqo5m",
 	"creator": {
 		"did": "did:plc:3eivfiql4memqxkryeu4tqnk",
 		"handle": "mod.shawn.party",
@@ -23,6 +23,34 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "star-wars-content",
+				"locales": [
+					{
+						"description": "Content related to Star Wars",
+						"lang": "en",
+						"name": "Star Wars Content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "star-wars-creator",
+				"locales": [
+					{
+						"description": "A label bestowed upon only the best Star Wars content creators",
+						"lang": "en",
+						"name": "Star Wars Content Creator"
+					}
+				],
+				"severity": "none"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -81,6 +109,8 @@
 			}
 		],
 		"labelValues": [
+			"star-wars-content",
+			"star-wars-creator",
 			"list-fiend",
 			"ai-related-content",
 			"spoiler"

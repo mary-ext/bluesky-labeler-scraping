@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreihhxv2zfelrisdtrzlfy3wd7wfsrwo4m27kkxsygguq6dc4nojlou",
+	"cid": "bafyreifjcgvsrvy7tfad54rva5l2zbdlcipzy6e6qxsdkcuqy4ed66bbpq",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "contains-skeet",
+				"locales": [
+					{
+						"description": "Contains term: \"Skeet\"",
+						"lang": "en",
+						"name": "Contains \"Skeet\""
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
