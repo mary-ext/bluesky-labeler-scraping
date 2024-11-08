@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:fcikraffwejtuqffifeykcml/app.bsky.labeler.service/self",
-  "cid": "bafyreicidq77t2naptrsqfm4oilaqkvy6d3pprroc4lg5dfy6bwxfwj5vu",
+  "cid": "bafyreihxytvob2iyb2tjtsebf4wifvxpjxbgpnnfglmdvl2ag3ery7btam",
   "creator": {
     "did": "did:plc:fcikraffwejtuqffifeykcml",
     "handle": "label.wol.blue",
@@ -541,9 +541,28 @@
         "identifier": "masamune",
         "locales": [
           {
-            "description": "Japan Region",
+            "description": "Japanese Data Center",
             "lang": "en",
             "name": "Masamune[Mana]"
+          },
+          {
+            "description": "日本DC",
+            "lang": "ja",
+            "name": "Masamune[Mana]"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "aegis",
+        "locales": [
+          {
+            "description": "日本DC / Japanese Data Center",
+            "lang": "en",
+            "name": "Aegis[Elemental]"
           }
         ],
         "severity": "inform"

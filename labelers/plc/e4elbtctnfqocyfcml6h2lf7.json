@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreifg3gfpsx6enk2zum5sserbs35oomftmc6r5penmxfl5chxtd7hda",
+  "cid": "bafyreidthccyfla2v5tn57zmyolmletjugbt55iyrr6rvmsii3rxhyreoy",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "troll",
+        "locales": [
+          {
+            "description": "Catch all label for posts and accounts which spam users engaged in troll like behavior, reply spamming, or which engage in concern trolling.",
+            "lang": "en",
+            "name": "Troll"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "media",
@@ -290,6 +304,7 @@
       "sensual-alf",
       "sports-betting",
       "terf-gc",
+      "troll",
       "zeta"
     ]
   }
