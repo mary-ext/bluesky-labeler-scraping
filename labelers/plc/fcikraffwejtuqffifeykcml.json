@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:fcikraffwejtuqffifeykcml/app.bsky.labeler.service/self",
-	"cid": "bafyreicidq77t2naptrsqfm4oilaqkvy6d3pprroc4lg5dfy6bwxfwj5vu",
+	"cid": "bafyreihxytvob2iyb2tjtsebf4wifvxpjxbgpnnfglmdvl2ag3ery7btam",
 	"creator": {
 		"did": "did:plc:fcikraffwejtuqffifeykcml",
 		"handle": "label.wol.blue",
@@ -18,7 +18,7 @@
 		"description": "ネタバレを防ぐコンテンツラベリングと、ジョブ名を表示できるラベリングを提供しています。\n\nコンテンツラベリング(日本語のみ/Japanese Only)\nhttps://x.gd/or3VB\n\nJob Badge(日本語/English)\nhttps://x.gd/1ZT1N\n\n\nBy @usounds.work\n© SQUARE ENIX",
 		"indexedAt": "2024-11-03T13:07:11.482Z"
 	},
-	"likeCount": 366,
+	"likeCount": 374,
 	"indexedAt": "2024-03-16T16:41:19.759Z",
 	"labels": [],
 	"policies": {
@@ -543,9 +543,28 @@
 				"identifier": "masamune",
 				"locales": [
 					{
-						"description": "Japan Region",
+						"description": "Japanese Data Center",
 						"lang": "en",
 						"name": "Masamune[Mana]"
+					},
+					{
+						"description": "日本DC",
+						"lang": "ja",
+						"name": "Masamune[Mana]"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aegis",
+				"locales": [
+					{
+						"description": "日本DC / Japanese Data Center",
+						"lang": "en",
+						"name": "Aegis[Elemental]"
 					}
 				],
 				"severity": "inform"

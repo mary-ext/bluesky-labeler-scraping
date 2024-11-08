@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreifg3gfpsx6enk2zum5sserbs35oomftmc6r5penmxfl5chxtd7hda",
+	"cid": "bafyreidthccyfla2v5tn57zmyolmletjugbt55iyrr6rvmsii3rxhyreoy",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 913,
+	"likeCount": 1205,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "Catch all label for posts and accounts which spam users engaged in troll like behavior, reply spamming, or which engage in concern trolling.",
+						"lang": "en",
+						"name": "Troll"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "media",
@@ -292,6 +306,7 @@
 			"sensual-alf",
 			"sports-betting",
 			"terf-gc",
+			"troll",
 			"zeta"
 		]
 	}
