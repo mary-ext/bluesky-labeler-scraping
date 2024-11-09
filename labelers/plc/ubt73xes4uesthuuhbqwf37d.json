@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ubt73xes4uesthuuhbqwf37d/app.bsky.labeler.service/self",
-	"cid": "bafyreidn65lhwstgxkkf2snuqlkuridpcul6kr7dh2u5d24rkhtxnuqhkm",
+	"cid": "bafyreidkcc3citupskx27jgr6kcv7xturvbg7ejnguxkrtjz27l6hi7wam",
 	"creator": {
 		"did": "did:plc:ubt73xes4uesthuuhbqwf37d",
 		"handle": "kickflip.renahlee.com",
@@ -15,10 +15,10 @@
 		},
 		"labels": [],
 		"createdAt": "2024-07-03T23:30:29.079Z",
-		"description": "𝐍𝐚𝐭𝐢𝐨𝐧𝐬\n\nRuns every 30 min 🕡 DM a flag emoji to use and 🏳️ to remove all. Make sure it’s the last message and wait for confirmation 💌\n\nSee pinned post / comments if you need help and don’t forget to subscribe 🩵",
-		"indexedAt": "2024-11-06T08:13:15.481Z"
+		"description": "𝐍𝐚𝐭𝐢𝐨𝐧𝐬\n\nRuns every 30 min 🕡\n\nDM a flag emoji to use and 🏳️ to remove all. Make sure it’s the last message and wait for confirmation 💌\n\nSee pinned post if you need help DMing and don’t forget to subscribe 🩵",
+		"indexedAt": "2024-11-09T00:57:12.978Z"
 	},
-	"likeCount": 712,
+	"likeCount": 724,
 	"indexedAt": "2024-09-10T06:04:52.219Z",
 	"labels": [],
 	"policies": {
@@ -3956,6 +3956,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "res",
+				"locales": [
+					{
+						"description": "Labels below are reserved. 🤖 is available by request if you run a bot account. Please DM @renahlee.com",
+						"lang": "en",
+						"name": "RESERVED"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4228,6 +4242,9 @@
 			"atm",
 			"lib",
 			"hell",
+			"bis",
+			"pan",
+			"res",
 			"bot",
 			"ihop",
 			"kiki",
@@ -4236,10 +4253,8 @@
 			"mob",
 			"skate",
 			"soap",
-			"www",
 			"ten",
-			"bis",
-			"pan"
+			"www"
 		]
 	}
 }
