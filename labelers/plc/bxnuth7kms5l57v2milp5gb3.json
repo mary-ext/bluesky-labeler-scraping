@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
-	"cid": "bafyreiagwhn2tr4pw4unn3fffibkmabdlmoejgeb5n4fxdadsg52jqddoi",
+	"cid": "bafyreihq5hbqj3imvij44oddyxcby44kso242lezsyakvgvs2h56ot5lwe",
 	"creator": {
 		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
 		"handle": "uspol.bluesky.bot",
@@ -13,13 +13,27 @@
 		"labels": [],
 		"createdAt": "2024-08-12T03:01:07.474Z",
 		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health. Ran by @halsco.de.\n\nWe are now live and active. See pinned post for policy.",
-		"indexedAt": "2024-11-06T00:12:15.181Z"
+		"indexedAt": "2024-11-09T03:03:52.081Z"
 	},
-	"likeCount": 50,
+	"likeCount": 53,
 	"indexedAt": "2024-08-12T04:19:46.363Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "extremism",
+				"locales": [
+					{
+						"description": "Content which talks about extremism or extremists in the United States, particularly white supremacists.",
+						"lang": "en",
+						"name": "Extremism/extremists in the US"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -171,6 +185,7 @@
 			"foreign-relations",
 			"military",
 			"lgbtq",
+			"extremism",
 			"miscellaneous-uspol"
 		]
 	}

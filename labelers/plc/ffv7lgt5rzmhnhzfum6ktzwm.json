@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ffv7lgt5rzmhnhzfum6ktzwm/app.bsky.labeler.service/self",
-	"cid": "bafyreicjsdpd6rgdpdkzy55ha6szln4nleqwrl3utjuk3hl5l2souak6bm",
+	"cid": "bafyreidndlxo7esiyuwrbiv5elbkl5rks2hq6hppsrzszbjxfxfo2ldhje",
 	"creator": {
 		"did": "did:plc:ffv7lgt5rzmhnhzfum6ktzwm",
 		"handle": "sports-labeler.hooray.social",
@@ -18,8 +18,8 @@
 		"description": "For showing your team pride!\n\nMaintained by @matt.loar.name. Still under development, let me know if you encounter issues.",
 		"indexedAt": "2024-10-11T20:18:40.206Z"
 	},
-	"likeCount": 37,
-	"indexedAt": "2024-10-19T17:21:44.930Z",
+	"likeCount": 45,
+	"indexedAt": "2024-11-09T21:04:09.434Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -803,6 +803,20 @@
 						"description": "Fan of the San Antonio Spurs",
 						"lang": "en",
 						"name": "San Antonio Spurs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nba-phi",
+				"locales": [
+					{
+						"description": "Fan of the Philadelphia 76ers",
+						"lang": "en",
+						"name": "Philadelphia 76ers"
 					}
 				],
 				"severity": "inform"
@@ -2323,12 +2337,82 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nba-phi",
+				"identifier": "pwhl-bos",
 				"locales": [
 					{
-						"description": "Fan of the Philadelphia 76ers",
+						"description": "Fan of the Boston Fleet",
 						"lang": "en",
-						"name": "Philadelphia 76ers"
+						"name": "Boston Fleet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pwhl-min",
+				"locales": [
+					{
+						"description": "Fan of the Minnesota Frost",
+						"lang": "en",
+						"name": "Minnesota Frost"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pwhl-mon",
+				"locales": [
+					{
+						"description": "Fan of the Montréal Victoire",
+						"lang": "en",
+						"name": "Montréal Victoire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pwhl-ny",
+				"locales": [
+					{
+						"description": "Fan of the New York Sirens",
+						"lang": "en",
+						"name": "New York Sirens"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pwhl-ott",
+				"locales": [
+					{
+						"description": "Fan of the Ottawa Charge",
+						"lang": "en",
+						"name": "Ottawa Charge"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pwhl-tor",
+				"locales": [
+					{
+						"description": "Fan of the Toronto Sceptres",
+						"lang": "en",
+						"name": "Toronto Sceptres"
 					}
 				],
 				"severity": "inform"
@@ -2391,6 +2475,7 @@
 			"nba-por",
 			"nba-sac",
 			"nba-sas",
+			"nba-phi",
 			"nba-tor",
 			"nba-uta",
 			"nba-was",
@@ -2499,7 +2584,12 @@
 			"wnba-phx",
 			"wnba-sea",
 			"wnba-was",
-			"nba-phi"
+			"pwhl-bos",
+			"pwhl-min",
+			"pwhl-mon",
+			"pwhl-ny",
+			"pwhl-ott",
+			"pwhl-tor"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreieq7sx2koodybiwtob7nii76fe46k6ctdsorgtzdg3rgjq7w3mrle",
+	"cid": "bafyreid4etsalo337q7bk3yxjgd3zudyd32uvx4izgtuguhmpafalbc2km",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @blockch.ain.mom\ndonate: https://ko-fi.com/notjuliet",
 		"indexedAt": "2024-11-08T09:54:55.783Z"
 	},
-	"likeCount": 7736,
-	"indexedAt": "2024-11-01T13:51:46.852Z",
+	"likeCount": 7821,
+	"indexedAt": "2024-11-09T09:38:08.754Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1310,6 +1310,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "moo-moocow",
+				"locales": [
+					{
+						"description": "This user uses moo/moocow/moocows pronouns.",
+						"lang": "en",
+						"name": "moo/moocow/moocows"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "any-neopronouns",
+				"locales": [
+					{
+						"description": "This user uses any neopronouns.",
+						"lang": "en",
+						"name": "any neopronouns"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1404,7 +1432,9 @@
 			"he-she",
 			"e-h-hs",
 			"atp-adp",
-			"cat-cats"
+			"cat-cats",
+			"moo-moocow",
+			"any-neopronouns"
 		]
 	}
 }
