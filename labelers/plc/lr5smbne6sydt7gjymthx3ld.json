@@ -1,0 +1,50 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:lr5smbne6sydt7gjymthx3ld/app.bsky.labeler.service/self",
+	"cid": "bafyreib6qlihe4gsse2c2xq3pv77fl2gn5kgfuczb4f6cybx42gr26j4zu",
+	"creator": {
+		"did": "did:plc:lr5smbne6sydt7gjymthx3ld",
+		"handle": "shinyposts.awoo.blue",
+		"displayName": "Shiny Posts!",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lr5smbne6sydt7gjymthx3ld/bafkreiewmkn32wpjnzkzdoxkety4krm3252whiikyjuuunm7fzfrdq2sly@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "none"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-11-10T13:58:38.286Z",
+		"description": "Every post has a 1 in 8192 chance to be a shiny! A label will be applied to the post when it is shiny. This account will also like the post to indicate you got a shiny!",
+		"indexedAt": "2024-11-10T14:31:36.480Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-11-10T15:59:19.281Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shiny",
+				"locales": [
+					{
+						"description": "A post has a 1 in 8192 chance to be shiny when posted",
+						"lang": "en",
+						"name": "Shiny!"
+					},
+					{
+						"description": "Een post heeft een 1 in 8192 kans om als shiny gemarkeerd te worden",
+						"lang": "nl",
+						"name": "Shiny!"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"shiny"
+		]
+	}
+}

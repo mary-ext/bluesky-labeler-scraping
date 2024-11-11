@@ -1,131 +1,207 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:u2s46qshgazlttfad7b7to5o/app.bsky.labeler.service/self",
-	"cid": "bafyreihkkpxxgjjal4x2uwpcdkh2h3nloushfar5gwwm3hgrq5h2aaxomi",
+	"cid": "bafyreib4rfpkqnp5qu3c2im3ozplr5nk7evh3y6qlgov222o4sd7wl7swq",
 	"creator": {
 		"did": "did:plc:u2s46qshgazlttfad7b7to5o",
 		"handle": "hhn-labeler.bsky.social",
-		"displayName": "",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:u2s46qshgazlttfad7b7to5o/bafkreifvghdaodzlu2zirfyooj345cnu5gehorznxr5btjteg3pml7s7gq@jpeg",
+		"displayName": "HHN Fan Labeler (In Development)",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:u2s46qshgazlttfad7b7to5o/bafkreickf3t7xwmeyozmmhas3m7arzdzeafkp2beiguj3fd2twvpeoabrm@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-09T19:13:39.281Z",
-		"indexedAt": "2024-11-09T19:13:39.281Z"
+		"description": "THIS LABELER IS STILL IN DEVELOPMENT\n\nFans of Universal’s Halloween Horror Nights can now label their profiles with their preferred events. \n\nSubscribe, then Like to set your label.",
+		"indexedAt": "2024-11-11T00:59:44.281Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-10T01:06:40.180Z",
+	"indexedAt": "2024-11-11T00:50:20.153Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "hhn-orl",
 				"locales": [
 					{
-						"description": "HHN Orlando",
+						"description": "Attends HHN Orlando",
 						"lang": "en",
+						"name": "HHN Orlando"
+					},
+					{
+						"description": "Attends HHN Orlando",
+						"lang": "pt-BR",
 						"name": "HHN Orlando"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "hhn-la",
+				"defaultSetting": "warn",
+				"identifier": "hhn-hlwd",
 				"locales": [
 					{
-						"description": "HHN Hollywood",
+						"description": "Attends HHN Hollywood",
 						"lang": "en",
+						"name": "HHN Hollywood"
+					},
+					{
+						"description": "Attends HHN Hollywood",
+						"lang": "pt-BR",
 						"name": "HHN Hollywood"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "hhn-sng",
-				"locales": [
-					{
-						"description": "HHN Singapore",
-						"lang": "en",
-						"name": "HHN Singapore"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "hhn-jpn",
-				"locales": [
-					{
-						"description": "HHN Japan",
-						"lang": "en",
-						"name": "HHN Japan"
-					}
-				],
-				"severity": "none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "hhn-lv",
 				"locales": [
 					{
-						"description": "HHN Las Vegas",
+						"description": "Attends HHN Unchained Las Vegas",
 						"lang": "en",
-						"name": "HHN Las Vegas"
+						"name": "HHN Unchained Vegas"
+					},
+					{
+						"description": "Attends HHN Unchained - Las Vegas",
+						"lang": "pt-BR",
+						"name": "HHN Unchained Vegas"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "hhn-shanghai",
+				"defaultSetting": "warn",
+				"identifier": "hhn-jpn",
 				"locales": [
 					{
-						"description": "HHN Shanghai",
+						"description": "Attends HHN in Japan",
 						"lang": "en",
-						"name": "HHN Shanghai"
+						"name": "HHN Osaka"
+					},
+					{
+						"description": "Attends HHN in Japan",
+						"lang": "pt-BR",
+						"name": "HHN Osaka"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
+				"identifier": "hhn-sen",
+				"locales": [
+					{
+						"description": "Attends HHN in Singapore",
+						"lang": "en",
+						"name": "HHN Sentosa"
+					},
+					{
+						"description": "Attends HHN in Singapore",
+						"lang": "pt-BR",
+						"name": "HHN Sentosa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hhn-bei",
+				"locales": [
+					{
+						"description": "Attends Scares at Universal in Beijing",
+						"lang": "en",
+						"name": "Scares Beijing"
+					},
+					{
+						"description": "Attends Scares at Universal in Beijing",
+						"lang": "pt-BR",
+						"name": "Scares Beijing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "hhn-usa",
 				"locales": [
 					{
-						"description": "HHN USA",
+						"description": "Attends HHN across the US",
 						"lang": "en",
+						"name": "HHN USA"
+					},
+					{
+						"description": "Attends HHN across the US",
+						"lang": "pt-BR",
 						"name": "HHN USA"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hhn-asia",
+				"locales": [
+					{
+						"description": "Attends HHNs throughout Asia",
+						"lang": "en",
+						"name": "HHN Asia"
+					},
+					{
+						"description": "Attends HHN throughout Asia",
+						"lang": "pt-BR",
+						"name": "HHN Asia"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hhn-int",
+				"locales": [
+					{
+						"description": "Attends HHN globally",
+						"lang": "en",
+						"name": "HHN Worldwide"
+					},
+					{
+						"description": "Attends HHN globally",
+						"lang": "pt-BR",
+						"name": "HHN Worldwide"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"hhn-orl",
-			"hhn-la",
-			"hhn-sng",
-			"hhn-jpn",
+			"hhn-hlwd",
 			"hhn-lv",
-			"hhn-shanghai",
-			"hhn-usa"
+			"hhn-jpn",
+			"hhn-sen",
+			"hhn-bei",
+			"hhn-usa",
+			"hhn-asia",
+			"hhn-int"
 		]
 	}
 }

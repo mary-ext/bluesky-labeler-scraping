@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreidthccyfla2v5tn57zmyolmletjugbt55iyrr6rvmsii3rxhyreoy",
+	"cid": "bafyreidp2hwc4r6kqzn77akij42qb6v4jfi3u3fs5534abszaib2sg2hya",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. A labeling service for all things Alf, as well as certain facts about content found in usernames, descriptions, and posts. Not regularly monitored.",
 		"indexedAt": "2024-10-19T02:33:35.006Z"
 	},
-	"likeCount": 1538,
+	"likeCount": 1658,
 	"indexedAt": "2024-03-15T04:13:56.272Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "contains-slur",
+				"locales": [
+					{
+						"description": "Applied to posts which contain well-known English-language slurs disparaging people based on race, ethnicity, religion, nationality, sexual orientation, or gender.",
+						"lang": "en",
+						"name": "Slur"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -293,6 +307,7 @@
 			"alt-tech",
 			"beans",
 			"bluesky-elder",
+			"contains-slur",
 			"dinosaur-emoji",
 			"disinformation-network",
 			"elon-musk",
