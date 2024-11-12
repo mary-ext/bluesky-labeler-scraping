@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreiev2udzjfqzifwuprdfgubqn5dz2wawkkdnutk5nomnkb7tpksbrq",
+	"cid": "bafyreifaqcw7zh7urgesyxeeat4ajd7rknigxnvoq6rvzz7bt6mdq6xoru",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
-		"displayName": "",
+		"displayName": "GitHub Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xpxsa5aviwecd7cv6bzbmr5n/bafkreihzwz7cpzkxklqcvg4n5d4i5f7sbgp5n5ez6zp5u7fholnaai7gl4@jpeg",
 		"associated": {
 			"labeler": true,
@@ -15,10 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-10T09:04:27.082Z",
-		"indexedAt": "2024-11-10T23:42:26.981Z"
+		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
+		"indexedAt": "2024-11-11T10:18:29.684Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-11-11T01:13:43.571Z",
+	"likeCount": 151,
+	"indexedAt": "2024-11-12T01:01:30.668Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -26,10 +27,24 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "hipstersmoothie-bluesky-migrate",
+				"locales": [
+					{
+						"description": "A website to help people migrate to bsky\nhttps://github.com/hipstersmoothie/bluesky-migrate",
+						"lang": "en",
+						"name": "hipstersmoothie/bluesky-migrate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "intuit-auto",
 				"locales": [
 					{
-						"description": "Generate releases based on semantic version labels on pull requests.",
+						"description": "Generate releases based on semantic version labels on pull requests.\nhttps://github.com/intuit/auto",
 						"lang": "en",
 						"name": "intuit/auto"
 					}
@@ -40,12 +55,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fwoosh-dev-fwoosh",
+				"identifier": "crablang-crab",
 				"locales": [
 					{
-						"description": "",
+						"description": "A community fork of a language named after a plant fungus. All of the memory-safe features you love, now with 100% less bureaucracy! \nhttps://github.com/crablang/crab",
 						"lang": "en",
-						"name": "fwoosh-dev/fwoosh"
+						"name": "crablang/crab"
 					}
 				],
 				"severity": "inform"
@@ -54,21 +69,1912 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "hipstersmoothie-bluesky-migrate",
+				"identifier": "nspilman-eptss-site",
 				"locales": [
 					{
-						"description": "A website to help people migrate to bsky",
+						"description": "https://github.com/nspilman/eptss-site",
 						"lang": "en",
-						"name": "hipstersmoothie/bluesky-migrate"
+						"name": "nspilman/eptss-site"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "colabottles-rpg-dnd",
+				"locales": [
+					{
+						"description": "A wiki for the Crits & Giggles D&D group\nhttps://github.com/colabottles/rpg-dnd",
+						"lang": "en",
+						"name": "colabottles/rpg-dnd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "colabottles-toddl",
+				"locales": [
+					{
+						"description": "My Personal Website\nhttps://github.com/colabottles/toddl",
+						"lang": "en",
+						"name": "colabottles/toddl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "colabottles-wcag",
+				"locales": [
+					{
+						"description": "Web Content Accessibility Guidelines\nhttps://github.com/colabottles/wcag",
+						"lang": "en",
+						"name": "colabottles/wcag"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "noahtheduke-splint",
+				"locales": [
+					{
+						"description": "A Clojure linter focused on style and code shape.\nhttps://github.com/NoahTheDuke/splint",
+						"lang": "en",
+						"name": "noahtheduke/splint"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "storybookjs-storybook",
+				"locales": [
+					{
+						"description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation\nhttps://github.com/storybookjs/storybook",
+						"lang": "en",
+						"name": "storybookjs/storybook"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bluesky-social-social-app",
+				"locales": [
+					{
+						"description": "The Bluesky Social application for Web, iOS, and Android\nhttps://github.com/bluesky-social/social-app",
+						"lang": "en",
+						"name": "bluesky-social/social-app"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "storybookjs-react-native",
+				"locales": [
+					{
+						"description": "📓 Storybook for React Native!\nhttps://github.com/storybookjs/react-native",
+						"lang": "en",
+						"name": "storybookjs/react-native"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "devxan-site",
+				"locales": [
+					{
+						"description": "All content was copyright Xan Surnamehere but maybe now it's more free\nhttps://github.com/devxan/site",
+						"lang": "en",
+						"name": "devxan/site"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "saurabhdaware-bsky-widget",
+				"locales": [
+					{
+						"description": "Unofficial Bluesky widget to render cute profile cards in your websites ^_^\nhttps://github.com/saurabhdaware/bsky-widget",
+						"lang": "en",
+						"name": "saurabhdaware/bsky-widget"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "abelljs-abell",
+				"locales": [
+					{
+						"description": "A Low-Level, Framework Agnostic, Highly Flexible Static-Site-Generator to help you build Static Sites on a smaller learning curve 🌀\nhttps://github.com/abelljs/abell",
+						"lang": "en",
+						"name": "abelljs/abell"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ueberdosis-tiptap",
+				"locales": [
+					{
+						"description": "The headless rich text editor framework for web artisans.\nhttps://github.com/ueberdosis/tiptap",
+						"lang": "en",
+						"name": "ueberdosis/tiptap"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "odota-web",
+				"locales": [
+					{
+						"description": "React web interface for the OpenDota platform\nhttps://github.com/odota/web",
+						"lang": "en",
+						"name": "odota/web"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "l422y-megamap",
+				"locales": [
+					{
+						"description": "Extended JavaScript Map with caching, loading, expiry features... and more\nhttps://github.com/L422Y/megamap",
+						"lang": "en",
+						"name": "l422y/megamap"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aliceisjustplaying-emojistats-bsky",
+				"locales": [
+					{
+						"description": "Emoji Stats for Bluesky\nhttps://github.com/aliceisjustplaying/emojistats-bsky",
+						"lang": "en",
+						"name": "aliceisjustplaying/emojistats-bsky"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nuxt-nuxt",
+				"locales": [
+					{
+						"description": "The Intuitive Vue Framework.\nhttps://github.com/nuxt/nuxt",
+						"lang": "en",
+						"name": "nuxt/nuxt"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jessejanderson-skylink",
+				"locales": [
+					{
+						"description": "Detect Decentralized Identifiers (DIDs) in a domain's TXT records and link to the associated Bluesky profile.\nhttps://github.com/jessejanderson/skylink",
+						"lang": "en",
+						"name": "jessejanderson/skylink"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "reduxjs-redux-toolkit",
+				"locales": [
+					{
+						"description": "The official, opinionated, batteries-included toolset for efficient Redux development\nhttps://github.com/reduxjs/redux-toolkit",
+						"lang": "en",
+						"name": "reduxjs/redux-toolkit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "apollographql-apollo-client",
+				"locales": [
+					{
+						"description": ":rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.\nhttps://github.com/apollographql/apollo-client",
+						"lang": "en",
+						"name": "apollographql/apollo-client"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "testing-library-react-render-stream-testing-library",
+				"locales": [
+					{
+						"description": "A library to make render-per-render asserions on your React components and hooks.\nhttps://github.com/testing-library/react-render-stream-testing-library",
+						"lang": "en",
+						"name": "testing-library/react-render-stream-testing-library"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unleash-unleash",
+				"locales": [
+					{
+						"description": "Open-source feature management solution built for developers.\nhttps://github.com/Unleash/unleash",
+						"lang": "en",
+						"name": "unleash/unleash"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "3DRX-tcctl",
+				"locales": [
+					{
+						"description": "An API server and webui for tc netem\nhttps://github.com/3DRX/tcctl",
+						"lang": "en",
+						"name": "3DRX/tcctl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "graphql-graphql-js",
+				"locales": [
+					{
+						"description": "A reference implementation of GraphQL for JavaScript\nhttps://github.com/graphql/graphql-js",
+						"lang": "en",
+						"name": "graphql/graphql-js"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nodejs-node-gyp",
+				"locales": [
+					{
+						"description": "Node.js native addon build tool\nhttps://github.com/nodejs/node-gyp",
+						"lang": "en",
+						"name": "nodejs/node-gyp"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "discourse-discourse",
+				"locales": [
+					{
+						"description": "A platform for community discussion. Free, open, simple.\nhttps://github.com/discourse/discourse",
+						"lang": "en",
+						"name": "discourse/discourse"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hapijs-catbox-memcached",
+				"locales": [
+					{
+						"description": "Memcached adapter for catbox\nhttps://github.com/hapijs/catbox-memcached",
+						"lang": "en",
+						"name": "hapijs/catbox-memcached"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hapijs-catbox",
+				"locales": [
+					{
+						"description": "Multi-strategy object caching service\nhttps://github.com/hapijs/catbox",
+						"lang": "en",
+						"name": "hapijs/catbox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hapijs-lab",
+				"locales": [
+					{
+						"description": "Node test utility\nhttps://github.com/hapijs/lab",
+						"lang": "en",
+						"name": "hapijs/lab"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hapijs-hapi",
+				"locales": [
+					{
+						"description": "The Simple, Secure Framework Developers Trust\nhttps://github.com/hapijs/hapi",
+						"lang": "en",
+						"name": "hapijs/hapi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "browserify-browserify",
+				"locales": [
+					{
+						"description": "browser-side require() the node.js way\nhttps://github.com/browserify/browserify",
+						"lang": "en",
+						"name": "browserify/browserify"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "str4d-rage",
+				"locales": [
+					{
+						"description": "A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.\nhttps://github.com/str4d/rage",
+						"lang": "en",
+						"name": "str4d/rage"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "str4d-plc",
+				"locales": [
+					{
+						"description": "Key management for DID PLC identities\nhttps://github.com/str4d/plc",
+						"lang": "en",
+						"name": "str4d/plc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vercel-next.js",
+				"locales": [
+					{
+						"description": "The React Framework\nhttps://github.com/vercel/next.js",
+						"lang": "en",
+						"name": "vercel/next.js"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pveyes-htmr",
+				"locales": [
+					{
+						"description": "Simple and lightweight (< 2kB) HTML string to React element conversion library\nhttps://github.com/pveyes/htmr",
+						"lang": "en",
+						"name": "pveyes/htmr"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "withastro-docs",
+				"locales": [
+					{
+						"description": "Astro documentation\nhttps://github.com/withastro/docs",
+						"lang": "en",
+						"name": "withastro/docs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "withastro-astro",
+				"locales": [
+					{
+						"description": "The web framework for content-driven websites. ⭐️ Star to support our work!\nhttps://github.com/withastro/astro",
+						"lang": "en",
+						"name": "withastro/astro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "withastro-starlight",
+				"locales": [
+					{
+						"description": "🌟 Build beautiful, accessible, high-performance documentation websites with Astro\nhttps://github.com/withastro/starlight",
+						"lang": "en",
+						"name": "withastro/starlight"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "t2linux-wiki",
+				"locales": [
+					{
+						"description": "Repository for the t2linux.org wiki\nhttps://github.com/t2linux/wiki",
+						"lang": "en",
+						"name": "t2linux/wiki"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dynamicalsystem-dynamicalsystem",
+				"locales": [
+					{
+						"description": "https://github.com/DynamicalSystem/dynamicalsystem",
+						"lang": "en",
+						"name": "dynamicalsystem/dynamicalsystem"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "afterlifepro-cleric-atproto",
+				"locales": [
+					{
+						"description": "https://github.com/Afterlifepro/cleric-atproto",
+						"lang": "en",
+						"name": "afterlifepro/cleric-atproto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "afterlifepro-neocities",
+				"locales": [
+					{
+						"description": "https://github.com/Afterlifepro/neocities",
+						"lang": "en",
+						"name": "afterlifepro/neocities"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "JMCQ87-foodforecast",
+				"locales": [
+					{
+						"description": "https://github.com/JMCQ87/foodforecast",
+						"lang": "en",
+						"name": "JMCQ87/foodforecast"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jesusgollonet-website",
+				"locales": [
+					{
+						"description": "https://github.com/jesusgollonet/website",
+						"lang": "en",
+						"name": "jesusgollonet/website"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adonisjs-core",
+				"locales": [
+					{
+						"description": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.\nhttps://github.com/adonisjs/core",
+						"lang": "en",
+						"name": "adonisjs/core"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Shopify-event_stream_parser",
+				"locales": [
+					{
+						"description": "A lightweight, fully spec-compliant parser for the event stream format.\nhttps://github.com/Shopify/event_stream_parser",
+						"lang": "en",
+						"name": "Shopify/event_stream_parser"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alexrudall-ruby-openai",
+				"locales": [
+					{
+						"description": "OpenAI API + Ruby! 🤖❤️ \nhttps://github.com/alexrudall/ruby-openai",
+						"lang": "en",
+						"name": "alexrudall/ruby-openai"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "SF-Tec-pyvium",
+				"locales": [
+					{
+						"description": "Tiny Python wrapper around the \"Software development driver DLL\" for IviumSoft.\nhttps://github.com/SF-Tec/pyvium",
+						"lang": "en",
+						"name": "SF-Tec/pyvium"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "go-gitea-gitea",
+				"locales": [
+					{
+						"description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD\nhttps://github.com/go-gitea/gitea",
+						"lang": "en",
+						"name": "go-gitea/gitea"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "atesgoral-hrm-solutions",
+				"locales": [
+					{
+						"description": "Human Resource Machine solutions and size/speed hacks \nhttps://github.com/atesgoral/hrm-solutions",
+						"lang": "en",
+						"name": "atesgoral/hrm-solutions"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "IfcOpenShell-IfcOpenShell",
+				"locales": [
+					{
+						"description": "Open source IFC library and geometry engine\nhttps://github.com/IfcOpenShell/IfcOpenShell",
+						"lang": "en",
+						"name": "IfcOpenShell/IfcOpenShell"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Jean-Tinland-simple-bar",
+				"locales": [
+					{
+						"description": "A yabai status bar widget for Übersicht\nhttps://github.com/Jean-Tinland/simple-bar",
+						"lang": "en",
+						"name": "Jean-Tinland/simple-bar"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "knxd-knxd",
+				"locales": [
+					{
+						"description": "https://github.com/knxd/knxd",
+						"lang": "en",
+						"name": "knxd/knxd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "facebook-react",
+				"locales": [
+					{
+						"description": "The library for web and native user interfaces.\nhttps://github.com/facebook/react",
+						"lang": "en",
+						"name": "facebook/react"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spacejam-sled",
+				"locales": [
+					{
+						"description": "the champagne of beta embedded databases\nhttps://github.com/spacejam/sled",
+						"lang": "en",
+						"name": "spacejam/sled"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nitrojs-nitro",
+				"locales": [
+					{
+						"description": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.\nhttps://github.com/nitrojs/nitro",
+						"lang": "en",
+						"name": "nitrojs/nitro"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nodejs-node",
+				"locales": [
+					{
+						"description": "Node.js JavaScript runtime ✨🐢🚀✨\nhttps://github.com/nodejs/node",
+						"lang": "en",
+						"name": "nodejs/node"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "catppuccin-vscode",
+				"locales": [
+					{
+						"description": "🦌 Soothing pastel theme for VSCode & Azure Data Studio\nhttps://github.com/catppuccin/vscode",
+						"lang": "en",
+						"name": "catppuccin/vscode"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "karlhorky-learn-to-program",
+				"locales": [
+					{
+						"description": "Educational resources to learn to program (Foundation in Web Development)\nhttps://github.com/karlhorky/learn-to-program",
+						"lang": "en",
+						"name": "karlhorky/learn-to-program"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "upleveled-eslint-config-upleveled",
+				"locales": [
+					{
+						"description": "UpLeveled ESLint defaults for programming in JavaScript, TypeScript, React, Next.js, Node.js, Postgres.js\nhttps://github.com/upleveled/eslint-config-upleveled",
+						"lang": "en",
+						"name": "upleveled/eslint-config-upleveled"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "DefinitelyTyped-DefinitelyTyped",
+				"locales": [
+					{
+						"description": "The repository for high quality TypeScript type definitions.\nhttps://github.com/DefinitelyTyped/DefinitelyTyped",
+						"lang": "en",
+						"name": "DefinitelyTyped/DefinitelyTyped"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oxc-project-oxc",
+				"locales": [
+					{
+						"description": "⚓ A collection of JavaScript tools written in Rust.\nhttps://github.com/oxc-project/oxc",
+						"lang": "en",
+						"name": "oxc-project/oxc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "starship-starship",
+				"locales": [
+					{
+						"description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!\nhttps://github.com/starship/starship",
+						"lang": "en",
+						"name": "starship/starship"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adocasts-adocasts",
+				"locales": [
+					{
+						"description": "The code at the heart of Adocasts\nhttps://github.com/adocasts/adocasts",
+						"lang": "en",
+						"name": "adocasts/adocasts"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "quiple-social-app",
+				"locales": [
+					{
+						"description": "The Bluesky Social application for Web, iOS, and Android\nhttps://github.com/quiple/social-app",
+						"lang": "en",
+						"name": "quiple/social-app"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "quiple-galmuri",
+				"locales": [
+					{
+						"description": "Bitmap fonts inspired by the font design from Nintendo DS\nhttps://github.com/quiple/galmuri",
+						"lang": "en",
+						"name": "quiple/galmuri"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dxos-dxos",
+				"locales": [
+					{
+						"description": "TypeScript implementation of the DXOS protocols, SDK, and toolchain.\nhttps://github.com/dxos/dxos",
+						"lang": "en",
+						"name": "dxos/dxos"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft-vscode",
+				"locales": [
+					{
+						"description": "Visual Studio Code\nhttps://github.com/microsoft/vscode",
+						"lang": "en",
+						"name": "microsoft/vscode"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "airjp73-rvf",
+				"locales": [
+					{
+						"description": "Easy form validation and state management for React and Remix\nhttps://github.com/airjp73/rvf",
+						"lang": "en",
+						"name": "airjp73/rvf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "remix-run-remix",
+				"locales": [
+					{
+						"description": "Build Better Websites. Create modern, resilient user experiences with web fundamentals.\nhttps://github.com/remix-run/remix",
+						"lang": "en",
+						"name": "remix-run/remix"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "remeda-remeda",
+				"locales": [
+					{
+						"description": "A utility library for JavaScript and TypeScript.\nhttps://github.com/remeda/remeda",
+						"lang": "en",
+						"name": "remeda/remeda"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mobxjs-mobx-state-tree",
+				"locales": [
+					{
+						"description": "Full-featured reactive state management without the boilerplate\nhttps://github.com/mobxjs/mobx-state-tree",
+						"lang": "en",
+						"name": "mobxjs/mobx-state-tree"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nickytonline-copilot-extension-template",
+				"locales": [
+					{
+						"description": "A GitHub Copilot Extension Template\nhttps://github.com/nickytonline/copilot-extension-template",
+						"lang": "en",
+						"name": "nickytonline/copilot-extension-template"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "open-sauced-app",
+				"locales": [
+					{
+						"description": "🍕 Insights into your entire open source ecosystem.\nhttps://github.com/open-sauced/app",
+						"lang": "en",
+						"name": "open-sauced/app"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "karaluh-ScrobblerBrainz",
+				"locales": [
+					{
+						"description": "A MusicBee plug-in to scrobble tracks to ListenBrainz\nhttps://github.com/karaluh/ScrobblerBrainz",
+						"lang": "en",
+						"name": "karaluh/ScrobblerBrainz"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nickytonline-collabiano",
+				"locales": [
+					{
+						"description": "A Collaborative Piano\nhttps://github.com/nickytonline/collabiano",
+						"lang": "en",
+						"name": "nickytonline/collabiano"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nickytonline-astro-partykit-starter",
+				"locales": [
+					{
+						"description": "https://github.com/nickytonline/astro-partykit-starter",
+						"lang": "en",
+						"name": "nickytonline/astro-partykit-starter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "metabrainz-picard-plugins",
+				"locales": [
+					{
+						"description": "Picard plugins: use 1.0 branch for Picard < 2.0 (python 2/Qt4) and 2.0 branch for Picard >= 2.0 (python 3/Qt5)\nhttps://github.com/metabrainz/picard-plugins",
+						"lang": "en",
+						"name": "metabrainz/picard-plugins"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "infinitered-ignite",
+				"locales": [
+					{
+						"description": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting.\nhttps://github.com/infinitered/ignite",
+						"lang": "en",
+						"name": "infinitered/ignite"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "k-ode-mst-query",
+				"locales": [
+					{
+						"description": "Query library for mobx-state-tree\nhttps://github.com/k-ode/mst-query",
+						"lang": "en",
+						"name": "k-ode/mst-query"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ocaml-ocaml.org",
+				"locales": [
+					{
+						"description": "The official OCaml website.\nhttps://github.com/ocaml/ocaml.org",
+						"lang": "en",
+						"name": "ocaml/ocaml.org"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "obi1kenobi-trustfall",
+				"locales": [
+					{
+						"description": "A query engine for any combination of data sources. Query your files and APIs as if they were databases!\nhttps://github.com/obi1kenobi/trustfall",
+						"lang": "en",
+						"name": "obi1kenobi/trustfall"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "obi1kenobi-cargo-semver-checks",
+				"locales": [
+					{
+						"description": "Scan your Rust crate for semver violations.\nhttps://github.com/obi1kenobi/cargo-semver-checks",
+						"lang": "en",
+						"name": "obi1kenobi/cargo-semver-checks"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "TanStack-query",
+				"locales": [
+					{
+						"description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.\nhttps://github.com/TanStack/query",
+						"lang": "en",
+						"name": "TanStack/query"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "TanStack-router",
+				"locales": [
+					{
+						"description": "🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.\nhttps://github.com/TanStack/router",
+						"lang": "en",
+						"name": "TanStack/router"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hugeblank-allium",
+				"locales": [
+					{
+						"description": "Lua script loader and API for easy Minecraft modding\nhttps://github.com/Moonflower-Mods/allium",
+						"lang": "en",
+						"name": "hugeblank/allium"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hugeblank-asahi",
+				"locales": [
+					{
+						"description": "Client side Minecraft mod that removes jittering of the daylight cycle caused by server lag\nhttps://github.com/hugeblank/asahi",
+						"lang": "en",
+						"name": "hugeblank/asahi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "afflexux-vue-vscode-snippets",
+				"locales": [
+					{
+						"description": "These snippets were built to supercharge my workflow in the most seamless manner possible.\nhttps://github.com/afflexux/vue-vscode-snippets",
+						"lang": "en",
+						"name": "afflexux/vue-vscode-snippets"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fry69-loadenv",
+				"locales": [
+					{
+						"description": "Load environment variables like API keys or other (sensitive) settings you do not want to be set always into the current bash environment on demand\nhttps://github.com/fry69/loadenv",
+						"lang": "en",
+						"name": "fry69/loadenv"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "atprotoapps-sonaruo",
+				"locales": [
+					{
+						"description": "Your friendly Bluesky AT Protocol client for the web. Friendly fork for funding issues.\nhttps://github.com/ATProtoApps/sonaruo",
+						"lang": "en",
+						"name": "atprotoapps/sonaruo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "x-cmd-x-cmd",
+				"locales": [
+					{
+						"description": "X bootstrap 1000+ tools and scripts.\nhttps://github.com/x-cmd/x-cmd",
+						"lang": "en",
+						"name": "x-cmd/x-cmd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "christiandeange-ozone",
+				"locales": [
+					{
+						"description": "Kotlin Multiplatform bindings for Bluesky\nhttps://github.com/christiandeange/ozone",
+						"lang": "en",
+						"name": "christiandeange/ozone"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "badger-media-badger",
+				"locales": [
+					{
+						"description": "Media management and automation for live broadcast\nhttps://github.com/badger-media/badger",
+						"lang": "en",
+						"name": "badger-media/badger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vitejs-vite",
+				"locales": [
+					{
+						"description": "Next generation frontend tooling. It's fast!\nhttps://github.com/vitejs/vite",
+						"lang": "en",
+						"name": "vitejs/vite"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "caddyserver-caddy",
+				"locales": [
+					{
+						"description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS\nhttps://github.com/caddyserver/caddy",
+						"lang": "en",
+						"name": "caddyserver/caddy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoedsoupe-peri",
+				"locales": [
+					{
+						"description": "Elixir library for declarative data description and validation\nhttps://github.com/zoedsoupe/peri",
+						"lang": "en",
+						"name": "zoedsoupe/peri"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoedsoupe-nexus",
+				"locales": [
+					{
+						"description": "CLI framework for Elixir, with magic!\nhttps://github.com/zoedsoupe/nexus",
+						"lang": "en",
+						"name": "zoedsoupe/nexus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoedsoupe-exlings",
+				"locales": [
+					{
+						"description": "rustlings but for elixir this time\nhttps://github.com/zoedsoupe/exlings",
+						"lang": "en",
+						"name": "zoedsoupe/exlings"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoedsoupe-proto_rune",
+				"locales": [
+					{
+						"description": "ATProtocol and Bluesky framework for Elixir, make bots, labelers, app views and more\nhttps://github.com/zoedsoupe/proto_rune",
+						"lang": "en",
+						"name": "zoedsoupe/proto_rune"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chakra-ui-panda",
+				"locales": [
+					{
+						"description": "🐼 Universal, Type-Safe, CSS-in-JS Framework for Product Teams ⚡️\nhttps://github.com/chakra-ui/panda",
+						"lang": "en",
+						"name": "chakra-ui/panda"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "NicolasBorlet-food-tracker",
+				"locales": [
+					{
+						"description": "https://github.com/NicolasBorlet/food-tracker",
+						"lang": "en",
+						"name": "NicolasBorlet/food-tracker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "NicolasBorlet-Harmony-Paws",
+				"locales": [
+					{
+						"description": "https://github.com/NicolasBorlet/Harmony-Paws",
+						"lang": "en",
+						"name": "NicolasBorlet/Harmony-Paws"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vltpkg-vltpkg",
+				"locales": [
+					{
+						"description": "the vlt monorepo\nhttps://github.com/vltpkg/vltpkg",
+						"lang": "en",
+						"name": "vltpkg/vltpkg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "heikadog-zml",
+				"locales": [
+					{
+						"description": "Repo for heikadog's Zoophile Mute List on Bluesky.\nhttps://github.com/heikadog/zml",
+						"lang": "en",
+						"name": "heikadog/zml"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft-TypeScript",
+				"locales": [
+					{
+						"description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.\nhttps://github.com/microsoft/TypeScript",
+						"lang": "en",
+						"name": "microsoft/TypeScript"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kubernetes-kubernetes",
+				"locales": [
+					{
+						"description": "Production-Grade Container Scheduling and Management\nhttps://github.com/kubernetes/kubernetes",
+						"lang": "en",
+						"name": "kubernetes/kubernetes"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ossf-scorecard",
+				"locales": [
+					{
+						"description": "OpenSSF Scorecard - Security health metrics for Open Source\nhttps://github.com/ossf/scorecard",
+						"lang": "en",
+						"name": "ossf/scorecard"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ewanc26-bluesky-markov",
+				"locales": [
+					{
+						"description": "A Markov chain bot for Bluesky.\nhttps://github.com/ewanc26/bluesky-markov",
+						"lang": "en",
+						"name": "ewanc26/bluesky-markov"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adolfont-caes005-introduction-to-functional-programming",
+				"locales": [
+					{
+						"description": "CAES005 - Introdução à Programação Funcional\nhttps://github.com/adolfont/caes005-introduction-to-functional-programming",
+						"lang": "en",
+						"name": "adolfont/caes005-introduction-to-functional-programming"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adolfont-brazilian-cs-research",
+				"locales": [
+					{
+						"description": "Curated lists related to Brazilian Computer Science research and researchers\nhttps://github.com/adolfont/brazilian-cs-research",
+						"lang": "en",
+						"name": "adolfont/brazilian-cs-research"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "emiliasutfpr-emilias-programando",
+				"locales": [
+					{
+						"description": "Repositório destinado ao time de programação do Emílias UTFPR-CT para disponibilizar os códigos feitos em oficinas\nhttps://github.com/emiliasutfpr/emilias-programando",
+						"lang": "en",
+						"name": "emiliasutfpr/emilias-programando"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gukkey-photon",
+				"locales": [
+					{
+						"description": "A replacement for lemmy-ui with more features, a better design, and more customizability.\nhttps://github.com/Gukkey/photon",
+						"lang": "en",
+						"name": "gukkey/photon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gukkey-shkiper",
+				"locales": [
+					{
+						"description": "Android modern notepad\nhttps://github.com/Gukkey/Shkiper",
+						"lang": "en",
+						"name": "gukkey/shkiper"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gukkey-spliit",
+				"locales": [
+					{
+						"description": "Free and Open Source Alternative to Splitwise. Share expenses with your friends and family.\nhttps://github.com/Gukkey/spliit",
+						"lang": "en",
+						"name": "gukkey/spliit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spliit-app-spliit",
+				"locales": [
+					{
+						"description": "Free and Open Source Alternative to Splitwise. Share expenses with your friends and family.\nhttps://github.com/spliit-app/spliit",
+						"lang": "en",
+						"name": "spliit-app/spliit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Efimj-Shkiper",
+				"locales": [
+					{
+						"description": "Android modern notepad\nhttps://github.com/Efimj/Shkiper",
+						"lang": "en",
+						"name": "Efimj/Shkiper"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nmn-react-timeago",
+				"locales": [
+					{
+						"description": "A simple time-ago component for ReactJs.\nhttps://github.com/nmn/react-timeago",
+						"lang": "en",
+						"name": "nmn/react-timeago"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shivan-s-optom.tools",
+				"locales": [
+					{
+						"description": "Optometrist tools\nhttps://github.com/shivan-s/optom.tools",
+						"lang": "en",
+						"name": "shivan-s/optom.tools"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "facebook-stylex",
+				"locales": [
+					{
+						"description": "StyleX is the styling system for ambitious user interfaces.\nhttps://github.com/facebook/stylex",
+						"lang": "en",
+						"name": "facebook/stylex"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "facebook-react-strict-dom",
+				"locales": [
+					{
+						"description": "React Strict DOM (RSD) standardizes the development of styled React components for web and native.\nhttps://github.com/facebook/react-strict-dom",
+						"lang": "en",
+						"name": "facebook/react-strict-dom"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elixir-dx-dx",
+				"locales": [
+					{
+						"description": "Automatic data loading for Elixir functions\nhttps://github.com/elixir-dx/dx",
+						"lang": "en",
+						"name": "elixir-dx/dx"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "devopsdays-devopsdays-web",
+				"locales": [
+					{
+						"description": "This is the website for devopsdays\nhttps://github.com/devopsdays/devopsdays-web",
+						"lang": "en",
+						"name": "devopsdays/devopsdays-web"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mattstratton-castanet",
+				"locales": [
+					{
+						"description": "A podcast-oriented theme for Hugo\nhttps://github.com/mattstratton/castanet",
+						"lang": "en",
+						"name": "mattstratton/castanet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rails-rails",
+				"locales": [
+					{
+						"description": "Ruby on Rails\nhttps://github.com/rails/rails",
+						"lang": "en",
+						"name": "rails/rails"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elixir-lang-elixir",
+				"locales": [
+					{
+						"description": "Elixir is a dynamic, functional language for building scalable and maintainable applications\nhttps://github.com/elixir-lang/elixir",
+						"lang": "en",
+						"name": "elixir-lang/elixir"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mastodon-mastodon",
+				"locales": [
+					{
+						"description": "Your self-hosted, globally interconnected microblogging community\nhttps://github.com/mastodon/mastodon",
+						"lang": "en",
+						"name": "mastodon/mastodon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "solidusio-solidus",
+				"locales": [
+					{
+						"description": "🛒 Solidus, the open-source eCommerce framework for industry trailblazers.\nhttps://github.com/solidusio/solidus",
+						"lang": "en",
+						"name": "solidusio/solidus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jhawthorn-discard",
+				"locales": [
+					{
+						"description": "🃏🗑 Soft deletes for ActiveRecord done right\nhttps://github.com/jhawthorn/discard",
+						"lang": "en",
+						"name": "jhawthorn/discard"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"hipstersmoothie-bluesky-migrate",
 			"intuit-auto",
-			"fwoosh-dev-fwoosh",
-			"hipstersmoothie-bluesky-migrate"
+			"crablang-crab",
+			"nspilman-eptss-site",
+			"colabottles-rpg-dnd",
+			"colabottles-toddl",
+			"colabottles-wcag",
+			"noahtheduke-splint",
+			"storybookjs-storybook",
+			"bluesky-social-social-app",
+			"storybookjs-react-native",
+			"devxan-site",
+			"saurabhdaware-bsky-widget",
+			"abelljs-abell",
+			"ueberdosis-tiptap",
+			"odota-web",
+			"l422y-megamap",
+			"aliceisjustplaying-emojistats-bsky",
+			"nuxt-nuxt",
+			"jessejanderson-skylink",
+			"reduxjs-redux-toolkit",
+			"apollographql-apollo-client",
+			"testing-library-react-render-stream-testing-library",
+			"unleash-unleash",
+			"3DRX-tcctl",
+			"graphql-graphql-js",
+			"nodejs-node-gyp",
+			"discourse-discourse",
+			"hapijs-catbox-memcached",
+			"hapijs-catbox",
+			"hapijs-lab",
+			"hapijs-hapi",
+			"browserify-browserify",
+			"str4d-rage",
+			"str4d-plc",
+			"vercel-next.js",
+			"pveyes-htmr",
+			"withastro-docs",
+			"withastro-astro",
+			"withastro-starlight",
+			"t2linux-wiki",
+			"dynamicalsystem-dynamicalsystem",
+			"afterlifepro-cleric-atproto",
+			"afterlifepro-neocities",
+			"JMCQ87-foodforecast",
+			"jesusgollonet-website",
+			"adonisjs-core",
+			"Shopify-event_stream_parser",
+			"alexrudall-ruby-openai",
+			"SF-Tec-pyvium",
+			"go-gitea-gitea",
+			"atesgoral-hrm-solutions",
+			"IfcOpenShell-IfcOpenShell",
+			"Jean-Tinland-simple-bar",
+			"knxd-knxd",
+			"facebook-react",
+			"spacejam-sled",
+			"nitrojs-nitro",
+			"nodejs-node",
+			"catppuccin-vscode",
+			"karlhorky-learn-to-program",
+			"upleveled-eslint-config-upleveled",
+			"DefinitelyTyped-DefinitelyTyped",
+			"oxc-project-oxc",
+			"starship-starship",
+			"adocasts-adocasts",
+			"quiple-social-app",
+			"quiple-galmuri",
+			"dxos-dxos",
+			"microsoft-vscode",
+			"airjp73-rvf",
+			"remix-run-remix",
+			"remeda-remeda",
+			"mobxjs-mobx-state-tree",
+			"nickytonline-copilot-extension-template",
+			"open-sauced-app",
+			"karaluh-ScrobblerBrainz",
+			"nickytonline-collabiano",
+			"nickytonline-astro-partykit-starter",
+			"metabrainz-picard-plugins",
+			"infinitered-ignite",
+			"k-ode-mst-query",
+			"ocaml-ocaml.org",
+			"obi1kenobi-trustfall",
+			"obi1kenobi-cargo-semver-checks",
+			"TanStack-query",
+			"TanStack-router",
+			"hugeblank-allium",
+			"hugeblank-asahi",
+			"afflexux-vue-vscode-snippets",
+			"fry69-loadenv",
+			"atprotoapps-sonaruo",
+			"x-cmd-x-cmd",
+			"christiandeange-ozone",
+			"badger-media-badger",
+			"vitejs-vite",
+			"caddyserver-caddy",
+			"zoedsoupe-peri",
+			"zoedsoupe-nexus",
+			"zoedsoupe-exlings",
+			"zoedsoupe-proto_rune",
+			"chakra-ui-panda",
+			"NicolasBorlet-food-tracker",
+			"NicolasBorlet-Harmony-Paws",
+			"vltpkg-vltpkg",
+			"heikadog-zml",
+			"microsoft-TypeScript",
+			"kubernetes-kubernetes",
+			"ossf-scorecard",
+			"ewanc26-bluesky-markov",
+			"adolfont-caes005-introduction-to-functional-programming",
+			"adolfont-brazilian-cs-research",
+			"emiliasutfpr-emilias-programando",
+			"gukkey-photon",
+			"gukkey-shkiper",
+			"gukkey-spliit",
+			"spliit-app-spliit",
+			"Efimj-Shkiper",
+			"nmn-react-timeago",
+			"shivan-s-optom.tools",
+			"facebook-stylex",
+			"facebook-react-strict-dom",
+			"elixir-dx-dx",
+			"devopsdays-devopsdays-web",
+			"mattstratton-castanet",
+			"rails-rails",
+			"elixir-lang-elixir",
+			"mastodon-mastodon",
+			"solidusio-solidus",
+			"jhawthorn-discard"
 		]
 	}
 }

@@ -1,22 +1,25 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:cyq63siet7w7fyt3csn7bfum/app.bsky.labeler.service/self",
-	"cid": "bafyreid57vpnpth2idqhkiyubms5agsbdr7rqculvffvfyufkcf2ls5rwu",
+	"cid": "bafyreiajy6habvuohkql6gxabokpu64agsvlonnogphwxt56l76ydbsvpu",
 	"creator": {
 		"did": "did:plc:cyq63siet7w7fyt3csn7bfum",
 		"handle": "globitos.bsky.social",
 		"displayName": "Globitos",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cyq63siet7w7fyt3csn7bfum/bafkreic7rc76dxzy5o7mm4kgki4lxovrshg4yxyb7cvxmq3tccj4xn3564@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-10-20T11:17:51.010Z",
 		"description": "[WORK IN PROGRESS]\n\nProyecto de labeler para que te marque con una etiqueta cuando sea tu cumpleaños. Administrado por @rogama25.es",
 		"indexedAt": "2024-10-20T12:52:26.710Z"
 	},
-	"likeCount": 7,
-	"indexedAt": "2024-11-10T23:05:04.989Z",
+	"likeCount": 9,
+	"indexedAt": "2024-11-11T22:56:43.715Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,16 +30,221 @@
 				"identifier": "fourteen",
 				"locales": [
 					{
-						"description": "This user birthday is in less than 14 days",
+						"description": "This user's birthday is in less than 14 days",
 						"lang": "en",
-						"name": "<14d"
+						"name": "<14d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es en menos de 14 días",
+						"lang": "es",
+						"name": "<14d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "seven",
+				"locales": [
+					{
+						"description": "This user's birthday is in 7 days",
+						"lang": "en",
+						"name": "7d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es dentro de 7 días",
+						"lang": "es",
+						"name": "7d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "six",
+				"locales": [
+					{
+						"description": "This user birthday is in 6 days",
+						"lang": "en",
+						"name": "6d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es dentro de 6 días",
+						"lang": "es",
+						"name": "6d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "five",
+				"locales": [
+					{
+						"description": "This user birthday is in 5 days",
+						"lang": "en",
+						"name": "5d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es dentro de 5 días",
+						"lang": "es",
+						"name": "5d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "four",
+				"locales": [
+					{
+						"description": "This user birthday is in 4 days",
+						"lang": "en",
+						"name": "4d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es dentro de 4 días",
+						"lang": "es",
+						"name": "4d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "three",
+				"locales": [
+					{
+						"description": "This user birthday is in 3 days",
+						"lang": "en",
+						"name": "3d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es dentro de 3 días",
+						"lang": "es",
+						"name": "3d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "two",
+				"locales": [
+					{
+						"description": "This user birthday is in 2 days",
+						"lang": "en",
+						"name": "2d🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es dentro de 2 días",
+						"lang": "es",
+						"name": "2d🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tomorrow",
+				"locales": [
+					{
+						"description": "This user birthday is tomorrow",
+						"lang": "en",
+						"name": "Tomorrow🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es mañana",
+						"lang": "es",
+						"name": "Mañana🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "today",
+				"locales": [
+					{
+						"description": "This user birthday is today",
+						"lang": "en",
+						"name": "🎂🎂🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario es hoy",
+						"lang": "es",
+						"name": "🎂🎂🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yesterday",
+				"locales": [
+					{
+						"description": "This user birthday was yesterday",
+						"lang": "en",
+						"name": "Yesterday🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario fue ayer",
+						"lang": "es",
+						"name": "Ayer🎂"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lastweek",
+				"locales": [
+					{
+						"description": "This user birthday was last week",
+						"lang": "en",
+						"name": "Last week🎂"
+					},
+					{
+						"description": "El cumpleaños de este usuario fue la semana pasada",
+						"lang": "es",
+						"name": "La semana pasada🎂"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"fourteen"
+			"fourteen",
+			"seven",
+			"six",
+			"five",
+			"four",
+			"three",
+			"two",
+			"tomorrow",
+			"today",
+			"yesterday",
+			"lastweek"
 		]
 	}
 }

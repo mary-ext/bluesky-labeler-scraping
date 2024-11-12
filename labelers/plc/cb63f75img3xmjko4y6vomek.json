@@ -1,0 +1,56 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:cb63f75img3xmjko4y6vomek/app.bsky.labeler.service/self",
+	"cid": "bafyreibjui4ardsbz4jrtv4w3ytwk37yybu6unz4ext5kuce7ufm5d5raa",
+	"creator": {
+		"did": "did:plc:cb63f75img3xmjko4y6vomek",
+		"handle": "factions.lol",
+		"displayName": "warcraft",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-11T15:08:08.779Z",
+		"description": "Choose your warcraft faction!",
+		"indexedAt": "2024-11-11T15:51:01.887Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-11T15:23:52.391Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "for-the-alliance",
+				"locales": [
+					{
+						"description": "Choose this label if you're an alliance player",
+						"lang": "en",
+						"name": "For the Alliance!"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lok-tar-ogar",
+				"locales": [
+					{
+						"description": "Choose this label if you're a horde player",
+						"lang": "en",
+						"name": "Lok'Tar Ogar!"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"for-the-alliance",
+			"lok-tar-ogar"
+		]
+	}
+}
