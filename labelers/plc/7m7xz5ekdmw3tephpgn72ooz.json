@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-  "cid": "bafyreifo7ncggswfbnv2rpq63q5ws63dgudijbyc2vorhbyjbypdtibceu",
+  "cid": "bafyreiannbi76dms2owvfj43ziem3uhi6bp5enxrqpzrwcpqzwzjqx4iya",
   "creator": {
     "did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
     "handle": "moods.fran.pw",
@@ -21,6 +21,48 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "wing",
+        "locales": [
+          {
+            "description": "I'm feeling angelic.",
+            "lang": "en",
+            "name": "Mood: 🪽"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cloud",
+        "locales": [
+          {
+            "description": "Head in the clouds.",
+            "lang": "en",
+            "name": "Mood: ☁️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "crescent-moon",
+        "locales": [
+          {
+            "description": "Under the moonlight.",
+            "lang": "en",
+            "name": "Mood: 🌙"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1563,6 +1605,9 @@
       }
     ],
     "labelValues": [
+      "wing",
+      "cloud",
+      "crescent-moon",
       "merman",
       "bear",
       "lion",
