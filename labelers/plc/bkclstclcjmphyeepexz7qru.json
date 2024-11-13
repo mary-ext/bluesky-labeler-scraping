@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bkclstclcjmphyeepexz7qru/app.bsky.labeler.service/self",
-	"cid": "bafyreifv7j4i673gc4p2upr3ngiptqfrn57zot3irpeo7426p7uxxrpzd4",
+	"cid": "bafyreif7wxcquzs6vjcdwcysezm6he4rg2i2koi3yxvkqu7p777p6kadda",
 	"creator": {
 		"did": "did:plc:bkclstclcjmphyeepexz7qru",
 		"handle": "mod.swifties.social",
@@ -15,10 +15,73 @@
 		"description": "We're too busy dancing to get knocked off our feet.\n\n(Community-run swiftie moderation service, no affiliation with Taylor Swift)",
 		"indexedAt": "2024-11-11T05:03:12.487Z"
 	},
-	"likeCount": 26,
+	"likeCount": 27,
 	"indexedAt": "2024-11-11T03:43:26.842Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonation",
+				"locales": [
+					{
+						"description": "This account claims to be a big account on another site, but they haven't proved it by posting about Bluesky.",
+						"lang": "en",
+						"name": "Impersonator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "resell",
+				"locales": [
+					{
+						"description": "Posts or accounts offering to resell tickets or merch, but not verified scammers. Be careful!",
+						"lang": "en",
+						"name": "Reselling"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "abuse",
+				"locales": [
+					{
+						"description": "Mean people saying nasty stuff.",
+						"lang": "en",
+						"name": "Abuse and Trolling"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "scam",
+				"locales": [
+					{
+						"description": "Scammers, spammers, and grifters.",
+						"lang": "en",
+						"name": "Scams and Spam"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"impersonation",
+			"resell",
+			"abuse",
+			"scam"
+		]
 	}
 }

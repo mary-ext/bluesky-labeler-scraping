@@ -1,22 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zd422jd4zcymlkyptnv25wc4/app.bsky.labeler.service/self",
-	"cid": "bafyreidvnsxx2feudhozu346fbr6ej4ppvfbifq2qfikue6w7qmsdn4w5e",
+	"cid": "bafyreiebgavcglhtswjlhc44q24c73onw564fifwap7nizaeun5rraek7u",
 	"creator": {
 		"did": "did:plc:zd422jd4zcymlkyptnv25wc4",
 		"handle": "banana.coolroman.online",
 		"displayName": "Banana Factor",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zd422jd4zcymlkyptnv25wc4/bafkreihlgdmvkpqfzbyrna5rttthgvbp632h6jjf5vkhcvzfdamjdo24sa@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zd422jd4zcymlkyptnv25wc4/bafkreihjh5tyfmab3hb2eyqwmw4dfa5awmqrtarhmf6ow2xu2tdrnvgbcm@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-03T09:02:32.978Z",
-		"description": "WIP: Not working at the moment. Investigating...\n\n«С какого конца чистить банан ?»\n\n\"Which end to peel a banana from ?\"\n\nПодробности здесь:\nFor details refer to:\nhttps://bsky.app/profile/shooter-alexxx.bsky.social/post/3l6xox6rvih2e",
-		"indexedAt": "2024-11-04T10:04:26.779Z"
+		"description": "«С какого конца чистить банан ?»\n\n\"Which end to peel a banana from ?\"\n\nПодробности здесь:\nFor details refer to:\nhttps://bsky.app/profile/shooter-alexxx.bsky.social/post/3l6xox6rvih2e",
+		"indexedAt": "2024-11-12T09:05:38.417Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-11-09T09:54:08.939Z",
+	"likeCount": 6,
+	"indexedAt": "2024-11-12T11:55:30.308Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -51,9 +51,28 @@
 						"name": "From bottom"
 					},
 					{
-						"description": "Я чищу банан с попки",
+						"description": "Я чищу банан с головы (попки)",
 						"lang": "ru",
-						"name": "С попки"
+						"name": "С головы"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "peel-from-center",
+				"locales": [
+					{
+						"description": "I peel banana from center",
+						"lang": "en",
+						"name": "From center"
+					},
+					{
+						"description": "Я чищу банан с центра",
+						"lang": "ru",
+						"name": "С центра"
 					}
 				],
 				"severity": "inform"
@@ -61,7 +80,8 @@
 		],
 		"labelValues": [
 			"peel-from-top",
-			"peel-from-bottom"
+			"peel-from-bottom",
+			"peel-from-center"
 		]
 	}
 }

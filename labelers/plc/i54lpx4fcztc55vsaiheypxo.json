@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:i54lpx4fcztc55vsaiheypxo/app.bsky.labeler.service/self",
-	"cid": "bafyreie6nd4zhxdogkusaph3ta73zfnogvmoa4h25bz2yyvwa455mroceu",
+	"cid": "bafyreie5dzy6fkzfw3btk4c7qlrkhumrumrgplrasoowyz3qfdl6asgs3m",
 	"creator": {
 		"did": "did:plc:i54lpx4fcztc55vsaiheypxo",
 		"handle": "pokemon.sonasky.app",
@@ -15,8 +15,8 @@
 		"description": "Main: @sonasky.app <-- subscribe to this too!\nThis account will serve as a labeler for specific Pokémon species.\n\nShow off your Pokésona (label)!\n❓: Add=❤️! Remove=💔. (see main/below for posts)\n🔍: Browse/Status: https://sonasky.app/",
 		"indexedAt": "2024-10-30T06:23:51.426Z"
 	},
-	"likeCount": 236,
-	"indexedAt": "2024-11-11T22:21:55.642Z",
+	"likeCount": 250,
+	"indexedAt": "2024-11-12T01:21:02.839Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -2231,6 +2231,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hakamoo",
+				"locales": [
+					{
+						"description": "This user is a Hakamo-o!",
+						"lang": "en",
+						"name": "Hakamo-o"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragapult",
+				"locales": [
+					{
+						"description": "This user is a Dragapult!",
+						"lang": "en",
+						"name": "Dragapult"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chandelure",
+				"locales": [
+					{
+						"description": "This user is a Chandelure!",
+						"lang": "en",
+						"name": "Chandelure"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -2391,7 +2433,10 @@
 			"togekiss",
 			"tyranitar",
 			"dialga",
-			"wooper"
+			"wooper",
+			"hakamoo",
+			"dragapult",
+			"chandelure"
 		]
 	}
 }

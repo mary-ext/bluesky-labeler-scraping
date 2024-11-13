@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreifo7ncggswfbnv2rpq63q5ws63dgudijbyc2vorhbyjbypdtibceu",
+	"cid": "bafyreiannbi76dms2owvfj43ziem3uhi6bp5enxrqpzrwcpqzwzjqx4iya",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -18,11 +18,53 @@
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
 		"indexedAt": "2024-11-07T14:42:46.188Z"
 	},
-	"likeCount": 318,
+	"likeCount": 322,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wing",
+				"locales": [
+					{
+						"description": "I'm feeling angelic.",
+						"lang": "en",
+						"name": "Mood: 🪽"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cloud",
+				"locales": [
+					{
+						"description": "Head in the clouds.",
+						"lang": "en",
+						"name": "Mood: ☁️"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crescent-moon",
+				"locales": [
+					{
+						"description": "Under the moonlight.",
+						"lang": "en",
+						"name": "Mood: 🌙"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1565,6 +1607,9 @@
 			}
 		],
 		"labelValues": [
+			"wing",
+			"cloud",
+			"crescent-moon",
 			"merman",
 			"bear",
 			"lion",

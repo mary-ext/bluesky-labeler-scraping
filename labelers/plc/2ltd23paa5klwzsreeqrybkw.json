@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2ltd23paa5klwzsreeqrybkw/app.bsky.labeler.service/self",
-	"cid": "bafyreicdmjsfsvvntobmjmfwnc4tukpij7ptjyefbih75pxqrcffvhlxgu",
+	"cid": "bafyreihg3knzqhczhv2mwjfvwma4754276cuxbetsqhi7npndchkmgiphe",
 	"creator": {
 		"did": "did:plc:2ltd23paa5klwzsreeqrybkw",
 		"handle": "bot-labeler.bsky.social",
@@ -228,6 +228,25 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "inform",
+				"identifier": "link-bot",
+				"locales": [
+					{
+						"description": "Bots dedicated to automatically posting links, typically used by media.",
+						"lang": "en",
+						"name": "Link Bot"
+					},
+					{
+						"description": "Bots dédiés à la publication automatique de liens, utilisé souvent par les médias.",
+						"lang": "fr",
+						"name": "Bot de Liens"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -241,7 +260,8 @@
 			"creative-bot",
 			"gambling-bot",
 			"adult-bot",
-			"photography-bot"
+			"photography-bot",
+			"link-bot"
 		]
 	}
 }
