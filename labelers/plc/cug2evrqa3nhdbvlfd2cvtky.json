@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cug2evrqa3nhdbvlfd2cvtky/app.bsky.labeler.service/self",
-  "cid": "bafyreiauevicmzo3mqxjmznkz455gl4laofi4fiwzijaw6w574c5idf74m",
+  "cid": "bafyreidhpvcr4dr2f7csosc5jbkzzkmoidzsgaov2aakzkudgygrrqpjfu",
   "creator": {
     "did": "did:plc:cug2evrqa3nhdbvlfd2cvtky",
     "handle": "flatlander.social",
@@ -21,6 +21,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "skpoli-politician",
+        "locales": [
+          {
+            "description": "A badge applied to SK politicians.",
+            "lang": "en",
+            "name": "SK Politician"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
