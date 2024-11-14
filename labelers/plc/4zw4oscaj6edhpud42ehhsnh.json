@@ -1,0 +1,87 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4zw4oscaj6edhpud42ehhsnh/app.bsky.labeler.service/self",
+	"cid": "bafyreiae4jfzqtnfjpvdswnc7ffhrcme33do3qgdwsqk5ojg2hezmtmcba",
+	"creator": {
+		"did": "did:plc:4zw4oscaj6edhpud42ehhsnh",
+		"handle": "moderation.masr.social",
+		"displayName": "Masr Moderation / إشراف مجتمع مصر سوشال",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4zw4oscaj6edhpud42ehhsnh/bafkreigyy66j2jho5alt3iyy2vhzy5amygqh6yrrxh2qq544ugaqng4bfy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-13T09:06:45.092Z",
+		"description": "خدمة إشرافية تساعدك تحسن جودة المحتوى اللي بيوصلك.\nA moderation service to help Egypt-concerned individuals to improve their feeds quality.",
+		"indexedAt": "2024-11-13T09:46:14.279Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-13T09:17:57.430Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "Content that regularly abuses algorithms, is meaningless or misleading, AI-generated nonsense, abuses hashtags or other forms of clutter.",
+						"lang": "en",
+						"name": "Spam/Misleading"
+					},
+					{
+						"description": "أي محتوى بيحاول يسئ أستعمال الهاشتاج، الفييدز، ملوش معنى او هدف زي المحتوى المصنوع من الذكاء الأصطناعي، وغيره من المحتوى المزعج.",
+						"lang": "ar",
+						"name": "سبام"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "unreliable-news",
+				"locales": [
+					{
+						"description": "All news that are shared through unreliable methods, such as: attention-stealing images, memes, or other unreliable sources.",
+						"lang": "en",
+						"name": "Unreliable News"
+					},
+					{
+						"description": "أي أخبار بتتنشر بطرق مش مضمونة زي الصور والميمز وغيرها.",
+						"lang": "ar",
+						"name": "أخبار مش مضمونة"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "ads",
+				"locales": [
+					{
+						"description": "Any promotional material for commercial purposes.",
+						"lang": "en",
+						"name": "Advertisements"
+					},
+					{
+						"description": "أي محتوى دعائي بغرض ربحي.",
+						"lang": "ar",
+						"name": "أعلانات"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"spam",
+			"ads",
+			"unreliable-news"
+		]
+	}
+}

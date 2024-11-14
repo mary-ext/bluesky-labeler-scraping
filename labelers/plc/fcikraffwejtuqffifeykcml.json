@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:fcikraffwejtuqffifeykcml/app.bsky.labeler.service/self",
-	"cid": "bafyreieofuova33fz4cuslofiee34jrltyrquxwfth3bgfmlfcnny3kxou",
+	"cid": "bafyreiakrq4nkgonhnn5y2v2o4a6eqav3rmqzzhqxipumgn63bdw2ech2q",
 	"creator": {
 		"did": "did:plc:fcikraffwejtuqffifeykcml",
 		"handle": "label.wol.blue",
@@ -15,10 +15,10 @@
 		},
 		"labels": [],
 		"createdAt": "2024-03-16T16:37:51.757Z",
-		"description": "ネタバレを防ぐコンテンツラベリングと、ジョブ名／ワールド名を表示できるバッチを提供しています。/Providing job and world badge labeling.\n\nコンテンツラベリング(日本語のみ/Japanese Only)\nhttps://x.gd/or3VB\n\nジョブ・ワールドバッジ/Job and World Badge(日本語/English)\nhttps://x.gd/1ZT1N\n\nOperated By @usounds.work\n(c)SQUARE ENIX",
-		"indexedAt": "2024-11-12T07:19:24.304Z"
+		"description": "下記の2つのサービスを提供しています。\nThis labeler provides the following two services.\n\nコンテンツラベリング/Spoiler Labeling\nhttps://x.gd/or3VB\n\nジョブ・ワールドバッジ/Job and World Badge\nhttps://x.gd/1ZT1N\n\nOperated By @usounds.work\n(c)SQUARE ENIX",
+		"indexedAt": "2024-11-13T10:54:24.581Z"
 	},
-	"likeCount": 427,
+	"likeCount": 452,
 	"indexedAt": "2024-03-16T16:41:19.759Z",
 	"labels": [],
 	"policies": {
@@ -467,7 +467,7 @@
 				"identifier": "dawntrail",
 				"locales": [
 					{
-						"description": "This label for Japanese only. Please set as [Off].",
+						"description": "It will set it to label any post that includes #7.1spoiler or #7.0spoiler.",
 						"lang": "en",
 						"name": "Dawntrail"
 					},
@@ -486,12 +486,12 @@
 				"identifier": "shadowbringers",
 				"locales": [
 					{
-						"description": "This label for Japanese only. Please set as [Off].",
+						"description": "It will set it to label any post that includes #5.xspoiler. (x is numeric such as #5.0spoiler)",
 						"lang": "en",
-						"name": "漆黒"
+						"name": "Shadowbringers"
 					},
 					{
-						"description": "漆黒のエリア名、ID名、討滅戦、レイド名をラベルします。\nネタバレを防ぐことができるかもしれません。[shadowbringers]",
+						"description": "漆黒のエリア名、ID名、討滅戦、レイド名、 #5.0ネタバレ をラベルします。\nネタバレを防ぐことができるかもしれません。[shadowbringers]",
 						"lang": "ja",
 						"name": "漆黒"
 					}
@@ -505,12 +505,12 @@
 				"identifier": "endwalker",
 				"locales": [
 					{
-						"description": "This label for Japanese only. Please set as [Off].",
+						"description": "It will set it to label any post that includes #6.xspoiler. (x is numeric such as #6.0spoiler)",
 						"lang": "en",
-						"name": "暁月"
+						"name": "Endwalker"
 					},
 					{
-						"description": "暁月のエリア名、ID名、討滅戦、レイド名をラベルします。\nネタバレを防ぐことができるかもしれません。[endwalker]",
+						"description": "暁月のエリア名、ID名、討滅戦、レイド名、　#6.0ネタバレ をラベルします。\nネタバレを防ぐことができるかもしれません。[endwalker]",
 						"lang": "ja",
 						"name": "暁月"
 					}
@@ -524,12 +524,12 @@
 				"identifier": "latest-patch",
 				"locales": [
 					{
-						"description": "This label for Japanese only. Please set as [Off].",
+						"description": "It will set it to label any post that includes #7.1spoiler.",
 						"lang": "en",
-						"name": "最新パッチ"
+						"name": "Latest patch"
 					},
 					{
-						"description": "最新パッチのIDや討滅戦、レイド名、バレ系をラベルします。\nネタバレを防ぐことができるかもしれません。[latest-patch]",
+						"description": "最新パッチのIDや討滅戦、レイド名、バレ系、#7.1ネタバレ をラベルします。\nネタバレを防ぐことができるかもしれません。[latest-patch]",
 						"lang": "ja",
 						"name": "最新パッチ"
 					}

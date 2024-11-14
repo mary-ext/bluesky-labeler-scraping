@@ -1,0 +1,107 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:gqaoe3na6isc3zyvp7iuqpu7/app.bsky.labeler.service/self",
+	"cid": "bafyreib7qjqmxszs3aibjgrikiolhoxcnluq57riopmddkubsu3wjawbeu",
+	"creator": {
+		"did": "did:plc:gqaoe3na6isc3zyvp7iuqpu7",
+		"handle": "arttheft.bsky.social",
+		"displayName": "Art Theft Labeler・アート盗用ラベラー",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gqaoe3na6isc3zyvp7iuqpu7/bafkreidr25o5ocmje4cc2dk4uhak5qqtbxv3grwm7fixnmmaoti3yklsvy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-13T18:23:11.376Z",
+		"description": "Fighting art plagiarism 🖌️✊ Labels traced art, reposted art, etc. Looking for moderators! DM @chroma.rip\n\nアートの盗作と戦う 🖌️✊ トレースアート、無断転載アートなどにラベル付け。モデレーター募集中！DM @chroma.rip\n\nNot for AI art, use @aimod.social instead. Tags/DMs aren't monitored.",
+		"indexedAt": "2024-11-13T19:29:49.173Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-11-13T18:49:53.127Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "plagiarism-account",
+				"locales": [
+					{
+						"description": "定期的に作品を盗作したり、オリジナルのアーティストになりすましているアカウント",
+						"lang": "jp",
+						"name": "盗作アカウント"
+					},
+					{
+						"description": "Accounts that regularly plagiarize works, or are pretending to be the original artist.",
+						"lang": "en",
+						"name": "Plagiarism Accounts"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "repost-account",
+				"locales": [
+					{
+						"description": "ほとんどの場合、アート作品を再投稿しており、クレジットがないことが多いアカウント",
+						"lang": "jp",
+						"name": "再投稿アカウント"
+					},
+					{
+						"description": "Accounts that almost exclusively reupload art, often without credit.",
+						"lang": "en",
+						"name": "Repost Accounts"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "copied",
+				"locales": [
+					{
+						"description": "Art that was copied, traced, derived, or plagiarized with little to no creative value beyond what the original material offers",
+						"lang": "en",
+						"name": "Copied Art"
+					},
+					{
+						"description": "オリジナル素材からの創造性がほとんどなく、コピー、トレース、派生、または盗作されたアート",
+						"lang": "jp",
+						"name": "コピーされたアート"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "reposted-without-permission",
+				"locales": [
+					{
+						"description": "Reposts/reuploads that were made against the original artist's wishes",
+						"lang": "en",
+						"name": "Reposted Without Permission"
+					},
+					{
+						"description": "元のアーティストの意向に反して再投稿／再アップロードされたコンテンツ",
+						"lang": "jp",
+						"name": "無断転載"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"plagiarism-account",
+			"repost-account",
+			"copied",
+			"reposted-without-permission"
+		]
+	}
+}

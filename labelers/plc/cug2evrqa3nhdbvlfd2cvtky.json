@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:cug2evrqa3nhdbvlfd2cvtky/app.bsky.labeler.service/self",
-	"cid": "bafyreiauevicmzo3mqxjmznkz455gl4laofi4fiwzijaw6w574c5idf74m",
+	"cid": "bafyreidhpvcr4dr2f7csosc5jbkzzkmoidzsgaov2aakzkudgygrrqpjfu",
 	"creator": {
 		"did": "did:plc:cug2evrqa3nhdbvlfd2cvtky",
 		"handle": "flatlander.social",
@@ -18,11 +18,25 @@
 		"description": "Official account for the Flatlander custom feed and labeling service. Developed and managed by @joelh.social.\n\nBecome a patron to keep the lights on at patreon.com/sk_flatlanders",
 		"indexedAt": "2024-06-06T22:15:21.910Z"
 	},
-	"likeCount": 4,
+	"likeCount": 5,
 	"indexedAt": "2024-05-27T21:50:03.026Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skpoli-politician",
+				"locales": [
+					{
+						"description": "A badge applied to SK politicians.",
+						"lang": "en",
+						"name": "SK Politician"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
