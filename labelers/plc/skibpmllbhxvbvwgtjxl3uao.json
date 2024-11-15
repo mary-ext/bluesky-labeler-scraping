@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:skibpmllbhxvbvwgtjxl3uao/app.bsky.labeler.service/self",
-  "cid": "bafyreiflzrtqmmlnlc25j2olnpzdev2dzic5zkyo2ra6qkk5yczcxeixpe",
+  "cid": "bafyreidg4ik6zwrmlfuhb5kf2nwd2sbzx324ahk34vgw37qctxuouzzko4",
   "creator": {
     "did": "did:plc:skibpmllbhxvbvwgtjxl3uao",
     "handle": "anti-aging.bsky.social",
@@ -18,6 +18,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "slug",
+        "locales": [
+          {
+            "description": "No bones, leaves a gross trail of slime everywhere they go, possibly eats the flesh of living children",
+            "lang": "en",
+            "name": "Slug wearing human skin"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -188,6 +202,7 @@
       }
     ],
     "labelValues": [
+      "slug",
       "accessibility-scolding",
       "bad-selfies",
       "british",

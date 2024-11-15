@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-  "cid": "bafyreia4bgqqwqzbwitacj62rnkvb4zppze357r7fkprnffe6wp7kgzgze",
+  "cid": "bafyreiaitietekqxxf3yyo6aitiunm357ehprppc7qhpgr4bgv5m33tnlm",
   "creator": {
     "did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
     "handle": "nafo-moderation.bsky.social",
@@ -18,6 +18,34 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "Parody",
+        "locales": [
+          {
+            "description": "Non-harmful parody account, labeled only to avoid confusion and distraction",
+            "lang": "en",
+            "name": "Parody"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "Infighting",
+        "locales": [
+          {
+            "description": "Unconstructive conflict within the fella community, possibly designed to distract from more important things",
+            "lang": "en",
+            "name": "Infighting"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -48,6 +76,8 @@
       }
     ],
     "labelValues": [
+      "Parody",
+      "Infighting",
       "Abusive",
       "Engagement Farmer"
     ]
