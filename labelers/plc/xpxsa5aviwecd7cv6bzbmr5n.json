@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreihfmwfxi7z34s6l5nqwk3gpkqxct6ia237e3l5qccgouvyxyrzxva",
+	"cid": "bafyreidfha5idenoflmzs67sbcuxyu3dg37thwuqkf5yyqxofpuyuw2aji",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
-		"handle": "github-labeler.bsky.social",
+		"handle": "handle.invalid",
 		"displayName": "GitHub Contributor Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xpxsa5aviwecd7cv6bzbmr5n/bafkreihzwz7cpzkxklqcvg4n5d4i5f7sbgp5n5ez6zp5u7fholnaai7gl4@jpeg",
 		"associated": {
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 201,
-	"indexedAt": "2024-11-14T00:59:28.729Z",
+	"likeCount": 206,
+	"indexedAt": "2024-11-15T00:44:45.327Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3116,6 +3116,104 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pygae-galgebra",
+				"locales": [
+					{
+						"description": "Symbolic Geometric Algebra/Calculus package for SymPy :crystal_ball:\nhttps://github.com/pygae/galgebra",
+						"lang": "en",
+						"name": "pygae/galgebra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pygae-lean-ga",
+				"locales": [
+					{
+						"description": "A partial formalization of Geometric Algebra in the Lean formal proof verification system.\nhttps://github.com/pygae/lean-ga",
+						"lang": "en",
+						"name": "pygae/lean-ga"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "utensil-forest",
+				"locales": [
+					{
+						"description": "My Zettelkasten-style forest of evergreen notes on math and tech.\nhttps://github.com/utensil/forest",
+						"lang": "en",
+						"name": "utensil/forest"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ifcopenshell-ifcopenshell",
+				"locales": [
+					{
+						"description": "Open source IFC library and geometry engine\nhttps://github.com/IfcOpenShell/IfcOpenShell",
+						"lang": "en",
+						"name": "IfcOpenShell/IfcOpenShell"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nzero-computer-iroh",
+				"locales": [
+					{
+						"description": "A toolkit for building distributed applications\nhttps://github.com/n0-computer/iroh",
+						"lang": "en",
+						"name": "n0-computer/iroh"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sf-tec-openmodels",
+				"locales": [
+					{
+						"description": "OpenModels is a flexible and extensible library for serializing and deserializing machine learning models. It's designed to support any serialization format through a plugin-based architecture, providing a safe and transparent solution for exporting and sharing predictive models.\nhttps://github.com/SF-Tec/openmodels",
+						"lang": "en",
+						"name": "SF-Tec/openmodels"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nixos-nixpkgs",
+				"locales": [
+					{
+						"description": "Nix Packages collection & NixOS\nhttps://github.com/NixOS/nixpkgs",
+						"lang": "en",
+						"name": "nixos/nixpkgs"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3339,7 +3437,14 @@
 			"xe-site",
 			"splashcat-ink-splashcat",
 			"tanstack-router",
-			"pveyes-poormark"
+			"pveyes-poormark",
+			"pygae-galgebra",
+			"pygae-lean-ga",
+			"utensil-forest",
+			"ifcopenshell-ifcopenshell",
+			"nzero-computer-iroh",
+			"sf-tec-openmodels",
+			"nixos-nixpkgs"
 		]
 	}
 }

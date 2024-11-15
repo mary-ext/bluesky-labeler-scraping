@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4zw4oscaj6edhpud42ehhsnh/app.bsky.labeler.service/self",
-	"cid": "bafyreiae4jfzqtnfjpvdswnc7ffhrcme33do3qgdwsqk5ojg2hezmtmcba",
+	"cid": "bafyreibtq6qkynw4w7zsaxiu54u745zkds4io4snm6zf7bco5blprnjfxu",
 	"creator": {
 		"did": "did:plc:4zw4oscaj6edhpud42ehhsnh",
 		"handle": "moderation.masr.social",
@@ -24,6 +24,44 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "hide",
+				"identifier": "bigotry",
+				"locales": [
+					{
+						"description": "Content that is bigoted to a certain group of people based on their sex, gender, sexual orientation or identity, national origin, religious or ethnic groups.",
+						"lang": "en",
+						"name": "Bigotry"
+					},
+					{
+						"description": "أي محتوى عنصري ضد مجموعة من الأشخاص بناءاً على جنسهم، جندرهم، ميولهم، جنسيتهم، معتقادتهم، او عرقهم.",
+						"lang": "ar",
+						"name": "عنصرية"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "preaching",
+				"locales": [
+					{
+						"description": "Content that regurgitates religious text, values, browbeating, or chauvinism.",
+						"lang": "en",
+						"name": "Preaching"
+					},
+					{
+						"description": "أي محتوى يدس او يكرر تنمر، تعصب، أو دعوى عقائدية.",
+						"lang": "ar",
+						"name": "دعوى"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
 				"identifier": "spam",
 				"locales": [
 					{
@@ -41,7 +79,7 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "media",
+				"blurs": "content",
 				"defaultSetting": "hide",
 				"identifier": "unreliable-news",
 				"locales": [
@@ -79,6 +117,8 @@
 			}
 		],
 		"labelValues": [
+			"bigotry",
+			"preaching",
 			"spam",
 			"ads",
 			"unreliable-news"

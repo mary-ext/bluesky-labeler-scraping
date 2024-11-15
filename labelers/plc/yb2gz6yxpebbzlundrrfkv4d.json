@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:yb2gz6yxpebbzlundrrfkv4d/app.bsky.labeler.service/self",
+	"cid": "bafyreidm5sivwhfn4fc2ma3d4xfw4gfqiuztftrasxs6w5vkvfaq7eukve",
+	"creator": {
+		"did": "did:plc:yb2gz6yxpebbzlundrrfkv4d",
+		"handle": "altheroes.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yb2gz6yxpebbzlundrrfkv4d/bafkreiasjl3vb35oyfhe3tt7bh6du2kkznuldytwg5khbuzurwvvgwqgve@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-12T21:15:55.906Z",
+		"indexedAt": "2024-11-12T21:15:55.906Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-14T17:09:14.038Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gold",
+				"locales": [
+					{
+						"description": "90+% of this user's image posts contain alt text",
+						"lang": "en",
+						"name": "Gold"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "silver",
+				"locales": [
+					{
+						"description": "At least 70% of this user's image posts contain alt text",
+						"lang": "en",
+						"name": "Silver"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bronze",
+				"locales": [
+					{
+						"description": "At least 50% of this user's image posts contain alt text",
+						"lang": "en",
+						"name": "Bronze"
+					}
+				],
+				"severity": "none"
+			}
+		],
+		"labelValues": [
+			"gold",
+			"silver",
+			"bronze"
+		]
+	}
+}

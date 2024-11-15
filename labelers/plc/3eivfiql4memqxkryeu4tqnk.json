@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
-	"cid": "bafyreiceoaz4pvevog4ojheumdxxbjrivgct6ifglemasefxa26xuuf64q",
+	"cid": "bafyreid4vwistug6nsaf2mskq46facpzajgkw7gbtql64nsr52wgep6gwy",
 	"creator": {
 		"did": "did:plc:3eivfiql4memqxkryeu4tqnk",
 		"handle": "mod.shawn.party",
@@ -18,7 +18,7 @@
 		"description": "A 3rd party Bluesky labeler service account run by @shawn.party\n\nMy primary purpose is labeling #spoiler posts here on BlueSky",
 		"indexedAt": "2024-11-11T20:47:53.313Z"
 	},
-	"likeCount": 85,
+	"likeCount": 88,
 	"indexedAt": "2024-03-16T02:38:37.026Z",
 	"labels": [],
 	"policies": {
@@ -30,9 +30,9 @@
 				"identifier": "star-wars-content",
 				"locales": [
 					{
-						"description": "Content related to Star Wars",
+						"description": "Vanity label for curated content related to Star Wars",
 						"lang": "en",
-						"name": "Star Wars Content"
+						"name": "Star Wars"
 					}
 				],
 				"severity": "inform"
@@ -44,9 +44,9 @@
 				"identifier": "star-wars-creator",
 				"locales": [
 					{
-						"description": "A label bestowed upon only the best Star Wars content creators",
+						"description": "Vanity label bestowed upon only the best Star Wars content creators in the galaxy",
 						"lang": "en",
-						"name": "Star Wars Content Creator"
+						"name": "Galactic Content Creator"
 					}
 				],
 				"severity": "inform"
@@ -58,7 +58,7 @@
 				"identifier": "list-fiend",
 				"locales": [
 					{
-						"description": "Basically, this list is for people that just want to be on a list",
+						"description": "Vanity label for individuals who simply want to be included on a list and labeled as such",
 						"lang": "en",
 						"name": "List Admirers"
 					}
@@ -74,7 +74,7 @@
 					{
 						"description": "Content that may be AI-related or AI-generated",
 						"lang": "en",
-						"name": "AI-Related Content"
+						"name": "🤖 AI-Related Content"
 					}
 				],
 				"severity": "inform"
@@ -86,34 +86,25 @@
 				"identifier": "spoiler",
 				"locales": [
 					{
-						"description": "Posts marked as potential spoilers",
+						"description": "Posts marked as possible spoilers",
 						"lang": "en",
-						"name": "Spoiler Content"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "star-wars-feed",
-				"locales": [
+						"name": "⚠️ Spoiler Content ⚠️"
+					},
 					{
-						"description": "Test: Curated Star Wars content",
-						"lang": "en",
-						"name": "TEST: Star Wars Feed Content"
+						"description": "Publicaciones marcadas como posibles spoilers",
+						"lang": "es",
+						"name": "⚠️ Contenido de Spoiler ⚠️"
 					}
 				],
-				"severity": "none"
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
+			"spoiler",
 			"star-wars-content",
 			"star-wars-creator",
-			"list-fiend",
 			"ai-related-content",
-			"spoiler"
+			"list-fiend"
 		]
 	}
 }

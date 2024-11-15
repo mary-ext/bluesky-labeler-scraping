@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:skibpmllbhxvbvwgtjxl3uao/app.bsky.labeler.service/self",
-	"cid": "bafyreiflzrtqmmlnlc25j2olnpzdev2dzic5zkyo2ra6qkk5yczcxeixpe",
+	"cid": "bafyreidg4ik6zwrmlfuhb5kf2nwd2sbzx324ahk34vgw37qctxuouzzko4",
 	"creator": {
 		"did": "did:plc:skibpmllbhxvbvwgtjxl3uao",
 		"handle": "anti-aging.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Critics are saying:\n\"deeply fucking unserious labeler\"\n\"cringe fr\"\n\"sad lonely jackass\"\n\"hateful rightwing shrew who can't make friends\"\n\"Moderation as satire has arrived\"\n\"the anti-aging labeller is fun, even though whoever runs it is clearly insane\"",
 		"indexedAt": "2024-05-24T14:02:08.055Z"
 	},
-	"likeCount": 52,
+	"likeCount": 53,
 	"indexedAt": "2024-03-21T18:09:54.541Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "slug",
+				"locales": [
+					{
+						"description": "No bones, leaves a gross trail of slime everywhere they go, possibly eats the flesh of living children",
+						"lang": "en",
+						"name": "Slug wearing human skin"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -190,6 +204,7 @@
 			}
 		],
 		"labelValues": [
+			"slug",
 			"accessibility-scolding",
 			"bad-selfies",
 			"british",

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreid4etsalo337q7bk3yxjgd3zudyd32uvx4izgtuguhmpafalbc2km",
+	"cid": "bafyreige7oh7ycjs3mtpyku7iiubvhzbsqcdnwqgn2r73awl4iw3pipa4i",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @blockch.ain.mom\ndonate: https://ko-fi.com/notjuliet",
 		"indexedAt": "2024-11-08T09:54:55.783Z"
 	},
-	"likeCount": 8214,
-	"indexedAt": "2024-11-09T09:38:08.754Z",
+	"likeCount": 8512,
+	"indexedAt": "2024-11-14T21:00:58.147Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1338,6 +1338,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "squeak-squeaks",
+				"locales": [
+					{
+						"description": "This user uses squeak/squeaks pronouns.",
+						"lang": "en",
+						"name": "squeak/squeaks"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zie-hir",
+				"locales": [
+					{
+						"description": "This user uses zie/hir pronouns.",
+						"lang": "en",
+						"name": "zie/hir"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1434,7 +1462,9 @@
 			"atp-adp",
 			"cat-cats",
 			"moo-moocow",
-			"any-neopronouns"
+			"any-neopronouns",
+			"squeak-squeaks",
+			"zie-hir"
 		]
 	}
 }
