@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:krt2x522l6brmuhs552zt2qd/app.bsky.labeler.service/self",
+	"cid": "bafyreigbjfy65462snzvajm436twthei5cobvpje2jg6qjenrpds4hmhja",
+	"creator": {
+		"did": "did:plc:krt2x522l6brmuhs552zt2qd",
+		"handle": "dflabeler.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:krt2x522l6brmuhs552zt2qd/bafkreiak7eaknki3ulkp4zqudfq2zymfnklchqam3leapdv4zxbrbavz7u@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-15T02:22:27.054Z",
+		"indexedAt": "2024-11-15T02:22:27.054Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-15T02:54:34.392Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media",
+				"defaultSetting": "warn",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "Spam label description.",
+						"lang": "en",
+						"name": "Spam"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"spam"
+		]
+	}
+}

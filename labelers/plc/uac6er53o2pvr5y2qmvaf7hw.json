@@ -1,30 +1,86 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreiaitietekqxxf3yyo6aitiunm357ehprppc7qhpgr4bgv5m33tnlm",
+	"cid": "bafyreihskqgbzm2bivgbriivz22bdbaaay6jxfk2fd3kd4jeklmlx6wr2i",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
-		"displayName": "NAFO Moderation Service",
+		"displayName": "NAFO Forum Moderation Service",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uac6er53o2pvr5y2qmvaf7hw/bafkreibyjn4jvmdsl3kt7wvv3duuuffs36yr37f76z66edrcnveo36t5k4@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-13T15:53:50.271Z",
-		"description": "WIP\nMission: keep bsky safe from authoritarians and disinfo\nStartup admin: stevetownsend0.bsky.social\nPlatform reporting is still good for gore posters, threats etc.\nThis is a fast track to clean infospace. You can report to both in one pass.",
-		"indexedAt": "2024-11-13T23:39:33.583Z"
+		"description": "Mission: stay safe from Elmo's X frens\nStartup admin: stevetownsend0.bsky.social\nUse platform reporting for gore posters, threats, ...\nFast track to clean infospace\nFor the worst, target platform reporting too in one report!\nWIP nafoforum.org",
+		"indexedAt": "2024-11-15T19:15:39.928Z"
 	},
-	"likeCount": 15,
+	"likeCount": 68,
 	"indexedAt": "2024-11-13T21:54:40.718Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "fake",
+				"locales": [
+					{
+						"description": "Impersonating community member or other well-known account. Beware of fundraising links or unsolicited DMs.",
+						"lang": "en",
+						"name": "Fake Account"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "repetitive",
+				"locales": [
+					{
+						"description": "Repetitive behaviour, including spamming the same reply or image ",
+						"lang": "en",
+						"name": "Repetitive"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "review",
+				"locales": [
+					{
+						"description": "Status unconfirmed. Exercise caution.",
+						"lang": "en",
+						"name": "Under Review"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "disinfo",
+				"locales": [
+					{
+						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation",
+						"lang": "en",
+						"name": "Disinformation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "ignore",
-				"identifier": "Parody",
+				"identifier": "parody",
 				"locales": [
 					{
 						"description": "Non-harmful parody account, labeled only to avoid confusion and distraction",
@@ -38,12 +94,12 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "hide",
-				"identifier": "Infighting",
+				"identifier": "disruptive",
 				"locales": [
 					{
-						"description": "Unconstructive conflict within the fella community, possibly designed to distract from more important things",
+						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things",
 						"lang": "en",
-						"name": "Infighting"
+						"name": "Disruptive"
 					}
 				],
 				"severity": "alert"
@@ -52,7 +108,7 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "hide",
-				"identifier": "Abusive",
+				"identifier": "abusive",
 				"locales": [
 					{
 						"description": "Rude or impolite, including crude language and disrespectful comments, without constructive purpose.",
@@ -64,12 +120,12 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "none",
+				"blurs": "content",
 				"defaultSetting": "hide",
-				"identifier": "Engagement Farmer",
+				"identifier": "engagementfarmer",
 				"locales": [
 					{
-						"description": "Insincere content or bulk actions aimed at gaining followers, including frequent follows, posts, and likes.",
+						"description": "Insincere content or bulk actions aimed at gaining followers, including frequent follows, posts, and likes. Beware of off-site links.",
 						"lang": "en",
 						"name": "Engagement Farmer"
 					}
@@ -78,10 +134,14 @@
 			}
 		],
 		"labelValues": [
-			"Parody",
-			"Infighting",
-			"Abusive",
-			"Engagement Farmer"
+			"fake",
+			"repetitive",
+			"review",
+			"disinfo",
+			"parody",
+			"disruptive",
+			"abusive",
+			"engagementfarmer"
 		]
 	}
 }

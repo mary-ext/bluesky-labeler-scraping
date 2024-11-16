@@ -1,0 +1,117 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4j6e6lhmrjsihjtshsuh3chk/app.bsky.labeler.service/self",
+	"cid": "bafyreifjckmnwsia4vvx7z5sgyjq6rpsfthlla7ycxdz5zvabkfjinmufy",
+	"creator": {
+		"did": "did:plc:4j6e6lhmrjsihjtshsuh3chk",
+		"handle": "draglabeler.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4j6e6lhmrjsihjtshsuh3chk/bafkreide5bkeipkglu7a5apg3gx6zkddibaixonkj4x7x6l2r2vzqzzg2q@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-15T08:33:27.533Z",
+		"description": "Drag Labeler for drag artists to indicate their drag. Created by @kiyoshiyorha.bsky.social",
+		"indexedAt": "2024-11-15T09:01:47.837Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-11-15T10:20:53.548Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragartist",
+				"locales": [
+					{
+						"description": "A person that expresses their drag regardless (or irregardless) of gender or any other label.",
+						"lang": "en",
+						"name": "Drag Artist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragcreature",
+				"locales": [
+					{
+						"description": "A person that that expresses a non-human (or monstrous human), other worldy or fictional features/characteristics in their drag.",
+						"lang": "en",
+						"name": "Drag Creature"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragcharacter",
+				"locales": [
+					{
+						"description": "A person that is an orignal (or imitation) drag persona.",
+						"lang": "en",
+						"name": "Drag Character"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragmonarch",
+				"locales": [
+					{
+						"description": "A person that express either (or both) drag king or drag queen.",
+						"lang": "en",
+						"name": "Drag Monarch"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragking",
+				"locales": [
+					{
+						"description": "A person that that expresses masculinity or hyper-masculinity in their drag.",
+						"lang": "en",
+						"name": "Drag King"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dragqueen",
+				"locales": [
+					{
+						"description": "A person that that expresses femininity or hyper-femininity in their drag.",
+						"lang": "en",
+						"name": "Drag Queen"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"dragartist",
+			"dragcreature",
+			"dragcharacter",
+			"dragmonarch",
+			"dragking",
+			"dragqueen"
+		]
+	}
+}

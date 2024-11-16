@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:tisfkn33vdiewtkh6csahbog/app.bsky.labeler.service/self",
-	"cid": "bafyreiec2tcveaknwxtphrtrrubuulw36ah6cf5dkotojbbdaiqzm577oe",
+	"cid": "bafyreiezl7cf56vztyo77x5qcon6vrnwowklkbwbysmldug67vybqbfjnq",
 	"creator": {
 		"did": "did:plc:tisfkn33vdiewtkh6csahbog",
-		"handle": "handle.invalid",
+		"handle": "paywall.bsky.social",
 		"displayName": "Paywall",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tisfkn33vdiewtkh6csahbog/bafkreiatquiozwnwv56e2mdivkopnaq2afphbql2hw2udglq72xu6ypb7m@jpeg",
 		"associated": {
@@ -12,10 +12,10 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-15T00:04:36.846Z",
-		"description": "Manages the paywall label list",
-		"indexedAt": "2024-11-15T01:21:11.241Z"
+		"description": "Manages the paywall label list\n\nIcon by Robert Bjurshagen from Noun Project (CC BY 3.0)",
+		"indexedAt": "2024-11-15T01:41:56.938Z"
 	},
-	"likeCount": 0,
+	"likeCount": 1,
 	"indexedAt": "2024-11-15T00:32:00.441Z",
 	"labels": [],
 	"policies": {
@@ -27,7 +27,7 @@
 				"identifier": "gift-link",
 				"locales": [
 					{
-						"description": "The post contains a gift link to paywalled content.",
+						"description": "This post contains a gift link to paywalled content.  The link may expire or become invalid.",
 						"lang": "en",
 						"name": "Gift Link"
 					}
@@ -41,7 +41,7 @@
 				"identifier": "soft-paywall",
 				"locales": [
 					{
-						"description": "The post contains a link that is behind a soft paywall.",
+						"description": "This post contains a link that is behind a soft paywall.",
 						"lang": "en",
 						"name": "Soft Paywall"
 					}
@@ -55,7 +55,7 @@
 				"identifier": "paywall",
 				"locales": [
 					{
-						"description": "The post contains a link that is paywalled.",
+						"description": "This post contains a link that is behind a paywall.",
 						"lang": "en",
 						"name": "Paywall"
 					}

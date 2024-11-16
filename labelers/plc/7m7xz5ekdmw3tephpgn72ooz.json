@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreiannbi76dms2owvfj43ziem3uhi6bp5enxrqpzrwcpqzwzjqx4iya",
+	"cid": "bafyreihvhunyjoitu6qwwycur7w3gl72vcdhutkrmaarpk65a5ty25shaa",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -16,13 +16,55 @@
 		"labels": [],
 		"createdAt": "2024-08-30T06:33:01.334Z",
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
-		"indexedAt": "2024-11-13T07:16:15.181Z"
+		"indexedAt": "2024-11-15T13:49:21.330Z"
 	},
-	"likeCount": 323,
+	"likeCount": 333,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koala",
+				"locales": [
+					{
+						"description": "I'm feeling cuddly/calm/gentle.",
+						"lang": "en",
+						"name": "Mood: 🐨"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "teacup-without-handle",
+				"locales": [
+					{
+						"description": "Tea time.",
+						"lang": "en",
+						"name": "Mood: 🍵"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hot-beverage",
+				"locales": [
+					{
+						"description": "Coffee time.",
+						"lang": "en",
+						"name": "Mood: ☕"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1607,6 +1649,9 @@
 			}
 		],
 		"labelValues": [
+			"koala",
+			"teacup-without-handle",
+			"hot-beverage",
 			"wing",
 			"cloud",
 			"crescent-moon",

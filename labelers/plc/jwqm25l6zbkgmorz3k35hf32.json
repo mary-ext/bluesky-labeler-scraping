@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreicabhhi6rzntjhpuhm5qbnwrfkpu7sq7y3xh6mugf7pcjpex7nobi",
+	"cid": "bafyreih3qcsn2yyfep2opj74dsgypxs4x4wkxwfd75tlempxe2oempgllu",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -23,6 +23,20 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "contains-xwitter",
+				"locales": [
+					{
+						"description": "Contains Term: Xwitter",
+						"lang": "en",
+						"name": "Contains: \"Xwitter\""
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -81,6 +95,7 @@
 			}
 		],
 		"labelValues": [
+			"contains-xwitter",
 			"test2",
 			"test",
 			"contains-xitter",

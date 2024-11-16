@@ -1,0 +1,69 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4j3ewf6c2iww4wy2yxdubcwc/app.bsky.labeler.service/self",
+	"cid": "bafyreic65qaochquveygzv4ffd4nsktomdvvfz7n4r7jyc55evkrhkw53i",
+	"creator": {
+		"did": "did:plc:4j3ewf6c2iww4wy2yxdubcwc",
+		"handle": "safesky.bsky.social",
+		"displayName": "",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-03-22T14:38:44.765Z",
+		"indexedAt": "2024-03-22T14:38:46.208Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-15T16:16:44.048Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "Resist-Label",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Resist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "label-name",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Label Display Name"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "FBR-warning",
+				"locales": [
+					{
+						"description": "This post contains content related to FBR, which has been flagged for attention.",
+						"lang": "en",
+						"name": "FBR Warning"
+					}
+				],
+				"severity": "warn"
+			}
+		],
+		"labelValues": [
+			"Resist-Label",
+			"FBR-warning"
+		]
+	}
+}
