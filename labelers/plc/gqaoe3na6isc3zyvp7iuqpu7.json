@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:gqaoe3na6isc3zyvp7iuqpu7/app.bsky.labeler.service/self",
-  "cid": "bafyreib7qjqmxszs3aibjgrikiolhoxcnluq57riopmddkubsu3wjawbeu",
+  "cid": "bafyreid2sal2nwatlgej5pn45uvdovvdrfynmydhp7ewg7glbseuwmfrxm",
   "creator": {
     "did": "did:plc:gqaoe3na6isc3zyvp7iuqpu7",
     "handle": "arttheft.bsky.social",
@@ -11,8 +11,8 @@
     },
     "labels": [],
     "createdAt": "2024-11-13T18:23:11.376Z",
-    "description": "Fighting art plagiarism 🖌️✊ Report posts in bluesky and provide proof for them to be considered.\nLooking for moderators! DM @chroma.rip\n\nアートの盗作と戦う 🖌️✊ bskyで投稿を報告し、検討の対象となる証拠を提示すること。\nモデレーター募集中、DM @chroma.rip\n\nAI Art Labeler: @aimod.social",
-    "indexedAt": "2024-11-14T19:46:38.227Z"
+    "description": "Fighting art plagiarism 🖌️✊ Report posts in bluesky and provide proof for them to be considered.\nLooking for moderators! DM @chroma.rip\n\nアートの盗作と戦う 🖌️✊ bskyで投稿を報告し、検討の対象となる証拠を提示すること。\nモデレーター募集中、DM @chroma.rip\n\nNot for AI art, use @aimod.social instead",
+    "indexedAt": "2024-11-15T21:40:18.930Z"
   },
   "indexedAt": "2024-11-13T18:49:53.127Z",
   "labels": [],
@@ -26,7 +26,7 @@
         "locales": [
           {
             "description": "定期的に作品を盗作したり、オリジナルのアーティストになりすましているアカウント",
-            "lang": "jp",
+            "lang": "ja",
             "name": "盗作アカウント"
           },
           {
@@ -45,7 +45,7 @@
         "locales": [
           {
             "description": "ほとんどの場合、アート作品を再投稿しており、クレジットがないことが多いアカウント",
-            "lang": "jp",
+            "lang": "ja",
             "name": "再投稿アカウント"
           },
           {
@@ -60,7 +60,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "copied",
+        "identifier": "plagiarized-art",
         "locales": [
           {
             "description": "Art that was copied, traced, derived, or plagiarized with little to no creative value beyond what the original material offers",
@@ -69,7 +69,7 @@
           },
           {
             "description": "オリジナル素材からの創造性がほとんどなく、コピー、トレース、派生、または盗作されたアート",
-            "lang": "jp",
+            "lang": "ja",
             "name": "コピーされたアート"
           }
         ],
@@ -82,13 +82,13 @@
         "identifier": "reposted-without-permission",
         "locales": [
           {
-            "description": "Reposts/reuploads that were made against the original artist's wishes",
+            "description": "Reposts/reuploads that were made against the original artist's wishes, often without attribution",
             "lang": "en",
             "name": "Reposted Without Permission"
           },
           {
             "description": "元のアーティストの意向に反して再投稿／再アップロードされたコンテンツ",
-            "lang": "jp",
+            "lang": "ja",
             "name": "無断転載"
           }
         ],
@@ -98,7 +98,7 @@
     "labelValues": [
       "plagiarism-account",
       "repost-account",
-      "copied",
+      "plagiarized-art",
       "reposted-without-permission"
     ]
   }

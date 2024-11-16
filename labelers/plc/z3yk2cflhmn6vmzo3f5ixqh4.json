@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-  "cid": "bafyreiegcxpb6sw7cdzq2lmkzgszcbh2r7ltvuc32ya65mjpghidlalura",
+  "cid": "bafyreieyy54wqwa5tcok6dhxria3be43yghejissqh5sibgryotnn5syqy",
   "creator": {
     "did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
     "handle": "yardcrow.com",
@@ -21,6 +21,90 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "adapt-adv",
+        "locales": [
+          {
+            "description": "Adaptive Advocacy: This account supports or advocated for Disability and Adaptive Rights.",
+            "lang": "en",
+            "name": "♿📣"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "t-adapt-adv",
+        "locales": [
+          {
+            "description": "♿📣: This account supports or advocated for Disability and Adaptive Rights.",
+            "lang": "en",
+            "name": "adaptive advocacy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "adapt-ath",
+        "locales": [
+          {
+            "description": "Adaptive Sports: This account participates in or supports Disability and Adaptive Athletics.",
+            "lang": "en",
+            "name": "♿🎽"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "t-adapt-ath",
+        "locales": [
+          {
+            "description": "♿🎽: This account participates in or supports Disability and Adaptive Athletics.",
+            "lang": "en",
+            "name": "adaptive sports"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "adapt-tech",
+        "locales": [
+          {
+            "description": "Adaptive Tech: This account uses or supports Disability and Adaptive Technologies.",
+            "lang": "en",
+            "name": "♿⚙️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "t-adapt-tech",
+        "locales": [
+          {
+            "description": "♿⚙️: This account uses or supports Disability and Adaptive Technologies.",
+            "lang": "en",
+            "name": "adaptive tech"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1941,6 +2025,12 @@
       }
     ],
     "labelValues": [
+      "adapt-adv",
+      "t-adapt-adv",
+      "adapt-ath",
+      "t-adapt-ath",
+      "adapt-tech",
+      "t-adapt-tech",
       "artist",
       "t-artist",
       "author",
