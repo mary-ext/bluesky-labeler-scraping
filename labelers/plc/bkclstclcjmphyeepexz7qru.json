@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:bkclstclcjmphyeepexz7qru/app.bsky.labeler.service/self",
-  "cid": "bafyreif7wxcquzs6vjcdwcysezm6he4rg2i2koi3yxvkqu7p777p6kadda",
+  "cid": "bafyreieutbm6yzrt2n5dyqk7kck6bg2jdxszyiczytw575nvkubtz45moe",
   "creator": {
     "did": "did:plc:bkclstclcjmphyeepexz7qru",
-    "handle": "mod.swifties.social",
+    "handle": "handle.invalid",
     "displayName": "Mod 💜💙 (swiftie moderation service)",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bkclstclcjmphyeepexz7qru/bafkreicrjzsyawg4626nkpr563ehvpa65dhcpapqavk6snjnxf4byo56de@jpeg",
     "associated": {
@@ -18,6 +18,20 @@
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "stalking",
+        "locales": [
+          {
+            "description": "The moderator has received evidence of a history of stalking or catfishing behaviors.",
+            "lang": "en",
+            "name": "Stalking or Catfishing"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -76,6 +90,7 @@
       }
     ],
     "labelValues": [
+      "stalking",
       "impersonation",
       "resell",
       "abuse",
