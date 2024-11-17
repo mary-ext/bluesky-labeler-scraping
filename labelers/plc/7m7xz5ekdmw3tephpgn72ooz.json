@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreihvhunyjoitu6qwwycur7w3gl72vcdhutkrmaarpk65a5ty25shaa",
+	"cid": "bafyreihkgpn7q5iqirkztntqvp3a7i5rsbysdihb3j777w5vxoubvfcnoi",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -18,11 +18,39 @@
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
 		"indexedAt": "2024-11-15T13:49:21.330Z"
 	},
-	"likeCount": 333,
+	"likeCount": 342,
 	"indexedAt": "2024-08-30T07:13:47.518Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rabbit",
+				"locales": [
+					{
+						"description": "I'm feeling cute/curious/playful.",
+						"lang": "en",
+						"name": "Mood: 🐇"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sauropod",
+				"locales": [
+					{
+						"description": "I'm feeling ancient/majestic/peaceful.",
+						"lang": "en",
+						"name": "Mood: 🦕"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1649,6 +1677,8 @@
 			}
 		],
 		"labelValues": [
+			"sauropod",
+			"rabbit",
 			"koala",
 			"teacup-without-handle",
 			"hot-beverage",

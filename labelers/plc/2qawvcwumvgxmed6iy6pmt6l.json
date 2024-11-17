@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qawvcwumvgxmed6iy6pmt6l/app.bsky.labeler.service/self",
-	"cid": "bafyreicixu62ntxdebjb4qtu3c72vgmy6egprwchagjhre4fbvaolsydt4",
+	"cid": "bafyreiamx7ecb43xweukas27x35fydsbph3wnibqtrhbu4o42s4s2fvm3m",
 	"creator": {
 		"did": "did:plc:2qawvcwumvgxmed6iy6pmt6l",
 		"handle": "sonasky.app",
@@ -18,8 +18,8 @@
 		"description": "Show off your fursona (label)!\n❓: Add=❤️! Remove=💔.\n🔍: Browse/Status: https://sonasky.app\nAlso Sub to @pokemon.sonasky.app !\n\n🐇🧑‍💻: @astra.bunnys.ky <- 18+\n🖼️: @snowfox.gay <- 18+",
 		"indexedAt": "2024-11-13T19:17:46.975Z"
 	},
-	"likeCount": 3685,
-	"indexedAt": "2024-11-13T02:34:45.315Z",
+	"likeCount": 3769,
+	"indexedAt": "2024-11-16T20:28:11.892Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -9556,6 +9556,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "monster-hunter-creature",
+				"locales": [
+					{
+						"description": "This user is a monster from Monster Hunter! You may be able to check their bio for more details.",
+						"lang": "en",
+						"name": "Monster Hunter Creature"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -10239,7 +10253,8 @@
 			"wildcat",
 			"worm",
 			"zonai",
-			"selkie"
+			"selkie",
+			"monster-hunter-creature"
 		]
 	}
 }

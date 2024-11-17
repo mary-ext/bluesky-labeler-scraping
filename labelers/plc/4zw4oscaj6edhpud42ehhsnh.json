@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4zw4oscaj6edhpud42ehhsnh/app.bsky.labeler.service/self",
-	"cid": "bafyreibtq6qkynw4w7zsaxiu54u745zkds4io4snm6zf7bco5blprnjfxu",
+	"cid": "bafyreifa3opzctci6ifgcvkua5j6ccrztjplfokc7gll62ehrqnurbrhpm",
 	"creator": {
 		"did": "did:plc:4zw4oscaj6edhpud42ehhsnh",
 		"handle": "moderation.masr.social",
@@ -20,6 +20,25 @@
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "silo-reposting",
+				"locales": [
+					{
+						"description": "Content such as screenshots from Twitter and other social media platforms.",
+						"lang": "en",
+						"name": "Social Media Reposting"
+					},
+					{
+						"description": "محتوى زي المنشورات المُعادة من تويتر وغيرهم.",
+						"lang": "ar",
+						"name": "منشورات مُعادة"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -117,6 +136,7 @@
 			}
 		],
 		"labelValues": [
+			"silo-reposting",
 			"bigotry",
 			"preaching",
 			"spam",

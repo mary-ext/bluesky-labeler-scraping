@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:itsszxwp2d45yztcsnvseteh/app.bsky.labeler.service/self",
-	"cid": "bafyreibbidmd2pa772boghx4yzs2spwfowt2ldafzksny4f45q3sufloti",
+	"cid": "bafyreihgvv3qr2gbyrmwmg55p7msmeia65dnmq75lx3obsygix74yhaxlq",
 	"creator": {
 		"did": "did:plc:itsszxwp2d45yztcsnvseteh",
 		"handle": "osrslabeler.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "Subscribe and like one of my posts to add OSRS account labels to your Bluesky profile.\n\nMaintained by: @Pantertainment.com\nFor label suggestions go here: https://github.com/CodePanter/Bluesky-OSRSLabeler ",
 		"indexedAt": "2024-11-04T13:03:11.079Z"
 	},
-	"likeCount": 13,
-	"indexedAt": "2024-11-04T12:56:34.348Z",
+	"likeCount": 16,
+	"indexedAt": "2024-11-16T12:31:20.099Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -215,6 +215,104 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-regular-group-ironman",
+				"locales": [
+					{
+						"description": "Group Ironman Account",
+						"lang": "en",
+						"name": "Group Ironman"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-hardcore-group-ironman",
+				"locales": [
+					{
+						"description": "Hardcore Group Ironman Account",
+						"lang": "en",
+						"name": "Hardcore Group Ironman"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-unranked-group-ironman",
+				"locales": [
+					{
+						"description": "Unranked Group Ironman Account",
+						"lang": "en",
+						"name": "Unranked Group Ironman"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-snowflake-self-restricted",
+				"locales": [
+					{
+						"description": "Self Restricted Account",
+						"lang": "en",
+						"name": "Self Restricted"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-snowflake-collection-logger",
+				"locales": [
+					{
+						"description": "Collection Log Hunter Account",
+						"lang": "en",
+						"name": "Collection Logger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-snowflake-tasker",
+				"locales": [
+					{
+						"description": "Tasker Account",
+						"lang": "en",
+						"name": "Tasker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-snowflake-area-restricted",
+				"locales": [
+					{
+						"description": "Area Restricted Account",
+						"lang": "en",
+						"name": "Area Restricted"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -231,7 +329,14 @@
 			"osrslabeler-official-free-to-play",
 			"osrslabeler-snowflake-combat-only",
 			"osrslabeler-snowflake-skiller",
-			"osrslabeler-official-two-hundred-million-all"
+			"osrslabeler-official-two-hundred-million-all",
+			"osrslabeler-official-regular-group-ironman",
+			"osrslabeler-official-hardcore-group-ironman",
+			"osrslabeler-official-unranked-group-ironman",
+			"osrslabeler-snowflake-self-restricted",
+			"osrslabeler-snowflake-collection-logger",
+			"osrslabeler-snowflake-tasker",
+			"osrslabeler-snowflake-area-restricted"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreibqgvoeso2lyg4a6wwkwubvovnrsfq3p3b3qfunro44x2qx4xsypy",
+	"cid": "bafyreia5oznknv7bcwbzkvyxmhojqkmwtosbtwcuohdritcbudaxvomgn4",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 209,
-	"indexedAt": "2024-11-15T22:19:21.519Z",
+	"likeCount": 215,
+	"indexedAt": "2024-11-16T21:54:03.651Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3326,6 +3326,90 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scopeclient-scope",
+				"locales": [
+					{
+						"description": "discord client for power users\nhttps://github.com/scopeclient/scope",
+						"lang": "en",
+						"name": "scopeclient/scope"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "natonato-gbf-search-friend",
+				"locales": [
+					{
+						"description": "To find Granblue Fantasy friend easily\nhttps://github.com/natonato/gbf_search_friend",
+						"lang": "en",
+						"name": "natonato/gbf_search_friend"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "curioustorvald-terrarum",
+				"locales": [
+					{
+						"description": "Modular game engine for a side-scrolling tilemap platformer, and a game that runs on top of it\nhttps://github.com/curioustorvald/Terrarum",
+						"lang": "en",
+						"name": "curioustorvald/Terrarum"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nspilman-luminframe",
+				"locales": [
+					{
+						"description": "https://github.com/nspilman/luminframe",
+						"lang": "en",
+						"name": "nspilman/luminframe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "schniz-fnm",
+				"locales": [
+					{
+						"description": "🚀 Fast and simple Node.js version manager, built in Rust\nhttps://github.com/Schniz/fnm",
+						"lang": "en",
+						"name": "schniz/fnm"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "honeybadger-io-heya",
+				"locales": [
+					{
+						"description": "Heya 👋 is a campaign mailer for Rails. Think of it like ActionMailer, but for timed email sequences. It can also perform other actions like sending a text message.\nhttps://github.com/honeybadger-io/heya",
+						"lang": "en",
+						"name": "honeybadger-io/heya"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3564,7 +3648,13 @@
 			"immutable-js-immutable-js",
 			"three-types-three-ts-types",
 			"axodotdev-cargo-dist",
-			"agda-agdatwohs"
+			"agda-agdatwohs",
+			"scopeclient-scope",
+			"natonato-gbf-search-friend",
+			"curioustorvald-terrarum",
+			"nspilman-luminframe",
+			"schniz-fnm",
+			"honeybadger-io-heya"
 		]
 	}
 }

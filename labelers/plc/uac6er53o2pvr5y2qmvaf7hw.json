@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreihskqgbzm2bivgbriivz22bdbaaay6jxfk2fd3kd4jeklmlx6wr2i",
+	"cid": "bafyreigbmefpgc4rcyx5gsoyfq7o6mmfdkghcsfb7uppu5hnbjmyfbc7lu",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
@@ -12,14 +12,42 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-13T15:53:50.271Z",
-		"description": "Mission: stay safe from Elmo's X frens\nStartup admin: stevetownsend0.bsky.social\nUse platform reporting for gore posters, threats, ...\nFast track to clean infospace\nFor the worst, target platform reporting too in one report!\nWIP nafoforum.org",
-		"indexedAt": "2024-11-15T19:15:39.928Z"
+		"description": "Mission: put Elmo's X frens in a silo\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nRead Pinned post for mission\nFollow for irregular Delphic pronouncements\nWIP for nafoforum.org",
+		"indexedAt": "2024-11-16T16:38:49.171Z"
 	},
-	"likeCount": 68,
+	"likeCount": 171,
 	"indexedAt": "2024-11-13T21:54:40.718Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "violent",
+				"locales": [
+					{
+						"description": "Violent speech including media. Threats, incitement, celebration, wishing harm.",
+						"lang": "en",
+						"name": "Violent Content"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "nsfw",
+				"locales": [
+					{
+						"description": "Gratuitously graphic media, violent or sexual content. Typically, also report to platform.",
+						"lang": "en",
+						"name": "Graphic Media"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -69,7 +97,7 @@
 				"identifier": "disinfo",
 				"locales": [
 					{
-						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation",
+						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events.",
 						"lang": "en",
 						"name": "Disinformation"
 					}
@@ -134,6 +162,8 @@
 			}
 		],
 		"labelValues": [
+			"violent",
+			"nsfw",
 			"fake",
 			"repetitive",
 			"review",
