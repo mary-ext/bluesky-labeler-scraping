@@ -1,0 +1,87 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:fq2de2e42ma6wfon77msqpe5/app.bsky.labeler.service/self",
+	"cid": "bafyreienxd73gja7wdfnl3amixny4dmvq7t5qlzinvtyipyp6sw7xrvzfu",
+	"creator": {
+		"did": "did:plc:fq2de2e42ma6wfon77msqpe5",
+		"handle": "espanaprofundamod.bsky.social",
+		"displayName": "España Profunda (Servicio)",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fq2de2e42ma6wfon77msqpe5/bafkreifdhdj2bufcjyvh5ersvtyra2k24ropgqn4p2xs26ey5dmwm7ejmy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-17T12:38:47.432Z",
+		"description": "Servicio de moderación para reportar cuentas troll de extrema derecha.\n\nInstrucciones en el hilo anclado 👇 https://bsky.app/profile/espanaprofundamod.bsky.social/post/3lb67vg5h2k2u",
+		"indexedAt": "2024-11-17T21:14:31.878Z"
+	},
+	"likeCount": 26,
+	"indexedAt": "2024-11-17T13:30:17.657Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "acoso-persecucion",
+				"locales": [
+					{
+						"description": "Acoso, persecución, gente pesada en general que busca atención o simplemente molestar.",
+						"lang": "es",
+						"name": "Acoso y persecución"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "suplantacion-parodia",
+				"locales": [
+					{
+						"description": "Cuentas parodia supuestamente graciosas, suplantaciones de identidad.",
+						"lang": "es",
+						"name": "Suplantación o parodia"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "insultos-amenazas",
+				"locales": [
+					{
+						"description": "Insultos y/o amenazas dirigidas a personas o grupos dentro o fuera de Bluesky.",
+						"lang": "es",
+						"name": "Insultos y/o amenazas"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "apologia-franquista",
+				"locales": [
+					{
+						"description": "Exhibe simbología franquista en foto, fondo, bio, o posts.",
+						"lang": "es",
+						"name": "Simbología Franquista"
+					}
+				],
+				"severity": "inform|alert|none"
+			}
+		],
+		"labelValues": [
+			"acoso-persecucion",
+			"suplantacion-parodia",
+			"insultos-amenazas",
+			"apologia-franquista"
+		]
+	}
+}

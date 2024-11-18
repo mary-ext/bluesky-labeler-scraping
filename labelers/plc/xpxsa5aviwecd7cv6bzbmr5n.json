@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreia5oznknv7bcwbzkvyxmhojqkmwtosbtwcuohdritcbudaxvomgn4",
+	"cid": "bafyreif7gbkngpvtvp7f5ywnukl7i4ypdtxr2qq5csebzpqbg6bnldhi2i",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 215,
-	"indexedAt": "2024-11-16T21:54:03.651Z",
+	"likeCount": 216,
+	"indexedAt": "2024-11-17T15:21:03.936Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3410,6 +3410,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "owasp-asvs",
+				"locales": [
+					{
+						"description": "Application Security Verification Standard\nhttps://github.com/OWASP/ASVS",
+						"lang": "en",
+						"name": "owasp/asvs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gradleup-shadow",
+				"locales": [
+					{
+						"description": "Gradle plugin to create fat/uber JARs, apply file transforms, and relocate packages for applications and libraries. Gradle version of Maven's Shade plugin.\nhttps://github.com/GradleUp/shadow",
+						"lang": "en",
+						"name": "GradleUp/shadow"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3654,7 +3682,9 @@
 			"curioustorvald-terrarum",
 			"nspilman-luminframe",
 			"schniz-fnm",
-			"honeybadger-io-heya"
+			"honeybadger-io-heya",
+			"owasp-asvs",
+			"gradleup-shadow"
 		]
 	}
 }

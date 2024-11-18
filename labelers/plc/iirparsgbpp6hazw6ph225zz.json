@@ -1,0 +1,46 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:iirparsgbpp6hazw6ph225zz/app.bsky.labeler.service/self",
+	"cid": "bafyreihbpuazclcrexqi33kqzl2rxkoamsujfch6h3wqfz6mtlbvtl3haa",
+	"creator": {
+		"did": "did:plc:iirparsgbpp6hazw6ph225zz",
+		"handle": "moderation.avivr.dev",
+		"displayName": "המסננת",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iirparsgbpp6hazw6ph225zz/bafkreihxhruezrw5iihjrhrma55osix4zbaltxiw2gctq3hibhoydllyim@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-24T18:38:36.809Z",
+		"indexedAt": "2024-11-17T16:24:48.428Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-17T16:13:35.820Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "politics",
+				"locales": [
+					{
+						"description": "תוכן פוליטי",
+						"lang": "he",
+						"name": "פוליטיקה"
+					},
+					{
+						"description": "Content about israeli politics",
+						"lang": "en",
+						"name": "Israeli Politics"
+					}
+				],
+				"severity": "inform|alert|none"
+			}
+		],
+		"labelValues": [
+			"politics"
+		]
+	}
+}

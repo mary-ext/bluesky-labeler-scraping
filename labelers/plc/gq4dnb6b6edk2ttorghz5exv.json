@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:gq4dnb6b6edk2ttorghz5exv/app.bsky.labeler.service/self",
-	"cid": "bafyreie2gzxalmch5fgkcwsrfrt6iptqpgcwvlfauabqbbekyecauivfau",
+	"cid": "bafyreidqifezwbvgesvfrgvbfmzidlbhcc4qoqiw7f63j335uxr4cgqxlq",
 	"creator": {
 		"did": "did:plc:gq4dnb6b6edk2ttorghz5exv",
 		"handle": "ffxiv-labeler.bsky.social",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-16T12:37:55.290Z",
-		"description": "Un labeler adapté aux joueur•euses de Final Fantasy XIV Online",
-		"indexedAt": "2024-11-16T21:35:25.637Z"
+		"description": "Un labeler adapté aux joueur•euses de Final Fantasy XIV Online (Work in Progress)\nBuilt with : https://github.com/aliceisjustplaying/labeler-starter-kit-bsky\nCrée par @cassim.montilla.fr",
+		"indexedAt": "2024-11-17T18:13:00.130Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-11-16T19:51:52.509Z",
+	"likeCount": 5,
+	"indexedAt": "2024-11-17T17:27:03.309Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,17 +24,17 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "hyur",
+				"identifier": "aura",
 				"locales": [
 					{
-						"description": "Hyur",
+						"description": "My WoL is an Au Ra",
 						"lang": "en",
-						"name": "Hyur"
+						"name": "Au Ra"
 					},
 					{
-						"description": "",
-						"lang": "fr-FR",
-						"name": ""
+						"description": "Mon personnage est Ao Ra",
+						"lang": "fr",
+						"name": "Ao Ra"
 					}
 				],
 				"severity": "inform"
@@ -43,25 +43,145 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "Lalafell",
+				"identifier": "elezen",
 				"locales": [
 					{
-						"description": "Lalafell",
+						"description": "My WoL is an Elezen",
+						"lang": "en",
+						"name": "Elezen"
+					},
+					{
+						"description": "Mon personnage est Élézen",
+						"lang": "fr",
+						"name": "Élézen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lalafell",
+				"locales": [
+					{
+						"description": "My WoL is a Lalafell",
 						"lang": "en",
 						"name": "Lalafell"
 					},
 					{
-						"description": "Lalafell",
-						"lang": "fr-FR",
+						"description": "Mon personnage est Lalafell",
+						"lang": "fr",
 						"name": "Lalafell"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "miqote",
+				"locales": [
+					{
+						"description": "My WoL is a Miqote",
+						"lang": "en",
+						"name": "Miqote"
+					},
+					{
+						"description": "Mon personnage est Miqote",
+						"lang": "fr",
+						"name": "Miqote"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "roegadyn",
+				"locales": [
+					{
+						"description": "My WoL is a Roegadyn",
+						"lang": "en",
+						"name": "Roegadyn"
+					},
+					{
+						"description": "Mon personnage est Roegadyn",
+						"lang": "fr",
+						"name": "Roegadyn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hrothgar",
+				"locales": [
+					{
+						"description": "My WoL is a Hrothgar",
+						"lang": "en",
+						"name": "Hrothgar"
+					},
+					{
+						"description": "Mon personnage est Hrothgar",
+						"lang": "fr",
+						"name": "Hrothgar"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hyur",
+				"locales": [
+					{
+						"description": "My WoL is a Hyur",
+						"lang": "en",
+						"name": "Hyur"
+					},
+					{
+						"description": "Mon personnage est Hyur",
+						"lang": "fr",
+						"name": "Hyur"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "viera",
+				"locales": [
+					{
+						"description": "My WoL is a Viera",
+						"lang": "en",
+						"name": "Viera"
+					},
+					{
+						"description": "Mon personnage est Viéra",
+						"lang": "fr",
+						"name": "Viéra"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"aura",
+			"elezen",
+			"lalafell",
+			"miqote",
+			"roegadyn",
+			"hrothgar",
 			"hyur",
-			"Lalafell"
+			"viera"
 		]
 	}
 }

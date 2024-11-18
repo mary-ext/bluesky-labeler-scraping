@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreigbmefpgc4rcyx5gsoyfq7o6mmfdkghcsfb7uppu5hnbjmyfbc7lu",
+	"cid": "bafyreihcwv2x7ttw2mtoottdy7dcsxmyyhs7efulzgaw6s33fzacm62i6u",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
@@ -12,14 +12,42 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-13T15:53:50.271Z",
-		"description": "Mission: put Elmo's X frens in a silo\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nRead Pinned post for mission\nFollow for irregular Delphic pronouncements\nWIP for nafoforum.org",
-		"indexedAt": "2024-11-16T16:38:49.171Z"
+		"description": "Mission: put Elmo's X frens in a silo\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nRead Pinned post for mission\nFollow for irregular Delphic pronouncements\nCommitted to no use of !hide !warn etc\n12 hour SLA target",
+		"indexedAt": "2024-11-18T00:02:45.909Z"
 	},
-	"likeCount": 171,
+	"likeCount": 218,
 	"indexedAt": "2024-11-13T21:54:40.718Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "blocks",
+				"locales": [
+					{
+						"description": "Account blocks moderation. Exercise caution and critical thinking. Other labels may be present if reliably reported.",
+						"lang": "en",
+						"name": "Blocks Moderation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "evasion",
+				"locales": [
+					{
+						"description": "Ban evaders, multiple account holders, or using obfuscation to post slurs or other covered content",
+						"lang": "en",
+						"name": "Evasion"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -97,7 +125,7 @@
 				"identifier": "disinfo",
 				"locales": [
 					{
-						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events.",
+						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events. Includes known 60/40 disinfo mixers.",
 						"lang": "en",
 						"name": "Disinformation"
 					}
@@ -125,7 +153,7 @@
 				"identifier": "disruptive",
 				"locales": [
 					{
-						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things",
+						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace.",
 						"lang": "en",
 						"name": "Disruptive"
 					}
@@ -162,6 +190,8 @@
 			}
 		],
 		"labelValues": [
+			"blocks",
+			"evasion",
 			"violent",
 			"nsfw",
 			"fake",

@@ -1,0 +1,60 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:gwqqyezoxusulkn5g2nzd6t2/app.bsky.labeler.service/self",
+	"cid": "bafyreiayhlhaxmbmzzecnvsw4l7ohdxzd2v7m25obyedrrury2zk37j2aa",
+	"creator": {
+		"did": "did:plc:gwqqyezoxusulkn5g2nzd6t2",
+		"handle": "imlunahey.bsky.social",
+		"displayName": "luna’s alt ",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gwqqyezoxusulkn5g2nzd6t2/bafkreia5u3rqq7g5kwgopbrot3ehcnchkjebqmez2jdr3yqxl3zt467xhq@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-11-04T02:32:45.979Z",
+		"description": "@imlunahey.com <— main account ",
+		"indexedAt": "2024-11-04T02:33:14.581Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-11-17T07:19:06.460Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "scammer",
+				"locales": [
+					{
+						"description": "an account used to scam or promote one of the scam accounts.",
+						"lang": "en",
+						"name": "scammer"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "accounts that only exist to annoy/abuse others",
+						"lang": "en",
+						"name": "troll"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"scammer",
+			"troll"
+		]
+	}
+}

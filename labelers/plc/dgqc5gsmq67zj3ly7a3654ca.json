@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dgqc5gsmq67zj3ly7a3654ca/app.bsky.labeler.service/self",
-	"cid": "bafyreiexdnmbuijakizotfzhoga7pqbvrhskp3pqbefvssurxfsw5h5b4e",
+	"cid": "bafyreicpwasavtsxson3njekk3jb34ygveop3enlqfyv6i7tb55oyiadsi",
 	"creator": {
 		"did": "did:plc:dgqc5gsmq67zj3ly7a3654ca",
 		"handle": "faerunlabels.bsky.social",
@@ -15,7 +15,7 @@
 		"indexedAt": "2024-11-16T15:48:02.986Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-16T21:44:30.616Z",
+	"indexedAt": "2024-11-17T12:35:22.800Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -32,10 +32,25 @@
 					}
 				],
 				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "warlock",
+				"locales": [
+					{
+						"description": "Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.",
+						"lang": "en",
+						"name": "Warlock"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"Cleric"
+			"Cleric",
+			"warlock"
 		]
 	}
 }

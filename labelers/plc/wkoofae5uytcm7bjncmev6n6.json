@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreiciuyflvcpceybjt6cx2ux2odhhd6delsf7yd5nzjujmob3wngwsa",
+	"cid": "bafyreigr577yyod6ommmoghezvdqxyovlvxig7uac27mxdnqfwmockseby",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -10,16 +10,16 @@
 		"associated": {
 			"labeler": true,
 			"chat": {
-				"allowIncoming": "none"
+				"allowIncoming": "all"
 			}
 		},
 		"labels": [],
 		"createdAt": "2024-07-06T19:13:50.778Z",
-		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\n\ncontact: @futanari.tentacle.expert\ndonate: https://ko-fi.com/notjuliet",
-		"indexedAt": "2024-11-15T01:24:17.737Z"
+		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\nTo request new pronouns, DM this account\ndonate: https://ko-fi.com/notjuliet",
+		"indexedAt": "2024-11-17T23:23:11.798Z"
 	},
-	"likeCount": 9240,
-	"indexedAt": "2024-11-15T13:10:58.760Z",
+	"likeCount": 9414,
+	"indexedAt": "2024-11-17T14:35:46.327Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1380,6 +1380,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hoshi-hoshis",
+				"locales": [
+					{
+						"description": "This user uses hoshi/hoshi's pronouns.",
+						"lang": "en",
+						"name": "hoshi/hoshi's"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "moon-moons",
+				"locales": [
+					{
+						"description": "This user uses moon/moons pronouns.",
+						"lang": "en",
+						"name": "moon/moons"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bear-bears",
+				"locales": [
+					{
+						"description": "This user uses bear/bears pronouns.",
+						"lang": "en",
+						"name": "bear/bears"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1479,7 +1521,10 @@
 			"any-neopronouns",
 			"squeak-squeaks",
 			"zie-hir",
-			"nya-nyan"
+			"nya-nyan",
+			"hoshi-hoshis",
+			"moon-moons",
+			"bear-bears"
 		]
 	}
 }
