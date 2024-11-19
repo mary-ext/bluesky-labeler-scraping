@@ -1,25 +1,140 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreigjk4dnv2xrwczcc6u2xzmwk4catybq3ugkii3d5g7nh6tu2fdpaa",
+	"cid": "bafyreifogcr2bl7kncyi37iot43xwjqdj5bvs2l3djhqlxlpwyl66wrplm",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
 		"displayName": "Private School Labeller",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mtbmlt62wuf454ztne5wacev/bafkreidxdijfmzaocr3yzufqq7byl725462x7hdtgjnk64se3ws6gkujmu@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-11-17T15:50:16.327Z",
 		"description": "Labeller to show which (mostly UK) public figures, journalists on Bluesky went to private school, and what the average fees are for that school. Manually updated, might be slow. Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-11-17T17:59:08.029Z"
 	},
-	"likeCount": 30,
+	"likeCount": 51,
 	"indexedAt": "2024-11-17T17:32:44.706Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lordwandsworth",
+				"locales": [
+					{
+						"description": "£14,700/Term",
+						"lang": "en",
+						"name": "Lord Wandsworth College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stflannans",
+				"locales": [
+					{
+						"description": "$2,762 AUD/Year",
+						"lang": "en",
+						"name": "St Flannans Zillmere"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "marisconvent",
+				"locales": [
+					{
+						"description": "£7,770/Term",
+						"lang": "en",
+						"name": "Maris Convent School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cathedralstjohn",
+				"locales": [
+					{
+						"description": "$62,000/Year",
+						"lang": "en",
+						"name": "Cathedral School of St John the Divine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "calhoun",
+				"locales": [
+					{
+						"description": "$63,500/Year",
+						"lang": "en",
+						"name": "Calhoun School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "riverdale",
+				"locales": [
+					{
+						"description": "$66,650/Year",
+						"lang": "en",
+						"name": "Riverdale Country School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rgs-newcastle",
+				"locales": [
+					{
+						"description": "£17,860/Year",
+						"lang": "en",
+						"name": "Royal Grammar School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "brewdog",
+				"locales": [
+					{
+						"description": "Private School Punks! Awarded for publicly Not Getting The Point",
+						"lang": "en",
+						"name": "Brewdog Award"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -396,7 +511,15 @@
 			"wolverhamptongrammar",
 			"stmarys",
 			"staloysius",
-			"mgs"
+			"mgs",
+			"brewdog",
+			"rgs-newcastle",
+			"Riverdale",
+			"cathedralstjohn",
+			"calhoun",
+			"marisconvent",
+			"stflannans",
+			"lordwandsworth"
 		]
 	}
 }

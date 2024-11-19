@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4j3ewf6c2iww4wy2yxdubcwc/app.bsky.labeler.service/self",
-	"cid": "bafyreic65qaochquveygzv4ffd4nsktomdvvfz7n4r7jyc55evkrhkw53i",
+	"cid": "bafyreicszjw57eobho43q4ew5o7uedpdziatc677qm6d6wv2mvfduvvi6q",
 	"creator": {
 		"did": "did:plc:4j3ewf6c2iww4wy2yxdubcwc",
 		"handle": "safesky.bsky.social",
@@ -21,49 +21,50 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
-				"defaultSetting": "warn",
-				"identifier": "Resist-Label",
+				"defaultSetting": "ignore",
+				"identifier": "climate-denying",
 				"locales": [
 					{
-						"description": "Label description.",
+						"description": "Username, handle, and / or description which includes reference to Climate Denying",
 						"lang": "en",
-						"name": "Resist"
+						"name": "Climate Denying"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
-				"identifier": "label-name",
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "#voteblue",
 				"locales": [
 					{
-						"description": "Label description.",
+						"description": "Username, handle, and / or description which includes references \"#VoteBlue\".",
 						"lang": "en",
-						"name": "Label Display Name"
+						"name": "#voteblue"
 					}
 				],
-				"severity": "inform|alert|none"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
-				"blurs": "none",
+				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "FBR-warning",
+				"identifier": "voteblue",
 				"locales": [
 					{
-						"description": "This post contains content related to FBR, which has been flagged for attention.",
+						"description": "Username, handle, and / or description which includes references \"VoteBlue\".",
 						"lang": "en",
-						"name": "FBR Warning"
+						"name": "voteblue"
 					}
 				],
-				"severity": "warn"
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
-			"Resist-Label",
-			"FBR-warning"
+			"climate-denying",
+			"#voteblue",
+			"voteblue"
 		]
 	}
 }

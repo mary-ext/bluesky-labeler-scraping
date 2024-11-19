@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-	"cid": "bafyreieyy54wqwa5tcok6dhxria3be43yghejissqh5sibgryotnn5syqy",
+	"cid": "bafyreid3wd7nfojrezo7dmv67m5ccpub3qoeea25qhbsy3atwmbsupyndy",
 	"creator": {
 		"did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
 		"handle": "yardcrow.com",
@@ -18,7 +18,7 @@
 		"description": "The Yard Crow watches\nHandcrafted and Artisanal labels\n(please tag @patri.xyz for requests, questions or removal!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\nUpon request, most labels can be text or emoji.",
 		"indexedAt": "2024-11-11T23:42:59.003Z"
 	},
-	"likeCount": 576,
+	"likeCount": 583,
 	"indexedAt": "2024-05-11T07:33:13.462Z",
 	"labels": [],
 	"policies": {
@@ -2013,6 +2013,20 @@
 			},
 			{
 				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alttextuser",
+				"locales": [
+					{
+						"description": "AltText User: Thank you for adding AltText to ALL your images.",
+						"lang": "en",
+						"name": "👁️‍🗨️ AltText User"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "alert",
 				"identifier": "auto-spoiler",
@@ -2171,6 +2185,7 @@
 			"teambsky",
 			"n-usa",
 			"n-brazil",
+			"alttextuser",
 			"auto-spoiler"
 		]
 	}

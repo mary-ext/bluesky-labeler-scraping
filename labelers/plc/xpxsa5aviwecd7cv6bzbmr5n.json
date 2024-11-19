@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreif7gbkngpvtvp7f5ywnukl7i4ypdtxr2qq5csebzpqbg6bnldhi2i",
+	"cid": "bafyreibxum6j5m3vstrktbq32ao5oq64ovqvfl2itsiftut6ca2ierhkuy",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 216,
-	"indexedAt": "2024-11-17T15:21:03.936Z",
+	"likeCount": 222,
+	"indexedAt": "2024-11-18T17:44:33.914Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3438,6 +3438,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nickytonline-formfun-dev",
+				"locales": [
+					{
+						"description": "Source code for the formFUN.dev website, a demo for my Netlify Compose 2024 talk\nhttps://github.com/nickytonline/formfun.dev",
+						"lang": "en",
+						"name": "nickytonline/formfun.dev"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "qiskit-qiskit",
+				"locales": [
+					{
+						"description": "Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and primitives.\nhttps://github.com/Qiskit/qiskit",
+						"lang": "en",
+						"name": "qiskit/qiskit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "openqasm-openqasm",
+				"locales": [
+					{
+						"description": "Quantum assembly language for extended quantum circuits\nhttps://github.com/openqasm/openqasm",
+						"lang": "en",
+						"name": "openqasm/openqasm"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wwwdaydream-cessilcellsceachells",
+				"locales": [
+					{
+						"description": "Allows installed BepInEx plugins to request creation of Fields, Properties, Methods, and more in Managed DLLs.\nhttps://github.com/wwwDayDream/CessilCellsCeaChells",
+						"lang": "en",
+						"name": "wwwDayDream/CessilCellsCeaChells"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "qemu-qemu",
+				"locales": [
+					{
+						"description": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.\nhttps://github.com/qemu/qemu",
+						"lang": "en",
+						"name": "qemu/qemu"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3684,7 +3754,12 @@
 			"schniz-fnm",
 			"honeybadger-io-heya",
 			"owasp-asvs",
-			"gradleup-shadow"
+			"gradleup-shadow",
+			"nickytonline-formfun-dev",
+			"qiskit-qiskit",
+			"openqasm-openqasm",
+			"wwwdaydream-cessilcellsceachells",
+			"qemu-qemu"
 		]
 	}
 }

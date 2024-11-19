@@ -1,0 +1,56 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4r7ezrlmmnoys7wfjo7sbhuy/app.bsky.labeler.service/self",
+	"cid": "bafyreiaha4xwd6r343jo6nmtzuleot55lm4pfpho3f64as67yypgghtbl4",
+	"creator": {
+		"did": "did:plc:4r7ezrlmmnoys7wfjo7sbhuy",
+		"handle": "kpop.ashie.lol",
+		"displayName": "kpop labels!",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4r7ezrlmmnoys7wfjo7sbhuy/bafkreiak7eaknki3ulkp4zqudfq2zymfnklchqam3leapdv4zxbrbavz7u@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-18T18:35:59.246Z",
+		"indexedAt": "2024-11-18T18:37:24.648Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-11-18T19:10:27.627Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ateez",
+				"locales": [
+					{
+						"description": "A fan of the k-pop group Ateez.",
+						"lang": "en",
+						"name": "Ateez"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "skz",
+				"locales": [
+					{
+						"description": "A fan of the k-pop group Stray Kids.",
+						"lang": "en",
+						"name": "Stray Kids"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"ateez",
+			"skz"
+		]
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreicw22dqd7owpmpb4qlqqwxsiplklb7falnaepbuayc43puy2gml6m",
+	"cid": "bafyreidvvfzrgbhunypstvjy3ux36uj4vw3da5qhxddpkist4hitxirfii",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Add=❤️! Remove=💔.\nBrowse Roles: https://furskycreators.audioelk.com/\n\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.audioelk.com <- 18+\n\nDM THIS ACCOUNT for label issues! DO NOT DM personal accounts!\n\nLabels may take 24 hours to apply!",
 		"indexedAt": "2024-11-17T18:39:05.850Z"
 	},
-	"likeCount": 801,
-	"indexedAt": "2024-11-15T18:04:21.411Z",
+	"likeCount": 834,
+	"indexedAt": "2024-11-18T21:48:37.435Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1212,6 +1212,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mixed-media",
+				"locales": [
+					{
+						"description": "This user is a Mixed Media!",
+						"lang": "en",
+						"name": "Mixed Media"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1299,7 +1313,8 @@
 			"cosplayer",
 			"comics",
 			"furmeet",
-			"furmeet-staff"
+			"furmeet-staff",
+			"mixed-media"
 		]
 	}
 }

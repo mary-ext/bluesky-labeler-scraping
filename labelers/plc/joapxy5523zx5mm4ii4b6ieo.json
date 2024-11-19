@@ -1,0 +1,56 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:joapxy5523zx5mm4ii4b6ieo/app.bsky.labeler.service/self",
+	"cid": "bafyreigjee5zssvsuar2y75p6vsq756uczmeev4hcy5aqtr64bqasun4sy",
+	"creator": {
+		"did": "did:plc:joapxy5523zx5mm4ii4b6ieo",
+		"handle": "bondsdogs.com",
+		"displayName": "Bond Dogs Moderation Service",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:joapxy5523zx5mm4ii4b6ieo/bafkreiah2kks5mrccu7kyt6xttx7ainkgupeugggv65uf46pplqsfxl63m@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-18T05:02:03.023Z",
+		"indexedAt": "2024-11-18T05:02:30.928Z"
+	},
+	"likeCount": 10,
+	"indexedAt": "2024-11-18T05:30:38.561Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "podcaster",
+				"locales": [
+					{
+						"description": "Podcasters",
+						"lang": "en",
+						"name": "Podcasters"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "nazis",
+				"locales": [
+					{
+						"description": "People who have expressed bigotry towards the Jewish people",
+						"lang": "en",
+						"name": "Full blown Nazis"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"podcaster",
+			"nazis"
+		]
+	}
+}

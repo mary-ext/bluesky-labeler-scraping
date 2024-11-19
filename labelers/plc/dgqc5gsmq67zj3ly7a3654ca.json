@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dgqc5gsmq67zj3ly7a3654ca/app.bsky.labeler.service/self",
-	"cid": "bafyreicpwasavtsxson3njekk3jb34ygveop3enlqfyv6i7tb55oyiadsi",
+	"cid": "bafyreia2awyqzoejlpm4fxsfzt5dwjmcu3fkmfvolnha2wmjr4wyh5qmqu",
 	"creator": {
 		"did": "did:plc:dgqc5gsmq67zj3ly7a3654ca",
 		"handle": "faerunlabels.bsky.social",
@@ -15,42 +15,27 @@
 		"indexedAt": "2024-11-16T15:48:02.986Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-17T12:35:22.800Z",
+	"indexedAt": "2024-11-18T23:18:59.609Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
-				"identifier": "Cleric",
-				"locales": [
-					{
-						"description": "Clerics are representatives of the gods they worship, wielding potent divine magic for good or ill.",
-						"lang": "en",
-						"name": "Cleric"
-					}
-				],
-				"severity": "inform|alert|none"
-			},
-			{
-				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "ignore",
-				"identifier": "warlock",
+				"identifier": "rogue",
 				"locales": [
 					{
-						"description": "Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.",
+						"description": "With stealth, skill and uncanny reflexes, a rogue's versatility let's them get the upper hand in almost any situation.",
 						"lang": "en",
-						"name": "Warlock"
+						"name": "Rogue"
 					}
 				],
-				"severity": "inform"
+				"severity": "none"
 			}
 		],
 		"labelValues": [
-			"Cleric",
-			"warlock"
+			"rogue"
 		]
 	}
 }

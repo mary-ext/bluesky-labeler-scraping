@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:gwqqyezoxusulkn5g2nzd6t2/app.bsky.labeler.service/self",
-	"cid": "bafyreiayhlhaxmbmzzecnvsw4l7ohdxzd2v7m25obyedrrury2zk37j2aa",
+	"cid": "bafyreig6a5apvdlham3aqspsm3ahokqwklpnzm3azbyji3jofkk6vg4day",
 	"creator": {
 		"did": "did:plc:gwqqyezoxusulkn5g2nzd6t2",
 		"handle": "imlunahey.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "@imlunahey.com <— main account ",
 		"indexedAt": "2024-11-04T02:33:14.581Z"
 	},
-	"likeCount": 10,
-	"indexedAt": "2024-11-17T07:19:06.460Z",
+	"likeCount": 19,
+	"indexedAt": "2024-11-18T21:05:34.074Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -50,11 +50,26 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "bot accounts (most use chatgpt for responses)",
+						"lang": "en",
+						"name": "bot"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
 			"scammer",
-			"troll"
+			"troll",
+			"bot"
 		]
 	}
 }
