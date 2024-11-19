@@ -1,0 +1,250 @@
+{
+  "uri": "at://did:plc:y3wqwrk4me47zsuti7w7odou/app.bsky.labeler.service/self",
+  "cid": "bafyreifduurx46pj44qmachrxz5mnie4lvpn5xlt3md7wlm4jicnhjp54a",
+  "creator": {
+    "did": "did:plc:y3wqwrk4me47zsuti7w7odou",
+    "handle": "labeler.prawi.ca",
+    "displayName": "Moderacja od Prawicy",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:y3wqwrk4me47zsuti7w7odou/bafkreieufnh7xmfieyfn5p2tby7r4sofz6xchit4ktebsrpvle5fa2xt3u@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2024-11-18T19:28:20.946Z",
+    "description": "Możesz zgłaszać nam treści antyrodzinne, antypolskie i inne.\nZasubskrybuj, aby otrzymywać nasze uwagi.\nWięcej info na: https://prawi.ca/",
+    "indexedAt": "2024-11-19T00:45:46.904Z"
+  },
+  "indexedAt": "2024-11-18T17:21:36.276Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nadajnik",
+        "locales": [
+          {
+            "description": "Wchodząc w interakcję z tym człowiekiem możesz liczyć na bloka, zgłoszenie lub nawet pozew. To znaczy na Twitterze tak było, bo tutaj może ci naskoczyć, o ile dbasz o opsec.",
+            "lang": "pl",
+            "name": "Nadajnik lub psychobloker"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "paszczur",
+        "locales": [
+          {
+            "description": "Człowiek tak brzydki, że po prostu nie powinien się pokazywać publicznie. Ewentualnie taki oszołom, że samo spojrzenie na niego powoduje emocje, a emocje są wrogiem prawdy.",
+            "lang": "pl",
+            "name": "Paszczur lub oszołom"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "pedalarz",
+        "locales": [
+          {
+            "description": "Ta osoba nienawidzi samochodów. Czy to z biedy, czy to z kłopotów z fizyką, czy to z omamienia przez sekty ekologiczne. Najlepiej po prostu tego nie czytać.",
+            "lang": "en",
+            "name": "Pedalarz, zbiorkomunista lub pieszocentryk"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "szczujnia",
+        "locales": [
+          {
+            "description": "Tak zwane media głównego ścieku. Nieważne, czy czują na PiS czy na PO, ci ludzie w życiu ani słowa prawdy nie mówią.",
+            "lang": "pl",
+            "name": "Szczujnia lub presstytutka"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "unia",
+        "locales": [
+          {
+            "description": "Volksdeutsch, szmalcownik lub po prostu naiwniak, który myśli że UE niemająca armii nas przed czymś obroni, a za prąd może płacić nawet 2000 miesięcznie bez łez.",
+            "lang": "pl",
+            "name": "Człowiek zakochany w Unii Europejskiej 🇵🇱🇪🇺"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "satyr",
+        "locales": [
+          {
+            "description": "Śmieszek udający kogoś znanego, czasami jest to zabawne, ale często po prostu kręci afery.",
+            "lang": "pl",
+            "name": "Konto satyryczne"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "iq75",
+        "locales": [
+          {
+            "description": "Nie każdy z nas urodził się geniuszem. Osoby oznaczone tą etykietą znane są ze swoich wybitnie nieprzemyślanych wypowiedzi czy nawet antynagród.",
+            "lang": "pl",
+            "name": "Osoba zwyczajnie mało rozgarnięta"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "feministka",
+        "locales": [
+          {
+            "description": "Osoby chore z nienawiści do prawdziwych mężczyzn, które jeszcze nie zostały ubogacone kulturowo przez muzułmanów.",
+            "lang": "pl",
+            "name": "Feministka lub pantoflarz"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "zyd",
+        "locales": [
+          {
+            "description": "Wiadomo, po co ich oznaczamy.",
+            "lang": "pl",
+            "name": "żyd/żydówka"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "shitposter",
+        "locales": [
+          {
+            "description": "Człowiek niepoważny, często dziecko, wrzuca treści prymitywne na całego, często nie podpisuje się nawet imieniem, a zamiast zdjęcia ma postać z bajki. Domyślnie po prostu to filtrujemy.",
+            "lang": "pl",
+            "name": "Konto śmieciowe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "lewak",
+        "locales": [
+          {
+            "description": "Ten człowiek albo wierzy w dziecinne rozwiązania proponowane przez lewicę, albo wysługuje się takimi łatwowiernymi. Czytanie tego denerwuje zdrowych ludzi, więc oferujemy możliwość ignorowania tego.",
+            "lang": "pl",
+            "name": "Lewak, lewus, lewizna"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "partia",
+        "locales": [
+          {
+            "description": "Wiadomo, jakie te partie w Polsce są. Jeśli chcesz, możesz ukryć wszystkie wpisy od umoczonych polityków w ustawieniach moderacji.",
+            "lang": "pl",
+            "name": "Partia polityczna lub partyjniak"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "negrofil",
+        "locales": [
+          {
+            "description": "Zdrajca cywilizacji łacińskiej. Popiera ściąganie do Europy śmieciowych migrantów, ewentualnie p0lka niszcząca swoje geny ciapatym nasieniem.",
+            "lang": "pl",
+            "name": "Publicznie popiera murzynów subsaharyjskich lub pakoli"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ukr",
+        "locales": [
+          {
+            "description": "Szpieg infiltrujący polską przestrzeń medialną lub pożyteczny idiota wpędzający nas w wojnę. Traktować ostrożnie.",
+            "lang": "pl",
+            "name": "Ma lub miał flagę ukruiny w profilu: 🇺🇦"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "tecza",
+        "locales": [
+          {
+            "description": "Pederasta lub propagandzista. Prawdopodobnie gwałci dzieci i wrzuca obrzydliwe zdjęcia, więc zamazujemy je.",
+            "lang": "pl",
+            "name": "Ma lub miał taką tęczę w profilu: 🏳️‍🌈"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "nadajnik",
+      "paszczur",
+      "pedalarz",
+      "szczujnia",
+      "unia",
+      "satyr",
+      "iq75",
+      "feministka",
+      "zyd",
+      "shitposter",
+      "lewak",
+      "partia",
+      "negrofil",
+      "ukr",
+      "tecza"
+    ]
+  }
+}
