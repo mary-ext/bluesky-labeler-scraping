@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:gqaoe3na6isc3zyvp7iuqpu7/app.bsky.labeler.service/self",
-  "cid": "bafyreid2sal2nwatlgej5pn45uvdovvdrfynmydhp7ewg7glbseuwmfrxm",
+  "cid": "bafyreiaz7pxwybnrfodif7rrqlebg3lb46kwdquhdnmptryznsrsuhkaci",
   "creator": {
     "did": "did:plc:gqaoe3na6isc3zyvp7iuqpu7",
     "handle": "arttheft.bsky.social",
@@ -12,7 +12,7 @@
     "labels": [],
     "createdAt": "2024-11-13T18:23:11.376Z",
     "description": "Fighting art plagiarism 🖌️✊ Report posts in bluesky and provide proof for them to be considered.\nLooking for moderators! DM @chroma.rip\n\nアートの盗作と戦う 🖌️✊ bskyで投稿を報告し、検討の対象となる証拠を提示すること。\nモデレーター募集中、DM @chroma.rip\n\nNot for AI art, use @aimod.social instead",
-    "indexedAt": "2024-11-15T21:40:18.930Z"
+    "indexedAt": "2024-11-19T10:02:20.103Z"
   },
   "indexedAt": "2024-11-13T18:49:53.127Z",
   "labels": [],
@@ -21,16 +21,35 @@
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
+        "defaultSetting": "hide",
+        "identifier": "impersonation-account",
+        "locales": [
+          {
+            "description": "Accounts that are impersonating another creator. Please report these to Bluesky Moderation Service as well.",
+            "lang": "en",
+            "name": "Impersonation Accounts"
+          },
+          {
+            "description": "他のクリエイターになりすましているアカウント。これらのアカウントもBlueskyモデレーションサービスに報告してください。",
+            "lang": "ja",
+            "name": "なりすましアカウント"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
         "identifier": "plagiarism-account",
         "locales": [
           {
-            "description": "定期的に作品を盗作したり、オリジナルのアーティストになりすましているアカウント",
+            "description": "定期的に他人の作品を盗用し、自分の作品として発表しているアカウント。",
             "lang": "ja",
             "name": "盗作アカウント"
           },
           {
-            "description": "Accounts that regularly plagiarize works, or are pretending to be the original artist.",
+            "description": "Accounts that regularly plagiarize works, and pass other's works off as their own.",
             "lang": "en",
             "name": "Plagiarism Accounts"
           }
@@ -96,6 +115,7 @@
       }
     ],
     "labelValues": [
+      "impersonation-account",
       "plagiarism-account",
       "repost-account",
       "plagiarized-art",
