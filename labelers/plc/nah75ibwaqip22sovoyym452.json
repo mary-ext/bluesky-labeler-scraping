@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:nah75ibwaqip22sovoyym452/app.bsky.labeler.service/self",
-	"cid": "bafyreiaet57og46xr2lwnwssmmtowox2asv5bt42rlaovsdgkjjfkb755m",
+	"cid": "bafyreicitoenbko66vvfgw7px4bz2whbbsn2nclj5vlqjxtnfjgm32tem4",
 	"creator": {
 		"did": "did:plc:nah75ibwaqip22sovoyym452",
-		"handle": "protonlabeler.bsky.social",
+		"handle": "pvlabels.at.logik.al",
 		"displayName": "",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nah75ibwaqip22sovoyym452/bafkreidw6w2ayg7l7hvxox2m6durlrqrpd343wirq5og6or5wcdoqlj3xu@jpeg",
 		"associated": {
@@ -14,28 +14,58 @@
 		"createdAt": "2024-11-16T08:46:02.385Z",
 		"indexedAt": "2024-11-16T08:46:02.385Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-11-16T18:36:35.198Z",
+	"likeCount": 2,
+	"indexedAt": "2024-11-19T06:52:11.472Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "work-friend",
 				"locales": [
 					{
-						"description": "work friend",
+						"description": "Someone I met at work",
 						"lang": "en",
 						"name": "work-friend"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "poster",
+				"locales": [
+					{
+						"description": "someone I met through socials",
+						"lang": "en",
+						"name": "poster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "friend",
+				"locales": [
+					{
+						"description": "a friend",
+						"lang": "en",
+						"name": "friend"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"work-friend"
+			"work-friend",
+			"poster",
+			"friend"
 		]
 	}
 }

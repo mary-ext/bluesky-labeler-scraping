@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:m4z7d2wfa7lovi7toqwpjwr6/app.bsky.labeler.service/self",
-	"cid": "bafyreiexi6ixtspvkbzebxbezixzpsynvlpd4kptcpmub6swrqc2e6zrme",
+	"cid": "bafyreihirroadp5qvpk6q4e2rbsha3w6jnyfyxku2tapaqdpk77qaaxthu",
 	"creator": {
 		"did": "did:plc:m4z7d2wfa7lovi7toqwpjwr6",
 		"handle": "ao3labeler.bsky.social",
@@ -12,10 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-18T20:50:24.045Z",
-		"indexedAt": "2024-11-18T21:02:45.547Z"
+		"description": "A labeler based on AO3's ratings and archive warnings system, to be used ONLY FOR FUN (not moderation).\n\nAO3 Ratings Guide: https://archiveofourown.org/faq/tutorial-posting-a-work-on-ao3?language_id=en#pwtrating\n\nProject by https://patreon.com/fujocoded",
+		"indexedAt": "2024-11-19T02:43:21.805Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-11-19T00:47:01.866Z",
+	"likeCount": 44,
+	"indexedAt": "2024-11-19T02:05:33.361Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -88,6 +89,90 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "choose-not-to-use",
+				"locales": [
+					{
+						"description": "This user marked themselves as Choosing Not To Use Archive Warnings (for funsies!)",
+						"lang": "en",
+						"name": "⚠️ Choose Not To Use Archive Warnings"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "no-warnings",
+				"locales": [
+					{
+						"description": "This user marked themselves as No Archive Warnings Apply (for funsies!)",
+						"lang": "en",
+						"name": "🌱 No Archive Warnings Apply"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "graphic-violence",
+				"locales": [
+					{
+						"description": "This user marked themselves as Graphic Depictions of Violence (for funsies!)",
+						"lang": "en",
+						"name": "⚠️ Graphic Depictions of Violence"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "major-death",
+				"locales": [
+					{
+						"description": "This user marked themselves as Major Character Death (for funsies!)",
+						"lang": "en",
+						"name": "⚠️ Major Character Death"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "non-con",
+				"locales": [
+					{
+						"description": "This user marked themselves as Non-Con (for funsies!)",
+						"lang": "en",
+						"name": "⚠️ Non-Con"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "underage",
+				"locales": [
+					{
+						"description": "This user marked themselves as Underage (for funsies!)",
+						"lang": "en",
+						"name": "⚠️ Underage"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -95,7 +180,13 @@
 			"teen-and-up",
 			"explicit",
 			"mature",
-			"not-rated"
+			"not-rated",
+			"choose-not-to-use",
+			"no-warnings",
+			"graphic-violence",
+			"major-death",
+			"non-con",
+			"underage"
 		]
 	}
 }

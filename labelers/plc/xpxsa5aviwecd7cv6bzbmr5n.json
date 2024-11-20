@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreibxum6j5m3vstrktbq32ao5oq64ovqvfl2itsiftut6ca2ierhkuy",
+	"cid": "bafyreiawtargwghn2eg7dhzkycglerqiqhlj3lkixpphxbuniqtbflinga",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 222,
-	"indexedAt": "2024-11-18T17:44:33.914Z",
+	"likeCount": 224,
+	"indexedAt": "2024-11-19T18:43:35.317Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3508,6 +3508,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "googlechrome-lighthouse",
+				"locales": [
+					{
+						"description": "Automated auditing, performance metrics, and best practices for the web.\nhttps://github.com/GoogleChrome/lighthouse",
+						"lang": "en",
+						"name": "GoogleChrome/lighthouse"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gatsbyjs-gatsby",
+				"locales": [
+					{
+						"description": "The best React-based framework with performance, scalability and security built in.\nhttps://github.com/gatsbyjs/gatsby",
+						"lang": "en",
+						"name": "gatsbyjs/gatsby"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "colabottles-lobster-roll",
+				"locales": [
+					{
+						"description": "An app to find lobster rolls nearest you\nhttps://github.com/colabottles/lobster-roll",
+						"lang": "en",
+						"name": "colabottles/lobster-roll"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "serde-ml-serde",
+				"locales": [
+					{
+						"description": "Serialization framework for OCaml\nhttps://github.com/serde-ml/serde",
+						"lang": "en",
+						"name": "serde-ml/serde"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3759,7 +3815,11 @@
 			"qiskit-qiskit",
 			"openqasm-openqasm",
 			"wwwdaydream-cessilcellsceachells",
-			"qemu-qemu"
+			"qemu-qemu",
+			"googlechrome-lighthouse",
+			"gatsbyjs-gatsby",
+			"colabottles-lobster-roll",
+			"serde-ml-serde"
 		]
 	}
 }

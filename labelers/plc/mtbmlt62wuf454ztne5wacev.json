@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreifogcr2bl7kncyi37iot43xwjqdj5bvs2l3djhqlxlpwyl66wrplm",
+	"cid": "bafyreiedk5gj7xsjkofxjuqqt2d2nbl4iikiz5g52lihrfiupo533dqwcq",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -15,14 +15,252 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-17T15:50:16.327Z",
-		"description": "Labeller to show which (mostly UK) public figures, journalists on Bluesky went to private school, and what the average fees are for that school. Manually updated, might be slow. Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
-		"indexedAt": "2024-11-17T17:59:08.029Z"
+		"description": "Labeller to show which (mostly UK) public figures, journalists on Bluesky went to private school, and what the current fees are for that school. Manually updated, might be slow. Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
+		"indexedAt": "2024-11-20T00:48:06.270Z"
 	},
-	"likeCount": 51,
+	"likeCount": 86,
 	"indexedAt": "2024-11-17T17:32:44.706Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rydal",
+				"locales": [
+					{
+						"description": "£17,850/Year",
+						"lang": "en",
+						"name": "Rydal Penrhos School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oldpalace",
+				"locales": [
+					{
+						"description": "£20,000/Year",
+						"lang": "en",
+						"name": "Old Palace School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bedford",
+				"locales": [
+					{
+						"description": "£16,443/term",
+						"lang": "en",
+						"name": "Bedford School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stedmunds",
+				"locales": [
+					{
+						"description": "£7,250/Year",
+						"lang": "en",
+						"name": "St Edmunds"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "westbournehouse",
+				"locales": [
+					{
+						"description": "£7,650/Term",
+						"lang": "en",
+						"name": "Westbourne House"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kingsburton",
+				"locales": [
+					{
+						"description": "£14,398/Term",
+						"lang": "en",
+						"name": "King's Barton"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "walsingham",
+				"locales": [
+					{
+						"description": "$19,667/Year",
+						"lang": "en",
+						"name": "Walsingham Academy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pocklington",
+				"locales": [
+					{
+						"description": "£14,7006Term",
+						"lang": "en",
+						"name": "Pocklington School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cheltenham",
+				"locales": [
+					{
+						"description": "£18,913/Term",
+						"lang": "en",
+						"name": "Cheltenham College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "frenshamheights",
+				"locales": [
+					{
+						"description": "£13,865/Term",
+						"lang": "en",
+						"name": "Frensham Heights"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hoebridge",
+				"locales": [
+					{
+						"description": "£7,000/Term",
+						"lang": "en",
+						"name": "Hoe Bridge School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nottinghamhigh",
+				"locales": [
+					{
+						"description": "£6,275/Term",
+						"lang": "en",
+						"name": "Nottingham High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "westtown",
+				"locales": [
+					{
+						"description": "$72,260/Year",
+						"lang": "en",
+						"name": "Westtown School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "isc",
+				"locales": [
+					{
+						"description": "in the words of the Evening Standard, Sam ‘Made his name as an in-house boffin for the private schools’ umbrella group, the Independent Schools Council.’",
+						"lang": "en",
+						"name": "Worked for the Independent Schools Council"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gove",
+				"locales": [
+					{
+						"description": "Worked for Michael Gove's Education Department as an advisor",
+						"lang": "en",
+						"name": "Worked for Michael Gove"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stpauls",
+				"locales": [
+					{
+						"description": "£16,636/Term",
+						"lang": "en",
+						"name": "St Paul's School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "highgate",
+				"locales": [
+					{
+						"description": "£8,830/Term",
+						"lang": "en",
+						"name": "Highgate School"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -487,6 +725,7 @@
 			}
 		],
 		"labelValues": [
+			"walsingham",
 			"cranleigh",
 			"nepobaby",
 			"private",
@@ -519,7 +758,23 @@
 			"calhoun",
 			"marisconvent",
 			"stflannans",
-			"lordwandsworth"
+			"lordwandsworth",
+			"highgate",
+			"gove",
+			"isc",
+			"stpauls",
+			"westtown",
+			"nottinghamhigh",
+			"hoebridge",
+			"frenshamheights",
+			"cheltenham",
+			"pocklington",
+			"kingsburton",
+			"westbournehouse",
+			"stedmunds",
+			"bedford",
+			"oldpalace",
+			"rydal"
 		]
 	}
 }

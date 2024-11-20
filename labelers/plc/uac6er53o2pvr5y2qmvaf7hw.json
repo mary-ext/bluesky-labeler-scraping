@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreihcwv2x7ttw2mtoottdy7dcsxmyyhs7efulzgaw6s33fzacm62i6u",
+	"cid": "bafyreibjqxnyol3vbdhaqdrvnfvkol6s2ktjd7utxv57zxkxykzerk4pza",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Mission: put Elmo's X frens in a silo\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nRead Pinned post for mission\nFollow for irregular Delphic pronouncements\nCommitted to no use of !hide !warn etc\n12 hour SLA target",
 		"indexedAt": "2024-11-18T00:02:45.909Z"
 	},
-	"likeCount": 262,
+	"likeCount": 275,
 	"indexedAt": "2024-11-13T21:54:40.718Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "caution",
+				"locales": [
+					{
+						"description": "Known for mixing unreliable posts with factual content. Not an overt 60/40 propagandist. Requires critical thinking to engage safely.",
+						"lang": "en",
+						"name": "Exercise Caution"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -190,6 +204,7 @@
 			}
 		],
 		"labelValues": [
+			"caution",
 			"blocks",
 			"evasion",
 			"violent",
