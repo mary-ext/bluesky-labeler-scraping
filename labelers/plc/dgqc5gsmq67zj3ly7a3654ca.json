@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dgqc5gsmq67zj3ly7a3654ca/app.bsky.labeler.service/self",
-	"cid": "bafyreia2awyqzoejlpm4fxsfzt5dwjmcu3fkmfvolnha2wmjr4wyh5qmqu",
+	"cid": "bafyreicud6pruyzdlgnwmyhbot3l5ytgmhnd55wdvvqpldkxdim5xjjoby",
 	"creator": {
 		"did": "did:plc:dgqc5gsmq67zj3ly7a3654ca",
 		"handle": "faerunlabels.bsky.social",
@@ -15,27 +15,57 @@
 		"indexedAt": "2024-11-16T15:48:02.986Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-18T23:18:59.609Z",
+	"indexedAt": "2024-11-20T18:59:19.075Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "rogue",
+				"defaultSetting": "warn",
+				"identifier": "aaa-cleric",
 				"locales": [
 					{
-						"description": "With stealth, skill and uncanny reflexes, a rogue's versatility let's them get the upper hand in almost any situation.",
+						"description": "Clerics are representatives of the gods they worship, wielding potent divine magic for good or ill",
+						"lang": "en",
+						"name": "Cleric"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aaa-warlock",
+				"locales": [
+					{
+						"description": "Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.",
+						"lang": "en",
+						"name": "Warlock"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aaa-rogue",
+				"locales": [
+					{
+						"description": "With stealth, skill, and uncanny reflexes, rogues' versatility leits them get the upper hand in almost any situation.",
 						"lang": "en",
 						"name": "Rogue"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"rogue"
+			"aaa-cleric",
+			"aaa-warlock",
+			"aaa-rogue"
 		]
 	}
 }

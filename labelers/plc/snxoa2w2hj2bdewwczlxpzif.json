@@ -1,0 +1,147 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:snxoa2w2hj2bdewwczlxpzif/app.bsky.labeler.service/self",
+	"cid": "bafyreih6zldwgspwbla32glhysilntewiwho2ohjy43abs2lj2lascvp7u",
+	"creator": {
+		"did": "did:plc:snxoa2w2hj2bdewwczlxpzif",
+		"handle": "labeler.partall.no",
+		"displayName": "Partall Moderation",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:snxoa2w2hj2bdewwczlxpzif/bafkreiha4ndi5wft44fpro3atpy7om26tayoj3pzt7ybrocfvxkrmzxdbm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-20T18:50:19.351Z",
+		"description": "Moderation and content labeling from the Partall.no team.\n\nOur content moderators are fluent in: 🇳🇴 🇺🇸 🇬🇧\n\nEncountered inappropriate content or behavior? Don’t hesitate—report it to us, and we’ll take action!",
+		"indexedAt": "2024-11-20T23:43:28.472Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-20T18:51:27.276Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "spammer",
+				"locales": [
+					{
+						"description": "A user who consistently engages in spamming behavior, such as posting repetitive content, irrelevant advertisements in replies, mass posting identical messages, or sharing unsolicited promotional material intended to disrupt the user experience.\n\nThis label does not apply to users or businesses posting legitimate content on their own profiles.",
+						"lang": "en",
+						"name": "Spammer"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "Content that is unmistakably spam, including repetitive posts, irrelevant advertisements in replies, mass posting of identical content, or unsolicited promotional material intended to disrupt the user experience.\n\nThis label does not apply to users or businesses posting legitimate content on their own profiles.",
+						"lang": "en",
+						"name": "Spam"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harassment",
+				"locales": [
+					{
+						"description": "Bullying, harassment and content meant to cause distress or intimidate individuals.",
+						"lang": "en",
+						"name": "Bullying, Harassment or Threats"
+					}
+				],
+				"severity": "warn"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "hate-speech",
+				"locales": [
+					{
+						"description": "Hate speech or engaging in other hateful conduct.",
+						"lang": "en",
+						"name": "Hate speech"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "inauthentic-account",
+				"locales": [
+					{
+						"description": "Profiles deliberately mimicking another person, group, or organization with the intent to mislead, deceive, or cause harm.",
+						"lang": "en",
+						"name": "Fake or impersonation account"
+					},
+					{
+						"description": "Profiler som med vilje etterligner en annen person, gruppe eller organisasjon med hensikt å villede, bedra eller forårsake skade.",
+						"lang": "no",
+						"name": "Falsk eller imiterende konto"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parody-account",
+				"locales": [
+					{
+						"description": "Profiles portraying another person, group, or organization in a satirical or humorous manner. \n\nThese accounts must clearly state they are a parody and avoid misleading others about their intent.",
+						"lang": "en",
+						"name": "Parody account"
+					},
+					{
+						"description": "Profiler som fremstiller en annen person, gruppe eller organisasjon på en satirisk eller humoristisk måte. \n\nDisse kontoene må tydelig oppgi at de er en parodi og unngå å villede andre om deres hensikt.",
+						"lang": "no",
+						"name": "Parodikonto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fan-account",
+				"locales": [
+					{
+						"description": "Profiles created to show admiration or support for another person, group, or organization. \n\nThese accounts must clearly state they are unofficial and not associated with the subject they represent.",
+						"lang": "en",
+						"name": "Fan account"
+					},
+					{
+						"description": "Profiler opprettet for å vise beundring eller støtte for en annen person, gruppe eller organisasjon. \n\nDisse kontoene må tydelig oppgi at de er uoffisielle og ikke er tilknyttet emnet de representerer.",
+						"lang": "no",
+						"name": "Fankonto"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"spammer",
+			"spam",
+			"harassment",
+			"hate-speech",
+			"inauthentic-account",
+			"parody-account",
+			"fan-account"
+		]
+	}
+}

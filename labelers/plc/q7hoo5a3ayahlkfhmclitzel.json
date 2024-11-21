@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:q7hoo5a3ayahlkfhmclitzel/app.bsky.labeler.service/self",
+	"cid": "bafyreic7sz5nek2cuwi3lkwoe3zhkxllputnhaxqxdazslawrrjshxlzhq",
+	"creator": {
+		"did": "did:plc:q7hoo5a3ayahlkfhmclitzel",
+		"handle": "brandblock.online",
+		"displayName": "Brand Block",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:q7hoo5a3ayahlkfhmclitzel/bafkreigefj4jbdz4prhflmzufsla5hrriyaimc74542sgolluzglaks3lu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-20T11:52:25.771Z",
+		"description": "Let social media stay social.\n\nOnly labeling domain-verified accounts.\n\nSubscribe to report accounts.\n\nRun by @emily.gorcen.ski",
+		"indexedAt": "2024-11-20T14:41:25.471Z"
+	},
+	"likeCount": 36,
+	"indexedAt": "2024-11-20T13:19:59.846Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "service",
+				"locales": [
+					{
+						"description": "A corporate account that nevertheless provides a service where social media updates might be useful, as verified by a domain-linked handle.",
+						"lang": "en",
+						"name": "Service"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sports-team",
+				"locales": [
+					{
+						"description": "The official account of a sports team or club, as verified by a domain-linked handle.",
+						"lang": "en",
+						"name": "Sports team/club"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "brand",
+				"locales": [
+					{
+						"description": "An official brand account as verified by its domain-identified handle.",
+						"lang": "en",
+						"name": "Brand Account"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"service",
+			"sports-team",
+			"brand"
+		]
+	}
+}

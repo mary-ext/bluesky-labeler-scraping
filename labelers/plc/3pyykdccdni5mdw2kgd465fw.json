@@ -1,0 +1,60 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:3pyykdccdni5mdw2kgd465fw/app.bsky.labeler.service/self",
+	"cid": "bafyreigw2xglz2imdy6igq2xnebrrpbvh52fkpjdacnrmj52yvkkrvutoa",
+	"creator": {
+		"did": "did:plc:3pyykdccdni5mdw2kgd465fw",
+		"handle": "bigkidnow.bsky.social",
+		"displayName": "Account Content Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3pyykdccdni5mdw2kgd465fw/bafkreia626lkeloib2uienscbyz6v5xgi4r2ve4xlkdxvrzz35mp54l6hu@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "none"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-11-14T22:26:36.534Z",
+		"description": "Help Pay For This: https://ko-fi.com/misutaaasriel/5\n\nThis service allows you to self-assign content labels to your account.\n\n♡: Add Label | Only one label may be selected at a time.",
+		"indexedAt": "2024-11-21T01:00:58.672Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-21T00:11:05.917Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adult",
+				"locales": [
+					{
+						"description": "Not safe for all audiences. Viewer discretion is advised.",
+						"lang": "en",
+						"name": "Adult Content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "restricted",
+				"locales": [
+					{
+						"description": "Not safe for young audiences. Viewer discretion is advised.",
+						"lang": "en",
+						"name": "Age Restricted"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"adult",
+			"restricted"
+		]
+	}
+}

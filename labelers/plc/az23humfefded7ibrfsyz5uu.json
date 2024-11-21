@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:az23humfefded7ibrfsyz5uu/app.bsky.labeler.service/self",
+	"cid": "bafyreihdmz4vyryjtglmke5hmui6vw4ddgaoe4tzu4m5ek5gnttjtwz6ha",
+	"creator": {
+		"did": "did:plc:az23humfefded7ibrfsyz5uu",
+		"handle": "arkangel.network",
+		"displayName": "Arkangel",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:az23humfefded7ibrfsyz5uu/bafkreibcycbdzjheoeit46xk7b3yec6nacmzyrggubgxtow7qpattkaxsi@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-10-02T04:59:49.606Z",
+		"description": "A third party moderation service focusing on protecting users from the far right.",
+		"indexedAt": "2024-11-20T22:06:04.976Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-20T20:34:03.200Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "Far-Right",
+				"locales": [
+					{
+						"description": "Users identified as aligned with the far right.",
+						"lang": "en",
+						"name": "Far-Right"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"Far-Right"
+		]
+	}
+}

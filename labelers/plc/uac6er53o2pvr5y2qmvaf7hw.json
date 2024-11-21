@@ -1,25 +1,42 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreibjqxnyol3vbdhaqdrvnfvkol6s2ktjd7utxv57zxkxykzerk4pza",
+	"cid": "bafyreihzljd5u6swhbt5ltagcopyjezahgiftilcx2dtytkc74fwocseeq",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
 		"displayName": "NAFO Forum Moderation Service",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uac6er53o2pvr5y2qmvaf7hw/bafkreibyjn4jvmdsl3kt7wvv3duuuffs36yr37f76z66edrcnveo36t5k4@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-11-13T15:53:50.271Z",
 		"description": "Mission: put Elmo's X frens in a silo\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nRead Pinned post for mission\nFollow for irregular Delphic pronouncements\nCommitted to no use of !hide !warn etc\n12 hour SLA target",
 		"indexedAt": "2024-11-18T00:02:45.909Z"
 	},
-	"likeCount": 275,
+	"likeCount": 295,
 	"indexedAt": "2024-11-13T21:54:40.718Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "network",
+				"locales": [
+					{
+						"description": "Apparent inauthentic profile, likely or visibly part of a bot or troll network.",
+						"lang": "en",
+						"name": "Network Member"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -204,6 +221,7 @@
 			}
 		],
 		"labelValues": [
+			"network",
 			"caution",
 			"blocks",
 			"evasion",

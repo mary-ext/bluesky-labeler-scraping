@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreigr577yyod6ommmoghezvdqxyovlvxig7uac27mxdnqfwmockseby",
+	"cid": "bafyreiebbpajpzpmavjtk3bpswy3ydl7dwekkuhashssqp3rve6el2tjzq",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\nFor requests, DM this account\ndonate: https://ko-fi.com/notjuliet",
 		"indexedAt": "2024-11-18T23:16:00.503Z"
 	},
-	"likeCount": 9708,
-	"indexedAt": "2024-11-17T14:35:46.327Z",
+	"likeCount": 9873,
+	"indexedAt": "2024-11-20T20:12:13.894Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1422,6 +1422,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "third-person",
+				"locales": [
+					{
+						"description": "This user prefers the use of third person pronouns such as \"that one\" or \"it\".",
+						"lang": "en",
+						"name": "third person"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1524,7 +1538,8 @@
 			"nya-nyan",
 			"hoshi-hoshis",
 			"moon-moons",
-			"bear-bears"
+			"bear-bears",
+			"third-person"
 		]
 	}
 }

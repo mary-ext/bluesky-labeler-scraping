@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreiahlg34cmfzsizqte3vtf6rc3ynnm4cihtu2tcmdfbrr7bobxjh64",
+	"cid": "bafyreiera27ts6336cbvdr6pn4ajz62t2j7fhkudozyvkxkgbi75liygwe",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Identify the game engine that you use on your profile and everywhere you post!\n\nOwner: @tabularelf.com",
 		"indexedAt": "2024-11-05T06:04:12.080Z"
 	},
-	"likeCount": 363,
+	"likeCount": 369,
 	"indexedAt": "2024-10-21T13:55:25.974Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "build-duke",
+				"locales": [
+					{
+						"description": "This user is using the Duke3D Engine (aka Build Engine)",
+						"lang": "en",
+						"name": "Duke3D Engine"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -648,6 +662,7 @@
 			"quake-engine",
 			"doom-engine",
 			"wolf3d",
+			"build-duke",
 			"game-modder",
 			"game-platform-editor",
 			"game-level-editor",

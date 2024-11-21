@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:gwqqyezoxusulkn5g2nzd6t2/app.bsky.labeler.service/self",
-	"cid": "bafyreig6a5apvdlham3aqspsm3ahokqwklpnzm3azbyji3jofkk6vg4day",
+	"cid": "bafyreih4efxyj2r7ktcwebifgluxx6u43ruy2w4rscutpva2bhsxcnthju",
 	"creator": {
 		"did": "did:plc:gwqqyezoxusulkn5g2nzd6t2",
 		"handle": "imlunahey.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "@imlunahey.com <— main account ",
 		"indexedAt": "2024-11-04T02:33:14.581Z"
 	},
-	"likeCount": 25,
-	"indexedAt": "2024-11-18T21:05:34.074Z",
+	"likeCount": 44,
+	"indexedAt": "2024-11-20T09:22:16.042Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -64,12 +64,42 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "click-bait",
+				"locales": [
+					{
+						"description": "content with misleading or sensational headlines designed to attract attention",
+						"lang": "en",
+						"name": "click bait"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "maga",
+				"locales": [
+					{
+						"description": "accounts posting about maga or have maga in their name/bio",
+						"lang": "en",
+						"name": "maga"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
 			"scammer",
 			"troll",
-			"bot"
+			"bot",
+			"click-bait",
+			"maga"
 		]
 	}
 }
