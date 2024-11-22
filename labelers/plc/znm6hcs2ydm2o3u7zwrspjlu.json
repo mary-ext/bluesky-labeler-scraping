@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:znm6hcs2ydm2o3u7zwrspjlu/app.bsky.labeler.service/self",
-	"cid": "bafyreiewsiraqh4mxzhfryqomysisvdjy3jxtnjvhrtyidxvg44qzfscre",
+	"cid": "bafyreiba55gtgt4jznyzraqb3hdmtlrkhsl77e4p77suqyvuwdyoy7hvii",
 	"creator": {
 		"did": "did:plc:znm6hcs2ydm2o3u7zwrspjlu",
 		"handle": "oshi.support",
@@ -10,21 +10,13 @@
 		"associated": {
 			"labeler": true
 		},
-		"labels": [
-			{
-				"src": "did:plc:znm6hcs2ydm2o3u7zwrspjlu",
-				"uri": "at://did:plc:znm6hcs2ydm2o3u7zwrspjlu/app.bsky.actor.profile/self",
-				"cid": "bafyreiajispv4t7ko77t3mvbgebofldwfvyt4ximxbw5inpkm7mm5f366i",
-				"val": "!no-unauthenticated",
-				"cts": "2024-11-19T21:48:16.245Z"
-			}
-		],
+		"labels": [],
 		"createdAt": "2024-11-19T22:02:37.161Z",
 		"description": "Experimental Oshi Mark Labeler",
-		"indexedAt": "2024-11-20T03:38:43.672Z"
+		"indexedAt": "2024-11-21T16:30:40.072Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-20T22:35:55.121Z",
+	"indexedAt": "2024-11-21T02:05:43.652Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -104,6 +96,7 @@
 			},
 			{
 				"blurs": "none",
+				"defaultSetting": "ignore",
 				"identifier": "hololive-jp-gen1-mel",
 				"locales": [
 					{
@@ -152,6 +145,7 @@
 			},
 			{
 				"blurs": "none",
+				"defaultSetting": "ignore",
 				"identifier": "hololive-jp-gen2-aqua",
 				"locales": [
 					{
@@ -263,7 +257,7 @@
 				"identifier": "hololive-jp-gen3-pekora",
 				"locales": [
 					{
-						"description": "Supports Usada Pekora (Hololive 3rd Generation)",
+						"description": "Supports Usada Pekora (Hololive 3rd Generation: Hololive Fantasy)",
 						"lang": "en",
 						"name": "👯 The Rabbit Alliance"
 					}
@@ -272,10 +266,11 @@
 			},
 			{
 				"blurs": "none",
+				"defaultSetting": "ignore",
 				"identifier": "hololive-jp-gen3-rushia",
 				"locales": [
 					{
-						"description": "Supported Uruha Rushia (Hololive 3rd Generation)",
+						"description": "Supported Uruha Rushia (Hololive 3rd Generation: Hololive Fantasy)",
 						"lang": "en",
 						"name": "🦋 Fandead"
 					}
@@ -287,7 +282,7 @@
 				"identifier": "hololive-jp-gen3-flare",
 				"locales": [
 					{
-						"description": "Supports Shiranui Flare (Hololive 3rd Generation)",
+						"description": "Supports Shiranui Flare (Hololive 3rd Generation: Hololive Fantasy)",
 						"lang": "en",
 						"name": "🔥 Elfriend"
 					}
@@ -299,7 +294,7 @@
 				"identifier": "hololive-jp-gen3-noel",
 				"locales": [
 					{
-						"description": "Supports Shirogane Noel (Hololive 3rd Generation)",
+						"description": "Supports Shirogane Noel (Hololive 3rd Generation: Hololive Fantasy)",
 						"lang": "en",
 						"name": "⚔️ Knight's Order of Shirogane"
 					}
@@ -311,9 +306,191 @@
 				"identifier": "hololive-jp-gen3-marine",
 				"locales": [
 					{
-						"description": "Supports Houshou Marine (Hololive 3rd Generation)",
+						"description": "Supports Houshou Marine (Hololive 3rd Generation: Hololive Fantasy)",
 						"lang": "en",
 						"name": "🏴‍☠️ Houshou's Pirate Crew"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen4-kanata",
+				"locales": [
+					{
+						"description": "Supports Amane Kanata (Hololive 4th Generation)",
+						"lang": "en",
+						"name": "💫 Hei-min"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "hololive-jp-gen4-coco",
+				"locales": [
+					{
+						"description": "Supported Kiryu Coco (Hololive 4th Generation)",
+						"lang": "en",
+						"name": "🐉 Tatsunoko"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen4-watame",
+				"locales": [
+					{
+						"description": "Supports Tsunomaki Watame (Hololive 4th Generation)",
+						"lang": "en",
+						"name": "🐏 Wata-mate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen4-towa",
+				"locales": [
+					{
+						"description": "Supports Tokoyami Towa (Hololive 4th Generation)",
+						"lang": "en",
+						"name": "👾 TowaFam"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen4-luna",
+				"locales": [
+					{
+						"description": "Supports Himemori Luna (Hololive 4th Generation)",
+						"lang": "en",
+						"name": "🍬 Lu-knight"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen5-lamy",
+				"locales": [
+					{
+						"description": "Supports Yukihana Lamy (Hololive 5th Generation)",
+						"lang": "en",
+						"name": "☃️ Yukimin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen5-nene",
+				"locales": [
+					{
+						"description": "Supports Momosuzu Nene (Hololive 5th Generation)",
+						"lang": "en",
+						"name": "🍑🥟 Nekko"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen5-botan",
+				"locales": [
+					{
+						"description": "Supports Shishiro Botan (Hololive 5th Generation)",
+						"lang": "en",
+						"name": "♌️ SSRB"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "hololive-jp-gen5-aloe",
+				"locales": [
+					{
+						"description": "Supported Mano Aloe (Hololive 5th Generation)",
+						"lang": "en",
+						"name": "👅 Manotomo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen5-polka",
+				"locales": [
+					{
+						"description": "Supports Omaru Polka (Hololive 5th Generation)",
+						"lang": "en",
+						"name": "🎪 Omaru Troupe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen6-laplus",
+				"locales": [
+					{
+						"description": "Supports La+ Darkness (Hololive 6th Generation: Secret Society HoloX)",
+						"lang": "en",
+						"name": "🛸💜 Plusmate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen6-lui",
+				"locales": [
+					{
+						"description": "Supports Takane Lui (Hololive 6th Generation: Secret Society HoloX)",
+						"lang": "en",
+						"name": "🥀 Lui-tomo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen6-koyori",
+				"locales": [
+					{
+						"description": "Supports Hakui Koyori (Hololive 6th Generation: Secret Society HoloX)",
+						"lang": "en",
+						"name": "🧪 Koyori's Assistant"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen6-chloe",
+				"locales": [
+					{
+						"description": "Supports Sakamata Chloe (Hololive 6th Generation: Secret Society HoloX)",
+						"lang": "en",
+						"name": "🎣 Zookeeper"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "hololive-jp-gen6-iroha",
+				"locales": [
+					{
+						"description": "Supports Kazama Iroha (Hololive 6th Generation: Secret Society HoloX)",
+						"lang": "en",
+						"name": "🍃 Kazama-tai"
 					}
 				],
 				"severity": "inform"
@@ -343,7 +520,22 @@
 			"hololive-jp-gen3-rushia",
 			"hololive-jp-gen3-flare",
 			"hololive-jp-gen3-noel",
-			"hololive-jp-gen3-marine"
+			"hololive-jp-gen3-marine",
+			"hololive-jp-gen4-kanata",
+			"hololive-jp-gen4-coco",
+			"hololive-jp-gen4-watame",
+			"hololive-jp-gen4-towa",
+			"hololive-jp-gen4-luna",
+			"hololive-jp-gen5-lamy",
+			"hololive-jp-gen5-nene",
+			"hololive-jp-gen5-botan",
+			"hololive-jp-gen5-aloe",
+			"hololive-jp-gen5-polka",
+			"hololive-jp-gen6-laplus",
+			"hololive-jp-gen6-lui",
+			"hololive-jp-gen6-koyori",
+			"hololive-jp-gen6-chloe",
+			"hololive-jp-gen6-iroha"
 		]
 	}
 }

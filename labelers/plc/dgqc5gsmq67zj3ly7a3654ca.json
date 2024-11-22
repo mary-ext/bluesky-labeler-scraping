@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:dgqc5gsmq67zj3ly7a3654ca/app.bsky.labeler.service/self",
-	"cid": "bafyreicud6pruyzdlgnwmyhbot3l5ytgmhnd55wdvvqpldkxdim5xjjoby",
+	"cid": "bafyreiezfdnvduhu7b6tyay7n34zaz2h3tr4mpcsuzjvpw7iabghoqdfzi",
 	"creator": {
 		"did": "did:plc:dgqc5gsmq67zj3ly7a3654ca",
 		"handle": "faerunlabels.bsky.social",
@@ -14,8 +14,8 @@
 		"createdAt": "2024-11-16T15:48:02.986Z",
 		"indexedAt": "2024-11-16T15:48:02.986Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-11-20T18:59:19.075Z",
+	"likeCount": 1,
+	"indexedAt": "2024-11-21T20:02:30.044Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,10 +23,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "aaa-cleric",
+				"identifier": "cleric",
 				"locales": [
 					{
-						"description": "Clerics are representatives of the gods they worship, wielding potent divine magic for good or ill",
+						"description": "Cleric-desc",
 						"lang": "en",
 						"name": "Cleric"
 					}
@@ -37,10 +37,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "aaa-warlock",
+				"identifier": "warlock",
 				"locales": [
 					{
-						"description": "Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.",
+						"description": "Warlock-desc",
 						"lang": "en",
 						"name": "Warlock"
 					}
@@ -51,21 +51,51 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "aaa-rogue",
+				"identifier": "rogue",
 				"locales": [
 					{
-						"description": "With stealth, skill, and uncanny reflexes, rogues' versatility leits them get the upper hand in almost any situation.",
+						"description": "Rogue-desc",
 						"lang": "en",
 						"name": "Rogue"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bard",
+				"locales": [
+					{
+						"description": "Bard-desc",
+						"lang": "en",
+						"name": "Bard"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "barbarian",
+				"locales": [
+					{
+						"description": "Barbarian-desc",
+						"lang": "en",
+						"name": "Barbarian"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"aaa-cleric",
-			"aaa-warlock",
-			"aaa-rogue"
+			"cleric",
+			"warlock",
+			"rogue",
+			"bard",
+			"barbarian"
 		]
 	}
 }

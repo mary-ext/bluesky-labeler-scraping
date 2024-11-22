@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreiedk5gj7xsjkofxjuqqt2d2nbl4iikiz5g52lihrfiupo533dqwcq",
+	"cid": "bafyreigcotk4ir3kss2rhk2gjrmfz6yemr2yi2olghoqcvnwpprhmvx4om",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,137 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Manually updated-might be slow. Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-11-20T17:33:56.251Z"
 	},
-	"likeCount": 165,
+	"likeCount": 254,
 	"indexedAt": "2024-11-17T17:32:44.706Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rydal",
+				"locales": [
+					{
+						"description": "£11,600/Term",
+						"lang": "en",
+						"name": "Glenalmond College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "isl",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "International School, Lagos"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "heathfield",
+				"locales": [
+					{
+						"description": "£14,491/Term",
+						"lang": "en",
+						"name": "Heathfield School, Pinner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "haberdasheraskes",
+				"locales": [
+					{
+						"description": "£9,879/Term",
+						"lang": "en",
+						"name": "Haberdasher Aske's Boys School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hipperholme",
+				"locales": [
+					{
+						"description": "£5736/Term",
+						"lang": "en",
+						"name": "Hipperholme Grammar School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "harrow",
+				"locales": [
+					{
+						"description": "£17,850/Term",
+						"lang": "en",
+						"name": "Harrow"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eton",
+				"locales": [
+					{
+						"description": "£21,100/Term",
+						"lang": "en",
+						"name": "Eton"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "godolphin",
+				"locales": [
+					{
+						"description": "£9,355/Term",
+						"lang": "en",
+						"name": "Godolphin and Latymer School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lordwandsworth",
+				"locales": [
+					{
+						"description": "£14,100/Term",
+						"lang": "en",
+						"name": "Lord Wandsworth School"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -725,6 +851,7 @@
 			}
 		],
 		"labelValues": [
+			"lordwandsworth",
 			"walsingham",
 			"cranleigh",
 			"nepobaby",
@@ -774,7 +901,15 @@
 			"stedmunds",
 			"bedford",
 			"oldpalace",
-			"rydal"
+			"rydal",
+			"godolphin",
+			"eton",
+			"harrow",
+			"hipperholme",
+			"haberdasheraskes",
+			"heathfield",
+			"isl",
+			"glenalmond"
 		]
 	}
 }

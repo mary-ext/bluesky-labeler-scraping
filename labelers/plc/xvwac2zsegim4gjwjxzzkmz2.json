@@ -1,0 +1,56 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:xvwac2zsegim4gjwjxzzkmz2/app.bsky.labeler.service/self",
+	"cid": "bafyreiec5pxdwmu56q77mt7kedaemizy3mvjdcjyi2rizp3e2obp7o6ow4",
+	"creator": {
+		"did": "did:plc:xvwac2zsegim4gjwjxzzkmz2",
+		"handle": "labeler.va.ax",
+		"displayName": "Labeler VA.AX",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xvwac2zsegim4gjwjxzzkmz2/bafkreia2owzecxlv7c4wgyiibjehn5emb5ji5io7wsknvmplifyomm6xru@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-21T12:51:23.271Z",
+		"indexedAt": "2024-11-21T12:54:52.271Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-21T13:02:59.278Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "artist-2D",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "2D Artist"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "artist-3D",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "3D Artist"
+					}
+				],
+				"severity": "inform|alert|none"
+			}
+		],
+		"labelValues": [
+			"artist-2D",
+			"artist-3D"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:ix4ghsjkw7zpivorhafvxsa2/app.bsky.labeler.service/self",
+	"cid": "bafyreicnvqjr5u7zq7soj6pnpnvv4vtdstu6mhvwq4yyywegtujdjbig5y",
+	"creator": {
+		"did": "did:plc:ix4ghsjkw7zpivorhafvxsa2",
+		"handle": "noalt.danirod.es",
+		"displayName": "(Not active yet) Missing ALT text",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ix4ghsjkw7zpivorhafvxsa2/bafkreibwebywhnwmwfp5fq426iimx7pohad6o4ecs3vk3v3ex4df4gauvy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-21T19:08:05.471Z",
+		"description": "A labeler that tags images that lack ALT text so that you can hide it. Under construction. Bot created by @danirod.es.",
+		"indexedAt": "2024-11-21T19:20:48.670Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-21T19:13:23.503Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "image-lacks-alt",
+				"locales": [
+					{
+						"description": "The post contains an image, but the image does not contain an ALT text.",
+						"lang": "en",
+						"name": "Image lacks ALT"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"image-lacks-alt"
+		]
+	}
+}

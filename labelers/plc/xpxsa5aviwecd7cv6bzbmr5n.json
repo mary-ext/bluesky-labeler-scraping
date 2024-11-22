@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreiawtargwghn2eg7dhzkycglerqiqhlj3lkixpphxbuniqtbflinga",
+	"cid": "bafyreiczherymrd7rpc7fzvgbc673gbnk4xo2s4puuw5sr3r3nu4ahpa5m",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 229,
-	"indexedAt": "2024-11-19T18:43:35.317Z",
+	"likeCount": 236,
+	"indexedAt": "2024-11-22T00:42:20.228Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3564,6 +3564,132 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "awslabs-llrt",
+				"locales": [
+					{
+						"description": "LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.\nhttps://github.com/awslabs/llrt",
+						"lang": "en",
+						"name": "awslabs/llrt"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lgbt-cn-lgbtqia-in-china",
+				"locales": [
+					{
+						"description": "🏳️‍🌈 中国的性少数群体一直渴望着自由平等\nhttps://github.com/LGBT-CN/LGBTQIA-In-China",
+						"lang": "en",
+						"name": "LGBT-CN/LGBTQIA-In-China"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tsfourlabels-tsfourlabels",
+				"locales": [
+					{
+						"description": "https://github.com/ts4labels/ts4labels",
+						"lang": "en",
+						"name": "ts4labels/ts4labels"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oops-wtf-bskyonezeroone",
+				"locales": [
+					{
+						"description": "A beginner-friendly guide to navigating and understanding Bluesky, the decentralized social networking protocol in Bahasa Indonesia.\nhttps://github.com/oops-wtf/bsky101",
+						"lang": "en",
+						"name": "oops-wtf/bsky101"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "petejayhawk-schoolsnitcher",
+				"locales": [
+					{
+						"description": "calling out effete private school jackasses the world over\nhttps://github.com/petejayhawk/schoolsnitcher",
+						"lang": "en",
+						"name": "petejayhawk/schoolsnitcher"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "moby-moby",
+				"locales": [
+					{
+						"description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems\nhttps://github.com/moby/moby",
+						"lang": "en",
+						"name": "moby/moby"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "containerd-containerd",
+				"locales": [
+					{
+						"description": "An open and reliable container runtime\nhttps://github.com/containerd/containerd",
+						"lang": "en",
+						"name": "containerd/containerd"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "opencontainers-runc",
+				"locales": [
+					{
+						"description": "CLI tool for spawning and running containers according to the OCI specification\nhttps://github.com/opencontainers/runc",
+						"lang": "en",
+						"name": "opencontainers/runc"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "docker-cli",
+				"locales": [
+					{
+						"description": "The Docker CLI\nhttps://github.com/docker/cli",
+						"lang": "en",
+						"name": "docker/cli"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -3819,7 +3945,16 @@
 			"googlechrome-lighthouse",
 			"gatsbyjs-gatsby",
 			"colabottles-lobster-roll",
-			"serde-ml-serde"
+			"serde-ml-serde",
+			"awslabs-llrt",
+			"lgbt-cn-lgbtqia-in-china",
+			"tsfourlabels-tsfourlabels",
+			"oops-wtf-bskyonezeroone",
+			"petejayhawk-schoolsnitcher",
+			"moby-moby",
+			"containerd-containerd",
+			"opencontainers-runc",
+			"docker-cli"
 		]
 	}
 }

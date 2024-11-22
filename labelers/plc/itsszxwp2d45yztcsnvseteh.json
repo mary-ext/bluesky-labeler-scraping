@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:itsszxwp2d45yztcsnvseteh/app.bsky.labeler.service/self",
-	"cid": "bafyreihgvv3qr2gbyrmwmg55p7msmeia65dnmq75lx3obsygix74yhaxlq",
+	"cid": "bafyreih74amfwn4gm5zjphuy6ix4w775fr2no5osv3iueawvizpyvsk5hy",
 	"creator": {
 		"did": "did:plc:itsszxwp2d45yztcsnvseteh",
 		"handle": "osrslabeler.bsky.social",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-27T10:49:58.406Z",
-		"description": "Subscribe and like one of my posts to add OSRS account labels to your Bluesky profile.\n\nMaintained by: @Pantertainment.com\nFor label suggestions go here: https://github.com/CodePanter/Bluesky-OSRSLabeler ",
-		"indexedAt": "2024-11-04T13:03:11.079Z"
+		"description": "Subscribe and like a post to add that label to your profile.\n\nMaintained by: @Pantertainment.com\nFor suggestions go here: https://github.com/CodePanter/Bluesky-OSRSLabeler \nChangelog Thread: https://bsky.app/profile/pantertainment.com/post/3lbhg375ry22p",
+		"indexedAt": "2024-11-21T12:06:57.971Z"
 	},
-	"likeCount": 22,
-	"indexedAt": "2024-11-16T12:31:20.099Z",
+	"likeCount": 24,
+	"indexedAt": "2024-11-21T11:52:10.167Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -313,6 +313,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-snowflake-fashionscape",
+				"locales": [
+					{
+						"description": "Fashionscape Account",
+						"lang": "en",
+						"name": "Fashionscape"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-snowflake-poh-host",
+				"locales": [
+					{
+						"description": "POH Host Account",
+						"lang": "en",
+						"name": "POH Host"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-leagues",
+				"locales": [
+					{
+						"description": "Leagues Account",
+						"lang": "en",
+						"name": "Leagues"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-deadman",
+				"locales": [
+					{
+						"description": "Deadman Account",
+						"lang": "en",
+						"name": "Deadman"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-speedrun",
+				"locales": [
+					{
+						"description": "Speedrun Account",
+						"lang": "en",
+						"name": "Speedrun"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -336,7 +406,12 @@
 			"osrslabeler-snowflake-self-restricted",
 			"osrslabeler-snowflake-collection-logger",
 			"osrslabeler-snowflake-tasker",
-			"osrslabeler-snowflake-area-restricted"
+			"osrslabeler-snowflake-area-restricted",
+			"osrslabeler-snowflake-fashionscape",
+			"osrslabeler-snowflake-poh-host",
+			"osrslabeler-official-leagues",
+			"osrslabeler-official-deadman",
+			"osrslabeler-official-speedrun"
 		]
 	}
 }

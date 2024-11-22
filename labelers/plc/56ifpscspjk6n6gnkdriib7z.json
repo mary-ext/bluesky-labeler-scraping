@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:56ifpscspjk6n6gnkdriib7z/app.bsky.labeler.service/self",
+	"cid": "bafyreib6xz2mb5s2wkv26lk5ukli6iyonxlgfceap7y54ztdth6kek3v6q",
+	"creator": {
+		"did": "did:plc:56ifpscspjk6n6gnkdriib7z",
+		"handle": "parody-labels.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:56ifpscspjk6n6gnkdriib7z/bafkreifiqsw6lon2ysterag3ktcvq6tc2yr242vsbfwrmtccqxo2khwypq@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-21T18:05:35.772Z",
+		"indexedAt": "2024-11-21T18:15:34.873Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-21T18:31:20.600Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parody-acct",
+				"locales": [
+					{
+						"description": "An account parodying another user, explicitly disclamed via the account's display name",
+						"lang": "en",
+						"name": "Parody"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "subtle-parody-acct",
+				"locales": [
+					{
+						"description": "An account parodying another user, only disclaimed via the user's profile description",
+						"lang": "en",
+						"name": "Sneaky Parody"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonation-acct",
+				"locales": [
+					{
+						"description": "An account impersonating someone else, no parody disclaimer",
+						"lang": "en",
+						"name": "Impersonation"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"parody-acct",
+			"subtle-parody-acct",
+			"impersonation-acct"
+		]
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mpogduvvraozdcbp6w2lafqg/app.bsky.labeler.service/self",
-	"cid": "bafyreih6xuo7lytjftzmn6ee2siupjbsh2qmmsrqattbfecqnodjk3mffa",
+	"cid": "bafyreify52fq2dqz2d2i3vqtu25hpw4tsa7vh2pdy5c6moh2nymutlyanm",
 	"creator": {
 		"did": "did:plc:mpogduvvraozdcbp6w2lafqg",
 		"handle": "warlabel.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "A new labeler set unofficially in the Warhammer universe!\nSubscribe and Like to join!\n\nuse \"@warlabel.bsky.social help\" to learn commands",
 		"indexedAt": "2024-07-18T01:13:13.674Z"
 	},
-	"likeCount": 144,
+	"likeCount": 145,
 	"indexedAt": "2024-06-30T04:20:32.714Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "drukhari",
+				"locales": [
+					{
+						"description": "Pirate Dark Eldar of Commorragh .",
+						"lang": "en",
+						"name": "Drukhari"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -582,6 +596,7 @@
 			}
 		],
 		"labelValues": [
+			"drukhari",
 			"firstborn",
 			"alpha-legion",
 			"raven-guard",
