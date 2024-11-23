@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:erja3fwzamibgro7va22f2ps/app.bsky.labeler.service/self",
-  "cid": "bafyreie7ihgd6giopeqstdgemacdmop656pac4xhmxl2sfpv4carag74aa",
+  "cid": "bafyreigtzyltwzymz3vtf7q2qhakjp6e3tnwfhw3abgu4rfgtkriphq6uu",
   "creator": {
     "did": "did:plc:erja3fwzamibgro7va22f2ps",
     "handle": "hiresky.birdwrongs.sh",
@@ -14,7 +14,7 @@
     "description": "because you don't want to go on linkedin. lets you add/read profile labels related to looking for work and hiring. WIP THIS DOESN'T WORK YET FYI",
     "indexedAt": "2024-10-23T04:34:16.308Z"
   },
-  "indexedAt": "2024-11-17T03:00:47.076Z",
+  "indexedAt": "2024-11-22T22:26:14.464Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -22,7 +22,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "hiresky-lfw",
+        "identifier": "lfw",
         "locales": [
           {
             "description": "This user is actively looking for new opportunities.",
@@ -36,7 +36,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "hiresky-comms-open",
+        "identifier": "comms-open",
         "locales": [
           {
             "description": "This user has commissions open.",
@@ -50,7 +50,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "hiresky-comms-closed",
+        "identifier": "comms-closed",
         "locales": [
           {
             "description": "This user does commissions, but is not currently able to take on new ones.",
@@ -64,7 +64,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "hiresky-freelance",
+        "identifier": "freelance",
         "locales": [
           {
             "description": "This user does freelance work for hire.",
@@ -78,7 +78,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "hiresky-hiring",
+        "identifier": "now-hiring",
         "locales": [
           {
             "description": "This user or organization is currently looking to fill a position or positions.",
@@ -92,24 +92,24 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "hiresky-careerchanger",
+        "identifier": "career-changer",
         "locales": [
           {
-            "description": "I'm changing career paths and am looking for ways to get my foot in the door.",
+            "description": "This user is changing career paths and is looking for ways to get a foot in the door.",
             "lang": "en",
-            "name": "Career-Changer"
+            "name": "Career Changer"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "hiresky-lfw",
-      "hiresky-comms-open",
-      "hiresky-comms-closed",
-      "hiresky-freelance",
-      "hiresky-hiring",
-      "hiresky-careerchanger"
+      "lfw",
+      "comms-open",
+      "comms-closed",
+      "freelance",
+      "now-hiring",
+      "career-changer"
     ]
   }
 }
