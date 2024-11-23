@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:bfsapbnzx54ypg2mgrflkjlx/app.bsky.labeler.service/self",
+	"cid": "bafyreihlbkftppdonyafrsthy5ooh4o3rdazx4ictyb7shaqncibcdi2ui",
+	"creator": {
+		"did": "did:plc:bfsapbnzx54ypg2mgrflkjlx",
+		"handle": "parents.blue",
+		"displayName": "Nepo Baby Labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bfsapbnzx54ypg2mgrflkjlx/bafkreia5efs7rdzwzr2zucevyno7zkkluokhbttqpn4zt6527ihwnll6re@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-22T11:44:07.053Z",
+		"description": "Labeller to highlight Nepo Baby accounts - mostly in media and politics - where the person in question has famous or influential family, especially if their parents/relative have a blue link on Wikipedia. See also @daddys.cash for private school labels",
+		"indexedAt": "2024-11-22T17:03:04.154Z"
+	},
+	"likeCount": 44,
+	"indexedAt": "2024-11-22T16:16:40.969Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blueparent",
+				"locales": [
+					{
+						"description": "One or both of this person's parents have Wikipedia blue links",
+						"lang": "en",
+						"name": "Blue Link (parent)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blueother",
+				"locales": [
+					{
+						"description": "Another member of this person's family has a Wikipedia blue link",
+						"lang": "en",
+						"name": "Blue Link (other family)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "famousnowiki",
+				"locales": [
+					{
+						"description": "This person has a famous or notable family member, but either they or the family member does not have a Wikipedia link.",
+						"lang": "en",
+						"name": "Famous Relative (no Wikipedia)"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"famousnowiki",
+			"blueother",
+			"blueparent"
+		]
+	}
+}

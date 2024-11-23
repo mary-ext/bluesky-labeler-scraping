@@ -1,70 +1,41 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4j3ewf6c2iww4wy2yxdubcwc/app.bsky.labeler.service/self",
-	"cid": "bafyreicszjw57eobho43q4ew5o7uedpdziatc677qm6d6wv2mvfduvvi6q",
+	"cid": "bafyreicgqtwgb4pj5zxlblmgjrp4gk7bkgnrat2yrjiyuvwm3ngghukcaq",
 	"creator": {
 		"did": "did:plc:4j3ewf6c2iww4wy2yxdubcwc",
 		"handle": "safesky.bsky.social",
 		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4j3ewf6c2iww4wy2yxdubcwc/bafkreigshj33wkp52dwh2uobfu7rzwe2ho34ytel5p3jigqevbtk4o7eue@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-03-22T14:38:44.765Z",
-		"indexedAt": "2024-03-22T14:38:46.208Z"
+		"indexedAt": "2024-11-22T17:34:06.954Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-15T16:16:44.048Z",
+	"indexedAt": "2024-11-22T18:03:37.351Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "climate-denying",
-				"locales": [
-					{
-						"description": "Username, handle, and / or description which includes reference to Climate Denying",
-						"lang": "en",
-						"name": "Climate Denying"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
+				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "#voteblue",
+				"identifier": "Verified",
 				"locales": [
 					{
-						"description": "Username, handle, and / or description which includes references \"#VoteBlue\".",
+						"description": "This account has been verified.",
 						"lang": "en",
-						"name": "#voteblue"
+						"name": "Verification"
 					}
 				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "warn",
-				"identifier": "voteblue",
-				"locales": [
-					{
-						"description": "Username, handle, and / or description which includes references \"VoteBlue\".",
-						"lang": "en",
-						"name": "voteblue"
-					}
-				],
-				"severity": "alert"
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"climate-denying",
-			"#voteblue",
-			"voteblue"
+			"verified"
 		]
 	}
 }

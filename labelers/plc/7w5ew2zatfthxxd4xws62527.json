@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:7w5ew2zatfthxxd4xws62527/app.bsky.labeler.service/self",
+	"cid": "bafyreifmofkg2p433uwurskg3junacsefebu5rymbou5xeztyf4zay4mq4",
+	"creator": {
+		"did": "did:plc:7w5ew2zatfthxxd4xws62527",
+		"handle": "harmonysky.heidenstedt.org",
+		"displayName": "HarmonySky",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7w5ew2zatfthxxd4xws62527/bafkreiejvm6nvtpmenlpmcuuaxeg3xzh7r5mwmiern3f4ep5isk3lqqvoe@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-22T14:18:20.554Z",
+		"indexedAt": "2024-11-22T14:18:37.253Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-22T16:27:29.662Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "new-user",
+				"locales": [
+					{
+						"description": "This label is applied to newly created users for 48 hours to allow other labelers to monitor activity, identify spam or trolls, and apply more specific labels if needed. This approach is part of a common anti-spam practice to observe user behavior before risking a spam flood, ensuring the platform remains clean and user-friendly. While we strive to apply this label to all new users who send a post, there are rate limits in place that may prevent us from doing so consistently.",
+						"lang": "en",
+						"name": "New Users"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"new-user"
+		]
+	}
+}

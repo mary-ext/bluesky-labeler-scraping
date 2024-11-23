@@ -1,25 +1,123 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qhdv5xwffbogrfoqcqzpady/app.bsky.labeler.service/self",
-	"cid": "bafyreiaxykmt6tpfznqjbzz7vpfx7artderabwao4fva7nxwcnh3mkohpi",
+	"cid": "bafyreibraw6nbahdko464tbotzddjbs462wc35rzwbmxuob6cxcpvvfb6i",
 	"creator": {
 		"did": "did:plc:2qhdv5xwffbogrfoqcqzpady",
 		"handle": "labeler.procycling.social",
 		"displayName": "Pro Cycling Labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qhdv5xwffbogrfoqcqzpady/bafkreibdrusy7wvekhytka2gfsfmyglaucrenu4eabrwou3t3j3vnyy364@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qhdv5xwffbogrfoqcqzpady/bafkreibumb6z3gf4jh4lz7uw3z6g3sh6bgnhuim5aemfsnagt73ueswwjm@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-06-13T13:27:43.348Z",
-		"description": "Providing labels for:\n\n* race spoilers: if you haven't watched the race yet \n* off topic content: to keep it out of the Pro cycling chatter feed: https://bsky.app/profile/did:plc:542d7hnrdfvkldeieefmajxl/feed/discovercycling",
-		"indexedAt": "2024-06-13T20:40:09.811Z"
+		"description": "A labeling service for the Professional Cycling community. Check my posts for instructions.\n\nLabels are manually applied and may be delayed. \n\nManaged by @kris.to",
+		"indexedAt": "2024-11-22T16:12:24.355Z"
 	},
 	"likeCount": 4,
-	"indexedAt": "2024-06-13T20:35:13.852Z",
+	"indexedAt": "2024-11-22T15:30:57.271Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-superfan",
+				"locales": [
+					{
+						"description": "An account that only posts about cycling. A stan.",
+						"lang": "en",
+						"name": "Cycling Superfan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-fan",
+				"locales": [
+					{
+						"description": "Anybody who follows professional cycling.",
+						"lang": "en",
+						"name": "Cycling Fan"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-media",
+				"locales": [
+					{
+						"description": "Journalists and publications delivering news, insights, and stories from the professional cycling world.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Cycling Media"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "team-insider",
+				"locales": [
+					{
+						"description": "Those with professional involvement in a pro team’s operations.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Team Insider"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pro-cyclist",
+				"locales": [
+					{
+						"description": "A professional cyclist.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Pro Cyclist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "team",
+				"locales": [
+					{
+						"description": "A professional cycling team.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Team"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "race",
+				"locales": [
+					{
+						"description": "An account representing an individual race.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Race"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -50,6 +148,14 @@
 			}
 		],
 		"labelValues": [
+			"cycling-superfan",
+			"content-creator",
+			"cycling-fan",
+			"cycling-media",
+			"team-insider",
+			"pro-cyclist",
+			"team",
+			"race",
 			"race-spoiler",
 			"unrelated"
 		]

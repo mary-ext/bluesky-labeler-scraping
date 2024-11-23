@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4zw4oscaj6edhpud42ehhsnh/app.bsky.labeler.service/self",
-	"cid": "bafyreidfqq3giovzoayubasvhl5sqn6nuh77fgbfhbpe4zryzwm4j34m3y",
+	"cid": "bafyreie2qtfgabkbbdtyxbyhqglcjyeiue7nvkdwg7tjqmxxhzthv7v4f4",
 	"creator": {
 		"did": "did:plc:4zw4oscaj6edhpud42ehhsnh",
 		"handle": "moderation.masr.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-11-13T09:46:14.279Z"
 	},
 	"likeCount": 5,
-	"indexedAt": "2024-11-13T09:17:57.430Z",
+	"indexedAt": "2024-11-22T11:09:54.063Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,29 +24,10 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "hide",
-				"identifier": "silo-reposting",
-				"locales": [
-					{
-						"description": "Content such as screenshots from Twitter and other social media platforms.",
-						"lang": "en",
-						"name": "Social Media Reposting"
-					},
-					{
-						"description": "محتوى زي المنشورات المُعادة من تويتر وغيرهم.",
-						"lang": "ar",
-						"name": "منشورات مُعادة"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "hide",
 				"identifier": "bigotry",
 				"locales": [
 					{
-						"description": "Content that is bigoted to a certain group of people based on their sex, gender, sexual orientation or identity, national origin, religious or ethnic groups.",
+						"description": "Content that is bigoted to a certain group of people based on their sex, gender, sexual orientation or identity, national origin, belief or ethnicity.",
 						"lang": "en",
 						"name": "Bigotry"
 					},
@@ -54,44 +35,6 @@
 						"description": "أي محتوى عنصري ضد مجموعة من الأشخاص بناءاً على جنسهم، جندرهم، ميولهم، جنسيتهم، معتقادتهم، او عرقهم.",
 						"lang": "ar",
 						"name": "عنصرية"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "hide",
-				"identifier": "preaching",
-				"locales": [
-					{
-						"description": "Content that regurgitates religious text, values, browbeating, or chauvinism.",
-						"lang": "en",
-						"name": "Preaching"
-					},
-					{
-						"description": "أي محتوى يدس او يكرر تنمر، تعصب، أو دعوى عقائدية.",
-						"lang": "ar",
-						"name": "دعوى"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
-				"defaultSetting": "hide",
-				"identifier": "spam",
-				"locales": [
-					{
-						"description": "Content that regularly abuses algorithms, is meaningless or misleading, AI-generated nonsense, abuses hashtags or other forms of clutter.",
-						"lang": "en",
-						"name": "Spam/Misleading"
-					},
-					{
-						"description": "أي محتوى بيحاول يسئ أستعمال الهاشتاج، الفييدز، ملوش معنى او هدف زي المحتوى المصنوع من الذكاء الأصطناعي، وغيره من المحتوى المزعج.",
-						"lang": "ar",
-						"name": "سبام"
 					}
 				],
 				"severity": "alert"
@@ -119,6 +62,25 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "hide",
+				"identifier": "preaching",
+				"locales": [
+					{
+						"description": "Content that regurgitates religious text, values, browbeating, or chauvinism.",
+						"lang": "en",
+						"name": "Preaching"
+					},
+					{
+						"description": "أي محتوى يدس او يكرر تنمر، تعصب، أو دعوى عقائدية.",
+						"lang": "ar",
+						"name": "دعوى"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
 				"identifier": "ads",
 				"locales": [
 					{
@@ -130,6 +92,44 @@
 						"description": "أي محتوى دعائي بغرض ربحي.",
 						"lang": "ar",
 						"name": "أعلانات"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "Content that regularly abuses algorithms, is meaningless or misleading, AI-generated nonsense, abuses hashtags or other forms of clutter.",
+						"lang": "en",
+						"name": "Spam/Misleading"
+					},
+					{
+						"description": "أي محتوى بيحاول يسئ أستعمال الهاشتاج، الفييدز، ملوش معنى او هدف زي المحتوى المصنوع من الذكاء الأصطناعي، وغيره من المحتوى المزعج.",
+						"lang": "ar",
+						"name": "سبام"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "silo-reposting",
+				"locales": [
+					{
+						"description": "Content such as screenshots from Twitter and other social media platforms.",
+						"lang": "en",
+						"name": "Social Media Reposting"
+					},
+					{
+						"description": "محتوى زي المنشورات المُعادة من تويتر وغيرهم.",
+						"lang": "ar",
+						"name": "منشورات مُعادة"
 					}
 				],
 				"severity": "inform"

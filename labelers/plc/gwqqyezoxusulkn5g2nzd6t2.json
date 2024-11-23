@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:gwqqyezoxusulkn5g2nzd6t2/app.bsky.labeler.service/self",
-	"cid": "bafyreih4efxyj2r7ktcwebifgluxx6u43ruy2w4rscutpva2bhsxcnthju",
+	"cid": "bafyreigqeybb5bcmpfo55z4hc5eobsoyrvdp54mxuk7grgcw7xuj3ikiri",
 	"creator": {
 		"did": "did:plc:gwqqyezoxusulkn5g2nzd6t2",
 		"handle": "imlunahey.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "@imlunahey.com <— main account ",
 		"indexedAt": "2024-11-04T02:33:14.581Z"
 	},
-	"likeCount": 45,
-	"indexedAt": "2024-11-20T09:22:16.042Z",
+	"likeCount": 51,
+	"indexedAt": "2024-11-22T23:02:44.512Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -92,6 +92,20 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "fake-account",
+				"locales": [
+					{
+						"description": "impersonation or false claims about identity or affiliation",
+						"lang": "en",
+						"name": "fake account"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -99,7 +113,8 @@
 			"troll",
 			"bot",
 			"click-bait",
-			"maga"
+			"maga",
+			"fake-account"
 		]
 	}
 }

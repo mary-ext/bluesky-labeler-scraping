@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:skibpmllbhxvbvwgtjxl3uao/app.bsky.labeler.service/self",
-	"cid": "bafyreidg4ik6zwrmlfuhb5kf2nwd2sbzx324ahk34vgw37qctxuouzzko4",
+	"cid": "bafyreie4zehswmh7wiiwasscbolf3mkbby6s2mfcxkdk2osjz7wxrk3fly",
 	"creator": {
 		"did": "did:plc:skibpmllbhxvbvwgtjxl3uao",
 		"handle": "anti-aging.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Critics are saying:\n\"deeply fucking unserious labeler\"\n\"cringe fr\"\n\"sad lonely jackass\"\n\"hateful rightwing shrew who can't make friends\"\n\"Moderation as satire has arrived\"\n\"the anti-aging labeller is fun, even though whoever runs it is clearly insane\"",
 		"indexedAt": "2024-05-24T14:02:08.055Z"
 	},
-	"likeCount": 57,
-	"indexedAt": "2024-03-21T18:09:54.541Z",
+	"likeCount": 58,
+	"indexedAt": "2024-11-22T16:59:19.177Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "follow-back-whining",
+				"locales": [
+					{
+						"description": "Posts about follow-backs and wanting follow-backs and isn't Mary 62",
+						"lang": "en",
+						"name": "Follow-back whiner"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -204,6 +218,7 @@
 			}
 		],
 		"labelValues": [
+			"follow-back-whining",
 			"slug",
 			"accessibility-scolding",
 			"bad-selfies",
