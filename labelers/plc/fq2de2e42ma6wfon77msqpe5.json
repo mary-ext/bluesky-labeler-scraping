@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:fq2de2e42ma6wfon77msqpe5/app.bsky.labeler.service/self",
-  "cid": "bafyreienxd73gja7wdfnl3amixny4dmvq7t5qlzinvtyipyp6sw7xrvzfu",
+  "cid": "bafyreiaujpms4sifrgeg6o3auug2qx5mdtitfau2qrwsd3by6bptasmkoi",
   "creator": {
     "did": "did:plc:fq2de2e42ma6wfon77msqpe5",
     "handle": "espanaprofundamod.bsky.social",
@@ -14,14 +14,14 @@
     "description": "Servicio de moderación para reportar cuentas troll de extrema derecha.\n\nInstrucciones en el hilo anclado 👇 https://bsky.app/profile/espanaprofundamod.bsky.social/post/3lb67vg5h2k2u",
     "indexedAt": "2024-11-17T21:14:31.878Z"
   },
-  "indexedAt": "2024-11-17T20:03:58.363Z",
+  "indexedAt": "2024-11-23T08:12:39.158Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "none",
+        "defaultSetting": "hide",
         "identifier": "acoso-persecucion",
         "locales": [
           {
@@ -30,12 +30,12 @@
             "name": "Acoso y persecución"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "none"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "suplantacion-parodia",
         "locales": [
           {
@@ -44,12 +44,12 @@
             "name": "Suplantación o parodia"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "insultos-amenazas",
         "locales": [
           {
@@ -58,12 +58,12 @@
             "name": "Insultos y/o amenazas"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "apologia-franquista",
         "locales": [
           {
@@ -72,7 +72,7 @@
             "name": "Simbología Franquista"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
       }
     ],
     "labelValues": [

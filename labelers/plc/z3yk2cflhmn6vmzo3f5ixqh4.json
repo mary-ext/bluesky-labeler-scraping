@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-  "cid": "bafyreid3wd7nfojrezo7dmv67m5ccpub3qoeea25qhbsy3atwmbsupyndy",
+  "cid": "bafyreieeylrnshubckuazziin2t7qff3vghryaonl64qkoqq4h36uewhxe",
   "creator": {
     "did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
     "handle": "yardcrow.com",
@@ -17,7 +17,7 @@
     "description": "The Yard Crow watches\nHandcrafted and Artisanal labels\n(please tag @patri.xyz for requests, questions or removal!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\nUpon request, most labels can be text or emoji.",
     "indexedAt": "2024-11-11T23:42:59.003Z"
   },
-  "indexedAt": "2024-11-18T05:42:58.590Z",
+  "indexedAt": "2024-11-23T21:20:31.270Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -101,6 +101,34 @@
             "description": "♿⚙️: This account uses or supports Disability and Adaptive Technologies.",
             "lang": "en",
             "name": "adaptive tech"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alttextuser",
+        "locales": [
+          {
+            "description": "AltText User: Thank you for adding AltText to ALL your images.",
+            "lang": "en",
+            "name": "👁️‍🗨️🖼️ AltText User"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "t-alttextuser",
+        "locales": [
+          {
+            "description": "AltText User: Thank you for adding AltText to ALL your images.",
+            "lang": "en",
+            "name": "👁️‍🗨️🖼️"
           }
         ],
         "severity": "inform"
@@ -2011,20 +2039,6 @@
       },
       {
         "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "alttextuser",
-        "locales": [
-          {
-            "description": "AltText User: Thank you for adding AltText to ALL your images.",
-            "lang": "en",
-            "name": "👁️‍🗨️ AltText User"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "alert",
         "identifier": "auto-spoiler",
@@ -2045,6 +2059,8 @@
       "t-adapt-ath",
       "adapt-tech",
       "t-adapt-tech",
+      "alttextuser",
+      "t-alttextuser",
       "artist",
       "t-artist",
       "author",
@@ -2183,7 +2199,6 @@
       "teambsky",
       "n-usa",
       "n-brazil",
-      "alttextuser",
       "auto-spoiler"
     ]
   }
