@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreih2kc3kpd66vamfkbdjj3psb632mqvmulkgt5rquekxchatoy3gom",
+	"cid": "bafyreifyr2fo2rpnywa475lk2pa5h4ircci4epkepbnxs2cuwj3mwfk7by",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 246,
-	"indexedAt": "2024-11-23T01:15:23.687Z",
+	"likeCount": 253,
+	"indexedAt": "2024-11-23T08:34:51.166Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3914,6 +3914,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "participa-lab-polis",
+				"locales": [
+					{
+						"description": ":milky_way: Open Source AI for large scale open ended feedback\nhttps://github.com/participa-lab/polis",
+						"lang": "en",
+						"name": "participa-lab/polis"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "participa-lab-participa",
+				"locales": [
+					{
+						"description": "https://github.com/participa-lab/participa",
+						"lang": "en",
+						"name": "participa-lab/participa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jakenvac-boosky-rip",
+				"locales": [
+					{
+						"description": "https://github.com/jakenvac/boosky.rip",
+						"lang": "en",
+						"name": "jakenvac/boosky.rip"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "flic-node-red-contrib-haltwo",
+				"locales": [
+					{
+						"description": "A set of nodes to help with basic home automation logic\nhttps://github.com/flic/node-red-contrib-hal2",
+						"lang": "en",
+						"name": "flic/node-red-contrib-hal2"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4194,7 +4250,11 @@
 			"helix-editor-helix",
 			"deepqmc-deepqmc",
 			"nvim-lua-kickstart-nvim/",
-			"jasonbot-dotfiles"
+			"jasonbot-dotfiles",
+			"participa-lab-polis",
+			"participa-lab-participa",
+			"jakenvac-boosky-rip",
+			"flic-node-red-contrib-haltwo"
 		]
 	}
 }

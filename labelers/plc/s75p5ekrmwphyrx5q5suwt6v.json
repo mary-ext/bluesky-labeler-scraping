@@ -1,0 +1,46 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:s75p5ekrmwphyrx5q5suwt6v/app.bsky.labeler.service/self",
+	"cid": "bafyreiebl52eeiz225ltswjlonmgkzvsg66lsarzdvnusx4fxhki6yaj4u",
+	"creator": {
+		"did": "did:plc:s75p5ekrmwphyrx5q5suwt6v",
+		"handle": "acme.deloremipsum.lol",
+		"displayName": "Anti Clickbait Moderation Engine (POC)",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-23T16:44:01.446Z",
+		"description": "This will be a modlist to flag clickbaity things so that they don't clutter Bluesky. Here to help make the web more wholesome 💙\n\nThis is currently a proof of concept and a manual effort. Our robots are still using training wheels.",
+		"indexedAt": "2024-11-23T17:14:24.745Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-23T19:49:41.564Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "clickbait",
+				"locales": [
+					{
+						"description": "Flags content that seems clickbaity.",
+						"lang": "en",
+						"name": "Clickbait"
+					},
+					{
+						"description": "Reconoce contenido que parece clickbait.",
+						"lang": "es",
+						"name": "Clickbait"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"clickbait"
+		]
+	}
+}

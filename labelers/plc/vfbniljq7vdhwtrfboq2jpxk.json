@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:vfbniljq7vdhwtrfboq2jpxk/app.bsky.labeler.service/self",
+	"cid": "bafyreibvhowzjdyxuq3uhknjpu6jd42wwhxoji4bpo6r2es7pdz3rbsdiq",
+	"creator": {
+		"did": "did:plc:vfbniljq7vdhwtrfboq2jpxk",
+		"handle": "labeltest.guan.dk",
+		"displayName": "Guan’s Label Test",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vfbniljq7vdhwtrfboq2jpxk/bafkreig7mumbixtazut3ac3dczhhid3liswglhb6hrewdmk47df25ztaiu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-22T12:55:56.053Z",
+		"description": "Experimenting with custom moderation services and labeling",
+		"indexedAt": "2024-11-22T21:55:55.252Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-11-22T20:56:40.167Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "amazing",
+				"locales": [
+					{
+						"description": "amazing account",
+						"lang": "en",
+						"name": "🙌"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cool",
+				"locales": [
+					{
+						"description": "cool account",
+						"lang": "en",
+						"name": "🆒"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "awesome",
+				"locales": [
+					{
+						"description": "awesome account",
+						"lang": "en",
+						"name": "🤙"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"amazing",
+			"cool",
+			"awesome"
+		]
+	}
+}

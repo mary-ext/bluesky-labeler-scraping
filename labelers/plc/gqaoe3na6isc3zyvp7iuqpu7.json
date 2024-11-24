@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:gqaoe3na6isc3zyvp7iuqpu7/app.bsky.labeler.service/self",
-	"cid": "bafyreiaz7pxwybnrfodif7rrqlebg3lb46kwdquhdnmptryznsrsuhkaci",
+	"cid": "bafyreigwzju3u646ysboxi5b43x7gvhmkq5l423hvmy2ksh3dcg4tlz7oa",
 	"creator": {
 		"did": "did:plc:gqaoe3na6isc3zyvp7iuqpu7",
 		"handle": "arttheft.bsky.social",
@@ -15,11 +15,30 @@
 		"description": "Fighting art plagiarism 🖌️✊ Report posts in bluesky and provide proof for them to be considered.\nLooking for moderators! DM @chroma.rip\n\nアートの盗作と戦う 🖌️✊ bskyで投稿を報告し、検討の対象となる証拠を提示すること。\nモデレーター募集中、DM @chroma.rip\n\nNot for AI art, use @aimod.social instead",
 		"indexedAt": "2024-11-19T10:02:20.103Z"
 	},
-	"likeCount": 1423,
-	"indexedAt": "2024-11-19T07:47:24.716Z",
+	"likeCount": 1492,
+	"indexedAt": "2024-11-23T03:35:09.170Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "commission-scammer",
+				"locales": [
+					{
+						"description": "Accounts that claim to do commissions with little to no portfolio, engage in mass DMing, offer an unrealistically large set of skills, etc.",
+						"lang": "en",
+						"name": "Potential Commission Scammer"
+					},
+					{
+						"description": "ポートフォリオがほとんどまたは全くない状態でコミッションを行うと主張する、マスDMを行う、現実的ではないほど多様なスキルを提供するといった行動を取るアカウント。",
+						"lang": "ja",
+						"name": "潜在的なコミッション詐欺アカウント"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -117,6 +136,7 @@
 			}
 		],
 		"labelValues": [
+			"commission-scammer",
 			"impersonation-account",
 			"plagiarism-account",
 			"repost-account",

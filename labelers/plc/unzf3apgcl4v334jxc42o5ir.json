@@ -1,0 +1,87 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:unzf3apgcl4v334jxc42o5ir/app.bsky.labeler.service/self",
+	"cid": "bafyreibnihiz5tstikfrc6cocmxtxhlw7cjw2uqccle2wf7i2gon7ajeti",
+	"creator": {
+		"did": "did:plc:unzf3apgcl4v334jxc42o5ir",
+		"handle": "posho.zone",
+		"displayName": "Oxbridge Labeller",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:unzf3apgcl4v334jxc42o5ir/bafkreidgmjypkxjsvw4rsor5drnw6yt5pv6h4nfu2r34xvfstt6tlfpmcm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-22T18:35:09.954Z",
+		"description": "Does what it says on the tin, labels people (mostly UK media/politics) who went to Oxford or Cambridge. Also Sandhurst. You might also enjoy @daddys.cash and @parents.blue",
+		"indexedAt": "2024-11-22T18:37:32.054Z"
+	},
+	"likeCount": 7,
+	"indexedAt": "2024-11-23T02:21:07.955Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oxford",
+				"locales": [
+					{
+						"description": "Went to Oxford University",
+						"lang": "en",
+						"name": "Oxford"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cambridge",
+				"locales": [
+					{
+						"description": "Went to Cambridge University",
+						"lang": "en",
+						"name": "Cambridge"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ppe",
+				"locales": [
+					{
+						"description": "Studied PPE at Oxford",
+						"lang": "en",
+						"name": "Oxford (PPE)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sandhurst",
+				"locales": [
+					{
+						"description": "Went to Sandhurst - i.e. was a direct entry commissioned officer in the British Army",
+						"lang": "en",
+						"name": "Sandhurst"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"cambridge",
+			"oxford",
+			"ppe",
+			"sandhurst"
+		]
+	}
+}
