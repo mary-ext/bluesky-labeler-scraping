@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreiddgl3qujefqjbi27f4eipgv4wns7biw7pehkyhv2pzdpirhc3zte",
+	"cid": "bafyreihnet3oc5r5jdj3uk6ysa4enwuxy6ir6sscgblabfzgvbbv6vekge",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -15,14 +15,56 @@
 		},
 		"labels": [],
 		"createdAt": "2024-08-30T06:33:01.334Z",
-		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
-		"indexedAt": "2024-11-15T13:49:21.330Z"
+		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️ (up to 4)\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
+		"indexedAt": "2024-11-24T17:25:17.846Z"
 	},
-	"likeCount": 371,
-	"indexedAt": "2024-11-19T09:37:49.138Z",
+	"likeCount": 373,
+	"indexedAt": "2024-11-24T10:39:26.960Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eggplant",
+				"locales": [
+					{
+						"description": "In the mood for... you know...",
+						"lang": "en",
+						"name": "Mood: 🍆"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tiger-face",
+				"locales": [
+					{
+						"description": "I'm feeling fierce/confident/powerful.",
+						"lang": "en",
+						"name": "Mood: 🐯"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "running",
+				"locales": [
+					{
+						"description": "In the mood for running.",
+						"lang": "en",
+						"name": "Mood: 🏃🏃‍♀️🏃‍♂️"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1705,6 +1747,9 @@
 			}
 		],
 		"labelValues": [
+			"eggplant",
+			"tiger-face",
+			"running",
 			"penguin",
 			"parrot",
 			"sauropod",

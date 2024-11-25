@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreiefqf2izcydxoysjrfziq56xavanoxmp7le7itt64adsvd3gdzwce",
+	"cid": "bafyreiazakudyo6xwmujmpj3huwrqod2otyzr2uznoh6vmgiun5srsxif4",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,417 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-11-22T16:27:26.953Z"
 	},
-	"likeCount": 320,
-	"indexedAt": "2024-11-22T19:48:30.079Z",
+	"likeCount": 332,
+	"indexedAt": "2024-11-24T12:55:31.365Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yarm",
+				"locales": [
+					{
+						"description": "£19,011/year",
+						"lang": "en",
+						"name": "Yarm School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "georgeheriots",
+				"locales": [
+					{
+						"description": "£19,749/year",
+						"lang": "en",
+						"name": "George Heriot's School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dameallans",
+				"locales": [
+					{
+						"description": "£17,977/year",
+						"lang": "en",
+						"name": "Dame Allan's School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dalton",
+				"locales": [
+					{
+						"description": "$64,300/year",
+						"lang": "en",
+						"name": "The Dalton School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "belmontabbey",
+				"locales": [
+					{
+						"description": "Now Closed",
+						"lang": "en",
+						"name": "Belmont Abbey School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stanns",
+				"locales": [
+					{
+						"description": "$60,525/year",
+						"lang": "en",
+						"name": "St Ann's School, Brooklyn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lochinver",
+				"locales": [
+					{
+						"description": "£20,837/year",
+						"lang": "en",
+						"name": "Lochinver House School for Boys"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "haileybury",
+				"locales": [
+					{
+						"description": "£47,835/year",
+						"lang": "en",
+						"name": "Haileybury and Imperial Service College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "winchester",
+				"locales": [
+					{
+						"description": "£55,140/year",
+						"lang": "en",
+						"name": "Winchester College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stjosephs",
+				"locales": [
+					{
+						"description": "£71,911/year",
+						"lang": "en",
+						"name": "St Joseph's College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kevis",
+				"locales": [
+					{
+						"description": "£18,324/year",
+						"lang": "en",
+						"name": "King Edward VI School, Birmingham"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kingsgloucester",
+				"locales": [
+					{
+						"description": "£26,335/year",
+						"lang": "en",
+						"name": "The King's School, Gloucester"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nottinghillealing",
+				"locales": [
+					{
+						"description": "£25,805/year",
+						"lang": "en",
+						"name": "Notting Hill and Ealing High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kent",
+				"locales": [
+					{
+						"description": "£42,719/year",
+						"lang": "en",
+						"name": "Kent College, Canterbury"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "meriden",
+				"locales": [
+					{
+						"description": "AUD$38,160/year",
+						"lang": "en",
+						"name": "Meriden School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ravenswood",
+				"locales": [
+					{
+						"description": "AUD$73,700/year",
+						"lang": "en",
+						"name": "Ravenswood School for Girls"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "francisholland",
+				"locales": [
+					{
+						"description": "£29,954/year",
+						"lang": "en",
+						"name": "Francis Holland School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "warminster",
+				"locales": [
+					{
+						"description": "£45,738/year",
+						"lang": "en",
+						"name": "Warminster School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "framlingham",
+				"locales": [
+					{
+						"description": "£73,707/year",
+						"lang": "en",
+						"name": "Framlingham College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sthelens",
+				"locales": [
+					{
+						"description": "£23,551/year",
+						"lang": "en",
+						"name": "St Helen's School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "barnardcastle",
+				"locales": [
+					{
+						"description": "£45,900/year",
+						"lang": "en",
+						"name": "Barnard Castle School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bolton",
+				"locales": [
+					{
+						"description": "£14,316/year",
+						"lang": "en",
+						"name": "Bolton School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "roedean",
+				"locales": [
+					{
+						"description": "£54,825/year",
+						"lang": "en",
+						"name": "Roedean"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "robertgordon",
+				"locales": [
+					{
+						"description": "£18,322/year",
+						"lang": "en",
+						"name": "Robert Gordon's College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "streathamclapham",
+				"locales": [
+					{
+						"description": "£25,290/year",
+						"lang": "en",
+						"name": "Streatham and Clapham High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "beechwood",
+				"locales": [
+					{
+						"description": "£60,029/year",
+						"lang": "en",
+						"name": "Beechwood Sacred Heart School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "berkhamstead",
+				"locales": [
+					{
+						"description": "£49,572/year",
+						"lang": "en",
+						"name": "Berkhamstead School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "christhospital",
+				"locales": [
+					{
+						"description": "£44,844/year",
+						"lang": "en",
+						"name": "Christ Hospital School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "webb",
+				"locales": [
+					{
+						"description": "$80,835/year",
+						"lang": "en",
+						"name": "The Webb Schools"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1012,7 +1418,7 @@
 					{
 						"description": "£46,740/year (2024/2025)",
 						"lang": "en",
-						"name": "Ampleforth School"
+						"name": "Ampleforth College"
 					}
 				],
 				"severity": "inform"
@@ -1104,7 +1510,36 @@
 			"allentown",
 			"archbishopspalding",
 			"sluh",
-			"gormanston"
+			"gormanston",
+			"webb",
+			"christhospital",
+			"berkhamstead",
+			"beechwood",
+			"streathamclapham",
+			"robertgordon",
+			"roedean",
+			"bolton",
+			"barnardcastle",
+			"sthelens",
+			"framlingham",
+			"warminster",
+			"francisholland",
+			"meriden",
+			"ravenswood",
+			"kent",
+			"nottinghillealing",
+			"kingsgloucester",
+			"kevis",
+			"stjosephs",
+			"winchester",
+			"lochinver",
+			"haileybury",
+			"stanns",
+			"belmontabbey",
+			"dalton",
+			"dameallans",
+			"georgeheriots",
+			"yarm"
 		]
 	}
 }

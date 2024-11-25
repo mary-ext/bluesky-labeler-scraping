@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:77uoxcpiz5ljvaoceel3w5nv/app.bsky.labeler.service/self",
-	"cid": "bafyreico6agcup4efclsmdkp4irub36uajrvpvgmelepjuu336ru4st4tm",
+	"cid": "bafyreibjaqt32g7vnljyn3sunzj3vk365bf2xvsdttkwgznnmjil7as4ka",
 	"creator": {
 		"did": "did:plc:77uoxcpiz5ljvaoceel3w5nv",
 		"handle": "ozone.ally.cat",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-10-26T17:09:48.405Z"
 	},
 	"likeCount": 5,
-	"indexedAt": "2024-10-25T22:27:08.803Z",
+	"indexedAt": "2024-11-24T20:55:54.174Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -111,12 +111,40 @@
 				"adultOnly": true,
 				"blurs": "content",
 				"defaultSetting": "ignore",
+				"identifier": "feet",
+				"locales": [
+					{
+						"description": "Content with a focus or attraction to feet",
+						"lang": "en",
+						"name": "Feet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
 				"identifier": "incest",
 				"locales": [
 					{
 						"description": "Content involving incest.",
 						"lang": "en",
 						"name": "Incest"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "inflation",
+				"locales": [
+					{
+						"description": "Content involving inflation.",
+						"lang": "en",
+						"name": "Inflation"
 					}
 				],
 				"severity": "inform"
@@ -162,6 +190,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "scat",
+				"locales": [
+					{
+						"description": "Content involving scat / feces.",
+						"lang": "en",
+						"name": "Scat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "vomit",
+				"locales": [
+					{
+						"description": "Content involving emeto / vomit.",
+						"lang": "en",
+						"name": "Vomit"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -171,10 +227,14 @@
 			"agere",
 			"bondage",
 			"diapers",
+			"feet",
 			"incest",
+			"inflation",
 			"nsfw",
 			"petplay",
-			"piss"
+			"piss",
+			"scat",
+			"vomit"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreifyr2fo2rpnywa475lk2pa5h4ircci4epkepbnxs2cuwj3mwfk7by",
+	"cid": "bafyreicjpqxk3oc2bt7skvmaz6wexq2wlqlbm4kwbfivrclv4jzsf3raom",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 253,
-	"indexedAt": "2024-11-23T08:34:51.166Z",
+	"likeCount": 257,
+	"indexedAt": "2024-11-24T21:57:22.473Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -3970,6 +3970,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "prometheus-prometheus",
+				"locales": [
+					{
+						"description": "The Prometheus monitoring system and time series database.\nhttps://github.com/prometheus/prometheus",
+						"lang": "en",
+						"name": "prometheus/prometheus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "prometheus-client-golang",
+				"locales": [
+					{
+						"description": "Prometheus instrumentation library for Go applications\nhttps://github.com/prometheus/client_golang",
+						"lang": "en",
+						"name": "prometheus/client_golang"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parca-dev-parca-agent",
+				"locales": [
+					{
+						"description": "eBPF based always-on profiler auto-discovering targets in Kubernetes and systemd, zero code changes or restarts needed!\nhttps://github.com/parca-dev/parca-agent",
+						"lang": "en",
+						"name": "parca-dev/parca-agent"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "esolia-japanactivationcapital-com",
+				"locales": [
+					{
+						"description": "Japan Activation Capital \"JAC\" site repository. \nhttps://github.com/eSolia/japanactivationcapital.com",
+						"lang": "en",
+						"name": "Esolia/japanactivationcapital.com"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inp-net-churros",
+				"locales": [
+					{
+						"description": "Student life organization platform · Mirror of https://git.inpt.fr/churros/churros.\nhttps://github.com/inp-net/churros",
+						"lang": "en",
+						"name": "inp-net/churros"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4254,7 +4324,12 @@
 			"participa-lab-polis",
 			"participa-lab-participa",
 			"jakenvac-boosky-rip",
-			"flic-node-red-contrib-haltwo"
+			"flic-node-red-contrib-haltwo",
+			"prometheus-prometheus",
+			"prometheus-client-golang",
+			"parca-dev-parca-agent",
+			"esolia-japanactivationcapital-com",
+			"inp-net-churros"
 		]
 	}
 }

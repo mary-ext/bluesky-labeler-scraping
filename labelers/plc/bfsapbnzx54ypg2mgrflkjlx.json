@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bfsapbnzx54ypg2mgrflkjlx/app.bsky.labeler.service/self",
-	"cid": "bafyreihlbkftppdonyafrsthy5ooh4o3rdazx4ictyb7shaqncibcdi2ui",
+	"cid": "bafyreiful6fa5qe34ncgwa6xod2chdgt6ahckhepkmasaffnnfw2abr5yy",
 	"creator": {
 		"did": "did:plc:bfsapbnzx54ypg2mgrflkjlx",
 		"handle": "parents.blue",
@@ -15,11 +15,25 @@
 		"description": "Labeller to highlight Nepo Baby accounts - mostly in media and politics - where the person in question has famous or influential family, especially if their parents/relative have a blue link on Wikipedia. See also @daddys.cash for private school labels",
 		"indexedAt": "2024-11-22T17:03:04.154Z"
 	},
-	"likeCount": 60,
-	"indexedAt": "2024-11-22T16:16:40.969Z",
+	"likeCount": 66,
+	"indexedAt": "2024-11-24T11:18:07.349Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fail",
+				"locales": [
+					{
+						"description": "Child of prominent left winger, marxist academic, trade unionist or similar - but who has turned out to be a neoliberal or right winger or the like",
+						"lang": "en",
+						"name": "Disappointment"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -66,7 +80,8 @@
 		"labelValues": [
 			"famousnowiki",
 			"blueother",
-			"blueparent"
+			"blueparent",
+			"fail"
 		]
 	}
 }

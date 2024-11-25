@@ -1,0 +1,87 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:asypmx5zv6bmq4fes6fjsojq/app.bsky.labeler.service/self",
+	"cid": "bafyreiahylmzsa6birs743wfbtdailgrcz36anpc7crmfpetu63ojod3eq",
+	"creator": {
+		"did": "did:plc:asypmx5zv6bmq4fes6fjsojq",
+		"handle": "moderation-nl.bsky.social",
+		"displayName": "NL Moderation Service 🇳🇱",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:asypmx5zv6bmq4fes6fjsojq/bafkreiglx7mr6dsk4slscfswuw735duxfndybhvp6ole52fkba2aujfhxi@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-24T15:36:54.645Z",
+		"description": "🇬🇧Community project for providing labeling services for Dutch users. Work in progress.\n\n🇳🇱Community project voor het leveren van labeling services aan Nederlandse gebruikers. Wordt nog aan gewerkt.",
+		"indexedAt": "2024-11-24T19:34:35.247Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-24T20:40:53.255Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "label-test",
+				"locales": [
+					{
+						"description": "A label used for testing the service.",
+						"lang": "en",
+						"name": "Testing label"
+					},
+					{
+						"description": "Een label gebruikt om de service te testen.",
+						"lang": "nl",
+						"name": "Testlabel"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "label-misinformation",
+				"locales": [
+					{
+						"description": "The user posts factually incorrect or misleading messages.",
+						"lang": "en",
+						"name": "Misinformation"
+					},
+					{
+						"description": "De gebruiker plaatst feitelijk onjuiste of misleidende berichten.",
+						"lang": "nl",
+						"name": "Desinformatie"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "label-foul-language",
+				"locales": [
+					{
+						"description": "The user uses swear words or offensive language.",
+						"lang": "en",
+						"name": "Foul language"
+					},
+					{
+						"description": "De gebruiker gebruikt scheldwoorden of beledigende taal.",
+						"lang": "nl",
+						"name": "Schelden"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"label-test",
+			"label-misinformation",
+			"label-foul-language"
+		]
+	}
+}

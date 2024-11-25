@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:snxoa2w2hj2bdewwczlxpzif/app.bsky.labeler.service/self",
-	"cid": "bafyreih6zldwgspwbla32glhysilntewiwho2ohjy43abs2lj2lascvp7u",
+	"cid": "bafyreidj2fwiw7k2d222fijtkzrzrpxxhpp7wk5ek2ndnlh6av5h4vdyca",
 	"creator": {
 		"did": "did:plc:snxoa2w2hj2bdewwczlxpzif",
 		"handle": "labeler.partall.no",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-11-21T09:49:31.571Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-20T18:52:00.985Z",
+	"indexedAt": "2024-11-25T00:49:00.969Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -51,16 +51,58 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "malicious-content",
+				"locales": [
+					{
+						"description": "Content that includes links to malicious websites, malware, phishing scams, or any deceptive practices intended to harm users or compromise their security.",
+						"lang": "en",
+						"name": "Malicious Links, Malware or Scams"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "harasser",
+				"locales": [
+					{
+						"description": "A user who repeatedly engages in bullying, harassment, or threats towards others. \n\nThis includes sending intimidating messages, targeting individuals with harmful content, or any behavior intended to cause distress or fear.",
+						"lang": "en",
+						"name": "Harasser"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
 				"defaultSetting": "warn",
 				"identifier": "harassment",
 				"locales": [
 					{
-						"description": "Bullying, harassment and content meant to cause distress or intimidate individuals.",
+						"description": "Bullying, harassment, and content meant to cause distress or intimidate individuals.",
 						"lang": "en",
 						"name": "Bullying, Harassment or Threats"
 					}
 				],
 				"severity": "warn"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bigot",
+				"locales": [
+					{
+						"description": "Users who frequently posts hate speech or engages in other hateful conduct. \n\nThis label is applied to users whose primary activity involves promoting hatred against individuals or groups based on attributes like race, religion, ethnicity, gender, or sexual orientation.",
+						"lang": "en",
+						"name": "Bigot"
+					}
+				],
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
@@ -94,6 +136,20 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "profile-deception",
+				"locales": [
+					{
+						"description": "Profiles that do not impersonate someone else but use profile pictures, banners, or text that are not actually representative of themselves, thereby misleading others about who they are.",
+						"lang": "en",
+						"name": "Profile deception"
+					}
+				],
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
@@ -137,9 +193,13 @@
 		"labelValues": [
 			"spammer",
 			"spam",
+			"malicious-content",
+			"harasser",
 			"harassment",
+			"bigot",
 			"hate-speech",
 			"inauthentic-account",
+			"profile-deception",
 			"parody-account",
 			"fan-account"
 		]

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qhdv5xwffbogrfoqcqzpady/app.bsky.labeler.service/self",
-	"cid": "bafyreibraw6nbahdko464tbotzddjbs462wc35rzwbmxuob6cxcpvvfb6i",
+	"cid": "bafyreihw5h6hddbju6j73qxkly3f6zzm75b4q32ftjlalsll4dtwiu3v7m",
 	"creator": {
 		"did": "did:plc:2qhdv5xwffbogrfoqcqzpady",
 		"handle": "labeler.procycling.social",
@@ -15,8 +15,8 @@
 		"description": "A labeling service for the Professional Cycling community. Check my posts for instructions.\n\nLabels are manually applied and may be delayed. \n\nManaged by @kris.to",
 		"indexedAt": "2024-11-22T16:12:24.355Z"
 	},
-	"likeCount": 4,
-	"indexedAt": "2024-11-22T15:30:57.271Z",
+	"likeCount": 6,
+	"indexedAt": "2024-11-24T21:32:33.658Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,12 +24,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "cycling-superfan",
+				"identifier": "couch-peloton",
 				"locales": [
 					{
-						"description": "An account that only posts about cycling. A stan.",
+						"description": "A connoisseur of the niche sport of bicycle racing.",
 						"lang": "en",
-						"name": "Cycling Superfan"
+						"name": "Couch Peloton"
 					}
 				],
 				"severity": "inform"
@@ -43,7 +43,7 @@
 					{
 						"description": "Anybody who follows professional cycling.",
 						"lang": "en",
-						"name": "Cycling Fan"
+						"name": "🚴‍♂️🚴‍♀️🚴"
 					}
 				],
 				"severity": "inform"
@@ -52,12 +52,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "cycling-media",
+				"identifier": "cycling-superfan",
 				"locales": [
 					{
-						"description": "Journalists and publications delivering news, insights, and stories from the professional cycling world.\n\n✅ This profile has been independently verified.",
+						"description": "All cycling, all the time. A real 🚴‍♂️🚴‍♀️🚴 stan.",
 						"lang": "en",
-						"name": "Cycling Media"
+						"name": "🚴‍♂️ Superfan"
 					}
 				],
 				"severity": "inform"
@@ -66,12 +66,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "team-insider",
+				"identifier": "cycling-business",
 				"locales": [
 					{
-						"description": "Those with professional involvement in a pro team’s operations.\n\n✅ This profile has been independently verified.",
+						"description": "Any business in the world of bike racing.",
 						"lang": "en",
-						"name": "Team Insider"
+						"name": "🚴‍♂️ Business"
 					}
 				],
 				"severity": "inform"
@@ -99,7 +99,7 @@
 					{
 						"description": "A professional cycling team.\n\n✅ This profile has been independently verified.",
 						"lang": "en",
-						"name": "Team"
+						"name": "Cycling Team"
 					}
 				],
 				"severity": "inform"
@@ -113,7 +113,35 @@
 					{
 						"description": "An account representing an individual race.\n\n✅ This profile has been independently verified.",
 						"lang": "en",
-						"name": "Race"
+						"name": "Bike Race"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-media",
+				"locales": [
+					{
+						"description": "Journalists and publications delivering news, insights, and stories from the professional cycling world.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Cycling Media"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "team-insider",
+				"locales": [
+					{
+						"description": "An account with professional involvement in a pro team’s operations.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Team Insider"
 					}
 				],
 				"severity": "inform"
@@ -125,7 +153,7 @@
 				"identifier": "unrelated",
 				"locales": [
 					{
-						"description": "This content has been marked unrelated to pro cycling, as was possibly mis-included in the Pro Cycling Chatter feed.",
+						"description": "This content has been marked unrelated to pro cycling, and was possibly mis-included in the Pro Cycling Chatter feed.",
 						"lang": "en",
 						"name": "Unrelated content"
 					}
@@ -148,14 +176,16 @@
 			}
 		],
 		"labelValues": [
+			"cycling-fan",
+			"couch-peloton",
 			"cycling-superfan",
 			"content-creator",
-			"cycling-fan",
-			"cycling-media",
-			"team-insider",
+			"cycling-business",
 			"pro-cyclist",
 			"team",
 			"race",
+			"cycling-media",
+			"team-insider",
 			"race-spoiler",
 			"unrelated"
 		]

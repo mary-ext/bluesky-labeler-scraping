@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreibcrcdqaweofo3fciab5bm4ja5krevembniiks4rjpeafrtkblnzi",
+	"cid": "bafyreig2lc5wdnjq3x3wk3dqjknndxaah7vbbufck7gfd2t3ihuigzrvpi",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,8 +18,8 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social | Independent Labeling Service",
 		"indexedAt": "2024-11-24T01:15:29.745Z"
 	},
-	"likeCount": 5621,
-	"indexedAt": "2024-11-23T17:02:13.258Z",
+	"likeCount": 5761,
+	"indexedAt": "2024-11-24T07:15:24.959Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -262,16 +262,16 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "sports-betting",
 				"locales": [
 					{
-						"description": "Applied to posts which contain a link to sites commonly used for sports betting, such as Draft Kings or Fan Duel.",
+						"description": "Applied to posts which contain a link to sites commonly used for sports betting, such as Draft Kings or Fan Duel. If you or a loved one have a gambling problem, please find help here: https://www.ncpgambling.org/help-treatment/help-by-state/",
 						"lang": "en",
 						"name": "Sports Betting Link"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
