@@ -1,25 +1,71 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:urqaeezsp2sdyqizhr64smwe/app.bsky.labeler.service/self",
-	"cid": "bafyreigzkffwbuzmodqulcy7kcfmjdbbgc4jqty55awafsuxfdftgwxfhi",
+	"cid": "bafyreihmh4xmr4f5arihxf2dto72uqloq5xecg4o3yr7yg6xqfkkj6gnoe",
 	"creator": {
 		"did": "did:plc:urqaeezsp2sdyqizhr64smwe",
 		"handle": "badge.aspiration.church",
 		"displayName": "Church of Aspiration Badges",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:urqaeezsp2sdyqizhr64smwe/bafkreiglu2mhcalagp6ynggvfkjnioof7duqdv42mox5qx5bpxltgdvrty@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:urqaeezsp2sdyqizhr64smwe/bafkreigpdtru6ajtumr2bvfkwg55lu5dalaothtfqfnizuiwov6fse7uu4@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-24T17:02:33.847Z",
-		"indexedAt": "2024-11-24T22:59:14.645Z"
+		"indexedAt": "2024-11-25T06:40:26.846Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-24T22:56:28.953Z",
+	"indexedAt": "2024-11-25T19:21:07.858Z",
 	"labels": [],
 	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aspirant",
+				"locales": [
+					{
+						"description": "Member of the Church of Aspiration.",
+						"lang": "en",
+						"name": "Aspirant"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cleric",
+				"locales": [
+					{
+						"description": "Ordained clergy of the Church of Aspiration.",
+						"lang": "en",
+						"name": "Cleric"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "friend",
+				"locales": [
+					{
+						"description": "Friend of the Church of Aspiration.",
+						"lang": "en",
+						"name": "Clean Air Advocate"
+					}
+				],
+				"severity": "inform"
+			}
+		],
 		"labelValues": [
-			"aspirant"
+			"aspirant",
+			"cleric",
+			"friend"
 		]
 	}
 }

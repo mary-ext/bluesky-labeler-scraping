@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
-	"cid": "bafyreid4vwistug6nsaf2mskq46facpzajgkw7gbtql64nsr52wgep6gwy",
+	"cid": "bafyreiey6k3xgduhss26zur4ygzha34glglfbeckyuskqqnsus2fwzcxda",
 	"creator": {
 		"did": "did:plc:3eivfiql4memqxkryeu4tqnk",
 		"handle": "mod.shawn.party",
@@ -18,11 +18,25 @@
 		"description": "A 3rd party Bluesky labeler service account run by @shawn.party\n\nMy primary purpose is labeling #spoiler posts here on BlueSky",
 		"indexedAt": "2024-11-11T20:47:53.313Z"
 	},
-	"likeCount": 127,
-	"indexedAt": "2024-11-15T00:28:30.342Z",
+	"likeCount": 130,
+	"indexedAt": "2024-11-25T14:28:31.867Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "Star Wars Fan",
+				"locales": [
+					{
+						"description": "Vanity label for fans of the Star Wars galaxy",
+						"lang": "en",
+						"name": "Star Wars Fan"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -68,20 +82,6 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
-				"defaultSetting": "ignore",
-				"identifier": "ai-related-content",
-				"locales": [
-					{
-						"description": "Content that may be AI-related or AI-generated",
-						"lang": "en",
-						"name": "🤖 AI-Related Content"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content",
 				"defaultSetting": "hide",
 				"identifier": "spoiler",
 				"locales": [
@@ -100,10 +100,10 @@
 			}
 		],
 		"labelValues": [
+			"star-wars-fan",
 			"spoiler",
 			"star-wars-content",
 			"star-wars-creator",
-			"ai-related-content",
 			"list-fiend"
 		]
 	}

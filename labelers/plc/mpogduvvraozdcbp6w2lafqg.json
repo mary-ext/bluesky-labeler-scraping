@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mpogduvvraozdcbp6w2lafqg/app.bsky.labeler.service/self",
-	"cid": "bafyreify52fq2dqz2d2i3vqtu25hpw4tsa7vh2pdy5c6moh2nymutlyanm",
+	"cid": "bafyreifkin4m7znnujew7xtldkmqmvurq2azjljavyzjmubhbpdpxjrzhu",
 	"creator": {
 		"did": "did:plc:mpogduvvraozdcbp6w2lafqg",
 		"handle": "warlabel.bsky.social",
@@ -15,11 +15,39 @@
 		"description": "A new labeler set unofficially in the Warhammer universe!\nSubscribe and Like to join!\n\nuse \"@warlabel.bsky.social help\" to learn commands",
 		"indexedAt": "2024-11-24T20:09:12.747Z"
 	},
-	"likeCount": 158,
-	"indexedAt": "2024-11-21T18:31:12.603Z",
+	"likeCount": 159,
+	"indexedAt": "2024-11-25T19:23:46.256Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tau",
+				"locales": [
+					{
+						"description": "For the Greater Good",
+						"lang": "en",
+						"name": "Tau"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ork",
+				"locales": [
+					{
+						"description": "WAAAAAAUUUGH!",
+						"lang": "en",
+						"name": "Ork"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -596,6 +624,8 @@
 			}
 		],
 		"labelValues": [
+			"tau",
+			"ork",
 			"drukhari",
 			"firstborn",
 			"alpha-legion",

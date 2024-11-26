@@ -1,0 +1,56 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:jfkerebi2kdudordsrccusgc/app.bsky.labeler.service/self",
+	"cid": "bafyreib5fw5kwczyfcw2l7iq2clwdx3wkxd2iflkkiipe6e3eovmgtxbzy",
+	"creator": {
+		"did": "did:plc:jfkerebi2kdudordsrccusgc",
+		"handle": "moderation-fr.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jfkerebi2kdudordsrccusgc/bafkreiavt4ql56kotjvzy7ay2xt2lr3n6a35hfjzzilocjiw4n5cnl6ywu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-25T12:52:26.946Z",
+		"indexedAt": "2024-11-25T12:52:26.946Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-25T13:05:38.155Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "racisme",
+				"locales": [
+					{
+						"description": "Propos racistes",
+						"lang": "en",
+						"name": "Racisme"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "homophobie",
+				"locales": [
+					{
+						"description": "Cette personne a tenu des propos homophobes",
+						"lang": "en",
+						"name": "Homophobie"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"racisme",
+			"homophobie"
+		]
+	}
+}

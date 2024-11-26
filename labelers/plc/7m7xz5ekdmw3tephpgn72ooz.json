@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreihnet3oc5r5jdj3uk6ysa4enwuxy6ir6sscgblabfzgvbbv6vekge",
+	"cid": "bafyreifyhytyg7eptjbnibvxpg2tjibak2kjyqtddbaxfmsos7urwlelci",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -18,11 +18,25 @@
 		"description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️ (up to 4)\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
 		"indexedAt": "2024-11-24T17:25:17.846Z"
 	},
-	"likeCount": 373,
-	"indexedAt": "2024-11-24T10:39:26.960Z",
+	"likeCount": 371,
+	"indexedAt": "2024-11-25T10:58:15.562Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "smiling-face-with-horns",
+				"locales": [
+					{
+						"description": "I'm feeling mischievous/playful/naughty.",
+						"lang": "en",
+						"name": "Mood: 😈"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1747,6 +1761,7 @@
 			}
 		],
 		"labelValues": [
+			"smiling-face-with-horns",
 			"eggplant",
 			"tiger-face",
 			"running",
