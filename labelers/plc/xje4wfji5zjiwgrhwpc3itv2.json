@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xje4wfji5zjiwgrhwpc3itv2/app.bsky.labeler.service/self",
-	"cid": "bafyreihbli2krf3xoj7rp3sgwlzbzvbh2oqudieg7elemdzb2ghzuwyccy",
+	"cid": "bafyreifbswe6tvvmbagzn2vgot53qds23rcljzrlmifhwez5jckicudvpm",
 	"creator": {
 		"did": "did:plc:xje4wfji5zjiwgrhwpc3itv2",
 		"handle": "label.directioners.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-11-25T23:38:32.745Z"
 	},
 	"likeCount": 11,
-	"indexedAt": "2024-11-26T00:36:17.254Z",
+	"indexedAt": "2024-11-26T23:42:24.162Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -209,12 +209,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "ot5-fan",
+				"identifier": "otfive",
 				"locales": [
 					{
 						"description": "All 5 boys",
 						"lang": "en",
-						"name": "1D - OT5"
+						"name": "OT5 🎶"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "otfour",
+				"locales": [
+					{
+						"description": "Louis, Harry, Liam and Niall",
+						"lang": "en",
+						"name": "OT4 🎤"
 					}
 				],
 				"severity": "inform"
@@ -234,7 +248,8 @@
 			"niall-fan",
 			"harry-fan",
 			"liam-fan",
-			"ot5-fan"
+			"otfive",
+			"otfour"
 		]
 	}
 }

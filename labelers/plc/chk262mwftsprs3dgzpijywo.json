@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:chk262mwftsprs3dgzpijywo/app.bsky.labeler.service/self",
-	"cid": "bafyreig6miiysimujbktoojvp6nqwas6ab5v6dtuezy2fkjsyjef25aotm",
+	"cid": "bafyreid3hqxs7ra5t7xrmaig7orvmlaldl3ndkdz4ggugonz7fn7sbljnu",
 	"creator": {
 		"did": "did:plc:chk262mwftsprs3dgzpijywo",
 		"handle": "perfect-bra.in",
@@ -19,10 +19,24 @@
 		"indexedAt": "2024-06-21T17:38:45.910Z"
 	},
 	"likeCount": 37,
-	"indexedAt": "2024-11-24T22:49:50.554Z",
+	"indexedAt": "2024-11-26T04:25:37.864Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "charcoal-eater",
+				"locales": [
+					{
+						"description": "This user will eat half a bag of charcoal in the store and then put the bag back for someone else to deal with it and they don't seem to see anything wrong with that!",
+						"lang": "en",
+						"name": "Part of the Problem"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -333,6 +347,7 @@
 			}
 		],
 		"labelValues": [
+			"charcoal-eater",
 			"extra-life-two-four",
 			"bird-lord",
 			"intemperate",

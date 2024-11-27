@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4wdiawuqywf3zx4faayw4hv2/app.bsky.labeler.service/self",
-	"cid": "bafyreibh3huzym3klz7uuiv4hm276wfm7rwrlanjfyqh4irbyk7luuomlq",
+	"cid": "bafyreihazpef65okqc3qpxfbjcmkgdebkz2qjhmh3ogoeru3hrdci2qtly",
 	"creator": {
 		"did": "did:plc:4wdiawuqywf3zx4faayw4hv2",
 		"handle": "mushroom-labeler.bsky.social",
@@ -13,10 +13,10 @@
 		"labels": [],
 		"createdAt": "2024-11-24T06:25:32.546Z",
 		"description": "Find out which mushroom you're on.\nIN DEVELOPMENT (probably not working yet).",
-		"indexedAt": "2024-11-24T06:48:51.545Z"
+		"indexedAt": "2024-11-26T19:11:37.046Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-24T06:39:41.260Z",
+	"indexedAt": "2024-11-26T18:48:06.870Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,19 +24,664 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "agaric",
+				"locales": [
+					{
+						"description": "Agaric is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "agaric"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "boletus",
+				"locales": [
+					{
+						"description": "Boletus is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "boletus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bracket",
+				"locales": [
+					{
+						"description": "Bracket is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "bracket"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "button",
+				"locales": [
+					{
+						"description": "Button is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "button"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "conocybe",
+				"locales": [
+					{
+						"description": "Conocybe is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "conocybe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chaga",
+				"locales": [
+					{
+						"description": "Chaga is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "chaga"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cremini",
+				"locales": [
+					{
+						"description": "Cremini is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "cremini"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chanterelle",
+				"locales": [
+					{
+						"description": "Chanterelle is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "chanterelle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gomphus",
+				"locales": [
+					{
+						"description": "Gomphus is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "gomphus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cordyceps",
+				"locales": [
+					{
+						"description": "Cordyceps is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "cordyceps"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hydnum",
+				"locales": [
+					{
+						"description": "Hydnum is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "hydnum"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "blewit",
 				"locales": [
 					{
-						"description": "Blewit refers to two closely related species of edible agarics in the genus Collybia, the wood blewit (Collybia nuda, formerly Clitocybe nuda or Lepista nuda) and the field blewit or blue-leg (C. personata, formerly Clitocybe personata, Lepista personata, or Lepista saeva). ",
+						"description": "Blewit is a type of mushroom and the name of this user's Bluesky PDS.",
 						"lang": "en",
 						"name": "blewit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ganoderma",
+				"locales": [
+					{
+						"description": "Ganoderma is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "ganoderma"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "matsutake",
+				"locales": [
+					{
+						"description": "Matsutake is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "matsutake"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lepista",
+				"locales": [
+					{
+						"description": "Lepista is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "lepista"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "maitake",
+				"locales": [
+					{
+						"description": "Maitake is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "maitake"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "milkcap",
+				"locales": [
+					{
+						"description": "Milkcap is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "milkcap"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "magic",
+				"locales": [
+					{
+						"description": "Magic is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "magic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "woodear",
+				"locales": [
+					{
+						"description": "Woodear is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "woodear"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "witchesbutter",
+				"locales": [
+					{
+						"description": "Witchesbutter is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "witchesbutter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "verpa",
+				"locales": [
+					{
+						"description": "Verpa is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "verpa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stinkhorn",
+				"locales": [
+					{
+						"description": "Stinkhorn is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "stinkhorn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shaggymane",
+				"locales": [
+					{
+						"description": "Shaggymane is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "shaggymane"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "russula",
+				"locales": [
+					{
+						"description": "Russula is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "russula"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "amanita",
+				"locales": [
+					{
+						"description": "Amanita is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "amanita"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inkcap",
+				"locales": [
+					{
+						"description": "Inkcap is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "inkcap"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "coral",
+				"locales": [
+					{
+						"description": "Coral is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "coral"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lionsmane",
+				"locales": [
+					{
+						"description": "Lionsmane is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "lionsmane"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lobster",
+				"locales": [
+					{
+						"description": "Lobster is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "lobster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "enoki",
+				"locales": [
+					{
+						"description": "Enoki is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "enoki"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "morel",
+				"locales": [
+					{
+						"description": "Morel is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "morel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oyster",
+				"locales": [
+					{
+						"description": "Oyster is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "oyster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shimeji",
+				"locales": [
+					{
+						"description": "Shimeji is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "shimeji"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "porcini",
+				"locales": [
+					{
+						"description": "Porcini is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "porcini"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "puffball",
+				"locales": [
+					{
+						"description": "Puffball is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "puffball"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shiitake",
+				"locales": [
+					{
+						"description": "Shiitake is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "shiitake"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yellowfoot",
+				"locales": [
+					{
+						"description": "Yellowfoot is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "yellowfoot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "splitgill",
+				"locales": [
+					{
+						"description": "Splitgill is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "splitgill"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "poisonpie",
+				"locales": [
+					{
+						"description": "Poisonpie is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "poisonpie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "brittlegill",
+				"locales": [
+					{
+						"description": "Brittlegill is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "brittlegill"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fibercap",
+				"locales": [
+					{
+						"description": "Fibercap is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "fibercap"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blusher",
+				"locales": [
+					{
+						"description": "Blusher is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "blusher"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "notamushroom",
+				"locales": [
+					{
+						"description": "This user's PDS is hosted independently. While it could still be named after a mushroom, we're assuming it's not.",
+						"lang": "en",
+						"name": "not a mushroom!"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unknownmushroom",
+				"locales": [
+					{
+						"description": "We haven't indexed this mushroom yet sorry!",
+						"lang": "en",
+						"name": "unknown mushroom"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"blewit"
+			"agaric",
+			"boletus",
+			"bracket",
+			"button",
+			"conocybe",
+			"chaga",
+			"cremini",
+			"chanterelle",
+			"gomphus",
+			"cordyceps",
+			"hydnum",
+			"blewit",
+			"ganoderma",
+			"matsutake",
+			"lepista",
+			"maitake",
+			"milkcap",
+			"magic",
+			"woodear",
+			"witchesbutter",
+			"verpa",
+			"stinkhorn",
+			"shaggymane",
+			"russula",
+			"amanita",
+			"inkcap",
+			"coral",
+			"lionsmane",
+			"lobster",
+			"enoki",
+			"morel",
+			"oyster",
+			"shimeji",
+			"porcini",
+			"puffball",
+			"shiitake",
+			"yellowfoot",
+			"splitgill",
+			"poisonpie",
+			"brittlegill",
+			"fibercap",
+			"blusher",
+			"notamushroom",
+			"unknownmushroom"
 		]
 	}
 }

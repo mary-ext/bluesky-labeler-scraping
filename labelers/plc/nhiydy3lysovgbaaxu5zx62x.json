@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:nhiydy3lysovgbaaxu5zx62x/app.bsky.labeler.service/self",
-	"cid": "bafyreici6elg7sfdwy6x6kt5ygn3otgqaxodmwuv5sqjmbkrikpbdr3rvu",
+	"cid": "bafyreid6h6in6n25bludxae72wfga6hyvchzh27v5sv3caetxsrr2wrzyy",
 	"creator": {
 		"did": "did:plc:nhiydy3lysovgbaaxu5zx62x",
 		"handle": "no-opinions.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "This is a labeler for labeling and removing opinion pieces from major news outlets.",
 		"indexedAt": "2024-11-25T08:10:05.545Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-11-25T08:23:35.055Z",
+	"likeCount": 1,
+	"indexedAt": "2024-11-26T20:39:29.059Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,104 +24,19 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "earth",
+				"identifier": "opinion-article",
 				"locales": [
 					{
-						"description": "Earth",
+						"description": "An opinion article from a major news source.",
 						"lang": "en",
-						"name": "Earth 🌎"
-					},
-					{
-						"description": "Terra",
-						"lang": "pt-BR",
-						"name": "Terra 🌎"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "fire",
-				"locales": [
-					{
-						"description": "Fire",
-						"lang": "en",
-						"name": "Fire 🔥"
-					},
-					{
-						"description": "Fogo",
-						"lang": "pt-BR",
-						"name": "Fogo 🔥"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "air",
-				"locales": [
-					{
-						"description": "Air",
-						"lang": "en",
-						"name": "Air 💨"
-					},
-					{
-						"description": "Ar",
-						"lang": "pt-BR",
-						"name": "Ar 💨"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "water",
-				"locales": [
-					{
-						"description": "Water",
-						"lang": "en",
-						"name": "Water 💧"
-					},
-					{
-						"description": "Água",
-						"lang": "pt-BR",
-						"name": "Água 💧"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "love",
-				"locales": [
-					{
-						"description": "Love",
-						"lang": "en",
-						"name": "Love 💞"
-					},
-					{
-						"description": "Amor",
-						"lang": "pt-BR",
-						"name": "Amor 💞"
+						"name": "Opinion Article 📰"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"earth",
-			"fire",
-			"air",
-			"water",
-			"love"
+			"opinion-article"
 		]
 	}
 }

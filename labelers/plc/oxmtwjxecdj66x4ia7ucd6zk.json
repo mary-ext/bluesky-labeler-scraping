@@ -1,0 +1,117 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:oxmtwjxecdj66x4ia7ucd6zk/app.bsky.labeler.service/self",
+	"cid": "bafyreierqfyychnp6a5phekmhtw4kzmdlfbhkxo43npai7lslfneypki3y",
+	"creator": {
+		"did": "did:plc:oxmtwjxecdj66x4ia7ucd6zk",
+		"handle": "sky-clearer.bsky.social",
+		"displayName": "Sky Clearer Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oxmtwjxecdj66x4ia7ucd6zk/bafkreifwrkitxtze2avtrmsqxqbkk6a66d4vajscpkypu7xbwbqpdpybaa@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-26T10:06:02.646Z",
+		"description": "Users-owned labeler to close gaps from the default BlueSky moderation with the same guidelines (https://bsky.social/about/support/community-guidelines)\n",
+		"indexedAt": "2024-11-26T20:16:06.345Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-26T18:35:16.050Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "copyright",
+				"locales": [
+					{
+						"description": "Infringement of other’s copyrights, trademarks and/or other intellectual property",
+						"lang": "en",
+						"name": "Copyright Infringement"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "illegal",
+				"locales": [
+					{
+						"description": "Glaring violations of law or terms of service",
+						"lang": "en",
+						"name": "Illegal and Urgent"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "anti-social",
+				"locales": [
+					{
+						"description": "Harassment, trolling, or intolerance",
+						"lang": "en",
+						"name": "Anti-Social Behavior"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "sexual",
+				"locales": [
+					{
+						"description": "Nudity or adult content not labeled as such",
+						"lang": "en",
+						"name": "Unwanted Sexual Content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "misleading",
+				"locales": [
+					{
+						"description": "Impersonation, misinformation, or false claims",
+						"lang": "en",
+						"name": "Misleading Info"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "Excessive mentions or replies",
+						"lang": "en",
+						"name": "Spam"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"misleading",
+			"spam",
+			"sexual",
+			"anti-social",
+			"illegal",
+			"copyright"
+		]
+	}
+}

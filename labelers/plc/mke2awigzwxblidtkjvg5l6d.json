@@ -1,30 +1,436 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mke2awigzwxblidtkjvg5l6d/app.bsky.labeler.service/self",
-	"cid": "bafyreigebzyvufiejvogghisw6vyvh34ws6hlmwwakohn6z7rql6azrodi",
+	"cid": "bafyreibaectyqyiw2wnewnsku3j2jyanz2wgnk6n4b557h4uaqzuw6yab4",
 	"creator": {
 		"did": "did:plc:mke2awigzwxblidtkjvg5l6d",
 		"handle": "clubs.danto.rocks",
-		"displayName": "German Clubs Labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mke2awigzwxblidtkjvg5l6d/bafkreihwlhrw63cjdrap63qqkcl64srawk5ie66czulgecap2lkcpp3d3m@jpeg",
+		"displayName": "German Clubs",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mke2awigzwxblidtkjvg5l6d/bafkreiav7hbnbs3al6uzpr7r4shmgfj3oje5ajabktwvf6yihedfwzzk4q@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-25T23:30:16.546Z",
-		"description": "Hm, wie bist du den hier hergekommen? Das ist doch nur ein geheimes Test-Projekt.. Also bitte sei so nett und ignoriere mich für jetzt einfach.. 🤫\n\nby @danto.rocks",
-		"indexedAt": "2024-11-26T00:02:09.746Z"
+		"description": "🏗️ by @danto.rocks",
+		"indexedAt": "2024-11-26T20:22:01.147Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-11-26T00:16:51.454Z",
+	"likeCount": 2,
+	"indexedAt": "2024-11-26T20:21:01.364Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "schalke",
+				"defaultSetting": "warn",
+				"identifier": "fcbayernmnchen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "FC Bayern München"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eintrachtfrankfurt",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Eintracht Frankfurt"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rbleipzig",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "RB Leipzig"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bayerleverkusen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Bayer 04 Leverkusen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "borussiamoenchengladbach",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Borussia Mönchengladbach"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scfreiburg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SC Freiburg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fsvmainz",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FSV Mainz 05"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vfbstuttgart",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "VfB Stuttgart"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcunionberlin",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Union Berlin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vflwolfsburg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "VfL Wolfsburg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "werderbremen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Werder Bremen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tsghoffenheim",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "TSG Hoffenheim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcaugsburg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "FC Augsburg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcheidenheim",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Heidenheim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcstpauli",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "FC St. Pauli"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "holsteinkiel",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Holstein Kiel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vflbochum",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "VfL Bochum"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scpaderborn",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SC Paderborn 07"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "karlsruhersc",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Karlsruher SC"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "svelversberg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SV Elversberg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hannover",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Hannover 96"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fckoeln",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Köln"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcmagdeburg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Magdeburg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fortunadsseldorf",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Fortuna Düsseldorf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hamburgersv",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Hamburger SV"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fckaiserslautern",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Kaiserslautern"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "svdarmstadt",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SV Darmstadt 98"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcnuernberg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Nürnberg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "herthabsc",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Hertha BSC"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcschalke",
 				"locales": [
 					{
 						"description": "",
@@ -37,21 +443,365 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "test",
+				"defaultSetting": "warn",
+				"identifier": "spvgggreutherfuerth",
 				"locales": [
 					{
 						"description": "",
 						"lang": "en",
-						"name": "Test"
+						"name": "SpVgg Greuther Fürth"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eintrachtbraunschweig",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Eintracht Braunschweig"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ssvulm",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SSV Ulm 1846"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "preuenmuenster",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Preußen Münster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jahnregensburg",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Jahn Regensburg"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "energiecottbus",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Energie Cottbus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "svsandhausen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SV Sandhausen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dynamodresden",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Dynamo Dresden"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "arminiabielefeld",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Arminia Bielefeld"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcsaarbruecken",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "1. FC Saarbrücken"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcingolstadt",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "FC Ingolstadt 04"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "svwehenwiesbaden",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SV Wehen Wiesbaden"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "erzgebirgeaue",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Erzgebirge Aue"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tsvmuenchen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "TSV 1860 München"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fcviktoriakloen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "FC Viktoria Köln"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "svwaldhofmannheim",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SV Waldhof Mannheim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hansarostock",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Hansa Rostock"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alemanniaaachen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Alemannia Aachen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scverl",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SC Verl"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rotweissessen",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Rot-Weiss Essen"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spvggunterhaching",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "SpVgg Unterhaching"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vflosnabrueck",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": " VfL Osnabrück"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"schalke",
-			"test"
+			"fcbayernmnchen",
+			"eintrachtfrankfurt",
+			"rbleipzig",
+			"bayerleverkusen",
+			"borussiamoenchengladbach",
+			"scfreiburg",
+			"fsvmainz",
+			"vfbstuttgart",
+			"fcunionberlin",
+			"vflwolfsburg",
+			"werderbremen",
+			"tsghoffenheim",
+			"fcaugsburg",
+			"fcheidenheim",
+			"fcstpauli",
+			"holsteinkiel",
+			"vflbochum",
+			"scpaderborn",
+			"karlsruhersc",
+			"svelversberg",
+			"hannover",
+			"fckoeln",
+			"fcmagdeburg",
+			"fortunadsseldorf",
+			"hamburgersv",
+			"fckaiserslautern",
+			"svdarmstadt",
+			"fcnuernberg",
+			"herthabsc",
+			"fcschalke",
+			"spvgggreutherfuerth",
+			"eintrachtbraunschweig",
+			"ssvulm",
+			"preuenmuenster",
+			"jahnregensburg",
+			"energiecottbus",
+			"svsandhausen",
+			"dynamodresden",
+			"arminiabielefeld",
+			"fcsaarbruecken",
+			"fcingolstadt",
+			"svwehenwiesbaden",
+			"erzgebirgeaue",
+			"tsvmuenchen",
+			"fcviktoriakloen",
+			"svwaldhofmannheim",
+			"hansarostock",
+			"alemanniaaachen",
+			"scverl",
+			"rotweissessen",
+			"spvggunterhaching",
+			"vflosnabrueck"
 		]
 	}
 }

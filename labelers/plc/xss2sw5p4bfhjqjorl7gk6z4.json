@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:xss2sw5p4bfhjqjorl7gk6z4/app.bsky.labeler.service/self",
+	"cid": "bafyreiccsq6xklqe6huhi4xe3y5qeqtxdfedlocfjcv7ndjc65nqbqtehy",
+	"creator": {
+		"did": "did:plc:xss2sw5p4bfhjqjorl7gk6z4",
+		"handle": "bluesky.ms",
+		"displayName": "Bluesky.ms",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xss2sw5p4bfhjqjorl7gk6z4/bafkreidqbxb6akaidnllitckj44m5ze2rwwn3kifjhvjj7xo2zeirmdlh4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-26T08:41:47.745Z",
+		"description": "Bluesky.ms is a community driven effort to connect with folks at Microsoft and also label accounts verified as \n\n✅ Microsoft employee\n✅ Microsoft MVP\n\nThis service is managed by @merill.net as a personal project and is not affiliated with Microsoft.",
+		"indexedAt": "2024-11-26T13:54:25.248Z"
+	},
+	"likeCount": 89,
+	"indexedAt": "2024-11-26T13:28:21.060Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft",
+				"locales": [
+					{
+						"description": "Verified Microsoft employee",
+						"lang": "en",
+						"name": "Microsoft"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft-mvp",
+				"locales": [
+					{
+						"description": "Verified Microsoft MVP",
+						"lang": "en",
+						"name": "Microsoft MVP"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"microsoft",
+			"microsoft-mvp"
+		]
+	}
+}

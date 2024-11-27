@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mcn6shnl6ii2lmsv6doduwlk/app.bsky.labeler.service/self",
-	"cid": "bafyreidsmkobwugm2k4ob5uayuk5omnhvrslv5nkclkj7hx64e7dlaqugm",
+	"cid": "bafyreigq6jmatedzqormwiysz5gzocq2a2kq3tqeww6o4ljmb4hidx5tqa",
 	"creator": {
 		"did": "did:plc:mcn6shnl6ii2lmsv6doduwlk",
 		"handle": "academie-ciel-bleu.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "L'académie française du Ciel Bleu refuse de trancher.\n\nAbonnez-vous et likez les message pour choisir vos étiquettes.\nLikez le message épinglé pour supprimer vos étiquettes.\n\nPar @romaindurand.bsky.social sur une idée de @pierrelapin.bsky.social",
 		"indexedAt": "2024-11-25T16:24:12.746Z"
 	},
-	"likeCount": 35,
-	"indexedAt": "2024-11-23T22:43:58.559Z",
+	"likeCount": 37,
+	"indexedAt": "2024-11-26T06:09:02.857Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -89,6 +89,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blousk",
+				"locales": [
+					{
+						"description": "Cette personne utilise le mot blousk pour désigner ce qu'elle envoie sur Bluesky",
+						"lang": "en",
+						"name": "blousk"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -96,7 +110,8 @@
 			"skeet",
 			"tweet",
 			"schtroumpf",
-			"post"
+			"post",
+			"blousk"
 		]
 	}
 }
