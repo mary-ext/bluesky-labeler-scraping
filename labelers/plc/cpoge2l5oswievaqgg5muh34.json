@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:cpoge2l5oswievaqgg5muh34/app.bsky.labeler.service/self",
+	"cid": "bafyreie265y3fzjmi4ahapkmuqri4g2yi3yduy3vvd7ehdtk4xczjgoe74",
+	"creator": {
+		"did": "did:plc:cpoge2l5oswievaqgg5muh34",
+		"handle": "project2025progress.com",
+		"displayName": "P2025 Progress",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cpoge2l5oswievaqgg5muh34/bafkreiahd52tbaq65hkcnwhgtb7lvpbs3zxcjpw5gh5uonnb4xvdktj5ju@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-27T04:40:58.746Z",
+		"description": "For now, here to run a moderation list to easily block right wingers and trolls.  In the future to document Project 2025 and how it was the plan all along.",
+		"indexedAt": "2024-11-27T23:54:55.546Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-27T17:16:17.557Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "unwanted",
+				"locales": [
+					{
+						"description": "MAGA, MAHA, Trolls, Racists, *phobes.  Generally unwanted to interact with.  This list is meant to complement the Skywatch Blue list for any that aren't picked up there.",
+						"lang": "en",
+						"name": "Unwanted"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"unwanted"
+		]
+	}
+}

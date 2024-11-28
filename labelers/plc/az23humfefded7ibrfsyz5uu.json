@@ -1,22 +1,25 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:az23humfefded7ibrfsyz5uu/app.bsky.labeler.service/self",
-	"cid": "bafyreihqfu3szoxn3imfr5nnqdssgrkf7dm4q2lakthdsg77eho47fv3n4",
+	"cid": "bafyreibyjjekxdoex3hcom2z2ohpyknsnwenz5r26enezcabv63am6r2ay",
 	"creator": {
 		"did": "did:plc:az23humfefded7ibrfsyz5uu",
 		"handle": "arkangel.network",
 		"displayName": "Arkangel",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:az23humfefded7ibrfsyz5uu/bafkreibcycbdzjheoeit46xk7b3yec6nacmzyrggubgxtow7qpattkaxsi@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-10-02T04:59:49.606Z",
-		"description": "A third party moderation service focusing on protecting users from seeing right wing posts and users.",
-		"indexedAt": "2024-11-25T06:28:35.446Z"
+		"description": "A third party moderation service focusing on protecting users from seeing right wing posts and users.\n\nhttps://arkangel.network",
+		"indexedAt": "2024-11-27T15:56:32.847Z"
 	},
-	"likeCount": 10,
-	"indexedAt": "2024-11-21T18:33:02.675Z",
+	"likeCount": 25,
+	"indexedAt": "2024-11-27T18:05:48.662Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,7 +30,7 @@
 				"identifier": "rightwing",
 				"locales": [
 					{
-						"description": "Users identified as ideologically aligned with the far right",
+						"description": "Users identified as ideologically aligned with the right",
 						"lang": "en",
 						"name": "rightwing"
 					}

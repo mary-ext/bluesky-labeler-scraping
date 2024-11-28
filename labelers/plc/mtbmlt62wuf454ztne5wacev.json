@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreia66he2jm62pmgvrjpzivhfxw7cvokuprqp6ff75fuwu3i2gsftku",
+	"cid": "bafyreigsnx5xbyq7oyaggk536ll5clfs67jn5f5qjfcvjigb5jvyeu5aka",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,39 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-11-22T16:27:26.953Z"
 	},
-	"likeCount": 339,
-	"indexedAt": "2024-11-25T12:55:46.662Z",
+	"likeCount": 344,
+	"indexedAt": "2024-11-28T00:52:42.163Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bedales",
+				"locales": [
+					{
+						"description": "£49,123/Year",
+						"lang": "en",
+						"name": "Bedales School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sthildas",
+				"locales": [
+					{
+						"description": "Closed in 1997. Fees info not available, government schools service lists it as Independent and Bevan describes as a boarding school",
+						"lang": "en",
+						"name": "St Hilda's, Whitby"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1554,7 +1582,9 @@
 			"dameallans",
 			"georgeheriots",
 			"yarm",
-			"kingsmacc"
+			"kingsmacc",
+			"sthildas",
+			"bedales"
 		]
 	}
 }

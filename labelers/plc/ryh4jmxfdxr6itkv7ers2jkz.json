@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ryh4jmxfdxr6itkv7ers2jkz/app.bsky.labeler.service/self",
-	"cid": "bafyreicnp7l2xyg7ibbi6m3tacubgnimydgqggptexwsquyflwb6iebx5e",
+	"cid": "bafyreig5zkwei3pufn6vkup5nndllorxwfjl2b6k5za27dqtb3ufsj534m",
 	"creator": {
 		"did": "did:plc:ryh4jmxfdxr6itkv7ers2jkz",
 		"handle": "moderation.social.optize.net",
@@ -14,15 +14,15 @@
 		"indexedAt": "2024-10-26T17:04:46.908Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-10-26T16:27:22.127Z",
+	"indexedAt": "2024-11-27T15:35:33.859Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
-				"identifier": "Verified-Account",
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "verified-account",
 				"locales": [
 					{
 						"description": "Accounts welche durch Optize verifiziert worden sind.",
@@ -30,26 +30,11 @@
 						"name": "Verified Account"
 					}
 				],
-				"severity": "inform|alert|none"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|hide|none|alert",
-				"identifier": "Bot-Account",
-				"locales": [
-					{
-						"description": "Accounts welche als Bot Accounts identifiziert worden sind.",
-						"lang": "de",
-						"name": "Bot-Accounts"
-					}
-				],
-				"severity": "inform|alert|none|ignore"
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"Bot-Account",
-			"Verified-Account"
+			"verified-account"
 		]
 	}
 }

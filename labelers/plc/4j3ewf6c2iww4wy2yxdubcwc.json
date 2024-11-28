@@ -1,41 +1,42 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4j3ewf6c2iww4wy2yxdubcwc/app.bsky.labeler.service/self",
-	"cid": "bafyreicgqtwgb4pj5zxlblmgjrp4gk7bkgnrat2yrjiyuvwm3ngghukcaq",
+	"cid": "bafyreicvm3n76gumkln65guje264d3pvcha2pjpztlzo45mdoaxxvdutui",
 	"creator": {
 		"did": "did:plc:4j3ewf6c2iww4wy2yxdubcwc",
 		"handle": "safesky.bsky.social",
-		"displayName": "",
+		"displayName": "Safe Sky",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4j3ewf6c2iww4wy2yxdubcwc/bafkreigshj33wkp52dwh2uobfu7rzwe2ho34ytel5p3jigqevbtk4o7eue@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-03-22T14:38:44.765Z",
-		"indexedAt": "2024-11-22T17:34:06.954Z"
+		"description": "Safe Sky is a private Ozone playground so I can mess around with applying labels, moderation, etc.",
+		"indexedAt": "2024-11-27T16:06:51.548Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-22T18:03:37.351Z",
+	"indexedAt": "2024-11-27T16:26:21.764Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "Verified",
+				"defaultSetting": "ignore",
+				"identifier": "very-fried",
 				"locales": [
 					{
 						"description": "This account has been verified.",
 						"lang": "en",
-						"name": "Verification"
+						"name": "Very Fried"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"verified"
+			"very-fried"
 		]
 	}
 }

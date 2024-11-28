@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:mxsvcwyq6mofumlwyxiws3g5/app.bsky.labeler.service/self",
+	"cid": "bafyreieo7mbgmwouey27id4btpyeflg7qunfcld2l764gk3zbs5bubosqq",
+	"creator": {
+		"did": "did:plc:mxsvcwyq6mofumlwyxiws3g5",
+		"handle": "plc-custody.goeo.lol",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mxsvcwyq6mofumlwyxiws3g5/bafkreian4vsgwom2sijrh3hmmprxj4fpn2gyqqdkqm7nifjtpoa6kdjfbm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-27T18:16:13.246Z",
+		"indexedAt": "2024-11-27T18:16:13.246Z"
+	},
+	"likeCount": 33,
+	"indexedAt": "2024-11-27T21:36:36.568Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nondefault",
+				"locales": [
+					{
+						"description": "This user has set a non-default PLC rotation key, possibly through a self hosted PDS.",
+						"lang": "en",
+						"name": "Non-default PLC keys"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"nondefault"
+		]
+	}
+}

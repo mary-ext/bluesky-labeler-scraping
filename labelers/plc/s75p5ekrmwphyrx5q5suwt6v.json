@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:s75p5ekrmwphyrx5q5suwt6v/app.bsky.labeler.service/self",
-	"cid": "bafyreiebl52eeiz225ltswjlonmgkzvsg66lsarzdvnusx4fxhki6yaj4u",
+	"cid": "bafyreigrutqdlrjw6ymg27y2xxjyze2x7igx4v73y4rm6qsj3zk5o47gfa",
 	"creator": {
 		"did": "did:plc:s75p5ekrmwphyrx5q5suwt6v",
 		"handle": "acme.deloremipsum.lol",
@@ -15,10 +15,43 @@
 		"indexedAt": "2024-11-23T17:14:24.745Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-23T19:49:41.564Z",
+	"indexedAt": "2024-11-27T17:26:59.957Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "hate-speech",
+				"locales": [
+					{
+						"description": "Hate speech that is manually tagged.",
+						"lang": "en",
+						"name": "Hate speech"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "rage-engagement",
+				"locales": [
+					{
+						"description": "Posts that primarily look to engage with other users by the means of hate",
+						"lang": "en",
+						"name": "Rage engagement"
+					},
+					{
+						"description": "Mensajes que principalmente buscan aumentar el engagement con otros a través del odio",
+						"lang": "es",
+						"name": "Interacción por rabieta"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -40,6 +73,8 @@
 			}
 		],
 		"labelValues": [
+			"hate-speech",
+			"rage-engagement",
 			"clickbait"
 		]
 	}

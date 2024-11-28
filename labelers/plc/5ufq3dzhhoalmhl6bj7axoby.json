@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:5ufq3dzhhoalmhl6bj7axoby/app.bsky.labeler.service/self",
-	"cid": "bafyreia7v3ypubyix52ges773uggsfv2mn5kad4bfryfj3g7izlcdhtste",
+	"cid": "bafyreiccz5sbghxytatpukgzpwtqsrem7ofharkegt35zgd4v3vd5qsol4",
 	"creator": {
 		"did": "did:plc:5ufq3dzhhoalmhl6bj7axoby",
 		"handle": "proto.cosm.blue",
@@ -16,14 +16,70 @@
 		"indexedAt": "2024-11-25T13:51:11.845Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-26T16:51:57.663Z",
+	"indexedAt": "2024-11-27T03:00:59.055Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "!warn",
+				"defaultSetting": "warn",
+				"identifier": "M1-active",
+				"locales": [
+					{
+						"description": "An active mode is one that can be seen as an antecedent causal factor of any other responsive mode, akin to a material cause. Leading up to or transmuting into a mode of either passivity or receptivity after its initial causal activity, an active mode moves towards something downstream of itself. This initial activity could be said to be the active force behind anything subsequent of it. Not necessarily the first cause in anything, an active mode is a mode of functioning that drives most action behind any and all causes.",
+						"lang": "en",
+						"name": "Active - Towards Outward"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "M2-passive",
+				"locales": [
+					{
+						"description": "A passive mode may exhibit and be considered as an intermediary step between initial causes and the effects afterward, akin to a formal cause. As an in-between state from cause to effect, along with the receptive mode, these two modes follow from an active input being processed before there is a decision, or a reactive output, is made. The passive differs from the receptive in that the passive mode is more of a direct and opposite response of an action and isn’t necessarily passive but will likely yield to any active occurrences. A passive mode takes the path of least resistance and is directed more toward efficiency rather than efficacy.",
+						"lang": "en",
+						"name": "Passive - Away from Outward"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "M3-receptive",
+				"locales": [
+					{
+						"description": "A receptive mode may exhibit qualities like that of a vessel or a gathering of information before a reaction occurs, akin to an efficient cause. Similar to the passive mode, it is also an intermediary step between any apparent causes and reactive effects, except here, receptivity takes in what occurs from activity and makes a decision towards a subsequent reaction. The receptive, more directed towards efficacy over efficiency, lays itself out as a counterpoint to the passive mode. Both the receptive and passive are neither direct causes nor effects but can guide causes toward specific desired effects.",
+						"lang": "en",
+						"name": "Receptive - Towards Inward"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "M4-reactive",
+				"locales": [
+					{
+						"description": "The reactive mode is the effect that any active mode attempts to achieve, akin to a final cause. The active and reactive are in opposition, not from being either a cause or an effect, but the reactive opposes the active in the sense that they are coinciding opposites of action and may be considered complementary of one another. Any reaction that occurs is the result of sequential processes from the active to the passive or receptive and then to a reactive mode. This whole process is never fully complete though, as when a process of action to reaction occur in any single moment, they lead directly into another process of action to reaction.",
+						"lang": "en",
+						"name": "Reactive - Away from Inward"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "Q1-fluid",
 				"locales": [
 					{
@@ -134,6 +190,10 @@
 			}
 		],
 		"labelValues": [
+			"M1-active",
+			"M2-passive",
+			"M3-receptive",
+			"M4-reactive",
 			"Q1-fluid",
 			"Q2-vivid",
 			"Q3-lucid",
