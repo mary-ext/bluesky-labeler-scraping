@@ -1,0 +1,56 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:a25ochfocbid6vhpp6vxh5es/app.bsky.labeler.service/self",
+	"cid": "bafyreiadgnpualx2cbcag4cv5xpan2tdwph7denhbwwslqhx5thfr5qz3y",
+	"creator": {
+		"did": "did:plc:a25ochfocbid6vhpp6vxh5es",
+		"handle": "hvac-system.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a25ochfocbid6vhpp6vxh5es/bafkreifu72suslikps5m6rdt5yt5ghmodkrocvdeupwswmpckcuut2yiba@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-26T18:28:09.445Z",
+		"indexedAt": "2024-11-26T18:28:09.445Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-11-28T17:24:52.752Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "us-federal-congress-representative",
+				"locales": [
+					{
+						"description": "The account is verified as a member of the US House of Representatives",
+						"lang": "en",
+						"name": "US Congress Member (Representative)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "us-federal-congress-senator",
+				"locales": [
+					{
+						"description": "The account is verified as a member of the US Senate",
+						"lang": "en",
+						"name": "US Congress Member (Senator)"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"us-federal-congress-representative",
+			"us-federal-congress-senator"
+		]
+	}
+}

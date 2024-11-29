@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:iu6fuh4b4aqh6q7tec35zbfg/app.bsky.labeler.service/self",
+	"cid": "bafyreiaertd6thvxi3la67kxvmuep26d4zclso2nzx5wemziziylznbo6m",
+	"creator": {
+		"did": "did:plc:iu6fuh4b4aqh6q7tec35zbfg",
+		"handle": "warnscam.algo.surf",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iu6fuh4b4aqh6q7tec35zbfg/bafkreife67tzxeov66biipuuolf2enxohb2c7vdhfpbkj2lqt3nx7enucy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-26T16:29:21.845Z",
+		"indexedAt": "2024-11-26T16:29:21.845Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-11-28T02:41:09.358Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "scam",
+				"locales": [
+					{
+						"description": "This account is fraudulent",
+						"lang": "en",
+						"name": "Scam❗"
+					}
+				],
+				"rkey": "scam",
+				"severity": "alert"
+			},
+			{
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonator",
+				"locales": [
+					{
+						"description": "This account is impersonating a high-value account",
+						"lang": "en",
+						"name": "Impersonator❗"
+					}
+				],
+				"rkey": "impersonator",
+				"severity": "alert"
+			},
+			{
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "verified",
+				"locales": [
+					{
+						"description": "This account has been verified to be legitimate",
+						"lang": "en",
+						"name": "Verified ☑️"
+					}
+				],
+				"rkey": "verified",
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"scam",
+			"impersonator",
+			"verified"
+		]
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:oxmtwjxecdj66x4ia7ucd6zk/app.bsky.labeler.service/self",
-	"cid": "bafyreierqfyychnp6a5phekmhtw4kzmdlfbhkxo43npai7lslfneypki3y",
+	"cid": "bafyreicqhjoh4l5stndg2t56otykzy2ttb2mmko2msdrn2zlmzu7jni3wi",
 	"creator": {
 		"did": "did:plc:oxmtwjxecdj66x4ia7ucd6zk",
 		"handle": "sky-clearer.bsky.social",
@@ -12,14 +12,33 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-26T10:06:02.646Z",
-		"description": "Users-owned labeler to close gaps from the default BlueSky moderation with the same guidelines (https://bsky.social/about/support/community-guidelines)\n\nFor questions and problems - mention or DM\n",
-		"indexedAt": "2024-11-27T14:32:11.543Z"
+		"description": "Users-owned labeler to close gaps from the default BlueSky moderation with the same guidelines (https://bsky.social/about/support/community-guidelines)\n\nWe only label the content and can't ban\nFor questions and problems - mention or DM",
+		"indexedAt": "2024-11-28T06:53:09.544Z"
 	},
-	"likeCount": 2,
-	"indexedAt": "2024-11-26T18:35:16.050Z",
+	"likeCount": 1,
+	"indexedAt": "2024-11-28T15:48:40.758Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "grey-zone",
+				"locales": [
+					{
+						"description": "Toxic communication, controversial or questionable information",
+						"lang": "en",
+						"name": "Grey zone"
+					},
+					{
+						"description": "Токсичное общение, сомнительные мнения или информация",
+						"lang": "ru",
+						"name": "Серая зона"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -30,6 +49,11 @@
 						"description": "Infringement of other’s copyrights, trademarks and/or other intellectual property",
 						"lang": "en",
 						"name": "Copyright Infringement"
+					},
+					{
+						"description": "Нарушение чужих авторских прав, товарных знаков и/или другой интеллектуальной собственности",
+						"lang": "ru",
+						"name": "Нарушение копирайта"
 					}
 				],
 				"severity": "inform"
@@ -44,6 +68,11 @@
 						"description": "Glaring violations of law or terms of service",
 						"lang": "en",
 						"name": "Illegal and Urgent"
+					},
+					{
+						"description": "Вопиющие нарушения закона или условий обслуживания",
+						"lang": "ru",
+						"name": "Незаконное и срочное"
 					}
 				],
 				"severity": "alert"
@@ -58,6 +87,11 @@
 						"description": "Harassment, trolling, or intolerance",
 						"lang": "en",
 						"name": "Anti-Social Behavior"
+					},
+					{
+						"description": "Преследование, троллинг или нетерпимость",
+						"lang": "ru",
+						"name": "Антисоциальное поведение"
 					}
 				],
 				"severity": "alert"
@@ -72,6 +106,11 @@
 						"description": "Nudity or adult content not labeled as such",
 						"lang": "en",
 						"name": "Unwanted Sexual Content"
+					},
+					{
+						"description": "Нагота или контент для взрослых, не помеченный как таковой",
+						"lang": "ru",
+						"name": "Нежелательный сексуальный контент"
 					}
 				],
 				"severity": "inform"
@@ -86,6 +125,11 @@
 						"description": "Impersonation, misinformation, or false claims",
 						"lang": "en",
 						"name": "Misleading Info"
+					},
+					{
+						"description": "Выдача себя за другое лицо, дезинформация или ложные заявления",
+						"lang": "ru",
+						"name": "Информация, вводящая в заблуждение"
 					}
 				],
 				"severity": "inform"
@@ -100,6 +144,11 @@
 						"description": "Excessive mentions or replies",
 						"lang": "en",
 						"name": "Spam"
+					},
+					{
+						"description": "Чрезмерные упоминания или ответы",
+						"lang": "ru",
+						"name": "Спам"
 					}
 				],
 				"severity": "inform"
@@ -111,7 +160,8 @@
 			"sexual",
 			"anti-social",
 			"illegal",
-			"copyright"
+			"copyright",
+			"grey-zone"
 		]
 	}
 }

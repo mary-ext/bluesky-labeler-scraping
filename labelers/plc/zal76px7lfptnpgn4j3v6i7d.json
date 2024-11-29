@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zal76px7lfptnpgn4j3v6i7d/app.bsky.labeler.service/self",
-	"cid": "bafyreickd46fn6yqehulbfiwfaibxpmlfwcopdbwt7dhdvw3zzzwhmsdym",
+	"cid": "bafyreibky4uf5d7vepia7qmexh77l4wfz3hddxsb6l3z5hleowpgoilwta",
 	"creator": {
 		"did": "did:plc:zal76px7lfptnpgn4j3v6i7d",
 		"handle": "dev-labels.bsky.social",
@@ -15,11 +15,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-09-10T02:13:51.717Z",
-		"description": "Identify yourself in the timeline with your favorite programming languages and study field around IT!\n\nIdentifique-se na timeline com sua linguagem de programação favorita e o que você estuda em TI!\n\nby: @danielhe4rt.dev",
-		"indexedAt": "2024-09-12T16:59:50.310Z"
+		"description": "Identify yourself in the timeline with your favorite programming languages and study field around IT!\n\nby: @danielhe4rt.dev\nrepo: https://github.com/basementdevs/dev-roles-labeler",
+		"indexedAt": "2024-11-28T16:52:31.645Z"
 	},
-	"likeCount": 654,
-	"indexedAt": "2024-09-10T05:36:01.133Z",
+	"likeCount": 660,
+	"indexedAt": "2024-11-28T16:40:27.757Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -321,6 +321,328 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "ocaml",
+				"locales": [
+					{
+						"description": "An industrial-strength functional programming language with an emphasis on expressiveness and safety",
+						"lang": "en",
+						"name": "OCaml"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gleam",
+				"locales": [
+					{
+						"description": "Gleam is a friendly language for building type-safe systems that scale!",
+						"lang": "en",
+						"name": "Gleam"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "elm",
+				"locales": [
+					{
+						"description": "A delightful language for reliable web applications.",
+						"lang": "en",
+						"name": "Elm"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cobol",
+				"locales": [
+					{
+						"description": "COBOL is still widely used in applications deployed on mainframe computers, such as large-scale batch and transaction processing jobs.",
+						"lang": "en",
+						"name": "COBOL"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clojure",
+				"locales": [
+					{
+						"description": "Clojure is a dialect of Lisp, and shares with Lisp the code-as-data philosophy and a powerful macro system.",
+						"lang": "en",
+						"name": "Clojure"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "html-css",
+				"locales": [
+					{
+						"description": "HTML and CSS are essential technologies for building and designing the structure and appearance of websites.",
+						"lang": "en",
+						"name": "HTML/CSS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lua",
+				"locales": [
+					{
+						"description": "Lua is a powerful, efficient, lightweight, embeddable scripting language.",
+						"lang": "en",
+						"name": "Lua"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lean4",
+				"locales": [
+					{
+						"description": "Programming Language and Theorem Prover",
+						"lang": "en",
+						"name": "Lean4"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "julia",
+				"locales": [
+					{
+						"description": "Julia is a language that is fast, dynamic, easy to use, and open source",
+						"lang": "en",
+						"name": "Julia"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zig",
+				"locales": [
+					{
+						"description": "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software.",
+						"lang": "en",
+						"name": "Zig"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "erlang",
+				"locales": [
+					{
+						"description": "Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability",
+						"lang": "en",
+						"name": "Erlang"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fsharp",
+				"locales": [
+					{
+						"description": "F# gives you simplicity and succinctness like Python with correctness, robustness and performance beyond C# or Java.",
+						"lang": "en",
+						"name": "F#"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nim",
+				"locales": [
+					{
+						"description": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula.",
+						"lang": "en",
+						"name": "Nim"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "crystal",
+				"locales": [
+					{
+						"description": "Crystal is statically typed and type errors are caught early by the compiler, eliminating a range of type-related errors at runtime.",
+						"lang": "en",
+						"name": "Crystal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "matlab",
+				"locales": [
+					{
+						"description": "MATLAB is a high-performance language primarily used for numerical computing, data analysis, and algorithm development in engineering and scientific applications.",
+						"lang": "en",
+						"name": "MATLAB"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fortran",
+				"locales": [
+					{
+						"description": "Fortran is a powerful language used extensively in scientific and engineering computations, known for its performance in numerical and array-based calculations.",
+						"lang": "en",
+						"name": "Fortran"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "visual_basic",
+				"locales": [
+					{
+						"description": "Visual Basic is an event-driven programming language developed by Microsoft, often used for developing Windows applications and automating tasks within the Microsoft Office suite.",
+						"lang": "en",
+						"name": "Visual Basic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "groovy",
+				"locales": [
+					{
+						"description": "Groovy is a dynamic language for the Java platform that offers a concise syntax and seamless integration with Java, commonly used for scripting, automation, and building domain-specific languages.",
+						"lang": "en",
+						"name": "Groovy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "prolog",
+				"locales": [
+					{
+						"description": "Prolog is a logic programming language associated with artificial intelligence and computational linguistics, focusing on pattern matching and rule-based logical queries.",
+						"lang": "en",
+						"name": "Prolog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "common_lisp",
+				"locales": [
+					{
+						"description": "Common Lisp (CL) is a dialect of the Lisp programming language, published in American National Standards Institute (ANSI).",
+						"lang": "en",
+						"name": "CommonLisp"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "emacs_lisp",
+				"locales": [
+					{
+						"description": "Emacs Lisp is a dialect of the Lisp programming language designed specifically for the Emacs text editor.",
+						"lang": "en",
+						"name": "EmacsLisp"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "racket_lisp",
+				"locales": [
+					{
+						"description": "The Racket language is a modern dialect of Lisp and a descendant of Scheme.",
+						"lang": "en",
+						"name": "Racket"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scheme_lisp",
+				"locales": [
+					{
+						"description": "Scheme is a dialect of the Lisp family of programming languages. Scheme was created during the 1970s at the MIT Computer Science and Artificial Intelligence Laboratory (MIT CSAIL).",
+						"lang": "en",
+						"name": "Scheme"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "backend",
 				"locales": [
 					{
@@ -470,6 +792,104 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "infosec",
+				"locales": [
+					{
+						"description": "Information Security professionals protect systems, networks, and data from digital threats, ensuring confidentiality, integrity, and availability.",
+						"lang": "en",
+						"name": "Information Security"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "qa-engineer",
+				"locales": [
+					{
+						"description": "Quality Assurance Engineers design and implement tests to ensure the quality and functionality of software applications.",
+						"lang": "en",
+						"name": "QA Engineer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "data-scientist",
+				"locales": [
+					{
+						"description": "Data Scientists analyze and interpret complex data to help organizations make informed decisions and solve challenging problems.",
+						"lang": "en",
+						"name": "Data Scientist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ai-ml-engineer",
+				"locales": [
+					{
+						"description": "AI/ML Engineers develop and deploy machine learning models and artificial intelligence systems to automate tasks and derive insights from data.",
+						"lang": "en",
+						"name": "AI/ML Engineer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cloud-engineer",
+				"locales": [
+					{
+						"description": "Cloud Engineers design, implement, and manage cloud-based infrastructure and services to ensure scalability and reliability.",
+						"lang": "en",
+						"name": "Cloud Engineer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "technical-writer",
+				"locales": [
+					{
+						"description": "Technical Writers create clear and concise documentation, manuals, and guides to help users understand and utilize software and hardware products.",
+						"lang": "en",
+						"name": "Technical Writer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sre",
+				"locales": [
+					{
+						"description": "Site Reliability Engineers apply software engineering principles to ensure the reliability, scalability, and efficiency of production systems, focusing on automation, monitoring, and performance optimization.",
+						"lang": "en",
+						"name": "Site Reliability Engineer"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -494,6 +914,29 @@
 			"sql",
 			"haskell",
 			"elixir",
+			"ocaml",
+			"gleam",
+			"elm",
+			"cobol",
+			"clojure",
+			"html-css",
+			"lua",
+			"lean4",
+			"julia",
+			"zig",
+			"erlang",
+			"fsharp",
+			"nim",
+			"crystal",
+			"matlab",
+			"fortran",
+			"visual_basic",
+			"groovy",
+			"prolog",
+			"common_lisp",
+			"emacs_lisp",
+			"racket_lisp",
+			"scheme_lisp",
 			"backend",
 			"frontend",
 			"devops",
@@ -504,7 +947,14 @@
 			"devrel",
 			"gamedev",
 			"uxui",
-			"mobile"
+			"mobile",
+			"infosec",
+			"qa-engineer",
+			"data-scientist",
+			"ai-ml-engineer",
+			"cloud-engineer",
+			"technical-writer",
+			"sre"
 		]
 	}
 }

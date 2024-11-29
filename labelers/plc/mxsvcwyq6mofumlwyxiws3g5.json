@@ -1,21 +1,21 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mxsvcwyq6mofumlwyxiws3g5/app.bsky.labeler.service/self",
-	"cid": "bafyreieo7mbgmwouey27id4btpyeflg7qunfcld2l764gk3zbs5bubosqq",
+	"cid": "bafyreifvwlgih57imp5xufp3hn5zdg6unatvh32ratwrvhi5g4oixe3o64",
 	"creator": {
 		"did": "did:plc:mxsvcwyq6mofumlwyxiws3g5",
 		"handle": "plc-custody.goeo.lol",
-		"displayName": "",
+		"displayName": "Identity Decentralisation Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mxsvcwyq6mofumlwyxiws3g5/bafkreian4vsgwom2sijrh3hmmprxj4fpn2gyqqdkqm7nifjtpoa6kdjfbm@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-27T18:16:13.246Z",
-		"indexedAt": "2024-11-27T18:16:13.246Z"
+		"indexedAt": "2024-11-28T11:11:01.045Z"
 	},
-	"likeCount": 33,
-	"indexedAt": "2024-11-27T21:36:36.568Z",
+	"likeCount": 63,
+	"indexedAt": "2024-11-28T10:50:18.358Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -32,10 +32,25 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "didweb",
+				"locales": [
+					{
+						"description": "This user is a did:web identity, tied to a domain name, and centralised on ICANN's authority.",
+						"lang": "en",
+						"name": "did:web"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"nondefault"
+			"nondefault",
+			"didweb"
 		]
 	}
 }

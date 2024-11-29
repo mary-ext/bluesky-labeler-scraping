@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:doqrpcaai4iqmkbdo3ztmlld/app.bsky.labeler.service/self",
-	"cid": "bafyreigqganb246q236tcd2pffeah56eojr6rnai3cwcypmdsi52uwvswu",
+	"cid": "bafyreiczqvmlvprudewlwdyhss24pe3y24ar2f5wjcws2azhpsvf654dhu",
 	"creator": {
 		"did": "did:plc:doqrpcaai4iqmkbdo3ztmlld",
 		"handle": "danielhe4rtless.bsky.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-09-03T18:46:38.499Z"
 	},
 	"likeCount": 12,
-	"indexedAt": "2024-11-27T15:40:42.944Z",
+	"indexedAt": "2024-11-28T16:08:42.267Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -584,6 +584,62 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "common_lisp",
+				"locales": [
+					{
+						"description": "Common Lisp (CL) is a dialect of the Lisp programming language, published in American National Standards Institute (ANSI).",
+						"lang": "en",
+						"name": "CommonLisp"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "emacs_lisp",
+				"locales": [
+					{
+						"description": "Emacs Lisp is a dialect of the Lisp programming language designed specifically for the Emacs text editor.",
+						"lang": "en",
+						"name": "EmacsLisp"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "racket_lisp",
+				"locales": [
+					{
+						"description": "The Racket language is a modern dialect of Lisp and a descendant of Scheme.",
+						"lang": "en",
+						"name": "Racket"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scheme_lisp",
+				"locales": [
+					{
+						"description": "Scheme is a dialect of the Lisp family of programming languages. Scheme was created during the 1970s at the MIT Computer Science and Artificial Intelligence Laboratory (MIT CSAIL).",
+						"lang": "en",
+						"name": "Scheme"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "backend",
 				"locales": [
 					{
@@ -874,6 +930,10 @@
 			"visual_basic",
 			"groovy",
 			"prolog",
+			"common_lisp",
+			"emacs_lisp",
+			"racket_lisp",
+			"scheme_lisp",
 			"backend",
 			"frontend",
 			"devops",

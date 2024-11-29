@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zzvtsblu5xwacbv7crenyuhj/app.bsky.labeler.service/self",
-	"cid": "bafyreidzqmjwp7qfihhvmql2uujgwx32efplwwbtep72so243tbw4hz4hq",
+	"cid": "bafyreibjpj7yseyrrnzu7mwfzmqw7cn2xbdrcejhisiwyfblvbjuikw6du",
 	"creator": {
 		"did": "did:plc:zzvtsblu5xwacbv7crenyuhj",
 		"handle": "op.erator.pl",
@@ -15,14 +15,14 @@
 		"indexedAt": "2024-11-22T13:31:45.254Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-27T21:11:37.460Z",
+	"indexedAt": "2024-11-28T16:46:30.560Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
+				"defaultSetting": "ignore",
 				"identifier": "parody",
 				"locales": [
 					{
@@ -36,7 +36,7 @@
 						"name": "[PL] Parody konto  [EN] Parody Account"
 					}
 				],
-				"severity": "inform|alert|none"
+				"severity": "inform|alert|Hide"
 			},
 			{
 				"adultOnly": false,
@@ -72,6 +72,25 @@
 						"description": "\n[PL] Trolle, boty, profile łamiące w ocenie naszych klientów wszelkie zasady współżycia społecznego. Gdy tutaj profil trafi nie ma szans na odwołanie. Lepiej jak będą zablokowane.\n\n[EN] Trolls, bots, and profiles that, in the judgment of our clients, violate all principles of social conduct. Once a profile ends up here, there’s no chance for appeal. It’s better if they remain blocked.",
 						"lang": "en",
 						"name": "[PL] Tych klientów nie obsługujemy  [EN] We Do Not Serve"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "gablota",
+				"locales": [
+					{
+						"description": "\n[PL] W tym miejscu znajdziesz klientów bez krawata, którzy się awanturowali lub inni klienci naszego sklepu orzekli, że nie zamierzają spędzać czasu w takim towarzystwie. \n\n[EN] Here you will find customers without ties who caused a commotion, or other customers of our store who decided they would not spend time in such company.",
+						"lang": "pl",
+						"name": "[PL] Gablota Pana Sławka  [EN] Mr. Sławek's Display Case "
+					},
+					{
+						"description": "\n[PL] W tym miejscu znajdziesz klientów bez krawata, którzy się awanturowali lub inni klienci naszego sklepu orzekli, że nie zamierzają spędzać czasu w takim towarzystwie.\n\n[EN] Here you will find customers without ties who caused a commotion, or other customers of our store who decided they would not spend time in such company.",
+						"lang": "en",
+						"name": "[PL] Gablota Pana Sławka  [EN] Mr. Sławek's Display Case"
 					}
 				],
 				"severity": "inform|alert|none"

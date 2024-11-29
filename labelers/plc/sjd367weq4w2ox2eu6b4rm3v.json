@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:sjd367weq4w2ox2eu6b4rm3v/app.bsky.labeler.service/self",
-	"cid": "bafyreibktdcxnrxy4ogjr4fkvyubwfvap5js2eu2q7crmbzafyuzky2mfy",
+	"cid": "bafyreigr3ctwwvbcsru2k66k2wnrb2dthztvgojn63dzxpqfesti4zzuie",
 	"creator": {
 		"did": "did:plc:sjd367weq4w2ox2eu6b4rm3v",
 		"handle": "aws-labels.bsky.social",
@@ -18,27 +18,42 @@
 		"indexedAt": "2024-11-27T16:42:50.245Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-27T18:19:57.153Z",
+	"indexedAt": "2024-11-28T06:21:40.648Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
-				"identifier": "aws-labeler",
+				"defaultSetting": "warn",
+				"identifier": "aws-hero",
 				"locales": [
 					{
-						"description": "AWS people labeler",
+						"description": "AWS Hero, see https://aws.amazon.com/developer/community/heroes",
 						"lang": "en",
-						"name": "AWS Labels"
+						"name": "AWS Hero"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aws-community-builder",
+				"locales": [
+					{
+						"description": "AWS Community Builder, see https://aws.amazon.com/developer/community/community-builders/community-builders-directory/",
+						"lang": "en",
+						"name": "AWS Community Builder"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"aws-labeler"
+			"aws-hero",
+			"aws-community-builder"
 		]
 	}
 }

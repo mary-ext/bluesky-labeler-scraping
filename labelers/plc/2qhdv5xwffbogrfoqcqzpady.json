@@ -1,22 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qhdv5xwffbogrfoqcqzpady/app.bsky.labeler.service/self",
-	"cid": "bafyreicwfg5m67qgnaqlncpzj56pcrodusnf6xnbfyvhs3rprx2lsnfetu",
+	"cid": "bafyreibl5yjpc5kw7gqd2rfelsb2yqtfedipsnijxsbyjkfsc6qg7hup6y",
 	"creator": {
 		"did": "did:plc:2qhdv5xwffbogrfoqcqzpady",
-		"handle": "labeler.procycling.social",
+		"handle": "handle.invalid",
 		"displayName": "Pro Cycling Labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qhdv5xwffbogrfoqcqzpady/bafkreibumb6z3gf4jh4lz7uw3z6g3sh6bgnhuim5aemfsnagt73ueswwjm@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qhdv5xwffbogrfoqcqzpady/bafkreia4u7koyse2gwm66dfvuvbkd2fv7kztwzuvjbp5kseqedg64puupm@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-06-13T13:27:43.348Z",
 		"description": "A labeling service for the Professional Cycling community. Check my posts for instructions.\n\nLabels are manually applied and may be delayed. \n\nManaged by @kris.to",
-		"indexedAt": "2024-11-22T16:12:24.355Z"
+		"indexedAt": "2024-11-28T14:42:30.845Z"
 	},
-	"likeCount": 27,
-	"indexedAt": "2024-11-27T21:40:23.861Z",
+	"likeCount": 46,
+	"indexedAt": "2024-11-28T18:37:26.866Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -80,7 +80,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "pro-cyclist",
+				"identifier": "former-pro",
 				"locales": [
 					{
 						"description": "A former professional cyclist.\n\n✅ This profile has been independently verified.",
@@ -125,9 +125,23 @@
 				"identifier": "cycling-media",
 				"locales": [
 					{
-						"description": "Journalists and publications delivering news, insights, and stories from the professional cycling world.\n\n✅ This profile has been independently verified.",
+						"description": "Journalists, photographers, analysts and content creators from the professional cycling world.\n\n✅ This profile has been independently verified.",
 						"lang": "en",
 						"name": "Cycling Media"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-publication",
+				"locales": [
+					{
+						"description": "Publications delivering news, insights, and stories from the professional cycling world.\n\n✅ This profile has been independently verified.",
+						"lang": "en",
+						"name": "Cycling Publication"
 					}
 				],
 				"severity": "inform"
@@ -173,6 +187,20 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "impersonator",
+				"locales": [
+					{
+						"description": "This account appears to be impersonating a real person.",
+						"lang": "en",
+						"name": "Impersonator"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -185,9 +213,11 @@
 			"team",
 			"race",
 			"cycling-media",
+			"cycling-publication",
 			"team-insider",
 			"race-spoiler",
-			"unrelated"
+			"unrelated",
+			"impersonator"
 		]
 	}
 }

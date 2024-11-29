@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:r5zogjmxhhn6v23dv47li6pc/app.bsky.labeler.service/self",
-	"cid": "bafyreigmnjl35sidxqze5hosmgkqrlyvyptmv4cbxgtotdfmnd2atgabm4",
+	"cid": "bafyreifoxblldrcysoyu2qnpryp6ku4mcweligitlu6hjlnifvxvunjr6a",
 	"creator": {
 		"did": "did:plc:r5zogjmxhhn6v23dv47li6pc",
 		"handle": "app-for.bsky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-09-21T20:11:20.109Z"
 	},
 	"likeCount": 46,
-	"indexedAt": "2024-09-21T18:10:16.428Z",
+	"indexedAt": "2024-11-28T20:40:03.452Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -50,11 +50,26 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bsky-web",
+				"locales": [
+					{
+						"description": "You are using BlueSky from Web",
+						"lang": "en",
+						"name": "BlueSky for Web"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"bsky-iphone",
-			"bsky-android"
+			"bsky-android",
+			"bsky-web"
 		]
 	}
 }
