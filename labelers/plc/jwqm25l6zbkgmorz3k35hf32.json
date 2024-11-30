@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreienslwh2hnefmifi3s2ondkmt3wibsw2yqwso6nch6ztygx5kwbju",
+	"cid": "bafyreicvh4ol33tnq2qty5sk3tvjmrde4gsulthbovg7bdrhbu6zoizulm",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -19,10 +19,24 @@
 		"indexedAt": "2024-11-25T22:23:53.547Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-25T22:27:52.959Z",
+	"indexedAt": "2024-11-29T20:34:33.061Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "missing-alt-text",
+				"locales": [
+					{
+						"description": "This is a test, Rate Limit / No Alt Text Testing",
+						"lang": "en",
+						"name": "Test"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -67,6 +81,7 @@
 			}
 		],
 		"labelValues": [
+			"missing-alt-text",
 			"contains-xwitter",
 			"test2",
 			"test",

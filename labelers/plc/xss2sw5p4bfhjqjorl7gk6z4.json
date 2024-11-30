@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xss2sw5p4bfhjqjorl7gk6z4/app.bsky.labeler.service/self",
-	"cid": "bafyreiccsq6xklqe6huhi4xe3y5qeqtxdfedlocfjcv7ndjc65nqbqtehy",
+	"cid": "bafyreib2bdllfnjc7jcptud5tyhwmdblglzord5przcw723ftcwv43xh44",
 	"creator": {
 		"did": "did:plc:xss2sw5p4bfhjqjorl7gk6z4",
 		"handle": "bluesky.ms",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-26T08:41:47.745Z",
-		"description": "Bluesky.ms is a community driven effort to connect with folks at Microsoft and also label accounts verified as \n\n✅ Microsoft employee\n✅ Microsoft MVP\n\nThis service is managed by @merill.net as a personal project and is not affiliated with Microsoft.",
-		"indexedAt": "2024-11-26T13:54:25.248Z"
+		"description": "Bluesky.ms is a community driven effort to connect with folks at Microsoft and also label accounts verified as \n\n✅ Microsoft employee\n✅ Microsoft MVP & RD\n\nThis service is managed by @merill.net as a personal project and is not affiliated with Microsoft",
+		"indexedAt": "2024-11-29T23:45:22.255Z"
 	},
-	"likeCount": 169,
-	"indexedAt": "2024-11-26T13:28:21.060Z",
+	"likeCount": 173,
+	"indexedAt": "2024-11-29T13:59:08.954Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -41,9 +41,37 @@
 				"identifier": "microsoft-mvp",
 				"locales": [
 					{
-						"description": "Verified Microsoft MVP",
+						"description": "Verified Microsoft MVP. \n\nThe Microsoft Most Valuable Professionals (MVP) program recognizes exceptional community leaders for their technical expertise, leadership, speaking experience, online influence, and commitment to solving real world problems.\n\nSee aka.ms/mvp",
 						"lang": "en",
 						"name": "Microsoft MVP"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft-rd",
+				"locales": [
+					{
+						"description": "Verified Microsoft Regional Director.\n\nThe Microsoft Regional Directors program recognizes industry professionals for their cross-platform technical expertise, community leadership, public speaking experience, online influence, and commitment to business results.\n\nSee aka.ms/mvp",
+						"lang": "en",
+						"name": "Microsoft RD"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft-mvp-rd",
+				"locales": [
+					{
+						"description": "Verified Microsoft MVP and Microsoft Regional Director\n\nThe Microsoft Most Valuable Professionals (MVP) program recognizes exceptional community leaders for their technical expertise, leadership, speaking experience, online influence, and commitment to solving real world problems.\n\nThe Microsoft Regional Directors program recognizes industry professionals for their cross-platform technical expertise, community leadership, public speaking experience, online influence, and commitment to business results.\n\nSee aka.ms/mvp",
+						"lang": "en",
+						"name": "Microsoft MVP & RD"
 					}
 				],
 				"severity": "inform"
@@ -51,7 +79,9 @@
 		],
 		"labelValues": [
 			"microsoft",
-			"microsoft-mvp"
+			"microsoft-mvp",
+			"microsoft-rd",
+			"microsoft-mvp-rd"
 		]
 	}
 }

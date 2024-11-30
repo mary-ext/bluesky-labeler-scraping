@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xje4wfji5zjiwgrhwpc3itv2/app.bsky.labeler.service/self",
-	"cid": "bafyreibkqboibfwjjk4k6su3yatakovdgaiwl2naq7fsv2muksrhnf3w3y",
+	"cid": "bafyreiglfexmrkr52lupdbcdjmuv2n7ypbj3w2bt5xah5j4i7ezypjysie",
 	"creator": {
 		"did": "did:plc:xje4wfji5zjiwgrhwpc3itv2",
 		"handle": "label.directioners.social",
@@ -18,8 +18,8 @@
 		"description": "Labels for the One Direction Fandom! (max 8)\n\nSetup Instructions:\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like a post here: https://bsky.app/profile/label.directioners.social/post/3lb2pwrla4u2h",
 		"indexedAt": "2024-11-25T23:38:32.745Z"
 	},
-	"likeCount": 12,
-	"indexedAt": "2024-11-28T23:00:24.952Z",
+	"likeCount": 13,
+	"indexedAt": "2024-11-29T09:47:53.569Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -55,6 +55,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "beta-reader",
+				"locales": [
+					{
+						"description": "Im a beta reader!",
+						"lang": "en",
+						"name": "Beta Reader 📚"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "larrie",
 				"locales": [
 					{
@@ -69,12 +83,40 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "chill-larrie",
+				"locales": [
+					{
+						"description": "Just here to have fun, no drama",
+						"lang": "en",
+						"name": "Chill Larrie 🌶"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "neutral",
 				"locales": [
 					{
 						"description": "I am Neutral",
 						"lang": "en",
 						"name": "Neutral 🤍"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "anti",
+				"locales": [
+					{
+						"description": "Larries DNI",
+						"lang": "en",
+						"name": "Anti 🖕🏻"
 					}
 				],
 				"severity": "inform"
@@ -298,7 +340,7 @@
 					{
 						"description": " Made In The A.M. Album (2015) 🌅",
 						"lang": "en",
-						"name": "MITAM "
+						"name": "MITAM 🌅"
 					}
 				],
 				"severity": "inform"
@@ -307,8 +349,11 @@
 		"labelValues": [
 			"fic-writer",
 			"smau-writer",
+			"beta-reader",
 			"larrie",
+			"chill-larrie",
 			"neutral",
+			"anti",
 			"ziam",
 			"no-theories",
 			"yes-theories",

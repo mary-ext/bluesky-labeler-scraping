@@ -1,0 +1,88 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:nah75ibwaqip22sovoyym452/app.bsky.labeler.service/self",
+	"cid": "bafyreifyd4ysh3bkgnd3sddcui3auunsg5w6y3wqgkhmbiijevj3bvbfky",
+	"creator": {
+		"did": "did:plc:nah75ibwaqip22sovoyym452",
+		"handle": "pv.at.logik.al",
+		"displayName": "pv labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nah75ibwaqip22sovoyym452/bafkreidw6w2ayg7l7hvxox2m6durlrqrpd343wirq5og6or5wcdoqlj3xu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-16T08:46:02.385Z",
+		"description": "You probably don't want to subscribe to this. It's for @logik.al to have some persistence of vision as people change names and pfps.",
+		"indexedAt": "2024-11-29T07:32:57.946Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2024-11-29T07:25:05.050Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "work",
+				"locales": [
+					{
+						"description": "work friend",
+						"lang": "en",
+						"name": "work"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "poster",
+				"locales": [
+					{
+						"description": "followed for posts",
+						"lang": "en",
+						"name": "poster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pocketfriend",
+				"locales": [
+					{
+						"description": "an online friend",
+						"lang": "en",
+						"name": "pocketfriend"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "friend",
+				"locales": [
+					{
+						"description": "irl friend",
+						"lang": "en",
+						"name": "friend"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"pocketfriend",
+			"poster",
+			"atproto",
+			"friend",
+			"work"
+		]
+	}
+}

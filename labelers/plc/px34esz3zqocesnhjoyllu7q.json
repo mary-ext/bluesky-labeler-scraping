@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:px34esz3zqocesnhjoyllu7q/app.bsky.labeler.service/self",
-	"cid": "bafyreico77zyt2v66hjhjgqty7x4sj5izurkjjjfwpmgnx7q3bd2uquokq",
+	"cid": "bafyreifrz72cjxpccl2gmq6mfbh2r7ww7pjecl524cu4c4xcg55ul7bmzi",
 	"creator": {
 		"did": "did:plc:px34esz3zqocesnhjoyllu7q",
 		"handle": "verifiedsky.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "This profile hosts verified lists of Bluesky users. Go to https://verified-bluesky-rpu7w3bv.fermyon.app to learn more",
 		"indexedAt": "2024-11-23T23:32:09.048Z"
 	},
-	"likeCount": 2,
-	"indexedAt": "2024-11-28T16:44:56.954Z",
+	"likeCount": 4,
+	"indexedAt": "2024-11-29T19:20:38.256Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -47,11 +47,26 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "dynamicsminds",
+				"locales": [
+					{
+						"description": "DynamicsMinds speakers (see https://dynamicsminds.com)",
+						"lang": "en",
+						"name": "DynamicsMinds Speaker"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"ms-mvp",
-			"ms-rd"
+			"ms-rd",
+			"dynamicsminds"
 		]
 	}
 }
