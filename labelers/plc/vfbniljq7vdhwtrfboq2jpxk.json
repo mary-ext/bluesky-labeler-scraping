@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:vfbniljq7vdhwtrfboq2jpxk/app.bsky.labeler.service/self",
-	"cid": "bafyreibvhowzjdyxuq3uhknjpu6jd42wwhxoji4bpo6r2es7pdz3rbsdiq",
+	"cid": "bafyreiclmrhmavrlguyyds4vux6xjqv3uups4nhco5lyaloikmqbml4av4",
 	"creator": {
 		"did": "did:plc:vfbniljq7vdhwtrfboq2jpxk",
 		"handle": "labeltest.guan.dk",
@@ -15,11 +15,25 @@
 		"description": "Experimenting with custom moderation services and labeling",
 		"indexedAt": "2024-11-22T21:55:55.252Z"
 	},
-	"likeCount": 8,
-	"indexedAt": "2024-11-22T20:56:40.167Z",
+	"likeCount": 9,
+	"indexedAt": "2024-11-30T16:50:05.260Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "avocado",
+				"locales": [
+					{
+						"description": "verificaDO",
+						"lang": "en",
+						"name": "🥑"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -64,6 +78,7 @@
 			}
 		],
 		"labelValues": [
+			"avocado",
 			"amazing",
 			"cool",
 			"awesome"

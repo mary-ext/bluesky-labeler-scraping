@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:p3xrn75k25pxb7rpnkx3dznw/app.bsky.labeler.service/self",
-	"cid": "bafyreiafcppfkcsh4d4wr4q5exmzdro6qkurq6yp54n3huhfryeweiqfti",
+	"cid": "bafyreiedv4mnbbjw324iwl64wpdp3o7vlharadnxrjfugswezbrx43p4nm",
 	"creator": {
 		"did": "did:plc:p3xrn75k25pxb7rpnkx3dznw",
 		"handle": "radiantpaths.bsky.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-11-24T17:10:10.945Z"
 	},
 	"likeCount": 12,
-	"indexedAt": "2024-11-21T17:22:14.589Z",
+	"indexedAt": "2024-11-30T17:39:26.452Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -190,6 +190,25 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bondsmith-path",
+				"locales": [
+					{
+						"description": "Bondsmith",
+						"lang": "en",
+						"name": "Bondsmith"
+					},
+					{
+						"description": "Bondsmith",
+						"lang": "es",
+						"name": "Bondsmith"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -201,7 +220,8 @@
 			"lightweaver-path",
 			"elsecaller-path",
 			"willshaper-path",
-			"stoneward-path"
+			"stoneward-path",
+			"bondsmith-path"
 		]
 	}
 }

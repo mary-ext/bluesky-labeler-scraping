@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:damrnsdff2viflhkuvfkcug2/app.bsky.labeler.service/self",
-	"cid": "bafyreiczgmxvnl3ptfhm7wh3umue7kxerjd62wspqkjgd6rghutdmri4ca",
+	"cid": "bafyreiceolxnzjjdlfhzkckthosb2xkmqdlqn2oft6lyy4lvm2e4jjbqmm",
 	"creator": {
 		"did": "did:plc:damrnsdff2viflhkuvfkcug2",
 		"handle": "nafo.fellas.social",
@@ -12,13 +12,31 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-10T11:28:35.182Z",
-		"description": "Fighting propaganda, misinformation and disinformation. \nBe good to each other and as always, support Ukraine.",
-		"indexedAt": "2024-11-17T21:50:37.096Z"
+		"description": "Fighting propaganda, misinformation and disinformation. \nReport, so users can be informed about your findings.\nIndependent Labeling Service\n\nNot affiliated with @skywatch.bsky.social ",
+		"indexedAt": "2024-11-30T17:02:30.646Z"
 	},
-	"likeCount": 4,
-	"indexedAt": "2024-11-16T21:46:17.857Z",
+	"likeCount": 5,
+	"indexedAt": "2024-11-30T22:37:34.855Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "disinformation-network",
+				"locales": [
+					{
+						"description": "The post links, or the user regularly posts, links to sources known to be a of Russian or pro-Assad disinformation networks.",
+						"lang": "en",
+						"name": "Disinformation network"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"disinformation-network"
+		]
 	}
 }

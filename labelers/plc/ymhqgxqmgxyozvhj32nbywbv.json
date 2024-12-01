@@ -1,0 +1,102 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:ymhqgxqmgxyozvhj32nbywbv/app.bsky.labeler.service/self",
+	"cid": "bafyreiaazdibx2fxxw2r5y5ex67wwudgqaw7y7texa53vwzgrmwutghl7u",
+	"creator": {
+		"did": "did:plc:ymhqgxqmgxyozvhj32nbywbv",
+		"handle": "pwnedlabels.bsky.social",
+		"displayName": "Pwned Labels",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ymhqgxqmgxyozvhj32nbywbv/bafkreih5xedy3n4asrltz5c7pkqavbuk3k3hi3jxlxgien7wbas2dtosmq@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-01T00:38:36.546Z",
+		"description": "A labeling service to help me see at a glance if an account is on any of my lists.\n\nOther goals:\n\nLabel users engaging in toxic behavior to help people remove toxic content from users' Bluesky experience.\n\nLabels for which PFN categories users fall under.",
+		"indexedAt": "2024-12-01T01:18:06.645Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-01T01:17:10.651Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pfn",
+				"locales": [
+					{
+						"description": "Accounts on my Propaganda and Fake News list. Anyone who spreads disinformation, knowingly or unknowingly, and/or hateful content. Includes MSM, politicians, corporations, MAGA, KHive, NAFO, Zionists, xenophobes (such as racists, misogynists, and anti-LGBTQ), and more.",
+						"lang": "en",
+						"name": "Propaganda and Fake News"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tdr",
+				"locales": [
+					{
+						"description": "Accounts on my The \"Dore-anged\" list. Pundits/personalities/coattail riders who are addicted to smearing Jimmy Dore for clicks, and/or others who spread said smears without question. Simply disliking him does not qualify you to be on this list. You have to be complaining about him regularly and/or pushing easily debunkable claims.",
+						"lang": "en",
+						"name": "The \"Dore-anged\""
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blocks",
+				"locales": [
+					{
+						"description": "Accounts on my Blocks I Have Earned list. Includes people who are triggered by and/or absolutely terrified of me, subscribed to a blocklist without vetting the accounts on it first, or mistook me for Matt Mercy's @ipwnedubsky.social \"parody\" account in 2023.",
+						"lang": "en",
+						"name": "Blocks I Have Earned"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ntb",
+				"locales": [
+					{
+						"description": "Accounts from my Needs to Be Banned list. Toxic accounts that have no place on any social media site. Mass-reporting them is strongly encouraged.",
+						"lang": "en",
+						"name": "Needs to Be Banned"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fss",
+				"locales": [
+					{
+						"description": "Accounts from my Fronts, Shells, and Shills list. They're not as independent and unbiased as they may seem... Includes paid spokespeople, non-profits that receive big donations in exchange for pushing their donors' narratives, NGOs, government cutouts, shell companies, and anyone with undisclosed conflicts of interest.",
+						"lang": "en",
+						"name": "Fronts, Shells, and Shills"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"pfn",
+			"tdr",
+			"blocks",
+			"ntb",
+			"fss"
+		]
+	}
+}

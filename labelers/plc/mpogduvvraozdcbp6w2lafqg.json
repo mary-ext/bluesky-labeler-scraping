@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mpogduvvraozdcbp6w2lafqg/app.bsky.labeler.service/self",
-	"cid": "bafyreihhjoaevq6asbe62wywgfttplpke2s5puswl2ockt43y7ahuinhm4",
+	"cid": "bafyreidb5u5kspinlaalqy6gwdqdcmjrdwdvnj76qcethy5kavxdgmx4pm",
 	"creator": {
 		"did": "did:plc:mpogduvvraozdcbp6w2lafqg",
 		"handle": "warlabel.bsky.social",
@@ -15,11 +15,53 @@
 		"description": "A new labeler set unofficially in the Warhammer universe!\nSubscribe and Like to join!\n\nuse \"@warlabel.bsky.social help\" to learn commands",
 		"indexedAt": "2024-11-24T20:09:12.747Z"
 	},
-	"likeCount": 164,
-	"indexedAt": "2024-11-30T00:11:51.062Z",
+	"likeCount": 166,
+	"indexedAt": "2024-11-30T02:03:55.168Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "necrons",
+				"locales": [
+					{
+						"description": "Awoken from their Tombworlds",
+						"lang": "en",
+						"name": "Necrons"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aeldari",
+				"locales": [
+					{
+						"description": "Craftworlders",
+						"lang": "en",
+						"name": "Aeldari"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "adepta-sororitas",
+				"locales": [
+					{
+						"description": "The Sisterhood",
+						"lang": "en",
+						"name": "Adepta Sororitas"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -633,10 +675,10 @@
 			"mini-printer",
 			"mini-painter",
 			"adepta-sororitas",
-			"voltann",
+			"votann",
 			"kroot",
-			"tyranid",
-			"necron",
+			"tyranids",
+			"necrons",
 			"aeldari",
 			"tau",
 			"ork",

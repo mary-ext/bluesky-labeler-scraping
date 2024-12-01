@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:kfs6qq5alv3klxr32zkmxbnv/app.bsky.labeler.service/self",
-	"cid": "bafyreiczmmbkxtuqngacnaqdwkjg7wx7xcjtnsmwtd7obkynlsbj6mz4sq",
+	"cid": "bafyreibwznzljvtv5pg5akohralx4fqyo4z6g2ztamjcfandr2ngpwbzmq",
 	"creator": {
 		"did": "did:plc:kfs6qq5alv3klxr32zkmxbnv",
 		"handle": "fanworkslabels.bsky.social",
@@ -14,8 +14,8 @@
 		"createdAt": "2024-11-22T00:06:11.454Z",
 		"indexedAt": "2024-11-22T00:06:11.454Z"
 	},
-	"likeCount": 6,
-	"indexedAt": "2024-11-23T21:27:09.257Z",
+	"likeCount": 7,
+	"indexedAt": "2024-12-01T00:12:47.159Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -28,7 +28,7 @@
 					{
 						"description": "This post has been marked as a fanfiction",
 						"lang": "en",
-						"name": "Fanfiction"
+						"name": "📝 Fanfiction"
 					}
 				],
 				"severity": "inform"
@@ -42,7 +42,105 @@
 					{
 						"description": "This post has been marked as a shitpost",
 						"lang": "en",
-						"name": "Shitpost"
+						"name": "💩 Shitpost"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "art",
+				"locales": [
+					{
+						"description": "This post has been marked as an artwork",
+						"lang": "en",
+						"name": "🖼️ Artworks"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "meta",
+				"locales": [
+					{
+						"description": "This post has been marked as meta",
+						"lang": "en",
+						"name": "🧠 Meta"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "headcanon",
+				"locales": [
+					{
+						"description": "This post has been marked as a headcanon",
+						"lang": "en",
+						"name": "🗣️ Headcanon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "threadfic",
+				"locales": [
+					{
+						"description": "This post has been marked as a threadfic",
+						"lang": "en",
+						"name": "🧵 Threadfic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fanvid",
+				"locales": [
+					{
+						"description": "This post has been marked as a fanvid",
+						"lang": "en",
+						"name": "🎞️ Fanvid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "event",
+				"locales": [
+					{
+						"description": "This post has been marked as an event announcement",
+						"lang": "en",
+						"name": "🗓️ Event"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zine",
+				"locales": [
+					{
+						"description": "This post has been marked as a fanvid",
+						"lang": "en",
+						"name": "📑 Zine"
 					}
 				],
 				"severity": "inform"
@@ -50,7 +148,14 @@
 		],
 		"labelValues": [
 			"fanfic",
-			"shitpost"
+			"shitpost",
+			"art",
+			"meta",
+			"headcanon",
+			"threadfic",
+			"fanvid",
+			"event",
+			"zine"
 		]
 	}
 }

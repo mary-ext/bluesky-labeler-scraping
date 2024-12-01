@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ufew2qvdqh65a5igost7paqc/app.bsky.labeler.service/self",
-	"cid": "bafyreibjonjf53qcxnqyccrg6ooq6dsw72c5a6cviqle73uc6yqmekm47q",
+	"cid": "bafyreif3rasb6thymkmngg5h7wl3xkaxgvlhyxoa656xxvyflqvyex37za",
 	"creator": {
 		"did": "did:plc:ufew2qvdqh65a5igost7paqc",
 		"handle": "verified.quest",
@@ -15,8 +15,8 @@
 		"description": "Labeled accounts are Officially Verified by @hunterw.bsky.social",
 		"indexedAt": "2024-11-26T17:00:10.245Z"
 	},
-	"likeCount": 856,
-	"indexedAt": "2024-11-26T00:13:24.459Z",
+	"likeCount": 911,
+	"indexedAt": "2024-11-30T15:43:42.165Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -47,11 +47,26 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "politics",
+				"locales": [
+					{
+						"description": "Elected officials, activists, and operatives who have been Officially Verified on Bluesky by Hunter Walker",
+						"lang": "en",
+						"name": "🏛️"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"press",
-			"verified"
+			"verified",
+			"politics"
 		]
 	}
 }

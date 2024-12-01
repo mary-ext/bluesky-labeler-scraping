@@ -1,22 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:px34esz3zqocesnhjoyllu7q/app.bsky.labeler.service/self",
-	"cid": "bafyreifrz72cjxpccl2gmq6mfbh2r7ww7pjecl524cu4c4xcg55ul7bmzi",
+	"cid": "bafyreiboa6zh5hyv6zxwiatvsukz2faenmxjmcscu377jyte2cgk5v3yji",
 	"creator": {
 		"did": "did:plc:px34esz3zqocesnhjoyllu7q",
 		"handle": "verifiedsky.bsky.social",
 		"displayName": "Verified Bluesky",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:px34esz3zqocesnhjoyllu7q/bafkreieqyc4fbmf5zur3rfqomapymvi24rpppdsnxmnr2d25tmveijmtgi@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:px34esz3zqocesnhjoyllu7q/bafkreidaa55gxty3w3ft66f2uemcwad565u55mipxdr2wiiyfriogs4i7y@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-19T21:47:01.566Z",
-		"description": "This profile hosts verified lists of Bluesky users. Go to https://verified-bluesky-rpu7w3bv.fermyon.app to learn more",
-		"indexedAt": "2024-11-23T23:32:09.048Z"
+		"description": "This profile hosts verified lists of Bluesky users. Go to https://verified-bluesky-rpu7w3bv.fermyon.app to learn more. For the technical details, check https://tobiasfenster.io/verifying-user-accounts-on-bluesky-with-a-wasm-spin-application",
+		"indexedAt": "2024-11-30T22:06:05.349Z"
 	},
-	"likeCount": 4,
-	"indexedAt": "2024-11-29T19:20:38.256Z",
+	"likeCount": 12,
+	"indexedAt": "2024-11-30T12:53:11.751Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -61,12 +61,27 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "ghstar",
+				"locales": [
+					{
+						"description": "GitHub Stars (see https://stars.github.com)",
+						"lang": "en",
+						"name": "GitHub Star"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"ms-mvp",
 			"ms-rd",
-			"dynamicsminds"
+			"dynamicsminds",
+			"ghstar"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qhdv5xwffbogrfoqcqzpady/app.bsky.labeler.service/self",
-	"cid": "bafyreibl5yjpc5kw7gqd2rfelsb2yqtfedipsnijxsbyjkfsc6qg7hup6y",
+	"cid": "bafyreib3x7vp5kdbadrsnwd6xdvngt3ll4jl5f3ashgpbrj3sfwcsa37ly",
 	"creator": {
 		"did": "did:plc:2qhdv5xwffbogrfoqcqzpady",
 		"handle": "labeler.procycling.social",
@@ -15,8 +15,8 @@
 		"description": "A labeling service for the Professional Cycling community. Check my posts for instructions.\n\nLabels are manually applied and may be delayed. \n\nManaged by @kris.to",
 		"indexedAt": "2024-11-29T16:16:24.645Z"
 	},
-	"likeCount": 53,
-	"indexedAt": "2024-11-28T18:37:26.866Z",
+	"likeCount": 58,
+	"indexedAt": "2024-11-30T13:16:32.256Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -58,6 +58,20 @@
 						"description": "Any business in the world of bike racing.",
 						"lang": "en",
 						"name": "🚴‍♂️ Business"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "content-creator",
+				"locales": [
+					{
+						"description": "An account producing content for the rest of us Pro Cycling fans.",
+						"lang": "en",
+						"name": "🚴‍♂️ Content Creator"
 					}
 				],
 				"severity": "inform"
@@ -208,6 +222,7 @@
 			"cycling-superfan",
 			"content-creator",
 			"cycling-business",
+			"content-creator",
 			"pro-cyclist",
 			"former-pro",
 			"team",

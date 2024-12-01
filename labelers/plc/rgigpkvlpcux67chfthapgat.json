@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rgigpkvlpcux67chfthapgat/app.bsky.labeler.service/self",
-	"cid": "bafyreic77cwssts3mllylkl2bterrhgji3gje7shmqwclcvniff5ageooi",
+	"cid": "bafyreiebwfegkw57lg4gexfgevttic5hkx5iezk7gojii7k6jycjxwqmki",
 	"creator": {
 		"did": "did:plc:rgigpkvlpcux67chfthapgat",
 		"handle": "featurerequest.bsky.social",
@@ -14,8 +14,8 @@
 		"createdAt": "2024-11-29T13:38:44.446Z",
 		"indexedAt": "2024-11-29T13:38:44.446Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-11-29T13:49:46.562Z",
+	"likeCount": 1,
+	"indexedAt": "2024-11-30T21:33:55.648Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,19 +23,19 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "dm-replies",
+				"identifier": "bookmarks",
 				"locales": [
 					{
-						"description": "A way to reply to specific chat messages",
+						"description": "User wants bookmarks to be added to Bluesky",
 						"lang": "en",
-						"name": "Chat Replies"
+						"name": "Bookmarks"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"dm-replies"
+			"bookmarks"
 		]
 	}
 }
