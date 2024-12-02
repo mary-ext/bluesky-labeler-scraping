@@ -1,21 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rgigpkvlpcux67chfthapgat/app.bsky.labeler.service/self",
-	"cid": "bafyreiebwfegkw57lg4gexfgevttic5hkx5iezk7gojii7k6jycjxwqmki",
+	"cid": "bafyreickcttk3hxqcjyob75ypfxklaycwin5vzpuwxbp5a5gbcvjzck4nu",
 	"creator": {
 		"did": "did:plc:rgigpkvlpcux67chfthapgat",
 		"handle": "featurerequest.bsky.social",
-		"displayName": "",
+		"displayName": "Feature Request Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rgigpkvlpcux67chfthapgat/bafkreiblnvozrtsrwjmme6cotfxl2ef5eus4ohdsg4cja576rfp6tkxrze@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-29T13:38:44.446Z",
-		"indexedAt": "2024-11-29T13:38:44.446Z"
+		"description": "Show your support for missing Bluesky features with labels!\n\n1️⃣ Subscribe to this labeler\n2️⃣ Like our post about a feature\n3️⃣ Receive a label showing your support for it\n\n(Not affiliated with the Bluesky Team, but they'll see it 🤭)",
+		"indexedAt": "2024-12-01T03:12:42.846Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-11-30T21:33:55.648Z",
+	"likeCount": 2,
+	"indexedAt": "2024-12-01T02:37:44.457Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -32,10 +33,70 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chat-replies",
+				"locales": [
+					{
+						"description": "User wants chat replies to be added to Bluesky",
+						"lang": "en",
+						"name": "Chat Replies"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "group-chats",
+				"locales": [
+					{
+						"description": "User wants group chats to be added to Bluesky",
+						"lang": "en",
+						"name": "Group Chats"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gifs",
+				"locales": [
+					{
+						"description": "User wants support for GIFs to be added to Bluesky",
+						"lang": "en",
+						"name": "GIFs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "polls",
+				"locales": [
+					{
+						"description": "User wants polls to be added to Bluesky",
+						"lang": "en",
+						"name": "Polls"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"bookmarks"
+			"bookmarks",
+			"chat-replies",
+			"group-chats",
+			"gifs",
+			"polls"
 		]
 	}
 }

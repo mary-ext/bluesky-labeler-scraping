@@ -1,41 +1,40 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:iytbgmfr6tafkgj6yfrrmafy/app.bsky.labeler.service/self",
-	"cid": "bafyreidkzsniqdtrlvquht6ffsaha5qwhwwoaqyovlf77fcotvyvnvrsqy",
+	"cid": "bafyreiglqzaekw2m2wjgglsm6tsgydacqzmlrilptanin6ooltucjcsnbe",
 	"creator": {
 		"did": "did:plc:iytbgmfr6tafkgj6yfrrmafy",
 		"handle": "uspol-lobby.bsky.social",
-		"displayName": "Money in US politics [wip]",
+		"displayName": "[wip]",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iytbgmfr6tafkgj6yfrrmafy/bafkreifq2rjufhnru3adzvhk3c3zniih6555ljgctexqqzmqmano7jfoju@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-11-25T19:18:52.548Z",
-		"description": "[work in progress] Labels accounts of Congresspeople according to whether they receive money from certain categories of groups.",
-		"indexedAt": "2024-11-26T00:30:22.246Z"
+		"indexedAt": "2024-12-01T03:21:23.145Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-11-25T19:48:46.447Z",
+	"indexedAt": "2024-12-01T15:10:31.355Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "aipac-recipient",
+				"identifier": "a",
 				"locales": [
 					{
-						"description": "This politician receives money from one of the pro-Israel groups.\n\nhttps://www.opensecrets.org/industries/indus?ind=Q05",
+						"description": "A",
 						"lang": "en",
-						"name": "Pro-Israel PAC Recipient"
+						"name": "A"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"aipac-recipient"
+			"a"
 		]
 	}
 }

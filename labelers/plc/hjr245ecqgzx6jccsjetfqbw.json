@@ -1,0 +1,140 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:hjr245ecqgzx6jccsjetfqbw/app.bsky.labeler.service/self",
+	"cid": "bafyreicwdxjgzsnxtkdizuboydzwf4w6ga3lmi4icmnfjj5lxqc244huuy",
+	"creator": {
+		"did": "did:plc:hjr245ecqgzx6jccsjetfqbw",
+		"handle": "bonker.stealthbadger.net",
+		"displayName": "Badgerator",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hjr245ecqgzx6jccsjetfqbw/bafkreic2bdk6u3asndmbv5rbo2fhww3njn2kja7hxtxjwmfbp6wr4u3iuy@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [
+			{
+				"src": "did:plc:hjr245ecqgzx6jccsjetfqbw",
+				"uri": "at://did:plc:hjr245ecqgzx6jccsjetfqbw/app.bsky.actor.profile/self",
+				"cid": "bafyreidu2lza7owhn3q7h2dweh73o3kxotck5ognsgzscdik3zjr3xtutm",
+				"val": "!no-unauthenticated",
+				"cts": "2024-11-23T04:52:55.815Z"
+			}
+		],
+		"createdAt": "2024-11-23T04:53:01.045Z",
+		"description": "When you need something annoying bit Right Now.\n\nThis labeler is a work in progress.",
+		"indexedAt": "2024-12-01T18:46:10.945Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-12-01T21:26:41.870Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "ad-spam",
+				"locales": [
+					{
+						"description": "No thank you.",
+						"lang": "en",
+						"name": "Advertisement Spam"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "annoying",
+				"locales": [
+					{
+						"description": "People who aren't abusive, but just can't bring anything positive to the conversation.",
+						"lang": "en",
+						"name": "Annoying"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "abusive",
+				"locales": [
+					{
+						"description": "The kind of person who personifies \"does not play well with others.\"",
+						"lang": "en",
+						"name": "Abusive"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "sus",
+				"locales": [
+					{
+						"description": "Very sus profile, following, or otherwise just not right.",
+						"lang": "en",
+						"name": "Sus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "Generic troll, including KF, etc.",
+						"lang": "en",
+						"name": "Troll"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "anti-abortion",
+				"locales": [
+					{
+						"description": "Specific anti-abortion content or trolling.",
+						"lang": "en",
+						"name": "Anti-abortion"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "trump-supporter",
+				"locales": [
+					{
+						"description": "Xitter Leakage",
+						"lang": "en",
+						"name": "Trump supporter"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"ad-spam",
+			"annoying",
+			"abusive",
+			"sus",
+			"troll",
+			"anti-abortion",
+			"trump-supporter"
+		]
+	}
+}

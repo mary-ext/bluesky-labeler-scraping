@@ -1,22 +1,22 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ymhqgxqmgxyozvhj32nbywbv/app.bsky.labeler.service/self",
-	"cid": "bafyreiaazdibx2fxxw2r5y5ex67wwudgqaw7y7texa53vwzgrmwutghl7u",
+	"cid": "bafyreihk5wllwgjfalwv6hziscjw6gar3bezcjcqcooyseyfjhi66fseli",
 	"creator": {
 		"did": "did:plc:ymhqgxqmgxyozvhj32nbywbv",
 		"handle": "pwnedlabels.bsky.social",
 		"displayName": "Pwned Labels",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ymhqgxqmgxyozvhj32nbywbv/bafkreih5xedy3n4asrltz5c7pkqavbuk3k3hi3jxlxgien7wbas2dtosmq@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ymhqgxqmgxyozvhj32nbywbv/bafkreihppqc2tll7ti3mg3rccctnaxnjtbmp36b5goxohpxqkclyvozaim@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-12-01T00:38:36.546Z",
 		"description": "A labeling service to help me see at a glance if an account is on any of my lists.\n\nOther goals:\n\nLabel users engaging in toxic behavior to help people remove toxic content from users' Bluesky experience.\n\nLabels for which PFN categories users fall under.",
-		"indexedAt": "2024-12-01T01:18:06.645Z"
+		"indexedAt": "2024-12-01T07:15:05.445Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-01T01:17:10.651Z",
+	"indexedAt": "2024-12-01T01:52:40.648Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -89,6 +89,118 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "harm",
+				"locales": [
+					{
+						"description": "Users who have a history of wishing harm on others.",
+						"lang": "en",
+						"name": "Users Who Wish Harm on Others"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kys",
+				"locales": [
+					{
+						"description": "Users who have a history of encouraging others to commit suicide.",
+						"lang": "en",
+						"name": "Users Who Encourage Others to Commit Suicide"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ih",
+				"locales": [
+					{
+						"description": "Users who have a history of inciting harassment against others.",
+						"lang": "en",
+						"name": "Users Who Incite Harassment"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "iv",
+				"locales": [
+					{
+						"description": "Users who have a history of inciting violence against others.",
+						"lang": "en",
+						"name": "Users Who Incite Violence"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "maga",
+				"locales": [
+					{
+						"description": "MAGA accounts from the Propaganda and Fake News list. Accounts with this label usually engage in Trump bootlicking, pushing \"anti-woke\" culture war nonsense, and making pathetic trolling attempts.",
+						"lang": "en",
+						"name": "MAGA"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "khive",
+				"locales": [
+					{
+						"description": "Blue MAGA accounts from the Propaganda and Fake News list. Accounts with this label usually engage in Democrat bootlicking, pushing DEI and identity politics culture war nonsense, and they believe everything that the mainstream media tells them.",
+						"lang": "en",
+						"name": "Blue MAGA"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nafo",
+				"locales": [
+					{
+						"description": "Users who have indicated through their profile picture, bio, posts, and/or other means that they are NAFO trolls. Accounts with this label usually engage in Zelenskyy bootlicking, dismissing anything that they disagree with as Russian propaganda, and being racist against Russian people.",
+						"lang": "en",
+						"name": "NAFO"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zionists",
+				"locales": [
+					{
+						"description": "Zionists from the Propaganda and Fake News list. Accounts with this labal usually engage in Netanyahu bootlicking, genocide apologia and/or support, pushing debunked or unconfirmed stories that were pushed by Israel, and falsely equating anti-Zionism with antisemitism.",
+						"lang": "en",
+						"name": "Zionists"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -96,7 +208,15 @@
 			"tdr",
 			"blocks",
 			"ntb",
-			"fss"
+			"fss",
+			"harm",
+			"kys",
+			"ih",
+			"iv",
+			"maga",
+			"khive",
+			"nafo",
+			"zionists"
 		]
 	}
 }
