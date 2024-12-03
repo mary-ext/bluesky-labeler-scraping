@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hjr245ecqgzx6jccsjetfqbw/app.bsky.labeler.service/self",
-	"cid": "bafyreicwdxjgzsnxtkdizuboydzwf4w6ga3lmi4icmnfjj5lxqc244huuy",
+	"cid": "bafyreifyqwxbgssju7tkdxa4ih3rjr7ehmzlmsxbcgi224lwecnrjxcqla",
 	"creator": {
 		"did": "did:plc:hjr245ecqgzx6jccsjetfqbw",
 		"handle": "bonker.stealthbadger.net",
@@ -23,11 +23,67 @@
 		"description": "When you need something annoying bit Right Now.\n\nThis labeler is a work in progress.",
 		"indexedAt": "2024-12-01T18:46:10.945Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-12-01T21:26:41.870Z",
+	"likeCount": 2,
+	"indexedAt": "2024-12-02T16:42:44.656Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "ai-zealot",
+				"locales": [
+					{
+						"description": "I love ML, but first and foremost we have to try and live with the people around us.  These people haven't learned that lesson.",
+						"lang": "en",
+						"name": "AI Zealot"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "vatnik",
+				"locales": [
+					{
+						"description": "Anti-Ukrainian/Pro-Russian troll. Can include Assad apologists.",
+						"lang": "en",
+						"name": "Vatnik"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "debate-me",
+				"locales": [
+					{
+						"description": "\"Debate me,\" Sealioning",
+						"lang": "en",
+						"name": "DEBATE ME"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "scammer",
+				"locales": [
+					{
+						"description": "Account is not what it portrays itself as, and wants your money.",
+						"lang": "en",
+						"name": "Scammer"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -49,7 +105,7 @@
 				"identifier": "annoying",
 				"locales": [
 					{
-						"description": "People who aren't abusive, but just can't bring anything positive to the conversation.",
+						"description": "People who aren't abusive, but make things worse.  Engagement farmers, etc.",
 						"lang": "en",
 						"name": "Annoying"
 					}
@@ -128,6 +184,10 @@
 			}
 		],
 		"labelValues": [
+			"ai-zealot",
+			"vatnik",
+			"debate-me",
+			"scammer",
 			"ad-spam",
 			"annoying",
 			"abusive",

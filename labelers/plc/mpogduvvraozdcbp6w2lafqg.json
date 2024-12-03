@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mpogduvvraozdcbp6w2lafqg/app.bsky.labeler.service/self",
-	"cid": "bafyreiclkettmuztqmiiwdhsknqznvvlykvqrryzjz62naepnynfdof3m4",
+	"cid": "bafyreigo2n4wpxtoh34avja4gyamxxnlwtlv2hiq6e7ifp3kdhzksevase",
 	"creator": {
 		"did": "did:plc:mpogduvvraozdcbp6w2lafqg",
 		"handle": "warlabel.bsky.social",
@@ -15,11 +15,67 @@
 		"description": "A new labeler set unofficially in the Warhammer universe!\nSubscribe and Like to join!\n\nuse \"@warlabel.bsky.social help\" to learn commands",
 		"indexedAt": "2024-11-24T20:09:12.747Z"
 	},
-	"likeCount": 175,
-	"indexedAt": "2024-12-01T05:11:25.061Z",
+	"likeCount": 176,
+	"indexedAt": "2024-12-02T02:23:46.460Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nurgle",
+				"locales": [
+					{
+						"description": "Grandfather knows best",
+						"lang": "en",
+						"name": "Nurgle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tzeench",
+				"locales": [
+					{
+						"description": "Changer of Ways",
+						"lang": "en",
+						"name": "Tzeench"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "khorne",
+				"locales": [
+					{
+						"description": "Blood for the blood god! Skulls for the skull throne!",
+						"lang": "en",
+						"name": "Khorne"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "slaanesh",
+				"locales": [
+					{
+						"description": "The Prince of Pleasure",
+						"lang": "en",
+						"name": "Slaanesh"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -820,6 +876,10 @@
 			}
 		],
 		"labelValues": [
+			"slaanesh",
+			"khorne",
+			"tzeench",
+			"nurgle",
 			"necromunda",
 			"kill-team",
 			"old-world",

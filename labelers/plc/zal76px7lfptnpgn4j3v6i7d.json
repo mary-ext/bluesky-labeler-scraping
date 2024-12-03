@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zal76px7lfptnpgn4j3v6i7d/app.bsky.labeler.service/self",
-	"cid": "bafyreibky4uf5d7vepia7qmexh77l4wfz3hddxsb6l3z5hleowpgoilwta",
+	"cid": "bafyreid5h36i2zwimbxhljsqcha5wpikalr5cg7knc5w6dnwxovcc3ixga",
 	"creator": {
 		"did": "did:plc:zal76px7lfptnpgn4j3v6i7d",
 		"handle": "dev-labels.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Identify yourself in the timeline with your favorite programming languages and study field around IT!\n\nby: @danielhe4rt.dev\nrepo: https://github.com/basementdevs/dev-roles-labeler",
 		"indexedAt": "2024-11-28T16:52:31.645Z"
 	},
-	"likeCount": 686,
-	"indexedAt": "2024-11-28T16:40:27.757Z",
+	"likeCount": 690,
+	"indexedAt": "2024-12-02T18:48:25.158Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -643,6 +643,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "powershell",
+				"locales": [
+					{
+						"description": "PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework.",
+						"lang": "en",
+						"name": "PowerShell"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "backend",
 				"locales": [
 					{
@@ -937,6 +951,7 @@
 			"emacs_lisp",
 			"racket_lisp",
 			"scheme_lisp",
+			"powershell",
 			"backend",
 			"frontend",
 			"devops",
