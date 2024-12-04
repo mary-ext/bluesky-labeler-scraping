@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hjr245ecqgzx6jccsjetfqbw/app.bsky.labeler.service/self",
-	"cid": "bafyreifyqwxbgssju7tkdxa4ih3rjr7ehmzlmsxbcgi224lwecnrjxcqla",
+	"cid": "bafyreibhoijvkflsy2p76hoc76ojujbca6nhqkfbr3xnz2xdiouvzntpo4",
 	"creator": {
 		"did": "did:plc:hjr245ecqgzx6jccsjetfqbw",
 		"handle": "bonker.stealthbadger.net",
@@ -24,10 +24,24 @@
 		"indexedAt": "2024-12-01T18:46:10.945Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-12-02T16:42:44.656Z",
+	"indexedAt": "2024-12-03T19:01:06.254Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "sexist",
+				"locales": [
+					{
+						"description": "Sexist, anti-trans, just anyone who freaks out over naughty bits.",
+						"lang": "en",
+						"name": "Sexist"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -184,6 +198,7 @@
 			}
 		],
 		"labelValues": [
+			"sexist",
 			"ai-zealot",
 			"vatnik",
 			"debate-me",

@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:3el3ljz72zzjthepabfmdx2b/app.bsky.labeler.service/self",
+	"cid": "bafyreihuc3q4n4cffjjc7ayxkala3ajmynhk3eemz4xwnacypzgtdytv3e",
+	"creator": {
+		"did": "did:plc:3el3ljz72zzjthepabfmdx2b",
+		"handle": "webid-checker.bsky.social",
+		"displayName": "Web ID checker",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3el3ljz72zzjthepabfmdx2b/bafkreiae76ermxkan7lkucyt2qv4cfuzqik7hbemaeala3ud4xit2c5vlm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-03T09:29:53.841Z",
+		"description": "Verify accounts by checking for Bluesky links on websites that allow users to add Bluesky link to their profile. Supported sites: ORCID",
+		"indexedAt": "2024-12-03T21:18:53.447Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-03T11:57:05.053Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "orcid",
+				"locales": [
+					{
+						"description": "Account verifed by checking for Bluesky link in user's ORCID account.",
+						"lang": "en",
+						"name": "ORCID"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"orcid"
+		]
+	}
+}

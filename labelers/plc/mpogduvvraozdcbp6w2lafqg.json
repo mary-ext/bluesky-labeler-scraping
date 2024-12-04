@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mpogduvvraozdcbp6w2lafqg/app.bsky.labeler.service/self",
-	"cid": "bafyreigo2n4wpxtoh34avja4gyamxxnlwtlv2hiq6e7ifp3kdhzksevase",
+	"cid": "bafyreicmniqxencp763rrnlidnbzruuym4wao54b26pu7iptdy6qcpdfrm",
 	"creator": {
 		"did": "did:plc:mpogduvvraozdcbp6w2lafqg",
 		"handle": "warlabel.bsky.social",
@@ -15,11 +15,39 @@
 		"description": "A new labeler set unofficially in the Warhammer universe!\nSubscribe and Like to join!\n\nuse \"@warlabel.bsky.social help\" to learn commands",
 		"indexedAt": "2024-11-24T20:09:12.747Z"
 	},
-	"likeCount": 176,
-	"indexedAt": "2024-12-02T02:23:46.460Z",
+	"likeCount": 178,
+	"indexedAt": "2024-12-03T21:52:22.872Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gummy-sculptor",
+				"locales": [
+					{
+						"description": "Masterpieces created in the tastiest medium.",
+						"lang": "en",
+						"name": "Gummy-Scupltor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "painter",
+				"locales": [
+					{
+						"description": "A master with a brush",
+						"lang": "en",
+						"name": "Painter"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -876,6 +904,8 @@
 			}
 		],
 		"labelValues": [
+			"gummy-sculptor",
+			"painter",
 			"slaanesh",
 			"khorne",
 			"tzeench",
