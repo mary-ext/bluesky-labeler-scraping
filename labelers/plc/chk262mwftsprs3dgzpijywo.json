@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:chk262mwftsprs3dgzpijywo/app.bsky.labeler.service/self",
-  "cid": "bafyreid3hqxs7ra5t7xrmaig7orvmlaldl3ndkdz4ggugonz7fn7sbljnu",
+  "cid": "bafyreicfevwn6edtcmkl5nt2auza4aakjmzumi54olbcilfbsmebyf2mhq",
   "creator": {
     "did": "did:plc:chk262mwftsprs3dgzpijywo",
     "handle": "perfect-bra.in",
@@ -17,10 +17,24 @@
     "description": "Labels as decided by a perfect brain.",
     "indexedAt": "2024-06-21T17:38:45.910Z"
   },
-  "indexedAt": "2024-11-26T04:25:37.864Z",
+  "indexedAt": "2024-12-03T21:59:03.457Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "amulet-victim",
+        "locales": [
+          {
+            "description": "This user follows the will of an amulet. Their thoughts are no the their own.",
+            "lang": "en",
+            "name": "Proud Amulet User"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -345,6 +359,7 @@
       }
     ],
     "labelValues": [
+      "amulet-victim",
       "charcoal-eater",
       "extra-life-two-four",
       "bird-lord",
