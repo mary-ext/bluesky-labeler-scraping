@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:5gf42dtaxhjz6dk6bvk2yiro/app.bsky.labeler.service/self",
-	"cid": "bafyreieu5ms7xax3einr62lbskrlk7zdh7s4wpckmhjmzjpva5cpvhmibq",
+	"cid": "bafyreie6vsa6kuxdvmw2iu43srz2r7fwrj46mwoolyhvidzp2dyksrd4ru",
 	"creator": {
 		"did": "did:plc:5gf42dtaxhjz6dk6bvk2yiro",
 		"handle": "test-labeller.bsky.social",
@@ -15,7 +15,7 @@
 		"indexedAt": "2024-12-03T17:30:19.145Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-03T19:40:16.963Z",
+	"indexedAt": "2024-12-04T19:11:54.967Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,19 +23,104 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "awesome",
+				"identifier": "earth",
 				"locales": [
 					{
-						"description": "awesome",
+						"description": "Earth",
 						"lang": "en",
-						"name": "awesome"
+						"name": "Earth 🌎"
+					},
+					{
+						"description": "Terra",
+						"lang": "pt-BR",
+						"name": "Terra 🌎"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fire",
+				"locales": [
+					{
+						"description": "Fire",
+						"lang": "en",
+						"name": "Fire 🔥"
+					},
+					{
+						"description": "Fogo",
+						"lang": "pt-BR",
+						"name": "Fogo 🔥"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "air",
+				"locales": [
+					{
+						"description": "Air",
+						"lang": "en",
+						"name": "Air 💨"
+					},
+					{
+						"description": "Ar",
+						"lang": "pt-BR",
+						"name": "Ar 💨"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "water",
+				"locales": [
+					{
+						"description": "Water",
+						"lang": "en",
+						"name": "Water 💧"
+					},
+					{
+						"description": "Água",
+						"lang": "pt-BR",
+						"name": "Água 💧"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "love",
+				"locales": [
+					{
+						"description": "Love",
+						"lang": "en",
+						"name": "Love 💞"
+					},
+					{
+						"description": "Amor",
+						"lang": "pt-BR",
+						"name": "Amor 💞"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"awesome"
+			"earth",
+			"fire",
+			"air",
+			"water",
+			"love"
 		]
 	}
 }

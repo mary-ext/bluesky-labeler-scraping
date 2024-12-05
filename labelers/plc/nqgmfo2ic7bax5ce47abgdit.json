@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:nqgmfo2ic7bax5ce47abgdit/app.bsky.labeler.service/self",
-	"cid": "bafyreias54rhxjsu5uhda3g5jmmoray74bftjcapxj6fz4cjf2x7bysure",
+	"cid": "bafyreic2dhnt3yxavzlaxaetox222dpcjx7al4givplfx2j4rqy2emxs5i",
 	"creator": {
 		"did": "did:plc:nqgmfo2ic7bax5ce47abgdit",
 		"handle": "vtdf.bsky.social",
@@ -12,13 +12,28 @@
 		},
 		"labels": [],
 		"createdAt": "2024-11-30T17:20:33.646Z",
-		"indexedAt": "2024-12-02T06:11:39.946Z"
+		"description": "a label service to show off who's your (vtuber) oshi is/are, think of it like discord's \"role\" but it'll only showed to whoever subscribe to this moderation service\ncontact the owner @primula.moe or @primula.my.id to participate and/or add your oshi",
+		"indexedAt": "2024-12-04T07:07:09.448Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-02T14:33:29.265Z",
+	"indexedAt": "2024-12-04T06:40:29.660Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shizurin",
+				"locales": [
+					{
+						"description": "Shizuka Rin (静凛) is a female Japanese Virtual YouTuber and a member of NIJISANJI's first generation of Livers along with Tsukino Mito, Higuchi Kaede, Elu, Yuki Chihiro, Shibuya Hajime, Suzuya Aki, and Moira. Within the first generation, she also forms the unit \"JK-gumi\" (JK組, high school girl group) with Tsukino Mito and Higuchi Kaede. ",
+						"lang": "en",
+						"name": "Shizuka Rin"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -91,6 +106,7 @@
 			}
 		],
 		"labelValues": [
+			"shizurin",
 			"tsunomakiwatame",
 			"rikotan",
 			"maid-mint",

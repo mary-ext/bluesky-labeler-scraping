@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreihz43scc4ttn6cx5tfxaidopjt2nekidf7ml247zduvlzjrqi6ize",
+	"cid": "bafyreiawwhzaix5w6i4opmlrrwmy5hwida7ek5fa2s5xidckmcs2tcezoe",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social | Independent Labeling Service",
 		"indexedAt": "2024-11-24T01:15:29.745Z"
 	},
-	"likeCount": 6316,
-	"indexedAt": "2024-12-03T15:38:27.661Z",
+	"likeCount": 6344,
+	"indexedAt": "2024-12-04T03:30:50.655Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "automated-reply-guy",
+				"locales": [
+					{
+						"description": "Applied to accounts which engage in seemingly polite but disruptive \"I wish to politely disagree\" reply spam. These are often automated accounts using ChatGPT to cause disruption without appearing to be trolling.",
+						"lang": "en",
+						"name": "Fully Automated Luxury Reply Guy"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -294,6 +308,7 @@
 			"needs-review",
 			"alf",
 			"alt-tech",
+			"automated-reply-guy",
 			"beans",
 			"bluesky-elder",
 			"contains-slur",

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreidnz4ricwnasdzcvta24mbjecwrrbgzyzuferqpcqow6dwmw4mufi",
+	"cid": "bafyreifrra3d7l7yd6aqyn5unsfqtzbdsk7j2gvh4nuxmtnns6xzhet4na",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 305,
-	"indexedAt": "2024-11-29T03:01:03.969Z",
+	"likeCount": 308,
+	"indexedAt": "2024-12-04T23:52:03.170Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4404,6 +4404,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ascorbic-unpic",
+				"locales": [
+					{
+						"description": "Universal image CDN translator\nhttps://github.com/ascorbic/unpic",
+						"lang": "en",
+						"name": "ascorbic/unpic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gleam-lang-gleam",
+				"locales": [
+					{
+						"description": "⭐️ A friendly language for building type-safe, scalable systems!\nhttps://github.com/gleam-lang/gleam",
+						"lang": "en",
+						"name": "gleam-lang/gleam"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nodejs-nodejs-org",
+				"locales": [
+					{
+						"description": "The Node.js® Website\nhttps://github.com/nodejs/nodejs.org",
+						"lang": "en",
+						"name": "nodejs/nodejs.org"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nodejs-api-docs-tooling",
+				"locales": [
+					{
+						"description": "Node.js's tooling for API generation\nhttps://github.com/nodejs/api-docs-tooling",
+						"lang": "en",
+						"name": "nodejs/api-docs-tooling"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "apache-gora-site",
+				"locales": [
+					{
+						"description": "Apache Gora Website\nhttps://github.com/apache/gora-site",
+						"lang": "en",
+						"name": "apache/gora-site"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4719,7 +4789,12 @@
 			"facebook-folly",
 			"nushell-nushell",
 			"anakryiko-retsnoop",
-			"repology-repology-rules"
+			"repology-repology-rules",
+			"ascorbic-unpic",
+			"gleam-lang-gleam",
+			"nodejs-nodejs-org",
+			"nodejs-api-docs-tooling",
+			"apache-gora-site"
 		]
 	}
 }
