@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:l7anj3kjzmojg7bbkibzcebg/app.bsky.labeler.service/self",
-	"cid": "bafyreiddvkhrqqkpnl5asxs6vkxl2fybtw5fhqhgdrhgleooto2kaxmuom",
+	"cid": "bafyreia7h2sxslnadzen5okcmzjh4l6awjrxqh5amdx6ditlpi2cnzmqua",
 	"creator": {
 		"did": "did:plc:l7anj3kjzmojg7bbkibzcebg",
 		"handle": "pokemonlabeler.bsky.social",
@@ -14,8 +14,8 @@
 		"createdAt": "2024-12-02T23:45:56.550Z",
 		"indexedAt": "2024-12-02T23:46:30.548Z"
 	},
-	"likeCount": 2,
-	"indexedAt": "2024-12-03T01:18:39.956Z",
+	"likeCount": 4,
+	"indexedAt": "2024-12-05T17:28:33.060Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -466,6 +466,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "munchlax",
+				"locales": [
+					{
+						"description": "Munchlax chose this user!",
+						"lang": "en",
+						"name": "Munchlax"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -500,7 +514,8 @@
 			"sprigatito",
 			"fuecoco",
 			"quaxly",
-			"togepi"
+			"togepi",
+			"munchlax"
 		]
 	}
 }

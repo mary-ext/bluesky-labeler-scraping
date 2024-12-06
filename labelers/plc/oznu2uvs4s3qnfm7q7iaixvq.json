@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:oznu2uvs4s3qnfm7q7iaixvq/app.bsky.labeler.service/self",
-	"cid": "bafyreiaalno2jvoi2nhcnvixrqahqigq7ra72tgwu63ce6xbwsermfokci",
+	"cid": "bafyreiczhy6imkxeqyx7stnhnpug2w2wksdzds3nhmmjrjbjd7xezr3o54",
 	"creator": {
 		"did": "did:plc:oznu2uvs4s3qnfm7q7iaixvq",
-		"handle": "fgclabels.caricabana.com",
+		"handle": "fgclabels.bsky.social",
 		"displayName": "Fighting Game Labels",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oznu2uvs4s3qnfm7q7iaixvq/bafkreifnqzccxudxf23gywsyjkiznyo3kddlvhxvbpi2rsebukyg7tmmcm@jpeg",
 		"associated": {
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-12-04T00:13:46.345Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-12-03T23:43:28.966Z",
+	"indexedAt": "2024-12-06T00:05:43.649Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,7 +24,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "tekken8",
+				"identifier": "tekken-8",
 				"locales": [
 					{
 						"description": "Bandai Namco' Tekken 8",
@@ -38,7 +38,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "street-fighter6",
+				"identifier": "street-fighter-6",
 				"locales": [
 					{
 						"description": "Capcom's Street Fighter 6",
@@ -47,11 +47,56 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mortal-kombat-1",
+				"locales": [
+					{
+						"description": "Mortal Kombat 1",
+						"lang": "en",
+						"name": "Mortal Kombat 1"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "guilty-gear-strive",
+				"locales": [
+					{
+						"description": "Guilty Gear - Strive",
+						"lang": "en",
+						"name": "Guilty Gear - Strive"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "grandblue-fantasy-versus-rising",
+				"locales": [
+					{
+						"description": "Grandblue Fantasy Versus: Rising",
+						"lang": "en",
+						"name": "Grandblue Fantasy Versus: Rising"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"tekken8",
-			"street-fighter6"
+			"tekken-8",
+			"street-fighter-6",
+			"mortal-kombat-1",
+			"guilty-gear-strive",
+			"grandblue-fantasy-versus-rising"
 		]
 	}
 }

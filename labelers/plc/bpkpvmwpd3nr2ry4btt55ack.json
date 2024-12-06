@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bpkpvmwpd3nr2ry4btt55ack/app.bsky.labeler.service/self",
-	"cid": "bafyreih3xotse6oaq3nlanvwotuktg2gv63yzvsnoyhdiwj6velzpmajle",
+	"cid": "bafyreigyssrmb5dwa43bhje5kod7fewn7h7nzin7s66x7t4ufiqq4ghbb4",
 	"creator": {
 		"did": "did:plc:bpkpvmwpd3nr2ry4btt55ack",
 		"handle": "aimod.social",
@@ -15,11 +15,25 @@
 		"description": "Labeler for identifying AI imagery.\n\nPlease send a report for appeals. We do not regularly check this account for tags.\n\nOur guidelines:\nhttps://trail-buckthorn-014.notion.site/Bluesky-AI-Imagery-Labeler-Moderator-Handbook-65ef75d92a0e4faab0ad2925fc35c85c",
 		"indexedAt": "2024-10-17T16:31:50.606Z"
 	},
-	"likeCount": 11628,
-	"indexedAt": "2024-11-11T21:11:17.506Z",
+	"likeCount": 11697,
+	"indexedAt": "2024-12-05T22:22:47.354Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ai-assisted",
+				"locales": [
+					{
+						"description": "Final product is not AI, but at some point AI was involved in the overall composition of the work. Must have substantial evidence of AI in process to apply this label to a user, such as repeated image artifacts or self-admission.",
+						"lang": "en",
+						"name": "AI Assisted"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -92,6 +106,7 @@
 			}
 		],
 		"labelValues": [
+			"ai-assisted",
 			"ai-modified",
 			"ai-avatar-or-banner",
 			"user-occasional-ai-imagery",

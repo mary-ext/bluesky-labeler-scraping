@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:7hpffigzovmuhbafrsiy7ne3/app.bsky.labeler.service/self",
+	"cid": "bafyreiethuwojhx6cpnzmfhko66wjxjhpkixnnwh3wklfit754jlydvgfu",
+	"creator": {
+		"did": "did:plc:7hpffigzovmuhbafrsiy7ne3",
+		"handle": "nhllabeler.bsky.social",
+		"displayName": "NHL Handler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7hpffigzovmuhbafrsiy7ne3/bafkreigzqfw7e3jfv2vvefqi5enxydeh3ncxiacrsfyjytfvish4vdojka@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-11-14T11:03:52.381Z",
+		"description": "Label service that differentiates from authentic NHL accounts and those who are impersonating on what would otherwise be a teams handle. Also handles verification of NHL staff and team employees.\n\nRun by @bdogzxv.bsky.social",
+		"indexedAt": "2024-12-06T00:37:51.447Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-06T01:13:31.945Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "confirmed-nhl-team",
+				"locales": [
+					{
+						"description": "A NHL team account verified by either their domain or by the NHL team themselves. ",
+						"lang": "en",
+						"name": "Authentic NHL Team"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "fake-nhl-team",
+				"locales": [
+					{
+						"description": "Account that is confirmed to not be owned by the NHL team it claims to be representing and is otherwise impersonating. ",
+						"lang": "en",
+						"name": "Fake Account (NHL Team)"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"confirmed-nhl-team",
+			"fake-nhl-team"
+		]
+	}
+}

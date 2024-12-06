@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hr236rnywyk3xjl4vt4emyc3/app.bsky.labeler.service/self",
-	"cid": "bafyreihi6mqax73va5w6xq3hcvfa457z6denjnkwgvybwumwth6p64uwey",
+	"cid": "bafyreig3nklhgtpaezlvrk2eqs2rp4t5zjekv3bjghjzgiiojyurnzim3e",
 	"creator": {
 		"did": "did:plc:hr236rnywyk3xjl4vt4emyc3",
 		"handle": "furskycreators.bsky.social",
@@ -18,11 +18,25 @@
 		"description": "See Pinned Post for Instructions!\nBrowse Roles: https://furskycreators.audioelk.com/\n\n\n🐇 Bot by: @astra.bunnys.ky <- 18+\n🦌 Run by: @deckardholiday.com <- 18+\n\nDM THIS ACCOUNT for label issues!\n\nLabels may take 24 hours to apply!",
 		"indexedAt": "2024-12-02T17:26:58.146Z"
 	},
-	"likeCount": 964,
-	"indexedAt": "2024-11-19T03:26:31.832Z",
+	"likeCount": 970,
+	"indexedAt": "2024-12-05T02:23:51.167Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "publication",
+				"locales": [
+					{
+						"description": "This user is a publication!",
+						"lang": "en",
+						"name": "Publication"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1212,9 +1226,150 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "woodworker",
+				"locales": [
+					{
+						"description": "This user is a Woodworker!",
+						"lang": "en",
+						"name": "Woodworker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "puppeteer",
+				"locales": [
+					{
+						"description": "This user is a Puppeteer!",
+						"lang": "en",
+						"name": "Puppeteer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zinester",
+				"locales": [
+					{
+						"description": "This user is a Zinester!",
+						"lang": "en",
+						"name": "Zinester"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "speedrunner",
+				"locales": [
+					{
+						"description": "This user is a Speedrunner!",
+						"lang": "en",
+						"name": "Speedrunner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "second-life-creator",
+				"locales": [
+					{
+						"description": "This user is a Second Life Creator!",
+						"lang": "en",
+						"name": "Second Life Creator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wood-turner",
+				"locales": [
+					{
+						"description": "This user is a Wood Turner!",
+						"lang": "en",
+						"name": "Wood Turner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "baker",
+				"locales": [
+					{
+						"description": "This user is a Baker!",
+						"lang": "en",
+						"name": "Baker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cook",
+				"locales": [
+					{
+						"description": "This user is a Cook!",
+						"lang": "en",
+						"name": "Cook"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fighting-gamer",
+				"locales": [
+					{
+						"description": "This user is a Fighting Gamer!",
+						"lang": "en",
+						"name": "Fighting Gamer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rhythm-gamer",
+				"locales": [
+					{
+						"description": "This user is a Rhythm Gamer!",
+						"lang": "en",
+						"name": "Rhythm Gamer"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"publication",
 			"blogger",
 			"two-d-artist",
 			"three-d-artist",
@@ -1299,7 +1454,17 @@
 			"comics",
 			"furmeet",
 			"furmeet-staff",
-			"mixed-media"
+			"mixed-media",
+			"woodworker",
+			"puppeteer",
+			"zinester",
+			"speedrunner",
+			"second-life-creator",
+			"wood-turner",
+			"baker",
+			"cook",
+			"fighting-gamer",
+			"rhythm-gamer"
 		]
 	}
 }

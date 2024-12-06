@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreifrra3d7l7yd6aqyn5unsfqtzbdsk7j2gvh4nuxmtnns6xzhet4na",
+	"cid": "bafyreia6tchyr3kffnaypjxoizanhy43nvmremdjkb42ijd54rshzjyo7e",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 308,
-	"indexedAt": "2024-12-04T23:52:03.170Z",
+	"likeCount": 311,
+	"indexedAt": "2024-12-05T05:40:33.661Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4474,6 +4474,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pipeargill-open-source-fursuit",
+				"locales": [
+					{
+						"description": "Open Cosplay/fursuit base build around the 3M 6000 series respirator\nhttps://github.com/pipeargill/Open-Source-Fursuit",
+						"lang": "en",
+						"name": "pipeargill/Open-Source-Fursuit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jazzkidzero-nvim",
+				"locales": [
+					{
+						"description": "steal my config\nhttps://github.com/Jazzkid0/nvim",
+						"lang": "en",
+						"name": "Jazzkid0/nvim"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4794,7 +4822,9 @@
 			"gleam-lang-gleam",
 			"nodejs-nodejs-org",
 			"nodejs-api-docs-tooling",
-			"apache-gora-site"
+			"apache-gora-site",
+			"pipeargill-open-source-fursuit",
+			"jazzkidzero-nvim"
 		]
 	}
 }
