@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rgigpkvlpcux67chfthapgat/app.bsky.labeler.service/self",
-  "cid": "bafyreig2yws2xp2n37twjauiurbyonvvoutfulomou7xu34f2hv7utgati",
+  "cid": "bafyreigazlfaxjjaqf3zd2jzv27otn4d5cdaf3dyfsc24iuhyzix5zvfei",
   "creator": {
     "did": "did:plc:rgigpkvlpcux67chfthapgat",
     "handle": "featurerequest.bsky.social",
@@ -14,7 +14,7 @@
     "description": "Show your support for missing Bluesky features with labels!\n\n1️⃣ Subscribe to this labeler\n2️⃣ Like our post about a feature\n3️⃣ Receive a label showing your support for it\n\n(Not affiliated with the Bluesky Team, but they'll see it 🤭)",
     "indexedAt": "2024-12-01T03:12:42.846Z"
   },
-  "indexedAt": "2024-12-03T01:17:12.450Z",
+  "indexedAt": "2024-12-06T21:37:17.357Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -101,6 +101,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "shortcuts",
+        "locales": [
+          {
+            "description": "User wants keyboard shortcuts added to Bluesky",
+            "lang": "en",
+            "name": "Keyboard Shortcuts"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -109,7 +123,8 @@
       "group-chats",
       "gifs",
       "polls",
-      "edit-buttons"
+      "edit-buttons",
+      "shortcuts"
     ]
   }
 }
