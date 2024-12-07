@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreia6tchyr3kffnaypjxoizanhy43nvmremdjkb42ijd54rshzjyo7e",
+	"cid": "bafyreicswbc4wkaym6afpmhkcvgsjqahwmydfica5zrmkqzmd4byt24pum",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 311,
-	"indexedAt": "2024-12-05T05:40:33.661Z",
+	"likeCount": 316,
+	"indexedAt": "2024-12-07T00:57:21.867Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4502,6 +4502,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "racket-racket",
+				"locales": [
+					{
+						"description": "The Racket repository\nhttps://github.com/racket/racket",
+						"lang": "en",
+						"name": "racket/racket"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spack-spack",
+				"locales": [
+					{
+						"description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.\nhttps://github.com/spack/spack",
+						"lang": "en",
+						"name": "spack/spack"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "garagegames-torquethreed",
+				"locales": [
+					{
+						"description": "MIT Licensed Open Source version of Torque 3D from GarageGames\nhttps://github.com/GarageGames/Torque3D",
+						"lang": "en",
+						"name": "GarageGames/Torque3D"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pubmania-gantt-chart-creator",
+				"locales": [
+					{
+						"description": "An html based Gantt chart creator using the timeline vis javascript library...\nhttps://github.com/pubmania/gantt_chart_creator",
+						"lang": "en",
+						"name": "pubmania/gantt_chart_creator"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4824,7 +4880,11 @@
 			"nodejs-api-docs-tooling",
 			"apache-gora-site",
 			"pipeargill-open-source-fursuit",
-			"jazzkidzero-nvim"
+			"jazzkidzero-nvim",
+			"racket-racket",
+			"spack-spack",
+			"garagegames-torquethreed",
+			"pubmania-gantt-chart-creator"
 		]
 	}
 }

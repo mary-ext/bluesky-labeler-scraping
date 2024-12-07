@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qhdv5xwffbogrfoqcqzpady/app.bsky.labeler.service/self",
-	"cid": "bafyreibxqfudpam7zeye6pi32lcsuvm5ncocjc6nlm3wbe5clp2vbdowei",
+	"cid": "bafyreigslbjznhjl52swa6flcymbuizahvgfywqtblzhjjhiygtbnq7gum",
 	"creator": {
 		"did": "did:plc:2qhdv5xwffbogrfoqcqzpady",
 		"handle": "labeler.procycling.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-11-29T16:16:24.645Z"
 	},
 	"likeCount": 63,
-	"indexedAt": "2024-12-05T21:51:47.049Z",
+	"indexedAt": "2024-12-06T20:32:10.866Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -127,7 +127,7 @@
 					{
 						"description": "A professional cycling team.\n\n✅ This profile has been independently verified.",
 						"lang": "en",
-						"name": "Cycling Team"
+						"name": "🚴 Pro Team"
 					}
 				],
 				"severity": "inform"
@@ -229,6 +229,20 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tribute-account",
+				"locales": [
+					{
+						"description": "An account impersonating a person or organization in a non-malicious and transparent way. Aka a 'stan' or parody account.",
+						"lang": "en",
+						"name": "🎭  Tribute Account"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -247,7 +261,8 @@
 			"team-insider",
 			"race-spoiler",
 			"unrelated",
-			"impersonator"
+			"impersonator",
+			"tribute-account"
 		]
 	}
 }

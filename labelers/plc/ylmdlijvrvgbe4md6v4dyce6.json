@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ylmdlijvrvgbe4md6v4dyce6/app.bsky.labeler.service/self",
-	"cid": "bafyreic4zwbcecc5f24h6wtmbqwigc7dxx7jyldkhfoeugcravxq5ctc6q",
+	"cid": "bafyreia7zcfxpxbyxh72e5wsrxsffcoyad6b5x3vuczx3wvmvogf3j2p2y",
 	"creator": {
 		"did": "did:plc:ylmdlijvrvgbe4md6v4dyce6",
 		"handle": "us-gov-funding.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "The organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Include subsidiaries and affiliates.\n\nhttps://www.opensecrets.org",
 		"indexedAt": "2024-11-23T03:57:15.547Z"
 	},
-	"likeCount": 677,
-	"indexedAt": "2024-11-25T08:08:38.059Z",
+	"likeCount": 680,
+	"indexedAt": "2024-12-06T01:46:59.165Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -2290,6 +2290,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ice-miller-llp",
+				"locales": [
+					{
+						"description": "This representative is funded by \"Ice Miller LLP\".\n\nThe organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.\n\nVisit https://www.opensecrets.org/campaign-expenditures/methodology to learn more.",
+						"lang": "en",
+						"name": "Ice Miller LLP"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eli-lilly---co",
+				"locales": [
+					{
+						"description": "This representative is funded by \"Eli Lilly & Co\".\n\nThe organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.\n\nVisit https://www.opensecrets.org/campaign-expenditures/methodology to learn more.",
+						"lang": "en",
+						"name": "Eli Lilly & Co"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dorsey---whitney",
+				"locales": [
+					{
+						"description": "This representative is funded by \"Dorsey & Whitney\".\n\nThe organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.\n\nVisit https://www.opensecrets.org/campaign-expenditures/methodology to learn more.",
+						"lang": "en",
+						"name": "Dorsey & Whitney"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -2454,7 +2496,10 @@
 			"us-acute-care-solutions",
 			"emergency-medicine-physicians",
 			"eisenhower-health",
-			"city-of-chicago--il"
+			"city-of-chicago--il",
+			"ice-miller-llp",
+			"eli-lilly---co",
+			"dorsey---whitney"
 		]
 	}
 }

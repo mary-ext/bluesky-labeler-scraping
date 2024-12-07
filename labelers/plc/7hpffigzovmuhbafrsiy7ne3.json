@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7hpffigzovmuhbafrsiy7ne3/app.bsky.labeler.service/self",
-	"cid": "bafyreiethuwojhx6cpnzmfhko66wjxjhpkixnnwh3wklfit754jlydvgfu",
+	"cid": "bafyreicvce662gt4iiqc6yo35cjh5ennz6yy5s33a63k2nl3sjsoz5ngre",
 	"creator": {
 		"did": "did:plc:7hpffigzovmuhbafrsiy7ne3",
 		"handle": "nhllabeler.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "Label service that differentiates from authentic NHL accounts and those who are impersonating on what would otherwise be a teams handle. Also handles verification of NHL staff and team employees.\n\nRun by @bdogzxv.bsky.social",
 		"indexedAt": "2024-12-06T00:37:51.447Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-12-06T01:13:31.945Z",
+	"likeCount": 1,
+	"indexedAt": "2024-12-06T01:21:41.154Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -47,11 +47,86 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "confirmed-nhl-official",
+				"locales": [
+					{
+						"description": "An NHL (or NHL team) official verified by either their domain or by the NHL / NHL team themselves.",
+						"lang": "en",
+						"name": "Authentic NHL Official"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "fake-nhl-official",
+				"locales": [
+					{
+						"description": "Account that is confirmed to not be owned by the official it claims to be representing and is otherwise impersonating.",
+						"lang": "en",
+						"name": "Fake Account (NHL Official)"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "team-mirror",
+				"locales": [
+					{
+						"description": "Account that is reposting posts from Twitter / X via the sportsbots Mastodon instance. ",
+						"lang": "en",
+						"name": "Account Mirror (NHL Team)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "official-mirror",
+				"locales": [
+					{
+						"description": "Account that is reposting posts from Twitter / X via the sportsbots Mastodon instance.",
+						"lang": "en",
+						"name": "Account Mirror (NHL Official)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "unknown-nhl-account",
+				"locales": [
+					{
+						"description": "A NHL account that has unknown authenticity and needs further investigation. ",
+						"lang": "en",
+						"name": "Unknown Authenticity"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"confirmed-nhl-team",
-			"fake-nhl-team"
+			"fake-nhl-team",
+			"confirmed-nhl-official",
+			"fake-nhl-official",
+			"team-mirror",
+			"official-mirror",
+			"unknown-nhl-account"
 		]
 	}
 }

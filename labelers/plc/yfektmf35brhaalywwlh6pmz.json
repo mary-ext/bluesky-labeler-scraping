@@ -1,0 +1,235 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:yfektmf35brhaalywwlh6pmz/app.bsky.labeler.service/self",
+	"cid": "bafyreigvjrwrlnwhz5yeykjmwwclsdwapnvbnwyd56mwh3wyrxvu5obiqu",
+	"creator": {
+		"did": "did:plc:yfektmf35brhaalywwlh6pmz",
+		"handle": "trendgraph.bsky.social",
+		"displayName": "TrendGraph",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [
+			{
+				"src": "did:plc:yfektmf35brhaalywwlh6pmz",
+				"uri": "at://did:plc:yfektmf35brhaalywwlh6pmz/app.bsky.actor.profile/self",
+				"cid": "bafyreieuvftywkqjxjn3lbdor4jf4oqhyjsgdj7sp6xfps7eynhl3kvr44",
+				"val": "topic-funny",
+				"cts": "1970-01-01T00:00:00.000Z"
+			}
+		],
+		"createdAt": "2024-12-06T18:05:08.445Z",
+		"description": "Tracking trending topics on Bluesky",
+		"indexedAt": "2024-12-06T22:29:10.946Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-07T00:31:07.857Z",
+	"labels": [],
+	"policies": {
+		"$type": "app.bsky.labeler.defs#labelerPolicies",
+		"labelValueDefinitions": [
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-news",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to News",
+						"lang": "en",
+						"name": "Topic: News"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-politics",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Politics",
+						"lang": "en",
+						"name": "Topic: Politics"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-technology",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Technology",
+						"lang": "en",
+						"name": "Topic: Technology"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-science",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Science",
+						"lang": "en",
+						"name": "Topic: Science"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-entertainment",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Entertainment",
+						"lang": "en",
+						"name": "Topic: Entertainment"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-sports",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Sports",
+						"lang": "en",
+						"name": "Topic: Sports"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-business",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Business",
+						"lang": "en",
+						"name": "Topic: Business"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-health",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Health",
+						"lang": "en",
+						"name": "Topic: Health"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-travel",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Travel",
+						"lang": "en",
+						"name": "Topic: Travel"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-food",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Food",
+						"lang": "en",
+						"name": "Topic: Food"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			}
+		],
+		"labelValues": [
+			"topic-news",
+			"topic-politics",
+			"topic-technology",
+			"topic-science",
+			"topic-entertainment",
+			"topic-sports",
+			"topic-business",
+			"topic-health",
+			"topic-travel",
+			"topic-food"
+		]
+	}
+}

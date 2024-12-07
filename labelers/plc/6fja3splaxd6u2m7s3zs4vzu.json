@@ -1,0 +1,146 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:6fja3splaxd6u2m7s3zs4vzu/app.bsky.labeler.service/self",
+	"cid": "bafyreiagjfklp2u7gudbrf3sj4a52w2ziyudgyjz5wrjfhnjqedpxoemju",
+	"creator": {
+		"did": "did:plc:6fja3splaxd6u2m7s3zs4vzu",
+		"handle": "fluffyfilter.bsky.social",
+		"displayName": "Fluffy Filter",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6fja3splaxd6u2m7s3zs4vzu/bafkreiheaja5z7slan2remjua3fs4njguub3cbxrjyyy4uaxiebjqsspv4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-06T15:27:15.646Z",
+		"indexedAt": "2024-12-06T15:31:24.346Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-12-06T15:51:25.351Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "badware",
+				"locales": [
+					{
+						"description": "Ce label s'applique aux contenus associés à des logiciels malveillants ou nuisibles qui peuvent compromettre la sécurité des utilisateur·ices.",
+						"lang": "en",
+						"name": "Badware Risk"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "Utilisé pour marquer les commentaires visant à perturber la conversation, provoquer ou attaquer gratuitement les autre·es participant·es.",
+						"lang": "en",
+						"name": "Commentaires de Troll"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "sexisme",
+				"locales": [
+					{
+						"description": "Ce label concerne les propos discriminatoires basés sur le sexe ou le genre, souvent associés à des stéréotypes de genre nuisibles.",
+						"lang": "en",
+						"name": "Commentaires Sexistes"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "harcelement",
+				"locales": [
+					{
+						"description": "Marque les comportements répétitifs et malveillants qui visent à harceler ou menacer une ou plusieurs personnes.",
+						"lang": "en",
+						"name": "Harcèlement"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "transphobes",
+				"locales": [
+					{
+						"description": "Utilisé pour identifier les propos discriminants ou haineux envers les personnes transgenres.",
+						"lang": "en",
+						"name": "Commentaires Transphobes"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "racismes",
+				"locales": [
+					{
+						"description": "Ce label est utilisé pour marquer les propos racistes, incluant ceux qui discriminent selon l'origine ethnique, la couleur de peau, ou le sexe des personnes.",
+						"lang": "en",
+						"name": "Commentaires Racistes"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "phishing",
+				"locales": [
+					{
+						"description": "Marque les tentatives de fraude visant à voler des informations personnelles en se faisant passer pour une entité de confiance.",
+						"lang": "en",
+						"name": "Phishing"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "misogynie",
+				"locales": [
+					{
+						"description": "Ce label est utilisé pour identifier les propos ou comportements qui expriment de la haine ou du mépris envers les femmes. Il inclut toutes les formes de discrimination fondées sur le sexe féminin, notamment la dévalorisation ou l’hostilité envers les femmes.",
+						"lang": "en",
+						"name": "Misogynie"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"badware",
+			"troll",
+			"sexisme",
+			"harcelement",
+			"transphobes",
+			"racismes",
+			"phishing",
+			"misogynie"
+		]
+	}
+}
