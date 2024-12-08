@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreicswbc4wkaym6afpmhkcvgsjqahwmydfica5zrmkqzmd4byt24pum",
+	"cid": "bafyreigsk5mtepdlgn5hfi4bnpyqi2gwq74eg2hntuaoyixa2zy4osfdiy",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 316,
-	"indexedAt": "2024-12-07T00:57:21.867Z",
+	"likeCount": 317,
+	"indexedAt": "2024-12-07T02:38:01.766Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4558,6 +4558,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mcdamastr-collatzconjecturesimulator",
+				"locales": [
+					{
+						"description": "Efficiently calculate the longest total stopping times of Collatz sequences.\nhttps://github.com/McDaMastR/CollatzConjectureSimulator",
+						"lang": "en",
+						"name": "McDaMastR/CollatzConjectureSimulator"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4884,7 +4898,8 @@
 			"racket-racket",
 			"spack-spack",
 			"garagegames-torquethreed",
-			"pubmania-gantt-chart-creator"
+			"pubmania-gantt-chart-creator",
+			"mcdamastr-collatzconjecturesimulator"
 		]
 	}
 }

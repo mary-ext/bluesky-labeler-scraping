@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mcn6shnl6ii2lmsv6doduwlk/app.bsky.labeler.service/self",
-	"cid": "bafyreigq6jmatedzqormwiysz5gzocq2a2kq3tqeww6o4ljmb4hidx5tqa",
+	"cid": "bafyreihloq354umaeaexg6bcpm7plpi4lqwplit2lhacsctgvnsb7gmdci",
 	"creator": {
 		"did": "did:plc:mcn6shnl6ii2lmsv6doduwlk",
 		"handle": "academie-ciel-bleu.bsky.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-11-25T16:24:12.746Z"
 	},
 	"likeCount": 39,
-	"indexedAt": "2024-11-26T06:09:02.857Z",
+	"indexedAt": "2024-12-07T17:03:15.451Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,7 +27,7 @@
 				"identifier": "blousque",
 				"locales": [
 					{
-						"description": "Cette personne utilise le mot blousque pour désigner ce qu'elle envoie sur Bluesky",
+						"description": "Cette personne utilise le mot blousque pour désigner les publications sur Bluesky",
 						"lang": "en",
 						"name": "blousque"
 					}
@@ -41,7 +41,7 @@
 				"identifier": "skeet",
 				"locales": [
 					{
-						"description": "Cette personne utilise le mot skeet pour désigner ce qu'elle envoie sur Bluesky",
+						"description": "Cette personne utilise le mot skeet pour désigner les publications sur Bluesky",
 						"lang": "en",
 						"name": "skeet"
 					}
@@ -55,7 +55,7 @@
 				"identifier": "tweet",
 				"locales": [
 					{
-						"description": "Cette personne utilise le mot tweet pour désigner ce qu'elle envoie sur Bluesky",
+						"description": "Cette personne utilise le mot tweet pour désigner les publications sur Bluesky",
 						"lang": "en",
 						"name": "tweet"
 					}
@@ -69,7 +69,7 @@
 				"identifier": "schtroumpf",
 				"locales": [
 					{
-						"description": "Cette personne utilise le mot schtroumpf pour désigner ce qu'elle envoie sur Bluesky",
+						"description": "Cette personne utilise le mot schtroumpf pour désigner les publications sur Bluesky",
 						"lang": "en",
 						"name": "schtroumpf"
 					}
@@ -83,7 +83,7 @@
 				"identifier": "post",
 				"locales": [
 					{
-						"description": "Cette personne utilise le mot post pour désigner ce qu'elle envoie sur Bluesky",
+						"description": "Cette personne utilise le mot post pour désigner les publications sur Bluesky",
 						"lang": "en",
 						"name": "post"
 					}
@@ -97,9 +97,23 @@
 				"identifier": "blousk",
 				"locales": [
 					{
-						"description": "Cette personne utilise le mot blousk pour désigner ce qu'elle envoie sur Bluesky",
+						"description": "Cette personne utilise le mot blousk pour désigner les publications sur Bluesky",
 						"lang": "en",
 						"name": "blousk"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bleet",
+				"locales": [
+					{
+						"description": "Cette personne utilise le mot bleet pour désigner les publications sur Bluesky",
+						"lang": "en",
+						"name": "bleet"
 					}
 				],
 				"severity": "inform"
@@ -111,7 +125,8 @@
 			"tweet",
 			"schtroumpf",
 			"post",
-			"blousk"
+			"blousk",
+			"bleet"
 		]
 	}
 }
