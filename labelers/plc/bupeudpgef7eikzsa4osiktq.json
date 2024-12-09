@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:bupeudpgef7eikzsa4osiktq/app.bsky.labeler.service/self",
+	"cid": "bafyreigmojwekwlawx6li43ldkxmehxt3fv2ocjcaxenr7yrfafb5xj7k4",
+	"creator": {
+		"did": "did:plc:bupeudpgef7eikzsa4osiktq",
+		"handle": "pkflash.glitchypsi.xyz",
+		"displayName": "PKFlash (Flashing images & Loud Audio labeler)",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bupeudpgef7eikzsa4osiktq/bafkreiel7j4mrg62u4saj2p2mj3s4vytun4ntil4lw4xcr7ere4e4fxyja@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-08T00:57:10.946Z",
+		"description": "Labeler for media with potentially seizure inducing (strobing) lights, harsh coloring, and harmfully loud volume. Ran by @glitchypsi.xyz\n\nPosts with a CW in text will be labeled with no content checking.",
+		"indexedAt": "2024-12-08T04:00:13.546Z"
+	},
+	"likeCount": 5,
+	"indexedAt": "2024-12-08T04:36:29.947Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "pkflash-strobe",
+				"locales": [
+					{
+						"description": "This post contains media that has strobing, which may induce photosensitive seizures.",
+						"lang": "en",
+						"name": "Strobe/Quick flashing"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "pkflash-loud",
+				"locales": [
+					{
+						"description": "This post contains media that has audio levels that may cause hearing damage or a sudden volume jumpscare (clipped or not).",
+						"lang": "en",
+						"name": "Loud audio"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "pkflash-harsh",
+				"locales": [
+					{
+						"description": "This post contains media that has unpleasant combinations of very harsh colors, which may be uncomfortable or disorienting to look at.",
+						"lang": "en",
+						"name": "Harsh colors"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"pkflash-strobe",
+			"pkflash-loud",
+			"pkflash-harsh"
+		]
+	}
+}

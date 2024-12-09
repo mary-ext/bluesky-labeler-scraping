@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:bxnuth7kms5l57v2milp5gb3/app.bsky.labeler.service/self",
-	"cid": "bafyreibjup3hl55ad3yfgjdcxzh4kok26jgb7tz3c6a56xae5hlilydy5a",
+	"cid": "bafyreiexeipcl7zbj66mq2xqkvuk3f3cyeanvmcalj2zmrdrkezivfpisu",
 	"creator": {
 		"did": "did:plc:bxnuth7kms5l57v2milp5gb3",
 		"handle": "uspol.bluesky.bot",
@@ -18,11 +18,25 @@
 		"description": "You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health. Ran by @halsco.de.\n\nWe are now live and active. See pinned post for policy.",
 		"indexedAt": "2024-12-07T05:38:19.347Z"
 	},
-	"likeCount": 390,
-	"indexedAt": "2024-11-13T22:20:00.780Z",
+	"likeCount": 391,
+	"indexedAt": "2024-12-08T05:15:21.451Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "no-alt-text",
+				"locales": [
+					{
+						"description": "People post images and videos a lot without alt text. This is a temporary tool to hide those posts, in case they contain political content, which cannot be labeled if they're in media. See https://github.com/bluesky-social/social-app/issues/4550 for a better, more permanent solution.",
+						"lang": "en",
+						"name": "Missing/bad Alt Text"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -189,7 +203,8 @@
 			"military",
 			"lgbtq",
 			"extremism",
-			"miscellaneous-uspol"
+			"miscellaneous-uspol",
+			"no-alt-text"
 		]
 	}
 }

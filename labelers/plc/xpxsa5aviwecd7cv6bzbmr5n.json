@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreigsk5mtepdlgn5hfi4bnpyqi2gwq74eg2hntuaoyixa2zy4osfdiy",
+	"cid": "bafyreihpegmmz2lci2fmmxzbiz4hmuefdr55w3lgj6uujwa7ews4pyhjbu",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 317,
-	"indexedAt": "2024-12-07T02:38:01.766Z",
+	"likeCount": 318,
+	"indexedAt": "2024-12-08T22:10:00.069Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4572,6 +4572,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wix-incubator-typed-locale-keys",
+				"locales": [
+					{
+						"description": "generates and manages locale keys\nhttps://github.com/wix-incubator/typed-locale-keys",
+						"lang": "en",
+						"name": "wix-incubator/typed-locale-keys"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zephyrproject-rtos-zephyr",
+				"locales": [
+					{
+						"description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.\nhttps://github.com/zephyrproject-rtos/zephyr",
+						"lang": "en",
+						"name": "zephyrproject-rtos/zephyr"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "maesterthreesixfive-maester",
+				"locales": [
+					{
+						"description": "The core repository for the Maester module with helper cmdlets that will be called from the Pester tests.\nhttps://github.com/maester365/maester",
+						"lang": "en",
+						"name": "maester365/maester"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4899,7 +4941,10 @@
 			"spack-spack",
 			"garagegames-torquethreed",
 			"pubmania-gantt-chart-creator",
-			"mcdamastr-collatzconjecturesimulator"
+			"mcdamastr-collatzconjecturesimulator",
+			"wix-incubator-typed-locale-keys",
+			"zephyrproject-rtos-zephyr",
+			"maesterthreesixfive-maester"
 		]
 	}
 }

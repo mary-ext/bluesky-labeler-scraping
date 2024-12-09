@@ -1,28 +1,29 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wcrkcbo7kopfp4fxihpqbe4n/app.bsky.labeler.service/self",
-	"cid": "bafyreian2vlvuqfnsm3cw7ich5vje42ag4kr3z2ihw7j72hrr3g4rz6sji",
+	"cid": "bafyreiftazd44sq2wtw6yzldh6cmmvhg4kyr2dli5tssadujpkv43ahtxu",
 	"creator": {
 		"did": "did:plc:wcrkcbo7kopfp4fxihpqbe4n",
 		"handle": "onlyfilters.dev",
-		"displayName": "",
+		"displayName": "OnlyFilters.dev",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wcrkcbo7kopfp4fxihpqbe4n/bafkreihkrt2vqrjgwfpia7jg5smqrzqlhoqo6sqvmxks67y5lqrpswrnie@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-12-02T23:10:51.046Z",
-		"indexedAt": "2024-12-02T23:10:51.046Z"
+		"description": "A community BlueSky labler service designed to label Content Creators. This is NOT a blocklist, but a label that can filtered in the BlueSky client. \n\n\nMore details coming soon. Questions: @onlyfilters.dev",
+		"indexedAt": "2024-12-08T22:56:46.845Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-05T23:30:55.662Z",
+	"indexedAt": "2024-12-08T08:52:35.951Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content|media|none",
-				"defaultSetting": "ignore|warn|hide",
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "content-creator",
 				"locales": [
 					{
@@ -31,7 +32,7 @@
 						"name": "Content Creator"
 					}
 				],
-				"severity": "inform|alert|none"
+				"severity": "inform"
 			}
 		],
 		"labelValues": [

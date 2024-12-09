@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:yfektmf35brhaalywwlh6pmz/app.bsky.labeler.service/self",
-	"cid": "bafyreia266ncztduj7oo4a2hew6maftw47wa3cuh2gubiuks7nq4gxnjzi",
+	"cid": "bafyreifhlxyehblwlvky327ilbc6wld6lrv74hspxq7b6mqcxpuvm5ynra",
 	"creator": {
 		"did": "did:plc:yfektmf35brhaalywwlh6pmz",
 		"handle": "trendgraph.bsky.social",
@@ -23,27 +23,213 @@
 		"indexedAt": "2024-12-07T20:15:41.345Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-07T20:26:40.854Z",
+	"indexedAt": "2024-12-08T11:05:07.156Z",
 	"labels": [],
 	"policies": {
+		"$type": "app.bsky.labeler.defs#labelerPolicies",
 		"labelValueDefinitions": [
 			{
-				"adultOnly": false,
+				"$type": "com.atproto.label.defs#labelValueDefinition",
 				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "topic-face",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-news",
 				"locales": [
 					{
-						"description": "This content is related to face",
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to News",
 						"lang": "en",
-						"name": "Topic: face"
+						"name": "Topic: News"
 					}
 				],
-				"severity": "inform"
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-politics",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Politics",
+						"lang": "en",
+						"name": "Topic: Politics"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-technology",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Technology",
+						"lang": "en",
+						"name": "Topic: Technology"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-science",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Science",
+						"lang": "en",
+						"name": "Topic: Science"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-entertainment",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Entertainment",
+						"lang": "en",
+						"name": "Topic: Entertainment"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-sports",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Sports",
+						"lang": "en",
+						"name": "Topic: Sports"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-business",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Business",
+						"lang": "en",
+						"name": "Topic: Business"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-health",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Health",
+						"lang": "en",
+						"name": "Topic: Health"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-travel",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Travel",
+						"lang": "en",
+						"name": "Topic: Travel"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "show",
+				"flags": [
+					"show_as_badge"
+				],
+				"identifier": "topic-food",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This content is related to Food",
+						"lang": "en",
+						"name": "Topic: Food"
+					}
+				],
+				"severity": "inform",
+				"visibility": "show"
 			}
 		],
 		"labelValues": [
-			"topic-face"
+			"topic-news",
+			"topic-politics",
+			"topic-technology",
+			"topic-science",
+			"topic-entertainment",
+			"topic-sports",
+			"topic-business",
+			"topic-health",
+			"topic-travel",
+			"topic-food"
 		]
 	}
 }

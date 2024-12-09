@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:fcikraffwejtuqffifeykcml/app.bsky.labeler.service/self",
-	"cid": "bafyreicmvcdtkdupdinh3adxr7qfv64eq6y5rxwe5l26dsfqa5pm5jlpli",
+	"cid": "bafyreiaiby6llvmdqr3kc4ile6yzygsgbkxddfkk6lsngt624jnxolsgky",
 	"creator": {
 		"did": "did:plc:fcikraffwejtuqffifeykcml",
 		"handle": "label.wol.blue",
@@ -18,8 +18,8 @@
 		"description": "下記の2つのサービスを提供しています。\nThis labeler provides the following two services.\n\nコンテンツラベリング/Spoilers Labeling\nhttps://x.gd/or3VB\n\nジョブ・ワールドバッジ/Jobs and Worlds Badge\nhttps://x.gd/1ZT1N\n\nOperated By @usounds.work\n(c)SQUARE ENIX",
 		"indexedAt": "2024-11-18T02:50:20.441Z"
 	},
-	"likeCount": 547,
-	"indexedAt": "2024-12-07T16:30:18.770Z",
+	"likeCount": 549,
+	"indexedAt": "2024-12-08T04:08:56.074Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -35,7 +35,7 @@
 						"name": "Latest patch"
 					},
 					{
-						"description": "最新パッチのIDや討滅戦、レイド名、バレ系、#7.1ネタバレ をラベルします。[latest-patch]",
+						"description": "#7.1ネタバレ ハッシュタグを含む投稿をラベルします。",
 						"lang": "ja",
 						"name": "最新パッチ"
 					}
@@ -54,7 +54,7 @@
 						"name": "Dawntrail"
 					},
 					{
-						"description": "黄金のエリア名、ID名、討滅戦、レイド名、#7.0ネタバレをラベルします。[dawntrail]",
+						"description": "#7.0ネタバレ ハッシュタグを含む投稿をラベルします。",
 						"lang": "ja",
 						"name": "黄金"
 					}
@@ -68,12 +68,12 @@
 				"identifier": "endwalker",
 				"locales": [
 					{
-						"description": "It will set it to label any post that includes #6.xspoiler. (x is numeric such as #6.0spoiler)",
+						"description": "It will set it to label any post that includes #6.xspoiler.",
 						"lang": "en",
 						"name": "Endwalker"
 					},
 					{
-						"description": "暁月のエリア名、ID名、討滅戦、レイド名、　#6.0ネタバレ をラベルします。[endwalker]",
+						"description": "#6.0ネタバレ ハッシュタグを含む投稿をラベルします。",
 						"lang": "ja",
 						"name": "暁月"
 					}
@@ -87,12 +87,12 @@
 				"identifier": "shadowbringers",
 				"locales": [
 					{
-						"description": "It will set it to label any post that includes #5.xspoiler. (x is numeric such as #5.0spoiler)",
+						"description": "It will set it to label any post that includes #5.0spoiler.",
 						"lang": "en",
 						"name": "Shadowbringers"
 					},
 					{
-						"description": "漆黒のエリア名、ID名、討滅戦、レイド名、 #5.0ネタバレ をラベルします。[shadowbringers]",
+						"description": "#5.0ネタバレ ハッシュタグを含む投稿をラベルします。",
 						"lang": "ja",
 						"name": "漆黒"
 					}
@@ -108,7 +108,7 @@
 					{
 						"description": "It will set it to label any post that includes #4.0spoiler. ",
 						"lang": "en",
-						"name": "Stormblood Spoiler"
+						"name": "Stormblood Spoilers"
 					},
 					{
 						"description": "#4.0ネタバレ ハッシュタグを含む投稿をラベルします。",
@@ -127,7 +127,7 @@
 					{
 						"description": "It will set it to label any post that includes #3.0spoiler. ",
 						"lang": "en",
-						"name": "Stormblood Spoiler"
+						"name": "Heavensward Spoilers"
 					},
 					{
 						"description": "#3.0ネタバレ ハッシュタグを含む投稿をラベルします。 ",
@@ -144,14 +144,90 @@
 				"identifier": "arealmreborn",
 				"locales": [
 					{
-						"description": "It will set it to label any post that includes #2.0spoiler. (x is numeric such as #2.1spoiler)",
+						"description": "It will set it to label any post that includes #2.0spoiler.",
 						"lang": "en",
-						"name": "A Realm Reborn Spoiler"
+						"name": "A Realm Reborn Spoilers"
 					},
 					{
 						"description": "#2.0ネタバレ ハッシュタグを含む投稿をラベルします。",
 						"lang": "ja",
 						"name": "新生のネタバレ"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "latest-patch-contents",
+				"locales": [
+					{
+						"description": "Please set off for non-Japanese users.",
+						"lang": "en",
+						"name": "Latest Patch Japanese Contents"
+					},
+					{
+						"description": "最新パッチのコンテンツを含む投稿をラベルします。",
+						"lang": "ja",
+						"name": "最新パッチのコンテンツ"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "dawntrail-contents",
+				"locales": [
+					{
+						"description": "Please set off for non-Japanese users.",
+						"lang": "en",
+						"name": "Downtrails Japanese Contents"
+					},
+					{
+						"description": "黄金のコンテンツを含む投稿をラベルします。",
+						"lang": "ja",
+						"name": "黄金のコンテンツ"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "endwalker-contents",
+				"locales": [
+					{
+						"description": "Please set off for non-Japanese users.",
+						"lang": "en",
+						"name": "Endwalker Japanese Contents"
+					},
+					{
+						"description": "暁月のコンテンツを含む投稿をラベルします。",
+						"lang": "ja",
+						"name": "暁月のコンテンツ"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "shadowbringers-contents",
+				"locales": [
+					{
+						"description": "Please set off for non-Japanese users.",
+						"lang": "en",
+						"name": "Shadowbringers Japanese Contents"
+					},
+					{
+						"description": "漆黒のコンテンツを含む投稿をラベルします。",
+						"lang": "ja",
+						"name": "漆黒のコンテンツ"
 					}
 				],
 				"severity": "inform"
