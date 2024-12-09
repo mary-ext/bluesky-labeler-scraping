@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:px34esz3zqocesnhjoyllu7q/app.bsky.labeler.service/self",
-  "cid": "bafyreid7tjoxzuel6wdgpim5apjpmbu2yi6u3prvon3re6njvlld74ckhq",
+  "cid": "bafyreidg2aklhl6gn6ikcnzcxw27uu4wp2nqrfbarelmkca64wwlasqgqq",
   "creator": {
     "did": "did:plc:px34esz3zqocesnhjoyllu7q",
     "handle": "verifiedsky.bsky.social",
@@ -14,7 +14,7 @@
     "description": "This profile hosts verified lists of Bluesky users. Go to https://verified-bluesky-rpu7w3bv.fermyon.app to learn more. For the technical details, check https://tobiasfenster.io/verifying-user-accounts-on-bluesky-with-a-wasm-spin-application",
     "indexedAt": "2024-11-30T22:06:05.349Z"
   },
-  "indexedAt": "2024-12-01T13:26:59.163Z",
+  "indexedAt": "2024-12-08T17:58:45.348Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -87,6 +87,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "cncfamb",
+        "locales": [
+          {
+            "description": "CNCF Ambassadors (see https://www.cncf.io/people/ambassadors)",
+            "lang": "en",
+            "name": "CNCF Ambassador"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -94,7 +108,8 @@
       "ms-rd",
       "dynamicsminds",
       "ghstar",
-      "javachamps"
+      "javachamps",
+      "cncfamb"
     ]
   }
 }
