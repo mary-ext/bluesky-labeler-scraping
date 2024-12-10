@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:hjr245ecqgzx6jccsjetfqbw/app.bsky.labeler.service/self",
-	"cid": "bafyreibhoijvkflsy2p76hoc76ojujbca6nhqkfbr3xnz2xdiouvzntpo4",
+	"cid": "bafyreicc7scg4xx3zo2ghm2hha5kna2ma35nxvajdbpc6abhkgemmgc5qq",
 	"creator": {
 		"did": "did:plc:hjr245ecqgzx6jccsjetfqbw",
 		"handle": "bonker.stealthbadger.net",
@@ -23,11 +23,39 @@
 		"description": "When you need something annoying bit Right Now.\n\nThis labeler is a work in progress.",
 		"indexedAt": "2024-12-01T18:46:10.945Z"
 	},
-	"likeCount": 2,
-	"indexedAt": "2024-12-03T19:01:06.254Z",
+	"likeCount": 3,
+	"indexedAt": "2024-12-09T15:47:37.815Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "misinfo",
+				"locales": [
+					{
+						"description": "Regularly provides information of poor factual value.",
+						"lang": "en",
+						"name": "Misinfo"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "disinfo",
+				"locales": [
+					{
+						"description": "Provides actively bad information.",
+						"lang": "en",
+						"name": "Disinfo"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -198,6 +226,8 @@
 			}
 		],
 		"labelValues": [
+			"misinfo",
+			"disinfo",
 			"sexist",
 			"ai-zealot",
 			"vatnik",

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zxldzh7s6no6zikwqpasixrp/app.bsky.labeler.service/self",
-	"cid": "bafyreid6stkfinva7zo2ucna36mbv4z6f5iyy3f4yuytrgy4quoaumzele",
+	"cid": "bafyreibyiwp2uaz4kepqcqxqxp7jioy65ugrisnz5r5sajx6umxf2gbh4e",
 	"creator": {
 		"did": "did:plc:zxldzh7s6no6zikwqpasixrp",
 		"handle": "objectscountries.motorcycles",
@@ -15,15 +15,15 @@
 		"description": "Linux distro labeler by @objectscountries.bsky.social (Please DM that account if you would like to help out/suggest other distros)",
 		"indexedAt": "2024-12-08T19:51:33.846Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-12-08T00:12:32.154Z",
+	"likeCount": 1,
+	"indexedAt": "2024-12-09T19:17:53.011Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "debian",
 				"locales": [
 					{
@@ -37,7 +37,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "ubuntu",
 				"locales": [
 					{
@@ -51,7 +51,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "mint",
 				"locales": [
 					{
@@ -65,7 +65,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "pop-os",
 				"locales": [
 					{
@@ -79,7 +79,21 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
+				"identifier": "elementary-os",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "elementary OS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "rhel",
 				"locales": [
 					{
@@ -93,7 +107,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "fedora",
 				"locales": [
 					{
@@ -107,7 +121,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "nobara",
 				"locales": [
 					{
@@ -121,7 +135,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "arch",
 				"locales": [
 					{
@@ -135,7 +149,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "manjaro",
 				"locales": [
 					{
@@ -149,7 +163,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "endeavour-os",
 				"locales": [
 					{
@@ -163,7 +177,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "garuda",
 				"locales": [
 					{
@@ -177,13 +191,111 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "steam-os",
 				"locales": [
 					{
 						"description": "",
 						"lang": "en",
 						"name": "SteamOS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cachy-os",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "CachyOS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "linux-from-scratch",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Linux From Scratch"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "opensuse-leap",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "OpenSUSE Leap"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "opensuse-tumbleweed",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "OpenSUSE Tumbleweed"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nix-os",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "NixOS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gentoo",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Gentoo Linux"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "void-linux",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Void Linux"
 					}
 				],
 				"severity": "inform"
@@ -194,6 +306,7 @@
 			"ubuntu",
 			"mint",
 			"pop-os",
+			"elementary-os",
 			"rhel",
 			"fedora",
 			"nobara",
@@ -201,7 +314,14 @@
 			"manjaro",
 			"endeavour-os",
 			"garuda",
-			"steam-os"
+			"steam-os",
+			"cachy-os",
+			"linux-from-scratch",
+			"opensuse-leap",
+			"opensuse-tumbleweed",
+			"nix-os",
+			"gentoo",
+			"void-linux"
 		]
 	}
 }

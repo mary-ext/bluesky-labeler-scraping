@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:sbnsfdwbgbtfgsp35377cysf/app.bsky.labeler.service/self",
+	"cid": "bafyreidwfdyp6lshlsueealvukws3xm4ohqm6rxbiuhubkjlmp623y5s34",
+	"creator": {
+		"did": "did:plc:sbnsfdwbgbtfgsp35377cysf",
+		"handle": "pushpin-labeler.bsky.social",
+		"displayName": "Pushpin Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sbnsfdwbgbtfgsp35377cysf/bafkreiahvlinsmmz2wkuymy3iid6mvacl7hnbis2xxvfvowq24mjfzxp4e@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-09T17:21:07.994Z",
+		"description": "A simple BlueSky Labeler to hide posts that are only the 📌 (used with a custom feed to bookmark posts.)\n\nNothing wrong with people using that feed, but maybe you don't want to see the posts?",
+		"indexedAt": "2024-12-09T17:22:37.695Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2024-12-09T17:37:31.712Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "pushpin-only",
+				"locales": [
+					{
+						"description": "Posts that are only a pushpin. By default, this labeler hides those from your feeds.",
+						"lang": "en",
+						"name": "Pushpin only"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "pushpin-plus",
+				"locales": [
+					{
+						"description": "Posts that include a pushpin emoji but also other content. These are not hidden or \"warned\" by default but if you don't want to see them, you can change the settings.",
+						"lang": "en",
+						"name": "Pushpin and other content"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"pushpin-only",
+			"pushpin-plus"
+		]
+	}
+}
