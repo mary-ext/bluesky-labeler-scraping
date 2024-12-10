@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dsae6lz5garrdkbicuor4chs/app.bsky.labeler.service/self",
-  "cid": "bafyreidsxr3fwaxc5xwcji54bsfeov46qi3q5qhkbxslxbfum3scme2364",
+  "cid": "bafyreidj2smoi3quuoua73cwumeizlrjyqr5d2nigjgym4klxj6shirgny",
   "creator": {
     "did": "did:plc:dsae6lz5garrdkbicuor4chs",
     "handle": "ozone.birb.house",
@@ -17,7 +17,7 @@
     "description": "A labeling service for the games industry. Check my posts for instructions.\n\nVerified labels are applied manually and may be delayed.\n\nManaged by @trezy.codes.",
     "indexedAt": "2024-12-03T05:41:04.047Z"
   },
-  "indexedAt": "2024-11-18T06:04:17.575Z",
+  "indexedAt": "2024-12-09T18:53:11.613Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -852,6 +852,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "❌ This account is impersonating a games industry professional or organisation.",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -867,7 +881,8 @@
       "games-event",
       "games-journalist",
       "games-publication",
-      "games-publisher"
+      "games-publisher",
+      "impersonation"
     ]
   }
 }
