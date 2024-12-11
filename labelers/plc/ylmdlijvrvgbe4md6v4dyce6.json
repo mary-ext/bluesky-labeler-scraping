@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ylmdlijvrvgbe4md6v4dyce6/app.bsky.labeler.service/self",
-	"cid": "bafyreia7zcfxpxbyxh72e5wsrxsffcoyad6b5x3vuczx3wvmvogf3j2p2y",
+	"cid": "bafyreicz7eckezbdnkb3xdxjjm2c4tybod4jch7ln6eitf5yij5mdtitra",
 	"creator": {
 		"did": "did:plc:ylmdlijvrvgbe4md6v4dyce6",
 		"handle": "us-gov-funding.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "The organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Include subsidiaries and affiliates.\n\nhttps://www.opensecrets.org",
 		"indexedAt": "2024-11-23T03:57:15.547Z"
 	},
-	"likeCount": 695,
-	"indexedAt": "2024-12-06T01:46:59.165Z",
+	"likeCount": 698,
+	"indexedAt": "2024-12-10T22:34:24.065Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -2332,6 +2332,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fragomen--del-rey-et-al",
+				"locales": [
+					{
+						"description": "This representative is funded by \"Fragomen, Del Rey et al\".\n\nThe organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.\n\nVisit https://www.opensecrets.org/campaign-expenditures/methodology to learn more.",
+						"lang": "en",
+						"name": "Fragomen, Del Rey et al"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cisco-systems",
+				"locales": [
+					{
+						"description": "This representative is funded by \"Cisco Systems\".\n\nThe organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.\n\nVisit https://www.opensecrets.org/campaign-expenditures/methodology to learn more.",
+						"lang": "en",
+						"name": "Cisco Systems"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -2499,7 +2527,9 @@
 			"city-of-chicago--il",
 			"ice-miller-llp",
 			"eli-lilly---co",
-			"dorsey---whitney"
+			"dorsey---whitney",
+			"fragomen--del-rey-et-al",
+			"cisco-systems"
 		]
 	}
 }
