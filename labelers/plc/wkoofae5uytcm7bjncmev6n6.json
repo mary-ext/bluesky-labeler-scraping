@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:wkoofae5uytcm7bjncmev6n6/app.bsky.labeler.service/self",
-	"cid": "bafyreia7vplyvgr2epbb2crxrcbzp3mhhav7x7x45yzrrgmroqh7mpp54u",
+	"cid": "bafyreia35ff2o4vmh5lbk64q7zmruzm2jtejb3bylhfx45bfu3xi6a46la",
 	"creator": {
 		"did": "did:plc:wkoofae5uytcm7bjncmev6n6",
 		"handle": "pronouns.adorable.mom",
@@ -18,8 +18,8 @@
 		"description": "Subscribe & like the post(s) with your pronouns (up to 4)\nFind them in the posts tab or search on pronouns.adorable.mom\nSee pinned post to delete your labels\nFor requests, DM this account\ndonate: https://ko-fi.com/notjuliet",
 		"indexedAt": "2024-11-30T10:27:59.646Z"
 	},
-	"likeCount": 11100,
-	"indexedAt": "2024-12-05T18:58:41.164Z",
+	"likeCount": 11129,
+	"indexedAt": "2024-12-11T20:30:17.164Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1702,6 +1702,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fae-faem",
+				"locales": [
+					{
+						"description": "This user uses fae/faem pronouns.",
+						"lang": "en",
+						"name": "fae/faem"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dem-dems",
+				"locales": [
+					{
+						"description": "This user uses dem/dems/demonself pronouns.",
+						"lang": "en",
+						"name": "dem/dems"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "thorn-ey-em",
+				"locales": [
+					{
+						"description": "This user uses þey/þem pronouns.",
+						"lang": "en",
+						"name": "þey/þem"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -1824,7 +1866,10 @@
 			"moo-moos",
 			"xe-xer",
 			"vae-vaem",
-			"spoot-spoots"
+			"spoot-spoots",
+			"fae-faem",
+			"dem-dems",
+			"thorn-ey-em"
 		]
 	}
 }

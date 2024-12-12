@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:45efgciznpqu4ozc7p3dkuqy/app.bsky.labeler.service/self",
-	"cid": "bafyreicb5b6sa35zkdcgst3sw64f4imbo4vdufrssuvvxu2gjhqcyz6ixy",
+	"cid": "bafyreihcew5oztc5vf2tiaylqw64zcyhqsnl6rj6c2eajpeift4aydfvha",
 	"creator": {
 		"did": "did:plc:45efgciznpqu4ozc7p3dkuqy",
 		"handle": "fetlabel.yuu.im",
@@ -16,10 +16,38 @@
 		"indexedAt": "2024-10-21T15:33:07.109Z"
 	},
 	"likeCount": 15,
-	"indexedAt": "2024-10-21T14:22:09.118Z",
+	"indexedAt": "2024-12-11T16:01:43.848Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "weight-gain",
+				"locales": [
+					{
+						"description": "Contains Weight Gain as the primary fetish subject.",
+						"lang": "en",
+						"name": "Weight Gain"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "vore",
+				"locales": [
+					{
+						"description": "Contains Vore as the primary fetish subject",
+						"lang": "en",
+						"name": "Vore"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "media",
@@ -162,6 +190,8 @@
 			}
 		],
 		"labelValues": [
+			"weight-gain",
+			"vore",
 			"feet",
 			"inflation",
 			"transformation",

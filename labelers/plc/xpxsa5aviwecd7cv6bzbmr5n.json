@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreihpegmmz2lci2fmmxzbiz4hmuefdr55w3lgj6uujwa7ews4pyhjbu",
+	"cid": "bafyreia75has3qceexoasp2dsymguvn2gnfexf53i7ghphe4ad6s74ixdm",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 319,
-	"indexedAt": "2024-12-08T22:10:00.069Z",
+	"likeCount": 320,
+	"indexedAt": "2024-12-11T11:13:52.464Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4614,6 +4614,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "llvm-llvm-project",
+				"locales": [
+					{
+						"description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.\nhttps://github.com/llvm/llvm-project",
+						"lang": "en",
+						"name": "llvm/llvm-project"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hikka-io-hikka-next",
+				"locales": [
+					{
+						"description": "Frontend service for hikka.io built with Next.js\nhttps://github.com/hikka-io/hikka-next",
+						"lang": "en",
+						"name": "hikka-io/hikka-next"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -4944,7 +4972,9 @@
 			"mcdamastr-collatzconjecturesimulator",
 			"wix-incubator-typed-locale-keys",
 			"zephyrproject-rtos-zephyr",
-			"maesterthreesixfive-maester"
+			"maesterthreesixfive-maester",
+			"llvm-llvm-project",
+			"hikka-io-hikka-next"
 		]
 	}
 }
