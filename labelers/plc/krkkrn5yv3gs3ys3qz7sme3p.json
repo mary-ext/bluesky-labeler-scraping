@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:krkkrn5yv3gs3ys3qz7sme3p/app.bsky.labeler.service/self",
+	"cid": "bafyreic6ajtrhxxlrykatevckgusbmpcib4uwnzruq7lo5gzqi4wxpko3q",
+	"creator": {
+		"did": "did:plc:krkkrn5yv3gs3ys3qz7sme3p",
+		"handle": "inclusive-test.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:krkkrn5yv3gs3ys3qz7sme3p/bafkreigp57rno7s6wihwu3r5ckkmohuekzq2phaalhrhah3xki6qdojca4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-12T13:51:26.944Z",
+		"indexedAt": "2024-12-12T13:51:26.944Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-12T14:15:26.854Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "non-inclusive",
+				"locales": [
+					{
+						"description": "This post contains non-inclusive language.",
+						"lang": "en",
+						"name": "Non-inclusive language"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "potentially-non-inclusive",
+				"locales": [
+					{
+						"description": "This post contains potentially non-inclusive language.",
+						"lang": "en",
+						"name": "Potentially non-inclusive language"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inclusive",
+				"locales": [
+					{
+						"description": "This post contains inclusive language.",
+						"lang": "en",
+						"name": "Inclusive language"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"non-inclusive",
+			"potentially-non-inclusive",
+			"inclusive"
+		]
+	}
+}

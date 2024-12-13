@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-	"cid": "bafyreibxgcecodehhigyn5dymx4dp6nexe6k6blb27w3nf4dpsrew3ecm4",
+	"cid": "bafyreiezkuv6dvjkiu7hhod5c7nr7jlqh7h4jpljbyvnievf5k2ypbkp74",
 	"creator": {
 		"did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
 		"handle": "moods.fran.pw",
@@ -19,10 +19,24 @@
 		"indexedAt": "2024-11-24T17:25:17.846Z"
 	},
 	"likeCount": 393,
-	"indexedAt": "2024-12-04T07:59:24.555Z",
+	"indexedAt": "2024-12-12T16:09:13.962Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "candle",
+				"locales": [
+					{
+						"description": "I'm protesting.",
+						"lang": "en",
+						"name": "Mood: 🕯️"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1789,6 +1803,7 @@
 			}
 		],
 		"labelValues": [
+			"candle",
 			"cheese-wedge",
 			"sparkles",
 			"smiling-face-with-horns",

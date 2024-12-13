@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:kzxx7bstrw3ualckn6imb2bd/app.bsky.labeler.service/self",
+	"cid": "bafyreihmw3jj37ifootlavmlk4i524vcaz5afa5pe7ahtemsrmwerwhuhe",
+	"creator": {
+		"did": "did:plc:kzxx7bstrw3ualckn6imb2bd",
+		"handle": "kink-label.mysti.dev",
+		"displayName": "Kink Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kzxx7bstrw3ualckn6imb2bd/bafkreieudrzkxqkf7vjen6uyxhinpxj2ztr4lqdm2ll25yskzty44a47hu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-12T19:28:15.042Z",
+		"description": "This is currently just a test labeler that does nothing - Planing on labeling kink content based on keywords that can then be toggled to be shown, warned about or hidden - ignore for now",
+		"indexedAt": "2024-12-13T00:15:45.542Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-13T01:21:55.851Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "Test",
+						"lang": "en",
+						"name": "Test"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"test"
+		]
+	}
+}

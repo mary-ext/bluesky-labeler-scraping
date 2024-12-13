@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ngrcbx7aaklspa5w6iu6hvx7/app.bsky.labeler.service/self",
-	"cid": "bafyreics4zh6hcvorvxse5hpqm6kquyqjyjhfa2dil5iknriyc5eatwnwa",
+	"cid": "bafyreidp6kmjs762ebfoq7rueucdpnycyi4c4figfchllcx4gxbbqdsnva",
 	"creator": {
 		"did": "did:plc:ngrcbx7aaklspa5w6iu6hvx7",
 		"handle": "dchains.bsky.social",
@@ -16,9 +16,27 @@
 		"indexedAt": "2024-12-04T02:40:47.946Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-12-04T02:37:19.766Z",
+	"indexedAt": "2024-12-12T23:03:25.951Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "",
+				"identifier": "test-identifier",
+				"locales": [
+					{
+						"description": "Test label description.",
+						"lang": "en",
+						"name": "Test label name"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"label-name"
+		]
 	}
 }
