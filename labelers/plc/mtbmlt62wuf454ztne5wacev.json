@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreieacvrtbcfqplfjyf6amqshl7p4zg7kehfbhskg5lexfes4prxp44",
+	"cid": "bafyreieagjna5btax4vvueely3fri4r3kyhof74yxcb2xfdhtzyz6ktayq",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,375 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-11-22T16:27:26.953Z"
 	},
-	"likeCount": 406,
-	"indexedAt": "2024-12-10T16:44:10.272Z",
+	"likeCount": 409,
+	"indexedAt": "2024-12-13T22:04:49.160Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stbees",
+				"locales": [
+					{
+						"description": "£36,288/year",
+						"lang": "en",
+						"name": "St Bees School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wellscathedral",
+				"locales": [
+					{
+						"description": "£47,286/year",
+						"lang": "en",
+						"name": "Wells Cathedral School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cheltenhamladies",
+				"locales": [
+					{
+						"description": "£58,980/year",
+						"lang": "en",
+						"name": "Cheltenham Ladies' College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "leedsgirlshigh",
+				"locales": [
+					{
+						"description": "Now merged into The Grammar School at Leeds, charging £17,523/year",
+						"lang": "en",
+						"name": "Leeds Girls' High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "godolphinsalisbury",
+				"locales": [
+					{
+						"description": "£44,818/year",
+						"lang": "en",
+						"name": "Godolphin School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "epstein",
+				"locales": [
+					{
+						"description": "This person is in Epstein's Black Book or flight logs (checked on https://epsteinsblackbook.com) or has a mention of a connection to Epstein on their Wikipedia",
+						"lang": "en",
+						"name": "Epstein Connection"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "landlord",
+				"locales": [
+					{
+						"description": "This person is a landlord (admitted in article/post or on MPs register of interests)",
+						"lang": "en",
+						"name": "Landlord"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "possiblelandlord",
+				"locales": [
+					{
+						"description": "This person owns multiple houses (3 or more), but it's unclear as to whether they rent any of them out",
+						"lang": "en",
+						"name": "Possible Landlord"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stpaulsgirls",
+				"locales": [
+					{
+						"description": "£38,494/year",
+						"lang": "en",
+						"name": "St Paul's Girls School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ryde",
+				"locales": [
+					{
+						"description": "£43,000/year",
+						"lang": "en",
+						"name": "Ryde School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hutchesons",
+				"locales": [
+					{
+						"description": "£18,829/year",
+						"lang": "en",
+						"name": "Hutchesons Grammar School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "uwca",
+				"locales": [
+					{
+						"description": "Website is very vague about fees, but approximately $75,000/year",
+						"lang": "en",
+						"name": "United World College of the Atlantic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rbai",
+				"locales": [
+					{
+						"description": "Independent/Private school run as a Voluntary Grammar School - supported by alumni donations and some local authority funding but run independently of LEA and compares itself to other independent schools. £6,040year for prep department, £1,440/year for secondary department.",
+						"lang": "en",
+						"name": "Royal Belfast Academical Institution"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wakefieldgirls",
+				"locales": [
+					{
+						"description": "£16,899/year",
+						"lang": "en",
+						"name": "Wakefield Girls High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clifton",
+				"locales": [
+					{
+						"description": "£50,832/year",
+						"lang": "en",
+						"name": "Clifton College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nottinghamhigh",
+				"locales": [
+					{
+						"description": "£21,335/year",
+						"lang": "en",
+						"name": "Nottingham High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ardingly",
+				"locales": [
+					{
+						"description": "£47,928/year",
+						"lang": "en",
+						"name": "Ardingly College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "whitgift",
+				"locales": [
+					{
+						"description": "£55,434year",
+						"lang": "en",
+						"name": "Whitgift School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "charterhouse",
+				"locales": [
+					{
+						"description": "£53,220/year",
+						"lang": "en",
+						"name": "Charterhouse"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lancing",
+				"locales": [
+					{
+						"description": "£50,296/year",
+						"lang": "en",
+						"name": "Lancing College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "westminster",
+				"locales": [
+					{
+						"description": "£59,416/year",
+						"lang": "en",
+						"name": "Westminster School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "churchers",
+				"locales": [
+					{
+						"description": "£11,857/year",
+						"lang": "en",
+						"name": "Churcher's College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "portsmouthgrammar",
+				"locales": [
+					{
+						"description": "£21,989/year",
+						"lang": "en",
+						"name": "Portsmouth Grammar School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "abbeyreading",
+				"locales": [
+					{
+						"description": "£25,725/year",
+						"lang": "en",
+						"name": "The Abbey School, Reading"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sidwell",
+				"locales": [
+					{
+						"description": "$57,620/year",
+						"lang": "en",
+						"name": "Sidwell Friends School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stover",
+				"locales": [
+					{
+						"description": "£39,874/year",
+						"lang": "en",
+						"name": "Stover School"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -1161,20 +1525,6 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nottinghamhigh",
-				"locales": [
-					{
-						"description": "£6,275/Term",
-						"lang": "en",
-						"name": "Nottingham High School"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
 				"identifier": "westtown",
 				"locales": [
 					{
@@ -1809,7 +2159,32 @@
 			"cheadlehulme",
 			"lyceecdg",
 			"tesnicosia",
-			"lords"
+			"lords",
+			"stover",
+			"sidwell",
+			"abbeyreading",
+			"churchers",
+			"portsmouthgrammar",
+			"westminster",
+			"lancing",
+			"charterhouse",
+			"ardingly",
+			"whitgift",
+			"clifton",
+			"wakefieldgirls",
+			"rbai",
+			"uwca",
+			"hutchesons",
+			"ryde",
+			"stpaulsgirls",
+			"landlord",
+			"epstein",
+			"godolphinsalisbury",
+			"leedsgirlshigh",
+			"cheltenhamladies",
+			"possiblelandlord",
+			"wellscathedral",
+			"stbees"
 		]
 	}
 }

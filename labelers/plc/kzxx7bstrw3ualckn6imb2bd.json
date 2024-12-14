@@ -1,42 +1,525 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:kzxx7bstrw3ualckn6imb2bd/app.bsky.labeler.service/self",
-	"cid": "bafyreihmw3jj37ifootlavmlk4i524vcaz5afa5pe7ahtemsrmwerwhuhe",
+	"cid": "bafyreidcoolm2rmv7mi7cprhlmr2xyvnfysyryonxrbqa6iy3oyvkc7khu",
 	"creator": {
 		"did": "did:plc:kzxx7bstrw3ualckn6imb2bd",
 		"handle": "kink-label.mysti.dev",
-		"displayName": "Kink Labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kzxx7bstrw3ualckn6imb2bd/bafkreieudrzkxqkf7vjen6uyxhinpxj2ztr4lqdm2ll25yskzty44a47hu@jpeg",
+		"displayName": "Kinks Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kzxx7bstrw3ualckn6imb2bd/bafkreihy4spcufhe4yhd23jrp3uu3u55hawzfe5slckbyj7bknxizkbp3y@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-12-12T19:28:15.042Z",
-		"description": "This is currently just a test labeler that does nothing - Planing on labeling kink content based on keywords that can then be toggled to be shown, warned about or hidden - ignore for now",
-		"indexedAt": "2024-12-13T00:15:45.542Z"
+		"description": "Labels posts into certain kinks based on keywords (False Positives Included) - No Kink Shame - Neutral Labeling\n\nIf you subscribe consider leaving a like.\n\nFor feedback message @mystiboi.bsky.social\n\nNO APPEALS YET!!!",
+		"indexedAt": "2024-12-13T11:56:36.744Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-12-13T01:21:55.851Z",
+	"likeCount": 7,
+	"indexedAt": "2024-12-14T00:53:48.259Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
-				"adultOnly": false,
+				"adultOnly": true,
 				"blurs": "content",
-				"defaultSetting": "warn",
-				"identifier": "test",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-suggestive",
 				"locales": [
 					{
-						"description": "Test",
+						"description": "Filtered Words: lewd nude naked suggestive underwear lingerie horny",
 						"lang": "en",
-						"name": "Test"
+						"name": "[GENERAL] Lewd/Nude"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-nsfw",
+				"locales": [
+					{
+						"description": "Filtered Words: nsfw notsafeforwork porn goon onlyfans",
+						"lang": "en",
+						"name": "[GENERAL] NSFW"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-penis",
+				"locales": [
+					{
+						"description": "Filtered Words: cock dick gock boyclit penis frot balls testicles",
+						"lang": "en",
+						"name": "[BODYPART] Penis"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-vagina",
+				"locales": [
+					{
+						"description": "Filtered Words: vagina pussy clit twat cooch",
+						"lang": "en",
+						"name": "[BODYPART] Vagina"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-feet",
+				"locales": [
+					{
+						"description": "Filtered Words: feet toes",
+						"lang": "en",
+						"name": "[BODYPART] Feet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-ass",
+				"locales": [
+					{
+						"description": "Filtered Words: ass booty buttocks cheeks bussy boypussy",
+						"lang": "en",
+						"name": "[BODYPART] Ass"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-thighs",
+				"locales": [
+					{
+						"description": "Filtered Words: thighs",
+						"lang": "en",
+						"name": "[BODYPART] Thighs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-stomache",
+				"locales": [
+					{
+						"description": "Filtered Words: stomache tummy",
+						"lang": "en",
+						"name": "[BODYPART] Stomache"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-armpits",
+				"locales": [
+					{
+						"description": "Filtered Words: armpits pits underarm armhole",
+						"lang": "en",
+						"name": "[BODYPART] Armpits"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-bodyhair",
+				"locales": [
+					{
+						"description": "Filtered Words: hairy bush",
+						"lang": "en",
+						"name": "[BODYPART] Bodyhair"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-bdsm",
+				"locales": [
+					{
+						"description": "Filter Words: bdsm bondage submission masochism sadomaso torture slave master",
+						"lang": "en",
+						"name": "[KINK] BDSM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-pain-light",
+				"locales": [
+					{
+						"description": "Filter Words: spank slap pinch scratch bite",
+						"lang": "en",
+						"name": "[KINK] Light Pain"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-furries",
+				"locales": [
+					{
+						"description": "Filter Words: furry furries knot paws",
+						"lang": "en",
+						"name": "[KINK] Furries"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-mursuits",
+				"locales": [
+					{
+						"description": "Filter Words: mursuit murs",
+						"lang": "en",
+						"name": "[KINK] Mursuits"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-softsuits",
+				"locales": [
+					{
+						"description": "Filter Words: softsuit ",
+						"lang": "en",
+						"name": "[KINK] Softsuits"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "kink-label-gore",
+				"locales": [
+					{
+						"description": "Filter Words: gore cuts blood bleed wound",
+						"lang": "en",
+						"name": "[KINK] Gore"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-smell",
+				"locales": [
+					{
+						"description": "Filter Words: musk sweat smell",
+						"lang": "en",
+						"name": "[KINK] Smell"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-liquids-sperm",
+				"locales": [
+					{
+						"description": "Filter Words:  sperm cum lactate lactation milk",
+						"lang": "en",
+						"name": "[KINK] Sperm/Lactation"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "kink-label-liquids-urine",
+				"locales": [
+					{
+						"description": "Filter Words: urine piss",
+						"lang": "en",
+						"name": "[KINK] Urine"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "kink-label-scat",
+				"locales": [
+					{
+						"description": "Filter Words: scat shit feces excrement",
+						"lang": "en",
+						"name": "[KINK] Scat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "kink-label-abdl",
+				"locales": [
+					{
+						"description": "Filter Words: abdl diaper adult_baby baby age_play",
+						"lang": "en",
+						"name": "[KINK] ABDL"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-anal",
+				"locales": [
+					{
+						"description": "Filter Words: anal assfuck",
+						"lang": "en",
+						"name": "[KINK] Anal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-oral",
+				"locales": [
+					{
+						"description": "Filter Words: oral mouth throat",
+						"lang": "en",
+						"name": "[KINK] Oral"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-oviposition",
+				"locales": [
+					{
+						"description": "Filter Words: oviposition eggs",
+						"lang": "en",
+						"name": "[KINK] Oviposition"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-breath",
+				"locales": [
+					{
+						"description": "Filter Words: breathplay choke suffocate",
+						"lang": "en",
+						"name": "[KINK] Breathplay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-petplay",
+				"locales": [
+					{
+						"description": "Filter Words: pet fempup leash collar kennel dog_bowl",
+						"lang": "en",
+						"name": "[KINK] Petplay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-masturbation",
+				"locales": [
+					{
+						"description": "Filter Words: masturbation masturbate goon jerking jorking",
+						"lang": "en",
+						"name": "[KINK] Masturbation"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-latex",
+				"locales": [
+					{
+						"description": "Filter Words: latex rubber",
+						"lang": "en",
+						"name": "[KINK] Latex/Rubber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-chastity",
+				"locales": [
+					{
+						"description": "Filter Words: chastity cage locked",
+						"lang": "en",
+						"name": "[KINK] Chastity"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-groups",
+				"locales": [
+					{
+						"description": "Filter Words: group orgy",
+						"lang": "en",
+						"name": "[KINK] Groups"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-findom",
+				"locales": [
+					{
+						"description": "Filter Words: findom tribute paypig",
+						"lang": "en",
+						"name": "[KINK] Findom"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-feminization",
+				"locales": [
+					{
+						"description": "Filter Words: feminization bimbo sissy sissies",
+						"lang": "en",
+						"name": "[KINK] Feminization"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-crossdress",
+				"locales": [
+					{
+						"description": "Filter Words: femboy tomboy crossdress cosplay femboi twink trap femsky",
+						"lang": "en",
+						"name": "[KINK] Cosplay/Crossdress"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"test"
+			"kink-label-suggestive",
+			"kink-label-nsfw",
+			"kink-label-penis",
+			"kink-label-vagina",
+			"kink-label-feet",
+			"kink-label-ass",
+			"kink-label-thighs",
+			"kink-label-stomache",
+			"kink-label-armpits",
+			"kink-label-bodyhair",
+			"kink-label-bdsm",
+			"kink-label-pain-light",
+			"kink-label-furries",
+			"kink-label-mursuits",
+			"kink-label-softsuits",
+			"kink-label-gore",
+			"kink-label-smell",
+			"kink-label-liquids-sperm",
+			"kink-label-liquids-urine",
+			"kink-label-scat",
+			"kink-label-abdl",
+			"kink-label-anal",
+			"kink-label-oral",
+			"kink-label-oviposition",
+			"kink-label-breath",
+			"kink-label-petplay",
+			"kink-label-masturbation",
+			"kink-label-latex",
+			"kink-label-chastity",
+			"kink-label-groups",
+			"kink-label-findom",
+			"kink-label-feminization",
+			"kink-label-crossdress"
 		]
 	}
 }

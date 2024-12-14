@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreidkh523wzpmqe5s6rddeny6pkkq7yaen65ngms3d6kxohh3cef4qe",
+	"cid": "bafyreie46rbvk7m7ikn5biezj6mooodouhu3mywu3m2wfzsi7nkvcufijy",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "A Bluesky labeler & search tool for K-Pop biases\n(under construction)",
 		"indexedAt": "2024-12-12T23:28:20.646Z"
 	},
-	"likeCount": 2,
-	"indexedAt": "2024-12-07T01:32:53.258Z",
+	"likeCount": 3,
+	"indexedAt": "2024-12-13T22:52:10.451Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -36,10 +36,25 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ateez",
+				"locales": [
+					{
+						"description": "ATINY\nUser is a fan of ATEEZ",
+						"lang": "en",
+						"name": "ATEEZ"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"young-posse"
+			"young-posse",
+			"ateez"
 		]
 	}
 }
