@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreieagjna5btax4vvueely3fri4r3kyhof74yxcb2xfdhtzyz6ktayq",
+	"cid": "bafyreiertyvcvpznw3mllcxdvxuxesdrvdlvgezffniqpvtxs53scrbgjy",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
-		"displayName": "Private School Labeller",
+		"displayName": "Private School (and Landlord) Labeller",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mtbmlt62wuf454ztne5wacev/bafkreidxdijfmzaocr3yzufqq7byl725462x7hdtgjnk64se3ws6gkujmu@jpeg",
 		"associated": {
 			"labeler": true,
@@ -16,13 +16,139 @@
 		"labels": [],
 		"createdAt": "2024-11-17T15:50:16.327Z",
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
-		"indexedAt": "2024-11-22T16:27:26.953Z"
+		"indexedAt": "2024-12-14T17:07:31.043Z"
 	},
-	"likeCount": 409,
-	"indexedAt": "2024-12-13T22:04:49.160Z",
+	"likeCount": 415,
+	"indexedAt": "2024-12-14T18:31:23.862Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cus",
+				"locales": [
+					{
+						"description": "€6450/year",
+						"lang": "en",
+						"name": "Catholic University School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "surbiton",
+				"locales": [
+					{
+						"description": "£26,163/year",
+						"lang": "en",
+						"name": "Surbiton High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "commonsschool",
+				"locales": [
+					{
+						"description": "23% of sitting MPs went to private schools, according to research by the Sutton Trust",
+						"lang": "en",
+						"name": "23% Privately Educated"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "commonslandlord",
+				"locales": [
+					{
+						"description": "13% of sitting MPs have declared they earn a rental income over £10,000/year, according to analysis of the Register of Members Interests by LandlordZone. The true number of landlords is likely higher, as many may not reach the £10k threshold, or have obscured their rental income in other ways.",
+						"lang": "en",
+						"name": "13% Landlords"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mlc",
+				"locales": [
+					{
+						"description": "AUD$42,360/year",
+						"lang": "en",
+						"name": "MLC School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stmaryswantage",
+				"locales": [
+					{
+						"description": "Now merged into Heathfield School, Ascot, charging £49,269/year",
+						"lang": "en",
+						"name": "St Mary's School, Wantage"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dunstansabbey",
+				"locales": [
+					{
+						"description": "Now merged into Plymouth College, which charges £22,004/Year",
+						"lang": "en",
+						"name": "Dunstan's Abbey School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "benenden",
+				"locales": [
+					{
+						"description": "£56,909/year",
+						"lang": "en",
+						"name": "Benenden School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ourladys",
+				"locales": [
+					{
+						"description": "£22,155/year",
+						"lang": "en",
+						"name": "Our Lady's, Abingdon"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -2184,7 +2310,16 @@
 			"cheltenhamladies",
 			"possiblelandlord",
 			"wellscathedral",
-			"stbees"
+			"stbees",
+			"ourladys",
+			"benenden",
+			"dunstansabbey",
+			"stmaryswantage",
+			"mlc",
+			"commonsschool",
+			"commonslandlord",
+			"surbiton",
+			"cus"
 		]
 	}
 }

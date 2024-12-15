@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreie46rbvk7m7ikn5biezj6mooodouhu3mywu3m2wfzsi7nkvcufijy",
+	"cid": "bafyreifw7vr2a73kjwfhm7a4yeuyyqqmvsjewsmgn7y5yjeo5shynld2si",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "A Bluesky labeler & search tool for K-Pop biases\n(under construction)",
 		"indexedAt": "2024-12-12T23:28:20.646Z"
 	},
-	"likeCount": 3,
-	"indexedAt": "2024-12-13T22:52:10.451Z",
+	"likeCount": 4,
+	"indexedAt": "2024-12-14T05:17:31.761Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -30,7 +30,7 @@
 				"identifier": "young-posse",
 				"locales": [
 					{
-						"description": "User is a fan of YOUNG POSSE",
+						"description": "TELEPOSSE\nUser is a fan of YOUNG POSSE",
 						"lang": "en",
 						"name": "YOUNG POSSE"
 					}
@@ -50,11 +50,86 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ive",
+				"locales": [
+					{
+						"description": "DIVE\nUser is a fan of IVE",
+						"lang": "en",
+						"name": "IVE"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---ateez",
+				"locales": [
+					{
+						"description": "ATINY\nUser is a fan of ATEEZ\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 ATEEZ"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rm",
+				"locales": [
+					{
+						"description": "User is a fan of RM",
+						"lang": "en",
+						"name": "RM"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bts",
+				"locales": [
+					{
+						"description": "ARMY\nUser is a fan of BTS",
+						"lang": "en",
+						"name": "BTS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hongjoong",
+				"locales": [
+					{
+						"description": "User is a fan of Hongjoong",
+						"lang": "en",
+						"name": "Hongjoong"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"young-posse",
-			"ateez"
+			"ateez",
+			"ive",
+			"---ateez",
+			"rm",
+			"bts",
+			"hongjoong"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:unzf3apgcl4v334jxc42o5ir/app.bsky.labeler.service/self",
-	"cid": "bafyreibnihiz5tstikfrc6cocmxtxhlw7cjw2uqccle2wf7i2gon7ajeti",
+	"cid": "bafyreigrhioikrsnjezj2pz3e2vyxhd5gom22rwevwgtezgcmg3inqodly",
 	"creator": {
 		"did": "did:plc:unzf3apgcl4v334jxc42o5ir",
 		"handle": "posho.zone",
@@ -15,11 +15,25 @@
 		"description": "Does what it says on the tin, labels people (mostly UK media/politics) who went to Oxford or Cambridge. Also Sandhurst. You might also enjoy @daddys.cash and @parents.blue",
 		"indexedAt": "2024-11-22T18:37:32.054Z"
 	},
-	"likeCount": 16,
-	"indexedAt": "2024-11-23T02:21:07.955Z",
+	"likeCount": 17,
+	"indexedAt": "2024-12-14T18:42:55.754Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "commons",
+				"locales": [
+					{
+						"description": "20% of the House of Commons went to Oxford or Cambridge University, according to research by The Sutton Trust",
+						"lang": "en",
+						"name": "20% Oxbridge"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -81,7 +95,8 @@
 			"cambridge",
 			"oxford",
 			"ppe",
-			"sandhurst"
+			"sandhurst",
+			"commons"
 		]
 	}
 }

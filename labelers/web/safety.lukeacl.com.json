@@ -1,0 +1,38 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:web:safety.lukeacl.com/app.bsky.labeler.service/self",
+	"cid": "bafyreifsrrlx3n3yjpd4ngktjbqw2lq5g56irqbw7cjlcz6km7tyh6obue",
+	"creator": {
+		"did": "did:web:safety.lukeacl.com",
+		"handle": "safety.lukeacl.com",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "0001-01-01T00:00:00.000Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-14T02:19:18.252Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "Test label.",
+						"lang": "en",
+						"name": "Test"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"test"
+		]
+	}
+}
