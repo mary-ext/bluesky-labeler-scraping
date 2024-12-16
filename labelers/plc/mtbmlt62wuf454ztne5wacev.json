@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreiertyvcvpznw3mllcxdvxuxesdrvdlvgezffniqpvtxs53scrbgjy",
+	"cid": "bafyreiejvlgtjinnns6l66sc3hasrp7lwxgwhqttalz37byxhswqheyn4y",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,25 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-12-14T17:07:31.043Z"
 	},
-	"likeCount": 415,
-	"indexedAt": "2024-12-14T18:31:23.862Z",
+	"likeCount": 426,
+	"indexedAt": "2024-12-15T23:48:14.562Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "phillips",
+				"locales": [
+					{
+						"description": "$73,780/year",
+						"lang": "en",
+						"name": "Phillips Academy"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -2319,7 +2333,8 @@
 			"commonsschool",
 			"commonslandlord",
 			"surbiton",
-			"cus"
+			"cus",
+			"phillips"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:fmfbmwukxfipludnwdbg75kn/app.bsky.labeler.service/self",
-	"cid": "bafyreiashzrttvgczhpkwrg45bh5jzpotw2foljyq2h2tk45f522rnn5hm",
+	"cid": "bafyreig4ofednhwtk6upvapktf4sqdoldinyckcdk5t5ia64zwd76a4yuu",
 	"creator": {
 		"did": "did:plc:fmfbmwukxfipludnwdbg75kn",
 		"handle": "ed-labeler.identivine.dev",
@@ -13,10 +13,10 @@
 		"labels": [],
 		"createdAt": "2024-12-10T03:49:01.451Z",
 		"description": "Test labeler for Ed's own environment. You almost certainly want @identivine.com and @labeler.identivine.com.",
-		"indexedAt": "2024-12-10T17:19:58.552Z"
+		"indexedAt": "2024-12-15T18:10:33.342Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-14T20:48:32.046Z",
+	"indexedAt": "2024-12-15T18:09:54.246Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,7 +24,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "ignore",
-				"identifier": "idv-ed-connected",
+				"identifier": "connected",
 				"locales": [
 					{
 						"description": "This account is recognized as being connected to idv-ed. A user with access to this account has created an Identivine account and linked it to this Bluesky identity. This does NOT mean that the user is \"verified\" or \"official\" in any way. Other labels created by idv-ed can provide additional information about the account, which you can use to make your own decisions about whether to trust the account.",
@@ -38,7 +38,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "idv-ed-linked",
+				"identifier": "linked",
 				"locales": [
 					{
 						"description": "In addition to being connected to idv-ed, this account has a link in bio that points back to their Identivine site. This improves the likelihood that the account is legitimate, but does not guarantee it, and you should use your own judgement when deciding whether to trust the account.",
@@ -52,7 +52,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "idv-ed-irl",
+				"identifier": "irl",
 				"locales": [
 					{
 						"description": "This account has been linked by idv-ed to an IRL identity. This means that Identivine has worked with a third-party identity verification service to verify that the account is owned by a real person. This real-world name can (and, optionally, geographic data) be found on their Identivine profile, and you can use that information to make sure that the account is operated by the person you think it is.",
@@ -66,7 +66,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "hide",
-				"identifier": "idv-ed-fishy",
+				"identifier": "fishy",
 				"locales": [
 					{
 						"description": "This account or post is referencing an Identivine site linked to a Bluesky account that is NOT this account. This can in some cases be a sign of impersonation (especially if it's in an account bio), but it can also just be somebody linking to someone else's site. Please use caution if you're unsure whether this account actually owns the Identivine site they're linking to.",
@@ -78,10 +78,10 @@
 			}
 		],
 		"labelValues": [
-			"idv-ed-connected",
-			"idv-ed-linked",
-			"idv-ed-irl",
-			"idv-ed-fishy"
+			"connected",
+			"linked",
+			"irl",
+			"fishy"
 		]
 	}
 }

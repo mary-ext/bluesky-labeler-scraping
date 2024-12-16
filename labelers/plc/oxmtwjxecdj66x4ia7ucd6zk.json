@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:oxmtwjxecdj66x4ia7ucd6zk/app.bsky.labeler.service/self",
-	"cid": "bafyreigxq2syns4q5pqixlhe4fpijsmvsbu3hqpxm3lytjfxvyfvjugb4a",
+	"cid": "bafyreiezmw2yzk2ggnzl3nkg4bgfvh3ibvi6qweyrlhocnrfgphdgoplvy",
 	"creator": {
 		"did": "did:plc:oxmtwjxecdj66x4ia7ucd6zk",
 		"handle": "sky-clearer.bsky.social",
@@ -16,10 +16,29 @@
 		"indexedAt": "2024-12-07T14:26:29.144Z"
 	},
 	"likeCount": 11,
-	"indexedAt": "2024-11-29T16:59:42.756Z",
+	"indexedAt": "2024-12-15T09:20:26.850Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "graphic-media",
+				"locales": [
+					{
+						"description": "Graphic Content not labeled as such",
+						"lang": "en",
+						"name": "Graphic Content"
+					},
+					{
+						"description": "Графический контент не помеченный как таковой",
+						"lang": "ru",
+						"name": "Триггерный контент"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -155,6 +174,7 @@
 			}
 		],
 		"labelValues": [
+			"graphic-media",
 			"misleading",
 			"spam",
 			"sexual",

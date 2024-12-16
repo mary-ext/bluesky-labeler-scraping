@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:px34esz3zqocesnhjoyllu7q/app.bsky.labeler.service/self",
-	"cid": "bafyreidg2aklhl6gn6ikcnzcxw27uu4wp2nqrfbarelmkca64wwlasqgqq",
+	"cid": "bafyreigmyqpmxhvtmhzipruqfjsppphcn6cw3zzl6uhavkfvvpckhn77yy",
 	"creator": {
 		"did": "did:plc:px34esz3zqocesnhjoyllu7q",
 		"handle": "verifiedsky.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "This profile hosts verified lists of Bluesky users but is in no way affiliated with Bluesky. Verification sources are in the Tech / IT industry. Go to https://verified-bluesky-rpu7w3bv.fermyon.app to learn more.",
 		"indexedAt": "2024-12-09T20:59:44.696Z"
 	},
-	"likeCount": 26,
-	"indexedAt": "2024-12-08T17:58:45.348Z",
+	"likeCount": 30,
+	"indexedAt": "2024-12-15T11:02:45.648Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -103,6 +103,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "oracleace",
+				"locales": [
+					{
+						"description": "Oracle ACEs (see https://apexapps.oracle.com/pls/apex/ace_program/r/oracle-aces/home)",
+						"lang": "en",
+						"name": "Oracle ACE"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -111,7 +125,8 @@
 			"dynamicsminds",
 			"ghstar",
 			"javachamps",
-			"cncfamb"
+			"cncfamb",
+			"oracleace"
 		]
 	}
 }

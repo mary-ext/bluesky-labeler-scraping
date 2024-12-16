@@ -1,0 +1,71 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:eefxdpqaysucttp5cder3nku/app.bsky.labeler.service/self",
+	"cid": "bafyreiggdsuu4lvq6a5ljrtvnt6oud4gl4ukp75goshrufukxhhthbruwi",
+	"creator": {
+		"did": "did:plc:eefxdpqaysucttp5cder3nku",
+		"handle": "labeller.aarondodd.com",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:eefxdpqaysucttp5cder3nku/bafkreiahaypxmz5hd7suxzdjjxdqjiakz7wkqcxwga5llnnkq6cp6hpb2i@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-15T16:19:29.342Z",
+		"indexedAt": "2024-12-16T00:18:27.043Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-16T00:38:22.760Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "slurs",
+				"locales": [
+					{
+						"description": "Posts containing racial, religious, or other slurs.",
+						"lang": "en",
+						"name": "Slurs"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "cursing",
+				"locales": [
+					{
+						"description": "Posts containing common curse words.",
+						"lang": "en",
+						"name": "Cursing"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "homophobic",
+				"locales": [
+					{
+						"description": "Posts containing terms typically used as derogatory slurs against the LGBTQIA+ community.",
+						"lang": "en",
+						"name": "Homophobic Slurs"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"homophobic",
+			"cursing",
+			"slurs"
+		]
+	}
+}
