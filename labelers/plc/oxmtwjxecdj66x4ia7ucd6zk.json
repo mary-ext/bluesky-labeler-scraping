@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oxmtwjxecdj66x4ia7ucd6zk/app.bsky.labeler.service/self",
-  "cid": "bafyreigxq2syns4q5pqixlhe4fpijsmvsbu3hqpxm3lytjfxvyfvjugb4a",
+  "cid": "bafyreiezmw2yzk2ggnzl3nkg4bgfvh3ibvi6qweyrlhocnrfgphdgoplvy",
   "creator": {
     "did": "did:plc:oxmtwjxecdj66x4ia7ucd6zk",
     "handle": "sky-clearer.bsky.social",
@@ -14,10 +14,29 @@
     "description": "Users-owned labeler to close gaps in the default Bluesky moderation with the same guidelines (https://bsky.social/about/support/community-guidelines)\n🏳️‍🌈🏳️‍⚧️🏴🇺🇦\nOnly labels / can't ban\nDisagree? Appeal\nQuestions/problems - mention/DM",
     "indexedAt": "2024-12-07T14:26:29.144Z"
   },
-  "indexedAt": "2024-11-29T16:59:42.756Z",
+  "indexedAt": "2024-12-15T09:20:26.850Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "Graphic Content not labeled as such",
+            "lang": "en",
+            "name": "Graphic Content"
+          },
+          {
+            "description": "Графический контент не помеченный как таковой",
+            "lang": "ru",
+            "name": "Триггерный контент"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -153,6 +172,7 @@
       }
     ],
     "labelValues": [
+      "graphic-media",
       "misleading",
       "spam",
       "sexual",
