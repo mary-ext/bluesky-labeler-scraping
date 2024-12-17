@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:5dddxo5rkwgtte46zbyrygaz/app.bsky.labeler.service/self",
-	"cid": "bafyreibz633565ubrecn3duyh27tmzy7tgdzobkvb4d3j22rsbt25jxwwi",
+	"cid": "bafyreig3fqlipt5uxlygr4cwlhs4jr47lvrigolwcespawtpspwb2d5sie",
 	"creator": {
 		"did": "did:plc:5dddxo5rkwgtte46zbyrygaz",
 		"handle": "namako-pona.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "o namako e sina! o lukin e namako lon kulupu pi toki pona!\nkon ilo li tan https://github.com/aliceisjustplaying/labeler-starter-kit-bsky. pona ale o tawa mama ona!\n@hecko.my.to li awen e sijelo ilo. o toki e wile tawa ona!",
 		"indexedAt": "2024-11-09T13:37:38.381Z"
 	},
-	"likeCount": 8,
-	"indexedAt": "2024-10-29T20:08:04.300Z",
+	"likeCount": 9,
+	"indexedAt": "2024-12-16T20:50:34.347Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -103,6 +103,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "o-pona-e-mi",
+				"locales": [
+					{
+						"description": "ona li wile e ni: sina lukin e pakala lon toki ona la sina pona e ona!",
+						"lang": "tok",
+						"name": "o pona e mi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "o-pona-ala-e-mi",
+				"locales": [
+					{
+						"description": "ona li wile e ni: sina lukin e pakala lon toki ona la sina pona ALA e ona!",
+						"lang": "tok",
+						"name": "o pona ALA e mi"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sitelen-pona",
+				"locales": [
+					{
+						"description": "ona li sitelen pona!",
+						"lang": "tok",
+						"name": "sitelen pona"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nasin UCSUR",
+				"locales": [
+					{
+						"description": "ona li sitelen pona kepeken nasin UCSUR! sina wile ken lukin e toki ona la o lukin e ni: https://sona.pona.la/wiki/Under-ConScript_Unicode_Registry#Rendering_support",
+						"lang": "tok",
+						"name": "nasin UCSUR"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sitelen sitelen",
+				"locales": [
+					{
+						"description": "ona li sitelen sitelen! (nimi ante li \"sitelen suwi\".)",
+						"lang": "tok",
+						"name": "sitelen sitelen"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -111,7 +181,12 @@
 			"o-toki-pona-tawa-mi",
 			"mi-kama-sona",
 			"mi-wawa",
-			"mi-pana-e-sona"
+			"mi-pana-e-sona",
+			"o-pona-e-mi",
+			"o-pona-ala-e-mi",
+			"sitelen-pona",
+			"nasin UCSUR",
+			"sitelen sitelen"
 		]
 	}
 }
