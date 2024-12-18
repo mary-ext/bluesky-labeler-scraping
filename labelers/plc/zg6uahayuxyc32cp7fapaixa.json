@@ -1,0 +1,44 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:zg6uahayuxyc32cp7fapaixa/app.bsky.labeler.service/self",
+	"cid": "bafyreibvxdmlk76wuu7dqfr4lujsqsramrsbvo42i5432bhpo2qtxitsnu",
+	"creator": {
+		"did": "did:plc:zg6uahayuxyc32cp7fapaixa",
+		"handle": "foundation.gunjo.org",
+		"displayName": "Morpho - 災害情報ラベラー",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-02-06T17:16:58.464Z",
+		"description": "[IN PILOTING] Disaster Information Labeler by Gunjo Foundation.\nOur website (in Japanese): https://foundation.gunjo.org/",
+		"indexedAt": "2024-12-17T07:42:18.044Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2024-12-17T07:33:35.051Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bousai",
+				"locales": [
+					{
+						"description": "防災に役立つ情報",
+						"lang": "ja",
+						"name": "防災"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"bousai"
+		]
+	}
+}

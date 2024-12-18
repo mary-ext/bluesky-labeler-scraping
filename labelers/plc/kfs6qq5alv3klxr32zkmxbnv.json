@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:kfs6qq5alv3klxr32zkmxbnv/app.bsky.labeler.service/self",
-	"cid": "bafyreibwznzljvtv5pg5akohralx4fqyo4z6g2ztamjcfandr2ngpwbzmq",
+	"cid": "bafyreig33uabiux53ggnfdpn6sl3eojef6njjl44v5dfrpvv3bg6mfhkz4",
 	"creator": {
 		"did": "did:plc:kfs6qq5alv3klxr32zkmxbnv",
 		"handle": "fanworkslabels.bsky.social",
@@ -15,8 +15,8 @@
 		"description": "Login to our website to add our labels to your fanworks posts!\nhttps://labelfanworks.fujocoded.com/ \n\nUpcoming: follow feeds by type of fanwork.\n\nA project by @fujocoded.bsky.social",
 		"indexedAt": "2024-12-01T02:32:32.746Z"
 	},
-	"likeCount": 33,
-	"indexedAt": "2024-12-01T00:12:47.159Z",
+	"likeCount": 35,
+	"indexedAt": "2024-12-17T01:40:54.253Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -145,6 +145,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "podfic",
+				"locales": [
+					{
+						"description": "This post has been marked as a podfic",
+						"lang": "en",
+						"name": "🎤 Podfic"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -156,7 +170,8 @@
 			"threadfic",
 			"fanvid",
 			"event",
-			"zine"
+			"zine",
+			"podfic"
 		]
 	}
 }
