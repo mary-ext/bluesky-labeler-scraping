@@ -1,13 +1,17 @@
 {
-  "name": "bluesky-labeler-scraping",
-  "module": "index.ts",
-  "type": "module",
-  "dependencies": {
-    "@atcute/bluesky": "^1.0.11",
-    "@atcute/client": "^2.0.6"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "typescript": "^5.7.2"
-  }
+	"name": "bluesky-labeler-scraping",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"fmt": "prettier --cache --write ."
+	},
+	"dependencies": {
+		"@atcute/bluesky": "^1.0.11",
+		"@atcute/client": "^2.0.6"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"prettier": "^3.4.2",
+		"typescript": "^5.7.2"
+	}
 }
