@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:kzxx7bstrw3ualckn6imb2bd/app.bsky.labeler.service/self",
-	"cid": "bafyreihl7fhhduiy4p4emf3gqakudrd3w2wh5efrasdrnp3vh5r6odmrjy",
+	"cid": "bafyreidgs3sg6s3nqtrxxc4kr7gm4yekpzea2dxtkcch4jujx247xbezsm",
 	"creator": {
 		"did": "did:plc:kzxx7bstrw3ualckn6imb2bd",
 		"handle": "kink-label.mysti.dev",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-13T11:56:36.744Z"
 	},
 	"likeCount": 12,
-	"indexedAt": "2024-12-16T16:31:35.263Z",
+	"indexedAt": "2024-12-18T13:48:54.556Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -32,10 +32,10 @@
 					{
 						"description": "Filtered Words: lewd nude naked suggestive underwear lingerie",
 						"lang": "en",
-						"name": "[GENERAL] Lewd/Nude"
+						"name": "⚠️ [GENERAL] Lewd/Nude"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -46,10 +46,10 @@
 					{
 						"description": "Filtered Words: nsfw notsafeforwork porn goon onlyfans horny",
 						"lang": "en",
-						"name": "[GENERAL] NSFW"
+						"name": "⚠️ [GENERAL] NSFW"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -58,12 +58,12 @@
 				"identifier": "kink-label-penis",
 				"locales": [
 					{
-						"description": "NSFW/SUGGESTIVE + Filtered Words: cock dick gock boyclit penis frot balls testicles shaft",
+						"description": "NSFW/SUGGESTIVE + Filtered Words: cock dick gock boyclit penis frot balls testicles shaft 🍆",
 						"lang": "en",
-						"name": "[BODYPART] Penis"
+						"name": "⚠️ [BODYPART] Penis"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -74,10 +74,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filtered Words: vagina pussy clit twat cooch",
 						"lang": "en",
-						"name": "[BODYPART] Vagina"
+						"name": "⚠️ [BODYPART] Vagina"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -88,10 +88,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filtered Words: feet toes",
 						"lang": "en",
-						"name": "[BODYPART] Feet"
+						"name": "⚠️ [BODYPART] Feet"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -100,12 +100,12 @@
 				"identifier": "kink-label-ass",
 				"locales": [
 					{
-						"description": "NSFW/SUGGESTIVE + Filtered Words: ass booty buttocks cheeks bussy boypussy",
+						"description": "NSFW/SUGGESTIVE + Filtered Words: ass booty buttocks cheeks bussy boypussy 🍑",
 						"lang": "en",
-						"name": "[BODYPART] Ass"
+						"name": "⚠️ [BODYPART] Ass"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -116,10 +116,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filtered Words: thighs",
 						"lang": "en",
-						"name": "[BODYPART] Thighs"
+						"name": "⚠️ [BODYPART] Thighs"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -130,10 +130,24 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filtered Words: stomache tummy",
 						"lang": "en",
-						"name": "[BODYPART] Stomache"
+						"name": "⚠️ [BODYPART] Stomache"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "media",
+				"defaultSetting": "ignore",
+				"identifier": "kink-label-chest",
+				"locales": [
+					{
+						"description": "NSFW/SUGGESTIVE + Filtered Words: tits tities boobs areolas nipple nips teet",
+						"lang": "en",
+						"name": "⚠️ [BODYPART] Chest/Areolas"
+					}
+				],
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -144,10 +158,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filtered Words: armpits pits underarm armhole",
 						"lang": "en",
-						"name": "[BODYPART] Armpits"
+						"name": "⚠️ [BODYPART] Armpits"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -158,10 +172,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filtered Words: hairy bush",
 						"lang": "en",
-						"name": "[BODYPART] Bodyhair"
+						"name": "⚠️ [BODYPART] Bodyhair"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -172,10 +186,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: bdsm bondage submission masochism sadomaso torture slave master",
 						"lang": "en",
-						"name": "[KINK] BDSM"
+						"name": "⚠️ [KINK] BDSM"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -186,10 +200,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: spank slap pinch scratch bite",
 						"lang": "en",
-						"name": "[KINK] Light Pain"
+						"name": "⚠️ [KINK] Light Pain"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -200,10 +214,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: furry furries knot paws",
 						"lang": "en",
-						"name": "[KINK] Furries"
+						"name": "⚠️ [KINK] Furries"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -214,10 +228,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: mursuit murs",
 						"lang": "en",
-						"name": "[KINK] Mursuits"
+						"name": "⚠️ [KINK] Mursuits"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -228,10 +242,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: softsuit ",
 						"lang": "en",
-						"name": "[KINK] Softsuits"
+						"name": "⚠️ [KINK] Softsuits"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -242,10 +256,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: gore cuts blood bleed wound",
 						"lang": "en",
-						"name": "[KINK] Gore"
+						"name": "⚠️ [KINK] Gore"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -256,10 +270,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: musk sweat smell",
 						"lang": "en",
-						"name": "[KINK] Smell"
+						"name": "⚠️ [KINK] Smell"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -268,12 +282,12 @@
 				"identifier": "kink-label-liquids-sperm",
 				"locales": [
 					{
-						"description": "NSFW/SUGGESTIVE + Filter Words:  sperm cum lactate lactation milk",
+						"description": "NSFW/SUGGESTIVE + Filter Words:  sperm cum lactate lactation milk 💦 🥛 🐄",
 						"lang": "en",
-						"name": "[KINK] Sperm/Lactation"
+						"name": "⚠️ [KINK] Sperm/Lactation"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -284,10 +298,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: urine piss",
 						"lang": "en",
-						"name": "[KINK] Urine"
+						"name": "⚠️ [KINK] Urine"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -298,10 +312,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: scat shit feces excrement",
 						"lang": "en",
-						"name": "[KINK] Scat"
+						"name": "⚠️ [KINK] Scat"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -312,10 +326,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: abdl diaper adult_baby baby age_play",
 						"lang": "en",
-						"name": "[KINK] ABDL"
+						"name": "⚠️ [KINK] ABDL"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -326,10 +340,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: anal assfuck",
 						"lang": "en",
-						"name": "[KINK] Anal"
+						"name": "⚠️ [KINK] Anal"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -340,10 +354,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: oral mouth throat",
 						"lang": "en",
-						"name": "[KINK] Oral"
+						"name": "⚠️ [KINK] Oral"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -354,10 +368,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: oviposition eggs",
 						"lang": "en",
-						"name": "[KINK] Oviposition"
+						"name": "⚠️ [KINK] Oviposition"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -368,10 +382,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: breathplay choke suffocate",
 						"lang": "en",
-						"name": "[KINK] Breathplay"
+						"name": "⚠️ [KINK] Breathplay"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -382,10 +396,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: pet fempup leash collar kennel dog_bowl",
 						"lang": "en",
-						"name": "[KINK] Petplay"
+						"name": "⚠️ [KINK] Petplay"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -396,10 +410,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: masturbation masturbate goon jerking jorking",
 						"lang": "en",
-						"name": "[KINK] Masturbation"
+						"name": "⚠️ [KINK] Masturbation"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -410,10 +424,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: latex rubber",
 						"lang": "en",
-						"name": "[KINK] Latex/Rubber"
+						"name": "⚠️ [KINK] Latex/Rubber"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -424,10 +438,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: chastity cage locked",
 						"lang": "en",
-						"name": "[KINK] Chastity"
+						"name": "⚠️ [KINK] Chastity"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -438,10 +452,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: group orgy gang",
 						"lang": "en",
-						"name": "[KINK] Groups"
+						"name": "⚠️ [KINK] Groups"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -452,10 +466,10 @@
 					{
 						"description": "Filter Words: findom paypig",
 						"lang": "en",
-						"name": "[KINK] Findom"
+						"name": "⚠️ [KINK] Findom"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -466,10 +480,10 @@
 					{
 						"description": "Filter Words: feminization bimbo sissy sissies",
 						"lang": "en",
-						"name": "[KINK] Feminization"
+						"name": "⚠️ [KINK] Feminization"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": true,
@@ -480,10 +494,10 @@
 					{
 						"description": "NSFW/SUGGESTIVE + Filter Words: femboy tomboy crossdress cosplay femboi twink trap femsky",
 						"lang": "en",
-						"name": "[KINK] Cosplay/Crossdress"
+						"name": "⚠️ [KINK] Cosplay/Crossdress"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -495,6 +509,7 @@
 			"kink-label-ass",
 			"kink-label-thighs",
 			"kink-label-stomache",
+			"kink-label-chest",
 			"kink-label-armpits",
 			"kink-label-bodyhair",
 			"kink-label-bdsm",

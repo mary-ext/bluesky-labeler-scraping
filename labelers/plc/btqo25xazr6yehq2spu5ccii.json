@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:btqo25xazr6yehq2spu5ccii/app.bsky.labeler.service/self",
-	"cid": "bafyreicblbdxrg7ftiktpdvgfkiae37xdakjrd5tewk3yvkzz3by6qcdde",
+	"cid": "bafyreieinnaxrrjnehtsn7af6547y6axmvlkd44fhcz2gqf5zr3knmvr3a",
 	"creator": {
 		"did": "did:plc:btqo25xazr6yehq2spu5ccii",
 		"handle": "polski-moderator.bsky.social",
@@ -16,10 +16,24 @@
 		"indexedAt": "2024-12-06T16:52:24.746Z"
 	},
 	"likeCount": 4,
-	"indexedAt": "2024-12-17T14:48:04.654Z",
+	"indexedAt": "2024-12-18T13:10:58.460Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vip",
+				"locales": [
+					{
+						"description": "osoba o szczególnym statusie związanym z wykonywaną pracą dla społeczności motylka",
+						"lang": "en",
+						"name": "Very Important Person"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "media",
@@ -170,7 +184,7 @@
 						"name": "[PL] Konfederacja Wolność i Niepodległość"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
@@ -250,6 +264,7 @@
 			}
 		],
 		"labelValues": [
+			"vip",
 			"parody",
 			"kontrowersje",
 			"trolle",
