@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreiejvlgtjinnns6l66sc3hasrp7lwxgwhqttalz37byxhswqheyn4y",
+	"cid": "bafyreihecejonyss3pnodz34yhcarqxvmm52izuhlccqvlxncbraz2g3aq",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,543 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-12-14T17:07:31.043Z"
 	},
-	"likeCount": 440,
-	"indexedAt": "2024-12-15T23:48:14.562Z",
+	"likeCount": 441,
+	"indexedAt": "2024-12-20T01:13:05.659Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sherborne",
+				"locales": [
+					{
+						"description": "£53,174/year",
+						"lang": "en",
+						"name": "Sherborne School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "eltham",
+				"locales": [
+					{
+						"description": "£27,222/year",
+						"lang": "en",
+						"name": "Eltham College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "abingdon",
+				"locales": [
+					{
+						"description": "£51,676/year",
+						"lang": "en",
+						"name": "Abingdon School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "solihull-school",
+				"locales": [
+					{
+						"description": "£20,400/year",
+						"lang": "en",
+						"name": "Solihull School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bradfordgirls",
+				"locales": [
+					{
+						"description": "Now free, previously private",
+						"lang": "en",
+						"name": "Bradford Girls' Grammar School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chethams",
+				"locales": [
+					{
+						"description": "£36,066/year",
+						"lang": "en",
+						"name": "Chetham's School of Music"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tonbridge",
+				"locales": [
+					{
+						"description": "£55,773/year",
+						"lang": "en",
+						"name": "Tonbridge School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "deanclose",
+				"locales": [
+					{
+						"description": "£51,510/year",
+						"lang": "en",
+						"name": "Dean Close School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "radley",
+				"locales": [
+					{
+						"description": "£55,450/year",
+						"lang": "en",
+						"name": "Radley College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "marlborough",
+				"locales": [
+					{
+						"description": "£55,790/year",
+						"lang": "en",
+						"name": "Marlborough College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stmarysascot",
+				"locales": [
+					{
+						"description": "£59,670/year",
+						"lang": "en",
+						"name": "St Mary's School, Ascot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rokeby",
+				"locales": [
+					{
+						"description": "£24,770/year",
+						"lang": "en",
+						"name": "Rokeby School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "readingbluecoat",
+				"locales": [
+					{
+						"description": "£23,055/year",
+						"lang": "en",
+						"name": "Reading Blue Coat School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hamptonschool",
+				"locales": [
+					{
+						"description": "£29,512/year",
+						"lang": "en",
+						"name": "Hampton School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rockhurst",
+				"locales": [
+					{
+						"description": "$17,550/year",
+						"lang": "en",
+						"name": "Rockhurst High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hudson",
+				"locales": [
+					{
+						"description": "$28,310/year",
+						"lang": "en",
+						"name": "The Hudson School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stjohnsTX",
+				"locales": [
+					{
+						"description": "$35,535/year",
+						"lang": "en",
+						"name": "St John's School, Texas"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lauralton",
+				"locales": [
+					{
+						"description": "$24,280/year",
+						"lang": "en",
+						"name": "Academy of Our Lady of Mercy, Lauralton Hall"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cardinaldougherty",
+				"locales": [
+					{
+						"description": "Now Closed",
+						"lang": "en",
+						"name": "Cardinal Dougherty High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mosesbrown",
+				"locales": [
+					{
+						"description": "$48,330/year",
+						"lang": "en",
+						"name": "Moses Brown School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "loyola",
+				"locales": [
+					{
+						"description": "$27,255year",
+						"lang": "en",
+						"name": "Loyola High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "boylan",
+				"locales": [
+					{
+						"description": "$10,362/year",
+						"lang": "en",
+						"name": "Boylan Catholic High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fairfaxhall",
+				"locales": [
+					{
+						"description": "Now closed",
+						"lang": "en",
+						"name": "Fairfax Hall School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "georgetown",
+				"locales": [
+					{
+						"description": "$53,540/year",
+						"lang": "en",
+						"name": "Georgetown Day School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "polytechnic",
+				"locales": [
+					{
+						"description": "$47,100/year",
+						"lang": "en",
+						"name": "Polytechnic School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "strake",
+				"locales": [
+					{
+						"description": "$26,985/year",
+						"lang": "en",
+						"name": "Strake Jesuit College Preparatory"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gonzaga",
+				"locales": [
+					{
+						"description": "$31,630/year",
+						"lang": "en",
+						"name": "Gonzaga College High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stpaulsNH",
+				"locales": [
+					{
+						"description": "$68,353year",
+						"lang": "en",
+						"name": "St Paul's School, New Hampshire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "micds",
+				"locales": [
+					{
+						"description": "$34,910/year",
+						"lang": "en",
+						"name": "Mary Institute & St Louis Country Day School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rosatikain",
+				"locales": [
+					{
+						"description": "$14,950/year",
+						"lang": "en",
+						"name": "Rosati-Kain Academy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "malden",
+				"locales": [
+					{
+						"description": "$19,500/year",
+						"lang": "en",
+						"name": "Malden Catholic High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stursula",
+				"locales": [
+					{
+						"description": "$13,700/year",
+						"lang": "en",
+						"name": "St Ursula Academy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stbrendan",
+				"locales": [
+					{
+						"description": "$19,750/year",
+						"lang": "en",
+						"name": "Saint Brendan High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lawrenceville",
+				"locales": [
+					{
+						"description": "$79,500/year",
+						"lang": "en",
+						"name": "The Lawrenceville School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "punahou",
+				"locales": [
+					{
+						"description": "$31,680/year",
+						"lang": "en",
+						"name": "Punahou School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stalbansDC",
+				"locales": [
+					{
+						"description": "$80,308/year",
+						"lang": "en",
+						"name": "St Albans School, Washington DC"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "saintignatius",
+				"locales": [
+					{
+						"description": "$20,550/year",
+						"lang": "en",
+						"name": "Saint Ignatius High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "franciswparker",
+				"locales": [
+					{
+						"description": "$46,760/year",
+						"lang": "en",
+						"name": "Francis W. Parker School"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -2334,7 +2866,45 @@
 			"commonslandlord",
 			"surbiton",
 			"cus",
-			"phillips"
+			"phillips",
+			"franciswparker",
+			"saintignatius",
+			"stalbansDC",
+			"punahou",
+			"lawrenceville",
+			"stbrendan",
+			"stursula",
+			"malden",
+			"micds",
+			"rosatikain",
+			"stpaulsNH",
+			"gonzaga",
+			"strake",
+			"polytechnic",
+			"georgetown",
+			"fairfaxhall",
+			"boylan",
+			"loyola",
+			"mosesbrown",
+			"cardinaldougherty",
+			"lauralton",
+			"stjohnsTX",
+			"hudson",
+			"rockhurst",
+			"hamptonschool",
+			"readingbluecoat",
+			"rokeby",
+			"stmarysascot",
+			"marlborough",
+			"radley",
+			"deanclose",
+			"tonbridge",
+			"chethams",
+			"bradfordgirls",
+			"solihull-school",
+			"abingdon",
+			"eltham",
+			"sherborne"
 		]
 	}
 }
