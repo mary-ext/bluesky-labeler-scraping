@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreia66kmcoixrj46jkpdbjxxolvsueaabcvoje7twv6zzwko6thqrv4",
+  "cid": "bafyreihifzdfrr6sh7af4f5p2dfz2rivqaufo774rzru5hx45wmqkowh2y",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2024-12-19T08:08:31.558Z",
+  "indexedAt": "2024-12-20T17:03:48.664Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -4752,6 +4752,62 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "muni-town-weird",
+        "locales": [
+          {
+            "description": "Weird web pages\nhttps://github.com/muni-town/weird",
+            "lang": "en",
+            "name": "muni-town/weird"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fishfolk-jumpy",
+        "locales": [
+          {
+            "description": "Tactical 2D shooter in fishy pixels style. Made with Rust-lang 🦀 and Bevy 🪶\nhttps://github.com/fishfolk/jumpy",
+            "lang": "en",
+            "name": "fishfolk/jumpy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fishfolk-bones",
+        "locales": [
+          {
+            "description": "An easy-to-use game engine for making real games.\nhttps://github.com/fishfolk/bones",
+            "lang": "en",
+            "name": "fishfolk/bones"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gfx-rs-wgpu",
+        "locales": [
+          {
+            "description": "A cross-platform, safe, pure-Rust graphics API.\nhttps://github.com/gfx-rs/wgpu",
+            "lang": "en",
+            "name": "gfx-rs/wgpu"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -5092,7 +5148,11 @@
       "breadbored-gameboy-reverse-engineering",
       "breadbored-pokemon-distribution-rom",
       "breadbored-nust",
-      "libgittwo-libgittwo"
+      "libgittwo-libgittwo",
+      "muni-town-weird",
+      "fishfolk-jumpy",
+      "fishfolk-bones",
+      "gfx-rs-wgpu"
     ]
   }
 }
