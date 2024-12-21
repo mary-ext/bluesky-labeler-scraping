@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:kzxx7bstrw3ualckn6imb2bd/app.bsky.labeler.service/self",
-	"cid": "bafyreiergligc36idozbzs5jakmj5ezjlijduxhkz7xtkkbsophgnx2hoe",
+	"cid": "bafyreias5poa4jduylwe6nc6dj7bbpju7blkczvhevpmsloccvjjabuwp4",
 	"creator": {
 		"did": "did:plc:kzxx7bstrw3ualckn6imb2bd",
 		"handle": "kink-label.mysti.dev",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-13T11:56:36.744Z"
 	},
 	"likeCount": 12,
-	"indexedAt": "2024-12-19T15:53:35.459Z",
+	"indexedAt": "2024-12-20T11:49:58.348Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -498,6 +498,20 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kink-label-pain-sounding",
+				"locales": [
+					{
+						"description": "NSFW/SUGGESTIVE + Filter Words: sounding urethra",
+						"lang": "en",
+						"name": "⚠️ [KINK] Sounding"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -534,7 +548,8 @@
 			"kink-label-groups",
 			"kink-label-findom",
 			"kink-label-feminization",
-			"kink-label-crossdress"
+			"kink-label-crossdress",
+			"kink-label-pain-sounding"
 		]
 	}
 }
