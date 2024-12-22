@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreihifzdfrr6sh7af4f5p2dfz2rivqaufo774rzru5hx45wmqkowh2y",
+	"cid": "bafyreib6hzcyxeneaz44c4ugrtvcsw4w5s2ltr7twvv3tdbhasxkxwdkta",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 327,
-	"indexedAt": "2024-12-20T17:03:48.664Z",
+	"likeCount": 329,
+	"indexedAt": "2024-12-21T09:41:13.564Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -4810,6 +4810,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unbnd-playground",
+				"locales": [
+					{
+						"description": "A collection of example projects and scripts for atproto development.\nhttps://github.com/unbnd/playground",
+						"lang": "en",
+						"name": "unbnd/playground"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5154,7 +5168,8 @@
 			"muni-town-weird",
 			"fishfolk-jumpy",
 			"fishfolk-bones",
-			"gfx-rs-wgpu"
+			"gfx-rs-wgpu",
+			"unbnd-playground"
 		]
 	}
 }

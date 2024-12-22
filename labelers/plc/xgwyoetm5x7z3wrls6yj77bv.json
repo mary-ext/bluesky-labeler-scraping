@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xgwyoetm5x7z3wrls6yj77bv/app.bsky.labeler.service/self",
-	"cid": "bafyreicpt323p6pwdzmoqzto4rilpvaod3dezmsjhr73dw3ewvr65a6no4",
+	"cid": "bafyreicapfl5cb3yui6amlt7wpcfuqxlp7wla3sjt5fec4u4dgk22cjzte",
 	"creator": {
 		"did": "did:plc:xgwyoetm5x7z3wrls6yj77bv",
 		"handle": "les.pridelabels.click",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-12-18T18:33:46.242Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-12-18T18:18:48.752Z",
+	"indexedAt": "2024-12-21T20:51:09.760Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -33,10 +33,40 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "saphic",
+				"locales": [
+					{
+						"description": "This user is saphic",
+						"lang": "en",
+						"name": "Saphic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "flag",
+				"locales": [
+					{
+						"description": "Lesbian Flag",
+						"lang": "en",
+						"name": ""
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"lesbian"
+			"lesbian",
+			"saphic",
+			"flag"
 		]
 	}
 }

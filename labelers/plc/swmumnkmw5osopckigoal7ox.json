@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:swmumnkmw5osopckigoal7ox/app.bsky.labeler.service/self",
-	"cid": "bafyreialuzs3wpjdul4n6dexbh46g7iz3qanw7ug55gbvnk47k2vrscv6u",
+	"cid": "bafyreiaq5y4jduv7xxlv6ksbyqbwsaeolltvnaambobut63ol2lqrezgcq",
 	"creator": {
 		"did": "did:plc:swmumnkmw5osopckigoal7ox",
 		"handle": "labeler-test.bsky.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-12-20T02:16:36.843Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-12-20T23:32:41.553Z",
+	"indexedAt": "2024-12-22T00:40:49.847Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -33,10 +33,25 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "great",
+				"locales": [
+					{
+						"description": "great",
+						"lang": "en",
+						"name": "great"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"awesome"
+			"awesome",
+			"great"
 		]
 	}
 }

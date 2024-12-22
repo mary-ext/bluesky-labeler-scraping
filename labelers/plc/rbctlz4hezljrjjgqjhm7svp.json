@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreifw7vr2a73kjwfhm7a4yeuyyqqmvsjewsmgn7y5yjeo5shynld2si",
+	"cid": "bafyreiedlvwbji7aafllnr25aii52vf3ncnk7bgajcdw2ltayxdyaddfve",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-20T22:29:43.043Z"
 	},
 	"likeCount": 5,
-	"indexedAt": "2024-12-14T05:17:31.761Z",
+	"indexedAt": "2024-12-22T00:44:04.854Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -120,6 +120,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---young-posse",
+				"locales": [
+					{
+						"description": "User is a fan of YOUNG POSSE\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 YOUNG POSSE"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blackpink",
+				"locales": [
+					{
+						"description": "Blink\nUser is a fan of Blackpink",
+						"lang": "en",
+						"name": "Blackpink"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -129,7 +157,9 @@
 			"---ateez",
 			"rm",
 			"bts",
-			"hongjoong"
+			"hongjoong",
+			"---young-posse",
+			"blackpink"
 		]
 	}
 }

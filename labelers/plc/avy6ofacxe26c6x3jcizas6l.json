@@ -1,24 +1,319 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:avy6ofacxe26c6x3jcizas6l/app.bsky.labeler.service/self",
-	"cid": "bafyreieuepftxt4g6pspkwrxgs6jn73c3lgqozeqxo5lpnkbunwiiwdw3a",
+	"cid": "bafyreib3fxbm6d5ax3lh4wzgyrfqhnry4bud66cy7fg7lr3qqlijievcxq",
 	"creator": {
 		"did": "did:plc:avy6ofacxe26c6x3jcizas6l",
-		"handle": "sats4life.bsky.social",
-		"displayName": "",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:avy6ofacxe26c6x3jcizas6l/bafkreibef2z5vurz2cegtx42fxvvjgf5qmlzg4rjsyabc5a25kh4mtyoky@jpeg",
+		"handle": "cryptolabeler.sats4.life",
+		"displayName": "Crypto Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:avy6ofacxe26c6x3jcizas6l/bafkreicxmq4iircpbudycnraxwb7timj22nv2tl2lstghs4sbbfjwvre4e@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-12-18T19:28:59.745Z",
-		"indexedAt": "2024-12-18T19:28:59.745Z"
+		"description": "A vigilant and authoritative presence in the crypto space, dedicated to ensuring trust, transparency, and safety. \n\nWe specialize in labeling accounts, verifying posts, and combating scams to protect the community.",
+		"indexedAt": "2024-12-21T18:05:30.544Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-12-20T19:46:23.560Z",
+	"likeCount": 1,
+	"indexedAt": "2024-12-21T13:52:33.756Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "misleading-advertisement",
+				"locales": [
+					{
+						"description": "Used for promotional content that provides inaccurate, exaggerated, or false claims about a token, project, or service.",
+						"lang": "en",
+						"name": "misleading-advertisement"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fud-tactics",
+				"locales": [
+					{
+						"description": "Labels content that spreads fear, uncertainty, and doubt (FUD) about specific projects, tokens, or the market in general, often to manipulate behavior or market trends.",
+						"lang": "en",
+						"name": "FUD Tactics"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fomo-inducer",
+				"locales": [
+					{
+						"description": "Tags content that aggressively encourages users to invest in a project or token by exploiting emotional triggers like urgency or exclusivity.",
+						"lang": "en",
+						"name": "FOMO-Inducer"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dusting-attack",
+				"locales": [
+					{
+						"description": "Label for activities where tiny amounts of cryptocurrency are sent to a user's wallet as part of an attempt to track transactions or de-anonymize users.",
+						"lang": "en",
+						"name": "Dusting Attack"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "misleading-tokenomics",
+				"locales": [
+					{
+						"description": "Labels posts or projects with unclear or deceptive explanations about a token’s distribution, utility, or functionality.",
+						"lang": "en",
+						"name": "Misleading Tokenomics"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "doxxing",
+				"locales": [
+					{
+						"description": "Flags posts or accounts that attempt to collect or expose personal information without consent.",
+						"lang": "en",
+						"name": "Doxxing"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rug-pull-alert",
+				"locales": [
+					{
+						"description": "Identifies projects that show signs of being abandoned after collecting funds, with founders disappearing or ceasing development.",
+						"lang": "en",
+						"name": "Rug Pull Alert"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "compromised-account",
+				"locales": [
+					{
+						"description": "Marks accounts suspected of being hacked or controlled by malicious actors.",
+						"lang": "en",
+						"name": "Compromised Account"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "potential-ponzi-scheme",
+				"locales": [
+					{
+						"description": "Tags schemes relying on recruitment of new participants to pay returns to earlier investors, rather than legitimate business activities.",
+						"lang": "en",
+						"name": "Potential Ponzi Scheme"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "misinformation",
+				"locales": [
+					{
+						"description": "Flags posts or accounts spreading false or misleading information about cryptocurrencies, regulations, or market trends.",
+						"lang": "en",
+						"name": "Misinformation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "bot-activity",
+				"locales": [
+					{
+						"description": "Used to flag accounts or posts generated by bots, often spamming repetitive messages, misleading links, or fake promotions.",
+						"lang": "en",
+						"name": "Bot Activity"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "unsolicited-dms",
+				"locales": [
+					{
+						"description": "Tags accounts that engage in private messages to promote scams, phishing attempts, or fraudulent activities.",
+						"lang": "en",
+						"name": "Unsolicited DMs"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "fake-partnership-announcement",
+				"locales": [
+					{
+						"description": "Flags announcements falsely claiming partnerships or endorsements to gain credibility and attract investments.",
+						"lang": "en",
+						"name": "Fake Partnership Announcement"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "pump-dump-scheme",
+				"locales": [
+					{
+						"description": "Marks posts or accounts orchestrating coordinated buying and selling to artificially inflate and crash the price of a token.",
+						"lang": "en",
+						"name": "Pump & Dump Scheme"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shilling-crypto",
+				"locales": [
+					{
+						"description": "Identifies users or posts aggressively promoting a cryptocurrency, project, or token without disclosing vested interests or providing balanced information.",
+						"lang": "en",
+						"name": "Shilling Crypto"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unverified-project",
+				"locales": [
+					{
+						"description": "Flags projects or tokens with insufficient information, unclear goals, or no verifiable team members, suggesting potential risk.",
+						"lang": "en",
+						"name": "Unverified Project"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "fake-exchange-mktplace",
+				"locales": [
+					{
+						"description": "Tags profiles or posts that promote fake cryptocurrency exchanges or marketplaces designed to steal funds or personal information.",
+						"lang": "en",
+						"name": "Fake Exchange/Marketplace"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fraudulent-giveaway",
+				"locales": [
+					{
+						"description": "Used to flag fake giveaways where users are promised rewards in exchange for cryptocurrency transfers, often under the guise of doubling their contributions.",
+						"lang": "en",
+						"name": "Fraudulent Giveaway"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "potential-scam",
+				"locales": [
+					{
+						"description": "The label \"Potential Scam\" is used to flag activities, offers, or entities in the cryptocurrency space that display characteristics commonly associated with fraudulent schemes. These may include suspicious projects, misleading claims, or unusual requests for funds or personal information. While not definitively confirmed as scams, they pose significant risks to users and warrant caution.",
+						"lang": "en",
+						"name": "Potential Scam"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "fake-account",
+				"locales": [
+					{
+						"description": "Impersonation involves the creation of fake profiles or identities that mimic legitimate individuals, organizations, or brands. In the cryptocurrency space, this often includes fraudulent accounts pretending to represent well-known projects, exchanges, influencers, or developers to deceive users and gain their trust.",
+						"lang": "en",
+						"name": "Impersonation/Fake Account"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "airdrop",
+				"locales": [
+					{
+						"description": "The term \"airdrop\" refers to the distribution of cryptocurrency tokens, NFTs, or other digital assets, often free of charge, to users as part of a promotional event, community engagement, or reward system. Airdrops are frequently used by project insiders as a pump & dump scheme involving influencers or a phishing scam to steal wallets.",
+						"lang": "en",
+						"name": "Airdrop Hunter"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -26,15 +321,36 @@
 				"identifier": "crypto-spammer",
 				"locales": [
 					{
-						"description": "That spammer, potential scammer, that floods every post advertising crypto/tokens/nfts/memecoins, etc.",
+						"description": "A \"Crypto Spammer\" refers to a fake or inauthentic profile that floods social media platforms, forums, or communication channels with repetitive, unsolicited, or misleading messages related to cryptocurrency. These profiles often promote scams, fraudulent schemes, or dubious investment opportunities, targeting unsuspecting users to exploit their trust and lack of awareness.",
 						"lang": "en",
 						"name": "Crypto Spammer"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
+			"misleading-advertisement",
+			"fud-tactics\n",
+			"fomo-inducer",
+			"dusting-attack",
+			"misleading-tokenomics",
+			"doxxing",
+			"rug-pull-alert",
+			"compromised-account",
+			"potential-ponzi-scheme",
+			"misinformation",
+			"bot-activity",
+			"unsolicited-dms",
+			"fake-partnership-announcement",
+			"pump-dump-scheme",
+			"shilling-crypto",
+			"unverified-project",
+			"fake-exchange-mktplace",
+			"fraudulent-giveaway",
+			"potential-scam",
+			"fake-account",
+			"airdrop",
 			"crypto-spammer"
 		]
 	}
