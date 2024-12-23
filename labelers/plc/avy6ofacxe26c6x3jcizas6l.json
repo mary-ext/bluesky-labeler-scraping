@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:avy6ofacxe26c6x3jcizas6l/app.bsky.labeler.service/self",
-	"cid": "bafyreib3fxbm6d5ax3lh4wzgyrfqhnry4bud66cy7fg7lr3qqlijievcxq",
+	"cid": "bafyreicylvotmrpxvwrthmdn5ofdvpmpw7gtdlhehrkzdbap7eetlclgdy",
 	"creator": {
 		"did": "did:plc:avy6ofacxe26c6x3jcizas6l",
 		"handle": "cryptolabeler.sats4.life",
@@ -15,8 +15,8 @@
 		"description": "A vigilant and authoritative presence in the crypto space, dedicated to ensuring trust, transparency, and safety. \n\nWe specialize in labeling accounts, verifying posts, and combating scams to protect the community.",
 		"indexedAt": "2024-12-21T18:05:30.544Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-12-21T13:52:33.756Z",
+	"likeCount": 2,
+	"indexedAt": "2024-12-23T00:04:59.055Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -93,7 +93,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
-				"defaultSetting": "hide",
+				"defaultSetting": "warn",
 				"identifier": "doxxing",
 				"locales": [
 					{
@@ -176,7 +176,7 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content",
+				"blurs": "none",
 				"defaultSetting": "hide",
 				"identifier": "unsolicited-dms",
 				"locales": [
@@ -191,7 +191,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
-				"defaultSetting": "hide",
+				"defaultSetting": "warn",
 				"identifier": "fake-partnership-announcement",
 				"locales": [
 					{
@@ -274,7 +274,7 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "content",
+				"blurs": "none",
 				"defaultSetting": "warn",
 				"identifier": "potential-scam",
 				"locales": [
