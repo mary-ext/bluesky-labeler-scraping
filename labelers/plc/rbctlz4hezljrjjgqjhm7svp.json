@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreiedlvwbji7aafllnr25aii52vf3ncnk7bgajcdw2ltayxdyaddfve",
+	"cid": "bafyreibctod2fbpgm3jm6ebmkr32vksxbkkiurxxtep5w2ysx2yhifb6zq",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
-		"displayName": "K-Pop Biases",
+		"displayName": "K-Pop Biases Labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rbctlz4hezljrjjgqjhm7svp/bafkreiflayyak5lzxcy2ps56zj7tpknmvxxbwn5pe7jth32hgl53rgia64@jpeg",
 		"associated": {
 			"labeler": true,
@@ -16,10 +16,10 @@
 		"labels": [],
 		"createdAt": "2024-11-12T20:06:40.110Z",
 		"description": "To add your k-pop bias, you need to do a few things:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" next to subscribe)\n3) Like the labeler and we'll DM you automatically\n\nThe K-Pop bias bot will help you manage your biases and ults via chat",
-		"indexedAt": "2024-12-20T22:29:43.043Z"
+		"indexedAt": "2024-12-23T16:50:24.443Z"
 	},
-	"likeCount": 5,
-	"indexedAt": "2024-12-22T00:44:04.854Z",
+	"likeCount": 7,
+	"indexedAt": "2024-12-23T21:53:36.948Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -148,6 +148,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "onlyoneof",
+				"locales": [
+					{
+						"description": "lyOn\nUser is a fan of OnlyOneOf",
+						"lang": "en",
+						"name": "OnlyOneOf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "keponeer",
+				"locales": [
+					{
+						"description": "Kep1ian\nUser is a fan of Kep1er",
+						"lang": "en",
+						"name": "Kep1er"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "irris",
+				"locales": [
+					{
+						"description": "User is a fan of IRRIS",
+						"lang": "en",
+						"name": "IRRIS"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clc",
+				"locales": [
+					{
+						"description": "Cheshire\nUser is a fan of CLC",
+						"lang": "en",
+						"name": "CLC"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -159,7 +215,11 @@
 			"bts",
 			"hongjoong",
 			"---young-posse",
-			"blackpink"
+			"blackpink",
+			"onlyoneof",
+			"keponeer",
+			"irris",
+			"clc"
 		]
 	}
 }

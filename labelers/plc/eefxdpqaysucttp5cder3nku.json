@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:eefxdpqaysucttp5cder3nku/app.bsky.labeler.service/self",
-	"cid": "bafyreiggdsuu4lvq6a5ljrtvnt6oud4gl4ukp75goshrufukxhhthbruwi",
+	"cid": "bafyreicfjpvtgyzcbxyn7flftabqyap24dtw4n4eccbgcgmfl6hlq4waoa",
 	"creator": {
 		"did": "did:plc:eefxdpqaysucttp5cder3nku",
 		"handle": "labeller.aarondodd.com",
@@ -14,11 +14,25 @@
 		"createdAt": "2024-12-15T16:19:29.342Z",
 		"indexedAt": "2024-12-16T00:18:27.043Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-12-16T00:38:22.760Z",
+	"likeCount": 2,
+	"indexedAt": "2024-12-23T23:54:37.654Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "trollish",
+				"locales": [
+					{
+						"description": "Posts contain terms typical of trolling behavior, such as 'sleepy joe' or 'libtard'",
+						"lang": "en",
+						"name": "Trollish posts"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -63,6 +77,7 @@
 			}
 		],
 		"labelValues": [
+			"trollish",
 			"homophobic",
 			"cursing",
 			"slurs"

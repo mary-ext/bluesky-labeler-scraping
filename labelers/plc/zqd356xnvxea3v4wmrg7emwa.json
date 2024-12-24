@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-	"cid": "bafyreibjcguhcjeyl725j7mgy5aqgf2t7seoif5qnknzudenk2uuxnpkpy",
+	"cid": "bafyreia5j3gctsv6yq6vz5focwlsaq64qbku7qx6vfjjh7smhriibnrfay",
 	"creator": {
 		"did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
 		"handle": "pridelabeller.bsky.social",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-12-19T22:47:43.243Z",
-		"description": "(Work in progress)",
-		"indexedAt": "2024-12-20T16:19:42.944Z"
+		"description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
+		"indexedAt": "2024-12-23T20:34:35.543Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-12-23T00:19:14.848Z",
+	"likeCount": 1,
+	"indexedAt": "2024-12-23T18:43:17.559Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,19 +24,199 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "temp",
+				"identifier": "polyamorous",
 				"locales": [
 					{
-						"description": "Temp",
+						"description": "",
 						"lang": "en",
-						"name": "Temp"
+						"name": "Polyamorous"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "non-binary",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Non-Binary"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "demisexual",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "demisexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pansexual",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Pansexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "agender",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Agender"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "aromantic",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Aromantic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "asexual",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Asexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "intersex",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Intersex"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "queer",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Queer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transgender",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Trans"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bisexual",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Bisexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gay",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Gay"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lesbian",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Lesbian"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"temp"
+			"polyamorous",
+			"non-binary",
+			"demisexual",
+			"pansexual",
+			"agender",
+			"aromantic",
+			"asexual",
+			"intersex",
+			"queer",
+			"transgender",
+			"bisexual",
+			"gay",
+			"lesbian"
 		]
 	}
 }
