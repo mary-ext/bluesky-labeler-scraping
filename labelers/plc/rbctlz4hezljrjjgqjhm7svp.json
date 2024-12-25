@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreibctod2fbpgm3jm6ebmkr32vksxbkkiurxxtep5w2ysx2yhifb6zq",
+  "cid": "bafyreihy4u3lt552oxjfuweoqt7l3i3nh2lu2xdnj6ty6xdk2uauv6gsfy",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to do a few things:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" next to subscribe)\n3) Like the labeler and we'll DM you automatically\n\nThe K-Pop bias bot will help you manage your biases and ults via chat",
     "indexedAt": "2024-12-23T16:50:24.443Z"
   },
-  "indexedAt": "2024-12-23T21:53:36.948Z",
+  "indexedAt": "2024-12-24T23:35:25.557Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -202,6 +202,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jake",
+        "locales": [
+          {
+            "description": "User is a fan of Jake",
+            "lang": "en",
+            "name": "Jake"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "enhypen",
+        "locales": [
+          {
+            "description": "ENGENE\nUser is a fan of Enhypen",
+            "lang": "en",
+            "name": "Enhypen"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -217,7 +245,9 @@
       "onlyoneof",
       "keponeer",
       "irris",
-      "clc"
+      "clc",
+      "jake",
+      "enhypen"
     ]
   }
 }
