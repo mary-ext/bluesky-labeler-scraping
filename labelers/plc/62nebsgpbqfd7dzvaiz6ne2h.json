@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:62nebsgpbqfd7dzvaiz6ne2h/app.bsky.labeler.service/self",
-	"cid": "bafyreihnf66hvqqoixeh24kztpin4vjha7yugbgdsoaao7wnvaveripe5m",
+	"cid": "bafyreib7fc5cjcyff4xje5dmklqnn4c4vmm5sq7q4b2klte6lxdixlaiee",
 	"creator": {
 		"did": "did:plc:62nebsgpbqfd7dzvaiz6ne2h",
 		"handle": "theidolmaster.bsky.social",
@@ -12,10 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-12-18T21:22:02.743Z",
-		"indexedAt": "2024-12-19T00:01:10.143Z"
+		"description": "a P labeller, which will (hopefully) show your tantous on your profile. testing right now!",
+		"indexedAt": "2024-12-24T03:09:26.643Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-12-19T00:29:13.047Z",
+	"indexedAt": "2024-12-24T03:07:36.754Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -26,9 +27,9 @@
 				"identifier": "haruka-amami",
 				"locales": [
 					{
-						"description": "Supporting Haruka Amami.",
+						"description": "Producer of Haruka Amami",
 						"lang": "en",
-						"name": "Haruka Amami"
+						"name": "Haruka AmamiP"
 					}
 				],
 				"severity": "inform"
@@ -40,32 +41,32 @@
 				"identifier": "chihaya-kisaragi",
 				"locales": [
 					{
-						"description": "Supporting Chihaya Kisaragi.",
+						"description": "Producer of Chihaya Kisaragi",
 						"lang": "en",
-						"name": "Chihaya Kisaragi"
+						"name": "Chihaya KisaragiP"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fuyuko-mayuzumi",
+				"identifier": "miki-hoshii",
 				"locales": [
 					{
-						"description": "Supporting Fuyuko Mayuzumi.",
+						"description": "Producer of Miki Hoshii",
 						"lang": "en",
-						"name": "Fuyuko Mayuzumi"
+						"name": "Miki HoshiiP"
 					}
 				],
-				"severity": "none"
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"haruka-amami",
 			"chihaya-kisaragi",
-			"fuyuko-mayuzumi"
+			"miki-hoshii"
 		]
 	}
 }

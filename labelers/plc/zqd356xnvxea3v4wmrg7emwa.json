@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-	"cid": "bafyreia5j3gctsv6yq6vz5focwlsaq64qbku7qx6vfjjh7smhriibnrfay",
+	"cid": "bafyreies6o7nvfz3hds63chdwdsjgxl3s3bjk2aojgekj664pelo6x53ea",
 	"creator": {
 		"did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
 		"handle": "pridelabeller.bsky.social",
@@ -15,11 +15,67 @@
 		"description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
 		"indexedAt": "2024-12-23T20:34:35.543Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2024-12-23T18:43:17.559Z",
+	"likeCount": 2,
+	"indexedAt": "2024-12-24T09:11:30.451Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "genderfluid",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Genderfluid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "demigender",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Demigender"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bigender",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Bigender"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "omnisexual",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Omnisexual"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -204,6 +260,10 @@
 			}
 		],
 		"labelValues": [
+			"genderfluid",
+			"demigender",
+			"bigender",
+			"omnisexual",
 			"polyamorous",
 			"non-binary",
 			"demisexual",

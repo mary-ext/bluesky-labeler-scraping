@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreibctod2fbpgm3jm6ebmkr32vksxbkkiurxxtep5w2ysx2yhifb6zq",
+	"cid": "bafyreihy4u3lt552oxjfuweoqt7l3i3nh2lu2xdnj6ty6xdk2uauv6gsfy",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-23T16:50:24.443Z"
 	},
 	"likeCount": 7,
-	"indexedAt": "2024-12-23T21:53:36.948Z",
+	"indexedAt": "2024-12-24T23:35:25.557Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -204,6 +204,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jake",
+				"locales": [
+					{
+						"description": "User is a fan of Jake",
+						"lang": "en",
+						"name": "Jake"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "enhypen",
+				"locales": [
+					{
+						"description": "ENGENE\nUser is a fan of Enhypen",
+						"lang": "en",
+						"name": "Enhypen"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -219,7 +247,9 @@
 			"onlyoneof",
 			"keponeer",
 			"irris",
-			"clc"
+			"clc",
+			"jake",
+			"enhypen"
 		]
 	}
 }

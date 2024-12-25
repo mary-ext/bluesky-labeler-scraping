@@ -1,24 +1,71 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreigoenc7uaf2zxzncryw23qawnvbfp3gazxncwseepnvstacfotlhm",
+	"cid": "bafyreialhp3uhl6fzxtrlsad5rzggg3mhftrznolcfq5xsca4sserrmpfa",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
-		"displayName": "bike.community moderation",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkty4ninplgtzeychgz4yyrh/bafkreib5t2osg57biain3aa36elqyi2554hjuesxnysncw2qvuvy6tn4fu@jpeg",
+		"displayName": "bike.community labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkty4ninplgtzeychgz4yyrh/bafkreidkedrzujgimilrwgta3av5ajzwnbscojf6wctukt6toim5533teu@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-12-23T19:04:25.344Z",
-		"indexedAt": "2024-12-23T22:36:38.343Z"
+		"indexedAt": "2024-12-24T22:18:43.845Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-24T01:03:14.949Z",
+	"indexedAt": "2024-12-24T19:58:54.755Z",
 	"labels": [],
 	"policies": {
-		"labelValueDefinitions": [],
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "bikecommunity-unrelated",
+				"locales": [
+					{
+						"description": "This content has been marked unrelated to bike.community's feeds, and may have been included in them by mistake.",
+						"lang": "en",
+						"name": "Unrelated to bike.community"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "bikesky-unrelated",
+				"locales": [
+					{
+						"description": "This content has been marked unrelated to bike.community's Bikesky feeds, and may have been included in them by mistake.",
+						"lang": "en",
+						"name": "Unrelated to Bikesky"
+					}
+				],
+				"severity": "none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "procycling-unrelated",
+				"locales": [
+					{
+						"description": "This content has been marked unrelated to bike.community's Pro Cycling feeds, and may have been included in them by mistake.",
+						"lang": "en",
+						"name": "Unrelated to Pro Cycling"
+					}
+				],
+				"severity": "none"
+			}
+		],
+		"labelValues": [
+			"bikecommunity-unrelated",
+			"bikesky-unrelated",
+			"procycling-unrelated"
+		]
 	}
 }
