@@ -1,22 +1,25 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-	"cid": "bafyreies6o7nvfz3hds63chdwdsjgxl3s3bjk2aojgekj664pelo6x53ea",
+	"cid": "bafyreifnuvjqhuuq3brtjw57vnultzjvuyye3ih6xwstx7hanhon33adq4",
 	"creator": {
 		"did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
 		"handle": "pridelabeller.bsky.social",
 		"displayName": "Pride Labeller",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zqd356xnvxea3v4wmrg7emwa/bafkreicsj2b6qyzlewyzhhhgmi3ozltcful3rm4bxtxocaltuesoombkza@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-12-19T22:47:43.243Z",
 		"description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
-		"indexedAt": "2024-12-23T20:34:35.543Z"
+		"indexedAt": "2024-12-25T20:32:18.543Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-12-24T09:11:30.451Z",
+	"indexedAt": "2024-12-25T20:09:23.951Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,12 +27,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "genderfluid",
+				"identifier": "achillean",
 				"locales": [
 					{
 						"description": "",
 						"lang": "en",
-						"name": "Genderfluid"
+						"name": "Achillean"
 					}
 				],
 				"severity": "inform"
@@ -38,40 +41,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "demigender",
+				"identifier": "sapphic",
 				"locales": [
 					{
 						"description": "",
 						"lang": "en",
-						"name": "Demigender"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "bigender",
-				"locales": [
-					{
-						"description": "",
-						"lang": "en",
-						"name": "Bigender"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "omnisexual",
-				"locales": [
-					{
-						"description": "",
-						"lang": "en",
-						"name": "Omnisexual"
+						"name": "Sapphic"
 					}
 				],
 				"severity": "inform"
@@ -260,10 +235,8 @@
 			}
 		],
 		"labelValues": [
-			"genderfluid",
-			"demigender",
-			"bigender",
-			"omnisexual",
+			"achillean",
+			"sapphic",
 			"polyamorous",
 			"non-binary",
 			"demisexual",
