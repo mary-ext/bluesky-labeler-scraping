@@ -1,0 +1,92 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:inhotwbwpm56kkbsl5fh4iwi/app.bsky.labeler.service/self",
+	"cid": "bafyreie3s3byfpci6gll5rouggtxdvyy3oucvilwjrspqkb3glppb35yta",
+	"creator": {
+		"did": "did:plc:inhotwbwpm56kkbsl5fh4iwi",
+		"handle": "antiendo-labeler.bsky.social",
+		"displayName": "Anti-Endogenic Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:inhotwbwpm56kkbsl5fh4iwi/bafkreianrdhey2za3r3iadriolhitjwwya2is4l75yymypnuvm3ff6qqtu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-15T04:43:39.343Z",
+		"description": "A labeler for easily hiding anti-endogenic or anti-plurality accounts.\n(This labeler isn't active quite yet, though!)",
+		"indexedAt": "2024-12-26T18:20:27.142Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-26T17:24:30.456Z",
+	"labels": [],
+	"policies": {
+		"$type": "app.bsky.labeler.defs#labelerPolicies",
+		"labelValueDefinitions": [
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "antiplural",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This account does not believe plurality exists.",
+						"lang": "en",
+						"name": "Anti-Plurality"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "antiplural-likes",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This account hasn't posted about plurality, but has liked anti-plurality posts.",
+						"lang": "en",
+						"name": "Anti-Plurality Likes"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "antiendo",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This account is anti-endogenic.",
+						"lang": "en",
+						"name": "Anti-Endogenic"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "antiendo-likes",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "This account hasn't posted about endogenic systems, but has liked very anti-endogenic posts.",
+						"lang": "en",
+						"name": "Anti-Endogenic Likes"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"antiplural",
+			"antiplural-likes",
+			"antiendo",
+			"antiendo-likes"
+		]
+	}
+}

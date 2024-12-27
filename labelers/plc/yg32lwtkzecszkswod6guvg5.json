@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:yg32lwtkzecszkswod6guvg5/app.bsky.labeler.service/self",
-	"cid": "bafyreiagfu6rrkwxvcsd2idxywwvdzzpb6tbp2mm2wxgurwjmoidpuupoq",
+	"cid": "bafyreibh6fcrn7uzh2xsvyqfhqep2pzaipjk5uxj6p4v4pan7376xuomd4",
 	"creator": {
 		"did": "did:plc:yg32lwtkzecszkswod6guvg5",
 		"handle": "12.shsbs.xyz",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-22T18:43:48.643Z"
 	},
 	"likeCount": 3,
-	"indexedAt": "2024-12-22T18:44:52.752Z",
+	"indexedAt": "2024-12-26T02:02:57.949Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -50,11 +50,26 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "three",
+				"locales": [
+					{
+						"description": "abc",
+						"lang": "en",
+						"name": "test3"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"lable",
-			"lable2"
+			"lable2",
+			"three"
 		]
 	}
 }
