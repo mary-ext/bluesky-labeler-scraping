@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:avy6ofacxe26c6x3jcizas6l/app.bsky.labeler.service/self",
-	"cid": "bafyreid3uewhwt3l6v46a6kxd5n5hd2kgnkldayknuxwfycrs3qd2wnu3a",
+	"cid": "bafyreigj4w3rup7ty6vu6gyp5ubkikgcqq4lmkfntturj2ogy65twj6sv4",
 	"creator": {
 		"did": "did:plc:avy6ofacxe26c6x3jcizas6l",
 		"handle": "cryptolabeler.sats4.life",
@@ -15,11 +15,25 @@
 		"description": "Fighting crypto spammers, scammers, phishing, and more.\n\nAutomated AI labeler & moderator.\n\nWe specialize in labeling accounts, verifying posts, and combating scams to protect the community.\n\nYou can report suspicious activity to help make a better Bsky.",
 		"indexedAt": "2024-12-26T16:01:59.243Z"
 	},
-	"likeCount": 12,
-	"indexedAt": "2024-12-26T21:58:43.753Z",
+	"likeCount": 13,
+	"indexedAt": "2024-12-27T18:14:53.255Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "The \"SPAM\" label is applied to posts, comments, or accounts that excessively promote content in a repetitive, unsolicited, or disruptive manner. This behavior often involves flooding feeds or conversations with the same text, from multiple accounts.",
+						"lang": "en",
+						"name": "SPAM"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -190,6 +204,7 @@
 			}
 		],
 		"labelValues": [
+			"spam",
 			"fomo-inducer",
 			"doxxing",
 			"rug-pull-alert",

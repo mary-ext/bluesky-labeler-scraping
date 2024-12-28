@@ -1,0 +1,62 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:qcxrrqqjonovvsbiem4fadnu/app.bsky.labeler.service/self",
+	"cid": "bafyreigpfrwb4k34eolrgxgpiu5r6o3ah2v5kogdppy4cwgie5pt6opuxi",
+	"creator": {
+		"did": "did:plc:qcxrrqqjonovvsbiem4fadnu",
+		"handle": "testingacc.pds.darktru.win",
+		"displayName": "ocbwoy3's testing acc",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qcxrrqqjonovvsbiem4fadnu/bafkreic6rueevsrhdargsaoo7c3fgexct3t7pc3ipbnogx7uygttgc3yzi@jpeg",
+		"associated": {
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "none"
+			}
+		},
+		"labels": [],
+		"createdAt": "2024-12-27T11:36:11.543Z",
+		"description": "messing with labeler records, not a real labeler yet!!!\n(@ocbwoy3.dev)",
+		"indexedAt": "2024-12-27T11:50:43.243Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2024-12-27T11:50:21.050Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "rr34",
+				"locales": [
+					{
+						"description": "Roblox Rule 34 / Porn. Additional violations would entail an account label.",
+						"lang": "en",
+						"name": "RR34"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "condo",
+				"locales": [
+					{
+						"description": "This user is known to participate in Roblox Condo / NSFW games.",
+						"lang": "en",
+						"name": "Condo"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"!hide",
+			"!warn",
+			"rr34",
+			"condo"
+		]
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:damrnsdff2viflhkuvfkcug2/app.bsky.labeler.service/self",
-	"cid": "bafyreiceolxnzjjdlfhzkckthosb2xkmqdlqn2oft6lyy4lvm2e4jjbqmm",
+	"cid": "bafyreiconf7ombau27u7i7jzqol4vzzosr53nytqufelhjlqhlqnkkwm6u",
 	"creator": {
 		"did": "did:plc:damrnsdff2viflhkuvfkcug2",
 		"handle": "nafo.fellas.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-12-22T19:44:46.243Z"
 	},
 	"likeCount": 12,
-	"indexedAt": "2024-11-30T22:37:34.855Z",
+	"indexedAt": "2024-12-27T12:37:44.046Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,10 +24,52 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
+				"identifier": "maga",
+				"locales": [
+					{
+						"description": "Username, description or postings clear indicators of support for the MAGA movement. This includes MAGA, MAHA, TRUMP or TRUMP2024 in description. Posts with #MAGA or #TRUMP2024 hashtags. ",
+						"lang": "en",
+						"name": "MAGA"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scammer",
+				"locales": [
+					{
+						"description": "The user has proven to be a scammer. The label requires more evidence than just a report. Link to post or thread with in-depth material is preferred. ",
+						"lang": "en",
+						"name": "Fundraising scammer"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "pro-kremlin",
+				"locales": [
+					{
+						"description": "The post, or user, has a clear pro-Kremlin profile.",
+						"lang": "en",
+						"name": "Pro-Kremlin"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
 				"identifier": "disinformation-network",
 				"locales": [
 					{
-						"description": "The post links, or the user regularly posts, links to sources known to be a of Russian or pro-Assad disinformation networks.",
+						"description": "The post link, or the user regularly posts links to sources known to be disinformation networks.",
 						"lang": "en",
 						"name": "Disinformation network"
 					}
@@ -36,6 +78,9 @@
 			}
 		],
 		"labelValues": [
+			"maga",
+			"scammer",
+			"pro-kremlin",
 			"disinformation-network"
 		]
 	}

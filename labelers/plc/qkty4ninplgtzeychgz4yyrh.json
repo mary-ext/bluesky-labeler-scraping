@@ -1,24 +1,543 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreialhp3uhl6fzxtrlsad5rzggg3mhftrznolcfq5xsca4sserrmpfa",
+	"cid": "bafyreiaxseimysgckvzlti6edahj2fpkowjsselsarqdfw32jhwmz2hsca",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
 		"displayName": "bike.community labeler",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkty4ninplgtzeychgz4yyrh/bafkreidkedrzujgimilrwgta3av5ajzwnbscojf6wctukt6toim5533teu@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkty4ninplgtzeychgz4yyrh/bafkreialgq54vdm3wo4yylupdfs3qhe7tfew34epgw4ytj5kb34xdccyoy@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2024-12-23T19:04:25.344Z",
-		"indexedAt": "2024-12-24T22:18:43.845Z"
+		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
+		"indexedAt": "2024-12-27T22:57:04.243Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-24T19:58:54.755Z",
+	"indexedAt": "2024-12-27T21:55:16.655Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-enjoyer",
+				"locales": [
+					{
+						"description": "A person who enjoys bikes.",
+						"lang": "en",
+						"name": "Bike Enjoyer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cyclist",
+				"locales": [
+					{
+						"description": "Someone who rides bikes for any purpose.",
+						"lang": "en",
+						"name": "Cyclist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ebike-evanglist",
+				"locales": [
+					{
+						"description": "Someone who enjoys e-bikes in particular.",
+						"lang": "en",
+						"name": "E-Bike Evangelist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cargo-bike-lover",
+				"locales": [
+					{
+						"description": "Someone who enjoys cargo bikes in particular.",
+						"lang": "en",
+						"name": "Cargo Bike Lover"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fietser",
+				"locales": [
+					{
+						"description": "Someone who rides a bicycle at a moderate pace, usually in normal street clothes.",
+						"lang": "en",
+						"name": "Fietser"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mamil",
+				"locales": [
+					{
+						"description": "A middle aged man in lycra.",
+						"lang": "en",
+						"name": "MAMIL"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mawil",
+				"locales": [
+					{
+						"description": "A middle aged woman in lycra.",
+						"lang": "en",
+						"name": "MAWIL"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "roadie",
+				"locales": [
+					{
+						"description": "Someone who enjoys riding their bike on the road.",
+						"lang": "en",
+						"name": "Roadie"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gravel-rider",
+				"locales": [
+					{
+						"description": "Someone who enjoys riding their bike on gravel.",
+						"lang": "en",
+						"name": "Gravel Rider"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mtb-fanatic",
+				"locales": [
+					{
+						"description": "Someone who enjoys riding their bike on single track or even less.",
+						"lang": "en",
+						"name": "MTB Fanatic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "forest-rider",
+				"locales": [
+					{
+						"description": "Someone who loves to disappear into the woods on their bike.",
+						"lang": "en",
+						"name": "Forest Rider"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "breach-cruiser",
+				"locales": [
+					{
+						"description": "Someone who lives for the smell of the ocean as they ride by on their bike.",
+						"lang": "en",
+						"name": "Beach Cruiser"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "track-stander",
+				"locales": [
+					{
+						"description": "Someone who can balance while not moving on their bike.",
+						"lang": "en",
+						"name": "Track Stander"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-commuter",
+				"locales": [
+					{
+						"description": "Someone who rides regularly to get to work, school or run errands.",
+						"lang": "en",
+						"name": "Bike Commuter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "safe-streets",
+				"locales": [
+					{
+						"description": "Someone who is working to end violence on our streets and make them safer for everyone.",
+						"lang": "en",
+						"name": "Safe Streets"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "active-travel",
+				"locales": [
+					{
+						"description": "Someone who is working to get more people using active travel to improve the health of their communities.",
+						"lang": "en",
+						"name": "Active Travel"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-bus",
+				"locales": [
+					{
+						"description": "Someone who organizes or participates in bike busses in their community.",
+						"lang": "en",
+						"name": "Bike Bus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "two-wheeled-explorer",
+				"locales": [
+					{
+						"description": "Someone who says “what’s over there?” and then uses their bike to find out.",
+						"lang": "en",
+						"name": "Two Wheeled Explorer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vehicular-cyclist",
+				"locales": [
+					{
+						"description": "Someone who rides their bike on roads as if they are driving a car.",
+						"lang": "en",
+						"name": "Vehicular Cyclist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "clergy-who-cycle",
+				"locales": [
+					{
+						"description": "Someone who rides bikes and is a member of the clergy.",
+						"lang": "en",
+						"name": "Clergy Who Cycle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-photographer",
+				"locales": [
+					{
+						"description": "Someone who combines riding bikes with taking photographs to capture beautiful moments.",
+						"lang": "en",
+						"name": "Biking Photographer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-tinkerer",
+				"locales": [
+					{
+						"description": "Someone who enjoys wrenching on their bike as much as they enjoy riding it.",
+						"lang": "en",
+						"name": "Bike Tinkerer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-fitter",
+				"locales": [
+					{
+						"description": "Someone who helps bike riders reach their goals by adjusting the fit of their bike.",
+						"lang": "en",
+						"name": "Bike Fitter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-lane-enthusiast",
+				"locales": [
+					{
+						"description": "Someone who appreciates well crafted bike infrastructure.",
+						"lang": "en",
+						"name": "Bike Lane Enthusiast"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-shitposter",
+				"locales": [
+					{
+						"description": "Someone who can not believe a shrimp fried this bike.",
+						"lang": "en",
+						"name": "Bike Shitposter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "uci-rule-disputer",
+				"locales": [
+					{
+						"description": "Someone who takes issue with at least one of UCI's rules.",
+						"lang": "en",
+						"name": "UCI Rule Disputer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-community-builder",
+				"locales": [
+					{
+						"description": "A person or organization engaged in helping people connect over a shared love of bikes.",
+						"lang": "en",
+						"name": "Bike Community Builder"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-club",
+				"locales": [
+					{
+						"description": "A club for cyclists, either local, generalized or specialized.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Cycling Club"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-podcast",
+				"locales": [
+					{
+						"description": "This is the official account of a biking-related podcast.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Podcast"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-podcaster",
+				"locales": [
+					{
+						"description": "Someone who runs a biking-related podcast.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Podcaster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-media",
+				"locales": [
+					{
+						"description": "Someone who is a journalist, photographer or content creator for a biking-related publication.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Media"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-publication",
+				"locales": [
+					{
+						"description": "This is the official account of a biking publication.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Publication"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-business",
+				"locales": [
+					{
+						"description": "This is the official account of a biking related business.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Bike Business"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-content-creator",
+				"locales": [
+					{
+						"description": "Someone who creates biking related content of any kind.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Content Creator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "biking-charity",
+				"locales": [
+					{
+						"description": "A charitable organization that uses bikes to make positive change.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Charity"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-manufacturer",
+				"locales": [
+					{
+						"description": "This is the official account of a bike manufacturer.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Bike Manufacturer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "impersonation",
+				"locales": [
+					{
+						"description": "❌ This account appears to be impersonating someone in bike.community.",
+						"lang": "en",
+						"name": "Impersonation"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -63,6 +582,43 @@
 			}
 		],
 		"labelValues": [
+			"bike-enjoyer",
+			"cyclist",
+			"ebike-evanglist",
+			"cargo-bike-lover",
+			"fietser",
+			"mamil",
+			"mawil",
+			"roadie",
+			"gravel-rider",
+			"mtb-fanatic",
+			"forest-rider",
+			"breach-cruiser",
+			"track-stander",
+			"bike-commuter",
+			"safe-streets",
+			"active-travel",
+			"bike-bus",
+			"two-wheeled-explorer",
+			"vehicular-cyclist",
+			"clergy-who-cycle",
+			"biking-photographer",
+			"bike-tinkerer",
+			"bike-fitter",
+			"bike-lane-enthusiast",
+			"bike-shitposter",
+			"uci-rule-disputer",
+			"bike-community-builder",
+			"cycling-club",
+			"biking-podcast",
+			"biking-podcaster",
+			"biking-media",
+			"biking-publication",
+			"bike-business",
+			"biking-content-creator",
+			"biking-charity",
+			"bike-manufacturer",
+			"impersonation",
 			"bikecommunity-unrelated",
 			"bikesky-unrelated",
 			"procycling-unrelated"
