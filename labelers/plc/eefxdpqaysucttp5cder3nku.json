@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:eefxdpqaysucttp5cder3nku/app.bsky.labeler.service/self",
-  "cid": "bafyreicfjpvtgyzcbxyn7flftabqyap24dtw4n4eccbgcgmfl6hlq4waoa",
+  "cid": "bafyreidrzztt74vllda622glwqix2wpnl7zfir2enfhq7kjwboclnxpfvm",
   "creator": {
     "did": "did:plc:eefxdpqaysucttp5cder3nku",
     "handle": "labeller.aarondodd.com",
@@ -13,7 +13,7 @@
     "createdAt": "2024-12-15T16:19:29.342Z",
     "indexedAt": "2024-12-16T00:18:27.043Z"
   },
-  "indexedAt": "2024-12-23T23:54:37.654Z",
+  "indexedAt": "2024-12-29T01:15:57.349Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -21,10 +21,24 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "porn",
+        "locales": [
+          {
+            "description": "Post contains common keywords associated with pornography. An account gets labeled this if many of its posts get labeled.",
+            "lang": "en",
+            "name": "Porn posts"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "trollish",
         "locales": [
           {
-            "description": "Posts contain terms typical of trolling behavior, such as 'sleepy joe' or 'libtard'",
+            "description": "Posts contain terms typical of trolling behavior, such as 'sleepy joe' or 'libtard'. An account gets labeled this if many of its posts get labeled.",
             "lang": "en",
             "name": "Trollish posts"
           }
@@ -38,7 +52,7 @@
         "identifier": "slurs",
         "locales": [
           {
-            "description": "Posts containing racial, religious, or other slurs.",
+            "description": "Posts containing racial, religious, or other slurs.\n\nAn account gets labeled this if many of its posts get labeled.",
             "lang": "en",
             "name": "Slurs"
           }
@@ -52,7 +66,7 @@
         "identifier": "cursing",
         "locales": [
           {
-            "description": "Posts containing common curse words.",
+            "description": "Posts containing common curse words. An account gets labeled this if many of its posts get labeled.",
             "lang": "en",
             "name": "Cursing"
           }
@@ -66,7 +80,7 @@
         "identifier": "homophobic",
         "locales": [
           {
-            "description": "Posts containing terms typically used as derogatory slurs against the LGBTQIA+ community.",
+            "description": "Posts containing terms typically used as derogatory slurs against the LGBTQIA+ community. An account gets labeled this if many of its posts get labeled.",
             "lang": "en",
             "name": "Homophobic Slurs"
           }
@@ -75,6 +89,7 @@
       }
     ],
     "labelValues": [
+      "porn",
       "trollish",
       "homophobic",
       "cursing",

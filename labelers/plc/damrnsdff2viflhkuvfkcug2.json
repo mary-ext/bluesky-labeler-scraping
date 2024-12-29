@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:damrnsdff2viflhkuvfkcug2/app.bsky.labeler.service/self",
-  "cid": "bafyreiconf7ombau27u7i7jzqol4vzzosr53nytqufelhjlqhlqnkkwm6u",
+  "cid": "bafyreig4gcsekefbmjpuxdgd5vue7p77ardjriyqf6rhao354rtyedlhqa",
   "creator": {
     "did": "did:plc:damrnsdff2viflhkuvfkcug2",
     "handle": "nafo.fellas.social",
@@ -14,10 +14,24 @@
     "description": "Fighting propaganda, misinformation and disinformation. \nIndependent Labeling Service. \nAutomated labeling: Work in progress. \nManual moderation: Volunteers wanted. \n",
     "indexedAt": "2024-12-22T19:44:46.243Z"
   },
-  "indexedAt": "2024-12-27T12:37:44.046Z",
+  "indexedAt": "2024-12-29T01:10:35.655Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "nafo-elderly",
+        "locales": [
+          {
+            "description": "Long service as NAFO fella, fighting disinformation and helping Ukraine.",
+            "lang": "en",
+            "name": "NAFO elderly"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -76,6 +90,7 @@
       }
     ],
     "labelValues": [
+      "nafo-elderly",
       "maga",
       "scammer",
       "pro-kremlin",
