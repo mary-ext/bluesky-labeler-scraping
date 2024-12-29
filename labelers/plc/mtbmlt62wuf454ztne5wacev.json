@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mtbmlt62wuf454ztne5wacev/app.bsky.labeler.service/self",
-	"cid": "bafyreif52cbzyrcnu6bsjpp5ydfpjsauocg2ttc3hxik5zufzxj4sqr7hq",
+	"cid": "bafyreicrqevhnmqalrw65b6dewi5lwdg3szwp2da3rdkh2w3oj66dtywrm",
 	"creator": {
 		"did": "did:plc:mtbmlt62wuf454ztne5wacev",
 		"handle": "daddys.cash",
@@ -18,11 +18,151 @@
 		"description": "Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash",
 		"indexedAt": "2024-12-14T17:07:31.043Z"
 	},
-	"likeCount": 447,
-	"indexedAt": "2024-12-20T02:06:08.962Z",
+	"likeCount": 450,
+	"indexedAt": "2024-12-28T23:45:54.659Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "marymount",
+				"locales": [
+					{
+						"description": " $43,700/year",
+						"lang": "en",
+						"name": "Marymount High School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "trinityparish",
+				"locales": [
+					{
+						"description": " $17,510/year",
+						"lang": "en",
+						"name": "Trinity Parish School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "wingra",
+				"locales": [
+					{
+						"description": "Their website lists no figures and describes 'an equitable tuition rate', and that 'Wingra School assume that parents have an obligation to finance their children’s education to the extent that they are able'. Other sources put fees at around $19,200/year",
+						"lang": "en",
+						"name": "Wingra School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "loomis",
+				"locales": [
+					{
+						"description": " $70,480/year",
+						"lang": "en",
+						"name": "Loomis Chaffee School"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stcolumbasie",
+				"locales": [
+					{
+						"description": " €28,966/year",
+						"lang": "en",
+						"name": "St Columba's College, Ireland"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "newbridge",
+				"locales": [
+					{
+						"description": " €5100/year",
+						"lang": "en",
+						"name": "Dominican College Newbridge"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "belvedere",
+				"locales": [
+					{
+						"description": "€7500/year",
+						"lang": "en",
+						"name": "Belvedere College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "stdunstans",
+				"locales": [
+					{
+						"description": "£26,214/year",
+						"lang": "en",
+						"name": "St Dunstan's College"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "christchurchperth",
+				"locales": [
+					{
+						"description": "AUD$64,960",
+						"lang": "en",
+						"name": "Christ Church Grammar School, Perth"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "oswestry",
+				"locales": [
+					{
+						"description": "£38,695/year",
+						"lang": "en",
+						"name": "Oswestry School"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -2956,7 +3096,7 @@
 				"identifier": "ampleforth-school",
 				"locales": [
 					{
-						"description": "£46,740/year (2024/2025)",
+						"description": "£52,152/year",
 						"lang": "en",
 						"name": "Ampleforth College"
 					}
@@ -3189,7 +3329,17 @@
 			"taverham",
 			"eatonhouse",
 			"oxfordhigh",
-			"lasagesse"
+			"lasagesse",
+			"oswestry",
+			"christchurchperth",
+			"stdunstans",
+			"belvedere",
+			"newbridge",
+			"stcolumbasie",
+			"loomis",
+			"wingra",
+			"trinityparish",
+			"marymount"
 		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreih4tcre2ukpmmiikyh7yj7ypgofrgvrco4a5u4we3uae2cg6ffuka",
+	"cid": "bafyreief3u5shhloqpuqdsnzycpkpcp34tyuj6cme53vsqcuacp65x5ciq",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -15,14 +15,42 @@
 		},
 		"labels": [],
 		"createdAt": "2024-02-20T06:15:04.884Z",
-		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social | Independent Labeling Service",
-		"indexedAt": "2024-12-21T13:04:19.643Z"
+		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service",
+		"indexedAt": "2024-12-28T23:33:41.443Z"
 	},
-	"likeCount": 6757,
-	"indexedAt": "2024-12-20T21:55:10.055Z",
+	"likeCount": 6767,
+	"indexedAt": "2024-12-28T20:42:43.153Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "follow-farming",
+				"locales": [
+					{
+						"description": "Applied to accounts which engage in indiscriminate follow farming and follow-back networks. No associated blocklist.",
+						"lang": "en",
+						"name": "Follow Farmer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "suspect-inauthentic",
+				"locales": [
+					{
+						"description": "Applied to accounts which don't 'smell right'—includes accounts with zero posts and thousands of followers with similar bios, accounts that only reply but don't clearly fit into the troll or reply guy mold, or clusters of accounts which appear designed to boost the content of another account. No associated block list.",
+						"lang": "en",
+						"name": "Suspected Inauthentic Behavior"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -301,6 +329,7 @@
 			"disinformation-network",
 			"elon-musk",
 			"fringe-media",
+			"follow-farming",
 			"fundraising-link",
 			"hammer-sickle",
 			"inverted-red-triangle",
@@ -309,6 +338,7 @@
 			"rmve-imve",
 			"sensual-alf",
 			"sports-betting",
+			"suspect-inauthentic",
 			"terf-gc",
 			"troll"
 		]

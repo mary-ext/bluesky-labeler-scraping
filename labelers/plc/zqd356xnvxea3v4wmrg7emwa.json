@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-	"cid": "bafyreifnuvjqhuuq3brtjw57vnultzjvuyye3ih6xwstx7hanhon33adq4",
+	"cid": "bafyreiblop53dhxvkn5pmgpuzcr4aboymy2zrbaso5lnhxcgdvl2w5vfa4",
 	"creator": {
 		"did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
 		"handle": "pridelabeller.bsky.social",
@@ -19,10 +19,38 @@
 		"indexedAt": "2024-12-25T20:32:18.543Z"
 	},
 	"likeCount": 4,
-	"indexedAt": "2024-12-27T04:16:14.153Z",
+	"indexedAt": "2024-12-28T23:57:00.648Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "questioning",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Questioning"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "check-bio",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Check Bio"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -235,6 +263,8 @@
 			}
 		],
 		"labelValues": [
+			"questioning",
+			"check-bio",
 			"achillean",
 			"sapphic",
 			"polyamorous",

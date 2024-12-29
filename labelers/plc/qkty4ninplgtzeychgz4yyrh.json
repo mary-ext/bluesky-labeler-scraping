@@ -1,14 +1,17 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreiaxseimysgckvzlti6edahj2fpkowjsselsarqdfw32jhwmz2hsca",
+	"cid": "bafyreibbcnp5xdbt5silwg2tw5p5fs4yhwuspogwu5xzjzjh6ezlb2eege",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
 		"displayName": "bike.community labeler",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qkty4ninplgtzeychgz4yyrh/bafkreialgq54vdm3wo4yylupdfs3qhe7tfew34epgw4ytj5kb34xdccyoy@jpeg",
 		"associated": {
-			"labeler": true
+			"labeler": true,
+			"chat": {
+				"allowIncoming": "all"
+			}
 		},
 		"labels": [],
 		"createdAt": "2024-12-23T19:04:25.344Z",
@@ -16,7 +19,7 @@
 		"indexedAt": "2024-12-27T22:57:04.243Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2024-12-27T21:55:16.655Z",
+	"indexedAt": "2024-12-28T17:05:55.162Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -125,7 +128,7 @@
 				"identifier": "roadie",
 				"locales": [
 					{
-						"description": "Someone who enjoys riding their bike on the road.",
+						"description": "Someone who enjoys riding a bike on the road.",
 						"lang": "en",
 						"name": "Roadie"
 					}
@@ -139,7 +142,7 @@
 				"identifier": "gravel-rider",
 				"locales": [
 					{
-						"description": "Someone who enjoys riding their bike on gravel.",
+						"description": "Someone who enjoys riding a bike on gravel.",
 						"lang": "en",
 						"name": "Gravel Rider"
 					}
@@ -150,12 +153,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "mtb-fanatic",
+				"identifier": "mtber",
 				"locales": [
 					{
-						"description": "Someone who enjoys riding their bike on single track or even less.",
+						"description": "Someone who enjoys riding a bike on single track or even less.",
 						"lang": "en",
-						"name": "MTB Fanatic"
+						"name": "MTBer"
 					}
 				],
 				"severity": "inform"
@@ -167,7 +170,7 @@
 				"identifier": "forest-rider",
 				"locales": [
 					{
-						"description": "Someone who loves to disappear into the woods on their bike.",
+						"description": "Someone who loves to disappear into the woods on a bike.",
 						"lang": "en",
 						"name": "Forest Rider"
 					}
@@ -181,7 +184,7 @@
 				"identifier": "breach-cruiser",
 				"locales": [
 					{
-						"description": "Someone who lives for the smell of the ocean as they ride by on their bike.",
+						"description": "Someone who lives for the smell of the ocean as they ride by on a bike.",
 						"lang": "en",
 						"name": "Beach Cruiser"
 					}
@@ -195,9 +198,23 @@
 				"identifier": "track-stander",
 				"locales": [
 					{
-						"description": "Someone who can balance while not moving on their bike.",
+						"description": "Someone who can balance while not moving on a bike.",
 						"lang": "en",
 						"name": "Track Stander"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "recumbent-rider",
+				"locales": [
+					{
+						"description": "Someone who can enjoys recumbent bikes in particular.",
+						"lang": "en",
+						"name": "Recumbent Rider"
 					}
 				],
 				"severity": "inform"
@@ -212,6 +229,20 @@
 						"description": "Someone who rides regularly to get to work, school or run errands.",
 						"lang": "en",
 						"name": "Bike Commuter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "daily-rider",
+				"locales": [
+					{
+						"description": "Someone who rides a bike every day.",
+						"lang": "en",
+						"name": "Daily Rider"
 					}
 				],
 				"severity": "inform"
@@ -265,7 +296,7 @@
 				"identifier": "two-wheeled-explorer",
 				"locales": [
 					{
-						"description": "Someone who says “what’s over there?” and then uses their bike to find out.",
+						"description": "Someone who says “what’s over there?” and then uses a bike to find out.",
 						"lang": "en",
 						"name": "Two Wheeled Explorer"
 					}
@@ -279,7 +310,7 @@
 				"identifier": "vehicular-cyclist",
 				"locales": [
 					{
-						"description": "Someone who rides their bike on roads as if they are driving a car.",
+						"description": "Someone who rides a bike on roads as if they are driving a car.",
 						"lang": "en",
 						"name": "Vehicular Cyclist"
 					}
@@ -296,6 +327,20 @@
 						"description": "Someone who rides bikes and is a member of the clergy.",
 						"lang": "en",
 						"name": "Clergy Who Cycle"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tandem-bike-partner",
+				"locales": [
+					{
+						"description": "Someone who rides on either the front seat or the back seat of a tandem bike.",
+						"lang": "en",
+						"name": "Tandem Bike Partner"
 					}
 				],
 				"severity": "inform"
@@ -321,7 +366,7 @@
 				"identifier": "bike-tinkerer",
 				"locales": [
 					{
-						"description": "Someone who enjoys wrenching on their bike as much as they enjoy riding it.",
+						"description": "Someone who enjoys wrenching on a bike as much as they enjoy riding one.",
 						"lang": "en",
 						"name": "Bike Tinkerer"
 					}
@@ -346,12 +391,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "bike-lane-enthusiast",
+				"identifier": "bike-lane-appreciator",
 				"locales": [
 					{
-						"description": "Someone who appreciates well crafted bike infrastructure.",
+						"description": "Someone who enjoys well crafted bike infrastructure.",
 						"lang": "en",
-						"name": "Bike Lane Enthusiast"
+						"name": "Bike Lane Appreciator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bikeshare-subscriber",
+				"locales": [
+					{
+						"description": "Someone who enjoys always having a bike to ride within reach.",
+						"lang": "en",
+						"name": "Bikeshare Subscriber"
 					}
 				],
 				"severity": "inform"
@@ -486,6 +545,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "bike-mechanic",
+				"locales": [
+					{
+						"description": "Someone who repairs and services bikes professionally.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Bike Mechanic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "biking-content-creator",
 				"locales": [
 					{
@@ -591,21 +664,25 @@
 			"mawil",
 			"roadie",
 			"gravel-rider",
-			"mtb-fanatic",
+			"mtber",
 			"forest-rider",
 			"breach-cruiser",
 			"track-stander",
+			"recumbent-rider",
 			"bike-commuter",
+			"daily-rider",
 			"safe-streets",
 			"active-travel",
 			"bike-bus",
 			"two-wheeled-explorer",
 			"vehicular-cyclist",
 			"clergy-who-cycle",
+			"tandme-bike-partner",
 			"biking-photographer",
 			"bike-tinkerer",
 			"bike-fitter",
-			"bike-lane-enthusiast",
+			"bike-lane-appreciator",
+			"bikeshare-subscriber",
 			"bike-shitposter",
 			"uci-rule-disputer",
 			"bike-community-builder",
@@ -615,6 +692,7 @@
 			"biking-media",
 			"biking-publication",
 			"bike-business",
+			"bike-mechanic",
 			"biking-content-creator",
 			"biking-charity",
 			"bike-manufacturer",
