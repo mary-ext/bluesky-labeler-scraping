@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreibbcnp5xdbt5silwg2tw5p5fs4yhwuspogwu5xzjzjh6ezlb2eege",
+	"cid": "bafyreibf23b4m2mvtegsepn3pr7yafnhfat3vmujcf44t466anbhk4ddma",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -16,10 +16,10 @@
 		"labels": [],
 		"createdAt": "2024-12-23T19:04:25.344Z",
 		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
-		"indexedAt": "2024-12-27T22:57:04.243Z"
+		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2024-12-28T17:05:55.162Z",
+	"likeCount": 10,
+	"indexedAt": "2024-12-29T22:56:02.158Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -279,6 +279,34 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "critical-mass",
+				"locales": [
+					{
+						"description": "Someone who organizes or participates in Critical Mass rides in their community.",
+						"lang": "en",
+						"name": "Critical Mass"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "kidical-mass",
+				"locales": [
+					{
+						"description": "Someone who organizes or participates in Kidical Mass rides in their community.",
+						"lang": "en",
+						"name": "Kidical Mass"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "bike-bus",
 				"locales": [
 					{
@@ -299,6 +327,20 @@
 						"description": "Someone who says “what’s over there?” and then uses a bike to find out.",
 						"lang": "en",
 						"name": "Two Wheeled Explorer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycles-with-disability",
+				"locales": [
+					{
+						"description": "Someone who enjoys riding bikes and also has a disability.",
+						"lang": "en",
+						"name": "Cycles With a Disability"
 					}
 				],
 				"severity": "inform"
@@ -349,12 +391,40 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "bike-racer",
+				"locales": [
+					{
+						"description": "Someone who enjoys riding bikes in a competitive fashion.",
+						"lang": "en",
+						"name": "Bike Racer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "biking-photographer",
 				"locales": [
 					{
 						"description": "Someone who combines riding bikes with taking photographs to capture beautiful moments.",
 						"lang": "en",
 						"name": "Biking Photographer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "helmet-cammer",
+				"locales": [
+					{
+						"description": "Someone who captures every moment of their bike ride with a helmet camera.",
+						"lang": "en",
+						"name": "Helmet Cammer"
 					}
 				],
 				"severity": "inform"
@@ -453,6 +523,20 @@
 						"description": "A person or organization engaged in helping people connect over a shared love of bikes.",
 						"lang": "en",
 						"name": "Bike Community Builder"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-party-goer",
+				"locales": [
+					{
+						"description": "Someone who fights for your right to bike party.",
+						"lang": "en",
+						"name": "Bike Party Goer"
 					}
 				],
 				"severity": "inform"
@@ -600,13 +684,41 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "hide",
+				"defaultSetting": "warn",
 				"identifier": "impersonation",
 				"locales": [
 					{
 						"description": "❌ This account appears to be impersonating someone in bike.community.",
 						"lang": "en",
 						"name": "Impersonation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "nsfw",
+				"locales": [
+					{
+						"description": "This content has been marked as not safe for work.",
+						"lang": "en",
+						"name": "NSFW"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "hide",
+				"identifier": "intolerant",
+				"locales": [
+					{
+						"description": "This content has been marked as intolerant. Content that expresses hatred, bias or prejudice is not welcome in bike.community's feeds. This includes (but is not limited to) racism, misogyny, homophobia, transphobia and enbyphobia.",
+						"lang": "en",
+						"name": "Intolerant"
 					}
 				],
 				"severity": "alert"
@@ -673,12 +785,17 @@
 			"daily-rider",
 			"safe-streets",
 			"active-travel",
+			"critical-mass",
+			"kidical-mass",
 			"bike-bus",
 			"two-wheeled-explorer",
+			"cycles-with-disability",
 			"vehicular-cyclist",
 			"clergy-who-cycle",
-			"tandme-bike-partner",
+			"tandem-bike-partner",
+			"bike-racer",
 			"biking-photographer",
+			"helmet-cammer",
 			"bike-tinkerer",
 			"bike-fitter",
 			"bike-lane-appreciator",
@@ -686,6 +803,7 @@
 			"bike-shitposter",
 			"uci-rule-disputer",
 			"bike-community-builder",
+			"bike-party-goer",
 			"cycling-club",
 			"biking-podcast",
 			"biking-podcaster",
@@ -697,6 +815,8 @@
 			"biking-charity",
 			"bike-manufacturer",
 			"impersonation",
+			"nsfw",
+			"intolerant",
 			"bikecommunity-unrelated",
 			"bikesky-unrelated",
 			"procycling-unrelated"
