@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreibf23b4m2mvtegsepn3pr7yafnhfat3vmujcf44t466anbhk4ddma",
+	"cid": "bafyreiex2teertgdbtb6hliuauwzos5qsmub6ekh2s46ugfcucafmxp4t4",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -18,8 +18,8 @@
 		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
 		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
-	"likeCount": 10,
-	"indexedAt": "2024-12-29T22:56:02.158Z",
+	"likeCount": 27,
+	"indexedAt": "2024-12-30T19:25:56.964Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -167,6 +167,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "fixie-rider",
+				"locales": [
+					{
+						"description": "Someone who enjoys riding a fixed gear bike.",
+						"lang": "en",
+						"name": "Fixie Rider"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "forest-rider",
 				"locales": [
 					{
@@ -251,6 +265,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "bike-advocacy",
+				"locales": [
+					{
+						"description": "A person or organization who advocates for policies that get more people riding bikes in their community.",
+						"lang": "en",
+						"name": "Bike Advocacy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "safe-streets",
 				"locales": [
 					{
@@ -299,6 +327,34 @@
 						"description": "Someone who organizes or participates in Kidical Mass rides in their community.",
 						"lang": "en",
 						"name": "Kidical Mass"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "accessibility-advocacy",
+				"locales": [
+					{
+						"description": "A person or organization who advocates for policies that make their community more accessible for everyone.",
+						"lang": "en",
+						"name": "Accessibility Advocacy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "disability-cycle-campaigner",
+				"locales": [
+					{
+						"description": "A person or organization who campaigns to create a more inclusive world for people who cycle with a disability.",
+						"lang": "en",
+						"name": "Disability Cycle Campaigner"
 					}
 				],
 				"severity": "inform"
@@ -397,6 +453,20 @@
 						"description": "Someone who enjoys riding bikes in a competitive fashion.",
 						"lang": "en",
 						"name": "Bike Racer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "randonneur",
+				"locales": [
+					{
+						"description": "Someone who rides a bike 100 km to warm up for the second 100 km.",
+						"lang": "en",
+						"name": "Randonneur"
 					}
 				],
 				"severity": "inform"
@@ -545,7 +615,35 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "cycling-club",
+				"identifier": "bike-courier",
+				"locales": [
+					{
+						"description": "Someone who will deliver something for you using a bike.",
+						"lang": "en",
+						"name": "Bike Courier"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cargo-bike-courier",
+				"locales": [
+					{
+						"description": "Someone who will deliver large payloads for you using a cargo bike.",
+						"lang": "en",
+						"name": "Cargo Bike Courier"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cycling-club-verified",
 				"locales": [
 					{
 						"description": "A club for cyclists, either local, generalized or specialized.\n\nThis profile has been independently verified. ✅",
@@ -559,7 +657,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "biking-podcast",
+				"identifier": "biking-podcast-verified",
 				"locales": [
 					{
 						"description": "This is the official account of a biking-related podcast.\n\nThis profile has been independently verified. ✅",
@@ -573,7 +671,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "biking-podcaster",
+				"identifier": "biking-podcaster-verified",
 				"locales": [
 					{
 						"description": "Someone who runs a biking-related podcast.\n\nThis profile has been independently verified. ✅",
@@ -587,7 +685,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "biking-media",
+				"identifier": "biking-media-verified",
 				"locales": [
 					{
 						"description": "Someone who is a journalist, photographer or content creator for a biking-related publication.\n\nThis profile has been independently verified. ✅",
@@ -601,7 +699,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "biking-publication",
+				"identifier": "biking-publication-verified",
 				"locales": [
 					{
 						"description": "This is the official account of a biking publication.\n\nThis profile has been independently verified. ✅",
@@ -615,7 +713,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "bike-business",
+				"identifier": "bike-business-verified",
 				"locales": [
 					{
 						"description": "This is the official account of a biking related business.\n\nThis profile has been independently verified. ✅",
@@ -629,7 +727,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "bike-mechanic",
+				"identifier": "bike-mechanic-verified",
 				"locales": [
 					{
 						"description": "Someone who repairs and services bikes professionally.\n\nThis profile has been independently verified. ✅",
@@ -643,7 +741,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "biking-content-creator",
+				"identifier": "biking-content-creator-verified",
 				"locales": [
 					{
 						"description": "Someone who creates biking related content of any kind.\n\nThis profile has been independently verified. ✅",
@@ -657,7 +755,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "biking-charity",
+				"identifier": "biking-charity-verified",
 				"locales": [
 					{
 						"description": "A charitable organization that uses bikes to make positive change.\n\nThis profile has been independently verified. ✅",
@@ -671,7 +769,21 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "bike-manufacturer",
+				"identifier": "biking-non-profit-verified",
+				"locales": [
+					{
+						"description": "A non-profit organization that uses bikes to make positive change.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Biking Non-Profit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bike-manufacturer-verified",
 				"locales": [
 					{
 						"description": "This is the official account of a bike manufacturer.\n\nThis profile has been independently verified. ✅",
@@ -777,16 +889,20 @@
 			"roadie",
 			"gravel-rider",
 			"mtber",
+			"fixie-rider",
 			"forest-rider",
 			"breach-cruiser",
 			"track-stander",
 			"recumbent-rider",
 			"bike-commuter",
 			"daily-rider",
+			"bike-advocacy",
 			"safe-streets",
 			"active-travel",
 			"critical-mass",
 			"kidical-mass",
+			"accessibility-advocacy",
+			"disability-cycle-campaigner",
 			"bike-bus",
 			"two-wheeled-explorer",
 			"cycles-with-disability",
@@ -794,6 +910,7 @@
 			"clergy-who-cycle",
 			"tandem-bike-partner",
 			"bike-racer",
+			"randonneur",
 			"biking-photographer",
 			"helmet-cammer",
 			"bike-tinkerer",
@@ -804,16 +921,19 @@
 			"uci-rule-disputer",
 			"bike-community-builder",
 			"bike-party-goer",
-			"cycling-club",
-			"biking-podcast",
-			"biking-podcaster",
-			"biking-media",
-			"biking-publication",
-			"bike-business",
-			"bike-mechanic",
-			"biking-content-creator",
-			"biking-charity",
-			"bike-manufacturer",
+			"bike-courier",
+			"cargo-bike-courier",
+			"cycling-club-verified",
+			"biking-podcast-verified",
+			"biking-podcaster-verified",
+			"biking-media-verified",
+			"biking-publication-verified",
+			"bike-business-verified",
+			"bike-mechanic-verified",
+			"biking-content-creator-verified",
+			"biking-charity-verified",
+			"biking-non-profit-verified",
+			"bike-manufacturer-verified",
 			"impersonation",
 			"nsfw",
 			"intolerant",

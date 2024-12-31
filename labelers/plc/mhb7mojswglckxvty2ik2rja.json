@@ -1,11 +1,11 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:mhb7mojswglckxvty2ik2rja/app.bsky.labeler.service/self",
-	"cid": "bafyreiasg67tom23a6agypn6lmbmqifjdwc4u7nxflit56nvetl6x5ai5y",
+	"cid": "bafyreiddhpjduijjrvfpdl4ntnoq3ljzlcockv3f33h52o556isad6lg24",
 	"creator": {
 		"did": "did:plc:mhb7mojswglckxvty2ik2rja",
 		"handle": "polski-moderator.bsky.social",
-		"displayName": "Polski Moderator ",
+		"displayName": "Polski Moderator  🇵🇱",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mhb7mojswglckxvty2ik2rja/bafkreiacabcmkq6kcucyvdkfrx62vbogbdrasz6u4qto4yxvn5y5qymb5q@jpeg",
 		"associated": {
 			"labeler": true
@@ -13,13 +13,32 @@
 		"labels": [],
 		"createdAt": "2024-12-20T14:13:00.742Z",
 		"description": "Jestem dla Was, nie przeciwko Wam",
-		"indexedAt": "2024-12-22T18:15:18.843Z"
+		"indexedAt": "2024-12-30T20:31:50.249Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-12-20T15:16:24.859Z",
+	"indexedAt": "2024-12-30T20:42:08.862Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "Dezinformacja na pełnej...",
+						"lang": "pl",
+						"name": "BOT"
+					},
+					{
+						"description": "Disinformation at full...",
+						"lang": "en",
+						"name": "BOT"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "media",
@@ -195,7 +214,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "polska2050",
+				"identifier": "polskash",
 				"locales": [
 					{
 						"description": "Tutaj są politycy 'Polski 2050' oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
@@ -214,7 +233,7 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "PiS",
+				"identifier": "pis",
 				"locales": [
 					{
 						"description": "Tutaj są politycy PiS oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
@@ -250,6 +269,7 @@
 			}
 		],
 		"labelValues": [
+			"bot",
 			"parody",
 			"kontrowersje",
 			"trolle",
@@ -259,8 +279,8 @@
 			"lewica",
 			"konfederacja",
 			"psl",
-			"polska2050",
-			"PiS",
+			"polskash",
+			"pis",
 			"koalicja"
 		]
 	}
