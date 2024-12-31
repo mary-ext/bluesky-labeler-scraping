@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:eefxdpqaysucttp5cder3nku/app.bsky.labeler.service/self",
-  "cid": "bafyreidrzztt74vllda622glwqix2wpnl7zfir2enfhq7kjwboclnxpfvm",
+  "cid": "bafyreialcgadpvjtoyexsihg3hadyxyy7jytcbzcwd43bhqsqidcktnoim",
   "creator": {
     "did": "did:plc:eefxdpqaysucttp5cder3nku",
     "handle": "labeller.aarondodd.com",
@@ -13,10 +13,38 @@
     "createdAt": "2024-12-15T16:19:29.342Z",
     "indexedAt": "2024-12-16T00:18:27.043Z"
   },
-  "indexedAt": "2024-12-29T01:15:57.349Z",
+  "indexedAt": "2024-12-30T21:53:11.061Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "image_only_no_alt",
+        "locales": [
+          {
+            "description": "Posts containing an image, no alt-text, and no post text. This is a safety-check to avoid unwanted content that has no means of being labeled/filtered.",
+            "lang": "en",
+            "name": "Image-only post with no alt-txt"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "twitter_link",
+        "locales": [
+          {
+            "description": "Post contains links to x.com, aka Twitter.",
+            "lang": "en",
+            "name": "Twitter Link"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -89,6 +117,8 @@
       }
     ],
     "labelValues": [
+      "image_only_no_alt",
+      "twitter_link",
       "porn",
       "trollish",
       "homophobic",
