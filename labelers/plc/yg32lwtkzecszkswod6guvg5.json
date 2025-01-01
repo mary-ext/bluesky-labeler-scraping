@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:yg32lwtkzecszkswod6guvg5/app.bsky.labeler.service/self",
-	"cid": "bafyreibh6fcrn7uzh2xsvyqfhqep2pzaipjk5uxj6p4v4pan7376xuomd4",
+	"cid": "bafyreiepf24ul2t2gbpyj2ozl4pi4xol4svxrgwuqptsxnsuk25ozgzrzq",
 	"creator": {
 		"did": "did:plc:yg32lwtkzecszkswod6guvg5",
 		"handle": "12.shsbs.xyz",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-22T18:43:48.643Z"
 	},
 	"likeCount": 4,
-	"indexedAt": "2024-12-26T02:02:57.949Z",
+	"indexedAt": "2024-12-31T08:03:59.446Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -44,7 +44,7 @@
 				"identifier": "lable2",
 				"locales": [
 					{
-						"description": "test",
+						"description": "test2",
 						"lang": "en",
 						"name": "🟨🟨🟨🟨🟨🟨\n⬜️⬜️⬜️⬜️⬜️⬜️\n🟪🟪🟪🟪🟪🟪\n⬛⬛⬛⬛⬛⬛"
 					}
@@ -52,8 +52,8 @@
 				"severity": "inform"
 			},
 			{
-				"adultOnly": false,
-				"blurs": "media",
+				"adultOnly": true,
+				"blurs": "content",
 				"defaultSetting": "warn",
 				"identifier": "three",
 				"locales": [
@@ -63,7 +63,7 @@
 						"name": "test3"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			}
 		],
 		"labelValues": [

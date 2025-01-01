@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreiex2teertgdbtb6hliuauwzos5qsmub6ekh2s46ugfcucafmxp4t4",
+	"cid": "bafyreieur6q4bl6rjliczmob42itgxfmjp6dnxpdw7t7qpd543gy25elba",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -18,8 +18,8 @@
 		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
 		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
-	"likeCount": 27,
-	"indexedAt": "2024-12-30T19:25:56.964Z",
+	"likeCount": 37,
+	"indexedAt": "2024-12-31T19:36:34.659Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -75,48 +75,6 @@
 						"description": "Someone who enjoys cargo bikes in particular.",
 						"lang": "en",
 						"name": "Cargo Bike Lover"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "fietser",
-				"locales": [
-					{
-						"description": "Someone who rides a bicycle at a moderate pace, usually in normal street clothes.",
-						"lang": "en",
-						"name": "Fietser"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "mamil",
-				"locales": [
-					{
-						"description": "A middle aged man in lycra.",
-						"lang": "en",
-						"name": "MAMIL"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "mawil",
-				"locales": [
-					{
-						"description": "A middle aged woman in lycra.",
-						"lang": "en",
-						"name": "MAWIL"
 					}
 				],
 				"severity": "inform"
@@ -195,12 +153,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "breach-cruiser",
+				"identifier": "beach-cruiser",
 				"locales": [
 					{
 						"description": "Someone who lives for the smell of the ocean as they ride by on a bike.",
 						"lang": "en",
 						"name": "Beach Cruiser"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "winter-bike-rider",
+				"locales": [
+					{
+						"description": "Someone who enjoys the sound of snow crunching underneath a bike's wheels.",
+						"lang": "en",
+						"name": "Winter Bike Rider"
 					}
 				],
 				"severity": "inform"
@@ -215,6 +187,62 @@
 						"description": "Someone who can balance while not moving on a bike.",
 						"lang": "en",
 						"name": "Track Stander"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fietser",
+				"locales": [
+					{
+						"description": "Someone who rides a bicycle at a moderate pace, usually in normal street clothes.",
+						"lang": "en",
+						"name": "Fietser"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fietsster",
+				"locales": [
+					{
+						"description": "Someone who rides a bicycle at a moderate pace, usually in normal street clothes.",
+						"lang": "en",
+						"name": "Fietsster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mamil",
+				"locales": [
+					{
+						"description": "A middle aged man in lycra.",
+						"lang": "en",
+						"name": "MAMIL"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mawil",
+				"locales": [
+					{
+						"description": "A middle aged woman in lycra.",
+						"lang": "en",
+						"name": "MAWIL"
 					}
 				],
 				"severity": "inform"
@@ -795,7 +823,7 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "none",
+				"blurs": "content",
 				"defaultSetting": "warn",
 				"identifier": "impersonation",
 				"locales": [
@@ -883,16 +911,18 @@
 			"cyclist",
 			"ebike-evanglist",
 			"cargo-bike-lover",
-			"fietser",
-			"mamil",
-			"mawil",
 			"roadie",
 			"gravel-rider",
 			"mtber",
 			"fixie-rider",
 			"forest-rider",
-			"breach-cruiser",
+			"beach-cruiser",
+			"winter-bike-rider",
 			"track-stander",
+			"fietser",
+			"fietsster",
+			"mamil",
+			"mawil",
 			"recumbent-rider",
 			"bike-commuter",
 			"daily-rider",

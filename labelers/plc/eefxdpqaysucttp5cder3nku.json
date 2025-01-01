@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:eefxdpqaysucttp5cder3nku/app.bsky.labeler.service/self",
-	"cid": "bafyreialcgadpvjtoyexsihg3hadyxyy7jytcbzcwd43bhqsqidcktnoim",
+	"cid": "bafyreicxfipgathb7xnlcsqjweaa5t7wujtv57br3xejhuuhy3qus3yue4",
 	"creator": {
 		"did": "did:plc:eefxdpqaysucttp5cder3nku",
 		"handle": "labeller.aarondodd.com",
@@ -15,7 +15,7 @@
 		"indexedAt": "2024-12-16T00:18:27.043Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2024-12-30T21:53:11.061Z",
+	"indexedAt": "2025-01-01T01:00:35.550Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,10 +23,10 @@
 				"adultOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
-				"identifier": "image_only_no_alt",
+				"identifier": "image-only-no-alt",
 				"locales": [
 					{
-						"description": "Posts containing an image, no alt-text, and no post text. This is a safety-check to avoid unwanted content that has no means of being labeled/filtered.",
+						"description": "!! NOT YET IMPLEMENTED !! Posts containing an image, no alt-text, and no post text. This is a safety-check to avoid unwanted content that has no means of being labeled/filtered.",
 						"lang": "en",
 						"name": "Image-only post with no alt-txt"
 					}
@@ -37,7 +37,7 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "twitter_link",
+				"identifier": "twitter-link",
 				"locales": [
 					{
 						"description": "Post contains links to x.com, aka Twitter.",
@@ -119,8 +119,8 @@
 			}
 		],
 		"labelValues": [
-			"image_only_no_alt",
-			"twitter_link",
+			"image-only-no-alt",
+			"twitter-link",
 			"porn",
 			"trollish",
 			"homophobic",
