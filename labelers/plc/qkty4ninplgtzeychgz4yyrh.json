@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreieur6q4bl6rjliczmob42itgxfmjp6dnxpdw7t7qpd543gy25elba",
+	"cid": "bafyreicqqhcg2urcn6o25bhtq64nooxyemtbburru3zt3jloqdfadfzmxm",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
 	"likeCount": 37,
-	"indexedAt": "2024-12-31T19:36:34.659Z",
+	"indexedAt": "2025-01-01T05:29:22.052Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -75,6 +75,20 @@
 						"description": "Someone who enjoys cargo bikes in particular.",
 						"lang": "en",
 						"name": "Cargo Bike Lover"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cargo-ebike-lover",
+				"locales": [
+					{
+						"description": "Someone who enjoys cargo e-bikes in particular.",
+						"lang": "en",
+						"name": "Cargo E-Bike Lover"
 					}
 				],
 				"severity": "inform"
@@ -181,6 +195,34 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "winterbiker",
+				"locales": [
+					{
+						"description": "Someone who enjoys the sound of snow crunching underneath a bike's wheels.",
+						"lang": "en",
+						"name": "Winterbiker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bikepacking",
+				"locales": [
+					{
+						"description": "Someone who enjoys taking a journey on a bike, off the beaten path, and camping out along the way.",
+						"lang": "en",
+						"name": "Bikepacking"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "track-stander",
 				"locales": [
 					{
@@ -268,9 +310,23 @@
 				"identifier": "bike-commuter",
 				"locales": [
 					{
-						"description": "Someone who rides regularly to get to work, school or run errands.",
+						"description": "Someone who rides a bike regularly to get to work, school or run errands.",
 						"lang": "en",
 						"name": "Bike Commuter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ebike-commuter",
+				"locales": [
+					{
+						"description": "Someone who rides an e-bike regularly to get to work, school or run errands.",
+						"lang": "en",
+						"name": "E-Bike Commuter"
 					}
 				],
 				"severity": "inform"
@@ -299,6 +355,20 @@
 						"description": "A person or organization who advocates for policies that get more people riding bikes in their community.",
 						"lang": "en",
 						"name": "Bike Advocacy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ebike-advocacy",
+				"locales": [
+					{
+						"description": "A person or organization who advocates for policies that get more people riding e-bikes in their community.",
+						"lang": "en",
+						"name": "E-Bike Advocacy"
 					}
 				],
 				"severity": "inform"
@@ -545,12 +615,40 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "ebike-tinkerer",
+				"locales": [
+					{
+						"description": "Someone who enjoys wrenching on an e-bike as much as they enjoy riding one.",
+						"lang": "en",
+						"name": "E-Bike Tinkerer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "bike-fitter",
 				"locales": [
 					{
 						"description": "Someone who helps bike riders reach their goals by adjusting the fit of their bike.",
 						"lang": "en",
 						"name": "Bike Fitter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ebike-fitter",
+				"locales": [
+					{
+						"description": "Someone who helps e-bike riders reach their goals by adjusting the fit of their bike.",
+						"lang": "en",
+						"name": "E-Bike Fitter"
 					}
 				],
 				"severity": "inform"
@@ -769,6 +867,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "ebike-mechanic-verified",
+				"locales": [
+					{
+						"description": "Someone who repairs and services e-bikes professionally.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "E-Bike Mechanic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "biking-content-creator-verified",
 				"locales": [
 					{
@@ -911,6 +1023,7 @@
 			"cyclist",
 			"ebike-evanglist",
 			"cargo-bike-lover",
+			"cargo-ebike-lover",
 			"roadie",
 			"gravel-rider",
 			"mtber",
@@ -918,6 +1031,8 @@
 			"forest-rider",
 			"beach-cruiser",
 			"winter-bike-rider",
+			"winterbiker",
+			"bikepacking",
 			"track-stander",
 			"fietser",
 			"fietsster",
@@ -925,8 +1040,10 @@
 			"mawil",
 			"recumbent-rider",
 			"bike-commuter",
+			"ebike-commuter",
 			"daily-rider",
 			"bike-advocacy",
+			"ebike-advocacy",
 			"safe-streets",
 			"active-travel",
 			"critical-mass",
@@ -944,7 +1061,9 @@
 			"biking-photographer",
 			"helmet-cammer",
 			"bike-tinkerer",
+			"ebike-tinkerer",
 			"bike-fitter",
+			"ebike-fitter",
 			"bike-lane-appreciator",
 			"bikeshare-subscriber",
 			"bike-shitposter",
@@ -960,6 +1079,7 @@
 			"biking-publication-verified",
 			"bike-business-verified",
 			"bike-mechanic-verified",
+			"ebike-mechanic-verified",
 			"biking-content-creator-verified",
 			"biking-charity-verified",
 			"biking-non-profit-verified",
