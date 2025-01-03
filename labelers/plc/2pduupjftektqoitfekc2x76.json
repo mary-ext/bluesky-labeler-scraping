@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2pduupjftektqoitfekc2x76/app.bsky.labeler.service/self",
-	"cid": "bafyreihi6v4fgdl2gs65jmk455m22lvsrvnqwtgehdd3e72htyxj56t4lm",
+	"cid": "bafyreibfxkrpom3dkjxka3kb2izwrduzp5iftpuodq3igsjql4bjqtzq2q",
 	"creator": {
 		"did": "did:plc:2pduupjftektqoitfekc2x76",
 		"handle": "ab4n-labeller.bsky.social",
@@ -14,10 +14,28 @@
 		"createdAt": "2024-12-27T19:22:09.642Z",
 		"indexedAt": "2024-12-27T19:22:09.642Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2025-01-01T18:40:46.345Z",
+	"likeCount": 1,
+	"indexedAt": "2025-01-02T14:52:26.249Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "Matryoshka",
+				"locales": [
+					{
+						"description": "Pro-Kremlin disinfo burner accounts that post fake videos, street art and magazine covers to (a) waste fact checkers time with knowingly illegitimate requests; (b) add virality to knowingly fake visual media.",
+						"lang": "en",
+						"name": "Matryoshka disinfo"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"Matryoshka"
+		]
 	}
 }
