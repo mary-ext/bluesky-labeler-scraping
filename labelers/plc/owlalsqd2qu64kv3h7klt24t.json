@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreiegsrl6xk5yqnpfyvzfb6lql77sdllxg2eq2ehi4nlm5ukx45ophu",
+	"cid": "bafyreidungemfsro2aszdmjpcyvhtq7eonpprb7dmwgjzachphietcjig4",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -16,10 +16,24 @@
 		"indexedAt": "2024-11-05T06:04:12.080Z"
 	},
 	"likeCount": 404,
-	"indexedAt": "2024-12-05T13:49:33.461Z",
+	"indexedAt": "2025-01-03T18:04:17.065Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ncine",
+				"locales": [
+					{
+						"description": "This user is using the nCine engine, from https://ncine.github.io/",
+						"lang": "en",
+						"name": "nCine"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -654,6 +668,7 @@
 			"defold",
 			"halley",
 			"haxeflixel",
+			"ncine",
 			"bitsy",
 			"clickteamfusion",
 			"cubeengine",

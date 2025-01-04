@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:damrnsdff2viflhkuvfkcug2/app.bsky.labeler.service/self",
-	"cid": "bafyreig4gcsekefbmjpuxdgd5vue7p77ardjriyqf6rhao354rtyedlhqa",
+	"cid": "bafyreif2mr6vzoihzj2b7ibnbbl4zg5rsazkbhgtiizex6lghf6qhgkhfe",
 	"creator": {
 		"did": "did:plc:damrnsdff2viflhkuvfkcug2",
 		"handle": "nafo.fellas.social",
@@ -23,11 +23,25 @@
 		"description": "Trying to fight disinformation automatically. \n",
 		"indexedAt": "2024-12-30T19:51:02.250Z"
 	},
-	"likeCount": 14,
-	"indexedAt": "2024-12-29T01:10:35.655Z",
+	"likeCount": 17,
+	"indexedAt": "2025-01-03T23:39:13.961Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "nafo",
+				"locales": [
+					{
+						"description": "NAFO fella, fighting disinformation and helping Ukraine.",
+						"lang": "en",
+						"name": "NAFO"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -100,6 +114,7 @@
 			}
 		],
 		"labelValues": [
+			"nafo",
 			"nafo-elderly",
 			"maga",
 			"scammer",

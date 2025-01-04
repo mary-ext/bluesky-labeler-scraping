@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:eeptyms6w2crpi6h73ok7qjt/app.bsky.labeler.service/self",
-	"cid": "bafyreiajze55wufyzkqyxhajpou22e2nuxnstx6chdabg5zbz76hl2chgu",
+	"cid": "bafyreiflhewbxzf2wkuyatcmnapqeu3gu362ftubcyg4vxm7bnmbliniim",
 	"creator": {
 		"did": "did:plc:eeptyms6w2crpi6h73ok7qjt",
 		"handle": "labeler.shreyanjain.net",
@@ -15,11 +15,25 @@
 		"description": "Labels stuff probably",
 		"indexedAt": "2024-05-18T20:20:36.555Z"
 	},
-	"likeCount": 59,
-	"indexedAt": "2024-05-18T20:41:10.489Z",
+	"likeCount": 60,
+	"indexedAt": "2025-01-03T06:55:03.449Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "strugglebus",
+				"locales": [
+					{
+						"description": "noun. Slang. a situation, task, etc., that seems difficult or frustrating: With no sleep last night, I'll be on the struggle bus today.",
+						"lang": "en",
+						"name": "Strugglebus"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -162,6 +176,7 @@
 			}
 		],
 		"labelValues": [
+			"strugglebus",
 			"dni",
 			"honeybee",
 			"bug-queen",

@@ -1,0 +1,42 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:6awpdvr4kfiwd467of4nlkac/app.bsky.labeler.service/self",
+	"cid": "bafyreifh45azygshvb5u6qv57obnhuv2khb4rv4l3vymnxjtv2dozlbo5a",
+	"creator": {
+		"did": "did:plc:6awpdvr4kfiwd467of4nlkac",
+		"handle": "label.onlyhumanhub.com",
+		"displayName": "Human Labeling Service",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6awpdvr4kfiwd467of4nlkac/bafkreibxeqdochsli5jchtoq7lidussjzlyb7k3etuxzwfcobqyk33g3f4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-03T18:31:10.643Z",
+		"description": "Subscribe to see labels on accounts that have verified they are a real person via @onlyhumanhub.com",
+		"indexedAt": "2025-01-04T00:29:56.943Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2025-01-04T00:26:38.155Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "verified-human",
+				"locales": [
+					{
+						"description": "An account with this label is a verified human. The person that owns the account proved they are human by supplying their passport and we have verified that no other account with this passport exists.",
+						"lang": "en",
+						"name": "Verified Human"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"verified-human"
+		]
+	}
+}

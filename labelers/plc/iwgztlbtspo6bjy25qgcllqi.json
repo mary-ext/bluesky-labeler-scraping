@@ -1,0 +1,287 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:iwgztlbtspo6bjy25qgcllqi/app.bsky.labeler.service/self",
+	"cid": "bafyreifpiztloa7f6xmn6w6huu2xugsadkja4ocjokajl7euy3cfhbhtpi",
+	"creator": {
+		"did": "did:plc:iwgztlbtspo6bjy25qgcllqi",
+		"handle": "panslawek.pl",
+		"displayName": "Polski Zespół Moderacji",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iwgztlbtspo6bjy25qgcllqi/bafkreihn42766rozzvkis2srn5ttoghw3rvsau3jhg6hao3yugpcum3jxu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-03T16:35:57.644Z",
+		"description": "Promowanie kulturalnej dyskusji i dobrej zabawy poprzez moderowanie niewłaściwych zachowań.",
+		"indexedAt": "2025-01-03T23:56:19.745Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-01-03T18:25:12.464Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "Dezinformacja na pełnej...",
+						"lang": "pl",
+						"name": "BOT"
+					},
+					{
+						"description": "Disinformation at full...",
+						"lang": "en",
+						"name": "BOT"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "show",
+				"identifier": "parody",
+				"locales": [
+					{
+						"description": "Tutaj znajdziesz konta oznaczone jako 'parody konto'. Nie podszywają się pod nikogo bez żadnych informacji w profilu.",
+						"lang": "pl",
+						"name": "Parody konto"
+					},
+					{
+						"description": "Here you will find accounts labeled as 'parody account.' Such profiles clearly state that they are a parody and do not impersonate anyone without providing proper information in their profile description.",
+						"lang": "en",
+						"name": "Parody Account"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "kontrowersje",
+				"locales": [
+					{
+						"description": "Jedni wzywają do blokowania, inni mówią, że przegina, kolejni stwierdzają, że popierają. Skoro mamy skrajności decydujcie sami co robić.",
+						"lang": "pl",
+						"name": "Kontrowersje"
+					},
+					{
+						"description": "Some call for blocking, others say they are going too far, while others claim they support it. Since opinions are so polarized, decide for yourselves what to do.",
+						"lang": "en",
+						"name": "Controversy"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "trolle",
+				"locales": [
+					{
+						"description": "Trolle, boty, profile łamiące w ocenie naszych klientów wszelkie zasady współżycia społecznego. Gdy tutaj profil trafi nie ma szans na odwołanie. Lepiej jak będą zablokowane.",
+						"lang": "pl",
+						"name": "Tych klientów nie obsługujemy"
+					},
+					{
+						"description": "Trolls, bots, and profiles that, in the judgment of our clients, violate all principles of social conduct. Once a profile ends up here, there’s no chance for appeal. It’s better if they remain blocked.",
+						"lang": "en",
+						"name": "We Do Not Serve"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "gablota",
+				"locales": [
+					{
+						"description": "W tym miejscu znajdziesz klientów bez krawata, którzy się awanturowali lub inni klienci naszego sklepu orzekli, że nie zamierzają spędzać czasu w takim towarzystwie.",
+						"lang": "pl",
+						"name": "Gablota Pana Sławka"
+					},
+					{
+						"description": "Here you will find customers without ties who caused a commotion, or other customers of our store who decided they would not spend time in such company.",
+						"lang": "en",
+						"name": "Mr. Sławek's Display Case"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "niezalezni",
+				"locales": [
+					{
+						"description": "Tutaj są politycy, którzy zaprzestali aktywnej działalności publicznej lub nie mają oficjalnych barw partyjnych.",
+						"lang": "pl",
+						"name": "Politycy niezależni"
+					},
+					{
+						"description": "Politicians who have ceased active public activity or aren't affiliated with any political party.",
+						"lang": "en",
+						"name": "Independent politicians"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "razem",
+				"locales": [
+					{
+						"description": "Tutaj są politycy Partii Razem oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Partia Razem"
+					},
+					{
+						"description": "Partia Razem politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Partia Razem"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lewica",
+				"locales": [
+					{
+						"description": "Tutaj są politycy Lewicy oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Nowa Lewica"
+					},
+					{
+						"description": "Nowa Lewica politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Nowa Lewica"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "konfederacja",
+				"locales": [
+					{
+						"description": "Tutaj są politycy Konfederacji oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Konfederacja Wolność i Niepodległość"
+					},
+					{
+						"description": "Konfederacja politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Konfederacja Wolność i Niepodległość"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "psl",
+				"locales": [
+					{
+						"description": "Tutaj są politycy PSL oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Polskie Stronnictwo Ludowe"
+					},
+					{
+						"description": "Polskie Stronnictwo Ludowe politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Polskie Stronnictwo Ludowe"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "polskash",
+				"locales": [
+					{
+						"description": "Tutaj są politycy 'Polski 2050' oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Polska 2050 Szymona Hołowni"
+					},
+					{
+						"description": "Polska 2050 politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Polska 2050 Szymona Hołowni"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "pis",
+				"locales": [
+					{
+						"description": "Tutaj są politycy PiS oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Prawo i Sprawiedliwość"
+					},
+					{
+						"description": "Prawo i Sprawiedliwość politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Prawo i Sprawiedliwość"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "koalicja",
+				"locales": [
+					{
+						"description": "Tutaj są politycy KO oraz profile partyjne. Ty decydujesz o ustawieniach dla tych kont.",
+						"lang": "pl",
+						"name": "Koalicja Obywatelska"
+					},
+					{
+						"description": "Koalicja Obywatelska politicians and party profiles. You decide on the settings for these accounts.",
+						"lang": "en",
+						"name": "Koalicja Obywatelska"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"bot",
+			"parody",
+			"kontrowersje",
+			"trolle",
+			"gablota",
+			"niezalezni",
+			"razem",
+			"lewica",
+			"konfederacja",
+			"psl",
+			"polskash",
+			"pis",
+			"koalicja"
+		]
+	}
+}
