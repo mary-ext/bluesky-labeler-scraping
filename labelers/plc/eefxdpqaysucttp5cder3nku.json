@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:eefxdpqaysucttp5cder3nku/app.bsky.labeler.service/self",
-	"cid": "bafyreicxfipgathb7xnlcsqjweaa5t7wujtv57br3xejhuuhy3qus3yue4",
+	"cid": "bafyreieixhrkmjtntgbyckjokeamkq4w6hcdei6klrkpkfx7v6cnib3tw4",
 	"creator": {
 		"did": "did:plc:eefxdpqaysucttp5cder3nku",
 		"handle": "labeller.aarondodd.com",
@@ -15,7 +15,7 @@
 		"indexedAt": "2024-12-16T00:18:27.043Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2025-01-01T01:00:35.550Z",
+	"indexedAt": "2025-01-04T18:52:18.754Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -26,7 +26,7 @@
 				"identifier": "image-only-no-alt",
 				"locales": [
 					{
-						"description": "!! NOT YET IMPLEMENTED !! Posts containing an image, no alt-text, and no post text. This is a safety-check to avoid unwanted content that has no means of being labeled/filtered.",
+						"description": "!! NOT YET IMPLEMENTED !! Posts containing an image, no alt-text, and no post text. This is a safety-check to avoid unwanted content that has no means of being labeled/filtered. (Automated labeling).  Temporarily suspended due to the excessive amount of matching posts.",
 						"lang": "en",
 						"name": "Image-only post with no alt-txt"
 					}
@@ -40,7 +40,7 @@
 				"identifier": "twitter-link",
 				"locales": [
 					{
-						"description": "Post contains links to x.com, aka Twitter.",
+						"description": "Post contains links to x.com, aka Twitter. (Automated labeling)",
 						"lang": "en",
 						"name": "Twitter Link"
 					}
@@ -54,7 +54,7 @@
 				"identifier": "porn",
 				"locales": [
 					{
-						"description": "Post contains common keywords associated with pornography. An account gets labeled this if many of its posts get labeled.",
+						"description": "Post contains common tags associated with pornography OR emoji typically used in lieu of tags AND there is media attached. \n\nAn account gets labeled this if many of its posts get labeled. \n\n(Automated labeling)",
 						"lang": "en",
 						"name": "Porn posts"
 					}
@@ -68,7 +68,7 @@
 				"identifier": "trollish",
 				"locales": [
 					{
-						"description": "Posts contain terms typical of trolling behavior, such as 'sleepy joe' or 'libtard'. An account gets labeled this if many of its posts get labeled.",
+						"description": "Posts contain terms typical of trolling behavior, such as 'sleepy joe' or 'libtard'. An account gets labeled this if many of its posts get labeled. (Automated labeling)",
 						"lang": "en",
 						"name": "Trollish posts"
 					}
@@ -96,7 +96,7 @@
 				"identifier": "cursing",
 				"locales": [
 					{
-						"description": "Posts containing common curse words. An account gets labeled this if many of its posts get labeled.",
+						"description": "Posts containing common curse words. An account gets labeled this if many of its posts get labeled. (Automated labeling)",
 						"lang": "en",
 						"name": "Cursing"
 					}
@@ -110,7 +110,7 @@
 				"identifier": "homophobic",
 				"locales": [
 					{
-						"description": "Posts containing terms typically used as derogatory slurs against the LGBTQIA+ community. An account gets labeled this if many of its posts get labeled.",
+						"description": "Posts containing terms typically used as derogatory slurs against the LGBTQIA+ community or \"cursing\" that is anti-LGBTQIO+. An account gets labeled this if many of its posts get labeled. (Automated labeling)",
 						"lang": "en",
 						"name": "Homophobic Slurs"
 					}
