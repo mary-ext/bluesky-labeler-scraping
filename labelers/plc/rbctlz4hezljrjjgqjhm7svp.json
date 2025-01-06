@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreifqcemfubv6glnh6jpuxos7nd5nbscacqpvcdrcdiu2njbmuyfk3u",
+	"cid": "bafyreih4uwbzb5snzelsl74c2advgqipk4obi2z4afcfhqlowslvh2aw2q",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "To add your k-pop bias, you need to do a few things:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" next to subscribe)\n3) Like the labeler and we'll DM you automatically\n\nThe K-Pop bias bot will help you manage your biases and ults via chat",
 		"indexedAt": "2024-12-23T16:50:24.443Z"
 	},
-	"likeCount": 8,
-	"indexedAt": "2024-12-28T16:56:30.952Z",
+	"likeCount": 9,
+	"indexedAt": "2025-01-06T00:29:22.656Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -246,6 +246,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ryujin",
+				"locales": [
+					{
+						"description": "User is a fan of Ryujin",
+						"lang": "en",
+						"name": "Ryujin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---yuta",
+				"locales": [
+					{
+						"description": "User is a fan of Yuta\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 Yuta"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---nct",
+				"locales": [
+					{
+						"description": "NCTzen\nUser is a fan of NCT\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 NCT"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -264,7 +306,10 @@
 			"clc",
 			"jake",
 			"enhypen",
-			"lynn"
+			"lynn",
+			"ryujin",
+			"---yuta",
+			"---nct"
 		]
 	}
 }

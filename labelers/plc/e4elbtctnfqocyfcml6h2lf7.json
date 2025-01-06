@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreig2yddqljum2uznz6i62cwp252tnh75sprxmtqmtfzhhn4hk74d2u",
+	"cid": "bafyreiewbpkgz2pbrnqukxwzo4wzbrwbggcodey3rtdtmhd4zitdeqof4i",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -16,13 +16,27 @@
 		"labels": [],
 		"createdAt": "2024-02-20T06:15:04.884Z",
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service",
-		"indexedAt": "2025-01-03T22:44:12.044Z"
+		"indexedAt": "2025-01-05T02:13:50.243Z"
 	},
-	"likeCount": 6832,
-	"indexedAt": "2025-01-03T14:44:16.960Z",
+	"likeCount": 6842,
+	"indexedAt": "2025-01-05T02:06:34.452Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "report-to-bsky",
+				"locales": [
+					{
+						"description": "Skywatch does not deal with spam or porn. We are not capable of doing so and you are overwhelming the labeler. Please only report these accounts to @moderation.bsky.app and remember that sex work is real work. Do not set this label to hide, as it will sunset in a week.",
+						"lang": "en",
+						"name": "DO NOT REPORT TO SKYWATCH.BLUE"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
