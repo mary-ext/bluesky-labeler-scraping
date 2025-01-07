@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreifwake7z2aldwwgaf3c2trmzk67cmemzq4rpgbfskpifxgatipowi",
+	"cid": "bafyreieqkmxffmz5l6usqg7ubnc5flt5fpzagrdbrzc6v5kye6cdp4a5ai",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -18,8 +18,8 @@
 		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
 		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
-	"likeCount": 42,
-	"indexedAt": "2025-01-03T16:41:09.661Z",
+	"likeCount": 43,
+	"indexedAt": "2025-01-07T00:20:10.261Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -439,6 +439,20 @@
 						"description": "A person or organization who advocates for policies that make their community more accessible for everyone.",
 						"lang": "en",
 						"name": "Accessibility Advocacy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "micromobility",
+				"locales": [
+					{
+						"description": "Someone who appreciates a range of small, lightweight vehicles that include bicycles.",
+						"lang": "en",
+						"name": "Micromobility"
 					}
 				],
 				"severity": "inform"
@@ -1049,6 +1063,7 @@
 			"critical-mass",
 			"kidical-mass",
 			"accessibility-advocacy",
+			"micromobility",
 			"disability-cycle-campaigner",
 			"bike-bus",
 			"two-wheeled-explorer",

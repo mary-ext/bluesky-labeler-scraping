@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:r2wnx7eo2i4rflu6mlwxja6v/app.bsky.labeler.service/self",
-	"cid": "bafyreihn3pgim6o4fdhsw5svzajxiejn5s3ab2jgr3esbbi7dihcdpy2aq",
+	"cid": "bafyreie4tfjj75ru24pyzm7uzwgui5kpr3c6ox4s4gva54c3qtssm5zuwi",
 	"creator": {
 		"did": "did:plc:r2wnx7eo2i4rflu6mlwxja6v",
 		"handle": "trulioo-test.bsky.social",
@@ -18,25 +18,38 @@
 		"indexedAt": "2024-12-10T18:39:54.251Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-01-03T19:51:46.447Z",
+	"indexedAt": "2025-01-06T18:43:31.658Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"blurs": "none",
-				"identifier": "foo",
+				"identifier": "real",
 				"locales": [
 					{
 						"description": "testing",
 						"lang": "en",
-						"name": "test😊"
+						"name": "real human 😊"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"blurs": "none",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "testing",
+						"lang": "en",
+						"name": "robot 🤖"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"foo"
+			"real",
+			"bot"
 		]
 	}
 }

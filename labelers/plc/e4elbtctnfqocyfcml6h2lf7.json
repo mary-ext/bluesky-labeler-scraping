@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreiewbpkgz2pbrnqukxwzo4wzbrwbggcodey3rtdtmhd4zitdeqof4i",
+	"cid": "bafyreifkmvpq3nf7xlyeze4gubb7o73s4wxzzufkrqphawep7upqivprl4",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,8 +18,8 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service",
 		"indexedAt": "2025-01-05T02:13:50.243Z"
 	},
-	"likeCount": 6842,
-	"indexedAt": "2025-01-05T02:06:34.452Z",
+	"likeCount": 6856,
+	"indexedAt": "2025-01-06T21:27:20.963Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -54,16 +54,16 @@
 			{
 				"adultOnly": false,
 				"blurs": "content",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "suspect-inauthentic",
 				"locales": [
 					{
-						"description": "Applied to accounts which don't 'smell right'—includes accounts with zero posts and thousands of followers with similar bios, accounts that only reply but don't clearly fit into the troll or reply guy mold, or clusters of accounts which appear designed to boost the content of another account. No associated block list.",
+						"description": "Applied to accounts which don't 'smell right'—includes accounts with zero posts and thousands of followers with similar bios, accounts that only reply but don't clearly fit into the troll or reply guy mold, or clusters of accounts which appear designed to boost the content of another account.",
 						"lang": "en",
 						"name": "Suspected Inauthentic Behavior"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
