@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:iwgztlbtspo6bjy25qgcllqi/app.bsky.labeler.service/self",
-  "cid": "bafyreifpiztloa7f6xmn6w6huu2xugsadkja4ocjokajl7euy3cfhbhtpi",
+  "cid": "bafyreicudykgyogzfhz6irydi2svwul6lbyulrifqritq3w64vupcx4vba",
   "creator": {
     "did": "did:plc:iwgztlbtspo6bjy25qgcllqi",
     "handle": "panslawek.pl",
@@ -14,10 +14,48 @@
     "description": "Promowanie kulturalnej dyskusji i dobrej zabawy poprzez moderowanie niewłaściwych zachowań.",
     "indexedAt": "2025-01-03T23:56:19.745Z"
   },
-  "indexedAt": "2025-01-03T18:25:12.464Z",
+  "indexedAt": "2025-01-06T12:30:09.846Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vip",
+        "locales": [
+          {
+            "description": "Very Important Person. Możesz się zgadzać, bądź nie, ale powinieneś znać ich zdanie.",
+            "lang": "pl",
+            "name": "⭐⭐⭐ VIP ⭐⭐⭐"
+          },
+          {
+            "description": "Very Important Person. You can agree or disagree, but you should know their opinion.",
+            "lang": "en",
+            "name": "⭐⭐⭐ VIP ⭐⭐⭐"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "motyl",
+        "locales": [
+          {
+            "description": "Pionier społeczności BlueSky, wspierał rozwój platformy poprzez promowanie otwartości, współpracy i tworzenie innowacyjnych rozwiązań.",
+            "lang": "pl",
+            "name": "Piękny Motyl 🦋"
+          },
+          {
+            "description": "a BlueSky community pioneer, fostered platform growth by promoting openness, collaboration, and creating innovative solutions.",
+            "lang": "en",
+            "name": "Beautiful butterfly 🦋"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -77,7 +115,7 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "trolle",
         "locales": [
@@ -267,6 +305,8 @@
       }
     ],
     "labelValues": [
+      "vip",
+      "motyl",
       "bot",
       "parody",
       "kontrowersje",
