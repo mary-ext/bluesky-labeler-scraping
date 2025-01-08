@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:r2wnx7eo2i4rflu6mlwxja6v/app.bsky.labeler.service/self",
-	"cid": "bafyreie4tfjj75ru24pyzm7uzwgui5kpr3c6ox4s4gva54c3qtssm5zuwi",
+	"cid": "bafyreihyz2gzqprywvgio5nybueihckwsvymknrbdurujug33vmmqg4d5u",
 	"creator": {
 		"did": "did:plc:r2wnx7eo2i4rflu6mlwxja6v",
 		"handle": "trulioo-test.bsky.social",
@@ -17,31 +17,35 @@
 		"createdAt": "2024-12-10T18:39:54.251Z",
 		"indexedAt": "2024-12-10T18:39:54.251Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2025-01-06T18:43:31.658Z",
+	"likeCount": 1,
+	"indexedAt": "2025-01-07T20:34:29.660Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
+				"adultOnly": false,
 				"blurs": "none",
+				"defaultSetting": "ignore",
 				"identifier": "real",
 				"locales": [
 					{
-						"description": "testing",
+						"description": "this is a real person",
 						"lang": "en",
-						"name": "real human 😊"
+						"name": "real_person"
 					}
 				],
 				"severity": "inform"
 			},
 			{
+				"adultOnly": false,
 				"blurs": "none",
+				"defaultSetting": "ignore",
 				"identifier": "bot",
 				"locales": [
 					{
-						"description": "testing",
+						"description": "this user is a bot",
 						"lang": "en",
-						"name": "robot 🤖"
+						"name": "robot"
 					}
 				],
 				"severity": "inform"
