@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreieqkmxffmz5l6usqg7ubnc5flt5fpzagrdbrzc6v5kye6cdp4a5ai",
+	"cid": "bafyreiabrvyhqllc4n5kabrtm2nxrea7uuse2w7efzi4kjk4irw6b6qe2m",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -18,8 +18,8 @@
 		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
 		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
-	"likeCount": 45,
-	"indexedAt": "2025-01-07T00:20:10.261Z",
+	"likeCount": 47,
+	"indexedAt": "2025-01-08T15:54:48.965Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -727,6 +727,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "retrogrouch",
+				"locales": [
+					{
+						"description": "Someone who resists the endless march of technology and enjoys a bike that is a simple machine.",
+						"lang": "en",
+						"name": "Retrogrouch"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "bike-community-builder",
 				"locales": [
 					{
@@ -1083,6 +1097,7 @@
 			"bikeshare-subscriber",
 			"bike-shitposter",
 			"uci-rule-disputer",
+			"retrogrouch",
 			"bike-community-builder",
 			"bike-party-goer",
 			"bike-courier",

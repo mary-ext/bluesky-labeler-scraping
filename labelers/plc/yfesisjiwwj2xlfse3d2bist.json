@@ -1,0 +1,147 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:yfesisjiwwj2xlfse3d2bist/app.bsky.labeler.service/self",
+	"cid": "bafyreidjib4zg4dtj2qm5hmv7lha7yq36hvnsvdzz7iwdtbxks7qn7riwy",
+	"creator": {
+		"did": "did:plc:yfesisjiwwj2xlfse3d2bist",
+		"handle": "classic.skywatch.blue",
+		"displayName": "Skywatch Classic",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yfesisjiwwj2xlfse3d2bist/bafkreibe3rkfylinjyimg5su4tmnfhgbbfy5gid2yvimyenhvjubtnqgmi@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-08T03:28:22.944Z",
+		"description": "The classic Skywatch experience. Labels applied are simply facts about a profile. There is no negation, so use labels and lists with caution.",
+		"indexedAt": "2025-01-08T05:03:09.044Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2025-01-08T04:30:07.157Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "blue-heart",
+				"locales": [
+					{
+						"description": "Username and / or description which includes 💙.",
+						"lang": "en",
+						"name": "💙: Blue Heart Emoji"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "follow-farming",
+				"locales": [
+					{
+						"description": "Applied to accounts which engage in indiscriminate follow farming and follow-back networks and applied to posts using hashtags or linking to sites utilized for follow-farming.",
+						"lang": "en",
+						"name": "Follow Farming"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "elon-musk",
+				"locales": [
+					{
+						"description": "Username, handle, and / or description which includes reference to Elon Musk.",
+						"lang": "en",
+						"name": "Elon Musk"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "hammer-sickle",
+				"locales": [
+					{
+						"description": "Username and / or description which includes ☭.",
+						"lang": "en",
+						"name": "☭: Hammer & Sickle"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "inverted-red-triangle",
+				"locales": [
+					{
+						"description": "Username and / or description which includes 🔻.",
+						"lang": "en",
+						"name": "🔻: Inverted Red Triangle"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "maga-trump",
+				"locales": [
+					{
+						"description": "Username and / or description which includes MAGA, MAHA, TRUMP, or TRUMP 2024, or posts with #MAGA and #TRUMP2024 hashtags or clear indicators of support for Trump. Also labels Trump associated figures (MTG, RFK Jr., his children, etc.)",
+						"lang": "en",
+						"name": "MAGA"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "nazi-symbolism",
+				"locales": [
+					{
+						"description": "Username, handle, and / or description which includes Nazi and neo-nazi symbols, including swastikas, references to the 14 words and Hitler's initials, or double lightning bolts.",
+						"lang": "en",
+						"name": "Nazi Symbolism"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "sports-betting",
+				"locales": [
+					{
+						"description": "Applied to posts which contain a link to sites commonly used for sports betting, such as Draft Kings or Fan Duel. If you or a loved one have a gambling problem, please find help here: https://www.ncpgambling.org/help-treatment/help-by-state/",
+						"lang": "en",
+						"name": "Sports Betting Link"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"blue-heart",
+			"elon-musk",
+			"follow-farming",
+			"hammer-sickle",
+			"inverted-red-triangle",
+			"maga-trump",
+			"nazi-symbolism",
+			"sports-betting"
+		]
+	}
+}

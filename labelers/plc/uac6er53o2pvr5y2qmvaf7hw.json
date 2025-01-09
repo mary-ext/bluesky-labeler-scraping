@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreiaxsmcxdhg5ew7p5frkecszz7ofliqbtd3sjubxusvxigu3injjoy",
+	"cid": "bafyreigkwftuelslquk3eqj24cudnqwupexscdq2ug4iclhyigrlo7dkru",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Read Pinned post for mission\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nFollow for PSAs\nCommitted to no use of !hide !warn etc outside illegality",
 		"indexedAt": "2024-12-24T13:25:15.343Z"
 	},
-	"likeCount": 509,
-	"indexedAt": "2024-12-16T14:26:10.461Z",
+	"likeCount": 510,
+	"indexedAt": "2025-01-08T18:37:40.051Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -72,7 +72,7 @@
 				"identifier": "evasion",
 				"locales": [
 					{
-						"description": "Ban evaders, multiple account holders, or using obfuscation to post slurs or other covered content",
+						"description": "Ban evaders, multiple account holders, or using obfuscation to post slurs and other covered content. Includes cross-linking of content from off-platform entities and people.",
 						"lang": "en",
 						"name": "Evasion"
 					}
@@ -86,7 +86,7 @@
 				"identifier": "violent",
 				"locales": [
 					{
-						"description": "Violent speech including media. Threats, incitement, celebration, wishing harm.",
+						"description": "Violent speech including media. Threats, incitement, celebration, wishing harm, hateful references to or denial of confirmed mass casualty events.",
 						"lang": "en",
 						"name": "Violent Content"
 					}
@@ -156,7 +156,7 @@
 				"identifier": "disinfo",
 				"locales": [
 					{
-						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events. Includes known 60/40 disinfo mixers.",
+						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events. Includes known 60/40 disinfo mixers. Includes unwitting disinfo spreaders, with appeal success chance high.",
 						"lang": "en",
 						"name": "Disinformation"
 					}
@@ -184,7 +184,7 @@
 				"identifier": "disruptive",
 				"locales": [
 					{
-						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace.",
+						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace. Includes apparent infiltrators, using inauthentic persona to sow division.",
 						"lang": "en",
 						"name": "Disruptive"
 					}
@@ -198,7 +198,7 @@
 				"identifier": "abusive",
 				"locales": [
 					{
-						"description": "Rude or impolite, including crude language and disrespectful comments, without constructive purpose.",
+						"description": "Rude or impolite, including crude language and disrespectful comments, without constructive purpose. Often combined with disinfo, disruptive, engagementfarmer, violent.",
 						"lang": "en",
 						"name": "Abusive"
 					}
@@ -212,7 +212,7 @@
 				"identifier": "engagementfarmer",
 				"locales": [
 					{
-						"description": "Insincere content or bulk actions aimed at gaining followers, including frequent follows, posts, and likes. Beware of off-site links.",
+						"description": "Insincere content or bulk actions aimed at gaining followers, including frequent follows, posts, and likes. Beware of off-site links. Includes possible or confirmed frauds.",
 						"lang": "en",
 						"name": "Engagement Farmer"
 					}

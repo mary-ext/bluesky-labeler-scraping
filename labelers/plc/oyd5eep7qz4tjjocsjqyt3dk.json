@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:oyd5eep7qz4tjjocsjqyt3dk/app.bsky.labeler.service/self",
-	"cid": "bafyreib6u2u7l4pa5l5ryuonslvx2pjmvtjiwwl5xa6kusyjggahvfthsa",
+	"cid": "bafyreibayiemguwi5hh226pasrzcu6rl3v4owctfazieg6tpkhulxm5bge",
 	"creator": {
 		"did": "did:plc:oyd5eep7qz4tjjocsjqyt3dk",
 		"handle": "hummingbird.blue",
@@ -15,10 +15,66 @@
 		"indexedAt": "2025-01-07T16:59:00.143Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-01-07T17:17:11.959Z",
+	"indexedAt": "2025-01-08T22:00:08.545Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "financial",
+				"locales": [
+					{
+						"description": "Suspicious solicitation of investment.",
+						"lang": "en",
+						"name": "financial"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "imperonation",
+				"locales": [
+					{
+						"description": "Impersonation of another person.",
+						"lang": "en",
+						"name": "Impersonation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "crypto",
+				"locales": [
+					{
+						"description": "Promotes cryptocurrency schemes.",
+						"lang": "en",
+						"name": "crypto"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "illuminati",
+				"locales": [
+					{
+						"description": "Secret society recruitment.",
+						"lang": "en",
+						"name": "illuminati"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -35,6 +91,10 @@
 			}
 		],
 		"labelValues": [
+			"financial",
+			"impersonation",
+			"crypto",
+			"illuminati",
 			"suspicious"
 		]
 	}
