@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreifkmvpq3nf7xlyeze4gubb7o73s4wxzzufkrqphawep7upqivprl4",
+	"cid": "bafyreicr5wgbsgpzsowqaklr7omnfoostigv4xmkkr2iaew7mebcebruhi",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -16,26 +16,26 @@
 		"labels": [],
 		"createdAt": "2024-02-20T06:15:04.884Z",
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service | Not able to perform takedowns",
-		"indexedAt": "2025-01-08T22:04:33.243Z"
+		"indexedAt": "2025-01-09T19:17:05.444Z"
 	},
-	"likeCount": 6893,
-	"indexedAt": "2025-01-06T21:27:20.963Z",
+	"likeCount": 6934,
+	"indexedAt": "2025-01-09T16:44:46.258Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "report-to-bsky",
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "blue-heart-emoji",
 				"locales": [
 					{
-						"description": "Skywatch does not deal with spam or porn. We are not capable of doing so and you are overwhelming the labeler. Please only report these accounts to @moderation.bsky.app and remember that sex work is real work. Do not set this label to hide, as it will sunset in a week.",
+						"description": "Username and / or Description contains 💙.",
 						"lang": "en",
-						"name": "DO NOT REPORT TO SKYWATCH.BLUE"
+						"name": "💙: Blue Heart Emoji"
 					}
 				],
-				"severity": "alert"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
@@ -58,7 +58,7 @@
 				"identifier": "suspect-inauthentic",
 				"locales": [
 					{
-						"description": "Applied to accounts which don't 'smell right'—includes accounts with zero posts and thousands of followers with similar bios, accounts that only reply but don't clearly fit into the troll or reply guy mold, or clusters of accounts which appear designed to boost the content of another account.",
+						"description": "Applied to accounts which don't 'smell right'—includes accounts with zero posts and thousands of followers with similar bios, accounts that only reply but don't clearly fit into the troll or reply guy mold, or clusters of accounts which appear designed to boost the content of another account.\n\nPlease note that accounts will only be added here after clear indication of inauthentic behavior. We will not and do not label accounts solely for linking to Only Fans. Sex work is real work.",
 						"lang": "en",
 						"name": "Suspected Inauthentic Behavior"
 					}
@@ -331,9 +331,7 @@
 			}
 		],
 		"labelValues": [
-			"report-to-bsky",
-			"urgent",
-			"needs-review",
+			"blue-heart-emoji",
 			"alf",
 			"alt-tech",
 			"automated-reply-guy",

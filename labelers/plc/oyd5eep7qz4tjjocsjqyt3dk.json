@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:oyd5eep7qz4tjjocsjqyt3dk/app.bsky.labeler.service/self",
-	"cid": "bafyreibayiemguwi5hh226pasrzcu6rl3v4owctfazieg6tpkhulxm5bge",
+	"cid": "bafyreidxufp4mgttjbliy4niqeo5yeuk4qwzwkmxhkabwyo5vuiezpe32a",
 	"creator": {
 		"did": "did:plc:oyd5eep7qz4tjjocsjqyt3dk",
 		"handle": "hummingbird.blue",
@@ -15,10 +15,39 @@
 		"indexedAt": "2025-01-07T16:59:00.143Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-01-08T22:00:08.545Z",
+	"indexedAt": "2025-01-09T16:02:40.661Z",
 	"labels": [],
 	"policies": {
+		"identifier": "unsolicited-follow",
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "unsolicited-dm",
+				"locales": [
+					{
+						"description": "Slides into DM's, often after an unsolicited follow. First DM may appear to be automated.",
+						"lang": "en",
+						"name": "Unsolicited DM"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "unsolicited-follow",
+				"locales": [
+					{
+						"description": "Behaves as if seeking out accounts to follow. Often follows up with unsolicited DM if followed back.",
+						"lang": "en",
+						"name": "Unsolicited Follow"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -91,6 +120,8 @@
 			}
 		],
 		"labelValues": [
+			"unsolicited-dm",
+			"unsolicited-follow",
 			"financial",
 			"impersonation",
 			"crypto",

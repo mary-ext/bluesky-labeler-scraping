@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreigirnwwluzdotu5utx4vghei2tm5f6ziqppboxtlq76drpao7wfga",
+	"cid": "bafyreibtljepaa5gdkzo25ylkpny7zor3vgc3sqmn2yevw3hfddlz5ejjq",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
 		"indexedAt": "2025-01-09T00:13:45.944Z"
 	},
-	"likeCount": 15,
-	"indexedAt": "2025-01-08T23:01:25.355Z",
+	"likeCount": 16,
+	"indexedAt": "2025-01-09T08:46:25.054Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -372,6 +372,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "san",
+				"locales": [
+					{
+						"description": "User is a fan of San",
+						"lang": "en",
+						"name": "San"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -399,7 +413,8 @@
 			"woodz",
 			"---stray-kids",
 			"---mingi",
-			"mingi"
+			"mingi",
+			"san"
 		]
 	}
 }
