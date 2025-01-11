@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-	"cid": "bafyreigkwftuelslquk3eqj24cudnqwupexscdq2ug4iclhyigrlo7dkru",
+	"cid": "bafyreibsyd7xmjxmdfpl2bezthb62eipayq4zyqvyxuk2eyk3y6p6r2u4u",
 	"creator": {
 		"did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
 		"handle": "nafo-moderation.bsky.social",
@@ -18,24 +18,24 @@
 		"description": "Read Pinned post for mission\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@nafo-moderation.org\nFollow for PSAs\nCommitted to no use of !hide !warn etc outside illegality",
 		"indexedAt": "2024-12-24T13:25:15.343Z"
 	},
-	"likeCount": 509,
-	"indexedAt": "2025-01-08T18:37:40.051Z",
+	"likeCount": 508,
+	"indexedAt": "2025-01-10T17:16:16.959Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "hide",
-				"identifier": "network",
+				"defaultSetting": "warn",
+				"identifier": "misinformation",
 				"locales": [
 					{
-						"description": "Apparent inauthentic profile, likely or visibly part of a bot or troll network.",
+						"description": "Unintentional mistakes, including dissemination of benign content from 60/40 disinfo accounts, and innocent but harmful factual errors.",
 						"lang": "en",
-						"name": "Network Member"
+						"name": "Misinformation"
 					}
 				],
-				"severity": "alert"
+				"severity": "inform"
 			},
 			{
 				"adultOnly": false,
@@ -58,7 +58,7 @@
 				"identifier": "blocks",
 				"locales": [
 					{
-						"description": "Account blocks moderation. Exercise caution and critical thinking. Other labels may be present if reliably reported.",
+						"description": "Account blocks NAFO Forum Moderation Service. Exercise caution and critical thinking. Other labels may be present if reliably reported.",
 						"lang": "en",
 						"name": "Blocks Moderation"
 					}
@@ -156,7 +156,7 @@
 				"identifier": "disinfo",
 				"locales": [
 					{
-						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events. Includes known 60/40 disinfo mixers. Includes unwitting disinfo spreaders, with appeal success chance high.",
+						"description": "Account is well-known as a spreader of disinformation, or  post contains disinformation. Includes denial of documented events. Includes known 60/40 disinfo mixers.",
 						"lang": "en",
 						"name": "Disinformation"
 					}
@@ -184,7 +184,7 @@
 				"identifier": "disruptive",
 				"locales": [
 					{
-						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace. Includes apparent infiltrators, using inauthentic persona to sow division.",
+						"description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace. Includes apparent infiltrators, using inauthentic persona to sow division. Includes nuisance repliers and quote posters, often also labeled Abusive.",
 						"lang": "en",
 						"name": "Disruptive"
 					}
@@ -221,6 +221,7 @@
 			}
 		],
 		"labelValues": [
+			"misinformation",
 			"network",
 			"caution",
 			"blocks",
