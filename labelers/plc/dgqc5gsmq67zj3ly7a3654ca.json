@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dgqc5gsmq67zj3ly7a3654ca/app.bsky.labeler.service/self",
-  "cid": "bafyreiaank6fwvggmpbaitu33lpzjtnn3r7ovzq2zvggqueg7spodejbpq",
+  "cid": "bafyreigjqcseuui7ymnkqt3plymay55p5rnpb5lm4y3e6fmbkokll46jkq",
   "creator": {
     "did": "did:plc:dgqc5gsmq67zj3ly7a3654ca",
     "handle": "faerunlabels.bsky.social",
@@ -13,7 +13,7 @@
     "createdAt": "2024-11-16T15:48:02.986Z",
     "indexedAt": "2024-11-16T15:48:02.986Z"
   },
-  "indexedAt": "2024-11-25T20:56:20.053Z",
+  "indexedAt": "2025-01-10T21:25:29.055Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -86,6 +86,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test",
+        "locales": [
+          {
+            "description": "Test-desc",
+            "lang": "en",
+            "name": "Test"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -93,7 +107,8 @@
       "warlock",
       "rogue",
       "bard",
-      "barbarian"
+      "barbarian",
+      "test"
     ]
   }
 }
