@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:2qawvcwumvgxmed6iy6pmt6l/app.bsky.labeler.service/self",
-	"cid": "bafyreibs4qhqavbys6m56m36bdpp7pbrzrnvn6glo6mpxcpdku476g6eoy",
+	"cid": "bafyreidqa76l3dlixhsosun7yqls4iyydx6bwlaclkwuuvlvibvrrixd3u",
 	"creator": {
 		"did": "did:plc:2qawvcwumvgxmed6iy6pmt6l",
 		"handle": "sonasky.app",
@@ -18,8 +18,8 @@
 		"description": "Show off your fursona (label)!\n❓: Add=❤️! Remove=💔.\n🔍: Browse/Status: https://sonasky.app\nAlso Sub to @pokemon.sonasky.app !\n\n🐇🧑‍💻: @astra.bunnys.ky <- 18+\n🖼️: @snowfox.gay <- 18+",
 		"indexedAt": "2024-12-04T20:09:31.946Z"
 	},
-	"likeCount": 4438,
-	"indexedAt": "2024-12-29T02:24:08.464Z",
+	"likeCount": 4441,
+	"indexedAt": "2025-01-11T22:42:55.086Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -9584,6 +9584,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sonasky-ref-sheet-user",
+				"locales": [
+					{
+						"description": "This user has a SonaSky Ref Sheet! On their profile page, change the \"b\" in \"bsky.app\" in the URL to an \"s\", or look them up on https://ref.sonasky.app\n",
+						"lang": "en",
+						"name": "ℹ️ Has SonaSky Ref Sheet"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -10269,7 +10283,8 @@
 			"zonai",
 			"selkie",
 			"monster-hunter-creature",
-			"t-rex"
+			"t-rex",
+			"sonasky-ref-sheet-user"
 		]
 	}
 }
