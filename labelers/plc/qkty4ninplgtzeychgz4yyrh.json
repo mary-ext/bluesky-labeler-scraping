@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreicrkr3jwzbq6ucwglf3cprncdillkdgu6axwesetrlvrh4i3ddtxu",
+	"cid": "bafyreic5uscqubhej2zy2koiwl5lf6ujhkuy53evyjqcnydxuwkxjhndxa",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bike.community",
@@ -18,8 +18,8 @@
 		"description": "A labeling service for @bike.community that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
 		"indexedAt": "2024-12-29T18:07:11.743Z"
 	},
-	"likeCount": 51,
-	"indexedAt": "2025-01-09T16:32:35.859Z",
+	"likeCount": 57,
+	"indexedAt": "2025-01-12T18:27:35.766Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -1019,6 +1019,20 @@
 			},
 			{
 				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "anti-cyclist",
+				"locales": [
+					{
+						"description": "This content has been marked as anti-cyclist because it expressed hatred, bias or prejudice towards people who ride bikes.",
+						"lang": "en",
+						"name": "Anti-Cyclist"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "ignore",
 				"identifier": "bikecommunity-unrelated",
@@ -1132,6 +1146,7 @@
 			"impersonation",
 			"nsfw",
 			"intolerant",
+			"anti-cyclist",
 			"bikecommunity-unrelated",
 			"bikesky-unrelated",
 			"procycling-unrelated"

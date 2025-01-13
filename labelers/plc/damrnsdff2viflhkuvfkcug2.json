@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:damrnsdff2viflhkuvfkcug2/app.bsky.labeler.service/self",
-	"cid": "bafyreif2mr6vzoihzj2b7ibnbbl4zg5rsazkbhgtiizex6lghf6qhgkhfe",
+	"cid": "bafyreihvg6tudugdgd4nlslvgbpupvgo5ztqdidmnj4jsrl4a53qj2yuje",
 	"creator": {
 		"did": "did:plc:damrnsdff2viflhkuvfkcug2",
 		"handle": "nafo.fellas.social",
@@ -14,17 +14,17 @@
 			{
 				"src": "did:plc:damrnsdff2viflhkuvfkcug2",
 				"uri": "at://did:plc:damrnsdff2viflhkuvfkcug2/app.bsky.actor.profile/self",
-				"cid": "bafyreicumcntco4rltp55d4vvwxsgmntv5aico52kzy7fqq2qunbtsxcky",
+				"cid": "bafyreic3w77gqr5cjkwgsnztzalagcf7m2ne25vnx4ggr5npg5vudvw5ly",
 				"val": "nafo-elderly",
 				"cts": "2024-12-30T19:33:09.040Z"
 			}
 		],
 		"createdAt": "2024-11-10T11:28:35.182Z",
-		"description": "Trying to fight disinformation automatically. \n",
-		"indexedAt": "2025-01-10T14:34:21.142Z"
+		"description": "Fighting disinformation. \nEvaluating posts for links to disinformation sites, social media users or Bluesky mentions who is known for disinformation. Do not evaluate user profiles or behavior. User will be labeled if post with disinfo passes threshhold. ",
+		"indexedAt": "2025-01-12T15:41:37.744Z"
 	},
 	"likeCount": 18,
-	"indexedAt": "2025-01-03T23:39:13.961Z",
+	"indexedAt": "2025-01-12T15:17:12.158Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -35,7 +35,7 @@
 				"identifier": "nafo",
 				"locales": [
 					{
-						"description": "NAFO fella, fighting disinformation and helping Ukraine.",
+						"description": "Badge of honor. NAFO fella, fighting disinformation and helping Ukraine.",
 						"lang": "en",
 						"name": "NAFO"
 					}
@@ -63,7 +63,7 @@
 				"identifier": "maga",
 				"locales": [
 					{
-						"description": "Username, description or postings clear indicators of support for the MAGA movement. This includes MAGA, MAHA, TRUMP or TRUMP2024 in description. Posts with #MAGA or #TRUMP2024 hashtags. ",
+						"description": "User has posted MAGA related posts over threshold and is permanently labeled. All user post will be labeled without regard on content.",
 						"lang": "en",
 						"name": "MAGA"
 					}
@@ -91,7 +91,7 @@
 				"identifier": "pro-kremlin",
 				"locales": [
 					{
-						"description": "The post, or user, has a clear pro-Kremlin profile.",
+						"description": "User has posted pro-kremlin related posts over threshold and is permanently labeled. All user post will be labeled without regard on content.",
 						"lang": "en",
 						"name": "Pro-Kremlin"
 					}
@@ -105,7 +105,7 @@
 				"identifier": "disinformation-network",
 				"locales": [
 					{
-						"description": "The post link, or the user regularly posts links to sources known to be disinformation networks.",
+						"description": "The post contains link to known disinformation website.",
 						"lang": "en",
 						"name": "Disinformation network"
 					}
@@ -115,9 +115,7 @@
 		],
 		"labelValues": [
 			"nafo",
-			"nafo-elderly",
 			"maga",
-			"scammer",
 			"pro-kremlin",
 			"disinformation-network"
 		]

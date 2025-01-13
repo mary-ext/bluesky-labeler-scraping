@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:oyd5eep7qz4tjjocsjqyt3dk/app.bsky.labeler.service/self",
-	"cid": "bafyreidxufp4mgttjbliy4niqeo5yeuk4qwzwkmxhkabwyo5vuiezpe32a",
+	"cid": "bafyreibwbtm533peayugpzw43uc7rypswr2hfhurfvwjpnvb3xi4ss4kea",
 	"creator": {
 		"did": "did:plc:oyd5eep7qz4tjjocsjqyt3dk",
 		"handle": "hummingbird.blue",
@@ -15,11 +15,25 @@
 		"indexedAt": "2025-01-07T16:59:00.143Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-01-09T16:02:40.661Z",
+	"indexedAt": "2025-01-12T11:47:00.656Z",
 	"labels": [],
 	"policies": {
 		"identifier": "unsolicited-follow",
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "lottery",
+				"locales": [
+					{
+						"description": "Promotes shady lotteries or sweepstakes.",
+						"lang": "en",
+						"name": "Lottery"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -120,6 +134,7 @@
 			}
 		],
 		"labelValues": [
+			"lottery",
 			"unsolicited-dm",
 			"unsolicited-follow",
 			"financial",

@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:iwgztlbtspo6bjy25qgcllqi/app.bsky.labeler.service/self",
-	"cid": "bafyreicudykgyogzfhz6irydi2svwul6lbyulrifqritq3w64vupcx4vba",
+	"cid": "bafyreibxf2yzht3o6swde2pb4rkjimtm76dhhyx37jv6nxphx3dszlv44y",
 	"creator": {
 		"did": "did:plc:iwgztlbtspo6bjy25qgcllqi",
 		"handle": "panslawek.pl",
@@ -13,13 +13,32 @@
 		"labels": [],
 		"createdAt": "2025-01-03T16:35:57.644Z",
 		"description": "Promowanie kulturalnej dyskusji i dobrej zabawy poprzez moderowanie niewłaściwych zachowań.",
-		"indexedAt": "2025-01-03T23:56:19.745Z"
+		"indexedAt": "2025-01-12T20:39:08.344Z"
 	},
-	"likeCount": 155,
-	"indexedAt": "2025-01-06T12:30:09.846Z",
+	"likeCount": 167,
+	"indexedAt": "2025-01-12T20:35:03.559Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "inspirator",
+				"locales": [
+					{
+						"description": " „Inspirator” jest przyznawane osobom, które swoją systematyczną aktywnością i zaangażowaniem wspierają codzienne funkcjonowanie polskiej społeczności BlueSky. Prezentują ciekawe informacje z zakresu wiedzy ogólnej, zainteresowań, nauki lub prawa.",
+						"lang": "pl",
+						"name": "Inspirator 🖊️"
+					},
+					{
+						"description": "„The Inspirator” is awarded to individuals who, through their consistent activity and involvement, support the daily functioning of the Polish BlueSky community. They present interesting information in the fields of general knowledge, interests, science, or law.",
+						"lang": "en",
+						"name": "The Inspirer 🖊️"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -307,6 +326,7 @@
 			}
 		],
 		"labelValues": [
+			"inspirator",
 			"vip",
 			"motyl",
 			"bot",
