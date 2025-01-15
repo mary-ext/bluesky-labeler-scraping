@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:r2wnx7eo2i4rflu6mlwxja6v/app.bsky.labeler.service/self",
-  "cid": "bafyreid3t2uzroopqaoh3oty5zr33vq7hg7i5z3sojh45s6eurotfdyfly",
+  "cid": "bafyreibdy7lr2wqkjcr3op4lgbfk6aiairu52326ydd7xkjmrv5uzltw3i",
   "creator": {
     "did": "did:plc:r2wnx7eo2i4rflu6mlwxja6v",
     "handle": "trulioo-test.bsky.social",
@@ -16,30 +16,48 @@
     "createdAt": "2024-12-10T18:39:54.251Z",
     "indexedAt": "2024-12-10T18:39:54.251Z"
   },
-  "indexedAt": "2025-01-08T21:41:04.350Z",
+  "indexedAt": "2025-01-14T20:53:10.066Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
+        "adultOnly": false,
         "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "real",
         "locales": [
           {
-            "description": "testing",
+            "description": "real_human 🧑",
             "lang": "en",
-            "name": "real human 😊"
+            "name": "verified 🧑"
           }
         ],
         "severity": "inform"
       },
       {
+        "adultOnly": false,
         "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "bot",
         "locales": [
           {
-            "description": "testing",
+            "description": "robot 🤖",
             "lang": "en",
-            "name": "robot 🤖"
+            "name": "bot 🤖"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test",
+        "locales": [
+          {
+            "description": "test identifier",
+            "lang": "en",
+            "name": "test 🧪"
           }
         ],
         "severity": "inform"
@@ -47,7 +65,8 @@
     ],
     "labelValues": [
       "real",
-      "bot"
+      "bot",
+      "test"
     ]
   }
 }
