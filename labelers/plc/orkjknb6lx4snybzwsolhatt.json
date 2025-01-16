@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:orkjknb6lx4snybzwsolhatt/app.bsky.labeler.service/self",
-	"cid": "bafyreidq5fe43rkagqj7ufmuzfuuyu7sb2buqp2kiwhudymskvfg2adghi",
+	"cid": "bafyreif7zh3lm72n7zeun7tdrqtvfkxives2uyklzca3xvyhpnq2ns2ktu",
 	"creator": {
 		"did": "did:plc:orkjknb6lx4snybzwsolhatt",
 		"handle": "labeler.bsky.imax.in.ua",
@@ -15,7 +15,7 @@
 		"indexedAt": "2024-03-26T12:28:46.910Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-11-04T09:54:20.783Z",
+	"indexedAt": "2025-01-15T13:12:14.251Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -59,12 +59,26 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "",
+						"lang": "uk",
+						"name": "test"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"homophobia",
 			"misogyny",
-			"ru"
+			"ru",
+			"test"
 		]
 	}
 }

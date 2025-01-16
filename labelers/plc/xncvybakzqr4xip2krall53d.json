@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xncvybakzqr4xip2krall53d/app.bsky.labeler.service/self",
-	"cid": "bafyreidl6tgauoqyqutaouv4xnjwcgzvrjlqdvprnfal6pkipfvzrgp5ai",
+	"cid": "bafyreib56uu4k5pzuypys4epqjszkwku3dx6jbja2lp7f7wj6zrec2ukfy",
 	"creator": {
 		"did": "did:plc:xncvybakzqr4xip2krall53d",
 		"handle": "no-nafo-fomo.uk",
@@ -16,9 +16,72 @@
 		"indexedAt": "2025-01-12T21:57:01.245Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-01-14T07:19:31.954Z",
+	"indexedAt": "2025-01-15T23:58:22.861Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "Brigading",
+				"locales": [
+					{
+						"description": "Part of apparent coordinated harassment by NAFO. Applies regardless of merit, on the basis that coordinated harassment is anti-social.",
+						"lang": "en",
+						"name": "Brigading"
+					}
+				],
+				"severity": "info"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "Trolling",
+				"locales": [
+					{
+						"description": "Fella provoking or baiting other users into argument via replies. Includes concern trolling.",
+						"lang": "en",
+						"name": "Trolling"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "Genocide-Denial",
+				"locales": [
+					{
+						"description": "Denies or intentionally mitigates genocide and related crimes against humanity in contradiction to well substantiated claims to the contrary. Goes beyond mere misinformation or speculation.",
+						"lang": "en",
+						"name": "Genocide Denial"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "hide",
+				"identifier": "Fella",
+				"locales": [
+					{
+						"description": "Account consistently posts NAFO tags/memes, or account profile contains a NAFO pfp/header. ",
+						"lang": "en",
+						"name": "Fella"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"Fella",
+			"Trolling",
+			"Brigading",
+			"Genocide-Denial"
+		]
 	}
 }

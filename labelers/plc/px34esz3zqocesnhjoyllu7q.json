@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:px34esz3zqocesnhjoyllu7q/app.bsky.labeler.service/self",
-	"cid": "bafyreia5thmufky7vqfm6u7b7upfcikyspswgve3ic4qg5osy5pvnlf6ke",
+	"cid": "bafyreifb3hqwrdkxvxn44k73cxyen5hlz3opna52ekuxs23x2bcwuois4a",
 	"creator": {
 		"did": "did:plc:px34esz3zqocesnhjoyllu7q",
 		"handle": "verifiedbsky.net",
@@ -15,8 +15,8 @@
 		"description": "This profile hosts verified lists of Bluesky users but is in no way affiliated with Bluesky. Verification sources are in the Tech / IT industry. Go to https://verifiedbsky.net to learn more.",
 		"indexedAt": "2025-01-14T22:44:18.140Z"
 	},
-	"likeCount": 36,
-	"indexedAt": "2025-01-13T21:08:07.756Z",
+	"likeCount": 39,
+	"indexedAt": "2025-01-15T21:45:31.863Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -131,6 +131,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "colorcloud",
+				"locales": [
+					{
+						"description": "Speakers at ColorCloud (see https://colorcloud.rocks/)",
+						"lang": "en",
+						"name": "ColorCloud Speaker"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -141,7 +155,8 @@
 			"javachamps",
 			"cncfamb",
 			"oracleace",
-			"cttt"
+			"cttt",
+			"colorcloud"
 		]
 	}
 }
