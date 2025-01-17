@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreidl65ylwi22nbum7pvdcj45gtv5esqdgz66afii4asbocbm3t2b2y",
+	"cid": "bafyreicofct42sd7ziypymv7eubrveqbtncqjncvciinxk24agfcmilqim",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
 		"indexedAt": "2025-01-09T00:13:45.944Z"
 	},
-	"likeCount": 20,
-	"indexedAt": "2025-01-15T17:00:40.352Z",
+	"likeCount": 21,
+	"indexedAt": "2025-01-16T09:17:09.651Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -456,6 +456,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "dive",
+				"locales": [
+					{
+						"description": "User is a fan of Dive",
+						"lang": "en",
+						"name": "Dive"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "twice",
+				"locales": [
+					{
+						"description": "Once\nUser is a fan of Twice",
+						"lang": "en",
+						"name": "Twice"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nmixx",
+				"locales": [
+					{
+						"description": "User is a fan of Nmixx",
+						"lang": "en",
+						"name": "Nmixx"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "itzy",
+				"locales": [
+					{
+						"description": "Midzy\nUser is a fan of ITZY",
+						"lang": "en",
+						"name": "ITZY"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -489,7 +545,11 @@
 			"---bts",
 			"mamamoo",
 			"---ive",
-			"monsta-x"
+			"monsta-x",
+			"dive",
+			"twice",
+			"nmixx",
+			"itzy"
 		]
 	}
 }
