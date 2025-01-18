@@ -19,6 +19,8 @@ const chunked = <T>(arr: T[], size: number): T[][] => {
 let dids: At.DID[];
 
 await fs.rm('./labelers/', { force: true, recursive: true });
+await fs.mkdir('./labelers/plc', { recursive: true });
+await fs.mkdir('./labelers/web', { recursive: true });
 
 {
 	const resp = await fetch('https://blue.mackuba.eu/xrpc/blue.feeds.mod.getLabellers');
@@ -47,9 +49,7 @@ await fs.rm('./labelers/', { force: true, recursive: true });
 			for (const view of views) {
 				const did = view.creator.did;
 				const filename = `./labelers/${did.slice(4).replaceAll(':', '/')}.json`;
-				const dirname = path.dirname(filename);
 
-				await fs.mkdir(dirname, { recursive: true });
 				await fs.writeFile(filename, JSON.stringify(view, null, '\t'));
 			}
 		}),
