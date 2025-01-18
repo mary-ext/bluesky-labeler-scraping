@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:puwpwvhdwjzz4afmfb33b7vd/app.bsky.labeler.service/self",
+	"cid": "bafyreif5jyash2bgxnypprdc3cmlas4eluect2u2fdcbml2p7fgglgisua",
+	"creator": {
+		"did": "did:plc:puwpwvhdwjzz4afmfb33b7vd",
+		"handle": "girlbye.social",
+		"displayName": "Girl Bye Moderation Service",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-18T04:46:46.643Z",
+		"description": "Community Bluesky moderation service.",
+		"indexedAt": "2025-01-18T06:57:20.142Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-01-18T06:51:30.447Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "media",
+				"defaultSetting": "warn",
+				"identifier": "anti-labelling",
+				"locales": [
+					{
+						"description": "Accounts that fail to label their media appropriately.",
+						"lang": "en",
+						"name": "Anti-Labelling"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"anti-labelling"
+		]
+	}
+}

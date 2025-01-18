@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreidliukavp3kjksrp6h4qhseqtgniggqr7lympiy5a5pmoxdc6kf3i",
+	"cid": "bafyreieu4pcouzcltstudebhbqhe37noituaasknnubdfefgx2joczkvmi",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 349,
-	"indexedAt": "2025-01-04T17:47:54.476Z",
+	"likeCount": 351,
+	"indexedAt": "2025-01-18T05:55:04.161Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5244,6 +5244,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "act-rules-act-rules-github-io",
+				"locales": [
+					{
+						"description": "Accessibility conformance testing rules for HTML\nhttps://github.com/act-rules/act-rules.github.io",
+						"lang": "en",
+						"name": "act-rules/act-rules.github.io"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lune-org-lune",
+				"locales": [
+					{
+						"description": "A standalone Luau runtime\nhttps://github.com/lune-org/lune",
+						"lang": "en",
+						"name": "lune-org/lune"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zeroxfiveeal-luau-unzip",
+				"locales": [
+					{
+						"description": "Unzip implementation in pure Luau\nhttps://github.com/0x5eal/luau-unzip",
+						"lang": "en",
+						"name": "0x5eal/luau-unzip"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "discordluau-discord-luau",
+				"locales": [
+					{
+						"description": "A Luau library for creating Discord bots, powered by Lune\nhttps://github.com/DiscordLuau/discord-luau",
+						"lang": "en",
+						"name": "DiscordLuau/discord-luau"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5619,7 +5675,11 @@
 			"pnp-generator-teams",
 			"santoshyadavdev-garmin-api",
 			"angular-angular",
-			"angular-angular-cli"
+			"angular-angular-cli",
+			"act-rules-act-rules-github-io",
+			"lune-org-lune",
+			"zeroxfiveeal-luau-unzip",
+			"discordluau-discord-luau"
 		]
 	}
 }

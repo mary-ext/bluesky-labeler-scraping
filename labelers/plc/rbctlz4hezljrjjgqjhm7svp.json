@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreicofct42sd7ziypymv7eubrveqbtncqjncvciinxk24agfcmilqim",
+	"cid": "bafyreiabkxxhgnpibo3pysbs6me6rzukoc5lp7pke5rr2hr3osi5v35azq",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
 		"indexedAt": "2025-01-09T00:13:45.944Z"
 	},
-	"likeCount": 21,
-	"indexedAt": "2025-01-16T09:17:09.651Z",
+	"likeCount": 23,
+	"indexedAt": "2025-01-18T11:06:50.356Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -512,6 +512,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---yeri",
+				"locales": [
+					{
+						"description": "User is a fan of Yeri\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 Yeri"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---blackpink",
+				"locales": [
+					{
+						"description": "Blink\nUser is a fan of Blackpink\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 Blackpink"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -549,7 +577,9 @@
 			"dive",
 			"twice",
 			"nmixx",
-			"itzy"
+			"itzy",
+			"---yeri",
+			"---blackpink"
 		]
 	}
 }
