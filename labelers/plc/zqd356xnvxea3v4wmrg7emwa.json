@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-	"cid": "bafyreiaswlbz24h4eadvbxm4lfjeqznphvs4qxy2n6xs3vz4aivkxh6ole",
+	"cid": "bafyreiaxv6rcaitmrlxmi45oihrxyeivfideluqum5fagvycvbcif2fqva",
 	"creator": {
 		"did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
 		"handle": "pridelabeller.bsky.social",
@@ -18,11 +18,81 @@
 		"description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
 		"indexedAt": "2024-12-25T20:32:18.543Z"
 	},
-	"likeCount": 14,
-	"indexedAt": "2025-01-17T15:30:38.364Z",
+	"likeCount": 15,
+	"indexedAt": "2025-01-19T13:56:39.160Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "arospike",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Arospike"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neptunic",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Neptunic"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "demifluid",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Demifluid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "demiboy",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Demiboy"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "demigirl",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Demigirl"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -333,6 +403,11 @@
 			}
 		],
 		"labelValues": [
+			"arospike",
+			"neptunic",
+			"demifluid",
+			"demiboy",
+			"demigirl",
 			"demiromantic",
 			"questioning",
 			"check-bio",

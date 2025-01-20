@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qcxrrqqjonovvsbiem4fadnu/app.bsky.labeler.service/self",
-	"cid": "bafyreigpfrwb4k34eolrgxgpiu5r6o3ah2v5kogdppy4cwgie5pt6opuxi",
+	"cid": "bafyreicsj62e7xotpo7bazhgbgbcuzseop76fieqk64hqxn25uhb3axm3m",
 	"creator": {
 		"did": "did:plc:qcxrrqqjonovvsbiem4fadnu",
-		"handle": "thisisnotalabeler.pds.darktru.win",
+		"handle": "handle.invalid",
 		"displayName": "fake ocbwoy3 [NOT A LABELER]",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qcxrrqqjonovvsbiem4fadnu/bafkreic6rueevsrhdargsaoo7c3fgexct3t7pc3ipbnogx7uygttgc3yzi@jpeg",
 		"associated": {
@@ -19,7 +19,7 @@
 		"indexedAt": "2025-01-03T01:15:39.742Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-12-27T11:50:21.050Z",
+	"indexedAt": "2025-01-19T20:09:23.352Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -50,13 +50,28 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "skid",
+				"locales": [
+					{
+						"description": "This user is a certified Skid",
+						"lang": "en",
+						"name": "Skid"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
 			"!hide",
 			"!warn",
 			"rr34",
-			"condo"
+			"condo",
+			"skid"
 		]
 	}
 }
