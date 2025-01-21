@@ -1,0 +1,41 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:5ryh32gawocjdltnizcuafaa/app.bsky.labeler.service/self",
+	"cid": "bafyreibxqree6xxy4bphkgq273q5563shxq4mvelkoefk4zu2hyja6vtgi",
+	"creator": {
+		"did": "did:plc:5ryh32gawocjdltnizcuafaa",
+		"handle": "faktenbot.volksverpetzer.de",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5ryh32gawocjdltnizcuafaa/bafkreia63fkt3uhwpkwr3efoqibo33xx3hp72b7e55s3ggcjnxspbqfd2i@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2024-12-16T12:38:27.043Z",
+		"indexedAt": "2024-12-16T12:38:27.043Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-01-20T19:53:44.757Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bad-rep",
+				"locales": [
+					{
+						"description": "Has distributed fakes in the past",
+						"lang": "en",
+						"name": "Bad Reputation"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"bad-rep"
+		]
+	}
+}

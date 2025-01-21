@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-	"cid": "bafyreigbep33zl2sygibluwgjwzzx2y7irzchbggk3p4d4l4jhiauzjcz4",
+	"cid": "bafyreicp72v4jxiz5hupa3g4fbxw7zgrf7nijaymyqazdf4adq5jhzgeju",
 	"creator": {
 		"did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
 		"handle": "labeler.urbanism.plus",
@@ -15,8 +15,8 @@
 		"description": "Subscribe, Like & Comment what labels you'd like.\n\nPlease only report \"garbage\" \"carbrain\" and \"NIMBY\"",
 		"indexedAt": "2025-01-13T06:32:22.544Z"
 	},
-	"likeCount": 31,
-	"indexedAt": "2025-01-12T21:08:09.755Z",
+	"likeCount": 32,
+	"indexedAt": "2025-01-20T22:17:34.671Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -313,6 +313,34 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nimby",
+				"locales": [
+					{
+						"description": "Not In My BackYard--everyone hates us",
+						"lang": "en",
+						"name": "NIMBY"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "active-x-user",
+				"locales": [
+					{
+						"description": "These urbanists are active on X/twitter. Consider unfollowing and let it be known that you do not support fascism",
+						"lang": "en",
+						"name": "ActiveXUser"
+					}
+				],
+				"severity": "alert"
 			}
 		],
 		"labelValues": [
@@ -336,7 +364,8 @@
 			"placeholder-three",
 			"garbage",
 			"nimby",
-			"carbrain"
+			"carbrain",
+			"active-x-user"
 		]
 	}
 }
