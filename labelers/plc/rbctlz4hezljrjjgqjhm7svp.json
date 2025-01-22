@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreihzctnnskuknh3buahdvfypizekkdcjj67aog6p72pamypvj65xxq",
+  "cid": "bafyreibbpxzlrrpeypm6hrq5kqizbd3yxvuwvw257yf453wqwqapyitrm4",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
     "indexedAt": "2025-01-09T00:13:45.944Z"
   },
-  "indexedAt": "2025-01-18T16:33:32.760Z",
+  "indexedAt": "2025-01-21T22:31:24.967Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -566,6 +566,76 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "infinite",
+        "locales": [
+          {
+            "description": "Inspirit\nUser is a fan of Infinite",
+            "lang": "en",
+            "name": "Infinite"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "btob",
+        "locales": [
+          {
+            "description": "Melody\nUser is a fan of BTOB",
+            "lang": "en",
+            "name": "BTOB"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "b-a-p",
+        "locales": [
+          {
+            "description": "BABY\nUser is a fan of B.A.P",
+            "lang": "en",
+            "name": "B.A.P"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nam-woohyun",
+        "locales": [
+          {
+            "description": "User is a fan of Nam Woohyun",
+            "lang": "en",
+            "name": "Nam Woohyun"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lim-hyunsik",
+        "locales": [
+          {
+            "description": "User is a fan of Lim Hyunsik",
+            "lang": "en",
+            "name": "Lim Hyunsik"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -607,7 +677,12 @@
       "---yeri",
       "---blackpink",
       "ningning",
-      "natty"
+      "natty",
+      "infinite",
+      "btob",
+      "b-a-p",
+      "nam-woohyun",
+      "lim-hyunsik"
     ]
   }
 }
