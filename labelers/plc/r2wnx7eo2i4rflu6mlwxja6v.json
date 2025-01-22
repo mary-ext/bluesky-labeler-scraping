@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:r2wnx7eo2i4rflu6mlwxja6v/app.bsky.labeler.service/self",
-	"cid": "bafyreibdy7lr2wqkjcr3op4lgbfk6aiairu52326ydd7xkjmrv5uzltw3i",
+	"cid": "bafyreiewsbndp4pmehutw4pfpcjjtja33kvie27to6wvxw3ziufkdu2a7y",
 	"creator": {
 		"did": "did:plc:r2wnx7eo2i4rflu6mlwxja6v",
 		"handle": "trulioo-test.bsky.social",
@@ -18,7 +18,7 @@
 		"indexedAt": "2024-12-10T18:39:54.251Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2025-01-14T20:53:10.066Z",
+	"indexedAt": "2025-01-21T21:18:21.149Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -63,12 +63,57 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "testing",
+				"locales": [
+					{
+						"description": "test identifier 2",
+						"lang": "en",
+						"name": "test_2 🧪"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "testing3",
+				"locales": [
+					{
+						"description": "test identifier 3",
+						"lang": "en",
+						"name": "test_3 🧪"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "license",
+				"locales": [
+					{
+						"description": "Information has been verified via US drivers license verification check",
+						"lang": "en",
+						"name": "🪪 drivers license"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"real",
 			"bot",
-			"test"
+			"test",
+			"testing",
+			"testing3",
+			"license"
 		]
 	}
 }

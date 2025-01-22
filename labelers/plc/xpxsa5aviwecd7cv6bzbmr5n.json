@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreidhstyjgeltyiusj5xtspqxvsmlldvwwyzmcmagm4gqzy4tv3nwkm",
+	"cid": "bafyreidtozgdcx3xlwmtswqtuh4a4qpygbjzrvcyee3vgoyu4vtyzjf6uy",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 353,
-	"indexedAt": "2025-01-20T05:45:40.559Z",
+	"likeCount": 355,
+	"indexedAt": "2025-01-21T18:14:16.677Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5328,6 +5328,76 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "maxisjoe-unitystation",
+				"locales": [
+					{
+						"description": "The MIJ fork of the original unitystation\nhttps://github.com/MaxIsJoe/unitystation",
+						"lang": "en",
+						"name": "MaxIsJoe/unitystation"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "godotengine-godot",
+				"locales": [
+					{
+						"description": "Godot Engine – Multi-platform 2D and 3D game engine\nhttps://github.com/godotengine/godot",
+						"lang": "en",
+						"name": "godotengine/godot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "unitystation-unitystation",
+				"locales": [
+					{
+						"description": "The original unitystation\nhttps://github.com/unitystation/unitystation",
+						"lang": "en",
+						"name": "unitystation/unitystation"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jdhitsolutions-psbluesky",
+				"locales": [
+					{
+						"description": "A set of PowerShell 7 commands that use the BlueSky API. You can skeet and upload images from a PowerShell prompt as well as view your feed and timeline.\nhttps://github.com/jdhitsolutions/PSBluesky",
+						"lang": "en",
+						"name": "jdhitsolutions/PSBluesky"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jdhitsolutions-psscripttools",
+				"locales": [
+					{
+						"description": ":wrench: :hammer: A set of PowerShell functions you might use to enhance your own functions and scripts or to facilitate working in the console. Most should work in both Windows PowerShell and PowerShell 7, even cross-platform. Any operating system limitations should be handled on a per command basis. The Samples folder contains demonstration script files\nhttps://github.com/jdhitsolutions/PSScriptTools",
+						"lang": "en",
+						"name": "jdhitsolutions/PSScriptTools"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5709,7 +5779,12 @@
 			"zeroxfiveeal-luau-unzip",
 			"discordluau-discord-luau",
 			"hyprland-community-hyprls",
-			"elk-zone-elk"
+			"elk-zone-elk",
+			"maxisjoe-unitystation",
+			"godotengine-godot",
+			"unitystation-unitystation",
+			"jdhitsolutions-psbluesky",
+			"jdhitsolutions-psscripttools"
 		]
 	}
 }
