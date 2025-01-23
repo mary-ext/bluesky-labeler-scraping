@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4wgmwsq4t3tg55ffl3r7ocec/app.bsky.labeler.service/self",
-  "cid": "bafyreidha6cforkqwvtjuwgt4h4be5rucxrh5xmojguay3i5ds5fvphlvy",
+  "cid": "bafyreibqtkmutufbpval7jr3c3z3euxo77z4dptb6yyfy2f4doz52j4hdq",
   "creator": {
     "did": "did:plc:4wgmwsq4t3tg55ffl3r7ocec",
     "handle": "self-labeler.snarfed.org",
@@ -14,7 +14,7 @@
     "description": "ARCHIVED. NOT CURRENTLY RUNNING.\n\nLabeler that emits self-labels in posts and profiles. New self-labels will be added as they're discovered on the network.\n\nhttps://github.com/bluesky-social/atproto/discussions/2885\nhttps://github.com/snarfed/self-labeler",
     "indexedAt": "2024-10-23T14:50:19.806Z"
   },
-  "indexedAt": "2024-10-20T23:09:41.627Z",
+  "indexedAt": "2025-01-22T22:17:28.963Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -45,11 +45,26 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "food",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Food"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "bridged-from-bridgy-fed-activitypub",
-      "bridged-from-bridgy-fed-web"
+      "bridged-from-bridgy-fed-web",
+      "food"
     ]
   }
 }
