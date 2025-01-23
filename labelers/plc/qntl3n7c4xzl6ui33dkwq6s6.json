@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qntl3n7c4xzl6ui33dkwq6s6/app.bsky.labeler.service/self",
-	"cid": "bafyreih743fnk3tatymipayik7uxup7zjkx4qrj4gmxrr3pofuojl3xnyy",
+	"cid": "bafyreidb52glumasmgwit2s35zavtgw3zfpjhpbnvz2sheh3tvih5zhmxe",
 	"creator": {
 		"did": "did:plc:qntl3n7c4xzl6ui33dkwq6s6",
-		"handle": "trdlabel.bsky.social",
+		"handle": "ozone.therobbiedavis.com",
 		"displayName": "",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qntl3n7c4xzl6ui33dkwq6s6/bafkreieveaqldvfucjomwnzfczlxixu3xjjk4h3gconpagmhste2i5rzpm@jpeg",
 		"associated": {
@@ -14,10 +14,28 @@
 		"createdAt": "2025-01-22T00:12:56.343Z",
 		"indexedAt": "2025-01-22T00:12:56.343Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2025-01-22T00:14:49.448Z",
+	"likeCount": 1,
+	"indexedAt": "2025-01-22T01:20:54.649Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "label-name",
+				"locales": [
+					{
+						"description": "test description.",
+						"lang": "en",
+						"name": "testing"
+					}
+				],
+				"severity": "inform|alert|none"
+			}
+		],
+		"labelValues": [
+			"test"
+		]
 	}
 }

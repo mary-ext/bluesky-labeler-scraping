@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:avy6ofacxe26c6x3jcizas6l/app.bsky.labeler.service/self",
-	"cid": "bafyreigj4w3rup7ty6vu6gyp5ubkikgcqq4lmkfntturj2ogy65twj6sv4",
+	"cid": "bafyreigo6q4j5phd2ey2hmtwre3ck5m4oydt6pbtstybzlmmtnbfubcuca",
 	"creator": {
 		"did": "did:plc:avy6ofacxe26c6x3jcizas6l",
 		"handle": "cryptolabeler.sats4.life",
@@ -15,11 +15,25 @@
 		"description": "Fighting crypto spammers, scammers, phishing, and malicious activity in BlueSky.\n \nOur AI-powered labeler detects suspicious accounts, verifies posts, and combats scams.\n\nReport suspicious activity to help us make BlueSky a better place for everyone.",
 		"indexedAt": "2025-01-14T14:19:01.149Z"
 	},
-	"likeCount": 30,
-	"indexedAt": "2024-12-27T18:14:53.255Z",
+	"likeCount": 31,
+	"indexedAt": "2025-01-22T08:46:30.453Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "misleading",
+				"locales": [
+					{
+						"description": "The \"Misleading\" label is applied to posts, comments, or accounts that present information in a deceptive or ambiguous manner, potentially leading to misunderstandings or incorrect conclusions. This includes content that selectively omits key details, uses manipulated data, or employs sensationalized headlines to distort facts. Misleading content may also involve vague references to unverified claims, creating confusion or steering conversations in unintended directions.",
+						"lang": "en",
+						"name": "Misleading"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -204,6 +218,7 @@
 			}
 		],
 		"labelValues": [
+			"misleading",
 			"spam",
 			"fomo-inducer",
 			"doxxing",

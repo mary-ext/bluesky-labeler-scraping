@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:5ryh32gawocjdltnizcuafaa/app.bsky.labeler.service/self",
-	"cid": "bafyreibxqree6xxy4bphkgq273q5563shxq4mvelkoefk4zu2hyja6vtgi",
+	"cid": "bafyreiebotlw7mv5pqhphv5mxyd77fvrtdez4tejcvngnlb6sazyvwgjl4",
 	"creator": {
 		"did": "did:plc:5ryh32gawocjdltnizcuafaa",
 		"handle": "faktenbot.volksverpetzer.de",
@@ -16,27 +16,27 @@
 		"indexedAt": "2025-01-21T12:44:01.944Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2025-01-20T19:53:44.757Z",
+	"indexedAt": "2025-01-22T13:22:40.847Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "content",
+				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "bad-rep",
+				"identifier": "domain-misinfo",
 				"locales": [
 					{
-						"description": "Has distributed fakes in the past",
+						"description": "Domain has spread misinfo in the past",
 						"lang": "en",
-						"name": "Bad Reputation"
+						"name": "Domain Misinfo"
 					}
 				],
-				"severity": "alert"
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"bad-rep"
+			"domain-misinfo"
 		]
 	}
 }
