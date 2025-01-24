@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4wgmwsq4t3tg55ffl3r7ocec/app.bsky.labeler.service/self",
-	"cid": "bafyreibqtkmutufbpval7jr3c3z3euxo77z4dptb6yyfy2f4doz52j4hdq",
+	"cid": "bafyreiewomqnhjm65szqbiuqddlylflo7zveuqd565skpgfsphxg6vd5mq",
 	"creator": {
 		"did": "did:plc:4wgmwsq4t3tg55ffl3r7ocec",
 		"handle": "self-labeler.snarfed.org",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2024-10-20T05:04:40.906Z",
-		"description": "ARCHIVED. NOT CURRENTLY RUNNING.\n\nLabeler that emits self-labels in posts and profiles. New self-labels will be added as they're discovered on the network.\n\nhttps://github.com/bluesky-social/atproto/discussions/2885\nhttps://github.com/snarfed/self-labeler",
-		"indexedAt": "2024-10-23T14:50:19.806Z"
+		"description": "Labeler that emits self-labels in posts and profiles. New self-labels will be added as they're discovered on the network.\n\nhttps://github.com/bluesky-social/atproto/discussions/2885\nhttps://github.com/snarfed/self-labeler",
+		"indexedAt": "2025-01-23T00:27:40.144Z"
 	},
 	"likeCount": 10,
-	"indexedAt": "2025-01-22T22:17:28.963Z",
+	"indexedAt": "2025-01-23T03:50:13.663Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -61,12 +61,42 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "adult",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "Adult"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "this-is-a-funny-test-account",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "!this-is-a-funny-test-account"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"bridged-from-bridgy-fed-activitypub",
 			"bridged-from-bridgy-fed-web",
-			"food"
+			"food",
+			"adult",
+			"this-is-a-funny-test-account"
 		]
 	}
 }

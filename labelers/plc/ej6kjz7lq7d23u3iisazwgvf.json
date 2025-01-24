@@ -1,0 +1,38 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:ej6kjz7lq7d23u3iisazwgvf/app.bsky.labeler.service/self",
+	"cid": "bafyreic43636shme2aftmjfvcsaqczd2243ja4qsxus4ae4t73roax3lku",
+	"creator": {
+		"did": "did:plc:ej6kjz7lq7d23u3iisazwgvf",
+		"handle": "testlabeler.pds.secco.dev",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "0001-01-01T00:00:00.000Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-01-23T01:21:36.645Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "test",
+				"locales": [
+					{
+						"description": "Label description.",
+						"lang": "en",
+						"name": "Test Label"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"test"
+		]
+	}
+}

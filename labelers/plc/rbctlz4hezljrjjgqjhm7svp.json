@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreiavo3uxksayjecpp7t6zmrp5356go2envrosinaeghdmym74dtawy",
+	"cid": "bafyreieqwrqgszrquidfz5m3ktvbscpjfa4bpltyr4vmgmgtets5bk2gzq",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
 		"indexedAt": "2025-01-09T00:13:45.944Z"
 	},
-	"likeCount": 25,
-	"indexedAt": "2025-01-22T07:22:50.052Z",
+	"likeCount": 27,
+	"indexedAt": "2025-01-23T19:11:48.359Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -652,6 +652,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---taewoon",
+				"locales": [
+					{
+						"description": "User is a fan of Taewoon\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 Taewoon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "xdinary-heroes",
+				"locales": [
+					{
+						"description": "User is a fan of Xdinary Heroes",
+						"lang": "en",
+						"name": "Xdinary Heroes"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "txt",
+				"locales": [
+					{
+						"description": "MOA\nUser is a fan of TXT",
+						"lang": "en",
+						"name": "TXT"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -699,7 +741,10 @@
 			"b-a-p",
 			"nam-woohyun",
 			"lim-hyunsik",
-			"le-sserafim"
+			"le-sserafim",
+			"---taewoon",
+			"xdinary-heroes",
+			"txt"
 		]
 	}
 }
