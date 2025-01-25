@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:r2wnx7eo2i4rflu6mlwxja6v/app.bsky.labeler.service/self",
-	"cid": "bafyreiewsbndp4pmehutw4pfpcjjtja33kvie27to6wvxw3ziufkdu2a7y",
+	"cid": "bafyreihyb3ov3bhwqup27pmuzbsarklxztmlq2s3c2v4oymc64ovp2vkg4",
 	"creator": {
 		"did": "did:plc:r2wnx7eo2i4rflu6mlwxja6v",
 		"handle": "trulioo-test.bsky.social",
@@ -18,7 +18,7 @@
 		"indexedAt": "2024-12-10T18:39:54.251Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2025-01-21T21:18:21.149Z",
+	"indexedAt": "2025-01-24T18:13:05.664Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -68,12 +68,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "testing",
+				"identifier": "docv_verified",
 				"locales": [
 					{
-						"description": "test identifier 2",
+						"description": "Documents have been verified by Trulioo.",
 						"lang": "en",
-						"name": "test_2 🧪"
+						"name": "✅ Documents Verified by Trulioo"
 					}
 				],
 				"severity": "inform"
@@ -82,12 +82,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "testing3",
+				"identifier": "idv_verified",
 				"locales": [
 					{
-						"description": "test identifier 3",
+						"description": "Trulioo data sources match information provided (such as SSN).",
 						"lang": "en",
-						"name": "test_3 🧪"
+						"name": "💿 Identity Verified by Trulioo Data Sources"
 					}
 				],
 				"severity": "inform"
@@ -96,12 +96,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "license",
+				"identifier": "docv",
 				"locales": [
 					{
-						"description": "Information has been verified via US drivers license verification check",
+						"description": "Information has been verified from official document upload.",
 						"lang": "en",
-						"name": "🪪 drivers license"
+						"name": "🪪 Documents Verified"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "idv",
+				"locales": [
+					{
+						"description": "Information matches records from telecom, housing, or banking data sources.",
+						"lang": "en",
+						"name": "🔎 Information Matches Data Sources"
 					}
 				],
 				"severity": "inform"
@@ -111,9 +125,10 @@
 			"real",
 			"bot",
 			"test",
-			"testing",
-			"testing3",
-			"license"
+			"docv_verified",
+			"idv_verified",
+			"docv",
+			"idv"
 		]
 	}
 }

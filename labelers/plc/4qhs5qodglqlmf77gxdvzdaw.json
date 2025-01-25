@@ -1,0 +1,1812 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:4qhs5qodglqlmf77gxdvzdaw/app.bsky.labeler.service/self",
+	"cid": "bafyreiasvu7zh3q2ysy6fmtn62bxtjmcinvp3itcitkchs4v3oaa5oqbfi",
+	"creator": {
+		"did": "did:plc:4qhs5qodglqlmf77gxdvzdaw",
+		"handle": "123-mp.bsky.social",
+		"displayName": "UK MP Labeller [in development]",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4qhs5qodglqlmf77gxdvzdaw/bafkreifb65dvgxj3rrwbcskscc5ayitqqpdajscaed7rmobhadvaj3tozq@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-24T10:08:58.444Z",
+		"description": "Labeller that labels UK MPs with their parliamentary roles and committee memberships. Data from TheyWorkForYou.\n\nLabeller very much in development - feel free to use this, but it's very much not finished.",
+		"indexedAt": "2025-01-24T12:31:39.744Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-01-24T10:16:36.258Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "statutory-instruments--joint-committee-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Statutory Instruments (Joint Committee)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Statutory Instruments (Joint Committee)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "statutory-instruments--select-committee-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Statutory Instruments (Select Committee)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Statutory Instruments (Select Committee)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "petitions-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Petitions Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Petitions Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-secretary-of-state-for-transport",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Secretary of State for Transport\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Secretary of State for Transport"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "public-accounts-commission",
+				"locales": [
+					{
+						"description": "This MP's role is \"Public Accounts Commission\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Public Accounts Commission"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "house-of-commons-commission",
+				"locales": [
+					{
+						"description": "This MP's role is \"House of Commons Commission\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "House of Commons Commission"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-works-estimates-commission",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Works Estimates Commission\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Works Estimates Commission"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shadow-minister--business--energy-and-industrial-strategy-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Shadow Minister (Business, Energy and Industrial Strategy)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Shadow Minister (Business, Energy and Industrial Strategy)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---science--innovation-and-technology-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Science, Innovation and Technology Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Science, Innovation and Technology Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "committee-of-privileges",
+				"locales": [
+					{
+						"description": "This MP's role is \"Committee of Privileges\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Committee of Privileges"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "science--innovation-and-technology-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Science, Innovation and Technology Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Science, Innovation and Technology Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "finance-committee--commons-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Finance Committee (Commons)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Finance Committee (Commons)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "environment--food-and-rural-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Environment, Food and Rural Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Environment, Food and Rural Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "energy-security-and-net-zero-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Energy Security and Net Zero Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Energy Security and Net Zero Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "employment-rights-bill-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Employment Rights Bill Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Employment Rights Bill Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "culture--media-and-sport-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Culture, Media and Sport Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Culture, Media and Sport Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "terrorism--protection-of-premises--bill-sub-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Terrorism (Protection of Premises) Bill sub committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Terrorism (Protection of Premises) Bill sub committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "terrorism--protection-of-premises--bill-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Terrorism (Protection of Premises) Bill Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Terrorism (Protection of Premises) Bill Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "backbench-business-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Backbench Business Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Backbench Business Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "defence-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Defence Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Defence Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-second-church-estates-commissioner",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Second Church Estates Commissioner\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Second Church Estates Commissioner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "committee-of-selection",
+				"locales": [
+					{
+						"description": "This MP's role is \"Committee of Selection\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Committee of Selection"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "comptroller--hm-household---whip--house-of-commons-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Comptroller (HM Household) (Whip, House of Commons)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Comptroller (HM Household) (Whip, House of Commons)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "modernisation-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Modernisation Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Modernisation Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "foreign-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Foreign Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Foreign Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-under-secretary--northern-ireland-office-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Under-Secretary (Northern Ireland Office)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Under-Secretary (Northern Ireland Office)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "home-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Home Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Home Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "scottish-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Scottish Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Scottish Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "welsh-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Welsh Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Welsh Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "human-rights--joint-committee-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Human Rights (Joint Committee)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Human Rights (Joint Committee)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-shadow-leader-of-the-house-of-commons",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Shadow Leader of the House of Commons\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Shadow Leader of the House of Commons"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shadow-parliamentary-under-secretary--health-and-social-care-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Shadow Parliamentary Under Secretary (Health and Social Care)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Shadow Parliamentary Under Secretary (Health and Social Care)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---foreign-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Foreign Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Foreign Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--education-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Education)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Education)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-of-state-for-justice",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary of State for Justice\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary of State for Justice"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---energy-security-and-net-zero-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Energy Security and Net Zero Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Energy Security and Net Zero Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "business-and-trade-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Business and Trade Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Business and Trade Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "women-and-equalities-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Women and Equalities Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Women and Equalities Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--culture--media-and-sport-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Culture, Media and Sport)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Culture, Media and Sport)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "administration-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Administration Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Administration Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-minister-of-state--dep--for-culture--media-and-sport",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Minister of State, Dep. for Culture, Media and Sport\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Minister of State, Dep. for Culture, Media and Sport"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--dep--for-science--innovation-and-technology-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Dep. for Science, Innovation and Technology)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Dep. for Science, Innovation and Technology)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---women-and-equalities-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Women and Equalities Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Women and Equalities Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "opposition-assistant-whip--commons-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Opposition Assistant Whip (Commons)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Opposition Assistant Whip (Commons)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "snp-chief-whip",
+				"locales": [
+					{
+						"description": "This MP's role is \"SNP Chief Whip\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "SNP Chief Whip"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "northern-ireland-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Northern Ireland Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Northern Ireland Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "work-and-pensions-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Work and Pensions Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Work and Pensions Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-minister-of-state--dep--for-work-and-pensions",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Minister of State, Dep. for Work and Pensions\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Minister of State, Dep. for Work and Pensions"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "great-british-energy-bill-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Great British Energy Bill Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Great British Energy Bill Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "speaker-s-committee-for-the-ind--parl--standards-authority",
+				"locales": [
+					{
+						"description": "This MP's role is \"Speaker's Committee for the Ind. Parl. Standards Authority\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Speaker's Committee for the Ind. Parl. Standards Authority"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--hospitals-and-primary-care-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Hospitals and Primary Care)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Hospitals and Primary Care)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "public-administration-and-constitutional-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Public Administration and Constitutional Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Public Administration and Constitutional Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "government-whip--lord-commissioner-of-hm-treasury",
+				"locales": [
+					{
+						"description": "This MP's role is \"Government Whip, Lord Commissioner of HM Treasury\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Government Whip, Lord Commissioner of HM Treasury"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shadow-minister--culture--media-and-sport-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Shadow Minister (Culture, Media and Sport)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Shadow Minister (Culture, Media and Sport)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-secretary--dep-for-energy-security-and-net-zero-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Secretary (Dep for Energy Security and Net Zero)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Secretary (Dep for Energy Security and Net Zero)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--trade-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Trade)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Trade)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "renters’-rights-bill-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Renters’ Rights Bill Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Renters’ Rights Bill Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--dep--of-health-and-social-care-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Dep. of Health and Social Care)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Dep. of Health and Social Care)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "public-accounts-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Public Accounts Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Public Accounts Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "health-and-social-care-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Health and Social Care Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Health and Social Care Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "education-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Education Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Education Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "commonwealth-parl--assc----int-ctte--of-the-red-cross-bill",
+				"locales": [
+					{
+						"description": "This MP's role is \"Commonwealth Parl. Assc. & Int Ctte. of the Red Cross Bill\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Commonwealth Parl. Assc. & Int Ctte. of the Red Cross Bill"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "housing--communities-and-local-government-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Housing, Communities and Local Government Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Housing, Communities and Local Government Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--housing--communities-and-local-government-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Housing, Communities and Local Government)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Housing, Communities and Local Government)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "speaker-s-committee-on-the-electoral-commission",
+				"locales": [
+					{
+						"description": "This MP's role is \"Speaker's Committee on the Electoral Commission\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Speaker's Committee on the Electoral Commission"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-vice-chamberlain-of-hm-household",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Vice-Chamberlain of HM Household\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Vice-Chamberlain of HM Household"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--scotland-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Scotland)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Scotland)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--women-and-equalities-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Women and Equalities)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Women and Equalities)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "committee-on-standards",
+				"locales": [
+					{
+						"description": "This MP's role is \"Committee on Standards\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Committee on Standards"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-of-state-for-wales",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary of State for Wales\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary of State for Wales"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bishop-s-stortford-cemetery-bill-unopposed-bill-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Bishop's Stortford Cemetery Bill Unopposed Bill Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Bishop's Stortford Cemetery Bill Unopposed Bill Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "procedure-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Procedure Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Procedure Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--dep--for-energy-security-and-net-zero-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Dep. for Energy Security and Net Zero)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Dep. for Energy Security and Net Zero)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--dep--for-business-and-trade-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Dep. for Business and Trade)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Dep. for Business and Trade)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--energy-security-and-net-zero-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Energy Security and Net Zero)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Energy Security and Net Zero)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "environmental-audit-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Environmental Audit Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Environmental Audit Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-secretary--science--innovation-and-technology-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Secretary (Science, Innovation and Technology)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Secretary (Science, Innovation and Technology)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "assistant-whip",
+				"locales": [
+					{
+						"description": "This MP's role is \"Assistant Whip\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Assistant Whip"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--london-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (London)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (London)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "international-development-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"International Development Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "International Development Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---environmental-audit-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Environmental Audit Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Environmental Audit Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-secretary--foreign--commonwealth---development-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Secretary (Foreign, Commonwealth & Development)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Secretary (Foreign, Commonwealth & Development)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---procedure-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Procedure Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Procedure Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---housing--communities-and-local-government-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Housing, Communities and Local Government Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Housing, Communities and Local Government Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-secretary-of-state-for-scotland",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Secretary of State for Scotland\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Secretary of State for Scotland"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transport-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Transport Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Transport Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-of-state-for-education",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary of State for Education\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary of State for Education"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-secretary-for-environment--food-and-rural-affairs",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Secretary for Environment, Food and Rural Affairs\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Secretary for Environment, Food and Rural Affairs"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-of-state-for-work-and-pensions",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary of State for Work and Pensions\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary of State for Work and Pensions"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--care-and-carers-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Care and Carers)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Care and Carers)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-of-state-for-defence",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary of State for Defence\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary of State for Defence"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lib-dem-spokesperson--environment--food---rural-affairs-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Lib Dem Spokesperson (Environment, Food & Rural Affairs)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Lib Dem Spokesperson (Environment, Food & Rural Affairs)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lib-dem-lords-spokesperson--communities---local-government-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Lib Dem Lords Spokesperson (Communities & Local Government)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Lib Dem Lords Spokesperson (Communities & Local Government)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "minister-of-state--foreign--commonwealth-and-development-office-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Minister of State (Foreign, Commonwealth and Development Office)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Minister of State (Foreign, Commonwealth and Development Office)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---business-and-trade-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Business and Trade Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Business and Trade Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-for-health-and-social-care",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary for Health and Social Care\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary for Health and Social Care"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-chief-whip",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Chief Whip\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Chief Whip"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "treasury-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Treasury Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Treasury Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---health-and-social-care-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Health and Social Care Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Health and Social Care Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parliamentary-under-secretary--dep--for-transport-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Parliamentary Under-Secretary (Dep. for Transport)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Parliamentary Under-Secretary (Dep. for Transport)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-secretary--cabinet-office",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Secretary, Cabinet Office\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Secretary, Cabinet Office"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--housing-and-planning-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Housing and Planning)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Housing and Planning)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-chief-secretary-to-the-treasury",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Chief Secretary to the Treasury\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Chief Secretary to the Treasury"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--armed-forces-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Armed Forces)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Armed Forces)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---petitions-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Petitions Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Petitions Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--health-and-social-care-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Health and Social Care)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Health and Social Care)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-parliamentary-under-secretary-of-state-for-the-home-dep-",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Parliamentary Under-Secretary of State for the Home Dep.\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Parliamentary Under-Secretary of State for the Home Dep."
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "shadow-minister--defence---armed-forces-and-defence-procurement-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Shadow Minister (Defence) (Armed Forces and Defence Procurement)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Shadow Minister (Defence) (Armed Forces and Defence Procurement)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-secretary-of-state-for-wales",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Secretary of State for Wales\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Secretary of State for Wales"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--europe-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Europe)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Europe)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lib-dem-spokesperson--housing--communities---local-government-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Lib Dem Spokesperson (Housing, Communities & Local Government)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Lib Dem Spokesperson (Housing, Communities & Local Government)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "housing--communities---local-government-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Housing, Communities & Local Government Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Housing, Communities & Local Government Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "deputy-leader--liberal-democrats",
+				"locales": [
+					{
+						"description": "This MP's role is \"Deputy Leader, Liberal Democrats\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Deputy Leader, Liberal Democrats"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--treasury-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Treasury)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Treasury)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "the-minister-of-state--home-dep-",
+				"locales": [
+					{
+						"description": "This MP's role is \"The Minister of State, Home Dep.\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "The Minister of State, Home Dep."
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--northern-ireland-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Northern Ireland)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Northern Ireland)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "chair---environment--food-and-rural-affairs-committee",
+				"locales": [
+					{
+						"description": "This MP's role is \"Chair - Environment, Food and Rural Affairs Committee\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Chair - Environment, Food and Rural Affairs Committee"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--mental-health-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Mental Health)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Mental Health)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "liberal-democrat-spokesperson--defence-",
+				"locales": [
+					{
+						"description": "This MP's role is \"Liberal Democrat Spokesperson (Defence)\". Data from TheyWorkForYou",
+						"lang": "en",
+						"name": "Liberal Democrat Spokesperson (Defence)"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"statutory-instruments--joint-committee-",
+			"statutory-instruments--select-committee-",
+			"petitions-committee",
+			"the-secretary-of-state-for-transport",
+			"public-accounts-commission",
+			"house-of-commons-commission",
+			"parliamentary-works-estimates-commission",
+			"shadow-minister--business--energy-and-industrial-strategy-",
+			"chair---science--innovation-and-technology-committee",
+			"committee-of-privileges",
+			"science--innovation-and-technology-committee",
+			"finance-committee--commons-",
+			"environment--food-and-rural-affairs-committee",
+			"energy-security-and-net-zero-committee",
+			"employment-rights-bill-committee",
+			"culture--media-and-sport-committee",
+			"terrorism--protection-of-premises--bill-sub-committee",
+			"terrorism--protection-of-premises--bill-committee",
+			"backbench-business-committee",
+			"defence-committee",
+			"the-second-church-estates-commissioner",
+			"committee-of-selection",
+			"comptroller--hm-household---whip--house-of-commons-",
+			"modernisation-committee",
+			"foreign-affairs-committee",
+			"parliamentary-under-secretary--northern-ireland-office-",
+			"home-affairs-committee",
+			"scottish-affairs-committee",
+			"welsh-affairs-committee",
+			"human-rights--joint-committee-",
+			"liberal-democrat-shadow-leader-of-the-house-of-commons",
+			"shadow-parliamentary-under-secretary--health-and-social-care-",
+			"chair---foreign-affairs-committee",
+			"minister-of-state--education-",
+			"the-parliamentary-under-secretary-of-state-for-justice",
+			"chair---energy-security-and-net-zero-committee",
+			"business-and-trade-committee",
+			"women-and-equalities-committee",
+			"liberal-democrat-spokesperson--culture--media-and-sport-",
+			"administration-committee",
+			"the-minister-of-state--dep--for-culture--media-and-sport",
+			"minister-of-state--dep--for-science--innovation-and-technology-",
+			"chair---women-and-equalities-committee",
+			"opposition-assistant-whip--commons-",
+			"snp-chief-whip",
+			"northern-ireland-affairs-committee",
+			"work-and-pensions-committee",
+			"the-minister-of-state--dep--for-work-and-pensions",
+			"great-british-energy-bill-committee",
+			"speaker-s-committee-for-the-ind--parl--standards-authority",
+			"liberal-democrat-spokesperson--hospitals-and-primary-care-",
+			"public-administration-and-constitutional-affairs-committee",
+			"government-whip--lord-commissioner-of-hm-treasury",
+			"shadow-minister--culture--media-and-sport-",
+			"parliamentary-secretary--dep-for-energy-security-and-net-zero-",
+			"liberal-democrat-spokesperson--trade-",
+			"renters’-rights-bill-committee",
+			"minister-of-state--dep--of-health-and-social-care-",
+			"public-accounts-committee",
+			"health-and-social-care-committee",
+			"education-committee",
+			"commonwealth-parl--assc----int-ctte--of-the-red-cross-bill",
+			"housing--communities-and-local-government-committee",
+			"minister-of-state--housing--communities-and-local-government-",
+			"speaker-s-committee-on-the-electoral-commission",
+			"the-vice-chamberlain-of-hm-household",
+			"liberal-democrat-spokesperson--scotland-",
+			"liberal-democrat-spokesperson--women-and-equalities-",
+			"committee-on-standards",
+			"the-parliamentary-under-secretary-of-state-for-wales",
+			"bishop-s-stortford-cemetery-bill-unopposed-bill-committee",
+			"procedure-committee",
+			"minister-of-state--dep--for-energy-security-and-net-zero-",
+			"minister-of-state--dep--for-business-and-trade-",
+			"liberal-democrat-spokesperson--energy-security-and-net-zero-",
+			"environmental-audit-committee",
+			"parliamentary-secretary--science--innovation-and-technology-",
+			"assistant-whip",
+			"liberal-democrat-spokesperson--london-",
+			"international-development-committee",
+			"chair---environmental-audit-committee",
+			"parliamentary-secretary--foreign--commonwealth---development-",
+			"chair---procedure-committee",
+			"chair---housing--communities-and-local-government-committee",
+			"the-secretary-of-state-for-scotland",
+			"transport-committee",
+			"the-parliamentary-under-secretary-of-state-for-education",
+			"parliamentary-secretary-for-environment--food-and-rural-affairs",
+			"the-parliamentary-under-secretary-of-state-for-work-and-pensions",
+			"liberal-democrat-spokesperson--care-and-carers-",
+			"the-parliamentary-under-secretary-of-state-for-defence",
+			"lib-dem-spokesperson--environment--food---rural-affairs-",
+			"lib-dem-lords-spokesperson--communities---local-government-",
+			"minister-of-state--foreign--commonwealth-and-development-office-",
+			"chair---business-and-trade-committee",
+			"the-parliamentary-under-secretary-for-health-and-social-care",
+			"liberal-democrat-chief-whip",
+			"treasury-committee",
+			"chair---health-and-social-care-committee",
+			"parliamentary-under-secretary--dep--for-transport-",
+			"the-parliamentary-secretary--cabinet-office",
+			"liberal-democrat-spokesperson--housing-and-planning-",
+			"the-chief-secretary-to-the-treasury",
+			"liberal-democrat-spokesperson--armed-forces-",
+			"chair---petitions-committee",
+			"liberal-democrat-spokesperson--health-and-social-care-",
+			"the-parliamentary-under-secretary-of-state-for-the-home-dep-",
+			"shadow-minister--defence---armed-forces-and-defence-procurement-",
+			"the-secretary-of-state-for-wales",
+			"liberal-democrat-spokesperson--europe-",
+			"lib-dem-spokesperson--housing--communities---local-government-",
+			"housing--communities---local-government-committee",
+			"deputy-leader--liberal-democrats",
+			"liberal-democrat-spokesperson--treasury-",
+			"the-minister-of-state--home-dep-",
+			"liberal-democrat-spokesperson--northern-ireland-",
+			"chair---environment--food-and-rural-affairs-committee",
+			"liberal-democrat-spokesperson--mental-health-",
+			"liberal-democrat-spokesperson--defence-"
+		]
+	}
+}

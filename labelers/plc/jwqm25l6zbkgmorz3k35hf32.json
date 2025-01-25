@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-	"cid": "bafyreibusijqkexyd5etmniliedhznmjihjfm4fdibgyjy3e6evqkzotye",
+	"cid": "bafyreigwc2662f3mauctchmcba6iqq7ag3yevqmcgjx6yqafgny62ypn3e",
 	"creator": {
 		"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
 		"handle": "curationkeeper.bsky.social",
@@ -19,10 +19,24 @@
 		"indexedAt": "2024-11-25T22:23:53.547Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2025-01-11T12:30:21.551Z",
+	"indexedAt": "2025-01-24T22:50:23.958Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "badge",
+				"locales": [
+					{
+						"description": "",
+						"lang": "en",
+						"name": "badge"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -67,6 +81,7 @@
 			}
 		],
 		"labelValues": [
+			"badge",
 			"missing-alt-text",
 			"contains-xwitter",
 			"test2",
