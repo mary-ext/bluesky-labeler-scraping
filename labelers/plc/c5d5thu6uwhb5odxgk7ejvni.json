@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-	"cid": "bafyreicp72v4jxiz5hupa3g4fbxw7zgrf7nijaymyqazdf4adq5jhzgeju",
+	"cid": "bafyreihhvqy664ax7a5vxw5qrqrefwgubhhkyqnpxaa33mw4wxwnxdwecu",
 	"creator": {
 		"did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
 		"handle": "labeler.urbanism.plus",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2025-01-05T20:25:35.446Z",
-		"description": "Subscribe, Like & Comment what labels you'd like.\n\nPlease only report \"garbage\" \"carbrain\" and \"NIMBY\" the other labels are for fun! Comment up to 3 of them and they will be assigned!",
-		"indexedAt": "2025-01-24T06:45:45.344Z"
+		"description": "Subscribe, Like & Comment what *3* labels you'd like.\n\nPlease only report \"garbage\" \"carbrain\" and \"NIMBY\" the other labels are for fun!",
+		"indexedAt": "2025-01-25T06:44:34.042Z"
 	},
-	"likeCount": 45,
-	"indexedAt": "2025-01-20T22:17:34.671Z",
+	"likeCount": 46,
+	"indexedAt": "2025-01-25T17:48:40.864Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -276,6 +276,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "feminist-urbanist",
+				"locales": [
+					{
+						"description": "a feminist and an urbanist",
+						"lang": "en",
+						"name": "Feminist Urbanist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "garbage",
 				"locales": [
 					{
@@ -318,20 +332,6 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "nimby",
-				"locales": [
-					{
-						"description": "Not In My BackYard--everyone hates us",
-						"lang": "en",
-						"name": "NIMBY"
-					}
-				],
-				"severity": "alert"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
 				"identifier": "active-x-user",
 				"locales": [
 					{
@@ -362,6 +362,7 @@
 			"academic-urbanist",
 			"urbanist-org",
 			"placeholder-three",
+			"feminist-urbanist",
 			"garbage",
 			"nimby",
 			"carbrain",
