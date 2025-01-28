@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreidtozgdcx3xlwmtswqtuh4a4qpygbjzrvcyee3vgoyu4vtyzjf6uy",
+	"cid": "bafyreiarccfcp5lj3cixuwwaujl4l5dxgecnlov55eipj76ci2jigrxu3m",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
 	"likeCount": 357,
-	"indexedAt": "2025-01-21T18:14:16.677Z",
+	"indexedAt": "2025-01-27T23:55:19.476Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5398,6 +5398,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "supabase-community-supabase-ex",
+				"locales": [
+					{
+						"description": "A complete Toolkit to interact with Supabase APIs from Elixir\nhttps://github.com/supabase-community/supabase-ex",
+						"lang": "en",
+						"name": "supabase-community/supabase-ex"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zoedsoupe-proto-rune",
+				"locales": [
+					{
+						"description": "ATProtocol and Bluesky framework for Elixir, make bots, labelers, app views and more\nhttps://github.com/zoedsoupe/proto_rune",
+						"lang": "en",
+						"name": "zoedsoupe/proto_rune"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5784,7 +5812,9 @@
 			"godotengine-godot",
 			"unitystation-unitystation",
 			"jdhitsolutions-psbluesky",
-			"jdhitsolutions-psscripttools"
+			"jdhitsolutions-psscripttools",
+			"supabase-community-supabase-ex",
+			"zoedsoupe-proto-rune"
 		]
 	}
 }

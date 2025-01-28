@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3ej5knrqezo3meltfsb4vwnv/app.bsky.labeler.service/self",
-	"cid": "bafyreigxflk7x3cdqzrfzydkryuvwizcmk557cpci53j67w6tvcf76pc7q",
+	"cid": "bafyreifhkw7xsx2wvcvrfgkl2pm3op5tnergftdowcvlbn5a6xbtct7g2m",
 	"creator": {
 		"did": "did:plc:3ej5knrqezo3meltfsb4vwnv",
 		"handle": "tda-labeler.bsky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-11-16T22:05:49.782Z"
 	},
 	"likeCount": 19,
-	"indexedAt": "2025-01-17T14:51:29.159Z",
+	"indexedAt": "2025-01-27T19:55:59.066Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -372,6 +372,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "zz-dummy",
+				"locales": [
+					{
+						"description": "Dummy label om te testen",
+						"lang": "nl",
+						"name": "Dummy"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -399,7 +413,8 @@
 			"zz-tourist",
 			"zz-yzerenyvonne",
 			"zz-zijwieltjespronostikeur",
-			"zz-keizervandeklassieker"
+			"zz-keizervandeklassieker",
+			"zz-dummy"
 		]
 	}
 }
