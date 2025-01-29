@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreiciq36gxy6urosbzishvzldfmmqj2z2et42xj6cl3pgtmcvmlz344",
+  "cid": "bafyreicc3xnkraxtd2qeoo2ql3brlbjch3vwdcoh27q2r633mekhtfibzq",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
     "indexedAt": "2025-01-09T00:13:45.944Z"
   },
-  "indexedAt": "2025-01-25T03:11:23.948Z",
+  "indexedAt": "2025-01-28T14:43:54.958Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -706,6 +706,48 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kim-sungkyu",
+        "locales": [
+          {
+            "description": "User is a fan of Kim Sungkyu",
+            "lang": "en",
+            "name": "Kim Sungkyu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "seoah",
+        "locales": [
+          {
+            "description": "User is a fan of Seoah",
+            "lang": "en",
+            "name": "Seoah"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "joy",
+        "locales": [
+          {
+            "description": "User is a fan of Joy",
+            "lang": "en",
+            "name": "Joy"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -757,7 +799,10 @@
       "---taewoon",
       "xdinary-heroes",
       "txt",
-      "iu"
+      "iu",
+      "kim-sungkyu",
+      "seoah",
+      "joy"
     ]
   }
 }
