@@ -1,0 +1,57 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:sehu5el4gqw7s2jxxyyy3e6n/app.bsky.labeler.service/self",
+	"cid": "bafyreievguju6iq4ufmkbifh6kzpvjj6dzzm7tx4zdrpca3najjwfk4h3q",
+	"creator": {
+		"did": "did:plc:sehu5el4gqw7s2jxxyyy3e6n",
+		"handle": "for.shame.wtf",
+		"displayName": "Follow Tracker",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sehu5el4gqw7s2jxxyyy3e6n/bafkreibsy4ytgm3ze5w77uh67s2le6jydiboin3hfywrqj34h2z4neqmtm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-28T08:54:57.445Z",
+		"description": "This account places a badge on the profile of accounts that follow a given account, for informational purposes. Automated. \n\nCan be removed by unfollowing said account.",
+		"indexedAt": "2025-01-28T09:04:12.345Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2025-01-28T13:35:30.759Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mattyglesias-follower",
+				"locales": [
+					{
+						"description": "This user follows Matt Yglesias. This label can be removed by unfollowing Matt Yglesias.",
+						"lang": "en",
+						"name": "Matt Yglesias Follower"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mattstoller-follower",
+				"locales": [
+					{
+						"description": "This user follows Matthew Stoller. This label can be removed by unfollowing Matthew Stoller.",
+						"lang": "en",
+						"name": "Matthew Stoller Follower"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"mattyglesias-follower",
+			"mattstoller-follower"
+		]
+	}
+}

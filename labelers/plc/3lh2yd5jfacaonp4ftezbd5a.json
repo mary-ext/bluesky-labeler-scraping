@@ -1,0 +1,162 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:3lh2yd5jfacaonp4ftezbd5a/app.bsky.labeler.service/self",
+	"cid": "bafyreicrplvfj5ziecedrk2pgprratrjrd2u5mb5b4aivzk7u4ryi356oe",
+	"creator": {
+		"did": "did:plc:3lh2yd5jfacaonp4ftezbd5a",
+		"handle": "moderation.beehive.systems",
+		"displayName": "BeeHive Moderation Service",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3lh2yd5jfacaonp4ftezbd5a/bafkreihzmkhf67kt3ykf7dz4rke5ziejgkaghrz3ye2pfecur2ano6iqwu@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-28T06:23:13.646Z",
+		"description": "Delivering digital safety and security services and products for individuals, businesses, and governments around the world.\n\nSee something that doesn't look right? Report it to us; we'll get right to work to deliver an accurate decision.",
+		"indexedAt": "2025-01-28T09:34:57.944Z"
+	},
+	"likeCount": 3,
+	"indexedAt": "2025-01-28T21:00:55.961Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "unverified-financial",
+				"locales": [
+					{
+						"description": "This label is applied to content that contains requests for money or donation to an individual or entity acting as or on behalf of a charity, that we are unable to follow a paper trail to verify the authenticity of.",
+						"lang": "en",
+						"name": "Unverified financial cause"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "satire",
+				"locales": [
+					{
+						"description": "This label is applied to content that is written in a serious tone, but that is a joke or is sarcastic, the punchline of which surrounds the usage of a serious tone which could mislead more literal thinkers.",
+						"lang": "en",
+						"name": "Satire"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "disinformation",
+				"locales": [
+					{
+						"description": "This label is applied to content that is assessed to be a form of targeted or purposeful misinformation meant to elicit a mislead or otherwise misinformed reaction from an audience.",
+						"lang": "en",
+						"name": "Disinformation"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "misinformation",
+				"locales": [
+					{
+						"description": "This label is applied to content that is likely to mislead or mis-inform a user without malice.",
+						"lang": "en",
+						"name": "Misinformation"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "malware",
+				"locales": [
+					{
+						"description": "This label is applied to content that contains malware, spyware, info-stealers, unwanted code, programs, or otherwise dangerous content.",
+						"lang": "en",
+						"name": "Malware"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "phishing",
+				"locales": [
+					{
+						"description": "This label is applied to content that contains advertisements, websites, or other content intended to maliciously mislead a user.",
+						"lang": "en",
+						"name": "Phishing"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "hate-speech",
+				"locales": [
+					{
+						"description": "This label is applied to content that intimidates, threatens, or demeans individuals or groups based on attributes such as race, ethnicity, gender, sexual orientation, religion, or disability.",
+						"lang": "en",
+						"name": "Hate speech"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "fraud-or-scam",
+				"locales": [
+					{
+						"description": "This label is applied to content that misleads, misrepresents to, or otherwise aims to deceive the end-user.\n\nContent bearing this label should not be trusted.",
+						"lang": "en",
+						"name": "Fraud and scams"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "inappropriate-content",
+				"locales": [
+					{
+						"description": "This label is applied to content that is deemed generally inappropriate for the platform.",
+						"lang": "en",
+						"name": "Inappropriate content"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"unverified-financial",
+			"satire",
+			"phishing",
+			"malware",
+			"disinformation",
+			"misinformation",
+			"hate-speech",
+			"fraud-or-scam",
+			"inappropriate-content"
+		]
+	}
+}
