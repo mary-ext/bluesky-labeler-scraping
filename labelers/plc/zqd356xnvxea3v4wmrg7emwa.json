@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreiaxv6rcaitmrlxmi45oihrxyeivfideluqum5fagvycvbcif2fqva",
+  "cid": "bafyreihbgjwo3wcv6setkuajvhtwufzv73m34baiy6jjeahaolynsfhugq",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -17,10 +17,24 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-01-19T13:56:39.160Z",
+  "indexedAt": "2025-01-29T19:26:57.965Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "queerplatonic",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Queerplatonic"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -401,6 +415,7 @@
       }
     ],
     "labelValues": [
+      "queerplatonic",
       "arospike",
       "neptunic",
       "demifluid",
