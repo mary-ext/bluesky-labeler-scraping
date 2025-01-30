@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:zzqj3t47lvswdwbxm4aeq2dx/app.bsky.labeler.service/self",
-	"cid": "bafyreiecqjc3akzcpt2m4wf4f7mdjvhimrz2xrd57ttuwmiflrzmt6rvba",
+	"cid": "bafyreid6mfxhczo3nng2ag2go6mmonc5vq7xjxveaq4zduoz66jmb6guqi",
 	"creator": {
 		"did": "did:plc:zzqj3t47lvswdwbxm4aeq2dx",
 		"handle": "crownedroyal.bsky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-10-26T22:42:01.707Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2024-10-26T21:13:52.682Z",
+	"indexedAt": "2025-01-29T18:22:52.352Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,24 +27,10 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "royalty",
+				"identifier": "princesse",
 				"locales": [
 					{
-						"description": "This user is a royal ~",
-						"lang": "en",
-						"name": "👑"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "princess",
-				"locales": [
-					{
-						"description": "This user is a princesse of olde",
+						"description": "This user is a princess ~",
 						"lang": "en",
 						"name": "🌹👑"
 					}
@@ -58,7 +44,7 @@
 				"identifier": "prince",
 				"locales": [
 					{
-						"description": "This user is a beloved prince",
+						"description": "This user is a prince ~",
 						"lang": "en",
 						"name": "💙👑"
 					}
@@ -69,12 +55,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "sweetheart",
+				"identifier": "royal",
 				"locales": [
 					{
-						"description": "This user is the beloved to a royal",
+						"description": "This user is a royal in general ~",
 						"lang": "en",
-						"name": "💍👑"
+						"name": "💎👑"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "tyrant",
+				"locales": [
+					{
+						"description": "This user is a tyrant...oh dearest...",
+						"lang": "en",
+						"name": "🔪👑"
 					}
 				],
 				"severity": "inform"
@@ -86,19 +86,19 @@
 				"identifier": "court",
 				"locales": [
 					{
-						"description": "This user is part of a royal court",
+						"description": "This user is part of a royal court ~",
 						"lang": "en",
-						"name": "🌺👑"
+						"name": "🌸👑"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"royalty",
-			"princess",
+			"princesse",
 			"prince",
-			"sweetheart",
+			"royal",
+			"tyrant",
 			"court"
 		]
 	}
