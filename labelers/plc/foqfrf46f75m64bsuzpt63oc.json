@@ -1,0 +1,2506 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:foqfrf46f75m64bsuzpt63oc/app.bsky.labeler.service/self",
+	"cid": "bafyreibgfhwebpejfbvd3lhj6worsxhv4vhlbmeep4u2pdjaytspon54tm",
+	"creator": {
+		"did": "did:plc:foqfrf46f75m64bsuzpt63oc",
+		"handle": "etikedilo.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:foqfrf46f75m64bsuzpt63oc/bafkreibcz6epdaqf64d72a3gi4izyqjlpv4a47w2zrrl7nq77wwxrgmaru@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-14T19:08:19.047Z",
+		"indexedAt": "2025-01-14T19:08:19.047Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2025-01-30T17:44:24.975Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "correct-me",
+				"locales": [
+					{
+						"description": "Korektu min",
+						"lang": "eo",
+						"name": "Korektu min"
+					},
+					{
+						"description": "Correct me",
+						"lang": "en",
+						"name": "Correct me"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Must-not-correct",
+				"locales": [
+					{
+						"description": "Nekorektenda",
+						"lang": "eo",
+						"name": "Nekorektenda"
+					},
+					{
+						"description": "Must not correct",
+						"lang": "en",
+						"name": "Must not correct"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "He",
+				"locales": [
+					{
+						"description": "Li",
+						"lang": "eo",
+						"name": "Li"
+					},
+					{
+						"description": "He",
+						"lang": "en",
+						"name": "He"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "She",
+				"locales": [
+					{
+						"description": "Ŝi",
+						"lang": "eo",
+						"name": "Ŝi"
+					},
+					{
+						"description": "She",
+						"lang": "en",
+						"name": "She"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "They-(singular)",
+				"locales": [
+					{
+						"description": "Ri",
+						"lang": "eo",
+						"name": "Ri"
+					},
+					{
+						"description": "They (singular)",
+						"lang": "en",
+						"name": "They (singular)"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "It",
+				"locales": [
+					{
+						"description": "Ĝi",
+						"lang": "eo",
+						"name": "Ĝi"
+					},
+					{
+						"description": "It",
+						"lang": "en",
+						"name": "It"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "That",
+				"locales": [
+					{
+						"description": "Tiu",
+						"lang": "eo",
+						"name": "Tiu"
+					},
+					{
+						"description": "That",
+						"lang": "en",
+						"name": "That"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bigender-pronoun",
+				"locales": [
+					{
+						"description": "Ŝli",
+						"lang": "eo",
+						"name": "Ŝli"
+					},
+					{
+						"description": "Bigender pronoun",
+						"lang": "en",
+						"name": "Bigender pronoun"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Any-pronouns",
+				"locales": [
+					{
+						"description": "Ajnaj pronomoj",
+						"lang": "eo",
+						"name": "Ajnaj pronomoj"
+					},
+					{
+						"description": "Any pronouns",
+						"lang": "en",
+						"name": "Any pronouns"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "No-pronouns",
+				"locales": [
+					{
+						"description": "Ne pronomumu min",
+						"lang": "eo",
+						"name": "Ne pronomumu min"
+					},
+					{
+						"description": "No pronouns",
+						"lang": "en",
+						"name": "No pronouns"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Account-only-posts-in-Esperanto",
+				"locales": [
+					{
+						"description": "Nur Esperanto",
+						"lang": "eo",
+						"name": "Nur Esperanto"
+					},
+					{
+						"description": "Account only posts in Esperanto",
+						"lang": "en",
+						"name": "Account only posts in Esperanto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Posts-in-Esperanto-and-Other-Langauges",
+				"locales": [
+					{
+						"description": "Esperanto & Aliaj Lingvoj",
+						"lang": "eo",
+						"name": "Esperanto & Aliaj Lingvoj"
+					},
+					{
+						"description": "Posts in Esperanto and Other Langauges",
+						"lang": "en",
+						"name": "Posts in Esperanto and Other Langauges"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Speaks-other-languages-when-Esperanto-should-be-used",
+				"locales": [
+					{
+						"description": "Krokodilanto",
+						"lang": "eo",
+						"name": "Krokodilanto"
+					},
+					{
+						"description": "Speaks other languages when Esperanto should be used",
+						"lang": "en",
+						"name": "Speaks other languages when Esperanto should be used"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "correct-me",
+				"locales": [
+					{
+						"description": "Korektu min",
+						"lang": "eo",
+						"name": "Korektu min"
+					},
+					{
+						"description": "Correct me",
+						"lang": "en",
+						"name": "Correct me"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Beginner",
+				"locales": [
+					{
+						"description": "Komencanto",
+						"lang": "eo",
+						"name": "Komencanto"
+					},
+					{
+						"description": "Beginner",
+						"lang": "en",
+						"name": "Beginner"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Intermediate",
+				"locales": [
+					{
+						"description": "Progresanto",
+						"lang": "eo",
+						"name": "Progresanto"
+					},
+					{
+						"description": "Intermediate",
+						"lang": "en",
+						"name": "Intermediate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Advanced",
+				"locales": [
+					{
+						"description": "Spertulo",
+						"lang": "eo",
+						"name": "Spertulo"
+					},
+					{
+						"description": "Advanced",
+						"lang": "en",
+						"name": "Advanced"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Native Speaker",
+				"locales": [
+					{
+						"description": "Denaskulo",
+						"lang": "eo",
+						"name": "Denaskulo"
+					},
+					{
+						"description": "Native Speaker",
+						"lang": "en",
+						"name": "Native Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Did-quit-Esperanto",
+				"locales": [
+					{
+						"description": "Kabeinto",
+						"lang": "eo",
+						"name": "Kabeinto"
+					},
+					{
+						"description": "Did quit Esperanto",
+						"lang": "en",
+						"name": "Did quit Esperanto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Quitting-Esperanto",
+				"locales": [
+					{
+						"description": "Kabeanto",
+						"lang": "eo",
+						"name": "Kabeanto"
+					},
+					{
+						"description": "Quitting Esperanto",
+						"lang": "en",
+						"name": "Quitting Esperanto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Will-quit-Esperanto",
+				"locales": [
+					{
+						"description": "Kabeonto",
+						"lang": "eo",
+						"name": "Kabeonto"
+					},
+					{
+						"description": "Will quit Esperanto",
+						"lang": "en",
+						"name": "Will quit Esperanto"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "LGBT",
+				"locales": [
+					{
+						"description": "Ĉielarkulo",
+						"lang": "eo",
+						"name": "Ĉielarkulo"
+					},
+					{
+						"description": "LGBT",
+						"lang": "en",
+						"name": "LGBT"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Heterosexual",
+				"locales": [
+					{
+						"description": "Aliseksemulo",
+						"lang": "eo",
+						"name": "Aliseksemulo"
+					},
+					{
+						"description": "Heterosexual",
+						"lang": "en",
+						"name": "Heterosexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Homosexal",
+				"locales": [
+					{
+						"description": "Samseksemulo",
+						"lang": "eo",
+						"name": "Samseksemulo"
+					},
+					{
+						"description": "Homosexal",
+						"lang": "en",
+						"name": "Homosexal"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bisexual",
+				"locales": [
+					{
+						"description": "Ambaŭseksemulo",
+						"lang": "eo",
+						"name": "Ambaŭseksemulo"
+					},
+					{
+						"description": "Bisexual",
+						"lang": "en",
+						"name": "Bisexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Pansexual",
+				"locales": [
+					{
+						"description": "Ĉiuseksemulo",
+						"lang": "eo",
+						"name": "Ĉiuseksemulo"
+					},
+					{
+						"description": "Pansexual",
+						"lang": "en",
+						"name": "Pansexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Asexual",
+				"locales": [
+					{
+						"description": "Senseksemulo",
+						"lang": "eo",
+						"name": "Senseksemulo"
+					},
+					{
+						"description": "Asexual",
+						"lang": "en",
+						"name": "Asexual"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Poly",
+				"locales": [
+					{
+						"description": "Pluramemulo",
+						"lang": "eo",
+						"name": "Pluramemulo"
+					},
+					{
+						"description": "Poly",
+						"lang": "en",
+						"name": "Poly"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Transgender",
+				"locales": [
+					{
+						"description": "Transgenrulo",
+						"lang": "eo",
+						"name": "Transgenrulo"
+					},
+					{
+						"description": "Transgender",
+						"lang": "en",
+						"name": "Transgender"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Cisgender",
+				"locales": [
+					{
+						"description": "Cisgenrulo",
+						"lang": "eo",
+						"name": "Cisgenrulo"
+					},
+					{
+						"description": "Cisgender",
+						"lang": "en",
+						"name": "Cisgender"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Non-binary/genderqueer",
+				"locales": [
+					{
+						"description": "Neduumulo",
+						"lang": "eo",
+						"name": "Neduumulo"
+					},
+					{
+						"description": "Non-binary/genderqueer",
+						"lang": "en",
+						"name": "Non-binary/genderqueer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Queer",
+				"locales": [
+					{
+						"description": "Kviro",
+						"lang": "eo",
+						"name": "Kviro"
+					},
+					{
+						"description": "Queer",
+						"lang": "en",
+						"name": "Queer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Intersex",
+				"locales": [
+					{
+						"description": "Interseksulo",
+						"lang": "eo",
+						"name": "Interseksulo"
+					},
+					{
+						"description": "Intersex",
+						"lang": "en",
+						"name": "Intersex"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Genderfluid",
+				"locales": [
+					{
+						"description": "Genrofluulo",
+						"lang": "eo",
+						"name": "Genrofluulo"
+					},
+					{
+						"description": "Genderfluid",
+						"lang": "en",
+						"name": "Genderfluid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "The-goal-speak-Esperanto",
+				"locales": [
+					{
+						"description": "Finvenkisto",
+						"lang": "eo",
+						"name": "Finvenkisto"
+					},
+					{
+						"description": "Finvenkist",
+						"lang": "en",
+						"name": "Finvenkist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "The-goal-promotion",
+				"locales": [
+					{
+						"description": "Raŭmisto",
+						"lang": "eo",
+						"name": "Raŭmisto"
+					},
+					{
+						"description": "Raŭmist",
+						"lang": "en",
+						"name": "Raŭmist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "compounding",
+				"locales": [
+					{
+						"description": "Bonlingvisto",
+						"lang": "eo",
+						"name": "Bonlingvisto"
+					},
+					{
+						"description": "Create by compounding",
+						"lang": "en",
+						"name": "Create by compounding"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "neologisms",
+				"locales": [
+					{
+						"description": "Mavlingvisto",
+						"lang": "eo",
+						"name": "Mavlingvisto"
+					},
+					{
+						"description": "Esperanto should create neologisms",
+						"lang": "en",
+						"name": "Esperanto should create neologisms"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "normal-language",
+				"locales": [
+					{
+						"description": "Normallingvisto",
+						"lang": "eo",
+						"name": "Normallingvisto"
+					},
+					{
+						"description": "Esperanto should be a normal language",
+						"lang": "en",
+						"name": "Esperanto should be a normal language"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Autist",
+				"locales": [
+					{
+						"description": "Aŭtismulo",
+						"lang": "eo",
+						"name": "Aŭtismulo"
+					},
+					{
+						"description": "Autist",
+						"lang": "en",
+						"name": "Autist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Otaku",
+				"locales": [
+					{
+						"description": "Animeamanto",
+						"lang": "eo",
+						"name": "Animeamanto"
+					},
+					{
+						"description": "Otaku",
+						"lang": "en",
+						"name": "Otaku"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Linguaphile",
+				"locales": [
+					{
+						"description": "Lingvemulo",
+						"lang": "eo",
+						"name": "Lingvemulo"
+					},
+					{
+						"description": "Linguaphile",
+						"lang": "en",
+						"name": "Linguaphile"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Gamer",
+				"locales": [
+					{
+						"description": "Ludemulo",
+						"lang": "eo",
+						"name": "Ludemulo"
+					},
+					{
+						"description": "Gamer",
+						"lang": "en",
+						"name": "Gamer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Musician",
+				"locales": [
+					{
+						"description": "Muzikisto",
+						"lang": "eo",
+						"name": "Muzikisto"
+					},
+					{
+						"description": "Musician",
+						"lang": "en",
+						"name": "Musician"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Artist",
+				"locales": [
+					{
+						"description": "Artisto",
+						"lang": "eo",
+						"name": "Artisto"
+					},
+					{
+						"description": "Artist",
+						"lang": "en",
+						"name": "Artist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Youtuber",
+				"locales": [
+					{
+						"description": "Jutubisto",
+						"lang": "eo",
+						"name": "Jutubisto"
+					},
+					{
+						"description": "Youtuber",
+						"lang": "en",
+						"name": "Youtuber"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Twitch-Streamer",
+				"locales": [
+					{
+						"description": "Tviĉisto",
+						"lang": "eo",
+						"name": "Tviĉisto"
+					},
+					{
+						"description": "Twitch Streamer",
+						"lang": "en",
+						"name": "Twitch Streamer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Podcaster",
+				"locales": [
+					{
+						"description": "Podkastisto",
+						"lang": "eo",
+						"name": "Podkastisto"
+					},
+					{
+						"description": "Podcaster",
+						"lang": "en",
+						"name": "Podcaster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bookworm",
+				"locales": [
+					{
+						"description": "Legemulo",
+						"lang": "eo",
+						"name": "Legemulo"
+					},
+					{
+						"description": "Bookworm",
+						"lang": "en",
+						"name": "Bookworm"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Poet",
+				"locales": [
+					{
+						"description": "Poeziisto",
+						"lang": "eo",
+						"name": "Poeziisto"
+					},
+					{
+						"description": "Poet",
+						"lang": "en",
+						"name": "Poet"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Programmer",
+				"locales": [
+					{
+						"description": "Programisto",
+						"lang": "eo",
+						"name": "Programisto"
+					},
+					{
+						"description": "Programmer",
+						"lang": "en",
+						"name": "Programmer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Translator",
+				"locales": [
+					{
+						"description": "Tradukisto",
+						"lang": "eo",
+						"name": "Tradukisto"
+					},
+					{
+						"description": "Translator",
+						"lang": "en",
+						"name": "Translator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Shit-Poster",
+				"locales": [
+					{
+						"description": "Fekafiŝisto",
+						"lang": "eo",
+						"name": "Fekafiŝisto"
+					},
+					{
+						"description": "Shit Poster",
+						"lang": "en",
+						"name": "Shit Poster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Aries",
+				"locales": [
+					{
+						"description": "♈Ŝafo",
+						"lang": "eo",
+						"name": "♈Ŝafo"
+					},
+					{
+						"description": "Aries",
+						"lang": "en",
+						"name": "Aries"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Taurus",
+				"locales": [
+					{
+						"description": "♉Taŭro",
+						"lang": "eo",
+						"name": "♉Taŭro"
+					},
+					{
+						"description": "Taurus",
+						"lang": "en",
+						"name": "Taurus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Gemini",
+				"locales": [
+					{
+						"description": "♊Ĝemeloj",
+						"lang": "eo",
+						"name": "♊Ĝemeloj"
+					},
+					{
+						"description": "Gemini",
+						"lang": "en",
+						"name": "Gemini"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Cancer",
+				"locales": [
+					{
+						"description": "♋Kankro",
+						"lang": "eo",
+						"name": "♋Kankro"
+					},
+					{
+						"description": "Cancer",
+						"lang": "en",
+						"name": "Cancer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Leo",
+				"locales": [
+					{
+						"description": "♌Leono",
+						"lang": "eo",
+						"name": "♌Leono"
+					},
+					{
+						"description": "Leo",
+						"lang": "en",
+						"name": "Leo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Virgo",
+				"locales": [
+					{
+						"description": "♍Virgo",
+						"lang": "eo",
+						"name": "♍Virgo"
+					},
+					{
+						"description": "Virgo",
+						"lang": "en",
+						"name": "Virgo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Libra",
+				"locales": [
+					{
+						"description": "♍Pesilo",
+						"lang": "eo",
+						"name": "♍Pesilo"
+					},
+					{
+						"description": "Libra",
+						"lang": "en",
+						"name": "Libra"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Scorpio",
+				"locales": [
+					{
+						"description": "♏Skorpio",
+						"lang": "eo",
+						"name": "♏Skorpio"
+					},
+					{
+						"description": "Scorpio",
+						"lang": "en",
+						"name": "Scorpio"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Sagitarrius",
+				"locales": [
+					{
+						"description": "♐Sagitario",
+						"lang": "eo",
+						"name": "♐Sagitario"
+					},
+					{
+						"description": "Sagitarrius",
+						"lang": "en",
+						"name": "Sagitarrius"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Capricorn",
+				"locales": [
+					{
+						"description": "♑Kaprikorno",
+						"lang": "eo",
+						"name": "♑Kaprikorno"
+					},
+					{
+						"description": "Capricorn",
+						"lang": "en",
+						"name": "Capricorn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Aquarius",
+				"locales": [
+					{
+						"description": "♒Amforo",
+						"lang": "eo",
+						"name": "♒Amforo"
+					},
+					{
+						"description": "Aquarius",
+						"lang": "en",
+						"name": "Aquarius"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Pisces",
+				"locales": [
+					{
+						"description": "♓Fiŝoj",
+						"lang": "eo",
+						"name": "♓Fiŝoj"
+					},
+					{
+						"description": "Pisces",
+						"lang": "en",
+						"name": "Pisces"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Ophiuchus",
+				"locales": [
+					{
+						"description": "✨Serpentisto",
+						"lang": "eo",
+						"name": "✨Serpentisto"
+					},
+					{
+						"description": "Ophiuchus",
+						"lang": "en",
+						"name": "Ophiuchus"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Chinese-Speaker",
+				"locales": [
+					{
+						"description": "La ĉina",
+						"lang": "eo",
+						"name": "La ĉina"
+					},
+					{
+						"description": "Chinese Speaker",
+						"lang": "en",
+						"name": "Chinese Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Spanish-Speaker",
+				"locales": [
+					{
+						"description": "La hispana",
+						"lang": "eo",
+						"name": "La hispana"
+					},
+					{
+						"description": "Spanish Speaker",
+						"lang": "en",
+						"name": "Spanish Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "English-Speaker",
+				"locales": [
+					{
+						"description": "La angla",
+						"lang": "eo",
+						"name": "La angla"
+					},
+					{
+						"description": "English Speaker",
+						"lang": "en",
+						"name": "English Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Hindi-Speaker",
+				"locales": [
+					{
+						"description": "La hindia",
+						"lang": "eo",
+						"name": "La hindia"
+					},
+					{
+						"description": "Hindi Speaker",
+						"lang": "en",
+						"name": "Hindi Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bengali-Speaker",
+				"locales": [
+					{
+						"description": "La bengala",
+						"lang": "eo",
+						"name": "La bengala"
+					},
+					{
+						"description": "Bengali Speaker",
+						"lang": "en",
+						"name": "Bengali Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Portuguese-Speaker",
+				"locales": [
+					{
+						"description": "La portugala",
+						"lang": "eo",
+						"name": "La portugala"
+					},
+					{
+						"description": "Portuguese Speaker",
+						"lang": "en",
+						"name": "Portuguese Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Russian-Speaker",
+				"locales": [
+					{
+						"description": "La rusa",
+						"lang": "eo",
+						"name": "La rusa"
+					},
+					{
+						"description": "Russian Speaker",
+						"lang": "en",
+						"name": "Russian Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Japanese-Speaker",
+				"locales": [
+					{
+						"description": "La japana",
+						"lang": "eo",
+						"name": "La japana"
+					},
+					{
+						"description": "Japanese Speaker",
+						"lang": "en",
+						"name": "Japanese Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Vietnamese-Speaker",
+				"locales": [
+					{
+						"description": "La vjetnama",
+						"lang": "eo",
+						"name": "La vjetnama"
+					},
+					{
+						"description": "Vietnamese Speaker",
+						"lang": "en",
+						"name": "Vietnamese Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Turkish-Speaker",
+				"locales": [
+					{
+						"description": "La turka",
+						"lang": "eo",
+						"name": "La turka"
+					},
+					{
+						"description": "Turkish Speaker",
+						"lang": "en",
+						"name": "Turkish Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Marathi Speaker",
+				"locales": [
+					{
+						"description": "La marata",
+						"lang": "eo",
+						"name": "La marata"
+					},
+					{
+						"description": "Marathi Speaker",
+						"lang": "en",
+						"name": "Marathi Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Telugu-Speaker",
+				"locales": [
+					{
+						"description": "La telugua",
+						"lang": "eo",
+						"name": "La telugua"
+					},
+					{
+						"description": "Telugu Speaker",
+						"lang": "en",
+						"name": "Telugu Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Korean-Speaker",
+				"locales": [
+					{
+						"description": "La korea",
+						"lang": "eo",
+						"name": "La korea"
+					},
+					{
+						"description": "Korean Speaker",
+						"lang": "en",
+						"name": "Korean Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Tamil-Speaker",
+				"locales": [
+					{
+						"description": "La tamila",
+						"lang": "eo",
+						"name": "La tamila"
+					},
+					{
+						"description": "Tamil Speaker",
+						"lang": "en",
+						"name": "Tamil Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Arabic Speaker",
+				"locales": [
+					{
+						"description": "La araba",
+						"lang": "eo",
+						"name": "La araba"
+					},
+					{
+						"description": "Arabic Speaker",
+						"lang": "en",
+						"name": "Arabic Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "German-Speaker",
+				"locales": [
+					{
+						"description": "La germana",
+						"lang": "eo",
+						"name": "La germana"
+					},
+					{
+						"description": "German Speaker",
+						"lang": "en",
+						"name": "German Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "French-Speaker",
+				"locales": [
+					{
+						"description": "La franca",
+						"lang": "eo",
+						"name": "La franca"
+					},
+					{
+						"description": "French Speaker",
+						"lang": "en",
+						"name": "French Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Urdu-Speaker",
+				"locales": [
+					{
+						"description": "Urduo",
+						"lang": "eo",
+						"name": "Urduo"
+					},
+					{
+						"description": "Urdu Speaker",
+						"lang": "en",
+						"name": "Urdu Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Italian-Speaker",
+				"locales": [
+					{
+						"description": "La itala",
+						"lang": "eo",
+						"name": "La itala"
+					},
+					{
+						"description": "Italian Speaker",
+						"lang": "en",
+						"name": "Italian Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Persian-Speaker",
+				"locales": [
+					{
+						"description": "La persa",
+						"lang": "eo",
+						"name": "La persa"
+					},
+					{
+						"description": "Persian Speaker",
+						"lang": "en",
+						"name": "Persian Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Tagalog-Speaker",
+				"locales": [
+					{
+						"description": "La tagaloga",
+						"lang": "eo",
+						"name": "La tagaloga"
+					},
+					{
+						"description": "Tagalog Speaker",
+						"lang": "en",
+						"name": "Tagalog Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Swahili-Speaker",
+				"locales": [
+					{
+						"description": "La Svahila",
+						"lang": "eo",
+						"name": "La Svahila"
+					},
+					{
+						"description": "Swahili Speaker",
+						"lang": "en",
+						"name": "Swahili Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Indonesian-Speaker",
+				"locales": [
+					{
+						"description": "La indonezia",
+						"lang": "eo",
+						"name": "La indonezia"
+					},
+					{
+						"description": "Indonesian Speaker",
+						"lang": "en",
+						"name": "Indonesian Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Dutch-Speaker",
+				"locales": [
+					{
+						"description": "La nederlanda",
+						"lang": "eo",
+						"name": "La nederlanda"
+					},
+					{
+						"description": "Dutch Speaker",
+						"lang": "en",
+						"name": "Dutch Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Polish-Speaker",
+				"locales": [
+					{
+						"description": "La pola",
+						"lang": "eo",
+						"name": "La pola"
+					},
+					{
+						"description": "Polish Speaker",
+						"lang": "en",
+						"name": "Polish Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Toki-pona-Speaker",
+				"locales": [
+					{
+						"description": "Tokipono",
+						"lang": "eo",
+						"name": "Tokipono"
+					},
+					{
+						"description": "Toki pona Speaker",
+						"lang": "en",
+						"name": "Toki pona Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Lojban-Speaker",
+				"locales": [
+					{
+						"description": "Loĵbano",
+						"lang": "eo",
+						"name": "Loĵbano"
+					},
+					{
+						"description": "Lojban Speaker",
+						"lang": "en",
+						"name": "Lojban Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Klingon-Speaker",
+				"locales": [
+					{
+						"description": "La klingona",
+						"lang": "eo",
+						"name": "La klingona"
+					},
+					{
+						"description": "Klingon Speaker",
+						"lang": "en",
+						"name": "Klingon Speaker"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Furry",
+				"locales": [
+					{
+						"description": "Felano",
+						"lang": "eo",
+						"name": "Felano"
+					},
+					{
+						"description": "Furry",
+						"lang": "en",
+						"name": "Furry"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Otherkin",
+				"locales": [
+					{
+						"description": "Alispecano",
+						"lang": "eo",
+						"name": "Alispecano"
+					},
+					{
+						"description": "Otherkin",
+						"lang": "en",
+						"name": "Otherkin"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Shapeshifter",
+				"locales": [
+					{
+						"description": "Hombesto",
+						"lang": "eo",
+						"name": "Hombesto"
+					},
+					{
+						"description": "Shapeshifter",
+						"lang": "en",
+						"name": "Shapeshifter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Dragon",
+				"locales": [
+					{
+						"description": "Drako",
+						"lang": "eo",
+						"name": "Drako"
+					},
+					{
+						"description": "Dragon",
+						"lang": "en",
+						"name": "Dragon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Cat",
+				"locales": [
+					{
+						"description": "Kato",
+						"lang": "eo",
+						"name": "Kato"
+					},
+					{
+						"description": "Cat",
+						"lang": "en",
+						"name": "Cat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Fox",
+				"locales": [
+					{
+						"description": "Vulpo",
+						"lang": "eo",
+						"name": "Vulpo"
+					},
+					{
+						"description": "Fox",
+						"lang": "en",
+						"name": "Fox"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Wolf",
+				"locales": [
+					{
+						"description": "Lupo",
+						"lang": "eo",
+						"name": "Lupo"
+					},
+					{
+						"description": "Wolf",
+						"lang": "en",
+						"name": "Wolf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Hybrid",
+				"locales": [
+					{
+						"description": "Hibrido",
+						"lang": "eo",
+						"name": "Hibrido"
+					},
+					{
+						"description": "Hybrid",
+						"lang": "en",
+						"name": "Hybrid"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Dog",
+				"locales": [
+					{
+						"description": "Hundo",
+						"lang": "eo",
+						"name": "Hundo"
+					},
+					{
+						"description": "Dog",
+						"lang": "en",
+						"name": "Dog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Rabbit",
+				"locales": [
+					{
+						"description": "Kuniklo",
+						"lang": "eo",
+						"name": "Kuniklo"
+					},
+					{
+						"description": "Rabbit",
+						"lang": "en",
+						"name": "Rabbit"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Pokemon",
+				"locales": [
+					{
+						"description": "Pokemono",
+						"lang": "eo",
+						"name": "Pokemono"
+					},
+					{
+						"description": "Pokemon",
+						"lang": "en",
+						"name": "Pokemon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Deer",
+				"locales": [
+					{
+						"description": "Cervo",
+						"lang": "eo",
+						"name": "Cervo"
+					},
+					{
+						"description": "Deer",
+						"lang": "en",
+						"name": "Deer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Werewolf",
+				"locales": [
+					{
+						"description": "Homlupo",
+						"lang": "eo",
+						"name": "Homlupo"
+					},
+					{
+						"description": "Werewolf",
+						"lang": "en",
+						"name": "Werewolf"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Raccoon",
+				"locales": [
+					{
+						"description": "Lavurso",
+						"lang": "eo",
+						"name": "Lavurso"
+					},
+					{
+						"description": "Raccoon",
+						"lang": "en",
+						"name": "Raccoon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Tiger",
+				"locales": [
+					{
+						"description": "Tigro",
+						"lang": "eo",
+						"name": "Tigro"
+					},
+					{
+						"description": "Tiger",
+						"lang": "en",
+						"name": "Tiger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bear",
+				"locales": [
+					{
+						"description": "Urso",
+						"lang": "eo",
+						"name": "Urso"
+					},
+					{
+						"description": "Bear",
+						"lang": "en",
+						"name": "Bear"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Hyena",
+				"locales": [
+					{
+						"description": "Hieno",
+						"lang": "eo",
+						"name": "Hieno"
+					},
+					{
+						"description": "Hyena",
+						"lang": "en",
+						"name": "Hyena"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bat",
+				"locales": [
+					{
+						"description": "Vesperto",
+						"lang": "eo",
+						"name": "Vesperto"
+					},
+					{
+						"description": "Bat",
+						"lang": "en",
+						"name": "Bat"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Otter",
+				"locales": [
+					{
+						"description": "Lutro",
+						"lang": "eo",
+						"name": "Lutro"
+					},
+					{
+						"description": "Otter",
+						"lang": "en",
+						"name": "Otter"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Demon",
+				"locales": [
+					{
+						"description": "Demono",
+						"lang": "eo",
+						"name": "Demono"
+					},
+					{
+						"description": "Demon",
+						"lang": "en",
+						"name": "Demon"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Shark",
+				"locales": [
+					{
+						"description": "Ŝarko",
+						"lang": "eo",
+						"name": "Ŝarko"
+					},
+					{
+						"description": "Shark",
+						"lang": "en",
+						"name": "Shark"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Bird",
+				"locales": [
+					{
+						"description": "Birdo",
+						"lang": "eo",
+						"name": "Birdo"
+					},
+					{
+						"description": "Bird",
+						"lang": "en",
+						"name": "Bird"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Leopard",
+				"locales": [
+					{
+						"description": "Leopardo",
+						"lang": "eo",
+						"name": "Leopardo"
+					},
+					{
+						"description": "Leopard",
+						"lang": "en",
+						"name": "Leopard"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Red-Panda",
+				"locales": [
+					{
+						"description": "Malgranda pando",
+						"lang": "eo",
+						"name": "Malgranda pando"
+					},
+					{
+						"description": "Red Panda",
+						"lang": "en",
+						"name": "Red Panda"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "From-the-Americas",
+				"locales": [
+					{
+						"description": "Amerikano",
+						"lang": "eo",
+						"name": "Amerikano"
+					},
+					{
+						"description": "From the Americas",
+						"lang": "en",
+						"name": "From the Americas"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "European",
+				"locales": [
+					{
+						"description": "Eŭropano",
+						"lang": "eo",
+						"name": "Eŭropano"
+					},
+					{
+						"description": "European",
+						"lang": "en",
+						"name": "European"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "African",
+				"locales": [
+					{
+						"description": "Afrikano",
+						"lang": "eo",
+						"name": "Afrikano"
+					},
+					{
+						"description": "African",
+						"lang": "en",
+						"name": "African"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Asian",
+				"locales": [
+					{
+						"description": "Aziano",
+						"lang": "eo",
+						"name": "Aziano"
+					},
+					{
+						"description": "Asian",
+						"lang": "en",
+						"name": "Asian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Oceanian",
+				"locales": [
+					{
+						"description": "Oceaniano",
+						"lang": "eo",
+						"name": "Oceaniano"
+					},
+					{
+						"description": "Oceanian",
+						"lang": "en",
+						"name": "Oceanian"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "Antarctican",
+				"locales": [
+					{
+						"description": "Antarktano",
+						"lang": "eo",
+						"name": "Antarktano"
+					},
+					{
+						"description": "Antarctican",
+						"lang": "en",
+						"name": "Antarctican"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"correct-me",
+			"Must-not-correct",
+			"He",
+			"She",
+			"They-(singular)",
+			"It",
+			"That",
+			"Bigender-pronoun",
+			"Any-pronouns",
+			"No-pronouns",
+			"Account-only-posts-in-Esperanto",
+			"Posts-in-Esperanto-and-Other-Langauges",
+			"Speaks-other-languages-when-Esperanto-should-be-used",
+			"correct-me",
+			"Beginner",
+			"Intermediate",
+			"Advanced",
+			"Native Speaker",
+			"Did-quit-Esperanto",
+			"Quitting-Esperanto",
+			"Will-quit-Esperanto",
+			"LGBT",
+			"Heterosexual",
+			"Homosexal",
+			"Bisexual",
+			"Pansexual",
+			"Asexual",
+			"Poly",
+			"Transgender",
+			"Cisgender",
+			"Non-binary/genderqueer",
+			"Queer",
+			"Intersex",
+			"Genderfluid",
+			"The-goal-speak-Esperanto",
+			"The-goal-promotion",
+			"compounding",
+			"neologisms",
+			"normal-language",
+			"Autist",
+			"Otaku",
+			"Linguaphile",
+			"Gamer",
+			"Musician",
+			"Artist",
+			"Youtuber",
+			"Twitch-Streamer",
+			"Podcaster",
+			"Bookworm",
+			"Poet",
+			"Programmer",
+			"Translator",
+			"Shit-Poster",
+			"Aries",
+			"Taurus",
+			"Gemini",
+			"Cancer",
+			"Leo",
+			"Virgo",
+			"Libra",
+			"Scorpio",
+			"Sagitarrius",
+			"Capricorn",
+			"Aquarius",
+			"Pisces",
+			"Ophiuchus",
+			"Chinese-Speaker",
+			"Spanish-Speaker",
+			"English-Speaker",
+			"Hindi-Speaker",
+			"Bengali-Speaker",
+			"Portuguese-Speaker",
+			"Russian-Speaker",
+			"Japanese-Speaker",
+			"Vietnamese-Speaker",
+			"Turkish-Speaker",
+			"Marathi Speaker",
+			"Telugu-Speaker",
+			"Korean-Speaker",
+			"Tamil-Speaker",
+			"Arabic Speaker",
+			"German-Speaker",
+			"French-Speaker",
+			"Urdu-Speaker",
+			"Italian-Speaker",
+			"Persian-Speaker",
+			"Tagalog-Speaker",
+			"Swahili-Speaker",
+			"Indonesian-Speaker",
+			"Dutch-Speaker",
+			"Polish-Speaker",
+			"Toki-pona-Speaker",
+			"Lojban-Speaker",
+			"Klingon-Speaker",
+			"Furry",
+			"Otherkin",
+			"Shapeshifter",
+			"Dragon",
+			"Cat",
+			"Fox",
+			"Wolf",
+			"Hybrid",
+			"Dog",
+			"Rabbit",
+			"Pokemon",
+			"Deer",
+			"Werewolf",
+			"Raccoon",
+			"Tiger",
+			"Bear",
+			"Hyena",
+			"Bat",
+			"Otter",
+			"Demon",
+			"Shark",
+			"Bird",
+			"Leopard",
+			"Red-Panda",
+			"From-the-Americas",
+			"European",
+			"African",
+			"Asian",
+			"Oceanian",
+			"Antarctican"
+		]
+	}
+}

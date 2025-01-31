@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreic5uscqubhej2zy2koiwl5lf6ujhkuy53evyjqcnydxuwkxjhndxa",
+	"cid": "bafyreicu3xiq7xktawzslpt5nrjjcc3fwlsk3ytkzwm77cnlihz7ggl5ku",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bikesky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2025-01-17T21:50:39.444Z"
 	},
 	"likeCount": 66,
-	"indexedAt": "2025-01-12T18:27:35.766Z",
+	"indexedAt": "2025-01-30T17:54:15.266Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -895,6 +895,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "bike-platform-verified",
+				"locales": [
+					{
+						"description": "This is the official account of a biking related technology or community platform.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Bike Platform"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "bike-mechanic-verified",
 				"locales": [
 					{
@@ -1137,6 +1151,7 @@
 			"biking-media-verified",
 			"biking-publication-verified",
 			"bike-business-verified",
+			"bike-platform-verified",
 			"bike-mechanic-verified",
 			"ebike-mechanic-verified",
 			"biking-content-creator-verified",

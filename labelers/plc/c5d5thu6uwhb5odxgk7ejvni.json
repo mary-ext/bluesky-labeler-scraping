@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-	"cid": "bafyreig36u2bulky6ifear3bpm3nhugrhct4iopcr5rodadotblshxxolu",
+	"cid": "bafyreieoy4oblb3vuhzskbomtmyebwpoidss3ucca43s2s53dgnpptsxnu",
 	"creator": {
 		"did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
 		"handle": "labeler.urbanism.plus",
@@ -15,8 +15,8 @@
 		"description": "Subscribe, Like & Comment what *3* labels you'd like.\n\nPlease only report \"garbage\" \"carbrain\" and \"NIMBY\" the other labels are for fun!",
 		"indexedAt": "2025-01-25T06:44:34.042Z"
 	},
-	"likeCount": 50,
-	"indexedAt": "2025-01-29T23:02:13.359Z",
+	"likeCount": 52,
+	"indexedAt": "2025-01-30T19:57:19.483Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -38,12 +38,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "city-planner",
+				"identifier": "cyclist-urbanism",
 				"locales": [
 					{
-						"description": "you know things",
+						"description": "rider of an acoustic bike, e-bike, or trike",
 						"lang": "en",
-						"name": "City Planner"
+						"name": "Cyclist"
 					}
 				],
 				"severity": "inform"
@@ -52,12 +52,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "cyclist",
+				"identifier": "cyclist-entitled",
 				"locales": [
 					{
-						"description": "entitled rider of an acoustic bike, e-bike, or trike",
+						"description": "a badge of honor",
 						"lang": "en",
-						"name": "Cyclist"
+						"name": "Entitled Cyclist"
 					}
 				],
 				"severity": "inform"
@@ -108,7 +108,49 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "safe-street",
+				"identifier": "housing-advocate",
+				"locales": [
+					{
+						"description": "housing is a human right",
+						"lang": "en",
+						"name": "Housing Advocate"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "yimby",
+				"locales": [
+					{
+						"description": "Yes In My BackYard",
+						"lang": "en",
+						"name": "YIMBY"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "parking-reform",
+				"locales": [
+					{
+						"description": "car storage is bad",
+						"lang": "en",
+						"name": "Parking Reform"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "safe-street-advocate",
 				"locales": [
 					{
 						"description": "won't somebody think of the children",
@@ -164,12 +206,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "housing-activist",
+				"identifier": "academic-urbanist",
 				"locales": [
 					{
-						"description": "housing is a human right",
+						"description": "researcher of urbanism/adjacent topics",
 						"lang": "en",
-						"name": "Housing Advocate"
+						"name": "Academic Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -178,12 +220,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "yimby",
+				"identifier": "feminist-urbanist",
 				"locales": [
 					{
-						"description": "Yes In My BackYard",
+						"description": "a feminist and an urbanist",
 						"lang": "en",
-						"name": "YIMBY"
+						"name": "Feminist Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -192,12 +234,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "left-nimby",
+				"identifier": "city-planner",
 				"locales": [
 					{
-						"description": "developers hate us",
+						"description": "you know things",
 						"lang": "en",
-						"name": "Left-NIMBY"
+						"name": "City Planner"
 					}
 				],
 				"severity": "inform"
@@ -206,12 +248,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "urbanist-creator",
+				"identifier": "urbanism-creator",
 				"locales": [
 					{
 						"description": "youtube, podcasts, if you make urbanism/adjacent content, this is for you",
 						"lang": "en",
-						"name": "Urbanist Creator"
+						"name": "Urbanism Creator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "urbanism-shorts",
+				"locales": [
+					{
+						"description": "short video content creator",
+						"lang": "en",
+						"name": "Urbanism Shorts"
 					}
 				],
 				"severity": "inform"
@@ -234,12 +290,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "academic-urbanist",
+				"identifier": "urbanism-publication",
 				"locales": [
 					{
-						"description": "researcher of urbanism/adjacent topics",
+						"description": "urbanism media coverage",
 						"lang": "en",
-						"name": "Academic Urbanist"
+						"name": "Urbanism Publicationion"
 					}
 				],
 				"severity": "inform"
@@ -248,12 +304,68 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "urbanist-org",
+				"identifier": "urbanism-org",
 				"locales": [
 					{
-						"description": "urbanist/adjacent organization",
+						"description": "urbanism/adjacent organization",
 						"lang": "en",
-						"name": "Urbanist Org"
+						"name": "Urbanism Org"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "urbanism-brand",
+				"locales": [
+					{
+						"description": "urbanist/adjacent brand",
+						"lang": "en",
+						"name": "Urbanism Brand"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "transit-agency",
+				"locales": [
+					{
+						"description": "official transit agency",
+						"lang": "en",
+						"name": "Transit Agency"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "uplus-sponsor",
+				"locales": [
+					{
+						"description": "financial sponsor keeping the lights on",
+						"lang": "en",
+						"name": "U+ Sponsor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "uplus-supporter",
+				"locales": [
+					{
+						"description": "financial supporter keeping the lights on",
+						"lang": "en",
+						"name": "U+ Supporter"
 					}
 				],
 				"severity": "inform"
@@ -268,20 +380,6 @@
 						"description": "3",
 						"lang": "en",
 						"name": "placeholder3"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "feminist-urbanist",
-				"locales": [
-					{
-						"description": "a feminist and an urbanist",
-						"lang": "en",
-						"name": "Feminist Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -321,7 +419,7 @@
 				"identifier": "carbrain",
 				"locales": [
 					{
-						"description": "one more lane\n\nalso includes anti-cyclist folks",
+						"description": "one more lane--also includes anti-cyclist folks",
 						"lang": "en",
 						"name": "Carbrain"
 					}
@@ -341,32 +439,69 @@
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gadgetbahn",
+				"locales": [
+					{
+						"description": "hyperloop",
+						"lang": "en",
+						"name": "Gadgetbahn"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "uplus-staff",
+				"locales": [
+					{
+						"description": "admin or mod of U+",
+						"lang": "en",
+						"name": "U+ Staff"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"urbanist",
-			"city-planner",
-			"cyclist",
+			"cyclist-urbanism",
+			"cyclist-entitled",
 			"pedestrian",
 			"transit-rider",
 			"accessibility-advocate",
-			"safe-street",
+			"housing-advocate",
+			"yimby",
+			"parking-reform",
+			"safe-street-advocate",
 			"car-free",
 			"car-lite",
 			"foamer",
-			"housing-activist",
-			"yimby",
-			"left-nimby",
-			"urbanist-creator",
-			"urbanism-goat",
 			"academic-urbanist",
-			"urbanist-org",
-			"placeholder-three",
 			"feminist-urbanist",
+			"city-planner",
+			"urbanism-creator",
+			"urbanism-shorts",
+			"urbanism-goat",
+			"urbanism-publication",
+			"urbanism-org",
+			"urbanism-brand",
+			"transit-agency",
+			"uplus-sponsor",
+			"uplus-supporter",
+			"placeholder-three",
 			"garbage",
 			"nimby",
 			"carbrain",
-			"active-x-user"
+			"active-x-user",
+			"gadgetbahn",
+			"uplus-staff"
 		]
 	}
 }

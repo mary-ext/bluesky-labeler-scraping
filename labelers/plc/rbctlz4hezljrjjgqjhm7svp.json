@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-	"cid": "bafyreibkkz5ovb4u4eovqeo3lqfxrmspn2lshnlyy5sg6umdbizyuehk5e",
+	"cid": "bafyreib5nlo6m2qm3bch5iv7ifvsumlycrvyivaec72rtirrvukjqovyxe",
 	"creator": {
 		"did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
 		"handle": "bias.is",
@@ -18,8 +18,8 @@
 		"description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
 		"indexedAt": "2025-01-09T00:13:45.944Z"
 	},
-	"likeCount": 27,
-	"indexedAt": "2025-01-29T01:25:32.754Z",
+	"likeCount": 28,
+	"indexedAt": "2025-01-30T07:04:14.456Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -764,6 +764,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jihyo",
+				"locales": [
+					{
+						"description": "User is a fan of Jihyo",
+						"lang": "en",
+						"name": "Jihyo"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "---jihyo",
+				"locales": [
+					{
+						"description": "User is a fan of Jihyo\n...in fact, it's their 💖 ult~",
+						"lang": "en",
+						"name": "💖 Jihyo"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -819,7 +847,9 @@
 			"kim-sungkyu",
 			"seoah",
 			"joy",
-			"wonho"
+			"wonho",
+			"jihyo",
+			"---jihyo"
 		]
 	}
 }

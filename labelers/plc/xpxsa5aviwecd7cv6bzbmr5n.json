@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreiarccfcp5lj3cixuwwaujl4l5dxgecnlov55eipj76ci2jigrxu3m",
+	"cid": "bafyreiaoblzqi5qxus23kjkse2ka5z4vny5kpyoemuscjp7dx4twbwmkue",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 359,
-	"indexedAt": "2025-01-27T23:55:19.476Z",
+	"likeCount": 360,
+	"indexedAt": "2025-01-30T22:32:56.878Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5426,6 +5426,34 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "atelierdisko-payload-lexical-react-renderer",
+				"locales": [
+					{
+						"description": "https://github.com/atelierdisko/payload-lexical-react-renderer",
+						"lang": "en",
+						"name": "atelierdisko/payload-lexical-react-renderer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "opennebula-terraform-provider-opennebula",
+				"locales": [
+					{
+						"description": "Terraform provider for OpenNebula\nhttps://github.com/OpenNebula/terraform-provider-opennebula",
+						"lang": "en",
+						"name": "OpenNebula/terraform-provider-opennebula"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5814,7 +5842,9 @@
 			"jdhitsolutions-psbluesky",
 			"jdhitsolutions-psscripttools",
 			"supabase-community-supabase-ex",
-			"zoedsoupe-proto-rune"
+			"zoedsoupe-proto-rune",
+			"atelierdisko-payload-lexical-react-renderer",
+			"opennebula-terraform-provider-opennebula"
 		]
 	}
 }

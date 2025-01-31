@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3lh2yd5jfacaonp4ftezbd5a/app.bsky.labeler.service/self",
-	"cid": "bafyreicrplvfj5ziecedrk2pgprratrjrd2u5mb5b4aivzk7u4ryi356oe",
+	"cid": "bafyreicvzlouar7ncljtd3kekm53l4hw5enca5ayykb2qtops2j76mmhgq",
 	"creator": {
 		"did": "did:plc:3lh2yd5jfacaonp4ftezbd5a",
 		"handle": "moderation.beehive.systems",
@@ -16,10 +16,24 @@
 		"indexedAt": "2025-01-28T09:34:57.944Z"
 	},
 	"likeCount": 3,
-	"indexedAt": "2025-01-28T21:00:55.961Z",
+	"indexedAt": "2025-01-30T01:44:56.654Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "missing-context",
+				"locales": [
+					{
+						"description": "This label is applied to content that we assess is missing critical context in order to be truthfully and honestly understood.",
+						"lang": "en",
+						"name": "Missing context"
+					}
+				],
+				"severity": "warn"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -148,6 +162,7 @@
 			}
 		],
 		"labelValues": [
+			"missing-context",
 			"unverified-financial",
 			"satire",
 			"phishing",
