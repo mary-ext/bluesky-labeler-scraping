@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-	"cid": "bafyreieoy4oblb3vuhzskbomtmyebwpoidss3ucca43s2s53dgnpptsxnu",
+	"cid": "bafyreigv4fb4vtxmdcwpyxg27afenwl3635gyxlctc3wickogdoycmjtru",
 	"creator": {
 		"did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
 		"handle": "labeler.urbanism.plus",
@@ -15,8 +15,8 @@
 		"description": "Subscribe, Like & Comment what *3* labels you'd like.\n\nPlease only report \"garbage\" \"carbrain\" and \"NIMBY\" the other labels are for fun!",
 		"indexedAt": "2025-01-25T06:44:34.042Z"
 	},
-	"likeCount": 52,
-	"indexedAt": "2025-01-30T19:57:19.483Z",
+	"likeCount": 53,
+	"indexedAt": "2025-01-31T20:53:25.661Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -211,7 +211,7 @@
 					{
 						"description": "researcher of urbanism/adjacent topics",
 						"lang": "en",
-						"name": "Academic Urbanist"
+						"name": "📕Academic Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -225,7 +225,7 @@
 					{
 						"description": "a feminist and an urbanist",
 						"lang": "en",
-						"name": "Feminist Urbanist"
+						"name": "🩷Feminist Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -239,7 +239,7 @@
 					{
 						"description": "you know things",
 						"lang": "en",
-						"name": "City Planner"
+						"name": "🏙️City Planner"
 					}
 				],
 				"severity": "inform"
@@ -251,9 +251,9 @@
 				"identifier": "urbanism-creator",
 				"locales": [
 					{
-						"description": "youtube, podcasts, if you make urbanism/adjacent content, this is for you",
+						"description": "youtube, podcasts, blog, writer, if you make urbanism/adjacent content, this is for you",
 						"lang": "en",
-						"name": "Urbanism Creator"
+						"name": "🎙️Urbanism Creator"
 					}
 				],
 				"severity": "inform"
@@ -267,7 +267,7 @@
 					{
 						"description": "short video content creator",
 						"lang": "en",
-						"name": "Urbanism Shorts"
+						"name": "🎞️Urbanism Shorts"
 					}
 				],
 				"severity": "inform"
@@ -281,7 +281,7 @@
 					{
 						"description": "reserved for high-profile content creators or other high-profile folks in the urbanism/bike/transit etc space",
 						"lang": "en",
-						"name": "Urbanism GOAT"
+						"name": "🥇Urbanism GOAT"
 					}
 				],
 				"severity": "inform"
@@ -295,7 +295,21 @@
 					{
 						"description": "urbanism media coverage",
 						"lang": "en",
-						"name": "Urbanism Publicationion"
+						"name": "📰Urbanism Publication "
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "urbanism-writer",
+				"locales": [
+					{
+						"description": "journalist",
+						"lang": "en",
+						"name": "✒️Urbanism Writer"
 					}
 				],
 				"severity": "inform"
@@ -309,7 +323,7 @@
 					{
 						"description": "urbanism/adjacent organization",
 						"lang": "en",
-						"name": "Urbanism Org"
+						"name": "🏢Urbanism Org"
 					}
 				],
 				"severity": "inform"
@@ -323,7 +337,7 @@
 					{
 						"description": "urbanist/adjacent brand",
 						"lang": "en",
-						"name": "Urbanism Brand"
+						"name": "🏷️Urbanism Brand"
 					}
 				],
 				"severity": "inform"
@@ -337,7 +351,7 @@
 					{
 						"description": "official transit agency",
 						"lang": "en",
-						"name": "Transit Agency"
+						"name": "🚌Transit Agency"
 					}
 				],
 				"severity": "inform"
@@ -351,7 +365,7 @@
 					{
 						"description": "financial sponsor keeping the lights on",
 						"lang": "en",
-						"name": "U+ Sponsor"
+						"name": "🎩U+ Sponsor"
 					}
 				],
 				"severity": "inform"
@@ -365,7 +379,7 @@
 					{
 						"description": "financial supporter keeping the lights on",
 						"lang": "en",
-						"name": "U+ Supporter"
+						"name": "🌠U+ Supporter"
 					}
 				],
 				"severity": "inform"
@@ -490,6 +504,7 @@
 			"urbanism-shorts",
 			"urbanism-goat",
 			"urbanism-publication",
+			"urbanism-writer",
 			"urbanism-org",
 			"urbanism-brand",
 			"transit-agency",

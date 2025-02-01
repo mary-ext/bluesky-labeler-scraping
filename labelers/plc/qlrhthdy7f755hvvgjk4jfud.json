@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qlrhthdy7f755hvvgjk4jfud/app.bsky.labeler.service/self",
-	"cid": "bafyreigujomjwefkxkl2equlqzrugbqd342yut7xk5krmpqxkrqnzmnci4",
+	"cid": "bafyreieb6vrbuaswajkyhin6svd7o6n52a7t2o7ocfy5hqvqpolcjk2e3m",
 	"creator": {
 		"did": "did:plc:qlrhthdy7f755hvvgjk4jfud",
 		"handle": "mhlabeler.bsky.social",
@@ -12,11 +12,11 @@
 		},
 		"labels": [],
 		"createdAt": "2025-01-30T20:11:59.943Z",
-		"description": "--\nCURRENTLY UNDER CONSTRUCTION, labels do not work properly\n\nRun by @violetmizutsune.bsky.social , contact me if there are any issues!",
-		"indexedAt": "2025-01-30T22:43:03.344Z"
+		"description": "--\nCURRENTLY UNDER CONSTRUCTION, labels do not work properly yet 😔\n\nRun by @violetmizutsune.bsky.social",
+		"indexedAt": "2025-01-31T04:06:50.544Z"
 	},
-	"likeCount": 2,
-	"indexedAt": "2025-01-30T21:56:11.651Z",
+	"likeCount": 6,
+	"indexedAt": "2025-01-31T03:51:20.655Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,12 +24,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "gs",
+				"identifier": "sns",
 				"locales": [
 					{
-						"description": "This user uses the Great Sword",
+						"description": "This hunter uses the Sword and Shield",
 						"lang": "en",
-						"name": "Great Sword"
+						"name": "Sword and Shield"
 					}
 				],
 				"severity": "inform"
@@ -41,17 +41,272 @@
 				"identifier": "db",
 				"locales": [
 					{
-						"description": "This user uses Dual Blades",
+						"description": "This hunter uses Dual Blades",
 						"lang": "en",
 						"name": "Dual Blades"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gs",
+				"locales": [
+					{
+						"description": "This hunter uses the Great Sword",
+						"lang": "en",
+						"name": "Great Sword"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ls",
+				"locales": [
+					{
+						"description": "This hunter uses the Long Sword",
+						"lang": "en",
+						"name": "Long Sword"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ham",
+				"locales": [
+					{
+						"description": "This hunter uses the Hammer",
+						"lang": "en",
+						"name": "Hammer"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hh",
+				"locales": [
+					{
+						"description": "This hunter uses the Hunting Horn",
+						"lang": "en",
+						"name": "Hunting Horn"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "gl",
+				"locales": [
+					{
+						"description": "This hunter uses the Gunlance",
+						"lang": "en",
+						"name": "Gunlance"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lan",
+				"locales": [
+					{
+						"description": "This hunter uses the Lance",
+						"lang": "en",
+						"name": "Lance"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "sa",
+				"locales": [
+					{
+						"description": "This hunter uses the Switch Axe",
+						"lang": "en",
+						"name": "Switch Axe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cb",
+				"locales": [
+					{
+						"description": "This hunter uses the Charge Blade",
+						"lang": "en",
+						"name": "Charge Blade"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ig",
+				"locales": [
+					{
+						"description": "This hunter uses the Insect Glaive",
+						"lang": "en",
+						"name": "Insect Glaive"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "lbg",
+				"locales": [
+					{
+						"description": "This hunter uses the Light Bowgun",
+						"lang": "en",
+						"name": "Light Bowgun"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "hbg",
+				"locales": [
+					{
+						"description": "This hunter uses the Heavy Bowgun",
+						"lang": "en",
+						"name": "Heavy Bowgun"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bow",
+				"locales": [
+					{
+						"description": "This hunter uses the Bow",
+						"lang": "en",
+						"name": "Bow"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "prow",
+				"locales": [
+					{
+						"description": "This hunter uses the Prowler class",
+						"lang": "en",
+						"name": "Prowler"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ton",
+				"locales": [
+					{
+						"description": "This hunter uses the Tonfa",
+						"lang": "en",
+						"name": "Tonfa"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mag",
+				"locales": [
+					{
+						"description": "This hunter uses the Magnet Spike",
+						"lang": "en",
+						"name": "Magnet Spike"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "acc",
+				"locales": [
+					{
+						"description": "This hunter uses the Accel Axe",
+						"lang": "en",
+						"name": "Accel Axe"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "mbg",
+				"locales": [
+					{
+						"description": "This hunter uses the Medium Bowgun",
+						"lang": "en",
+						"name": "Medium Bowgun"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
+			"sns",
+			"db",
 			"gs",
-			"db"
+			"ls",
+			"ham",
+			"hh",
+			"gl",
+			"lan",
+			"sa",
+			"cb",
+			"ig",
+			"lbg",
+			"hbg",
+			"bow",
+			"prow",
+			"ton",
+			"mag",
+			"acc",
+			"mbg"
 		]
 	}
 }

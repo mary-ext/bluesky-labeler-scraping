@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-	"cid": "bafyreib6m2r7ipvofm4v7ax4jvvafh5gzorrszhkikihik7kwg4upygp24",
+	"cid": "bafyreiht2kgv7hiuljkf3jahlgrfph5a7wi5wr5r7c7iyiacwhum5r22j4",
 	"creator": {
 		"did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
 		"handle": "skywatch.blue",
@@ -18,11 +18,25 @@
 		"description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @moderation.bsky.social, @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service | Not able to perform takedowns",
 		"indexedAt": "2025-01-13T02:45:19.043Z"
 	},
-	"likeCount": 7149,
-	"indexedAt": "2025-01-29T10:24:35.254Z",
+	"likeCount": 7154,
+	"indexedAt": "2025-01-31T09:39:44.854Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore",
+				"identifier": "dehumanizing-rhetoric",
+				"locales": [
+					{
+						"description": "Applied to accounts and / or posts which engage in rhetoric which has the effect of dehumanizing a group of people. ",
+						"lang": "en",
+						"name": "Dehumanizing Rhetoric"
+					}
+				],
+				"severity": "alert"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "content",
@@ -345,13 +359,14 @@
 			}
 		],
 		"labelValues": [
-			"blue-heart-emoji",
 			"alf",
 			"alt-tech",
 			"automated-reply-guy",
 			"beans",
+			"blue-heart-emoji",
 			"bluesky-elder",
 			"contains-slur",
+			"dehumanizing-rhetoric",
 			"disinformation-network",
 			"elon-musk",
 			"fringe-media",

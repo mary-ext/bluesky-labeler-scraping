@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:iwgztlbtspo6bjy25qgcllqi/app.bsky.labeler.service/self",
-	"cid": "bafyreibxf2yzht3o6swde2pb4rkjimtm76dhhyx37jv6nxphx3dszlv44y",
+	"cid": "bafyreifglgzto5fge5hn7q6byqhqlleqvcpl3ifu4i5ldltce5k2k2nq54",
 	"creator": {
 		"did": "did:plc:iwgztlbtspo6bjy25qgcllqi",
 		"handle": "panslawek.pl",
@@ -15,11 +15,30 @@
 		"description": "Promowanie kulturalnej dyskusji i dobrej zabawy poprzez moderowanie niewłaściwych zachowań.",
 		"indexedAt": "2025-01-17T10:52:33.642Z"
 	},
-	"likeCount": 249,
-	"indexedAt": "2025-01-12T20:35:03.559Z",
+	"likeCount": 250,
+	"indexedAt": "2025-01-31T11:19:17.856Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "media",
+				"locales": [
+					{
+						"description": "Media: określone w ustawie podmioty jak również wybrane instytucje, organy lub osoby posiadające akredytację, zgodę lub prowadzą nie akredytowaną działalność medialną.",
+						"lang": "pl",
+						"name": "📸 📰 ️Media 🎤 🎥"
+					},
+					{
+						"description": "Media: entities as defined in the law as well as selected institutions, bodies or individuals with accreditation, approval or conduct non-accredited media activities.",
+						"lang": "en",
+						"name": "📸 📰 ️Media 🎤 🎥"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -326,6 +345,7 @@
 			}
 		],
 		"labelValues": [
+			"media",
 			"inspirator",
 			"vip",
 			"motyl",
