@@ -1,0 +1,59 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:5zzaepmo6oq57ifawzth2idz/app.bsky.labeler.service/self",
+	"cid": "bafyreidum6m4kmrkuoxmdf473kh6oj35qyhvj45st6zv3gaybcst5ismte",
+	"creator": {
+		"did": "did:plc:5zzaepmo6oq57ifawzth2idz",
+		"handle": "dk-x.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5zzaepmo6oq57ifawzth2idz/bafkreigiox4h2462wl5bc3nxeinqmsu4n4jvtyjwlfk6x5xufbz57zygfm@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-02-01T21:21:48.944Z",
+		"indexedAt": "2025-02-01T21:22:22.146Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-02-01T21:31:40.059Z",
+	"labels": [],
+	"policies": {
+		"$type": "app.bsky.labeler.defs#labelerPolicies",
+		"labelValueDefinitions": [
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "good_post",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "A quality post worth reading",
+						"lang": "en",
+						"name": "Good Post"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"$type": "com.atproto.label.defs#labelValueDefinition",
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bad_post",
+				"locales": [
+					{
+						"$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+						"description": "A low-quality or problematic post",
+						"lang": "en",
+						"name": "Bad Post"
+					}
+				],
+				"severity": "alert"
+			}
+		],
+		"labelValues": [
+			"good_post",
+			"bad_post"
+		]
+	}
+}
