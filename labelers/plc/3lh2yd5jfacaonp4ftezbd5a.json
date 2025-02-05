@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:3lh2yd5jfacaonp4ftezbd5a/app.bsky.labeler.service/self",
-	"cid": "bafyreicvzlouar7ncljtd3kekm53l4hw5enca5ayykb2qtops2j76mmhgq",
+	"cid": "bafyreiav7affugsad4lge6nawpshxzhw3qkpv3snznavcqpja4p2lws32m",
 	"creator": {
 		"did": "did:plc:3lh2yd5jfacaonp4ftezbd5a",
 		"handle": "moderation.beehive.systems",
@@ -16,7 +16,7 @@
 		"indexedAt": "2025-01-28T09:34:57.944Z"
 	},
 	"likeCount": 4,
-	"indexedAt": "2025-01-30T01:44:56.654Z",
+	"indexedAt": "2025-02-04T14:18:32.860Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -24,10 +24,24 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
+				"identifier": "politically-charged",
+				"locales": [
+					{
+						"description": "This label is applied to content and accounts that center their messaging around politics in a charged format. You can use this label to help control the amount of political raving visible on your Bluesky timeline, while still seeing reasonable political content.",
+						"lang": "en",
+						"name": "Politically charged content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
 				"identifier": "missing-context",
 				"locales": [
 					{
-						"description": "This label is applied to content that we assess is missing critical context in order to be truthfully and honestly understood.",
+						"description": "This label is applied to content that we assess is missing critical context in order to be truthfully and honestly understood. You can use this label to control the visibility of content that is likely to be confusing or misleading due to missing context.",
 						"lang": "en",
 						"name": "Missing context"
 					}
@@ -162,6 +176,7 @@
 			}
 		],
 		"labelValues": [
+			"politically-charged",
 			"missing-context",
 			"unverified-financial",
 			"satire",
