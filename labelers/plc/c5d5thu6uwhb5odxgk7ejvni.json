@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-	"cid": "bafyreidmkfgnjkeyf3v2zddxgr7xwy2q2dklkyx43ftky2k2gvjoibjhqa",
+	"cid": "bafyreiafauymspomrs27a6qbomd6tvl25crnfeu2di27ipxe4ddik3hqwe",
 	"creator": {
 		"did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
 		"handle": "labeler.urbanism.plus",
@@ -15,8 +15,8 @@
 		"description": "Subscribe, Like & Comment what *3* labels you'd like.\n\nPlease only report \"garbage\" \"carbrain\" and \"NIMBY\" the other labels are for fun!",
 		"indexedAt": "2025-01-25T06:44:34.042Z"
 	},
-	"likeCount": 59,
-	"indexedAt": "2025-02-04T16:33:32.357Z",
+	"likeCount": 61,
+	"indexedAt": "2025-02-05T21:37:43.955Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -295,7 +295,7 @@
 					{
 						"description": "urbanism media coverage",
 						"lang": "en",
-						"name": "📰Urbanism Publication "
+						"name": "📰Urbanism Publication"
 					}
 				],
 				"severity": "inform"
@@ -442,14 +442,14 @@
 			},
 			{
 				"adultOnly": false,
-				"blurs": "none",
+				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "active-x-user",
+				"identifier": "blur-post",
 				"locales": [
 					{
-						"description": "These urbanists are active on X/twitter. Consider unfollowing and let it be known that you do not support fascism",
+						"description": "This post has been blurred for being Carbrain, NIMBY, or anti-cyclist.",
 						"lang": "en",
-						"name": "ActiveXUser"
+						"name": "Urbanism+ Blur"
 					}
 				],
 				"severity": "alert"
@@ -514,7 +514,7 @@
 			"garbage",
 			"nimby",
 			"carbrain",
-			"active-x-user",
+			"blur-post",
 			"gadgetbahn",
 			"uplus-staff"
 		]
