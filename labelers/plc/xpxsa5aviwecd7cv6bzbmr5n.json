@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreiesfsaok5ocdc25ryzwcgc745bze6khutnwyevnkyw3ce7ta3ziw4",
+	"cid": "bafyreigj32q4rjkcqbrqfzli2quccux37bo7rvm4ndslz7636pelep6kya",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 359,
-	"indexedAt": "2025-02-05T08:14:35.859Z",
+	"likeCount": 360,
+	"indexedAt": "2025-02-06T21:32:50.774Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5468,6 +5468,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nodejs-undici",
+				"locales": [
+					{
+						"description": "An HTTP/1.1 client, written from scratch for Node.js\nhttps://github.com/nodejs/undici",
+						"lang": "en",
+						"name": "nodejs/undici"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "piscinajs-piscina",
+				"locales": [
+					{
+						"description": "A fast, efficient Node.js Worker Thread Pool implementation\nhttps://github.com/piscinajs/piscina",
+						"lang": "en",
+						"name": "piscinajs/piscina"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "fastify-fastify",
+				"locales": [
+					{
+						"description": "Fast and low overhead web framework, for Node.js\nhttps://github.com/fastify/fastify",
+						"lang": "en",
+						"name": "fastify/fastify"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5859,7 +5901,10 @@
 			"zoedsoupe-proto-rune",
 			"atelierdisko-payload-lexical-react-renderer",
 			"opennebula-terraform-provider-opennebula",
-			"jemenioneone-talestrove"
+			"jemenioneone-talestrove",
+			"nodejs-undici",
+			"piscinajs-piscina",
+			"fastify-fastify"
 		]
 	}
 }
