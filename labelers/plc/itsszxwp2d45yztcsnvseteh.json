@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:itsszxwp2d45yztcsnvseteh/app.bsky.labeler.service/self",
-	"cid": "bafyreih74amfwn4gm5zjphuy6ix4w775fr2no5osv3iueawvizpyvsk5hy",
+	"cid": "bafyreigrfzv4koke5amn2hkticvnyd4zmaz7k6tgx4l4viwaws6efh2yae",
 	"creator": {
 		"did": "did:plc:itsszxwp2d45yztcsnvseteh",
 		"handle": "osrslabeler.bsky.social",
@@ -16,7 +16,7 @@
 		"indexedAt": "2024-11-21T12:06:57.971Z"
 	},
 	"likeCount": 34,
-	"indexedAt": "2024-11-21T11:52:10.480Z",
+	"indexedAt": "2025-02-08T23:40:16.656Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -383,6 +383,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "osrslabeler-official-mobile",
+				"locales": [
+					{
+						"description": "Mobile only Account",
+						"lang": "en",
+						"name": "Mobile"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -411,7 +425,8 @@
 			"osrslabeler-snowflake-poh-host",
 			"osrslabeler-official-leagues",
 			"osrslabeler-official-deadman",
-			"osrslabeler-official-speedrun"
+			"osrslabeler-official-speedrun",
+			"osrslabeler-official-mobile"
 		]
 	}
 }

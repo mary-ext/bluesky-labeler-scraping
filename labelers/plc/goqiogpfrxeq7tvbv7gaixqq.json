@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:goqiogpfrxeq7tvbv7gaixqq/app.bsky.labeler.service/self",
-	"cid": "bafyreieekw6o5ibb7tn6ffzdne7epjd7bkhqiek23eui7tjijmqpli5uqe",
+	"cid": "bafyreiaxb32im2fdnnidfe6uhkimrk4mcaqtjofpazh46zqqsb5jcdnyfy",
 	"creator": {
 		"did": "did:plc:goqiogpfrxeq7tvbv7gaixqq",
 		"handle": "samuellau0802.bsky.social",
@@ -15,7 +15,7 @@
 		"indexedAt": "2025-01-31T03:41:11.244Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-02-05T02:10:46.459Z",
+	"indexedAt": "2025-02-08T11:52:02.856Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,17 +23,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "earth2",
+				"identifier": "age",
 				"locales": [
 					{
-						"description": "Earth2",
+						"description": "Age of the individual",
 						"lang": "en",
-						"name": "Earth2 🌎"
-					},
-					{
-						"description": "Terra",
-						"lang": "pt-BR",
-						"name": "Terra 🌎"
+						"name": "Age"
 					}
 				],
 				"severity": "inform"
@@ -42,17 +37,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "fire",
+				"identifier": "gender",
 				"locales": [
 					{
-						"description": "Fire",
+						"description": "Gender of the individual",
 						"lang": "en",
-						"name": "Fire 🔥"
-					},
-					{
-						"description": "Fogo",
-						"lang": "pt-BR",
-						"name": "Fogo 🔥"
+						"name": "Gender"
 					}
 				],
 				"severity": "inform"
@@ -61,17 +51,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "air",
+				"identifier": "sexual_orientation",
 				"locales": [
 					{
-						"description": "Air",
+						"description": "Sexual orientation of the individual",
 						"lang": "en",
-						"name": "Air 💨"
-					},
-					{
-						"description": "Ar",
-						"lang": "pt-BR",
-						"name": "Ar 💨"
+						"name": "Sexual Orientation"
 					}
 				],
 				"severity": "inform"
@@ -80,17 +65,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "water",
+				"identifier": "job",
 				"locales": [
 					{
-						"description": "Water",
+						"description": "Job of the individual",
 						"lang": "en",
-						"name": "Water 💧"
-					},
-					{
-						"description": "Água",
-						"lang": "pt-BR",
-						"name": "Água 💧"
+						"name": "Job"
 					}
 				],
 				"severity": "inform"
@@ -99,28 +79,113 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "love",
+				"identifier": "location",
 				"locales": [
 					{
-						"description": "Love",
+						"description": "Location of the individual",
 						"lang": "en",
-						"name": "Love 💞"
-					},
+						"name": "Location"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "health",
+				"locales": [
 					{
-						"description": "Amor",
-						"lang": "pt-BR",
-						"name": "Amor 💞"
+						"description": "Health status of the individual",
+						"lang": "en",
+						"name": "Health"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "physical_appearance",
+				"locales": [
+					{
+						"description": "Physical appearance of the individual",
+						"lang": "en",
+						"name": "Physical Appearance"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "relationship",
+				"locales": [
+					{
+						"description": "Relationship status of the individual",
+						"lang": "en",
+						"name": "Relationship"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "education",
+				"locales": [
+					{
+						"description": "Education level of the individual",
+						"lang": "en",
+						"name": "Education"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ethnicity",
+				"locales": [
+					{
+						"description": "Ethnicity of the individual",
+						"lang": "en",
+						"name": "Ethnicity"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "religion",
+				"locales": [
+					{
+						"description": "Religion of the individual",
+						"lang": "en",
+						"name": "Religion"
 					}
 				],
 				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"earth2",
-			"fire",
-			"air",
-			"water",
-			"love"
+			"age",
+			"gender",
+			"sexual_orientation",
+			"job",
+			"location",
+			"health",
+			"physical_appearance",
+			"relationship",
+			"education",
+			"ethnicity",
+			"religion"
 		]
 	}
 }

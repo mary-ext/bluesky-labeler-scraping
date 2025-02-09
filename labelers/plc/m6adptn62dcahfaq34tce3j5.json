@@ -1,0 +1,80 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:m6adptn62dcahfaq34tce3j5/app.bsky.labeler.service/self",
+	"cid": "bafyreictvorqwfumsffbrbpw2jdej3tq3dyvgi75zja46lzaz57hxma4ga",
+	"creator": {
+		"did": "did:plc:m6adptn62dcahfaq34tce3j5",
+		"handle": "test-labeler-43512.bsky.social",
+		"displayName": "Test Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:m6adptn62dcahfaq34tce3j5/bafkreibkdvbssbhv725wcfv53pjfzreidawlbk4c776bqnbllceehnn6ne@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [
+			{
+				"src": "did:plc:m6adptn62dcahfaq34tce3j5",
+				"uri": "at://did:plc:m6adptn62dcahfaq34tce3j5/app.bsky.actor.profile/self",
+				"cid": "bafyreih52npokjubqlvrvviqpq42lmg2gxcvmocotma3mixxx44qchftai",
+				"val": "!no-unauthenticated",
+				"cts": "2025-02-08T01:54:32.881Z"
+			}
+		],
+		"createdAt": "2025-02-08T01:54:33.445Z",
+		"description": "A test profile for experimenting with labels, do not follow",
+		"indexedAt": "2025-02-08T01:56:02.844Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-02-08T16:06:55.447Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "joined-2023-01",
+				"locales": [
+					{
+						"description": "Joined 2023-01",
+						"lang": "en",
+						"name": "Joined 2023-01"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "joined-2023-02",
+				"locales": [
+					{
+						"description": "Joined 2023-02",
+						"lang": "en",
+						"name": "Joined 2023-02"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "joined-2025-02",
+				"locales": [
+					{
+						"description": "Joined 2025-02",
+						"lang": "en",
+						"name": "Joined 2025-02"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"joined-2023-01",
+			"joined-2023-02",
+			"joined-2025-02"
+		]
+	}
+}

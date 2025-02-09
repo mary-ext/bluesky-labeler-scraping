@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-	"cid": "bafyreidhdg6t7nvsbb2aw6wrh6ffywvjfl7z65op3g4uqchylyuskuonhm",
+	"cid": "bafyreifjx2obo7zstm7r64mppj2ged7tz2imj7qr4rb3j4uffhuljhnpw4",
 	"creator": {
 		"did": "did:plc:qkty4ninplgtzeychgz4yyrh",
 		"handle": "labeler.bikesky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2025-01-17T21:50:39.444Z"
 	},
 	"likeCount": 71,
-	"indexedAt": "2025-02-07T23:39:08.061Z",
+	"indexedAt": "2025-02-08T23:59:25.065Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -909,6 +909,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "bike-platform-verified",
+				"locales": [
+					{
+						"description": "This is the official account of a biking related technology or community platform.\n\nThis profile has been independently verified. ✅",
+						"lang": "en",
+						"name": "Bike Platform"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "bike-mechanic-verified",
 				"locales": [
 					{
@@ -996,7 +1010,7 @@
 				"identifier": "impersonation",
 				"locales": [
 					{
-						"description": "❌ This account appears to be impersonating someone in bike.community.",
+						"description": "❌ This account appears to be impersonating someone in Bikesky.",
 						"lang": "en",
 						"name": "Impersonation"
 					}
@@ -1024,7 +1038,7 @@
 				"identifier": "intolerant",
 				"locales": [
 					{
-						"description": "This content has been marked as intolerant. Content that expresses hatred, bias or prejudice is not welcome in bike.community's feeds. This includes (but is not limited to) racism, misogyny, homophobia, transphobia, enbyphobia and ableism.",
+						"description": "This content has been marked as intolerant. Content that expresses hatred, bias or prejudice is not welcome in Bikesky's feeds. This includes (but is not limited to) racism, misogyny, homophobia, transphobia, enbyphobia and ableism.",
 						"lang": "en",
 						"name": "Intolerant"
 					}
@@ -1052,9 +1066,9 @@
 				"identifier": "bikecommunity-unrelated",
 				"locales": [
 					{
-						"description": "This content has been marked unrelated to bike.community's feeds, and may have been included in them by mistake.",
+						"description": "This content has been marked unrelated to all of Bikesky's feeds, and may have been included in them by mistake.",
 						"lang": "en",
-						"name": "Unrelated to bike.community"
+						"name": "Unrelated to all of Bikesky"
 					}
 				],
 				"severity": "none"
@@ -1066,9 +1080,9 @@
 				"identifier": "bikesky-unrelated",
 				"locales": [
 					{
-						"description": "This content has been marked unrelated to bike.community's Bikesky feeds, and may have been included in them by mistake.",
+						"description": "This content has been marked unrelated to our Bikesky feeds, and may have been included in them by mistake.",
 						"lang": "en",
-						"name": "Unrelated to Bikesky"
+						"name": "Unrelated to Bikesky Feeds"
 					}
 				],
 				"severity": "none"
@@ -1080,9 +1094,9 @@
 				"identifier": "procycling-unrelated",
 				"locales": [
 					{
-						"description": "This content has been marked unrelated to bike.community's Pro Cycling feeds, and may have been included in them by mistake.",
+						"description": "This content has been marked unrelated to Bikesky's Pro Cycling feeds, and may have been included in them by mistake.",
 						"lang": "en",
-						"name": "Unrelated to Pro Cycling"
+						"name": "Unrelated to Pro Cycling Feeds"
 					}
 				],
 				"severity": "none"
@@ -1152,6 +1166,7 @@
 			"biking-media-verified",
 			"biking-publication-verified",
 			"bike-business-verified",
+			"bike-platform-verified",
 			"bike-mechanic-verified",
 			"ebike-mechanic-verified",
 			"biking-content-creator-verified",
