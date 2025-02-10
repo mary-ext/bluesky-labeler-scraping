@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:m6adptn62dcahfaq34tce3j5/app.bsky.labeler.service/self",
-	"cid": "bafyreictvorqwfumsffbrbpw2jdej3tq3dyvgi75zja46lzaz57hxma4ga",
+	"cid": "bafyreiegmkxbspoogarcfafvywn4gxvi33akylw3k47peqf3ztzvegx7n4",
 	"creator": {
 		"did": "did:plc:m6adptn62dcahfaq34tce3j5",
 		"handle": "test-labeler-43512.bsky.social",
@@ -24,7 +24,7 @@
 		"indexedAt": "2025-02-08T01:56:02.844Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-02-08T16:06:55.447Z",
+	"indexedAt": "2025-02-09T21:20:05.973Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -60,6 +60,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "joined-2025-01",
+				"locales": [
+					{
+						"description": "Joined 2025-01",
+						"lang": "en",
+						"name": "Joined 2025-01"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "joined-2025-02",
 				"locales": [
 					{
@@ -74,6 +88,7 @@
 		"labelValues": [
 			"joined-2023-01",
 			"joined-2023-02",
+			"joined-2025-01",
 			"joined-2025-02"
 		]
 	}

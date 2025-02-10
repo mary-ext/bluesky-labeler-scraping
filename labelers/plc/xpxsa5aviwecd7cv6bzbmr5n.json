@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreib5glke22sft4sv6othx2olpchs5g63xabijpkqznm7xipx65ayoi",
+	"cid": "bafyreicioaw6ylnrqewnhr2f3rvdtznonx5zaxrbn57othww6mpoez6mnm",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -19,7 +19,7 @@
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
 	"likeCount": 360,
-	"indexedAt": "2025-02-08T17:32:34.472Z",
+	"indexedAt": "2025-02-09T12:15:50.963Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5524,6 +5524,20 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "muni-town-roomy",
+				"locales": [
+					{
+						"description": "ATproto-connected p2p group comms\nhttps://github.com/muni-town/roomy",
+						"lang": "en",
+						"name": "muni-town/roomy"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5919,7 +5933,8 @@
 			"nodejs-undici",
 			"piscinajs-piscina",
 			"fastify-fastify",
-			"noobtaco-noobtacoui"
+			"noobtaco-noobtacoui",
+			"muni-town-roomy"
 		]
 	}
 }

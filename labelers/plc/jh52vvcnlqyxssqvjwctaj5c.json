@@ -1,0 +1,60 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:jh52vvcnlqyxssqvjwctaj5c/app.bsky.labeler.service/self",
+	"cid": "bafyreidkpxtmij2fy4stvnkigm3xtis3vocahub4ttexcprpv65lwoi2qq",
+	"creator": {
+		"did": "did:plc:jh52vvcnlqyxssqvjwctaj5c",
+		"handle": "oneshot.iroiro.party",
+		"displayName": "User-wise Labeler",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jh52vvcnlqyxssqvjwctaj5c/bafkreiag5neserjkjrnbniv6p275pnzakgd6csg3hemxoo2lqhfcwf7u5q@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-02-09T11:37:14.544Z",
+		"description": "Labeling services like @moderation.bsky.app usually label contents on a per-post basis. However, for those who never labels their NSFW/sensitive contents, it might be best to mark their whole account as not-suitable.\n\nUpstream: @moderation.bsky.app",
+		"indexedAt": "2025-02-09T11:43:28.145Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-02-09T14:03:04.057Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": true,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "offender",
+				"locales": [
+					{
+						"description": "Users who seldom labels their not-suitable-for-whatever contents.",
+						"lang": "en",
+						"name": "Incorrigible"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "others",
+				"locales": [
+					{
+						"description": "Users who has posted contents flagged by the upstream moderation servichas posted contents flagged by the upstream moderation service.",
+						"lang": "en",
+						"name": "Others"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"porn",
+			"sexual",
+			"nudity",
+			"graphic-media",
+			"offender",
+			"others"
+		]
+	}
+}
