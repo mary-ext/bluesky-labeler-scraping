@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:brgsu6qu53bc66mjepgbqihp/app.bsky.labeler.service/self",
-	"cid": "bafyreif7wpdhbrzb3vu4guyyejjk2azo7l56kcxtdk3kbqswg6vcbfnrny",
+	"cid": "bafyreidizc4tbglkufscfhcuddsjyvdjlaldvjrffqxlzqhdiucfomx3aa",
 	"creator": {
 		"did": "did:plc:brgsu6qu53bc66mjepgbqihp",
 		"handle": "medsky.info",
@@ -16,10 +16,10 @@
 		"labels": [],
 		"createdAt": "2023-07-28T21:27:04.528Z",
 		"description": "An account for labeling medical misinformation\n\nALWAYS provide examples of misinfo when reporting\nALWAYS report both to our labeler & @moderation.bsky.app\nALWAYS consult a doctor before making decisions about your health\n\nOur Labels/Posts ≠ Medical Advice",
-		"indexedAt": "2025-02-07T22:32:58.445Z"
+		"indexedAt": "2025-02-10T02:14:01.544Z"
 	},
-	"likeCount": 48,
-	"indexedAt": "2025-02-08T07:32:44.949Z",
+	"likeCount": 59,
+	"indexedAt": "2025-02-10T22:05:22.559Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -27,12 +27,26 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
+				"identifier": "a-gender-affirm-care-misinfo",
+				"locales": [
+					{
+						"description": "This user has received a label due to the dissemination of misinformation regarding gender affirming care. Interventions designed to support and affirm a person's gender identity are shown to have profound and lasting positive impacts on mental health outcomes, including reduced rates of depression & anxiety, as well as up to a 70% reduction in the risk of suicide.",
+						"lang": "en",
+						"name": "Misinformation: Gender Affirming Care"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
 				"identifier": "a-vaccine-misinformation",
 				"locales": [
 					{
-						"description": "This user has received a label due to the dissemination of misinformation regarding vaccines. Vaccines are a safe and effective preventive treatment, and immunization currently prevents 3.5 million to 5 million deaths every year from diseases like diphtheria, tetanus, pertussis, influenza, measles, and COVID-19. Always consult a physician or other healthcare provider before making decisions regarding your health based on information you read on the internet, and always check credible health resources online prior to sharing information that may contain misinformation.",
+						"description": "This user has received a label due to the dissemination of misinformation regarding vaccines. Vaccines are a safe and effective preventive treatment, and immunization currently prevents 3.5 million to 5 million deaths every year. Always consult a physician or other healthcare provider before making decisions regarding your health based on information you read on the internet, and always check credible health resources online prior to sharing information that may contain misinformation.",
 						"lang": "en",
-						"name": "Vaccine Misinformation"
+						"name": "Misinformation: Vaccines"
 					}
 				],
 				"severity": "alert"
@@ -53,6 +67,7 @@
 			}
 		],
 		"labelValues": [
+			"a-gender-affirm-care-misinfo",
 			"a-vaccine-misinformation",
 			"a-medical-misinformation"
 		]

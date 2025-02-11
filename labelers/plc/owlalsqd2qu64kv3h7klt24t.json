@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-	"cid": "bafyreidungemfsro2aszdmjpcyvhtq7eonpprb7dmwgjzachphietcjig4",
+	"cid": "bafyreifdl7fxeccmcmxewkjgjvqw76bsqqyadcexftzmlupsble5y6hpjy",
 	"creator": {
 		"did": "did:plc:owlalsqd2qu64kv3h7klt24t",
 		"handle": "gameengines.bsky.social",
@@ -16,10 +16,24 @@
 		"indexedAt": "2024-11-05T06:04:12.080Z"
 	},
 	"likeCount": 420,
-	"indexedAt": "2025-01-03T18:04:17.065Z",
+	"indexedAt": "2025-02-10T03:40:11.255Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "luxe",
+				"locales": [
+					{
+						"description": "This user users the Luxe Engine, from https://luxeengine.com/",
+						"lang": "en",
+						"name": "Luxe Engine"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -662,6 +676,7 @@
 			"phaser",
 			"pixijs",
 			"threejs",
+			"luxe",
 			"rogue-engine",
 			"ebitengine",
 			"penjintwo",

@@ -1,10 +1,10 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:ly2l25ib3sz2i7qy7z4jsagu/app.bsky.labeler.service/self",
-	"cid": "bafyreia5meeiahi5dnlwivkmzb6i3ct4uul2lv6gzsjnwaguz56uanioxu",
+	"cid": "bafyreiam5rqylfbawznfpaeexw6suyon4vktsbnnauegj6yqldxauco2by",
 	"creator": {
 		"did": "did:plc:ly2l25ib3sz2i7qy7z4jsagu",
-		"handle": "personalabeler.bsky.social",
+		"handle": "inactivelabeler.bsky.social",
 		"displayName": "",
 		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ly2l25ib3sz2i7qy7z4jsagu/bafkreibabxbgzz4t3xbxyrzl5hbuhm3pk5s7pezazo3k3r2gak3we6qcme@jpeg",
 		"associated": {
@@ -15,9 +15,57 @@
 		"indexedAt": "2025-02-04T11:22:49.643Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-02-04T13:14:20.052Z",
+	"indexedAt": "2025-02-10T11:44:42.450Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "off|warn|hide",
+				"identifier": "label-test-name-0",
+				"locales": [
+					{
+						"description": "Label description 0.",
+						"lang": "en",
+						"name": "Label Display Name 0"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "label-test-name-1",
+				"locales": [
+					{
+						"description": "Label description 1.",
+						"lang": "en",
+						"name": "Label Display Name 1"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "label-test-name-2",
+				"locales": [
+					{
+						"description": "Test description 2.",
+						"lang": "en",
+						"name": "Test Display Name 2"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"label-test-name-0",
+			"label-test-name-1",
+			"label-test-name-2"
+		]
 	}
 }

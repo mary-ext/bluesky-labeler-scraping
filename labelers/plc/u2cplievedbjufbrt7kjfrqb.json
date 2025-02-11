@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:u2cplievedbjufbrt7kjfrqb/app.bsky.labeler.service/self",
-	"cid": "bafyreicdmniwapkgxyfbfeazhrzdfez4qtqkhuulzthzvtcvfyxe4bgdjy",
+	"cid": "bafyreibjjuhkwmimolzgec633oun3e2pqdovh4lamu7ubvux24y5gebsve",
 	"creator": {
 		"did": "did:plc:u2cplievedbjufbrt7kjfrqb",
 		"handle": "cailabeler.mydecnet.org",
@@ -15,9 +15,42 @@
 		"indexedAt": "2025-01-21T04:30:10.144Z"
 	},
 	"likeCount": 0,
-	"indexedAt": "2025-02-04T15:14:49.458Z",
+	"indexedAt": "2025-02-10T06:30:44.350Z",
 	"labels": [],
 	"policies": {
-		"labelValues": []
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "label-test-name-0",
+				"locales": [
+					{
+						"description": "Label description 1.",
+						"lang": "en",
+						"name": "Label Display Name 1"
+					}
+				],
+				"severity": "inform|alert|none"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content|media|none",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "label-test-name-1",
+				"locales": [
+					{
+						"description": "Test description 0.",
+						"lang": "en",
+						"name": "Test Display Name 0"
+					}
+				],
+				"severity": "inform|alert|none"
+			}
+		],
+		"labelValues": [
+			"label-test-name-1",
+			"label-test-name-0"
+		]
 	}
 }
