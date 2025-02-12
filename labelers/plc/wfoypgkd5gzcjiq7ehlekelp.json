@@ -1,0 +1,86 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:wfoypgkd5gzcjiq7ehlekelp/app.bsky.labeler.service/self",
+	"cid": "bafyreigcmjsia24v72towb4i2lqnkhjlzkpl5eszx46r5lkyaho6k5ds4m",
+	"creator": {
+		"did": "did:plc:wfoypgkd5gzcjiq7ehlekelp",
+		"handle": "labeler.pinstryped.com",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wfoypgkd5gzcjiq7ehlekelp/bafkreidiq5metgu5sxrykaowasrbssrjzexzz66dp6q343gmek5q5vbg2u@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-02-10T16:45:50.645Z",
+		"indexedAt": "2025-02-10T16:45:50.645Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-02-11T03:10:43.047Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "troll",
+				"locales": [
+					{
+						"description": "Known trolls",
+						"lang": "en",
+						"name": "Trolls"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "hide",
+				"identifier": "pornbot",
+				"locales": [
+					{
+						"description": "These accounts are pornbots that will probably be banned soon enough. ",
+						"lang": "en",
+						"name": "PornBot"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "warn",
+				"defaultSetting": "warn",
+				"identifier": "politician",
+				"locales": [
+					{
+						"description": "Accounts that belong to politicians",
+						"lang": "en",
+						"name": "Politician"
+					}
+				],
+				"severity": "warn"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "political-news",
+				"locales": [
+					{
+						"description": "Accounts that report on political news, as well as single posts that are political news. ",
+						"lang": "en",
+						"name": "Political News"
+					}
+				],
+				"severity": "warn"
+			}
+		],
+		"labelValues": [
+			"troll",
+			"pornbot",
+			"politician",
+			"political-news"
+		]
+	}
+}

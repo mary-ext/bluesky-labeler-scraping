@@ -1,0 +1,75 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:k6cbpggz5h33idrah4yk4tst/app.bsky.labeler.service/self",
+	"cid": "bafyreigvvf4qy7cd6kmlmdce27q7p2weflcyk3q55rsejxowl6eo6gkfgq",
+	"creator": {
+		"did": "did:plc:k6cbpggz5h33idrah4yk4tst",
+		"handle": "trustcollective.org",
+		"displayName": "TrustCollective.org",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k6cbpggz5h33idrah4yk4tst/bafkreidor4ynzeuzhlvwbh2acxmjeg4jrnb4p2de3gibo3r72pdnzmvvx4@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-02-10T21:49:59.243Z",
+		"description": "A community-powered verification labeler, offering labels and badges based on collectively-verified trust. ",
+		"indexedAt": "2025-02-11T16:41:23.145Z"
+	},
+	"likeCount": 2,
+	"indexedAt": "2025-02-11T06:29:40.654Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "ignore|warn|hide",
+				"identifier": "spam",
+				"locales": [
+					{
+						"description": "This account is believed to be spam due to the content of their posts and community reports.",
+						"lang": "en",
+						"name": "Spam or spamming activities "
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blog",
+				"locales": [
+					{
+						"description": "This account has been verified to be the official account of the blog linked in the account's profile. ",
+						"lang": "en",
+						"name": "Blog"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "academic",
+				"locales": [
+					{
+						"description": "This person has been verified to be an academic (completed graduate degree, faculty, emeriti) or is associated with an accredited or recognized research institution or college or university. ",
+						"lang": "en",
+						"name": "🎓 Academic"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"blog",
+			"academic",
+			"spam",
+			"misleading",
+			"abusive",
+			"bot"
+		]
+	}
+}

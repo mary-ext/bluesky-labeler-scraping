@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:m6adptn62dcahfaq34tce3j5/app.bsky.labeler.service/self",
-	"cid": "bafyreibhvbzbr52l56g3wkf3toor5asm62vfefaztosmcjb6s4o2efkfha",
+	"cid": "bafyreigmdttshfcu6r4yefyovlgq66qntegobpihstefbcr3y3x5etwry4",
 	"creator": {
 		"did": "did:plc:m6adptn62dcahfaq34tce3j5",
 		"handle": "joined-labeler.shatteredsky.net",
@@ -14,17 +14,17 @@
 			{
 				"src": "did:plc:m6adptn62dcahfaq34tce3j5",
 				"uri": "at://did:plc:m6adptn62dcahfaq34tce3j5/app.bsky.actor.profile/self",
-				"cid": "bafyreiea66zuzpic5tlsdxl3cdb3vvkduqa2cbteg6icvmx7wmuzugvpx4",
+				"cid": "bafyreigcybpygubv5gowevywixg32vp6gkcnupwq3s63l4bkdinonm2ap4",
 				"val": "!no-unauthenticated",
 				"cts": "2025-02-08T01:54:32.881Z"
 			}
 		],
 		"createdAt": "2025-02-08T01:54:33.445Z",
-		"description": "Labels profiles based on when they were created.\n\nOperated by @shatteredsky.net.",
-		"indexedAt": "2025-02-10T08:26:06.247Z"
+		"description": "Labels profiles based on when they were created.\n\nOnly labels profiles that are active, with followers, when they make a new post to the `en` locale.\n\nOperated by @shatteredsky.net",
+		"indexedAt": "2025-02-11T03:23:20.043Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2025-02-10T07:06:26.860Z",
+	"likeCount": 9,
+	"indexedAt": "2025-02-11T05:10:41.663Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -37,7 +37,7 @@
 					{
 						"description": "This profile was created in November of 2022.",
 						"lang": "en",
-						"name": "Joined Nov 22"
+						"name": "Joined Nov ’22"
 					}
 				],
 				"severity": "inform"
@@ -51,7 +51,7 @@
 					{
 						"description": "This profile was created in December of 2022.",
 						"lang": "en",
-						"name": "Joined Dec 22"
+						"name": "Joined Dec ’22"
 					}
 				],
 				"severity": "inform"
@@ -65,7 +65,7 @@
 					{
 						"description": "This profile was created in January of 2023.",
 						"lang": "en",
-						"name": "Joined Jan 23"
+						"name": "Joined Jan ’23"
 					}
 				],
 				"severity": "inform"
@@ -79,7 +79,7 @@
 					{
 						"description": "This profile was created in February of 2023.",
 						"lang": "en",
-						"name": "Joined Feb 23"
+						"name": "Joined Feb ’23"
 					}
 				],
 				"severity": "inform"
@@ -93,7 +93,7 @@
 					{
 						"description": "This profile was created in March of 2023.",
 						"lang": "en",
-						"name": "Joined Mar 23"
+						"name": "Joined Mar ’23"
 					}
 				],
 				"severity": "inform"
@@ -107,7 +107,7 @@
 					{
 						"description": "This profile was created in April of 2023.",
 						"lang": "en",
-						"name": "Joined Apr 23"
+						"name": "Joined Apr ’23"
 					}
 				],
 				"severity": "inform"
@@ -121,7 +121,7 @@
 					{
 						"description": "This profile was created in May of 2023.",
 						"lang": "en",
-						"name": "Joined May 23"
+						"name": "Joined May ’23"
 					}
 				],
 				"severity": "inform"
@@ -135,7 +135,7 @@
 					{
 						"description": "This profile was created in June of 2023.",
 						"lang": "en",
-						"name": "Joined Jun 23"
+						"name": "Joined Jun ’23"
 					}
 				],
 				"severity": "inform"
@@ -149,7 +149,7 @@
 					{
 						"description": "This profile was created in July of 2023.",
 						"lang": "en",
-						"name": "Joined Jul 23"
+						"name": "Joined Jul ’23"
 					}
 				],
 				"severity": "inform"
@@ -163,7 +163,7 @@
 					{
 						"description": "This profile was created in August of 2023.",
 						"lang": "en",
-						"name": "Joined Aug 23"
+						"name": "Joined Aug ’23"
 					}
 				],
 				"severity": "inform"
@@ -177,7 +177,7 @@
 					{
 						"description": "This profile was created in September of 2023.",
 						"lang": "en",
-						"name": "Joined Sep 23"
+						"name": "Joined Sep ’23"
 					}
 				],
 				"severity": "inform"
@@ -191,7 +191,7 @@
 					{
 						"description": "This profile was created in October of 2023.",
 						"lang": "en",
-						"name": "Joined Oct 23"
+						"name": "Joined Oct ’23"
 					}
 				],
 				"severity": "inform"
@@ -205,7 +205,7 @@
 					{
 						"description": "This profile was created in November of 2023.",
 						"lang": "en",
-						"name": "Joined Nov 23"
+						"name": "Joined Nov ’23"
 					}
 				],
 				"severity": "inform"
@@ -219,7 +219,7 @@
 					{
 						"description": "This profile was created in December of 2023.",
 						"lang": "en",
-						"name": "Joined Dec 23"
+						"name": "Joined Dec ’23"
 					}
 				],
 				"severity": "inform"
@@ -233,7 +233,7 @@
 					{
 						"description": "This profile was created in January of 2024.",
 						"lang": "en",
-						"name": "Joined Jan 24"
+						"name": "Joined Jan ’24"
 					}
 				],
 				"severity": "inform"
@@ -247,7 +247,7 @@
 					{
 						"description": "This profile was created in February of 2024.",
 						"lang": "en",
-						"name": "Joined Feb 24"
+						"name": "Joined Feb ’24"
 					}
 				],
 				"severity": "inform"
@@ -261,7 +261,7 @@
 					{
 						"description": "This profile was created in March of 2024.",
 						"lang": "en",
-						"name": "Joined Mar 24"
+						"name": "Joined Mar ’24"
 					}
 				],
 				"severity": "inform"
@@ -275,7 +275,7 @@
 					{
 						"description": "This profile was created in April of 2024.",
 						"lang": "en",
-						"name": "Joined Apr 24"
+						"name": "Joined Apr ’24"
 					}
 				],
 				"severity": "inform"
@@ -289,7 +289,7 @@
 					{
 						"description": "This profile was created in May of 2024.",
 						"lang": "en",
-						"name": "Joined May 24"
+						"name": "Joined May ’24"
 					}
 				],
 				"severity": "inform"
@@ -303,7 +303,7 @@
 					{
 						"description": "This profile was created in June of 2024.",
 						"lang": "en",
-						"name": "Joined Jun 24"
+						"name": "Joined Jun ’24"
 					}
 				],
 				"severity": "inform"
@@ -317,7 +317,7 @@
 					{
 						"description": "This profile was created in July of 2024.",
 						"lang": "en",
-						"name": "Joined Jul 24"
+						"name": "Joined Jul ’24"
 					}
 				],
 				"severity": "inform"
@@ -331,7 +331,7 @@
 					{
 						"description": "This profile was created in August of 2024.",
 						"lang": "en",
-						"name": "Joined Aug 24"
+						"name": "Joined Aug ’24"
 					}
 				],
 				"severity": "inform"
@@ -345,7 +345,7 @@
 					{
 						"description": "This profile was created in September of 2024.",
 						"lang": "en",
-						"name": "Joined Sep 24"
+						"name": "Joined Sep ’24"
 					}
 				],
 				"severity": "inform"
@@ -359,7 +359,7 @@
 					{
 						"description": "This profile was created in October of 2024.",
 						"lang": "en",
-						"name": "Joined Oct 24"
+						"name": "Joined Oct ’24"
 					}
 				],
 				"severity": "inform"
@@ -373,7 +373,7 @@
 					{
 						"description": "This profile was created in November of 2024.",
 						"lang": "en",
-						"name": "Joined Nov 24"
+						"name": "Joined Nov ’24"
 					}
 				],
 				"severity": "inform"
@@ -387,7 +387,7 @@
 					{
 						"description": "This profile was created in December of 2024.",
 						"lang": "en",
-						"name": "Joined Dec 24"
+						"name": "Joined Dec ’24"
 					}
 				],
 				"severity": "inform"
@@ -401,7 +401,7 @@
 					{
 						"description": "This profile was created in January of 2025.",
 						"lang": "en",
-						"name": "Joined Jan 25"
+						"name": "Joined Jan ’25"
 					}
 				],
 				"severity": "inform"
@@ -415,7 +415,7 @@
 					{
 						"description": "This profile was created in February of 2025.",
 						"lang": "en",
-						"name": "Joined Feb 25"
+						"name": "Joined Feb ’25"
 					}
 				],
 				"severity": "inform"
@@ -429,7 +429,7 @@
 					{
 						"description": "This profile was created in March of 2025.",
 						"lang": "en",
-						"name": "Joined Mar 25"
+						"name": "Joined Mar ’25"
 					}
 				],
 				"severity": "inform"
@@ -443,7 +443,7 @@
 					{
 						"description": "This profile was created in April of 2025.",
 						"lang": "en",
-						"name": "Joined Apr 25"
+						"name": "Joined Apr ’25"
 					}
 				],
 				"severity": "inform"
@@ -457,7 +457,7 @@
 					{
 						"description": "This profile was created in May of 2025.",
 						"lang": "en",
-						"name": "Joined May 25"
+						"name": "Joined May ’25"
 					}
 				],
 				"severity": "inform"
@@ -471,7 +471,7 @@
 					{
 						"description": "This profile was created in June of 2025.",
 						"lang": "en",
-						"name": "Joined Jun 25"
+						"name": "Joined Jun ’25"
 					}
 				],
 				"severity": "inform"
@@ -485,7 +485,7 @@
 					{
 						"description": "This profile was created in July of 2025.",
 						"lang": "en",
-						"name": "Joined Jul 25"
+						"name": "Joined Jul ’25"
 					}
 				],
 				"severity": "inform"
@@ -499,7 +499,7 @@
 					{
 						"description": "This profile was created in August of 2025.",
 						"lang": "en",
-						"name": "Joined Aug 25"
+						"name": "Joined Aug ’25"
 					}
 				],
 				"severity": "inform"
@@ -513,7 +513,7 @@
 					{
 						"description": "This profile was created in September of 2025.",
 						"lang": "en",
-						"name": "Joined Sep 25"
+						"name": "Joined Sep ’25"
 					}
 				],
 				"severity": "inform"
@@ -527,7 +527,7 @@
 					{
 						"description": "This profile was created in October of 2025.",
 						"lang": "en",
-						"name": "Joined Oct 25"
+						"name": "Joined Oct ’25"
 					}
 				],
 				"severity": "inform"
@@ -541,7 +541,7 @@
 					{
 						"description": "This profile was created in November of 2025.",
 						"lang": "en",
-						"name": "Joined Nov 25"
+						"name": "Joined Nov ’25"
 					}
 				],
 				"severity": "inform"
@@ -555,7 +555,7 @@
 					{
 						"description": "This profile was created in December of 2025.",
 						"lang": "en",
-						"name": "Joined Dec 25"
+						"name": "Joined Dec ’25"
 					}
 				],
 				"severity": "inform"

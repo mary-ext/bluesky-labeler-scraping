@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreicioaw6ylnrqewnhr2f3rvdtznonx5zaxrbn57othww6mpoez6mnm",
+	"cid": "bafyreifkgsdb6t5nmrkhgnbxnnxrwvbrpr5nkyesnwg6euiwy2wcsb2xai",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -18,8 +18,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 362,
-	"indexedAt": "2025-02-09T12:15:50.963Z",
+	"likeCount": 364,
+	"indexedAt": "2025-02-11T09:14:54.161Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5538,6 +5538,62 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cdc-sys-level-thumbs-mod",
+				"locales": [
+					{
+						"description": "A mod that adds level thumbnails to level cells\nhttps://github.com/cdc-sys/level-thumbs-mod",
+						"lang": "en",
+						"name": "cdc-sys/level-thumbs-mod"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cdc-sys-statuses-mod",
+				"locales": [
+					{
+						"description": "Displays statuses on profiles, comments, account comments, level cells and level pages\nhttps://github.com/cdc-sys/statuses-mod",
+						"lang": "en",
+						"name": "cdc-sys/statuses-mod"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cdc-sys-more-hints-geode",
+				"locales": [
+					{
+						"description": "Hints+ aka more-hints\nhttps://github.com/cdc-sys/more-hints-geode",
+						"lang": "en",
+						"name": "cdc-sys/more-hints-geode"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "cdc-sys-level-thumbnails",
+				"locales": [
+					{
+						"description": "This is where the thumbnails for the mod are stored.\nhttps://github.com/cdc-sys/level-thumbnails",
+						"lang": "en",
+						"name": "cdc-sys/level-thumbnails"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5934,7 +5990,11 @@
 			"piscinajs-piscina",
 			"fastify-fastify",
 			"noobtaco-noobtacoui",
-			"muni-town-roomy"
+			"muni-town-roomy",
+			"cdc-sys-level-thumbs-mod",
+			"cdc-sys-statuses-mod",
+			"cdc-sys-more-hints-geode",
+			"cdc-sys-level-thumbnails"
 		]
 	}
 }
