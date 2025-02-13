@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:4wdiawuqywf3zx4faayw4hv2/app.bsky.labeler.service/self",
-	"cid": "bafyreierj2r54aykbojvimx4e3lmarn4pciqbmstflrczd6n3bx2fftjdq",
+	"cid": "bafyreic4kjm4vy7cyrjml3ugeqolwrmopxp7llsre7b335kpevmhyjpzyy",
 	"creator": {
 		"did": "did:plc:4wdiawuqywf3zx4faayw4hv2",
 		"handle": "mushroom-labeler.bsky.social",
@@ -16,52 +16,10 @@
 		"indexedAt": "2024-11-26T19:11:37.046Z"
 	},
 	"likeCount": 10,
-	"indexedAt": "2025-01-15T17:26:07.562Z",
+	"indexedAt": "2025-02-12T13:56:07.457Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "bracket",
-				"locales": [
-					{
-						"description": "Bracket is a type of mushroom and the name of this user's Bluesky PDS.",
-						"lang": "en",
-						"name": "bracket"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "button",
-				"locales": [
-					{
-						"description": "Button is a type of mushroom and the name of this user's Bluesky PDS.",
-						"lang": "en",
-						"name": "button"
-					}
-				],
-				"severity": "inform"
-			},
-			{
-				"adultOnly": false,
-				"blurs": "none",
-				"defaultSetting": "warn",
-				"identifier": "conocybe",
-				"locales": [
-					{
-						"description": "Conocybe is a type of mushroom and the name of this user's Bluesky PDS.",
-						"lang": "en",
-						"name": "conocybe"
-					}
-				],
-				"severity": "inform"
-			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -607,12 +565,51 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "bracket",
+				"locales": [
+					{
+						"description": "Bracket is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "bracket"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "button",
+				"locales": [
+					{
+						"description": "Button is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "button"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "conocybe",
+				"locales": [
+					{
+						"description": "Conocybe is a type of mushroom and the name of this user's Bluesky PDS.",
+						"lang": "en",
+						"name": "conocybe"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"bracket",
-			"button",
-			"conocybe",
 			"chaga",
 			"cremini",
 			"chanterelle",
@@ -651,7 +648,10 @@
 			"fibercap",
 			"blusher",
 			"agaric",
-			"boletus"
+			"boletus",
+			"bracket",
+			"button",
+			"conocybe"
 		]
 	}
 }

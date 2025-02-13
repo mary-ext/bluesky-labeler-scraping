@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:k6cbpggz5h33idrah4yk4tst/app.bsky.labeler.service/self",
-	"cid": "bafyreigvvf4qy7cd6kmlmdce27q7p2weflcyk3q55rsejxowl6eo6gkfgq",
+	"cid": "bafyreiecskw4su67l3heycmzahrvzws536mu6sjoikijjl5kdr4xiwm2e4",
 	"creator": {
 		"did": "did:plc:k6cbpggz5h33idrah4yk4tst",
 		"handle": "trustcollective.org",
@@ -12,22 +12,204 @@
 		},
 		"labels": [],
 		"createdAt": "2025-02-10T21:49:59.243Z",
-		"description": "A community-powered verification labeler, offering labels and badges based on collectively-verified trust. ",
-		"indexedAt": "2025-02-11T16:41:23.145Z"
+		"description": "A community-powered verification labeler, offering labels and badges based on collectively-verified trust. \n\nLearn more about us at https://trustcollective.org",
+		"indexedAt": "2025-02-12T04:34:13.044Z"
 	},
 	"likeCount": 2,
-	"indexedAt": "2025-02-11T06:29:40.654Z",
+	"indexedAt": "2025-02-12T04:15:43.449Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "other-government",
+				"locales": [
+					{
+						"description": "Account connected to a government, a government office, or a politician.",
+						"lang": "en",
+						"name": "🏛 Government"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": true,
 				"blurs": "content",
-				"defaultSetting": "ignore|warn|hide",
+				"defaultSetting": "ignore",
+				"identifier": "nsfw",
+				"locales": [
+					{
+						"description": "🔞​ Content is NSFW. ",
+						"lang": "en",
+						"name": "🔞​ NSFW"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "bot",
+				"locales": [
+					{
+						"description": "🛡️​ (Moderation) This account is believed to be a bot maliciously posting machine generated or disruptive content.",
+						"lang": "en",
+						"name": "​🤖​ Bot"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "abusive",
+				"locales": [
+					{
+						"description": "🛡️​ (Moderation) This account is believed to be posting abusive, harassing, bullying, or other dangerous content.",
+						"lang": "en",
+						"name": "​⚠️ Abusive"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "misleading",
+				"locales": [
+					{
+						"description": "🛡️​ (Moderation) This account is believed to be posting misleading content.",
+						"lang": "en",
+						"name": "​⚠️​ Misleading"
+					}
+				],
+				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "organization",
+				"locales": [
+					{
+						"description": "Official account(s) of the organization linked in the profile.",
+						"lang": "en",
+						"name": "​🏢​ Organization"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "podcaster",
+				"locales": [
+					{
+						"description": "Account verified to be a contributor to a recognized podcast.",
+						"lang": "en",
+						"name": "🎙️​ Podcaster"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "blogger",
+				"locales": [
+					{
+						"description": "Account verified to be a writer, editor, or owner of a recognized blog.",
+						"lang": "en",
+						"name": "Blogger"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "indie-journalist",
+				"locales": [
+					{
+						"description": "Account verified to be an independent or freelance journalist.",
+						"lang": "en",
+						"name": "📓​ Independent Journalist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "other-journalist",
+				"locales": [
+					{
+						"description": "Account verified to be a journalist working on a recognized international media platform",
+						"lang": "en",
+						"name": "📰 Journalist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ca-journalist",
+				"locales": [
+					{
+						"description": "Account verified to be a Canadian journalist from a recognized Canadian journalism platform.",
+						"lang": "en",
+						"name": "🇨🇦📰 Journalist"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "business",
+				"locales": [
+					{
+						"description": "Account verified to be connected to the business linked in the profile.",
+						"lang": "en",
+						"name": "Business"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "ca-government",
+				"locales": [
+					{
+						"description": "This account is associated with the government of Canada, one of its provinces, or local governments. ",
+						"lang": "en",
+						"name": "🇨🇦 🏛 Government"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
 				"identifier": "spam",
 				"locales": [
 					{
-						"description": "This account is believed to be spam due to the content of their posts and community reports.",
+						"description": "🛡️​ (Moderation) This account is believed to be spam due to the content of their posts and community reports.",
 						"lang": "en",
 						"name": "Spam or spamming activities "
 					}
@@ -55,7 +237,7 @@
 				"identifier": "academic",
 				"locales": [
 					{
-						"description": "This person has been verified to be an academic (completed graduate degree, faculty, emeriti) or is associated with an accredited or recognized research institution or college or university. ",
+						"description": "This person has been verified to be associated with an accredited or recognized research institution or college or university. ",
 						"lang": "en",
 						"name": "🎓 Academic"
 					}
@@ -64,12 +246,22 @@
 			}
 		],
 		"labelValues": [
-			"blog",
 			"academic",
+			"blog",
+			"business",
+			"ca-government",
+			"ca-journalist",
+			"other-journalist",
+			"indie-journalist",
+			"blogger",
+			"podcaster",
+			"organization",
+			"other-government",
 			"spam",
 			"misleading",
 			"abusive",
-			"bot"
+			"bot",
+			"nsfw"
 		]
 	}
 }

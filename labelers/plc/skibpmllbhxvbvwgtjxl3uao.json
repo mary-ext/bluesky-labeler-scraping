@@ -1,7 +1,7 @@
 {
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:skibpmllbhxvbvwgtjxl3uao/app.bsky.labeler.service/self",
-	"cid": "bafyreie4zehswmh7wiiwasscbolf3mkbby6s2mfcxkdk2osjz7wxrk3fly",
+	"cid": "bafyreialyjl5wdylsyklpjgztjlrev7jx72qfdqzcwstgxadusbcoaflrm",
 	"creator": {
 		"did": "did:plc:skibpmllbhxvbvwgtjxl3uao",
 		"handle": "anti-aging.bsky.social",
@@ -15,11 +15,25 @@
 		"description": "Critics are saying:\n\"deeply fucking unserious labeler\"\n\"cringe fr\"\n\"sad lonely jackass\"\n\"hateful rightwing shrew who can't make friends\"\n\"Moderation as satire has arrived\"\n\"the anti-aging labeller is fun, even though whoever runs it is clearly insane\"",
 		"indexedAt": "2024-05-24T14:02:08.055Z"
 	},
-	"likeCount": 105,
-	"indexedAt": "2024-11-22T16:59:19.177Z",
+	"likeCount": 106,
+	"indexedAt": "2025-02-12T19:06:35.661Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "rizz-debuffed",
+				"locales": [
+					{
+						"description": "This user appears to have come under the effect of some sort of charisma debuff. Likely to fail an attempt to riff.",
+						"lang": "en",
+						"name": "Charisma Debuffed"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -218,6 +232,7 @@
 			}
 		],
 		"labelValues": [
+			"rizz-debuffed",
 			"follow-back-whining",
 			"slug",
 			"accessibility-scolding",
