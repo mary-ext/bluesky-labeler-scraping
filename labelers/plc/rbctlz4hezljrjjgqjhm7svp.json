@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreib5nlo6m2qm3bch5iv7ifvsumlycrvyivaec72rtirrvukjqovyxe",
+  "cid": "bafyreigm65gwkfxep34imhts4mhuff2h7iiorgjxvdw3tntxb6iqk4i4vq",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1) Subscribe to the labeler\n2) Follow the labeler (\"...\" menu)\n3) Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat\n\nCreated by @codedrift.social",
     "indexedAt": "2025-01-09T00:13:45.944Z"
   },
-  "indexedAt": "2025-01-30T07:04:14.456Z",
+  "indexedAt": "2025-02-13T10:27:20.052Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -790,6 +790,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "---exo",
+        "locales": [
+          {
+            "description": "EXO-L\nUser is a fan of EXO\n...in fact, it's their 💖 ult~",
+            "lang": "en",
+            "name": "💖 EXO"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "exo",
+        "locales": [
+          {
+            "description": "EXO-L\nUser is a fan of EXO",
+            "lang": "en",
+            "name": "EXO"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -847,7 +875,9 @@
       "joy",
       "wonho",
       "jihyo",
-      "---jihyo"
+      "---jihyo",
+      "---exo",
+      "exo"
     ]
   }
 }
