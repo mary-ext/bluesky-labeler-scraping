@@ -1,0 +1,86 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:im3bgdj4u42mgrzlyouk7czv/app.bsky.labeler.service/self",
+	"cid": "bafyreiffj7yktckhczb2pqc5vesfcuymxerkwi3j27oagnnjpwdv77oa3m",
+	"creator": {
+		"did": "did:plc:im3bgdj4u42mgrzlyouk7czv",
+		"handle": "adcontrols.bsky.social",
+		"displayName": "",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:im3bgdj4u42mgrzlyouk7czv/bafkreicvuy4r4cxlkddevvdibi4uqamtswz55fpucr6achrlvqbvby4e6m@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-02-13T16:38:59.245Z",
+		"indexedAt": "2025-02-13T16:39:48.745Z"
+	},
+	"likeCount": 0,
+	"indexedAt": "2025-02-13T21:45:01.349Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "advertisement",
+				"locales": [
+					{
+						"description": "This is a paid advertisement.",
+						"lang": "en",
+						"name": "Advertisement"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "sponsored",
+				"locales": [
+					{
+						"description": "This post is part of a paid partnership.",
+						"lang": "en",
+						"name": "Sponsored"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "promoted",
+				"locales": [
+					{
+						"description": "This is a paid promotion for visibility.",
+						"lang": "en",
+						"name": "Promoted"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "ignore",
+				"identifier": "boosted",
+				"locales": [
+					{
+						"description": "This post was kindly boosted as a courtesy.",
+						"lang": "en",
+						"name": "Boosted"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"advertisement",
+			"sponsored",
+			"promoted",
+			"boosted"
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
+	"uri": "at://did:plc:ecl4csxtybwgw5r45kmaditp/app.bsky.labeler.service/self",
+	"cid": "bafyreiazkcg4vvhiheva22kjkyekf5smxs566eki4j345spslsps3rxpwy",
+	"creator": {
+		"did": "did:plc:ecl4csxtybwgw5r45kmaditp",
+		"handle": "verified.observer",
+		"displayName": "Verified Observer 🟡",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ecl4csxtybwgw5r45kmaditp/bafkreiazolxm73tw75ebhkvil4osu37km4oh6qrz5icuvv6mn2d7mrzaca@jpeg",
+		"associated": {
+			"labeler": true
+		},
+		"labels": [],
+		"createdAt": "2025-01-27T05:20:39.644Z",
+		"description": "Created by: @ghaspey.bsky.social\n\nLabels accounts as verified as truly the individual profile purports to represent. Verification currently only manual, Voice Actors and Content Creators, created to protect the safety of colleagues!\n\nREAD PINNED POST",
+		"indexedAt": "2025-02-13T23:22:33.344Z"
+	},
+	"likeCount": 1,
+	"indexedAt": "2025-02-13T09:37:03.553Z",
+	"labels": [],
+	"policies": {
+		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "content-creator",
+				"locales": [
+					{
+						"description": "Individual is verified as a notable Content Creator.",
+						"lang": "en",
+						"name": "Content Creator"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "voice-actor",
+				"locales": [
+					{
+						"description": "Individual is verified as a notable Voice Actor.",
+						"lang": "en",
+						"name": "Voice Actor"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "verified",
+				"locales": [
+					{
+						"description": "This account has been safely and independently verified  as the true account of this individual.",
+						"lang": "en",
+						"name": "Verified"
+					}
+				],
+				"severity": "inform"
+			}
+		],
+		"labelValues": [
+			"content-creator",
+			"voice-actor",
+			"verified"
+		]
+	}
+}
