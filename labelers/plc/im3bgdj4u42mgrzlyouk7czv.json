@@ -1,28 +1,28 @@
 {
-	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:im3bgdj4u42mgrzlyouk7czv/app.bsky.labeler.service/self",
-	"cid": "bafyreiffj7yktckhczb2pqc5vesfcuymxerkwi3j27oagnnjpwdv77oa3m",
+	"cid": "bafyreidg4s2fxpfiy3tny7raooev4trqoupaotddhznrjy4ylrrj525aui",
 	"creator": {
 		"did": "did:plc:im3bgdj4u42mgrzlyouk7czv",
 		"handle": "adcontrols.bsky.social",
-		"displayName": "",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:im3bgdj4u42mgrzlyouk7czv/bafkreicvuy4r4cxlkddevvdibi4uqamtswz55fpucr6achrlvqbvby4e6m@jpeg",
+		"displayName": "AdControls",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:im3bgdj4u42mgrzlyouk7czv/bafkreiasxqnhrv65yykxtrxnzrrq7c74aphtcy2obqtwilbkylh7rbzrxm@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2025-02-13T16:38:59.245Z",
-		"indexedAt": "2025-02-13T16:39:48.745Z"
+		"description": "A Bluesky content labeler that applies promotion-related badges to posts based on hashtags (see pinned post).\n\n⚡ You are in control. Adjust how sponsored content appears in your Bluesky feed. No third-party enforcement, just transparency on your terms.",
+		"indexedAt": "2025-02-14T18:26:09.344Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2025-02-13T21:45:01.349Z",
+	"likeCount": 2,
+	"indexedAt": "2025-02-14T12:20:08.654Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "advertisement",
 				"locales": [
 					{
@@ -36,7 +36,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "sponsored",
 				"locales": [
 					{
@@ -50,7 +50,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "promoted",
 				"locales": [
 					{
@@ -64,7 +64,7 @@
 			{
 				"adultOnly": false,
 				"blurs": "none",
-				"defaultSetting": "ignore",
+				"defaultSetting": "warn",
 				"identifier": "boosted",
 				"locales": [
 					{
@@ -82,5 +82,6 @@
 			"promoted",
 			"boosted"
 		]
-	}
+	},
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed"
 }

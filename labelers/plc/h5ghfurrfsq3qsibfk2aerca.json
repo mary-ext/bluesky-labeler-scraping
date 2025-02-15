@@ -1,7 +1,6 @@
 {
-	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:h5ghfurrfsq3qsibfk2aerca/app.bsky.labeler.service/self",
-	"cid": "bafyreiep4dt3r2byzab5pycv3cjdzxkudpl2u2f4eyzbrjtsjsv6ovezde",
+	"cid": "bafyreif7kky7tlgw2h5x4naewrxwykmy5ccm52cljkcq7oj4hgog6kxotm",
 	"creator": {
 		"did": "did:plc:h5ghfurrfsq3qsibfk2aerca",
 		"handle": "antisubstack.fyi",
@@ -14,8 +13,8 @@
 		"createdAt": "2025-02-12T17:23:18.345Z",
 		"indexedAt": "2025-02-12T17:23:18.345Z"
 	},
-	"likeCount": 0,
-	"indexedAt": "2025-02-14T00:07:25.257Z",
+	"likeCount": 2,
+	"indexedAt": "2025-02-14T17:33:25.255Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -23,19 +22,20 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "substacker",
+				"identifier": "substack",
 				"locales": [
 					{
 						"description": "links to a substack",
 						"lang": "en",
-						"name": "substacker"
+						"name": "substack"
 					}
 				],
 				"severity": "alert"
 			}
 		],
 		"labelValues": [
-			"substacker"
+			"substack"
 		]
-	}
+	},
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed"
 }

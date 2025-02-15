@@ -1,7 +1,6 @@
 {
-	"$type": "app.bsky.labeler.defs#labelerViewDetailed",
 	"uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-	"cid": "bafyreid7qonvov46qpbqjvhogje646acbhfi6gvemp4k6spbflybaz433m",
+	"cid": "bafyreifo6yrmefosrfriiwdwpsretxkxw74buxnvdbdvb7a4ydhhv2bhyy",
 	"creator": {
 		"did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
 		"handle": "labeler.urbanism.plus",
@@ -16,7 +15,7 @@
 		"indexedAt": "2025-02-13T21:11:23.846Z"
 	},
 	"likeCount": 72,
-	"indexedAt": "2025-02-12T19:47:02.758Z",
+	"indexedAt": "2025-02-14T22:18:53.665Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -206,12 +205,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "academic-urbanist",
+				"identifier": "feminist-urbanist",
 				"locales": [
 					{
-						"description": "Researcher of urbanism/adjacent topics",
+						"description": "A feminist and an urbanist",
 						"lang": "en",
-						"name": "📕Academic Urbanist"
+						"name": "Feminist Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -220,12 +219,12 @@
 				"adultOnly": false,
 				"blurs": "none",
 				"defaultSetting": "warn",
-				"identifier": "feminist-urbanist",
+				"identifier": "academic-urbanist",
 				"locales": [
 					{
-						"description": "A feminist and an urbanist",
+						"description": "Researcher of urbanism/adjacent topics",
 						"lang": "en",
-						"name": "Feminist Urbanist"
+						"name": "📕Academic Urbanist"
 					}
 				],
 				"severity": "inform"
@@ -366,6 +365,20 @@
 						"description": "Creates and reshares content for social media platforms like Bluesky.",
 						"lang": "en",
 						"name": "💻Urbanism Content"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "urbanism-organizer",
+				"locales": [
+					{
+						"description": "Folks who have leading advocacy roles",
+						"lang": "en",
+						"name": "📢Urbanism Organizer"
 					}
 				],
 				"severity": "inform"
@@ -581,8 +594,8 @@
 			"car-free",
 			"car-lite",
 			"foamer",
-			"academic-urbanist",
 			"feminist-urbanist",
+			"academic-urbanist",
 			"city-planner",
 			"urbanism-creator",
 			"urbanism-shorts",
@@ -593,6 +606,7 @@
 			"urbanism-brand",
 			"transit-agency",
 			"urbanism-content",
+			"urbanism-organizer",
 			"urbanism-resource",
 			"uplus-sponsor",
 			"uplus-supporter",
@@ -608,5 +622,6 @@
 			"zpost-scared-cities",
 			"zpost-gadgetbahn"
 		]
-	}
+	},
+	"$type": "app.bsky.labeler.defs#labelerViewDetailed"
 }
