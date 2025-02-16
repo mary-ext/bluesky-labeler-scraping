@@ -1,6 +1,6 @@
 {
 	"uri": "at://did:plc:lqstuil6alvccbl2uedtnv3m/app.bsky.labeler.service/self",
-	"cid": "bafyreiaznigdz3w3xvxkicevc27nec6lkjmng4h3w2virak2kdal35iezq",
+	"cid": "bafyreidcr5j444nm5yvkqmwkong35p3n26fi3ud4v4u73indgu27mievga",
 	"creator": {
 		"did": "did:plc:lqstuil6alvccbl2uedtnv3m",
 		"handle": "nytimes.dev",
@@ -23,7 +23,7 @@
 		"indexedAt": "2025-02-04T22:59:10.446Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2025-02-09T23:15:06.262Z",
+	"indexedAt": "2025-02-15T19:33:06.855Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -40,10 +40,40 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "vetted-alt-fam",
+				"locales": [
+					{
+						"description": "Applied to accounts that are vetted members of the #AltFam team",
+						"lang": "en",
+						"name": "Vetted #AltFam"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "alt-test",
+				"locales": [
+					{
+						"description": "Applied to accounts that are testing the AltGov labeler",
+						"lang": "en",
+						"name": "☀️ Vetted #AltTest ☀️"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"vetted-alt-gov"
+			"vetted-alt-gov",
+			"vetted-alt-fam",
+			"alt-test"
 		]
 	},
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed"

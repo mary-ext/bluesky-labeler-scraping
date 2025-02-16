@@ -1,6 +1,6 @@
 {
 	"uri": "at://did:plc:ecl4csxtybwgw5r45kmaditp/app.bsky.labeler.service/self",
-	"cid": "bafyreiazkcg4vvhiheva22kjkyekf5smxs566eki4j345spslsps3rxpwy",
+	"cid": "bafyreibwlfveqjixxev5wercramnqniduso7wt3ysfeu2el7d3vnle5ykm",
 	"creator": {
 		"did": "did:plc:ecl4csxtybwgw5r45kmaditp",
 		"handle": "verified.observer",
@@ -11,14 +11,28 @@
 		},
 		"labels": [],
 		"createdAt": "2025-01-27T05:20:39.644Z",
-		"description": "Created by: @ghaspey.bsky.social\n\nLabels accounts as verified as truly the individual profile purports to represent. Verification currently only manual, Voice Actors and Content Creators, created to protect the safety of colleagues!\n\nREAD PINNED POST",
-		"indexedAt": "2025-02-13T23:22:33.344Z"
+		"description": "Creator: @ghaspey.bsky.social\n\nVerifies accounts as truly the person they claim to represent. Verification currently only manual, Voice Actors and Content Creators, created to protect the safety of colleagues!\n\nWe recommend following too!\nREAD PINNED POST",
+		"indexedAt": "2025-02-15T00:50:10.546Z"
 	},
-	"likeCount": 33,
-	"indexedAt": "2025-02-13T09:37:03.553Z",
+	"likeCount": 54,
+	"indexedAt": "2025-02-15T02:07:18.157Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "director",
+				"locales": [
+					{
+						"description": "Individual is verified as a notable Director.",
+						"lang": "en",
+						"name": "Director"
+					}
+				],
+				"severity": "inform"
+			},
 			{
 				"adultOnly": false,
 				"blurs": "none",
@@ -54,7 +68,7 @@
 				"identifier": "verified",
 				"locales": [
 					{
-						"description": "This account has been safely and independently verified  as the true account of this individual.",
+						"description": "This account has been safely and independently verified as the true account of this individual.",
 						"lang": "en",
 						"name": "Verified"
 					}
@@ -63,6 +77,7 @@
 			}
 		],
 		"labelValues": [
+			"director",
 			"content-creator",
 			"voice-actor",
 			"verified"
