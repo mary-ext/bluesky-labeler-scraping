@@ -1,6 +1,6 @@
 {
 	"uri": "at://did:plc:wfoypgkd5gzcjiq7ehlekelp/app.bsky.labeler.service/self",
-	"cid": "bafyreigcmjsia24v72towb4i2lqnkhjlzkpl5eszx46r5lkyaho6k5ds4m",
+	"cid": "bafyreih5flcr2ingvcngqtlcfflko6aaljlh3vuanjlp5sthnvowtg2vue",
 	"creator": {
 		"did": "did:plc:wfoypgkd5gzcjiq7ehlekelp",
 		"handle": "labeler.pinstryped.com",
@@ -13,8 +13,8 @@
 		"createdAt": "2025-02-10T16:45:50.645Z",
 		"indexedAt": "2025-02-10T16:45:50.645Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2025-02-11T03:10:43.047Z",
+	"likeCount": 2,
+	"indexedAt": "2025-02-16T05:58:03.350Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -44,11 +44,11 @@
 						"name": "PornBot"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
-				"blurs": "warn",
+				"blurs": "none",
 				"defaultSetting": "warn",
 				"identifier": "politician",
 				"locales": [
@@ -58,7 +58,7 @@
 						"name": "Politician"
 					}
 				],
-				"severity": "warn"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
@@ -72,7 +72,7 @@
 						"name": "Political News"
 					}
 				],
-				"severity": "warn"
+				"severity": "alert"
 			}
 		],
 		"labelValues": [

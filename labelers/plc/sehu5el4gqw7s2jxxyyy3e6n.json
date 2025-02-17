@@ -1,21 +1,21 @@
 {
 	"uri": "at://did:plc:sehu5el4gqw7s2jxxyyy3e6n/app.bsky.labeler.service/self",
-	"cid": "bafyreievguju6iq4ufmkbifh6kzpvjj6dzzm7tx4zdrpca3najjwfk4h3q",
+	"cid": "bafyreiawf666oq6ue4c75eg25naoy2n2afqsntoc2uv3pnzomwli2cca5y",
 	"creator": {
 		"did": "did:plc:sehu5el4gqw7s2jxxyyy3e6n",
 		"handle": "for.shame.wtf",
 		"displayName": "Follow Tracker",
-		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sehu5el4gqw7s2jxxyyy3e6n/bafkreibsy4ytgm3ze5w77uh67s2le6jydiboin3hfywrqj34h2z4neqmtm@jpeg",
+		"avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sehu5el4gqw7s2jxxyyy3e6n/bafkreibja6ndhogqeo5nnwq32w6y3bqlvx67zr6cdegwngwqi3w6ejvgke@jpeg",
 		"associated": {
 			"labeler": true
 		},
 		"labels": [],
 		"createdAt": "2025-01-28T08:54:57.445Z",
 		"description": "This account places a badge on the profile of accounts that follow a given account, for informational purposes. Automated. \n\nCan be removed by unfollowing said account.",
-		"indexedAt": "2025-01-28T09:04:12.345Z"
+		"indexedAt": "2025-02-17T00:11:27.544Z"
 	},
-	"likeCount": 1,
-	"indexedAt": "2025-01-28T13:35:30.759Z",
+	"likeCount": 3,
+	"indexedAt": "2025-02-16T23:29:24.949Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -46,11 +46,41 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "jonathanchait-follower",
+				"locales": [
+					{
+						"description": "This user follows Jonathan Chait. This label can be removed by unfollowing Jonathan Chait.",
+						"lang": "en",
+						"name": "Jonathan Chait Follower"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "briannawu-follower",
+				"locales": [
+					{
+						"description": "This user follows Brianna Wu. This label can be removed by unfollowing Brianna Wu.",
+						"lang": "en",
+						"name": "Brianna Wu Follower"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
 			"mattyglesias-follower",
-			"mattstoller-follower"
+			"mattstoller-follower",
+			"jonathanchait-follower",
+			"briannawu-follower"
 		]
 	},
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed"
