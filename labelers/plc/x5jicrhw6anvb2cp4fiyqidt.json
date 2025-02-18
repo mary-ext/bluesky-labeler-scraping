@@ -1,6 +1,6 @@
 {
 	"uri": "at://did:plc:x5jicrhw6anvb2cp4fiyqidt/app.bsky.labeler.service/self",
-	"cid": "bafyreidewimr4wdved2yiv7k4qniy7h6lojx22camwlrkbdvjxka6six5q",
+	"cid": "bafyreid3qzb2lzmuzu36rp32jnetcp6g3gulk74nqqbmsgbz3mvqhgvgbm",
 	"creator": {
 		"did": "did:plc:x5jicrhw6anvb2cp4fiyqidt",
 		"handle": "personalabeler.bsky.social",
@@ -14,34 +14,34 @@
 		"indexedAt": "2025-02-10T07:41:57.444Z"
 	},
 	"likeCount": 1,
-	"indexedAt": "2025-02-11T06:09:00.046Z",
+	"indexedAt": "2025-02-17T05:19:25.252Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
 			{
 				"adultOnly": false,
-				"blurs": "none",
+				"blurs": "media",
 				"defaultSetting": "warn",
-				"identifier": "label-name-0",
+				"identifier": "media-alert",
 				"locales": [
 					{
-						"description": "Label description 0.",
+						"description": "This label is the same as media-blur, which is used for blurring media files of accounts, except the severity of this label is alert.",
 						"lang": "en",
-						"name": "Label Display Name 0"
+						"name": "Media Alert"
 					}
 				],
-				"severity": "inform"
+				"severity": "alert"
 			},
 			{
 				"adultOnly": false,
 				"blurs": "media",
 				"defaultSetting": "warn",
-				"identifier": "label-name-1",
+				"identifier": "media-blur",
 				"locales": [
 					{
-						"description": "Label description 1.",
+						"description": "Labels for blurring media of accounts. The severity of this label is inform.",
 						"lang": "en",
-						"name": "Label Display Name 1"
+						"name": "Media Blur"
 					}
 				],
 				"severity": "inform"
@@ -50,21 +50,51 @@
 				"adultOnly": false,
 				"blurs": "content",
 				"defaultSetting": "warn",
-				"identifier": "label-name-2",
+				"identifier": "content-alert",
 				"locales": [
 					{
-						"description": "Label description 2.",
+						"description": "This label is the same as content-blur, which is used for blurring content of accounts, except the severity of this label is alert.",
 						"lang": "en",
-						"name": "Label Display Name 2"
+						"name": "Content Alert"
 					}
 				],
 				"severity": "alert"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "content",
+				"defaultSetting": "warn",
+				"identifier": "content-blur",
+				"locales": [
+					{
+						"description": "Labels for blurring content of accounts. The severity of this label is inform.",
+						"lang": "en",
+						"name": "Content Blur"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "account-marker",
+				"locales": [
+					{
+						"description": "Labels for marking accounts, which will display as a badge.",
+						"lang": "en",
+						"name": "Account Marker"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
-			"label-name-0",
-			"label-name-1",
-			"label-name-2"
+			"media-alert",
+			"media-blur",
+			"content-alert",
+			"content-blur",
+			"account-marker"
 		]
 	},
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed"

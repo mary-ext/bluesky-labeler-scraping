@@ -1,6 +1,6 @@
 {
 	"uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-	"cid": "bafyreifkgsdb6t5nmrkhgnbxnnxrwvbrpr5nkyesnwg6euiwy2wcsb2xai",
+	"cid": "bafyreif55eivijx4jeehwz5ju25qfehk6hdwghexn2iqteg3i3xfb2nygy",
 	"creator": {
 		"did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
 		"handle": "github-labeler.bsky.social",
@@ -17,8 +17,8 @@
 		"description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
 		"indexedAt": "2024-11-12T05:48:43.805Z"
 	},
-	"likeCount": 365,
-	"indexedAt": "2025-02-11T09:14:54.161Z",
+	"likeCount": 367,
+	"indexedAt": "2025-02-17T19:07:45.865Z",
 	"labels": [],
 	"policies": {
 		"labelValueDefinitions": [
@@ -5593,6 +5593,48 @@
 					}
 				],
 				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "microsoft-powertoys",
+				"locales": [
+					{
+						"description": "Windows system utilities to maximize productivity\nhttps://github.com/microsoft/PowerToys",
+						"lang": "en",
+						"name": "microsoft/PowerToys"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "home-assistant-intents",
+				"locales": [
+					{
+						"description": "Intents to be used with Home Assistant\nhttps://github.com/home-assistant/intents",
+						"lang": "en",
+						"name": "home-assistant/intents"
+					}
+				],
+				"severity": "inform"
+			},
+			{
+				"adultOnly": false,
+				"blurs": "none",
+				"defaultSetting": "warn",
+				"identifier": "nativescript-nativescript",
+				"locales": [
+					{
+						"description": "⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love ❤️ Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Dart (Flutter) and you name it compatible.\nhttps://github.com/NativeScript/NativeScript",
+						"lang": "en",
+						"name": "NativeScript/NativeScript"
+					}
+				],
+				"severity": "inform"
 			}
 		],
 		"labelValues": [
@@ -5993,7 +6035,10 @@
 			"cdc-sys-level-thumbs-mod",
 			"cdc-sys-statuses-mod",
 			"cdc-sys-more-hints-geode",
-			"cdc-sys-level-thumbnails"
+			"cdc-sys-level-thumbnails",
+			"microsoft-powertoys",
+			"home-assistant-intents",
+			"nativescript-nativescript"
 		]
 	},
 	"$type": "app.bsky.labeler.defs#labelerViewDetailed"
