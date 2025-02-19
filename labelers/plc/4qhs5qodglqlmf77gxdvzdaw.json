@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4qhs5qodglqlmf77gxdvzdaw/app.bsky.labeler.service/self",
-  "cid": "bafyreiawmedgudviosur2li3c3xzjxk3utyqu6mgrzoii5f6764tzw62yu",
+  "cid": "bafyreicmfcsfdqcaowxlo2p4cwokzknteodv5txe32gk46ub4bgsf5s5ja",
   "creator": {
     "did": "did:plc:4qhs5qodglqlmf77gxdvzdaw",
     "handle": "123-mp.bsky.social",
@@ -14,7 +14,7 @@
     "description": "Labeller that labels UK MPs with their parliamentary roles and committee memberships. Data from TheyWorkForYou.\n\nLabeller very much in development - feel free to use this, but it's very much not finished.",
     "indexedAt": "2025-01-24T12:31:39.744Z"
   },
-  "indexedAt": "2025-02-17T20:51:12.964Z",
+  "indexedAt": "2025-02-18T20:36:02.064Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -2131,6 +2131,76 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "terrorism-protection-of-premises-bill-programming-sub-committee",
+        "locales": [
+          {
+            "description": "This MP is a Member of the Terrorism (Protection of Premises) Bill: Programming sub committee. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Terrorism Protection of Premises Bill Programming Sub-Committee"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "minister-of-state-for-science--innovation-and-technology",
+        "locales": [
+          {
+            "description": "This MP is Minister of State (Department for Science, Innovation and Technology). Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Minister of State for Science, Innovation and Technology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "secretary-of-state-for-energy-security-and-net-zero",
+        "locales": [
+          {
+            "description": "This MP is Parliamentary Under Secretary of State (Department for Energy Security and Net Zero). Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Secretary of State for Energy Security and Net Zero"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "commonwealth-parliamentary-association---icrc-status-bill",
+        "locales": [
+          {
+            "description": "This MP is a Member of the Commonwealth Parliamentary Association and International Committee of the Red Cross (Status) Bill [HL]. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Commonwealth Parliamentary Association & ICRC Status Bill"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "leader-of-the-liberal-democrats",
+        "locales": [
+          {
+            "description": "This MP is Leader of the Liberal Democrats. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Leader of the Liberal Democrats"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -2284,7 +2354,12 @@
       "minister-of-state--department-for-energy-security-and-net-zero-",
       "the-minister-of-state--home-department",
       "parliamentary-under-secretary--department-for-transport-",
-      "parliamentary-under-secretary--science--innovation---technology-"
+      "parliamentary-under-secretary--science--innovation---technology-",
+      "terrorism-protection-of-premises-bill-programming-sub-committee",
+      "minister-of-state-for-science--innovation-and-technology",
+      "secretary-of-state-for-energy-security-and-net-zero",
+      "commonwealth-parliamentary-association---icrc-status-bill",
+      "leader-of-the-liberal-democrats"
     ]
   }
 }
