@@ -1,20 +1,20 @@
 {
   "uri": "at://did:plc:7vzxsnclvlq6so23q26ydgra/app.bsky.labeler.service/self",
-  "cid": "bafyreibqnwt5trnimhwp4nczcduelkhlyiy7ufviumzzxjsez75cjhezn4",
+  "cid": "bafyreidpginviud5khwmtl7thvlyzw4sm3mfpxu5s2eeujpfsu46lo4f4u",
   "creator": {
     "did": "did:plc:7vzxsnclvlq6so23q26ydgra",
     "handle": "roles.mplabeller.uk",
     "displayName": "UK MP roles labeller",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7vzxsnclvlq6so23q26ydgra/bafkreiapo2dwum3rnc6fkqvuph22srji7xmmx5i6dm7sasixe53wgh3ioq@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7vzxsnclvlq6so23q26ydgra/bafkreihwlzcdrdqyn25oy2q3533fk5ru73fsd5elbawp3sa5ogkcz65wfm@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2025-02-18T22:36:26.445Z",
     "description": "Subscribe to see labels on all MP posts and profiles for UK MP with their parliamentary roles and committee memberships.\n\nYou can also subscribe to @constituencies.mplabeller.uk and @parties.mplabeller.uk.\n\nData from TheyWorkForYou, updated monthly.",
-    "indexedAt": "2025-02-19T23:15:11.344Z"
+    "indexedAt": "2025-02-20T17:27:15.645Z"
   },
-  "indexedAt": "2025-02-19T23:09:55.963Z",
+  "indexedAt": "2025-02-20T20:38:50.361Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -2075,6 +2075,104 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaker-of-the-house-of-commons",
+        "locales": [
+          {
+            "description": "This MP is Speaker of the House of Commons. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Speaker of the House of Commons"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chair---speaker-s-committee-for-ipsa",
+        "locales": [
+          {
+            "description": "This MP is a Chair of the Speaker's Committee for the Independent Parliamentary Standards Authority. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Chair - Speaker's Committee for IPSA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chair---house-of-commons-commission",
+        "locales": [
+          {
+            "description": "This MP is a Chair of the House of Commons Commission. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Chair - House of Commons Commission"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chair---speaker-s-committee-on-the-electoral-commission",
+        "locales": [
+          {
+            "description": "This MP is a Chair of the Speaker's Committee on the Electoral Commission. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Chair - Speaker's Committee on the Electoral Commission"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chair---members-estimate-committee",
+        "locales": [
+          {
+            "description": "This MP is a Chair of the Members Estimate Committee. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Chair - Members Estimate Committee"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chair---restoration-and-renewal-client-board-committee",
+        "locales": [
+          {
+            "description": "This MP is a Chair of the Restoration and Renewal Client Board Committee. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Chair - Restoration and Renewal Client Board Committee"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chair---speaker-s-conference--twozerotwofour--committee",
+        "locales": [
+          {
+            "description": "This MP is a Chair of the Speaker's Conference (2024) Committee. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Chair - Speaker's Conference (2024) Committee"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -2224,7 +2322,14 @@
       "chair---environment--food-and-rural-affairs-committee",
       "liberal-democrat-spokesperson--mental-health-",
       "liberal-democrat-spokesperson--foreign-affairs-",
-      "liberal-democrat-spokesperson--defence-"
+      "liberal-democrat-spokesperson--defence-",
+      "speaker-of-the-house-of-commons",
+      "chair---speaker-s-committee-for-ipsa",
+      "chair---house-of-commons-commission",
+      "chair---speaker-s-committee-on-the-electoral-commission",
+      "chair---members-estimate-committee",
+      "chair---restoration-and-renewal-client-board-committee",
+      "chair---speaker-s-conference--twozerotwofour--committee"
     ]
   }
 }

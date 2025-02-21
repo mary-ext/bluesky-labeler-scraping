@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:brgsu6qu53bc66mjepgbqihp/app.bsky.labeler.service/self",
-  "cid": "bafyreiacbvmuz3m573x4m5o424a3kqhpka57dfd2yrkxs5rqpvk6gnqhfe",
+  "cid": "bafyreig2zlbtcp4qd6flhxrq4zrxtp64s6yw4hhb24gzozwvb5ymq5yxym",
   "creator": {
     "did": "did:plc:brgsu6qu53bc66mjepgbqihp",
     "handle": "medsky.info",
@@ -17,10 +17,24 @@
     "description": "An account for labeling medical misinformation\n\nALWAYS provide examples of misinfo when reporting\nALWAYS report both to our labeler & @moderation.bsky.app\nALWAYS consult a doctor before making decisions about your health\n\nOur Labels/Posts ≠ Medical Advice",
     "indexedAt": "2025-02-10T02:14:01.544Z"
   },
-  "indexedAt": "2025-02-18T18:45:48.952Z",
+  "indexedAt": "2025-02-20T22:41:51.064Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "a-medical-racism-misinfo",
+        "locales": [
+          {
+            "description": "This user has received a label for the spread of medical misinformation driven by biases based on characteristics of an individual's race and ethnicity. The spread of medical misinformation has led to the systemic discriminatory practices in medicine that have led to worse medical outcomes for minority populations.",
+            "lang": "en",
+            "name": "Misinformation Re: Racial Bias"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -65,6 +79,7 @@
       }
     ],
     "labelValues": [
+      "a-medical-racism-misinfo",
       "a-gender-affirm-care-misinfo",
       "a-vaccine-misinformation",
       "a-medical-misinformation"

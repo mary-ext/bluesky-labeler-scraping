@@ -1,20 +1,20 @@
 {
   "uri": "at://did:plc:msjyuavxk2kuhrzrxl76mxpe/app.bsky.labeler.service/self",
-  "cid": "bafyreidddlsktaxjifdulj3cxdtdhkly73piqehlduaif5ntmq4ixnuvwy",
+  "cid": "bafyreicaa6i2n6asjr4yen73uismqaqevmfjmygrip3apld7f76o7psp3q",
   "creator": {
     "did": "did:plc:msjyuavxk2kuhrzrxl76mxpe",
     "handle": "parties.mplabeller.uk",
     "displayName": "UK MP parties labeller",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:msjyuavxk2kuhrzrxl76mxpe/bafkreieediv232raohhalp4k5entutczzpazenpknk6gtg4ldkvjbqkxpq@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:msjyuavxk2kuhrzrxl76mxpe/bafkreibeysrwk4ffq2cqbynpo4vg3eajem6jcsukgfe6rnhvqi7oehwq5e@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2025-02-17T21:54:53.445Z",
     "description": "Subscribe to see labels on all MP posts and profiles for UK MP with their party membership.\n\nYou can also subscribe to @constituencies.mplabeller.uk and @roles.mplabeller.uk.\n\nData from TheyWorkForYou, updated monthly.",
-    "indexedAt": "2025-02-19T23:15:46.246Z"
+    "indexedAt": "2025-02-20T17:27:53.947Z"
   },
-  "indexedAt": "2025-02-18T23:42:21.255Z",
+  "indexedAt": "2025-02-20T20:39:45.653Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -157,6 +157,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaker",
+        "locales": [
+          {
+            "description": "This MP is the Speaker of the House of Commons and by convention is strictly non-partisan. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Speaker"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -169,7 +183,8 @@
       "alliance",
       "green",
       "plaid-cymru",
-      "social-democratic-and-labour-party"
+      "social-democratic-and-labour-party",
+      "speaker"
     ]
   }
 }

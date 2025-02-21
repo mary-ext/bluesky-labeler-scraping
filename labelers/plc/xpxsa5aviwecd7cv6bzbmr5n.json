@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreif55eivijx4jeehwz5ju25qfehk6hdwghexn2iqteg3i3xfb2nygy",
+  "cid": "bafyreiecj2eghrlg3vkd23wuhr5noyk3nkkrkrfts7qaqwve3hmzxdfupq",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-02-17T19:07:45.865Z",
+  "indexedAt": "2025-02-20T13:47:34.370Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5634,6 +5634,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "addyosmani-chatty",
+        "locales": [
+          {
+            "description": "ChattyUI - your private AI chat for running LLMs in the browser\nhttps://github.com/addyosmani/chatty",
+            "lang": "en",
+            "name": "addyosmani/chatty"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6037,7 +6051,8 @@
       "cdc-sys-level-thumbnails",
       "microsoft-powertoys",
       "home-assistant-intents",
-      "nativescript-nativescript"
+      "nativescript-nativescript",
+      "addyosmani-chatty"
     ]
   }
 }
