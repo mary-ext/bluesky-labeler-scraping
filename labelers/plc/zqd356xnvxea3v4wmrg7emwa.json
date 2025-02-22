@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreiftzfzvm34tkuyhlg5q62yi7zatrjh3gds7u7yw3fobaaz6xtats4",
+  "cid": "bafyreigbtskgkrsiim4272hmzpcrcqemexoqriv3sfm7eoy4gnfriyivfy",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -17,10 +17,38 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-02-20T01:00:34.657Z",
+  "indexedAt": "2025-02-21T08:23:42.753Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "transfeminine",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Transfem"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "transmasculine",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Transmasc"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -513,6 +541,8 @@
       }
     ],
     "labelValues": [
+      "transfeminine",
+      "transmasculine",
       "graysexual",
       "grayromantic",
       "fluidflux",

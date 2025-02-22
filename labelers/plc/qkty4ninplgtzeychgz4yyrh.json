@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-  "cid": "bafyreifjx2obo7zstm7r64mppj2ged7tz2imj7qr4rb3j4uffhuljhnpw4",
+  "cid": "bafyreiezkabbtz7xqjw3pa46xnrevxfljulwxi67uz424iop52kuwg7qjq",
   "creator": {
     "did": "did:plc:qkty4ninplgtzeychgz4yyrh",
     "handle": "labeler.bikesky.social",
@@ -17,7 +17,7 @@
     "description": "A labeling service for @bikesky.social that provides moderation and verified and non-verified labels for bike enjoyers.\n\nSubscribe and follow the instructions in our pinned post to get yourself a label.\n\nRun by @derek.bike",
     "indexedAt": "2025-01-17T21:50:39.444Z"
   },
-  "indexedAt": "2025-02-08T23:59:25.065Z",
+  "indexedAt": "2025-02-21T18:23:03.255Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1030,6 +1030,20 @@
         "severity": "alert"
       },
       {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "nsfl",
+        "locales": [
+          {
+            "description": "This content has been marked as not safe for life because it contains graphic or disturbing imagery.",
+            "lang": "en",
+            "name": "NSFL"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "hide",
@@ -1173,6 +1187,7 @@
       "bike-manufacturer-verified",
       "impersonation",
       "nsfw",
+      "nsfl",
       "intolerant",
       "anti-cyclist",
       "bikecommunity-unrelated",
