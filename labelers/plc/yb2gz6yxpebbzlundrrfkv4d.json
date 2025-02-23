@@ -1,63 +1,64 @@
 {
   "uri": "at://did:plc:yb2gz6yxpebbzlundrrfkv4d/app.bsky.labeler.service/self",
-  "cid": "bafyreieiveerosi3qiyggmooxlmbkqlyjcb3h2atsgqusotjfwwesankxu",
+  "cid": "bafyreibzvls3frojhrnsdx2pl2altulicideokimdt4ewpmevyzzp53h4i",
   "creator": {
     "did": "did:plc:yb2gz6yxpebbzlundrrfkv4d",
     "handle": "altheroes.bsky.social",
     "displayName": "Alt Heroes",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yb2gz6yxpebbzlundrrfkv4d/bafkreiaazmklukzu724w3esp2h4wbkcvnhmtbmjyuazh6hn2aw3prarnzy@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yb2gz6yxpebbzlundrrfkv4d/bafkreiajay7fxcwoatachvx3gmmfqnlj6jhbuquryt7kc6cgbau7cb7rqi@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2024-11-12T21:15:55.906Z",
     "description": "Subscribe and like to get a fancy participation badge",
-    "indexedAt": "2025-02-21T14:23:37.144Z"
+    "indexedAt": "2025-02-22T23:45:58.645Z"
   },
-  "indexedAt": "2025-02-21T14:20:24.559Z",
+  "indexedAt": "2025-02-22T19:08:35.859Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "gold",
         "locales": [
           {
-            "description": "90+% of this user's image posts contain alt text",
+            "description": "90+% of this user's image posts in the last month contain alt text",
             "lang": "en",
             "name": "🥇"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
+        "defaultSetting": "warn",
         "identifier": "silver",
         "locales": [
           {
-            "description": "At least 70% of this user's image posts contain alt text",
+            "description": "At least 70% of this user's image posts in the last month contain alt text",
             "lang": "en",
             "name": "🥈"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
+        "defaultSetting": "warn",
         "identifier": "bronze",
         "locales": [
           {
-            "description": "At least 50% of this user's image posts contain alt text",
+            "description": "At least 50% of this user's image posts in the last month contain alt text",
             "lang": "en",
             "name": "🥉"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
       }
     ],
     "labelValues": [
