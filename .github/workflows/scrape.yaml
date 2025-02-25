@@ -29,6 +29,9 @@ jobs:
       - name: Run generate-markdown script
         run: bun run ./scripts/generate-markdown.ts
 
+      - name: Run scrub-json script
+        run: ./scripts/scrub-json.sh
+
       - name: Push to repository
         run: |
           git config user.name github-actions[bot]
