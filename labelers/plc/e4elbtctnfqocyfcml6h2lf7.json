@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreihcyav6ues5z5ingmk5jgb25f4v6ecjjk543rkwm2zlieekra3foe",
+  "cid": "bafyreieqwehfsmeluu7gyztg6zzklben4e4f3kidh3mtinkakv4yz27zty",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -17,10 +17,24 @@
     "description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @moderation.bsky.social, @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service | Not able to perform takedowns",
     "indexedAt": "2025-01-13T02:45:19.043Z"
   },
-  "indexedAt": "2025-02-03T06:54:57.454Z",
+  "indexedAt": "2025-02-24T21:14:23.366Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "low-quality-replies",
+        "locales": [
+          {
+            "description": "Account's replies frequently lack substantive content, including: emoji-only replies, meme-or-image-only replies, cut and paste text that is frequently repeated in multiple threads, \"cry more\"/insults/slurs, and other forms of low-effort reply spam that are intended to troll or enrage rather than engage in conversation. Appeals will be accepted for active accounts that have ceased to engage in this sort of activity for at least a month.",
+            "lang": "en",
+            "name": "Low Quality Replies"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -372,6 +386,7 @@
       "fundraising-link",
       "hammer-sickle",
       "inverted-red-triangle",
+      "low-quality-replies",
       "maga-trump",
       "nazi-symbolism",
       "rmve-imve",
