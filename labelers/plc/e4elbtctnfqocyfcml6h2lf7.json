@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreieqwehfsmeluu7gyztg6zzklben4e4f3kidh3mtinkakv4yz27zty",
+  "cid": "bafyreibicagjobhmgotmzi7bwewgvrxqsfcwdbywm3s366oongiyf6jfm4",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -17,10 +17,24 @@
     "description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nNot affiliated with @moderation.bsky.social, @skywatch.bsky.social,  @skywatchde.bsky.social, or @skysentry.bsky.social | Independent Labeling Service | Not able to perform takedowns",
     "indexedAt": "2025-01-13T02:45:19.043Z"
   },
-  "indexedAt": "2025-02-24T21:14:23.366Z",
+  "indexedAt": "2025-02-25T18:45:38.860Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "amplifier",
+        "locales": [
+          {
+            "description": "User frequently posts links to sources which are used to launder fringe or extremist ideas into mainstream discourse. For more information on why this is harmful, regardless of intent, please see: Phillips, Whitney. 'The Oxygen of Amplification.' Data and Society, May 22, 2018. https://datasociety.net/library/oxygen-of-amplification/.",
+            "lang": "en",
+            "name": "Amplifier"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -373,6 +387,7 @@
     "labelValues": [
       "alf",
       "alt-tech",
+      "amplifier",
       "automated-reply-guy",
       "beans",
       "blue-heart-emoji",
