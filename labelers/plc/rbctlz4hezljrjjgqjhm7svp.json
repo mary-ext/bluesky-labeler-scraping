@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreibtmuds7b4un2gvbwo6y4hblrs6i4esd4kmnmcd3fo7g7pnkhxc4m",
+  "cid": "bafyreifwwza4ahvmzzxlbv7fpmfr3opjkjbxfhv7jypzpbqhrh6bgjco3u",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1️⃣ Subscribe to the labeler\n2️⃣ Follow the labeler (\"...\" menu)\n3️⃣ Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat 💖\n\nCreated by @codedrift.social",
     "indexedAt": "2025-02-26T16:14:33.345Z"
   },
-  "indexedAt": "2025-02-26T07:17:59.958Z",
+  "indexedAt": "2025-02-27T08:56:23.355Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -916,6 +916,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "triples",
+        "locales": [
+          {
+            "description": "User is a fan of tripleS",
+            "lang": "en",
+            "name": "tripleS"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -982,7 +996,8 @@
       "hwasa",
       "felix",
       "nayeon",
-      "momo"
+      "momo",
+      "triples"
     ]
   }
 }
