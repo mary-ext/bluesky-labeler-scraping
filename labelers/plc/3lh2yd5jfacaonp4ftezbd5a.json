@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:3lh2yd5jfacaonp4ftezbd5a/app.bsky.labeler.service/self",
-  "cid": "bafyreifttsej5bzr4bwozfjn2jcbhrl6fwzmxwvaesycx2rxuce47tr6v4",
+  "cid": "bafyreihvwnmnfzy2mwsdiz5gt7dij7et4mws6yzhpowbsyqh6s3dsb4oni",
   "creator": {
     "did": "did:plc:3lh2yd5jfacaonp4ftezbd5a",
     "handle": "moderation.beehive.systems",
@@ -14,10 +14,24 @@
     "description": "Delivering digital safety and security services and products for individuals, businesses, and governments around the world.\n\nSee something? Say something. Tap or click \"Subscribe to Labeler\", then report content to us from anywhere in Bluesky.",
     "indexedAt": "2025-02-16T23:47:29.951Z"
   },
-  "indexedAt": "2025-02-21T09:57:39.852Z",
+  "indexedAt": "2025-02-28T13:56:32.960Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "disrespectful",
+        "locales": [
+          {
+            "description": "This label is applied to content and accounts whose messaging is off-tone, crass, rude, bigoted, or otherwise harmful compared to the public opinion. By default, this flag is set to ignore, but you can electively use this to hide more content for a softer Bluesky experience.",
+            "lang": "en",
+            "name": "Disrespect"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -174,6 +188,7 @@
       }
     ],
     "labelValues": [
+      "disrespectful",
       "politically-charged",
       "missing-context",
       "unverified-financial",
