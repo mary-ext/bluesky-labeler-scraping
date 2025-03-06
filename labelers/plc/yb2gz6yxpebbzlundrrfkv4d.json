@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yb2gz6yxpebbzlundrrfkv4d/app.bsky.labeler.service/self",
-  "cid": "bafyreibzvls3frojhrnsdx2pl2altulicideokimdt4ewpmevyzzp53h4i",
+  "cid": "bafyreiho54zeld4f7i5ishzwlomrlfjhd5zebvlgjivzsyd2nhefz5igtq",
   "creator": {
     "did": "did:plc:yb2gz6yxpebbzlundrrfkv4d",
     "handle": "altheroes.bsky.social",
@@ -14,7 +14,7 @@
     "description": "Subscribe and like to get a fancy participation badge",
     "indexedAt": "2025-02-23T17:46:39.945Z"
   },
-  "indexedAt": "2025-02-22T19:08:35.859Z",
+  "indexedAt": "2025-03-05T14:34:20.860Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -22,10 +22,24 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "hero",
+        "locales": [
+          {
+            "description": "All of this user's image posts in the last month contain alt text",
+            "lang": "en",
+            "name": "👑"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "gold",
         "locales": [
           {
-            "description": "90+% of this user's image posts in the last month contain alt text",
+            "description": "95+% of this user's image posts in the last month contain alt text",
             "lang": "en",
             "name": "🥇"
           }
@@ -39,7 +53,7 @@
         "identifier": "silver",
         "locales": [
           {
-            "description": "At least 70% of this user's image posts in the last month contain alt text",
+            "description": "85+% of this user's image posts in the last month contain alt text",
             "lang": "en",
             "name": "🥈"
           }
@@ -53,7 +67,7 @@
         "identifier": "bronze",
         "locales": [
           {
-            "description": "At least 50% of this user's image posts in the last month contain alt text",
+            "description": "At least 70% of this user's image posts in the last month contain alt text",
             "lang": "en",
             "name": "🥉"
           }
@@ -62,6 +76,7 @@
       }
     ],
     "labelValues": [
+      "hero",
       "gold",
       "silver",
       "bronze"
