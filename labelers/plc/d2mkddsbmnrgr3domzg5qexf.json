@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
-  "cid": "bafyreibbqt3mj77qlmmp2nafnxj36sfweyzrit34bh5duxnovuxja7ae5i",
+  "cid": "bafyreigbfhbeybn7wa3y5lhj3zcthrwhre2rmmm4befxcy234elfc3qa4i",
   "creator": {
     "did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
     "handle": "blacksky.app",
@@ -17,7 +17,7 @@
     "description": "Creating a safe space for Black community building. We built the Blacksky feeds, this mod service, an atproto implementation called \"rsky\" and more. https://www.blackskyweb.xyz/",
     "indexedAt": "2025-03-01T13:47:51.345Z"
   },
-  "indexedAt": "2024-10-14T18:53:43.309Z",
+  "indexedAt": "2025-03-06T07:03:32.953Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -74,5 +74,21 @@
       "misogynoir",
       "antiblack-harassment"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile",
+    "app.bsky.feed.generator",
+    "app.bsky.labeler.service"
+  ]
 }
