@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:n3timvoib5nau7gvwd6cshap/app.bsky.labeler.service/self",
-  "cid": "bafyreigkop2k7yr6u5r7z2efbjbbuf4vf4vjita6vqll5hksnrjn3mjaj4",
+  "cid": "bafyreidf4fppfuczyuhr4vffutaklcb4geytlghzncccy7hqupogiiz7dq",
   "creator": {
     "did": "did:plc:n3timvoib5nau7gvwd6cshap",
     "handle": "bladerunner.club",
@@ -14,72 +14,221 @@
     "description": "community assessment of replicants, good and bad\n\n(reports are not monitored actively)",
     "indexedAt": "2024-10-23T17:21:17.409Z"
   },
-  "indexedAt": "2024-10-22T17:13:47.768Z",
+  "indexedAt": "2025-03-07T08:11:08.852Z",
   "labels": [],
   "policies": {
+    "description": "Labels screenshots from Twitter (and elsewhere) because life is too short to be that angry",
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "bad-bot",
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "newsmedia-screenshot",
         "locales": [
           {
-            "description": "An annoying or misleading bot account, as flagged by the community",
+            "description": "(coming soon) Screenshots from news websites",
             "lang": "en",
-            "name": "🤖 Bad Bot"
+            "name": "Possible news screenshot"
           }
         ],
         "severity": "alert"
       },
       {
-        "adultOnly": false,
-        "blurs": "none",
+        "adultsOnly": false,
+        "blurs": "media",
         "defaultSetting": "warn",
-        "identifier": "good-bot",
+        "identifier": "discord-screenshot",
         "locales": [
           {
-            "description": "A bot, but flagged as useful by the community",
+            "description": "An image detected as a screenshot taken from Discord, contents may or may not be offensive",
             "lang": "en",
-            "name": "🤖 Good Bot"
+            "name": "Possible Discord screenshot"
           }
         ],
         "severity": "inform"
       },
       {
-        "adultOnly": false,
-        "blurs": "none",
+        "adultsOnly": false,
+        "blurs": "media",
         "defaultSetting": "warn",
-        "identifier": "bladerunner",
+        "identifier": "ngl-screenshot",
         "locales": [
           {
-            "description": "Accounts who are particularly skilled at identifying replicants",
+            "description": "An image detected as a screenshot taken from NGL, contents may or may not be offensive",
             "lang": "en",
-            "name": "🥷 Blade Runner"
+            "name": "Possible NGL screenshot"
           }
         ],
         "severity": "inform"
       },
       {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "jabroni",
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "uncategorised-screenshot",
         "locales": [
           {
-            "description": "Lamers messing with the assessment process",
+            "description": "Miscellaneous screenshots detected by a computer vision model. After human intervention, this label is dropped and a more specific one is added.",
             "lang": "en",
-            "name": "🤡 Jabroni"
+            "name": "Uncategorised screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "twitter-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Twitter, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Twitter screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "threads-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Threads, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Threads screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "fediverse-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Mastodon et al, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Fediverse screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "bluesky-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Bluesky, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Bluesky screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "facebook-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Facebook, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Facebook screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "instagram-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Instagram, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Instagram screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "tumblr-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Tumblr, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Tumblr screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "reddit-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken from Reddit, contents may or may not be offensive",
+            "lang": "en",
+            "name": "Possible Reddit screenshot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultsOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "altright-screenshot",
+        "locales": [
+          {
+            "description": "An image detected as a screenshot taken on an alt-right platform (Truth Social, Gab, 4chan, et cetera), contents quite likely offensive",
+            "lang": "en",
+            "name": "Possible Alt-right platform screenshot"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "bad-bot",
-      "good-bot",
-      "bladerunner",
-      "jabroni"
+      "twitter-screenshot",
+      "bluesky-screenshot",
+      "altright-screenshot",
+      "ngl-screenshot",
+      "discord-screenshot",
+      "threads-screenshot",
+      "fediverse-screenshot",
+      "facebook-screenshot",
+      "instagram-screenshot",
+      "tumblr-screenshot",
+      "reddit-screenshot"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
 }

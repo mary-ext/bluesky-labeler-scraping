@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:newitj5jo3uel7o4mnf3vj2o/app.bsky.labeler.service/self",
-  "cid": "bafyreid7g2ohfggqru3owuhyi6hqpejuiokd4b7g273d2xcvmrijejeaby",
+  "cid": "bafyreia7oy7oemgeclpi2u3rvjvqa33aohgrgjmq2myzq3w4htgrlt74pu",
   "creator": {
     "did": "did:plc:newitj5jo3uel7o4mnf3vj2o",
     "handle": "xblock.aendra.dev",
@@ -17,7 +17,7 @@
     "description": "Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers.\n\nMislabelled posts: please report (specifying XBlock) using the Bluesky \"report post\" button!\n\n🌐 xblock.aendra.com",
     "indexedAt": "2024-12-30T02:21:46.243Z"
   },
-  "indexedAt": "2025-01-13T17:42:39.523Z",
+  "indexedAt": "2025-03-07T12:36:17.249Z",
   "labels": [],
   "policies": {
     "description": "Labels screenshots from Twitter (and elsewhere) because life is too short to be that angry",
@@ -218,5 +218,14 @@
       "tumblr-screenshot",
       "reddit-screenshot"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
 }

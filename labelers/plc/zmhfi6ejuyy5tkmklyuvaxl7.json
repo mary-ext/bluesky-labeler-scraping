@@ -1,0 +1,40 @@
+{
+  "uri": "at://did:plc:zmhfi6ejuyy5tkmklyuvaxl7/app.bsky.labeler.service/self",
+  "cid": "bafyreiaywb5mjku7e7xdcdu5efeghvve5mlsk27ptoelgvjycqhayoehkm",
+  "creator": {
+    "did": "did:plc:zmhfi6ejuyy5tkmklyuvaxl7",
+    "handle": "pol-labs-dev.bsky.social",
+    "displayName": "Pol Labs",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zmhfi6ejuyy5tkmklyuvaxl7/bafkreifkxfsk7d6knyl76bnqtd76t2wdyahab6d43cfbpizhdqejdwsuyu@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-03-07T17:55:17.441Z",
+    "description": "This is a development instance of the Pol Labs labeller, it should not be used.",
+    "indexedAt": "2025-03-07T18:00:16.941Z"
+  },
+  "indexedAt": "2025-03-07T19:47:36.544Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "political",
+        "locales": [
+          {
+            "description": "If a post is political it'll get labelled by this.",
+            "lang": "en",
+            "name": "Political"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "political"
+    ]
+  }
+}
