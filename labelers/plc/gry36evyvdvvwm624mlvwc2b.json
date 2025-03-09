@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:gry36evyvdvvwm624mlvwc2b/app.bsky.labeler.service/self",
-  "cid": "bafyreidmmqhvvv2hlr6wnwbhoxtcbaeg3h72ktk6upkvszoh3rvmgwide4",
+  "cid": "bafyreibnt4mhoo3whm7jwr54foxazptqcjklqq6imijkkaedjipqb44nlm",
   "creator": {
     "did": "did:plc:gry36evyvdvvwm624mlvwc2b",
     "handle": "joyca.mp",
@@ -13,11 +13,26 @@
     "createdAt": "2025-03-02T01:48:43.545Z",
     "indexedAt": "2025-03-02T01:48:43.545Z"
   },
-  "indexedAt": "2025-03-04T17:33:17.052Z",
+  "indexedAt": "2025-03-08T23:16:05.472Z",
   "labels": [],
   "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "follower",
+        "locales": [
+          {
+            "description": "This user follows schcrt.bsky.social",
+            "lang": "en",
+            "name": "✨ Follows schcrt"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
     "labelValues": [
-      "alt-national-park-service-follower"
+      "follower"
     ]
   }
 }

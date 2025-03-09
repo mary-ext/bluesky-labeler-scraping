@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:bupeudpgef7eikzsa4osiktq/app.bsky.labeler.service/self",
-  "cid": "bafyreiedn2ppmwfvg2ki2mbmvtv24ix22jujcfrxmef7tmrbzwpl7gcb2u",
+  "cid": "bafyreicybw4nf2lhmuaqh26zg22e4c7ttimpt7laymskobl2wb4ezvi7vu",
   "creator": {
     "did": "did:plc:bupeudpgef7eikzsa4osiktq",
     "handle": "pkflash.glitchypsi.xyz",
@@ -14,7 +14,7 @@
     "description": "Labeler for media with potentially seizure inducing (strobing) lights, harsh coloring, and harmfully loud volume. Run by @glitchypsi.xyz\n\nPosts with a CW in text will be labeled with no content checking.",
     "indexedAt": "2024-12-09T17:19:49.295Z"
   },
-  "indexedAt": "2024-12-10T23:10:25.151Z",
+  "indexedAt": "2025-03-08T02:13:08.651Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -66,5 +66,16 @@
       "pkflash-loud",
       "pkflash-harsh"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
 }
