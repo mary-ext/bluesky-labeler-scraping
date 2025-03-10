@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:3lh2yd5jfacaonp4ftezbd5a/app.bsky.labeler.service/self",
-  "cid": "bafyreihvwnmnfzy2mwsdiz5gt7dij7et4mws6yzhpowbsyqh6s3dsb4oni",
+  "cid": "bafyreic5ebukeysjokby4yuoiggm2mlucsq24cp5pdt4fehpbvir3txo5m",
   "creator": {
     "did": "did:plc:3lh2yd5jfacaonp4ftezbd5a",
     "handle": "moderation.beehive.systems",
@@ -14,10 +14,24 @@
     "description": "Delivering digital safety and security services and products for individuals, businesses, and governments around the world.\n\nSee something? Say something. Tap or click \"Subscribe to Labeler\", then report content to us from anywhere in Bluesky.",
     "indexedAt": "2025-02-16T23:47:29.951Z"
   },
-  "indexedAt": "2025-02-28T13:56:32.960Z",
+  "indexedAt": "2025-03-09T19:26:13.146Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "This label is applied to content and accounts whose messaging is repetitive, unoriginal, or otherwise definable as \"spam\". This also includes \"parrot\" content.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -188,6 +202,7 @@
       }
     ],
     "labelValues": [
+      "spam",
       "disrespectful",
       "politically-charged",
       "missing-context",

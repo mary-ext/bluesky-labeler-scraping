@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-  "cid": "bafyreibvxktq5dmekndnccpton2tj7fwdrfsxmnno5mvht6w7oug5oo4di",
+  "cid": "bafyreiaymqggs6fobr6evdo5buxuq4ncikhvtk5zdb3iskjuqhzhoqsy44",
   "creator": {
     "did": "did:plc:qkty4ninplgtzeychgz4yyrh",
     "handle": "labeler.bikesky.social",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2024-12-23T19:04:25.344Z",
-    "description": "A labeling service for @bikesky.social that provides moderation and verified and non-verified labels for bike enjoyers.\n\nTo get a label, subscribe and then send a post that says: @labeler.bikesky.social label\n\nRun by @derek.bike",
-    "indexedAt": "2025-03-04T16:14:18.344Z"
+    "description": "A labeling service for @bikesky.social that provides moderation and verified and non-verified labels for bike enjoyers.\n\nTo get a label, subscribe and then send a post that says:\n@labeler.bikesky.social label\n\nRun by @derek.bike",
+    "indexedAt": "2025-03-09T02:36:50.942Z"
   },
-  "indexedAt": "2025-03-03T01:33:38.063Z",
+  "indexedAt": "2025-03-09T01:35:07.657Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -563,6 +563,34 @@
             "description": "Someone who rides bikes and is a member of the clergy.",
             "lang": "en",
             "name": "Clergy Who Cycle"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "virtual-cyclist",
+        "locales": [
+          {
+            "description": "Someone who enjoys riding bikes in virtual environments.",
+            "lang": "en",
+            "name": "Virtual Cyclist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "folding-bike-fan",
+        "locales": [
+          {
+            "description": "Someone who appreciates a bike that can be stowed in the overhead compartment.",
+            "lang": "en",
+            "name": "Folding Bike Fan"
           }
         ],
         "severity": "inform"
@@ -1168,6 +1196,8 @@
       "cycles-with-disability",
       "vehicular-cyclist",
       "clergy-who-cycle",
+      "virtual-cyclist",
+      "folding-bike-fan",
       "tandem-bike-partner",
       "bike-racer",
       "cross-is-coming",

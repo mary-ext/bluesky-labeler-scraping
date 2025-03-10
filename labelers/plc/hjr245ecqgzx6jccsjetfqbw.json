@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hjr245ecqgzx6jccsjetfqbw/app.bsky.labeler.service/self",
-  "cid": "bafyreicc7scg4xx3zo2ghm2hha5kna2ma35nxvajdbpc6abhkgemmgc5qq",
+  "cid": "bafyreifalxyfigcjrasaixbzeoidqgkbrvvyntsgdg5e7iouagmwercvbu",
   "creator": {
     "did": "did:plc:hjr245ecqgzx6jccsjetfqbw",
     "handle": "bonker.stealthbadger.net",
@@ -22,10 +22,108 @@
     "description": "When you need something annoying bit Right Now.\n\nThis labeler is a work in progress.",
     "indexedAt": "2024-12-01T18:46:10.945Z"
   },
-  "indexedAt": "2024-12-09T15:47:37.815Z",
+  "indexedAt": "2025-03-09T04:59:54.752Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "gun-nut",
+        "locales": [
+          {
+            "description": "For those who seem to think that firearms are both a personality and a sexual preference.",
+            "lang": "en",
+            "name": "Ammosexual"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "essentialist",
+        "locales": [
+          {
+            "description": "Catch-all for those who judge on immutable/involuntary characteristics not otherwise specified.",
+            "lang": "en",
+            "name": "Essentialist"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "racist",
+        "locales": [
+          {
+            "description": "Just what it says on the tin.",
+            "lang": "en",
+            "name": "Racist"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "bad-infrastructure",
+        "locales": [
+          {
+            "description": "Labelers, bots, or other infrastructure account for MAGA supporters and the like.",
+            "lang": "en",
+            "name": "RW Infrastructure"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "woo",
+        "locales": [
+          {
+            "description": "Anything from magical thinking to flat earthers.",
+            "lang": "en",
+            "name": "Anti-science"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "kook",
+        "locales": [
+          {
+            "description": "From grassy knolls to Jewish space lasers, it's all bullshit, and it's bad for you.",
+            "lang": "en",
+            "name": "Conspiracy theorist"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "just-no",
+        "locales": [
+          {
+            "description": "Accounts that are just unnecessary. Stuff like Trump \"truth\" reposters.",
+            "lang": "en",
+            "name": "Just no."
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -61,7 +159,7 @@
         "identifier": "sexist",
         "locales": [
           {
-            "description": "Sexist, anti-trans, just anyone who freaks out over naughty bits.",
+            "description": "Sexist, anti-trans, unironic user of the word \"feminazi,\" just anyone who freaks out over anything to do with naughty bits.",
             "lang": "en",
             "name": "Sexist"
           }
@@ -224,6 +322,13 @@
       }
     ],
     "labelValues": [
+      "gun-nut",
+      "essentialist",
+      "racist",
+      "bad-infrastructure",
+      "woo",
+      "kook",
+      "just-no",
       "misinfo",
       "disinfo",
       "sexist",

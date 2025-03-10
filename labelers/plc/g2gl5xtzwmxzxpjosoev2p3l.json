@@ -1,0 +1,160 @@
+{
+  "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
+  "cid": "bafyreigewlop6thqhhsqkgivyyqalyydnsksqyufmyk5saxuytq7qj6imq",
+  "creator": {
+    "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
+    "handle": "twyllagea.de",
+    "displayName": "Twyllagea",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g2gl5xtzwmxzxpjosoev2p3l/bafkreigfyh53v4q4soio6psfylkagc4ov36qwkjlrvzw4swv4xhlwiijye@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-03-09T10:22:52.541Z",
+    "description": "To foster a more secure online experience.",
+    "indexedAt": "2025-03-09T12:53:03.242Z"
+  },
+  "indexedAt": "2025-03-09T22:38:08.060Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn|hide",
+        "identifier": "scam",
+        "locales": [
+          {
+            "description": "Scams, phishing & fraud.",
+            "lang": "en",
+            "name": "Scam"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "trolls",
+        "locales": [
+          {
+            "description": "Label for posts and accounts which spam users with off-topic replies, engage in troll like behavior, or which engage in concern trolling. This label is also applied to accounts whose bio contains several terms that are frequently used by troll accounts and may accidentally catch some reclaiming uses: please appeal any errors by tapping the label.",
+            "lang": "en",
+            "name": "Trolls"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Aggressive pressure or intimidation.",
+            "lang": "en",
+            "name": "Harassment"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Unwanted, repeated, or unrelated actions that bother users.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "engagement_farming",
+        "locales": [
+          {
+            "description": "Insincere content or bulk actions aimed at gaining followers, including frequent follows, posts, and likes.",
+            "lang": "en",
+            "name": "Engagement Farming"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "extremist",
+        "locales": [
+          {
+            "description": "Radical views advocating violence, hate, or discrimination against individuals or groups.",
+            "lang": "en",
+            "name": "Extremist"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "Rude or impolite, including crude language and disrespectful comments, without constructive purpose.",
+            "lang": "en",
+            "name": "Rude"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "Pretending to be someone else without permission.",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "misinformation",
+        "locales": [
+          {
+            "description": "Spreading false or misleading info, including unverified claims and harmful conspiracy theories.",
+            "lang": "en",
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "rude",
+      "scam",
+      "trolls",
+      "harassment",
+      "impersonation",
+      "extremist",
+      "spam",
+      "engagement_farming",
+      "misinformation"
+    ]
+  }
+}
