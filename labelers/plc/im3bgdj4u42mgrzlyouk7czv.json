@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:im3bgdj4u42mgrzlyouk7czv/app.bsky.labeler.service/self",
-  "cid": "bafyreidhmqbdxa2pzhw4hhj3vsrt2y2pdj3ihbtugajixzymv4ev4vitdm",
+  "cid": "bafyreigiz5hq5xhqx2chuppzjq4dfe42z7ecuzte2yr3wrogy4nqb2voxq",
   "creator": {
     "did": "did:plc:im3bgdj4u42mgrzlyouk7czv",
     "handle": "adcontrols.bsky.social",
@@ -14,7 +14,7 @@
     "description": "A Bluesky content labeler that applies promotion-related badges to posts based on hashtags (see pinned post).\n\n⚡ You are in control. Adjust how sponsored content appears (or not) in your Bluesky feed.\n\nCreated by @yesthatwes.bsky.social",
     "indexedAt": "2025-02-28T13:00:55.546Z"
   },
-  "indexedAt": "2025-02-15T15:45:48.257Z",
+  "indexedAt": "2025-03-12T12:08:11.157Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -81,5 +81,14 @@
       "promoted",
       "boosted"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
 }

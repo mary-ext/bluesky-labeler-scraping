@@ -1,20 +1,20 @@
 {
   "uri": "at://did:plc:tvhnihwya22c7xgftsqniq3t/app.bsky.labeler.service/self",
-  "cid": "bafyreicminwdboujxd4jlot5xxoby5u76dunclodjehpkokqgluasaxmyy",
+  "cid": "bafyreibbvwsfkrnq467jovm2iwnuw5ic6su5tosneqtqtmt36uzccr6hnm",
   "creator": {
     "did": "did:plc:tvhnihwya22c7xgftsqniq3t",
     "handle": "super-james-test.bsky.social",
     "displayName": "FLT Test Labeler",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tvhnihwya22c7xgftsqniq3t/bafkreia23n6zdcsxvm3lvstwwdbkpnwrigb2rt3mnr2rvrqxjklolyoime@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tvhnihwya22c7xgftsqniq3t/bafkreiglkrmms6ve2xke3ui77tkjswksyxomybsfsymhv7lrlobkbibpxa@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2024-08-26T09:13:58.021Z",
     "description": "Testing Labeler verification. \n\nWARNING - This is currently just for testing! The labels it gives out are not really verified!",
-    "indexedAt": "2025-03-07T20:03:07.045Z"
+    "indexedAt": "2025-03-12T09:17:31.446Z"
   },
-  "indexedAt": "2025-03-07T19:46:32.347Z",
+  "indexedAt": "2025-03-12T15:32:54.454Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -22,26 +22,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "flt-test-label",
-        "locales": [
-          {
-            "description": "This is just a label to test how labels work.",
-            "lang": "en",
-            "name": "Test Label"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "flt-verified-oneid",
         "locales": [
           {
-            "description": "Given to accounts that have proven their humanity via OneID ID Live.",
+            "description": "Given to accounts that have proven their humanity via OneID.",
             "lang": "en",
-            "name": "OneID"
+            "name": "human"
           }
         ],
         "severity": "inform"
@@ -50,21 +36,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "flt-18-oneid",
+        "identifier": "flt-verified-emoji-oneid",
         "locales": [
           {
-            "description": "Given to accounts that have proven they are over 18 via OneID Age Check",
+            "description": "Emoji display alternative. \u0016Given to accounts that have proven their humanity via OneID.",
             "lang": "en",
-            "name": "18+ OneID"
+            "name": "🚫 🤖"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "flt-test-label",
       "flt-verified-oneid",
-      "flt-18-oneid"
+      "flt-verified-emoji-oneid"
     ]
   }
 }

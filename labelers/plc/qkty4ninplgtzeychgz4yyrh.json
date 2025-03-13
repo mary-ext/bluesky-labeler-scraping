@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qkty4ninplgtzeychgz4yyrh/app.bsky.labeler.service/self",
-  "cid": "bafyreiaymqggs6fobr6evdo5buxuq4ncikhvtk5zdb3iskjuqhzhoqsy44",
+  "cid": "bafyreiatnmxtns7d4fktvgyjmy3g7ui4f3ngmg7qnapyoa2yunrqslkrnm",
   "creator": {
     "did": "did:plc:qkty4ninplgtzeychgz4yyrh",
     "handle": "labeler.bikesky.social",
@@ -17,7 +17,7 @@
     "description": "A labeling service for @bikesky.social that provides moderation and verified and non-verified labels for bike enjoyers.\n\nTo get a label, subscribe and then send a post that says:\n@labeler.bikesky.social label\n\nRun by @derek.bike",
     "indexedAt": "2025-03-09T02:36:50.942Z"
   },
-  "indexedAt": "2025-03-09T01:35:07.657Z",
+  "indexedAt": "2025-03-12T15:30:52.662Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -991,6 +991,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "bike-network-planner-verified",
+        "locales": [
+          {
+            "description": "A professional who designs bike networks for their community.\n\nThis profile has been independently verified. ✅",
+            "lang": "en",
+            "name": "Bike Network Planner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "biking-content-creator-verified",
         "locales": [
           {
@@ -1226,6 +1240,7 @@
       "bike-platform-verified",
       "bike-mechanic-verified",
       "ebike-mechanic-verified",
+      "bike-network-planner-verified",
       "biking-content-creator-verified",
       "biking-charity-verified",
       "biking-non-profit-verified",
