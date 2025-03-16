@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jjotg3xptjqggin2pfgug2k2/app.bsky.labeler.service/self",
-  "cid": "bafyreialvicjhlsvkewmtrxjm6c5qg2dvgltatlgklc3cvlq2a7z33u3qe",
+  "cid": "bafyreieeqhupgah3ybq645oma5ygnzpahg4xwldgytpzutibrhpwaos6tm",
   "creator": {
     "did": "did:plc:jjotg3xptjqggin2pfgug2k2",
     "handle": "uspol.n3rdsky.com",
@@ -13,27 +13,72 @@
     "description": "I am a testing one though :/",
     "indexedAt": "2025-02-22T04:42:55.446Z"
   },
-  "indexedAt": "2025-02-22T21:38:49.152Z",
+  "indexedAt": "2025-03-15T05:31:54.050Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore",
-        "identifier": "label-name",
+        "blurs": "content|media",
+        "defaultSetting": "none",
+        "identifier": "Democrat",
         "locales": [
           {
             "description": "Label description.",
             "lang": "en",
-            "name": "Label Display Name"
+            "name": "Democrat"
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "none",
+        "identifier": "miscellaneous",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "Miscellaneous"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media",
+        "defaultSetting": "none",
+        "identifier": "Republican",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "Republican"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "none",
+        "identifier": "noalttext",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "No Alt Text"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "label-name"
+      "Democrat",
+      "Republican",
+      "miscellaneous",
+      "noalttext"
     ]
   }
 }
