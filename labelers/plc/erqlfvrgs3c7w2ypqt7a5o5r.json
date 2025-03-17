@@ -1,0 +1,54 @@
+{
+  "uri": "at://did:plc:erqlfvrgs3c7w2ypqt7a5o5r/app.bsky.labeler.service/self",
+  "cid": "bafyreicf3yzcdxqny6kpcdc35nunc76hdmj3ipfgwmuuzsprnrwsetylte",
+  "creator": {
+    "did": "did:plc:erqlfvrgs3c7w2ypqt7a5o5r",
+    "handle": "bangers.pmsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:erqlfvrgs3c7w2ypqt7a5o5r/bafkreid3keb4l6dibvugzy75xzgenudeghqzpldx64otf5wbpplgb7ndra@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-02-27T01:30:52.845Z",
+    "indexedAt": "2025-02-27T01:30:52.845Z"
+  },
+  "indexedAt": "2025-03-16T18:14:44.950Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banger-one",
+        "locales": [
+          {
+            "description": "At least one user considered this post a banger on PMsky",
+            "lang": "en",
+            "name": "Banger lvl1"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banger-two",
+        "locales": [
+          {
+            "description": "Two PMsky users considered this post a banger.",
+            "lang": "en",
+            "name": "Banger lvl2"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "banger-one",
+      "banger-two"
+    ]
+  }
+}
