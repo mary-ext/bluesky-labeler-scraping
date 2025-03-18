@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:erqlfvrgs3c7w2ypqt7a5o5r/app.bsky.labeler.service/self",
-  "cid": "bafyreicf3yzcdxqny6kpcdc35nunc76hdmj3ipfgwmuuzsprnrwsetylte",
+  "cid": "bafyreihnmqrswduykjnrtqygd3ozi3p6fkpdea6xcnm5e6h4pqpcbbeyhm",
   "creator": {
     "did": "did:plc:erqlfvrgs3c7w2ypqt7a5o5r",
     "handle": "bangers.pmsky.social",
@@ -13,7 +13,7 @@
     "createdAt": "2025-02-27T01:30:52.845Z",
     "indexedAt": "2025-02-27T01:30:52.845Z"
   },
-  "indexedAt": "2025-03-16T18:14:44.950Z",
+  "indexedAt": "2025-03-17T02:37:31.951Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,7 +24,7 @@
         "identifier": "banger-one",
         "locales": [
           {
-            "description": "At least one user considered this post a banger on PMsky",
+            "description": "This post was nominated as a banger on PMsky.",
             "lang": "en",
             "name": "Banger lvl1"
           }
@@ -38,9 +38,51 @@
         "identifier": "banger-two",
         "locales": [
           {
-            "description": "Two PMsky users considered this post a banger.",
+            "description": "Two users agreed this post was a banger on PMsky",
             "lang": "en",
             "name": "Banger lvl2"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banger-three",
+        "locales": [
+          {
+            "description": "Three users agreed this post was a banger on PMsky",
+            "lang": "en",
+            "name": "Banger lvl3"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banger-four",
+        "locales": [
+          {
+            "description": "Four users agreed this post was a banger on PMsky",
+            "lang": "en",
+            "name": "Banger lvl4"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banger-five",
+        "locales": [
+          {
+            "description": "Five users agreed this post was a banger on PMsky.",
+            "lang": "en",
+            "name": "Banger lvl5"
           }
         ],
         "severity": "inform"
@@ -48,7 +90,10 @@
     ],
     "labelValues": [
       "banger-one",
-      "banger-two"
+      "banger-two",
+      "banger-three",
+      "banger-four",
+      "banger-five"
     ]
   }
 }
