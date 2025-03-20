@@ -1,0 +1,55 @@
+{
+  "uri": "at://did:plc:4p3ilpfcl77fqgoofjmghznc/app.bsky.labeler.service/self",
+  "cid": "bafyreibyrk4nultqhqd4ggbxq2qiklrvybqqpftfccc52eu3esjxubtqmm",
+  "creator": {
+    "did": "did:plc:4p3ilpfcl77fqgoofjmghznc",
+    "handle": "puzzmo-labeler.bsky.social",
+    "displayName": "Puzzmo Account Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4p3ilpfcl77fqgoofjmghznc/bafkreifg7virr2gf2mhywv2dob6ploubyknuif6up4xs7te66kptng2z74@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-03-19T14:11:05.746Z",
+    "description": "A way to know whether folks you know are in the know",
+    "indexedAt": "2025-03-19T14:11:05.746Z"
+  },
+  "indexedAt": "2025-03-19T13:30:47.952Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "member",
+        "locales": [
+          {
+            "description": "Plays on Puzzmo",
+            "lang": "en",
+            "name": "Puzzmonaut"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "xword-contrib",
+        "locales": [
+          {
+            "description": "They have published Crosswords on Puzzmo",
+            "lang": "en",
+            "name": "Puzzmo Xword Contributor"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "member",
+      "xword-contrib"
+    ]
+  }
+}
