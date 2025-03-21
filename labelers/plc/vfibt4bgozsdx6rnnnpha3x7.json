@@ -1,20 +1,20 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreih5fiwtkytmv3gvlnjlpx3nzswjcuj3xsdboi6y45ljorfwkf264a",
+  "cid": "bafyreie55qjqhiyv4vgbvsu6bwdhccteberezdb4gyokmllh6oy55n7hty",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
-    "displayName": "Record Collector (WIP)",
+    "displayName": "Record Collector",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vfibt4bgozsdx6rnnnpha3x7/bafkreibckq5242a3kbysb4akd7cz6lljb5dt6krqfzfpvqyqgk2llnp5ja@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2025-03-14T23:02:35.742Z",
-    "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev",
-    "indexedAt": "2025-03-16T17:20:01.545Z"
+    "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev (message me if your app isn't listed below and you think it should be)",
+    "indexedAt": "2025-03-20T23:39:08.145Z"
   },
-  "indexedAt": "2025-03-14T22:59:16.760Z",
+  "indexedAt": "2025-03-20T04:21:39.150Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,7 +25,7 @@
         "identifier": "com-whtwnd",
         "locales": [
           {
-            "description": "com.whtwnd.*",
+            "description": "markdown blog service (com.whtwnd.*)",
             "lang": "en",
             "name": "WhiteWind"
           }
@@ -39,9 +39,23 @@
         "identifier": "events-smokesignal",
         "locales": [
           {
-            "description": "events.smokesignal.*",
+            "description": "manage events and RSVPs (events.smokesignal.*)",
             "lang": "en",
             "name": "Smoke Signal"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fm-teal",
+        "locales": [
+          {
+            "description": "your music, beautifully tracked (fm.teal.*)",
+            "lang": "en",
+            "name": "teal.fm"
           }
         ],
         "severity": "inform"
@@ -53,23 +67,9 @@
         "identifier": "fyi-unravel-frontpage",
         "locales": [
           {
-            "description": "fyi.unravel.frontpage.*",
+            "description": "a decentralised and federated link aggregator (fyi.unravel.frontpage.*)",
             "lang": "en",
             "name": "Frontpage"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-statusphere",
-        "locales": [
-          {
-            "description": "xyz.statusphere.*",
-            "lang": "en",
-            "name": "Statusphere"
           }
         ],
         "severity": "inform"
@@ -81,9 +81,23 @@
         "identifier": "im-flushing",
         "locales": [
           {
-            "description": "im.flushing.*",
+            "description": "The Decentralized Toilet Network of Planet Earth & Simulation 12B (im.flushing.*)",
             "lang": "en",
             "name": "Flushes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "place-stream",
+        "locales": [
+          {
+            "description": "live video on the AT Protocol (place.stream.*)",
+            "lang": "en",
+            "name": "Streamplace"
           }
         ],
         "severity": "inform"
@@ -95,9 +109,23 @@
         "identifier": "sh-tangled",
         "locales": [
           {
-            "description": "sh.tangled.*",
+            "description": "tightly-knit social coding (sh.tangled.*)",
             "lang": "en",
             "name": "Tangled"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "xyz-statusphere",
+        "locales": [
+          {
+            "description": "atproto quick start (xyz.statusphere.*)",
+            "lang": "en",
+            "name": "Statusphere"
           }
         ],
         "severity": "inform"
@@ -106,10 +134,12 @@
     "labelValues": [
       "com-whtwnd",
       "events-smokesignal",
+      "fm-teal",
       "fyi-unravel-frontpage",
-      "xyz-statusphere",
       "im-flushing",
-      "sh-tangled"
+      "place-stream",
+      "sh-tangled",
+      "xyz-statusphere"
     ]
   }
 }
