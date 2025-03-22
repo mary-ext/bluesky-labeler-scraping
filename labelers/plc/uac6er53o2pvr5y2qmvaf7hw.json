@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-  "cid": "bafyreieqwisrpjgkyz5wnf7uabsa7izuvw4u3t6tqgaffndjgcknx2rh2e",
+  "cid": "bafyreifwhp2z3gnrgldfn6a5umynpbayizfpvurti3lcjexxzsxtskqy3y",
   "creator": {
     "did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
     "handle": "pef-moderation.org",
@@ -17,10 +17,24 @@
     "description": "Read Pinned post for mission\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@pef-moderation.org\nFollow for PSAs\nCommitted to no use of !hide !warn etc outside illegality",
     "indexedAt": "2025-02-01T23:28:27.643Z"
   },
-  "indexedAt": "2025-01-23T20:28:10.955Z",
+  "indexedAt": "2025-03-21T20:46:58.060Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "altrightlink",
+        "locales": [
+          {
+            "description": "Contains a link to content hosted on an alt-right platform.",
+            "lang": "en",
+            "name": "Alt-right Platform Link"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -219,6 +233,7 @@
       }
     ],
     "labelValues": [
+      "altrightlink",
       "misinformation",
       "network",
       "caution",
