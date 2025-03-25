@@ -1,0 +1,70 @@
+{
+  "uri": "at://did:plc:ux33w55vfslgpnofuklyhnte/app.bsky.labeler.service/self",
+  "cid": "bafyreibj6nanx7rw6lo6ujaaj7pus5yujcpp2qaq75yitp4zqtzk3vas2i",
+  "creator": {
+    "did": "did:plc:ux33w55vfslgpnofuklyhnte",
+    "handle": "labels.geese.blue",
+    "displayName": "Business Goose Minor Nuisance Judgment Labeller™️",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ux33w55vfslgpnofuklyhnte/bafkreiaaiqpsa2atvuwviwhvacwwaiucjqpv3g5elm5uivouuaqg5awbsu@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-03-24T22:29:57.141Z",
+    "description": "This labeller will apply labels to contents and accounts that fix minor nuisances on behalf of @goose.art, you are welcome to subscribe to any of the labels if you, too find the labels in question annoying. ",
+    "indexedAt": "2025-03-24T23:10:25.942Z"
+  },
+  "indexedAt": "2025-03-24T22:47:57.758Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "too-many-emojis",
+        "locales": [
+          {
+            "description": "This user's profile information contains too many emojis. ",
+            "lang": "en",
+            "name": "Too Many Emojis in Profile"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "square-image",
+        "locales": [
+          {
+            "description": "This type of media is often shared from Instagram or otherwise optimized for online engagement in an unhealthy way. It is unlikely to be a plain photo and likely to contain some instagram infographic or something.",
+            "lang": "en",
+            "name": "Square Image"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "vertical-video",
+        "locales": [
+          {
+            "description": "Likely a repost from instagram reels, tiktok, or another short form content app. ",
+            "lang": "en",
+            "name": "Vertical Video"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "too-many-emojis",
+      "square-image",
+      "vertical-video"
+    ]
+  }
+}
