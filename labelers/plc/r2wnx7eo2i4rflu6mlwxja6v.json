@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:r2wnx7eo2i4rflu6mlwxja6v/app.bsky.labeler.service/self",
-  "cid": "bafyreihyb3ov3bhwqup27pmuzbsarklxztmlq2s3c2v4oymc64ovp2vkg4",
+  "cid": "bafyreifddmf3ulenoo2xqmdtipviuk32wr2adq5b6rqwlpdokpyaarbygi",
   "creator": {
     "did": "did:plc:r2wnx7eo2i4rflu6mlwxja6v",
     "handle": "trulioo-test.bsky.social",
@@ -16,104 +16,30 @@
     "createdAt": "2024-12-10T18:39:54.251Z",
     "indexedAt": "2024-12-10T18:39:54.251Z"
   },
-  "indexedAt": "2025-01-24T18:13:05.664Z",
+  "indexedAt": "2025-03-26T00:04:44.205Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "real",
         "locales": [
           {
-            "description": "real_human 🧑",
+            "description": "testing",
             "lang": "en",
-            "name": "verified 🧑"
+            "name": "real human 😊"
           }
         ],
         "severity": "inform"
       },
       {
-        "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "bot",
         "locales": [
           {
-            "description": "robot 🤖",
+            "description": "testing",
             "lang": "en",
-            "name": "bot 🤖"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "test",
-        "locales": [
-          {
-            "description": "test identifier",
-            "lang": "en",
-            "name": "test 🧪"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "docv_verified",
-        "locales": [
-          {
-            "description": "Documents have been verified by Trulioo.",
-            "lang": "en",
-            "name": "✅ Documents Verified by Trulioo"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "idv_verified",
-        "locales": [
-          {
-            "description": "Trulioo data sources match information provided (such as SSN).",
-            "lang": "en",
-            "name": "💿 Identity Verified by Trulioo Data Sources"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "docv",
-        "locales": [
-          {
-            "description": "Information has been verified from official document upload.",
-            "lang": "en",
-            "name": "🪪 Documents Verified"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "idv",
-        "locales": [
-          {
-            "description": "Information matches records from telecom, housing, or banking data sources.",
-            "lang": "en",
-            "name": "🔎 Information Matches Data Sources"
+            "name": "robot 🤖"
           }
         ],
         "severity": "inform"
@@ -121,12 +47,7 @@
     ],
     "labelValues": [
       "real",
-      "bot",
-      "test",
-      "docv_verified",
-      "idv_verified",
-      "docv",
-      "idv"
+      "bot"
     ]
   }
 }
