@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreigewlop6thqhhsqkgivyyqalyydnsksqyufmyk5saxuytq7qj6imq",
+  "cid": "bafyreigf7ahksrk3ikyv6732s7jc7z4mfvgskvifeapid4zi5rkktb3qsy",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -14,14 +14,14 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-03-09T12:53:03.242Z"
   },
-  "indexedAt": "2025-03-09T22:38:08.060Z",
+  "indexedAt": "2025-03-27T22:44:19.305Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "scam",
         "locales": [
           {
@@ -30,12 +30,12 @@
             "name": "Scam"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "none"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "trolls",
         "locales": [
           {
@@ -44,12 +44,12 @@
             "name": "Trolls"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "harassment",
         "locales": [
           {
@@ -58,12 +58,12 @@
             "name": "Harassment"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "spam",
         "locales": [
           {
@@ -72,12 +72,12 @@
             "name": "Spam"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "none"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "engagement_farming",
         "locales": [
           {
@@ -86,12 +86,12 @@
             "name": "Engagement Farming"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "extremist",
         "locales": [
           {
@@ -100,12 +100,12 @@
             "name": "Extremist"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "rude",
         "locales": [
           {
@@ -114,12 +114,12 @@
             "name": "Rude"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "impersonation",
         "locales": [
           {
@@ -128,12 +128,12 @@
             "name": "Impersonation"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
       },
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "none",
+        "defaultSetting": "hide",
         "identifier": "misinformation",
         "locales": [
           {
@@ -142,7 +142,7 @@
             "name": "Misinformation"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
       }
     ],
     "labelValues": [
