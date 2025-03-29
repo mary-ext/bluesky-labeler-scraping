@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreigf7ahksrk3ikyv6732s7jc7z4mfvgskvifeapid4zi5rkktb3qsy",
+  "cid": "bafyreib5piojyf5lfqtmrsuoduzahhyotzgby3syf2azaro3qtqhkbjneu",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -14,10 +14,24 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-03-09T12:53:03.242Z"
   },
-  "indexedAt": "2025-03-27T22:44:19.305Z",
+  "indexedAt": "2025-03-28T10:27:26.499Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "intolerance",
+        "locales": [
+          {
+            "description": "Discrimination against groups.",
+            "lang": "en",
+            "name": "Intolerance"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -146,6 +160,7 @@
       }
     ],
     "labelValues": [
+      "intolerance",
       "rude",
       "scam",
       "trolls",
