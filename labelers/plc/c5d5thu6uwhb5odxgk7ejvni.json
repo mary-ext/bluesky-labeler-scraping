@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreidzhgueeepq7omyse2bmynhmsik4qgqhdrr4tbjimslzg4gxpt43q",
+  "cid": "bafyreihckl35rpnoe2jx4vvmx6lhvxgx44dqponmgrzu2ikw2kgmane6re",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -14,10 +14,24 @@
     "description": "**DOWN FOR MAINTENANCE**\nSubscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-03-28T22:20:37.893Z"
   },
-  "indexedAt": "2025-03-13T14:57:19.765Z",
+  "indexedAt": "2025-03-31T22:03:24.306Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "placeholder-three",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "placeholder-three"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -279,7 +293,7 @@
           {
             "description": "Reserved for high-profile content creators or other high-profile folks in the urbanism/bike/transit etc space",
             "lang": "en",
-            "name": "🥇Urbanism GOAT"
+            "name": ""
           }
         ],
         "severity": "inform"
@@ -428,20 +442,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "placeholder-three",
-        "locales": [
-          {
-            "description": "3",
-            "lang": "en",
-            "name": "placeholder3"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "garbage",
         "locales": [
           {
@@ -487,7 +487,7 @@
         "identifier": "x-scared-cities",
         "locales": [
           {
-            "description": "This user has been flagged for fear-mongering and/or spreading misinformation about the safety of cities.\nAutomobiles kill 40k+ people in the US alone.\nDense walkable cities are safer and misinformation is dangerous to the life-saving safe-street movement.",
+            "description": "This user has been flagged for fear-mongering and/or spreading misinformation about the safety of cities. Automobiles kill 40k+ people in the US alone. Dense walkable cities are safer and misinformation is dangerous to the life-saving safe-street movement.",
             "lang": "en",
             "name": "Scared of Cities"
           }
@@ -568,6 +568,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "test-urbanism",
+        "locales": [
+          {
+            "description": "This post has been flagged for fear-mongering and misinformation of the dangers of cities. Studies reveal life expectancy is higher in cities vs rural/suburbs. Walkable dense cities save lives.",
+            "lang": "en",
+            "name": "test urbanism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "zpost-gadgetbahn",
         "locales": [
           {
@@ -580,6 +594,7 @@
       }
     ],
     "labelValues": [
+      "placeholder-three",
       "urbanist",
       "cyclist-urbanism",
       "cyclist-entitled",
@@ -609,7 +624,6 @@
       "urbanism-resource",
       "uplus-sponsor",
       "uplus-supporter",
-      "placeholder-three",
       "garbage",
       "nimby",
       "carbrain",
@@ -619,7 +633,8 @@
       "zpost-nimby",
       "zpost-carbrain",
       "zpost-scared-cities",
-      "zpost-gadgetbahn"
+      "zpost-gadgetbahn",
+      "test-urbanism"
     ]
   }
 }
