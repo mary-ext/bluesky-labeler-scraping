@@ -1,0 +1,69 @@
+{
+  "uri": "at://did:plc:j443wmr46yjpfudk3rrjyogb/app.bsky.labeler.service/self",
+  "cid": "bafyreibjgtp4woaqi4gasbruwa5sh5yhpcgu2abfrtrdmpxjjbaje7e4eu",
+  "creator": {
+    "did": "did:plc:j443wmr46yjpfudk3rrjyogb",
+    "handle": "newsverify.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j443wmr46yjpfudk3rrjyogb/bafkreigutjdh4ausujnz6sro3kft7z6aszuhekw4podkc5cm6w5uiw54tu@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-03-28T22:41:22.693Z",
+    "indexedAt": "2025-03-28T22:41:22.693Z"
+  },
+  "indexedAt": "2025-04-02T19:53:29.708Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "news-verified",
+        "locales": [
+          {
+            "description": "Content has been verified by NewsVerify",
+            "lang": "en",
+            "name": "News Verified ✓"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "news-unverified",
+        "locales": [
+          {
+            "description": "Content has not been verified by NewsVerify",
+            "lang": "en",
+            "name": "News Unverified ⚠️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "news-misleading",
+        "locales": [
+          {
+            "description": "Content contains misleading or incorrect information",
+            "lang": "en",
+            "name": "Misleading Content ❌"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "news-verified",
+      "news-unverified",
+      "news-misleading"
+    ]
+  }
+}
