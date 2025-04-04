@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-  "cid": "bafyreib36o53vngqvw7gmgwaczkhf5zt2ngtpavytg3r44wudvtpy6kfiy",
+  "cid": "bafyreig4sgq5fygz2fysq674dsf65qg44lenv7ph3o6wwqizympubp3hhi",
   "creator": {
     "did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
     "handle": "pef-moderation.org",
@@ -17,10 +17,122 @@
     "description": "Read Pinned post for mission\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@pef-moderation.org\nFollow for PSAs\nCommitted to no use of !hide !warn etc outside illegality",
     "indexedAt": "2025-02-01T23:28:27.643Z"
   },
-  "indexedAt": "2025-03-31T11:56:44.502Z",
+  "indexedAt": "2025-04-03T22:31:12.714Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "telegram-link",
+        "locales": [
+          {
+            "description": "Links to content hosted on russian-owned Telegram. Expect little or no content moderation, and a pro-russian bias. The Wild West of social media, personal data and device at risk.",
+            "lang": "en",
+            "name": "Links to Telegram"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tiktok-link",
+        "locales": [
+          {
+            "description": "Links to content hosted on Chinese-owned TikTok. Engagement assumes risk of the Chinese government harvesting your device and account data and of being co-opted to promulgate Chinese Communist Party propaganda.",
+            "lang": "en",
+            "name": "Links to TikTok"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "meta-link",
+        "locales": [
+          {
+            "description": "Links to content hosted on one of  Meta's social media platforms. Engagement implicitly supports the spread of hate speech and lies, since Meta has disavowed content moderation to help prevent this.",
+            "lang": "en",
+            "name": "Links to a Meta Platform"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "x-link",
+        "locales": [
+          {
+            "description": "Links to content hosted on Elon Musk's X disinformation platform. Engagement directly helps fund the spread of fascism.",
+            "lang": "en",
+            "name": "Links to x.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "disinfo-link",
+        "locales": [
+          {
+            "description": "Post or other content contains link(s) to disinformation content, hosted outside the Bluesky platform.",
+            "lang": "en",
+            "name": "Link to Disinfo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hate-symbol",
+        "locales": [
+          {
+            "description": "Symbology celebrating violence or hate. Examples include swastika, hammer and sickle: both symbolize genocidal ideologies.",
+            "lang": "en",
+            "name": "Hateful Symbol"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ableism",
+        "locales": [
+          {
+            "description": "Slurs and abuse targeting the differently-abled",
+            "lang": "en",
+            "name": "Ableism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "misogyny",
+        "locales": [
+          {
+            "description": "Anti-female slurs and abuse",
+            "lang": "en",
+            "name": "Misogyny"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -252,7 +364,7 @@
         "identifier": "disruptive",
         "locales": [
           {
-            "description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace. Includes apparent infiltrators, using inauthentic persona to sow division. Includes nuisance repliers and quote posters, often also labeled Abusive.",
+            "description": "Unconstructive conflict within the fella community, or outside attack, possibly designed to distract from more important things. Includes low-reach 60/40 disinfo mixers. Includes community interfering with Ukrainians' management of their infospace. Includes apparent infiltrators, using inauthentic persona to sow division. Includes nuisance repliers and quote posters.",
             "lang": "en",
             "name": "Disruptive"
           }
@@ -266,7 +378,7 @@
         "identifier": "abusive",
         "locales": [
           {
-            "description": "Rude or impolite, including crude language and disrespectful comments, without constructive purpose. Often combined with disinfo, disruptive, engagementfarmer, violent.",
+            "description": "Rude or impolite, including crude language and disrespectful comments, without constructive purpose.",
             "lang": "en",
             "name": "Abusive"
           }
@@ -289,6 +401,14 @@
       }
     ],
     "labelValues": [
+      "telegram-link",
+      "tiktok-link",
+      "meta-link",
+      "x-link",
+      "disinfo-link",
+      "hate-symbol",
+      "ableism",
+      "misogyny",
       "high-hashtag-count",
       "high-offsite-link-count",
       "high-user-mention-count",
