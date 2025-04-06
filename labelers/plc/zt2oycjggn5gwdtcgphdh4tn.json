@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:zt2oycjggn5gwdtcgphdh4tn/app.bsky.labeler.service/self",
-  "cid": "bafyreifmsuuc2gkys6xdcfbyfx7vo3dbsnoelb6ef5ra4so7crofxoeki4",
+  "cid": "bafyreigfbtic37sjf2fcqt47avuo4oyeaivinsv67l4gsou7qaahgyn6c4",
   "creator": {
     "did": "did:plc:zt2oycjggn5gwdtcgphdh4tn",
-    "handle": "destiny.pds.sappho.systems",
+    "handle": "destiny.sapphic.moe",
     "displayName": "Destiny Labeler",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zt2oycjggn5gwdtcgphdh4tn/bafkreiesezpkweqcsqdzvx63ldkpug6c4awz6b2vwmtkwiz2l4odatu6ou@jpeg",
     "associated": {
@@ -11,9 +11,10 @@
     },
     "labels": [],
     "createdAt": "2025-04-04T20:42:57.594Z",
-    "indexedAt": "2025-04-04T23:55:37.194Z"
+    "description": "A Destiny 2 labeler for Bluesky.\n\nTo receive a label, subscribe to the labeler by clicking \"Subscribe\", then go to the \"Posts\" tab and follow the instructions from there.\n\nCreated by Chloe Arciniega (@sapphic.moe).",
+    "indexedAt": "2025-04-05T22:55:42.494Z"
   },
-  "indexedAt": "2025-04-05T00:02:42.007Z",
+  "indexedAt": "2025-04-06T00:21:12.313Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -21,12 +22,96 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "dev",
+        "locales": [
+          {
+            "description": "This user makes or helps make third-party apps for Destiny 2.",
+            "lang": "en",
+            "name": "API Developer 💻"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bungie",
+        "locales": [
+          {
+            "description": "This user is a Bungie employee.",
+            "lang": "en",
+            "name": "Bungie ⚡"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hunter-class",
+        "locales": [
+          {
+            "description": "This user prefers the Hunter class in Destiny 2.",
+            "lang": "en",
+            "name": "Hunter 🏹"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "titan-class",
+        "locales": [
+          {
+            "description": "This user prefers the Titan class in Destiny 2.",
+            "lang": "en",
+            "name": "Titan 🛡️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "warlock-class",
+        "locales": [
+          {
+            "description": "This user prefers the Warlock class in Destiny 2.",
+            "lang": "en",
+            "name": "Warlock 🔮"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "arc",
         "locales": [
           {
-            "description": "This user prefers the Arc subclass for Destiny 2.",
+            "description": "This user prefers the Arc subclass in Destiny 2.",
             "lang": "en",
             "name": "Arc 🩵"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "prismatic",
+        "locales": [
+          {
+            "description": "This user prefers the Prismatic subclass in Destiny 2.",
+            "lang": "en",
+            "name": "Prismatic 🩷"
           }
         ],
         "severity": "inform"
@@ -38,7 +123,7 @@
         "identifier": "solar",
         "locales": [
           {
-            "description": "This user prefers the Solar subclass for Destiny 2.",
+            "description": "This user prefers the Solar subclass in Destiny 2.",
             "lang": "en",
             "name": "Solar 🧡"
           }
@@ -52,7 +137,7 @@
         "identifier": "stasis",
         "locales": [
           {
-            "description": "This user prefers the Stasis subclass for Destiny 2.",
+            "description": "This user prefers the Stasis subclass in Destiny 2.",
             "lang": "en",
             "name": "Stasis 💙"
           }
@@ -66,7 +151,7 @@
         "identifier": "strand",
         "locales": [
           {
-            "description": "This user prefers the Strand subclass for Destiny 2.",
+            "description": "This user prefers the Strand subclass in Destiny 2.",
             "lang": "en",
             "name": "Strand 💚"
           }
@@ -80,20 +165,836 @@
         "identifier": "void",
         "locales": [
           {
-            "description": "This user prefers the Void subclass for Destiny 2.",
+            "description": "This user prefers the Void subclass in Destiny 2.",
             "lang": "en",
             "name": "Void 💜"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "crucible",
+        "locales": [
+          {
+            "description": "This user prefers the Crucible activity in Destiny 2.",
+            "lang": "en",
+            "name": "Crucible ⚔️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gambit",
+        "locales": [
+          {
+            "description": "This user prefers the Gambit activity in Destiny 2.",
+            "lang": "en",
+            "name": "Gambit 🐍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "iron-banner",
+        "locales": [
+          {
+            "description": "This user prefers the Iron Banner activity in Destiny 2.",
+            "lang": "en",
+            "name": "Iron Banner 🐺"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lost-sectors",
+        "locales": [
+          {
+            "description": "This user prefers the Lost Sectors activity in Destiny 2.",
+            "lang": "en",
+            "name": "Lost Sectors 🔑"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nightfalls",
+        "locales": [
+          {
+            "description": "This user prefers the Nightfall activity in Destiny 2.",
+            "lang": "en",
+            "name": "Nightfalls 💎"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "onslaught",
+        "locales": [
+          {
+            "description": "This user prefers the Onslaught activity in Destiny 2.",
+            "lang": "en",
+            "name": "Onslaught 💥"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "strikes",
+        "locales": [
+          {
+            "description": "This user prefers the Strikes activity in Destiny 2.",
+            "lang": "en",
+            "name": "Strikes 🎯"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "trials",
+        "locales": [
+          {
+            "description": "This user prefers the Trials of Osiris activity in Destiny 2.",
+            "lang": "en",
+            "name": "Trials of Osiris 👑"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "crotas-end",
+        "locales": [
+          {
+            "description": "This user prefers the Crota's End Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Crota's End 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "crown-of-sorrow",
+        "locales": [
+          {
+            "description": "This user prefers the Crown of Sorrow Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Crown of Sorrow 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "deep-stone-crypt",
+        "locales": [
+          {
+            "description": "This user prefers the Deep Stone Crypt Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Deep Stone Crypt 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "eater-of-worlds",
+        "locales": [
+          {
+            "description": "This user prefers the Eater of Worlds Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Eater of Worlds 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "garden-of-salvation",
+        "locales": [
+          {
+            "description": "This user prefers the Garden of Salvation Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Garden of Salvation 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kings-fall",
+        "locales": [
+          {
+            "description": "This user prefers the King's Fall Raid in Destiny 2.",
+            "lang": "en",
+            "name": "King's Fall 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "last-wish",
+        "locales": [
+          {
+            "description": "This user prefers the Last Wish Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Last Wish 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "leviathan",
+        "locales": [
+          {
+            "description": "This user prefers the Leviathan Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Leviathan 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "root-of-nightmares",
+        "locales": [
+          {
+            "description": "This user prefers the Root of Nightmares Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Root of Nightmares 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "salvations-edge",
+        "locales": [
+          {
+            "description": "This user prefers the Salvation's Edge Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Salvation's Edge 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "scourge-of-the-past",
+        "locales": [
+          {
+            "description": "This user prefers the Scourge of the Past Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Scourge of the Past 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spire-of-stars",
+        "locales": [
+          {
+            "description": "This user prefers the Spire of Stars Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Spire of Stars 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "the-pantheon",
+        "locales": [
+          {
+            "description": "This user prefers The Pantheon Raid in Destiny 2.",
+            "lang": "en",
+            "name": "The Pantheon 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vault-of-glass",
+        "locales": [
+          {
+            "description": "This user prefers the Vault of Glass Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Vault of Glass 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vow-of-the-disciple",
+        "locales": [
+          {
+            "description": "This user prefers the Vow of the Disciple Raid in Destiny 2.",
+            "lang": "en",
+            "name": "Vow of the Disciple 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "wrath-of-the-machine",
+        "locales": [
+          {
+            "description": "This user prefers the Wrath of the Machine Raid in Destiny.",
+            "lang": "en",
+            "name": "Wrath of the Machine 💀"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "duality",
+        "locales": [
+          {
+            "description": "This user prefers the Duality Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Duality 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ghosts-of-the-deep",
+        "locales": [
+          {
+            "description": "This user prefers the Ghosts of the Deep Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Ghosts of the Deep 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "grasp-of-avarice",
+        "locales": [
+          {
+            "description": "This user prefers the Grasp of Avarice Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Grasp of Avarice 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pit-of-heresy",
+        "locales": [
+          {
+            "description": "This user prefers the Pit of Heresy Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Pit of Heresy 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "prophecy",
+        "locales": [
+          {
+            "description": "This user prefers the Prophecy Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Prophecy 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rite-of-the-nine",
+        "locales": [
+          {
+            "description": "This user prefers the Rite of the Nine Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Rite of the Nine 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "shattered-throne",
+        "locales": [
+          {
+            "description": "This user prefers the Shattered Throne Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Shattered Throne 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spire-of-the-watcher",
+        "locales": [
+          {
+            "description": "This user prefers the Spire of the Watcher Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Spire of the Watcher 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sundered-doctrine",
+        "locales": [
+          {
+            "description": "This user prefers the Sundered Doctrine Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Sundered Doctrine 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vespers-host",
+        "locales": [
+          {
+            "description": "This user prefers the Vesper's Host Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Vesper's Host 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "warlords-ruin",
+        "locales": [
+          {
+            "description": "This user prefers the Warlord's Ruin Dungeon in Destiny 2.",
+            "lang": "en",
+            "name": "Warlord's Ruin 🏰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "black-garden",
+        "locales": [
+          {
+            "description": "This user prefers the Black Garden location in Destiny 2.",
+            "lang": "en",
+            "name": "Black Garden 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cosmodrome",
+        "locales": [
+          {
+            "description": "This user prefers the Cosmodrome location in Destiny 2.",
+            "lang": "en",
+            "name": "Cosmodrome 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dreadnaught",
+        "locales": [
+          {
+            "description": "This user prefers the Dreadnaught location in Destiny 2.",
+            "lang": "en",
+            "name": "Dreadnaught 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dreaming-city",
+        "locales": [
+          {
+            "description": "This user prefers the Dreaming City location in Destiny 2.",
+            "lang": "en",
+            "name": "Dreaming City 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "europa",
+        "locales": [
+          {
+            "description": "This user prefers the Europa location in Destiny 2.",
+            "lang": "en",
+            "name": "Europa 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "edz",
+        "locales": [
+          {
+            "description": "This user prefers the European Dead Zone location in Destiny 2.",
+            "lang": "en",
+            "name": "European Dead Zone 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "io",
+        "locales": [
+          {
+            "description": "This user prefers the Io location in Destiny 2.",
+            "lang": "en",
+            "name": "Io 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mars",
+        "locales": [
+          {
+            "description": "This user prefers the Mars location in Destiny 2.",
+            "lang": "en",
+            "name": "Mars 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mercury",
+        "locales": [
+          {
+            "description": "This user prefers the Mercury location in Destiny 2.",
+            "lang": "en",
+            "name": "Mercury 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "moon",
+        "locales": [
+          {
+            "description": "This user prefers the Moon location in Destiny 2.",
+            "lang": "en",
+            "name": "Moon 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "neptune",
+        "locales": [
+          {
+            "description": "This user prefers the Neptune location in Destiny 2.",
+            "lang": "en",
+            "name": "Neptune 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nessus",
+        "locales": [
+          {
+            "description": "This user prefers the Nessus location in Destiny 2.",
+            "lang": "en",
+            "name": "Nessus 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pale-heart",
+        "locales": [
+          {
+            "description": "This user prefers the Pale Heart location in Destiny 2.",
+            "lang": "en",
+            "name": "Pale Heart 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "plaguelands",
+        "locales": [
+          {
+            "description": "This user prefers the Plaguelands location in Destiny.",
+            "lang": "en",
+            "name": "Plaguelands 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "savathuns-throne-world",
+        "locales": [
+          {
+            "description": "This user prefers the Savathun's Throne World location in Destiny 2.",
+            "lang": "en",
+            "name": "Savathun's Throne World 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tangled-shore",
+        "locales": [
+          {
+            "description": "This user prefers the Tangled Shore location in Destiny 2.",
+            "lang": "en",
+            "name": "Tangled Shore 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "titan",
+        "locales": [
+          {
+            "description": "This user prefers the Titan location in Destiny 2.",
+            "lang": "en",
+            "name": "Titan 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "venus",
+        "locales": [
+          {
+            "description": "This user prefers the Venus location in Destiny.",
+            "lang": "en",
+            "name": "Venus 🌍"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vex-network",
+        "locales": [
+          {
+            "description": "This user prefers the Vex Network location in Destiny 2.",
+            "lang": "en",
+            "name": "Vex Network 🌍"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
+      "dev",
+      "bungie",
+      "hunter-class",
+      "titan-class",
+      "warlock-class",
       "arc",
+      "prismatic",
       "solar",
       "stasis",
       "strand",
-      "void"
+      "void",
+      "crucible",
+      "gambit",
+      "iron-banner",
+      "lost-sectors",
+      "nightfalls",
+      "onslaught",
+      "strikes",
+      "trials",
+      "crotas-end",
+      "crown-of-sorrow",
+      "deep-stone-crypt",
+      "eater-of-worlds",
+      "garden-of-salvation",
+      "kings-fall",
+      "last-wish",
+      "leviathan",
+      "root-of-nightmares",
+      "salvations-edge",
+      "scourge-of-the-past",
+      "spire-of-stars",
+      "the-pantheon",
+      "vault-of-glass",
+      "vow-of-the-disciple",
+      "wrath-of-the-machine",
+      "duality",
+      "ghosts-of-the-deep",
+      "grasp-of-avarice",
+      "pit-of-heresy",
+      "prophecy",
+      "rite-of-the-nine",
+      "shattered-throne",
+      "spire-of-the-watcher",
+      "sundered-doctrine",
+      "vespers-host",
+      "warlords-ruin",
+      "black-garden",
+      "cosmodrome",
+      "dreadnaught",
+      "dreaming-city",
+      "europa",
+      "edz",
+      "io",
+      "mars",
+      "mercury",
+      "moon",
+      "neptune",
+      "nessus",
+      "pale-heart",
+      "plaguelands",
+      "savathuns-throne-world",
+      "tangled-shore",
+      "titan",
+      "venus",
+      "vex-network"
     ]
   }
 }

@@ -1,19 +1,20 @@
 {
   "uri": "at://did:plc:ibqrpbheuctud7lc57zfv7k6/app.bsky.labeler.service/self",
-  "cid": "bafyreihgjhrsl3x4gagvmihlqcjxxtrwycki2qoqe6ehzemwjbf3tfpiuu",
+  "cid": "bafyreiepf3pcdbmazrqgpkjetyu4cz7lig2zbafuoxjtkwgqfs2lfstcta",
   "creator": {
     "did": "did:plc:ibqrpbheuctud7lc57zfv7k6",
     "handle": "etiketle.bsky.social",
-    "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ibqrpbheuctud7lc57zfv7k6/bafkreiewkcuupdyzpbkegh36h4mtqp7uhq6f3t47nwcvrvzxngyicvsi4q@jpeg",
+    "displayName": "Etiketle!",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ibqrpbheuctud7lc57zfv7k6/bafkreify222g4uxsnfjui37pyjwo3rs6x5cuk5op67cldvr2svuehnzt2a@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "2025-04-04T11:24:16.993Z",
-    "indexedAt": "2025-04-04T11:24:16.993Z"
+    "description": "Etiketle!, Türkiye’deki Bluesky topluluğu için sahte hesaplara karşı bir rozet sistemidir. Tanınmış kişileri taklit eden hesapları işaretleyerek kullanıcıların güvenliğini artırmayı hedefler. Topluluğu korumak için hep birlikte “Etiketle!”",
+    "indexedAt": "2025-04-05T00:51:12.993Z"
   },
-  "indexedAt": "2025-04-04T17:24:54.807Z",
+  "indexedAt": "2025-04-05T13:10:30.105Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,21 +25,61 @@
         "identifier": "sahte-hesap",
         "locales": [
           {
-            "description": "This account may be impersonating a public figure or celebrity.",
-            "lang": "en",
-            "name": "Fake Account"
-          },
-          {
-            "description": "Bu hesap, tanınmış bir kişiyi taklit ediyor olabilir.",
+            "description": "Bu kullanıcı tanınmış bir kişiyi taklit ediyor olabilir. Bu rozet, diğer kullanıcıların şüpheli hesapları tanımasına yardımcı olur.",
             "lang": "tr",
             "name": "Sahte Hesap"
+          },
+          {
+            "description": "This user may be impersonating a notable person. This badge helps other users identify suspicious accounts.",
+            "lang": "en",
+            "name": "Fake Account"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "dogrulanmis-hesap",
+        "locales": [
+          {
+            "description": "Bu hesabın, temsil ettiğini iddia ettiği kişi veya kuruluşa ait olduğu doğrulanmıştır.",
+            "lang": "tr",
+            "name": "Doğrulanmış Hesap"
+          },
+          {
+            "description": "This account has been verified as belonging to the individual or organisation it claims to represent.",
+            "lang": "en",
+            "name": "Verified Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "parodi-hesap",
+        "locales": [
+          {
+            "description": "Bu hesap gerçek bir kişi veya kuruluşa ait değildir. Mizah veya hiciv amacıyla oluşturulmuştur.",
+            "lang": "tr",
+            "name": "Parodi Hesap"
+          },
+          {
+            "description": "This account is not affiliated with a real person or organization. It was created for humorous or satirical purposes.",
+            "lang": "en",
+            "name": "Parody Account"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "sahte-hesap"
+      "sahte-hesap",
+      "dogrulanmis-hesap",
+      "parodi-hesap"
     ]
   }
 }

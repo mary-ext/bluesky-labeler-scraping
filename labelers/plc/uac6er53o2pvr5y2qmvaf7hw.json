@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-  "cid": "bafyreig4sgq5fygz2fysq674dsf65qg44lenv7ph3o6wwqizympubp3hhi",
+  "cid": "bafyreiaeqnksz27haaezra6j4fmex4lsqw2tpvkq5cm3eok6fulnzwdpm4",
   "creator": {
     "did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
     "handle": "pef-moderation.org",
@@ -17,10 +17,38 @@
     "description": "Read Pinned post for mission\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@pef-moderation.org\nFollow for PSAs\nCommitted to no use of !hide !warn etc outside illegality",
     "indexedAt": "2025-02-01T23:28:27.643Z"
   },
-  "indexedAt": "2025-04-03T22:31:12.714Z",
+  "indexedAt": "2025-04-05T12:23:12.001Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "anti-science-link",
+        "locales": [
+          {
+            "description": "Links to anti-science conspiracy theory or misinformation. Examples: anti-vaxxers, MAGA/MAHA RFK Jr and Dr Oz shills, quack remedies for medically-treatable conditions, '5G kills' fearmongers, chemtrail-phobia",
+            "lang": "en",
+            "name": "Links anti-science content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "suspect-citation",
+        "locales": [
+          {
+            "description": "Cites source known for mixing unreliable and factual content. Requires critical thinking to engage with any linked offsite content.",
+            "lang": "en",
+            "name": "Cites suspect source"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -401,6 +429,8 @@
       }
     ],
     "labelValues": [
+      "anti-science-link",
+      "suspect-citation",
       "telegram-link",
       "tiktok-link",
       "meta-link",
