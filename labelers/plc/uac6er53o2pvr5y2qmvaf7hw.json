@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uac6er53o2pvr5y2qmvaf7hw/app.bsky.labeler.service/self",
-  "cid": "bafyreiaeqnksz27haaezra6j4fmex4lsqw2tpvkq5cm3eok6fulnzwdpm4",
+  "cid": "bafyreigh7w5s62kkeesns5hjoouzebyarimnitoowqbfziuylmsqyknlva",
   "creator": {
     "did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
     "handle": "pef-moderation.org",
@@ -17,10 +17,38 @@
     "description": "Read Pinned post for mission\nStartup admin: stevetownsend0.bsky.social\nAppeals: admin@pef-moderation.org\nFollow for PSAs\nCommitted to no use of !hide !warn etc outside illegality",
     "indexedAt": "2025-02-01T23:28:27.643Z"
   },
-  "indexedAt": "2025-04-05T12:23:12.001Z",
+  "indexedAt": "2025-04-06T16:40:11.610Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "anti-lgbtq-plus",
+        "locales": [
+          {
+            "description": "Anti-LGBTQ+ disinformation tropes and slurs",
+            "lang": "en",
+            "name": "Anti-LGBTQ+ Hate"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "conspiracy-link",
+        "locales": [
+          {
+            "description": "Links to 'disruptive' conspiracy theories offsite. Content is intended to dumb down, fearmonger and sow division in its readership",
+            "lang": "en",
+            "name": "Links conspiracy theory content"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -249,6 +277,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network",
+        "locales": [
+          {
+            "description": "Account appears to be part of a network of coordinating peers.",
+            "lang": "en",
+            "name": "Network Member"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "caution",
         "locales": [
           {
@@ -429,6 +471,8 @@
       }
     ],
     "labelValues": [
+      "anti-lgbtq-plus",
+      "conspiracy-link",
       "anti-science-link",
       "suspect-citation",
       "telegram-link",
