@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreib4bs2gxdtwjhgvoummq3p2tpxkvmjtsqyfdsgkw4hicovmgfn4rq",
+  "cid": "bafyreicyrzdqqkk4ekfmmqjrc6qvvuxcjuym7w3kr673nsswlxk6anroly",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -14,10 +14,38 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev (message me if your app isn't listed below and you think it should be)",
     "indexedAt": "2025-03-20T23:39:08.145Z"
   },
-  "indexedAt": "2025-03-26T06:06:12.002Z",
+  "indexedAt": "2025-04-12T20:10:14.587Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blue-zio-atfile",
+        "locales": [
+          {
+            "description": "store and retrieve files (blue.zio.atfile.*)",
+            "lang": "en",
+            "name": "ATFile"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blue-badge",
+        "locales": [
+          {
+            "description": "badges for atproto handles (blue.badge.*)",
+            "lang": "en",
+            "name": "Blue Badge"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -70,6 +98,20 @@
             "description": "pop culture hub (app.popsky.*)",
             "lang": "en",
             "name": "Popsky"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chat-roomy",
+        "locales": [
+          {
+            "description": "group chat on atproto (chat.roomy.*)",
+            "lang": "en",
+            "name": "Roomy"
           }
         ],
         "severity": "inform"
@@ -174,10 +216,13 @@
       }
     ],
     "labelValues": [
+      "blue-zio-atfile",
+      "blue-badge",
       "im-flushing",
       "fyi-unravel-frontpage",
       "com-shinolabs-pinksea",
       "app-popsky",
+      "chat-roomy",
       "events-smokesignal",
       "so-sprk",
       "xyz-statusphere",
