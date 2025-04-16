@@ -1,0 +1,39 @@
+{
+  "uri": "at://did:plc:pbgyr67hftvpoqtvaurpsctc/app.bsky.labeler.service/self",
+  "cid": "bafyreieufb4fzbokjbxkcoii6bk3avccamwlykvvpkuwc7u65aicvzlqvy",
+  "creator": {
+    "did": "did:plc:pbgyr67hftvpoqtvaurpsctc",
+    "handle": "mod.sprk.team",
+    "displayName": "Spark Moderation",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pbgyr67hftvpoqtvaurpsctc/bafkreidk6iejeztsv5fj6nmjmhgcn3phk5tc42lacjqohoutpvt4inh2wa@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-04-15T16:53:21.974Z",
+    "indexedAt": "2025-04-15T16:54:01.074Z"
+  },
+  "indexedAt": "2025-04-15T21:19:01.582Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "Account pretending to be someone else",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "impersonation"
+    ]
+  }
+}
