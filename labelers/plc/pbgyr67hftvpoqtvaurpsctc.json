@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:pbgyr67hftvpoqtvaurpsctc/app.bsky.labeler.service/self",
-  "cid": "bafyreieufb4fzbokjbxkcoii6bk3avccamwlykvvpkuwc7u65aicvzlqvy",
+  "cid": "bafyreidpkn2sl5t4mrnexawsw4rgkwpi47xguf6a5u62fk3fc5udu6sewq",
   "creator": {
     "did": "did:plc:pbgyr67hftvpoqtvaurpsctc",
     "handle": "mod.sprk.team",
@@ -13,13 +13,69 @@
     "createdAt": "2025-04-15T16:53:21.974Z",
     "indexedAt": "2025-04-15T16:54:01.074Z"
   },
-  "indexedAt": "2025-04-15T21:19:01.582Z",
+  "indexedAt": "2025-04-16T03:49:59.786Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "adult-content",
+        "locales": [
+          {
+            "description": "Explicitly sexual images or content",
+            "lang": "en",
+            "name": "Adult Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "Disturbing or explicit media",
+            "lang": "en",
+            "name": "Graphic Media"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
         "adultOnly": false,
-        "blurs": "content|media|none",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "intolerance",
+        "locales": [
+          {
+            "description": "Targeted discrimination or hate towards other users.",
+            "lang": "en",
+            "name": "Intolerance"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Irrelevant, inappropriate, or repeated actions that bother users.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "impersonation",
         "locales": [
@@ -33,6 +89,10 @@
       }
     ],
     "labelValues": [
+      "adult-content",
+      "graphic-media",
+      "intolerance",
+      "spam",
       "impersonation"
     ]
   }
