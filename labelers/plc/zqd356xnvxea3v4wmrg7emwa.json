@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreieaovjphgxa22reeniq362u2jzmseblz5htoaf3bnnjxfshrrdpfe",
+  "cid": "bafyreifq4zjes564ykgcrnrvjwisk6hwmah4j7mralu6bsc44okltsig5a",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -17,10 +17,24 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-03-11T13:17:14.762Z",
+  "indexedAt": "2025-04-18T14:52:18.188Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pangender",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Pangender"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -583,6 +597,7 @@
       }
     ],
     "labelValues": [
+      "pangender",
       "aromantic-asexual",
       "genderless",
       "panromantic",
