@@ -1,0 +1,36 @@
+{
+  "uri": "at://did:plc:zjbgfsg2qycjnxr6czjkypf4/app.bsky.labeler.service/self",
+  "cid": "bafyreife7jp53ewotiv42s4vdhzf23vwf7qzkmmixm737ctfdf42wxprpq",
+  "creator": {
+    "did": "did:plc:zjbgfsg2qycjnxr6czjkypf4",
+    "handle": "handle.invalid",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "0001-01-01T00:00:00.000Z"
+  },
+  "indexedAt": "2025-04-20T23:21:16.985Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "moderation",
+        "locales": [
+          {
+            "description": "Global moderation label",
+            "lang": "en",
+            "name": "Moderation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "moderation"
+    ]
+  }
+}
