@@ -1,36 +1,57 @@
 {
   "uri": "at://did:plc:zjbgfsg2qycjnxr6czjkypf4/app.bsky.labeler.service/self",
-  "cid": "bafyreife7jp53ewotiv42s4vdhzf23vwf7qzkmmixm737ctfdf42wxprpq",
+  "cid": "bafyreia26m4eqbgzr5emhlpcblnoa26v6pph223sycwd6qm6s5oknrgo5y",
   "creator": {
     "did": "did:plc:zjbgfsg2qycjnxr6czjkypf4",
-    "handle": "handle.invalid",
+    "handle": "moderation.kieran.co.uk",
     "associated": {
       "labeler": true
     },
     "labels": [],
     "createdAt": "0001-01-01T00:00:00.000Z"
   },
-  "indexedAt": "2025-04-20T23:21:16.985Z",
+  "indexedAt": "2025-04-21T02:52:19.978Z",
   "labels": [],
   "policies": {
+    "actions": [
+      "com.atproto.admin.defs#takedown"
+    ],
+    "id": "did:web:ozone.kieran.co.uk",
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "moderation",
+        "defaultSetting": "hide",
+        "identifier": "global",
         "locales": [
           {
-            "description": "Global moderation label",
+            "description": "Used for general community safety moderation.",
             "lang": "en",
-            "name": "Moderation"
+            "name": "Global"
           }
         ],
-        "severity": "alert"
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "",
+        "defaultSetting": "block",
+        "identifier": "takedown",
+        "locales": [
+          {
+            "description": "This content has been removed due to a serious policy violation.",
+            "lang": "en",
+            "name": "Takedown"
+          }
+        ],
+        "severity": "critical"
       }
     ],
     "labelValues": [
-      "moderation"
-    ]
+      "global",
+      "takedown"
+    ],
+    "serviceEndpoint": "https://ozone.kieran.co.uk",
+    "type": "atproto_labeler"
   }
 }
