@@ -1,0 +1,69 @@
+{
+  "uri": "at://did:plc:baczeqohhe4usu4qbjtt4cdc/app.bsky.labeler.service/self",
+  "cid": "bafyreihqnendalyx2codlacjm76mc26fdq2jbuulbardqfj57e2g7czwny",
+  "creator": {
+    "did": "did:plc:baczeqohhe4usu4qbjtt4cdc",
+    "handle": "moderator-labeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:baczeqohhe4usu4qbjtt4cdc/bafkreifkoxx3tkd64flrhiywk6365cqecjaxudx6cvhqjqd47pkh3ybiqi@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-04-23T05:26:18.874Z",
+    "indexedAt": "2025-04-23T05:26:18.874Z"
+  },
+  "indexedAt": "2025-04-23T19:54:43.193Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "short-len",
+        "locales": [
+          {
+            "description": "This post has short length text",
+            "lang": "en",
+            "name": "short-length"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "medium-len",
+        "locales": [
+          {
+            "description": "This post has medium length text",
+            "lang": "en",
+            "name": "medium-length"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "long-len",
+        "locales": [
+          {
+            "description": "This post has long length text",
+            "lang": "en",
+            "name": "long-length"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "short-len",
+      "medium-len",
+      "long-len"
+    ]
+  }
+}
