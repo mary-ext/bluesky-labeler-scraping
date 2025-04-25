@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:baczeqohhe4usu4qbjtt4cdc/app.bsky.labeler.service/self",
-  "cid": "bafyreihqnendalyx2codlacjm76mc26fdq2jbuulbardqfj57e2g7czwny",
+  "cid": "bafyreiewsq3j4maibkre6a2cjyv62plcn3zdgeev6nzyja43zsdb6ctdki",
   "creator": {
     "did": "did:plc:baczeqohhe4usu4qbjtt4cdc",
     "handle": "moderator-labeler.bsky.social",
@@ -13,7 +13,7 @@
     "createdAt": "2025-04-23T05:26:18.874Z",
     "indexedAt": "2025-04-23T05:26:18.874Z"
   },
-  "indexedAt": "2025-04-23T19:54:43.193Z",
+  "indexedAt": "2025-04-24T10:43:50.177Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -21,12 +21,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "short-len",
+        "identifier": "scam-id",
         "locales": [
           {
-            "description": "This post has short length text",
+            "description": "This post looks like a scam",
             "lang": "en",
-            "name": "short-length"
+            "name": "scam"
           }
         ],
         "severity": "alert"
@@ -35,35 +35,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "medium-len",
+        "identifier": "not-scam-id",
         "locales": [
           {
-            "description": "This post has medium length text",
+            "description": "This post is not a scam",
             "lang": "en",
-            "name": "medium-length"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "long-len",
-        "locales": [
-          {
-            "description": "This post has long length text",
-            "lang": "en",
-            "name": "long-length"
+            "name": "not-scam"
           }
         ],
         "severity": "alert"
       }
     ],
     "labelValues": [
-      "short-len",
-      "medium-len",
-      "long-len"
+      "scam-id",
+      "not-scam-id"
     ]
   }
 }
