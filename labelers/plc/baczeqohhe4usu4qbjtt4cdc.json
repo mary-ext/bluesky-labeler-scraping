@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:baczeqohhe4usu4qbjtt4cdc/app.bsky.labeler.service/self",
-  "cid": "bafyreiewsq3j4maibkre6a2cjyv62plcn3zdgeev6nzyja43zsdb6ctdki",
+  "cid": "bafyreibn3bukd7ec5qss3e3pyniksogry523iykrhl7z333n5tqmo7o2kq",
   "creator": {
     "did": "did:plc:baczeqohhe4usu4qbjtt4cdc",
     "handle": "moderator-labeler.bsky.social",
@@ -13,7 +13,7 @@
     "createdAt": "2025-04-23T05:26:18.874Z",
     "indexedAt": "2025-04-23T05:26:18.874Z"
   },
-  "indexedAt": "2025-04-24T10:43:50.177Z",
+  "indexedAt": "2025-04-25T05:13:46.784Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -21,12 +21,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "scam-id",
+        "identifier": "scam-likely-id",
         "locales": [
           {
-            "description": "This post looks like a scam",
+            "description": "This post has strong scam indicators, avoid interacting!",
             "lang": "en",
-            "name": "scam"
+            "name": "Strong Scam Indicators"
           }
         ],
         "severity": "alert"
@@ -35,20 +35,125 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "not-scam-id",
+        "identifier": "suspicous-scam-id",
         "locales": [
           {
-            "description": "This post is not a scam",
+            "description": "This post has some scam indicators, be cautious before interacting!",
             "lang": "en",
-            "name": "not-scam"
+            "name": "Suspicious Content"
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "no-scam-id",
+        "locales": [
+          {
+            "description": "This post is safe to interact with.",
+            "lang": "en",
+            "name": "No Scam Indicators"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "contact-method-id",
+        "locales": [
+          {
+            "description": "This post has unusual or suspicious contact method",
+            "lang": "en",
+            "name": "Suspicious Contact Method"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "urgency-id",
+        "locales": [
+          {
+            "description": "This post shows high-pressure tactics creating unnecessary urgency",
+            "lang": "en",
+            "name": "Urgency"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "unrealistic-offer-id",
+        "locales": [
+          {
+            "description": "This post shows unrealistic offer promising too-good-to-be-true rewards",
+            "lang": "en",
+            "name": "Unrealistic Offer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "language-id",
+        "locales": [
+          {
+            "description": "This post shows disorganised or unnatural language patterns",
+            "lang": "en",
+            "name": "Incoherent Language"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "retrieving-info-id",
+        "locales": [
+          {
+            "description": "This post has requests for user details or credentials",
+            "lang": "en",
+            "name": "Information Retrieval"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hti-id",
+        "locales": [
+          {
+            "description": "This post contains suspicious links",
+            "lang": "en",
+            "name": "Suspicious Links"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "scam-id",
-      "not-scam-id"
+      "scam-likely-id",
+      "suspicous-scam-id",
+      "no-scam-id",
+      "contact-method-id",
+      "urgency-id",
+      "unrealistic-offer-id",
+      "language-id",
+      "retrieving-info-id",
+      "hti-id"
     ]
   }
 }
