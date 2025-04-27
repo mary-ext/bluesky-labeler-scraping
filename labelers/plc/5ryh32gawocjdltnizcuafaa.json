@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5ryh32gawocjdltnizcuafaa/app.bsky.labeler.service/self",
-  "cid": "bafyreiebotlw7mv5pqhphv5mxyd77fvrtdez4tejcvngnlb6sazyvwgjl4",
+  "cid": "bafyreicxgltsbwpreqhburttmjor4wac6ftaowmm34ubem4qv3besk52qe",
   "creator": {
     "did": "did:plc:5ryh32gawocjdltnizcuafaa",
     "handle": "faktenbot.volksverpetzer.de",
@@ -14,27 +14,27 @@
     "description": "Experimental DO NOT TRUST :)",
     "indexedAt": "2025-01-21T12:44:01.944Z"
   },
-  "indexedAt": "2025-01-22T13:22:40.847Z",
+  "indexedAt": "2025-04-26T17:48:33.880Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "domain-misinfo",
+        "identifier": "desinformation",
         "locales": [
           {
-            "description": "Domain has spread misinfo in the past",
+            "description": "Könnte Falschbehauptungen enthalten",
             "lang": "en",
-            "name": "Domain Misinfo"
+            "name": "Desinformation"
           }
         ],
-        "severity": "inform"
+        "severity": "alert"
       }
     ],
     "labelValues": [
-      "domain-misinfo"
+      "desinformation"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreigffto4oi7d2zht6m2zvhhhle6ggnae3arcbtc3sa2nt753onqlqi",
+  "cid": "bafyreib3z2xylbrerpmdtkbkv3vdynffbagjf6lfwx2ry63e4yv66pgkyy",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-04-23T14:49:14.792Z",
+  "indexedAt": "2025-04-26T05:27:42.197Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5746,6 +5746,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kilasuit-doctypes",
+        "locales": [
+          {
+            "description": "https://github.com/kilasuit/DocTypes",
+            "lang": "en",
+            "name": "kilasuit/DocTypes"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6157,7 +6171,8 @@
       "expressjs-express",
       "openjs-foundation-cross-project-council",
       "kilasuit-iins",
-      "kilasuit-psprofile"
+      "kilasuit-psprofile",
+      "kilasuit-doctypes"
     ]
   }
 }
