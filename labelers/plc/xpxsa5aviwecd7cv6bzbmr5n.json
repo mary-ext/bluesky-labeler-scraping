@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreib3z2xylbrerpmdtkbkv3vdynffbagjf6lfwx2ry63e4yv66pgkyy",
+  "cid": "bafyreicf3rx7pabv7dljksur3vzo7czqtcpyc7drrf56yvxdml2qvculxu",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-04-26T05:27:42.197Z",
+  "indexedAt": "2025-04-27T21:12:38.897Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5760,6 +5760,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "typecellos-blocknote",
+        "locales": [
+          {
+            "description": "A React Rich Text Editor that's block-based (Notion style) and extensible. Built on top of Prosemirror and Tiptap.\nhttps://github.com/TypeCellOS/BlockNote",
+            "lang": "en",
+            "name": "TypeCellOS/BlockNote"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6172,7 +6186,8 @@
       "openjs-foundation-cross-project-council",
       "kilasuit-iins",
       "kilasuit-psprofile",
-      "kilasuit-doctypes"
+      "kilasuit-doctypes",
+      "typecellos-blocknote"
     ]
   }
 }
