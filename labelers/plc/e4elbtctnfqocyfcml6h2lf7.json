@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreiarbkk7elg6uuqnwkarlkw5i7m5v3bklf7twxgc4kdk4i7lmkyk4e",
+  "cid": "bafyreifmiv4j4ql7ulnjox6w5hyu35vnuf4ol77rciz3nshzt2qnnh7ggy",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -17,7 +17,7 @@
     "description": "Ceaseless watcher, turn your endless gaze upon this wretched thing. \n\nIndependent Labeling Service | Not able to perform takedowns.",
     "indexedAt": "2025-03-30T19:24:06.794Z"
   },
-  "indexedAt": "2025-03-31T02:29:39.006Z",
+  "indexedAt": "2025-04-28T02:24:59.985Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -397,5 +397,22 @@
       "terf-gc",
       "troll"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile",
+    "app.bsky.graph.list",
+    "app.bsky.labeler.service",
+    "app.bsky.graph.starterpack"
+  ]
 }

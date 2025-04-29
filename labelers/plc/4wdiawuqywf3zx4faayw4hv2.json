@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4wdiawuqywf3zx4faayw4hv2/app.bsky.labeler.service/self",
-  "cid": "bafyreigs3ykt4ikk4znpxsq7s5o25qosxkq2zpxuv2eplauiblh6ijezsu",
+  "cid": "bafyreigu574wkiurzr3uwdstinjanun44gf7id7yuyxunkncpmqaaf4rve",
   "creator": {
     "did": "did:plc:4wdiawuqywf3zx4faayw4hv2",
     "handle": "mushroom-labeler.bsky.social",
@@ -14,24 +14,10 @@
     "description": "Find out which mushroom you're on.\nIN DEVELOPMENT (probably not working yet).",
     "indexedAt": "2024-11-26T19:11:37.046Z"
   },
-  "indexedAt": "2025-04-24T23:54:06.007Z",
+  "indexedAt": "2025-04-28T10:45:59.185Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "boletus",
-        "locales": [
-          {
-            "description": "Boletus is a type of mushroom and the name of this user's Bluesky PDS.",
-            "lang": "en",
-            "name": "boletus"
-          }
-        ],
-        "severity": "inform"
-      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -42,6 +28,20 @@
             "description": "Agaric is a type of mushroom and the name of this user's Bluesky PDS.",
             "lang": "en",
             "name": "agaric"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "boletus",
+        "locales": [
+          {
+            "description": "Boletus is a type of mushroom and the name of this user's Bluesky PDS.",
+            "lang": "en",
+            "name": "boletus"
           }
         ],
         "severity": "inform"
@@ -526,6 +526,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "yellowfoot",
+        "locales": [
+          {
+            "description": "Yellowfoot is a type of mushroom and the name of this user's Bluesky PDS.",
+            "lang": "en",
+            "name": "yellowfoot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "splitgill",
         "locales": [
           {
@@ -591,25 +605,11 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "yellowfoot",
-        "locales": [
-          {
-            "description": "Yellowfoot is a type of mushroom and the name of this user's Bluesky PDS.",
-            "lang": "en",
-            "name": "yellowfoot"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
-      "boletus",
       "agaric",
+      "boletus",
       "bracket",
       "button",
       "conocybe",
@@ -644,12 +644,12 @@
       "porcini",
       "puffball",
       "shiitake",
+      "yellowfoot",
       "splitgill",
       "poisonpie",
       "brittlegill",
       "fibercap",
-      "blusher",
-      "yellowfoot"
+      "blusher"
     ]
   }
 }
