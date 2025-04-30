@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreigqvabpthpwgkcagxo5qqh2h4zf6emwuv3xfn5yqkst3cuo7h24ra",
+  "cid": "bafyreihcam36r4iubjli6webpae7cgdap4ahtkk62y7agmpmrvuxfghpjm",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-04-28T12:23:41.402Z",
+  "indexedAt": "2025-04-29T21:23:20.296Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5816,6 +5816,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "flakybluejay-mb-rym-hierarchy",
+        "locales": [
+          {
+            "description": "Rate Your Music Genre Hierarchy for MusicBee\nhttps://github.com/FlakyBlueJay/mb-rym-hierarchy",
+            "lang": "en",
+            "name": "FlakyBlueJay/mb-rym-hierarchy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "flakybluejay-mb-musicbrainzsync",
+        "locales": [
+          {
+            "description": "MusicBrainz rating/tag sync plugin for MusicBee\nhttps://github.com/FlakyBlueJay/mb_musicbrainzsync",
+            "lang": "en",
+            "name": "FlakyBlueJay/mb_musicbrainzsync"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6232,7 +6260,9 @@
       "typecellos-blocknote",
       "ghostty-org-ghostty",
       "instapaper-obsidian-instapaper",
-      "jparise-vim-graphql"
+      "jparise-vim-graphql",
+      "flakybluejay-mb-rym-hierarchy",
+      "flakybluejay-mb-musicbrainzsync"
     ]
   }
 }
