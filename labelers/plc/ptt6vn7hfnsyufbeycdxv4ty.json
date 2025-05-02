@@ -1,19 +1,20 @@
 {
-  "uri": "at://did:plc:b7rzlpwqc2qkqfil63t5bd6u/app.bsky.labeler.service/self",
-  "cid": "bafyreicfuag5tez7mzkf6esxr3ltdljrsxodhavyb7gqupqc4ik5ze27li",
+  "uri": "at://did:plc:ptt6vn7hfnsyufbeycdxv4ty/app.bsky.labeler.service/self",
+  "cid": "bafyreiemvcr4q5mg5qpqjoxw3tyks7735kjtm7sd3y543t4m7k3gagwk5a",
   "creator": {
-    "did": "did:plc:b7rzlpwqc2qkqfil63t5bd6u",
-    "handle": "ruff-specialist.bsky.social",
-    "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:b7rzlpwqc2qkqfil63t5bd6u/bafkreib5tguwqaikfgxxquzx24qobypqwyff3bifye5uyjo25aa3v3ofs4@jpeg",
+    "did": "did:plc:ptt6vn7hfnsyufbeycdxv4ty",
+    "handle": "bsky-sci-verify.bsky.social",
+    "displayName": "Bluesky Scientific Verifier",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ptt6vn7hfnsyufbeycdxv4ty/bafkreidaafx2osuzyvfxwwqzini4z4sn72tauy5mixxv4p6cziguc3m6eq@jpeg",
     "associated": {
       "labeler": true
     },
     "labels": [],
-    "createdAt": "2025-03-06T21:48:50.245Z",
-    "indexedAt": "2025-03-06T21:48:50.245Z"
+    "createdAt": "2025-05-01T15:47:30.073Z",
+    "description": "Labeler that verifies scientists on ORCiD + adds context about their careers to their profiles.\n\nVerify: https://bsky-scientific-verifier.vercel.app\n\nSubscribe: Hit \"Subscribe to Labeler\"\n\nNOTE: This is a class project for T&S Spring 2025 @ Cornell Tech",
+    "indexedAt": "2025-05-01T15:53:02.673Z"
   },
-  "indexedAt": "2025-04-30T20:05:30.087Z",
+  "indexedAt": "2025-05-01T16:17:47.980Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,7 +25,7 @@
         "identifier": "verified-scientist",
         "locales": [
           {
-            "description": "This account has been verified as a scientist through ORCID.",
+            "description": "This account has been verified as a scientist through ORCID",
             "lang": "en",
             "name": "Verified Scientist 🔬"
           }
@@ -38,7 +39,7 @@
         "identifier": "publications-one-nine",
         "locales": [
           {
-            "description": "This scientist has published 0-9 papers.",
+            "description": "This scientist has published 0-9 papers",
             "lang": "en",
             "name": "0-9 Publications 📚"
           }
@@ -52,7 +53,7 @@
         "identifier": "publications-ten-fortynine",
         "locales": [
           {
-            "description": "This scientist has published 10-49 papers.",
+            "description": "This scientist has published 10-49 papers",
             "lang": "en",
             "name": "10-49 Publications 📚"
           }
@@ -66,7 +67,7 @@
         "identifier": "publications-fifty-ninetynine",
         "locales": [
           {
-            "description": "This scientist has published 50-99 papers.",
+            "description": "This scientist has published 50-99 papers",
             "lang": "en",
             "name": "50-99 Publications 📚"
           }
@@ -80,7 +81,7 @@
         "identifier": "publications-onehundred-twofifty",
         "locales": [
           {
-            "description": "This scientist has published 100-249 papers.",
+            "description": "This scientist has published 100-249 papers",
             "lang": "en",
             "name": "100-249 Publications 📚"
           }
@@ -91,12 +92,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "publications-gt-twofifty",
+        "identifier": "publications-gte-twofifty",
         "locales": [
           {
-            "description": "This scientist has published 250 or more papers.",
+            "description": "This scientist has published ≥250 papers",
             "lang": "en",
-            "name": "250+ Publications 📚"
+            "name": "≥250 Publications 📚"
           }
         ],
         "severity": "inform"
@@ -108,7 +109,7 @@
         "identifier": "publication-years-zero-four",
         "locales": [
           {
-            "description": "This scientist has been publishing for 0-4 years.",
+            "description": "This scientist has been publishing for 0-4 years",
             "lang": "en",
             "name": "0-4 Years Publishing 📅"
           }
@@ -122,7 +123,7 @@
         "identifier": "publication-years-five-nine",
         "locales": [
           {
-            "description": "This scientist has been publishing for 5-9 years.",
+            "description": "This scientist has been publishing for 5-9 years",
             "lang": "en",
             "name": "5-9 Years Publishing 📅"
           }
@@ -136,7 +137,7 @@
         "identifier": "publication-years-ten-nineteen",
         "locales": [
           {
-            "description": "This scientist has been publishing for 10-19 years.",
+            "description": "This scientist has been publishing for 10-19 years",
             "lang": "en",
             "name": "10-19 Years Publishing 📅"
           }
@@ -147,12 +148,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "publication-years-gt-twenty",
+        "identifier": "publication-years-gte-twenty",
         "locales": [
           {
-            "description": "This scientist has been publishing for 20+ years.",
+            "description": "This scientist has been publishing for ≥20 years",
             "lang": "en",
-            "name": "20+ Years Publishing 📅"
+            "name": "≥20 Years Publishing 📅"
           }
         ],
         "severity": "inform"
@@ -164,11 +165,11 @@
       "publications-ten-fortynine",
       "publications-fifty-ninetynine",
       "publications-onehundred-twofifty",
-      "publications-gt-twofifty",
+      "publications-gte-twofifty",
       "publication-years-zero-four",
       "publication-years-five-nine",
       "publication-years-ten-nineteen",
-      "publication-years-gt-twenty"
+      "publication-years-gte-twenty"
     ]
   }
 }
