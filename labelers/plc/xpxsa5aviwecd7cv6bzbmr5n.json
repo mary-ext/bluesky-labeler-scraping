@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreihcam36r4iubjli6webpae7cgdap4ahtkk62y7agmpmrvuxfghpjm",
+  "cid": "bafyreiake4ba3db6yo3bq3ssjfzoffx72k22pqur3dvzqsobvttdegizdu",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-04-29T21:23:20.296Z",
+  "indexedAt": "2025-05-03T23:11:58.392Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5844,6 +5844,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pomerium-documentation",
+        "locales": [
+          {
+            "description": "Documentation for Pomerium\nhttps://github.com/pomerium/documentation",
+            "lang": "en",
+            "name": "pomerium/documentation"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6262,7 +6276,8 @@
       "instapaper-obsidian-instapaper",
       "jparise-vim-graphql",
       "flakybluejay-mb-rym-hierarchy",
-      "flakybluejay-mb-musicbrainzsync"
+      "flakybluejay-mb-musicbrainzsync",
+      "pomerium-documentation"
     ]
   }
 }
