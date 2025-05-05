@@ -1,0 +1,55 @@
+{
+  "uri": "at://did:plc:d6loa4hv3xt7ufl3md44nfkh/app.bsky.labeler.service/self",
+  "cid": "bafyreic27dddo3oweuklwbgyjl2vbuv5q6trox6ebg46fvvzt5r4lilbzy",
+  "creator": {
+    "did": "did:plc:d6loa4hv3xt7ufl3md44nfkh",
+    "handle": "no-pol-labeler.bsky.social",
+    "displayName": "Politics Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d6loa4hv3xt7ufl3md44nfkh/bafkreic64mvlpvu34jhwwhzgl3icjouiuatclhpxrz7t7cxn4p4j4aswiq@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-05-04T22:23:09.175Z",
+    "description": "No guarantees on accuracy. Appeals are not checked.\n\n@hailey.at\n\nhttps://github.com/haileyok/dontshowmethis",
+    "indexedAt": "2025-05-05T00:17:42.876Z"
+  },
+  "indexedAt": "2025-05-05T00:02:16.685Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "pol-link",
+        "locales": [
+          {
+            "description": "A post that includes a link to a likely political article.",
+            "lang": "en",
+            "name": "Political News Link"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "pol-link-reply",
+        "locales": [
+          {
+            "description": "A reply to a post that contains a likely political article.",
+            "lang": "en",
+            "name": "Politcal News Link Reply"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "pol-link",
+      "pol-link-reply"
+    ]
+  }
+}

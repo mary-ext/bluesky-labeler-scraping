@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreigfjkabl4xpxzzyawlymossbf3spg6vot7motfafjbc6eyvp25u2e",
+  "cid": "bafyreidfpkajhk6a66pwzcq4zhiobgdctayqy2nekzrj47sjow7qwixjha",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1️⃣ Subscribe to the labeler\n2️⃣ Follow the labeler (\"...\" menu)\n3️⃣ Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat 💖\n\nCreated by @codedrift.social",
     "indexedAt": "2025-02-26T16:14:33.345Z"
   },
-  "indexedAt": "2025-04-21T22:26:46.291Z",
+  "indexedAt": "2025-05-04T23:54:27.789Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -972,6 +972,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "---txt",
+        "locales": [
+          {
+            "description": "MOA\nUser is a fan of TXT\n...in fact, it's their 💖 ult~",
+            "lang": "en",
+            "name": "💖 TXT"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nct",
+        "locales": [
+          {
+            "description": "NCTzen\nUser is a fan of NCT",
+            "lang": "en",
+            "name": "NCT"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1042,7 +1070,9 @@
       "triples",
       "yves",
       "---triples",
-      "seonghwa"
+      "seonghwa",
+      "---txt",
+      "nct"
     ]
   }
 }
