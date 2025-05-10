@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-  "cid": "bafyreibsf6j2cz2tgc74a2pbonarvnxxv3uyc5xhpv3al7grsn3gmrmlqy",
+  "cid": "bafyreihwizwkdnaucnszzjc4b2fz2vxb4bx5ygww7d34xrya6diggsvjv4",
   "creator": {
     "did": "did:plc:owlalsqd2qu64kv3h7klt24t",
     "handle": "gameengines.bsky.social",
@@ -14,10 +14,38 @@
     "description": "Identify the game engine that you use on your profile and everywhere you post!\n\nOwner: @tabularelf.com",
     "indexedAt": "2025-03-13T02:39:19.044Z"
   },
-  "indexedAt": "2025-03-27T09:42:17.201Z",
+  "indexedAt": "2025-05-09T15:58:08.854Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orx",
+        "locales": [
+          {
+            "description": "This user uses the Orx engine, from https://orx-project.org/",
+            "lang": "en",
+            "name": "Orx"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monogame",
+        "locales": [
+          {
+            "description": "This user uses the Monogame framework, from https://monogame.net/",
+            "lang": "en",
+            "name": "MonoGame"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -703,9 +731,11 @@
       "gbstudio",
       "gold-source",
       "the-forge",
+      "orx",
       "quake-engine",
       "doom-engine",
       "wolf3d",
+      "monogame",
       "build-duke",
       "game-modder",
       "game-platform-editor",
