@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreicyrzdqqkk4ekfmmqjrc6qvvuxcjuym7w3kr673nsswlxk6anroly",
+  "cid": "bafyreiaiegiwan6dxpk2texcro74p5uduu6mq2sjjnvmr43gimoekadwwa",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -14,10 +14,24 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev (message me if your app isn't listed below and you think it should be)",
     "indexedAt": "2025-03-20T23:39:08.145Z"
   },
-  "indexedAt": "2025-04-12T20:10:14.587Z",
+  "indexedAt": "2025-05-10T05:03:01.746Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blue-twentyfortyeight",
+        "locales": [
+          {
+            "description": "2048 on atproto (blue.2048.*)",
+            "lang": "en",
+            "name": "2048"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -78,6 +92,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blue-linkat",
+        "locales": [
+          {
+            "description": "link collections (blue.linkat.*)",
+            "lang": "en",
+            "name": "Linkat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-shinolabs-pinksea",
         "locales": [
           {
@@ -98,6 +126,34 @@
             "description": "pop culture hub (app.popsky.*)",
             "lang": "en",
             "name": "Popsky"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "exchange-recipe",
+        "locales": [
+          {
+            "description": "discover and share your favorite recipes (exchange.recipe.*)",
+            "lang": "en",
+            "name": "recipe.exchange"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-rocksky",
+        "locales": [
+          {
+            "description": "decentralized music tracking and discovery platform (app.rocksky.*)",
+            "lang": "en",
+            "name": "Rocksky"
           }
         ],
         "severity": "inform"
@@ -216,12 +272,16 @@
       }
     ],
     "labelValues": [
+      "blue-twentyfortyeight",
       "blue-zio-atfile",
       "blue-badge",
       "im-flushing",
       "fyi-unravel-frontpage",
+      "blue-linkat",
       "com-shinolabs-pinksea",
       "app-popsky",
+      "exchange-recipe",
+      "app-rocksky",
       "chat-roomy",
       "events-smokesignal",
       "so-sprk",
