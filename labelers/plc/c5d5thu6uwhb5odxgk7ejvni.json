@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreibflni6ge7ivc7ibxgz5awsexswb4ca7ykwxqgymtykdhcxpvq6xu",
+  "cid": "bafyreia5q7dtv76nswu3eanav4q5wu22r3stuekd7ceumm7etf75dhbv3u",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -14,10 +14,38 @@
     "description": "Subscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-04-23T16:07:04.173Z"
   },
-  "indexedAt": "2025-04-21T20:58:08.289Z",
+  "indexedAt": "2025-05-12T02:20:53.249Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "zpost-victim-blaming",
+        "locales": [
+          {
+            "description": "This post is blaming the victim. ",
+            "lang": "en",
+            "name": "Victim Blaming"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "victim-blaming",
+        "locales": [
+          {
+            "description": "Victim Blaming",
+            "lang": "en",
+            "name": "Victim Blaming "
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -580,6 +608,8 @@
       }
     ],
     "labelValues": [
+      "zpost-victim-blaming",
+      "victim-blaming",
       "urbanist",
       "cyclist-urbanism",
       "cyclist-entitled",
