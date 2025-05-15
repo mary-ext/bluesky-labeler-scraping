@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreia5q7dtv76nswu3eanav4q5wu22r3stuekd7ceumm7etf75dhbv3u",
+  "cid": "bafyreifzhqqqlrt3iqivefdzx6e2kp4y2ni742e2f264fczpaukuwvky6y",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -14,10 +14,38 @@
     "description": "Subscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-04-23T16:07:04.173Z"
   },
-  "indexedAt": "2025-05-12T02:20:53.249Z",
+  "indexedAt": "2025-05-14T22:12:34.258Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "uplus-verified",
+        "locales": [
+          {
+            "description": "Verified. This account and any special labels have been reviewed by the team.",
+            "lang": "en",
+            "name": "✅"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "zpost-urbanismblur",
+        "locales": [
+          {
+            "description": "This comment has been blurred for your mental health. Refer to the account moderation labels on this account as to why this comment is blurred.",
+            "lang": "en",
+            "name": "Urbanism+ Moderation Filter"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -39,7 +67,7 @@
         "identifier": "victim-blaming",
         "locales": [
           {
-            "description": "Victim Blaming",
+            "description": "This account has been flagged for victim blaming.",
             "lang": "en",
             "name": "Victim Blaming "
           }
@@ -53,7 +81,7 @@
         "identifier": "urbanist",
         "locales": [
           {
-            "description": "Orange-pilled",
+            "description": "Orange-pilled.",
             "lang": "en",
             "name": "Urbanist"
           }
@@ -67,7 +95,7 @@
         "identifier": "cyclist-urbanism",
         "locales": [
           {
-            "description": "A rider of an acoustic bike, e-bike, or trike",
+            "description": "A rider of an acoustic bike, e-bike, or trike.",
             "lang": "en",
             "name": "Cyclist"
           }
@@ -81,7 +109,7 @@
         "identifier": "cyclist-entitled",
         "locales": [
           {
-            "description": "A badge of honor",
+            "description": "A badge of honor.",
             "lang": "en",
             "name": "Entitled Cyclist"
           }
@@ -109,7 +137,7 @@
         "identifier": "transit-rider",
         "locales": [
           {
-            "description": "My ride costs more than your car",
+            "description": "My ride costs more than your car.",
             "lang": "en",
             "name": "Transit Rider"
           }
@@ -123,7 +151,7 @@
         "identifier": "accessibility-advocate",
         "locales": [
           {
-            "description": "Cities are for everyone",
+            "description": "Cities are for everyone.",
             "lang": "en",
             "name": "Accessibility Advocate"
           }
@@ -137,7 +165,7 @@
         "identifier": "housing-advocate",
         "locales": [
           {
-            "description": "Housing is a human right",
+            "description": "Housing is a human right.",
             "lang": "en",
             "name": "Housing Advocate"
           }
@@ -151,7 +179,7 @@
         "identifier": "yimby",
         "locales": [
           {
-            "description": "Yes In My BackYard",
+            "description": "Yes In My BackYard.",
             "lang": "en",
             "name": "YIMBY"
           }
@@ -165,7 +193,7 @@
         "identifier": "parking-reform",
         "locales": [
           {
-            "description": "Car storage is bad",
+            "description": "Car storage is bad.",
             "lang": "en",
             "name": "Parking Reform"
           }
@@ -193,7 +221,7 @@
         "identifier": "car-free",
         "locales": [
           {
-            "description": "Yes, this makes me better than you",
+            "description": "Yes, this makes me better than you.",
             "lang": "en",
             "name": "Car-Free"
           }
@@ -207,7 +235,7 @@
         "identifier": "car-lite",
         "locales": [
           {
-            "description": "We can't all be perfect",
+            "description": "We can't all be perfect.",
             "lang": "en",
             "name": "Car-Lite"
           }
@@ -221,7 +249,7 @@
         "identifier": "foamer",
         "locales": [
           {
-            "description": "Train go choo choo",
+            "description": "Train go choo choo.",
             "lang": "en",
             "name": "Foamer"
           }
@@ -235,7 +263,7 @@
         "identifier": "feminist-urbanist",
         "locales": [
           {
-            "description": "A feminist and an urbanist",
+            "description": "A feminist and an urbanist.",
             "lang": "en",
             "name": "Feminist Urbanist"
           }
@@ -305,7 +333,7 @@
         "identifier": "urbanism-goat",
         "locales": [
           {
-            "description": "Reserved for high-profile content creators or other high-profile folks in the urbanism/bike/transit etc space",
+            "description": "Reserved for high-profile content creators or other high-profile folks in the urbanism/bike/transit space.",
             "lang": "en",
             "name": "🥇Urbanism GOAT"
           }
@@ -347,7 +375,7 @@
         "identifier": "urbanism-org",
         "locales": [
           {
-            "description": "Urbanism/cycling/adjacent organization",
+            "description": "Urbanism/cycling/adjacent organization.",
             "lang": "en",
             "name": "🏢Urbanism Org"
           }
@@ -361,7 +389,7 @@
         "identifier": "urbanism-brand",
         "locales": [
           {
-            "description": "Urbanism/cycling/adjacent brand",
+            "description": "Urbanism/cycling/adjacent brand.",
             "lang": "en",
             "name": "🏷️Urbanism Brand"
           }
@@ -403,7 +431,7 @@
         "identifier": "urbanism-organizer",
         "locales": [
           {
-            "description": "Folks who have official leading advocacy roles",
+            "description": "Folks who have official leading advocacy roles.",
             "lang": "en",
             "name": "📢Urbanism Organizer"
           }
@@ -459,7 +487,7 @@
         "identifier": "garbage",
         "locales": [
           {
-            "description": "Users banned from the feeds for various reasons.\n\nRacism, misogyny, ableism, transphobia, etc ",
+            "description": "Users banned from the feeds for various reasons.\n\nRacism, misogyny, ableism, transphobia, etc.",
             "lang": "en",
             "name": "Garbage"
           }
@@ -473,7 +501,7 @@
         "identifier": "nimby",
         "locales": [
           {
-            "description": "Not In My BackYard--everyone hates us",
+            "description": "This account has been flagged for NIMBYism. Not In My BackYard.",
             "lang": "en",
             "name": "NIMBY"
           }
@@ -501,7 +529,7 @@
         "identifier": "x-scared-cities",
         "locales": [
           {
-            "description": "This user has been flagged for fear-mongering and/or spreading misinformation about the safety of cities. Automobiles kill 40k+ people in the US alone. Dense walkable cities are safer and misinformation is dangerous to the life-saving safe-street movement.",
+            "description": "This account has been flagged for fear-mongering and/or spreading misinformation about the safety of cities. Automobiles kill 40k+ people in the US alone. Dense walkable cities are safer and misinformation is dangerous to the life-saving safe-street movement.",
             "lang": "en",
             "name": "Scared of Cities"
           }
@@ -529,9 +557,9 @@
         "identifier": "uplus-staff",
         "locales": [
           {
-            "description": "admin or mod of U+",
+            "description": "Admin or volunteer Mod of U+. This is a community project and we do what we do because we love the community!",
             "lang": "en",
-            "name": "U+ Staff"
+            "name": "⭐U+ Staff"
           }
         ],
         "severity": "inform"
@@ -608,8 +636,6 @@
       }
     ],
     "labelValues": [
-      "zpost-victim-blaming",
-      "victim-blaming",
       "urbanist",
       "cyclist-urbanism",
       "cyclist-entitled",
@@ -624,6 +650,7 @@
       "car-lite",
       "foamer",
       "feminist-urbanist",
+      "uplus-verified",
       "academic-urbanist",
       "city-planner",
       "urbanism-creator",
@@ -639,17 +666,15 @@
       "urbanism-resource",
       "uplus-sponsor",
       "uplus-supporter",
+      "uplus-staff",
+      "placeholder-three",
       "garbage",
       "nimby",
       "carbrain",
       "x-scared-cities",
       "gadgetbahn",
-      "uplus-staff",
-      "zpost-nimby",
-      "zpost-carbrain",
-      "zpost-scared-cities",
-      "zpost-gadgetbahn",
-      "placeholder-three"
+      "victim-blaming",
+      "zpost-urbanismblur"
     ]
   }
 }
