@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreif5rulek7vzas5v7rlc6jifk4et64l5fxhehmxx5jjtdg4uxjnvii",
+  "cid": "bafyreietpfn7ksz54zyxi2u6akiegcvddlbjlhpbthekfu2s6q2kzrgeqe",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -17,10 +17,24 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-05-12T16:56:56.953Z",
+  "indexedAt": "2025-05-20T15:34:08.753Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "demiflux",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Demiflux"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -681,6 +695,7 @@
       }
     ],
     "labelValues": [
+      "demiflux",
       "quoigender",
       "quoiromantic",
       "quoisexual",
