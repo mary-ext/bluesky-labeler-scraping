@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreif4t4mc6sz3yr6trjqrqwmsu3ga6pqu2g376qb2i7kcuy4537qxne",
+  "cid": "bafyreibtfwjjxjfmzad3o7xkr7co366bacadhbqcmvsanf4wtiytau6dym",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-05-18T14:23:56.759Z",
+  "indexedAt": "2025-05-21T20:47:04.265Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5984,6 +5984,62 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sirosen-upadup",
+        "locales": [
+          {
+            "description": "A pre-commit additional_dependencies updater\nhttps://github.com/sirosen/upadup",
+            "lang": "en",
+            "name": "sirosen/upadup"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pypa-dependency-groups",
+        "locales": [
+          {
+            "description": "A standalone implementation of PEP 735 Dependency Groups\nhttps://github.com/pypa/dependency-groups",
+            "lang": "en",
+            "name": "pypa/dependency-groups"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pypa-pip",
+        "locales": [
+          {
+            "description": "The Python package installer\nhttps://github.com/pypa/pip",
+            "lang": "en",
+            "name": "pypa/pip"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "marshmallow-code-webargs",
+        "locales": [
+          {
+            "description": "A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks, including Flask, Django, Bottle, Tornado, Pyramid, webapp2, Falcon, and aiohttp.\nhttps://github.com/marshmallow-code/webargs",
+            "lang": "en",
+            "name": "marshmallow-code/webargs"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6412,7 +6468,11 @@
       "feross-theannoyingsite-com",
       "nix-community-home-manager",
       "cigaleapp-cigale",
-      "cloudwalk-hermes-mcp"
+      "cloudwalk-hermes-mcp",
+      "sirosen-upadup",
+      "pypa-dependency-groups",
+      "pypa-pip",
+      "marshmallow-code-webargs"
     ]
   }
 }
