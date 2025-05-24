@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreibtfwjjxjfmzad3o7xkr7co366bacadhbqcmvsanf4wtiytau6dym",
+  "cid": "bafyreib74fihbvy6qmdboa7qhem7wyry2fgjxb6coaeipn33zgij6rjmki",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-05-21T20:47:04.265Z",
+  "indexedAt": "2025-05-23T19:55:19.862Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6040,6 +6040,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sympmarc-microsoft-threesixfive-community",
+        "locales": [
+          {
+            "description": "Microsoft 365 community contributed documentation https://docs.microsoft.com/microsoft-365/community/\nhttps://github.com/sympmarc/microsoft-365-community",
+            "lang": "en",
+            "name": "sympmarc/microsoft-365-community"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6472,7 +6486,8 @@
       "sirosen-upadup",
       "pypa-dependency-groups",
       "pypa-pip",
-      "marshmallow-code-webargs"
+      "marshmallow-code-webargs",
+      "sympmarc-microsoft-threesixfive-community"
     ]
   }
 }

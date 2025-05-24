@@ -1,0 +1,36 @@
+{
+  "uri": "at://did:plc:aln6fuwqrghc73qt6vzbtcgq/app.bsky.labeler.service/self",
+  "cid": "bafyreicuoq7yynwc2mdhr7ennwucmnr2hsyitaz36qwyymr4hyedn3ankq",
+  "creator": {
+    "did": "did:plc:aln6fuwqrghc73qt6vzbtcgq",
+    "handle": "labeler.testpds.aitorres.com",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "0001-01-01T00:00:00.000Z"
+  },
+  "indexedAt": "2025-05-23T19:08:14.455Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "testlabel",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "Test Label"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "testlabel"
+    ]
+  }
+}
