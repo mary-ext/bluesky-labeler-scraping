@@ -1,0 +1,41 @@
+{
+  "uri": "at://did:plc:im4nkmouryzyhwmn4l23llbl/app.bsky.labeler.service/self",
+  "cid": "bafyreib4zhfiznwtr6f3cnqstdnyumbaeyco4t657wuopuwum5rt3n4cmm",
+  "creator": {
+    "did": "did:plc:im4nkmouryzyhwmn4l23llbl",
+    "handle": "buffylabelerdev.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:im4nkmouryzyhwmn4l23llbl/bafkreib5vw2pswaly2el4v7uspmzasradb6t62ibtfwy63qs6xsffkyadm@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-05-03T13:47:13.277Z",
+    "indexedAt": "2025-05-03T13:47:13.277Z"
+  },
+  "indexedAt": "2025-05-25T05:49:28.646Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "buffy-approved",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Buffy Approved",
+            "lang": "en",
+            "name": "Buffy Approved"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "buffy-approved"
+    ]
+  }
+}
