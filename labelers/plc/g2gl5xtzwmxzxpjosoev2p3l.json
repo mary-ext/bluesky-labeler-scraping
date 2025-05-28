@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreidlj4rfvtym6py6ja2k4dl7mh2dtkgk6clnvdhbmnw62lnb5ttlhm",
+  "cid": "bafyreid2vappskvdexe2ngxe4rqszp6kyfk56ja2c7jfuj6lvd7n7idvta",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -22,7 +22,7 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-05-20T13:52:10.142Z"
   },
-  "indexedAt": "2025-05-08T13:25:20.451Z",
+  "indexedAt": "2025-05-27T14:45:38.744Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -39,6 +39,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "stalking",
+        "locales": [
+          {
+            "description": "Harass or persecute (someone) with unwanted and obsessive attention. Often used with 'scam', 'misinformation' and 'harassment'",
+            "lang": "en",
+            "name": "Stalking"
+          }
+        ],
+        "severity": "alert"
       },
       {
         "adultOnly": false,
@@ -177,7 +191,8 @@
       "extremist",
       "spam",
       "engagement_farming",
-      "misinformation"
+      "misinformation",
+      "stalking"
     ]
   }
 }
