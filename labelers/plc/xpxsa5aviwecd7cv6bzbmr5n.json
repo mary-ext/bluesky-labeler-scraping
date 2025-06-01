@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreiequloqfernqi5gpraebggme2diklpmvfegmvrrchqstno2my7u5u",
+  "cid": "bafyreiayxhnum3do3gw45qtnsy5gj5xg4v4bct2wipr6prit3tlbxmlhqq",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-05-29T21:23:04.759Z",
+  "indexedAt": "2025-05-31T10:33:16.061Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6362,6 +6362,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "open-telemetry-opentelemetry-go-compile-instrumentation",
+        "locales": [
+          {
+            "description": "TBD\nhttps://github.com/open-telemetry/opentelemetry-go-compile-instrumentation",
+            "lang": "en",
+            "name": "open-telemetry/opentelemetry-go-compile-instrumentation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "datadog-orchestrion",
+        "locales": [
+          {
+            "description": "Automatic compile-time instrumentation of Go code\nhttps://github.com/DataDog/orchestrion",
+            "lang": "en",
+            "name": "Datadog/orchestrion"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -6817,7 +6845,9 @@
       "adamj-adamj-github-io",
       "containerish-openregistry",
       "adamj-game-tracker",
-      "windos-burnttoast"
+      "windos-burnttoast",
+      "open-telemetry-opentelemetry-go-compile-instrumentation",
+      "datadog-orchestrion"
     ]
   }
 }
