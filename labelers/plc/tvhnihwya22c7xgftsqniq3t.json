@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tvhnihwya22c7xgftsqniq3t/app.bsky.labeler.service/self",
-  "cid": "bafyreicvrygid4qysrp3ixyvtg7klnt4a5oqyklb47zfoedbhc5cuqyq54",
+  "cid": "bafyreidqg7cboy2pi65nwn7b73xlwmyq77ykyghiew6xbww7f4oexjgzku",
   "creator": {
     "did": "did:plc:tvhnihwya22c7xgftsqniq3t",
     "handle": "verified.fieldleveltech.org",
@@ -14,7 +14,7 @@
     "description": "Teal tick badges for verified human accounts. \n\n~~Proof of concept demo only!~~ \n\nCurrently these badges ONLY prove the user has verified they have a uk bank account. \n\nBadges do not mean the users handle verified. They may still not be who they claim.",
     "indexedAt": "2025-03-21T19:36:39.143Z"
   },
-  "indexedAt": "2025-03-14T12:01:59.559Z",
+  "indexedAt": "2025-06-02T13:56:09.250Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -45,11 +45,26 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "flt-verified-name",
+        "locales": [
+          {
+            "description": "Given to accounts that have proven their display name via OneID.",
+            "lang": "en",
+            "name": "verified name"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "flt-verified",
-      "flt-verified-emoji"
+      "flt-verified-emoji",
+      "flt-verified-name"
     ]
   }
 }
