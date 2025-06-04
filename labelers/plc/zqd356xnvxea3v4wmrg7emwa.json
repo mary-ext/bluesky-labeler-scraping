@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreietpfn7ksz54zyxi2u6akiegcvddlbjlhpbthekfu2s6q2kzrgeqe",
+  "cid": "bafyreicaf4cfiqppk54xwc3wlwzwinhc6e64zwio6wpra6alcwv3oxrkta",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -17,10 +17,38 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-05-20T15:34:08.753Z",
+  "indexedAt": "2025-06-03T22:07:14.658Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "apagender",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Apagender"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "aegosexual",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Aegosexual"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -695,6 +723,8 @@
       }
     ],
     "labelValues": [
+      "apagender",
+      "aegosexual",
       "demiflux",
       "quoigender",
       "quoiromantic",
