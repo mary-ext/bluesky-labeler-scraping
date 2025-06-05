@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreiarbkk7elg6uuqnwkarlkw5i7m5v3bklf7twxgc4kdk4i7lmkyk4e",
+  "cid": "bafyreiena76lorqa3ipk6wy7szv7wyuesqo77te65dapuruz62w2prujhy",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -17,7 +17,7 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nSupport: https://ko-fi.com/skywatch | stats.skywatch.blue",
     "indexedAt": "2025-05-26T04:35:03.340Z"
   },
-  "indexedAt": "2025-05-01T23:01:18.288Z",
+  "indexedAt": "2025-06-04T01:54:02.051Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -397,5 +397,17 @@
       "terf-gc",
       "troll"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }
