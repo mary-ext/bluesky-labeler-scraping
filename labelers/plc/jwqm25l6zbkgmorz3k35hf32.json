@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreick2xfnhvetsb4ll23xr4t3vswgm5sqlcolu7a2is745j3sn5bk2e",
+  "cid": "bafyreidn7y7e47v4di5anp3ffrcpq6o44bvmsp2bekazmhkf2c5jsarncu",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)",
     "indexedAt": "2025-05-04T21:05:48.276Z"
   },
-  "indexedAt": "2025-06-04T15:33:22.447Z",
+  "indexedAt": "2025-06-05T21:06:13.452Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,15 +25,15 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "contains-xwitter",
+        "identifier": "contains-skeet",
         "locales": [
           {
-            "description": "Contains Term: Xwitter",
+            "description": "Contains the word \"skeet\"",
             "lang": "en",
-            "name": "Contains: \"Xwitter\""
+            "name": "Contains skeet"
           }
         ],
-        "severity": "inform"
+        "severity": "alert"
       },
       {
         "adultOnly": false,
@@ -42,26 +42,26 @@
         "identifier": "contains-xitter",
         "locales": [
           {
-            "description": "Contains Term: \"Xitter\"",
+            "description": "Contains the word \"xitter\"",
             "lang": "en",
-            "name": "Contains \"Xitter\""
+            "name": "Contains xitter"
           }
         ],
-        "severity": "inform"
+        "severity": "alert"
       },
       {
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "contains-skeet",
+        "identifier": "contains-xwitter",
         "locales": [
           {
-            "description": "Contains term: \"Skeet\"",
+            "description": "Contains the word \"xwitter\"",
             "lang": "en",
-            "name": "Contains \"Skeet\""
+            "name": "Contains xwitter"
           }
         ],
-        "severity": "inform"
+        "severity": "alert"
       }
     ],
     "labelValues": [
