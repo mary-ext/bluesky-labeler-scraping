@@ -1,0 +1,47 @@
+{
+  "uri": "at://did:plc:bmczzz7fglbadyp6p6tmjy5u/app.bsky.labeler.service/self",
+  "cid": "bafyreidr4ivvaoprll436hapbj2gb4c7635dozvqy4aejsrcbr5i5onjmm",
+  "creator": {
+    "did": "did:plc:bmczzz7fglbadyp6p6tmjy5u",
+    "handle": "cakedaylabeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bmczzz7fglbadyp6p6tmjy5u/bafkreihr6h24f2fbwmects4rohcxnvzfxrsxizzh4mw3rfnr34qdguv7rq@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-06-07T00:50:47.542Z",
+    "indexedAt": "2025-06-07T00:50:47.542Z"
+  },
+  "indexedAt": "2025-06-07T03:48:07.744Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "cakeday",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "It's this user's cake day! A special day to celebrate the anniversary of their account creation.",
+            "lang": "en",
+            "name": "Cake Day!"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "cakeday"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account"
+  ]
+}

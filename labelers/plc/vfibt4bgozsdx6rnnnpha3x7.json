@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreiaiegiwan6dxpk2texcro74p5uduu6mq2sjjnvmr43gimoekadwwa",
+  "cid": "bafyreihacsjwozupsfk7rqnp3rhfdfhpp47i6ozeuq772j6njl5kluhnpu",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -14,7 +14,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev (message me if your app isn't listed below and you think it should be)",
     "indexedAt": "2025-03-20T23:39:08.145Z"
   },
-  "indexedAt": "2025-05-10T05:03:01.746Z",
+  "indexedAt": "2025-06-07T21:08:12.147Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -84,6 +84,34 @@
             "description": "a decentralised and federated link aggregator (fyi.unravel.frontpage.*)",
             "lang": "en",
             "name": "Frontpage"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-grain",
+        "locales": [
+          {
+            "description": "a photo sharing platform (social.grain.*)",
+            "lang": "en",
+            "name": "Grain"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pub-leaflet",
+        "locales": [
+          {
+            "description": "social publishing / blogging (pub.leaflet.*)",
+            "lang": "en",
+            "name": "Leaflet"
           }
         ],
         "severity": "inform"
@@ -260,6 +288,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-wamellow",
+        "locales": [
+          {
+            "description": "bluesky to discord notifications (com.wamellow.*)",
+            "lang": "en",
+            "name": "Wamellow"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-whtwnd",
         "locales": [
           {
@@ -277,6 +319,8 @@
       "blue-badge",
       "im-flushing",
       "fyi-unravel-frontpage",
+      "social-grain",
+      "pub-leaflet",
       "blue-linkat",
       "com-shinolabs-pinksea",
       "app-popsky",
@@ -289,6 +333,7 @@
       "place-stream",
       "sh-tangled",
       "fm-teal",
+      "com-wamellow",
       "com-whtwnd"
     ]
   }

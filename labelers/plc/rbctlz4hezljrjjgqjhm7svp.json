@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreiamsapziycei4zij5n4cb4kxyg7jzd5cwl2vzmc3vywoexklfugtm",
+  "cid": "bafyreihqgeh5xvflo46cthnflh6cbmmybehqdybnonago4ssc5unavcbua",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -17,7 +17,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1️⃣ Subscribe to the labeler\n2️⃣ Follow the labeler (\"...\" menu)\n3️⃣ Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat 💖\n\nCreated by @codedrift.social",
     "indexedAt": "2025-02-26T16:14:33.345Z"
   },
-  "indexedAt": "2025-05-24T16:22:39.958Z",
+  "indexedAt": "2025-06-07T14:47:44.053Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1014,6 +1014,48 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "---the-boyz",
+        "locales": [
+          {
+            "description": "THE B\nUser is a fan of The Boyz\n...in fact, it's their 💖 ult~",
+            "lang": "en",
+            "name": "💖 The Boyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "the-boyz",
+        "locales": [
+          {
+            "description": "THE B\nUser is a fan of The Boyz",
+            "lang": "en",
+            "name": "The Boyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nct-dream",
+        "locales": [
+          {
+            "description": "User is a fan of NCT DREAM",
+            "lang": "en",
+            "name": "NCT DREAM"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1087,7 +1129,10 @@
       "seonghwa",
       "---txt",
       "nct",
-      "chuu"
+      "chuu",
+      "---the-boyz",
+      "the-boyz",
+      "nct-dream"
     ]
   }
 }
