@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7hpffigzovmuhbafrsiy7ne3/app.bsky.labeler.service/self",
-  "cid": "bafyreicvce662gt4iiqc6yo35cjh5ennz6yy5s33a63k2nl3sjsoz5ngre",
+  "cid": "bafyreie4rtnxwceakkinswasij3kzu7ez3vexju4d4m573j4t5pqxr7jfu",
   "creator": {
     "did": "did:plc:7hpffigzovmuhbafrsiy7ne3",
     "handle": "nhllabeler.bsky.social",
@@ -14,7 +14,7 @@
     "description": "(Mostly operational, tagging still inop)\n\nLabel service that differentiates from authentic NHL accounts and those who are impersonating on what would otherwise be a teams handle. Also handles verification of NHL staff and team employees.\n\nRun by @bdogz.xyz",
     "indexedAt": "2025-02-27T11:34:56.645Z"
   },
-  "indexedAt": "2024-12-06T01:21:41.154Z",
+  "indexedAt": "2025-06-08T10:32:57.244Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -22,26 +22,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "confirmed-nhl-team",
+        "identifier": "officialnhlaccount",
         "locales": [
           {
-            "description": "A NHL team account verified by either their domain or by the NHL team themselves. ",
+            "description": "An NHL team account that is verified through their domain, verification status, or otherwise. ",
             "lang": "en",
-            "name": "Authentic NHL Team"
+            "name": "Official NHL Account"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "fake-nhl-team",
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "fakenhlaccount",
         "locales": [
           {
-            "description": "Account that is confirmed to not be owned by the NHL team it claims to be representing and is otherwise impersonating. ",
+            "description": "An NHL account that is not authenticated, and is otherwise name squatting, impersonating the team, or otherwise not officially the team the account claims to represent. ",
             "lang": "en",
-            "name": "Fake Account (NHL Team)"
+            "name": "Fake NHL Account"
           }
         ],
         "severity": "alert"
@@ -50,12 +50,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "confirmed-nhl-official",
+        "identifier": "officialnhlofficial",
         "locales": [
           {
-            "description": "An NHL (or NHL team) official verified by either their domain or by the NHL / NHL team themselves.",
+            "description": "An NHL account that is confirmed to be run by an employee of the NHL.",
             "lang": "en",
-            "name": "Authentic NHL Official"
+            "name": "Official NHL Employee"
           }
         ],
         "severity": "inform"
@@ -64,67 +64,82 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "fake-nhl-official",
+        "identifier": "officialnhlteamemploy",
         "locales": [
           {
-            "description": "Account that is confirmed to not be owned by the official it claims to be representing and is otherwise impersonating.",
+            "description": "An account that is confirmed to be run by an employee of an NHL team.",
             "lang": "en",
-            "name": "Fake Account (NHL Official)"
+            "name": "Official NHL Team Employee"
           }
         ],
-        "severity": "alert"
+        "severity": "none"
       },
       {
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "team-mirror",
+        "identifier": "teammirror",
         "locales": [
           {
-            "description": "Account that is reposting posts from Twitter / X via the sportsbots Mastodon instance. ",
+            "description": "A mirror of the X/Twitter feed of an NHL team posted to Bluesky using a bot.",
             "lang": "en",
-            "name": "Account Mirror (NHL Team)"
+            "name": "NHL Team Mirror"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
       },
       {
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "official-mirror",
+        "identifier": "officialmirror",
         "locales": [
           {
-            "description": "Account that is reposting posts from Twitter / X via the sportsbots Mastodon instance.",
+            "description": "A mirror of the X/Twitter feed of an NHL official posted to Bluesky using a bot.",
             "lang": "en",
-            "name": "Account Mirror (NHL Official)"
+            "name": "NHL Official Mirror"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
       },
       {
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "unknown-nhl-account",
+        "identifier": "nhlmirrorrunners",
         "locales": [
           {
-            "description": "A NHL account that has unknown authenticity and needs further investigation. ",
+            "description": "A Bluesky user who maintains an NHL team or official mirror bot. ",
             "lang": "en",
-            "name": "Unknown Authenticity"
+            "name": "NHL Mirror Creators"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "unconfirmed",
+        "locales": [
+          {
+            "description": "An NHL account that has not been confirmed to be authentic or not. ",
+            "lang": "en",
+            "name": "Unconfirmed NHL Account"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "confirmed-nhl-team",
-      "fake-nhl-team",
-      "confirmed-nhl-official",
-      "fake-nhl-official",
-      "team-mirror",
-      "official-mirror",
-      "unknown-nhl-account"
+      "officialnhlaccount",
+      "fakenhlaccount",
+      "officialnhlofficial",
+      "officialnhlteamemploy",
+      "teammirror",
+      "officialmirror",
+      "nhlmirrorrunners",
+      "unconfirmed"
     ]
   }
 }
