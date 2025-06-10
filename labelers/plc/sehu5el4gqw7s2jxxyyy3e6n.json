@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:sehu5el4gqw7s2jxxyyy3e6n/app.bsky.labeler.service/self",
-  "cid": "bafyreif4fplx23gdualaz5ajfwbtgmwqcezwfhoczm7shtvcgdtnmifwpq",
+  "cid": "bafyreifxxyeze6z3ukukmy3szxbdi4mut7cz4hy4golu2msayqtf2cr27i",
   "creator": {
     "did": "did:plc:sehu5el4gqw7s2jxxyyy3e6n",
     "handle": "for.shame.wtf",
@@ -14,7 +14,7 @@
     "description": "This account places a badge on the profile of accounts that follow a given account, for informational purposes. Automated. \n\nCan be removed by unfollowing said account. Please also visit @singal.shame.wtf.",
     "indexedAt": "2025-02-17T22:02:17.143Z"
   },
-  "indexedAt": "2025-02-18T00:20:57.053Z",
+  "indexedAt": "2025-06-09T02:37:31.449Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -73,13 +73,58 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jessesingal-follower",
+        "locales": [
+          {
+            "description": "This user follows Jesse Singal. This label can be removed by unfollowing Jesse Singal.",
+            "lang": "en",
+            "name": "Jesse Singal Follower"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tomnichols-follower",
+        "locales": [
+          {
+            "description": "This user follows Tom Nichols. This label can be removed by unfollowing Tom Nichols.",
+            "lang": "en",
+            "name": "Tom Nichols Follower"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "meganmcardle-follower",
+        "locales": [
+          {
+            "description": "This user follows Megan McArdle. This label can be removed by unfollowing Megan McArdle.",
+            "lang": "en",
+            "name": "Megan McArdle Follower"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "mattyglesias-follower",
       "mattstoller-follower",
       "jonathanchait-follower",
-      "briannawu-follower"
+      "briannawu-follower",
+      "jessesingal-follower",
+      "tomnichols-follower",
+      "meganmcardle-follower"
     ]
   }
 }
