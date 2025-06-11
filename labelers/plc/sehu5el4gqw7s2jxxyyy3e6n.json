@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:sehu5el4gqw7s2jxxyyy3e6n/app.bsky.labeler.service/self",
-  "cid": "bafyreifxxyeze6z3ukukmy3szxbdi4mut7cz4hy4golu2msayqtf2cr27i",
+  "cid": "bafyreic7ubyz7omv4cwt6eqlu4wnux7nnm22shtm3rs6w5k7lbasi6bso4",
   "creator": {
     "did": "did:plc:sehu5el4gqw7s2jxxyyy3e6n",
     "handle": "for.shame.wtf",
@@ -14,7 +14,7 @@
     "description": "This account places a badge on the profile of accounts that follow a given account, for informational purposes. Automated. \n\nCan be removed by unfollowing said account. Please also visit @singal.shame.wtf.",
     "indexedAt": "2025-02-17T22:02:17.143Z"
   },
-  "indexedAt": "2025-06-09T02:37:31.449Z",
+  "indexedAt": "2025-06-10T03:40:19.148Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -115,6 +115,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chriscillizza-follower",
+        "locales": [
+          {
+            "description": "This user follows Chris Cillizza. This label can be removed by unfollowing Chris Cillizza.",
+            "lang": "en",
+            "name": "Chris Cillizza Follower"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -124,7 +138,8 @@
       "briannawu-follower",
       "jessesingal-follower",
       "tomnichols-follower",
-      "meganmcardle-follower"
+      "meganmcardle-follower",
+      "chriscillizza-follower"
     ]
   }
 }
