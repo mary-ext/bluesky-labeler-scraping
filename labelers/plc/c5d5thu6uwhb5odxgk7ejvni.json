@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreidhkcepaphosx2drelfd46kfmjqxbmmhhik3zlrs5qhfhylm67opa",
+  "cid": "bafyreifpt7cucltbzzskmvbkeq3s6vmre4wyfrefeciehumsjhhynu3dpa",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -14,10 +14,24 @@
     "description": "Subscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-04-23T16:07:04.173Z"
   },
-  "indexedAt": "2025-06-10T17:53:14.354Z",
+  "indexedAt": "2025-06-13T23:21:55.254Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "test-label",
+        "locales": [
+          {
+            "description": "This is a test label.",
+            "lang": "en",
+            "name": "Lest Label"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -627,7 +641,7 @@
         "identifier": "placeholder-three",
         "locales": [
           {
-            "description": "Label description.\nTEST",
+            "description": "placeholder 3",
             "lang": "en",
             "name": "placeholder3"
           }
@@ -636,6 +650,7 @@
       }
     ],
     "labelValues": [
+      "test-label",
       "urbanist",
       "cyclist-urbanism",
       "cyclist-entitled",

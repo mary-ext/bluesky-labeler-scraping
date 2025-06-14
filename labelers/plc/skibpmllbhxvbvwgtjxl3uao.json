@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:skibpmllbhxvbvwgtjxl3uao/app.bsky.labeler.service/self",
-  "cid": "bafyreialyjl5wdylsyklpjgztjlrev7jx72qfdqzcwstgxadusbcoaflrm",
+  "cid": "bafyreiefpjqvfs7k57iw3eq2gsfpziqs5nlfki3quw43rarz6wqmwa3mea",
   "creator": {
     "did": "did:plc:skibpmllbhxvbvwgtjxl3uao",
     "handle": "anti-aging.bsky.social",
@@ -14,10 +14,24 @@
     "description": "Critics are saying:\n\"deeply fucking unserious labeler\"\n\"cringe fr\"\n\"sad lonely jackass\"\n\"hateful rightwing shrew who can't make friends\"\n\"Moderation as satire has arrived\"\n\"the anti-aging labeller is fun, even though whoever runs it is clearly insane\"",
     "indexedAt": "2024-05-24T14:02:08.055Z"
   },
-  "indexedAt": "2025-02-12T19:06:35.661Z",
+  "indexedAt": "2025-06-13T20:14:56.152Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "understands-jokes",
+        "locales": [
+          {
+            "description": "The joke understander has logged on",
+            "lang": "en",
+            "name": "Understands Jokes"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -230,6 +244,7 @@
       }
     ],
     "labelValues": [
+      "understands-jokes",
       "rizz-debuffed",
       "follow-back-whining",
       "slug",
