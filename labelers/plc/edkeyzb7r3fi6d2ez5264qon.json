@@ -1,0 +1,42 @@
+{
+  "uri": "at://did:plc:edkeyzb7r3fi6d2ez5264qon/app.bsky.labeler.service/self",
+  "cid": "bafyreigamf4rpj2jiagrc4wbl4njaube45jt4k4v3kon2rf6nqxkj764my",
+  "creator": {
+    "did": "did:plc:edkeyzb7r3fi6d2ez5264qon",
+    "handle": "runawayproject.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:edkeyzb7r3fi6d2ez5264qon/bafkreibjhc6av2xfxqb4lobj3truulvoqc5cc4r77vb6lmcwee4tjeqocu@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-06-13T23:37:36.239Z",
+    "indexedAt": "2025-06-13T23:37:36.239Z"
+  },
+  "indexedAt": "2025-06-14T23:25:45.957Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "id": "l5h7sl7td5o",
+        "identifier": "buffy-approved",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Things that Buffy approves of.",
+            "lang": "en",
+            "name": "Buffy Approved"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "buffy-approved"
+    ]
+  }
+}
