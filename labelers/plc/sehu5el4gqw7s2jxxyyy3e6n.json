@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:sehu5el4gqw7s2jxxyyy3e6n/app.bsky.labeler.service/self",
-  "cid": "bafyreic7ubyz7omv4cwt6eqlu4wnux7nnm22shtm3rs6w5k7lbasi6bso4",
+  "cid": "bafyreidzre4e4g3axdhqyd3ulm2q5xj5qpjmbznm66pb2cyc2dtvxz5w7i",
   "creator": {
     "did": "did:plc:sehu5el4gqw7s2jxxyyy3e6n",
     "handle": "for.shame.wtf",
@@ -14,7 +14,7 @@
     "description": "This account places a badge on the profile of accounts that follow a given account, for informational purposes. Automated. \n\nCan be removed by unfollowing said account. Please also visit @singal.shame.wtf.",
     "indexedAt": "2025-02-17T22:02:17.143Z"
   },
-  "indexedAt": "2025-06-10T03:40:19.148Z",
+  "indexedAt": "2025-06-18T23:02:59.947Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -129,6 +129,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jdvance-follower",
+        "locales": [
+          {
+            "description": "This user follows JD Vance. This label can be removed by unfollowing JD Vance.",
+            "lang": "en",
+            "name": "JD Vance Follower"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -139,7 +153,8 @@
       "jessesingal-follower",
       "tomnichols-follower",
       "meganmcardle-follower",
-      "chriscillizza-follower"
+      "chriscillizza-follower",
+      "jdvance-follower"
     ]
   }
 }
