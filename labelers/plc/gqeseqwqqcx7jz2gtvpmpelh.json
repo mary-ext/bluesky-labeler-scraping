@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:gqeseqwqqcx7jz2gtvpmpelh/app.bsky.labeler.service/self",
-  "cid": "bafyreigpydjbrl4y7q6bx5qpnxqicn4wjmd2dqpwyinn3e3eoar2wdvzua",
+  "cid": "bafyreibvscxpg3zhyplgtwhydwptskiaqtkpblnz7bofzlyighzspfgudq",
   "creator": {
     "did": "did:plc:gqeseqwqqcx7jz2gtvpmpelh",
     "handle": "manikinekoshield.bsky.social",
@@ -11,17 +11,390 @@
     },
     "labels": [],
     "createdAt": "2025-06-20T14:54:22.631Z",
-    "description": "Ozone Moderation account for manikineko.nl",
-    "indexedAt": "2025-06-20T14:55:57.431Z"
+    "description": "Moderation service by manikineko.nl\nWe protect against all kind of behavior, even listing phobias",
+    "indexedAt": "2025-06-21T10:19:22.532Z"
   },
-  "indexedAt": "2025-06-20T19:27:20.035Z",
+  "indexedAt": "2025-06-21T10:02:16.040Z",
   "labels": [],
   "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "extremist",
+        "locales": [
+          {
+            "description": "Content promoting violent extremism or radical ideologies.",
+            "lang": "en",
+            "name": "Extremism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "terrorism",
+        "locales": [
+          {
+            "description": "Content supporting or glorifying terrorism.",
+            "lang": "en",
+            "name": "Terrorism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "ban-evasion",
+        "locales": [
+          {
+            "description": "Accounts or content attempting to evade bans or suspensions.",
+            "lang": "en",
+            "name": "Ban Evasion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "discriminatory",
+        "locales": [
+          {
+            "description": "Hate speech or targeted discriminatory content.",
+            "lang": "en",
+            "name": "Discriminatory"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "illegal-in-some-countries",
+        "locales": [
+          {
+            "description": "Content that may be illegal in certain countries.",
+            "lang": "en",
+            "name": "Possibly Illegal"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "deceptive",
+        "locales": [
+          {
+            "description": "Misleading, scam-like, or impersonation content.",
+            "lang": "en",
+            "name": "Deceptive"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "severely-graphic",
+        "locales": [
+          {
+            "description": "Extremely graphic images or videos.",
+            "lang": "en",
+            "name": "Severely Graphic"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sensitive-topics",
+        "locales": [
+          {
+            "description": "Potentially distressing or controversial discussions.",
+            "lang": "en",
+            "name": "Sensitive Topics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "arachnophobic-sensitive",
+        "locales": [
+          {
+            "description": "Content that may be triggering for arachnophobia.",
+            "lang": "en",
+            "name": "Arachnophobia Trigger"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "bloody",
+        "locales": [
+          {
+            "description": "Blood or gore in images or video.",
+            "lang": "en",
+            "name": "Bloody"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "political",
+        "locales": [
+          {
+            "description": "Posts discussing politics or political viewpoints.",
+            "lang": "en",
+            "name": "Political"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "false-info",
+        "locales": [
+          {
+            "description": "Demonstrably false or misleading content.",
+            "lang": "en",
+            "name": "False Info"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "dangerous",
+        "locales": [
+          {
+            "description": "Encouragement of dangerous acts or self-harm.",
+            "lang": "en",
+            "name": "Dangerous"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "suspicious",
+        "locales": [
+          {
+            "description": "Untrustworthy or questionable content.",
+            "lang": "en",
+            "name": "Suspicious"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "arachnophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of spiders.",
+            "lang": "en",
+            "name": "Arachnophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "claustrophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of enclosed spaces.",
+            "lang": "en",
+            "name": "Claustrophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "acrophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of heights.",
+            "lang": "en",
+            "name": "Acrophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "ophidiophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of snakes.",
+            "lang": "en",
+            "name": "Ophidiophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "cynophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of dogs.",
+            "lang": "en",
+            "name": "Cynophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "mysophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of germs or contamination.",
+            "lang": "en",
+            "name": "Mysophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "trypophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of clustered holes or patterns.",
+            "lang": "en",
+            "name": "Trypophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "necrophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of dead things.",
+            "lang": "en",
+            "name": "Necrophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "agoraphobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of open or crowded spaces.",
+            "lang": "en",
+            "name": "Agoraphobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "glossophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of public speaking.",
+            "lang": "en",
+            "name": "Glossophobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "dentophobia",
+        "locales": [
+          {
+            "description": "Content that may trigger fear of dentists or dental procedures.",
+            "lang": "en",
+            "name": "Dentophobia"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
     "labelValues": [
-      "",
-      "",
-      "",
-      ""
+      "extremist",
+      "terrorism",
+      "ban-evasion",
+      "discriminatory",
+      "illegal-in-some-countries",
+      "deceptive",
+      "severely-graphic",
+      "sensitive-topics",
+      "arachnophobic-sensitive",
+      "bloody",
+      "political",
+      "false-info",
+      "dangerous",
+      "suspicious",
+      "arachnophobia",
+      "claustrophobia",
+      "acrophobia",
+      "ophidiophobia",
+      "cynophobia",
+      "mysophobia",
+      "trypophobia",
+      "necrophobia",
+      "agoraphobia",
+      "glossophobia",
+      "dentophobia"
     ]
   }
 }
