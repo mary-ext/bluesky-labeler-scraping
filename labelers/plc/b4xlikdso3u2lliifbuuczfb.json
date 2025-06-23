@@ -1,0 +1,54 @@
+{
+  "uri": "at://did:plc:b4xlikdso3u2lliifbuuczfb/app.bsky.labeler.service/self",
+  "cid": "bafyreiftcowz3vsrzrz2zaehvfsecqxwk6ke62643gyqfbofsstvxepm4u",
+  "creator": {
+    "did": "did:plc:b4xlikdso3u2lliifbuuczfb",
+    "handle": "found-haiku.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:b4xlikdso3u2lliifbuuczfb/bafkreigbthjoxtc6ocddd2glyy6lg67h37qotesg3pvlzhkz77vs7s7b2m@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-06-21T22:30:02.530Z",
+    "indexedAt": "2025-06-21T22:30:02.530Z"
+  },
+  "indexedAt": "2025-06-22T01:07:50.642Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "haiku",
+        "locales": [
+          {
+            "description": "this post is a haiku!",
+            "lang": "en",
+            "name": "haiku"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "spam for whatever reason",
+            "lang": "en",
+            "name": "spam"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "haiku",
+      "spam"
+    ]
+  }
+}

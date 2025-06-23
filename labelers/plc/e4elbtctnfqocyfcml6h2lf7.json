@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreifmlaixxnhclwpobhurfvk5qq2b7vez7etxe5ogm4jr2tbkb4leia",
+  "cid": "bafyreibjhjma7lqgvvttrmjgknq2b3svbexpgyd4jwgssbsipgbw7p2ywe",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -17,7 +17,7 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nSupport: https://ko-fi.com/skywatch | stats.skywatch.blue\n\nNot associated with SkySentry.",
     "indexedAt": "2025-06-16T17:15:19.241Z"
   },
-  "indexedAt": "2025-06-18T01:29:52.752Z",
+  "indexedAt": "2025-06-22T18:44:25.244Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -382,6 +382,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "unsourced-reporting",
+        "locales": [
+          {
+            "description": "Account regularly posts information it declares to be factual without supporting evidence or sourcing details.",
+            "lang": "en",
+            "name": "Unsourced Reporting"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -410,7 +424,8 @@
       "sports-betting",
       "suspect-inauthentic",
       "terf-gc",
-      "troll"
+      "troll",
+      "unsourced-reporting"
     ]
   },
   "reasonTypes": [
