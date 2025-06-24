@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreid2vappskvdexe2ngxe4rqszp6kyfk56ja2c7jfuj6lvd7n7idvta",
+  "cid": "bafyreihysmklf4g2f2ffter4t7tl7imlqymubokq2vzgu55ajb5bktcfly",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -25,7 +25,7 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-05-20T13:52:10.142Z"
   },
-  "indexedAt": "2025-05-27T14:45:38.744Z",
+  "indexedAt": "2025-06-23T21:53:43.845Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -145,6 +145,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
+        "identifier": "antisemitism",
+        "locales": [
+          {
+            "description": "Hostility or hate towards Jews",
+            "lang": "en",
+            "name": "Antisemitism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "rude",
         "locales": [
           {
@@ -192,6 +206,7 @@
       "harassment",
       "impersonation",
       "extremist",
+      "antisemitism",
       "spam",
       "engagement_farming",
       "misinformation",
