@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:agq6tlzsv5oqn4du7444yiia/app.bsky.labeler.service/self",
-  "cid": "bafyreib5jxzedmomq6agnw2vbkcmbjbwgvulk56djynvkr6ifggaug5wpm",
+  "cid": "bafyreigijdfyi7lkclemqw4ychdf5fls3xnsremtxpiaaoxstntohdfo5u",
   "creator": {
     "did": "did:plc:agq6tlzsv5oqn4du7444yiia",
     "handle": "musicianlabeler.xyz",
@@ -11,10 +11,10 @@
     },
     "labels": [],
     "createdAt": "2025-06-23T06:37:35.731Z",
-    "description": "work in progress, come back soon!",
-    "indexedAt": "2025-06-23T07:02:46.930Z"
+    "description": "Describe yourself to other musicians/music lovers. Like posts to add labels to yourself.\n\nby: @abnormal.gay\ncode: https://tangled.sh/@abnormal.gay/musicianlabeler\nbased on https://github.com/aliceisjustplaying/labeler-starter-kit-bsky\n\nDM me to add labels",
+    "indexedAt": "2025-06-24T19:14:18.633Z"
   },
-  "indexedAt": "2025-06-23T20:52:21.737Z",
+  "indexedAt": "2025-06-24T07:05:51.839Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,16 +25,676 @@
         "identifier": "prof-musician",
         "locales": [
           {
-            "description": "Teaches Music (in any capacity)",
+            "description": "Professional musician (in any capacity)",
+            "lang": "en",
+            "name": "Professional Musician"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "music-teacher",
+        "locales": [
+          {
+            "description": "Teaches music (in any capacity)",
             "lang": "en",
             "name": "Music Teacher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "music-student",
+        "locales": [
+          {
+            "description": "Learning about music (formal or informal)",
+            "lang": "en",
+            "name": "Music Student"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "music-lover",
+        "locales": [
+          {
+            "description": "Loves music, but doesn't really play",
+            "lang": "en",
+            "name": "Music Lover"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "composer",
+        "locales": [
+          {
+            "description": "Writes original music",
+            "lang": "en",
+            "name": "Composer/Songwriter"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "band-member",
+        "locales": [
+          {
+            "description": "In a band",
+            "lang": "en",
+            "name": "Band Member"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orchestral-musician",
+        "locales": [
+          {
+            "description": "In an orchestra",
+            "lang": "en",
+            "name": "Orchestral Musician"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "singer-vocalist",
+        "locales": [
+          {
+            "description": "Sings!",
+            "lang": "en",
+            "name": "Singer/Vocalist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "soprano-voice",
+        "locales": [
+          {
+            "description": "Sings soprano",
+            "lang": "en",
+            "name": "Soprano (voice)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alto-voice",
+        "locales": [
+          {
+            "description": "Sings alto",
+            "lang": "en",
+            "name": "Alto (voice)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tenor-voice",
+        "locales": [
+          {
+            "description": "Sings tenor",
+            "lang": "en",
+            "name": "Tenor (voice)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "baritone-voice",
+        "locales": [
+          {
+            "description": "Sings baritone",
+            "lang": "en",
+            "name": "Baritone (voice)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bass-voice",
+        "locales": [
+          {
+            "description": "Sings bass",
+            "lang": "en",
+            "name": "Bass (voice)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "guitarist",
+        "locales": [
+          {
+            "description": "Plays the guitar",
+            "lang": "en",
+            "name": "Guitarist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "drummer",
+        "locales": [
+          {
+            "description": "Plays the drums",
+            "lang": "en",
+            "name": "Drummer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "percussionist",
+        "locales": [
+          {
+            "description": "Plays percussion",
+            "lang": "en",
+            "name": "Percussionist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pianist",
+        "locales": [
+          {
+            "description": "Plays the piano",
+            "lang": "en",
+            "name": "Pianist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "accordionist",
+        "locales": [
+          {
+            "description": "Plays the accordion",
+            "lang": "en",
+            "name": "Accordionist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "horn-player",
+        "locales": [
+          {
+            "description": "Plays the horn",
+            "lang": "en",
+            "name": "Horn Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bassoonist",
+        "locales": [
+          {
+            "description": "Plays the bassoon",
+            "lang": "en",
+            "name": "Bassoonist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "clarinetist",
+        "locales": [
+          {
+            "description": "Plays the clarinet",
+            "lang": "en",
+            "name": "Clarinetist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "flutist",
+        "locales": [
+          {
+            "description": "Plays the flute",
+            "lang": "en",
+            "name": "Flutist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "oboist",
+        "locales": [
+          {
+            "description": "Plays the oboe",
+            "lang": "en",
+            "name": "Oboist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "organist",
+        "locales": [
+          {
+            "description": "Plays the organ",
+            "lang": "en",
+            "name": "Organist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "saxophonist",
+        "locales": [
+          {
+            "description": "Plays the saxophone",
+            "lang": "en",
+            "name": "Saxophonist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "trombonist",
+        "locales": [
+          {
+            "description": "Plays the trombone",
+            "lang": "en",
+            "name": "Trombonist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banjo-player",
+        "locales": [
+          {
+            "description": "Plays the banjo",
+            "lang": "en",
+            "name": "Banjo Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "keyboard",
+        "locales": [
+          {
+            "description": "Plays the keyboard",
+            "lang": "en",
+            "name": "Keyboard Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bassist-upright",
+        "locales": [
+          {
+            "description": "Plays the upright/double bass",
+            "lang": "en",
+            "name": "Bassist (upright)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bassist-guitar",
+        "locales": [
+          {
+            "description": "Plays the bass guitar",
+            "lang": "en",
+            "name": "Bassist (guitar)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "guitar-electric",
+        "locales": [
+          {
+            "description": "Plays electric guitar",
+            "lang": "en",
+            "name": "Guitarist (electric)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "guitar-acoustic",
+        "locales": [
+          {
+            "description": "Plays acoustic guitar",
+            "lang": "en",
+            "name": "Guitarist (acoustic)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "guitar-classical",
+        "locales": [
+          {
+            "description": "Plays classical guitar",
+            "lang": "en",
+            "name": "Guitarist (classical)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "harpist",
+        "locales": [
+          {
+            "description": "Plays the harp",
+            "lang": "en",
+            "name": "Harpist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "harpsichordist",
+        "locales": [
+          {
+            "description": "Plays the harpsichord",
+            "lang": "en",
+            "name": "Harpsichordist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mandolin-player",
+        "locales": [
+          {
+            "description": "Plays the mandolin",
+            "lang": "en",
+            "name": "Mandolin Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ukulele-player",
+        "locales": [
+          {
+            "description": "Plays the ukulele",
+            "lang": "en",
+            "name": "Ukulele Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "violist",
+        "locales": [
+          {
+            "description": "Plays the viola",
+            "lang": "en",
+            "name": "Violist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "violinist",
+        "locales": [
+          {
+            "description": "Plays the violin",
+            "lang": "en",
+            "name": "Violinist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cellist",
+        "locales": [
+          {
+            "description": "Plays the cello",
+            "lang": "en",
+            "name": "Cellist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "harmonica-player",
+        "locales": [
+          {
+            "description": "Plays the harmonica",
+            "lang": "en",
+            "name": "Harmonica Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "keytar-player",
+        "locales": [
+          {
+            "description": "Plays the keytar",
+            "lang": "en",
+            "name": "Keytar Player"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dj",
+        "locales": [
+          {
+            "description": "Disc Jockey",
+            "lang": "en",
+            "name": "DJ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "producer",
+        "locales": [
+          {
+            "description": "Inolved in the mixing/production side of music",
+            "lang": "en",
+            "name": "Music Producer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rapper",
+        "locales": [
+          {
+            "description": "They rap",
+            "lang": "en",
+            "name": "Rapper"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "prof-musician"
+      "prof-musician",
+      "music-teacher",
+      "music-student",
+      "music-lover",
+      "composer",
+      "band-member",
+      "orchestral-musician",
+      "singer-vocalist",
+      "soprano-voice",
+      "alto-voice",
+      "tenor-voice",
+      "baritone-voice",
+      "bass-voice",
+      "guitarist",
+      "drummer",
+      "percussionist",
+      "pianist",
+      "accordionist",
+      "horn-player",
+      "bassoonist",
+      "clarinetist",
+      "flutist",
+      "oboist",
+      "organist",
+      "saxophonist",
+      "trombonist",
+      "banjo-player",
+      "keyboard",
+      "bassist-upright",
+      "bassist-guitar",
+      "guitar-electric",
+      "guitar-acoustic",
+      "guitar-classical",
+      "harpist",
+      "harpsichordist",
+      "mandolin-player",
+      "ukulele-player",
+      "violist",
+      "violinist",
+      "cellist",
+      "harmonica-player",
+      "keytar-player",
+      "dj",
+      "producer",
+      "rapper"
     ]
   }
 }
