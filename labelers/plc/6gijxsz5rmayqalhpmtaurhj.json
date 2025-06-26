@@ -1,0 +1,195 @@
+{
+  "uri": "at://did:plc:6gijxsz5rmayqalhpmtaurhj/app.bsky.labeler.service/self",
+  "cid": "bafyreif6abrfcjb3lnzl2myh7yvsiwonwj5vwzru2ugbwppmzo7tefrfpi",
+  "creator": {
+    "did": "did:plc:6gijxsz5rmayqalhpmtaurhj",
+    "handle": "zktls.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6gijxsz5rmayqalhpmtaurhj/bafkreide3d7rgd5hobuxu6o2g7y55dbfvoxsqxoqzbyzkkio2lf74c6at4@jpeg",
+    "associated": {
+      "labeler": true
+    },
+    "labels": [],
+    "createdAt": "2025-06-25T01:59:53.232Z",
+    "indexedAt": "2025-06-25T01:59:53.232Z"
+  },
+  "indexedAt": "2025-06-25T17:06:03.140Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-ai",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Works primarily in artificial intelligence or ML",
+            "lang": "en",
+            "name": "AI / Machine Learning 🤖"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-biology",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Works in biological or life sciences",
+            "lang": "en",
+            "name": "Biology 🧬"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-physics",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Focuses on physical sciences",
+            "lang": "en",
+            "name": "Physics ⚛️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-econ",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Specializes in economic research",
+            "lang": "en",
+            "name": "Economics 💹"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-cs",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Researches in theoretical or applied CS",
+            "lang": "en",
+            "name": "Computer Science 💻"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-neuro",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Works in brain and cognitive science",
+            "lang": "en",
+            "name": "Neuroscience 🧠"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "field-other",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Scientific field not otherwise listed",
+            "lang": "en",
+            "name": "Other Field 🧭"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-orcid",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Identity matched with ORCID profile",
+            "lang": "en",
+            "name": "Verified via ORCID 🧾"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-gs",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Verified using Google Scholar",
+            "lang": "en",
+            "name": "Verified via GS 📄"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-affil",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Verified based on institutional homepage or email",
+            "lang": "en",
+            "name": "Verified Affiliation 🏛️"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "field-ai",
+      "field-biology",
+      "field-physics",
+      "field-econ",
+      "field-cs",
+      "field-neuro",
+      "field-other",
+      "verified-orcid",
+      "verified-gs",
+      "verified-affil"
+    ]
+  }
+}
