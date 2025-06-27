@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:6gijxsz5rmayqalhpmtaurhj/app.bsky.labeler.service/self",
-  "cid": "bafyreif6abrfcjb3lnzl2myh7yvsiwonwj5vwzru2ugbwppmzo7tefrfpi",
+  "cid": "bafyreicem23nohjhxczjd7kbvuy4cx4kgi66hmp4a762jbzyqbqgfwp2pe",
   "creator": {
     "did": "did:plc:6gijxsz5rmayqalhpmtaurhj",
     "handle": "zktls.bsky.social",
@@ -13,183 +13,57 @@
     "createdAt": "2025-06-25T01:59:53.232Z",
     "indexedAt": "2025-06-25T01:59:53.232Z"
   },
-  "indexedAt": "2025-06-25T17:06:03.140Z",
+  "indexedAt": "2025-06-26T18:04:21.541Z",
   "labels": [],
   "policies": {
-    "$type": "app.bsky.labeler.defs#labelerPolicies",
     "labelValueDefinitions": [
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-ai",
+        "defaultSetting": "ignore",
+        "identifier": "twitter-1k",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Works primarily in artificial intelligence or ML",
+            "description": "Has over 1,000 followers on Twitter",
             "lang": "en",
-            "name": "AI / Machine Learning 🤖"
+            "name": "Twitter Follower > 1k 🐦"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
       },
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-biology",
+        "defaultSetting": "ignore",
+        "identifier": "twitter-5k",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Works in biological or life sciences",
+            "description": "Has over 5,000 followers on Twitter",
             "lang": "en",
-            "name": "Biology 🧬"
+            "name": "Twitter Follower > 5k 🐦"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
       },
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-physics",
+        "defaultSetting": "ignore",
+        "identifier": "twitter-10k",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Focuses on physical sciences",
+            "description": "Has over 10,000 followers on Twitter",
             "lang": "en",
-            "name": "Physics ⚛️"
+            "name": "Twitter Follower > 10k 🐦"
           }
         ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-econ",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Specializes in economic research",
-            "lang": "en",
-            "name": "Economics 💹"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-cs",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Researches in theoretical or applied CS",
-            "lang": "en",
-            "name": "Computer Science 💻"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-neuro",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Works in brain and cognitive science",
-            "lang": "en",
-            "name": "Neuroscience 🧠"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "field-other",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Scientific field not otherwise listed",
-            "lang": "en",
-            "name": "Other Field 🧭"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "verified-orcid",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Identity matched with ORCID profile",
-            "lang": "en",
-            "name": "Verified via ORCID 🧾"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "verified-gs",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Verified using Google Scholar",
-            "lang": "en",
-            "name": "Verified via GS 📄"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "verified-affil",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Verified based on institutional homepage or email",
-            "lang": "en",
-            "name": "Verified Affiliation 🏛️"
-          }
-        ],
-        "severity": "inform"
+        "severity": "none"
       }
     ],
     "labelValues": [
-      "field-ai",
-      "field-biology",
-      "field-physics",
-      "field-econ",
-      "field-cs",
-      "field-neuro",
-      "field-other",
-      "verified-orcid",
-      "verified-gs",
-      "verified-affil"
+      "twitter-1k",
+      "twitter-5k",
+      "twitter-10k"
     ]
   }
 }

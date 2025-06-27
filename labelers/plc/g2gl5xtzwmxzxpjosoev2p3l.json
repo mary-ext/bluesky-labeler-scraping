@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreihysmklf4g2f2ffter4t7tl7imlqymubokq2vzgu55ajb5bktcfly",
+  "cid": "bafyreigegwpbibfcqlneondm7laqxgqjzcrve4afavap57rwr2eorlkg2a",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -25,7 +25,7 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-05-20T13:52:10.142Z"
   },
-  "indexedAt": "2025-06-23T21:53:43.845Z",
+  "indexedAt": "2025-06-26T09:11:58.238Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -78,7 +78,7 @@
         "identifier": "trolls",
         "locales": [
           {
-            "description": "Label for posts and accounts which spam users with off-topic replies, engage in troll like behavior, or which engage in concern trolling. This label is also applied to accounts whose bio contains several terms that are frequently used by troll accounts and may accidentally catch some reclaiming uses: please appeal any errors by tapping the label.",
+            "description": "Intentionally offensive or provocative, with motivations ranging from harmless to malicious.",
             "lang": "en",
             "name": "Trolls"
           }
@@ -196,6 +196,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "derailing",
+        "locales": [
+          {
+            "description": "Intentionally interrupting or straying away from the topic of discussion.",
+            "lang": "en",
+            "name": "Derailing"
+          }
+        ],
+        "severity": "none"
       }
     ],
     "labelValues": [
@@ -210,7 +224,8 @@
       "spam",
       "engagement_farming",
       "misinformation",
-      "stalking"
+      "stalking",
+      "derailing"
     ]
   }
 }
