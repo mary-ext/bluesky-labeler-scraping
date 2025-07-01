@@ -6,7 +6,10 @@
     "handle": "moderation.bsky.app",
     "displayName": "Bluesky Moderation Service",
     "associated": {
-      "labeler": true
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
     },
     "labels": [],
     "createdAt": "2023-04-11T17:29:51.242Z",
