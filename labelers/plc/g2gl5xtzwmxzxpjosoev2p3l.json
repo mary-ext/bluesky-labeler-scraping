@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreigegwpbibfcqlneondm7laqxgqjzcrve4afavap57rwr2eorlkg2a",
+  "cid": "bafyreig4bdybwmetgvd5z636xupxpfrxjsltzizvqzmz54l7mofbjfrfpy",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -28,7 +28,7 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-05-20T13:52:10.142Z"
   },
-  "indexedAt": "2025-06-26T09:11:58.238Z",
+  "indexedAt": "2025-07-01T11:35:00.742Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -70,6 +70,20 @@
             "description": "Scams, phishing & fraud.",
             "lang": "en",
             "name": "Scam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "gaslighting",
+        "locales": [
+          {
+            "description": "Emotional abuse and manipulation",
+            "lang": "en",
+            "name": "Gaslighting"
           }
         ],
         "severity": "alert"
@@ -228,7 +242,8 @@
       "engagement_farming",
       "misinformation",
       "stalking",
-      "derailing"
+      "derailing",
+      "gaslighting"
     ]
   }
 }

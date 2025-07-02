@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreidhn4zbn6et4jwcg7f3c5pshd2uc47hted3scp256nm3u35r2m4ta",
+  "cid": "bafyreiaepkqm26hv4jiyiueixrhv27e3gui4kd3lkvqjo7xkjjn7xq667m",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -20,10 +20,24 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-06-20T16:40:00.447Z",
+  "indexedAt": "2025-07-01T20:48:16.246Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "unlabeled",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Unlabeled"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -754,6 +768,7 @@
       }
     ],
     "labelValues": [
+      "unlabeled",
       "multigender",
       "quoiroflux",
       "apagender",
