@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:ty2ciw7zqhow4ypd3lxqsr42/app.bsky.labeler.service/self",
-  "cid": "bafyreibsawhzmuler6pf6nglhhniu5v3s2n7ykpvupdt463llqserkpkoi",
+  "cid": "bafyreibwfc5ggsvflwb3xted7prkoka7h2rkbo7dxuoarkyjggbn3nmkpa",
   "creator": {
     "did": "did:plc:ty2ciw7zqhow4ypd3lxqsr42",
     "handle": "labels.lukeacl.com",
@@ -20,7 +20,7 @@
     "description": "This is the labelling account for @lukeacl.com. Notifications are not monitored.",
     "indexedAt": "2025-06-29T04:54:18.032Z"
   },
-  "indexedAt": "2025-06-29T04:49:07.737Z",
+  "indexedAt": "2025-07-03T03:07:23.042Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -37,10 +37,25 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "blur",
+        "locales": [
+          {
+            "description": "Forcefully blur media from accounts that fail to appropriately label their media.",
+            "lang": "en",
+            "name": "Blur"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
-      "label"
+      "label",
+      "blur"
     ]
   }
 }
