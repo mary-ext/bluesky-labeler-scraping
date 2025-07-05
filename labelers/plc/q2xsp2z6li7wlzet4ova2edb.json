@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreid4el3k6vk5f7b2vqj66z77f7szh5qvj4hblhx7dwurnqk6tefn5i",
+  "cid": "bafyreihdsrtfteklhm3s6sk6gyusxsn2cg4rv6m5mh4onwupl3q57t5lby",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -19,16 +19,16 @@
       {
         "src": "did:plc:q2xsp2z6li7wlzet4ova2edb",
         "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.actor.profile/self",
-        "cid": "bafyreidwa2wvq7qz7vzqpdlkegnral6brxvlmd2t7yzoezv62wnkirqgae",
+        "cid": "bafyreighgryywotu6frldq2p6rvtgsjxh46bmm54j5xpi5yu7v22n2zcfu",
         "val": "!no-unauthenticated",
         "cts": "1970-01-01T00:00:00.000Z"
       }
     ],
     "createdAt": "2024-01-19T02:37:53.220Z",
-    "description": "I am vengeance! I am the night! I am Shadowbanner!\n\nMy DMs are open if you have any questions/suggestions.",
-    "indexedAt": "2024-12-12T20:54:21.844Z"
+    "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
+    "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-03T20:01:41.347Z",
+  "indexedAt": "2025-07-04T18:06:12.644Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -40,7 +40,7 @@
         "identifier": "islamophobic",
         "locales": [
           {
-            "description": "Content that expresses anti-Muslim bias, stereotypes, or hatred.",
+            "description": "Expresses anti-Muslim bias, stereotypes, or hatred.",
             "lang": "en",
             "name": "Islamophobia"
           }
@@ -54,9 +54,37 @@
         "identifier": "dearborn-scapegoating",
         "locales": [
           {
-            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results.",
+            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss.",
             "lang": "en",
             "name": "Dearborn Scapegoating"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-genocide-denial",
+        "locales": [
+          {
+            "description": "Denies, downplays, or justifies the genocide of Palestinians in Gaza, including attempts to minimize civilian casualties, erase context, or deny the scale of violence inflicted.",
+            "lang": "en",
+            "name": "Gaza Genocide Denial"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "us-genocide-role-denial",
+        "locales": [
+          {
+            "description": "Denies, downplays, or justifies the role of the United States in enabling the genocide of Palestinians in Gaza—through the supply of weapons, diplomatic protection, and political support to Israel—since the October 7, 2023 attacks.",
+            "lang": "en",
+            "name": "Denies US Genocide Role"
           }
         ],
         "severity": "alert"
@@ -64,7 +92,9 @@
     ],
     "labelValues": [
       "islamophobic",
-      "dearborn-scapegoating"
+      "dearborn-scapegoating",
+      "gaza-genocide-denial",
+      "us-genocide-role-denial"
     ],
     "policies": {},
     "reasonTypes": [
