@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreihdsrtfteklhm3s6sk6gyusxsn2cg4rv6m5mh4onwupl3q57t5lby",
+  "cid": "bafyreigwtu56cb3d2vbphozjnqvo4dzxvhj2pu6wexrbgbmhsdjvhmf6qm",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-04T18:06:12.644Z",
+  "indexedAt": "2025-07-05T22:48:10.739Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -37,12 +37,40 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "islamophobic",
+        "identifier": "ableism",
         "locales": [
           {
-            "description": "Expresses anti-Muslim bias, stereotypes, or hatred.",
+            "description": "Expresses ableism through slurs, derogatory language, or mockery of people with disabilities—including insults tied to cognitive, developmental, or physical differences.",
             "lang": "en",
-            "name": "Islamophobia"
+            "name": "Ableism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "anti-asian-hatred",
+        "locales": [
+          {
+            "description": "Expresses anti-Asian or Sinophobic bias, stereotypes, or hatred—including scapegoating, slurs, and dehumanization targeting Chinese, East Asian, or broader Asian communities.",
+            "lang": "en",
+            "name": "Anti-Asian Hatred"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antisemitic",
+        "locales": [
+          {
+            "description": "Expresses antisemitic views, stereotypes, slurs, or hatred targeting Jewish people.",
+            "lang": "en",
+            "name": "Antisemitism"
           }
         ],
         "severity": "alert"
@@ -65,12 +93,68 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "gaza-genocide-denial",
+        "identifier": "gaza-genocide-denier",
         "locales": [
           {
             "description": "Denies, downplays, or justifies the genocide of Palestinians in Gaza, including attempts to minimize civilian casualties, erase context, or deny the scale of violence inflicted.",
             "lang": "en",
-            "name": "Gaza Genocide Denial"
+            "name": "Gaza Genocide Denier"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-mockery",
+        "locales": [
+          {
+            "description": "Mocks or trivializes the suffering, displacement, or genocide of Palestinians in Gaza.",
+            "lang": "en",
+            "name": "Gaza Mockery"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gloats-over-harm",
+        "locales": [
+          {
+            "description": "Mocks, gloats over, or takes pleasure in others’ suffering—often using “FAFO” to justify harm as deserved. Includes blaming entire communities for political outcomes, regardless of how individuals actually voted.",
+            "lang": "en",
+            "name": "Gloats Over Harm"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "islamophobic",
+        "locales": [
+          {
+            "description": "Expresses anti-Muslim bias, stereotypes, or hatred.",
+            "lang": "en",
+            "name": "Islamophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "leftist-scapegoating",
+        "locales": [
+          {
+            "description": "Blames leftists or progressives for election outcomes, such as attributing Trump's 2024 victory to voters or activists who opposed the Democratic candidate from the left.",
+            "lang": "en",
+            "name": "Leftist Scapegoating"
           }
         ],
         "severity": "alert"
@@ -88,13 +172,34 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "weaponizes-antisemitism",
+        "locales": [
+          {
+            "description": "Misuses allegations of antisemitism to silence, discredit, or attack critics of Israel or supporters of Palestinian rights.",
+            "lang": "en",
+            "name": "Weaponizes Antisemitism"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
-      "islamophobic",
+      "ableism",
+      "anti-asian-hatred",
+      "antisemitic",
       "dearborn-scapegoating",
-      "gaza-genocide-denial",
-      "us-genocide-role-denial"
+      "gaza-genocide-denier",
+      "gaza-mockery",
+      "gloats-over-harm",
+      "islamophobic",
+      "leftist-scapegoating",
+      "us-genocide-role-denial",
+      "weaponizes-antisemitism"
     ],
     "policies": {},
     "reasonTypes": [
