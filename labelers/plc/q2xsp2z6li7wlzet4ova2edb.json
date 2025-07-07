@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreigwtu56cb3d2vbphozjnqvo4dzxvhj2pu6wexrbgbmhsdjvhmf6qm",
+  "cid": "bafyreiamqsuuxeeitlsgobh55mz2o3wt2iant2zgtt27nbff2kpe2zy454",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-05T22:48:10.739Z",
+  "indexedAt": "2025-07-06T16:15:44.943Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -149,6 +149,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "israel-apologia",
+        "locales": [
+          {
+            "description": "Justifies or defends Israeli military aggression or state violence—including against Palestinians and other states—by downplaying harm, deflecting criticism, or framing resistance as illegitimate.",
+            "lang": "en",
+            "name": "Israel Apologia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "leftist-scapegoating",
         "locales": [
           {
@@ -197,6 +211,7 @@
       "gaza-mockery",
       "gloats-over-harm",
       "islamophobic",
+      "israel-apologia",
       "leftist-scapegoating",
       "us-genocide-role-denial",
       "weaponizes-antisemitism"
