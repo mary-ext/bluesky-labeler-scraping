@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreihbysohh277jojnhxmst5os6tdrb3cuhwx2qa4gmtgai7q752dr2m",
+  "cid": "bafyreihsva5qwkrivkc3x6c3umukccueasr4ww55jkaafelo5ip73nuxay",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-07T16:22:12.246Z",
+  "indexedAt": "2025-07-08T17:37:19.143Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -82,9 +82,23 @@
         "identifier": "dearborn-scapegoating",
         "locales": [
           {
-            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss. Often uses \"Dearborn\" as a catch-all term for all Muslim-American voters.",
+            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results and Kamala Harris’s loss—often using \"Dearborn\" as a catch-all term for all Muslim-American voters.",
             "lang": "en",
             "name": "Dearborn Scapegoating"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "democratic-apologia",
+        "locales": [
+          {
+            "description": "Defends or excuses Democratic Party inaction, ineffectiveness, or refusal to use available power—often deflecting criticism away from party leadership or elected officials despite their role in enabling harmful policies or outcomes.",
+            "lang": "en",
+            "name": "Democratic Apologia"
           }
         ],
         "severity": "alert"
@@ -177,6 +191,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "transphobic",
+        "locales": [
+          {
+            "description": "Expresses anti-transgender bias, slurs, dehumanization, or hatred targeting trans people or communities.",
+            "lang": "en",
+            "name": "Transphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "us-genocide-role-denial",
         "locales": [
           {
@@ -207,12 +235,14 @@
       "anti-asian-hatred",
       "antisemitic",
       "dearborn-scapegoating",
+      "democratic-apologia",
       "gaza-genocide-denier",
       "gaza-mockery",
       "gloats-over-harm",
       "islamophobic",
       "israel-apologia",
       "leftist-scapegoating",
+      "transphobic",
       "us-genocide-role-denial",
       "weaponizes-antisemitism"
     ],
