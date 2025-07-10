@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreihsva5qwkrivkc3x6c3umukccueasr4ww55jkaafelo5ip73nuxay",
+  "cid": "bafyreihk2dpnnfd3wnywlhhvmc2t3hilfb46kqw7xogoj5g64uvy3v5jiy",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-08T17:37:19.143Z",
+  "indexedAt": "2025-07-09T12:26:59.837Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -82,7 +82,7 @@
         "identifier": "dearborn-scapegoating",
         "locales": [
           {
-            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results and Kamala Harris’s loss—often using \"Dearborn\" as a catch-all term for all Muslim-American voters.",
+            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss. \"Dearborn\" used as a catch-all term for all Muslim-American voters.",
             "lang": "en",
             "name": "Dearborn Scapegoating"
           }
@@ -96,7 +96,7 @@
         "identifier": "democratic-apologia",
         "locales": [
           {
-            "description": "Defends or excuses Democratic Party inaction, ineffectiveness, or refusal to use available power—often deflecting criticism away from party leadership or elected officials despite their role in enabling harmful policies or outcomes.",
+            "description": "Defends or minimizes the failures of the Democratic Party, its leadership, or elected officials by deflecting criticism, lowering expectations, or framing symbolic gestures as meaningful progress despite inaction or complicity in harmful policies.",
             "lang": "en",
             "name": "Democratic Apologia"
           }
@@ -138,7 +138,7 @@
         "identifier": "gloats-over-harm",
         "locales": [
           {
-            "description": "Mocks, gloats over, or takes pleasure in others’ suffering—often using \"FAFO\" to justify harm as deserved. Includes blaming entire communities for political outcomes, regardless of how individuals actually voted.",
+            "description": "Mocks, gloats over, or takes pleasure in others’ suffering—often using “FAFO” to justify harm as deserved. Includes blaming entire communities for political outcomes, regardless of how individuals actually voted.",
             "lang": "en",
             "name": "Gloats Over Harm"
           }
@@ -191,10 +191,24 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "trans-scapegoating",
+        "locales": [
+          {
+            "description": "Blames trans people, trans rights, or trans visibility for broader societal or political problems—often framing them as a political liability or electoral threat.",
+            "lang": "en",
+            "name": "Trans Scapegoating"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "transphobic",
         "locales": [
           {
-            "description": "Expresses anti-transgender bias, slurs, dehumanization, or hatred targeting trans people or communities.",
+            "description": "Expresses transphobic views, slurs, mockery, or hatred targeting trans people—including denial of trans identities, harassment, or dehumanization.",
             "lang": "en",
             "name": "Transphobia"
           }
@@ -242,18 +256,10 @@
       "islamophobic",
       "israel-apologia",
       "leftist-scapegoating",
+      "trans-scapegoating",
       "transphobic",
       "us-genocide-role-denial",
       "weaponizes-antisemitism"
-    ],
-    "policies": {},
-    "reasonTypes": [
-      "com.atproto.moderation.defs#reasonRude",
-      "com.atproto.moderation.defs#reasonOther"
-    ],
-    "subjectTypes": [
-      "account",
-      "record"
     ]
   },
   "reasonTypes": [
