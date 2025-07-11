@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreihk2dpnnfd3wnywlhhvmc2t3hilfb46kqw7xogoj5g64uvy3v5jiy",
+  "cid": "bafyreicrwalkktb4hb76wosbltttk6tsh7xqmvthalicpx5nmlpvspstyy",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-09T12:26:59.837Z",
+  "indexedAt": "2025-07-10T17:56:54.044Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -135,6 +135,34 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "gaza-disinfo-spreader",
+        "locales": [
+          {
+            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
+            "lang": "en",
+            "name": "Gaza Disinfo Spreader"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gazawood-disinfo-follower",
+        "locales": [
+          {
+            "description": "Follows an account identified for spreading disinformation and conspiracy theories to delegitimize Palestinian suffering and dismiss war crimes evidence—such as the so-called 'Gazawood' narrative used to discredit genuine documentation from Gaza.",
+            "lang": "en",
+            "name": "Gaza Disinfo Follower"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "gloats-over-harm",
         "locales": [
           {
@@ -169,6 +197,20 @@
             "description": "Justifies or defends Israeli military aggression or state violence—including against Palestinians and other states—by downplaying harm, deflecting criticism, or framing resistance as illegitimate.",
             "lang": "en",
             "name": "Israel Apologia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "latino-scapegoating",
+        "locales": [
+          {
+            "description": "Blames Latino voters or Latino communities for political or electoral outcomes—often framing them as responsible for right-wing victories or policy setbacks, while erasing the diversity of political views within these communities.",
+            "lang": "en",
+            "name": "Latino Scapegoating"
           }
         ],
         "severity": "alert"
@@ -252,9 +294,12 @@
       "democratic-apologia",
       "gaza-genocide-denier",
       "gaza-mockery",
+      "gaza-disinfo-spreader",
+      "gazawood-disinfo-follower",
       "gloats-over-harm",
       "islamophobic",
       "israel-apologia",
+      "latino-scapegoating",
       "leftist-scapegoating",
       "trans-scapegoating",
       "transphobic",
