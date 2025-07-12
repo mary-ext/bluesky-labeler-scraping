@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7kykji2z2jie3tcaz6jypwsf/app.bsky.labeler.service/self",
-  "cid": "bafyreieprwwal36zilnz4j3o4ypnyenj7rkr42abtlrspq3w2v2yojnbc4",
+  "cid": "bafyreibpxt6fj2e5uuc5lqv2xceiiu35zcyawr4gs47jwpgkantv57tm2u",
   "creator": {
     "did": "did:plc:7kykji2z2jie3tcaz6jypwsf",
     "handle": "eurosky-ozone.bsky.social",
@@ -16,9 +16,50 @@
     "createdAt": "2025-07-09T17:33:49.532Z",
     "indexedAt": "2025-07-09T17:33:49.532Z"
   },
-  "indexedAt": "2025-07-09T17:40:56.740Z",
+  "indexedAt": "2025-07-11T20:21:40.436Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "Applied to content that violates or discusses breaking platform rules.",
+            "lang": "en",
+            "name": "Rule Violation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Applied to content that is unsolicited, repetitive, or promotional in nature.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "rude",
+      "spam"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonRude"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }

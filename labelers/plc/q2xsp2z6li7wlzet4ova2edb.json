@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreicrwalkktb4hb76wosbltttk6tsh7xqmvthalicpx5nmlpvspstyy",
+  "cid": "bafyreibhwv7ozjv2ervcv3rz6neyawhohdwdwho7flb5yptpgtnnxsfpcq",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-10T17:56:54.044Z",
+  "indexedAt": "2025-07-11T18:00:31.046Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -107,6 +107,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "gaza-disinfo-spreader",
+        "locales": [
+          {
+            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
+            "lang": "en",
+            "name": "Gaza Disinfo Spreader"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "gaza-genocide-denier",
         "locales": [
           {
@@ -135,20 +149,6 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "gaza-disinfo-spreader",
-        "locales": [
-          {
-            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
-            "lang": "en",
-            "name": "Gaza Disinfo Spreader"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
         "identifier": "gazawood-disinfo-follower",
         "locales": [
           {
@@ -166,7 +166,7 @@
         "identifier": "gloats-over-harm",
         "locales": [
           {
-            "description": "Mocks, gloats over, or takes pleasure in others’ suffering—often using “FAFO” to justify harm as deserved. Includes blaming entire communities for political outcomes, regardless of how individuals actually voted.",
+            "description": "Mocks, gloats over, or takes pleasure in others’ suffering—often using 'FAFO' to justify harm as deserved. Includes blaming entire communities for political outcomes, regardless of how individuals actually voted.",
             "lang": "en",
             "name": "Gloats Over Harm"
           }
@@ -233,6 +233,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "racism",
+        "locales": [
+          {
+            "description": "Expresses racist views, slurs, dehumanization, or hateful stereotypes targeting any racial or ethnic group.",
+            "lang": "en",
+            "name": "Racism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "trans-scapegoating",
         "locales": [
           {
@@ -284,6 +298,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "weaponizes-racism",
+        "locales": [
+          {
+            "description": "Misuses accusations of racism to silence, belittle, or discredit others—often to defend political figures, deflect criticism of institutions, or shut down legitimate discourse. This includes making unsubstantiated claims of racism to shield Democratic Party leaders or dismiss opposing viewpoints.",
+            "lang": "en",
+            "name": "Weaponizes Racism"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -292,19 +320,21 @@
       "antisemitic",
       "dearborn-scapegoating",
       "democratic-apologia",
+      "gaza-disinfo-spreader",
       "gaza-genocide-denier",
       "gaza-mockery",
-      "gaza-disinfo-spreader",
       "gazawood-disinfo-follower",
       "gloats-over-harm",
       "islamophobic",
       "israel-apologia",
       "latino-scapegoating",
       "leftist-scapegoating",
+      "racism",
       "trans-scapegoating",
       "transphobic",
       "us-genocide-role-denial",
-      "weaponizes-antisemitism"
+      "weaponizes-antisemitism",
+      "weaponizes-racism"
     ]
   },
   "reasonTypes": [
