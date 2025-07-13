@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreihacsjwozupsfk7rqnp3rhfdfhpp47i6ozeuq772j6njl5kluhnpu",
+  "cid": "bafyreifecwdphshopa752tedyhm6qafmlxql2oncfxxtbeklb3xghpdbpu",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev (message me if your app isn't listed below and you think it should be)",
     "indexedAt": "2025-03-20T23:39:08.145Z"
   },
-  "indexedAt": "2025-06-07T21:08:12.147Z",
+  "indexedAt": "2025-07-12T04:21:58.242Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,6 +31,20 @@
             "description": "2048 on atproto (blue.2048.*)",
             "lang": "en",
             "name": "2048"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "net-anisota",
+        "locales": [
+          {
+            "description": "a speculative, iconoclastic social app (net.anisota.*)",
+            "lang": "en",
+            "name": "Anisota"
           }
         ],
         "severity": "inform"
@@ -318,6 +332,7 @@
     ],
     "labelValues": [
       "blue-twentyfortyeight",
+      "net-anisota",
       "blue-zio-atfile",
       "blue-badge",
       "im-flushing",
