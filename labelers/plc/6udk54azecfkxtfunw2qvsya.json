@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:6udk54azecfkxtfunw2qvsya/app.bsky.labeler.service/self",
-  "cid": "bafyreielg7sl6nma7cpdiwifkcpabcr4rvpynibyumxj3lstvfxruspqya",
+  "cid": "bafyreihocrufpttm7hrahhgaq55gdqweya5irjn6u7htrkuzbjfi4khxde",
   "creator": {
     "did": "did:plc:6udk54azecfkxtfunw2qvsya",
     "handle": "stech-labeler.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-06-19T17:15:06.033Z",
     "indexedAt": "2025-06-19T17:15:06.033Z"
   },
-  "indexedAt": "2025-07-11T15:52:40.747Z",
+  "indexedAt": "2025-07-14T18:19:11.842Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -33,10 +33,25 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cornell-tech-team-member",
+        "locales": [
+          {
+            "description": "A member of the research project from Cornell Tech",
+            "lang": "en",
+            "name": "Cornell Tech Team Member"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "stech-research-team"
+      "stech-research-team",
+      "cornell-tech-team-member"
     ]
   }
 }

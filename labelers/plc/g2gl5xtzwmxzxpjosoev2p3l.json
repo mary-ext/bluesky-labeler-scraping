@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:g2gl5xtzwmxzxpjosoev2p3l/app.bsky.labeler.service/self",
-  "cid": "bafyreig4bdybwmetgvd5z636xupxpfrxjsltzizvqzmz54l7mofbjfrfpy",
+  "cid": "bafyreihdpdjwab2ixt4rq57b6sdnltwcp2jypbg4kcclqb5yejivlwut6e",
   "creator": {
     "did": "did:plc:g2gl5xtzwmxzxpjosoev2p3l",
     "handle": "twyllagea.de",
@@ -28,7 +28,7 @@
     "description": "To foster a more secure online experience.",
     "indexedAt": "2025-07-11T21:52:47.932Z"
   },
-  "indexedAt": "2025-07-01T11:35:00.742Z",
+  "indexedAt": "2025-07-14T17:34:41.344Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -101,6 +101,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "brigading",
+        "locales": [
+          {
+            "description": "Organized mass reporting, targeted harassment, unfairly manipulating how things look or feel",
+            "lang": "en",
+            "name": "Brigading"
+          }
+        ],
+        "severity": "alert"
       },
       {
         "adultOnly": false,
@@ -243,7 +257,8 @@
       "misinformation",
       "stalking",
       "derailing",
-      "gaslighting"
+      "gaslighting",
+      "brigading"
     ]
   }
 }
