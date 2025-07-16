@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreibhwv7ozjv2ervcv3rz6neyawhohdwdwho7flb5yptpgtnnxsfpcq",
+  "cid": "bafyreifqg7xwlmoz76bsnydzgo44y7dswzupzsuhwjj32brhkipvymgytq",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-11T18:00:31.046Z",
+  "indexedAt": "2025-07-15T20:27:27.542Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -82,7 +82,7 @@
         "identifier": "dearborn-scapegoating",
         "locales": [
           {
-            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss. \"Dearborn\" used as a catch-all term for all Muslim-American voters.",
+            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss. 'Dearborn' used as a catch-all term for all Muslim-American voters.",
             "lang": "en",
             "name": "Dearborn Scapegoating"
           }
@@ -99,20 +99,6 @@
             "description": "Defends or minimizes the failures of the Democratic Party, its leadership, or elected officials by deflecting criticism, lowering expectations, or framing symbolic gestures as meaningful progress despite inaction or complicity in harmful policies.",
             "lang": "en",
             "name": "Democratic Apologia"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "gaza-disinfo-spreader",
-        "locales": [
-          {
-            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
-            "lang": "en",
-            "name": "Gaza Disinfo Spreader"
           }
         ],
         "severity": "alert"
@@ -141,6 +127,20 @@
             "description": "Mocks or trivializes the suffering, displacement, or genocide of Palestinians in Gaza.",
             "lang": "en",
             "name": "Gaza Mockery"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-disinfo-spreader",
+        "locales": [
+          {
+            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
+            "lang": "en",
+            "name": "Gaza Disinfo Spreader"
           }
         ],
         "severity": "alert"
@@ -303,12 +303,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "weaponizes-racism",
+        "identifier": "misogyny",
         "locales": [
           {
-            "description": "Misuses accusations of racism to silence, belittle, or discredit others—often to defend political figures, deflect criticism of institutions, or shut down legitimate discourse. This includes making unsubstantiated claims of racism to shield Democratic Party leaders or dismiss opposing viewpoints.",
+            "description": "Expresses misogynistic views, contempt, or hatred toward women—including harassment, slurs, and attempts to control or demean women.",
             "lang": "en",
-            "name": "Weaponizes Racism"
+            "name": "Misogyny"
           }
         ],
         "severity": "alert"
@@ -320,9 +320,9 @@
       "antisemitic",
       "dearborn-scapegoating",
       "democratic-apologia",
-      "gaza-disinfo-spreader",
       "gaza-genocide-denier",
       "gaza-mockery",
+      "gaza-disinfo-spreader",
       "gazawood-disinfo-follower",
       "gloats-over-harm",
       "islamophobic",
@@ -334,7 +334,15 @@
       "transphobic",
       "us-genocide-role-denial",
       "weaponizes-antisemitism",
-      "weaponizes-racism"
+      "misogyny"
+    ],
+    "reasonTypes": [
+      "com.atproto.moderation.defs#reasonRude",
+      "com.atproto.moderation.defs#reasonOther"
+    ],
+    "subjectTypes": [
+      "account",
+      "record"
     ]
   },
   "reasonTypes": [
