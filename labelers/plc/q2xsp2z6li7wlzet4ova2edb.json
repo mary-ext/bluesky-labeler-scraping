@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreifqg7xwlmoz76bsnydzgo44y7dswzupzsuhwjj32brhkipvymgytq",
+  "cid": "bafyreidksdlx4mfhn53uz7dtdhmoo642dpkhzl5yo4mlqjnkwojmyi5uv4",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-15T20:27:27.542Z",
+  "indexedAt": "2025-07-16T15:34:49.345Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -107,6 +107,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "gaza-disinfo-spreader",
+        "locales": [
+          {
+            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
+            "lang": "en",
+            "name": "Gaza Disinfo Spreader"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "gaza-genocide-denier",
         "locales": [
           {
@@ -127,20 +141,6 @@
             "description": "Mocks or trivializes the suffering, displacement, or genocide of Palestinians in Gaza.",
             "lang": "en",
             "name": "Gaza Mockery"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "gaza-disinfo-spreader",
-        "locales": [
-          {
-            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
-            "lang": "en",
-            "name": "Gaza Disinfo Spreader"
           }
         ],
         "severity": "alert"
@@ -233,6 +233,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "political-spammer",
+        "locales": [
+          {
+            "description": "Repetitively replies with political memes, or incoherent political phrases—often unrelated to the conversation. Typically low-effort, copy-pasted, or bot-like in tone.",
+            "lang": "en",
+            "name": "Political Spammer"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "racism",
         "locales": [
           {
@@ -298,20 +312,6 @@
           }
         ],
         "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "misogyny",
-        "locales": [
-          {
-            "description": "Expresses misogynistic views, contempt, or hatred toward women—including harassment, slurs, and attempts to control or demean women.",
-            "lang": "en",
-            "name": "Misogyny"
-          }
-        ],
-        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -320,29 +320,21 @@
       "antisemitic",
       "dearborn-scapegoating",
       "democratic-apologia",
+      "gaza-disinfo-spreader",
       "gaza-genocide-denier",
       "gaza-mockery",
-      "gaza-disinfo-spreader",
       "gazawood-disinfo-follower",
       "gloats-over-harm",
       "islamophobic",
       "israel-apologia",
       "latino-scapegoating",
       "leftist-scapegoating",
+      "political-spammer",
       "racism",
       "trans-scapegoating",
       "transphobic",
       "us-genocide-role-denial",
-      "weaponizes-antisemitism",
-      "misogyny"
-    ],
-    "reasonTypes": [
-      "com.atproto.moderation.defs#reasonRude",
-      "com.atproto.moderation.defs#reasonOther"
-    ],
-    "subjectTypes": [
-      "account",
-      "record"
+      "weaponizes-antisemitism"
     ]
   },
   "reasonTypes": [
