@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreidksdlx4mfhn53uz7dtdhmoo642dpkhzl5yo4mlqjnkwojmyi5uv4",
+  "cid": "bafyreibqjkrr7wza5la7iv3xapu4vqzwrv3yy7245fcxxjdvllim5lx4w4",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-16T15:34:49.345Z",
+  "indexedAt": "2025-07-17T15:11:23.342Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -57,6 +57,20 @@
             "description": "Expresses anti-Asian or Sinophobic bias, stereotypes, or hatred—including scapegoating, slurs, and dehumanization targeting Chinese, East Asian, or broader Asian communities.",
             "lang": "en",
             "name": "Anti-Asian Hatred"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "anti-black-racism",
+        "locales": [
+          {
+            "description": "Expresses anti-Black bias or racialized contempt—whether through erasure, dog whistles, scapegoating, or dismissing Black voices as illegitimate or harmful. This includes framing Black political dissent as sabotage or foreign interference.",
+            "lang": "en",
+            "name": "Anti-Black Racism"
           }
         ],
         "severity": "alert"
@@ -233,6 +247,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "misogyny",
+        "locales": [
+          {
+            "description": "Expresses misogynistic views, contempt, or hatred toward women—including harassment, slurs, and attempts to control or demean women.",
+            "lang": "en",
+            "name": "Misogyny"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "political-spammer",
         "locales": [
           {
@@ -317,6 +345,7 @@
     "labelValues": [
       "ableism",
       "anti-asian-hatred",
+      "anti-black-racism",
       "antisemitic",
       "dearborn-scapegoating",
       "democratic-apologia",
@@ -329,12 +358,21 @@
       "israel-apologia",
       "latino-scapegoating",
       "leftist-scapegoating",
+      "misogyny",
       "political-spammer",
       "racism",
       "trans-scapegoating",
       "transphobic",
       "us-genocide-role-denial",
       "weaponizes-antisemitism"
+    ],
+    "reasonTypes": [
+      "com.atproto.moderation.defs#reasonRude",
+      "com.atproto.moderation.defs#reasonOther"
+    ],
+    "subjectTypes": [
+      "account",
+      "record"
     ]
   },
   "reasonTypes": [

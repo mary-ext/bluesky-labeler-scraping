@@ -1,0 +1,41 @@
+{
+  "uri": "at://did:plc:x5i64gpystahcvcizwl7p6ry/app.bsky.labeler.service/self",
+  "cid": "bafyreidy6j5eiho6rheo7rxfnbby65zszlzpcinqbcfphsct7ja52aqg5e",
+  "creator": {
+    "did": "did:plc:x5i64gpystahcvcizwl7p6ry",
+    "handle": "mpi-labeller.mpi-bluesky-pds.mpi-sws.org",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "0001-01-01T00:00:00.000Z"
+  },
+  "indexedAt": "2025-07-17T12:11:09.939Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "Computer Science",
+        "locales": [
+          {
+            "description": "Label description for Computer Science",
+            "lang": "en",
+            "name": "Computer Science"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "Computer Science",
+      "Biology-new",
+      "Physics"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreicxxib3wx2ttdlqmjonw6ng7ihdsmzby65vd5x6x54l6o6ctcf5k4",
+  "cid": "bafyreierj55rnlvo5bi27lvzrty23jwgm5lr5rq4ndguzvwduu3g64xq3u",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -20,39 +20,72 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)",
     "indexedAt": "2025-05-04T21:05:48.276Z"
   },
-  "indexedAt": "2025-07-09T14:04:28.639Z",
+  "indexedAt": "2025-07-17T20:48:18.845Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
-        "identifier": "54357565",
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-pin-emoji",
         "locales": [
           {
-            "description": "Label description.",
+            "description": "Contains the emoji \"📌\"",
             "lang": "en",
-            "name": "Label Display Name"
+            "name": "Contains 📌"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-xwitter",
+        "locales": [
+          {
+            "description": "Contains the word \"xwitter\"",
+            "lang": "en",
+            "name": "Contains Xwitter"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-xitter",
+        "locales": [
+          {
+            "description": "Contains the word \"xitter\"",
+            "lang": "en",
+            "name": "Contains Xitter"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-skeet",
+        "locales": [
+          {
+            "description": "Contains the word \"skeet\"",
+            "lang": "en",
+            "name": "Contains Skeet"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
-      "test",
-      "54357565",
-      "6546",
-      "454576567",
-      "454576567",
-      "212244656",
-      "54767655",
-      "54654677656",
-      "76587676564",
-      "testing",
-      "11111111111",
-      "2222222222",
-      "33333333"
+      "contains-pin-emoji",
+      "contains-xwitter",
+      "contains-xitter",
+      "contains-skeet"
     ]
   },
   "reasonTypes": [
