@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreibqjkrr7wza5la7iv3xapu4vqzwrv3yy7245fcxxjdvllim5lx4w4",
+  "cid": "bafyreih3pq3l6am2t652gx7lld3y2u4nyuxdwdiwmbc7ikwlps4wwkdpti",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-17T15:11:23.342Z",
+  "indexedAt": "2025-07-21T11:58:21.842Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -99,6 +99,20 @@
             "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss. 'Dearborn' used as a catch-all term for all Muslim-American voters.",
             "lang": "en",
             "name": "Dearborn Scapegoating"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "debate-lord",
+        "locales": [
+          {
+            "description": "Obsessively argues in bad faith, demands “debate” on human rights or genocide, or derails threads with pedantic, contrarian whataboutism. Typically refuses to engage in good-faith dialogue and attempts to dominate conversations through volume or derailment.",
+            "lang": "en",
+            "name": "Debate Lord"
           }
         ],
         "severity": "alert"
@@ -191,6 +205,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "homophobic",
+        "locales": [
+          {
+            "description": "Expresses homophobic views, slurs, or hatred targeting lesbian, gay, or queer people—including mockery, harassment, or denial of LGBTQ+ identities or rights.",
+            "lang": "en",
+            "name": "Homophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "islamophobic",
         "locales": [
           {
@@ -247,6 +275,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "maga-troll",
+        "locales": [
+          {
+            "description": "Spams or hijacks conversations with pro-Trump memes, conspiracy rhetoric, or culture war bait—often fixated on 'woke' narratives, Democrats, or political enemies.",
+            "lang": "en",
+            "name": "MAGA Troll"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "misogyny",
         "locales": [
           {
@@ -281,6 +323,20 @@
             "description": "Expresses racist views, slurs, dehumanization, or hateful stereotypes targeting any racial or ethnic group.",
             "lang": "en",
             "name": "Racism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "resist-troll",
+        "locales": [
+          {
+            "description": "Spams or derails conversations with Democratic Party talking points, resistance-style memes, or incoherent replies—often accusing critics of being MAGA, Russian bots, or secretly supporting Trump.",
+            "lang": "en",
+            "name": "Resist Troll"
           }
         ],
         "severity": "alert"
@@ -340,6 +396,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "weaponizes-racism",
+        "locales": [
+          {
+            "description": "Misuses accusations of racism to silence, belittle, or discredit others—often to defend political figures, deflect criticism of institutions, or shut down legitimate discourse. This includes making unsubstantiated claims of racism to shield Democratic Party leaders or dismiss opposing viewpoints.",
+            "lang": "en",
+            "name": "Weaponizes Racism"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -348,23 +418,28 @@
       "anti-black-racism",
       "antisemitic",
       "dearborn-scapegoating",
+      "debate-lord",
       "democratic-apologia",
       "gaza-disinfo-spreader",
       "gaza-genocide-denier",
       "gaza-mockery",
       "gazawood-disinfo-follower",
       "gloats-over-harm",
+      "homophobic",
       "islamophobic",
       "israel-apologia",
       "latino-scapegoating",
       "leftist-scapegoating",
+      "maga-troll",
       "misogyny",
       "political-spammer",
       "racism",
+      "resist-troll",
       "trans-scapegoating",
       "transphobic",
       "us-genocide-role-denial",
-      "weaponizes-antisemitism"
+      "weaponizes-antisemitism",
+      "weaponizes-racism"
     ],
     "reasonTypes": [
       "com.atproto.moderation.defs#reasonRude",
