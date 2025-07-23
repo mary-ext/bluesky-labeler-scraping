@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mpogduvvraozdcbp6w2lafqg/app.bsky.labeler.service/self",
-  "cid": "bafyreidw3ksgin3bkturr5r5isrmbqmx3trxkhljvx6ewvjxm2muqiuv2a",
+  "cid": "bafyreifrkl2d2a7fmpuxjx46uqcg67ozrq4uw4a5yfm2j7vlwf6hf553yq",
   "creator": {
     "did": "did:plc:mpogduvvraozdcbp6w2lafqg",
     "handle": "warlabel.bsky.social",
@@ -17,10 +17,24 @@
     "description": "A new labeler set unofficially in the Warhammer universe!\nSubscribe and Like to join!\n\nuse \"@warlabel.bsky.social help\" to learn commands",
     "indexedAt": "2024-11-24T20:09:12.747Z"
   },
-  "indexedAt": "2025-07-20T16:24:44.846Z",
+  "indexedAt": "2025-07-22T19:51:01.147Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "night-haunter",
+        "locales": [
+          {
+            "description": "Lord of the night",
+            "lang": "en",
+            "name": "Night Haunter"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -179,7 +193,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "mini-painter",
+        "identifier": "mini-printer",
         "locales": [
           {
             "description": "Full plate or go home",
@@ -905,6 +919,7 @@
       }
     ],
     "labelValues": [
+      "night-haunter",
       "gummy-sculptor",
       "painter",
       "slaanesh",
@@ -967,10 +982,7 @@
       "fulgrim",
       "lion-el-johnson",
       "horus",
-      "emperor-of-mankind",
-      "night-haunter",
-      "night-haunter",
-      "night-haunter"
+      "emperor-of-mankind"
     ]
   }
 }
