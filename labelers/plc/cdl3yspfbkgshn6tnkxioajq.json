@@ -1,0 +1,85 @@
+{
+  "uri": "at://did:plc:cdl3yspfbkgshn6tnkxioajq/app.bsky.labeler.service/self",
+  "cid": "bafyreiebuwkcaurvm7xzvbktyr3vad3ogc375bgpw3kdubqqc6sqcnte2u",
+  "creator": {
+    "did": "did:plc:cdl3yspfbkgshn6tnkxioajq",
+    "handle": "bflabeler-test2.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cdl3yspfbkgshn6tnkxioajq/bafkreidg3tya2u5p3wfk3ivz26zbzilyl7ezfj326ftmrlphsv6wrshfqu@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-07-13T02:35:32.832Z",
+    "description": "カスタムラベラーのテストをしています🐦‍⬛",
+    "indexedAt": "2025-07-13T11:33:31.434Z"
+  },
+  "indexedAt": "2025-07-23T09:48:31.539Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Spam content",
+            "lang": "en",
+            "name": "Spam"
+          },
+          {
+            "description": "スパムコンテンツ",
+            "lang": "ja",
+            "name": "スパム"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "nsfw",
+        "locales": [
+          {
+            "description": "Not safe for work content",
+            "lang": "en",
+            "name": "NSFW"
+          },
+          {
+            "description": "職場閲覧注意コンテンツ",
+            "lang": "ja",
+            "name": "NSFW"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Harassment or abuse",
+            "lang": "en",
+            "name": "Harassment"
+          },
+          {
+            "description": "ハラスメントや嫌がらせ",
+            "lang": "ja",
+            "name": "ハラスメント"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "nsfw",
+      "harassment"
+    ]
+  }
+}

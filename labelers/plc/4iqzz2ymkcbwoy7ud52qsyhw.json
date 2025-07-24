@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:4iqzz2ymkcbwoy7ud52qsyhw/app.bsky.labeler.service/self",
+  "cid": "bafyreid4jyyadd2mf4tq4zhztdmnubztxd5ygwldb5zm5bjm7ugwvzorda",
+  "creator": {
+    "did": "did:plc:4iqzz2ymkcbwoy7ud52qsyhw",
+    "handle": "labeler.indexx.dev",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4iqzz2ymkcbwoy7ud52qsyhw/bafkreih5pwhhk5wf4pt77w2c7o4mhmex325wwebbgmhhyurap6af7cgege@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-07-22T18:20:03.890Z",
+    "indexedAt": "2025-07-22T18:20:03.890Z"
+  },
+  "indexedAt": "2025-07-24T00:15:58.948Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bot",
+        "locales": [
+          {
+            "description": "An account that performs actions autonomously.",
+            "lang": "en",
+            "name": "Automated Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gen-ai-bot",
+        "locales": [
+          {
+            "description": "An account that uses generative AI to perform tasks.",
+            "lang": "en",
+            "name": "Generative AI Bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "has-memory-bot",
+        "locales": [
+          {
+            "description": "An account that stores it's interactions.",
+            "lang": "en",
+            "name": "Has Memory"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "bot",
+      "gen-ai-bot",
+      "has-memory-bot"
+    ]
+  }
+}
