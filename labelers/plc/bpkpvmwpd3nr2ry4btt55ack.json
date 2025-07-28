@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:bpkpvmwpd3nr2ry4btt55ack/app.bsky.labeler.service/self",
-  "cid": "bafyreihjcmce5q4igs4ei56ujkfqhucamkgrqrvytc5d6hjbqrnpjxwz2y",
+  "cid": "bafyreia6g2bwf6kvlfji6eucb5wc3szz3imilqfoo3icuflspo7cds34kq",
   "creator": {
     "did": "did:plc:bpkpvmwpd3nr2ry4btt55ack",
     "handle": "aimod.social",
@@ -17,10 +17,24 @@
     "description": "Labeler for identifying AI imagery.\n\nPlease send a report for appeals. We do not regularly check this account for tags.\n\nFAQ:\nhttps://tinyurl.com/AIILFAQ\n\nOur guidelines:\nhttps://tinyurl.com/3xakn3zd\n\nFor art theft, please report to @arttheft.bsky.social",
     "indexedAt": "2025-05-17T17:02:26.039Z"
   },
-  "indexedAt": "2024-12-06T02:54:18.060Z",
+  "indexedAt": "2025-07-27T02:02:00.819Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-informative",
+        "locales": [
+          {
+            "description": "Includes generative imagery, but where the posted image is not the primary source and is specifically used in the context of education, examination, or critical evaluation.",
+            "lang": "en",
+            "name": "AI Informative"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -107,6 +121,7 @@
       }
     ],
     "labelValues": [
+      "ai-informative",
       "ai-assisted",
       "ai-modified",
       "ai-avatar-or-banner",

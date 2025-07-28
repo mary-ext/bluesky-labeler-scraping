@@ -1,0 +1,43 @@
+{
+  "uri": "at://did:plc:cdkysjo2taj2jpy3qoostthu/app.bsky.labeler.service/self",
+  "cid": "bafyreidww632unxu5bkikuishof5do5yabwi3hrvlbu4qpxxumouetwazm",
+  "creator": {
+    "did": "did:plc:cdkysjo2taj2jpy3qoostthu",
+    "handle": "bottags.bsky.social",
+    "displayName": "Bot Tag Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cdkysjo2taj2jpy3qoostthu/bafkreif6gcheendfcwnveje2kskz7zj2o73nzlcdf6y6bn5yninh52o4zm@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-07-27T14:52:38.897Z",
+    "description": "\nPrevent top-level posts that tag bots from appearing in feeds.\n\nE.g. \"<bot> can you guess my favorite color?\"\n\nUses the chat bots moderation list by @reducenoise.bsky.social: \n\nhttps://bsky.app/profile/reducenoise.bsky.social/lists/3lq6gq2m4sg2i",
+    "indexedAt": "2025-07-27T20:38:58.198Z"
+  },
+  "indexedAt": "2025-07-27T20:01:19.904Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "bottag-toplevel",
+        "locales": [
+          {
+            "description": "A top-level post that tags a bot account",
+            "lang": "en",
+            "name": "Bot Tag"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "bottag-toplevel"
+    ]
+  }
+}

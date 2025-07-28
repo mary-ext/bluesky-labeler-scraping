@@ -1,0 +1,102 @@
+{
+  "uri": "at://did:plc:l6q2wesytecleoalo6r6q4f3/app.bsky.labeler.service/self",
+  "cid": "bafyreiesne555kmk3fgoyspsyugf2n4sj6muako76qhwpmwnpgezi6av5i",
+  "creator": {
+    "did": "did:plc:l6q2wesytecleoalo6r6q4f3",
+    "handle": "blue.lukeacl.com",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:l6q2wesytecleoalo6r6q4f3/bafkreiak7eaknki3ulkp4zqudfq2zymfnklchqam3leapdv4zxbrbavz7u@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-07-27T05:41:03.498Z",
+    "indexedAt": "2025-07-27T05:41:03.498Z"
+  },
+  "indexedAt": "2025-07-27T06:42:49.705Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misleading",
+        "locales": [
+          {
+            "description": "Accounts that have been observed to be misleading.",
+            "lang": "en",
+            "name": "Misleading"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "Accounts that have been observed to be harassing, menacing, trolling, or intolerant.",
+            "lang": "en",
+            "name": "Anti-Social Behaviour"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "sexual",
+        "locales": [
+          {
+            "description": "Accounts that have been observed with sexual content without appropriately self labeling them.",
+            "lang": "en",
+            "name": "Unwanted Sexual Content"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Accounts that have been observed to be spammy.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "violation",
+        "locales": [
+          {
+            "description": "Accounts that have been observed violating community standards or laws.",
+            "lang": "en",
+            "name": "Violates Community Standards or Laws"
+          }
+        ],
+        "severity": "none"
+      }
+    ],
+    "labelValues": [
+      "misleading",
+      "rude",
+      "sexual",
+      "spam",
+      "violation"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreidskpffvn5dhvr2qlx35eqmurof4rwncvmu3n4ze5aru7vbsqstfy",
+  "cid": "bafyreigyf5tpos2jwp6c2fe6ozy2txbyplb2l27eyrp7qpjkgug2ktphce",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-24T12:36:28.247Z",
+  "indexedAt": "2025-07-27T15:43:49.811Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -68,7 +68,7 @@
         "identifier": "anti-black-racism",
         "locales": [
           {
-            "description": "Expresses anti-Black bias or racialized contempt—whether through erasure, dog whistles, scapegoating, or dismissing Black voices as illegitimate or harmful. This includes framing Black political dissent as sabotage or foreign interference.",
+            "description": "Expresses anti-Black bias, slurs, or dehumanizing views—including those targeting African-Americans, Afro-Caribbeans, or Black communities worldwide.",
             "lang": "en",
             "name": "Anti-Black Racism"
           }
@@ -110,7 +110,7 @@
         "identifier": "debate-lord",
         "locales": [
           {
-            "description": "Obsessively argues in bad faith, demands “debate” on human rights or genocide, or derails threads with pedantic, contrarian whataboutism. Typically refuses to engage in good-faith dialogue and attempts to dominate conversations through volume or derailment.",
+            "description": "Engages in bad faith debating tactics to derail conversations—often prioritizing argumentation over empathy or resolution.",
             "lang": "en",
             "name": "Debate Lord"
           }
@@ -208,9 +208,9 @@
         "identifier": "homophobic",
         "locales": [
           {
-            "description": "Expresses homophobic views, slurs, or hatred targeting lesbian, gay, or queer people—including mockery, harassment, or denial of LGBTQ+ identities or rights.",
+            "description": "Expresses homophobic views, slurs, or hatred targeting gay, lesbian, or queer people—including mockery or denial of LGBTQ+ identities.",
             "lang": "en",
-            "name": "Homophobia"
+            "name": "Homophobic"
           }
         ],
         "severity": "alert"
@@ -278,7 +278,7 @@
         "identifier": "maga-troll",
         "locales": [
           {
-            "description": "Spams or hijacks conversations with pro-Trump memes, conspiracy rhetoric, or culture war bait—often fixated on 'woke' narratives, Democrats, or political enemies.",
+            "description": "Spams or harasses others using pro-Trump slogans, content, or accounts, often derailing political discussion through inflammatory rhetoric.",
             "lang": "en",
             "name": "MAGA Troll"
           }
@@ -292,7 +292,7 @@
         "identifier": "misogyny",
         "locales": [
           {
-            "description": "Expresses misogynistic views, contempt, or hatred toward women—including harassment, slurs, and attempts to control or demean women.",
+            "description": "Expresses misogynistic views, slurs, or hatred targeting women—including gender-based insults, dismissal, or mockery.",
             "lang": "en",
             "name": "Misogyny"
           }
@@ -306,7 +306,7 @@
         "identifier": "political-spammer",
         "locales": [
           {
-            "description": "Repetitively replies with political memes, or incoherent political phrases—often unrelated to the conversation. Typically low-effort, copy-pasted, or bot-like in tone.",
+            "description": "Spams political memes or talking points repeatedly in replies or quotes—typically derailing conversation or promoting low-effort partisanship.",
             "lang": "en",
             "name": "Political Spammer"
           }
@@ -334,7 +334,7 @@
         "identifier": "resist-troll",
         "locales": [
           {
-            "description": "Spams or derails conversations with Democratic Party talking points, resistance-style memes, or incoherent replies—often accusing critics of being MAGA, Russian bots, or secretly supporting Trump.",
+            "description": "Spams anti-Trump or pro-Democratic memes and slogans in a way that derails conversation or promotes resistance-style clout farming.",
             "lang": "en",
             "name": "Resist Troll"
           }
@@ -362,7 +362,7 @@
         "identifier": "transphobic",
         "locales": [
           {
-            "description": "Expresses transphobic views, slurs, mockery, or hatred targeting trans people—including denial of trans identities, harassment, or dehumanization. Includes exorsexism (enbyphobia), or exclusion and invalidation of nonbinary identities.",
+            "description": "Expresses transphobic views, slurs, mockery, or hatred targeting trans people—including denial of trans identities, harassment, or dehumanization.",
             "lang": "en",
             "name": "Transphobia"
           }
@@ -404,9 +404,37 @@
         "identifier": "weaponizes-racism",
         "locales": [
           {
-            "description": "Misuses accusations of racism to silence, belittle, or discredit others—often to defend political figures, deflect criticism of institutions, or shut down legitimate discourse. This includes making unsubstantiated claims of racism to shield Democratic Party leaders or dismiss opposing viewpoints.",
+            "description": "Misuses allegations of racism to shut down criticism, elevate partisan loyalty, or belittle political opponents—often used to dismiss legitimate grievances about Democratic Party inaction.",
             "lang": "en",
             "name": "Weaponizes Racism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "sea-lioning",
+        "locales": [
+          {
+            "description": "Floods replies or quote posts with feigned questions or bad-faith demands for 'evidence'—a classic tactic to exhaust or derail critics while pretending to be reasonable.",
+            "lang": "en",
+            "name": "Sea-Lioning"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "body-shaming",
+        "locales": [
+          {
+            "description": "Mocks, insults, or degrades others based on their body size, weight, or appearance—including fatphobia and aesthetic ridicule.",
+            "lang": "en",
+            "name": "Body Shaming"
           }
         ],
         "severity": "alert"
@@ -439,15 +467,9 @@
       "transphobic",
       "us-genocide-role-denial",
       "weaponizes-antisemitism",
-      "weaponizes-racism"
-    ],
-    "reasonTypes": [
-      "com.atproto.moderation.defs#reasonRude",
-      "com.atproto.moderation.defs#reasonOther"
-    ],
-    "subjectTypes": [
-      "account",
-      "record"
+      "weaponizes-racism",
+      "sea-lioning",
+      "body-shaming"
     ]
   },
   "reasonTypes": [
