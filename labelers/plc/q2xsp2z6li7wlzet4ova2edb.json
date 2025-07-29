@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreigyf5tpos2jwp6c2fe6ozy2txbyplb2l27eyrp7qpjkgug2ktphce",
+  "cid": "bafyreigjxgrykc6a54kjqt4z2g5waex2nhjgrzcatubcsqhkifizocgjp4",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-04T18:10:56.331Z"
   },
-  "indexedAt": "2025-07-27T15:43:49.811Z",
+  "indexedAt": "2025-07-28T14:44:14.910Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -264,7 +264,7 @@
         "identifier": "leftist-scapegoating",
         "locales": [
           {
-            "description": "Blames leftists or progressives for election outcomes, such as attributing Trump's 2024 victory to voters or activists who opposed the Democratic candidate from the left.",
+            "description": "Blames leftists or progressives for election outcomes—such as attributing Trump’s 2024 victory to voters or activists who opposed the Democratic candidate from the left. Also includes international instances of scapegoating the left for political losses or institutional decline.",
             "lang": "en",
             "name": "Leftist Scapegoating"
           }
@@ -470,6 +470,14 @@
       "weaponizes-racism",
       "sea-lioning",
       "body-shaming"
+    ],
+    "reasonTypes": [
+      "com.atproto.moderation.defs#reasonRude",
+      "com.atproto.moderation.defs#reasonOther"
+    ],
+    "subjectTypes": [
+      "account",
+      "record"
     ]
   },
   "reasonTypes": [
