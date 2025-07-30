@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:l6q2wesytecleoalo6r6q4f3/app.bsky.labeler.service/self",
-  "cid": "bafyreiesne555kmk3fgoyspsyugf2n4sj6muako76qhwpmwnpgezi6av5i",
+  "cid": "bafyreihg44ujodh67qttsn6k22gif3iiy5nn6oia7ribkf6wu4xyhz55iy",
   "creator": {
     "did": "did:plc:l6q2wesytecleoalo6r6q4f3",
     "handle": "blue.lukeacl.com",
@@ -16,10 +16,38 @@
     "createdAt": "2025-07-27T05:41:03.498Z",
     "indexedAt": "2025-07-27T05:41:03.498Z"
   },
-  "indexedAt": "2025-07-27T06:42:49.705Z",
+  "indexedAt": "2025-07-29T03:08:41.302Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "other",
+        "locales": [
+          {
+            "description": "Test label.",
+            "lang": "en",
+            "name": "Other"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "other-test",
+        "locales": [
+          {
+            "description": "Test label.",
+            "lang": "en",
+            "name": "Other Test"
+          }
+        ],
+        "severity": "none"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -92,6 +120,8 @@
       }
     ],
     "labelValues": [
+      "other",
+      "other-test",
       "misleading",
       "rude",
       "sexual",

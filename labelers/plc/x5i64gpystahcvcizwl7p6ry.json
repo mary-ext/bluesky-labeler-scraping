@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:x5i64gpystahcvcizwl7p6ry/app.bsky.labeler.service/self",
-  "cid": "bafyreih7frd6t6u6abptzyxtwqh5iayjsovbx6ismubgzzmlq4tukyr4a4",
+  "cid": "bafyreihq6b5cccyvuszwq4o7f7lrqyiy7ieaedro3mmjgbflm5azoea6t4",
   "creator": {
     "did": "did:plc:x5i64gpystahcvcizwl7p6ry",
     "handle": "mpi-labeller.mpi-bluesky-pds.mpi-sws.org",
@@ -13,18 +13,32 @@
     "labels": [],
     "createdAt": "0001-01-01T00:00:00.000Z"
   },
-  "indexedAt": "2025-07-18T06:50:52.142Z",
+  "indexedAt": "2025-07-29T09:16:07.505Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "ignore",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "new-test",
+        "locales": [
+          {
+            "description": "New test check",
+            "lang": "en",
+            "name": "New Test"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "vabukpahari",
         "locales": [
           {
-            "description": "Label description.",
+            "description": "Label something as vabukpahari",
             "lang": "en",
             "name": "vabukpahari"
           }
@@ -33,11 +47,7 @@
       }
     ],
     "labelValues": [
-      "Computer Science",
-      "Biology-new",
-      "Physics",
-      "math",
-      "caiyang",
+      "new-test",
       "vabukpahari"
     ]
   }
