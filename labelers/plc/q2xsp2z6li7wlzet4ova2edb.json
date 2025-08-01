@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreigjxgrykc6a54kjqt4z2g5waex2nhjgrzcatubcsqhkifizocgjp4",
+  "cid": "bafyreic4at7c24oszfdfgsg7ofouz4k45cnb6gnzo6iwc2oxhdka3uxs3i",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -19,16 +19,16 @@
       {
         "src": "did:plc:q2xsp2z6li7wlzet4ova2edb",
         "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.actor.profile/self",
-        "cid": "bafyreighgryywotu6frldq2p6rvtgsjxh46bmm54j5xpi5yu7v22n2zcfu",
+        "cid": "bafyreiga7fvbd2ttfkxubbg6vx4ihlnamuiobovydf6lptwz5tl2g4k6mq",
         "val": "!no-unauthenticated",
         "cts": "1970-01-01T00:00:00.000Z"
       }
     ],
     "createdAt": "2024-01-19T02:37:53.220Z",
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
-    "indexedAt": "2025-07-04T18:10:56.331Z"
+    "indexedAt": "2025-07-31T19:05:56.000Z"
   },
-  "indexedAt": "2025-07-28T14:44:14.910Z",
+  "indexedAt": "2025-07-31T17:01:12.211Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -438,6 +438,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "liberal-conspiracism",
+        "locales": [
+          {
+            "description": "Promotes conspiracy theories rooted in liberal or centrist political frameworks—such as unfounded claims that Kamala Harris secretly won the 2024 election, that foreign governments orchestrated her loss, or that Palestinian solidarity protests were staged or manipulated. Often used to deflect from political accountability or discredit grassroots movements.",
+            "lang": "en",
+            "name": "Liberal Conspiracism"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -469,7 +483,8 @@
       "weaponizes-antisemitism",
       "weaponizes-racism",
       "sea-lioning",
-      "body-shaming"
+      "body-shaming",
+      "liberal-conspiracism"
     ],
     "reasonTypes": [
       "com.atproto.moderation.defs#reasonRude",
