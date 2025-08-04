@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cdl3yspfbkgshn6tnkxioajq/app.bsky.labeler.service/self",
-  "cid": "bafyreiebuwkcaurvm7xzvbktyr3vad3ogc375bgpw3kdubqqc6sqcnte2u",
+  "cid": "bafyreidsrqthndzpbhq4ob7cp4nulrk36jagw7g6lqm4bzvta7ukjgeyii",
   "creator": {
     "did": "did:plc:cdl3yspfbkgshn6tnkxioajq",
     "handle": "bflabeler-test2.bsky.social",
@@ -14,72 +14,528 @@
     },
     "labels": [],
     "createdAt": "2025-07-13T02:35:32.832Z",
-    "description": "カスタムラベラーのテストをしています🐦‍⬛",
-    "indexedAt": "2025-07-13T11:33:31.434Z"
+    "description": "非公式のカスタムラベラーのテストをしています🐦‍⬛",
+    "indexedAt": "2025-08-03T14:31:18.398Z"
   },
-  "indexedAt": "2025-07-23T09:48:31.539Z",
+  "indexedAt": "2025-08-03T15:26:07.111Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "spam",
+        "defaultSetting": "off",
+        "identifier": "1752755893734",
         "locales": [
           {
-            "description": "Spam content",
+            "description": "BFADちゃんがいます\n[Spell+Trap/魔法+罠]",
             "lang": "en",
-            "name": "Spam"
+            "name": "Black Feather Whirlwind"
           },
           {
-            "description": "スパムコンテンツ",
+            "description": "BFADちゃんがいます\n[Spell+Trap/魔法+罠]",
             "lang": "ja",
-            "name": "スパム"
+            "name": "黒羽の旋風"
           }
         ],
         "severity": "inform"
       },
       {
-        "blurs": "media",
-        "defaultSetting": "hide",
-        "identifier": "nsfw",
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752761501881",
         "locales": [
           {
-            "description": "Not safe for work content",
+            "description": "🚩\n[Etc/いろいろ]",
             "lang": "en",
-            "name": "NSFW"
+            "name": "Fight!"
           },
           {
-            "description": "職場閲覧注意コンテンツ",
+            "description": "🚩\n[Etc/いろいろ]",
             "lang": "ja",
-            "name": "NSFW"
+            "name": "ファイトだぞ！"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
       },
       {
         "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "harassment",
+        "defaultSetting": "off",
+        "identifier": "1752829616132",
         "locales": [
           {
-            "description": "Harassment or abuse",
+            "description": "はやくふるがつくといい\n[BF - Synchro/シンクロ]",
             "lang": "en",
-            "name": "Harassment"
+            "name": "Armed Wing"
           },
           {
-            "description": "ハラスメントや嫌がらせ",
+            "description": "はやくふるがつくといい\n[BF - Synchro/シンクロ]",
             "lang": "ja",
-            "name": "ハラスメント"
+            "name": "あーむず・うぃんぐ"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752834743894",
+        "locales": [
+          {
+            "description": "🌟10\n召喚口上をお待ちしています\n[BF - Synchro/シンクロ]",
+            "lang": "en",
+            "name": "Full Armored Wing"
+          },
+          {
+            "description": "🌟10\n召喚口上をお待ちしています\n[BF - Synchro/シンクロ]",
+            "lang": "ja",
+            "name": "フルアーマード・ウィング"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752843686281",
+        "locales": [
+          {
+            "description": "🌟8\nおれのかわいいぶらっくふぇざーどらごん\n[BF - Synchro/シンクロ]",
+            "lang": "en",
+            "name": "BFD"
+          },
+          {
+            "description": "🌟8\nおれのかわいいぶらっくふぇざーどらごん\n[BF - Synchro/シンクロ]",
+            "lang": "ja",
+            "name": "ぶらっくふぇざーどらごん"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752906526813",
+        "locales": [
+          {
+            "description": "⭐2\n[BF - Synchro/シンクロ]",
+            "lang": "en",
+            "name": "Sayo the Rain Hider"
+          },
+          {
+            "description": "⭐2\n[BF - Synchro/シンクロ]",
+            "lang": "ja",
+            "name": "雨隠れのサヨ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752906652752",
+        "locales": [
+          {
+            "description": "かるーとがいます\n[Spell+Trap/魔法+罠]",
+            "lang": "en",
+            "name": "Against the Wind"
+          },
+          {
+            "description": "かるーとがいます\n[Spell+Trap/魔法+罠]",
+            "lang": "ja",
+            "name": "アゲインスト・ウィンド"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752917681409",
+        "locales": [
+          {
+            "description": "🌟10\n[BF - Synchro/シンクロ]",
+            "lang": "en",
+            "name": "Black-Winged Assault Dragon"
+          },
+          {
+            "description": "🌟10\n[BF - Synchro/シンクロ]",
+            "lang": "ja",
+            "name": "ブラックフェザー・アサルト・ドラゴン"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752928234940",
+        "locales": [
+          {
+            "description": "大文字です\n[Etc/いろいろ]",
+            "lang": "en",
+            "name": "Black Wing"
+          },
+          {
+            "description": "大文字です\n[Etc/いろいろ]",
+            "lang": "ja",
+            "name": "Black Feather"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752928699123",
+        "locales": [
+          {
+            "description": "びーえふをつかう　さてらいとうまれの　でゅえりすと\nぶらっくばーどに　のって「とべ―！」しているぞ！\nだいふくが　こうぶつ\n[BF使い]",
+            "lang": "en",
+            "name": "Crow Hogan"
+          },
+          {
+            "description": "びーえふをつかう　さてらいとうまれの　でゅえりすと\nぶらっくばーどに　のって「とべ―！」しているぞ！\nだいふくが　こうぶつ\n[BF使い]",
+            "lang": "ja",
+            "name": "クロウ・ホーガン"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752928978940",
+        "locales": [
+          {
+            "description": "さてらいとで　こどもたちの　じりつをめざしていた　びーえふつかい\nぶらっくばーどを　つくって　ぶらっくふぇざーどらごんと　ぶいぶい　いわしていた\nとくいわざは　しゃどーだんす\n[BF使い]",
+            "lang": "en",
+            "name": "Robert"
+          },
+          {
+            "description": "さてらいとで　こどもたちの　じりつをめざしていた　びーえふつかい\nぶらっくばーどを　つくって　ぶらっくふぇざーどらごんと　ぶいぶい　いわしていた\nとくいわざは　しゃどーだんす\n[BF使い]",
+            "lang": "ja",
+            "name": "ロバート・ピアスン"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752929613793",
+        "locales": [
+          {
+            "description": "👺5\n[Monster]",
+            "lang": "en",
+            "name": "カラス天狗"
+          },
+          {
+            "description": "👺5\n[Monster]",
+            "lang": "ja",
+            "name": "カラス天狗"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752929770901",
+        "locales": [
+          {
+            "description": "⭐2\nArcVで　とうじょうした　すごいやつ\n[Effect/効果]",
+            "lang": "en",
+            "name": "Harmattan the Dust"
+          },
+          {
+            "description": "⭐2\nArcVで　とうじょうした　すごいやつ\n[Effect/効果]",
+            "lang": "ja",
+            "name": "砂塵のハルマッタン"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752935062275",
+        "locales": [
+          {
+            "description": "⭐5\n「な～にかな な～にかな」で紹介され、かつ初召喚された記念すべき最初のBF\n[Effect/効果]",
+            "lang": "en",
+            "name": "Sirocco the Dawn"
+          },
+          {
+            "description": "⭐5\n「な～にかな な～にかな」で紹介され、かつ初召喚された記念すべき最初のBF\n[Effect/効果]",
+            "lang": "ja",
+            "name": "暁のシロッコ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752935732691",
+        "locales": [
+          {
+            "description": "「手札から」\n「「「手札からトラップだとッ!?」」」\n[Etc/いろいろ]",
+            "lang": "en",
+            "name": "手札からトラップ"
+          },
+          {
+            "description": "「手札から」\n「「「手札からトラップだとッ!?」」」\n[Etc/いろいろ]",
+            "lang": "ja",
+            "name": "手札からトラップ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752935890308",
+        "locales": [
+          {
+            "description": "手札からトラップだとッ⁉",
+            "lang": "en",
+            "name": "Delta Crow - Anti Reverse"
+          },
+          {
+            "description": "手札からトラップだとッ⁉",
+            "lang": "ja",
+            "name": "デルタ・クロウ－アンチ・リバース"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752936066734",
+        "locales": [
+          {
+            "description": "⭐4\nセキュリティの皆さんが愛用しています\n[Monster]",
+            "lang": "en",
+            "name": "Gate Blocker"
+          },
+          {
+            "description": "⭐4\nセキュリティの皆さんが愛用しています\n[Monster]",
+            "lang": "ja",
+            "name": "ゲート・ブロッカー"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752937279994",
+        "locales": [
+          {
+            "description": "⭐3\n手裏剣になったり時計になったり制限もかけられたりフィギュアにもなったりしました\n[BF - Effect+Tuner+Token/効果+チューナー+トークン]",
+            "lang": "en",
+            "name": "Gale the Whirlwind"
+          },
+          {
+            "description": "⭐3\n手裏剣になったり時計になったり制限もかけられたりフィギュアにもなったりしました\n[BF - Effect+Tuner+Token/効果+チューナー+トークン]",
+            "lang": "ja",
+            "name": "疾風のゲイル"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752939295437",
+        "locales": [
+          {
+            "description": "「通りすがりの正義の味方ってとこかな？」\n[Etc/いろいろ]",
+            "lang": "en",
+            "name": "通りすがりの正義の味方"
+          },
+          {
+            "description": "「通りすがりの正義の味方ってとこかな？」\n[Etc/いろいろ]",
+            "lang": "ja",
+            "name": "通りすがりの正義の味方"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752975112033",
+        "locales": [
+          {
+            "description": "⭐1　未実装ベイビーBF\n[BF - Effect+Tuner+Token/効果+チューナー+トークン]",
+            "lang": "en",
+            "name": "新月のジュル"
+          },
+          {
+            "description": "⭐1　未実装ベイビーBF\n[BF - Effect+Tuner+Token/効果+チューナー+トークン]",
+            "lang": "ja",
+            "name": "新月のジュル"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752979928987",
+        "locales": [
+          {
+            "description": "満足しようぜ！\n[Etc/いろいろ]",
+            "lang": "en",
+            "name": "チーム サティスファクション"
+          },
+          {
+            "description": "満足しようぜ！\n[Etc/いろいろ]",
+            "lang": "ja",
+            "name": "チーム サティスファクション"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1752994194210",
+        "locales": [
+          {
+            "description": "[Monster]",
+            "lang": "en",
+            "name": "クロウ兄ちゃん"
+          },
+          {
+            "description": "[Monster]",
+            "lang": "ja",
+            "name": "クロウ兄ちゃん"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1753251806369",
+        "locales": [
+          {
+            "description": "⭐1\n[Effect/効果]",
+            "lang": "en",
+            "name": "蒼天のジェット"
+          },
+          {
+            "description": "⭐1\n[Effect/効果]",
+            "lang": "ja",
+            "name": "蒼天のジェット"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1754055611622",
+        "locales": [
+          {
+            "description": "りめいくしませんか？\n[Spell+Trap/魔法+罠]",
+            "lang": "en",
+            "name": "黒羽の宝札"
+          },
+          {
+            "description": "りめいくしませんか？\n[Spell+Trap/魔法+罠]",
+            "lang": "ja",
+            "name": "黒羽の宝札"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1754055814194",
+        "locales": [
+          {
+            "description": "くろくろくろくろ\n[Monster]",
+            "lang": "en",
+            "name": "クロクロークロウ"
+          },
+          {
+            "description": "くろくろくろくろ\n[Monster]",
+            "lang": "ja",
+            "name": "クロクロークロウ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1754145251532",
+        "locales": [
+          {
+            "description": "🌟8\n[BF - Synchro/シンクロ]",
+            "lang": "en",
+            "name": "Blackfeather Darkrage Dragon"
+          },
+          {
+            "description": "🌟8\n[BF - Synchro/シンクロ]",
+            "lang": "ja",
+            "name": "玄翼竜 ブラック・フェザー"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "off",
+        "identifier": "1754193573674",
+        "locales": [
+          {
+            "description": "[BF - Effect+Tuner+Token/効果+チューナー+トークン]",
+            "lang": "en",
+            "name": "アサルト・シンクロン"
+          },
+          {
+            "description": "[BF - Effect+Tuner+Token/効果+チューナー+トークン]",
+            "lang": "ja",
+            "name": "アサルト・シンクロン"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "spam",
-      "nsfw",
-      "harassment"
+      "1752755893734",
+      "1752761501881",
+      "1752829616132",
+      "1752834743894",
+      "1752843686281",
+      "1752906526813",
+      "1752906652752",
+      "1752917681409",
+      "1752928234940",
+      "1752928699123",
+      "1752928978940",
+      "1752929613793",
+      "1752929770901",
+      "1752935062275",
+      "1752935732691",
+      "1752935890308",
+      "1752936066734",
+      "1752937279994",
+      "1752939295437",
+      "1752975112033",
+      "1752979928987",
+      "1752994194210",
+      "1753251806369",
+      "1754055611622",
+      "1754055814194",
+      "1754145251532",
+      "1754193573674"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreic4at7c24oszfdfgsg7ofouz4k45cnb6gnzo6iwc2oxhdka3uxs3i",
+  "cid": "bafyreibadmgh33lfa75stcuxkokqws5kgacc6xxurltkvugub3d5hk4b4u",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-31T19:05:56.000Z"
   },
-  "indexedAt": "2025-07-31T17:01:12.211Z",
+  "indexedAt": "2025-08-03T21:13:53.214Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -452,6 +452,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "genocide-revisionism",
+        "locales": [
+          {
+            "description": "Rewrites the timeline of the Gaza genocide to portray Biden or Harris as opposing it—often falsely claiming it began only under Trump while erasing U.S. complicity during the Biden–Harris administration.",
+            "lang": "en",
+            "name": "Genocide Revisionist"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -484,7 +498,8 @@
       "weaponizes-racism",
       "sea-lioning",
       "body-shaming",
-      "liberal-conspiracism"
+      "liberal-conspiracism",
+      "genocide-revisionism"
     ],
     "reasonTypes": [
       "com.atproto.moderation.defs#reasonRude",
