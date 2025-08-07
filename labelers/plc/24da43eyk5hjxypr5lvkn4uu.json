@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:24da43eyk5hjxypr5lvkn4uu/app.bsky.labeler.service/self",
+  "cid": "bafyreidmsqccooissuj6kj2jq6sg4477nblo45plpfbpwmvabcuyyg3ije",
+  "creator": {
+    "did": "did:plc:24da43eyk5hjxypr5lvkn4uu",
+    "handle": "es256.app",
+    "displayName": "Moderation Service",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:24da43eyk5hjxypr5lvkn4uu/bafkreic7aqy4dupnluwygkh6dabisptmwnmnbluypa475uqzrzcntvd3iq@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-06T22:12:32.997Z",
+    "indexedAt": "2025-08-06T22:14:00.798Z"
+  },
+  "indexedAt": "2025-08-06T23:00:11.114Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "evil",
+        "locales": [
+          {
+            "description": "Accounts that have been observed exhibiting evil views or behaviour.",
+            "lang": "en",
+            "name": "Evil"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "no-label",
+        "locales": [
+          {
+            "description": "Accounts that have been observed with sexual content without self assigned labels.",
+            "lang": "en",
+            "name": "No Label"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "pest",
+        "locales": [
+          {
+            "description": "Accounts that have been observed exhibiting pest behaviour.",
+            "lang": "en",
+            "name": "Pest"
+          }
+        ],
+        "severity": "none"
+      }
+    ],
+    "labelValues": [
+      "evil",
+      "no-label",
+      "pest"
+    ]
+  }
+}
