@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:z65slxnme6frkls6bxjrd7xb/app.bsky.labeler.service/self",
-  "cid": "bafyreidvaj6e63casm4azs4wzdhs6k64fm3umcithk7yc4xexuknxugtza",
+  "cid": "bafyreifv6ztqtnt7zgdjczsyrykiniuwy7x6esqd7iu3fjskgwvom6p3im",
   "creator": {
     "did": "did:plc:z65slxnme6frkls6bxjrd7xb",
     "handle": "jedibaggins.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Using this account for development purposes only. Expect a lot of test content.",
     "indexedAt": "2025-08-03T16:29:58.999Z"
   },
-  "indexedAt": "2025-08-06T19:26:40.507Z",
+  "indexedAt": "2025-08-07T20:15:03.386Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.defs#labelerPolicies",
@@ -26,106 +26,242 @@
         "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "spam",
+        "defaultSetting": "ignore",
+        "identifier": "followers-new",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Content identified as spam or unwanted promotional material",
+            "description": "Account has 0-9 followers",
             "lang": "en",
-            "name": "🚫 Spam"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "harassment",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Content that harasses, bullies, or targets individuals",
-            "lang": "en",
-            "name": "⚠️ Harassment"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "misinformation",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Content that may contain false or misleading information",
-            "lang": "en",
-            "name": "❓ Misinformation"
+            "name": "👶 New (0-9)"
           }
         ],
         "severity": "inform"
       },
       {
         "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": true,
-        "blurs": "media",
-        "defaultSetting": "hide",
-        "identifier": "porn",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "followers-growing",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Pornographic content",
+            "description": "Account has 10-99 followers",
             "lang": "en",
-            "name": "🔞 Porn"
+            "name": "🌱 Growing (10-99)"
           }
         ],
-        "severity": "none"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": true,
-        "blurs": "media",
-        "defaultSetting": "warn",
-        "identifier": "sexual",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Sexual content",
-            "lang": "en",
-            "name": "🔥 Sexual"
-          }
-        ],
-        "severity": "none"
+        "severity": "inform"
       },
       {
         "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
-        "blurs": "media",
-        "defaultSetting": "warn",
-        "identifier": "nudity",
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "followers-popular",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Content containing nudity",
+            "description": "Account has 100-999 followers",
             "lang": "en",
-            "name": "👤 Nudity"
+            "name": "🚀 Popular (100-999)"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "followers-influencer",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Account has 1000+ followers",
+            "lang": "en",
+            "name": "⭐ Influencer (1000+)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "account-new",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Account created less than 30 days ago",
+            "lang": "en",
+            "name": "🆕 New Account (<30 days)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "account-established",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Account created 30-365 days ago",
+            "lang": "en",
+            "name": "📅 Established (30-365 days)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "account-veteran",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Account created over a year ago",
+            "lang": "en",
+            "name": "⏰ Veteran (1+ years)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "following-selective",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Follows 0-49 accounts",
+            "lang": "en",
+            "name": "🎯 Selective (0-49 following)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "following-active",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Follows 50-499 accounts",
+            "lang": "en",
+            "name": "👥 Active (50-499 following)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "following-mass",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Follows 500+ accounts",
+            "lang": "en",
+            "name": "🌐 Mass (500+ following)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "posts-lurker",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Has published 0-9 posts",
+            "lang": "en",
+            "name": "👻 Lurker (0-9 posts)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "posts-casual",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Has published 10-99 posts",
+            "lang": "en",
+            "name": "💬 Casual (10-99 posts)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "posts-active",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Has published 100-999 posts",
+            "lang": "en",
+            "name": "📝 Active (100-999 posts)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "posts-prolific",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Has published 1000+ posts",
+            "lang": "en",
+            "name": "✍️ Prolific (1000+ posts)"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "spam",
-      "harassment",
-      "misinformation",
-      "porn",
-      "sexual",
-      "nudity"
+      "followers-new",
+      "followers-growing",
+      "followers-popular",
+      "followers-influencer",
+      "account-new",
+      "account-established",
+      "account-veteran",
+      "following-selective",
+      "following-active",
+      "following-mass",
+      "posts-lurker",
+      "posts-casual",
+      "posts-active",
+      "posts-prolific"
     ]
   }
 }

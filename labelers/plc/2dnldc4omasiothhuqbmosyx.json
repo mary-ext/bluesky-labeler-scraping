@@ -1,0 +1,48 @@
+{
+  "uri": "at://did:plc:2dnldc4omasiothhuqbmosyx/app.bsky.labeler.service/self",
+  "cid": "bafyreiec2zegwharypol6p4tntqktbigtmaaqudzgmazqqvfwdxedxwp3u",
+  "creator": {
+    "did": "did:plc:2dnldc4omasiothhuqbmosyx",
+    "handle": "harpersletter.fyi",
+    "displayName": "Harper's Letter Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2dnldc4omasiothhuqbmosyx/bafkreicwmjklynguxorhgl7iuwj3hfuw5weceomkze2zisy6lif4mupfaq@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-07T13:42:34.198Z",
+    "indexedAt": "2025-08-07T18:02:47.497Z"
+  },
+  "indexedAt": "2025-08-07T17:49:34.107Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "signed-harpers-letter",
+        "locales": [
+          {
+            "description": "This user signed Harper's Letter.",
+            "lang": "en",
+            "name": "Harper's Signatory"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "signed-harpers-letter"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account"
+  ]
+}
