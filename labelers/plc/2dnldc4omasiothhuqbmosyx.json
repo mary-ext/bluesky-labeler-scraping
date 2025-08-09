@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:2dnldc4omasiothhuqbmosyx/app.bsky.labeler.service/self",
-  "cid": "bafyreiec2zegwharypol6p4tntqktbigtmaaqudzgmazqqvfwdxedxwp3u",
+  "cid": "bafyreihtn7vct3rqboiqpldh4nnptunaumt2bijzvkms2xru5fsxjd7lsy",
   "creator": {
     "did": "did:plc:2dnldc4omasiothhuqbmosyx",
     "handle": "harpersletter.fyi",
@@ -8,15 +8,18 @@
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2dnldc4omasiothhuqbmosyx/bafkreicwmjklynguxorhgl7iuwj3hfuw5weceomkze2zisy6lif4mupfaq@jpeg",
     "associated": {
       "labeler": true,
+      "chat": {
+        "allowIncoming": "all"
+      },
       "activitySubscription": {
         "allowSubscriptions": "followers"
       }
     },
     "labels": [],
     "createdAt": "2025-08-07T13:42:34.198Z",
-    "indexedAt": "2025-08-07T18:02:47.497Z"
+    "indexedAt": "2025-08-08T16:55:41.299Z"
   },
-  "indexedAt": "2025-08-07T17:49:34.107Z",
+  "indexedAt": "2025-08-08T16:57:44.910Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -27,7 +30,7 @@
         "identifier": "signed-harpers-letter",
         "locales": [
           {
-            "description": "This user signed Harper's Letter.",
+            "description": "This user signed the Harper's Letter.",
             "lang": "en",
             "name": "Harper's Signatory"
           }
@@ -40,7 +43,8 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonOther"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonAppeal"
   ],
   "subjectTypes": [
     "account"
