@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreidc7dtfbbbyo45drdseda7ejlqcmpxj3kzrbwg3o4lpmlh2jtdrku",
+  "cid": "bafyreide5vmg7o245srp2mnwmveuhlpnvhwvxda5hdspgntizkho4fbete",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,7 +28,7 @@
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
     "indexedAt": "2025-07-31T19:05:56.000Z"
   },
-  "indexedAt": "2025-08-10T22:33:31.612Z",
+  "indexedAt": "2025-08-11T14:10:07.211Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -466,6 +466,34 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "genocide-revisionism",
+        "locales": [
+          {
+            "description": "Distorts, downplays, or rewrites the historical record of a genocide—such as shifting timelines, erasing context, or framing perpetrators’ actions as justified.",
+            "lang": "en",
+            "name": "Genocide Revisionism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-aid-smear",
+        "locales": [
+          {
+            "description": "Frames Palestinians in Gaza seeking aid or survival support as scammers, opportunists, or otherwise illegitimate—undermining genuine survival efforts during genocide.",
+            "lang": "en",
+            "name": "Gaza Aid Smear"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -499,7 +527,9 @@
       "sea-lioning",
       "body-shaming",
       "liberal-conspiracism",
-      "abuse-apologia"
+      "abuse-apologia",
+      "genocide-revisionism",
+      "gaza-aid-smear"
     ],
     "reasonTypes": [
       "com.atproto.moderation.defs#reasonRude",
@@ -512,7 +542,12 @@
   },
   "reasonTypes": [
     "com.atproto.moderation.defs#reasonRude",
-    "com.atproto.moderation.defs#reasonOther"
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSpam"
   ],
   "subjectTypes": [
     "account",
