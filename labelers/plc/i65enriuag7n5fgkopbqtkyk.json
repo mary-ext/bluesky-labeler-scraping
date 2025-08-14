@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:i65enriuag7n5fgkopbqtkyk/app.bsky.labeler.service/self",
-  "cid": "bafyreifz7nkoom7lwxhkfpku5nh6oa2pxaw4n544krwwqbaq4i3nirz4dy",
+  "cid": "bafyreigh5fjr6an3qujvfbm6xmso6jyhido2dguixaeqp3jtcqft2gofba",
   "creator": {
     "did": "did:plc:i65enriuag7n5fgkopbqtkyk",
     "handle": "profile-labels.bossett.social",
@@ -20,7 +20,7 @@
     "description": "Labels accounts based on facts about profile records, post history, etc. Automatic.\nSupport @bossett.social / Code https://github.com/Bossett/bsky-profile-labeller / Help out https://ko-fi.com/bossett",
     "indexedAt": "2024-12-04T23:19:07.347Z"
   },
-  "indexedAt": "2025-05-03T22:41:18.093Z",
+  "indexedAt": "2025-08-13T19:54:21.412Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -162,5 +162,14 @@
       "threads",
       "stephanie"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account"
+  ],
+  "subjectCollections": [
+    "app.bsky.actor.profile"
+  ]
 }
