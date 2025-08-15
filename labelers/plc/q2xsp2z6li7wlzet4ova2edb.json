@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreide5vmg7o245srp2mnwmveuhlpnvhwvxda5hdspgntizkho4fbete",
+  "cid": "bafyreiagmnme33vpjva7huue6c2negognjzwyqmzjhll64xeqy3hpeg54e",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -19,16 +19,16 @@
       {
         "src": "did:plc:q2xsp2z6li7wlzet4ova2edb",
         "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.actor.profile/self",
-        "cid": "bafyreiga7fvbd2ttfkxubbg6vx4ihlnamuiobovydf6lptwz5tl2g4k6mq",
+        "cid": "bafyreibyismhymlhrc5igm2p4luywifyqozuarzlovu5vorsnjjoems2ye",
         "val": "!no-unauthenticated",
         "cts": "1970-01-01T00:00:00.000Z"
       }
     ],
     "createdAt": "2024-01-19T02:37:53.220Z",
     "description": "Keeping Bluesky safe.\n\nMy DMs are open if you have any questions/suggestions.",
-    "indexedAt": "2025-07-31T19:05:56.000Z"
+    "indexedAt": "2025-08-14T20:40:28.998Z"
   },
-  "indexedAt": "2025-08-11T14:10:07.211Z",
+  "indexedAt": "2025-08-14T15:16:54.110Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
@@ -169,6 +169,20 @@
             "description": "Mocks or trivializes the suffering, displacement, or genocide of Palestinians in Gaza.",
             "lang": "en",
             "name": "Gaza Mockery"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-aid-smear",
+        "locales": [
+          {
+            "description": "Discredits, mocks, or falsely frames humanitarian aid to Gaza as illegitimate, corrupt, or supportive of terrorism—often to undermine relief efforts or justify restrictions on aid.",
+            "lang": "en",
+            "name": "Gaza Aid Smear"
           }
         ],
         "severity": "alert"
@@ -460,7 +474,7 @@
         "identifier": "abuse-apologia",
         "locales": [
           {
-            "description": "Justifies, excuses, or minimizes abuse—including framing perpetrators’ actions as misunderstood, shifting blame to victims, or discouraging accountability.",
+            "description": "Defends, minimizes, or justifies abuse—including sexual abuse, domestic violence, or child abuse—by downplaying harm, excusing perpetrators, or framing accountability efforts as overreactions. Includes rhetoric that normalizes or trivializes serious abuse.",
             "lang": "en",
             "name": "Abuse Apologia"
           }
@@ -471,12 +485,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "genocide-revisionism",
+        "identifier": "weaponizes-abuse",
         "locales": [
           {
-            "description": "Distorts, downplays, or rewrites the historical record of a genocide—such as shifting timelines, erasing context, or framing perpetrators’ actions as justified.",
+            "description": "Makes false or unsubstantiated allegations of abuse—including sexual abuse, domestic violence, or child abuse—as a tactic to discredit, silence, or harm others. This includes 'pedojacketing' and other bad-faith claims weaponized in political, personal, or online disputes.",
             "lang": "en",
-            "name": "Genocide Revisionism"
+            "name": "Weaponizes Abuse"
           }
         ],
         "severity": "alert"
@@ -485,12 +499,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "gaza-aid-smear",
+        "identifier": "state-violence-apologia",
         "locales": [
           {
-            "description": "Frames Palestinians in Gaza seeking aid or survival support as scammers, opportunists, or otherwise illegitimate—undermining genuine survival efforts during genocide.",
+            "description": "Defends, minimizes, or justifies acts of violence, repression, or rights violations by a state—such as mass arrests, proscriptions, or military crackdowns—by framing them as legitimate, necessary, or deserved, while dismissing the political or humanitarian context.",
             "lang": "en",
-            "name": "Gaza Aid Smear"
+            "name": "State Violence Apologia"
           }
         ],
         "severity": "alert"
@@ -507,6 +521,7 @@
       "gaza-disinfo-spreader",
       "gaza-genocide-denier",
       "gaza-mockery",
+      "gaza-aid-smear",
       "gazawood-disinfo-follower",
       "gloats-over-harm",
       "homophobic",
@@ -528,8 +543,8 @@
       "body-shaming",
       "liberal-conspiracism",
       "abuse-apologia",
-      "genocide-revisionism",
-      "gaza-aid-smear"
+      "weaponizes-abuse",
+      "state-violence-apologia"
     ],
     "reasonTypes": [
       "com.atproto.moderation.defs#reasonRude",

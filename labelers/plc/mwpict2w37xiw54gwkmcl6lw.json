@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mwpict2w37xiw54gwkmcl6lw/app.bsky.labeler.service/self",
-  "cid": "bafyreigzc4nq3qmybed4uc7vztcrhkurcsz7ijhmeocfuc6adnnnciis2u",
+  "cid": "bafyreic7s3v7hluoywe5r6pzs534ag2tbua6qsix42jsv2azc7iapammuy",
   "creator": {
     "did": "did:plc:mwpict2w37xiw54gwkmcl6lw",
     "handle": "userstatslabeldev.bsky.social",
@@ -16,65 +16,86 @@
     "createdAt": "2025-08-11T14:32:57.098Z",
     "indexedAt": "2025-08-11T14:33:52.697Z"
   },
-  "indexedAt": "2025-08-13T17:55:02.804Z",
+  "indexedAt": "2025-08-14T20:35:11.109Z",
   "labels": [],
   "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
     "labelValueDefinitions": [
       {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "followers-new",
         "locales": [
           {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
             "description": "Account has 0-9 followers.",
             "lang": "en",
             "name": "New (0-9 followers)"
           }
         ],
-        "severity": "inform"
+        "severity": "inform",
+        "subjectTypes": [
+          "app.bsky.actor.profile"
+        ]
       },
       {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "followers-growing",
         "locales": [
           {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
             "description": "Account has 10-99 followers.",
             "lang": "en",
             "name": "Growing (10-99 followers)"
           }
         ],
-        "severity": "inform"
+        "severity": "inform",
+        "subjectTypes": [
+          "app.bsky.actor.profile"
+        ]
       },
       {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "followers-popular",
         "locales": [
           {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
             "description": "Account has 100-999 followers.",
             "lang": "en",
             "name": "Popular (100-999 followers)"
           }
         ],
-        "severity": "inform"
+        "severity": "inform",
+        "subjectTypes": [
+          "app.bsky.actor.profile"
+        ]
       },
       {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
+        "defaultSetting": "ignore",
         "identifier": "followers-influencer",
         "locales": [
           {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
             "description": "Account has 1000+ followers.",
             "lang": "en",
             "name": "Influencer (1000+ followers)"
           }
         ],
-        "severity": "inform"
+        "severity": "inform",
+        "subjectTypes": [
+          "app.bsky.actor.profile"
+        ]
       }
     ],
     "labelValues": [
