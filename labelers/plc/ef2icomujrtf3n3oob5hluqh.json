@@ -1,0 +1,58 @@
+{
+  "uri": "at://did:plc:ef2icomujrtf3n3oob5hluqh/app.bsky.labeler.service/self",
+  "cid": "bafyreidbm5tzr5gflzzpjrruh6kyq4e376tfbr7fl7xg4si75umwrujhfm",
+  "creator": {
+    "did": "did:plc:ef2icomujrtf3n3oob5hluqh",
+    "handle": "perchpicsmod.bsky.social",
+    "displayName": "test labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ef2icomujrtf3n3oob5hluqh/bafkreig5ts5xncogjeluc5lkwte7doi6dds4wvcd4nv37bsmf3z7lljwma@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-13T13:57:45.500Z",
+    "description": "experiment using bluesky public community guidelines but is NOT AFFILIATED WITH BLUESKY",
+    "indexedAt": "2025-08-15T20:59:32.099Z"
+  },
+  "indexedAt": "2025-08-15T20:00:02.106Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "needs-review",
+        "locales": [
+          {
+            "description": "this might violate Bluesky's community guidelines, but needs review for confirming",
+            "lang": "en",
+            "name": "Needs Manual review"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "against-cg",
+        "locales": [
+          {
+            "description": "This is probably against Bluesky's community guidelines",
+            "lang": "en",
+            "name": "Probably Against Bluesky Community Guidelines"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "needs-review",
+      "against-cg"
+    ]
+  }
+}
