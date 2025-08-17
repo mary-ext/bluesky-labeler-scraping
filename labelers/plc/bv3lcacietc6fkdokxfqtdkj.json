@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:bv3lcacietc6fkdokxfqtdkj/app.bsky.labeler.service/self",
-  "cid": "bafyreidveh7weu36rk25qzm6gl24eoq3wtg3u5obac5ncmxosu64d3d7ce",
+  "cid": "bafyreif4es3ncpmq4annspoys34b6nze37xxgshgir4q5crq2qguzjcvoi",
   "creator": {
     "did": "did:plc:bv3lcacietc6fkdokxfqtdkj",
     "handle": "labeler.nunnybabbit.com",
@@ -20,7 +20,7 @@
     "description": "Labeler & Label driven feeds. Moderation/curation for fetish related content.\nhe/they, it (situational)\nto opt-out from user lists and feeds, block this account or DM me a request.\noperated by @nunnybabbit.com (Profile is 18+)\nlabeler.nunnybabbit.com",
     "indexedAt": "2025-03-28T22:51:51.493Z"
   },
-  "indexedAt": "2025-01-12T15:57:18.458Z",
+  "indexedAt": "2025-08-16T04:51:54.606Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -105,5 +105,16 @@
       "!classification-forced",
       "captured"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonSpam"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }
