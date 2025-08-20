@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreidblyb4vygy5cxepirejnpcjaiwutefcworgsqponzsi3cmtv6yhi",
+  "cid": "bafyreifkn6z5ztd3h5hnigt4f3jpuqpzknnrg4atrymjacq766pcjnneoq",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2025-08-17T10:42:09.221Z",
+  "indexedAt": "2025-08-19T08:05:20.115Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6631,6 +6631,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "heyneuron-mail",
+        "locales": [
+          {
+            "description": "The Neuron Mail server software, aka e2ee email server, proudly written in rust!\nhttps://github.com/heyneuron/mail",
+            "lang": "en",
+            "name": "heyneuron/mail"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7105,7 +7119,8 @@
       "anglesideangle-swiper",
       "ahmedbaset-hadith-json",
       "reactjs-ar-react-dev",
-      "koreader-koreader"
+      "koreader-koreader",
+      "heyneuron-mail"
     ]
   }
 }
