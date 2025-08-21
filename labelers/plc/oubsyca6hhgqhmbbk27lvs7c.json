@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreieomun5ormui7mumuhr3xqhiwwbu44ppzift5l27p3ebuolg36n5y",
+  "cid": "bafyreiaempvzagnhjyw7zfdpqyhg3yberd4gypiotgnmflyqj2aw643ijq",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-07-16T17:30:50.034Z",
     "indexedAt": "2025-07-16T17:30:50.034Z"
   },
-  "indexedAt": "2025-08-05T16:00:37.106Z",
+  "indexedAt": "2025-08-20T21:12:56.206Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -47,11 +47,86 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-follow-churn-500",
+        "locales": [
+          {
+            "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 500 other accounts.",
+            "lang": "en",
+            "name": "High follower churn - 500"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-follow-churn-100",
+        "locales": [
+          {
+            "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 100 other accounts.",
+            "lang": "en",
+            "name": "High follower churn - 100"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-metadata-changes-100",
+        "locales": [
+          {
+            "description": "In a 24 hour period, account made at least 100 changes to its profile metadata (picture, bio, banner, etc.)",
+            "lang": "en",
+            "name": "High account metadata changes - 100"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-metadata-changes-50",
+        "locales": [
+          {
+            "description": "In a 24 hour period, account made at least 50 changes to its profile metadata (picture, bio, banner, etc.)",
+            "lang": "en",
+            "name": "High account metadata changes - 50"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-metadata-changes-5",
+        "locales": [
+          {
+            "description": "In a 24 hour period, account made at least 5 changes to its profile metadata (picture, bio, banner, etc.)",
+            "lang": "en",
+            "name": "High account metadata changes - 5"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "grad-student",
-      "stech-researcher"
+      "stech-researcher",
+      "high-follow-churn-500",
+      "high-follow-churn-100",
+      "high-metadata-changes-100",
+      "high-metadata-changes-50",
+      "high-metadata-changes-5"
     ]
   }
 }
