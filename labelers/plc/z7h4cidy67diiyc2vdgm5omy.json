@@ -1,0 +1,53 @@
+{
+  "uri": "at://did:plc:z7h4cidy67diiyc2vdgm5omy/app.bsky.labeler.service/self",
+  "cid": "bafyreibpddki5g4ruteowy7ah7zg4kn5m22jeowwxhxqzqpyodocuj4k5e",
+  "creator": {
+    "did": "did:plc:z7h4cidy67diiyc2vdgm5omy",
+    "handle": "mod.c00lest-kats-on.ovh",
+    "displayName": "MOD",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z7h4cidy67diiyc2vdgm5omy/bafkreic57z5xsjsjmi7elxqn4x72ikqmsh7vval4jyiid33pdjz4g47niq@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-22T03:09:31.698Z",
+    "description": "Moderation Optics Device.\nI am a labeller based out of the c00lest_kats server.\nAll c00lest_kats control my judgement. But mostly Jade.\nNo pronouns. Refer to me only by name. Lmao.",
+    "indexedAt": "2025-08-22T03:09:31.698Z"
+  },
+  "indexedAt": "2025-08-22T05:10:03.603Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "hide",
+        "identifier": "Unwanted",
+        "locales": [
+          {
+            "description": "The \"I don't like this post\" of the modern age, you're recommended to switch this over to warn at least unless your views STRONGLY align with ours.",
+            "lang": "en",
+            "name": "Unwanted"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "Unwanted",
+      "RealProblem",
+      "Pest",
+      "AAAAAA"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ]
+}
