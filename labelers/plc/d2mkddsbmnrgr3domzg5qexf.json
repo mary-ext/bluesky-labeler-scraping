@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
-  "cid": "bafyreigbfhbeybn7wa3y5lhj3zcthrwhre2rmmm4befxcy234elfc3qa4i",
+  "cid": "bafyreif6judkhoz3klx4j4cccltqpzctwvxxfum2tt6dugdaorp73okbuu",
   "creator": {
     "did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
     "handle": "blackskyweb.xyz",
@@ -20,10 +20,130 @@
     "description": "Creating a safe space for Black community building. We built the Blacksky feeds, this mod service, an atproto implementation called \"rsky\" and more. https://www.blackskyweb.xyz/",
     "indexedAt": "2025-07-18T15:18:32.234Z"
   },
-  "indexedAt": "2025-03-06T07:03:32.953Z",
+  "indexedAt": "2025-08-24T17:06:03.307Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "synthetic-media",
+        "locales": [
+          {
+            "description": "Content which has been generated or manipulated to appear as though based on reality, when it is in fact artificial. Also referred to as manipulated media. Synthetic media may sometimes (but not always) be generated through algorithmic processes (such as artificial intelligence or machine learning). A deepfake is a form of synthetic media where an image or recording is altered to misrepresent someone doing or saying something that was not done or said.",
+            "lang": "en",
+            "name": "Synthetic Media"
+          },
+          {
+            "description": "Conteúdo que foi gerado ou manipulado para parecer baseado na realidade, quando na verdade é artificial. Também conhecido como mídia manipulada. Mídia sintética pode às vezes (mas nem sempre) ser gerada através de processos algorítmicos (como inteligência artificial ou aprendizado de máquina). Um deepfake é uma forma de mídia sintética onde uma imagem ou gravação é alterada para representar falsamente alguém fazendo ou dizendo algo que não foi feito ou dito.",
+            "lang": "pt",
+            "name": "Mídia Sintética"
+          },
+          {
+            "description": "Contenu qui a été généré ou manipulé pour paraître basé sur la réalité, alors qu'il est en fait artificiel. Également appelé médias manipulés. Les médias synthétiques peuvent parfois (mais pas toujours) être générés par des processus algorithmiques (tels que l'intelligence artificielle ou l'apprentissage automatique). Un deepfake est une forme de média synthétique où une image ou un enregistrement est modifié pour représenter faussement quelqu'un faisant ou disant quelque chose qui n'a pas été fait ou dit.",
+            "lang": "fr",
+            "name": "Médias Synthétiques"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "non-consensual-intimate-imagery",
+        "locales": [
+          {
+            "description": "Non-consensual image sharing, or non-consensual intimate image sharing (also called 'non-consensual explicit imagery' (NCEI) or colloquially called 'revenge porn'), refers to the act or threat of creating, publishing or sharing an intimate image or video without the consent of the individuals visible in it.",
+            "lang": "en",
+            "name": "Non-Consensual Intimate Imagery"
+          },
+          {
+            "description": "Compartilhamento não-consensual de imagens, ou compartilhamento não-consensual de imagens íntimas (também chamado de 'imagens explícitas não-consensuais' (IENC) ou coloquialmente chamado de 'pornografia de vingança'), refere-se ao ato ou ameaça de criar, publicar ou compartilhar uma imagem ou vídeo íntimo sem o consentimento dos indivíduos visíveis nele.",
+            "lang": "pt",
+            "name": "Imagens Íntimas Não-Consensuais"
+          },
+          {
+            "description": "Le partage non-consensuel d'images, ou le partage non-consensuel d'images intimes (également appelé 'images explicites non-consensuelles' (IENC) ou familièrement appelé 'pornographie de vengeance'), fait référence à l'acte ou la menace de créer, publier ou partager une image ou vidéo intime sans le consentement des personnes qui y sont visibles.",
+            "lang": "fr",
+            "name": "Images Intimes Non-Consensuelles"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "doxxing",
+        "locales": [
+          {
+            "description": "The act of disclosing someone's personal, non-public information — such as a real name, home address, phone number or any other data that could be used to identify the individual — in an online forum or other public place without the person's consent.",
+            "lang": "en",
+            "name": "Doxxing"
+          },
+          {
+            "description": "O ato de divulgar informações pessoais e não-públicas de alguém — como nome real, endereço residencial, número de telefone ou qualquer outro dado que possa ser usado para identificar o indivíduo — em um fórum online ou outro local público sem o consentimento da pessoa.",
+            "lang": "pt",
+            "name": "Doxxing"
+          },
+          {
+            "description": "L'acte de divulguer les informations personnelles et non-publiques de quelqu'un — telles qu'un nom réel, une adresse personnelle, un numéro de téléphone ou toute autre donnée pouvant être utilisée pour identifier l'individu — dans un forum en ligne ou autre lieu public sans le consentement de la personne.",
+            "lang": "fr",
+            "name": "Doxxing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "white-supremacy",
+        "locales": [
+          {
+            "description": "Content that expresses statements that are rooted in white supremacy and anti-black rhetoric that does not fall under targeted anti-black harassment. This may include internalized anti-blackness that is harmful in nature.",
+            "lang": "en",
+            "name": "White Supremacy or Antiblack Rhetoric"
+          },
+          {
+            "description": "Conteúdo que expressa declarações enraizadas na supremacia branca e retórica antinegra que não se enquadra em assédio antinegro direcionado. Isso pode incluir antinegritude internalizada que é prejudicial por natureza.",
+            "lang": "pt",
+            "name": "Supremacia Branca ou Retórica Antinegra"
+          },
+          {
+            "description": "Contenu qui exprime des déclarations enracinées dans la suprématie blanche et la rhétorique anti-noire qui ne relève pas du harcèlement anti-noir ciblé. Cela peut inclure l'anti-noirceur intériorisée qui est de nature nuisible.",
+            "lang": "fr",
+            "name": "Suprématie Blanche ou Rhétorique Anti-Noire"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "violence",
+        "locales": [
+          {
+            "description": "Content that expresses violence via images or statements that target Black people. This may include, but is not limited to, threats of physical violence and sexual violence.",
+            "lang": "en",
+            "name": "Violence"
+          },
+          {
+            "description": "Conteúdo que expressa violência através de imagens ou declarações que visam pessoas negras. Isso pode incluir, mas não se limita a, ameaças de violência física e violência sexual.",
+            "lang": "pt",
+            "name": "Violência"
+          },
+          {
+            "description": "Contenu qui exprime de la violence via des images ou des déclarations qui ciblent les personnes noires. Cela peut inclure, mais sans s'y limiter, des menaces de violence physique et de violence sexuelle.",
+            "lang": "fr",
+            "name": "Violence"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -74,6 +194,11 @@
       }
     ],
     "labelValues": [
+      "synthetic-media",
+      "violence",
+      "white-supremacy",
+      "doxxing",
+      "non-consensual-intimate-imagery",
       "misogynoir",
       "antiblack-harassment"
     ]

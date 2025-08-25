@@ -1,0 +1,133 @@
+{
+  "uri": "at://did:plc:mijnrtjvlczcnabxg743kbiq/app.bsky.labeler.service/self",
+  "cid": "bafyreiglsjb6usqrucstlxfeqir4sn3rdkewnyp46ny6lovevoogthlzpe",
+  "creator": {
+    "did": "did:plc:mijnrtjvlczcnabxg743kbiq",
+    "handle": "vmanlabelertest.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mijnrtjvlczcnabxg743kbiq/bafkreicjojtdgp7r4he54gdofrg37e2wyw3ke3nxcsp67xndmmvec5wqci@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-24T01:26:48.898Z",
+    "description": "Work in progress",
+    "indexedAt": "2025-08-24T02:01:41.198Z"
+  },
+  "indexedAt": "2025-08-24T02:28:44.207Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "areola",
+        "locales": [
+          {
+            "description": "The area of different colored skin around the nipple",
+            "lang": "en",
+            "name": "Areola"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nipple",
+        "locales": [
+          {
+            "description": "The small protrusion on breasts where milk may be secreted",
+            "lang": "en",
+            "name": "Nipple"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "penis",
+        "locales": [
+          {
+            "description": "Male reproductive organ",
+            "lang": "en",
+            "name": "Penis"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "vagina",
+        "locales": [
+          {
+            "description": "Female reproductive organ",
+            "lang": "en",
+            "name": "Vagina"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "unlabeledporn",
+        "locales": [
+          {
+            "description": "Explicit sexual images. (For posts that do not have a more specific label)",
+            "lang": "en",
+            "name": "Non-specific Adult"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "unlabeledsexual",
+        "locales": [
+          {
+            "description": "Does not include nudity. (For posts that do not have a more specific label)",
+            "lang": "en",
+            "name": "Non-specific Sexually Suggestive"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "unlabelednudity",
+        "locales": [
+          {
+            "description": "E.g. artistic nudes. (For posts that do not have a more specific label)",
+            "lang": "en",
+            "name": "Non-specific Non-sexual Nudity"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "areola",
+      "nipple",
+      "penis",
+      "vagina",
+      "unlabeledporn",
+      "unlabeledsexual",
+      "unlabelednudity"
+    ]
+  }
+}

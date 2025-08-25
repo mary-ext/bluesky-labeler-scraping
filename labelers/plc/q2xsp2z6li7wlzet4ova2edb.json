@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:q2xsp2z6li7wlzet4ova2edb/app.bsky.labeler.service/self",
-  "cid": "bafyreiagmnme33vpjva7huue6c2negognjzwyqmzjhll64xeqy3hpeg54e",
+  "cid": "bafyreifoo6pg47dyilc26jjmdpzdgnvfre2u3d5zxz6rwph26nq5h5zyfq",
   "creator": {
     "did": "did:plc:q2xsp2z6li7wlzet4ova2edb",
     "handle": "shadowbanner.bsky.social",
@@ -28,11 +28,25 @@
     "description": "Identifying disinfo, scapegoating, and harmful rhetoric to keep Bluesky safer.\n\nDMs open for questions/suggestions.\n\nSupport: https://ko-fi.com/shadowbanner",
     "indexedAt": "2025-08-20T22:18:43.997Z"
   },
-  "indexedAt": "2025-08-14T15:16:54.110Z",
+  "indexedAt": "2025-08-24T16:09:06.012Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.service",
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "abuse-apologia",
+        "locales": [
+          {
+            "description": "Defends, minimizes, or justifies abuse—such as sexual abuse, domestic violence, or child abuse—by excusing perpetrators or downplaying harm.",
+            "lang": "en",
+            "name": "Abuse Apologia"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -51,12 +65,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "anti-asian-hatred",
+        "identifier": "anti-asian-bias",
         "locales": [
           {
-            "description": "Expresses anti-Asian or Sinophobic bias, stereotypes, or hatred—including scapegoating, slurs, and dehumanization targeting Chinese, East Asian, or broader Asian communities.",
+            "description": "Expresses anti-Asian bias, stereotypes, or Sinophobic tropes—including scapegoating and dehumanization.",
             "lang": "en",
-            "name": "Anti-Asian Hatred"
+            "name": "Anti-Asian Bias"
           }
         ],
         "severity": "alert"
@@ -93,10 +107,24 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "body-shaming",
+        "locales": [
+          {
+            "description": "Mocks or demeans people based on body size, weight, or appearance.",
+            "lang": "en",
+            "name": "Body Shaming"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "dearborn-scapegoating",
         "locales": [
           {
-            "description": "Blames Muslim voters in Dearborn, Michigan for the 2024 U.S. election results, and Kamala Harris’s loss. 'Dearborn' used as a catch-all term for all Muslim-American voters.",
+            "description": "Blames Dearborn/Muslim or “uncommitted” voters for 2024 election outcomes (including Kamala Harris’s loss), treating them as collectively responsible.",
             "lang": "en",
             "name": "Dearborn Scapegoating"
           }
@@ -110,7 +138,7 @@
         "identifier": "debate-lord",
         "locales": [
           {
-            "description": "Engages in bad faith debating tactics to derail conversations—often prioritizing argumentation over empathy or resolution.",
+            "description": "Engages in bad-faith debating tactics (e.g., goalpost-shifting, sea-lioning, Red Scare/anti-socialist cudgels) to derail conversation.",
             "lang": "en",
             "name": "Debate Lord"
           }
@@ -124,9 +152,37 @@
         "identifier": "democratic-apologia",
         "locales": [
           {
-            "description": "Defends or minimizes the failures of the Democratic Party, its leadership, or elected officials by deflecting criticism, lowering expectations, or framing symbolic gestures as meaningful progress despite inaction or complicity in harmful policies.",
+            "description": "Defends or minimizes failures by liberal/centrist parties or leaders (e.g., Democrats, Labour, Liberals) via deflection, lower expectations, or false equivalences.",
             "lang": "en",
-            "name": "Democratic Apologia"
+            "name": "Liberal Apologia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "us-genocide-role-denial",
+        "locales": [
+          {
+            "description": "Denies or dismisses U.S. complicity in genocide—ignoring roles in arms, aid, or diplomatic cover, or recognizing it only selectively for partisan reasons.",
+            "lang": "en",
+            "name": "Denies U.S. Genocide Role"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-aid-smear",
+        "locales": [
+          {
+            "description": "Discredits or attacks grassroots fundraisers for Palestinians in Gaza—or those who amplify them—by portraying them as scams or support for terrorism.",
+            "lang": "en",
+            "name": "Gaza Aid Smear"
           }
         ],
         "severity": "alert"
@@ -138,7 +194,7 @@
         "identifier": "gaza-disinfo-spreader",
         "locales": [
           {
-            "description": "Amplifies or spreads disinformation and conspiracy theories designed to delegitimize Palestinian suffering and dismiss war crimes evidence in Gaza—often recycling narratives popularized by external disinformation campaigns, including the so-called 'Gazawood' and 'Pallywood' hoaxes.",
+            "description": "Spreads or amplifies (e.g., via reposts/boosts) disinformation that delegitimizes Palestinian suffering or evidence of war crimes (e.g., “Gazawood/Pallywood”).",
             "lang": "en",
             "name": "Gaza Disinfo Spreader"
           }
@@ -152,9 +208,23 @@
         "identifier": "gaza-genocide-denier",
         "locales": [
           {
-            "description": "Denies, downplays, or justifies the genocide of Palestinians in Gaza, including attempts to minimize civilian casualties, erase context, or deny the scale of violence inflicted.",
+            "description": "Denies, minimizes, or deflects the genocide of Palestinians in Gaza—including refusal to use the term “genocide,” whataboutism, or claims it’s merely “war crimes.”",
             "lang": "en",
             "name": "Gaza Genocide Denier"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gaza-genocide-supporter",
+        "locales": [
+          {
+            "description": "Supports or endorses genocidal violence against Palestinians in Gaza—including framing extermination, expulsion, or 'clean out' operations as necessary or righteous.",
+            "lang": "en",
+            "name": "Gaza Genocide Supporter"
           }
         ],
         "severity": "alert"
@@ -177,26 +247,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "gaza-aid-smear",
-        "locales": [
-          {
-            "description": "Discredits, mocks, or falsely frames humanitarian aid to Gaza as illegitimate, corrupt, or supportive of terrorism—often to undermine relief efforts or justify restrictions on aid.",
-            "lang": "en",
-            "name": "Gaza Aid Smear"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
         "identifier": "gazawood-disinfo-follower",
         "locales": [
           {
-            "description": "Follows an account identified for spreading disinformation and conspiracy theories to delegitimize Palestinian suffering and dismiss war crimes evidence—such as the so-called 'Gazawood' narrative used to discredit genuine documentation from Gaza.",
+            "description": "Follows an account identified for promoting “Gazawood”-style disinformation that dismisses authentic documentation from Gaza.",
             "lang": "en",
-            "name": "Gaza Disinfo Follower"
+            "name": "Gazawood Disinfo Follower"
           }
         ],
         "severity": "alert"
@@ -208,7 +264,7 @@
         "identifier": "gloats-over-harm",
         "locales": [
           {
-            "description": "Mocks, gloats over, or takes pleasure in others’ suffering—often using 'FAFO' to justify harm as deserved. Includes blaming entire communities for political outcomes, regardless of how individuals actually voted.",
+            "description": "Mocks, gloats over, or takes pleasure in others’ suffering; often frames harm as deserved (“FAFO”) or blames entire communities for outcomes.",
             "lang": "en",
             "name": "Gloats Over Harm"
           }
@@ -222,9 +278,9 @@
         "identifier": "homophobic",
         "locales": [
           {
-            "description": "Expresses homophobic views, slurs, or hatred targeting gay, lesbian, or queer people—including mockery or denial of LGBTQ+ identities.",
+            "description": "Expresses homophobic slurs, stereotypes, or hostility toward gay, lesbian, or queer people.",
             "lang": "en",
-            "name": "Homophobic"
+            "name": "Homophobia"
           }
         ],
         "severity": "alert"
@@ -250,7 +306,7 @@
         "identifier": "israel-apologia",
         "locales": [
           {
-            "description": "Justifies or defends Israeli military aggression or state violence—including against Palestinians and other states—by downplaying harm, deflecting criticism, or framing resistance as illegitimate.",
+            "description": "Justifies or defends Israeli military aggression or state violence by downplaying harm, deflecting criticism, or framing Palestinian resistance as illegitimate.",
             "lang": "en",
             "name": "Israel Apologia"
           }
@@ -264,7 +320,7 @@
         "identifier": "latino-scapegoating",
         "locales": [
           {
-            "description": "Blames Latino voters or Latino communities for political or electoral outcomes—often framing them as responsible for right-wing victories or policy setbacks, while erasing the diversity of political views within these communities.",
+            "description": "Blames Latino voters or communities for election outcomes or policy setbacks—treating them as collectively responsible while erasing diversity.",
             "lang": "en",
             "name": "Latino Scapegoating"
           }
@@ -278,9 +334,23 @@
         "identifier": "leftist-scapegoating",
         "locales": [
           {
-            "description": "Blames leftists or progressives for election outcomes—such as attributing Trump’s 2024 victory to voters or activists who opposed the Democratic candidate from the left. Also includes international instances of scapegoating the left for political losses or institutional decline.",
+            "description": "Blames leftists or progressives for political losses—framing them as responsible for setbacks while dismissing establishment failures.",
             "lang": "en",
             "name": "Leftist Scapegoating"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "liberal-conspiracism",
+        "locales": [
+          {
+            "description": "Promotes conspiracy theories from a liberal/centrist perspective—such as claims that Harris secretly won, foreign powers orchestrated her loss, or protests were staged.",
+            "lang": "en",
+            "name": "Liberal Conspiracism"
           }
         ],
         "severity": "alert"
@@ -292,7 +362,7 @@
         "identifier": "maga-troll",
         "locales": [
           {
-            "description": "Spams or harasses others using pro-Trump slogans, content, or accounts, often derailing political discussion through inflammatory rhetoric.",
+            "description": "Engages in pro-Trump trolling or promotion—slogans, culture-war bait, or conspiratorial rhetoric that derails conversation.",
             "lang": "en",
             "name": "MAGA Troll"
           }
@@ -306,7 +376,7 @@
         "identifier": "misogyny",
         "locales": [
           {
-            "description": "Expresses misogynistic views, slurs, or hatred targeting women—including gender-based insults, dismissal, or mockery.",
+            "description": "Expresses misogynistic slurs, insults, or hostility targeting women—including gender-based dismissal, mockery, or stereotypes.",
             "lang": "en",
             "name": "Misogyny"
           }
@@ -320,7 +390,7 @@
         "identifier": "political-spammer",
         "locales": [
           {
-            "description": "Spams political memes or talking points repeatedly in replies or quotes—typically derailing conversation or promoting low-effort partisanship.",
+            "description": "Floods Bluesky with repetitive political memes or low-effort content—including AI-generated memes—that derail or replace real discussion.",
             "lang": "en",
             "name": "Political Spammer"
           }
@@ -334,7 +404,7 @@
         "identifier": "racism",
         "locales": [
           {
-            "description": "Expresses racist views, slurs, dehumanization, or hateful stereotypes targeting any racial or ethnic group.",
+            "description": "Expresses racist slurs, stereotypes, or dehumanization—used as a general fallback when no more specific label fits.",
             "lang": "en",
             "name": "Racism"
           }
@@ -348,9 +418,37 @@
         "identifier": "resist-troll",
         "locales": [
           {
-            "description": "Spams anti-Trump or pro-Democratic memes and slogans in a way that derails conversation or promotes resistance-style clout farming.",
+            "description": "Engages in troll-like behavior from a liberal/centrist stance—mocking or baiting leftists in bad faith rather than debating sincerely.",
             "lang": "en",
-            "name": "Resist Troll"
+            "name": "Liberal Troll"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "sea-lioning",
+        "locales": [
+          {
+            "description": "Derails conversations with endless, insincere questions or demands for evidence while feigning good-faith curiosity.",
+            "lang": "en",
+            "name": "Sea-Lioning"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "state-violence-apologia",
+        "locales": [
+          {
+            "description": "Justifies or excuses violence by states—past or present—by downplaying harm, deflecting criticism, or portraying repression as legitimate.",
+            "lang": "en",
+            "name": "State Violence Apologia"
           }
         ],
         "severity": "alert"
@@ -362,7 +460,7 @@
         "identifier": "trans-scapegoating",
         "locales": [
           {
-            "description": "Blames trans people, trans rights, or trans visibility for broader societal or political problems—often framing them as a political liability or electoral threat.",
+            "description": "Blames trans rights or visibility for electoral losses or liberal/centrist party failures—treating trans people as a political liability.",
             "lang": "en",
             "name": "Trans Scapegoating"
           }
@@ -376,7 +474,7 @@
         "identifier": "transphobic",
         "locales": [
           {
-            "description": "Expresses transphobic views, slurs, mockery, or hatred targeting trans people—including denial of trans identities, harassment, or dehumanization.",
+            "description": "Expresses transphobic slurs, insults, or hostility—denying trans identities, demeaning trans people, or revoking “allyship” as punishment for political disagreement.",
             "lang": "en",
             "name": "Transphobia"
           }
@@ -387,12 +485,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "us-genocide-role-denial",
+        "identifier": "weaponizes-abuse",
         "locales": [
           {
-            "description": "Denies, downplays, or justifies the role of the United States in enabling the genocide of Palestinians in Gaza—through the supply of weapons, diplomatic protection, and political support to Israel—since the October 7, 2023 attacks.",
+            "description": "Uses false or unsubstantiated allegations of abuse—including pedojacketing—as a tactic to discredit or harm others.",
             "lang": "en",
-            "name": "Denies US Genocide Role"
+            "name": "Weaponizes Abuse"
           }
         ],
         "severity": "alert"
@@ -404,7 +502,7 @@
         "identifier": "weaponizes-antisemitism",
         "locales": [
           {
-            "description": "Misuses allegations of antisemitism to silence, discredit, or attack critics of Israel or supporters of Palestinian rights.",
+            "description": "Uses accusations of antisemitism in bad faith to silence or delegitimize criticism of Israel, Zionism, or U.S. foreign policy.",
             "lang": "en",
             "name": "Weaponizes Antisemitism"
           }
@@ -418,110 +516,29 @@
         "identifier": "weaponizes-racism",
         "locales": [
           {
-            "description": "Misuses allegations of racism to shut down criticism, elevate partisan loyalty, or belittle political opponents—often used to dismiss legitimate grievances about Democratic Party inaction.",
+            "description": "Misuses accusations of racism in bad faith—such as shielding powerful figures from critique or claiming “reverse racism” against white people.",
             "lang": "en",
             "name": "Weaponizes Racism"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "sea-lioning",
-        "locales": [
-          {
-            "description": "Floods replies or quote posts with feigned questions or bad-faith demands for 'evidence'—a classic tactic to exhaust or derail critics while pretending to be reasonable.",
-            "lang": "en",
-            "name": "Sea-Lioning"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "body-shaming",
-        "locales": [
-          {
-            "description": "Mocks, insults, or degrades others based on their body size, weight, or appearance—including fatphobia and aesthetic ridicule.",
-            "lang": "en",
-            "name": "Body Shaming"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "liberal-conspiracism",
-        "locales": [
-          {
-            "description": "Promotes conspiracy theories rooted in liberal or centrist political frameworks—such as unfounded claims that Kamala Harris secretly won the 2024 election, that foreign governments orchestrated her loss, or that Palestinian solidarity protests were staged or manipulated. Often used to deflect from political accountability or discredit grassroots movements.",
-            "lang": "en",
-            "name": "Liberal Conspiracism"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "abuse-apologia",
-        "locales": [
-          {
-            "description": "Defends, minimizes, or justifies abuse—including sexual abuse, domestic violence, or child abuse—by downplaying harm, excusing perpetrators, or framing accountability efforts as overreactions. Includes rhetoric that normalizes or trivializes serious abuse.",
-            "lang": "en",
-            "name": "Abuse Apologia"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "weaponizes-abuse",
-        "locales": [
-          {
-            "description": "Makes false or unsubstantiated allegations of abuse—including sexual abuse, domestic violence, or child abuse—as a tactic to discredit, silence, or harm others. This includes 'pedojacketing' and other bad-faith claims weaponized in political, personal, or online disputes.",
-            "lang": "en",
-            "name": "Weaponizes Abuse"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "state-violence-apologia",
-        "locales": [
-          {
-            "description": "Defends, minimizes, or justifies acts of violence, repression, or rights violations by a state—such as mass arrests, proscriptions, or military crackdowns—by framing them as legitimate, necessary, or deserved, while dismissing the political or humanitarian context.",
-            "lang": "en",
-            "name": "State Violence Apologia"
           }
         ],
         "severity": "alert"
       }
     ],
     "labelValues": [
+      "abuse-apologia",
       "ableism",
-      "anti-asian-hatred",
+      "anti-asian-bias",
       "anti-black-racism",
       "antisemitic",
+      "body-shaming",
       "dearborn-scapegoating",
       "debate-lord",
       "democratic-apologia",
+      "gaza-aid-smear",
       "gaza-disinfo-spreader",
       "gaza-genocide-denier",
+      "gaza-genocide-supporter",
       "gaza-mockery",
-      "gaza-aid-smear",
       "gazawood-disinfo-follower",
       "gloats-over-harm",
       "homophobic",
@@ -529,22 +546,20 @@
       "israel-apologia",
       "latino-scapegoating",
       "leftist-scapegoating",
+      "liberal-conspiracism",
       "maga-troll",
       "misogyny",
       "political-spammer",
       "racism",
       "resist-troll",
+      "sea-lioning",
+      "state-violence-apologia",
       "trans-scapegoating",
       "transphobic",
       "us-genocide-role-denial",
-      "weaponizes-antisemitism",
-      "weaponizes-racism",
-      "sea-lioning",
-      "body-shaming",
-      "liberal-conspiracism",
-      "abuse-apologia",
       "weaponizes-abuse",
-      "state-violence-apologia"
+      "weaponizes-antisemitism",
+      "weaponizes-racism"
     ],
     "reasonTypes": [
       "com.atproto.moderation.defs#reasonRude",
