@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreibhnyppjihewpa7gvpn4sx3lc4g5mf5qk5xso3pljhaxunnw4n4tq",
+  "cid": "bafyreib4mfqestnsmsxcju24bwdtznxk23buzfmwhfettdmas2vl6awmn4",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2025-08-28T00:14:10.511Z",
+  "indexedAt": "2025-08-28T04:42:23.306Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -42,7 +42,7 @@
         "identifier": "net-anisota",
         "locales": [
           {
-            "description": "a speculative, iconoclastic social app (net.anisota.*)",
+            "description": "a new, experimental way to use social media (net.anisota.*)",
             "lang": "en",
             "name": "Anisota"
           }
@@ -73,6 +73,20 @@
             "description": "badges for atproto handles (blue.badge.*)",
             "lang": "en",
             "name": "Blue Badge"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "buzz-bookhive",
+        "locales": [
+          {
+            "description": "manage, organize, and review your books anywhere (buzz.bookhive.*)",
+            "lang": "en",
+            "name": "BookHive"
           }
         ],
         "severity": "inform"
@@ -335,6 +349,7 @@
       "net-anisota",
       "blue-zio-atfile",
       "blue-badge",
+      "buzz-bookhive",
       "im-flushing",
       "fyi-unravel-frontpage",
       "social-grain",

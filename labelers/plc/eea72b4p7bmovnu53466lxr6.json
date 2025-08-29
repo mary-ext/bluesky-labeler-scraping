@@ -1,0 +1,59 @@
+{
+  "uri": "at://did:plc:eea72b4p7bmovnu53466lxr6/app.bsky.labeler.service/self",
+  "cid": "bafyreiccvr6juud6wy2krzttkqa7dyzuljze4jldojbefqq4us6uqjhsym",
+  "creator": {
+    "did": "did:plc:eea72b4p7bmovnu53466lxr6",
+    "handle": "bricks.at.arimelody.space",
+    "displayName": "bricks in your pockets",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:eea72b4p7bmovnu53466lxr6/bafkreig3jehp7gduzw5t3ogwxxvgtmauzgnjgdr3uzmsfnv66pcm5fetie@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-28T01:09:07.000Z",
+    "description": "bricked up",
+    "indexedAt": "2025-08-28T04:03:18.699Z"
+  },
+  "indexedAt": "2025-08-28T04:06:22.005Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bricks",
+        "locales": [
+          {
+            "description": "This user has bricks in their pockets.",
+            "lang": "en",
+            "name": "Bricks"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "bricks"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record",
+    "chat",
+    "account"
+  ]
+}
