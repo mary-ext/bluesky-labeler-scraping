@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreia66qmjlmzhkm77r2fiuldknzcnn5uahczguqwukp4i6jduiprjvm",
+  "cid": "bafyreibipaj47ectz2rucdq3ttbyfcdy46gi5d4yorlptriya2t7bzleby",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-07-16T17:30:50.034Z",
     "indexedAt": "2025-07-16T17:30:50.034Z"
   },
-  "indexedAt": "2025-08-21T17:30:18.612Z",
+  "indexedAt": "2025-08-29T22:10:55.011Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -117,6 +117,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test-label",
+        "locales": [
+          {
+            "description": "just testing",
+            "lang": "en",
+            "name": "test label"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -126,7 +140,8 @@
       "high-follow-churn-100",
       "high-metadata-changes-100",
       "high-metadata-changes-50",
-      "high-metadata-changes-5"
+      "high-metadata-changes-5",
+      "test-label"
     ]
   }
 }

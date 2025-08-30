@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:a7f4rvot7otpcat7urmcccus/app.bsky.labeler.service/self",
-  "cid": "bafyreihmur3sg3m6623wu54mtq67vryhehnl4t4xklxna6frm26b5cbwba",
+  "cid": "bafyreihhuworm4gewi7pd7tajmax2wugktu4zd4a2uladdiiccftckj2dq",
   "creator": {
     "did": "did:plc:a7f4rvot7otpcat7urmcccus",
     "handle": "bf-labeler.bsky.social",
@@ -17,13 +17,27 @@
     "description": "公式とはまったく関係のないBFカスタムラベラーになりたいアカウント",
     "indexedAt": "2025-08-24T15:29:19.098Z"
   },
-  "indexedAt": "2025-08-27T14:26:14.007Z",
+  "indexedAt": "2025-08-29T15:17:05.005Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bf-an",
+        "locales": [
+          {
+            "description": "なかよし",
+            "lang": "ja",
+            "name": "噴水広場なかよし連合"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "bf-m",
         "locales": [
@@ -37,22 +51,68 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bf-an",
+        "identifier": "air",
         "locales": [
           {
-            "description": "なかよし",
-            "lang": "ja",
-            "name": "噴水広場なかよし連合"
+            "description": "Air",
+            "lang": "en",
+            "name": "Air 💨"
+          },
+          {
+            "description": "Ar",
+            "lang": "pt-BR",
+            "name": "Ar 💨"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "water",
+        "locales": [
+          {
+            "description": "Water",
+            "lang": "en",
+            "name": "Water 💧"
+          },
+          {
+            "description": "Água",
+            "lang": "pt-BR",
+            "name": "Água 💧"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "love",
+        "locales": [
+          {
+            "description": "Love",
+            "lang": "en",
+            "name": "Love 💞"
+          },
+          {
+            "description": "Amor",
+            "lang": "pt-BR",
+            "name": "Amor 💞"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
+      "bf-an",
       "bf-m",
-      "bf-an"
+      "air",
+      "water",
+      "love"
     ]
   }
 }
