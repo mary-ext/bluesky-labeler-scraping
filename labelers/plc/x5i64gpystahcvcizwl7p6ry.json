@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:x5i64gpystahcvcizwl7p6ry/app.bsky.labeler.service/self",
-  "cid": "bafyreihq6b5cccyvuszwq4o7f7lrqyiy7ieaedro3mmjgbflm5azoea6t4",
+  "cid": "bafyreigvf7kjcbl472rb63hpm6vm7lgpi7c27gjexadzcoqxx5kloifkvi",
   "creator": {
     "did": "did:plc:x5i64gpystahcvcizwl7p6ry",
     "handle": "mpi-labeller.mpi-bluesky-pds.mpi-sws.org",
@@ -13,10 +13,24 @@
     "labels": [],
     "createdAt": "0001-01-01T00:00:00.000Z"
   },
-  "indexedAt": "2025-07-29T09:16:07.505Z",
+  "indexedAt": "2025-09-01T14:07:02.104Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "intolerant",
+        "locales": [
+          {
+            "description": "Discrimination and extremist language against protected groups",
+            "lang": "en",
+            "name": "Intolerant"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -47,6 +61,7 @@
       }
     ],
     "labelValues": [
+      "intolerant",
       "new-test",
       "vabukpahari"
     ]
