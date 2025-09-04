@@ -1,0 +1,50 @@
+{
+  "uri": "at://did:plc:r5ju6hyf6p7lufdpelj37wnk/app.bsky.labeler.service/self",
+  "cid": "bafyreihb3fjdeainnpudamrl2imcr7e2lqxace2lrjbwaqpgandelyfgqi",
+  "creator": {
+    "did": "did:plc:r5ju6hyf6p7lufdpelj37wnk",
+    "handle": "ws-labeler-test.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r5ju6hyf6p7lufdpelj37wnk/bafkreihlnaqwsefrzt5o6rflzalmyu2nhnrysq65h5duwj4vdlktsdpx4i@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-01T10:45:28.597Z",
+    "indexedAt": "2025-09-01T10:45:28.597Z"
+  },
+  "indexedAt": "2025-09-03T15:09:21.806Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "uspolitics",
+        "locales": [
+          {
+            "description": "Posts about US Politics.",
+            "lang": "en",
+            "name": "US Politics"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "uspolitics"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreibipaj47ectz2rucdq3ttbyfcdy46gi5d4yorlptriya2t7bzleby",
+  "cid": "bafyreidvmbmznh3lffb7guhrxyswwoe5kdn6wr23nsdhcjwxiumvazha7y",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-07-16T17:30:50.034Z",
     "indexedAt": "2025-07-16T17:30:50.034Z"
   },
-  "indexedAt": "2025-08-29T22:10:55.011Z",
+  "indexedAt": "2025-09-03T20:40:56.216Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -52,7 +52,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "high-follow-churn-500",
+        "identifier": "high-follow-churn-five-hundred",
         "locales": [
           {
             "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 500 other accounts.",
@@ -66,7 +66,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "high-follow-churn-100",
+        "identifier": "high-follow-churn-one-hundred",
         "locales": [
           {
             "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 100 other accounts.",
@@ -80,7 +80,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "high-metadata-changes-100",
+        "identifier": "high-metadata-changes-one-hundred",
         "locales": [
           {
             "description": "In a 24 hour period, account made at least 100 changes to its profile metadata (picture, bio, banner, etc.)",
@@ -94,7 +94,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "high-metadata-changes-50",
+        "identifier": "high-metadata-changes-fifty",
         "locales": [
           {
             "description": "In a 24 hour period, account made at least 50 changes to its profile metadata (picture, bio, banner, etc.)",
@@ -108,7 +108,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "high-metadata-changes-5",
+        "identifier": "high-metadata-changes-five",
         "locales": [
           {
             "description": "In a 24 hour period, account made at least 5 changes to its profile metadata (picture, bio, banner, etc.)",
@@ -122,25 +122,70 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "no-gap-more-than-one-hours",
+        "locales": [
+          {
+            "description": "this account has not sleep for more than 1 hour",
+            "lang": "en",
+            "name": "no gap more than 1 hours"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "no-gap-more-than-two-hours",
+        "locales": [
+          {
+            "description": "this account has not sleep for more than 2 hour",
+            "lang": "en",
+            "name": "no gap more than 2 hours"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "no-gap-more-than-four-hours",
+        "locales": [
+          {
+            "description": "this account has not sleep for more than 4 hour",
+            "lang": "en",
+            "name": "no gap more than 4 hours"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "test-label",
         "locales": [
           {
-            "description": "just testing",
+            "description": "In a 24 hour period, account made at least 5 changes to its profile metadata (picture, bio, banner, etc.)",
             "lang": "en",
-            "name": "test label"
+            "name": "test label!"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "grad-student",
       "stech-researcher",
-      "high-follow-churn-500",
-      "high-follow-churn-100",
-      "high-metadata-changes-100",
-      "high-metadata-changes-50",
-      "high-metadata-changes-5",
+      "high-follow-churn-five-hundred",
+      "high-follow-churn-one-hundred",
+      "high-metadata-changes-one-hundred",
+      "high-metadata-changes-fifty",
+      "high-metadata-changes-five",
+      "no-gap-more-than-one-hours",
+      "no-gap-more-than-two-hours",
+      "no-gap-more-than-four-hours",
       "test-label"
     ]
   }
