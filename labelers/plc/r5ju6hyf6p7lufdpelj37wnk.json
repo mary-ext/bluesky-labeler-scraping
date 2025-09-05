@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:r5ju6hyf6p7lufdpelj37wnk/app.bsky.labeler.service/self",
-  "cid": "bafyreihb3fjdeainnpudamrl2imcr7e2lqxace2lrjbwaqpgandelyfgqi",
+  "cid": "bafyreia5al6ansi7gtfuq7ez66drengaebyi2hvfkt2u7d5fsoh75ia55y",
   "creator": {
     "did": "did:plc:r5ju6hyf6p7lufdpelj37wnk",
-    "handle": "ws-labeler-test.bsky.social",
-    "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r5ju6hyf6p7lufdpelj37wnk/bafkreihlnaqwsefrzt5o6rflzalmyu2nhnrysq65h5duwj4vdlktsdpx4i@jpeg",
+    "handle": "plabeler-gamma.bsky.social",
+    "displayName": "US Politics Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r5ju6hyf6p7lufdpelj37wnk/bafkreib232ojs7rsgtqbg3lnbkrouboc2g7fqgktaus64jkbwfm3bsykdi@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,19 +14,21 @@
     },
     "labels": [],
     "createdAt": "2025-09-01T10:45:28.597Z",
-    "indexedAt": "2025-09-01T10:45:28.597Z"
+    "description": "Labeler for US Politics, currently in beta.\nNot associated with any other US Politics Labeler.",
+    "indexedAt": "2025-09-04T16:26:12.597Z"
   },
-  "indexedAt": "2025-09-03T15:09:21.806Z",
+  "indexedAt": "2025-09-04T12:36:16.907Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "blurs": "media",
+        "adultOnly": false,
+        "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "uspolitics",
+        "identifier": "uspol",
         "locales": [
           {
-            "description": "Posts about US Politics.",
+            "description": "Posts about US Politics. ",
             "lang": "en",
             "name": "US Politics"
           }
@@ -35,7 +37,7 @@
       }
     ],
     "labelValues": [
-      "uspolitics"
+      "uspol"
     ]
   },
   "reasonTypes": [
