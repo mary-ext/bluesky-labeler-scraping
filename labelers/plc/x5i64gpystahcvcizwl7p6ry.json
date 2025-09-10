@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:x5i64gpystahcvcizwl7p6ry/app.bsky.labeler.service/self",
-  "cid": "bafyreihxz6773h7d7bdcq5vvoorhlsnjp4q5glwzsosjebnlf5lo2f2nbq",
+  "cid": "bafyreibcirbhoujbi4vx4wb5jhxvyclt6yt3adzdb3vdidwqx7g4wksjpi",
   "creator": {
     "did": "did:plc:x5i64gpystahcvcizwl7p6ry",
-    "handle": "handle.invalid",
+    "handle": "mpi-labeller.mpi-bluesky-pds.mpi-sws.org",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -13,7 +13,7 @@
     "labels": [],
     "createdAt": "0001-01-01T00:00:00.000Z"
   },
-  "indexedAt": "2025-09-08T19:38:56.311Z",
+  "indexedAt": "2025-09-09T12:24:18.306Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,36 +34,21 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "ignore|warn|hide",
-        "identifier": "new-test",
+        "defaultSetting": "ignore",
+        "identifier": "rude",
         "locales": [
           {
-            "description": "New test check",
+            "description": "Rude speech",
             "lang": "en",
-            "name": "New Test"
+            "name": "Rude"
           }
         ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "test2",
-        "locales": [
-          {
-            "description": "Label something as test2",
-            "lang": "en",
-            "name": "test2"
-          }
-        ],
-        "severity": "inform"
+        "severity": "alert"
       }
     ],
     "labelValues": [
       "intolerant",
-      "new-test",
-      "test2"
+      "rude"
     ]
   }
 }

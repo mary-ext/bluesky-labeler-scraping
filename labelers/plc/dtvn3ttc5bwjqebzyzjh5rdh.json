@@ -1,0 +1,88 @@
+{
+  "uri": "at://did:plc:dtvn3ttc5bwjqebzyzjh5rdh/app.bsky.labeler.service/self",
+  "cid": "bafyreidvtapi5tdbeorytf3xuwj6w455mythkcisndk5sfqtzx6ovihiha",
+  "creator": {
+    "did": "did:plc:dtvn3ttc5bwjqebzyzjh5rdh",
+    "handle": "ozone.tophhie.cloud",
+    "displayName": "Tophhie Cloud Moderation Service",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dtvn3ttc5bwjqebzyzjh5rdh/bafkreiatevke6lvizcwrtk7j4mft67c2seoydfqe2u5inrtkhgd735bffi@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-09T20:08:11.798Z",
+    "description": "🤔 Want a way of validating Tophhie Cloud accounts? Show off your user status?\n\nClick/tap on \"Subscribe to Labeler\" to get started! 🎉\n\nAre you a user of one or more of the Tophhie Cloud services or apps? Let us know at help@tophhie.cloud to get your badge!",
+    "indexedAt": "2025-09-09T21:50:32.696Z"
+  },
+  "indexedAt": "2025-09-09T21:43:15.107Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tophhiecloud",
+        "locales": [
+          {
+            "description": "A verified Tophhie Cloud account.",
+            "lang": "en",
+            "name": "Tophhie Cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tophhiecloud-auto",
+        "locales": [
+          {
+            "description": "A verified Tophhie Cloud account used for automation purposes.",
+            "lang": "en",
+            "name": "Tophhie Cloud Automation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tophhiecloud-user",
+        "locales": [
+          {
+            "description": "A verified user of one or more Tophhie Cloud services or apps.",
+            "lang": "en",
+            "name": "Tophhie Cloud User"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "marvelist-user",
+        "locales": [
+          {
+            "description": "A verified user of the Marvelist app.",
+            "lang": "en",
+            "name": "Marvelist User"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "tophhiecloud",
+      "tophhiecloud-auto",
+      "tophhiecloud-user",
+      "marvelist-user"
+    ]
+  }
+}
