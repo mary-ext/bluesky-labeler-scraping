@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreifd4ggtwhfoiofddjemys35x6w4scofarj65erpkahh34qpma6rji",
+  "cid": "bafyreic6di6fezxfnduqjomme52vonovkjyoochllampqabqcauvwvcuam",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -20,10 +20,52 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-09-03T00:21:30.310Z",
+  "indexedAt": "2025-09-10T23:42:52.412Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "trans-loving-trans",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Trans Loving Trans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-non-conforming",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Gender non-conforming"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "xenogender",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Xenogender"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -908,6 +950,9 @@
       }
     ],
     "labelValues": [
+      "trans-loving-trans",
+      "gender-non-conforming",
+      "xenogender",
       "quoiflux",
       "abigender",
       "lgbtqia-safe-space",

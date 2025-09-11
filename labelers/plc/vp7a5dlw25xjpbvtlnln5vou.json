@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vp7a5dlw25xjpbvtlnln5vou/app.bsky.labeler.service/self",
-  "cid": "bafyreiansn47r3kw3pbkgtfpbcmqnmwgiidalbdmtqbmsrjyjk4kkvlzte",
+  "cid": "bafyreier74luq2fsguesnk2txgfifu4ktoi2eiporg5yvqcnz4zrayyd3y",
   "creator": {
     "did": "did:plc:vp7a5dlw25xjpbvtlnln5vou",
     "handle": "unclouder-dev.bsky.social",
@@ -17,9 +17,36 @@
     "description": "Ignore anything posted here, these are just test posts.",
     "indexedAt": "2025-04-28T09:52:45.777Z"
   },
-  "indexedAt": "2025-09-09T14:13:47.611Z",
+  "indexedAt": "2025-09-10T15:40:13.909Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test-label",
+        "locales": [
+          {
+            "description": "Test Label description.",
+            "lang": "en",
+            "name": "My Test Label Display Name"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "test-label",
+      "second-label",
+      "third-label"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "record"
+  ]
 }
