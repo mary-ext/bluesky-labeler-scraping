@@ -1,9 +1,11 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreihskvyqyw7fibabxghh3rxcbguf4awfimz5kiwlogzzon4w5l7qxi",
+  "cid": "bafyreibkompx76xk7z5nsbrsff2vz6s4m7xjn4uxfjacemm7zrixosu5zu",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
-    "handle": "labeler.northsky.social",
+    "handle": "moderation.northsky.social",
+    "displayName": "Northsky Moderation",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:p2cxrw3ank4dzs55mpm6ohq4/bafkreidbnoaqjjqaf2essuoqyxuwlhklo24h6zrh62hyvutf5cgso6uuy4@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -11,11 +13,39 @@
       }
     },
     "labels": [],
-    "createdAt": "0001-01-01T00:00:00.000Z"
+    "createdAt": "2025-09-11T22:03:49.999Z",
+    "description": "Moderation services offered by Northsky Social\nCurrently an all volunteer team, reports will be processed slowly.\nYou can support our efforts here: https://northskysocial.com/profile/products",
+    "indexedAt": "2025-09-11T22:13:40.899Z"
   },
-  "indexedAt": "2025-07-12T02:07:26.843Z",
+  "indexedAt": "2025-09-12T00:18:51.709Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "transphobia",
+        "locales": [
+          {
+            "description": "Content that dehumanizes, demeans, others, or otherwise calls for suspicion or harm of trans people.",
+            "lang": "en",
+            "name": "transphobia"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "transphobia",
+      "enbyphobia"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ]
 }
