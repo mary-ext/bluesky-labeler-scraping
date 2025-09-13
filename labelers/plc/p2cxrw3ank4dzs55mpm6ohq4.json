@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreibkompx76xk7z5nsbrsff2vz6s4m7xjn4uxfjacemm7zrixosu5zu",
+  "cid": "bafyreibyrc23xxdl6cimcjusazqx46dvfifhmrxxj5rxg7xsoq7euagfee",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
     "handle": "moderation.northsky.social",
@@ -14,31 +14,180 @@
     },
     "labels": [],
     "createdAt": "2025-09-11T22:03:49.999Z",
-    "description": "Moderation services offered by Northsky Social\nCurrently an all volunteer team, reports will be processed slowly.\nYou can support our efforts here: https://northskysocial.com/profile/products",
-    "indexedAt": "2025-09-11T22:13:40.899Z"
+    "description": "🌌Moderation services offered by Northsky Social🌌\nAll volunteer team of moderators (reports will process slowly)\nYou can support our efforts here: https://northskysocial.com/profile/products",
+    "indexedAt": "2025-09-12T07:28:19.997Z"
   },
-  "indexedAt": "2025-09-12T00:18:51.709Z",
+  "indexedAt": "2025-09-12T07:58:57.204Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "abelism",
+        "locales": [
+          {
+            "description": "Beliefs that sees persons with disabilities as being less worthy of respect and consideration, less able to contribute and participate, or of less inherent value than others.",
+            "lang": "en",
+            "name": "Abelism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "acephobia",
+        "locales": [
+          {
+            "description": "Stereotyping, discrimination, or denial of asexuality and others on the spectrum of asexuality.",
+            "lang": "en",
+            "name": "Acephobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "biphobia",
+        "locales": [
+          {
+            "description": "Stereotyping, discrimination, or denial of bisexuality or pansexuality. ",
+            "lang": "en",
+            "name": "Biphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "enbyphobia",
+        "locales": [
+          {
+            "description": "Content that dehumanizes, demeans, others, or otherwise calls for suspicion or harm of non-binary people.",
+            "lang": "en",
+            "name": "Enbyphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "homophobia",
+        "locales": [
+          {
+            "description": "Contempt, prejudice, aversion, hatred, or antipathy towards gay, lesbian, bisexual or otherwise queer members of the 2SLGBTQIA+ community.",
+            "lang": "en",
+            "name": "Homophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "misogyny",
+        "locales": [
+          {
+            "description": "Hatred, contempt, or prejudice against women.",
+            "lang": "en",
+            "name": "Misogyny"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "queerphobia",
+        "locales": [
+          {
+            "description": "Contempt, prejudice, aversion, hatred, or antipathy towards queer people.",
+            "lang": "en",
+            "name": "Queerphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "racism",
+        "locales": [
+          {
+            "description": "Prejudice, attitudes, beliefs, stereotyping and discrimination that is directed at people of racialized minorities.",
+            "lang": "en",
+            "name": "Racism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
         "identifier": "transphobia",
         "locales": [
           {
             "description": "Content that dehumanizes, demeans, others, or otherwise calls for suspicion or harm of trans people.",
             "lang": "en",
-            "name": "transphobia"
+            "name": "Transphobia"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "whorephobia",
+        "locales": [
+          {
+            "description": "Discrimination, stigmatization, and hatred directed at sex workers or people who express their sexuality openly.",
+            "lang": "en",
+            "name": "Whorephobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "xenophobia",
+        "locales": [
+          {
+            "description": "Fear, hatred, or mistrust of immigrants, refugees, or foreigners or things considered foreign.",
+            "lang": "en",
+            "name": "Xenophobia"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
+      "abelism",
+      "acephobia",
+      "biphobia",
+      "enbyphobia",
+      "homophobia",
+      "misogyny",
+      "queerphobia",
+      "racism",
       "transphobia",
-      "enbyphobia"
+      "whorephobia",
+      "xenophobia"
     ]
   },
   "reasonTypes": [
@@ -46,6 +195,12 @@
     "com.atproto.moderation.defs#reasonRude",
     "com.atproto.moderation.defs#reasonViolation",
     "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonSpam"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
   ]
 }
