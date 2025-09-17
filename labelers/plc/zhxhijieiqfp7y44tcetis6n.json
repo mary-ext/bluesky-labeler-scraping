@@ -1,0 +1,742 @@
+{
+  "uri": "at://did:plc:zhxhijieiqfp7y44tcetis6n/app.bsky.labeler.service/self",
+  "cid": "bafyreidwjqqyyatbijlfcuczsg2qn2tbgh4xaymvpxpxr5djsz352vx5eq",
+  "creator": {
+    "did": "did:plc:zhxhijieiqfp7y44tcetis6n",
+    "handle": "charybdis-dev.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zhxhijieiqfp7y44tcetis6n/bafkreiflqluq4hxxxbbo77udmfetf2avtxslrvegh7yjbscdibxf4mbhty@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-16T18:55:43.099Z",
+    "indexedAt": "2025-09-16T18:55:43.099Z"
+  },
+  "indexedAt": "2025-09-16T20:41:17.013Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "content",
+        "identifier": "harassment:direct",
+        "locales": [
+          {
+            "description": "Content directly targeting individuals for harassment",
+            "lang": "en",
+            "name": "Harassment: Direct Targeting"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "harassment:threats",
+        "locales": [
+          {
+            "description": "Content containing threats against individuals",
+            "lang": "en",
+            "name": "Harassment: Threats"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "harassment:doxxing",
+        "locales": [
+          {
+            "description": "Content sharing private information to enable harassment",
+            "lang": "en",
+            "name": "Harassment: Doxxing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "harassment:intimidation",
+        "locales": [
+          {
+            "description": "Content designed to intimidate individuals",
+            "lang": "en",
+            "name": "Harassment: Intimidation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "hate:slurs",
+        "locales": [
+          {
+            "description": "Content containing slurs or dehumanizing language",
+            "lang": "en",
+            "name": "Hate: Slurs & Dehumanization"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "hate:symbols",
+        "locales": [
+          {
+            "description": "Content displaying hate symbols or imagery",
+            "lang": "en",
+            "name": "Hate: Harmful Symbols"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "hate:identity_attacks",
+        "locales": [
+          {
+            "description": "Content attacking individuals based on identity",
+            "lang": "en",
+            "name": "Hate: Identity Attacks"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "hate:group_glorification",
+        "locales": [
+          {
+            "description": "Content glorifying or promoting hate groups",
+            "lang": "en",
+            "name": "Hate: Glorifying Hate Groups"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "safety:exploitation",
+        "locales": [
+          {
+            "description": "Content involving sexual exploitation",
+            "lang": "en",
+            "name": "Safety: Sexual Exploitation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "safety:non_consensual",
+        "locales": [
+          {
+            "description": "Non-consensual intimate content",
+            "lang": "en",
+            "name": "Safety: Non-Consensual Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "safety:violence",
+        "locales": [
+          {
+            "description": "Content glorifying or promoting violence",
+            "lang": "en",
+            "name": "Safety: Glorifying Violence"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "safety:self_harm",
+        "locales": [
+          {
+            "description": "Content promoting self-harm or suicide",
+            "lang": "en",
+            "name": "Safety: Promoting Self-Harm"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "identifier": "platform:spam",
+        "locales": [
+          {
+            "description": "Spam or repetitive content",
+            "lang": "en",
+            "name": "Platform: Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "platform:impersonation",
+        "locales": [
+          {
+            "description": "Content impersonating another person or entity",
+            "lang": "en",
+            "name": "Platform: Impersonation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "identifier": "platform:coordination",
+        "locales": [
+          {
+            "description": "Coordinated inauthentic behavior",
+            "lang": "en",
+            "name": "Platform: Coordinated Manipulation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "platform:misinfo",
+        "locales": [
+          {
+            "description": "Harmful misinformation",
+            "lang": "en",
+            "name": "Platform: Harmful Misinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "privacy:violation",
+        "locales": [
+          {
+            "description": "Sharing personal information without consent",
+            "lang": "en",
+            "name": "Privacy: Personal Information"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "privacy:consent",
+        "locales": [
+          {
+            "description": "Violation of privacy or consent",
+            "lang": "en",
+            "name": "Privacy: Consent Violation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "ip:copyright",
+        "locales": [
+          {
+            "description": "Copyright infringement",
+            "lang": "en",
+            "name": "Copyright: Violation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "ip:trademark",
+        "locales": [
+          {
+            "description": "Trademark infringement",
+            "lang": "en",
+            "name": "Trademark: Infringement"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:sealioning",
+        "locales": [
+          {
+            "description": "Persistent bad faith questioning or sealioning",
+            "lang": "en",
+            "name": "Pattern: Bad Faith Questioning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:context_switching",
+        "locales": [
+          {
+            "description": "Continuously moving goalposts in arguments",
+            "lang": "en",
+            "name": "Pattern: Moving Goalposts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:distributed",
+        "locales": [
+          {
+            "description": "Part of coordinated targeting campaign",
+            "lang": "en",
+            "name": "Pattern: Coordinated Targeting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:follow_hopping",
+        "locales": [
+          {
+            "description": "Following users across platforms to harass",
+            "lang": "en",
+            "name": "Pattern: Following to Harass"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "pattern:coded_language",
+        "locales": [
+          {
+            "description": "Use of coded language to evade detection",
+            "lang": "en",
+            "name": "Pattern: Evolving Coded Language"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:edge_case",
+        "locales": [
+          {
+            "description": "Testing platform boundaries with harmful content",
+            "lang": "en",
+            "name": "Pattern: Pushing Boundaries"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:plausible_deniability",
+        "locales": [
+          {
+            "description": "Using plausible deniability to mask harmful intent",
+            "lang": "en",
+            "name": "Pattern: Plausible Deniability Tactics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:context_collapse",
+        "locales": [
+          {
+            "description": "Misleading quoting or context manipulation",
+            "lang": "en",
+            "name": "Pattern: Misleading Quoting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:derailment",
+        "locales": [
+          {
+            "description": "Deliberately derailing conversations",
+            "lang": "en",
+            "name": "Pattern: Thread Disruption"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:trust_poison",
+        "locales": [
+          {
+            "description": "Systematically undermining trust in institutions",
+            "lang": "en",
+            "name": "Pattern: Undermining Trust"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "pattern:exposure",
+        "locales": [
+          {
+            "description": "Gradually exposing users to more harmful content",
+            "lang": "en",
+            "name": "Pattern: Escalating Harmful Content"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:false_reporting",
+        "locales": [
+          {
+            "description": "Pattern of making false reports",
+            "lang": "en",
+            "name": "Pattern: False Reporting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:grievance",
+        "locales": [
+          {
+            "description": "Baiting strong emotional reactions",
+            "lang": "en",
+            "name": "Pattern: Baiting Reactions"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:identity_baiting",
+        "locales": [
+          {
+            "description": "Targeting specific identity groups",
+            "lang": "en",
+            "name": "Pattern: Identity Targeting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:subtextual",
+        "locales": [
+          {
+            "description": "Subtle or implicit harmful messaging",
+            "lang": "en",
+            "name": "Pattern: Subtle Attacks"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:sea_walling",
+        "locales": [
+          {
+            "description": "Overwhelming targets with responses",
+            "lang": "en",
+            "name": "Pattern: Overwhelming Responses"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:boosting",
+        "locales": [
+          {
+            "description": "Coordinated boosting of harmful content",
+            "lang": "en",
+            "name": "Pattern: Coordinated Boosting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:selective_context",
+        "locales": [
+          {
+            "description": "Selectively removing context to mislead",
+            "lang": "en",
+            "name": "Pattern: Missing Context"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:dogpiling",
+        "locales": [
+          {
+            "description": "Coordinated harassment by multiple accounts",
+            "lang": "en",
+            "name": "Pattern: Dogpiling"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "identifier": "pattern:thread_manipulation",
+        "locales": [
+          {
+            "description": "Manipulating conversation flow or replies",
+            "lang": "en",
+            "name": "Pattern: Thread Manipulation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:transphobia",
+        "locales": [
+          {
+            "description": "Content expressing transphobic views",
+            "lang": "en",
+            "name": "Community: Transphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:homophobia",
+        "locales": [
+          {
+            "description": "Content expressing homophobic views",
+            "lang": "en",
+            "name": "Community: Homophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:biphobia",
+        "locales": [
+          {
+            "description": "Content expressing biphobic views",
+            "lang": "en",
+            "name": "Community: Biphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:misogyny",
+        "locales": [
+          {
+            "description": "Content expressing misogynistic views",
+            "lang": "en",
+            "name": "Community: Misogyny"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:anti_black",
+        "locales": [
+          {
+            "description": "Content expressing anti-Black racism",
+            "lang": "en",
+            "name": "Community: Anti-Black Racism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:anti_indigenous",
+        "locales": [
+          {
+            "description": "Content expressing anti-Indigenous views",
+            "lang": "en",
+            "name": "Community: Anti-Indigenous Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:anti_asian",
+        "locales": [
+          {
+            "description": "Content expressing anti-Asian views",
+            "lang": "en",
+            "name": "Community: Anti-Asian Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:anti_latino",
+        "locales": [
+          {
+            "description": "Content expressing anti-Latino views",
+            "lang": "en",
+            "name": "Community: Anti-Latino Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:antisemitism",
+        "locales": [
+          {
+            "description": "Content expressing antisemitic views",
+            "lang": "en",
+            "name": "Community: Antisemitism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:islamophobia",
+        "locales": [
+          {
+            "description": "Content expressing Islamophobic views",
+            "lang": "en",
+            "name": "Community: Islamophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:anti_hindu",
+        "locales": [
+          {
+            "description": "Content expressing anti-Hindu views",
+            "lang": "en",
+            "name": "Community: Anti-Hindu Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:ableism",
+        "locales": [
+          {
+            "description": "Content expressing ableist views",
+            "lang": "en",
+            "name": "Community: Ableism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:xenophobia",
+        "locales": [
+          {
+            "description": "Content expressing xenophobic views",
+            "lang": "en",
+            "name": "Community: Xenophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:classism",
+        "locales": [
+          {
+            "description": "Content expressing classist views",
+            "lang": "en",
+            "name": "Community: Classism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "identifier": "community:ageism",
+        "locales": [
+          {
+            "description": "Content expressing ageist views",
+            "lang": "en",
+            "name": "Community: Ageism"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "harassment:direct",
+      "harassment:threats",
+      "harassment:doxxing",
+      "harassment:intimidation",
+      "hate:slurs",
+      "hate:symbols",
+      "hate:identity_attacks",
+      "hate:group_glorification",
+      "safety:exploitation",
+      "safety:non_consensual",
+      "safety:violence",
+      "safety:self_harm",
+      "platform:spam",
+      "platform:impersonation",
+      "platform:coordination",
+      "platform:misinfo",
+      "privacy:violation",
+      "privacy:consent",
+      "ip:copyright",
+      "ip:trademark",
+      "pattern:sealioning",
+      "pattern:context_switching",
+      "pattern:distributed",
+      "pattern:follow_hopping",
+      "pattern:coded_language",
+      "pattern:edge_case",
+      "pattern:plausible_deniability",
+      "pattern:context_collapse",
+      "pattern:derailment",
+      "pattern:trust_poison",
+      "pattern:exposure",
+      "pattern:false_reporting",
+      "pattern:grievance",
+      "pattern:identity_baiting",
+      "pattern:subtextual",
+      "pattern:sea_walling",
+      "pattern:boosting",
+      "pattern:selective_context",
+      "pattern:dogpiling",
+      "pattern:thread_manipulation",
+      "community:transphobia",
+      "community:homophobia",
+      "community:biphobia",
+      "community:misogyny",
+      "community:anti_black",
+      "community:anti_indigenous",
+      "community:anti_asian",
+      "community:anti_latino",
+      "community:antisemitism",
+      "community:islamophobia",
+      "community:anti_hindu",
+      "community:ableism",
+      "community:xenophobia",
+      "community:classism",
+      "community:ageism"
+    ]
+  }
+}
