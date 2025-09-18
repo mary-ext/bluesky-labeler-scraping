@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:57fl6zy4wmpuknwpgtjqkvlz/app.bsky.labeler.service/self",
-  "cid": "bafyreicpbwnt4rnsxfvilo63g3z3ijigscpjrhvknj6x6uiqmip73aodhi",
+  "cid": "bafyreie3wskkobymr5twuge4ifnuu7yu2jkw5j5d74rgn22jxgoimeb2na",
   "creator": {
     "did": "did:plc:57fl6zy4wmpuknwpgtjqkvlz",
     "handle": "testlabeler3.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-08-18T22:07:44.998Z",
     "indexedAt": "2025-08-18T22:07:44.998Z"
   },
-  "indexedAt": "2025-08-19T19:04:27.307Z",
+  "indexedAt": "2025-09-17T23:18:18.611Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -33,10 +33,25 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "proposed-label-needs-context",
+        "locales": [
+          {
+            "description": "Readers added context they thought people might want to know",
+            "lang": "en",
+            "name": "Rate Proposed Community Notes"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
-      "needs-context"
+      "needs-context",
+      "proposed-label-needs-context"
     ]
   }
 }
