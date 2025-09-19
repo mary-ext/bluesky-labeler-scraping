@@ -1,0 +1,118 @@
+{
+  "uri": "at://did:plc:y5gazb6lrsk3j4riiro62zjn/app.bsky.labeler.service/self",
+  "cid": "bafyreictc4r2ey2lnukgex2jvq3oenfg4pw4z2w5fhl5i3pjjs53mb3d7i",
+  "creator": {
+    "did": "did:plc:y5gazb6lrsk3j4riiro62zjn",
+    "handle": "pdslabelertest.at.tny.im",
+    "displayName": "Just a test",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:y5gazb6lrsk3j4riiro62zjn/bafkreiceoikbgiaqh2tgs5ae222arjpz7q5gfnot46ozxbwgxqzmmtgdfy@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-18T11:56:40.901Z",
+    "description": "Please ignore... for now 🥺",
+    "indexedAt": "2025-09-18T23:46:52.098Z"
+  },
+  "indexedAt": "2025-09-19T00:05:07.708Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "internal-independent",
+        "locales": [
+          {
+            "description": "Account is hosted by an independent PDS",
+            "lang": "en",
+            "name": "Independent PDS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "internal-other",
+        "locales": [
+          {
+            "description": "Account is hosted by a smaller independent PDS",
+            "lang": "en",
+            "name": "Other PDS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-blacksky",
+        "locales": [
+          {
+            "description": "Account is hosted on blacksky.app PDS",
+            "lang": "en",
+            "name": "blacksky.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "online-esnoticia",
+        "locales": [
+          {
+            "description": "Account is hosted on esnoticia.online PDS",
+            "lang": "en",
+            "name": "esnoticia.online"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sh-tngl",
+        "locales": [
+          {
+            "description": "Account is hosted on tngl.sh PDS",
+            "lang": "en",
+            "name": "tngl.sh"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-selfhosted",
+        "locales": [
+          {
+            "description": "Account is hosted on selfhosted.social PDS",
+            "lang": "en",
+            "name": "selfhosted.social"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "internal-independent",
+      "internal-other",
+      "app-blacksky",
+      "online-esnoticia",
+      "sh-tngl",
+      "social-selfhosted"
+    ]
+  }
+}

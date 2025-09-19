@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:57fl6zy4wmpuknwpgtjqkvlz/app.bsky.labeler.service/self",
-  "cid": "bafyreie3wskkobymr5twuge4ifnuu7yu2jkw5j5d74rgn22jxgoimeb2na",
+  "cid": "bafyreidyuqyof3yjptpf4viju7f7korydpqvuwm6tywpghfqjbo6cf7a4q",
   "creator": {
     "did": "did:plc:57fl6zy4wmpuknwpgtjqkvlz",
     "handle": "testlabeler3.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-08-18T22:07:44.998Z",
     "indexedAt": "2025-08-18T22:07:44.998Z"
   },
-  "indexedAt": "2025-09-17T23:18:18.611Z",
+  "indexedAt": "2025-09-18T18:38:25.515Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,10 +24,10 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "needs-context",
+        "identifier": "annotation",
         "locales": [
           {
-            "description": "The Community Notes algorithm has rated a note on this post as \"helpful\"",
+            "description": "Readers added context they thought people might want to know",
             "lang": "en",
             "name": "Readers Added Context"
           }
@@ -38,10 +38,10 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "proposed-label-needs-context",
+        "identifier": "proposed-annotation",
         "locales": [
           {
-            "description": "Readers added context they thought people might want to know",
+            "description": "This post has proposed community notes that need more ratings",
             "lang": "en",
             "name": "Rate Proposed Community Notes"
           }
@@ -50,8 +50,8 @@
       }
     ],
     "labelValues": [
-      "needs-context",
-      "proposed-label-needs-context"
+      "annotation",
+      "proposed-annotation"
     ]
   }
 }

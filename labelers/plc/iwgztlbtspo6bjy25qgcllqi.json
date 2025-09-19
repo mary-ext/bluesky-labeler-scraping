@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:iwgztlbtspo6bjy25qgcllqi/app.bsky.labeler.service/self",
-  "cid": "bafyreifglgzto5fge5hn7q6byqhqlleqvcpl3ifu4i5ldltce5k2k2nq54",
+  "cid": "bafyreien4mjsdfyidazpx2365rkjwd7y47sr362v4lqqpjrp7xhied6bo4",
   "creator": {
     "did": "did:plc:iwgztlbtspo6bjy25qgcllqi",
     "handle": "panslawek.pl",
@@ -25,7 +25,7 @@
     "description": "Promowanie kulturalnej dyskusji i dobrej zabawy poprzez moderowanie niewłaściwych zachowań.",
     "indexedAt": "2025-02-19T18:14:06.346Z"
   },
-  "indexedAt": "2025-01-31T11:19:17.856Z",
+  "indexedAt": "2025-09-18T14:33:38.504Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -55,7 +55,7 @@
         "identifier": "inspirator",
         "locales": [
           {
-            "description": " „Inspirator” jest przyznawane osobom, które swoją systematyczną aktywnością i zaangażowaniem wspierają codzienne funkcjonowanie polskiej społeczności BlueSky. Prezentują ciekawe informacje z zakresu wiedzy ogólnej, zainteresowań, nauki lub prawa.",
+            "description": "„Inspirator” jest przyznawane osobom, które swoją systematyczną aktywnością i zaangażowaniem wspierają codzienne funkcjonowanie polskiej społeczności BlueSky. Prezentują ciekawe informacje z zakresu wiedzy ogólnej, zainteresowań, nauki lub prawa.",
             "lang": "pl",
             "name": "Inspirator 🖊️"
           },
@@ -158,6 +158,25 @@
             "description": "Some call for blocking, others say they are going too far, while others claim they support it. Since opinions are so polarized, decide for yourselves what to do.",
             "lang": "en",
             "name": "Controversy"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "dezinformacja",
+        "locales": [
+          {
+            "description": "Dezinformacja celowa – rozpowszechnianie fałszywych informacji w sposób zamierzony, w celu manipulowania opinią publiczną lub osiągnięcia określonych korzyści. Dezinformacja nieumyślna (z głupoty) – przekazywanie nieprawdziwych treści wynikające z braku wiedzy, krytycznego myślenia lub bezrefleksyjnego powielania niesprawdzonych informacji.",
+            "lang": "pl",
+            "name": "Dezinformacja"
+          },
+          {
+            "description": "Deliberate disinformation – the intentional dissemination of false information aimed at manipulating public opinion or achieving specific goals. Unintentional disinformation (out of ignorance) – the spread of false content resulting from a lack of knowledge, critical thinking, or the uncritical sharing of unverified information.",
+            "lang": "en",
+            "name": "Misinformation"
           }
         ],
         "severity": "alert"
@@ -360,6 +379,7 @@
       "motyl",
       "bot",
       "parody",
+      "dezinformacja",
       "kontrowersje",
       "trolle",
       "gablota",
