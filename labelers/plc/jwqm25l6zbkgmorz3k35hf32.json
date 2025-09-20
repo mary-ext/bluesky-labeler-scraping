@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreifbapufdxjhrrwdkj4k6xi6vy7ly4fexutt2rvqv5yrk5i2k2zmqm",
+  "cid": "bafyreigwigponeknwvyouis4ik4r5o3twnfawerur6un7mo6xwdedw2pnq",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)",
     "indexedAt": "2025-05-04T21:05:48.276Z"
   },
-  "indexedAt": "2025-08-28T15:56:45.808Z",
+  "indexedAt": "2025-09-19T12:03:20.508Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,9 +31,9 @@
         "identifier": "contains-patreon-substitutes",
         "locales": [
           {
-            "description": "Contains obscured Patreon mentions",
+            "description": "Contains substitutes for the word \"Patreon\"",
             "lang": "en",
-            "name": "Contains Patreon Substitutes"
+            "name": "Contains Patreon Obfuscation"
           }
         ],
         "severity": "alert"
@@ -45,37 +45,9 @@
         "identifier": "contains-pin-emoji",
         "locales": [
           {
-            "description": "Contains the emoji \"📌\"",
+            "description": "Contains the pin emoji 📌",
             "lang": "en",
             "name": "Contains 📌"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "contains-xwitter",
-        "locales": [
-          {
-            "description": "Contains the word \"xwitter\"",
-            "lang": "en",
-            "name": "Contains Xwitter"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "contains-xitter",
-        "locales": [
-          {
-            "description": "Contains the word \"xitter\"",
-            "lang": "en",
-            "name": "Contains Xitter"
           }
         ],
         "severity": "alert"
@@ -89,7 +61,35 @@
           {
             "description": "Contains the word \"skeet\"",
             "lang": "en",
-            "name": "Contains Skeet"
+            "name": "Contains skeet"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-xitter",
+        "locales": [
+          {
+            "description": "Contains the word \"xitter\"",
+            "lang": "en",
+            "name": "Contains xitter"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-xwitter",
+        "locales": [
+          {
+            "description": "Contains the word \"xwitter\"",
+            "lang": "en",
+            "name": "Contains xwitter"
           }
         ],
         "severity": "alert"

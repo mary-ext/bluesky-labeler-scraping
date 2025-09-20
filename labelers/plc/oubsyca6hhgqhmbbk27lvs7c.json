@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreibkejzy2fpm63ge3hixilzaexawk55qyoczvot5gcxfqjcjxt5hii",
+  "cid": "bafyreigge7svop2qeqjaq65w7fiz32t4mha2g2vrqx4hbvgu2mm4n7lptu",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
     "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oubsyca6hhgqhmbbk27lvs7c/bafkreiegpuarlaghzywomxxvubkluaneod4whbek2hk7x2bukogebfdam4@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oubsyca6hhgqhmbbk27lvs7c/bafkreic6pcqn4pg6w33c6hzil4mbi224z4znrojqddnwgjeve3brprz7mi@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,9 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-07-16T17:30:50.034Z",
-    "indexedAt": "2025-07-16T17:30:50.034Z"
+    "description": "A research project from Cornell Tech, investigating using automated signals to help users have more context about the accounts they are interacting with. Contact: mor.naaman@cornell.edu\n\nProfile picture adapted from Flaticon.",
+    "indexedAt": "2025-09-19T17:37:48.697Z"
   },
-  "indexedAt": "2025-09-16T03:05:12.303Z",
+  "indexedAt": "2025-09-19T19:47:20.213Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -164,6 +165,48 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "posted-same-url-low",
+        "locales": [
+          {
+            "description": "in the last 24hrs this accounted posted the same url more than 5 times",
+            "lang": "en",
+            "name": "posted same url 5+ times"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "posted-same-url-mid",
+        "locales": [
+          {
+            "description": "in the last 24hrs this accounted posted the same url more than 10 times",
+            "lang": "en",
+            "name": "posted same url 10+ times"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "posted-same-url-high",
+        "locales": [
+          {
+            "description": "in the last 24hrs this accounted posted the same url 15 more than times",
+            "lang": "en",
+            "name": "posted same url 15+ times"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "test-label",
         "locales": [
           {
@@ -186,6 +229,9 @@
       "no-gap-more-than-one-hours",
       "no-gap-more-than-two-hours",
       "no-gap-more-than-four-hours",
+      "posted-same-url-low",
+      "posted-same-url-mid",
+      "posted-same-url-high",
       "test-label"
     ]
   }

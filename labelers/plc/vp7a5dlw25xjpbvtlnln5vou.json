@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vp7a5dlw25xjpbvtlnln5vou/app.bsky.labeler.service/self",
-  "cid": "bafyreier74luq2fsguesnk2txgfifu4ktoi2eiporg5yvqcnz4zrayyd3y",
+  "cid": "bafyreidfnnl4x2zssjtvqlgmb6y3ambg4fdqqtfispxq2d5zs3acza6b4q",
   "creator": {
     "did": "did:plc:vp7a5dlw25xjpbvtlnln5vou",
     "handle": "unclouder-dev.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Ignore anything posted here, these are just test posts.",
     "indexedAt": "2025-04-28T09:52:45.777Z"
   },
-  "indexedAt": "2025-09-10T15:40:13.909Z",
+  "indexedAt": "2025-09-19T17:27:19.202Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -30,7 +30,21 @@
           {
             "description": "Test Label description.",
             "lang": "en",
-            "name": "My Test Label Display Name"
+            "name": "My First Test Label Display Name"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "second-label",
+        "locales": [
+          {
+            "description": "Second Label description.",
+            "lang": "en",
+            "name": "My Second Test Label Display Name"
           }
         ],
         "severity": "alert"
@@ -38,8 +52,7 @@
     ],
     "labelValues": [
       "test-label",
-      "second-label",
-      "third-label"
+      "second-label"
     ]
   },
   "reasonTypes": [

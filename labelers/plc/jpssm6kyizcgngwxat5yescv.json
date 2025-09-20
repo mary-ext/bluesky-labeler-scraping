@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jpssm6kyizcgngwxat5yescv/app.bsky.labeler.service/self",
-  "cid": "bafyreiflhvk5wvn23xcxk5cgji6rjajve4bb36lyrrm4yarbjioihlymny",
+  "cid": "bafyreiblpo2x4qdx6ag7qqywrrnpbocssazjkbkcwfhkrvp7szbofj4wqm",
   "creator": {
     "did": "did:plc:jpssm6kyizcgngwxat5yescv",
     "handle": "labeler.jackofarttrades.com",
@@ -16,7 +16,7 @@
     "createdAt": "2025-09-13T22:43:05.999Z",
     "indexedAt": "2025-09-13T22:46:42.999Z"
   },
-  "indexedAt": "2025-09-18T09:11:57.242Z",
+  "indexedAt": "2025-09-19T00:31:01.506Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -33,10 +33,70 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "heart",
+        "locales": [
+          {
+            "description": "Heart Rank: 3+ Trades Completed!!",
+            "lang": "en",
+            "name": "❤️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "club",
+        "locales": [
+          {
+            "description": "Club Rank: 6+ Trades Completed!!",
+            "lang": "en",
+            "name": "♣️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "diamond",
+        "locales": [
+          {
+            "description": "Diamond Rank: 9+ Trades Completed!!",
+            "lang": "en",
+            "name": "♦️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "royal",
+        "locales": [
+          {
+            "description": "Royal Rank: 12+ Trades Completed!!",
+            "lang": "en",
+            "name": "👑"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "spade"
+      "spade",
+      "heart",
+      "club",
+      "diamond",
+      "royal"
     ]
   }
 }
