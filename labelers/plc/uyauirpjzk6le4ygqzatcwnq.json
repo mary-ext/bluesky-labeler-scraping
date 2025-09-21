@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifj5pxaey2w5snndirpvpvelhz35wabccvqjy3lvhtwcd23dj4y6q",
+  "cid": "bafyreihldaoqipluryirogugzr5covmbvj6rtd2hpfuya5gwcu4pdmiddu",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
-    "displayName": "Independent PDS Labeler (in development / inactive)",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uyauirpjzk6le4ygqzatcwnq/bafkreiblb6s3w7tb366cjalrmeom4ko7ljvx4dulu6eipjros2h4etj5py@jpeg",
+    "displayName": "Independent PDS Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uyauirpjzk6le4ygqzatcwnq/bafkreifwc4e4b45p7erokttejlyu5xupev6jrv2gfg4mxxpjur6f6q2wwu@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-09-19T19:38:31.996Z",
-    "description": "Built by @gbl08ma.com\nIf you use this labeler, please like it so I can get an idea of how many people use it!",
-    "indexedAt": "2025-09-19T19:43:00.296Z"
+    "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
+    "indexedAt": "2025-09-20T17:06:28.398Z"
   },
-  "indexedAt": "2025-09-19T23:24:52.401Z",
+  "indexedAt": "2025-09-20T20:20:54.006Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -207,6 +207,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blue-zio",
+        "locales": [
+          {
+            "description": "Account is hosted by the zio.blue PDS",
+            "lang": "en",
+            "name": "zio.blue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "is-socl",
         "locales": [
           {
@@ -221,12 +235,54 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "to-bbi",
+        "locales": [
+          {
+            "description": "Account is hosted by the bbi.to PDS",
+            "lang": "en",
+            "name": "bbi.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-northsky",
         "locales": [
           {
             "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
             "name": "northsky.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-venki-blogsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the blogsky.venki.dev PDS",
+            "lang": "en",
+            "name": "blogsky.venki.dev"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "io-koda--agency-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.koda-agency.io PDS",
+            "lang": "en",
+            "name": "pds.koda-agency.io"
           }
         ],
         "severity": "inform"
@@ -291,12 +347,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-documatric",
+        "locales": [
+          {
+            "description": "Account is hosted by the documatric.com PDS",
+            "lang": "en",
+            "name": "documatric.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "gay-evil",
         "locales": [
           {
             "description": "Account is hosted by the evil.gay PDS",
             "lang": "en",
             "name": "evil.gay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-hounddeepmind",
+        "locales": [
+          {
+            "description": "Account is hosted by the hounddeepmind.com PDS",
+            "lang": "en",
+            "name": "hounddeepmind.com"
           }
         ],
         "severity": "inform"
@@ -319,12 +403,68 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-merklehost-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.merklehost.xyz PDS",
+            "lang": "en",
+            "name": "pds.merklehost.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "download-synth-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.synth.download PDS",
             "lang": "en",
             "name": "pds.synth.download"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mom-rat",
+        "locales": [
+          {
+            "description": "Account is hosted by the rat.mom PDS",
+            "lang": "en",
+            "name": "rat.mom"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-gumby",
+        "locales": [
+          {
+            "description": "Account is hosted by the gumby.social PDS",
+            "lang": "en",
+            "name": "gumby.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pro-hellthread",
+        "locales": [
+          {
+            "description": "Account is hosted by the hellthread.pro PDS",
+            "lang": "en",
+            "name": "hellthread.pro"
           }
         ],
         "severity": "inform"
@@ -344,15 +484,25 @@
       "homes-si46",
       "systems-witchcraft-pds",
       "social-mt-x",
+      "blue-zio",
       "is-socl",
+      "to-bbi",
       "social-northsky",
+      "dev-venki-blogsky",
+      "io-koda--agency-pds",
       "best-akizuki-pds",
       "net-shendrick-at",
       "com-ripperoni-pds",
       "social-selfhosted",
+      "com-documatric",
       "gay-evil",
+      "com-hounddeepmind",
       "social-bsea-pds",
-      "download-synth-pds"
+      "xyz-merklehost-pds",
+      "download-synth-pds",
+      "mom-rat",
+      "social-gumby",
+      "pro-hellthread"
     ]
   }
 }
