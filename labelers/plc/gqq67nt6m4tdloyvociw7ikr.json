@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:gqq67nt6m4tdloyvociw7ikr/app.bsky.labeler.service/self",
-  "cid": "bafyreibdhjs3uvybt7rhwmysypf5zpz2hk5qa7krxrtx4zb5xsulzvtqgq",
+  "cid": "bafyreiae7hb6kr3fi64uvc7elhodnal3kmklqf7ezlmy3jfgf25qyaupny",
   "creator": {
     "did": "did:plc:gqq67nt6m4tdloyvociw7ikr",
     "handle": "latinsky.social",
-    "displayName": "Latinsky Network & Moderation",
+    "displayName": "Latinsky Barrio & Moderation",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gqq67nt6m4tdloyvociw7ikr/bafkreihqtrjipiajtm3r7m4rvyfo7dju7naca54yh5ylt46hscyi5626ea@jpeg",
     "associated": {
       "labeler": true,
@@ -14,12 +14,75 @@
     },
     "labels": [],
     "createdAt": "2024-12-12T19:01:46.043Z",
-    "description": "A digital barrio centering Latine/x/o/a, Afrolatine/x/o/a, Immigrant, & Indigenous voices from across the ATmosphere.\n\nCommunity Guidelines: https://tinyurl.com/3knwb8s8\nDiscord: https://discord.gg/5UBEgesv",
-    "indexedAt": "2025-09-16T03:52:36.897Z"
+    "description": "A digital barrio centering Latine/x/o/a, Afrolatine/x/o/a, Immigrant, & Indigenous voices from across the ATmosphere.\n\nLatinsky Feed: https://bsky.app/profile/did:plc:an5cb3ab3cjswxhb3czqqjov/feed/latinsky\nCommunity Guidelines: https://tinyurl.com/3knwb8s8",
+    "indexedAt": "2025-09-21T06:30:22.598Z"
   },
-  "indexedAt": "2025-09-21T00:17:28.707Z",
+  "indexedAt": "2025-09-21T05:13:50.503Z",
   "labels": [],
   "policies": {
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "Communicating hate, encouraging violence, perpetuating harmful stereotypes, or dehumanizing individuals based on their culture, race, religion, gender identity, or sexual orientation.",
+            "lang": "en",
+            "name": "Hate Speech"
+          },
+          {
+            "description": "Comunicar odio, alentar la violencia, perpetuar estereotipos dañinos o deshumanizar a personas en función de su cultura, raza, religión, identidad de género u orientación sexual.",
+            "lang": "es",
+            "name": "Discurso de Odio"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Engaging in repetitive and unsolicited engagement in an antisocial or abusive manner, including but not limited to the use of harmful or hateful language directed at individuals based on their culture, race, religion, gender identity, or sexual orientation, the spread of harmful misinformation, or through the sharing of unlabeled graphic or triggering images.",
+            "lang": "en",
+            "name": "Harassment"
+          },
+          {
+            "description": "Participar en interacciones repetitivas y no solicitadas de manera antisocial o abusiva, incluido, entre otros, el uso de lenguaje dañino o de odio dirigido a personas en función de su cultura, raza, religión, identidad de género u orientación sexual, la difusión de desinformación dañina o mediante el intercambio de imágenes gráficas o provocativas sin etiquetar.",
+            "lang": "es",
+            "name": "Acoso"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Engaging in repetitive and unsolicited engagement on the Latinsky feeds, either in an antisocial manner or in a way to artificially inflate user engagement through posting low-quality, clickbait-like, misleading, and emotionally triggering content (i.e. engagement farming).",
+            "lang": "en",
+            "name": "Spam"
+          },
+          {
+            "description": "Participar en interacciones repetitivas y no solicitadas en los feeds de Latinsky, ya sea de manera antisocial o de una manera que infla artificialmente la participación del usuario mediante la publicación de contenido de baja calidad, similar a un clickbait, engañoso y que desencadena emociones (es decir, molesto solo para generar seguidores).",
+            "lang": "es",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "hate-speech",
+      "harassment",
+      "spam"
+    ]
   }
 }
