@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:r5ju6hyf6p7lufdpelj37wnk/app.bsky.labeler.service/self",
-  "cid": "bafyreihfxl4c56imo2a3j2daeun7z3dftx336jke4yhdrj7pynfywuiyp4",
+  "cid": "bafyreiexw4odsme3vlyupgufskrgdmvpuzf3ob45uiauq5lo3ne7u67p6e",
   "creator": {
     "did": "did:plc:r5ju6hyf6p7lufdpelj37wnk",
     "handle": "plabeler-gamma.bsky.social",
@@ -14,21 +14,21 @@
     },
     "labels": [],
     "createdAt": "2025-09-01T10:45:28.597Z",
-    "description": "Labeler for US Politics, currently in beta.\nNot associated with any other US Politics Labeler.",
-    "indexedAt": "2025-09-08T16:23:10.798Z"
+    "description": "Labeler to warn/hide posts about US Politics. \n\nNot associated with any other US Politics Labeler.",
+    "indexedAt": "2025-09-22T15:23:53.998Z"
   },
-  "indexedAt": "2025-09-05T20:52:39.205Z",
+  "indexedAt": "2025-09-22T14:57:49.307Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "content|media|none",
         "defaultSetting": "warn",
         "identifier": "uspol",
         "locales": [
           {
-            "description": "Posts about US Politics. ",
+            "description": "Posts about US Politics",
             "lang": "en",
             "name": "US Politics"
           }
@@ -41,13 +41,11 @@
     ]
   },
   "reasonTypes": [
+    "com.atproto.moderation.defs#reasonAppeal",
     "com.atproto.moderation.defs#reasonOther"
   ],
   "subjectTypes": [
-    "record",
-    "account"
-  ],
-  "subjectCollections": [
-    "app.bsky.feed.post"
+    "account",
+    "record"
   ]
 }
