@@ -1,0 +1,58 @@
+{
+  "uri": "at://did:plc:kgpqgx33bhqf4sn7lb7thnzw/app.bsky.labeler.service/self",
+  "cid": "bafyreid44noea5jh74aov7idesbsgi4zfxhxqxbpyd4hqm6btwqd2ofobm",
+  "creator": {
+    "did": "did:plc:kgpqgx33bhqf4sn7lb7thnzw",
+    "handle": "moderation.at.yugoslavia.best",
+    "displayName": "Yugoslavia Moderation Service",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kgpqgx33bhqf4sn7lb7thnzw/bafkreigowp26hslk5ymxb45hpz3fpn5wek7w2ergoacjhpi3zfi4gsbriq@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-23T12:28:50.001Z",
+    "description": "Official Yugoslavian PDS moderation service.\nhttps://yugoslavia.best/fuck",
+    "indexedAt": "2025-09-23T14:03:25.097Z"
+  },
+  "indexedAt": "2025-09-23T16:35:54.406Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "security-concerns",
+        "locales": [
+          {
+            "description": "⚠️ volatile",
+            "lang": "en",
+            "name": "Security Concerns"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misinformation",
+        "locales": [
+          {
+            "description": "THIS USER IS SPREADING MISINFORMATION. DO NOT BELIEVE THEIR LIES",
+            "lang": "en",
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "security-concerns",
+      "misinformation"
+    ]
+  }
+}
