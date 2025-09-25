@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vp7a5dlw25xjpbvtlnln5vou/app.bsky.labeler.service/self",
-  "cid": "bafyreidfnnl4x2zssjtvqlgmb6y3ambg4fdqqtfispxq2d5zs3acza6b4q",
+  "cid": "bafyreif5wbgigmhgfv6kjcd24xih6o6uy24iphpblc2dwfbnh2hz5kp7mi",
   "creator": {
     "did": "did:plc:vp7a5dlw25xjpbvtlnln5vou",
     "handle": "unclouder-dev.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Ignore anything posted here, these are just test posts.",
     "indexedAt": "2025-04-28T09:52:45.777Z"
   },
-  "indexedAt": "2025-09-19T17:27:19.202Z",
+  "indexedAt": "2025-09-24T15:01:47.553Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,12 +25,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "test-label",
+        "identifier": "factcheck-leadstories",
         "locales": [
           {
-            "description": "Test Label description.",
+            "description": "A fact check about this content is available from Lead Stories.  Check the comments below this post.",
             "lang": "en",
-            "name": "My First Test Label Display Name"
+            "name": "Fact Check Available from Lead Stories"
           }
         ],
         "severity": "alert"
@@ -39,20 +39,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "second-label",
+        "identifier": "explainer-leadstories",
         "locales": [
           {
-            "description": "Second Label description.",
+            "description": "A fact check about this content is available from Lead Stories.  Check the comments below this post.",
             "lang": "en",
-            "name": "My Second Test Label Display Name"
+            "name": "Fact Check Available from Lead Stories"
           }
         ],
         "severity": "alert"
       }
     ],
     "labelValues": [
-      "test-label",
-      "second-label"
+      "factcheck-leadstories",
+      "explainer-leadstories"
     ]
   },
   "reasonTypes": [
