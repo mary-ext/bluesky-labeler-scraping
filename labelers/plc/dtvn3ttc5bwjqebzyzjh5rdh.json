@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dtvn3ttc5bwjqebzyzjh5rdh/app.bsky.labeler.service/self",
-  "cid": "bafyreidvtapi5tdbeorytf3xuwj6w455mythkcisndk5sfqtzx6ovihiha",
+  "cid": "bafyreiak4shdxk37mm3bdluldry3voygch72cjgiuezoioyr45le2dup6y",
   "creator": {
     "did": "did:plc:dtvn3ttc5bwjqebzyzjh5rdh",
     "handle": "ozone.tophhie.cloud",
@@ -17,7 +17,7 @@
     "description": "🤔 Want a way of validating Tophhie Cloud accounts? Show off your user status?\n\nClick/tap on \"Subscribe to Labeler\" to get started! 🎉\n\nAre you a user of one or more of the Tophhie Cloud services or apps? Let us know at help@tophhie.cloud to get your badge!",
     "indexedAt": "2025-09-09T21:50:32.696Z"
   },
-  "indexedAt": "2025-09-09T21:43:15.107Z",
+  "indexedAt": "2025-09-25T19:37:59.851Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -76,13 +76,28 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tophhiesocial",
+        "locales": [
+          {
+            "description": "A verified Tophhie Social PDS account.",
+            "lang": "en",
+            "name": "Tophhie Social"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "tophhiecloud",
       "tophhiecloud-auto",
       "tophhiecloud-user",
-      "marvelist-user"
+      "marvelist-user",
+      "tophhiesocial"
     ]
   }
 }

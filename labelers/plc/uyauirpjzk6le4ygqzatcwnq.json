@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicf5vp63g3j7j4hjo7ej6t4mrfze5hlqcxorx7e7nbxxbrmop2e6m",
+  "cid": "bafyreigi3ddf2as2gqcn32b6wm6i6yjcqzgs3pvk6d25rmsxebqkj6j7du",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-20T17:06:28.398Z"
   },
-  "indexedAt": "2025-09-24T16:20:48.764Z",
+  "indexedAt": "2025-09-25T14:20:49.762Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -165,6 +165,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "homes-si46",
+        "locales": [
+          {
+            "description": "Account is hosted by the si46.homes PDS",
+            "lang": "en",
+            "name": "si46.homes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-yinzcloud-bsky-pds",
         "locales": [
           {
@@ -179,12 +193,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "homes-si46",
+        "identifier": "social-mt-x",
         "locales": [
           {
-            "description": "Account is hosted by the si46.homes PDS",
+            "description": "Account is hosted by the x.mt.social PDS",
             "lang": "en",
-            "name": "si46.homes"
+            "name": "x.mt.social"
           }
         ],
         "severity": "inform"
@@ -227,20 +241,6 @@
             "description": "Account is hosted by the pds.owo69.me PDS",
             "lang": "en",
             "name": "pds.owo69.me"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-mt-x",
-        "locales": [
-          {
-            "description": "Account is hosted by the x.mt.social PDS",
-            "lang": "en",
-            "name": "x.mt.social"
           }
         ],
         "severity": "inform"
@@ -571,6 +571,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-gumby",
+        "locales": [
+          {
+            "description": "Account is hosted by the gumby.social PDS",
+            "lang": "en",
+            "name": "gumby.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "xyz-merklehost-pds",
         "locales": [
           {
@@ -605,20 +619,6 @@
             "description": "Account is hosted by the bsky.pink PDS",
             "lang": "en",
             "name": "bsky.pink"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-gumby",
-        "locales": [
-          {
-            "description": "Account is hosted by the gumby.social PDS",
-            "lang": "en",
-            "name": "gumby.social"
           }
         ],
         "severity": "inform"
@@ -711,6 +711,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-bnbdiscord-at",
+        "locales": [
+          {
+            "description": "Account is hosted by the at.bnbdiscord.net PDS",
+            "lang": "en",
+            "name": "at.bnbdiscord.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-plasmatrap-bsky",
         "locales": [
           {
@@ -734,20 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "tel-mice-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.mice.tel PDS",
-            "lang": "en",
-            "name": "pds.mice.tel"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -761,12 +761,12 @@
       "so-sprk-pds",
       "fail-marta",
       "world-si46-pds--dev",
-      "net-yinzcloud-bsky-pds",
       "homes-si46",
+      "net-yinzcloud-bsky-pds",
+      "social-mt-x",
       "wtf-lamp",
       "wtf-lamp-pds",
       "me-owo69-pds",
-      "social-mt-x",
       "systems-witchcraft-pds",
       "to-tor0n",
       "app-louisvillebsky-pds",
@@ -790,19 +790,19 @@
       "social-selfhosted",
       "com-documatric",
       "gay-evil",
+      "social-gumby",
       "xyz-merklehost-pds",
       "download-synth-pds",
       "pink-bsky",
-      "social-gumby",
       "space-koyu",
       "mom-rat",
       "net-altq",
       "at-hailey-cocoon",
       "pro-hellthread",
       "dev-totallynotseth",
+      "net-bnbdiscord-at",
       "com-plasmatrap-bsky",
-      "com-hukoubook-network",
-      "tel-mice-pds"
+      "com-hukoubook-network"
     ]
   }
 }
