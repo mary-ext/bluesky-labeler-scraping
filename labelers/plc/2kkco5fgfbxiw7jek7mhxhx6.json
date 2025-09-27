@@ -1,0 +1,213 @@
+{
+  "uri": "at://did:plc:2kkco5fgfbxiw7jek7mhxhx6/app.bsky.labeler.service/self",
+  "cid": "bafyreid5p5e32m7qcpnhss7wcf67f65zcsl2loi6czbnqdjutsemw6uag4",
+  "creator": {
+    "did": "did:plc:2kkco5fgfbxiw7jek7mhxhx6",
+    "handle": "ozone.govtok.us",
+    "displayName": "GovTok Labeling Service",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2kkco5fgfbxiw7jek7mhxhx6/bafkreibsf4thqgyico6zfvjsx5jnnw5t6xnmr5bk5t7jy34velgj27e46q@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-26T19:45:17.145Z",
+    "description": "We help you filter out republicans and find blue creators.",
+    "indexedAt": "2025-09-26T22:25:45.945Z"
+  },
+  "indexedAt": "2025-09-26T23:56:16.652Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "Racist, antisemitic, misogynistic, or other demeaning slurs.",
+            "lang": "en",
+            "name": "🚫 Hate Speech"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Targeted abuse, bullying, or intimidation.",
+            "lang": "en",
+            "name": "⚠️ Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "extremism",
+        "locales": [
+          {
+            "description": "Promotes authoritarian, fascist, or violent extremist ideology.",
+            "lang": "en",
+            "name": "🔥 Extremism"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "maga",
+        "locales": [
+          {
+            "description": "Content supportive of MAGA/Trump 2028 or associated disinfo campaigns.",
+            "lang": "en",
+            "name": "🟥 MAGA Propaganda"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "disinformation",
+        "locales": [
+          {
+            "description": "False or misleading content designed to deceive or manipulate.",
+            "lang": "en",
+            "name": "🌀 Disinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "state-sponsored",
+        "locales": [
+          {
+            "description": "Content likely from state propaganda campaigns.",
+            "lang": "en",
+            "name": "🏴 State-Sponsored"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "election-denial",
+        "locales": [
+          {
+            "description": "Claims of rigged/invalid elections without credible evidence.",
+            "lang": "en",
+            "name": "🗳️ Election Denial"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "violent-user",
+        "locales": [
+          {
+            "description": "Glorifies or calls for political/ideological violence.",
+            "lang": "en",
+            "name": "💀 Violent User"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "follower-of-extremist",
+        "locales": [
+          {
+            "description": "Follows one or more known extremist accounts.",
+            "lang": "en",
+            "name": "🧩 Follower of Extremist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "follower-of-disinfo",
+        "locales": [
+          {
+            "description": "Follows one or more known disinformation accounts.",
+            "lang": "en",
+            "name": "🔗 Follower of Disinfo"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "hate-speech",
+      "harassment",
+      "extremism",
+      "maga",
+      "disinformation",
+      "state-sponsored",
+      "election-denial",
+      "violent-user",
+      "follower-of-extremist",
+      "follower-of-disinfo"
+    ],
+    "reasonTypes": [
+      "com.atproto.moderation.defs#reasonSpam",
+      "com.atproto.moderation.defs#reasonViolation",
+      "com.atproto.moderation.defs#reasonMisleading",
+      "com.atproto.moderation.defs#reasonOther",
+      "tools.ozone.report.defs#reasonHarassmentHateSpeech",
+      "tools.ozone.report.defs#reasonCivicElectoralProcess",
+      "tools.ozone.report.defs#reasonCivicMisinformation",
+      "tools.ozone.report.defs#reasonViolenceThreats",
+      "tools.ozone.report.defs#reasonViolenceExtremistContent"
+    ],
+    "subjectCollections": [
+      "app.bsky.feed.post",
+      "app.bsky.actor.profile",
+      "app.bsky.feed.generator",
+      "app.bsky.graph.follow"
+    ],
+    "subjectTypes": [
+      "account",
+      "record"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonSpam"
+  ],
+  "subjectTypes": [
+    "account",
+    "record",
+    "chat"
+  ]
+}
