@@ -1,0 +1,39 @@
+{
+  "uri": "at://did:plc:e3v3rfca44fvrrxac6iyhutg/app.bsky.labeler.service/self",
+  "cid": "bafyreie6d7dsy643kggzgnz7wkq3kgaezmklqw266rqeb66p3iww63voq4",
+  "creator": {
+    "did": "did:plc:e3v3rfca44fvrrxac6iyhutg",
+    "handle": "atversary.is.extraordinarily.cool",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "0001-01-01T00:00:00.000Z"
+  },
+  "indexedAt": "2025-09-28T18:14:10.750Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "at-versary",
+        "locales": [
+          {
+            "description": "Signifies that the users AT Protocol identity was created on the date when this label was applied",
+            "lang": "en",
+            "name": "ATVersary"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "at-versary"
+    ]
+  }
+}
