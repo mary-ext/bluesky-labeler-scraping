@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:2kkco5fgfbxiw7jek7mhxhx6/app.bsky.labeler.service/self",
-  "cid": "bafyreid5p5e32m7qcpnhss7wcf67f65zcsl2loi6czbnqdjutsemw6uag4",
+  "cid": "bafyreifcta5waksvhiwal7gwojxzockyljh4bjlbywpil5swojvjnblvpa",
   "creator": {
     "did": "did:plc:2kkco5fgfbxiw7jek7mhxhx6",
     "handle": "ozone.govtok.us",
@@ -17,7 +17,7 @@
     "description": "We help you filter out republicans and find blue creators.",
     "indexedAt": "2025-09-26T22:25:45.945Z"
   },
-  "indexedAt": "2025-09-26T23:56:16.652Z",
+  "indexedAt": "2025-09-29T22:03:47.654Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,7 +28,7 @@
         "identifier": "hate-speech",
         "locales": [
           {
-            "description": "Racist, antisemitic, misogynistic, or other demeaning slurs.",
+            "description": "Contains or promotes hateful or demeaning language targeting individuals or groups based on identity or belief.",
             "lang": "en",
             "name": "🚫 Hate Speech"
           }
@@ -42,7 +42,7 @@
         "identifier": "harassment",
         "locales": [
           {
-            "description": "Targeted abuse, bullying, or intimidation.",
+            "description": "Displays targeted abuse, bullying, or coordinated intimidation of individuals or communities.",
             "lang": "en",
             "name": "⚠️ Harassment"
           }
@@ -53,12 +53,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "extremism",
+        "identifier": "rightwing-extremism",
         "locales": [
           {
-            "description": "Promotes authoritarian, fascist, or violent extremist ideology.",
+            "description": "Advocates or promotes far-right or authoritarian political movements or ideologies.",
             "lang": "en",
-            "name": "🔥 Extremism"
+            "name": "🔥 Right-Wing Extremism"
           }
         ],
         "severity": "inform"
@@ -67,10 +67,10 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "maga",
+        "identifier": "maga-propaganda",
         "locales": [
           {
-            "description": "Content supportive of MAGA/Trump 2028 or associated disinfo campaigns.",
+            "description": "Promotes or amplifies political messaging aligned with MAGA or similar right-wing movements.",
             "lang": "en",
             "name": "🟥 MAGA Propaganda"
           }
@@ -81,12 +81,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "disinformation",
+        "identifier": "republican-disinfo",
         "locales": [
           {
-            "description": "False or misleading content designed to deceive or manipulate.",
+            "description": "Distributes misleading or deceptive political narratives associated with right-wing or conservative media sources.",
             "lang": "en",
-            "name": "🌀 Disinformation"
+            "name": "🌀 Republican Disinformation"
           }
         ],
         "severity": "inform"
@@ -95,12 +95,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "state-sponsored",
+        "identifier": "state-propaganda",
         "locales": [
           {
-            "description": "Content likely from state propaganda campaigns.",
+            "description": "Spreads or amplifies politically motivated narratives that serve domestic or foreign right-wing interests.",
             "lang": "en",
-            "name": "🏴 State-Sponsored"
+            "name": "🏴 State Propaganda"
           }
         ],
         "severity": "inform"
@@ -112,7 +112,7 @@
         "identifier": "election-denial",
         "locales": [
           {
-            "description": "Claims of rigged/invalid elections without credible evidence.",
+            "description": "Challenges the legitimacy of democratic elections or promotes false claims about electoral integrity.",
             "lang": "en",
             "name": "🗳️ Election Denial"
           }
@@ -123,12 +123,12 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "violent-user",
+        "identifier": "violent-right",
         "locales": [
           {
-            "description": "Glorifies or calls for political/ideological violence.",
+            "description": "Encourages, glorifies, or justifies the use of political or ideological violence from right-wing movements.",
             "lang": "en",
-            "name": "💀 Violent User"
+            "name": "💀 Violent Right-Wing User"
           }
         ],
         "severity": "alert"
@@ -137,12 +137,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "follower-of-extremist",
+        "identifier": "follower-of-maga",
         "locales": [
           {
-            "description": "Follows one or more known extremist accounts.",
+            "description": "Shows a consistent pattern of engagement with MAGA, Trump-aligned, or far-right political communities.",
             "lang": "en",
-            "name": "🧩 Follower of Extremist"
+            "name": "🧩 Follower of MAGA"
           }
         ],
         "severity": "inform"
@@ -154,9 +154,9 @@
         "identifier": "follower-of-disinfo",
         "locales": [
           {
-            "description": "Follows one or more known disinformation accounts.",
+            "description": "Regularly engages with or promotes content from right-wing disinformation networks or influencers.",
             "lang": "en",
-            "name": "🔗 Follower of Disinfo"
+            "name": "🔗 Follower of Disinformation"
           }
         ],
         "severity": "inform"
@@ -165,13 +165,13 @@
     "labelValues": [
       "hate-speech",
       "harassment",
-      "extremism",
-      "maga",
-      "disinformation",
-      "state-sponsored",
+      "rightwing-extremism",
+      "maga-propaganda",
+      "republican-disinfo",
+      "state-propaganda",
       "election-denial",
-      "violent-user",
-      "follower-of-extremist",
+      "violent-right",
+      "follower-of-maga",
       "follower-of-disinfo"
     ],
     "reasonTypes": [
