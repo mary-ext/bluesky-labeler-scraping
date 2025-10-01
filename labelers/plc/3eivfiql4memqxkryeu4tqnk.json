@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
-  "cid": "bafyreiatzm73ki4ykw4porzmonemchzi3ekp3tahjatlamd2lpilyvxsuu",
+  "cid": "bafyreibmgwwuk6mpe56cya5q74k7xavdrq3n6wyh3ntwlxpucd5sxh3xbu",
   "creator": {
     "did": "did:plc:3eivfiql4memqxkryeu4tqnk",
     "handle": "mod.shawn.party",
@@ -20,7 +20,7 @@
     "description": "A 3rd party Bluesky labeler service account run by @shawn.party\n\nMy primary purpose is labeling #spoiler posts here on BlueSky",
     "indexedAt": "2024-11-11T20:47:53.313Z"
   },
-  "indexedAt": "2024-12-09T23:10:49.897Z",
+  "indexedAt": "2025-09-30T16:00:43.258Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -98,9 +98,29 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spoiler-parent",
+        "locales": [
+          {
+            "description": "Possible spoilers have been found in the replies",
+            "lang": "en",
+            "name": "❕Spoilers in Replies❕"
+          },
+          {
+            "description": "Se han encontrado posibles spoilers en las respuestas.",
+            "lang": "es",
+            "name": "❕Spoilers en las Respuestas❕"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
+      "spoiler-parent",
       "star-wars-fan",
       "spoiler",
       "star-wars-content",

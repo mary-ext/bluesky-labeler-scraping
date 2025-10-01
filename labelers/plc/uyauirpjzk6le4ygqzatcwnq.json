@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreif6tuldvt22qcmxihweth4zqdayyalq4lslu4baielqpdkwcdco24",
+  "cid": "bafyreiackejvhmm76ueydwdqgjaclkh6djinvaitunra62xkhqznqtmdqa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-09-28T22:20:54.758Z",
+  "indexedAt": "2025-09-30T22:51:34.559Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -151,12 +151,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-mt-x",
+        "identifier": "homes-si46",
         "locales": [
           {
-            "description": "Account is hosted by the x.mt.social PDS",
+            "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
-            "name": "x.mt.social"
+            "name": "si46.homes"
           }
         ],
         "severity": "inform"
@@ -165,12 +165,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "homes-si46",
+        "identifier": "social-mt-x",
         "locales": [
           {
-            "description": "Account is hosted by the si46.homes PDS",
+            "description": "Account is hosted by the x.mt.social PDS",
             "lang": "en",
-            "name": "si46.homes"
+            "name": "x.mt.social"
           }
         ],
         "severity": "inform"
@@ -361,6 +361,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "eu-blsky-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.blsky.eu PDS",
+            "lang": "en",
+            "name": "pds.blsky.eu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "blue-zio",
         "locales": [
           {
@@ -375,12 +389,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "is-socl",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the socl.is PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "socl.is"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -389,12 +403,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "is-socl",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the socl.is PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "socl.is"
           }
         ],
         "severity": "inform"
@@ -445,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-venki-blogsky",
+        "identifier": "social-bsea-pds",
         "locales": [
           {
-            "description": "Account is hosted by the blogsky.venki.dev PDS",
+            "description": "Account is hosted by the pds.bsea.social PDS",
             "lang": "en",
-            "name": "blogsky.venki.dev"
+            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -459,12 +473,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
+        "identifier": "dev-venki-blogsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bsea.social PDS",
+            "description": "Account is hosted by the blogsky.venki.dev PDS",
             "lang": "en",
-            "name": "pds.bsea.social"
+            "name": "blogsky.venki.dev"
           }
         ],
         "severity": "inform"
@@ -725,26 +739,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-bnbdiscord-at",
+        "identifier": "chat-wndr",
         "locales": [
           {
-            "description": "Account is hosted by the at.bnbdiscord.net PDS",
+            "description": "Account is hosted by the wndr.chat PDS",
             "lang": "en",
-            "name": "at.bnbdiscord.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-plasmatrap-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.plasmatrap.com PDS",
-            "lang": "en",
-            "name": "bsky.plasmatrap.com"
+            "name": "wndr.chat"
           }
         ],
         "severity": "inform"
@@ -760,8 +760,8 @@
       "net-wafrn-app-at",
       "so-sprk-pds",
       "fail-marta",
-      "social-mt-x",
       "homes-si46",
+      "social-mt-x",
       "world-si46-pds--dev",
       "net-yinzcloud-bsky-pds",
       "wtf-lamp",
@@ -775,14 +775,15 @@
       "org-mpi--sws-mpi--bluesky--pds",
       "ge-shadowcaster-bsky",
       "social-reme",
+      "eu-blsky-pds",
       "blue-zio",
-      "is-socl",
       "social-northsky",
+      "is-socl",
       "to-bbi",
       "io-koda--agency-pds",
       "cymru-360-pds",
-      "dev-venki-blogsky",
       "social-bsea-pds",
+      "dev-venki-blogsky",
       "best-akizuki-pds",
       "social-grapevyne",
       "social-theatl",
@@ -801,8 +802,7 @@
       "at-hailey-cocoon",
       "pro-hellthread",
       "dev-totallynotseth",
-      "net-bnbdiscord-at",
-      "com-plasmatrap-bsky"
+      "chat-wndr"
     ]
   }
 }
