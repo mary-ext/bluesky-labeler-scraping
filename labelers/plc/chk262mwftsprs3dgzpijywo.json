@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:chk262mwftsprs3dgzpijywo/app.bsky.labeler.service/self",
-  "cid": "bafyreicfevwn6edtcmkl5nt2auza4aakjmzumi54olbcilfbsmebyf2mhq",
+  "cid": "bafyreihhykpewfshf5vthm7jwc75tbequpufzsjebdbgga7gjfcp7c77cu",
   "creator": {
     "did": "did:plc:chk262mwftsprs3dgzpijywo",
     "handle": "perfect-bra.in",
@@ -20,7 +20,7 @@
     "description": "Labels as decided by a perfect brain.",
     "indexedAt": "2024-06-21T17:38:45.910Z"
   },
-  "indexedAt": "2024-12-03T21:59:03.457Z",
+  "indexedAt": "2025-10-01T20:19:00.955Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -359,6 +359,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "law-wizard",
+        "locales": [
+          {
+            "description": "This user is versed in the art of law and thus crime.",
+            "lang": "en",
+            "name": "Crime Wizard"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "surge-harvester",
+        "locales": [
+          {
+            "description": "This user is knows from whence Surge comes and does not fear to express The Creature's glands for their sweet liquor.",
+            "lang": "en",
+            "name": "Surge Harvester"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -384,7 +412,9 @@
       "will-probably-kill-again",
       "cowboy",
       "scamp",
-      "rascal"
+      "rascal",
+      "law-wizard",
+      "surge-harvester"
     ]
   }
 }

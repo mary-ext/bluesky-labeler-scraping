@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rbctlz4hezljrjjgqjhm7svp/app.bsky.labeler.service/self",
-  "cid": "bafyreihqgeh5xvflo46cthnflh6cbmmybehqdybnonago4ssc5unavcbua",
+  "cid": "bafyreihw5r5vntqackfsjdgpe6vl4left54kgxmmm2wu6cukyuma7zmole",
   "creator": {
     "did": "did:plc:rbctlz4hezljrjjgqjhm7svp",
     "handle": "bias.is",
@@ -20,7 +20,7 @@
     "description": "To add your k-pop bias, you need to:\n\n1️⃣ Subscribe to the labeler\n2️⃣ Follow the labeler (\"...\" menu)\n3️⃣ Like the labeler to trigger the auto DM\n\nThe K-Pop bias bot will help you manage your biases and ults via chat 💖\n\nCreated by @codedrift.social",
     "indexedAt": "2025-02-26T16:14:33.345Z"
   },
-  "indexedAt": "2025-06-07T14:47:44.053Z",
+  "indexedAt": "2025-10-01T17:59:43.459Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1059,6 +1059,76 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kwon-chaewon",
+        "locales": [
+          {
+            "description": "User is a fan of Kwon Chaewon",
+            "lang": "en",
+            "name": "Kwon Chaewon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hong-eunchae",
+        "locales": [
+          {
+            "description": "User is a fan of Hong Eunchae",
+            "lang": "en",
+            "name": "Hong Eunchae"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dreamcatcher",
+        "locales": [
+          {
+            "description": "User is a fan of Dreamcatcher",
+            "lang": "en",
+            "name": "Dreamcatcher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lee-yubin",
+        "locales": [
+          {
+            "description": "User is a fan of Lee Yubin",
+            "lang": "en",
+            "name": "Lee Yubin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "---hong-eunchae",
+        "locales": [
+          {
+            "description": "User is a fan of Hong Eunchae\n...in fact, it's their 💖 ult~",
+            "lang": "en",
+            "name": "💖 Hong Eunchae"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1135,7 +1205,12 @@
       "chuu",
       "---the-boyz",
       "the-boyz",
-      "nct-dream"
+      "nct-dream",
+      "kwon-chaewon",
+      "hong-eunchae",
+      "dreamcatcher",
+      "lee-yubin",
+      "---hong-eunchae"
     ]
   }
 }

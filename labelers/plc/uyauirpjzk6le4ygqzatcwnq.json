@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiackejvhmm76ueydwdqgjaclkh6djinvaitunra62xkhqznqtmdqa",
+  "cid": "bafyreiaobnxruffwlkvkibk4ffihzygisgkp4pbfdmuxqku4ub376kpnkm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-09-30T22:51:34.559Z",
+  "indexedAt": "2025-10-01T20:41:53.761Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -45,6 +45,118 @@
             "description": "Account is hosted by a smaller independent PDS",
             "lang": "en",
             "name": "Other PDS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--east-amanita",
+        "locales": [
+          {
+            "description": "Account is hosted by the amanita.us-east.host.bsky.network PDS",
+            "lang": "en",
+            "name": "amanita.us-east.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--east-morel",
+        "locales": [
+          {
+            "description": "Account is hosted by the morel.us-east.host.bsky.network PDS",
+            "lang": "en",
+            "name": "morel.us-east.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--east-lobster",
+        "locales": [
+          {
+            "description": "Account is hosted by the lobster.us-east.host.bsky.network PDS",
+            "lang": "en",
+            "name": "lobster.us-east.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--west-scalycap",
+        "locales": [
+          {
+            "description": "Account is hosted by the scalycap.us-west.host.bsky.network PDS",
+            "lang": "en",
+            "name": "scalycap.us-west.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--west-chalciporus",
+        "locales": [
+          {
+            "description": "Account is hosted by the chalciporus.us-west.host.bsky.network PDS",
+            "lang": "en",
+            "name": "chalciporus.us-west.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--west-calocybe",
+        "locales": [
+          {
+            "description": "Account is hosted by the calocybe.us-west.host.bsky.network PDS",
+            "lang": "en",
+            "name": "calocybe.us-west.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--west-bankera",
+        "locales": [
+          {
+            "description": "Account is hosted by the bankera.us-west.host.bsky.network PDS",
+            "lang": "en",
+            "name": "bankera.us-west.host.bsky.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-bsky-host-us--east-elfcup",
+        "locales": [
+          {
+            "description": "Account is hosted by the elfcup.us-east.host.bsky.network PDS",
+            "lang": "en",
+            "name": "elfcup.us-east.host.bsky.network"
           }
         ],
         "severity": "inform"
@@ -319,12 +431,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-mpi--sws-mpi--bluesky--pds",
+        "identifier": "ge-shadowcaster-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
+            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
             "lang": "en",
-            "name": "mpi-bluesky-pds.mpi-sws.org"
+            "name": "bsky.shadowcaster.ge"
           }
         ],
         "severity": "inform"
@@ -333,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ge-shadowcaster-bsky",
+        "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
+            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
-            "name": "bsky.shadowcaster.ge"
+            "name": "mpi-bluesky-pds.mpi-sws.org"
           }
         ],
         "severity": "inform"
@@ -431,6 +543,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bsea-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.bsea.social PDS",
+            "lang": "en",
+            "name": "pds.bsea.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "io-koda--agency-pds",
         "locales": [
           {
@@ -451,20 +577,6 @@
             "description": "Account is hosted by the pds.360.cymru PDS",
             "lang": "en",
             "name": "pds.360.cymru"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.bsea.social PDS",
-            "lang": "en",
-            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -507,6 +619,20 @@
             "description": "Account is hosted by the grapevyne.social PDS",
             "lang": "en",
             "name": "grapevyne.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-gumby",
+        "locales": [
+          {
+            "description": "Account is hosted by the gumby.social PDS",
+            "lang": "en",
+            "name": "gumby.social"
           }
         ],
         "severity": "inform"
@@ -599,20 +725,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-gumby",
-        "locales": [
-          {
-            "description": "Account is hosted by the gumby.social PDS",
-            "lang": "en",
-            "name": "gumby.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "xyz-merklehost-pds",
         "locales": [
           {
@@ -636,123 +748,19 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "pink-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.pink PDS",
-            "lang": "en",
-            "name": "bsky.pink"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "space-koyu",
-        "locales": [
-          {
-            "description": "Account is hosted by the koyu.space PDS",
-            "lang": "en",
-            "name": "koyu.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "mom-rat",
-        "locales": [
-          {
-            "description": "Account is hosted by the rat.mom PDS",
-            "lang": "en",
-            "name": "rat.mom"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-altq",
-        "locales": [
-          {
-            "description": "Account is hosted by the altq.net PDS",
-            "lang": "en",
-            "name": "altq.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "at-hailey-cocoon",
-        "locales": [
-          {
-            "description": "Account is hosted by the cocoon.hailey.at PDS",
-            "lang": "en",
-            "name": "cocoon.hailey.at"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "pro-hellthread",
-        "locales": [
-          {
-            "description": "Account is hosted by the hellthread.pro PDS",
-            "lang": "en",
-            "name": "hellthread.pro"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "dev-totallynotseth",
-        "locales": [
-          {
-            "description": "Account is hosted by the totallynotseth.dev PDS",
-            "lang": "en",
-            "name": "totallynotseth.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "chat-wndr",
-        "locales": [
-          {
-            "description": "Account is hosted by the wndr.chat PDS",
-            "lang": "en",
-            "name": "wndr.chat"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
       "internal-independent",
       "internal-other",
+      "network-bsky-host-us--east-amanita",
+      "network-bsky-host-us--east-morel",
+      "network-bsky-host-us--east-lobster",
+      "network-bsky-host-us--west-scalycap",
+      "network-bsky-host-us--west-chalciporus",
+      "network-bsky-host-us--west-calocybe",
+      "network-bsky-host-us--west-bankera",
+      "network-bsky-host-us--east-elfcup",
       "world-si46-pds",
       "info-keik",
       "app-blacksky",
@@ -772,37 +780,29 @@
       "app-louisvillebsky-pds",
       "xyz-gems",
       "shop-si46",
-      "org-mpi--sws-mpi--bluesky--pds",
       "ge-shadowcaster-bsky",
+      "org-mpi--sws-mpi--bluesky--pds",
       "social-reme",
       "eu-blsky-pds",
       "blue-zio",
       "social-northsky",
       "is-socl",
       "to-bbi",
+      "social-bsea-pds",
       "io-koda--agency-pds",
       "cymru-360-pds",
-      "social-bsea-pds",
       "dev-venki-blogsky",
       "best-akizuki-pds",
       "social-grapevyne",
+      "social-gumby",
       "social-theatl",
       "net-shendrick-at",
       "com-ripperoni-pds",
       "social-selfhosted",
       "com-documatric",
       "gay-evil",
-      "social-gumby",
       "xyz-merklehost-pds",
-      "download-synth-pds",
-      "pink-bsky",
-      "space-koyu",
-      "mom-rat",
-      "net-altq",
-      "at-hailey-cocoon",
-      "pro-hellthread",
-      "dev-totallynotseth",
-      "chat-wndr"
+      "download-synth-pds"
     ]
   }
 }
