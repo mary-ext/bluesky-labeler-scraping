@@ -1,0 +1,79 @@
+{
+  "uri": "at://did:plc:et7e4g42p7ttovfceyb7c4zl/app.bsky.labeler.service/self",
+  "cid": "bafyreifrvavh42ixqkbinjle7amkqt67nzldvfu43kdrfyncwe7culhafa",
+  "creator": {
+    "did": "did:plc:et7e4g42p7ttovfceyb7c4zl",
+    "handle": "itnick.pds.mcmanus.tech",
+    "displayName": "Nick",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:et7e4g42p7ttovfceyb7c4zl/bafkreickduuku26x4zjqznfq3q2o4mgd7lfnikc4runhkvoibbu3v573re@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-06-03T18:58:21.752Z",
+    "description": "Test self-hosted account.",
+    "indexedAt": "2025-09-29T14:54:07.948Z"
+  },
+  "indexedAt": "2025-10-02T13:40:56.253Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nj-state-government",
+        "locales": [
+          {
+            "description": "Account is an official NJ State Government account.",
+            "lang": "en",
+            "name": "NJ State Government"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nj-federal-government",
+        "locales": [
+          {
+            "description": "Account is an official Federal Government account.",
+            "lang": "en",
+            "name": "NJ Federal Government"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nj-local-government",
+        "locales": [
+          {
+            "description": "Account is an official NJ Local Government account.",
+            "lang": "en",
+            "name": "NJ Local Government"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "nj-state-government",
+      "nj-federal-government",
+      "nj-local-government"
+    ]
+  },
+  "subjectTypes": [
+    "account"
+  ],
+  "subjectCollections": [
+    "com.app.bsky.actor.profile"
+  ]
+}
