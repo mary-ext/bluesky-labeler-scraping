@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiaobnxruffwlkvkibk4ffihzygisgkp4pbfdmuxqku4ub376kpnkm",
+  "cid": "bafyreie2iwnmrry3bojzsgpu36o2kbznr2rttjchbs2x26ea533evhc4ue",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-01T20:41:53.761Z",
+  "indexedAt": "2025-10-03T18:41:56.367Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -473,6 +473,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-gumby",
+        "locales": [
+          {
+            "description": "Account is hosted by the gumby.social PDS",
+            "lang": "en",
+            "name": "gumby.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-northsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the northsky.social PDS",
+            "lang": "en",
+            "name": "northsky.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "eu-blsky-pds",
         "locales": [
           {
@@ -493,20 +521,6 @@
             "description": "Account is hosted by the zio.blue PDS",
             "lang": "en",
             "name": "zio.blue"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-northsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the northsky.social PDS",
-            "lang": "en",
-            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -627,20 +641,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-gumby",
-        "locales": [
-          {
-            "description": "Account is hosted by the gumby.social PDS",
-            "lang": "en",
-            "name": "gumby.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-theatl",
         "locales": [
           {
@@ -739,12 +739,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
+        "identifier": "pink-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.synth.download PDS",
+            "description": "Account is hosted by the bsky.pink PDS",
             "lang": "en",
-            "name": "pds.synth.download"
+            "name": "bsky.pink"
           }
         ],
         "severity": "inform"
@@ -783,9 +783,10 @@
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "social-reme",
+      "social-gumby",
+      "social-northsky",
       "eu-blsky-pds",
       "blue-zio",
-      "social-northsky",
       "is-socl",
       "to-bbi",
       "social-bsea-pds",
@@ -794,7 +795,6 @@
       "dev-venki-blogsky",
       "best-akizuki-pds",
       "social-grapevyne",
-      "social-gumby",
       "social-theatl",
       "net-shendrick-at",
       "com-ripperoni-pds",
@@ -802,7 +802,7 @@
       "com-documatric",
       "gay-evil",
       "xyz-merklehost-pds",
-      "download-synth-pds"
+      "pink-bsky"
     ]
   }
 }
