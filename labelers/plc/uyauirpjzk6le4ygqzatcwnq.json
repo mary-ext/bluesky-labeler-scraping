@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreie2iwnmrry3bojzsgpu36o2kbznr2rttjchbs2x26ea533evhc4ue",
+  "cid": "bafyreihpfnzmbozrrqi4ivd4moxorjt2lbn3h5glirogn2ioqh2vxekyci",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-03T18:41:56.367Z",
+  "indexedAt": "2025-10-04T16:41:56.864Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -249,12 +249,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fail-marta",
+        "identifier": "homes-si46",
         "locales": [
           {
-            "description": "Account is hosted by the marta.fail PDS",
+            "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
-            "name": "marta.fail"
+            "name": "si46.homes"
           }
         ],
         "severity": "inform"
@@ -263,12 +263,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "homes-si46",
+        "identifier": "fail-marta",
         "locales": [
           {
-            "description": "Account is hosted by the si46.homes PDS",
+            "description": "Account is hosted by the marta.fail PDS",
             "lang": "en",
-            "name": "si46.homes"
+            "name": "marta.fail"
           }
         ],
         "severity": "inform"
@@ -529,12 +529,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "is-socl",
+        "identifier": "org-chaoticharmonylabs-pds",
         "locales": [
           {
-            "description": "Account is hosted by the socl.is PDS",
+            "description": "Account is hosted by the pds.chaoticharmonylabs.org PDS",
             "lang": "en",
-            "name": "socl.is"
+            "name": "pds.chaoticharmonylabs.org"
           }
         ],
         "severity": "inform"
@@ -549,6 +549,20 @@
             "description": "Account is hosted by the bbi.to PDS",
             "lang": "en",
             "name": "bbi.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "is-socl",
+        "locales": [
+          {
+            "description": "Account is hosted by the socl.is PDS",
+            "lang": "en",
+            "name": "socl.is"
           }
         ],
         "severity": "inform"
@@ -683,6 +697,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "download-synth-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.synth.download PDS",
+            "lang": "en",
+            "name": "pds.synth.download"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-selfhosted",
         "locales": [
           {
@@ -720,34 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-merklehost-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.merklehost.xyz PDS",
-            "lang": "en",
-            "name": "pds.merklehost.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "pink-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.pink PDS",
-            "lang": "en",
-            "name": "bsky.pink"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -767,8 +767,8 @@
       "sh-tngl",
       "net-wafrn-app-at",
       "so-sprk-pds",
-      "fail-marta",
       "homes-si46",
+      "fail-marta",
       "social-mt-x",
       "world-si46-pds--dev",
       "net-yinzcloud-bsky-pds",
@@ -787,8 +787,9 @@
       "social-northsky",
       "eu-blsky-pds",
       "blue-zio",
-      "is-socl",
+      "org-chaoticharmonylabs-pds",
       "to-bbi",
+      "is-socl",
       "social-bsea-pds",
       "io-koda--agency-pds",
       "cymru-360-pds",
@@ -798,11 +799,10 @@
       "social-theatl",
       "net-shendrick-at",
       "com-ripperoni-pds",
+      "download-synth-pds",
       "social-selfhosted",
       "com-documatric",
-      "gay-evil",
-      "xyz-merklehost-pds",
-      "pink-bsky"
+      "gay-evil"
     ]
   }
 }

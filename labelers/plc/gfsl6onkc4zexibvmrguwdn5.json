@@ -1,0 +1,143 @@
+{
+  "uri": "at://did:plc:gfsl6onkc4zexibvmrguwdn5/app.bsky.labeler.service/self",
+  "cid": "bafyreicspsv2r33i4uqawna2ez2nlfenncxjksbdcet6f5hbabzj76mb6u",
+  "creator": {
+    "did": "did:plc:gfsl6onkc4zexibvmrguwdn5",
+    "handle": "gyg-test-labeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gfsl6onkc4zexibvmrguwdn5/bafkreif7tpn6ddp2cdzf3cpadjgnxf3qvfvskv4bkkmvfdx6ygtbmxtdu4@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-10-03T18:11:24.454Z",
+    "indexedAt": "2025-10-03T18:11:24.454Z"
+  },
+  "indexedAt": "2025-10-04T04:20:03.460Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "info-neutral",
+        "locales": [
+          {
+            "description": "A label with no strong direction.",
+            "lang": "en",
+            "name": "Neutral Info"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "info-highlight",
+        "locales": [
+          {
+            "description": "Raise awareness but not block.",
+            "lang": "en",
+            "name": "Highlight"
+          },
+          {
+            "description": "Elevado pero no bloqueado.",
+            "lang": "es",
+            "name": "Destacar"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "warn-minor",
+        "locales": [
+          {
+            "description": "Might be problematic.",
+            "lang": "en",
+            "name": "Minor Warning"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "warn-major",
+        "locales": [
+          {
+            "description": "Serious issue — hide by default.",
+            "lang": "en",
+            "name": "Major Warning"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "hide-content",
+        "locales": [
+          {
+            "description": "Always hide.",
+            "lang": "en",
+            "name": "Hide Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "blur-media",
+        "locales": [
+          {
+            "description": "Blur attached images or videos.",
+            "lang": "en",
+            "name": "Blur Media"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "adult-only",
+        "locales": [
+          {
+            "description": "Label content for adult audiences.",
+            "lang": "en",
+            "name": "Adult Only"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "info-neutral",
+      "info-highlight",
+      "warn-minor",
+      "warn-major",
+      "hide-content",
+      "blur-media",
+      "adult-only"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonCopyright",
+    "com.atproto.moderation.defs#reasonHarassment"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}

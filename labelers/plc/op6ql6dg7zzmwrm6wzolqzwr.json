@@ -1,0 +1,81 @@
+{
+  "uri": "at://did:plc:op6ql6dg7zzmwrm6wzolqzwr/app.bsky.labeler.service/self",
+  "cid": "bafyreiacnhqevfcywt4a3sivgkc67tchatohjhorzpdxtmr3ouyemuso4q",
+  "creator": {
+    "did": "did:plc:op6ql6dg7zzmwrm6wzolqzwr",
+    "handle": "pol.conmodsys.net",
+    "displayName": "PolConModSys",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:op6ql6dg7zzmwrm6wzolqzwr/bafkreico5jwkew64buaoyzuygsqisjw5uvd2c4qrq4hujk5ze2nm4m5sxa@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-07-18T17:31:54.732Z",
+    "description": "A labeler for filtering politics",
+    "indexedAt": "2025-10-04T22:42:05.854Z"
+  },
+  "indexedAt": "2025-10-04T21:30:11.559Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "pol-official-us",
+        "locales": [
+          {
+            "description": "A government official or candidate at any level in the United State of America.",
+            "lang": "en",
+            "name": "US Political Official or Candidate"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "pol-news-us",
+        "locales": [
+          {
+            "description": "A news source or journalist that primarily or frequently covers politics in the United States of America. Only applied to accounts, not posts.",
+            "lang": "en",
+            "name": "US Political News Source"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "pol-misc-us",
+        "locales": [
+          {
+            "description": "An account that primarily or frequently discusses politics in the United States of America.",
+            "lang": "en",
+            "name": "US Politics Miscellaneous"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "pol-official-us",
+      "pol-news-us",
+      "pol-misc-us"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
+}
