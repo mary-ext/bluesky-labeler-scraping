@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
-  "cid": "bafyreif6judkhoz3klx4j4cccltqpzctwvxxfum2tt6dugdaorp73okbuu",
+  "cid": "bafyreic4eawgjblnu3md2tcrfdvm6fmv7ndmvthrttmufrajuoh2ry5pkm",
   "creator": {
     "did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
     "handle": "blackskyweb.xyz",
@@ -9,7 +9,7 @@
     "associated": {
       "labeler": true,
       "chat": {
-        "allowIncoming": "all"
+        "allowIncoming": "none"
       },
       "activitySubscription": {
         "allowSubscriptions": "followers"
@@ -20,7 +20,7 @@
     "description": "We’re building the intercommunal net where communities can use decentralized tools to govern themselves, pool resources, and stay safe on their own terms\nThis account is a moderation service for Bluesky. Subscribe to use our filters\nhttps://blackskyweb.xyz",
     "indexedAt": "2025-10-03T18:03:07.053Z"
   },
-  "indexedAt": "2025-08-24T17:06:03.307Z",
+  "indexedAt": "2025-10-06T15:54:59.560Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -204,6 +204,7 @@
     ]
   },
   "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
     "com.atproto.moderation.defs#reasonViolation",
     "com.atproto.moderation.defs#reasonSexual",
     "com.atproto.moderation.defs#reasonRude",
