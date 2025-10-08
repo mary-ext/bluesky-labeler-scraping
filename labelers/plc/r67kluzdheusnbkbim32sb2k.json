@@ -1,0 +1,50 @@
+{
+  "uri": "at://did:plc:r67kluzdheusnbkbim32sb2k/app.bsky.labeler.service/self",
+  "cid": "bafyreiguwciusif4gstx7t2ij25xetu6lhptcy2cfypwga72ysdwkuc3zy",
+  "creator": {
+    "did": "did:plc:r67kluzdheusnbkbim32sb2k",
+    "handle": "remember2labelnsfw.bsky.social",
+    "displayName": "Remember to Label your NSFW :)",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r67kluzdheusnbkbim32sb2k/bafkreia4jh4b6k526s3dp5guqtp322wdxkft7kaklzxjbyf7v5bif44q5u@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-10-07T20:36:07.152Z",
+    "description": "For those of us who use our phones in public sometimes",
+    "indexedAt": "2025-10-07T20:38:00.151Z"
+  },
+  "indexedAt": "2025-10-07T21:20:43.758Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "often-nsfw",
+        "locales": [
+          {
+            "description": "This user's posts often get labelled as NSFW by Bluesky Moderation Service, which suggests that the user does not self-label NSFW content.",
+            "lang": "en",
+            "name": "Often Posts Unlabelled NSFW"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "often-nsfw"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSexual"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ]
+}

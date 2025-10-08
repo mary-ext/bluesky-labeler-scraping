@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-  "cid": "bafyreihgx5b22ksposcwzg3qdeqwxgpjvycpo5ipg4zuazelhqdkgwgyoy",
+  "cid": "bafyreiezueachmnzwfzvsjnhvtzrrmdhy4guhuvhv4cojgfwh2vwf25tu4",
   "creator": {
     "did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
     "handle": "yardcrow.com",
@@ -20,10 +20,24 @@
     "description": "The Yard Crow watches\nHandcrafted and Artisanal labels\n(please tag @patri.xyz for requests, questions or removal!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\nUpon request, most labels can be text or emoji.",
     "indexedAt": "2024-11-11T23:42:59.003Z"
   },
-  "indexedAt": "2025-10-03T19:01:06.570Z",
+  "indexedAt": "2025-10-07T17:48:18.971Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "free-link",
+        "locales": [
+          {
+            "description": "Free Link",
+            "lang": "en",
+            "name": "🆓🔗"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -2112,6 +2126,7 @@
       }
     ],
     "labelValues": [
+      "free-link",
       "adapt-adv",
       "t-adapt-adv",
       "adapt-ath",
