@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreihiapyqngioyxmezc5iom74fqjcwfj5nwdeucqh6h5uoqlpujxlo4",
+  "cid": "bafyreifsc2n2rw3qvsbp36mih2rlfn34jj7y2zymyb5j4n7f3fgf4mun2q",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,7 +20,7 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nstats.skywatch.blue\n\nNot associated with SkySentry.",
     "indexedAt": "2025-07-12T21:42:44.432Z"
   },
-  "indexedAt": "2025-10-05T03:04:24.361Z",
+  "indexedAt": "2025-10-08T02:57:56.963Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -160,6 +160,20 @@
             "description": "Applied to posts which contain well-known English-language slurs disparaging people based on race, ethnicity, religion, nationality, sexual orientation, or gender.",
             "lang": "en",
             "name": "Slur"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "discourse-bait",
+        "locales": [
+          {
+            "description": "Automatically applied to key terms which are indicative of ongoing discourse. Posts engaged in meta-discourse will likely be labeled as well. Labels will expire after seven (7) days.",
+            "lang": "en",
+            "name": "Discourse Bait"
           }
         ],
         "severity": "alert"
@@ -426,6 +440,7 @@
       "contains-slur",
       "dehumanizing-rhetoric",
       "discriminatory-language",
+      "discourse-bait",
       "disinformation-network",
       "elon-musk",
       "fringe-media",
