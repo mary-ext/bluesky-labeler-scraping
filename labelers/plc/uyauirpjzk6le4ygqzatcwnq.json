@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifwtbfz5zs3izsuc5z3foinb2pktxisbu6vql4eaen7tuxfp55atq",
+  "cid": "bafyreiave6bn3h4gr6v6g4zf4d4nmyrisdk6ouhmdj6wte7u4g43o2iahy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-08T21:59:52.062Z",
+  "indexedAt": "2025-10-09T05:59:49.957Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -557,12 +557,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-selfhosted",
+        "locales": [
+          {
+            "description": "Account is hosted by the selfhosted.social PDS",
+            "lang": "en",
+            "name": "selfhosted.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-shendrick-at",
         "locales": [
           {
             "description": "Account is hosted by the at.shendrick.net PDS",
             "lang": "en",
             "name": "at.shendrick.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "net-altq",
+        "locales": [
+          {
+            "description": "Account is hosted by the altq.net PDS",
+            "lang": "en",
+            "name": "altq.net"
           }
         ],
         "severity": "inform"
@@ -605,34 +633,6 @@
             "description": "Account is hosted by the pds.synth.download PDS",
             "lang": "en",
             "name": "pds.synth.download"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
-        "locales": [
-          {
-            "description": "Account is hosted by the selfhosted.social PDS",
-            "lang": "en",
-            "name": "selfhosted.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-altq",
-        "locales": [
-          {
-            "description": "Account is hosted by the altq.net PDS",
-            "lang": "en",
-            "name": "altq.net"
           }
         ],
         "severity": "inform"
@@ -711,6 +711,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cloud-tgirl-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.tgirl.cloud PDS",
+            "lang": "en",
+            "name": "pds.tgirl.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cloud-tophhie-pds",
         "locales": [
           {
@@ -731,20 +745,6 @@
             "description": "Account is hosted by the rat.mom PDS",
             "lang": "en",
             "name": "rat.mom"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "at-hailey-cocoon",
-        "locales": [
-          {
-            "description": "Account is hosted by the cocoon.hailey.at PDS",
-            "lang": "en",
-            "name": "cocoon.hailey.at"
           }
         ],
         "severity": "inform"
@@ -789,20 +789,20 @@
       "best-akizuki-pds",
       "social-grapevyne",
       "social-theatl",
+      "social-selfhosted",
       "net-shendrick-at",
+      "net-altq",
       "gay-evil",
       "com-ripperoni-pds",
       "download-synth-pds",
-      "social-selfhosted",
-      "net-altq",
       "com-documatric",
       "xyz-girlonthemoon-katproto",
       "xyz-merklehost-pds",
       "pink-bsky",
       "space-koyu",
+      "cloud-tgirl-pds",
       "cloud-tophhie-pds",
-      "mom-rat",
-      "at-hailey-cocoon"
+      "mom-rat"
     ]
   }
 }
