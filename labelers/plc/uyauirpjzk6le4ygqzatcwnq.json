@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiave6bn3h4gr6v6g4zf4d4nmyrisdk6ouhmdj6wte7u4g43o2iahy",
+  "cid": "bafyreibghq4vnhswfjcqwustjaete4schl2jfnt6e4lltuti25hbcvxm2m",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-09T05:59:49.957Z",
+  "indexedAt": "2025-10-10T22:21:26.485Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -59,6 +59,20 @@
             "description": "Account is hosted by the pds.si46.world PDS",
             "lang": "en",
             "name": "pds.si46.world"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "computer-aesthetic-at",
+        "locales": [
+          {
+            "description": "Account is hosted by the at.aesthetic.computer PDS",
+            "lang": "en",
+            "name": "at.aesthetic.computer"
           }
         ],
         "severity": "inform"
@@ -417,20 +431,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-chaoticharmonylabs-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.chaoticharmonylabs.org PDS",
-            "lang": "en",
-            "name": "pds.chaoticharmonylabs.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-bsea-pds",
         "locales": [
           {
@@ -445,12 +445,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "org-chaoticharmonylabs-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.chaoticharmonylabs.org PDS",
+            "lang": "en",
+            "name": "pds.chaoticharmonylabs.org"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "to-bbi",
         "locales": [
           {
             "description": "Account is hosted by the bbi.to PDS",
             "lang": "en",
             "name": "bbi.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chat-wndr",
+        "locales": [
+          {
+            "description": "Account is hosted by the wndr.chat PDS",
+            "lang": "en",
+            "name": "wndr.chat"
           }
         ],
         "severity": "inform"
@@ -571,12 +599,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-shendrick-at",
+        "identifier": "net-altq",
         "locales": [
           {
-            "description": "Account is hosted by the at.shendrick.net PDS",
+            "description": "Account is hosted by the altq.net PDS",
             "lang": "en",
-            "name": "at.shendrick.net"
+            "name": "altq.net"
           }
         ],
         "severity": "inform"
@@ -585,12 +613,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-altq",
+        "identifier": "net-shendrick-at",
         "locales": [
           {
-            "description": "Account is hosted by the altq.net PDS",
+            "description": "Account is hosted by the at.shendrick.net PDS",
             "lang": "en",
-            "name": "altq.net"
+            "name": "at.shendrick.net"
           }
         ],
         "severity": "inform"
@@ -720,40 +748,13 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tophhie-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tophhie.cloud PDS",
-            "lang": "en",
-            "name": "pds.tophhie.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "mom-rat",
-        "locales": [
-          {
-            "description": "Account is hosted by the rat.mom PDS",
-            "lang": "en",
-            "name": "rat.mom"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
       "internal-independent",
       "internal-other",
       "world-si46-pds",
+      "computer-aesthetic-at",
       "info-keik",
       "app-blacksky",
       "sh-tngl",
@@ -779,9 +780,10 @@
       "social-reme",
       "eu-blsky-pds",
       "blue-zio",
-      "org-chaoticharmonylabs-pds",
       "social-bsea-pds",
+      "org-chaoticharmonylabs-pds",
       "to-bbi",
+      "chat-wndr",
       "is-socl",
       "io-koda--agency-pds",
       "cymru-360-pds",
@@ -790,8 +792,8 @@
       "social-grapevyne",
       "social-theatl",
       "social-selfhosted",
-      "net-shendrick-at",
       "net-altq",
+      "net-shendrick-at",
       "gay-evil",
       "com-ripperoni-pds",
       "download-synth-pds",
@@ -800,9 +802,7 @@
       "xyz-merklehost-pds",
       "pink-bsky",
       "space-koyu",
-      "cloud-tgirl-pds",
-      "cloud-tophhie-pds",
-      "mom-rat"
+      "cloud-tgirl-pds"
     ]
   }
 }

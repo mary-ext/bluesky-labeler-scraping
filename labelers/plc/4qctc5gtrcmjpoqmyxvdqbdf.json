@@ -1,0 +1,73 @@
+{
+  "uri": "at://did:plc:4qctc5gtrcmjpoqmyxvdqbdf/app.bsky.labeler.service/self",
+  "cid": "bafyreicdjsb7cydqllw66n7mr5yuh3kdnncwta3m6aejmvr4mf7ilech44",
+  "creator": {
+    "did": "did:plc:4qctc5gtrcmjpoqmyxvdqbdf",
+    "handle": "haileys-labeler.bsky.social",
+    "displayName": "Hailey's Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4qctc5gtrcmjpoqmyxvdqbdf/bafkreic5pqw65446ldrx33tyo5kusnbajgxwwmpupatudlrqh576nqfcqe@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-10-10T01:43:18.288Z",
+    "description": "This is an experimental labeler. It only takes actions on replies to posts that Hailey has made. Please do not take this labeler seriously.",
+    "indexedAt": "2025-10-10T01:44:19.588Z"
+  },
+  "indexedAt": "2025-10-10T04:52:03.081Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "bad-faith",
+        "locales": [
+          {
+            "description": "A reply that has been detected as possibly bad faith.",
+            "lang": "en",
+            "name": "Bad Faith Reply"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "off-topic",
+        "locales": [
+          {
+            "description": "Post that is off topic in relation to the parent post.",
+            "lang": "en",
+            "name": "Off Topic"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "funny",
+        "locales": [
+          {
+            "description": "A post that was deemed to be funny in relation to the parent.",
+            "lang": "en",
+            "name": "Funny"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "bad-faith",
+      "off-topic",
+      "funny"
+    ]
+  }
+}
