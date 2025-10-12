@@ -1,0 +1,43 @@
+{
+  "uri": "at://did:plc:hyj7zzpmaaksf4bvugohv7xw/app.bsky.labeler.service/self",
+  "cid": "bafyreig2nabyq6uxz4mwhhcn2pc4f3dbcxqkslsmw44haarvjctk4sfcja",
+  "creator": {
+    "did": "did:plc:hyj7zzpmaaksf4bvugohv7xw",
+    "handle": "politicslabeler.bsky.social",
+    "displayName": "Politics Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hyj7zzpmaaksf4bvugohv7xw/bafkreicnzwbjqpycnksxef3lzgjt42g46we7b7z7bjoioabw3l3lw4toly@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-10-11T03:09:30.173Z",
+    "description": "[Work in progress]\nLabeler for posts that are political or related to politics. Mostly US politics. The heuristics for determining political speech are very rough so there will likely be many false positives and negatives for the time being.",
+    "indexedAt": "2025-10-11T06:33:25.473Z"
+  },
+  "indexedAt": "2025-10-11T22:13:03.179Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "politics-label",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Politics"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "politics-label"
+    ]
+  }
+}
