@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicelcq7ps545gvizupevm5zfutwso4uw6kvhwonnfc3t2xta76ta4",
+  "cid": "bafyreidbtxf72ytuvgfdtatdy3v5wjau33hjhasdj3nh75xll2as4zehge",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-11T13:47:09.286Z",
+  "indexedAt": "2025-10-12T04:00:02.983Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -585,6 +585,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-girlonthemoon-katproto",
+        "locales": [
+          {
+            "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
+            "lang": "en",
+            "name": "katproto.girlonthemoon.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-ripperoni-pds",
         "locales": [
           {
@@ -675,20 +689,6 @@
             "description": "Account is hosted by the evil.gay PDS",
             "lang": "en",
             "name": "evil.gay"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-girlonthemoon-katproto",
-        "locales": [
-          {
-            "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
-            "lang": "en",
-            "name": "katproto.girlonthemoon.xyz"
           }
         ],
         "severity": "inform"
@@ -791,6 +791,7 @@
       "social-selfhosted",
       "net-altq",
       "net-shendrick-at",
+      "xyz-girlonthemoon-katproto",
       "com-ripperoni-pds",
       "download-synth-pds",
       "com-documatric",
@@ -798,7 +799,6 @@
       "cloud-tgirl-pds",
       "pink-bsky",
       "gay-evil",
-      "xyz-girlonthemoon-katproto",
       "space-koyu",
       "cloud-tophhie-pds",
       "mom-rat",
