@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidbtxf72ytuvgfdtatdy3v5wjau33hjhasdj3nh75xll2as4zehge",
+  "cid": "bafyreicagpwe76p4yxlsf4fabqdglnb3pxlp7gmd2d6ta2ad7vyoiuntpi",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-12T04:00:02.983Z",
+  "indexedAt": "2025-10-13T04:00:04.884Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -165,20 +165,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fail-marta",
-        "locales": [
-          {
-            "description": "Account is hosted by the marta.fail PDS",
-            "lang": "en",
-            "name": "marta.fail"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-mt-x",
         "locales": [
           {
@@ -193,12 +179,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-si46-pds--dev",
+        "identifier": "fail-marta",
         "locales": [
           {
-            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "description": "Account is hosted by the marta.fail PDS",
             "lang": "en",
-            "name": "pds-dev.si46.world"
+            "name": "marta.fail"
           }
         ],
         "severity": "inform"
@@ -213,6 +199,20 @@
             "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
             "name": "pds.witchcraft.systems"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "world-si46-pds--dev",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "lang": "en",
+            "name": "pds-dev.si46.world"
           }
         ],
         "severity": "inform"
@@ -473,6 +473,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network-nobody-node",
+        "locales": [
+          {
+            "description": "Account is hosted by the node.nobody.network PDS",
+            "lang": "en",
+            "name": "node.nobody.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cymru-360-pds",
         "locales": [
           {
@@ -515,20 +529,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-grapevyne",
-        "locales": [
-          {
-            "description": "Account is hosted by the grapevyne.social PDS",
-            "lang": "en",
-            "name": "grapevyne.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-theatl",
         "locales": [
           {
@@ -543,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "social-grapevyne",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the grapevyne.social PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "grapevyne.social"
           }
         ],
         "severity": "inform"
@@ -563,6 +563,20 @@
             "description": "Account is hosted by the altq.net PDS",
             "lang": "en",
             "name": "altq.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-selfhosted",
+        "locales": [
+          {
+            "description": "Account is hosted by the selfhosted.social PDS",
+            "lang": "en",
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -591,6 +605,20 @@
             "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
             "lang": "en",
             "name": "katproto.girlonthemoon.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cloud-tgirl-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.tgirl.cloud PDS",
+            "lang": "en",
+            "name": "pds.tgirl.cloud"
           }
         ],
         "severity": "inform"
@@ -647,20 +675,6 @@
             "description": "Account is hosted by the pds.merklehost.xyz PDS",
             "lang": "en",
             "name": "pds.merklehost.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tgirl-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tgirl.cloud PDS",
-            "lang": "en",
-            "name": "pds.tgirl.cloud"
           }
         ],
         "severity": "inform"
@@ -734,20 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "at-hailey-cocoon",
-        "locales": [
-          {
-            "description": "Account is hosted by the cocoon.hailey.at PDS",
-            "lang": "en",
-            "name": "cocoon.hailey.at"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -761,10 +761,10 @@
       "net-wafrn-app-at",
       "homes-si46",
       "so-sprk-pds",
-      "fail-marta",
       "social-mt-x",
-      "world-si46-pds--dev",
+      "fail-marta",
       "systems-witchcraft-pds",
+      "world-si46-pds--dev",
       "net-yinzcloud-bsky-pds",
       "wtf-lamp",
       "to-tor0n",
@@ -783,26 +783,26 @@
       "is-socl",
       "blue-zio",
       "io-koda--agency-pds",
+      "network-nobody-node",
       "cymru-360-pds",
       "dev-venki-blogsky",
       "best-akizuki-pds",
-      "social-grapevyne",
       "social-theatl",
-      "social-selfhosted",
+      "social-grapevyne",
       "net-altq",
+      "social-selfhosted",
       "net-shendrick-at",
       "xyz-girlonthemoon-katproto",
+      "cloud-tgirl-pds",
       "com-ripperoni-pds",
       "download-synth-pds",
       "com-documatric",
       "xyz-merklehost-pds",
-      "cloud-tgirl-pds",
       "pink-bsky",
       "gay-evil",
       "space-koyu",
       "cloud-tophhie-pds",
-      "mom-rat",
-      "at-hailey-cocoon"
+      "mom-rat"
     ]
   }
 }

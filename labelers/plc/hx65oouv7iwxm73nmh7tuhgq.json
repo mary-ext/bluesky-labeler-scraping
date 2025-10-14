@@ -1,0 +1,65 @@
+{
+  "uri": "at://did:plc:hx65oouv7iwxm73nmh7tuhgq/app.bsky.labeler.service/self",
+  "cid": "bafyreiazvtvht6nj2w7nekgz34gu5ykz4fro52f5tm5rrl7euvry6z46sq",
+  "creator": {
+    "did": "did:plc:hx65oouv7iwxm73nmh7tuhgq",
+    "handle": "unclouder.com",
+    "displayName": "UnClouder",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hx65oouv7iwxm73nmh7tuhgq/bafkreib4ehovt4y4c6ahhp6r6o45ccm26vapeaskfelvs24gpx7qizldr4@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-03-10T15:50:39.444Z",
+    "description": "A labeling service based on fact checking.\n\nKeep your Bluesky clear of dark clouds of misinformation and manipulation.\nhttps://unclouder.com",
+    "indexedAt": "2025-06-17T14:38:07.143Z"
+  },
+  "indexedAt": "2025-10-13T19:25:33.081Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-leadstories",
+        "locales": [
+          {
+            "description": "A fact check about this content is available from Lead Stories.  Check the comments below this post.",
+            "lang": "en",
+            "name": "Fact Check available from Lead Stories"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "explainer-leadstories",
+        "locales": [
+          {
+            "description": "An explainer article about this content is available from Lead Stories.  Check the comments below this post.",
+            "lang": "en",
+            "name": "Explainer available from Lead Stories"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "factcheck-leadstories",
+      "explainer-leadstories"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "record"
+  ]
+}

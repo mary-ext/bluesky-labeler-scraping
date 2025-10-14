@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreigge7svop2qeqjaq65w7fiz32t4mha2g2vrqx4hbvgu2mm4n7lptu",
+  "cid": "bafyreicootc63wbedilgxj57ki4k7ms7m4xiccvvm6337t6vtk3rnsa5xq",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A research project from Cornell Tech, investigating using automated signals to help users have more context about the accounts they are interacting with. Contact: mor.naaman@cornell.edu\n\nProfile picture adapted from Flaticon.",
     "indexedAt": "2025-09-19T17:37:48.697Z"
   },
-  "indexedAt": "2025-09-19T19:47:20.213Z",
+  "indexedAt": "2025-10-13T19:30:34.091Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -58,7 +58,7 @@
           {
             "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 500 other accounts.",
             "lang": "en",
-            "name": "Unfollows a lot - 500"
+            "name": "Unfollowed 500+ yesterday"
           }
         ],
         "severity": "inform"
@@ -72,7 +72,7 @@
           {
             "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 100 other accounts.",
             "lang": "en",
-            "name": "Unfollows a lot - 100"
+            "name": "Unfollowed 100+ yesterday"
           }
         ],
         "severity": "inform"
@@ -86,7 +86,7 @@
           {
             "description": "In a 24 hour period, account made at least 5 changes to its profile metadata (picture, bio, banner, etc.)",
             "lang": "en",
-            "name": "High account metadata changes - 5"
+            "name": "Changed profile 5+ times yesterday"
           }
         ],
         "severity": "inform"
@@ -100,7 +100,7 @@
           {
             "description": "In a 24 hour period, account made at least 10 changes to its profile metadata (picture, bio, banner, etc.)",
             "lang": "en",
-            "name": "High account metadata changes - 10"
+            "name": "Changed profile 10+ times yesterday"
           }
         ],
         "severity": "inform"
@@ -114,7 +114,7 @@
           {
             "description": "In a 24 hour period, account made at least 50 changes to its profile metadata (picture, bio, banner, etc.)",
             "lang": "en",
-            "name": "High account metadata changes - 50"
+            "name": "Changed profile 50+ times yesterday"
           }
         ],
         "severity": "inform"
@@ -128,7 +128,7 @@
           {
             "description": "this account has not sleep for more than 1 hour",
             "lang": "en",
-            "name": "no gap more than 1 hours"
+            "name": "No gap 1+ hours yesterday"
           }
         ],
         "severity": "inform"
@@ -142,7 +142,7 @@
           {
             "description": "this account has not sleep for more than 2 hour",
             "lang": "en",
-            "name": "no gap more than 2 hours"
+            "name": "No gap 2+ hours yesterday"
           }
         ],
         "severity": "inform"
@@ -156,7 +156,7 @@
           {
             "description": "this account has not sleep for more than 4 hour",
             "lang": "en",
-            "name": "no gap more than 4 hours"
+            "name": "No gap 4+ hours yesterday"
           }
         ],
         "severity": "inform"
@@ -170,7 +170,7 @@
           {
             "description": "in the last 24hrs this accounted posted the same url more than 5 times",
             "lang": "en",
-            "name": "posted same url 5+ times"
+            "name": "Posted same url 5+ times yesterday"
           }
         ],
         "severity": "inform"
@@ -184,7 +184,7 @@
           {
             "description": "in the last 24hrs this accounted posted the same url more than 10 times",
             "lang": "en",
-            "name": "posted same url 10+ times"
+            "name": "Posted same url 10+ times yesterday"
           }
         ],
         "severity": "inform"
@@ -198,7 +198,7 @@
           {
             "description": "in the last 24hrs this accounted posted the same url 15 more than times",
             "lang": "en",
-            "name": "posted same url 15+ times"
+            "name": "Posted same url 15+ times yesterday"
           }
         ],
         "severity": "inform"
