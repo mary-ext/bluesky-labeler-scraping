@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicagpwe76p4yxlsf4fabqdglnb3pxlp7gmd2d6ta2ad7vyoiuntpi",
+  "cid": "bafyreiadnukbo2scwqslvlcqqnisbug6t7mhrb4pmo4pnfejxfgjhsrioa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-13T04:00:04.884Z",
+  "indexedAt": "2025-10-14T19:36:36.126Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -403,12 +403,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "to-bbi",
+        "identifier": "chat-wndr",
         "locales": [
           {
-            "description": "Account is hosted by the bbi.to PDS",
+            "description": "Account is hosted by the wndr.chat PDS",
             "lang": "en",
-            "name": "bbi.to"
+            "name": "wndr.chat"
           }
         ],
         "severity": "inform"
@@ -417,12 +417,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wndr",
+        "identifier": "to-bbi",
         "locales": [
           {
-            "description": "Account is hosted by the wndr.chat PDS",
+            "description": "Account is hosted by the bbi.to PDS",
             "lang": "en",
-            "name": "wndr.chat"
+            "name": "bbi.to"
           }
         ],
         "severity": "inform"
@@ -515,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "best-akizuki-pds",
+        "identifier": "social-theatl",
         "locales": [
           {
-            "description": "Account is hosted by the pds.akizuki.best PDS",
+            "description": "Account is hosted by the theatl.social PDS",
             "lang": "en",
-            "name": "pds.akizuki.best"
+            "name": "theatl.social"
           }
         ],
         "severity": "inform"
@@ -529,12 +529,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-theatl",
+        "identifier": "net-altq",
         "locales": [
           {
-            "description": "Account is hosted by the theatl.social PDS",
+            "description": "Account is hosted by the altq.net PDS",
             "lang": "en",
-            "name": "theatl.social"
+            "name": "altq.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "best-akizuki-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.akizuki.best PDS",
+            "lang": "en",
+            "name": "pds.akizuki.best"
           }
         ],
         "severity": "inform"
@@ -557,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-altq",
+        "identifier": "cloud-tgirl-pds",
         "locales": [
           {
-            "description": "Account is hosted by the altq.net PDS",
+            "description": "Account is hosted by the pds.tgirl.cloud PDS",
             "lang": "en",
-            "name": "altq.net"
+            "name": "pds.tgirl.cloud"
           }
         ],
         "severity": "inform"
@@ -605,20 +619,6 @@
             "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
             "lang": "en",
             "name": "katproto.girlonthemoon.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tgirl-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tgirl.cloud PDS",
-            "lang": "en",
-            "name": "pds.tgirl.cloud"
           }
         ],
         "severity": "inform"
@@ -725,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-tophhie-pds",
+        "identifier": "earth-silvi-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tophhie.cloud PDS",
+            "description": "Account is hosted by the pds.silvi.earth PDS",
             "lang": "en",
-            "name": "pds.tophhie.cloud"
+            "name": "pds.silvi.earth"
           }
         ],
         "severity": "inform"
@@ -739,12 +739,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "mom-rat",
+        "identifier": "cloud-tophhie-pds",
         "locales": [
           {
-            "description": "Account is hosted by the rat.mom PDS",
+            "description": "Account is hosted by the pds.tophhie.cloud PDS",
             "lang": "en",
-            "name": "rat.mom"
+            "name": "pds.tophhie.cloud"
           }
         ],
         "severity": "inform"
@@ -778,22 +778,22 @@
       "social-reme",
       "social-bsea-pds",
       "eu-blsky-pds",
-      "to-bbi",
       "chat-wndr",
+      "to-bbi",
       "is-socl",
       "blue-zio",
       "io-koda--agency-pds",
       "network-nobody-node",
       "cymru-360-pds",
       "dev-venki-blogsky",
-      "best-akizuki-pds",
       "social-theatl",
-      "social-grapevyne",
       "net-altq",
+      "best-akizuki-pds",
+      "social-grapevyne",
+      "cloud-tgirl-pds",
       "social-selfhosted",
       "net-shendrick-at",
       "xyz-girlonthemoon-katproto",
-      "cloud-tgirl-pds",
       "com-ripperoni-pds",
       "download-synth-pds",
       "com-documatric",
@@ -801,8 +801,8 @@
       "pink-bsky",
       "gay-evil",
       "space-koyu",
-      "cloud-tophhie-pds",
-      "mom-rat"
+      "earth-silvi-pds",
+      "cloud-tophhie-pds"
     ]
   }
 }
