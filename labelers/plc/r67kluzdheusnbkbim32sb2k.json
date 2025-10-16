@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:r67kluzdheusnbkbim32sb2k/app.bsky.labeler.service/self",
-  "cid": "bafyreiegfqo7aqq7ede7rhdjidz2g7aa26rmzcj4l7w6h454nnzqt4dlb4",
+  "cid": "bafyreibpmovbsgnptlxi4xv2ezelwjtz2srcecphonzw4qbin2r4rdvj4a",
   "creator": {
     "did": "did:plc:r67kluzdheusnbkbim32sb2k",
     "handle": "remember2labelnsfw.bsky.social",
@@ -17,7 +17,7 @@
     "description": "For those of us who use our phones in public sometimes",
     "indexedAt": "2025-10-08T18:54:28.951Z"
   },
-  "indexedAt": "2025-10-14T17:54:53.718Z",
+  "indexedAt": "2025-10-15T20:11:43.530Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,10 +34,25 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "reminder-to-tag-nsfw",
+        "locales": [
+          {
+            "description": "This post/account was labelled because a user reported it as potentially unlabelled NSFW. This label will be automatically removed shortly.",
+            "lang": "en",
+            "name": "Reminder: Label NSFW Please!"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "often-nsfw"
+      "often-nsfw",
+      "reminder-to-tag-nsfw"
     ]
   },
   "reasonTypes": [

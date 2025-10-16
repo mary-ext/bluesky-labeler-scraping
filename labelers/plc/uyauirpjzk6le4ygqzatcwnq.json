@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiadnukbo2scwqslvlcqqnisbug6t7mhrb4pmo4pnfejxfgjhsrioa",
+  "cid": "bafyreieovyj4x2ixhaooqgrxkajdwkmv343yemues6gc6mraf5f75mcgme",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-14T19:36:36.126Z",
+  "indexedAt": "2025-10-15T16:34:23.928Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -157,6 +157,20 @@
             "description": "Account is hosted by the pds.sprk.so PDS",
             "lang": "en",
             "name": "pds.sprk.so"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-dev--frosting",
+        "locales": [
+          {
+            "description": "Account is hosted by the dev-frosting.social PDS",
+            "lang": "en",
+            "name": "dev-frosting.social"
           }
         ],
         "severity": "inform"
@@ -487,12 +501,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cymru-360-pds",
+        "identifier": "social-theatl",
         "locales": [
           {
-            "description": "Account is hosted by the pds.360.cymru PDS",
+            "description": "Account is hosted by the theatl.social PDS",
             "lang": "en",
-            "name": "pds.360.cymru"
+            "name": "theatl.social"
           }
         ],
         "severity": "inform"
@@ -515,12 +529,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-theatl",
+        "identifier": "cymru-360-pds",
         "locales": [
           {
-            "description": "Account is hosted by the theatl.social PDS",
+            "description": "Account is hosted by the pds.360.cymru PDS",
             "lang": "en",
-            "name": "theatl.social"
+            "name": "pds.360.cymru"
           }
         ],
         "severity": "inform"
@@ -563,6 +577,20 @@
             "description": "Account is hosted by the grapevyne.social PDS",
             "lang": "en",
             "name": "grapevyne.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "earth-silvi-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.silvi.earth PDS",
+            "lang": "en",
+            "name": "pds.silvi.earth"
           }
         ],
         "severity": "inform"
@@ -720,34 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "earth-silvi-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.silvi.earth PDS",
-            "lang": "en",
-            "name": "pds.silvi.earth"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tophhie-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tophhie.cloud PDS",
-            "lang": "en",
-            "name": "pds.tophhie.cloud"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -761,6 +761,7 @@
       "net-wafrn-app-at",
       "homes-si46",
       "so-sprk-pds",
+      "social-dev--frosting",
       "social-mt-x",
       "fail-marta",
       "systems-witchcraft-pds",
@@ -784,12 +785,13 @@
       "blue-zio",
       "io-koda--agency-pds",
       "network-nobody-node",
-      "cymru-360-pds",
-      "dev-venki-blogsky",
       "social-theatl",
+      "dev-venki-blogsky",
+      "cymru-360-pds",
       "net-altq",
       "best-akizuki-pds",
       "social-grapevyne",
+      "earth-silvi-pds",
       "cloud-tgirl-pds",
       "social-selfhosted",
       "net-shendrick-at",
@@ -800,9 +802,7 @@
       "xyz-merklehost-pds",
       "pink-bsky",
       "gay-evil",
-      "space-koyu",
-      "earth-silvi-pds",
-      "cloud-tophhie-pds"
+      "space-koyu"
     ]
   }
 }
