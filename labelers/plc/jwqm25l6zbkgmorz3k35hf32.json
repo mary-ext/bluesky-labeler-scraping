@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreigwigponeknwvyouis4ik4r5o3twnfawerur6un7mo6xwdedw2pnq",
+  "cid": "bafyreihnsv5y3lxcv74iixka3bxubzbiw7zmciyevv2fbk7j2tmx5amz7u",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -20,10 +20,24 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)",
     "indexedAt": "2025-05-04T21:05:48.276Z"
   },
-  "indexedAt": "2025-09-19T12:03:20.508Z",
+  "indexedAt": "2025-10-16T23:45:43.055Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blep",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Blep"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -96,6 +110,7 @@
       }
     ],
     "labelValues": [
+      "blep",
       "contains-patreon-substitutes",
       "contains-pin-emoji",
       "contains-xwitter",

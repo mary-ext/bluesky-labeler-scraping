@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreieovyj4x2ixhaooqgrxkajdwkmv343yemues6gc6mraf5f75mcgme",
+  "cid": "bafyreib63guainaezjan56uhtkpqqexli5tzz36ayyb7tz2hax2dzpmh3y",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-15T16:34:23.928Z",
+  "indexedAt": "2025-10-16T05:10:43.525Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -319,20 +319,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ge-shadowcaster-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
-            "lang": "en",
-            "name": "bsky.shadowcaster.ge"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-gumby",
         "locales": [
           {
@@ -347,12 +333,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ge-shadowcaster-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
+            "lang": "en",
+            "name": "bsky.shadowcaster.ge"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
             "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
             "name": "mpi-bluesky-pds.mpi-sws.org"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-bsea-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.bsea.social PDS",
+            "lang": "en",
+            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -381,20 +395,6 @@
             "description": "Account is hosted by the reme.social PDS",
             "lang": "en",
             "name": "reme.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.bsea.social PDS",
-            "lang": "en",
-            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -501,6 +501,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cymru-360-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.360.cymru PDS",
+            "lang": "en",
+            "name": "pds.360.cymru"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-theatl",
         "locales": [
           {
@@ -521,20 +535,6 @@
             "description": "Account is hosted by the blogsky.venki.dev PDS",
             "lang": "en",
             "name": "blogsky.venki.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cymru-360-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.360.cymru PDS",
-            "lang": "en",
-            "name": "pds.360.cymru"
           }
         ],
         "severity": "inform"
@@ -613,20 +613,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
-        "locales": [
-          {
-            "description": "Account is hosted by the selfhosted.social PDS",
-            "lang": "en",
-            "name": "selfhosted.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "net-shendrick-at",
         "locales": [
           {
@@ -655,12 +641,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-ripperoni-pds",
+        "identifier": "download-synth-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.ripperoni.com PDS",
+            "description": "Account is hosted by the pds.synth.download PDS",
             "lang": "en",
-            "name": "pds.ripperoni.com"
+            "name": "pds.synth.download"
           }
         ],
         "severity": "inform"
@@ -669,12 +655,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the pds.synth.download PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "pds.synth.download"
+            "name": "selfhosted.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-ripperoni-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.ripperoni.com PDS",
+            "lang": "en",
+            "name": "pds.ripperoni.com"
           }
         ],
         "severity": "inform"
@@ -772,12 +772,12 @@
       "app-louisvillebsky-pds",
       "xyz-gems",
       "shop-si46",
-      "ge-shadowcaster-bsky",
       "social-gumby",
+      "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
+      "social-bsea-pds",
       "social-northsky",
       "social-reme",
-      "social-bsea-pds",
       "eu-blsky-pds",
       "chat-wndr",
       "to-bbi",
@@ -785,19 +785,19 @@
       "blue-zio",
       "io-koda--agency-pds",
       "network-nobody-node",
+      "cymru-360-pds",
       "social-theatl",
       "dev-venki-blogsky",
-      "cymru-360-pds",
       "net-altq",
       "best-akizuki-pds",
       "social-grapevyne",
       "earth-silvi-pds",
       "cloud-tgirl-pds",
-      "social-selfhosted",
       "net-shendrick-at",
       "xyz-girlonthemoon-katproto",
-      "com-ripperoni-pds",
       "download-synth-pds",
+      "social-selfhosted",
+      "com-ripperoni-pds",
       "com-documatric",
       "xyz-merklehost-pds",
       "pink-bsky",
