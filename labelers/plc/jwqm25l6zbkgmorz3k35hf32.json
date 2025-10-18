@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreihnsv5y3lxcv74iixka3bxubzbiw7zmciyevv2fbk7j2tmx5amz7u",
+  "cid": "bafyreihmrcc4cabtq7ydwa23n4jx4u4jchy5rmvndnjctq3gayr7pc7hui",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -20,24 +20,10 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)",
     "indexedAt": "2025-05-04T21:05:48.276Z"
   },
-  "indexedAt": "2025-10-16T23:45:43.055Z",
+  "indexedAt": "2025-10-17T02:23:16.456Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blep",
-        "locales": [
-          {
-            "description": "",
-            "lang": "en",
-            "name": "Blep"
-          }
-        ],
-        "severity": "inform"
-      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -110,18 +96,12 @@
       }
     ],
     "labelValues": [
-      "blep",
       "contains-patreon-substitutes",
       "contains-pin-emoji",
       "contains-xwitter",
       "contains-xitter",
-      "contains-skeet"
+      "contains-skeet",
+      "bleep"
     ]
-  },
-  "reasonTypes": [
-    "com.atproto.moderation.defs#reasonAppeal"
-  ],
-  "subjectTypes": [
-    "account"
-  ]
+  }
 }

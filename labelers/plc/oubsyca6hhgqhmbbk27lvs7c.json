@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreicootc63wbedilgxj57ki4k7ms7m4xiccvvm6337t6vtk3rnsa5xq",
+  "cid": "bafyreifffw4rk5dzfansfdmk5q7l42nn4zarg2daa6k4yvys4bcduduite",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A research project from Cornell Tech, investigating using automated signals to help users have more context about the accounts they are interacting with. Contact: mor.naaman@cornell.edu\n\nProfile picture adapted from Flaticon.",
     "indexedAt": "2025-09-19T17:37:48.697Z"
   },
-  "indexedAt": "2025-10-13T19:30:34.091Z",
+  "indexedAt": "2025-10-17T19:40:58.563Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -115,6 +115,48 @@
             "description": "In a 24 hour period, account made at least 50 changes to its profile metadata (picture, bio, banner, etc.)",
             "lang": "en",
             "name": "Changed profile 50+ times yesterday"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "metadata-monthly-changes-low",
+        "locales": [
+          {
+            "description": "This account made profile-metadata changes on at least 25% of days in the last 30 days.",
+            "lang": "en",
+            "name": "Profile changes often. 25% of days last month"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "metadata-monthly-changes-medium",
+        "locales": [
+          {
+            "description": "This account made profile-metadata changes on at least 50% of days in the last 30 days.",
+            "lang": "en",
+            "name": "Profile changes often. 50% of days last month"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "metadata-monthly-changes-high",
+        "locales": [
+          {
+            "description": "This account made profile-metadata changes on at least 75% of days in the last 30 days.",
+            "lang": "en",
+            "name": "Profile changes often. 75% of days last month"
           }
         ],
         "severity": "inform"
@@ -226,6 +268,9 @@
       "high-metadata-changes-five",
       "high-metadata-changes-ten",
       "high-metadata-changes-fifty",
+      "metadata-monthly-changes-low",
+      "metadata-monthly-changes-medium",
+      "metadata-monthly-changes-high",
       "no-gap-more-than-one-hours",
       "no-gap-more-than-two-hours",
       "no-gap-more-than-four-hours",

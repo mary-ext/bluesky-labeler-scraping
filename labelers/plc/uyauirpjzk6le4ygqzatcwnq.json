@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreib63guainaezjan56uhtkpqqexli5tzz36ayyb7tz2hax2dzpmh3y",
+  "cid": "bafyreibpigjk6ao5f2vbeofeh7oeczheouxi43flemjanhgi6p5tgoa73m",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-16T05:10:43.525Z",
+  "indexedAt": "2025-10-17T03:10:45.461Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -347,12 +347,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-mpi--sws-mpi--bluesky--pds",
+        "identifier": "social-bsea-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
+            "description": "Account is hosted by the pds.bsea.social PDS",
             "lang": "en",
-            "name": "mpi-bluesky-pds.mpi-sws.org"
+            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -361,12 +361,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
+        "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bsea.social PDS",
+            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
-            "name": "pds.bsea.social"
+            "name": "mpi-bluesky-pds.mpi-sws.org"
           }
         ],
         "severity": "inform"
@@ -655,6 +655,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "me-tribesocial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "lang": "en",
+            "name": "pds.tribesocial.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-selfhosted",
         "locales": [
           {
@@ -734,20 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "space-koyu",
-        "locales": [
-          {
-            "description": "Account is hosted by the koyu.space PDS",
-            "lang": "en",
-            "name": "koyu.space"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -774,8 +774,8 @@
       "shop-si46",
       "social-gumby",
       "ge-shadowcaster-bsky",
-      "org-mpi--sws-mpi--bluesky--pds",
       "social-bsea-pds",
+      "org-mpi--sws-mpi--bluesky--pds",
       "social-northsky",
       "social-reme",
       "eu-blsky-pds",
@@ -796,13 +796,13 @@
       "net-shendrick-at",
       "xyz-girlonthemoon-katproto",
       "download-synth-pds",
+      "me-tribesocial-pds",
       "social-selfhosted",
       "com-ripperoni-pds",
       "com-documatric",
       "xyz-merklehost-pds",
       "pink-bsky",
-      "gay-evil",
-      "space-koyu"
+      "gay-evil"
     ]
   }
 }
