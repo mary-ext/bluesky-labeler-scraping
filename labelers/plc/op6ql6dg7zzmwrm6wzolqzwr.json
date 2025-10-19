@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:op6ql6dg7zzmwrm6wzolqzwr/app.bsky.labeler.service/self",
-  "cid": "bafyreifsmgq7akox2ffy4u557s6fjh3773dv2646245vkdcgjz2fyxk2xu",
+  "cid": "bafyreifb5xmppmxlpd7o4rvdq6dl2aye36a6ecutgttnuyoeoivy53xxgi",
   "creator": {
     "did": "did:plc:op6ql6dg7zzmwrm6wzolqzwr",
     "handle": "pol.conmodsys.net",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-07-18T17:31:54.732Z",
-    "description": "A labeler for filtering politics from your feeds.\n\nNot a verification service.\n\nReport accounts or problems:\n1. Directly to this labeler using the report account option after subscribing\n2. DM sent to this account",
-    "indexedAt": "2025-10-15T05:53:29.816Z"
+    "description": "A labeler for filtering politics from your feeds.\n\nNot a verification service; it might not actually be them.\n\nReport accounts or problems:\n1. Directly to this labeler using the \"Other\" report account option after subscribing\n2. DM sent to this account",
+    "indexedAt": "2025-10-18T01:35:28.249Z"
   },
-  "indexedAt": "2025-10-15T04:46:36.222Z",
+  "indexedAt": "2025-10-18T01:34:00.856Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,9 +28,23 @@
         "identifier": "pol-official-us",
         "locales": [
           {
-            "description": "A government official, candidate, or office at any level in the United States of America.",
+            "description": "A political official or candidate in the United States of America.",
             "lang": "en",
             "name": "US Political Official or Candidate"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "pol-group-us",
+        "locales": [
+          {
+            "description": "A group, office, department, committee, political party, or other organization of political officials or candidates in the United States of America.",
+            "lang": "en",
+            "name": "US Political Group or Organization"
           }
         ],
         "severity": "inform"
@@ -42,7 +56,7 @@
         "identifier": "pol-news-us",
         "locales": [
           {
-            "description": "A news source or journalist that primarily or frequently covers politics in the United States of America. Only applied to accounts, not posts.",
+            "description": "A news source or journalist that primarily or frequently covers politics in the United States of America.",
             "lang": "en",
             "name": "US Political News Source"
           }
@@ -56,7 +70,7 @@
         "identifier": "pol-misc-us",
         "locales": [
           {
-            "description": "An account that primarily or frequently discusses politics in the United States of America.",
+            "description": "An account that primarily or very frequently discusses politics in the United States of America.",
             "lang": "en",
             "name": "US Politics Miscellaneous"
           }
@@ -66,6 +80,7 @@
     ],
     "labelValues": [
       "pol-official-us",
+      "pol-group-us",
       "pol-news-us",
       "pol-misc-us"
     ]

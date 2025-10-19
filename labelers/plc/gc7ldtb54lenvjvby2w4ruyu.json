@@ -1,0 +1,60 @@
+{
+  "uri": "at://did:plc:gc7ldtb54lenvjvby2w4ruyu/app.bsky.labeler.service/self",
+  "cid": "bafyreibmi5iaiksvowcubwps4f3ag3c7om4uorfcoheemksaoq3kybg7qa",
+  "creator": {
+    "did": "did:plc:gc7ldtb54lenvjvby2w4ruyu",
+    "handle": "test-labeler0000.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gc7ldtb54lenvjvby2w4ruyu/bafkreigjts3un2zrobe5lalljyogxccsev226xpfkbdkvdhgmerve6pube@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-10-18T18:45:01.848Z",
+    "indexedAt": "2025-10-18T18:45:01.848Z"
+  },
+  "indexedAt": "2025-10-18T18:47:58.063Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "dogpile-target",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post/account may be under dogpiling.",
+            "lang": "en",
+            "name": "Dogpile Target"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "dogpile-swarm",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Coordinated attention pattern detected.",
+            "lang": "en",
+            "name": "Dogpile Swarm"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "dogpile-target",
+      "dogpile-swarm"
+    ]
+  }
+}

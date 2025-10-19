@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreig65mmhxwzcr7tvbb2jngujp3yst3mmczxtubt2m4aipqjyzen2sa",
+  "cid": "bafyreiamd3q5neyg5fqrftle376mpfkiosxnsrgfjhl5urni53f3zgkbhi",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,10 +20,24 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nstats.skywatch.blue\n\nNot associated with SkySentry.",
     "indexedAt": "2025-07-12T21:42:44.432Z"
   },
-  "indexedAt": "2025-10-14T03:02:39.425Z",
+  "indexedAt": "2025-10-18T13:46:05.961Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "us-gov-account",
+        "locales": [
+          {
+            "description": "Applied to accounts which claim to be or are verified to be US Government agencies.",
+            "lang": "en",
+            "name": "United States Government Account"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -457,7 +471,8 @@
       "suspect-inauthentic",
       "terf-gc",
       "troll",
-      "unsourced-reporting"
+      "unsourced-reporting",
+      "us-gov-account"
     ]
   },
   "reasonTypes": [
