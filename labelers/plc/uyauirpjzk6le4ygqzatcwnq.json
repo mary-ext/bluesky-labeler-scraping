@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibpigjk6ao5f2vbeofeh7oeczheouxi43flemjanhgi6p5tgoa73m",
+  "cid": "bafyreidkp7nn7h4pq5eolgnfmcr32aj2c7t3kez4znxdxcdeyw3bzoxcgm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-17T03:10:45.461Z",
+  "indexedAt": "2025-10-21T00:11:29.764Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -347,6 +347,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-northsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the northsky.social PDS",
+            "lang": "en",
+            "name": "northsky.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-bsea-pds",
         "locales": [
           {
@@ -375,12 +389,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "social-reme",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the reme.social PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "reme.social"
           }
         ],
         "severity": "inform"
@@ -389,12 +403,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-reme",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the reme.social PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "reme.social"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -599,6 +613,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "download-synth-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.synth.download PDS",
+            "lang": "en",
+            "name": "pds.synth.download"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cloud-tgirl-pds",
         "locales": [
           {
@@ -633,34 +661,6 @@
             "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
             "lang": "en",
             "name": "katproto.girlonthemoon.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.synth.download PDS",
-            "lang": "en",
-            "name": "pds.synth.download"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
-            "lang": "en",
-            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -774,10 +774,11 @@
       "shop-si46",
       "social-gumby",
       "ge-shadowcaster-bsky",
+      "social-northsky",
       "social-bsea-pds",
       "org-mpi--sws-mpi--bluesky--pds",
-      "social-northsky",
       "social-reme",
+      "me-tribesocial-pds",
       "eu-blsky-pds",
       "chat-wndr",
       "to-bbi",
@@ -792,11 +793,10 @@
       "best-akizuki-pds",
       "social-grapevyne",
       "earth-silvi-pds",
+      "download-synth-pds",
       "cloud-tgirl-pds",
       "net-shendrick-at",
       "xyz-girlonthemoon-katproto",
-      "download-synth-pds",
-      "me-tribesocial-pds",
       "social-selfhosted",
       "com-ripperoni-pds",
       "com-documatric",
