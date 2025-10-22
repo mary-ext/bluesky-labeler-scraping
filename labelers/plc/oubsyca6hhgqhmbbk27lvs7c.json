@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreiemspr5gklhptnvxnjxk2o3joudjrwecto5ewtsgxlosgmvm6hbba",
+  "cid": "bafyreiaem5hnpwy6ynvriy3eaucwmkfv5abhfpgsutm3plncvphte476ey",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A research project from Cornell Tech, investigating using automated signals to help users have more context about the accounts they are interacting with. Contact: mor.naaman@cornell.edu\n\nProfile picture adapted from Flaticon.",
     "indexedAt": "2025-09-19T17:37:48.697Z"
   },
-  "indexedAt": "2025-10-20T23:23:38.059Z",
+  "indexedAt": "2025-10-21T03:25:49.761Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -126,9 +126,9 @@
         "identifier": "metadata-monthly-changes-low",
         "locales": [
           {
-            "description": "This account made profile-metadata changes on at least 25% of days in the last 30 days.",
+            "description": "This account made profile metadata changes on at least three days in the last 30 days. These changes may be small; but most accounts do not make frequent such changes.",
             "lang": "en",
-            "name": "Profile changes often. 25% of days last month"
+            "name": "Profile changes often: more than 3 times in last 30 days"
           }
         ],
         "severity": "inform"
@@ -140,9 +140,9 @@
         "identifier": "metadata-monthly-changes-medium",
         "locales": [
           {
-            "description": "This account made profile-metadata changes on at least 50% of days in the last 30 days.",
+            "description": "This account made profile metadata changes on at least five days in the last 30 days. These changes may be small; but most accounts do not make frequent such changes.",
             "lang": "en",
-            "name": "Profile changes often. 50% of days last month"
+            "name": "Profile changes often: more than 5 times in last 30 days"
           }
         ],
         "severity": "inform"
@@ -154,9 +154,9 @@
         "identifier": "metadata-monthly-changes-high",
         "locales": [
           {
-            "description": "This account made profile-metadata changes on at least 75% of days in the last 30 days.",
+            "description": "This account made profile metadata changes on at least ten days in the last 30 days. These changes may be small; but most accounts do not make frequent such changes.",
             "lang": "en",
-            "name": "Profile changes often. 75% of days last month"
+            "name": "Profile changes often: more than 10 times in last 30 days"
           }
         ],
         "severity": "inform"
