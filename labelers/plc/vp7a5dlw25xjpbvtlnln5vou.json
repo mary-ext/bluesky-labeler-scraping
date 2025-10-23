@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vp7a5dlw25xjpbvtlnln5vou/app.bsky.labeler.service/self",
-  "cid": "bafyreifr5erumzc3qoai5r7w4rjxq2buh5yolftckz24xfouz7hjif5tce",
+  "cid": "bafyreidxvyzrtph2apmyzppa5tqk2rvzwouetghdt7yymunjsgshywvxky",
   "creator": {
     "did": "did:plc:vp7a5dlw25xjpbvtlnln5vou",
     "handle": "unclouder-dev.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Ignore anything posted here, these are just test posts.",
     "indexedAt": "2025-04-28T09:52:45.777Z"
   },
-  "indexedAt": "2025-10-21T16:31:25.365Z",
+  "indexedAt": "2025-10-22T16:20:40.957Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -42,9 +42,23 @@
         "identifier": "factcheck-newtral",
         "locales": [
           {
-            "description": "Consulte los comentarios debajo de esta publicaci▒n para verificar los hechos sobre este contenido. Newtral",
+            "description": "Consulte los comentarios debajo de esta publicación para verificar los hechos sobre este contenido. Newtral",
             "lang": "en",
-            "name": "Verificaci▒n de datos disponible en Newtral"
+            "name": "Verificación de datos disponible en Newtral"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-knack",
+        "locales": [
+          {
+            "description": "Check the comments below this post for a fact check about this content from Knack",
+            "lang": "en",
+            "name": "Fact check available from Knack"
           }
         ],
         "severity": "alert"
@@ -52,7 +66,8 @@
     ],
     "labelValues": [
       "factcheck-leadstories",
-      "factcheck-newtral"
+      "factcheck-newtral",
+      "factcheck-knack"
     ]
   },
   "reasonTypes": [
