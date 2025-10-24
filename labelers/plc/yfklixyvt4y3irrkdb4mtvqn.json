@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yfklixyvt4y3irrkdb4mtvqn/app.bsky.labeler.service/self",
-  "cid": "bafyreigd5z3mqhbvdf6rtku57wg3nkqlqlkalwlvgrswq25sqtcbc3ts6q",
+  "cid": "bafyreic3ruhjhmt4dbprmdhzbvqa5rdk3v2yslo4wfzancn5pnufsopnja",
   "creator": {
     "did": "did:plc:yfklixyvt4y3irrkdb4mtvqn",
     "handle": "meowderation.tngl.sh",
@@ -9,7 +9,7 @@
     "associated": {
       "labeler": true,
       "chat": {
-        "allowIncoming": "none"
+        "allowIncoming": "all"
       },
       "activitySubscription": {
         "allowSubscriptions": "followers"
@@ -17,10 +17,10 @@
     },
     "labels": [],
     "createdAt": "2025-09-10T23:20:37.498Z",
-    "description": "dis is run by cool habdles https://go.bsky.app/BeCqU2N",
-    "indexedAt": "2025-09-30T18:36:38.447Z"
+    "description": "dis is run by cool habdles https://go.bsky.app/BeCqU2N\n\npohweird biy nix",
+    "indexedAt": "2025-10-23T01:10:51.851Z"
   },
-  "indexedAt": "2025-10-22T16:31:26.961Z",
+  "indexedAt": "2025-10-23T00:58:57.559Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -82,7 +82,7 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "eeeebil",
         "locales": [
@@ -93,6 +93,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misleading",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Misleading"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -100,7 +114,8 @@
       "nix-env",
       "honse",
       "evhilaccountlogintaattemper",
-      "eeeebil"
+      "eeeebil",
+      "misleading"
     ]
   }
 }
