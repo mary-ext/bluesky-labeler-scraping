@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreibaginmlimhlsov32s4eo4erqcsm62diedaba7y7fcks4ympcibdi",
+  "cid": "bafyreih5c7mzis5idr4orxlxosvpv3vrvl63vuvixb2dy6urhrvrv2egs4",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A research project from Cornell Tech, investigating using automated signals to help users have more context about the accounts they are interacting with. Contact: mor.naaman@cornell.edu\n\nProfile picture adapted from Flaticon.",
     "indexedAt": "2025-09-19T17:37:48.697Z"
   },
-  "indexedAt": "2025-10-23T18:07:14.458Z",
+  "indexedAt": "2025-10-24T16:55:46.263Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -252,9 +252,9 @@
         "identifier": "posting-num-low",
         "locales": [
           {
-            "description": "in the last 24hrs this account made more than 15 posts or replies",
+            "description": "in the last 24hrs this account made more than 50 posts or replies",
             "lang": "en",
-            "name": "Posts a lot: more than 15 times yesterday"
+            "name": "Posts a lot: more than 50 times yesterday"
           }
         ],
         "severity": "inform"
@@ -266,23 +266,9 @@
         "identifier": "posting-num-mid",
         "locales": [
           {
-            "description": "in the last 24hrs this account made more than 25 posts or replies",
+            "description": "in the last 24hrs this account made more than 100 posts or replies",
             "lang": "en",
-            "name": "Posts a lot: more than 25 times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "posting-num-high",
-        "locales": [
-          {
-            "description": "in the last 24hrs this account made more than 50 posts or replies",
-            "lang": "en",
-            "name": "Posts a lot: more than 50 times yesterday"
+            "name": "Posts a lot: more than 100 times yesterday"
           }
         ],
         "severity": "inform"
@@ -306,8 +292,7 @@
       "posted-same-url-mid",
       "posted-same-url-high",
       "posting-num-low",
-      "posting-num-mid",
-      "posting-num-high"
+      "posting-num-mid"
     ]
   }
 }
