@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:apyocuv575wkdqbr3d7y2i3a/app.bsky.labeler.service/self",
-  "cid": "bafyreihgufobkahz5wzzl4wzpulxnqsynmn2qf4ezs3pvb6sjxw4g4yfde",
+  "cid": "bafyreibc2qgwsbsb6klxidcyrzzv3pabdgyhizdejdsiqeqqkqywrbkd2e",
   "creator": {
     "did": "did:plc:apyocuv575wkdqbr3d7y2i3a",
     "handle": "postquotient.bsky.social",
-    "displayName": "original post quotient",
+    "displayName": "Original Post Ratio Labeler",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:apyocuv575wkdqbr3d7y2i3a/bafkreidtklgrflpdi3uskaymbxxmral6af35guuv5hi6en65nzi3fmai24@jpeg",
     "associated": {
       "labeler": true,
@@ -14,29 +14,105 @@
     },
     "labels": [],
     "createdAt": "2025-10-25T21:22:02.350Z",
-    "indexedAt": "2025-10-25T21:22:12.550Z"
+    "description": "Labels profiles according to the ratio of original posts to reposts.",
+    "indexedAt": "2025-10-26T18:41:44.149Z"
   },
-  "indexedAt": "2025-10-25T21:32:27.855Z",
+  "indexedAt": "2025-10-26T18:40:39.859Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "originalpostquotient",
+        "defaultSetting": "warn",
+        "identifier": "60",
         "locales": [
           {
-            "description": "Labels accounts based on the ratio of original posts to reposts.",
+            "description": "This account has more original posts than reposts",
             "lang": "en",
-            "name": "Original Post Quotient"
+            "name": "Leans Original"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "40",
+        "locales": [
+          {
+            "description": "This account has more reposts than original posts",
+            "lang": "en",
+            "name": "Leans Reposts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "80",
+        "locales": [
+          {
+            "description": "This account has many more original posts than reposts",
+            "lang": "en",
+            "name": "Mostly Original"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "20",
+        "locales": [
+          {
+            "description": "This account has many more reposts than original posts",
+            "lang": "en",
+            "name": "Mostly Reposts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "0",
+        "locales": [
+          {
+            "description": "This account only reposts",
+            "lang": "en",
+            "name": "Only Reposts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "100",
+        "locales": [
+          {
+            "description": "This account never reposts",
+            "lang": "en",
+            "name": "Only Original"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "originalpostquotient"
+      "60",
+      "40",
+      "80",
+      "20",
+      "0",
+      "100"
     ]
   }
 }

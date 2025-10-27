@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-  "cid": "bafyreic2afcowfuej5ehm5inzpf6z7dbmovzodiday4xjm6enpsku7phwi",
+  "cid": "bafyreifdcsdjmbv6wwjvbapdydkeaogaeihefekighyortyellopggwvwi",
   "creator": {
     "did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
     "handle": "moods.fran.pw",
@@ -20,10 +20,24 @@
     "description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️ (up to 4)\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
     "indexedAt": "2025-02-28T07:32:24.944Z"
   },
-  "indexedAt": "2025-08-23T06:25:11.207Z",
+  "indexedAt": "2025-10-26T14:49:12.761Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dollar-banknote",
+        "locales": [
+          {
+            "description": "In need of money.",
+            "lang": "en",
+            "name": "Mood: 💵"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1988,7 +2002,8 @@
       "smiling-face-with-smiling-eyes",
       "face-with-tears-of-joy",
       "beaming-face-with-smiling-eyes",
-      "grinning-face"
+      "grinning-face",
+      "dollar-banknote"
     ]
   },
   "reasonTypes": [
