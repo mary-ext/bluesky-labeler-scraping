@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:nviutysq5tqovo2bh6kytmtn/app.bsky.labeler.service/self",
-  "cid": "bafyreibu7opasgoxuselzlz3cdmq4qtazivyqkhpqlb5jsa52uwuf7gb3i",
+  "cid": "bafyreifshpvx3kpwxh74i2qkqlp43rov2gbmx2nsx5ckncw5lkchf7tf6m",
   "creator": {
     "did": "did:plc:nviutysq5tqovo2bh6kytmtn",
     "handle": "labeller.abbyintheattic.online",
     "displayName": "Abby's Labeller",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nviutysq5tqovo2bh6kytmtn/bafkreievc4zd343wgyzqn4wbrkprrufx5db2ean3slx7fql2zzam77uzjy@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nviutysq5tqovo2bh6kytmtn/bafkreihhnkogfap66ytg5efrwocdhrn55i4plwlmz2mec2wwghaydbhloq@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-08-20T16:11:15.198Z",
-    "description": "uh oh\nshits going rough gimme a minute (days most likely)",
-    "indexedAt": "2025-10-27T00:15:27.251Z"
+    "description": "in testing, labels here don't show for some reason??",
+    "indexedAt": "2025-10-27T17:10:13.852Z"
   },
-  "indexedAt": "2025-08-20T21:18:19.306Z",
+  "indexedAt": "2025-10-27T04:16:59.856Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,19 +25,79 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "highpolitics",
+        "identifier": "kitty",
         "locales": [
           {
-            "description": "Frequent Politics",
+            "description": "User is kitty!",
             "lang": "en",
-            "name": "Frequent Politics"
+            "name": "Kitty"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "puppy",
+        "locales": [
+          {
+            "description": "User is puppy!",
+            "lang": "en",
+            "name": "Puppy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "deer",
+        "locales": [
+          {
+            "description": "User is deer!",
+            "lang": "en",
+            "name": "Deer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miku",
+        "locales": [
+          {
+            "description": "User is HATSUNE MIKU!?!?!",
+            "lang": "en",
+            "name": "Miku"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "silly",
+        "locales": [
+          {
+            "description": "User is SILLY!!!",
+            "lang": "en",
+            "name": "Silly!!"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "highpolitics"
+      "kitty",
+      "puppy",
+      "deer",
+      "miku",
+      "silly"
     ]
   }
 }

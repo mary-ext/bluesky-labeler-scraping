@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifme3uwhzwnxyrzqpsllkpzsuxox2kfmdbdzes2be3roq637o2nj4",
+  "cid": "bafyreifhanizi5bmfo3tghyhpyjxahma2awukdgrvwdq3fikseq2ytvj44",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-26T22:29:48.161Z",
+  "indexedAt": "2025-10-27T11:03:58.459Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -599,6 +599,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-skystack",
+        "locales": [
+          {
+            "description": "Account is hosted by the skystack.xyz PDS",
+            "lang": "en",
+            "name": "skystack.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cymru-360-pds",
         "locales": [
           {
@@ -647,20 +661,6 @@
             "description": "Account is hosted by the altq.net PDS",
             "lang": "en",
             "name": "altq.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
-        "locales": [
-          {
-            "description": "Account is hosted by the skystack.xyz PDS",
-            "lang": "en",
-            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -792,11 +792,11 @@
       "is-socl",
       "blue-zio",
       "io-koda--agency-pds",
+      "xyz-skystack",
       "cymru-360-pds",
       "social-theatl",
       "dev-venki-blogsky",
       "net-altq",
-      "xyz-skystack",
       "best-akizuki-pds",
       "pink-bsky",
       "social-grapevyne",

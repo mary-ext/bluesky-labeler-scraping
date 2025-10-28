@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreihkfb4pjkhmj7tz56fgjawo6k5or2fw6bqyhkuaawldyar6i3udjm",
+  "cid": "bafyreicszejgsrrxdsxp6ayv46w72wdmsbx2rilroby43ryp26yqiknm7a",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A research project from Cornell Tech, investigating using automated signals to help users have more context about the accounts they are interacting with. Contact: mor.naaman@cornell.edu\n\nProfile picture adapted from Flaticon.",
     "indexedAt": "2025-09-19T17:37:48.697Z"
   },
-  "indexedAt": "2025-10-25T14:32:44.062Z",
+  "indexedAt": "2025-10-27T19:48:22.065Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -168,9 +168,9 @@
         "identifier": "no-gap-more-than-one-hours",
         "locales": [
           {
-            "description": "this account has not sleep for more than 1 hour",
+            "description": "This account has posted without meaningful breaks in the last 24 hours, with no gap between posts that was longer than 1 hour. This behavior may be consistent with an organization account, a bot, accounts with multiple contributors, or a person that does not sleep much.",
             "lang": "en",
-            "name": "No gap 1+ hours yesterday"
+            "name": "No break greater than 1 hr yesterday"
           }
         ],
         "severity": "inform"
@@ -182,9 +182,9 @@
         "identifier": "no-gap-more-than-two-hours",
         "locales": [
           {
-            "description": "this account has not sleep for more than 2 hour",
+            "description": "This account has posted without meaningful breaks in the last 24 hours, with no gap between posts that was longer than 2 hours. This behavior may be consistent with an organization account, a bot, accounts with multiple contributors, or a person that does not sleep much.",
             "lang": "en",
-            "name": "No gap 2+ hours yesterday"
+            "name": "No break greater than 2 hrs yesterday"
           }
         ],
         "severity": "inform"
@@ -196,9 +196,9 @@
         "identifier": "no-gap-more-than-four-hours",
         "locales": [
           {
-            "description": "this account has not sleep for more than 4 hour",
+            "description": "This account has posted without meaningful breaks in the last 24 hours, with no gap between posts that was longer than 4 hours. This behavior may be consistent with an organization account, a bot, accounts with multiple contributors, or a person that does not sleep much.",
             "lang": "en",
-            "name": "No gap 4+ hours yesterday"
+            "name": "No break greater than 4 hrs yesterday"
           }
         ],
         "severity": "inform"
@@ -210,7 +210,7 @@
         "identifier": "posted-same-url-low",
         "locales": [
           {
-            "description": "in the last 24hrs this account posted the same url more than 5 times",
+            "description": "In the last 24 hrs this account posted the same url more than 5 times",
             "lang": "en",
             "name": "Posted same url 5+ times yesterday"
           }
@@ -224,7 +224,7 @@
         "identifier": "posted-same-url-mid",
         "locales": [
           {
-            "description": "in the last 24hrs this account posted the same url more than 10 times",
+            "description": "In the last 24 hrs this account posted the same url more than 10 times",
             "lang": "en",
             "name": "Posted same url 10+ times yesterday"
           }
@@ -238,7 +238,7 @@
         "identifier": "posted-same-url-high",
         "locales": [
           {
-            "description": "in the last 24hrs this account posted the same url 15 more than times",
+            "description": "In the last 24 hrs this account posted the same url more than 15 times",
             "lang": "en",
             "name": "Posted same url 15+ times yesterday"
           }
@@ -252,7 +252,7 @@
         "identifier": "posting-num-low",
         "locales": [
           {
-            "description": "in the last 24hrs this account made more than 50 posts or replies",
+            "description": "In the last 24 hrs this account made more than 50 posts or replies",
             "lang": "en",
             "name": "Posts a lot: more than 50 times yesterday"
           }
@@ -266,7 +266,7 @@
         "identifier": "posting-num-mid",
         "locales": [
           {
-            "description": "in the last 24hrs this account made more than 100 posts or replies",
+            "description": "In the last 24 hrs this account made more than 100 posts or replies",
             "lang": "en",
             "name": "Posts a lot: more than 100 times yesterday"
           }

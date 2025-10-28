@@ -1,0 +1,220 @@
+{
+  "uri": "at://did:plc:qqhhdsbi6fkmbxmtjvliblb2/app.bsky.labeler.service/self",
+  "cid": "bafyreidekvyswxjresp4gg5peiliwimc4mhabz4efgdcdumniyc3tlal7e",
+  "creator": {
+    "did": "did:plc:qqhhdsbi6fkmbxmtjvliblb2",
+    "handle": "i8w39fnf.x.mt.social",
+    "displayName": "kenmy_x",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qqhhdsbi6fkmbxmtjvliblb2/bafkreifmrwfmfjsftpan3urpgetet5elgshv7nr3ehl3rhka3hdotui3im@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-08-27T17:47:59.458Z",
+    "indexedAt": "2025-10-27T16:20:55.750Z"
+  },
+  "indexedAt": "2025-10-27T16:21:53.865Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "低质量或重复的内容，不提供有价值的信息",
+            "lang": "zh",
+            "name": "垃圾信息"
+          },
+          {
+            "description": "Low quality or repetitive content that doesn't add value",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "不礼貌或攻击性的语言",
+            "lang": "zh",
+            "name": "粗鲁内容"
+          },
+          {
+            "description": "Impolite or aggressive language",
+            "lang": "en",
+            "name": "Rude"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misinfo",
+        "locales": [
+          {
+            "description": "虚假或误导性的信息",
+            "lang": "zh",
+            "name": "错误信息"
+          },
+          {
+            "description": "False or misleading information",
+            "lang": "en",
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nsfw",
+        "locales": [
+          {
+            "description": "不适合工作场所或未成年人的内容",
+            "lang": "zh",
+            "name": "成人内容"
+          },
+          {
+            "description": "Not safe for work or minors",
+            "lang": "en",
+            "name": "NSFW"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "violence",
+        "locales": [
+          {
+            "description": "包含暴力或血腥的内容",
+            "lang": "zh",
+            "name": "暴力内容"
+          },
+          {
+            "description": "Content containing violence or gore",
+            "lang": "en",
+            "name": "Violence"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "针对个人或群体的恶意行为",
+            "lang": "zh",
+            "name": "骚扰"
+          },
+          {
+            "description": "Malicious behavior targeting individuals or groups",
+            "lang": "en",
+            "name": "Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "基于种族、宗教、性别等的仇恨言论",
+            "lang": "zh",
+            "name": "仇恨言论"
+          },
+          {
+            "description": "Speech that attacks or discriminates against groups",
+            "lang": "en",
+            "name": "Hate Speech"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "冒充他人身份的行为",
+            "lang": "zh",
+            "name": "冒充"
+          },
+          {
+            "description": "Pretending to be someone else",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "scam",
+        "locales": [
+          {
+            "description": "欺诈性或欺骗性的内容",
+            "lang": "zh",
+            "name": "诈骗"
+          },
+          {
+            "description": "Fraudulent or deceptive content",
+            "lang": "en",
+            "name": "Scam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "illegal",
+        "locales": [
+          {
+            "description": "违反法律法规的内容",
+            "lang": "zh",
+            "name": "非法内容"
+          },
+          {
+            "description": "Content that violates laws or regulations",
+            "lang": "en",
+            "name": "Illegal"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "!hide",
+      "!warn",
+      "spam",
+      "rude",
+      "misinfo",
+      "nsfw",
+      "violence",
+      "harassment",
+      "hate-speech",
+      "impersonation",
+      "scam",
+      "illegal"
+    ]
+  }
+}
