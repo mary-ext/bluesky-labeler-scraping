@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifhanizi5bmfo3tghyhpyjxahma2awukdgrvwdq3fikseq2ytvj44",
+  "cid": "bafyreifavc5jmoa2rud4m3573pkqg2kqzdcawrcmg4tf6qm4aui523q5fy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-27T11:03:58.459Z",
+  "indexedAt": "2025-10-28T21:04:00.666Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -109,6 +109,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-gems",
+        "locales": [
+          {
+            "description": "Account is hosted by the gems.xyz PDS",
+            "lang": "en",
+            "name": "gems.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "so-sprk-pds",
         "locales": [
           {
@@ -129,20 +143,6 @@
             "description": "Account is hosted by the tngl.sh PDS",
             "lang": "en",
             "name": "tngl.sh"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-gems",
-        "locales": [
-          {
-            "description": "Account is hosted by the gems.xyz PDS",
-            "lang": "en",
-            "name": "gems.xyz"
           }
         ],
         "severity": "inform"
@@ -277,6 +277,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "to-tor0n",
+        "locales": [
+          {
+            "description": "Account is hosted by the tor0n.to PDS",
+            "lang": "en",
+            "name": "tor0n.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "online-k4zka-bs",
         "locales": [
           {
@@ -395,20 +409,6 @@
             "description": "Account is hosted by the lamp.wtf PDS",
             "lang": "en",
             "name": "lamp.wtf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "to-tor0n",
-        "locales": [
-          {
-            "description": "Account is hosted by the tor0n.to PDS",
-            "lang": "en",
-            "name": "tor0n.to"
           }
         ],
         "severity": "inform"
@@ -739,12 +739,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-shendrick-at",
+        "identifier": "social-surf",
         "locales": [
           {
-            "description": "Account is hosted by the at.shendrick.net PDS",
+            "description": "Account is hosted by the surf.social PDS",
             "lang": "en",
-            "name": "at.shendrick.net"
+            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -757,9 +757,9 @@
       "app-blacksky",
       "computer-aesthetic-at",
       "info-keik",
+      "xyz-gems",
       "so-sprk-pds",
       "sh-tngl",
-      "xyz-gems",
       "to-bbi",
       "social-dev--frosting",
       "net-wafrn-app-at",
@@ -769,6 +769,7 @@
       "app-louisvillebsky-pds",
       "social-novum",
       "homes-si46",
+      "to-tor0n",
       "online-k4zka-bs",
       "network-nobody-node",
       "global-bsky",
@@ -778,7 +779,6 @@
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "wtf-lamp",
-      "to-tor0n",
       "social-gumby",
       "shop-si46",
       "social-bsea-pds",
@@ -802,7 +802,7 @@
       "social-grapevyne",
       "earth-silvi-pds",
       "cloud-tgirl-pds",
-      "net-shendrick-at"
+      "social-surf"
     ]
   }
 }
