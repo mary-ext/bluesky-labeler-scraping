@@ -1,0 +1,627 @@
+{
+  "uri": "at://did:plc:xumhxoixctmrksb3nrfzmhnl/app.bsky.labeler.service/self",
+  "cid": "bafyreibbzcq6ezcdjzynbygc5m6gqmdjedgglkvdotq44ctkyp2vc4mmrm",
+  "creator": {
+    "did": "did:plc:xumhxoixctmrksb3nrfzmhnl",
+    "handle": "ukpoliticians.bsky.social",
+    "displayName": "UK Politician Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xumhxoixctmrksb3nrfzmhnl/bafkreibny64lpohoe6mwpx4bh43xbmtw2zdvqsxdbvcflnruhenwrv4pkq@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-10-29T12:12:49.551Z",
+    "indexedAt": "2025-10-29T13:25:09.252Z"
+  },
+  "indexedAt": "2025-10-29T13:35:21.066Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alliancemp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Alliance Party",
+            "lang": "en",
+            "name": "Alliance MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alliancemla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for the Alliance Party",
+            "lang": "en",
+            "name": "Alliance MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "torymp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Conservative Party",
+            "lang": "en",
+            "name": "Conservative MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "toryms",
+        "locales": [
+          {
+            "description": "Member of the Senedd for the Conservative Party",
+            "lang": "en",
+            "name": "Conservative MS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "torymsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament for the Conservative Party",
+            "lang": "en",
+            "name": "Conservative MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "toryam",
+        "locales": [
+          {
+            "description": "Member of the London Assembly for the Conservative Party",
+            "lang": "en",
+            "name": "Conservative AM"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dupmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Democratic Unionist Party",
+            "lang": "en",
+            "name": "DUP MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dupmla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for the Democratic Unionist Party",
+            "lang": "en",
+            "name": "DUP MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "greenmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Green Party of England and Wales",
+            "lang": "en",
+            "name": "Green MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "greenmsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament for the Green Party of Scotland",
+            "lang": "en",
+            "name": "Green MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "greenam",
+        "locales": [
+          {
+            "description": "Member of the London Assembly for the Green Party of England and Wales",
+            "lang": "en",
+            "name": "Green AM"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "indymp",
+        "locales": [
+          {
+            "description": "Member of Parliament affiliated with no particular party",
+            "lang": "en",
+            "name": "Independent MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "indymla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly affiliated with no particular party",
+            "lang": "en",
+            "name": "Independent MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "indyms",
+        "locales": [
+          {
+            "description": "Member of the Senedd affiliated with no particular party",
+            "lang": "en",
+            "name": "Independent MS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "indymsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament affiliated with no particular party",
+            "lang": "en",
+            "name": "Independent MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "labourmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Labour Party or Cooperative Party",
+            "lang": "en",
+            "name": "Labour MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "labourms",
+        "locales": [
+          {
+            "description": "Member of the Senedd for the Labour Party or Cooperative Party",
+            "lang": "en",
+            "name": "Labour MS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "labourmsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament for the Labour Party or Cooperative Party",
+            "lang": "en",
+            "name": "Labour MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "labouram",
+        "locales": [
+          {
+            "description": "Member of the London Assembly for the Labour Party or Cooperative Party",
+            "lang": "en",
+            "name": "Labour AM"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ldmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Liberal Democrats",
+            "lang": "en",
+            "name": "Lib Dem MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ldms",
+        "locales": [
+          {
+            "description": "Member of the Senedd for the Liberal Democrats",
+            "lang": "en",
+            "name": "Lib Dem MS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ldmsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament for the Liberal Democrats",
+            "lang": "en",
+            "name": "Lib Dem MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ldam",
+        "locales": [
+          {
+            "description": "Member of the London Assembly for the Liberal Democrats",
+            "lang": "en",
+            "name": "Lib Dem AM"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pcmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for Plaid Cymru",
+            "lang": "en",
+            "name": "Plaid Cymru MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pcms",
+        "locales": [
+          {
+            "description": "Member of the Senedd for Plaid Cymru",
+            "lang": "en",
+            "name": "Plaid Cymru MS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rukmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for Reform UK",
+            "lang": "en",
+            "name": "Reform UK MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rukmsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament for Reform UK",
+            "lang": "en",
+            "name": "Reform UK MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rukms",
+        "locales": [
+          {
+            "description": "Member of the Senedd for Reform UK",
+            "lang": "en",
+            "name": "Reform UK MS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rukam",
+        "locales": [
+          {
+            "description": "Member of the London Assembly for Reform UK",
+            "lang": "en",
+            "name": "Reform UK AM"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "snpmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Scottish National Party",
+            "lang": "en",
+            "name": "SNP MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "snpmsp",
+        "locales": [
+          {
+            "description": "Member of the Scottish Parliament for the Scottish National Party",
+            "lang": "en",
+            "name": "SNP MSP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sfmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for Sinn Féin",
+            "lang": "en",
+            "name": "Sinn Féin MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "sfmla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for Sinn Féin",
+            "lang": "en",
+            "name": "Sinn Féin MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tuvmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for Traditional Unionist Voice",
+            "lang": "en",
+            "name": "TUV MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tuvmla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for Traditional Unionist Voice",
+            "lang": "en",
+            "name": "TUV MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sdlpmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Social Democratic and Labour Party",
+            "lang": "en",
+            "name": "SDLP MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sdlpmla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for the Social Democratic and Labour Party",
+            "lang": "en",
+            "name": "SDLP MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "uupmp",
+        "locales": [
+          {
+            "description": "Member of Parliament for the Ulster Unionist Party",
+            "lang": "en",
+            "name": "UUP MP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "uupmla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for the Ulster Unionist Party",
+            "lang": "en",
+            "name": "UUP MLA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pbpamla",
+        "locales": [
+          {
+            "description": "Member of the Legislative Assembly for the People Before Profit Alliance",
+            "lang": "en",
+            "name": "PBPA MLA"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "alliancemp",
+      "alliancemla",
+      "torymp",
+      "toryms",
+      "torymsp",
+      "toryam",
+      "dupmp",
+      "dupmla",
+      "greenmp",
+      "greenmsp",
+      "greenam",
+      "indymp",
+      "indymla",
+      "indyms",
+      "indymsp",
+      "labourmp",
+      "labourms",
+      "labourmsp",
+      "labouram",
+      "ldmp",
+      "ldms",
+      "ldmsp",
+      "ldam",
+      "pcmp",
+      "pcms",
+      "rukmp",
+      "rukmsp",
+      "rukms",
+      "rukam",
+      "snpmp",
+      "snpmsp",
+      "sfmp",
+      "sfmla",
+      "tuvmp",
+      "tuvmla",
+      "sdlpmp",
+      "sdlpmla",
+      "uupmp",
+      "uupmla",
+      "pbpamla"
+    ]
+  }
+}
