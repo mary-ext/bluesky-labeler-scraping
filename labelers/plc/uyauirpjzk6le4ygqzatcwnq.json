@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifavc5jmoa2rud4m3573pkqg2kqzdcawrcmg4tf6qm4aui523q5fy",
+  "cid": "bafyreiamuytpglplc367y6j7t4gc2eqohlv6x7243evsiji275xisvvty4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-10-28T21:04:00.666Z",
+  "indexedAt": "2025-10-30T18:42:32.466Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -417,6 +417,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "org-climateai",
+        "locales": [
+          {
+            "description": "Account is hosted by the climateai.org PDS",
+            "lang": "en",
+            "name": "climateai.org"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-gumby",
         "locales": [
           {
@@ -487,12 +501,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-mpi--sws-mpi--bluesky--pds",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "mpi-bluesky-pds.mpi-sws.org"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -501,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "mpi-bluesky-pds.mpi-sws.org"
           }
         ],
         "severity": "inform"
@@ -585,12 +599,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "io-koda--agency-pds",
+        "identifier": "xyz-skystack",
         "locales": [
           {
-            "description": "Account is hosted by the pds.koda-agency.io PDS",
+            "description": "Account is hosted by the skystack.xyz PDS",
             "lang": "en",
-            "name": "pds.koda-agency.io"
+            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -599,12 +613,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
+        "identifier": "social-surf",
         "locales": [
           {
-            "description": "Account is hosted by the skystack.xyz PDS",
+            "description": "Account is hosted by the surf.social PDS",
             "lang": "en",
-            "name": "skystack.xyz"
+            "name": "surf.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "io-koda--agency-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.koda-agency.io PDS",
+            "lang": "en",
+            "name": "pds.koda-agency.io"
           }
         ],
         "severity": "inform"
@@ -641,12 +669,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-venki-blogsky",
+        "identifier": "net-altq",
         "locales": [
           {
-            "description": "Account is hosted by the blogsky.venki.dev PDS",
+            "description": "Account is hosted by the altq.net PDS",
             "lang": "en",
-            "name": "blogsky.venki.dev"
+            "name": "altq.net"
           }
         ],
         "severity": "inform"
@@ -655,12 +683,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-altq",
+        "identifier": "dev-venki-blogsky",
         "locales": [
           {
-            "description": "Account is hosted by the altq.net PDS",
+            "description": "Account is hosted by the blogsky.venki.dev PDS",
             "lang": "en",
-            "name": "altq.net"
+            "name": "blogsky.venki.dev"
           }
         ],
         "severity": "inform"
@@ -720,34 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tgirl-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tgirl.cloud PDS",
-            "lang": "en",
-            "name": "pds.tgirl.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-surf",
-        "locales": [
-          {
-            "description": "Account is hosted by the surf.social PDS",
-            "lang": "en",
-            "name": "surf.social"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -779,30 +779,30 @@
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "wtf-lamp",
+      "org-climateai",
       "social-gumby",
       "shop-si46",
       "social-bsea-pds",
       "ge-shadowcaster-bsky",
       "social-northsky",
-      "org-mpi--sws-mpi--bluesky--pds",
       "me-tribesocial-pds",
+      "org-mpi--sws-mpi--bluesky--pds",
       "social-reme",
       "eu-blsky-pds",
       "chat-wndr",
       "is-socl",
       "blue-zio",
-      "io-koda--agency-pds",
       "xyz-skystack",
+      "social-surf",
+      "io-koda--agency-pds",
       "cymru-360-pds",
       "social-theatl",
-      "dev-venki-blogsky",
       "net-altq",
+      "dev-venki-blogsky",
       "best-akizuki-pds",
       "pink-bsky",
       "social-grapevyne",
-      "earth-silvi-pds",
-      "cloud-tgirl-pds",
-      "social-surf"
+      "earth-silvi-pds"
     ]
   }
 }
