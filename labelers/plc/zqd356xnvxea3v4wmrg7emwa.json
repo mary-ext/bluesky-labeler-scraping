@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreidknkemcrptpweu3zwpy6vbqso4xmkackzqyr6jpgtf4uco3up6ua",
+  "cid": "bafyreifekotkw5ahh7zgp2sbtoc3wf4avvbgxtz63rdhevph3vomaxphdq",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -20,7 +20,7 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2025-09-28T13:14:31.554Z",
+  "indexedAt": "2025-10-31T15:34:26.565Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1046,6 +1046,21 @@
       "bisexual",
       "gay",
       "lesbian"
+    ],
+    "reasonTypes": [
+      "com.atproto.moderation.defs#reasonAppeal"
+    ],
+    "subjectTypes": [
+      "account",
+      "record"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }
