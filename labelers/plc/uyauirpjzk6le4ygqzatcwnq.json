@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreihgrtufdo3wljzr6pxwenqbfeyhzbtg72wpoamqgxp2qkra5x4mni",
+  "cid": "bafyreihscv52cwjfhvrl5bx54k3tqvhvkpwvoot4kaxanm26dcvlwc3s7q",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-02T22:42:36.165Z",
+  "indexedAt": "2025-11-04T04:02:50.463Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -375,6 +375,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-skystack",
+        "locales": [
+          {
+            "description": "Account is hosted by the skystack.xyz PDS",
+            "lang": "en",
+            "name": "skystack.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "systems-witchcraft-pds",
         "locales": [
           {
@@ -409,20 +423,6 @@
             "description": "Account is hosted by the lamp.wtf PDS",
             "lang": "en",
             "name": "lamp.wtf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
-        "locales": [
-          {
-            "description": "Account is hosted by the skystack.xyz PDS",
-            "lang": "en",
-            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -683,6 +683,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blue-zio",
+        "locales": [
+          {
+            "description": "Account is hosted by the zio.blue PDS",
+            "lang": "en",
+            "name": "zio.blue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "best-akizuki-pds",
         "locales": [
           {
@@ -697,12 +711,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blue-zio",
+        "identifier": "cloud-tgirl-pds",
         "locales": [
           {
-            "description": "Account is hosted by the zio.blue PDS",
+            "description": "Account is hosted by the pds.tgirl.cloud PDS",
             "lang": "en",
-            "name": "zio.blue"
+            "name": "pds.tgirl.cloud"
           }
         ],
         "severity": "inform"
@@ -734,20 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "earth-silvi-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.silvi.earth PDS",
-            "lang": "en",
-            "name": "pds.silvi.earth"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -776,10 +776,10 @@
       "at-admat-bsx",
       "social-mt-x",
       "fail-marta",
+      "xyz-skystack",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "wtf-lamp",
-      "xyz-skystack",
       "org-climateai",
       "social-gumby",
       "shop-si46",
@@ -798,11 +798,11 @@
       "social-theatl",
       "net-altq",
       "dev-venki-blogsky",
-      "best-akizuki-pds",
       "blue-zio",
+      "best-akizuki-pds",
+      "cloud-tgirl-pds",
       "pink-bsky",
-      "social-grapevyne",
-      "earth-silvi-pds"
+      "social-grapevyne"
     ]
   }
 }
