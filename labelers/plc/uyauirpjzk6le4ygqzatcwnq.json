@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidrksiofvecinq7nvkwkqixijehkvvfc7al3ocrf557cm3rfxf3pi",
+  "cid": "bafyreiglhcjhgkyff7o5o6ndurfekdq573bwtlh5gcfmoa5qsxz7ggc2fi",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-05T21:41:53.862Z",
+  "indexedAt": "2025-11-06T23:41:54.964Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -375,20 +375,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
-        "locales": [
-          {
-            "description": "Account is hosted by the skystack.xyz PDS",
-            "lang": "en",
-            "name": "skystack.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "systems-witchcraft-pds",
         "locales": [
           {
@@ -487,12 +473,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ge-shadowcaster-bsky",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "bsky.shadowcaster.ge"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -515,12 +501,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "ge-shadowcaster-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "bsky.shadowcaster.ge"
           }
         ],
         "severity": "inform"
@@ -571,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wndr",
+        "identifier": "social-surf",
         "locales": [
           {
-            "description": "Account is hosted by the wndr.chat PDS",
+            "description": "Account is hosted by the surf.social PDS",
             "lang": "en",
-            "name": "wndr.chat"
+            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -585,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-surf",
+        "identifier": "chat-wndr",
         "locales": [
           {
-            "description": "Account is hosted by the surf.social PDS",
+            "description": "Account is hosted by the wndr.chat PDS",
             "lang": "en",
-            "name": "surf.social"
+            "name": "wndr.chat"
           }
         ],
         "severity": "inform"
@@ -655,6 +641,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blue-zio",
+        "locales": [
+          {
+            "description": "Account is hosted by the zio.blue PDS",
+            "lang": "en",
+            "name": "zio.blue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-altq",
         "locales": [
           {
@@ -675,20 +675,6 @@
             "description": "Account is hosted by the blogsky.venki.dev PDS",
             "lang": "en",
             "name": "blogsky.venki.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blue-zio",
-        "locales": [
-          {
-            "description": "Account is hosted by the zio.blue PDS",
-            "lang": "en",
-            "name": "zio.blue"
           }
         ],
         "severity": "inform"
@@ -748,6 +734,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "earth-silvi-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.silvi.earth PDS",
+            "lang": "en",
+            "name": "pds.silvi.earth"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -776,7 +776,6 @@
       "at-admat-bsx",
       "social-mt-x",
       "fail-marta",
-      "xyz-skystack",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "wtf-lamp",
@@ -784,25 +783,26 @@
       "social-gumby",
       "shop-si46",
       "social-bsea-pds",
-      "ge-shadowcaster-bsky",
-      "social-northsky",
       "me-tribesocial-pds",
+      "social-northsky",
+      "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "social-reme",
       "eu-blsky-pds",
-      "chat-wndr",
       "social-surf",
+      "chat-wndr",
       "is-socl",
       "io-koda--agency-pds",
       "cymru-360-pds",
       "social-theatl",
+      "blue-zio",
       "net-altq",
       "dev-venki-blogsky",
-      "blue-zio",
       "best-akizuki-pds",
       "cloud-tgirl-pds",
       "pink-bsky",
-      "social-grapevyne"
+      "social-grapevyne",
+      "earth-silvi-pds"
     ]
   }
 }
