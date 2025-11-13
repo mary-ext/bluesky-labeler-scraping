@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yfklixyvt4y3irrkdb4mtvqn/app.bsky.labeler.service/self",
-  "cid": "bafyreigjdhwodgfuucbndmnbsjzw6cdoosqgilw6b4p3rjspdgakxvu54i",
+  "cid": "bafyreieve3mzl5inkryckadr77r2moezqefyj56kvtv6wjqyaphxftivti",
   "creator": {
     "did": "did:plc:yfklixyvt4y3irrkdb4mtvqn",
     "handle": "meowderation.tngl.sh",
@@ -20,7 +20,7 @@
     "description": "dis is run by cool habdles https://go.bsky.app/BeCqU2N\n\npohweird biy nix",
     "indexedAt": "2025-10-23T01:10:51.851Z"
   },
-  "indexedAt": "2025-10-26T15:24:26.661Z",
+  "indexedAt": "2025-11-12T00:59:06.462Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -121,6 +121,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "profile",
+        "defaultSetting": "warn",
+        "identifier": "covid",
+        "locales": [
+          {
+            "description": "user is suspected to have covid",
+            "lang": "en",
+            "name": "⚠︎ suspected covid"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -130,7 +144,8 @@
       "evhilaccountlogintaattemper",
       "eeeebil",
       "misleading",
-      "rude"
+      "rude",
+      "covid"
     ]
   }
 }

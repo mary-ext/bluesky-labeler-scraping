@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreige2vhm255yukp7ftq3fx3ofwwbt2rdgtxampewcpixxin42g2kli",
+  "cid": "bafyreibkszqauld4jodioarrhemts7tkjfakyubio6az7zs5xoaavp5mqq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-09T09:54:13.365Z",
+  "indexedAt": "2025-11-12T21:54:17.163Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -143,20 +143,6 @@
             "description": "Account is hosted by the tngl.sh PDS",
             "lang": "en",
             "name": "tngl.sh"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-clouve",
-        "locales": [
-          {
-            "description": "Account is hosted by the clouve.net PDS",
-            "lang": "en",
-            "name": "clouve.net"
           }
         ],
         "severity": "inform"
@@ -459,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "shop-si46",
+        "identifier": "social-bsea-pds",
         "locales": [
           {
-            "description": "Account is hosted by the si46.shop PDS",
+            "description": "Account is hosted by the pds.bsea.social PDS",
             "lang": "en",
-            "name": "si46.shop"
+            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -473,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
+        "identifier": "shop-si46",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bsea.social PDS",
+            "description": "Account is hosted by the si46.shop PDS",
             "lang": "en",
-            "name": "pds.bsea.social"
+            "name": "si46.shop"
           }
         ],
         "severity": "inform"
@@ -571,6 +557,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "chat-wndr",
+        "locales": [
+          {
+            "description": "Account is hosted by the wndr.chat PDS",
+            "lang": "en",
+            "name": "wndr.chat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-surf",
         "locales": [
           {
@@ -591,20 +591,6 @@
             "description": "Account is hosted by the pds.blsky.eu PDS",
             "lang": "en",
             "name": "pds.blsky.eu"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "chat-wndr",
-        "locales": [
-          {
-            "description": "Account is hosted by the wndr.chat PDS",
-            "lang": "en",
-            "name": "wndr.chat"
           }
         ],
         "severity": "inform"
@@ -661,20 +647,6 @@
             "description": "Account is hosted by the theatl.social PDS",
             "lang": "en",
             "name": "theatl.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-altq",
-        "locales": [
-          {
-            "description": "Account is hosted by the altq.net PDS",
-            "lang": "en",
-            "name": "altq.net"
           }
         ],
         "severity": "inform"
@@ -748,6 +720,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-grapevyne",
+        "locales": [
+          {
+            "description": "Account is hosted by the grapevyne.social PDS",
+            "lang": "en",
+            "name": "grapevyne.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "earth-silvi-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.silvi.earth PDS",
+            "lang": "en",
+            "name": "pds.silvi.earth"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -760,7 +760,6 @@
       "xyz-gems",
       "so-sprk-pds",
       "sh-tngl",
-      "net-clouve",
       "to-bbi",
       "org-letspds-pds",
       "social-dev--frosting",
@@ -782,27 +781,28 @@
       "wtf-lamp",
       "org-climateai",
       "social-gumby",
-      "shop-si46",
       "social-bsea-pds",
+      "shop-si46",
       "me-tribesocial-pds",
       "social-northsky",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "social-reme",
+      "chat-wndr",
       "social-surf",
       "eu-blsky-pds",
-      "chat-wndr",
       "is-socl",
       "io-koda--agency-pds",
       "cymru-360-pds",
       "social-theatl",
-      "net-altq",
       "dev-venki-blogsky",
       "blue-zio",
       "best-akizuki-pds",
       "cloud-tgirl-pds",
-      "pink-bsky"
+      "pink-bsky",
+      "social-grapevyne",
+      "earth-silvi-pds"
     ]
   }
 }
