@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibkszqauld4jodioarrhemts7tkjfakyubio6az7zs5xoaavp5mqq",
+  "cid": "bafyreigkqrimuy23yt7gxd7zof4jrz42nt2cj43j5wwn7trzixcntpobkq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-12T21:54:17.163Z",
+  "indexedAt": "2025-11-14T09:54:18.459Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -143,20 +143,6 @@
             "description": "Account is hosted by the tngl.sh PDS",
             "lang": "en",
             "name": "tngl.sh"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "to-bbi",
-        "locales": [
-          {
-            "description": "Account is hosted by the bbi.to PDS",
-            "lang": "en",
-            "name": "bbi.to"
           }
         ],
         "severity": "inform"
@@ -473,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -487,12 +473,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -543,6 +529,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-surf",
+        "locales": [
+          {
+            "description": "Account is hosted by the surf.social PDS",
+            "lang": "en",
+            "name": "surf.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-reme",
         "locales": [
           {
@@ -563,20 +563,6 @@
             "description": "Account is hosted by the wndr.chat PDS",
             "lang": "en",
             "name": "wndr.chat"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-surf",
-        "locales": [
-          {
-            "description": "Account is hosted by the surf.social PDS",
-            "lang": "en",
-            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -748,6 +734,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "net-altq",
+        "locales": [
+          {
+            "description": "Account is hosted by the altq.net PDS",
+            "lang": "en",
+            "name": "altq.net"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -760,7 +760,6 @@
       "xyz-gems",
       "so-sprk-pds",
       "sh-tngl",
-      "to-bbi",
       "org-letspds-pds",
       "social-dev--frosting",
       "net-wafrn-app-at",
@@ -783,14 +782,14 @@
       "social-gumby",
       "social-bsea-pds",
       "shop-si46",
-      "me-tribesocial-pds",
       "social-northsky",
+      "me-tribesocial-pds",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
+      "social-surf",
       "social-reme",
       "chat-wndr",
-      "social-surf",
       "eu-blsky-pds",
       "is-socl",
       "io-koda--agency-pds",
@@ -802,7 +801,8 @@
       "cloud-tgirl-pds",
       "pink-bsky",
       "social-grapevyne",
-      "earth-silvi-pds"
+      "earth-silvi-pds",
+      "net-altq"
     ]
   }
 }

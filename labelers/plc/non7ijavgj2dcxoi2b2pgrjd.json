@@ -1,0 +1,42 @@
+{
+  "uri": "at://did:plc:non7ijavgj2dcxoi2b2pgrjd/app.bsky.labeler.service/self",
+  "cid": "bafyreiazgiic2nnrud7jfjq6tmikoekm2znbc3waojshawimlk3qo4w2sq",
+  "creator": {
+    "did": "did:plc:non7ijavgj2dcxoi2b2pgrjd",
+    "handle": "mod.berlin-user.eurosky.social",
+    "displayName": "Eurosky Ozone Moderator",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-11-14T09:45:37.255Z",
+    "description": "Moderation service",
+    "indexedAt": "2025-11-14T09:45:37.255Z"
+  },
+  "indexedAt": "2025-11-14T09:48:07.657Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Applied to content that is unsolicited, repetitive, or promotional in nature.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "spam"
+    ]
+  }
+}

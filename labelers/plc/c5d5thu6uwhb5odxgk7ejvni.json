@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreibwdpfdybvcaodnxwtzmr4jgeseyde74zumn63jbnvprgtbetw2jm",
+  "cid": "bafyreier5v2k232td5gb7pt5bq2wpdhjuhsg6slje63ffsv6f264ry245i",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -17,7 +17,7 @@
     "description": "Subscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-04-23T16:07:04.173Z"
   },
-  "indexedAt": "2025-11-10T18:42:24.163Z",
+  "indexedAt": "2025-11-14T03:20:35.664Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,6 +34,20 @@
           }
         ],
         "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam-uplus",
+        "locales": [
+          {
+            "description": "Spam",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
       },
       {
         "adultOnly": false,
@@ -668,6 +682,7 @@
     ],
     "labelValues": [
       "clutter",
+      "spam-uplus",
       "blur",
       "urbanist",
       "cyclist-urbanism",
