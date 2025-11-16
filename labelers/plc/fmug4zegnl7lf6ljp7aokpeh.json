@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:fmug4zegnl7lf6ljp7aokpeh/app.bsky.labeler.service/self",
-  "cid": "bafyreics2o4cobrfappeqeegqr22xmvvrgy2wegygoiwu2ksckxpt6nbiq",
+  "cid": "bafyreifzuzgrg5r26gmfe4kgaqhrdvekgkeu4d3aiq734spyxttspvijsi",
   "creator": {
     "did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
     "handle": "medsky.social",
@@ -17,13 +17,27 @@
     },
     "labels": [],
     "createdAt": "2024-10-09T03:18:20.007Z",
-    "description": "A network of healthcare workers across the ATmosphere\n\nCommunity Guidelines: tinyurl.com/2rfzv2fc\nMed Misinformation Labeler: @medsky.info\nSupport: tinyurl.com/vbf3swdw",
-    "indexedAt": "2025-11-07T16:38:55.752Z"
+    "description": "A network of healthcare workers across the ATmosphere\n\nTopics: @topics.medsky.social\nMed Misinformation Labeler: @moderation.medsky.social\nSupport: tinyurl.com/vbf3swdw",
+    "indexedAt": "2025-11-15T01:15:25.051Z"
   },
-  "indexedAt": "2024-11-14T05:01:41.395Z",
+  "indexedAt": "2025-11-15T18:05:24.269Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "medical-school",
+        "locales": [
+          {
+            "description": "This account is a Medical School",
+            "lang": "en",
+            "name": "Medical School"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -3817,9 +3831,94 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "biomedical-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomedical Informatics",
+            "lang": "en",
+            "name": "Biomedical Informatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "clinical-research-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Clinical Research Informatics",
+            "lang": "en",
+            "name": "Clinical Research Informatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dental-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Dental Informatics",
+            "lang": "en",
+            "name": "Dental Informatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "primary-care-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Primary Care Informatics",
+            "lang": "en",
+            "name": "Primary Care Informatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nursing-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Nursing Informatics",
+            "lang": "en",
+            "name": "Nursing Informatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "surgical-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Surgical Informatics",
+            "lang": "en",
+            "name": "Surgical Informatics"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
+      "medical-school",
       "anesthesiology",
       "accm",
       "acta",
@@ -4090,7 +4189,13 @@
       "trauma-surgery",
       "urology",
       "urogynecology",
-      "vascular-surgery"
+      "vascular-surgery",
+      "biomedical-informatics",
+      "clinical-research-informatics",
+      "dental-informatics",
+      "primary-care-informatics",
+      "nursing-informatics",
+      "surgical-informatics"
     ]
   }
 }
