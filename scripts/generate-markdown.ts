@@ -1,12 +1,10 @@
-import '@atcute/bluesky/lexicons';
+import * as fsp from 'node:fs/promises';
 
-import * as fs from 'node:fs';
+import type { AppBskyLabelerDefs } from '@atcute/bluesky';
 
-import type { AppBskyLabelerDefs } from '@atcute/client/lexicons';
-
-const glob = new Bun.Glob('./labelers/**/*.json');
-const views = Array.from(glob.scanSync(), (f): AppBskyLabelerDefs.LabelerViewDetailed => {
-	return JSON.parse(fs.readFileSync(f, 'utf-8'));
+const views = await Array.fromAsync(fsp.glob('labelers/**/*.json'), async (filename) => {
+	const json = await Deno.readTextFile(filename);
+	return JSON.parse(json) as AppBskyLabelerDefs.LabelerViewDetailed;
 });
 
 {
@@ -55,7 +53,7 @@ Last updated {{time}}[^1]
 	let shouldWrite = true;
 
 	try {
-		const source = fs.readFileSync('./README.md', 'utf-8');
+		const source = await Deno.readTextFile('README.md');
 
 		if (TABLE_RE.exec(source)?.[0] === table) {
 			shouldWrite = false;
@@ -67,7 +65,7 @@ Last updated {{time}}[^1]
 	if (shouldWrite) {
 		const final = template.replace('{{time}}', new Date().toISOString()).replace(TABLE_RE, table);
 
-		fs.writeFileSync('./README.md', final);
+		await Deno.writeTextFile('README.md', final);
 		console.log(`wrote to readme`);
 	} else {
 		console.log(`writing skipped`);

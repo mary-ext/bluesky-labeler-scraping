@@ -1,0 +1,69 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@mary/async-iterator-fns@0.2": "0.2.0",
+    "npm:@atcute/atproto@^3.1.9": "3.1.9",
+    "npm:@atcute/bluesky@^3.2.10": "3.2.10",
+    "npm:@atcute/client@^4.0.5": "4.0.5",
+    "npm:@atcute/lexicons@^1.2.3": "1.2.3"
+  },
+  "jsr": {
+    "@mary/async-iterator-fns@0.2.0": {
+      "integrity": "ca857c9a1c2a4b7d4ba1a13772c7a5bd918536f115c385cc5415337ab043e273"
+    }
+  },
+  "npm": {
+    "@atcute/atproto@3.1.9": {
+      "integrity": "sha512-DyWwHCTdR4hY2BPNbLXgVmm7lI+fceOwWbE4LXbGvbvVtSn+ejSVFaAv01Ra3kWDha0whsOmbJL8JP0QPpf1+w==",
+      "dependencies": [
+        "@atcute/lexicons"
+      ]
+    },
+    "@atcute/bluesky@3.2.10": {
+      "integrity": "sha512-qwQWTzRf3umnh2u41gdU+xWYkbzGlKDupc3zeOB+YjmuP1N9wEaUhwS8H7vgrqr0xC9SGNDjeUVcjC4m5BPLBg==",
+      "dependencies": [
+        "@atcute/atproto",
+        "@atcute/lexicons"
+      ]
+    },
+    "@atcute/client@4.0.5": {
+      "integrity": "sha512-R8Qen8goGmEkynYGg2m6XFlVmz0GTDvQ+9w+4QqOob+XMk8/WDpF4aImev7WKEde/rV2gjcqW7zM8E6W9NShDA==",
+      "dependencies": [
+        "@atcute/identity",
+        "@atcute/lexicons"
+      ]
+    },
+    "@atcute/identity@1.1.2": {
+      "integrity": "sha512-vn0RN7SUF6N0sEPG9yyT6a0MzpfVS8BhsiLtB8OeS4qp2rLMQW33pelCpNitP1N+fq03MFlDGzs5p7K4qMs4cA==",
+      "dependencies": [
+        "@atcute/lexicons",
+        "@badrap/valita"
+      ]
+    },
+    "@atcute/lexicons@1.2.3": {
+      "integrity": "sha512-ZNfNWS4jaR8VgWSSBaWRSSmwFeP134BmvpTt9JmM2x5vRoXeIFthxU9USY8ZV4vm0GPoxEMgkDin8HIlnFTg2w==",
+      "dependencies": [
+        "@standard-schema/spec",
+        "esm-env"
+      ]
+    },
+    "@badrap/valita@0.4.6": {
+      "integrity": "sha512-4kdqcjyxo/8RQ8ayjms47HCWZIF5981oE5nIenbfThKDxWXtEHKipAOWlflpPJzZx9y/JWYQkp18Awr7VuepFg=="
+    },
+    "@standard-schema/spec@1.0.0": {
+      "integrity": "sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA=="
+    },
+    "esm-env@1.2.2": {
+      "integrity": "sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@mary/async-iterator-fns@0.2",
+      "npm:@atcute/atproto@^3.1.9",
+      "npm:@atcute/bluesky@^3.2.10",
+      "npm:@atcute/client@^4.0.5",
+      "npm:@atcute/lexicons@^1.2.3"
+    ]
+  }
+}
