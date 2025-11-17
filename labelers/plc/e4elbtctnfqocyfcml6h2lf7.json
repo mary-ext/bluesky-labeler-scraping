@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreiejvxzuu6rftugoon4wxvvebm5zp4jw3svvzg4mejarh4dunh2jri",
+  "cid": "bafyreigbqih5vgbk3ovilheey7rhlvgotlrlkzd6sb3bepkvz7mkftvh5m",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,7 +20,7 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nstats.skywatch.blue\n\nNot associated with SkySentry.",
     "indexedAt": "2025-07-12T21:42:44.432Z"
   },
-  "indexedAt": "2025-11-08T05:27:23.062Z",
+  "indexedAt": "2025-11-16T23:41:03.660Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -51,20 +51,6 @@
           }
         ],
         "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "discriminatory-language",
-        "locales": [
-          {
-            "description": "Applied to posts that use stereotypes, discriminatory generalizations, or identity-based attacks that don't fit other categories (slurs, dehumanizing rhetoric, etc.)",
-            "lang": "en",
-            "name": "Discriminatory"
-          }
-        ],
-        "severity": "warn"
       },
       {
         "adultOnly": false,
@@ -118,20 +104,6 @@
             "description": "Account's replies frequently lack substantive content, including: emoji-only replies, meme-or-image-only replies, cut and paste text that is frequently repeated in multiple threads, \"cry more\"/insults/slurs, and other forms of low-effort reply spam that are intended to troll or enrage rather than engage in conversation. Appeals will be accepted for active accounts that have ceased to engage in this sort of activity for at least a month.",
             "lang": "en",
             "name": "Low Quality Replies"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "dehumanizing-rhetoric",
-        "locales": [
-          {
-            "description": "Applied to accounts and / or posts which engage in rhetoric which has the effect of dehumanizing a group of people.",
-            "lang": "en",
-            "name": "Dehumanizing Rhetoric"
           }
         ],
         "severity": "alert"
@@ -455,6 +427,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "intolerance",
+        "locales": [
+          {
+            "description": "Applied to posts which espouse discriminatory views, including but not limited to stereotypes, discriminatory generalizations, or other identity-based attacks, posts which engage in rhetoric which has the effect of dehumanizing a group of people, and posts which contain slurs or hate speech disparaging people based on race, ethnicity, religion, nationality, sexual orientation, or gender. Applied to accounts which frequently engage in these behaviors.",
+            "lang": "en",
+            "name": "Intolerance"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -466,8 +452,6 @@
       "blue-heart-emoji",
       "bluesky-elder",
       "contains-slur",
-      "dehumanizing-rhetoric",
-      "discriminatory-language",
       "discourse-bait",
       "disinformation-network",
       "elon-musk",
@@ -475,6 +459,7 @@
       "follow-farming",
       "fundraising-link",
       "hammer-sickle",
+      "intolerance",
       "inverted-red-triangle",
       "low-quality-replies",
       "maga-trump",
