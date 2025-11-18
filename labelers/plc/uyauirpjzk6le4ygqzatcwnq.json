@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiau7xdjdsqwai755i7djyvpwue4pbvzctm7hwywkpfzsh5bgjp5nm",
+  "cid": "bafyreihjbcofzuqxbbfth6qzpkevffmn5in3c65k52mufwjibmvh5j4lfq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-16T03:54:20.962Z",
+  "indexedAt": "2025-11-17T11:54:21.862Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -297,20 +297,6 @@
             "description": "Account is hosted by the node.nobody.network PDS",
             "lang": "en",
             "name": "node.nobody.network"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "global-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.global PDS",
-            "lang": "en",
-            "name": "bsky.global"
           }
         ],
         "severity": "inform"
@@ -627,6 +613,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "chat-roomy",
+        "locales": [
+          {
+            "description": "Account is hosted by the roomy.chat PDS",
+            "lang": "en",
+            "name": "roomy.chat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-theatl",
         "locales": [
           {
@@ -697,20 +697,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
-        "locales": [
-          {
-            "description": "Account is hosted by the roomy.chat PDS",
-            "lang": "en",
-            "name": "roomy.chat"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "pink-bsky",
         "locales": [
           {
@@ -748,6 +734,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "xyz-girlonthemoon-katproto",
+        "locales": [
+          {
+            "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
+            "lang": "en",
+            "name": "katproto.girlonthemoon.xyz"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -771,7 +771,6 @@
       "to-tor0n",
       "online-k4zka-bs",
       "network-nobody-node",
-      "global-bsky",
       "at-admat-bsx",
       "social-mt-x",
       "fail-marta",
@@ -794,15 +793,16 @@
       "is-socl",
       "io-koda--agency-pds",
       "cymru-360-pds",
+      "chat-roomy",
       "social-theatl",
       "dev-venki-blogsky",
       "blue-zio",
       "best-akizuki-pds",
       "cloud-tgirl-pds",
-      "chat-roomy",
       "pink-bsky",
       "social-grapevyne",
-      "earth-silvi-pds"
+      "earth-silvi-pds",
+      "xyz-girlonthemoon-katproto"
     ]
   }
 }
