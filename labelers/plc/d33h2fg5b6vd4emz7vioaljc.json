@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d33h2fg5b6vd4emz7vioaljc/app.bsky.labeler.service/self",
-  "cid": "bafyreie7lvkry76g3qihhqvbammkqiv5j3pqe65hama26gearoo3n53k5i",
+  "cid": "bafyreiagirfagi4o3espxui3iuz3qtq5cqpalzni6zpnl6fjyf5n2mhbnq",
   "creator": {
     "did": "did:plc:d33h2fg5b6vd4emz7vioaljc",
     "handle": "emotion-labeler.bsky.social",
@@ -17,432 +17,77 @@
     "description": "btw this isn't working yet, yeesh",
     "indexedAt": "2025-11-02T16:11:59.150Z"
   },
-  "indexedAt": "2025-11-02T13:06:05.261Z",
+  "indexedAt": "2025-11-18T17:40:54.455Z",
   "labels": [],
   "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
     "labelValueDefinitions": [
       {
-        "adultOnly": false,
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "admiration",
+        "defaultSetting": "show",
+        "identifier": "emotion-joy",
         "locales": [
           {
-            "description": "admiration",
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Happy content",
             "lang": "en",
-            "name": "admiration"
+            "name": "Joyful"
           }
         ],
         "severity": "inform"
       },
       {
-        "adultOnly": false,
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "amusement",
+        "defaultSetting": "show",
+        "identifier": "emotion-anger",
         "locales": [
           {
-            "description": "amusement",
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Angry content",
             "lang": "en",
-            "name": "amusement"
+            "name": "Angry"
           }
         ],
         "severity": "inform"
       },
       {
-        "adultOnly": false,
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "anger",
+        "defaultSetting": "show",
+        "identifier": "emotion-sadness",
         "locales": [
           {
-            "description": "anger",
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Sad content",
             "lang": "en",
-            "name": "anger"
+            "name": "Sad"
           }
         ],
         "severity": "inform"
       },
       {
-        "adultOnly": false,
+        "$type": "com.atproto.label.defs#labelValueDefinition",
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "annoyance",
+        "defaultSetting": "show",
+        "identifier": "emotion-fear",
         "locales": [
           {
-            "description": "annoyance",
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Scary content",
             "lang": "en",
-            "name": "annoyance"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "approval",
-        "locales": [
-          {
-            "description": "approval",
-            "lang": "en",
-            "name": "approval"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "caring",
-        "locales": [
-          {
-            "description": "caring",
-            "lang": "en",
-            "name": "caring"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "confusion",
-        "locales": [
-          {
-            "description": "confusion",
-            "lang": "en",
-            "name": "confusion"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "curiosity",
-        "locales": [
-          {
-            "description": "curiosity",
-            "lang": "en",
-            "name": "curiosity"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "desire",
-        "locales": [
-          {
-            "description": "desire",
-            "lang": "en",
-            "name": "desire"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "disappointment",
-        "locales": [
-          {
-            "description": "disappointment",
-            "lang": "en",
-            "name": "disappointment"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "disapproval",
-        "locales": [
-          {
-            "description": "disapproval",
-            "lang": "en",
-            "name": "disapproval"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "disgust",
-        "locales": [
-          {
-            "description": "disgust",
-            "lang": "en",
-            "name": "disgust"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "embarrassment",
-        "locales": [
-          {
-            "description": "embarrassment",
-            "lang": "en",
-            "name": "embarrassment"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "excitement",
-        "locales": [
-          {
-            "description": "excitement",
-            "lang": "en",
-            "name": "excitement"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "fear",
-        "locales": [
-          {
-            "description": "fear",
-            "lang": "en",
-            "name": "fear"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "gratitude",
-        "locales": [
-          {
-            "description": "gratitude",
-            "lang": "en",
-            "name": "gratitude"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "grief",
-        "locales": [
-          {
-            "description": "grief",
-            "lang": "en",
-            "name": "grief"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "joy",
-        "locales": [
-          {
-            "description": "joy",
-            "lang": "en",
-            "name": "joy"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "love",
-        "locales": [
-          {
-            "description": "love",
-            "lang": "en",
-            "name": "love"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "nervousness",
-        "locales": [
-          {
-            "description": "nervousness",
-            "lang": "en",
-            "name": "nervousness"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "optimism",
-        "locales": [
-          {
-            "description": "optimism",
-            "lang": "en",
-            "name": "optimism"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "pride",
-        "locales": [
-          {
-            "description": "pride",
-            "lang": "en",
-            "name": "pride"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "realization",
-        "locales": [
-          {
-            "description": "realization",
-            "lang": "en",
-            "name": "realization"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "relief",
-        "locales": [
-          {
-            "description": "relief",
-            "lang": "en",
-            "name": "relief"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "remorse",
-        "locales": [
-          {
-            "description": "remorse",
-            "lang": "en",
-            "name": "remorse"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "sadness",
-        "locales": [
-          {
-            "description": "sadness",
-            "lang": "en",
-            "name": "sadness"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "surprise",
-        "locales": [
-          {
-            "description": "surprise",
-            "lang": "en",
-            "name": "surprise"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "neutral",
-        "locales": [
-          {
-            "description": "neutral",
-            "lang": "en",
-            "name": "neutral"
+            "name": "Fearful"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "admiration",
-      "amusement",
-      "anger",
-      "annoyance",
-      "approval",
-      "caring",
-      "confusion",
-      "curiosity",
-      "desire",
-      "disappointment",
-      "disapproval",
-      "disgust",
-      "embarrassment",
-      "excitement",
-      "fear",
-      "gratitude",
-      "grief",
-      "joy",
-      "love",
-      "nervousness",
-      "optimism",
-      "pride",
-      "realization",
-      "relief",
-      "remorse",
-      "sadness",
-      "surprise",
-      "neutral"
+      "emotion-joy",
+      "emotion-anger",
+      "emotion-sadness",
+      "emotion-fear"
     ]
   }
 }

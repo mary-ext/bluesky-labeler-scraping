@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreihjbcofzuqxbbfth6qzpkevffmn5in3c65k52mufwjibmvh5j4lfq",
+  "cid": "bafyreig7fte7zu56yf4fsbk6ghnxrgyndh5nfjjhjqisyukbbrpcys2gj4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-17T11:54:21.862Z",
+  "indexedAt": "2025-11-18T23:54:35.060Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -445,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -459,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -571,6 +571,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-skystack",
+        "locales": [
+          {
+            "description": "Account is hosted by the skystack.xyz PDS",
+            "lang": "en",
+            "name": "skystack.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "is-socl",
         "locales": [
           {
@@ -599,12 +613,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cymru-360-pds",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the pds.360.cymru PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "pds.360.cymru"
+            "name": "roomy.chat"
           }
         ],
         "severity": "inform"
@@ -613,12 +627,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
+        "identifier": "cymru-360-pds",
         "locales": [
           {
-            "description": "Account is hosted by the roomy.chat PDS",
+            "description": "Account is hosted by the pds.360.cymru PDS",
             "lang": "en",
-            "name": "roomy.chat"
+            "name": "pds.360.cymru"
           }
         ],
         "severity": "inform"
@@ -734,20 +748,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-girlonthemoon-katproto",
-        "locales": [
-          {
-            "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
-            "lang": "en",
-            "name": "katproto.girlonthemoon.xyz"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -781,8 +781,8 @@
       "social-gumby",
       "social-bsea-pds",
       "shop-si46",
-      "social-northsky",
       "me-tribesocial-pds",
+      "social-northsky",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
@@ -790,10 +790,11 @@
       "social-reme",
       "chat-wndr",
       "eu-blsky-pds",
+      "xyz-skystack",
       "is-socl",
       "io-koda--agency-pds",
-      "cymru-360-pds",
       "chat-roomy",
+      "cymru-360-pds",
       "social-theatl",
       "dev-venki-blogsky",
       "blue-zio",
@@ -801,8 +802,7 @@
       "cloud-tgirl-pds",
       "pink-bsky",
       "social-grapevyne",
-      "earth-silvi-pds",
-      "xyz-girlonthemoon-katproto"
+      "earth-silvi-pds"
     ]
   }
 }
