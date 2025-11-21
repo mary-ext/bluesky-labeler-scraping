@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:fmug4zegnl7lf6ljp7aokpeh/app.bsky.labeler.service/self",
-  "cid": "bafyreibkfylqgcgkq6kkq632cbj6q455xgtrk6ygio7rxa3dp4nvkxp5ni",
+  "cid": "bafyreice2aeehndfoh3vd7mmvfmqffnzpbfg5jvfwn5ks26gdc7jx54if4",
   "creator": {
     "did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
     "handle": "medsky.social",
@@ -20,7 +20,7 @@
     "description": "A network of healthcare workers across the ATmosphere\n\nSupport: tinyurl.com/vbf3swdw",
     "indexedAt": "2025-11-19T18:42:25.224Z"
   },
-  "indexedAt": "2025-11-19T20:29:41.340Z",
+  "indexedAt": "2025-11-20T18:47:52.953Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,6 +34,20 @@
             "description": "This account is a Medical School",
             "lang": "en",
             "name": "Medical School"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dental-school",
+        "locales": [
+          {
+            "description": "This account is a Dental School",
+            "lang": "en",
+            "name": "Dental School"
           }
         ],
         "severity": "inform"
@@ -76,20 +90,6 @@
             "description": "This user works in the field of Adult Cardiothoracic Anesthesiology",
             "lang": "en",
             "name": "ACTA"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "em-anesthesiology",
-        "locales": [
-          {
-            "description": "This user works in the field of Emergency Medicine/Anesthesiology",
-            "lang": "en",
-            "name": "EM/Anesthesiology"
           }
         ],
         "severity": "inform"
@@ -216,6 +216,20 @@
             "description": "This user works in the field of Emergency Medical Services",
             "lang": "en",
             "name": "EMS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nursing",
+        "locales": [
+          {
+            "description": "This user works in the field of Nursing",
+            "lang": "en",
+            "name": "Nursing"
           }
         ],
         "severity": "inform"
@@ -3919,10 +3933,10 @@
     ],
     "labelValues": [
       "medical-school",
+      "dental-school",
       "anesthesiology",
       "accm",
       "acta",
-      "em-anesthesiology",
       "obstetric-anesthesiology",
       "pain-medicine",
       "peds-anesthesiology",
@@ -3932,6 +3946,7 @@
       "audiology",
       "cognitive-behavioral-therapy",
       "ems",
+      "nursing",
       "healthcare-administration",
       "home-health",
       "intermediate-care",
