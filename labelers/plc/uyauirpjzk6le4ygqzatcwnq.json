@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreietizv5ylzbn4r57qxyhxspufxdakexhpqewkvtxppnn7azqjp6aq",
+  "cid": "bafyreif54clhfro45aypzzhfjonkosgmemupnbi4bpznnqb5xzookb37xa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-20T10:44:46.434Z",
+  "indexedAt": "2025-11-21T22:57:16.738Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -347,6 +347,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-skystack",
+        "locales": [
+          {
+            "description": "Account is hosted by the skystack.xyz PDS",
+            "lang": "en",
+            "name": "skystack.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "systems-witchcraft-pds",
         "locales": [
           {
@@ -423,20 +437,6 @@
             "description": "Account is hosted by the pds.bsea.social PDS",
             "lang": "en",
             "name": "pds.bsea.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
-        "locales": [
-          {
-            "description": "Account is hosted by the skystack.xyz PDS",
-            "lang": "en",
-            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -585,12 +585,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "is-socl",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the socl.is PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "socl.is"
+            "name": "roomy.chat"
           }
         ],
         "severity": "inform"
@@ -599,12 +599,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
+        "identifier": "is-socl",
         "locales": [
           {
-            "description": "Account is hosted by the roomy.chat PDS",
+            "description": "Account is hosted by the socl.is PDS",
             "lang": "en",
-            "name": "roomy.chat"
+            "name": "socl.is"
           }
         ],
         "severity": "inform"
@@ -753,12 +753,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-girlonthemoon-katproto",
+        "identifier": "download-synth-pds",
         "locales": [
           {
-            "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
+            "description": "Account is hosted by the pds.synth.download PDS",
             "lang": "en",
-            "name": "katproto.girlonthemoon.xyz"
+            "name": "pds.synth.download"
           }
         ],
         "severity": "inform"
@@ -767,12 +767,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
+        "identifier": "xyz-girlonthemoon-katproto",
         "locales": [
           {
-            "description": "Account is hosted by the pds.synth.download PDS",
+            "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
             "lang": "en",
-            "name": "pds.synth.download"
+            "name": "katproto.girlonthemoon.xyz"
           }
         ],
         "severity": "inform"
@@ -949,6 +949,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "es-peedee",
+        "locales": [
+          {
+            "description": "Account is hosted by the peedee.es PDS",
+            "lang": "en",
+            "name": "peedee.es"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-skeetcentral",
         "locales": [
           {
@@ -983,20 +997,6 @@
             "description": "Account is hosted by the koyu.space PDS",
             "lang": "en",
             "name": "koyu.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "es-peedee",
-        "locales": [
-          {
-            "description": "Account is hosted by the peedee.es PDS",
-            "lang": "en",
-            "name": "peedee.es"
           }
         ],
         "severity": "inform"
@@ -1095,6 +1095,20 @@
             "description": "Account is hosted by the pds-bluesky.asml.berkmancenter.org PDS",
             "lang": "en",
             "name": "pds-bluesky.asml.berkmancenter.org"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "house-reverie",
+        "locales": [
+          {
+            "description": "Account is hosted by the reverie.house PDS",
+            "lang": "en",
+            "name": "reverie.house"
           }
         ],
         "severity": "inform"
@@ -1215,12 +1229,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-sqrk-pds",
+        "identifier": "network-ridgeway-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.sqrk.dev PDS",
+            "description": "Account is hosted by the pds.ridgeway.network PDS",
             "lang": "en",
-            "name": "pds.sqrk.dev"
+            "name": "pds.ridgeway.network"
           }
         ],
         "severity": "inform"
@@ -1229,12 +1243,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "house-reverie",
+        "identifier": "dev-sqrk-pds",
         "locales": [
           {
-            "description": "Account is hosted by the reverie.house PDS",
+            "description": "Account is hosted by the pds.sqrk.dev PDS",
             "lang": "en",
-            "name": "reverie.house"
+            "name": "pds.sqrk.dev"
           }
         ],
         "severity": "inform"
@@ -1383,34 +1397,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "zip-meowing-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.meowing.zip PDS",
-            "lang": "en",
-            "name": "pds.meowing.zip"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-ridgeway-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.ridgeway.network PDS",
-            "lang": "en",
-            "name": "pds.ridgeway.network"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "app-thenote-at",
         "locales": [
           {
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-colchester",
+        "locales": [
+          {
+            "description": "Account is hosted by the colchester.social PDS",
+            "lang": "en",
+            "name": "colchester.social"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1474,13 +1474,13 @@
       "at-admat-bsx",
       "social-mt-x",
       "fail-marta",
+      "xyz-skystack",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "wtf-lamp",
       "org-climateai",
       "social-gumby",
       "social-bsea-pds",
-      "xyz-skystack",
       "shop-si46",
       "social-northsky",
       "me-tribesocial-pds",
@@ -1491,8 +1491,8 @@
       "social-reme",
       "chat-wndr",
       "eu-blsky-pds",
-      "is-socl",
       "chat-roomy",
+      "is-socl",
       "io-koda--agency-pds",
       "cymru-360-pds",
       "social-theatl",
@@ -1503,8 +1503,8 @@
       "pink-bsky",
       "social-grapevyne",
       "earth-silvi-pds",
-      "xyz-girlonthemoon-katproto",
       "download-synth-pds",
+      "xyz-girlonthemoon-katproto",
       "net-altq",
       "net-shendrick-at",
       "to-bbi",
@@ -1517,10 +1517,10 @@
       "com-documatric",
       "gay-evil",
       "xyz-merklehost-pds",
+      "es-peedee",
       "com-skeetcentral",
       "blog-bestofmodels-bsky",
       "space-koyu",
-      "es-peedee",
       "com-iiinova",
       "computer-vixen-pds",
       "house-veryroundbird-shimaenaga",
@@ -1528,6 +1528,7 @@
       "wtf-popbob-pds",
       "com-hukoubook-network",
       "org-berkmancenter-asml-pds--bluesky",
+      "house-reverie",
       "dev-totallynotseth",
       "net-bnbdiscord-at",
       "fr-homestuck-bsky",
@@ -1536,8 +1537,8 @@
       "com-iameli",
       "social-nstar",
       "tel-mice-pds",
+      "network-ridgeway-pds",
       "dev-sqrk-pds",
-      "house-reverie",
       "systems-atproto",
       "quest-blackstar",
       "gay-sillyand-is-bsky",
@@ -1548,11 +1549,10 @@
       "social-eurosky-live2025demo",
       "party-mraow",
       "network-eny-pds-oyster",
-      "zip-meowing-pds",
-      "network-ridgeway-pds",
       "app-thenote-at",
       "best-yugoslavia-at",
-      "social-clips"
+      "social-clips",
+      "social-colchester"
     ]
   }
 }
