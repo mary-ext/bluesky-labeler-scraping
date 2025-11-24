@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidseqed427akbun7kutgcrf2ot5wpdcilm7dg5bccehzpg2sh2r3m",
+  "cid": "bafyreicve6id4ptn4bqbvfc5rsgustfis3ndoqbbijjyqe2ruhcvqyeec4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-22T00:57:16.837Z",
+  "indexedAt": "2025-11-23T19:25:23.835Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -711,6 +711,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "download-synth-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.synth.download PDS",
+            "lang": "en",
+            "name": "pds.synth.download"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "pink-bsky",
         "locales": [
           {
@@ -745,20 +759,6 @@
             "description": "Account is hosted by the pds.silvi.earth PDS",
             "lang": "en",
             "name": "pds.silvi.earth"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.synth.download PDS",
-            "lang": "en",
-            "name": "pds.synth.download"
           }
         ],
         "severity": "inform"
@@ -1033,6 +1033,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "wtf-popbob-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.popbob.wtf PDS",
+            "lang": "en",
+            "name": "pds.popbob.wtf"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "house-veryroundbird-shimaenaga",
         "locales": [
           {
@@ -1053,20 +1067,6 @@
             "description": "Account is hosted by the hellthread.pro PDS",
             "lang": "en",
             "name": "hellthread.pro"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "wtf-popbob-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.popbob.wtf PDS",
-            "lang": "en",
-            "name": "pds.popbob.wtf"
           }
         ],
         "severity": "inform"
@@ -1500,10 +1500,10 @@
       "blue-zio",
       "cloud-tgirl-pds",
       "best-akizuki-pds",
+      "download-synth-pds",
       "pink-bsky",
       "social-grapevyne",
       "earth-silvi-pds",
-      "download-synth-pds",
       "xyz-girlonthemoon-katproto",
       "net-altq",
       "net-shendrick-at",
@@ -1523,9 +1523,9 @@
       "com-iiinova",
       "space-koyu",
       "computer-vixen-pds",
+      "wtf-popbob-pds",
       "house-veryroundbird-shimaenaga",
       "pro-hellthread",
-      "wtf-popbob-pds",
       "com-hukoubook-network",
       "org-berkmancenter-asml-pds--bluesky",
       "house-reverie",

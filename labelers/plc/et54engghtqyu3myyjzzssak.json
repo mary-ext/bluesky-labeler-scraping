@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:et54engghtqyu3myyjzzssak/app.bsky.labeler.service/self",
-  "cid": "bafyreicg3qj24vvdzr5pd4j5qgytpwe57gxbfa7dq2noknpq6msq4qj43m",
+  "cid": "bafyreih66rax7c5jdlnun5k3iih6c4seapijbup66nlxwdufwvooiee2fa",
   "creator": {
     "did": "did:plc:et54engghtqyu3myyjzzssak",
     "handle": "stemlabels.xyz",
@@ -8,6 +8,9 @@
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:et54engghtqyu3myyjzzssak/bafkreifmtlygzxfjfh4ors5fz7vymmgmyxygtijqupytpowekgds4ai6wu@jpeg",
     "associated": {
       "labeler": true,
+      "chat": {
+        "allowIncoming": "all"
+      },
       "activitySubscription": {
         "allowSubscriptions": "followers"
       }
@@ -15,9 +18,9 @@
     "labels": [],
     "createdAt": "2024-10-11T05:02:03.606Z",
     "description": "A labeler for STEM professionals across the ATmosphere",
-    "indexedAt": "2025-11-22T05:06:11.825Z"
+    "indexedAt": "2025-11-23T18:49:47.324Z"
   },
-  "indexedAt": "2025-11-22T04:50:11.341Z",
+  "indexedAt": "2025-11-23T18:12:31.743Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -5023,6 +5026,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "paleoart",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleoart",
+            "lang": "en",
+            "name": "Paleoart"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "paleopathology",
         "locales": [
           {
@@ -6778,6 +6795,7 @@
       "mineralogy",
       "natural-history",
       "paleontology",
+      "paleoart",
       "paleopathology",
       "continuum-mechanics",
       "aerodynamics",
