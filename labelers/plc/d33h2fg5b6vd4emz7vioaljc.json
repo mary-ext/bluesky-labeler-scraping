@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d33h2fg5b6vd4emz7vioaljc/app.bsky.labeler.service/self",
-  "cid": "bafyreiagirfagi4o3espxui3iuz3qtq5cqpalzni6zpnl6fjyf5n2mhbnq",
+  "cid": "bafyreiewd4nwudy3nwn66uufeejo7egqfxy3lui7oajco74tidhss5mju4",
   "creator": {
     "did": "did:plc:d33h2fg5b6vd4emz7vioaljc",
     "handle": "emotion-labeler.bsky.social",
@@ -17,77 +17,98 @@
     "description": "btw this isn't working yet, yeesh",
     "indexedAt": "2025-11-02T16:11:59.150Z"
   },
-  "indexedAt": "2025-11-18T17:40:54.455Z",
+  "indexedAt": "2025-11-24T22:19:46.433Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.defs#labelerPolicies",
     "labelValueDefinitions": [
       {
         "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "emotion-joy",
+        "defaultSetting": "ignore",
+        "identifier": "negative-emotion",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Happy content",
+            "description": "Post expresses negative emotions like annoyance, disgust, or disapproval",
             "lang": "en",
-            "name": "Joyful"
+            "name": "Negative Emotion"
           }
         ],
         "severity": "inform"
       },
       {
         "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "emotion-anger",
+        "defaultSetting": "warn",
+        "identifier": "anger-content",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Angry content",
+            "description": "Post expresses strong anger or hostility",
             "lang": "en",
-            "name": "Angry"
+            "name": "Anger/Hostility"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "sensitive-content",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Post discusses grief, loss, or emotionally sensitive topics",
+            "lang": "en",
+            "name": "Sensitive Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fear-content",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Post expresses fear, anxiety, or nervousness",
+            "lang": "en",
+            "name": "Fear/Anxiety"
           }
         ],
         "severity": "inform"
       },
       {
         "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "emotion-sadness",
+        "defaultSetting": "ignore",
+        "identifier": "positive-vibes",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Sad content",
+            "description": "Post expresses joy, love, gratitude, or other positive emotions",
             "lang": "en",
-            "name": "Sad"
+            "name": "Positive Vibes ✨"
           }
         ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "emotion-fear",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Scary content",
-            "lang": "en",
-            "name": "Fearful"
-          }
-        ],
-        "severity": "inform"
+        "severity": "none"
       }
     ],
     "labelValues": [
-      "emotion-joy",
-      "emotion-anger",
-      "emotion-sadness",
-      "emotion-fear"
+      "negative-emotion",
+      "anger-content",
+      "sensitive-content",
+      "fear-content",
+      "positive-vibes"
     ]
   }
 }

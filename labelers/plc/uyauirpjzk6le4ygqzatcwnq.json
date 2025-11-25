@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicve6id4ptn4bqbvfc5rsgustfis3ndoqbbijjyqe2ruhcvqyeec4",
+  "cid": "bafyreic3qmjrnmueenmwxtbqostokdajwtckkbpk7monqjoeze7llkvifa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-23T19:25:23.835Z",
+  "indexedAt": "2025-11-24T11:25:41.935Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -431,20 +431,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.bsea.social PDS",
-            "lang": "en",
-            "name": "pds.bsea.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "shop-si46",
         "locales": [
           {
@@ -459,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -473,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-colchester",
+        "locales": [
+          {
+            "description": "Account is hosted by the colchester.social PDS",
+            "lang": "en",
+            "name": "colchester.social"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1480,10 +1480,9 @@
       "wtf-lamp",
       "org-climateai",
       "social-gumby",
-      "social-bsea-pds",
       "shop-si46",
-      "social-northsky",
       "me-tribesocial-pds",
+      "social-northsky",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
@@ -1552,7 +1551,8 @@
       "zip-meowing-pds",
       "app-thenote-at",
       "best-yugoslavia-at",
-      "social-clips"
+      "social-clips",
+      "social-colchester"
     ]
   }
 }

@@ -1,0 +1,55 @@
+{
+  "uri": "at://did:plc:yitjux5wnswziabxdhvkydll/app.bsky.labeler.service/self",
+  "cid": "bafyreibx3ceid6rzfivcrwagjatnwmg6ri7usjsvpieaup7mzydxqrawku",
+  "creator": {
+    "did": "did:plc:yitjux5wnswziabxdhvkydll",
+    "handle": "labeler-prototype.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yitjux5wnswziabxdhvkydll/bafkreiht7fbtxbuocefvz6p42azyxtxxx3woya4g2iy5ilm5hw53mq7sie@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-11-17T21:10:18.654Z",
+    "indexedAt": "2025-11-17T21:10:18.654Z"
+  },
+  "indexedAt": "2025-11-24T01:38:51.932Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "election",
+        "locales": [
+          {
+            "description": "Posts related to election news.",
+            "lang": "en",
+            "name": "Election News"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vaccine",
+        "locales": [
+          {
+            "description": "Discussion regarding vaccines.",
+            "lang": "en",
+            "name": "Vaccine Info"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "election",
+      "vaccine"
+    ]
+  }
+}
