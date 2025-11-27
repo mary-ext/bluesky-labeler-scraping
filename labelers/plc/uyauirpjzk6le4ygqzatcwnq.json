@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreic3qmjrnmueenmwxtbqostokdajwtckkbpk7monqjoeze7llkvifa",
+  "cid": "bafyreiccodxg3mwhba3hbg36hvgemnwhyjfddxb42dw67x57noz3zcg3m4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-24T11:25:41.935Z",
+  "indexedAt": "2025-11-26T15:25:27.338Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -193,6 +193,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-skystack",
+        "locales": [
+          {
+            "description": "Account is hosted by the skystack.xyz PDS",
+            "lang": "en",
+            "name": "skystack.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-yinzcloud-bsky-pds",
         "locales": [
           {
@@ -333,20 +347,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
-        "locales": [
-          {
-            "description": "Account is hosted by the skystack.xyz PDS",
-            "lang": "en",
-            "name": "skystack.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "fail-marta",
         "locales": [
           {
@@ -445,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -459,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -543,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wndr",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the wndr.chat PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "wndr.chat"
+            "name": "roomy.chat"
           }
         ],
         "severity": "inform"
@@ -557,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
+        "identifier": "chat-wndr",
         "locales": [
           {
-            "description": "Account is hosted by the roomy.chat PDS",
+            "description": "Account is hosted by the wndr.chat PDS",
             "lang": "en",
-            "name": "roomy.chat"
+            "name": "wndr.chat"
           }
         ],
         "severity": "inform"
@@ -745,6 +745,20 @@
             "description": "Account is hosted by the pds.silvi.earth PDS",
             "lang": "en",
             "name": "pds.silvi.earth"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-iiinova",
+        "locales": [
+          {
+            "description": "Account is hosted by the iiinova.com PDS",
+            "lang": "en",
+            "name": "iiinova.com"
           }
         ],
         "severity": "inform"
@@ -977,20 +991,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-iiinova",
-        "locales": [
-          {
-            "description": "Account is hosted by the iiinova.com PDS",
-            "lang": "en",
-            "name": "iiinova.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "space-koyu",
         "locales": [
           {
@@ -1005,12 +1005,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "computer-vixen-pds",
+        "identifier": "wtf-popbob-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.vixen.computer PDS",
+            "description": "Account is hosted by the pds.popbob.wtf PDS",
             "lang": "en",
-            "name": "pds.vixen.computer"
+            "name": "pds.popbob.wtf"
           }
         ],
         "severity": "inform"
@@ -1019,12 +1019,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "wtf-popbob-pds",
+        "identifier": "computer-vixen-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.popbob.wtf PDS",
+            "description": "Account is hosted by the pds.vixen.computer PDS",
             "lang": "en",
-            "name": "pds.popbob.wtf"
+            "name": "pds.vixen.computer"
           }
         ],
         "severity": "inform"
@@ -1053,6 +1053,20 @@
             "description": "Account is hosted by the hellthread.pro PDS",
             "lang": "en",
             "name": "hellthread.pro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fr-homestuck-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.homestuck.fr PDS",
+            "lang": "en",
+            "name": "bsky.homestuck.fr"
           }
         ],
         "severity": "inform"
@@ -1131,20 +1145,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fr-homestuck-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.homestuck.fr PDS",
-            "lang": "en",
-            "name": "bsky.homestuck.fr"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-plasmatrap-bsky",
         "locales": [
           {
@@ -1193,6 +1193,20 @@
             "description": "Account is hosted by the nstar.social PDS",
             "lang": "en",
             "name": "nstar.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lgbt-anarchy-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.anarchy.lgbt PDS",
+            "lang": "en",
+            "name": "pds.anarchy.lgbt"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-colchester",
-        "locales": [
-          {
-            "description": "Account is hosted by the colchester.social PDS",
-            "lang": "en",
-            "name": "colchester.social"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1463,6 +1463,7 @@
       "org-letspds-pds",
       "social-dev--frosting",
       "net-wafrn-app-at",
+      "xyz-skystack",
       "net-yinzcloud-bsky-pds",
       "net-aenead-bsky",
       "app-louisvillebsky-pds",
@@ -1473,7 +1474,6 @@
       "network-nobody-node",
       "at-admat-bsx",
       "social-mt-x",
-      "xyz-skystack",
       "fail-marta",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
@@ -1481,15 +1481,15 @@
       "org-climateai",
       "social-gumby",
       "shop-si46",
-      "me-tribesocial-pds",
       "social-northsky",
+      "me-tribesocial-pds",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "social-surf",
       "social-reme",
-      "chat-wndr",
       "chat-roomy",
+      "chat-wndr",
       "eu-blsky-pds",
       "is-socl",
       "io-koda--agency-pds",
@@ -1503,6 +1503,7 @@
       "pink-bsky",
       "social-grapevyne",
       "earth-silvi-pds",
+      "com-iiinova",
       "xyz-girlonthemoon-katproto",
       "net-altq",
       "net-shendrick-at",
@@ -1519,22 +1520,22 @@
       "es-peedee",
       "com-skeetcentral",
       "blog-bestofmodels-bsky",
-      "com-iiinova",
       "space-koyu",
-      "computer-vixen-pds",
       "wtf-popbob-pds",
+      "computer-vixen-pds",
       "house-veryroundbird-shimaenaga",
       "pro-hellthread",
+      "fr-homestuck-bsky",
       "com-hukoubook-network",
       "org-berkmancenter-asml-pds--bluesky",
       "house-reverie",
       "dev-totallynotseth",
       "net-bnbdiscord-at",
-      "fr-homestuck-bsky",
       "com-plasmatrap-bsky",
       "network-comind",
       "com-iameli",
       "social-nstar",
+      "lgbt-anarchy-pds",
       "tel-mice-pds",
       "network-ridgeway-pds",
       "dev-sqrk-pds",
@@ -1551,8 +1552,7 @@
       "zip-meowing-pds",
       "app-thenote-at",
       "best-yugoslavia-at",
-      "social-clips",
-      "social-colchester"
+      "social-clips"
     ]
   }
 }
