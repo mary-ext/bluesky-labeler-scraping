@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yitjux5wnswziabxdhvkydll/app.bsky.labeler.service/self",
-  "cid": "bafyreibx3ceid6rzfivcrwagjatnwmg6ri7usjsvpieaup7mzydxqrawku",
+  "cid": "bafyreigvnxh4ihigaffhjxvlghgxobobxq6fxutkvdqe7cd7xqc5xy3fkm",
   "creator": {
     "did": "did:plc:yitjux5wnswziabxdhvkydll",
     "handle": "labeler-prototype.bsky.social",
@@ -16,19 +16,19 @@
     "createdAt": "2025-11-17T21:10:18.654Z",
     "indexedAt": "2025-11-17T21:10:18.654Z"
   },
-  "indexedAt": "2025-11-24T01:38:51.932Z",
+  "indexedAt": "2025-11-27T03:00:45.636Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "election",
+        "identifier": "misinformation",
         "locales": [
           {
-            "description": "Posts related to election news.",
+            "description": "Check comments for further information",
             "lang": "en",
-            "name": "Election News"
+            "name": "Misinformation"
           }
         ],
         "severity": "inform"
@@ -36,20 +36,20 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "vaccine",
+        "identifier": "ai-generated",
         "locales": [
           {
-            "description": "Discussion regarding vaccines.",
+            "description": "This post is likely to be AI generated.",
             "lang": "en",
-            "name": "Vaccine Info"
+            "name": "AI Generated"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "election",
-      "vaccine"
+      "misinformation",
+      "ai-generated"
     ]
   }
 }

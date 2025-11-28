@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiccodxg3mwhba3hbg36hvgemnwhyjfddxb42dw67x57noz3zcg3m4",
+  "cid": "bafyreidcaurnuki7lnkz4fcdjcljqdx3aiqcdfqeh3td4gv6ex633wlq7q",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-26T15:25:27.338Z",
+  "indexedAt": "2025-11-27T19:25:28.436Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -347,6 +347,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cloud-hstgr-srv865737",
+        "locales": [
+          {
+            "description": "Account is hosted by the srv865737.hstgr.cloud PDS",
+            "lang": "en",
+            "name": "srv865737.hstgr.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "fail-marta",
         "locales": [
           {
@@ -529,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-reme",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the reme.social PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "reme.social"
+            "name": "roomy.chat"
           }
         ],
         "severity": "inform"
@@ -543,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
+        "identifier": "social-reme",
         "locales": [
           {
-            "description": "Account is hosted by the roomy.chat PDS",
+            "description": "Account is hosted by the reme.social PDS",
             "lang": "en",
-            "name": "roomy.chat"
+            "name": "reme.social"
           }
         ],
         "severity": "inform"
@@ -739,12 +753,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "earth-silvi-pds",
+        "identifier": "com-iiinova",
         "locales": [
           {
-            "description": "Account is hosted by the pds.silvi.earth PDS",
+            "description": "Account is hosted by the iiinova.com PDS",
             "lang": "en",
-            "name": "pds.silvi.earth"
+            "name": "iiinova.com"
           }
         ],
         "severity": "inform"
@@ -753,12 +767,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-iiinova",
+        "identifier": "earth-silvi-pds",
         "locales": [
           {
-            "description": "Account is hosted by the iiinova.com PDS",
+            "description": "Account is hosted by the pds.silvi.earth PDS",
             "lang": "en",
-            "name": "iiinova.com"
+            "name": "pds.silvi.earth"
           }
         ],
         "severity": "inform"
@@ -823,12 +837,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-tophhie-pds",
+        "identifier": "chat-wolp-bark-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tophhie.cloud PDS",
+            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
             "lang": "en",
-            "name": "pds.tophhie.cloud"
+            "name": "bsky.bark.wolp.chat"
           }
         ],
         "severity": "inform"
@@ -837,12 +851,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
+        "identifier": "cloud-tophhie-pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "description": "Account is hosted by the pds.tophhie.cloud PDS",
             "lang": "en",
-            "name": "bsky.bark.wolp.chat"
+            "name": "pds.tophhie.cloud"
           }
         ],
         "severity": "inform"
@@ -1397,54 +1411,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-test-pds--eu--west4",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
+            "lang": "en",
+            "name": "pds-eu-west4.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-bsea-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.bsea.social PDS",
+            "lang": "en",
+            "name": "pds.bsea.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "zip-meowing-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.meowing.zip PDS",
             "lang": "en",
             "name": "pds.meowing.zip"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-thenote-at",
-        "locales": [
-          {
-            "description": "Account is hosted by the at.thenote.app PDS",
-            "lang": "en",
-            "name": "at.thenote.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "best-yugoslavia-at",
-        "locales": [
-          {
-            "description": "Account is hosted by the at.yugoslavia.best PDS",
-            "lang": "en",
-            "name": "at.yugoslavia.best"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-clips",
-        "locales": [
-          {
-            "description": "Account is hosted by the clips.social PDS",
-            "lang": "en",
-            "name": "clips.social"
           }
         ],
         "severity": "inform"
@@ -1474,6 +1474,7 @@
       "network-nobody-node",
       "at-admat-bsx",
       "social-mt-x",
+      "cloud-hstgr-srv865737",
       "fail-marta",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
@@ -1487,8 +1488,8 @@
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "social-surf",
-      "social-reme",
       "chat-roomy",
+      "social-reme",
       "chat-wndr",
       "eu-blsky-pds",
       "is-socl",
@@ -1502,14 +1503,14 @@
       "download-synth-pds",
       "pink-bsky",
       "social-grapevyne",
-      "earth-silvi-pds",
       "com-iiinova",
+      "earth-silvi-pds",
       "xyz-girlonthemoon-katproto",
       "net-altq",
       "net-shendrick-at",
       "to-bbi",
-      "cloud-tophhie-pds",
       "chat-wolp-bark-bsky",
+      "cloud-tophhie-pds",
       "com-ripperoni-pds",
       "mom-rat",
       "social-selfhosted",
@@ -1549,10 +1550,9 @@
       "social-eurosky-live2025demo",
       "party-mraow",
       "network-eny-pds-oyster",
-      "zip-meowing-pds",
-      "app-thenote-at",
-      "best-yugoslavia-at",
-      "social-clips"
+      "app-certified-test-pds--eu--west4",
+      "social-bsea-pds",
+      "zip-meowing-pds"
     ]
   }
 }
