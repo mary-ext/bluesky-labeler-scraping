@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreib4mfqestnsmsxcju24bwdtznxk23buzfmwhfettdmas2vl6awmn4",
+  "cid": "bafyreidhs3xkgzzlb3zzzb53jvd3rkekgir7yifecs3dzun5bof6d6vhim",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2025-08-28T04:42:23.306Z",
+  "indexedAt": "2025-11-28T07:04:43.332Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -45,6 +45,20 @@
             "description": "a new, experimental way to use social media (net.anisota.*)",
             "lang": "en",
             "name": "Anisota"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "place-atwork",
+        "locales": [
+          {
+            "description": "Your Career. Your Data. Your Place. (place.atwork.*)",
+            "lang": "en",
+            "name": "at://work"
           }
         ],
         "severity": "inform"
@@ -95,6 +109,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blue-flashes",
+        "locales": [
+          {
+            "description": "a photo viewing client for u (blue.flashes.*)",
+            "lang": "en",
+            "name": "Flashes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "im-flushing",
         "locales": [
           {
@@ -137,6 +165,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-lanyards",
+        "locales": [
+          {
+            "description": "one link to make your research life easier to share (app.lanyards.*)",
+            "lang": "en",
+            "name": "Lanyards"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "pub-leaflet",
         "locales": [
           {
@@ -165,6 +207,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "at-monomarks",
+        "locales": [
+          {
+            "description": "a place for sharing and discovering interesting links (at.monomarks.*)",
+            "lang": "en",
+            "name": "Monomarks"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "community-nooki",
+        "locales": [
+          {
+            "description": "a federated social media inspired by Tumblr (community.nooki.*)",
+            "lang": "en",
+            "name": "Nooki"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-shinolabs-pinksea",
         "locales": [
           {
@@ -179,12 +249,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-popsky",
+        "identifier": "social-popfeed",
         "locales": [
           {
-            "description": "pop culture hub (app.popsky.*)",
+            "description": "pop culture hub (social.popfeed.*)",
             "lang": "en",
-            "name": "Popsky"
+            "name": "Popfeed"
           }
         ],
         "severity": "inform"
@@ -221,12 +291,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
+        "identifier": "space-roomy",
         "locales": [
           {
-            "description": "group chat on atproto (chat.roomy.*)",
+            "description": "group chat on atproto (space.roomy.*)",
             "lang": "en",
             "name": "Roomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "my-skylights",
+        "locales": [
+          {
+            "description": "a simple, minimalist writing platform (my.skylights.*)",
+            "lang": "en",
+            "name": "Skylights"
           }
         ],
         "severity": "inform"
@@ -249,12 +333,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "st-snowpo",
+        "locales": [
+          {
+            "description": "a simple, minimalist writing platform (st.snowpo.*)",
+            "lang": "en",
+            "name": "Snowpost"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "so-sprk",
         "locales": [
           {
             "description": "short-form video/photo app (so.sprk.*)",
             "lang": "en",
             "name": "Spark"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "io-zzstoatzz-status",
+        "locales": [
+          {
+            "description": "a personal status tracker built on at protocol (io.zzstoatzz.status.*)",
+            "lang": "en",
+            "name": "Status"
           }
         ],
         "severity": "inform"
@@ -319,6 +431,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "stream-thought",
+        "locales": [
+          {
+            "description": "an experimental real-time, global, multi-agent communication system with optional human participation (stream.thought.*)",
+            "lang": "en",
+            "name": "Thought Stream"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "net-wafrn",
+        "locales": [
+          {
+            "description": "a federated social media inspired by Tumblr (net.wafrn.*)",
+            "lang": "en",
+            "name": "Wafrn"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-wamellow",
         "locales": [
           {
@@ -342,32 +482,87 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "link-woosh",
+        "locales": [
+          {
+            "description": "effortlessly share everything you create, curate, and sell (link.woosh.*)",
+            "lang": "en",
+            "name": "Woosh"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "org-xcvr",
+        "locales": [
+          {
+            "description": "hyper-real-time communication on atproto (org.xcvr.*)",
+            "lang": "en",
+            "name": "xcvr"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-yoten",
+        "locales": [
+          {
+            "description": "a social tracker for your language learning journey (app.yoten.*)",
+            "lang": "en",
+            "name": "Yōten"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "blue-twentyfortyeight",
       "net-anisota",
+      "place-atwork",
       "blue-zio-atfile",
       "blue-badge",
       "buzz-bookhive",
+      "blue-flashes",
       "im-flushing",
       "fyi-unravel-frontpage",
       "social-grain",
+      "app-lanyards",
       "pub-leaflet",
       "blue-linkat",
+      "at-monomarks",
+      "community-nooki",
       "com-shinolabs-pinksea",
-      "app-popsky",
+      "social-popfeed",
       "exchange-recipe",
       "app-rocksky",
-      "chat-roomy",
+      "space-roomy",
+      "my-skylights",
       "events-smokesignal",
+      "st-snowpo",
       "so-sprk",
+      "io-zzstoatzz-status",
       "xyz-statusphere",
       "place-stream",
       "sh-tangled",
       "fm-teal",
+      "stream-thought",
+      "net-wafrn",
       "com-wamellow",
-      "com-whtwnd"
+      "com-whtwnd",
+      "link-woosh",
+      "org-xcvr",
+      "app-yoten"
     ]
   },
   "reasonTypes": []

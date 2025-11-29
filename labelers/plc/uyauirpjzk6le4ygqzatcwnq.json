@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidcaurnuki7lnkz4fcdjcljqdx3aiqcdfqeh3td4gv6ex633wlq7q",
+  "cid": "bafyreiejvigjejg3k67r65wdykbczt4r5aqui5zutzoy74rvfybteymm3e",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-27T19:25:28.436Z",
+  "indexedAt": "2025-11-28T19:25:29.137Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -179,12 +179,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-wafrn-app-at",
+        "identifier": "xyz-skystack",
         "locales": [
           {
-            "description": "Account is hosted by the at.app.wafrn.net PDS",
+            "description": "Account is hosted by the skystack.xyz PDS",
             "lang": "en",
-            "name": "at.app.wafrn.net"
+            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -193,12 +193,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
+        "identifier": "net-wafrn-app-at",
         "locales": [
           {
-            "description": "Account is hosted by the skystack.xyz PDS",
+            "description": "Account is hosted by the at.app.wafrn.net PDS",
             "lang": "en",
-            "name": "skystack.xyz"
+            "name": "at.app.wafrn.net"
           }
         ],
         "severity": "inform"
@@ -711,20 +711,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.synth.download PDS",
-            "lang": "en",
-            "name": "pds.synth.download"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "pink-bsky",
         "locales": [
           {
@@ -781,6 +767,48 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "download-synth-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.synth.download PDS",
+            "lang": "en",
+            "name": "pds.synth.download"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "to-bbi",
+        "locales": [
+          {
+            "description": "Account is hosted by the bbi.to PDS",
+            "lang": "en",
+            "name": "bbi.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chat-wolp-bark-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "lang": "en",
+            "name": "bsky.bark.wolp.chat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "xyz-girlonthemoon-katproto",
         "locales": [
           {
@@ -823,40 +851,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "to-bbi",
-        "locales": [
-          {
-            "description": "Account is hosted by the bbi.to PDS",
-            "lang": "en",
-            "name": "bbi.to"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
-            "lang": "en",
-            "name": "bsky.bark.wolp.chat"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cloud-tophhie-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.tophhie.cloud PDS",
             "lang": "en",
             "name": "pds.tophhie.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-bsea-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.bsea.social PDS",
+            "lang": "en",
+            "name": "pds.bsea.social"
           }
         ],
         "severity": "inform"
@@ -1075,12 +1089,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-test-pds--eu--west4",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
+            "lang": "en",
+            "name": "pds-eu-west4.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "fr-homestuck-bsky",
         "locales": [
           {
             "description": "Account is hosted by the bsky.homestuck.fr PDS",
             "lang": "en",
             "name": "bsky.homestuck.fr"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-comind",
+        "locales": [
+          {
+            "description": "Account is hosted by the comind.network PDS",
+            "lang": "en",
+            "name": "comind.network"
           }
         ],
         "severity": "inform"
@@ -1173,20 +1215,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-comind",
-        "locales": [
-          {
-            "description": "Account is hosted by the comind.network PDS",
-            "lang": "en",
-            "name": "comind.network"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-iameli",
         "locales": [
           {
@@ -1207,20 +1235,6 @@
             "description": "Account is hosted by the nstar.social PDS",
             "lang": "en",
             "name": "nstar.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "lgbt-anarchy-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.anarchy.lgbt PDS",
-            "lang": "en",
-            "name": "pds.anarchy.lgbt"
           }
         ],
         "severity": "inform"
@@ -1411,12 +1425,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds--eu--west4",
+        "identifier": "lgbt-anarchy-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
+            "description": "Account is hosted by the pds.anarchy.lgbt PDS",
             "lang": "en",
-            "name": "pds-eu-west4.test.certified.app"
+            "name": "pds.anarchy.lgbt"
           }
         ],
         "severity": "inform"
@@ -1425,26 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bsea-pds",
+        "identifier": "app-thenote-at",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bsea.social PDS",
+            "description": "Account is hosted by the at.thenote.app PDS",
             "lang": "en",
-            "name": "pds.bsea.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "zip-meowing-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.meowing.zip PDS",
-            "lang": "en",
-            "name": "pds.meowing.zip"
+            "name": "at.thenote.app"
           }
         ],
         "severity": "inform"
@@ -1462,8 +1462,8 @@
       "sh-tngl",
       "org-letspds-pds",
       "social-dev--frosting",
-      "net-wafrn-app-at",
       "xyz-skystack",
+      "net-wafrn-app-at",
       "net-yinzcloud-bsky-pds",
       "net-aenead-bsky",
       "app-louisvillebsky-pds",
@@ -1500,17 +1500,18 @@
       "blue-zio",
       "cloud-tgirl-pds",
       "best-akizuki-pds",
-      "download-synth-pds",
       "pink-bsky",
       "social-grapevyne",
       "com-iiinova",
       "earth-silvi-pds",
+      "download-synth-pds",
+      "to-bbi",
+      "chat-wolp-bark-bsky",
       "xyz-girlonthemoon-katproto",
       "net-altq",
       "net-shendrick-at",
-      "to-bbi",
-      "chat-wolp-bark-bsky",
       "cloud-tophhie-pds",
+      "social-bsea-pds",
       "com-ripperoni-pds",
       "mom-rat",
       "social-selfhosted",
@@ -1526,17 +1527,17 @@
       "computer-vixen-pds",
       "house-veryroundbird-shimaenaga",
       "pro-hellthread",
+      "app-certified-test-pds--eu--west4",
       "fr-homestuck-bsky",
+      "network-comind",
       "com-hukoubook-network",
       "org-berkmancenter-asml-pds--bluesky",
       "house-reverie",
       "dev-totallynotseth",
       "net-bnbdiscord-at",
       "com-plasmatrap-bsky",
-      "network-comind",
       "com-iameli",
       "social-nstar",
-      "lgbt-anarchy-pds",
       "tel-mice-pds",
       "network-ridgeway-pds",
       "dev-sqrk-pds",
@@ -1550,9 +1551,8 @@
       "social-eurosky-live2025demo",
       "party-mraow",
       "network-eny-pds-oyster",
-      "app-certified-test-pds--eu--west4",
-      "social-bsea-pds",
-      "zip-meowing-pds"
+      "lgbt-anarchy-pds",
+      "app-thenote-at"
     ]
   }
 }

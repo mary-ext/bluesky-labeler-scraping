@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yitjux5wnswziabxdhvkydll/app.bsky.labeler.service/self",
-  "cid": "bafyreigvnxh4ihigaffhjxvlghgxobobxq6fxutkvdqe7cd7xqc5xy3fkm",
+  "cid": "bafyreiecheb4nfi6wg4k4s7jq73pvopysvtsqjx3x33fcpswo5boqt4rra",
   "creator": {
     "did": "did:plc:yitjux5wnswziabxdhvkydll",
     "handle": "labeler-prototype.bsky.social",
@@ -16,35 +16,35 @@
     "createdAt": "2025-11-17T21:10:18.654Z",
     "indexedAt": "2025-11-17T21:10:18.654Z"
   },
-  "indexedAt": "2025-11-27T03:00:45.636Z",
+  "indexedAt": "2025-11-28T09:02:49.732Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "blurs": "none",
+        "blurs": "content",
         "defaultSetting": "warn",
         "identifier": "misinformation",
         "locales": [
           {
-            "description": "Check comments for further information",
+            "description": "This post contains potential misinformation based on Community Notes fact-checks",
             "lang": "en",
             "name": "Misinformation"
           }
         ],
-        "severity": "inform"
+        "severity": "alert"
       },
       {
-        "blurs": "none",
+        "blurs": "content",
         "defaultSetting": "warn",
         "identifier": "ai-generated",
         "locales": [
           {
-            "description": "This post is likely to be AI generated.",
+            "description": "This post contains AI-generated content that may be misleading",
             "lang": "en",
             "name": "AI Generated"
           }
         ],
-        "severity": "inform"
+        "severity": "alert"
       }
     ],
     "labelValues": [
