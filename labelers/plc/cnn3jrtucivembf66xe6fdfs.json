@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cnn3jrtucivembf66xe6fdfs/app.bsky.labeler.service/self",
-  "cid": "bafyreif2u25pvhjnv6f5g6h3tncwvk57h3gyxzy2jmtjbouhlf6hx6aggm",
+  "cid": "bafyreige4fnipgr6bt6fz5pt674s5qt7ywjvyussitzj5a7sz2pajlybm4",
   "creator": {
     "did": "did:plc:cnn3jrtucivembf66xe6fdfs",
     "handle": "moderation.moe",
@@ -20,7 +20,7 @@
     "description": "Services that protect progressive weebs from those who stigmatize and harass us for enjoying anime, manga, light novels, visual novels, games, hentai, fan art, or doujin works they consider immoral.\n\nRead more at moderation.moe/about",
     "indexedAt": "2025-03-23T21:31:35.843Z"
   },
-  "indexedAt": "2024-04-09T22:58:31.907Z",
+  "indexedAt": "2025-11-29T13:14:11.833Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -132,5 +132,16 @@
       "anti-discourse",
       "neutral-pro-discourse"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonViolation"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }
