@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreieylq77cay4le7lcne3rav2qqyoscyy723eatsifqckxie2rzt574",
+  "cid": "bafyreigkttuv6n7ltmx4kayt7qjhzwbufx6nwctdqepvklhjwxu7fxxk5m",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-11-30T00:05:02.235Z",
+  "indexedAt": "2025-11-30T12:53:50.637Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -445,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "shop-si46",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the si46.shop PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "si46.shop"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -459,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "shop-si46",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the si46.shop PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "si46.shop"
           }
         ],
         "severity": "inform"
@@ -893,6 +893,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-skeetcentral",
+        "locales": [
+          {
+            "description": "Account is hosted by the skeetcentral.com PDS",
+            "lang": "en",
+            "name": "skeetcentral.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-bsea-pds",
         "locales": [
           {
@@ -1011,20 +1025,6 @@
             "description": "Account is hosted by the peedee.es PDS",
             "lang": "en",
             "name": "peedee.es"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-skeetcentral",
-        "locales": [
-          {
-            "description": "Account is hosted by the skeetcentral.com PDS",
-            "lang": "en",
-            "name": "skeetcentral.com"
           }
         ],
         "severity": "inform"
@@ -1285,6 +1285,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-pdsmoover-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.pdsmoover.com PDS",
+            "lang": "en",
+            "name": "pds.pdsmoover.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "network-ridgeway-pds",
         "locales": [
           {
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "party-mraow",
-        "locales": [
-          {
-            "description": "Account is hosted by the mraow.party PDS",
-            "lang": "en",
-            "name": "mraow.party"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1481,8 +1481,8 @@
       "wtf-lamp",
       "org-climateai",
       "social-gumby",
-      "shop-si46",
       "social-northsky",
+      "shop-si46",
       "me-tribesocial-pds",
       "social-casjay",
       "global-bsky",
@@ -1513,6 +1513,7 @@
       "net-altq",
       "net-shendrick-at",
       "cloud-tophhie-pds",
+      "com-skeetcentral",
       "social-bsea-pds",
       "com-ripperoni-pds",
       "mom-rat",
@@ -1522,7 +1523,6 @@
       "gay-evil",
       "xyz-merklehost-pds",
       "es-peedee",
-      "com-skeetcentral",
       "blog-bestofmodels-bsky",
       "space-koyu",
       "wtf-popbob-pds",
@@ -1541,6 +1541,7 @@
       "com-plasmatrap-bsky",
       "social-nstar",
       "tel-mice-pds",
+      "com-pdsmoover-pds",
       "network-ridgeway-pds",
       "dev-sqrk-pds",
       "app-certified-test-sds--eu--west4",
@@ -1551,8 +1552,7 @@
       "ng-choomga",
       "social-creaton",
       "blue-geese",
-      "social-eurosky-live2025demo",
-      "party-mraow"
+      "social-eurosky-live2025demo"
     ]
   }
 }
