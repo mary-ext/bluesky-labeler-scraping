@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:2hvw53jzu42fkacs764eikef/app.bsky.labeler.service/self",
-  "cid": "bafyreiceznvhaigm4zljud7na4trq3y66j4b3zc4icidoqkrbeqpdtmmfm",
+  "cid": "bafyreifuyd5adk6ghsllth33afzbnqdj6vst3ekgtpf2b2mobmo345dmli",
   "creator": {
     "did": "did:plc:2hvw53jzu42fkacs764eikef",
     "handle": "ddapps.bsky.social",
@@ -16,9 +16,27 @@
     "createdAt": "2025-11-17T12:38:40.959Z",
     "indexedAt": "2025-11-17T12:56:38.151Z"
   },
-  "indexedAt": "2025-11-25T15:56:43.133Z",
+  "indexedAt": "2025-12-01T16:56:27.330Z",
   "labels": [],
   "policies": {
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "fake-news",
+        "locales": [
+          {
+            "description": "Account is associated with a site that produces fake news.",
+            "lang": "en",
+            "name": "Fake News"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "fake-news"
+    ]
   }
 }
