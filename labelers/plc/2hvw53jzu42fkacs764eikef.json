@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:2hvw53jzu42fkacs764eikef/app.bsky.labeler.service/self",
-  "cid": "bafyreifuyd5adk6ghsllth33afzbnqdj6vst3ekgtpf2b2mobmo345dmli",
+  "cid": "bafyreiatpjjahliw3o24j2n2jbigq5hbw37vufem2klcuvg3vswru5ggba",
   "creator": {
     "did": "did:plc:2hvw53jzu42fkacs764eikef",
     "handle": "ddapps.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-11-17T12:38:40.959Z",
     "indexedAt": "2025-11-17T12:56:38.151Z"
   },
-  "indexedAt": "2025-12-01T16:56:27.330Z",
+  "indexedAt": "2025-12-02T15:11:26.330Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,19 +24,49 @@
         "adultOnly": false,
         "blurs": "content|media|none",
         "defaultSetting": "ignore|warn|hide",
-        "identifier": "fake-news",
+        "identifier": "rosetta-fake-news",
         "locales": [
           {
             "description": "Account is associated with a site that produces fake news.",
             "lang": "en",
-            "name": "Fake News"
+            "name": "Rosetta: Fake News"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "rosetta-pink-slime",
+        "locales": [
+          {
+            "description": "Account is associated with a site that is part of a pink-slime network.",
+            "lang": "en",
+            "name": "Rosetta: Pink Slime"
+          }
+        ],
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "rosetta-disinfo-misleading",
+        "locales": [
+          {
+            "description": "Account is associated with a site that engages in disinfo or misleading news.",
+            "lang": "en",
+            "name": "Rosetta: Disinfo/Misleading News"
           }
         ],
         "severity": "inform|alert|none"
       }
     ],
     "labelValues": [
-      "fake-news"
+      "rosetta-fake-news",
+      "rosetta-pink-slime",
+      "rosetta-disinfo-misleading"
     ]
   }
 }
