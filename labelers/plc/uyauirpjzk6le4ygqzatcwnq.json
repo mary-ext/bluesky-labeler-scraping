@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiezlfxwvr5zrv62ai2ze7oos7dwspff5utph25jd7joyaxbi3pywi",
+  "cid": "bafyreifl4icrph3jsux6ljdcuc6tqmniz32ayazsyptiu2yyqm6dtmfkrm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-12-03T00:13:50.537Z",
+  "indexedAt": "2025-12-03T22:31:45.139Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -529,6 +529,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-surf",
+        "locales": [
+          {
+            "description": "Account is hosted by the surf.social PDS",
+            "lang": "en",
+            "name": "surf.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "ge-shadowcaster-bsky",
         "locales": [
           {
@@ -549,20 +563,6 @@
             "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
             "name": "mpi-bluesky-pds.mpi-sws.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-surf",
-        "locales": [
-          {
-            "description": "Account is hosted by the surf.social PDS",
-            "lang": "en",
-            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -647,6 +647,20 @@
             "description": "Account is hosted by the pds.koda-agency.io PDS",
             "lang": "en",
             "name": "pds.koda-agency.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-selfhosted",
+        "locales": [
+          {
+            "description": "Account is hosted by the selfhosted.social PDS",
+            "lang": "en",
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -949,20 +963,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
-        "locales": [
-          {
-            "description": "Account is hosted by the selfhosted.social PDS",
-            "lang": "en",
-            "name": "selfhosted.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "blog-bestofmodels-bsky",
         "locales": [
           {
@@ -1117,20 +1117,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pro-hellthread",
-        "locales": [
-          {
-            "description": "Account is hosted by the hellthread.pro PDS",
-            "lang": "en",
-            "name": "hellthread.pro"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "fr-homestuck-bsky",
         "locales": [
           {
@@ -1151,6 +1137,20 @@
             "description": "Account is hosted by the comind.network PDS",
             "lang": "en",
             "name": "comind.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pro-hellthread",
+        "locales": [
+          {
+            "description": "Account is hosted by the hellthread.pro PDS",
+            "lang": "en",
+            "name": "hellthread.pro"
           }
         ],
         "severity": "inform"
@@ -1263,6 +1263,34 @@
             "description": "Account is hosted by the nstar.social PDS",
             "lang": "en",
             "name": "nstar.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-bigt-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.bigt.ai PDS",
+            "lang": "en",
+            "name": "pds.bigt.ai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "uk-madebydanny-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.madebydanny.uk PDS",
+            "lang": "en",
+            "name": "pds.madebydanny.uk"
           }
         ],
         "severity": "inform"
@@ -1420,34 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-eurosky-live2025demo",
-        "locales": [
-          {
-            "description": "Account is hosted by the live2025demo.eurosky.social PDS",
-            "lang": "en",
-            "name": "live2025demo.eurosky.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "party-mraow",
-        "locales": [
-          {
-            "description": "Account is hosted by the mraow.party PDS",
-            "lang": "en",
-            "name": "mraow.party"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1487,15 +1487,16 @@
       "me-tribesocial-pds",
       "social-casjay",
       "cyou-shinigami",
+      "social-surf",
       "ge-shadowcaster-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
-      "social-surf",
       "chat-roomy",
       "social-reme",
       "chat-wndr",
       "eu-blsky-pds",
       "is-socl",
       "io-koda--agency-pds",
+      "social-selfhosted",
       "to-bbi",
       "cymru-360-pds",
       "social-theatl",
@@ -1517,7 +1518,6 @@
       "com-ripperoni-pds",
       "es-peedee",
       "mom-rat",
-      "social-selfhosted",
       "blog-bestofmodels-bsky",
       "at-hailey-cocoon",
       "com-documatric",
@@ -1529,9 +1529,9 @@
       "computer-vixen-pds",
       "app-certified-test-sds--eu--west4",
       "house-veryroundbird-shimaenaga",
-      "pro-hellthread",
       "fr-homestuck-bsky",
       "network-comind",
+      "pro-hellthread",
       "com-iameli",
       "com-hukoubook-network",
       "org-berkmancenter-asml-pds--bluesky",
@@ -1540,6 +1540,8 @@
       "net-bnbdiscord-at",
       "com-plasmatrap-bsky",
       "social-nstar",
+      "ai-bigt-pds",
+      "uk-madebydanny-pds",
       "tel-mice-pds",
       "com-pdsmoover-pds",
       "network-ridgeway-pds",
@@ -1550,9 +1552,7 @@
       "work-zoner-bsky",
       "ng-choomga",
       "social-creaton",
-      "blue-geese",
-      "social-eurosky-live2025demo",
-      "party-mraow"
+      "blue-geese"
     ]
   }
 }

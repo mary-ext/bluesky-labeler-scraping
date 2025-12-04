@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:fmug4zegnl7lf6ljp7aokpeh/app.bsky.labeler.service/self",
-  "cid": "bafyreice2aeehndfoh3vd7mmvfmqffnzpbfg5jvfwn5ks26gdc7jx54if4",
+  "cid": "bafyreidbzl42xjpoocpqsmg7vn6bzkvt4eod4smhpzmqx6f6pg2fukgefa",
   "creator": {
     "did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
     "handle": "medsky.social",
-    "displayName": "Medsky Network & Labeler",
+    "displayName": "Medsky Network & Moderation",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fmug4zegnl7lf6ljp7aokpeh/bafkreiaj7tmgsxs6k4kkraay5bn5w7r2gcvk56mdjaexxvfxualqbuende@jpeg",
     "associated": {
       "labeler": true,
@@ -18,12 +18,36 @@
     "labels": [],
     "createdAt": "2024-10-09T03:18:20.007Z",
     "description": "A network of healthcare workers across the ATmosphere\n\nSupport: tinyurl.com/vbf3swdw",
-    "indexedAt": "2025-11-19T18:42:25.224Z"
+    "indexedAt": "2025-12-03T19:12:16.825Z"
   },
-  "indexedAt": "2025-11-20T18:47:52.953Z",
+  "indexedAt": "2025-12-03T19:11:37.241Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mod-misinfo",
+        "locales": [
+          {
+            "description": "This user has received a label due to the dissemination of medical misinformation. \n\nFalse or misleading medical information is a threat to the general public and can cause individuals to make decisions that have dangerous consequences for their health. \n\nAlways consult a physician or other healthcare provider before making decisions regarding your health based on information you read on the internet, and always check credible health resources online prior to sharing information that may contain misinformation.",
+            "lang": "en",
+            "name": "⚠ Medical Misinformation"
+          },
+          {
+            "description": "Este usuario ha sido identificado por compartir información médica errónea. \n\nLa información médica falsa o engañosa representa una amenaza para el público en general y puede llevar a las personas a tomar decisiones con consecuencias peligrosas para su salud. \n\nSiempre consulte a un médico u otro profesional de la salud antes de tomar decisiones sobre su salud basándose en información que lea en internet, y siempre consulte recursos de salud confiables en línea antes de compartir información que pueda contener información errónea.",
+            "lang": "es",
+            "name": "⚠ Desinformación Médica"
+          },
+          {
+            "description": "Este usuário foi identificado por compartilhar informações médicas incorretas. \n\nInformações médicas falsas ou enganosas representam uma ameaça ao público e podem levar as pessoas a tomar decisões com consequências perigosas para a sua saúde. \n\nSempre consulte um médico ou outro profissional de saúde antes de tomar decisões relacionadas à sua saúde com base em informações lidas online e sempre consulte fontes de saúde online confiáveis ​​antes de compartilhar informações que possam conter informações incorretas.",
+            "lang": "pt",
+            "name": "⚠ Desinformação Médica"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -902,20 +926,6 @@
             "description": "This user works in the field of Internal Medicine/Anesthesiology",
             "lang": "en",
             "name": "IM/Anesthesiology"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "im-derm",
-        "locales": [
-          {
-            "description": "This user works in the field of Internal Medicine",
-            "lang": "en",
-            "name": "IM/Derm"
           }
         ],
         "severity": "inform"
@@ -2926,20 +2936,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fm-onmm",
-        "locales": [
-          {
-            "description": "This user works in the field of Family Medicine/Osteopathic Neuromusculoskeletal Medicine",
-            "lang": "en",
-            "name": "FM/ONMM"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "fm-pm",
         "locales": [
           {
@@ -3932,6 +3928,7 @@
       }
     ],
     "labelValues": [
+      "mod-misinfo",
       "medical-school",
       "dental-school",
       "anesthesiology",
@@ -3995,7 +3992,6 @@
       "hospital-medicine",
       "hypertension",
       "im-anesthesiology",
-      "im-derm",
       "im-em",
       "im-em-critical-care",
       "im-fm",
@@ -4139,7 +4135,6 @@
       "addiction-medicine",
       "direct-primary-care",
       "em-fm",
-      "fm-onmm",
       "fm-pm",
       "geriatric-medicine",
       "hospice-palliative",
@@ -4210,11 +4205,11 @@
       "dental-informatics",
       "primary-care-informatics",
       "nursing-informatics",
-      "surgical-informatics",
-      ""
+      "surgical-informatics"
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonAppeal"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonMisleading"
   ]
 }

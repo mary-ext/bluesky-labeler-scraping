@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:et54engghtqyu3myyjzzssak/app.bsky.labeler.service/self",
-  "cid": "bafyreih66rax7c5jdlnun5k3iih6c4seapijbup66nlxwdufwvooiee2fa",
+  "cid": "bafyreibrt5el6qfbkakkxfgcwcedemd677voiwm2eaouuvnenmk4luwafu",
   "creator": {
     "did": "did:plc:et54engghtqyu3myyjzzssak",
     "handle": "stemlabels.xyz",
@@ -20,10 +20,24 @@
     "description": "A labeler for STEM professionals across the ATmosphere",
     "indexedAt": "2025-11-23T18:49:47.324Z"
   },
-  "indexedAt": "2025-11-23T18:12:31.743Z",
+  "indexedAt": "2025-12-03T22:26:10.440Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "astronaut",
+        "locales": [
+          {
+            "description": "This user is an Astronaut",
+            "lang": "en",
+            "name": "Astronaut"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -5684,6 +5698,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "heliophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Heliophysics",
+            "lang": "en",
+            "name": "Heliophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "high-energy-astrophysics",
         "locales": [
           {
@@ -6438,6 +6466,7 @@
       }
     ],
     "labelValues": [
+      "astronaut",
       "anatomy",
       "comparative-anatomy",
       "embryology",
@@ -6842,6 +6871,7 @@
       "galactic-astronomy",
       "gamma-ray-astronomy",
       "gravitational-wave-astronomy",
+      "heliophysics",
       "high-energy-astrophysics",
       "infrared-astronomy",
       "interstellar-astrophysics",

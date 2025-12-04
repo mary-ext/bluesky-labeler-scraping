@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:nwrcwcrhpkgrqqvkg3lmaqky/app.bsky.labeler.service/self",
-  "cid": "bafyreih54km7bfyz2vibtuymnylvlmrth4q75mv37igordkpxnrcq7s4ba",
+  "cid": "bafyreihuonydxtjkzmoawhzpbwqm4ctiv4mjmmsqtniwk3enu2cad2qnvy",
   "creator": {
     "did": "did:plc:nwrcwcrhpkgrqqvkg3lmaqky",
     "handle": "lebel.tngl.sh",
@@ -20,7 +20,7 @@
     "description": "hi im alinez not even tryingto hide it\nrun by @adamperkowski.dev",
     "indexedAt": "2025-11-27T09:10:51.924Z"
   },
-  "indexedAt": "2025-11-30T19:32:19.532Z",
+  "indexedAt": "2025-12-03T22:04:33.443Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -37,10 +37,25 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alienphobe",
+        "locales": [
+          {
+            "description": "dhis user is alienphobez and hates alienz 👎",
+            "lang": "en",
+            "name": "alienphobe"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
-      "alien"
+      "alien",
+      "alienphobe"
     ]
   }
 }
