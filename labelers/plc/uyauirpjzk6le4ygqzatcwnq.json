@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifl4icrph3jsux6ljdcuc6tqmniz32ayazsyptiu2yyqm6dtmfkrm",
+  "cid": "bafyreiguvimygflukj5t4gln4unjjpkooypzauow6ev6xmgvqfdnkf2xvq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-12-03T22:31:45.139Z",
+  "indexedAt": "2025-12-04T02:31:22.435Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -557,6 +557,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "news-usapolitics-matrix",
+        "locales": [
+          {
+            "description": "Account is hosted by the matrix.usapolitics.news PDS",
+            "lang": "en",
+            "name": "matrix.usapolitics.news"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
@@ -627,6 +641,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-selfhosted",
+        "locales": [
+          {
+            "description": "Account is hosted by the selfhosted.social PDS",
+            "lang": "en",
+            "name": "selfhosted.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "is-socl",
         "locales": [
           {
@@ -647,20 +675,6 @@
             "description": "Account is hosted by the pds.koda-agency.io PDS",
             "lang": "en",
             "name": "pds.koda-agency.io"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
-        "locales": [
-          {
-            "description": "Account is hosted by the selfhosted.social PDS",
-            "lang": "en",
-            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -711,20 +725,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blue-zio",
-        "locales": [
-          {
-            "description": "Account is hosted by the zio.blue PDS",
-            "lang": "en",
-            "name": "zio.blue"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "dev-venki-blogsky",
         "locales": [
           {
@@ -745,6 +745,20 @@
             "description": "Account is hosted by the pds.tgirl.cloud PDS",
             "lang": "en",
             "name": "pds.tgirl.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blue-zio",
+        "locales": [
+          {
+            "description": "Account is hosted by the zio.blue PDS",
+            "lang": "en",
+            "name": "zio.blue"
           }
         ],
         "severity": "inform"
@@ -1285,20 +1299,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "uk-madebydanny-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.madebydanny.uk PDS",
-            "lang": "en",
-            "name": "pds.madebydanny.uk"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "tel-mice-pds",
         "locales": [
           {
@@ -1489,20 +1489,21 @@
       "cyou-shinigami",
       "social-surf",
       "ge-shadowcaster-bsky",
+      "news-usapolitics-matrix",
       "org-mpi--sws-mpi--bluesky--pds",
       "chat-roomy",
       "social-reme",
       "chat-wndr",
       "eu-blsky-pds",
+      "social-selfhosted",
       "is-socl",
       "io-koda--agency-pds",
-      "social-selfhosted",
       "to-bbi",
       "cymru-360-pds",
       "social-theatl",
-      "blue-zio",
       "dev-venki-blogsky",
       "cloud-tgirl-pds",
+      "blue-zio",
       "com-iiinova",
       "best-akizuki-pds",
       "download-synth-pds",
@@ -1541,7 +1542,6 @@
       "com-plasmatrap-bsky",
       "social-nstar",
       "ai-bigt-pds",
-      "uk-madebydanny-pds",
       "tel-mice-pds",
       "com-pdsmoover-pds",
       "network-ridgeway-pds",

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreidhs3xkgzzlb3zzzb53jvd3rkekgir7yifecs3dzun5bof6d6vhim",
+  "cid": "bafyreied6e7wj2iredatqcesi3wyxldokdrkomicslsu7y5hjodxmindeu",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2025-11-28T07:04:43.332Z",
+  "indexedAt": "2025-12-04T04:14:28.532Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,6 +31,20 @@
             "description": "2048 on atproto (blue.2048.*)",
             "lang": "en",
             "name": "2048"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-dropanchor",
+        "locales": [
+          {
+            "description": "an experiment in geolocation on the AT protocol (app.dropanchor.*)",
+            "lang": "en",
+            "name": "Anchor"
           }
         ],
         "severity": "inform"
@@ -249,6 +263,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fm-plyr",
+        "locales": [
+          {
+            "description": "music on atproto (fm.plyr.*)",
+            "lang": "en",
+            "name": "plyr.fm"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-popfeed",
         "locales": [
           {
@@ -297,6 +325,20 @@
             "description": "group chat on atproto (space.roomy.*)",
             "lang": "en",
             "name": "Roomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-sidetrail",
+        "locales": [
+          {
+            "description": "a little app for sharing \"trails\" (app.sidetrail.*)",
+            "lang": "en",
+            "name": "Sidetrail"
           }
         ],
         "severity": "inform"
@@ -528,6 +570,7 @@
     ],
     "labelValues": [
       "blue-twentyfortyeight",
+      "app-dropanchor",
       "net-anisota",
       "place-atwork",
       "blue-zio-atfile",
@@ -543,10 +586,12 @@
       "at-monomarks",
       "community-nooki",
       "com-shinolabs-pinksea",
+      "fm-plyr",
       "social-popfeed",
       "exchange-recipe",
       "app-rocksky",
       "space-roomy",
+      "app-sidetrail",
       "my-skylights",
       "events-smokesignal",
       "st-snowpo",
