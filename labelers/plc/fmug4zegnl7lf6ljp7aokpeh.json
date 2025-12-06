@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:fmug4zegnl7lf6ljp7aokpeh/app.bsky.labeler.service/self",
-  "cid": "bafyreid2a22uskqsksdggp2dwoqhqqw6zvbutkqlnwszsxjf7jtmcdifbe",
+  "cid": "bafyreieljkhihzfdyjc5ulhjzhv56yuang5btvrpxdev2dq5yjvktdbaky",
   "creator": {
     "did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
     "handle": "medsky.social",
@@ -20,7 +20,7 @@
     "description": "A network of healthcare workers across the ATmosphere\n\nSupport: tinyurl.com/vbf3swdw",
     "indexedAt": "2025-12-03T19:12:16.825Z"
   },
-  "indexedAt": "2025-12-04T19:42:26.041Z",
+  "indexedAt": "2025-12-05T20:51:08.839Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -44,6 +44,102 @@
             "description": "Algo que contenha informações de saúde que sejam falsas, imprecisas ou enganosas, de acordo com as melhores evidências disponíveis no momento.\n\nInformações médicas falsas ou enganosas representam uma ameaça ao público e podem levar as pessoas a tomar decisões com consequências perigosas para a sua saúde. \n\nSempre consulte um médico ou outro profissional de saúde antes de tomar decisões relacionadas à sua saúde com base em informações lidas online e sempre consulte fontes de saúde online confiáveis ​​antes de compartilhar informações que possam conter informações incorretas.",
             "lang": "pt",
             "name": "⚠ Desinformação Médica"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mod-vaccine-misinfo",
+        "locales": [
+          {
+            "description": "Content used to dissuade the public from vaccination using information regarding vaccines that is false, inaccurate, or misleading according to the best available evidence at the time.\n\nVaccines are a safe and effective preventive treatment, and immunization currently prevents 3.5 million to 5 million deaths every year. Misinformation related to vaccination leads to vaccine hesitancy which fuels disease outbreaks. \n\nAlways consult a physician or other healthcare provider before making decisions regarding your health based on information you read on the internet, and always check credible health resources online prior to sharing information that may contain misinformation.",
+            "lang": "en",
+            "name": "⚠ Vaccine Misinformation"
+          },
+          {
+            "description": "Algo utilizado para disuadir al público de vacunarse, utilizando información falsa, inexacta o engañosa sobre las vacunas, según la mejor evidencia disponible en ese momento.\n\nLas vacunas son un tratamiento preventivo seguro y eficaz, y actualmente previenen entre 3,5 y 5 millones de muertes al año. La desinformación relacionada con la vacunación genera reticencias a vacunarse, lo que fomenta brotes de enfermedades.\n\nSiempre consulte a un médico u otro profesional de la salud antes de tomar decisiones sobre su salud basándose en información que lea en internet, y siempre consulte recursos de salud confiables en línea antes de compartir información que pueda contener información errónea.",
+            "lang": "es",
+            "name": "⚠ Desinformación Sobre Vacunas"
+          },
+          {
+            "description": "Algo usado para dissuadir o público da vacinação, utilizando informações falsas, imprecisas ou enganosas sobre vacinas, de acordo com as melhores evidências disponíveis no momento.\n\nAs vacinas são um tratamento preventivo seguro e eficaz, e a imunização atualmente previne de 3,5 a 5 milhões de mortes por ano. A desinformação relacionada à vacinação leva à hesitação vacinal, o que alimenta surtos de doenças.\n\nSempre consulte um médico ou outro profissional de saúde antes de tomar decisões relacionadas à sua saúde com base em informações lidas online e sempre consulte fontes de saúde online confiáveis ​​antes de compartilhar informações que possam conter informações incorretas.",
+            "lang": "pt",
+            "name": "⚠ Desinformação Sobre Vacinas"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mod-misinfo-vax-autism",
+        "locales": [
+          {
+            "description": "Content referencing a fraudulent research study that falsely claimed causative links between the Measles-Mumps-Rubella vaccine and the development of autism in children. \n\nThis study was retracted after concerns arose regarding fraudulent data selection, data manipulation, and the reported conflict of interest of the author. Multiple public health organizations, including the World Health Organization (@who.int) have concluded that there is no link between the MMR vaccine and autism, and large-scale observational studies and meta-analyses have overwhelmingly found no link between vaccines and autism. \n\nVaccines are a safe and effective preventive treatment, and immunization currently prevents 3.5 million to 5 million deaths every year. Misinformation related to vaccination leads to vaccine hesitancy, which fuels disease outbreaks. \n\nAlways consult a physician or other healthcare provider before making decisions regarding your health based on information you read on the internet, and always check credible health resources online prior to sharing information that may contain misinformation.",
+            "lang": "en",
+            "name": "⚠ Misinfo: Vaccines do not cause autism"
+          },
+          {
+            "description": "Algo que hace referencia a un estudio de investigación fraudulento que afirmaba falsamente vínculos causales entre la vacuna contra el sarampión, las paperas y la rubéola y el desarrollo del autismo en niños.\n\nEste estudio fue retractado tras surgir inquietudes sobre la selección fraudulenta de datos, la manipulación de datos y el supuesto conflicto de intereses del autor. Varias organizaciones de salud pública, incluida la Organización Mundial de la Salud (@who.int), han concluido que no existe ningún vínculo entre la vacuna triple vírica y el autismo, y estudios observacionales a gran escala y metaanálisis han demostrado, de forma abrumadora, que no existe ningún vínculo entre las vacunas y el autismo.\n\nLas vacunas son un tratamiento preventivo seguro y eficaz, y actualmente previenen entre 3,5 y 5 millones de muertes al año. La desinformación relacionada con la vacunación genera reticencia a vacunarse, lo que fomenta los brotes de enfermedades.\n\nConsulte siempre a un médico u otro profesional de la salud antes de tomar decisiones sobre su salud basándose en información que lea en internet, y consulte siempre recursos de salud fiables en línea antes de compartir información que pueda contener información errónea.",
+            "lang": "es",
+            "name": "⚠ Falso: Las vacunas no causan autismo."
+          },
+          {
+            "description": "Algo que faz referência a um estudo de pesquisa fraudulento que alegava falsamente haver uma relação causal entre a vacina tríplice viral (sarampo, caxumba e rubéola) e o desenvolvimento de autismo em crianças.\n\nEste estudo foi retratado após surgirem preocupações relativas à seleção fraudulenta de dados, manipulação de dados e ao alegado conflito de interesses do autor. Diversas organizações de saúde pública, incluindo a Organização Mundial da Saúde (@who.int), concluíram que não há nenhuma ligação entre a vacina tríplice viral e o autismo, e estudos observacionais em larga escala e meta-análises não encontraram, de forma esmagadora, nenhuma ligação entre vacinas e autismo.\n\nAs vacinas são um tratamento preventivo seguro e eficaz, e a imunização atualmente previne de 3,5 a 5 milhões de mortes por ano. A desinformação relacionada à vacinação leva à hesitação vacinal, o que alimenta surtos de doenças.\n\nConsulte sempre um médico ou outro profissional de saúde antes de tomar decisões sobre sua saúde com base em informações lidas na internet e sempre verifique fontes de saúde confiáveis ​​online antes de compartilhar informações que possam conter desinformação.",
+            "lang": "pt",
+            "name": "⚠ Falso: As vacinas não causam autismo."
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mod-misinfo-hydroxychloroquine",
+        "locales": [
+          {
+            "description": "Content referencing unfounded claims that Hydroxychloroquine/Chloroquine is an effective treatment against COVID-19 infections. \n\nHydroxychloroquine and chloroquine are medications used to treat malaria and some auto-immune diseases. Major health organizations, including the World Health Organization (@who.int) have advised against its use for this purpose outside of clinical trials due to a lack of efficacy and potential for serious side effects. \n\nThe most effective preventive treatment for COVID-19 is vaccination. The COVID-19 vaccine is a safe and effective preventive treatment and most people experience only mild symptoms after receiving the COVID-19 vaccine, such as a sore arm or fatigue/fever for 24-48 hours. Serious side effects are extremely rare, and significantly lower than the risk of severe illness from COVID-19 itself.",
+            "lang": "en",
+            "name": "⚠ Misinfo: Hydroxychloroquine ineffective against COVID-19"
+          },
+          {
+            "description": "Algo que hace referencia a afirmaciones infundadas de que la hidroxicloroquina/cloroquina es un tratamiento eficaz contra las infecciones por COVID-19.\n\nLa hidroxicloroquina y la cloroquina son medicamentos que se utilizan para tratar la malaria y algunas enfermedades autoinmunes. Las principales organizaciones sanitarias, incluida la Organización Mundial de la Salud (@who.int), han desaconsejado su uso para este fin fuera de ensayos clínicos debido a su falta de eficacia y a la posibilidad de efectos secundarios graves.\n\nEl tratamiento preventivo más eficaz para la COVID-19 es la vacunación. La vacuna contra la COVID-19 es un tratamiento preventivo seguro y eficaz, y la mayoría de las personas solo experimentan síntomas leves tras recibirla, como dolor en el brazo o fatiga/fiebre durante 24 a 48 horas. Los efectos secundarios graves son extremadamente raros y significativamente menores que el riesgo de enfermedad grave por la propia COVID-19.",
+            "lang": "es",
+            "name": "⚠ Falso: La Hidroxicloroquina es ineficaz contra la COVID-19"
+          },
+          {
+            "description": "Algo que faz referência a alegações infundadas de que a hidroxicloroquina/cloroquina é um tratamento eficaz contra infecções por COVID-19.\n\nA hidroxicloroquina e a cloroquina são medicamentos usados ​​para tratar a malária e algumas doenças autoimunes. Grandes organizações de saúde, incluindo a Organização Mundial da Saúde (@who.int), desaconselharam seu uso para esse fim fora de ensaios clínicos devido à falta de eficácia e ao potencial de efeitos colaterais graves.\n\nO tratamento preventivo mais eficaz para a COVID-19 é a vacinação. A vacina contra a COVID-19 é um tratamento preventivo seguro e eficaz, e a maioria das pessoas apresenta apenas sintomas leves após recebê-la, como dor no braço ou fadiga/febre por 24 a 48 horas. Efeitos colaterais graves são extremamente raros e significativamente menores do que o risco de doença grave causada pela própria COVID-19.",
+            "lang": "pt",
+            "name": "⚠ Falso: A Hidroxicloroquina é ineficaz contra a COVID-19"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mod-misinfo-ivermectin",
+        "locales": [
+          {
+            "description": "Content referencing unfounded claims that Ivermectin is an effective treatment against COVID-19 infections. \n\nIvermectin is an antiparasitic drug used in humans to treat head lice, scabies, strongyloidiasis, and numerous other parasitic infections. According to major health organizations, including the World Health Organization (@who.int), ivermectin is not authorized, approved, or recommended for the treatment or prevention of COVID-19. Well-designed clinical trials and meta-analyses have found no evidence that ivermectin is effective for treating COVID-19\n\nThe most effective preventive treatment for COVID-19 is vaccination. The COVID-19 vaccine is a safe and effective preventive treatment and most people experience only mild symptoms after receiving the COVID-19 vaccine, such as a sore arm or fatigue/fever for 24-48 hours. Serious side effects are extremely rare, and significantly lower than the risk of severe illness from COVID-19 itself.",
+            "lang": "en",
+            "name": "⚠ Misinfo: Ivermectin ineffective against COVID-19"
+          },
+          {
+            "description": "Algo que hace referencia a afirmaciones infundadas de que la ivermectina es un tratamiento eficaz contra las infecciones por COVID-19.\n\nLa ivermectina es un fármaco antiparasitario que se utiliza en humanos para tratar piojos, sarna, estrongiloidiasis y muchas otras infecciones parasitarias. Según las principales organizaciones sanitarias, incluida la Organización Mundial de la Salud (@who.int), la ivermectina no está autorizada, aprobada ni recomendada para el tratamiento o la prevención de la COVID-19. Ensayos clínicos y metaanálisis bien diseñados no han encontrado evidencia de que la ivermectina sea eficaz para tratar la COVID-19.\n\nEl tratamiento preventivo más eficaz para la COVID-19 es la vacunación. La vacuna contra la COVID-19 es un tratamiento preventivo seguro y eficaz, y la mayoría de las personas solo experimentan síntomas leves después de recibirla, como dolor en el brazo o fatiga/fiebre durante 24 a 48 horas. Los efectos secundarios graves son extremadamente raros y significativamente menores que el riesgo de enfermedad grave por la propia COVID-19.",
+            "lang": "es",
+            "name": "⚠ Falso: La Ivermectina es ineficaz contra la COVID-19"
+          },
+          {
+            "description": "Algo que faz referência a alegações infundadas de que a ivermectina é um tratamento eficaz contra infecções por COVID-19.\n\nA ivermectina é um medicamento antiparasitário usado em humanos para tratar piolhos, sarna, estrongiloidíase e diversas outras infecções parasitárias. De acordo com as principais organizações de saúde, incluindo a Organização Mundial da Saúde (@who.int), a ivermectina não é autorizada, aprovada ou recomendada para o tratamento ou prevenção da COVID-19. Ensaios clínicos e meta-análises bem elaborados não encontraram evidências de que a ivermectina seja eficaz no tratamento da COVID-19.\n\nO tratamento preventivo mais eficaz para a COVID-19 é a vacinação. A vacina contra a COVID-19 é um tratamento preventivo seguro e eficaz, e a maioria das pessoas apresenta apenas sintomas leves após recebê-la, como dor no braço ou fadiga/febre por 24 a 48 horas. Efeitos colaterais graves são extremamente raros e significativamente menores do que o risco de doença grave causada pela própria COVID-19.",
+            "lang": "pt",
+            "name": "⚠ Falso: A Ivermectina é ineficaz contra a COVID-19"
           }
         ],
         "severity": "alert"
@@ -3901,6 +3997,10 @@
     ],
     "labelValues": [
       "mod-misinfo",
+      "mod-vaccine-misinfo",
+      "mod-misinfo-vax-autism",
+      "mod-misinfo-hydroxychloroquine",
+      "mod-misinfo-ivermectin",
       "medical-school",
       "dental-school",
       "anesthesiology",

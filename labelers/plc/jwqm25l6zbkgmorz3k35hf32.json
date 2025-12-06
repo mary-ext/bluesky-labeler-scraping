@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreihz6ifs2cj3qtmzslins6rd5letsxa7euxfudpuxtkey6ynaub6mi",
+  "cid": "bafyreife63qyhuidjl6clgsogm4ugii5fue3ciojjcos2gymyrqrl5u6ka",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -20,10 +20,24 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)",
     "indexedAt": "2025-11-24T12:05:35.727Z"
   },
-  "indexedAt": "2025-11-11T01:31:41.162Z",
+  "indexedAt": "2025-12-06T00:13:52.635Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "test",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Test"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -96,6 +110,7 @@
       }
     ],
     "labelValues": [
+      "test",
       "contains-patreon-substitutes",
       "contains-pin-emoji",
       "contains-xwitter",
