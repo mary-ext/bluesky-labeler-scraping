@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
-  "cid": "bafyreifsaxf5peznljpyspdeq6s5mxbttkbll3hhv56cn3odqguinklrpq",
+  "cid": "bafyreihbded2bn5ru6rxmd2gne5bszmvhtqyas677kqo37nxtyj5s2uvsm",
   "creator": {
     "did": "did:plc:3eivfiql4memqxkryeu4tqnk",
     "handle": "mod.shawn.party",
@@ -20,7 +20,7 @@
     "description": "A 3rd party Bluesky labeler service account run by @shawn.party\n\nMy primary purpose is labeling #spoiler posts here on BlueSky",
     "indexedAt": "2024-11-11T20:47:53.313Z"
   },
-  "indexedAt": "2025-12-07T00:07:30.932Z",
+  "indexedAt": "2025-12-07T01:36:49.729Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -131,9 +131,24 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rumor-parent",
+        "locales": [
+          {
+            "description": "Possible rumor spoilers have been found in the replies",
+            "lang": "en",
+            "name": "❕Rumors in Replies❕"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
+      "rumor-parent",
       "rumor",
       "spoiler-parent",
       "star-wars-fan",
