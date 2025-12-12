@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreied6e7wj2iredatqcesi3wyxldokdrkomicslsu7y5hjodxmindeu",
+  "cid": "bafyreic7nmzzbabkd5uhurpijoajh37oa5k265luy5mawnjfxefitbfomm",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2025-12-04T04:14:28.532Z",
+  "indexedAt": "2025-12-11T03:50:17.134Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -87,6 +87,20 @@
             "description": "store and retrieve files (blue.zio.atfile.*)",
             "lang": "en",
             "name": "ATFile"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-atprotofans",
+        "locales": [
+          {
+            "description": "Connecting Fans and Creators (com.atprotofans.*)",
+            "lang": "en",
+            "name": "ATProtoFans"
           }
         ],
         "severity": "inform"
@@ -574,6 +588,7 @@
       "net-anisota",
       "place-atwork",
       "blue-zio-atfile",
+      "com-atprotofans",
       "blue-badge",
       "buzz-bookhive",
       "blue-flashes",

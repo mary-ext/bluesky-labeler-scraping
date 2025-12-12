@@ -1,0 +1,73 @@
+{
+  "uri": "at://did:plc:setic5jsb2w2yjiopvyortdr/app.bsky.labeler.service/self",
+  "cid": "bafyreic35t5l4sg2oufewwvs4rwwt3ja25v4inzjx2ckzwybcwtvmcanee",
+  "creator": {
+    "did": "did:plc:setic5jsb2w2yjiopvyortdr",
+    "handle": "nikolabel.juicey.dev",
+    "displayName": "Niko NSFW Labeller",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:setic5jsb2w2yjiopvyortdr/bafkreiafvspv4cj3cu6hjkjhsthrgn3fd6yffjv4lda5u5ntf3npfssn5u@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-12-10T02:03:18.224Z",
+    "description": "A safety labeler that flags accounts involved with explicit Niko (OneShot) content. Not for harassment.\n\nMade by @juicey.dev",
+    "indexedAt": "2025-12-11T19:04:19.724Z"
+  },
+  "indexedAt": "2025-12-11T23:28:19.135Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "explicit-niko-artist",
+        "locales": [
+          {
+            "description": "An account that regularly creates or shares explicit or sexually suggestive Niko (OneShot) artwork.",
+            "lang": "en",
+            "name": "Explicit Niko Artist"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "engages-explicit-niko",
+        "locales": [
+          {
+            "description": "An account that frequently interacts (likes, reposts or comments) with explicit or sexually suggestive Niko (OneShot) artwork or its creators.",
+            "lang": "en",
+            "name": "Engages With Explicit Niko Content"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "follows-explicit-niko",
+        "locales": [
+          {
+            "description": "An account that follows one or more creators who post explicit or sexually suggestive Niko (OneShot) artwork. **Following does not imply endorsement.**",
+            "lang": "en",
+            "name": "Follows Explicit Niko Artist"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "explicit-niko-artist",
+      "engages-explicit-niko",
+      "follows-explicit-niko"
+    ]
+  }
+}
