@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreigxmivt5r24ba4tbxwft523wmkwxbibwoyvsb6vuyknox4oixp3n4",
+  "cid": "bafyreibcndpsznkwvrgt6vlefh3bpmmbmpcxeyyza2r6q5cqngyopd2ybm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-12-12T09:54:51.633Z",
+  "indexedAt": "2025-12-13T20:33:49.637Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -459,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "wtf-lamp",
+        "identifier": "org-climateai",
         "locales": [
           {
-            "description": "Account is hosted by the lamp.wtf PDS",
+            "description": "Account is hosted by the climateai.org PDS",
             "lang": "en",
-            "name": "lamp.wtf"
+            "name": "climateai.org"
           }
         ],
         "severity": "inform"
@@ -473,12 +473,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-climateai",
+        "identifier": "wtf-lamp",
         "locales": [
           {
-            "description": "Account is hosted by the climateai.org PDS",
+            "description": "Account is hosted by the lamp.wtf PDS",
             "lang": "en",
-            "name": "climateai.org"
+            "name": "lamp.wtf"
           }
         ],
         "severity": "inform"
@@ -501,12 +501,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blue-zio",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the zio.blue PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "zio.blue"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -515,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "blue-zio",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the zio.blue PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "zio.blue"
           }
         ],
         "severity": "inform"
@@ -655,6 +655,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blog-bestofmodels-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
+            "lang": "en",
+            "name": "bsky.bestofmodels.blog"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-selfhosted",
         "locales": [
           {
@@ -711,20 +725,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "eu-blsky-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.blsky.eu PDS",
-            "lang": "en",
-            "name": "pds.blsky.eu"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "free-squid-pds--2db66",
         "locales": [
           {
@@ -739,12 +739,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "eu-blsky-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.blsky.eu PDS",
+            "lang": "en",
+            "name": "pds.blsky.eu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "is-socl",
         "locales": [
           {
             "description": "Account is hosted by the socl.is PDS",
             "lang": "en",
             "name": "socl.is"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "to-bbi",
+        "locales": [
+          {
+            "description": "Account is hosted by the bbi.to PDS",
+            "lang": "en",
+            "name": "bbi.to"
           }
         ],
         "severity": "inform"
@@ -787,20 +815,6 @@
             "description": "Account is hosted by the pds.koda-agency.io PDS",
             "lang": "en",
             "name": "pds.koda-agency.io"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "to-bbi",
-        "locales": [
-          {
-            "description": "Account is hosted by the bbi.to PDS",
-            "lang": "en",
-            "name": "bbi.to"
           }
         ],
         "severity": "inform"
@@ -1005,20 +1019,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blog-bestofmodels-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
-            "lang": "en",
-            "name": "bsky.bestofmodels.blog"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "xyz-girlonthemoon-katproto",
         "locales": [
           {
@@ -1081,6 +1081,20 @@
             "description": "Account is hosted by the evil.gay PDS",
             "lang": "en",
             "name": "evil.gay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-mt-y",
+        "locales": [
+          {
+            "description": "Account is hosted by the y.mt.social PDS",
+            "lang": "en",
+            "name": "y.mt.social"
           }
         ],
         "severity": "inform"
@@ -1243,20 +1257,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pro-hellthread",
-        "locales": [
-          {
-            "description": "Account is hosted by the hellthread.pro PDS",
-            "lang": "en",
-            "name": "hellthread.pro"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "uk-madebydanny-pds",
         "locales": [
           {
@@ -1319,6 +1319,20 @@
             "description": "Account is hosted by the comind.network PDS",
             "lang": "en",
             "name": "comind.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pro-hellthread",
+        "locales": [
+          {
+            "description": "Account is hosted by the hellthread.pro PDS",
+            "lang": "en",
+            "name": "hellthread.pro"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-nstar",
-        "locales": [
-          {
-            "description": "Account is hosted by the nstar.social PDS",
-            "lang": "en",
-            "name": "nstar.social"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1482,11 +1482,11 @@
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "social-gumby",
-      "wtf-lamp",
       "org-climateai",
+      "wtf-lamp",
       "social-surf",
-      "blue-zio",
       "social-northsky",
+      "blue-zio",
       "link-mybluesky",
       "shop-si46",
       "social-casjay",
@@ -1496,17 +1496,18 @@
       "ge-shadowcaster-bsky",
       "news-usapolitics-matrix",
       "org-mpi--sws-mpi--bluesky--pds",
+      "blog-bestofmodels-bsky",
       "social-selfhosted",
       "social-reme",
       "chat-wndr",
       "free-squid-pds--1f73e",
-      "eu-blsky-pds",
       "free-squid-pds--2db66",
+      "eu-blsky-pds",
       "is-socl",
+      "to-bbi",
       "app-certified-test-pds--eu--west4",
       "com-arankwende",
       "io-koda--agency-pds",
-      "to-bbi",
       "download-synth-pds",
       "app-certified-test-sds--eu--west4",
       "cymru-360-pds",
@@ -1521,12 +1522,12 @@
       "social-grapevyne",
       "earth-silvi-pds",
       "moe-waf-at",
-      "blog-bestofmodels-bsky",
       "xyz-girlonthemoon-katproto",
       "cloud-tophhie-pds",
       "es-peedee",
       "net-shendrick-at",
       "gay-evil",
+      "social-mt-y",
       "net-altq",
       "com-ripperoni-pds",
       "mom-rat",
@@ -1538,12 +1539,12 @@
       "computer-vixen-pds",
       "com-ip--logger-pds",
       "house-veryroundbird-shimaenaga",
-      "pro-hellthread",
       "uk-madebydanny-pds",
       "house-reverie",
       "es-digitalya-social-user",
       "fr-homestuck-bsky",
       "network-comind",
+      "pro-hellthread",
       "com-iameli",
       "com-hukoubook-network",
       "org-berkmancenter-asml-pds--bluesky",
@@ -1551,8 +1552,7 @@
       "pet-sharkgirl",
       "dev-totallynotseth",
       "net-bnbdiscord-at",
-      "com-plasmatrap-bsky",
-      "social-nstar"
+      "com-plasmatrap-bsky"
     ]
   }
 }
