@@ -1,0 +1,117 @@
+{
+  "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
+  "cid": "bafyreif3c6b5cb5k6npnrmpihurczmz6z6mfdanj4humk3yjwmnzisapk4",
+  "creator": {
+    "did": "did:plc:saslbwamakedc4h6c5bmshvz",
+    "handle": "labeler.hailey.at",
+    "displayName": "Hailey's Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:saslbwamakedc4h6c5bmshvz/bafkreic5pqw65446ldrx33tyo5kusnbajgxwwmpupatudlrqh576nqfcqe@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-12-17T07:45:29.823Z",
+    "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey",
+    "indexedAt": "2025-12-17T16:57:32.925Z"
+  },
+  "indexedAt": "2025-12-17T16:42:30.534Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "hailey",
+        "locales": [
+          {
+            "description": "This user is Hailey.",
+            "lang": "en",
+            "name": "Hailey"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "men-facet-abuse",
+        "locales": [
+          {
+            "description": "Account engaging in mention facet abuse.",
+            "lang": "en",
+            "name": "Mention Facet Abuse"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mass-follow-mid",
+        "locales": [
+          {
+            "description": "Account followed 300+ in thirty minutes.",
+            "lang": "en",
+            "name": "Mass Following (Mid)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mass-follow-high",
+        "locales": [
+          {
+            "description": "Account followed 1000+ in thirty minutes.",
+            "lang": "en",
+            "name": "Mass Following (High)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "shopping-spam",
+        "locales": [
+          {
+            "description": "Account likely spamming shopping links.",
+            "lang": "en",
+            "name": "Shopping Spam"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "hailey",
+      "men-facet-abuse",
+      "mass-follow-mid",
+      "mass-follow-high",
+      "shopping-spam"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.graph.list",
+    "app.bsky.actor.profile"
+  ]
+}
