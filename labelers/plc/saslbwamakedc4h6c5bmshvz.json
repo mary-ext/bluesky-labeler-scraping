@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
-  "cid": "bafyreif3c6b5cb5k6npnrmpihurczmz6z6mfdanj4humk3yjwmnzisapk4",
+  "cid": "bafyreihemassw4uvucajkmy6oxy3h57vno4jeint4scz5zjcfojlq3e5sa",
   "creator": {
     "did": "did:plc:saslbwamakedc4h6c5bmshvz",
     "handle": "labeler.hailey.at",
     "displayName": "Hailey's Labeler",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:saslbwamakedc4h6c5bmshvz/bafkreic5pqw65446ldrx33tyo5kusnbajgxwwmpupatudlrqh576nqfcqe@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:saslbwamakedc4h6c5bmshvz/bafkreielwywlpnvdva4ems2khwmyq3d3c3sfncmniia5lmqipjhocx6s6a@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-12-17T07:45:29.823Z",
-    "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey",
-    "indexedAt": "2025-12-17T16:57:32.925Z"
+    "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey\n\nLabels are not meant to be negative or positive signals about accounts or content, but rather information about the type of account or content you may be interacting with.",
+    "indexedAt": "2025-12-18T22:06:07.025Z"
   },
-  "indexedAt": "2025-12-17T16:42:30.534Z",
+  "indexedAt": "2025-12-18T23:38:11.728Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -37,7 +37,7 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "men-facet-abuse",
         "locales": [
@@ -51,35 +51,35 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "mass-follow-mid",
         "locales": [
           {
             "description": "Account followed 300+ in thirty minutes.",
             "lang": "en",
-            "name": "Mass Following (Mid)"
+            "name": "Bulk Follows (300+)"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "mass-follow-high",
         "locales": [
           {
             "description": "Account followed 1000+ in thirty minutes.",
             "lang": "en",
-            "name": "Mass Following (High)"
+            "name": "Bulk Follows (1000+)"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "shopping-spam",
         "locales": [
@@ -90,6 +90,118 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "inauth-fundraising",
+        "locales": [
+          {
+            "description": "Account is likely performing inauthentic fundraising.",
+            "lang": "en",
+            "name": "Inauthentic Fundraising"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "reply-link-spam",
+        "locales": [
+          {
+            "description": "Account has made 20+ replies with a link in a 24 hour period.",
+            "lang": "en",
+            "name": "20+ Link Replies"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "stpk-creations",
+        "locales": [
+          {
+            "description": "Account has made three or more starterpacks within a week.",
+            "lang": "en",
+            "name": "3+ Starterpacks"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "some-blocks",
+        "locales": [
+          {
+            "description": "Account has been blocked 20+ times in a 24 hour period.",
+            "lang": "en",
+            "name": "20+ Blocks"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mass-blocks",
+        "locales": [
+          {
+            "description": "Account has been blocked 100+ times in a 24 hour period.",
+            "lang": "en",
+            "name": "100+ Blocks"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "handle-changed",
+        "locales": [
+          {
+            "description": "Account has changed their handle recently.",
+            "lang": "en",
+            "name": "Handle Changed"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "many-handle-chgs",
+        "locales": [
+          {
+            "description": "Account has changed their handle 3+ times in a 24 hour period recently.",
+            "lang": "en",
+            "name": "3+ Handle Changes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "suss-handle-change",
+        "locales": [
+          {
+            "description": "This account changed their handle on an \"aged\" account. This might mean that a previously unused account has recently reactivated and started using a new handle, a common pattern with coordinated spam.",
+            "lang": "en",
+            "name": "Suspicious Handle Change"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -97,7 +209,15 @@
       "men-facet-abuse",
       "mass-follow-mid",
       "mass-follow-high",
-      "shopping-spam"
+      "shopping-spam",
+      "inauth-fundraising",
+      "reply-link-spam",
+      "stpk-creations",
+      "some-blocks",
+      "mass-blocks",
+      "handle-changed",
+      "many-handle-chgs",
+      "suss-handle-change"
     ]
   },
   "reasonTypes": [
