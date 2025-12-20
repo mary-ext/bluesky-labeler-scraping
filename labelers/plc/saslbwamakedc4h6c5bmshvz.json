@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
-  "cid": "bafyreihemassw4uvucajkmy6oxy3h57vno4jeint4scz5zjcfojlq3e5sa",
+  "cid": "bafyreigh4434kvdkrzpndgr75el4bb46xzixnsimltllnf6kpsjd6yupk4",
   "creator": {
     "did": "did:plc:saslbwamakedc4h6c5bmshvz",
     "handle": "labeler.hailey.at",
@@ -17,7 +17,7 @@
     "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey\n\nLabels are not meant to be negative or positive signals about accounts or content, but rather information about the type of account or content you may be interacting with.",
     "indexedAt": "2025-12-18T22:06:07.025Z"
   },
-  "indexedAt": "2025-12-18T23:38:11.728Z",
+  "indexedAt": "2025-12-19T17:22:10.835Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -123,6 +123,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "new-acct-replies",
+        "locales": [
+          {
+            "description": "Account has made 10+ replies in the account's first hour of existence and their number of \"top level\" posts is considerably low. This is a common pattern with bots and accounts made for harassment purposes.",
+            "lang": "en",
+            "name": "10+ Replies on New Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "stpk-creations",
         "locales": [
           {
@@ -202,6 +216,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "new-acct-slurs",
+        "locales": [
+          {
+            "description": "This account is relatively new and in their initial posts has been found to be using one or more slurs which are generally found to be offensive. Accounts using slurs that take advantage of Unicode characters to \"avoid\" slur-use detection are also considered. False positives are possible, though should be extremely low.",
+            "lang": "en",
+            "name": "New Account Using Slurs"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nerd",
+        "locales": [
+          {
+            "description": "This account is owned and operated by a nerd. (Testing Label)",
+            "lang": "en",
+            "name": "Nerd"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -212,12 +254,15 @@
       "shopping-spam",
       "inauth-fundraising",
       "reply-link-spam",
+      "new-acct-replies",
       "stpk-creations",
       "some-blocks",
       "mass-blocks",
       "handle-changed",
       "many-handle-chgs",
-      "suss-handle-change"
+      "suss-handle-change",
+      "new-acct-slurs",
+      "nerd"
     ]
   },
   "reasonTypes": [
