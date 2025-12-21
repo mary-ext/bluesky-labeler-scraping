@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
-  "cid": "bafyreigh4434kvdkrzpndgr75el4bb46xzixnsimltllnf6kpsjd6yupk4",
+  "cid": "bafyreicikj6pgmrkades6pbawfjmgcjuyu3y5445qr7o2j2dgrxkeyqy7i",
   "creator": {
     "did": "did:plc:saslbwamakedc4h6c5bmshvz",
     "handle": "labeler.hailey.at",
@@ -17,7 +17,7 @@
     "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey\n\nLabels are not meant to be negative or positive signals about accounts or content, but rather information about the type of account or content you may be interacting with.",
     "indexedAt": "2025-12-18T22:06:07.025Z"
   },
-  "indexedAt": "2025-12-19T17:22:10.835Z",
+  "indexedAt": "2025-12-20T01:24:02.629Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -235,12 +235,54 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "nerd",
+        "identifier": "negative-post",
         "locales": [
           {
-            "description": "This account is owned and operated by a nerd. (Testing Label)",
+            "description": "Post label. This post has been found to be possibly toxic. Negative does not necessarily mean \"bad\", \"rude\", or \"inappropriate\", but rather that the sentiment of the post was found to be possibly negative. False positives may occur, and you should use caution if deciding to Hide based on this label.",
             "lang": "en",
-            "name": "Nerd"
+            "name": "Negative Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "negative-poster",
+        "locales": [
+          {
+            "description": "Account label. This account has made three or more negative posts in a four hour period. Negative does not necessarily mean \"bad\", \"rude\", or \"inappropriate\", but rather that the sentiment of their posts was found to be possibly negative. False positives may occur, and you should use caution if deciding to Hide based on this label.",
+            "lang": "en",
+            "name": "Negative Poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "toxic-post",
+        "locales": [
+          {
+            "description": "Post label. This post was found to be toxic. Toxic does generally means \"rude\" or \"inappropriate\". Note that the subject of the post is not taken into account, and a judgement of \"toxic\" does not indicate support or praise for the subject of the supposed \"toxicity\". False positives may occur, and you should use caution if deciding to Hide based on this label.",
+            "lang": "en",
+            "name": "Toxic Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "toxic-poster",
+        "locales": [
+          {
+            "description": "Account label. This account has made three or more toxic posts in a four hour period. Toxic does generally means \"rude\" or \"inappropriate\". Note that the subject of the account's posts are not taken into account, and a judgement of \"toxic\" does not indicate support or praise for the subject of the supposed \"toxicity\". False positives may occur, and you should use caution if deciding to Hide based on this label.",
+            "lang": "en",
+            "name": "Toxic Poster"
           }
         ],
         "severity": "inform"
@@ -262,7 +304,10 @@
       "many-handle-chgs",
       "suss-handle-change",
       "new-acct-slurs",
-      "nerd"
+      "negative-post",
+      "negative-poster",
+      "toxic-post",
+      "toxic-poster"
     ]
   },
   "reasonTypes": [
