@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
-  "cid": "bafyreicikj6pgmrkades6pbawfjmgcjuyu3y5445qr7o2j2dgrxkeyqy7i",
+  "cid": "bafyreif7vquwsc4hisppyfhjnkjjc6uxjgafk6vi5j5aryx6sl2yo7ctsa",
   "creator": {
     "did": "did:plc:saslbwamakedc4h6c5bmshvz",
     "handle": "labeler.hailey.at",
@@ -17,7 +17,7 @@
     "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey\n\nLabels are not meant to be negative or positive signals about accounts or content, but rather information about the type of account or content you may be interacting with.",
     "indexedAt": "2025-12-18T22:06:07.025Z"
   },
-  "indexedAt": "2025-12-20T01:24:02.629Z",
+  "indexedAt": "2025-12-21T22:22:09.636Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -263,12 +263,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "toxic-post",
+        "identifier": "toxic-poster",
         "locales": [
           {
-            "description": "Post label. This post was found to be toxic. Toxic does generally means \"rude\" or \"inappropriate\". Note that the subject of the post is not taken into account, and a judgement of \"toxic\" does not indicate support or praise for the subject of the supposed \"toxicity\". False positives may occur, and you should use caution if deciding to Hide based on this label.",
+            "description": "Account label. This account has made three or more toxic posts in a four hour period. Toxic does generally means \"rude\" or \"inappropriate\". Note that the subject of the account's posts are not taken into account, and a judgement of \"toxic\" does not indicate support or praise for the subject of the supposed \"toxicity\". False positives may occur, and you should use caution if deciding to Hide based on this label.",
             "lang": "en",
-            "name": "Toxic Post"
+            "name": "Toxic Poster"
           }
         ],
         "severity": "inform"
@@ -277,12 +277,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "toxic-poster",
+        "identifier": "coordinated-abuse",
         "locales": [
           {
-            "description": "Account label. This account has made three or more toxic posts in a four hour period. Toxic does generally means \"rude\" or \"inappropriate\". Note that the subject of the account's posts are not taken into account, and a judgement of \"toxic\" does not indicate support or praise for the subject of the supposed \"toxicity\". False positives may occur, and you should use caution if deciding to Hide based on this label.",
+            "description": "This account has been verified to be part of a coordinated abuse network through one of various mechanisms. Only accounts that are verified to have an extremely high likelihood of being part of a coordinated spam, misinformation, or other network will have this label applied.",
             "lang": "en",
-            "name": "Toxic Poster"
+            "name": "Verified Coordinated Abuse"
           }
         ],
         "severity": "inform"
@@ -306,8 +306,8 @@
       "new-acct-slurs",
       "negative-post",
       "negative-poster",
-      "toxic-post",
-      "toxic-poster"
+      "toxic-poster",
+      "coordinated-abuse"
     ]
   },
   "reasonTypes": [
