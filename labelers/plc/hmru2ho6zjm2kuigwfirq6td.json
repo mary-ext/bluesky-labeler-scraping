@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:hmru2ho6zjm2kuigwfirq6td/app.bsky.labeler.service/self",
-  "cid": "bafyreig7ne457t5iorbqsjgb463ms2pm6qo6jipna3qdyypnweycozuu24",
+  "cid": "bafyreihomrrz2e46xtyuiv3fdat6wgcrmsrzoytwgzp526taxgmwkwrl34",
   "creator": {
     "did": "did:plc:hmru2ho6zjm2kuigwfirq6td",
     "handle": "random-labeler.bsky.girigiribauer.com",
-    "displayName": "レッテル貼りラベラー（仮）",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hmru2ho6zjm2kuigwfirq6td/bafkreieocqwf3shlt5uzpm6rf26z36utigo5ktwlqqppkvhkotu3yqmkxe@jpeg",
+    "displayName": "おみくじラベラー",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hmru2ho6zjm2kuigwfirq6td/bafkreigqbsrobbazzulm2fixua44emhbo36vq5fv64v4g7znrqgonlnkre@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,30 +14,113 @@
     },
     "labels": [],
     "createdAt": "2025-02-22T00:52:20.445Z",
-    "description": "testing123 for ja lang\nテスト用のラベラーを作ってみますよ @girigiribauer.com",
-    "indexedAt": "2025-02-22T05:08:36.147Z"
+    "description": "日本時間で毎日ランダムに大吉〜大凶までの7種類をラベル付けします\nsubscribe すれば毎日自動でラベル付けされます\nいやなら unsubscribe すれば外れます\n何かあれば @girigiribauer.com まで",
+    "indexedAt": "2025-12-23T00:02:14.426Z"
   },
-  "indexedAt": "2025-02-22T04:44:22.053Z",
+  "indexedAt": "2025-12-22T15:58:20.734Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "i-am-making-a-labeler",
+        "defaultSetting": "warn",
+        "identifier": "daikichi",
         "locales": [
           {
-            "description": "レッテル貼りラベラーのテストラベル",
-            "lang": "en",
-            "name": "わたしはラベラーをつくっています"
+            "description": "今日の運勢は大吉！最高の一日があなたを待ってる！",
+            "lang": "ja",
+            "name": "大吉"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kichi",
+        "locales": [
+          {
+            "description": "今日の運勢は吉！楽しい一日になりそう！",
+            "lang": "ja",
+            "name": "吉"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chukichi",
+        "locales": [
+          {
+            "description": "今日の運勢は中吉！楽しんでいこ！",
+            "lang": "ja",
+            "name": "中吉"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "shokichi",
+        "locales": [
+          {
+            "description": "今日の運勢は小吉！小さな幸せ見つけよう！",
+            "lang": "ja",
+            "name": "小吉"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "suekichi",
+        "locales": [
+          {
+            "description": "今日の運勢は末吉！すえひろがりな一日を！",
+            "lang": "ja",
+            "name": "末吉"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kyo",
+        "locales": [
+          {
+            "description": "今日の運勢は凶。気を引き締めていこう！",
+            "lang": "ja",
+            "name": "凶"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "daikyo",
+        "locales": [
+          {
+            "description": "今日の運勢は大凶。無理せず慎重に！",
+            "lang": "ja",
+            "name": "大凶"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "i-am-making-a-labeler"
+      "daikichi",
+      "kichi",
+      "chukichi",
+      "shokichi",
+      "suekichi",
+      "kyo",
+      "daikyo"
     ]
   }
 }
