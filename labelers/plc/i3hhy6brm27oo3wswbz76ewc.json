@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:i3hhy6brm27oo3wswbz76ewc/app.bsky.labeler.service/self",
-  "cid": "bafyreibkws7a3vzcuxl7j6xwjqjnrx4pncfnqiaai4rnsd37pj3cpl6xyu",
+  "cid": "bafyreife5dirpuda7utygo6vouiicfymbopyntc7jpxpxe6x64p7wz446a",
   "creator": {
     "did": "did:plc:i3hhy6brm27oo3wswbz76ewc",
     "handle": "verified.babesky.com",
@@ -17,7 +17,7 @@
     "description": "A @babesky.com project by @sweetbee.vip\n\nWIP",
     "indexedAt": "2025-11-02T17:28:21.252Z"
   },
-  "indexedAt": "2025-11-02T22:42:04.456Z",
+  "indexedAt": "2025-12-23T17:41:08.340Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,7 +25,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "real-creator",
+        "identifier": "verified-creator",
         "locales": [
           {
             "description": "Indicates this account is a real, verified adult creator.",
@@ -37,7 +37,16 @@
       }
     ],
     "labelValues": [
-      "real-creator"
+      "verified-creator"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record",
+    "chat"
+  ]
 }

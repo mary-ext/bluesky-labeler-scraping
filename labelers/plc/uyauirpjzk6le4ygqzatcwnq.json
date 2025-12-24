@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreie7is3sditpyxpv3zkubdxywbhwhtsaqos2e5uun4kbcgkjngx3nu",
+  "cid": "bafyreiaqhj7lygoxf4y2z2rircfo3ub3fkcgenamlwie6xoertmskb3dy4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2025-12-21T12:33:50.235Z",
+  "indexedAt": "2025-12-23T10:33:50.535Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -403,6 +403,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-surf",
+        "locales": [
+          {
+            "description": "Account is hosted by the surf.social PDS",
+            "lang": "en",
+            "name": "surf.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "global-bsky",
         "locales": [
           {
@@ -437,20 +451,6 @@
             "description": "Account is hosted by the pds-dev.si46.world PDS",
             "lang": "en",
             "name": "pds-dev.si46.world"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-surf",
-        "locales": [
-          {
-            "description": "Account is hosted by the surf.social PDS",
-            "lang": "en",
-            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -515,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "link-mybluesky",
+        "identifier": "shop-si46",
         "locales": [
           {
-            "description": "Account is hosted by the mybluesky.link PDS",
+            "description": "Account is hosted by the si46.shop PDS",
             "lang": "en",
-            "name": "mybluesky.link"
+            "name": "si46.shop"
           }
         ],
         "severity": "inform"
@@ -543,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "shop-si46",
+        "identifier": "link-mybluesky",
         "locales": [
           {
-            "description": "Account is hosted by the si46.shop PDS",
+            "description": "Account is hosted by the mybluesky.link PDS",
             "lang": "en",
-            "name": "si46.shop"
+            "name": "mybluesky.link"
           }
         ],
         "severity": "inform"
@@ -837,20 +837,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "download-synth-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.synth.download PDS",
-            "lang": "en",
-            "name": "pds.synth.download"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cymru-360-pds",
         "locales": [
           {
@@ -893,12 +879,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "moe-waf-at",
+        "identifier": "social-mt-y",
         "locales": [
           {
-            "description": "Account is hosted by the at.waf.moe PDS",
+            "description": "Account is hosted by the y.mt.social PDS",
             "lang": "en",
-            "name": "at.waf.moe"
+            "name": "y.mt.social"
           }
         ],
         "severity": "inform"
@@ -941,6 +927,34 @@
             "description": "Account is hosted by the iiinova.com PDS",
             "lang": "en",
             "name": "iiinova.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "moe-waf-at",
+        "locales": [
+          {
+            "description": "Account is hosted by the at.waf.moe PDS",
+            "lang": "en",
+            "name": "at.waf.moe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "download-synth-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.synth.download PDS",
+            "lang": "en",
+            "name": "pds.synth.download"
           }
         ],
         "severity": "inform"
@@ -1025,20 +1039,6 @@
             "description": "Account is hosted by the pds.tophhie.cloud PDS",
             "lang": "en",
             "name": "pds.tophhie.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-mt-y",
-        "locales": [
-          {
-            "description": "Account is hosted by the y.mt.social PDS",
-            "lang": "en",
-            "name": "y.mt.social"
           }
         ],
         "severity": "inform"
@@ -1165,20 +1165,6 @@
             "description": "Account is hosted by the rat.mom PDS",
             "lang": "en",
             "name": "rat.mom"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "systems-wizardry-testpds",
-        "locales": [
-          {
-            "description": "Account is hosted by the testpds.wizardry.systems PDS",
-            "lang": "en",
-            "name": "testpds.wizardry.systems"
           }
         ],
         "severity": "inform"
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-ridgeway-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.ridgeway.network PDS",
+            "lang": "en",
+            "name": "pds.ridgeway.network"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1478,17 +1478,17 @@
       "at-admat-bsx",
       "cloud-hstgr-srv865737",
       "fail-marta",
+      "social-surf",
       "global-bsky",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
-      "social-surf",
       "org-climateai",
       "wtf-lamp",
       "social-northsky",
       "social-gumby",
-      "link-mybluesky",
-      "chat-roomy",
       "shop-si46",
+      "chat-roomy",
+      "link-mybluesky",
       "social-casjay",
       "org-mpi--sws-mpi--bluesky--pds",
       "me-tribesocial-pds",
@@ -1509,21 +1509,21 @@
       "com-arankwende",
       "io-koda--agency-pds",
       "app-certified-test-sds--eu--west4",
-      "download-synth-pds",
       "cymru-360-pds",
       "cloud-tgirl-pds",
       "social-theatl",
-      "moe-waf-at",
+      "social-mt-y",
       "dev-venki-blogsky",
       "chat-wolp-bark-bsky",
       "com-iiinova",
+      "moe-waf-at",
+      "download-synth-pds",
       "best-akizuki-pds",
       "com-skeetcentral",
       "pink-bsky",
       "social-grapevyne",
       "earth-silvi-pds",
       "cloud-tophhie-pds",
-      "social-mt-y",
       "xyz-girlonthemoon-katproto",
       "net-shendrick-at",
       "gay-evil",
@@ -1533,7 +1533,6 @@
       "net-altq",
       "com-ripperoni-pds",
       "mom-rat",
-      "systems-wizardry-testpds",
       "at-hailey-cocoon",
       "com-documatric",
       "xyz-merklehost-pds",
@@ -1552,7 +1551,8 @@
       "pro-hellthread",
       "com-iameli",
       "com-hukoubook-network",
-      "org-berkmancenter-asml-pds--bluesky"
+      "org-berkmancenter-asml-pds--bluesky",
+      "network-ridgeway-pds"
     ]
   }
 }
