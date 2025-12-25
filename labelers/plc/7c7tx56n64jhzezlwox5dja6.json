@@ -1,0 +1,56 @@
+{
+  "uri": "at://did:plc:7c7tx56n64jhzezlwox5dja6/app.bsky.labeler.service/self",
+  "cid": "bafyreieqcsuyzhpbqpv23c26gfi27ydy24jc5fofiv4xfw3ttvei7wk47y",
+  "creator": {
+    "did": "did:plc:7c7tx56n64jhzezlwox5dja6",
+    "handle": "lea-community.bsky.social",
+    "displayName": "Lea",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7c7tx56n64jhzezlwox5dja6/bafkreicfzaryw7cojupgsfiimykxtpvfjch77mzz2zee7mgsgaebksfnu4@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-12-22T07:51:40.724Z",
+    "description": "This is an experiment! We're trying to create a community of researchers on ATProto that feels safe.",
+    "indexedAt": "2025-12-24T23:39:52.924Z"
+  },
+  "indexedAt": "2025-12-24T08:12:22.332Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show-badge",
+        "identifier": "verified-researcher",
+        "locales": [
+          {
+            "description": "This account has been verified to belong to a researcher by Lea.",
+            "lang": "en",
+            "name": "Verified Researcher"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verified-researcher"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account"
+  ]
+}
