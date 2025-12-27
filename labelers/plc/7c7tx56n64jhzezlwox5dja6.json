@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7c7tx56n64jhzezlwox5dja6/app.bsky.labeler.service/self",
-  "cid": "bafyreieqcsuyzhpbqpv23c26gfi27ydy24jc5fofiv4xfw3ttvei7wk47y",
+  "cid": "bafyreifb34jwpci5ezitud55wcpbevqpyrtsizir4feswubtz6wcc26wz4",
   "creator": {
     "did": "did:plc:7c7tx56n64jhzezlwox5dja6",
     "handle": "lea-community.bsky.social",
@@ -17,40 +17,87 @@
     "description": "This is an experiment! A protected social space for researchers on the AT Protocol.",
     "indexedAt": "2025-12-25T22:13:25.425Z"
   },
-  "indexedAt": "2025-12-24T08:12:22.332Z",
+  "indexedAt": "2025-12-26T04:25:43.833Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "show-badge",
+        "defaultSetting": "warn",
         "identifier": "verified-researcher",
         "locales": [
           {
-            "description": "This account has been verified to belong to a researcher by Lea.",
+            "description": "This account has been verified as belonging to a researcher with published academic work.",
             "lang": "en",
             "name": "Verified Researcher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-venue",
+        "locales": [
+          {
+            "description": "This account represents a verified academic conference, journal, or publication venue.",
+            "lang": "en",
+            "name": "Verified Venue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-lab",
+        "locales": [
+          {
+            "description": "This account represents a verified research lab or research group.",
+            "lang": "en",
+            "name": "Verified Lab"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-academic-institution",
+        "locales": [
+          {
+            "description": "This account represents a verified academic institution such as a university or college.",
+            "lang": "en",
+            "name": "Verified Academic Institution"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-industry-institution",
+        "locales": [
+          {
+            "description": "This account represents a verified industry research institution or company.",
+            "lang": "en",
+            "name": "Verified Industry Institution"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "verified-researcher"
+      "verified-researcher",
+      "verified-venue",
+      "verified-lab",
+      "verified-academic-institution",
+      "verified-industry-institution"
     ]
-  },
-  "reasonTypes": [
-    "com.atproto.moderation.defs#reasonSpam",
-    "com.atproto.moderation.defs#reasonMisleading",
-    "com.atproto.moderation.defs#reasonRude",
-    "com.atproto.moderation.defs#reasonSexual",
-    "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal",
-    "com.atproto.moderation.defs#reasonOther"
-  ],
-  "subjectTypes": [
-    "account"
-  ]
+  }
 }
