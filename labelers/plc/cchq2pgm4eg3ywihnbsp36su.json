@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cchq2pgm4eg3ywihnbsp36su/app.bsky.labeler.service/self",
-  "cid": "bafyreif4xww6lsiv2csewvry37rklzlhivslvdfbhft3nl6w3ku4jmlriy",
+  "cid": "bafyreidaa4dfryhuxvue544h64ymtefyok2bzshl3loj3s7mgyzpydxdr4",
   "creator": {
     "did": "did:plc:cchq2pgm4eg3ywihnbsp36su",
     "handle": "random-labeler2.bsky.girigiribauer.com",
@@ -17,19 +17,19 @@
     "description": "テスト用です。そのうち消します。\n本体はこちら。\nhttps://bsky.app/profile/random-labeler.bsky.girigiribauer.com",
     "indexedAt": "2025-12-26T14:07:07.824Z"
   },
-  "indexedAt": "2025-12-25T06:47:47.237Z",
+  "indexedAt": "2025-12-27T14:39:50.334Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "daikichi",
+        "identifier": "A",
         "locales": [
           {
-            "description": "今日の運勢は大吉！最高の一日があなたを待ってる！",
-            "lang": "ja",
-            "name": "大吉"
+            "description": "Test Label A",
+            "lang": "en",
+            "name": "Label A"
           }
         ],
         "severity": "inform"
@@ -37,12 +37,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "kichi",
+        "identifier": "B",
         "locales": [
           {
-            "description": "今日の運勢は吉！楽しい一日になりそう！",
-            "lang": "ja",
-            "name": "吉"
+            "description": "Test Label B",
+            "lang": "en",
+            "name": "Label B"
           }
         ],
         "severity": "inform"
@@ -50,12 +50,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chukichi",
+        "identifier": "C",
         "locales": [
           {
-            "description": "今日の運勢は中吉！楽しんでいこ！",
-            "lang": "ja",
-            "name": "中吉"
+            "description": "Test Label C",
+            "lang": "en",
+            "name": "Label C"
           }
         ],
         "severity": "inform"
@@ -63,12 +63,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "shokichi",
+        "identifier": "D",
         "locales": [
           {
-            "description": "今日の運勢は小吉！小さな幸せ見つけよう！",
-            "lang": "ja",
-            "name": "小吉"
+            "description": "Test Label D",
+            "lang": "en",
+            "name": "Label D"
           }
         ],
         "severity": "inform"
@@ -76,12 +76,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "suekichi",
+        "identifier": "E",
         "locales": [
           {
-            "description": "今日の運勢は末吉！すえひろがりな一日を！",
-            "lang": "ja",
-            "name": "末吉"
+            "description": "Test Label E",
+            "lang": "en",
+            "name": "Label E"
           }
         ],
         "severity": "inform"
@@ -89,12 +89,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "kyo",
+        "identifier": "1",
         "locales": [
           {
-            "description": "今日の運勢は凶。気を引き締めていこう！",
-            "lang": "ja",
-            "name": "凶"
+            "description": "Test Label 1",
+            "lang": "en",
+            "name": "Label 1"
           }
         ],
         "severity": "inform"
@@ -102,25 +102,67 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "daikyo",
+        "identifier": "2",
         "locales": [
           {
-            "description": "今日の運勢は大凶。無理せず慎重に！",
-            "lang": "ja",
-            "name": "大凶"
+            "description": "Test Label 2",
+            "lang": "en",
+            "name": "Label 2"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "3",
+        "locales": [
+          {
+            "description": "Test Label 3",
+            "lang": "en",
+            "name": "Label 3"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "4",
+        "locales": [
+          {
+            "description": "Test Label 4",
+            "lang": "en",
+            "name": "Label 4"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "5",
+        "locales": [
+          {
+            "description": "Test Label 5",
+            "lang": "en",
+            "name": "Label 5"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "daikichi",
-      "kichi",
-      "chukichi",
-      "shokichi",
-      "suekichi",
-      "kyo",
-      "daikyo"
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
     ]
   }
 }

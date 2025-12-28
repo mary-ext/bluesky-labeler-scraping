@@ -1,0 +1,73 @@
+{
+  "uri": "at://did:plc:7v6wfbez4ygzlyncg5266xl3/app.bsky.labeler.service/self",
+  "cid": "bafyreifhcpbaasl7g2dgp6hnav5mgcjo3wlctpvyqxwol4qufn44dxqd5a",
+  "creator": {
+    "did": "did:plc:7v6wfbez4ygzlyncg5266xl3",
+    "handle": "ozone.anuvakas.com",
+    "displayName": "Anuvakas Moderator",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7v6wfbez4ygzlyncg5266xl3/bafkreibkmelpzrtvjs7jlauthfwk7unrp7tq7pqpsbjnu5jmgwtpeenwkm@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-12-27T12:28:03.124Z",
+    "description": "Labeller for anuvakas.com",
+    "indexedAt": "2025-12-27T15:38:00.929Z"
+  },
+  "indexedAt": "2025-12-27T12:18:13.430Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "gambling",
+        "locales": [
+          {
+            "description": "Content related to gambling, betting, casinos, sports betting, or gambling addiction triggers",
+            "lang": "en",
+            "name": "Gambling"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "crypto",
+        "locales": [
+          {
+            "description": "Content related to Bitcoin, cryptocurrency, NFTs, crypto trading, or blockchain investments",
+            "lang": "en",
+            "name": "Cryptocurrency"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "stocks",
+        "locales": [
+          {
+            "description": "Content related to stock trading, investment advice, day trading, or financial markets",
+            "lang": "en",
+            "name": "Stock Market"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "gambling",
+      "crypto",
+      "stocks"
+    ]
+  }
+}
