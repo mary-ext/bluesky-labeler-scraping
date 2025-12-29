@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4vjnmmmqhc4ammtzki2ugprz/app.bsky.labeler.service/self",
-  "cid": "bafyreiap6ot7pfkpobmbgaf6ohakk2sqvuuevvvbr5toobe6eavpmzzjyi",
+  "cid": "bafyreigpyrxnc5rnsgoby5zvirfe2mrzowhxjki7waptne2gvhrz6ktqgi",
   "creator": {
     "did": "did:plc:4vjnmmmqhc4ammtzki2ugprz",
     "handle": "label.rito.blue",
@@ -13,26 +13,40 @@
     "labels": [],
     "createdAt": "0001-01-01T00:00:00.000Z"
   },
-  "indexedAt": "2025-12-27T16:26:10.831Z",
+  "indexedAt": "2025-12-28T15:58:54.039Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "tatsu",
+        "identifier": "000",
         "locales": [
           {
-            "description": "タツ",
+            "description": "いぬ",
             "lang": "ja",
-            "name": "辰"
+            "name": "戌"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "001",
+        "locales": [
+          {
+            "description": "へび",
+            "lang": "ja",
+            "name": "蛇"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "tatsu"
+      "000",
+      "001"
     ]
   }
 }
