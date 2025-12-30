@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
-  "cid": "bafyreidyj75fvvoxlldvkir4tu5d3u5di463mjbhe5dfghjlmuypx2s3ea",
+  "cid": "bafyreihhelcznuqv4qvnum5yd5lqbwjjk6h5ojwhm6dedgys7v3m66y2la",
   "creator": {
     "did": "did:plc:saslbwamakedc4h6c5bmshvz",
     "handle": "labeler.hailey.at",
@@ -17,7 +17,7 @@
     "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey\n\nLabels are not absolute judgements, but rather information about the type of account or content you may be interacting with.\n\nRuleset: https://github.com/haileyok/atproto-ruleset",
     "indexedAt": "2025-12-22T22:37:49.724Z"
   },
-  "indexedAt": "2025-12-27T07:17:11.434Z",
+  "indexedAt": "2025-12-29T08:42:36.536Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -300,10 +300,40 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "likely-nsfw",
+        "locales": [
+          {
+            "description": "This post contains imagery that is likely NSFW in nature. False positives may occur, and caution is recommended if choosing to hide based on this label. Note that NSFW is not a judgement about a particular kind of content, but rather a distinction on whether something should appear on your screen at work or in public.",
+            "lang": "en",
+            "name": "Likely NSFW"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "possible-nsfw",
+        "locales": [
+          {
+            "description": "This post contains imagery that is possibly NSFW in nature. There is lower confidence in this content being NSFW than would warrant a \"Likely NSFW\" label. False positives may occur, and strong caution is recommended if choosing to hide based on this label. Note that NSFW is not a judgement about a particular kind of content, but rather a distinction on whether something should appear on your screen at work or in public.",
+            "lang": "en",
+            "name": "Possible NSFW"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
       "hailey",
+      "likely-nsfw",
+      "possible-nsfw",
       "men-facet-abuse",
       "mass-follow-mid",
       "mass-follow-high",
