@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:lf6kzcrw6mntttgrtawemegz/app.bsky.labeler.service/self",
-  "cid": "bafyreihbs4y3ncnhqksfiku72eav2hmu2p5dheprwvny72fef5m6gafczq",
+  "cid": "bafyreidwoqzilwwqub4cecxesfomewmrd3ofzthzlfa2jk3es5276r4pdq",
   "creator": {
     "did": "did:plc:lf6kzcrw6mntttgrtawemegz",
     "handle": "pebble-lbl-test.bsky.social",
@@ -16,9 +16,28 @@
     "createdAt": "2025-11-19T21:17:19.725Z",
     "indexedAt": "2025-11-19T21:57:26.025Z"
   },
-  "indexedAt": "2025-11-19T21:24:46.635Z",
+  "indexedAt": "2025-12-30T22:18:36.934Z",
   "labels": [],
   "policies": {
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "Misinformation",
+        "locales": [
+          {
+            "description": "Hide information that is marked as Misinformation",
+            "lang": "en",
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "Pebble-Test",
+      "Misinformation"
+    ]
   }
 }
