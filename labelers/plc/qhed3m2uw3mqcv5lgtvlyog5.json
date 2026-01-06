@@ -1,0 +1,50 @@
+{
+  "uri": "at://did:plc:qhed3m2uw3mqcv5lgtvlyog5/app.bsky.labeler.service/self",
+  "cid": "bafyreickn3h5gztxvyhakklfep5bizmthcr4g3gsjtqkuyhi4jdcadyhme",
+  "creator": {
+    "did": "did:plc:qhed3m2uw3mqcv5lgtvlyog5",
+    "handle": "verified.babesky.com",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qhed3m2uw3mqcv5lgtvlyog5/bafkreifr7wi4h4ur7z2r2bosl66y2sunsyupqrpish3zjfcq4f6nnodniu@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-01-05T19:43:19.825Z",
+    "description": "WIP - a @Babesky.com project by @sweetbee.vip",
+    "indexedAt": "2026-01-05T21:07:12.924Z"
+  },
+  "indexedAt": "2026-01-05T20:49:28.328Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-creator",
+        "locales": [
+          {
+            "description": "Indicates this profile is a real creator who is age and ID verified through at least one widely recognized adult site.",
+            "lang": "en",
+            "name": "Verified Creator"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verified-creator",
+      "babesky-official"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ]
+}
