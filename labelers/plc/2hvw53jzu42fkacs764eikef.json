@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:2hvw53jzu42fkacs764eikef/app.bsky.labeler.service/self",
-  "cid": "bafyreiezhcbetp24olsvrxln5ppdasspgmdxebue7323nevory4vdvc27m",
+  "cid": "bafyreifm2grvznm4gjjyfpu3ch5ubv4ljo5bptvc26sizxwywpgd36gwbm",
   "creator": {
     "did": "did:plc:2hvw53jzu42fkacs764eikef",
     "handle": "ddapps.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-11-17T12:38:40.959Z",
     "indexedAt": "2025-11-17T12:56:38.151Z"
   },
-  "indexedAt": "2025-12-08T17:04:21.132Z",
+  "indexedAt": "2026-01-06T15:58:11.236Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -75,13 +75,28 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "disinfo-lgbtq",
+        "locales": [
+          {
+            "description": "Account regularly engages in disinformation or attacks against the LGBTQ+ community.",
+            "lang": "en",
+            "name": "Disinfo: LGBTQ+ Disinfo"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
       "rosetta-fake-news",
       "rosetta-pink-slime",
       "rosetta-disinfo-misleading",
-      "disinfo-climate"
+      "disinfo-climate",
+      "disinfo-lgbtq"
     ]
   }
 }

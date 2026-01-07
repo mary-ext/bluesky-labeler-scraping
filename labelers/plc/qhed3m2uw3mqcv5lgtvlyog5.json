@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:qhed3m2uw3mqcv5lgtvlyog5/app.bsky.labeler.service/self",
-  "cid": "bafyreickn3h5gztxvyhakklfep5bizmthcr4g3gsjtqkuyhi4jdcadyhme",
+  "cid": "bafyreidg7rqfld7a7wcgi37yefognfjitjkprxcblv3nw4w7ahepxmry3i",
   "creator": {
     "did": "did:plc:qhed3m2uw3mqcv5lgtvlyog5",
     "handle": "verified.babesky.com",
-    "displayName": "",
+    "displayName": "Verified Adult Creator Labeler",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qhed3m2uw3mqcv5lgtvlyog5/bafkreifr7wi4h4ur7z2r2bosl66y2sunsyupqrpish3zjfcq4f6nnodniu@jpeg",
     "associated": {
       "labeler": true,
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-01-05T19:43:19.825Z",
-    "description": "WIP - a @Babesky.com project by @sweetbee.vip",
-    "indexedAt": "2026-01-05T21:07:12.924Z"
+    "description": "@Babesky.com hand-verifies individual adult creator accounts to make sure they are who they say they are. All verified creators have been age and ID verified by a widely recognized adult platform\n\nBuilt by @sweetbee.vip\n\nCreator Directory: club.babesky.com",
+    "indexedAt": "2026-01-06T03:26:59.025Z"
   },
-  "indexedAt": "2026-01-05T20:49:28.328Z",
+  "indexedAt": "2026-01-06T05:23:51.532Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,11 +34,115 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "babesky-official",
+        "locales": [
+          {
+            "description": "Indicates this profile is owned by @Babesky.com network.",
+            "lang": "en",
+            "name": "Babesky Official"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "onlyfans-verified",
+        "locales": [
+          {
+            "description": "Indicates this profile is a verified OnlyFans creator.",
+            "lang": "en",
+            "name": "OnlyFans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fansly-verified",
+        "locales": [
+          {
+            "description": "Indicates this profile is a verified Fansly creator.",
+            "lang": "en",
+            "name": "Fansly"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "patreon-verified",
+        "locales": [
+          {
+            "description": "Indicates this profile is a verified Patreon creator.",
+            "lang": "en",
+            "name": "Patreon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sextpanther-verified",
+        "locales": [
+          {
+            "description": "Indicates this profile is a verified Sextpanther model.",
+            "lang": "en",
+            "name": "Sextpanther"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "myfreecams-verified",
+        "locales": [
+          {
+            "description": "Indicates this profile is a verified MyFreeCams model.",
+            "lang": "en",
+            "name": "MyFreeCams"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "manyvids-verified",
+        "locales": [
+          {
+            "description": "Indicates this profile is a verified ManyVids creator.",
+            "lang": "en",
+            "name": "ManyVids"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "verified-creator",
-      "babesky-official"
+      "babesky-official",
+      "onlyfans-verified",
+      "fansly-verified",
+      "patreon-verified",
+      "sextpanther-verified",
+      "myfreecams-verified",
+      "manyvids-verified"
     ]
   },
   "reasonTypes": [
