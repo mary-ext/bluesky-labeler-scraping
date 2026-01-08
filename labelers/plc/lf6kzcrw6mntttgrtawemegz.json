@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:lf6kzcrw6mntttgrtawemegz/app.bsky.labeler.service/self",
-  "cid": "bafyreidwoqzilwwqub4cecxesfomewmrd3ofzthzlfa2jk3es5276r4pdq",
+  "cid": "bafyreibsgyohwwojh4hkkspo37cb5vtqcg3b2cjt3bbooete4ge7jnm7mq",
   "creator": {
     "did": "did:plc:lf6kzcrw6mntttgrtawemegz",
     "handle": "pebble-lbl-test.bsky.social",
@@ -16,28 +16,42 @@
     "createdAt": "2025-11-19T21:17:19.725Z",
     "indexedAt": "2025-11-19T21:57:26.025Z"
   },
-  "indexedAt": "2025-12-30T22:18:36.934Z",
+  "indexedAt": "2026-01-07T19:39:53.241Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "Misinformation",
+        "identifier": "pbbl-test-1",
         "locales": [
           {
-            "description": "Hide information that is marked as Misinformation",
+            "description": "test",
             "lang": "en",
-            "name": "Misinformation"
+            "name": "Test"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pbblr-winky",
+        "locales": [
+          {
+            "description": "This was supposed to say swanky",
+            "lang": "en",
+            "name": "Winky"
           }
         ],
         "severity": "alert"
       }
     ],
     "labelValues": [
-      "Pebble-Test",
-      "Misinformation"
+      "pbbl-test-1",
+      "pbblr-winky"
     ]
   }
 }
