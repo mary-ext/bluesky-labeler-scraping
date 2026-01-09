@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreihaekze3bzledfiyoe4ujt7at6m7whway5bzi4rytdtod3lmv46hm",
+  "cid": "bafyreiazq32ce5wnfqlwhpjbxqms3iaaciqkmx6yg4ystw4h6p5cdppt3i",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-07T20:24:16.647Z",
+  "indexedAt": "2026-01-08T22:24:15.939Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -529,12 +529,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-witchcraft-pds",
+        "identifier": "app-certified-test-pds--eu--west4",
         "locales": [
           {
-            "description": "Account is hosted by the pds.witchcraft.systems PDS",
+            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
             "lang": "en",
-            "name": "pds.witchcraft.systems"
+            "name": "pds-eu-west4.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -543,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds--eu--west4",
+        "identifier": "systems-witchcraft-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
+            "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
-            "name": "pds-eu-west4.test.certified.app"
+            "name": "pds.witchcraft.systems"
           }
         ],
         "severity": "inform"
@@ -703,20 +703,6 @@
             "description": "Account is hosted by the magallan.online PDS",
             "lang": "en",
             "name": "magallan.online"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cc-snek-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.snek.cc PDS",
-            "lang": "en",
-            "name": "pds.snek.cc"
           }
         ],
         "severity": "inform"
@@ -1215,6 +1201,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "eu-wsocial-dev--pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the dev-pds.wsocial.eu PDS",
+            "lang": "en",
+            "name": "dev-pds.wsocial.eu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "best-akizuki-pds",
         "locales": [
           {
@@ -1235,20 +1235,6 @@
             "description": "Account is hosted by the bsky.pink PDS",
             "lang": "en",
             "name": "bsky.pink"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "eu-wsocial-dev--pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev-pds.wsocial.eu PDS",
-            "lang": "en",
-            "name": "dev-pds.wsocial.eu"
           }
         ],
         "severity": "inform"
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "systems-wizardry-buttercup",
+        "locales": [
+          {
+            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
+            "lang": "en",
+            "name": "buttercup.wizardry.systems"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1487,8 +1487,8 @@
       "com-atheistmass-pds",
       "to-bbi",
       "com-arankwende",
-      "systems-witchcraft-pds",
       "app-certified-test-pds--eu--west4",
+      "systems-witchcraft-pds",
       "world-si46-pds--dev",
       "ai-bigt-pds",
       "network-eny-pds-oyster",
@@ -1500,7 +1500,6 @@
       "info-poltr-pds",
       "social-seabikes",
       "online-magallan",
-      "cc-snek-pds",
       "social-northsky",
       "es-nobitch-bpds",
       "com-chrise-bsky",
@@ -1536,9 +1535,9 @@
       "com-skeetcentral",
       "social-theatl",
       "cloud-tophhie-pds",
+      "eu-wsocial-dev--pds",
       "best-akizuki-pds",
       "pink-bsky",
-      "eu-wsocial-dev--pds",
       "social-grapevyne",
       "earth-silvi-pds",
       "download-synth-pds",
@@ -1552,7 +1551,8 @@
       "mom-rat",
       "at-hailey-cocoon",
       "com-documatric",
-      "xyz-merklehost-pds"
+      "xyz-merklehost-pds",
+      "systems-wizardry-buttercup"
     ]
   }
 }
