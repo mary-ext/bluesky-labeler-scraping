@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiazq32ce5wnfqlwhpjbxqms3iaaciqkmx6yg4ystw4h6p5cdppt3i",
+  "cid": "bafyreiftooiybsehf2xzgwzbv3xm4kuu5tdmrcabxvau35weknpooioezy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-08T22:24:15.939Z",
+  "indexedAt": "2026-01-09T14:24:16.639Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -641,20 +641,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blue-catbird-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.catbird.blue PDS",
-            "lang": "en",
-            "name": "pds.catbird.blue"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-gezellix-pds",
         "locales": [
           {
@@ -991,12 +977,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-scanash-cocoon",
+        "identifier": "app-certified-test-sds--eu--west4",
         "locales": [
           {
-            "description": "Account is hosted by the cocoon.scanash.com PDS",
+            "description": "Account is hosted by the sds-eu-west4.test.certified.app PDS",
             "lang": "en",
-            "name": "cocoon.scanash.com"
+            "name": "sds-eu-west4.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -1005,12 +991,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-sds--eu--west4",
+        "identifier": "com-scanash-cocoon",
         "locales": [
           {
-            "description": "Account is hosted by the sds-eu-west4.test.certified.app PDS",
+            "description": "Account is hosted by the cocoon.scanash.com PDS",
             "lang": "en",
-            "name": "sds-eu-west4.test.certified.app"
+            "name": "cocoon.scanash.com"
           }
         ],
         "severity": "inform"
@@ -1229,6 +1215,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bsea-pds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds1.bsea.social PDS",
+            "lang": "en",
+            "name": "pds1.bsea.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "pink-bsky",
         "locales": [
           {
@@ -1277,20 +1277,6 @@
             "description": "Account is hosted by the pds.synth.download PDS",
             "lang": "en",
             "name": "pds.synth.download"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bsea-pds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1.bsea.social PDS",
-            "lang": "en",
-            "name": "pds1.bsea.social"
           }
         ],
         "severity": "inform"
@@ -1425,6 +1411,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "dev-ngrok-jarlix",
+        "locales": [
+          {
+            "description": "Account is hosted by the jarlix.ngrok.dev PDS",
+            "lang": "en",
+            "name": "jarlix.ngrok.dev"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "xyz-merklehost-pds",
         "locales": [
           {
@@ -1495,7 +1495,6 @@
       "org-climateai",
       "wtf-lamp",
       "dev-fly-crimson--field--2410",
-      "blue-catbird-pds",
       "com-gezellix-pds",
       "info-poltr-pds",
       "social-seabikes",
@@ -1520,8 +1519,8 @@
       "free-squid-pds--1f73e",
       "free-squid-pds--2db66",
       "eu-blsky-pds",
-      "com-scanash-cocoon",
       "app-certified-test-sds--eu--west4",
+      "com-scanash-cocoon",
       "is-socl",
       "systems-wizardry-testpds",
       "moe-waf-at",
@@ -1537,11 +1536,11 @@
       "cloud-tophhie-pds",
       "eu-wsocial-dev--pds",
       "best-akizuki-pds",
+      "social-bsea-pds1",
       "pink-bsky",
       "social-grapevyne",
       "earth-silvi-pds",
       "download-synth-pds",
-      "social-bsea-pds1",
       "net-altq",
       "net-shendrick-at",
       "gay-evil",
@@ -1551,6 +1550,7 @@
       "mom-rat",
       "at-hailey-cocoon",
       "com-documatric",
+      "dev-ngrok-jarlix",
       "xyz-merklehost-pds",
       "systems-wizardry-buttercup"
     ]
