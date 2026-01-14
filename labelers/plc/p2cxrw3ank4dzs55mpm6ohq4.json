@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreibm57siqtrd2f3g4bwlffscic6jh5jd236nkqaiiqnviunhfh6zvu",
+  "cid": "bafyreidz54ikmzlnhnfr7fjld3bskeqcx4wjtlqyyyxcn23ainuhcgljeq",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
     "handle": "moderation.northsky.social",
@@ -17,10 +17,25 @@
     "description": "⚠️In Alpha Testing - Not Actively Staffed Yet!⚠️\n\n🌌Moderation services offered by Northsky Social🌌\nAll volunteer team of moderators (reports will process slowly)\n\nYou can support our efforts here: https://northskysocial.com/profile/products",
     "indexedAt": "2026-01-06T08:41:04.124Z"
   },
-  "indexedAt": "2026-01-11T12:33:54.032Z",
+  "indexedAt": "2026-01-13T11:21:19.932Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [],
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "apologia-transphobia",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Apologia (Transphobia)"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
     "labelValues": [
       "ableism",
       "acephobia",
@@ -48,7 +63,8 @@
       "doxxing",
       "self-harm",
       "impersonation",
-      "parody"
+      "parody",
+      "apologia-transphobia"
     ]
   },
   "reasonTypes": [
