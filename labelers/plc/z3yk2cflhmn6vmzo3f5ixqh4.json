@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:z3yk2cflhmn6vmzo3f5ixqh4/app.bsky.labeler.service/self",
-  "cid": "bafyreif6cilnb556ambcpck3odpdh2uv3xx7qtzdtngzzth4u77kb4lkwe",
+  "cid": "bafyreia3nucuqrnguzagng6ivderxx74lw5sjw6dnil2dsf5ub3bl6rz3a",
   "creator": {
     "did": "did:plc:z3yk2cflhmn6vmzo3f5ixqh4",
     "handle": "yardcrow.com",
@@ -20,7 +20,7 @@
     "description": "The Yard Crow watches\nHandcrafted and Artisanal labels\n(please tag @patri.xyz for requests, questions or removal!)\n\nNot in any way automated, but we'll get to you! (non-threateningly)\nUpon request, most labels can be text or emoji.",
     "indexedAt": "2024-11-11T23:42:59.003Z"
   },
-  "indexedAt": "2025-10-14T21:16:57.727Z",
+  "indexedAt": "2026-01-14T23:15:43.243Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1722,6 +1722,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "defunct",
+        "locales": [
+          {
+            "description": "This account is defunct. It no longer provides the service listed in the description. No intent is implied by this label.",
+            "lang": "en",
+            "name": "🪦 Defunct"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "twok",
         "locales": [
           {
@@ -1858,7 +1872,7 @@
       "n-usa",
       "n-brazil",
       "twok",
-      ""
+      "defunct"
     ]
   },
   "reasonTypes": [

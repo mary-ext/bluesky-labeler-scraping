@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jh3konxl6bgwegzquplyqjfq/app.bsky.labeler.service/self",
-  "cid": "bafyreiapw5axmozrlccrve5nfddqnbnltz3qlixsc2me7k6wyanm3znnxy",
+  "cid": "bafyreibrxrmpd4ovknh55q62gldzhcuslwscfhsyugffn2cltrut3fx6di",
   "creator": {
     "did": "did:plc:jh3konxl6bgwegzquplyqjfq",
     "handle": "perfect-skeeties.bsky.social",
@@ -15,42 +15,59 @@
     "labels": [],
     "createdAt": "2026-01-12T23:19:18.724Z",
     "description": "A whimsical labeler with some fun labels. Operated by @gregthemiller.bsky.social\n\nPFP attribution: https://www.flaticon.com/free-icons/candy",
-    "indexedAt": "2026-01-13T22:17:58.824Z"
+    "indexedAt": "2026-01-14T01:33:21.826Z"
   },
-  "indexedAt": "2026-01-13T23:53:30.135Z",
+  "indexedAt": "2026-01-14T01:02:12.231Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "appliedActions": [
-          "hide",
-          "warn",
-          "inform",
-          "highlight"
-        ],
         "blurs": "none",
-        "defaultSetting": "highlight",
+        "defaultSetting": "warn",
         "identifier": "perfect-sweetie",
         "locales": [
           {
             "description": "This user is a perfect sweetie.",
             "lang": "en",
-            "name": "Perfect Sweetie "
+            "name": "Perfect Sweetie"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ketchup-maniac",
+        "locales": [
+          {
+            "description": "This user is obsessed with ketchup.",
+            "lang": "en",
+            "name": "Ketchup Maniac"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ketchup-hater",
+        "locales": [
+          {
+            "description": "This user hates ketchup with a passion.",
+            "lang": "en",
+            "name": "Ketchup Hater"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "perfect-sweetie"
+      "perfect-sweetie",
+      "ketchup-maniac",
+      "ketchup-hater"
     ]
-  },
-  "subjectTypes": [
-    "account"
-  ],
-  "subjectCollections": [
-    "app.bsky.feed.post",
-    "app.bsky.actor.profile"
-  ]
+  }
 }
