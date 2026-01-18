@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:ah4tjc3trzqfivi2owt7iibw/app.bsky.labeler.service/self",
-  "cid": "bafyreictsqei5lsga6czbbkzivq5ylv76o7ukassbpn5gumyofllt33ye4",
+  "cid": "bafyreifnd6byjug33aid4ccf4hm3pl35gkeivn53qrpsd3vu5puvurc2vy",
   "creator": {
     "did": "did:plc:ah4tjc3trzqfivi2owt7iibw",
     "handle": "moderation.popfeed.social",
@@ -17,9 +17,21 @@
     "description": "Official Labeler for @popfeed.social",
     "indexedAt": "2026-01-16T22:43:11.124Z"
   },
-  "indexedAt": "2026-01-16T06:09:30.132Z",
+  "indexedAt": "2026-01-17T20:46:06.348Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValues": [
+      "popfeed-spam",
+      "popfeed-harassment",
+      "popfeed-spoilers",
+      "popfeed-scam",
+      "popfeed-illegal",
+      "popfeed-takedown"
+    ]
+  },
+  "subjectCollections": [
+    "social.popfeed.feed.review",
+    "social.popfeed.feed.note",
+    "social.popfeed.feed.comment"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicn5kwtbx3iusdwwkpwa6gxhuks35dse4xgyimgtb3ghtoekmxqia",
+  "cid": "bafyreicep7ish2jig73jvjmrehkh4337z5g34cr5wfcg4ygptvyczf43sm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-15T18:12:06.254Z",
+  "indexedAt": "2026-01-17T20:12:06.141Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -67,12 +67,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-si46-pds",
+        "identifier": "app-blacksky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.si46.world PDS",
+            "description": "Account is hosted by the blacksky.app PDS",
             "lang": "en",
-            "name": "pds.si46.world"
+            "name": "blacksky.app"
           }
         ],
         "severity": "inform"
@@ -81,12 +81,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-blacksky",
+        "identifier": "world-si46-pds",
         "locales": [
           {
-            "description": "Account is hosted by the blacksky.app PDS",
+            "description": "Account is hosted by the pds.si46.world PDS",
             "lang": "en",
-            "name": "blacksky.app"
+            "name": "pds.si46.world"
           }
         ],
         "severity": "inform"
@@ -543,6 +543,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-northsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the northsky.social PDS",
+            "lang": "en",
+            "name": "northsky.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "info-poltr-pds",
         "locales": [
           {
@@ -557,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-bigt-pds",
+        "identifier": "org-climateai",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bigt.ai PDS",
+            "description": "Account is hosted by the climateai.org PDS",
             "lang": "en",
-            "name": "pds.bigt.ai"
+            "name": "climateai.org"
           }
         ],
         "severity": "inform"
@@ -571,12 +585,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-climateai",
+        "identifier": "ai-bigt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the climateai.org PDS",
+            "description": "Account is hosted by the pds.bigt.ai PDS",
             "lang": "en",
-            "name": "climateai.org"
+            "name": "pds.bigt.ai"
           }
         ],
         "severity": "inform"
@@ -605,20 +619,6 @@
             "description": "Account is hosted by the lamp.wtf PDS",
             "lang": "en",
             "name": "lamp.wtf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-northsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the northsky.social PDS",
-            "lang": "en",
-            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -851,20 +851,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-ocho",
-        "locales": [
-          {
-            "description": "Account is hosted by the ocho.app PDS",
-            "lang": "en",
-            "name": "ocho.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "app-certified-test-sds--eu--west4",
         "locales": [
           {
@@ -879,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blue-zio",
+        "identifier": "app-ocho",
         "locales": [
           {
-            "description": "Account is hosted by the zio.blue PDS",
+            "description": "Account is hosted by the ocho.app PDS",
             "lang": "en",
-            "name": "zio.blue"
+            "name": "ocho.app"
           }
         ],
         "severity": "inform"
@@ -991,6 +977,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bsea-pds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds1.bsea.social PDS",
+            "lang": "en",
+            "name": "pds1.bsea.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "is-socl",
         "locales": [
           {
@@ -1011,20 +1011,6 @@
             "description": "Account is hosted by the pds.tgirl.cloud PDS",
             "lang": "en",
             "name": "pds.tgirl.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bsea-pds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1.bsea.social PDS",
-            "lang": "en",
-            "name": "pds1.bsea.social"
           }
         ],
         "severity": "inform"
@@ -1075,12 +1061,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "uk-madebydanny-pds",
+        "identifier": "eu-wsocial-dev--pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.madebydanny.uk PDS",
+            "description": "Account is hosted by the dev-pds.wsocial.eu PDS",
             "lang": "en",
-            "name": "pds.madebydanny.uk"
+            "name": "dev-pds.wsocial.eu"
           }
         ],
         "severity": "inform"
@@ -1089,12 +1075,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "eu-wsocial-dev--pds",
+        "identifier": "uk-madebydanny-pds",
         "locales": [
           {
-            "description": "Account is hosted by the dev-pds.wsocial.eu PDS",
+            "description": "Account is hosted by the pds.madebydanny.uk PDS",
             "lang": "en",
-            "name": "dev-pds.wsocial.eu"
+            "name": "pds.madebydanny.uk"
           }
         ],
         "severity": "inform"
@@ -1201,6 +1187,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blue-zio",
+        "locales": [
+          {
+            "description": "Account is hosted by the zio.blue PDS",
+            "lang": "en",
+            "name": "zio.blue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "best-akizuki-pds",
         "locales": [
           {
@@ -1299,6 +1299,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "systems-wizardry-buttercup",
+        "locales": [
+          {
+            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
+            "lang": "en",
+            "name": "buttercup.wizardry.systems"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "gay-evil",
         "locales": [
           {
@@ -1355,20 +1369,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-wizardry-buttercup",
-        "locales": [
-          {
-            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
-            "lang": "en",
-            "name": "buttercup.wizardry.systems"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "dev-ngrok-jarlix",
         "locales": [
           {
@@ -1389,6 +1389,20 @@
             "description": "Account is hosted by the pds.ripperoni.com PDS",
             "lang": "en",
             "name": "pds.ripperoni.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mom-rat",
+        "locales": [
+          {
+            "description": "Account is hosted by the rat.mom PDS",
+            "lang": "en",
+            "name": "rat.mom"
           }
         ],
         "severity": "inform"
@@ -1434,28 +1448,14 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "computer-vixen-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.vixen.computer PDS",
-            "lang": "en",
-            "name": "pds.vixen.computer"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
       "internal-independent",
       "internal-other",
       "app-ngrok--free-randomly--generated",
-      "world-si46-pds",
       "app-blacksky",
+      "world-si46-pds",
       "computer-aesthetic-at",
       "info-keik",
       "xyz-gems",
@@ -1488,12 +1488,12 @@
       "app-certified-test-pds--eu--west4",
       "systems-witchcraft-pds",
       "world-si46-pds--dev",
+      "social-northsky",
       "info-poltr-pds",
-      "ai-bigt-pds",
       "org-climateai",
+      "ai-bigt-pds",
       "network-eny-pds-oyster",
       "wtf-lamp",
-      "social-northsky",
       "dev-fly-crimson--field--2410",
       "com-gezellix-pds",
       "social-seabikes",
@@ -1510,9 +1510,8 @@
       "cc-mysocial-bsk",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
-      "app-ocho",
       "app-certified-test-sds--eu--west4",
-      "blue-zio",
+      "app-ocho",
       "social-reme",
       "chat-wndr",
       "free-squid-pds--1f73e",
@@ -1520,14 +1519,14 @@
       "eu-blsky-pds",
       "com-scanash-cocoon",
       "moe-waf-at",
+      "social-bsea-pds1",
       "is-socl",
       "cloud-tgirl-pds",
-      "social-bsea-pds1",
       "systems-wizardry-testpds",
       "chat-wolp-bark-bsky",
       "io-koda--agency-pds",
-      "uk-madebydanny-pds",
       "eu-wsocial-dev--pds",
+      "uk-madebydanny-pds",
       "cymru-360-pds",
       "dev-venki-blogsky",
       "com-iiinova",
@@ -1535,6 +1534,7 @@
       "cloud-tophhie-pds",
       "com-skeetcentral",
       "social-theatl",
+      "blue-zio",
       "best-akizuki-pds",
       "pink-bsky",
       "social-grapevyne",
@@ -1542,17 +1542,17 @@
       "download-synth-pds",
       "net-altq",
       "net-shendrick-at",
+      "systems-wizardry-buttercup",
       "gay-evil",
       "social-gumby",
       "xyz-girlonthemoon-katproto",
       "es-peedee",
-      "systems-wizardry-buttercup",
       "dev-ngrok-jarlix",
       "com-ripperoni-pds",
+      "mom-rat",
       "at-hailey-cocoon",
       "com-documatric",
-      "xyz-merklehost-pds",
-      "computer-vixen-pds"
+      "xyz-merklehost-pds"
     ]
   }
 }

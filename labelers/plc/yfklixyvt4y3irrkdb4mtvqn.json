@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:yfklixyvt4y3irrkdb4mtvqn/app.bsky.labeler.service/self",
-  "cid": "bafyreieauvrsxjekekgxmsnzdi3qcklqnnojrua57ptk6q3nhahiusctoy",
+  "cid": "bafyreic3tzt5zffk4zixi2nen46us62bsr3mwi4m5abtwn6iqjhvdmv6eu",
   "creator": {
     "did": "did:plc:yfklixyvt4y3irrkdb4mtvqn",
     "handle": "meowderation.tngl.sh",
     "displayName": "meowderation",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yfklixyvt4y3irrkdb4mtvqn/bafkreibbdtl3hobki4lzaq4dgyzmenx6y2azxspojklb6hrpnewhvaknum@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yfklixyvt4y3irrkdb4mtvqn/bafkreigvdjxl6npaezipuji3fvxbj4v7uj47wl2qndunkemh3clnckvjeq@jpeg",
     "associated": {
       "labeler": true,
       "chat": {
@@ -18,9 +18,9 @@
     "labels": [],
     "createdAt": "2025-09-10T23:20:37.498Z",
     "description": "dis is run by: https://bsky.app/profile/did:plc:yfklixyvt4y3irrkdb4mtvqn/lists/3mcaug654ze2u\n\npohweird biy nix\n\n(intended as a real replacement to bluesky moderation)",
-    "indexedAt": "2026-01-17T00:20:27.331Z"
+    "indexedAt": "2026-01-18T00:24:14.824Z"
   },
-  "indexedAt": "2026-01-16T22:19:55.334Z",
+  "indexedAt": "2026-01-17T04:15:03.731Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -163,6 +163,34 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "speach ib hatreful,,. >:c",
+            "lang": "en",
+            "name": "⚠︎ hate speech"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "love-speech",
+        "locales": [
+          {
+            "description": "speach ib,,. luvefull ?",
+            "lang": "en",
+            "name": "♡ luve speech"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -175,7 +203,8 @@
       "rude",
       "meow",
       "covid",
-      "hate-speech"
+      "hate-speech",
+      "love-speech"
     ]
   }
 }

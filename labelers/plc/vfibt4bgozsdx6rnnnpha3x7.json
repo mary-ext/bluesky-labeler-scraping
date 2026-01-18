@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreic7nmzzbabkd5uhurpijoajh37oa5k265luy5mawnjfxefitbfomm",
+  "cid": "bafyreihkskvcbfieq7zvtakxgn2iw26ot47dpl76dfj246o4einpvahisy",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2025-12-11T03:50:17.134Z",
+  "indexedAt": "2026-01-17T05:33:23.633Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -347,6 +347,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network-cosmik",
+        "locales": [
+          {
+            "description": "A social knowledge tool for researchers built on ATProto (network.cosmik.*)",
+            "lang": "en",
+            "name": "Semble"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-sidetrail",
         "locales": [
           {
@@ -606,6 +620,7 @@
       "exchange-recipe",
       "app-rocksky",
       "space-roomy",
+      "network-cosmik",
       "app-sidetrail",
       "my-skylights",
       "events-smokesignal",
