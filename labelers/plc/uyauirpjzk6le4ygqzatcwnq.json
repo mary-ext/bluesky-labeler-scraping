@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicep7ish2jig73jvjmrehkh4337z5g34cr5wfcg4ygptvyczf43sm",
+  "cid": "bafyreib6rbztzrxhqjtc7n3v6yf27he5w5lgxg5msclrtqddxkv2fytpzi",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-17T20:12:06.141Z",
+  "indexedAt": "2026-01-18T20:12:05.644Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -179,12 +179,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-yinzcloud-bsky-pds",
+        "identifier": "xyz-skystack",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bsky.yinzcloud.net PDS",
+            "description": "Account is hosted by the skystack.xyz PDS",
             "lang": "en",
-            "name": "pds.bsky.yinzcloud.net"
+            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -193,12 +193,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
+        "identifier": "net-yinzcloud-bsky-pds",
         "locales": [
           {
-            "description": "Account is hosted by the skystack.xyz PDS",
+            "description": "Account is hosted by the pds.bsky.yinzcloud.net PDS",
             "lang": "en",
-            "name": "skystack.xyz"
+            "name": "pds.bsky.yinzcloud.net"
           }
         ],
         "severity": "inform"
@@ -529,12 +529,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-si46-pds--dev",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "pds-dev.si46.world"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -543,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "world-si46-pds--dev",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the pds-dev.si46.world PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "pds-dev.si46.world"
           }
         ],
         "severity": "inform"
@@ -767,20 +767,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blog-bestofmodels-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
-            "lang": "en",
-            "name": "bsky.bestofmodels.blog"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "at-podping-pds1",
         "locales": [
           {
@@ -801,6 +787,20 @@
             "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
             "name": "pds.tribesocial.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blog-bestofmodels-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
+            "lang": "en",
+            "name": "bsky.bestofmodels.blog"
           }
         ],
         "severity": "inform"
@@ -977,6 +977,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "chat-wolp-bark-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "lang": "en",
+            "name": "bsky.bark.wolp.chat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-bsea-pds1",
         "locales": [
           {
@@ -1025,20 +1039,6 @@
             "description": "Account is hosted by the testpds.wizardry.systems PDS",
             "lang": "en",
             "name": "testpds.wizardry.systems"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
-            "lang": "en",
-            "name": "bsky.bark.wolp.chat"
           }
         ],
         "severity": "inform"
@@ -1271,34 +1271,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-altq",
-        "locales": [
-          {
-            "description": "Account is hosted by the altq.net PDS",
-            "lang": "en",
-            "name": "altq.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-shendrick-at",
-        "locales": [
-          {
-            "description": "Account is hosted by the at.shendrick.net PDS",
-            "lang": "en",
-            "name": "at.shendrick.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "systems-wizardry-buttercup",
         "locales": [
           {
@@ -1327,6 +1299,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-altq",
+        "locales": [
+          {
+            "description": "Account is hosted by the altq.net PDS",
+            "lang": "en",
+            "name": "altq.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "net-shendrick-at",
+        "locales": [
+          {
+            "description": "Account is hosted by the at.shendrick.net PDS",
+            "lang": "en",
+            "name": "at.shendrick.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-gumby",
         "locales": [
           {
@@ -1347,6 +1347,20 @@
             "description": "Account is hosted by the katproto.girlonthemoon.xyz PDS",
             "lang": "en",
             "name": "katproto.girlonthemoon.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-ridgeway-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.ridgeway.dev PDS",
+            "lang": "en",
+            "name": "pds.ridgeway.dev"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xyz-merklehost-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.merklehost.xyz PDS",
-            "lang": "en",
-            "name": "pds.merklehost.xyz"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1462,8 +1462,8 @@
       "so-sprk-pds",
       "sh-tngl",
       "net-wafrn-app-at",
-      "net-yinzcloud-bsky-pds",
       "xyz-skystack",
+      "net-yinzcloud-bsky-pds",
       "org-letspds-pds",
       "net-aenead-bsky",
       "app-louisvillebsky-pds",
@@ -1487,8 +1487,8 @@
       "com-arankwende",
       "app-certified-test-pds--eu--west4",
       "systems-witchcraft-pds",
-      "world-si46-pds--dev",
       "social-northsky",
+      "world-si46-pds--dev",
       "info-poltr-pds",
       "org-climateai",
       "ai-bigt-pds",
@@ -1504,9 +1504,9 @@
       "social-selfhosted",
       "shop-si46",
       "org-mpi--sws-mpi--bluesky--pds",
-      "blog-bestofmodels-bsky",
       "at-podping-pds1",
       "me-tribesocial-pds",
+      "blog-bestofmodels-bsky",
       "cc-mysocial-bsk",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
@@ -1519,11 +1519,11 @@
       "eu-blsky-pds",
       "com-scanash-cocoon",
       "moe-waf-at",
+      "chat-wolp-bark-bsky",
       "social-bsea-pds1",
       "is-socl",
       "cloud-tgirl-pds",
       "systems-wizardry-testpds",
-      "chat-wolp-bark-bsky",
       "io-koda--agency-pds",
       "eu-wsocial-dev--pds",
       "uk-madebydanny-pds",
@@ -1540,19 +1540,19 @@
       "social-grapevyne",
       "earth-silvi-pds",
       "download-synth-pds",
-      "net-altq",
-      "net-shendrick-at",
       "systems-wizardry-buttercup",
       "gay-evil",
+      "net-altq",
+      "net-shendrick-at",
       "social-gumby",
       "xyz-girlonthemoon-katproto",
+      "dev-ridgeway-pds",
       "es-peedee",
       "dev-ngrok-jarlix",
       "com-ripperoni-pds",
       "mom-rat",
       "at-hailey-cocoon",
-      "com-documatric",
-      "xyz-merklehost-pds"
+      "com-documatric"
     ]
   }
 }

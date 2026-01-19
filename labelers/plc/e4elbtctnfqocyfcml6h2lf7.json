@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreiedapiddd5nvfyc3azr7qkjzej54z2bkq5audfr4ybtyigystp74a",
+  "cid": "bafyreialaicyjzfy77s7wmyd3chgqnnofpoh7o2zllsfeynnlm36uqhfdq",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,7 +20,7 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nstats.skywatch.blue\n\nNot associated with SkySentry.",
     "indexedAt": "2025-07-12T21:42:44.432Z"
   },
-  "indexedAt": "2025-11-21T11:21:37.733Z",
+  "indexedAt": "2026-01-18T23:05:48.331Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,6 +34,20 @@
             "description": "Applied to accounts which claim to be or are verified to be US Government agencies.",
             "lang": "en",
             "name": "United States Government Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "no-dms",
+        "locales": [
+          {
+            "description": "Applied to accounts with 'No DMs' in their bio, but they have DMs open.",
+            "lang": "en",
+            "name": "🚫: No DMs"
           }
         ],
         "severity": "inform"
@@ -463,6 +477,7 @@
       "inverted-red-triangle",
       "low-quality-replies",
       "maga-trump",
+      "no-dms",
       "nazi-symbolism",
       "platform-manipulation",
       "rmve-imve",
