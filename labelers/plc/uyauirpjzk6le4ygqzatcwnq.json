@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreib6rbztzrxhqjtc7n3v6yf27he5w5lgxg5msclrtqddxkv2fytpzi",
+  "cid": "bafyreicl4kh5sgthbhjpracviprxqj4ntuyhldyvi5kxfcfqcc5uouvaa4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-18T20:12:05.644Z",
+  "indexedAt": "2026-01-19T10:21:58.635Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1229,6 +1229,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "systems-wizardry-buttercup",
+        "locales": [
+          {
+            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
+            "lang": "en",
+            "name": "buttercup.wizardry.systems"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-grapevyne",
         "locales": [
           {
@@ -1263,20 +1277,6 @@
             "description": "Account is hosted by the pds.synth.download PDS",
             "lang": "en",
             "name": "pds.synth.download"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "systems-wizardry-buttercup",
-        "locales": [
-          {
-            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
-            "lang": "en",
-            "name": "buttercup.wizardry.systems"
           }
         ],
         "severity": "inform"
@@ -1537,10 +1537,10 @@
       "blue-zio",
       "best-akizuki-pds",
       "pink-bsky",
+      "systems-wizardry-buttercup",
       "social-grapevyne",
       "earth-silvi-pds",
       "download-synth-pds",
-      "systems-wizardry-buttercup",
       "gay-evil",
       "net-altq",
       "net-shendrick-at",
