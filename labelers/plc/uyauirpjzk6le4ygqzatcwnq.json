@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicl4kh5sgthbhjpracviprxqj4ntuyhldyvi5kxfcfqcc5uouvaa4",
+  "cid": "bafyreigv6rgnxmbgi7sc6xakqglxuf4tqf4yujfwmls24fgfbhwpdt7n4m",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-19T10:21:58.635Z",
+  "indexedAt": "2026-01-23T22:45:23.561Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -403,6 +403,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-northsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the northsky.social PDS",
+            "lang": "en",
+            "name": "northsky.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "link-mybluesky",
         "locales": [
           {
@@ -487,20 +501,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-arankwende",
-        "locales": [
-          {
-            "description": "Account is hosted by the arankwende.com PDS",
-            "lang": "en",
-            "name": "arankwende.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "app-certified-test-pds--eu--west4",
         "locales": [
           {
@@ -515,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-witchcraft-pds",
+        "identifier": "com-arankwende",
         "locales": [
           {
-            "description": "Account is hosted by the pds.witchcraft.systems PDS",
+            "description": "Account is hosted by the arankwende.com PDS",
             "lang": "en",
-            "name": "pds.witchcraft.systems"
+            "name": "arankwende.com"
           }
         ],
         "severity": "inform"
@@ -529,12 +529,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "org-climateai",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the climateai.org PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "climateai.org"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "systems-witchcraft-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.witchcraft.systems PDS",
+            "lang": "en",
+            "name": "pds.witchcraft.systems"
           }
         ],
         "severity": "inform"
@@ -563,20 +577,6 @@
             "description": "Account is hosted by the pds.poltr.info PDS",
             "lang": "en",
             "name": "pds.poltr.info"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "org-climateai",
-        "locales": [
-          {
-            "description": "Account is hosted by the climateai.org PDS",
-            "lang": "en",
-            "name": "climateai.org"
           }
         ],
         "severity": "inform"
@@ -711,12 +711,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the roomy.chat PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "roomy.chat"
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -725,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "roomy.chat"
           }
         ],
         "severity": "inform"
@@ -921,6 +921,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bsea-pds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds1.bsea.social PDS",
+            "lang": "en",
+            "name": "pds1.bsea.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "free-squid-pds--2db66",
         "locales": [
           {
@@ -949,20 +963,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-scanash-cocoon",
-        "locales": [
-          {
-            "description": "Account is hosted by the cocoon.scanash.com PDS",
-            "lang": "en",
-            "name": "cocoon.scanash.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "moe-waf-at",
         "locales": [
           {
@@ -977,12 +977,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
+        "identifier": "com-scanash-cocoon",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "description": "Account is hosted by the cocoon.scanash.com PDS",
             "lang": "en",
-            "name": "bsky.bark.wolp.chat"
+            "name": "cocoon.scanash.com"
           }
         ],
         "severity": "inform"
@@ -991,12 +991,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bsea-pds1",
+        "identifier": "chat-wolp-bark-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds1.bsea.social PDS",
+            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
             "lang": "en",
-            "name": "pds1.bsea.social"
+            "name": "bsky.bark.wolp.chat"
           }
         ],
         "severity": "inform"
@@ -1047,12 +1047,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "space-cannect-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.cannect.space PDS",
+            "lang": "en",
+            "name": "pds.cannect.space"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "io-koda--agency-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.koda-agency.io PDS",
             "lang": "en",
             "name": "pds.koda-agency.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blue-zio",
+        "locales": [
+          {
+            "description": "Account is hosted by the zio.blue PDS",
+            "lang": "en",
+            "name": "zio.blue"
           }
         ],
         "severity": "inform"
@@ -1117,6 +1145,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "systems-wizardry-buttercup",
+        "locales": [
+          {
+            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
+            "lang": "en",
+            "name": "buttercup.wizardry.systems"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-iiinova",
         "locales": [
           {
@@ -1131,12 +1173,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "space-cannect-pds",
+        "identifier": "social-nstar",
         "locales": [
           {
-            "description": "Account is hosted by the pds.cannect.space PDS",
+            "description": "Account is hosted by the nstar.social PDS",
             "lang": "en",
-            "name": "pds.cannect.space"
+            "name": "nstar.social"
           }
         ],
         "severity": "inform"
@@ -1187,20 +1229,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blue-zio",
-        "locales": [
-          {
-            "description": "Account is hosted by the zio.blue PDS",
-            "lang": "en",
-            "name": "zio.blue"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "best-akizuki-pds",
         "locales": [
           {
@@ -1215,12 +1243,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pink-bsky",
+        "identifier": "space-quack-pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.pink PDS",
+            "description": "Account is hosted by the pds.quack.space PDS",
             "lang": "en",
-            "name": "bsky.pink"
+            "name": "pds.quack.space"
           }
         ],
         "severity": "inform"
@@ -1229,12 +1257,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-wizardry-buttercup",
+        "identifier": "pink-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the buttercup.wizardry.systems PDS",
+            "description": "Account is hosted by the bsky.pink PDS",
             "lang": "en",
-            "name": "buttercup.wizardry.systems"
+            "name": "bsky.pink"
           }
         ],
         "severity": "inform"
@@ -1383,20 +1411,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-ngrok-jarlix",
-        "locales": [
-          {
-            "description": "Account is hosted by the jarlix.ngrok.dev PDS",
-            "lang": "en",
-            "name": "jarlix.ngrok.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-ripperoni-pds",
         "locales": [
           {
@@ -1425,26 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-hailey-cocoon",
+        "identifier": "eu-wsocial-stage--pds",
         "locales": [
           {
-            "description": "Account is hosted by the cocoon.hailey.at PDS",
+            "description": "Account is hosted by the stage-pds.wsocial.eu PDS",
             "lang": "en",
-            "name": "cocoon.hailey.at"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-documatric",
-        "locales": [
-          {
-            "description": "Account is hosted by the documatric.com PDS",
-            "lang": "en",
-            "name": "documatric.com"
+            "name": "stage-pds.wsocial.eu"
           }
         ],
         "severity": "inform"
@@ -1478,19 +1478,19 @@
       "space-cannect",
       "cloud-hstgr-srv865737",
       "fail-marta",
+      "social-northsky",
       "link-mybluesky",
       "social-casjay",
       "social-stroam",
       "com-atheistmass-pds",
       "news-usapolitics-matrix",
       "to-bbi",
-      "com-arankwende",
       "app-certified-test-pds--eu--west4",
+      "com-arankwende",
+      "org-climateai",
       "systems-witchcraft-pds",
-      "social-northsky",
       "world-si46-pds--dev",
       "info-poltr-pds",
-      "org-climateai",
       "ai-bigt-pds",
       "network-eny-pds-oyster",
       "wtf-lamp",
@@ -1500,8 +1500,8 @@
       "online-magallan",
       "es-nobitch-bpds",
       "com-chrise-bsky",
-      "chat-roomy",
       "social-selfhosted",
+      "chat-roomy",
       "shop-si46",
       "org-mpi--sws-mpi--bluesky--pds",
       "at-podping-pds1",
@@ -1515,29 +1515,31 @@
       "social-reme",
       "chat-wndr",
       "free-squid-pds--1f73e",
+      "social-bsea-pds1",
       "free-squid-pds--2db66",
       "eu-blsky-pds",
-      "com-scanash-cocoon",
       "moe-waf-at",
+      "com-scanash-cocoon",
       "chat-wolp-bark-bsky",
-      "social-bsea-pds1",
       "is-socl",
       "cloud-tgirl-pds",
       "systems-wizardry-testpds",
+      "space-cannect-pds",
       "io-koda--agency-pds",
+      "blue-zio",
       "eu-wsocial-dev--pds",
       "uk-madebydanny-pds",
       "cymru-360-pds",
       "dev-venki-blogsky",
+      "systems-wizardry-buttercup",
       "com-iiinova",
-      "space-cannect-pds",
+      "social-nstar",
       "cloud-tophhie-pds",
       "com-skeetcentral",
       "social-theatl",
-      "blue-zio",
       "best-akizuki-pds",
+      "space-quack-pds",
       "pink-bsky",
-      "systems-wizardry-buttercup",
       "social-grapevyne",
       "earth-silvi-pds",
       "download-synth-pds",
@@ -1548,11 +1550,9 @@
       "xyz-girlonthemoon-katproto",
       "dev-ridgeway-pds",
       "es-peedee",
-      "dev-ngrok-jarlix",
       "com-ripperoni-pds",
       "mom-rat",
-      "at-hailey-cocoon",
-      "com-documatric"
+      "eu-wsocial-stage--pds"
     ]
   }
 }

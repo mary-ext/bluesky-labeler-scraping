@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mkj5rmeswytaiaqdd4bmdnfy/app.bsky.labeler.service/self",
-  "cid": "bafyreifg2zw2h4reafhhblajm2z7l6sz6jvc2pegns3kfdrfwgxtwqgca4",
+  "cid": "bafyreibcflqqayzaaujhcapzuskia7c72zslbfqgtdlm763zcyyltgtfky",
   "creator": {
     "did": "did:plc:mkj5rmeswytaiaqdd4bmdnfy",
     "handle": "perfect-skeeties.bsky.social",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-01-16T18:10:55.934Z",
-    "description": "A labeler for some fun and silly labels. Operated by @gregthemiller.bsky.social\n\nPFP attribution: https://www.flaticon.com/free-icons/candy\n\nSee pinned FAQ for more details.",
-    "indexedAt": "2026-01-22T03:53:04.625Z"
+    "description": "A labeler for some fun and silly labels. Operated by @gregthemiller.bsky.social\n\nPFP attribution: https://www.flaticon.com/free-icons/candy\n\nSee pinned FAQ for more details. Follow may be required to see post replies with label assignments.",
+    "indexedAt": "2026-01-23T23:07:13.944Z"
   },
-  "indexedAt": "2026-01-22T07:30:13.431Z",
+  "indexedAt": "2026-01-23T22:06:12.233Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -132,6 +132,90 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "haunted",
+        "locales": [
+          {
+            "description": "This user is haunted.",
+            "lang": "en",
+            "name": "Haunted"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hotdog",
+        "locales": [
+          {
+            "description": "This user is a Hot Dog.",
+            "lang": "en",
+            "name": "Hot Dog"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "midposter",
+        "locales": [
+          {
+            "description": "This user posts mid.",
+            "lang": "en",
+            "name": "Midposter"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "milqueposter",
+        "locales": [
+          {
+            "description": "This user milqueposts.",
+            "lang": "en",
+            "name": "Milqueposter"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sixtynine",
+        "locales": [
+          {
+            "description": "This user ruins 69's.",
+            "lang": "en",
+            "name": "69 Ruiner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "annoying",
+        "locales": [
+          {
+            "description": "This user is annoying.",
+            "lang": "en",
+            "name": "Annoying"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -142,7 +226,13 @@
       "bebe",
       "pizza",
       "silly",
-      "insomniac"
+      "insomniac",
+      "haunted",
+      "hotdog",
+      "midposter",
+      "milqueposter",
+      "sixtynine",
+      "annoying"
     ]
   }
 }
