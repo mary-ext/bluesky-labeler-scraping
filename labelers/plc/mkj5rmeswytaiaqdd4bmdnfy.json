@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mkj5rmeswytaiaqdd4bmdnfy/app.bsky.labeler.service/self",
-  "cid": "bafyreibcflqqayzaaujhcapzuskia7c72zslbfqgtdlm763zcyyltgtfky",
+  "cid": "bafyreienl32bycmzjfkkfnnn6fiobifb32tcdwmpiaalabvid7xkk4y6va",
   "creator": {
     "did": "did:plc:mkj5rmeswytaiaqdd4bmdnfy",
     "handle": "perfect-skeeties.bsky.social",
@@ -8,6 +8,9 @@
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mkj5rmeswytaiaqdd4bmdnfy/bafkreigz3g7oen7ufqbdm3hvpc57s7korp5lzcohfnbfnzqh55mq5ve7g4@jpeg",
     "associated": {
       "labeler": true,
+      "chat": {
+        "allowIncoming": "all"
+      },
       "activitySubscription": {
         "allowSubscriptions": "followers"
       }
@@ -17,7 +20,7 @@
     "description": "A labeler for some fun and silly labels. Operated by @gregthemiller.bsky.social\n\nPFP attribution: https://www.flaticon.com/free-icons/candy\n\nSee pinned FAQ for more details. Follow may be required to see post replies with label assignments.",
     "indexedAt": "2026-01-23T23:07:13.944Z"
   },
-  "indexedAt": "2026-01-23T22:06:12.233Z",
+  "indexedAt": "2026-01-24T05:36:10.652Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -216,6 +219,76 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hedgehog",
+        "locales": [
+          {
+            "description": "This user is or likes hedgehogs.",
+            "lang": "en",
+            "name": "Hedgehog"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "goblin",
+        "locales": [
+          {
+            "description": "This user is a Chaos Goblin.",
+            "lang": "en",
+            "name": "Chaos Goblin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gremlin",
+        "locales": [
+          {
+            "description": "This user is a Chaos Gremlin.",
+            "lang": "en",
+            "name": "Chaos Gremlin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "catlady",
+        "locales": [
+          {
+            "description": "This user is a crazy cat lady!",
+            "lang": "en",
+            "name": "Crazy Cat Lady"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "beesknees",
+        "locales": [
+          {
+            "description": "This user is the Bee's Knees!",
+            "lang": "en",
+            "name": "Bee's Knees"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -232,7 +305,12 @@
       "midposter",
       "milqueposter",
       "sixtynine",
-      "annoying"
+      "annoying",
+      "hedgehog",
+      "goblin",
+      "gremlin",
+      "catlady",
+      "beesknees"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreihkskvcbfieq7zvtakxgn2iw26ot47dpl76dfj246o4einpvahisy",
+  "cid": "bafyreigbu637cysrf6seejn3qqbbrdmu2vbpeivmkq7yha7z5oi7ab2ndq",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2026-01-17T05:33:23.633Z",
+  "indexedAt": "2026-01-24T05:00:29.055Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -101,6 +101,20 @@
             "description": "Connecting Fans and Creators (com.atprotofans.*)",
             "lang": "en",
             "name": "ATProtoFans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-blento",
+        "locales": [
+          {
+            "description": "your home on the internet, create your own personal page (app.blento.*)",
+            "lang": "en",
+            "name": "blento"
           }
         ],
         "severity": "inform"
@@ -431,6 +445,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "site-standard",
+        "locales": [
+          {
+            "description": "Open standards for long-form & site lexicons (site.standard.*)",
+            "lang": "en",
+            "name": "standard.site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "io-zzstoatzz-status",
         "locales": [
           {
@@ -603,6 +631,7 @@
       "place-atwork",
       "blue-zio-atfile",
       "com-atprotofans",
+      "app-blento",
       "blue-badge",
       "buzz-bookhive",
       "blue-flashes",
@@ -626,6 +655,7 @@
       "events-smokesignal",
       "st-snowpo",
       "so-sprk",
+      "site-standard",
       "io-zzstoatzz-status",
       "xyz-statusphere",
       "place-stream",
