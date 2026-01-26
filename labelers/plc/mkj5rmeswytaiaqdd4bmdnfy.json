@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mkj5rmeswytaiaqdd4bmdnfy/app.bsky.labeler.service/self",
-  "cid": "bafyreienl32bycmzjfkkfnnn6fiobifb32tcdwmpiaalabvid7xkk4y6va",
+  "cid": "bafyreidgpn7letiatvbi2vivygqa7545wumwfuunq3hf7yq3lrtu6jovga",
   "creator": {
     "did": "did:plc:mkj5rmeswytaiaqdd4bmdnfy",
     "handle": "perfect-skeeties.bsky.social",
@@ -17,10 +17,10 @@
     },
     "labels": [],
     "createdAt": "2026-01-16T18:10:55.934Z",
-    "description": "A labeler for some fun and silly labels. Operated by @gregthemiller.bsky.social\n\nPFP attribution: https://www.flaticon.com/free-icons/candy\n\nSee pinned FAQ for more details. Follow may be required to see post replies with label assignments.",
-    "indexedAt": "2026-01-23T23:07:13.944Z"
+    "description": "A labeler for some fun and silly labels. Operated by @gregthemiller.bsky.social\n\nSee pinned FAQ for more details. Following is required to see post replies with label assignments.",
+    "indexedAt": "2026-01-25T21:56:06.045Z"
   },
-  "indexedAt": "2026-01-24T05:36:10.652Z",
+  "indexedAt": "2026-01-25T19:41:13.360Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -289,6 +289,48 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tankgirl",
+        "locales": [
+          {
+            "description": "Alexis is a certified bad-ass Tank Girl.",
+            "lang": "en",
+            "name": "Tank Girl"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "innocent",
+        "locales": [
+          {
+            "description": "This user is innocent!",
+            "lang": "en",
+            "name": "Innocent"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cheeseplease",
+        "locales": [
+          {
+            "description": "Please give this user some cheese!",
+            "lang": "en",
+            "name": "Cheese Please"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -310,7 +352,10 @@
       "goblin",
       "gremlin",
       "catlady",
-      "beesknees"
+      "beesknees",
+      "tankgirl",
+      "innocent",
+      "cheeseplease"
     ]
   }
 }
