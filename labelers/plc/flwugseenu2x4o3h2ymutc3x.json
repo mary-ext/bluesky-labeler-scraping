@@ -1,0 +1,110 @@
+{
+  "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
+  "cid": "bafyreift37lg2wqqqjzpjigxkgcjgxfaj7zg4brpxrlsqxsrfjjxuxixly",
+  "creator": {
+    "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
+    "handle": "labeler.blackwall.gg",
+    "displayName": "Blackwall.gg Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:flwugseenu2x4o3h2ymutc3x/bafkreicedpmkin4lwhawhlysjdf63ruwhrneyqpzsnmndh23gmkqe7lq3y@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-01-27T11:08:42.146Z",
+    "description": "Labels AI imagery, and audio, main account at \nhttps://bsky.app/profile/blackwall.gg",
+    "indexedAt": "2026-01-27T14:55:48.846Z"
+  },
+  "indexedAt": "2026-01-27T14:34:04.249Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "aiprofile",
+        "locales": [
+          {
+            "description": "Displays a badge when a user has an AI Generated Profile picture or banner",
+            "lang": "en",
+            "name": "AI Banner/PFP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "imageryaccount",
+        "locales": [
+          {
+            "description": "Accounts that frequently or un-apologetically post AI images",
+            "lang": "en",
+            "name": "AI Imagery Poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "imagerypost",
+        "locales": [
+          {
+            "description": "Individual posts containing AI Imagery",
+            "lang": "en",
+            "name": "AI Imagery Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "audioaccount",
+        "locales": [
+          {
+            "description": "Accounts that frequently or un-apologetically post AI Audio, such as AI generated voices or instrumentals.",
+            "lang": "en",
+            "name": "AI Audio Poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "audiopost",
+        "locales": [
+          {
+            "description": "Individual posts containing AI Modified or generated Audio",
+            "lang": "en",
+            "name": "AI Audio Post"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "aiprofile",
+      "imageryaccount",
+      "audioaccount",
+      "programmingaccount",
+      "imagerypost",
+      "audiopost",
+      "programmingpost"
+    ]
+  },
+  "subjectTypes": [
+    "account",
+    "chat",
+    "record"
+  ]
+}
