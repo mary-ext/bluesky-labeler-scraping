@@ -1,0 +1,148 @@
+{
+  "uri": "at://did:plc:kywtiyz6bkldak6uyh2d2hrn/app.bsky.labeler.service/self",
+  "cid": "bafyreidcmu662htgo2aredtt7gntzmwwc6ub7v4fwi6mdwxqtcyoi4b4eu",
+  "creator": {
+    "did": "did:plc:kywtiyz6bkldak6uyh2d2hrn",
+    "handle": "us-voting-record.bsky.social",
+    "displayName": "US Voting Record Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kywtiyz6bkldak6uyh2d2hrn/bafkreiaddx32or3zkcrargfmv7sfuygcix66gol4hwihp34xq6mdblwpb4@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-01-28T13:39:00.945Z",
+    "description": "A labeler to help clearly see how US Politicians voted on specific legislation. The legislation currently tracked is:\n\n* Laken Riley Act\n* Big Beautiful Bill (BBB)\n\nCurrently in development. Will update with contact information once it's live.",
+    "indexedAt": "2026-01-28T16:09:21.648Z"
+  },
+  "indexedAt": "2026-01-28T16:12:42.752Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "yay-laken-riley",
+        "locales": [
+          {
+            "description": "Voted for the Laken Riley Act",
+            "lang": "en",
+            "name": "👍Laken Riley Act"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nay-laken-riley",
+        "locales": [
+          {
+            "description": "Voted against the Laken Riley Act",
+            "lang": "en",
+            "name": "👎Laken Riley Act"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "present-laken-riley",
+        "locales": [
+          {
+            "description": "Voted present for the Laken Riley Act",
+            "lang": "en",
+            "name": "🎁Laken Riley Act"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "absent-laken-riley",
+        "locales": [
+          {
+            "description": "Absent for the Laken Riley Act vote",
+            "lang": "en",
+            "name": "👻Laken Riley Act"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "yay-bbb",
+        "locales": [
+          {
+            "description": "Voted for the Big Beautiful Bill (BBB)",
+            "lang": "en",
+            "name": "👍BBB"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nay-bbb",
+        "locales": [
+          {
+            "description": "Voted against the Big Beautiful Bill (BBB)",
+            "lang": "en",
+            "name": "👎BBB"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "present-bbb",
+        "locales": [
+          {
+            "description": "Voted present for the Big Beautiful Bill (BBB)",
+            "lang": "en",
+            "name": "🎁BBB"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "absent-bbb",
+        "locales": [
+          {
+            "description": "Absent for the Big Beautiful Bill (BBB)",
+            "lang": "en",
+            "name": "👻BBB"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "yay-laken-riley",
+      "nay-laken-riley",
+      "present-laken-riley",
+      "absent-laken-riley",
+      "yay-bbb",
+      "nay-bbb",
+      "present-bbb",
+      "absent-bbb"
+    ]
+  }
+}
