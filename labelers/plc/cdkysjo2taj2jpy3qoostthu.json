@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cdkysjo2taj2jpy3qoostthu/app.bsky.labeler.service/self",
-  "cid": "bafyreidww632unxu5bkikuishof5do5yabwi3hrvlbu4qpxxumouetwazm",
+  "cid": "bafyreihyywoea5be4jijyhs6jfbcubgb7ifowokgofzih45av36hyxaagi",
   "creator": {
     "did": "did:plc:cdkysjo2taj2jpy3qoostthu",
     "handle": "bottags.bsky.social",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-07-27T14:52:38.897Z",
-    "description": "\nHide top-level posts that tag chat bots.\n\nE.g. \"<bot> can you guess my favorite color?\"\n\nUses bot lists: \nhttps://bsky.app/profile/reducethenoise.org/lists/3lq6gq2m4sg2i\nhttps://bsky.app/profile/bottags.bsky.social/lists/3lvizr6s5oh2b",
-    "indexedAt": "2025-10-15T02:22:23.216Z"
+    "description": "\nLabels top-level posts that tag chat bots (e.g. \"hey @bot...\"), as well as posts with bot replies.\n\nUses bot lists: \nhttps://bsky.app/profile/reducethenoise.org/lists/3lq6gq2m4sg2i\nhttps://bsky.app/profile/bottags.bsky.social/lists/3lvizr6s5oh2b",
+    "indexedAt": "2026-01-29T22:09:11.046Z"
   },
-  "indexedAt": "2025-07-27T20:01:19.904Z",
+  "indexedAt": "2026-01-29T22:02:11.755Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -30,14 +30,29 @@
           {
             "description": "A top-level post that tags a bot account",
             "lang": "en",
-            "name": "Bot Tag"
+            "name": "Bot tag"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bot-reply",
+        "locales": [
+          {
+            "description": "A post that has been replied to by a bot",
+            "lang": "en",
+            "name": "Has bot reply"
           }
         ],
         "severity": "alert"
       }
     ],
     "labelValues": [
-      "bottag-toplevel"
+      "bottag-toplevel",
+      "bot-reply"
     ]
   }
 }

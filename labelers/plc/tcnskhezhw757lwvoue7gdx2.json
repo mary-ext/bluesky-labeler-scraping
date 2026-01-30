@@ -1,0 +1,51 @@
+{
+  "uri": "at://did:plc:tcnskhezhw757lwvoue7gdx2/app.bsky.labeler.service/self",
+  "cid": "bafyreid7nfxn6yw7bbb6yleupmozkwzjgafywbe4xoz6arbnntrd33iuqa",
+  "creator": {
+    "did": "did:plc:tcnskhezhw757lwvoue7gdx2",
+    "handle": "labeler.pds.oliverj.io",
+    "displayName": "Test Labeler",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-01-29T22:23:57.347Z",
+    "description": "This is a labler for testing only",
+    "indexedAt": "2026-01-29T22:23:57.347Z"
+  },
+  "indexedAt": "2026-01-29T22:24:38.452Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "test1",
+        "locales": [
+          {
+            "description": "TEST!!!",
+            "lang": "en",
+            "name": "Test Warning"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "test1"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}
