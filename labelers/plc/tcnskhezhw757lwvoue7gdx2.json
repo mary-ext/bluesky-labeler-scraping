@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tcnskhezhw757lwvoue7gdx2/app.bsky.labeler.service/self",
-  "cid": "bafyreid7nfxn6yw7bbb6yleupmozkwzjgafywbe4xoz6arbnntrd33iuqa",
+  "cid": "bafyreiatm3rxdh74mknwylrzoprgf2entiu7xfccimfb2xdbfw5zfmjtou",
   "creator": {
     "did": "did:plc:tcnskhezhw757lwvoue7gdx2",
     "handle": "labeler.pds.oliverj.io",
@@ -16,12 +16,12 @@
     "description": "This is a labler for testing only",
     "indexedAt": "2026-01-29T22:23:57.347Z"
   },
-  "indexedAt": "2026-01-29T22:24:38.452Z",
+  "indexedAt": "2026-01-30T03:33:01.451Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "blurs": "media",
+        "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "test1",
         "locales": [
@@ -31,18 +31,33 @@
             "name": "Test Warning"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "labeler",
+        "locales": [
+          {
+            "description": "This account has a labeler service",
+            "lang": "en",
+            "name": "This is a labeler"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "test1"
+      "test1",
+      "labeler"
     ]
   },
   "reasonTypes": [
     "com.atproto.moderation.defs#reasonOther"
   ],
   "subjectTypes": [
-    "record"
+    "record",
+    "account"
   ],
   "subjectCollections": [
     "app.bsky.feed.post",

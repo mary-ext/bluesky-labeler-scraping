@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreift37lg2wqqqjzpjigxkgcjgxfaj7zg4brpxrlsqxsrfjjxuxixly",
+  "cid": "bafyreigw6ft42fci7kikiovgut5punsm323bansutqcihgt4aqg5uqcfvu",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-01-27T11:08:42.146Z",
-    "description": "Labels AI imagery, and audio, main account at \nhttps://bsky.app/profile/blackwall.gg\n\nreporting with proof helps the verification process.",
-    "indexedAt": "2026-01-28T06:20:57.447Z"
+    "description": "Labels AI imagery, and audio, main account at \nhttps://bsky.app/profile/blackwall.gg\n\nreporting with proof helps the verification process.\n\nif you are an artist, uploading timelapses of your work somewhere greatly helps in cases of false reports.",
+    "indexedAt": "2026-01-30T16:19:09.671Z"
   },
-  "indexedAt": "2026-01-27T14:34:04.249Z",
+  "indexedAt": "2026-01-30T10:05:54.854Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,9 +28,23 @@
         "identifier": "aiprofile",
         "locales": [
           {
-            "description": "Displays a badge when a user has an AI Generated Profile picture or banner",
+            "description": "Displays a badge when a user has an AI Generated Profile picture or banner.",
             "lang": "en",
             "name": "AI Banner/PFP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "indirectimageryaccount",
+        "locales": [
+          {
+            "description": "Accounts that are known to post works that indirectly use AI imagery, such as tracing over them.",
+            "lang": "en",
+            "name": "Indirect AI Imagery Poster"
           }
         ],
         "severity": "inform"
@@ -42,7 +56,7 @@
         "identifier": "imageryaccount",
         "locales": [
           {
-            "description": "Accounts that frequently or un-apologetically post AI images",
+            "description": "Accounts that frequently or un-apologetically post AI images.",
             "lang": "en",
             "name": "AI Imagery Poster"
           }
@@ -56,7 +70,7 @@
         "identifier": "imagerypost",
         "locales": [
           {
-            "description": "Individual posts containing AI Imagery",
+            "description": "Individual posts containing AI Imagery.",
             "lang": "en",
             "name": "AI Imagery Post"
           }
@@ -84,7 +98,7 @@
         "identifier": "audiopost",
         "locales": [
           {
-            "description": "Individual posts containing AI Modified or generated Audio",
+            "description": "Individual posts containing AI Modified or generated Audio.",
             "lang": "en",
             "name": "AI Audio Post"
           }
@@ -97,6 +111,7 @@
       "imageryaccount",
       "audioaccount",
       "programmingaccount",
+      "indirectimageryaccount",
       "imagerypost",
       "audiopost",
       "programmingpost"

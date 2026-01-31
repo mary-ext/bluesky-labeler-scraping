@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicnqbctgho7r2no7w2axzd5tos6t4dyh6aqj45e3enpi4nuxvcfum",
+  "cid": "bafyreie3cfsqoemfmj2uhdxdfzsdyrtuuxmwsufkmvfyyy6rl35zn3ciuy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-01-29T23:35:43.360Z",
+  "indexedAt": "2026-01-30T03:38:16.758Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1047,20 +1047,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "news-1440-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.1440.news PDS",
-            "lang": "en",
-            "name": "pds.1440.news"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cloud-tgirl-pds",
         "locales": [
           {
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mom-rat",
+        "locales": [
+          {
+            "description": "Account is hosted by the rat.mom PDS",
+            "lang": "en",
+            "name": "rat.mom"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1524,7 +1524,6 @@
       "is-socl",
       "space-quack-pds",
       "systems-wizardry-testpds",
-      "news-1440-pds",
       "cloud-tgirl-pds",
       "io-koda--agency-pds",
       "eu-wsocial-dev--pds",
@@ -1552,7 +1551,8 @@
       "dev-ridgeway-pds",
       "es-peedee",
       "com-hukoubook-network",
-      "com-ripperoni-pds"
+      "com-ripperoni-pds",
+      "mom-rat"
     ]
   }
 }
