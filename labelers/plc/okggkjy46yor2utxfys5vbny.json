@@ -1,0 +1,86 @@
+{
+  "uri": "at://did:plc:okggkjy46yor2utxfys5vbny/app.bsky.labeler.service/self",
+  "cid": "bafyreiginhemttobkp76kajsn4cma4utc7eyxmxmvb7jr75bgbmju72dxi",
+  "creator": {
+    "did": "did:plc:okggkjy46yor2utxfys5vbny",
+    "handle": "infightinglabeler.bsky.social",
+    "displayName": "Left-Wing Infighting Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:okggkjy46yor2utxfys5vbny/bafkreig2spflhj3dxjmhsjqxdan3ckwuileyj4ycbl3m5efqbr5u2tumwy@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-01-27T23:53:12.146Z",
+    "description": "Providing gentle reminders that the real opponent is not someone who shares 90% of your goals and beliefs.\n\nSee below post for labeling criteria.",
+    "indexedAt": "2026-01-31T10:30:17.446Z"
+  },
+  "indexedAt": "2026-01-31T10:27:23.752Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "left-infighter",
+        "locales": [
+          {
+            "description": "This account engages in left-wing infighting",
+            "lang": "en",
+            "name": "Left Infighter"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "no-infighting-pledge",
+        "locales": [
+          {
+            "description": "This account has taken the no infighting pledge. Like the pinned pledge post to receive this label!",
+            "lang": "en",
+            "name": "No Infighting Pledge"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "not-left-wing",
+        "locales": [
+          {
+            "description": "This account is not actually left-wing",
+            "lang": "en",
+            "name": "Not Actually Left-Wing"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "left-infighter",
+      "no-infighting-pledge",
+      "not-left-wing"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSpam"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:saslbwamakedc4h6c5bmshvz/app.bsky.labeler.service/self",
-  "cid": "bafyreiekqta73xtpn6fyeskh4izuebujkfabsvdvqtmw6maukdlsszuvb4",
+  "cid": "bafyreidjq7qzpnhwp2xuemrw277l2hokynmnvqz3riku3uubzdlmslbjsa",
   "creator": {
     "did": "did:plc:saslbwamakedc4h6c5bmshvz",
     "handle": "labeler.hailey.at",
@@ -17,7 +17,7 @@
     "description": "A labeler by @hailey.at, powered by https://github.com/roostorg/osprey\n\nLabels are not absolute judgements, but rather information about the type of account or content you may be interacting with.\n\nRuleset: https://github.com/haileyok/atproto-ruleset",
     "indexedAt": "2025-12-22T22:37:49.724Z"
   },
-  "indexedAt": "2026-01-30T03:57:50.457Z",
+  "indexedAt": "2026-01-31T08:23:14.857Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -87,6 +87,20 @@
             "description": "Account followed 1000+ in thirty minutes.",
             "lang": "en",
             "name": "Bulk Follows (1000+)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Account that is almost certainly spam.",
+            "lang": "en",
+            "name": "Spam"
           }
         ],
         "severity": "inform"
@@ -349,6 +363,7 @@
       "ai-agent",
       "likely-nsfw",
       "possible-nsfw",
+      "spam",
       "men-facet-abuse",
       "mass-follow-mid",
       "mass-follow-high",
