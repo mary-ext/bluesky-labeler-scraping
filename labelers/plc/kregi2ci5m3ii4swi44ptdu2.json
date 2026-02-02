@@ -1,0 +1,92 @@
+{
+  "uri": "at://did:plc:kregi2ci5m3ii4swi44ptdu2/app.bsky.labeler.service/self",
+  "cid": "bafyreigin2oy2tre2ly6ikl4s35qtycljqhxnu6jduuwol7zhanct7m2de",
+  "creator": {
+    "did": "did:plc:kregi2ci5m3ii4swi44ptdu2",
+    "handle": "newsnutritionlabel.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kregi2ci5m3ii4swi44ptdu2/bafkreids3klxw3emm4afuyb365e364js5mv4gg65lvn6b5e3u2yehtxlva@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-02-02T00:03:25.146Z",
+    "indexedAt": "2026-02-02T00:03:53.345Z"
+  },
+  "indexedAt": "2026-02-02T00:14:02.750Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "surveillance",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "News and awareness.",
+            "lang": "en",
+            "name": "Surveillance"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "escape",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Fun diversions.",
+            "lang": "en",
+            "name": "Escape"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "boredom",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Learning opportunities.",
+            "lang": "en",
+            "name": "Boredom"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "entertainment",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Pure fun.",
+            "lang": "en",
+            "name": "Entertainment"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "surveillance",
+      "escape",
+      "boredom",
+      "entertainment"
+    ]
+  }
+}
