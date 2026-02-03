@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e6c5vklxopz2vdxrssglg53a/app.bsky.labeler.service/self",
-  "cid": "bafyreifqypw57gqlvio3u7fznjk33zwwfy6onav47ikn2cucfsesp37lka",
+  "cid": "bafyreigxrv3e5ytey4xozcqwawgajabtheivcjr4c35db5qn7v4unfcie4",
   "creator": {
     "did": "did:plc:e6c5vklxopz2vdxrssglg53a",
     "handle": "random-labeler2.bsky.girigiribauer.com",
@@ -16,7 +16,7 @@
     "createdAt": "2026-01-01T05:18:56.124Z",
     "indexedAt": "2026-01-01T05:19:07.025Z"
   },
-  "indexedAt": "2026-01-21T22:49:29.136Z",
+  "indexedAt": "2026-02-02T07:19:11.553Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -26,35 +26,9 @@
         "identifier": "daikichi",
         "locales": [
           {
-            "description": "今日の運勢は大吉！最高の一日になるよ！",
+            "description": "今日の運勢は大吉！最高の一日があなたを待ってる！",
             "lang": "ja",
             "name": "大吉"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "chukichi",
-        "locales": [
-          {
-            "description": "今日の運勢は中吉。いいことあるかも！",
-            "lang": "ja",
-            "name": "中吉"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "shokichi",
-        "locales": [
-          {
-            "description": "今日の運勢は小吉。ささやかな幸せ見つけよう。",
-            "lang": "ja",
-            "name": "小吉"
           }
         ],
         "severity": "inform"
@@ -75,10 +49,36 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "chukichi",
+        "locales": [
+          {
+            "description": "今日の運勢は中吉！楽しんでいこ！",
+            "lang": "ja",
+            "name": "中吉"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "shokichi",
+        "locales": [
+          {
+            "description": "今日の運勢は小吉！小さな幸せ見つけよう！",
+            "lang": "ja",
+            "name": "小吉"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "suekichi",
         "locales": [
           {
-            "description": "今日の運勢は末吉。焦らずいこう。",
+            "description": "今日の運勢は末吉！すえひろがりな一日を！",
             "lang": "ja",
             "name": "末吉"
           }
@@ -104,7 +104,7 @@
         "identifier": "daikyo",
         "locales": [
           {
-            "description": "今日の運勢は大凶！？でもこれ以上悪くならないよ！",
+            "description": "今日の運勢は大凶。無理せず慎重に！",
             "lang": "ja",
             "name": "大凶"
           }
@@ -114,9 +114,9 @@
     ],
     "labelValues": [
       "daikichi",
+      "kichi",
       "chukichi",
       "shokichi",
-      "kichi",
       "suekichi",
       "kyo",
       "daikyo"

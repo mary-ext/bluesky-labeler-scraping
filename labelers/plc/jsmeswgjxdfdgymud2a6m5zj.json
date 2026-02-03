@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jsmeswgjxdfdgymud2a6m5zj/app.bsky.labeler.service/self",
-  "cid": "bafyreidomqelmzdttva6l6ozabsdtsehzk5j6sbahzotqtpdnttpot26zu",
+  "cid": "bafyreibswhly4baqagrr2i73irwl5pgdwfgnj52zoeo7il7kixalokwtni",
   "creator": {
     "did": "did:plc:jsmeswgjxdfdgymud2a6m5zj",
     "handle": "wadge.jbc.lol",
@@ -17,7 +17,7 @@
     "description": "wafrn instance bluesky labeler, and the first labeler bridged on wafrn\nsource code: https://tangled.org/@jbc.lol/wadge\n\nTHIS IS NOT MONITORED! Send issues to @jbc.lol (@jbcrn@wf.jbc.lol [...]\n\nView full profile at https://wf.jbc.lol/blog/wadge",
     "indexedAt": "2025-11-20T05:31:23.125Z"
   },
-  "indexedAt": "2025-12-06T03:43:01.230Z",
+  "indexedAt": "2026-02-02T22:57:01.261Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -188,6 +188,22 @@
         ],
         "name": "waf.moe",
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "description": "Main account of this Bluesky user is on wafrn.is.sillyand.gay Wafrn instance",
+        "identifier": "wafrn-is-sillyand-gay",
+        "locales": [
+          {
+            "description": "Main account of this Bluesky user is on wafrn.is.sillyand.gay Wafrn instance",
+            "lang": "en",
+            "name": "wafrn.is.sillyand.gay"
+          }
+        ],
+        "name": "wafrn.is.sillyand.gay",
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -201,7 +217,8 @@
       "wf-32enoki-net",
       "neuronoki-work",
       "wtf-jbc-lol",
-      "waf-moe"
+      "waf-moe",
+      "wafrn-is-sillyand-gay"
     ]
   }
 }
