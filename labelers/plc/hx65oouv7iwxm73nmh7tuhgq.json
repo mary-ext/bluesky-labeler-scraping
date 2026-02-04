@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hx65oouv7iwxm73nmh7tuhgq/app.bsky.labeler.service/self",
-  "cid": "bafyreiazvtvht6nj2w7nekgz34gu5ykz4fro52f5tm5rrl7euvry6z46sq",
+  "cid": "bafyreigzso7chypcqmnauq2mv3jlyy4fcaoxr25wj3nzjdftq3qfhd3csa",
   "creator": {
     "did": "did:plc:hx65oouv7iwxm73nmh7tuhgq",
     "handle": "unclouder.com",
@@ -17,7 +17,7 @@
     "description": "UnClouder: Keeping your Bluesky clear of clouds of misinformation...\n\nSubscribe to see fact checks for posts on your timeline.\n\n100% powered by human fact checkers (see unclouder.com for info).\n\nDo(n't) like fact checks?  Subscribe to our (block)list!",
     "indexedAt": "2026-01-30T12:00:57.149Z"
   },
-  "indexedAt": "2025-10-13T19:25:33.081Z",
+  "indexedAt": "2026-02-03T14:21:36.055Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,9 +28,9 @@
         "identifier": "factcheck-leadstories",
         "locales": [
           {
-            "description": "A fact check about this content is available from Lead Stories.  Check the comments below this post.",
+            "description": "Check the comments below this post to see the fact check about this content from Lead Stories",
             "lang": "en",
-            "name": "Fact Check available from Lead Stories"
+            "name": "Fact check available from Lead Stories"
           }
         ],
         "severity": "alert"
@@ -39,12 +39,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "explainer-leadstories",
+        "identifier": "factcheck-vistinomer",
         "locales": [
           {
-            "description": "An explainer article about this content is available from Lead Stories.  Check the comments below this post.",
+            "description": "Check the comments below this post for a fact check about this content from Vistinomer",
             "lang": "en",
-            "name": "Explainer available from Lead Stories"
+            "name": "Fact check available from Vistinomer"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-maldita",
+        "locales": [
+          {
+            "description": "Check the comments below this post for a fact check about this content from Maldita.es",
+            "lang": "en",
+            "name": "Fact check available from Maldita.es"
           }
         ],
         "severity": "alert"
@@ -52,7 +66,8 @@
     ],
     "labelValues": [
       "factcheck-leadstories",
-      "explainer-leadstories"
+      "factcheck-vistinomer",
+      "factcheck-maldita"
     ]
   },
   "reasonTypes": [
