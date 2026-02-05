@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:tisqn7an54c5422ohlpfmnqk/app.bsky.labeler.service/self",
+  "cid": "bafyreihfvcvec22plxw5r7nmetgpuacrlofnit5erj4b22yudvda7j2wze",
+  "creator": {
+    "did": "did:plc:tisqn7an54c5422ohlpfmnqk",
+    "handle": "ddmod.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tisqn7an54c5422ohlpfmnqk/bafkreihg6nrsh7qdys7i4aejlk6ex3w4uzpadso42p2khieixbexcqibr4@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-02-04T11:05:33.045Z",
+    "indexedAt": "2026-02-04T11:05:43.245Z"
+  },
+  "indexedAt": "2026-02-04T13:16:39.753Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "disinfo-climate",
+        "locales": [
+          {
+            "description": "Account or post engages in disinformation on climate science.",
+            "lang": "en",
+            "name": "Climate Disinformation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "disinfo-lgbtq",
+        "locales": [
+          {
+            "description": "Account or post engages in disinformation or attacks against the LGBTQ+ community.",
+            "lang": "en",
+            "name": "Anti-LGBTQ+ Disinformation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "disinfo-climate",
+      "disinfo-lgbtq"
+    ]
+  }
+}

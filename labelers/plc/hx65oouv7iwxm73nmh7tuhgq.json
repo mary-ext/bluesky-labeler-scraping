@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hx65oouv7iwxm73nmh7tuhgq/app.bsky.labeler.service/self",
-  "cid": "bafyreigzso7chypcqmnauq2mv3jlyy4fcaoxr25wj3nzjdftq3qfhd3csa",
+  "cid": "bafyreiff4xqqthimmep6hdh5aye2pz7vsmopamfjh4cnbzu74objzzhrwy",
   "creator": {
     "did": "did:plc:hx65oouv7iwxm73nmh7tuhgq",
     "handle": "unclouder.com",
@@ -17,7 +17,7 @@
     "description": "UnClouder: Keeping your Bluesky clear of clouds of misinformation...\n\nSubscribe to see fact checks for posts on your timeline.\n\n100% powered by human fact checkers (see unclouder.com for info).\n\nDo(n't) like fact checks?  Subscribe to our (block)list!",
     "indexedAt": "2026-01-30T12:00:57.149Z"
   },
-  "indexedAt": "2026-02-03T14:21:36.055Z",
+  "indexedAt": "2026-02-04T13:05:52.553Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,6 +31,20 @@
             "description": "Check the comments below this post to see the fact check about this content from Lead Stories",
             "lang": "en",
             "name": "Fact check available from Lead Stories"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-",
+        "locales": [
+          {
+            "description": "Check the comments below this post for a fact check about this content from Aos Fatos",
+            "lang": "en",
+            "name": "Fact check available from Aos Fatos"
           }
         ],
         "severity": "alert"
@@ -66,6 +80,7 @@
     ],
     "labelValues": [
       "factcheck-leadstories",
+      "factcheck-",
       "factcheck-vistinomer",
       "factcheck-maldita"
     ]
