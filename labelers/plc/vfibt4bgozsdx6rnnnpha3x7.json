@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreigbu637cysrf6seejn3qqbbrdmu2vbpeivmkq7yha7z5oi7ab2ndq",
+  "cid": "bafyreiajwbiisd6t3h3ks6h5y3cbrdqraanwcnqq6zn2mldqhh2gyy53ve",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2026-01-24T05:00:29.055Z",
+  "indexedAt": "2026-02-05T23:58:20.555Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -269,6 +269,20 @@
             "description": "a federated social media inspired by Tumblr (community.nooki.*)",
             "lang": "en",
             "name": "Nooki"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-npmx",
+        "locales": [
+          {
+            "description": "a fast, modern browser for the npm registry (dev.npmx.*)",
+            "lang": "en",
+            "name": "npmx"
           }
         ],
         "severity": "inform"
@@ -643,6 +657,7 @@
       "blue-linkat",
       "at-monomarks",
       "community-nooki",
+      "dev-npmx",
       "com-shinolabs-pinksea",
       "fm-plyr",
       "social-popfeed",

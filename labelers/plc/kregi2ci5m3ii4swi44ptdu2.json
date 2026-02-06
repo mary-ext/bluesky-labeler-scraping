@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:kregi2ci5m3ii4swi44ptdu2/app.bsky.labeler.service/self",
-  "cid": "bafyreidu26i2lffnuj5bsyyjtu7edmc2pxvfqev25moqcqymhpttm6l52y",
+  "cid": "bafyreiftebza3j4lnvpt2rpncblhaw5qox2iqadh765bjzzxmzsd3criqq",
   "creator": {
     "did": "did:plc:kregi2ci5m3ii4swi44ptdu2",
     "handle": "newsnutritionlabel.bsky.social",
@@ -16,20 +16,18 @@
     "createdAt": "2026-02-02T00:03:25.146Z",
     "indexedAt": "2026-02-02T00:03:53.345Z"
   },
-  "indexedAt": "2026-02-02T01:41:16.350Z",
+  "indexedAt": "2026-02-05T02:01:37.558Z",
   "labels": [],
   "policies": {
-    "$type": "app.bsky.labeler.defs#labelerPolicies",
     "labelValueDefinitions": [
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "surveillance",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "News and awareness.",
+            "description": "News to learn more about the world",
             "lang": "en",
             "name": "Surveillance"
           }
@@ -37,14 +35,13 @@
         "severity": "inform"
       },
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "escape",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Fun diversions.",
+            "description": "Lighter news that lets you escape the world",
             "lang": "en",
             "name": "Escape"
           }
@@ -52,29 +49,27 @@
         "severity": "inform"
       },
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "boredom",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Learning opportunities.",
+            "description": "News you go to when you have nothing else to do",
             "lang": "en",
             "name": "Boredom"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
       },
       {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "entertainment",
         "locales": [
           {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "Pure fun.",
+            "description": "News that is entertaining to read or watch",
             "lang": "en",
             "name": "Entertainment"
           }
