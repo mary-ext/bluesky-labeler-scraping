@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vud7oo5sc7k256jjplfxlnhm/app.bsky.labeler.service/self",
-  "cid": "bafyreie6m7hiug3qw4jawuyndcmg225b2jpaxqyavup7qk3kmc6c6jn65e",
+  "cid": "bafyreiemieraisiugprm75ayjd46ohnbwwifz2rc2spvvmhv3jokqyyyhm",
   "creator": {
     "did": "did:plc:vud7oo5sc7k256jjplfxlnhm",
     "handle": "pronounsinb.io",
@@ -17,7 +17,7 @@
     "description": "The pronouns labeler I was using disappeared so I built this one.\n\nQuestions? Problems? Looking for a pronoun you don't see here? Contact @malwhere.northsky.social.",
     "indexedAt": "2026-02-08T19:57:50.345Z"
   },
-  "indexedAt": "2026-02-08T19:28:04.854Z",
+  "indexedAt": "2026-02-09T15:39:21.656Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -930,6 +930,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ve-ver-vis",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "ve/ver/vis"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -997,7 +1011,8 @@
       "ve-ven",
       "se-ser",
       "ny-nym",
-      "any-pronouns"
+      "any-pronouns",
+      "ve-ver-vis"
     ]
   }
 }

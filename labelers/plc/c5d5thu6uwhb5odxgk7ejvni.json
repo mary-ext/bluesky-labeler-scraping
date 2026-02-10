@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreihydymoct3jmhvqownvx7wjs2bp7jvm2nox2jf7m5g3hzqnbrntei",
+  "cid": "bafyreiftxckpane57p7out4wxgkgfrjpc5b7umgvve4qrv4w6bmuwd6yqm",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -17,7 +17,7 @@
     "description": "Subscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-04-23T16:07:04.173Z"
   },
-  "indexedAt": "2025-12-16T14:52:53.138Z",
+  "indexedAt": "2026-02-09T20:42:51.762Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -653,6 +653,20 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ableist",
+        "locales": [
+          {
+            "description": "This account has been flagged for Ableism.",
+            "lang": "en",
+            "name": "Ableism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
         "identifier": "blur",
@@ -722,7 +736,7 @@
       "x-scared-cities",
       "gadgetbahn",
       "victim-blaming",
-      "",
+      "ableist",
       "",
       "",
       ""
