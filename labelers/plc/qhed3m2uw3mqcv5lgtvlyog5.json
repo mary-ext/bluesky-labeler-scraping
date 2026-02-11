@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qhed3m2uw3mqcv5lgtvlyog5/app.bsky.labeler.service/self",
-  "cid": "bafyreidhsfqtchrc3t765rc6mfhqdwdbxywrrkhfsbgblu4lee3oaqhuka",
+  "cid": "bafyreibbzicarcjyu7f7b3eujdajdwqigdss4vg5bf475aysashvjswlpq",
   "creator": {
     "did": "did:plc:qhed3m2uw3mqcv5lgtvlyog5",
     "handle": "verified.babesky.com",
@@ -17,7 +17,7 @@
     "description": "@Babesky.com hand-verifies individual adult creator accounts to make sure they are who they say they are. All verified creators have been age and ID verified by a widely recognized adult platform\n\nBuilt by @sweetbee.vip\n\nCreator Directory: club.babesky.com",
     "indexedAt": "2026-01-07T17:33:17.826Z"
   },
-  "indexedAt": "2026-01-07T17:47:57.839Z",
+  "indexedAt": "2026-02-11T00:27:11.951Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -319,7 +319,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "spam",
+        "identifier": "spam-hide",
         "locales": [
           {
             "description": "Indicates this profile meets one of the following criteria: 1) profile may be inauthentic, 2) profile is suspected of participating in platform manipulation tactics like mass following, mass likes, follow/unfollow behavior, 3) profile may be posting stolen, unoriginal content and may be in violation of DMCA law.",
@@ -351,13 +351,19 @@
       "FMTY",
       "customs",
       "premsnap",
-      "spam"
+      "spam-hide"
     ]
   },
   "reasonTypes": [
     "com.atproto.moderation.defs#reasonSpam",
     "com.atproto.moderation.defs#reasonMisleading",
     "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonRude"
+  ],
+  "subjectTypes": [
+    "account",
+    "record",
+    "chat"
   ]
 }
