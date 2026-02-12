@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:yfklixyvt4y3irrkdb4mtvqn/app.bsky.labeler.service/self",
-  "cid": "bafyreiaevae7hq7w75hiwymzfslio66cvpcqbznim2jlufaokt5sq2dyde",
+  "cid": "bafyreidm5rhtc52fx4vxl3xvfpu3aq3w3vhofwwc5tfjtkyw3fmn2vq4wy",
   "creator": {
     "did": "did:plc:yfklixyvt4y3irrkdb4mtvqn",
     "handle": "meowderation.tngl.sh",
     "displayName": "meowderation",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yfklixyvt4y3irrkdb4mtvqn/bafkreie5nbgvrrbfswctbdo3s7fop5tmy5xqffs7sbjdbdh4zp6afwllri@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yfklixyvt4y3irrkdb4mtvqn/bafkreigvdjxl6npaezipuji3fvxbj4v7uj47wl2qndunkemh3clnckvjeq@jpeg",
     "associated": {
       "labeler": true,
       "chat": {
@@ -18,9 +18,9 @@
     "labels": [],
     "createdAt": "2025-09-10T23:20:37.498Z",
     "description": "dis is run by: https://go.bsky.app/6gitfcZ\n\npohweird biy nix\n\nintended as a real replacement to bluesky moderation",
-    "indexedAt": "2026-02-11T00:32:41.248Z"
+    "indexedAt": "2026-02-12T00:24:42.347Z"
   },
-  "indexedAt": "2026-01-31T17:35:48.857Z",
+  "indexedAt": "2026-02-11T22:46:21.154Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -219,6 +219,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "politics",
+        "locales": [
+          {
+            "description": "content may contain politics /gen",
+            "lang": "en",
+            "name": "politics"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -234,7 +248,8 @@
       "hate-speech",
       "love-speech",
       "mewderator",
-      "offencive"
+      "offencive",
+      "politics"
     ]
   }
 }
