@@ -1,0 +1,43 @@
+{
+  "uri": "at://did:plc:g6c6zaif2tjvdlmkkibj2avz/app.bsky.labeler.service/self",
+  "cid": "bafyreiaej3ehbrrixfqwwrzyzia3eojicvx2xp5lekukwsvksglmna7lmi",
+  "creator": {
+    "did": "did:plc:g6c6zaif2tjvdlmkkibj2avz",
+    "handle": "labeler.plural.host",
+    "displayName": "Plural System Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g6c6zaif2tjvdlmkkibj2avz/bafkreibulopx7qwcjaioqy4oakprhzzwyehhx4vc5umlatnic462hz66ri@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-02-12T01:43:59.912Z",
+    "description": "Labels accounts of plural systems that use https://plural.host or have host.plural.* records in user repository",
+    "indexedAt": "2026-02-12T01:46:26.246Z"
+  },
+  "indexedAt": "2026-02-12T01:52:06.956Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "plural-system",
+        "locales": [
+          {
+            "description": "Badges for plural systems on ATProto. Learn more at https://plural.host",
+            "lang": "en",
+            "name": "Plural System"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "plural-system"
+    ]
+  }
+}

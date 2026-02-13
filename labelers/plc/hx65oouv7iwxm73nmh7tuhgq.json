@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hx65oouv7iwxm73nmh7tuhgq/app.bsky.labeler.service/self",
-  "cid": "bafyreihdbxrbwwh5s4lmdnkv453v7idqbahlqjkaehtf537t2au2bh2zgu",
+  "cid": "bafyreibouhn6rj7fm7rsd4copo4dgbvdvflc3fwwnffis753wcpspwugqa",
   "creator": {
     "did": "did:plc:hx65oouv7iwxm73nmh7tuhgq",
     "handle": "unclouder.com",
@@ -17,7 +17,7 @@
     "description": "UnClouder: Keeping your Bluesky clear of clouds of misinformation...\n\nSubscribe to see fact checks for posts on your timeline.\n\n100% powered by human fact checkers (see unclouder.com for info).\n\nDo(n't) like fact checks?  Subscribe to our (block)list!",
     "indexedAt": "2026-01-30T12:00:57.149Z"
   },
-  "indexedAt": "2026-02-05T13:39:36.254Z",
+  "indexedAt": "2026-02-12T10:46:05.650Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,6 +31,20 @@
             "description": "Check the comments below this post to see the fact check about this content from Lead Stories",
             "lang": "en",
             "name": "Fact check available from Lead Stories"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-decheckers",
+        "locales": [
+          {
+            "description": "Check the comments below this post for a fact check about this content from deCheckers",
+            "lang": "en",
+            "name": "Fact check available from deCheckers"
           }
         ],
         "severity": "alert"
@@ -76,13 +90,44 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-dpa",
+        "locales": [
+          {
+            "description": "Zu diesem Inhalt findest Du unten in den Kommentaren einen Faktencheck von Deutsche Presse-Agentur (dpa)",
+            "lang": "en",
+            "name": "Faktencheck verfügbar von Deutsche Presse-Agentur (dpa)"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-politifact",
+        "locales": [
+          {
+            "description": "Check the comments below this post for a fact check about this content from PolitiFact",
+            "lang": "en",
+            "name": "Fact check available from PolitiFact"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
       "factcheck-leadstories",
+      "factcheck-decheckers",
       "factcheck-",
       "factcheck-vistinomer",
-      "factcheck-maldita"
+      "factcheck-maldita",
+      "factcheck-dpa",
+      "factcheck-politifact"
     ]
   },
   "reasonTypes": [
