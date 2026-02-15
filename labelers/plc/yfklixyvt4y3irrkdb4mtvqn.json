@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yfklixyvt4y3irrkdb4mtvqn/app.bsky.labeler.service/self",
-  "cid": "bafyreiaef3tnibfygmd5trsxvd2jfr3eb5lkk4zfvwy5kcaanhnwxtru5e",
+  "cid": "bafyreiffyqwklthk3zrnw3nrjiodjohx6t7c6s7hrwdpdtetwrrad4it7m",
   "creator": {
     "did": "did:plc:yfklixyvt4y3irrkdb4mtvqn",
     "handle": "meowderation.tngl.sh",
@@ -18,25 +18,221 @@
     "labels": [],
     "createdAt": "2025-09-10T23:20:37.498Z",
     "description": "dis is run by: https://go.bsky.app/6gitfcZ\n\npohweird biy nix\n\nintended as a real replacement to bluesky moderation",
-    "indexedAt": "2026-02-14T00:28:28.545Z"
+    "indexedAt": "2026-02-15T00:28:01.445Z"
   },
-  "indexedAt": "2026-02-13T23:03:33.954Z",
+  "indexedAt": "2026-02-14T01:53:18.654Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
-        "defaultSetting": "ignore|warn|hide",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "evhilaccountlogintaattemper",
+        "locales": [
+          {
+            "description": "user iz evil and atempt login to an acount",
+            "lang": "en",
+            "name": "evhil account logint aattemper"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "honse",
+        "locales": [
+          {
+            "description": "user iz suspected horse",
+            "lang": "en",
+            "name": "horsie"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "nix-env",
         "locales": [
           {
-            "description": "Wat dis",
+            "description": "user usez nix env plz laugh at dem",
             "lang": "en",
-            "name": "Nix env"
+            "name": "nix env"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hazcat",
+        "locales": [
+          {
+            "description": "user haz cat",
+            "lang": "en",
+            "name": "haz cat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "izkat",
+        "locales": [
+          {
+            "description": "user iz cat",
+            "lang": "en",
+            "name": "iz kat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "eeeebil",
+        "locales": [
+          {
+            "description": "user ib eeebil",
+            "lang": "en",
+            "name": "eeebil"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "meowd",
+        "locales": [
+          {
+            "description": "dis uzer uses meow/deration pronouns",
+            "lang": "en",
+            "name": "meow/deraiton"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misleading",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Misleading"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "content may be rude",
+            "lang": "en",
+            "name": "rude"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "profile",
+        "defaultSetting": "warn",
+        "identifier": "covid",
+        "locales": [
+          {
+            "description": "user is suspected to have covid",
+            "lang": "en",
+            "name": "⚠︎ suspected covid"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "speach ib hatreful,,. >:c",
+            "lang": "en",
+            "name": "⚠︎ hate speech"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "love-speech",
+        "locales": [
+          {
+            "description": "speach ib,,. luvefull ?",
+            "lang": "en",
+            "name": "♡ luve speech"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mewderator",
+        "locales": [
+          {
+            "description": "dis user is a meowderator ✅✅",
+            "lang": "en",
+            "name": "meowderatior"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "offencive",
+        "locales": [
+          {
+            "description": "content is OFFFENCIVE !!!",
+            "lang": "en",
+            "name": "OFFENCIVE"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "politics",
+        "locales": [
+          {
+            "description": "content may contain politics /gen",
+            "lang": "en",
+            "name": "politics"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
