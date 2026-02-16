@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreiajwbiisd6t3h3ks6h5y3cbrdqraanwcnqq6zn2mldqhh2gyy53ve",
+  "cid": "bafyreia6qhsi2ker4jdxcinsueq5uoqpithy7vyxyslwfb7envpna3nivy",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2026-02-05T23:58:20.555Z",
+  "indexedAt": "2026-02-15T21:39:22.858Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -81,6 +81,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "io-atcr",
+        "locales": [
+          {
+            "description": "Push and pull Docker images on the AT Protocol (io.atcr.*)",
+            "lang": "en",
+            "name": "ATCR"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "blue-zio-atfile",
         "locales": [
           {
@@ -101,6 +115,34 @@
             "description": "Connecting Fans and Creators (com.atprotofans.*)",
             "lang": "en",
             "name": "ATProtoFans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-suibari-atsumeat",
+        "locales": [
+          {
+            "description": "Digital Sticker Exchange App (com.suibari.atsumeat.*)",
+            "lang": "en",
+            "name": "AtsumeAt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-beaconbits",
+        "locales": [
+          {
+            "description": "Pin your photos & posts to the map, tag friends, and cross-post to your atproto account (app.beaconbits.*)",
+            "lang": "en",
+            "name": "Beacon Bits"
           }
         ],
         "severity": "inform"
@@ -151,6 +193,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-deckbelcher",
+        "locales": [
+          {
+            "description": "organize, build, and share decks on the atmosphere (com.deckbelcher.*)",
+            "lang": "en",
+            "name": "deck belcher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "blue-flashes",
         "locales": [
           {
@@ -193,12 +249,96 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fyi-frontpage",
+        "locales": [
+          {
+            "description": "a decentralised and federated link aggregator (fyi.frontpage.*)",
+            "lang": "en",
+            "name": "Frontpage"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-germnetwork",
+        "locales": [
+          {
+            "description": "End-to-end encrypted DMs right from your AT Protocol handle (com.germnetwork.*)",
+            "lang": "en",
+            "name": "Germ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "garden-goals",
+        "locales": [
+          {
+            "description": "Goals and Habit Tracker on ATProto / Bluesky (garden.goals.*)",
+            "lang": "en",
+            "name": "Goals Garden"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-grain",
         "locales": [
           {
             "description": "a photo sharing platform (social.grain.*)",
             "lang": "en",
             "name": "Grain"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-greengale",
+        "locales": [
+          {
+            "description": "Markdown blog platform powered by your internet handle (app.greengale.*)",
+            "lang": "en",
+            "name": "GreenGale"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "at-inlay",
+        "locales": [
+          {
+            "description": "social components (at.inlay.*)",
+            "lang": "en",
+            "name": "Inlay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-kibun",
+        "locales": [
+          {
+            "description": "a cozy place to share your thoughts and feelings with the world without the pressure of social media (social.kibun.*)",
+            "lang": "en",
+            "name": "kibun"
           }
         ],
         "severity": "inform"
@@ -235,12 +375,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "garden-lexicon",
+        "locales": [
+          {
+            "description": "Browse and resolve ATProtocol lexicon schemas (garden.lexicon.*)",
+            "lang": "en",
+            "name": "Lexicon Garden"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "blue-linkat",
         "locales": [
           {
             "description": "link collections (blue.linkat.*)",
             "lang": "en",
             "name": "Linkat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "at-margin",
+        "locales": [
+          {
+            "description": "Write on the margins of the internet (at.margin.*)",
+            "lang": "en",
+            "name": "Margin"
           }
         ],
         "severity": "inform"
@@ -291,6 +459,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-offprint",
+        "locales": [
+          {
+            "description": "Write, monetize, and own your audience without the middleman (app.offprint.*)",
+            "lang": "en",
+            "name": "Offprint"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blog-pckt",
+        "locales": [
+          {
+            "description": "The internet's cutest blogging site (probably) (blog.pckt.*)",
+            "lang": "en",
+            "name": "pckt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-shinolabs-pinksea",
         "locales": [
           {
@@ -325,6 +521,20 @@
             "description": "pop culture hub (social.popfeed.*)",
             "lang": "en",
             "name": "Popfeed"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fyi-questionable",
+        "locales": [
+          {
+            "description": "Questions, Answers, Asks, and more! (fyi.questionable.*)",
+            "lang": "en",
+            "name": "Questionable"
           }
         ],
         "severity": "inform"
@@ -409,6 +619,20 @@
             "description": "a simple, minimalist writing platform (my.skylights.*)",
             "lang": "en",
             "name": "Skylights"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-skyreader",
+        "locales": [
+          {
+            "description": "RSS Reader on ATProto (app.skyreader.*)",
+            "lang": "en",
+            "name": "Skyreader"
           }
         ],
         "severity": "inform"
@@ -599,6 +823,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "place-wisp",
+        "locales": [
+          {
+            "description": "Static hosting for developers who value simplicity (place.wisp.*)",
+            "lang": "en",
+            "name": "wisp.place"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "link-woosh",
         "locales": [
           {
@@ -643,30 +881,46 @@
       "app-dropanchor",
       "net-anisota",
       "place-atwork",
+      "io-atcr",
       "blue-zio-atfile",
       "com-atprotofans",
+      "com-suibari-atsumeat",
+      "app-beaconbits",
       "app-blento",
       "blue-badge",
       "buzz-bookhive",
+      "com-deckbelcher",
       "blue-flashes",
       "im-flushing",
       "fyi-unravel-frontpage",
+      "fyi-frontpage",
+      "com-germnetwork",
+      "garden-goals",
       "social-grain",
+      "app-greengale",
+      "at-inlay",
+      "social-kibun",
       "app-lanyards",
       "pub-leaflet",
+      "garden-lexicon",
       "blue-linkat",
+      "at-margin",
       "at-monomarks",
       "community-nooki",
       "dev-npmx",
+      "app-offprint",
+      "blog-pckt",
       "com-shinolabs-pinksea",
       "fm-plyr",
       "social-popfeed",
+      "fyi-questionable",
       "exchange-recipe",
       "app-rocksky",
       "space-roomy",
       "network-cosmik",
       "app-sidetrail",
       "my-skylights",
+      "app-skyreader",
       "events-smokesignal",
       "st-snowpo",
       "so-sprk",
@@ -680,6 +934,7 @@
       "net-wafrn",
       "com-wamellow",
       "com-whtwnd",
+      "place-wisp",
       "link-woosh",
       "org-xcvr",
       "app-yoten"

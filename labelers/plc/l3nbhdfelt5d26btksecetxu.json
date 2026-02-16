@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:l3nbhdfelt5d26btksecetxu/app.bsky.labeler.service/self",
-  "cid": "bafyreiayxnrlvouivldbqrsoowjk6tckevulnfwrrozwioehqrdhgbw3ci",
+  "cid": "bafyreicnrbcudtp3gwow6ss23wm42xo22cxryvaz4dmd57dbc2zkupusyi",
   "creator": {
     "did": "did:plc:l3nbhdfelt5d26btksecetxu",
     "handle": "pronounpicker.ripperoni.com",
@@ -17,7 +17,7 @@
     "description": "Source Code: https://github.com/TheRipperoni/PronounPicker",
     "indexedAt": "2026-02-11T18:21:11.845Z"
   },
-  "indexedAt": "2026-02-10T05:15:15.851Z",
+  "indexedAt": "2026-02-15T06:19:14.954Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -560,9 +560,51 @@
         "identifier": "bun",
         "locales": [
           {
-            "description": "Ask me about my pronouns",
+            "description": "",
             "lang": "en",
             "name": "Bun/Buns"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "sheit",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "She/It"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "heit",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "He/It"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "theyit",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "They/It"
           }
         ],
         "severity": "inform"
@@ -608,7 +650,10 @@
       "theyshe",
       "bun",
       "dey",
-      "askme"
+      "askme",
+      "sheit",
+      "heit",
+      "theyit"
     ]
   },
   "reasonTypes": [

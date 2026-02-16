@@ -1,0 +1,96 @@
+{
+  "uri": "at://did:plc:k2zhsrxcku6bdsppymu2gmmo/app.bsky.labeler.service/self",
+  "cid": "bafyreiazrtqdapqchgbla6txwsz2nozyo4inx3pupusij2qt5do7ob2olq",
+  "creator": {
+    "did": "did:plc:k2zhsrxcku6bdsppymu2gmmo",
+    "handle": "awacs.prtgn.org",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k2zhsrxcku6bdsppymu2gmmo/bafkreiatcegg4wstscbkvvwbva2czm4g7r3kyhcsgjlijllu634kllot6m@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-02-15T06:28:14.247Z",
+    "indexedAt": "2026-02-15T06:28:57.545Z"
+  },
+  "indexedAt": "2026-02-15T15:38:54.955Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "DNIignorer",
+        "locales": [
+          {
+            "description": "Users that ignore ignore dni rules(mdni following minors)",
+            "lang": "en",
+            "name": "DNI Ignorer"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "Verified User"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "fly",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "Housefly"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "bot",
+        "locales": [
+          {
+            "description": "Label description.",
+            "lang": "en",
+            "name": "Bot"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "verified",
+      "fly",
+      "bot",
+      "DNIignorer"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonSexual"
+  ]
+}
