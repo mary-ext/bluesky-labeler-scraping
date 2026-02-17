@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4wdiawuqywf3zx4faayw4hv2/app.bsky.labeler.service/self",
-  "cid": "bafyreigrzyg5xssn6wb5w52ijtuxy3kvahlxs4ldxnqffjzbtbczbqlwui",
+  "cid": "bafyreieghfxbeyp4wxwahr64qt5avlfae42lse2taxklp7aznn5metim5q",
   "creator": {
     "did": "did:plc:4wdiawuqywf3zx4faayw4hv2",
     "handle": "mushroom-labeler.bsky.social",
@@ -17,66 +17,10 @@
     "description": "Find out which mushroom you're on.\nIN DEVELOPMENT (probably not working yet).",
     "indexedAt": "2024-11-26T19:11:37.046Z"
   },
-  "indexedAt": "2025-07-29T16:52:35.311Z",
+  "indexedAt": "2026-02-16T22:13:09.259Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "agaric",
-        "locales": [
-          {
-            "description": "Agaric is a type of mushroom and the name of this user's Bluesky PDS.",
-            "lang": "en",
-            "name": "agaric"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "boletus",
-        "locales": [
-          {
-            "description": "Boletus is a type of mushroom and the name of this user's Bluesky PDS.",
-            "lang": "en",
-            "name": "boletus"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "bracket",
-        "locales": [
-          {
-            "description": "Bracket is a type of mushroom and the name of this user's Bluesky PDS.",
-            "lang": "en",
-            "name": "bracket"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "button",
-        "locales": [
-          {
-            "description": "Button is a type of mushroom and the name of this user's Bluesky PDS.",
-            "lang": "en",
-            "name": "button"
-          }
-        ],
-        "severity": "inform"
-      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -608,13 +552,65 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "agaric",
+        "locales": [
+          {
+            "description": "Agaric is a type of mushroom and the name of this user's Bluesky PDS.",
+            "lang": "en",
+            "name": "agaric"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "boletus",
+        "locales": [
+          {
+            "description": "Boletus is a type of mushroom and the name of this user's Bluesky PDS.",
+            "lang": "en",
+            "name": "boletus"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bracket",
+        "locales": [
+          {
+            "description": "Bracket is a type of mushroom and the name of this user's Bluesky PDS.",
+            "lang": "en",
+            "name": "bracket"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "button",
+        "locales": [
+          {
+            "description": "Button is a type of mushroom and the name of this user's Bluesky PDS.",
+            "lang": "en",
+            "name": "button"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "agaric",
-      "boletus",
-      "bracket",
-      "button",
       "conocybe",
       "chaga",
       "cremini",
@@ -652,7 +648,11 @@
       "poisonpie",
       "brittlegill",
       "fibercap",
-      "blusher"
+      "blusher",
+      "agaric",
+      "boletus",
+      "bracket",
+      "button"
     ]
   }
 }

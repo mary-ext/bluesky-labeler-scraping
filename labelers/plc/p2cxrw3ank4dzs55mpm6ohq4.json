@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreig5d4nxagbmlbl2tr64skw23rmnp63b4f4j6rdip63fnfq6llwezy",
+  "cid": "bafyreigddrlmfv2en2ng7b2ungosy332sxnhpw6hhy3v56khse7ovtqkii",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
     "handle": "moderation.northsky.social",
@@ -17,14 +17,14 @@
     "description": "⚠️In Alpha Testing - Not Actively Staffed Yet!⚠️\n\n🌌Moderation services offered by Northsky Social🌌\nAll volunteer team of moderators (reports will process slowly)\n\nYou can support our efforts here: https://northskysocial.com/profile/products",
     "indexedAt": "2026-01-06T08:41:04.124Z"
   },
-  "indexedAt": "2026-02-01T07:31:00.853Z",
+  "indexedAt": "2026-02-16T08:24:07.151Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "ableism",
         "locales": [
           {
@@ -38,7 +38,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "acephobia",
         "locales": [
           {
@@ -52,7 +52,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "antisemitism",
         "locales": [
           {
@@ -72,7 +72,7 @@
           {
             "description": "Apologia: defense or minimizing of the harm of abuse (sexual or otherwise)",
             "lang": "en",
-            "name": "Abuse Apologia"
+            "name": "Apologia: Abuse"
           }
         ],
         "severity": "inform"
@@ -86,7 +86,7 @@
           {
             "description": "Apologia: defense or minimizing of the harm of pedophilia and CSAM",
             "lang": "en",
-            "name": "Pedophilia Apologia"
+            "name": "Apologia: Pedophilia"
           }
         ],
         "severity": "inform"
@@ -100,7 +100,7 @@
           {
             "description": "Apologia: defense or minimizing of the harm of zoophilia or bestiality",
             "lang": "en",
-            "name": "Zoophilia Apologia"
+            "name": "Apologia: Zoophilia"
           }
         ],
         "severity": "inform"
@@ -108,7 +108,21 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
+        "identifier": "apologia-transphobia",
+        "locales": [
+          {
+            "description": "Apologia: defense or minimizing of the harm of trans or nonbinary people",
+            "lang": "en",
+            "name": "Apologia: Transphobia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "biphobia",
         "locales": [
           {
@@ -122,7 +136,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "enbyphobia",
         "locales": [
           {
@@ -136,7 +150,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "homophobia",
         "locales": [
           {
@@ -164,7 +178,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "misogyny",
         "locales": [
           {
@@ -178,7 +192,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "queerphobia",
         "locales": [
           {
@@ -192,7 +206,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "racism",
         "locales": [
           {
@@ -206,7 +220,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "transphobia",
         "locales": [
           {
@@ -220,7 +234,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "whorephobia",
         "locales": [
           {
@@ -234,13 +248,209 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "xenophobia",
         "locales": [
           {
             "description": "Fear, hatred, or mistrust of immigrants, refugees, or foreigners or things considered foreign.",
             "lang": "en",
             "name": "Xenophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Consistent behavior of targeting and harassing individuals or members of groups, usually involving repeated unwanted contact and obviation of blocks.",
+            "lang": "en",
+            "name": "Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "stalking",
+        "locales": [
+          {
+            "description": "Consistent behavior of bypassing boundaries and blocks to stalk an individual or group, or otherwise exhibiting unwanted obsessive attention.",
+            "lang": "en",
+            "name": "Stalking"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "endangering-minor",
+        "locales": [
+          {
+            "description": "Demonstrating behavior that endangers the safety of a minor.",
+            "lang": "en",
+            "name": "Endangering Minor"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "undermining-wrecking",
+        "locales": [
+          {
+            "description": "Engaging in behavior that is aimed at undermining or wrecking a group or organization.",
+            "lang": "en",
+            "name": "Undermining-Wrecking"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spreading-misinformation",
+        "locales": [
+          {
+            "description": "Consistently spreading misinformation and not issuing retractions when corrected.",
+            "lang": "en",
+            "name": "Spreading Misinformation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nsfw-doesnt-tag",
+        "locales": [
+          {
+            "description": "Consistently fails to tag their NSFW posts against Community Guidelines after being warned by moderation. (this will limit post visibility until corrected)",
+            "lang": "en",
+            "name": "NSFW Doesn't Tag"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "animal-abuse",
+        "locales": [
+          {
+            "description": "Content or behavior that harms or promotes the harm of animals.",
+            "lang": "en",
+            "name": "Animal Abuse"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "doxing",
+        "locales": [
+          {
+            "description": "Sharing of personally identifying information without consent (and not in the interest of community safety)",
+            "lang": "en",
+            "name": "Doxing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "self-harm",
+        "locales": [
+          {
+            "description": "Content or behavior that demonstrates or promotes self-harm.",
+            "lang": "en",
+            "name": "Self-Harm"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "This account is impersonating another account.",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "parody",
+        "locales": [
+          {
+            "description": "This account is a parody account.",
+            "lang": "en",
+            "name": "Parody"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "Disturbing content that is traumatic in nature.",
+            "lang": "en",
+            "name": "Graphic-Media"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "csam",
+        "locales": [
+          {
+            "description": "Content that depicts sexual acts involving minors, real or drawn.",
+            "lang": "en",
+            "name": "CSAM (Child Sexual Abuse Material)"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "bestiality",
+        "locales": [
+          {
+            "description": "Content that depicts sexual acts involving realistic animals.",
+            "lang": "en",
+            "name": "Bestiality"
           }
         ],
         "severity": "alert"
@@ -253,6 +463,7 @@
       "apologia-pedophilia",
       "apologia-zoophilia",
       "apologia-abuse",
+      "apologia-transphobia",
       "biphobia",
       "enbyphobia",
       "homophobia",
@@ -270,11 +481,13 @@
       "spreading-misinformation",
       "nsfw-doesnt-tag",
       "animal-abuse",
-      "doxxing",
+      "doxing",
       "self-harm",
       "impersonation",
       "parody",
-      "apologia-transphobia"
+      "graphic-media",
+      "csam",
+      "bestiality"
     ]
   },
   "reasonTypes": [
