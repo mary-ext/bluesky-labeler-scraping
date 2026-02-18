@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:l3nbhdfelt5d26btksecetxu/app.bsky.labeler.service/self",
-  "cid": "bafyreicnrbcudtp3gwow6ss23wm42xo22cxryvaz4dmd57dbc2zkupusyi",
+  "cid": "bafyreiayozqu23mane6umfv4ecc5gzswack3iwi5ktg23cqe3nyshp6krm",
   "creator": {
     "did": "did:plc:l3nbhdfelt5d26btksecetxu",
     "handle": "pronounpicker.ripperoni.com",
@@ -17,7 +17,7 @@
     "description": "Source Code: https://github.com/TheRipperoni/PronounPicker",
     "indexedAt": "2026-02-11T18:21:11.845Z"
   },
-  "indexedAt": "2026-02-15T06:19:14.954Z",
+  "indexedAt": "2026-02-17T18:40:35.755Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -608,6 +608,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "checkbio",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Check Bio"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -653,7 +667,8 @@
       "askme",
       "sheit",
       "heit",
-      "theyit"
+      "theyit",
+      "checkbio"
     ]
   },
   "reasonTypes": [
