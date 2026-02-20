@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:lyfdahuzifj577o5o6vphfl5/app.bsky.labeler.service/self",
-  "cid": "bafyreidptwlzjpx5dmzjamna4eiu56ichetp6n674vcbcjyl7kyvqnwdxm",
+  "cid": "bafyreibanw2icy5jj5z2bnygxw72dohwype773zfte5hmyoekqfxlbv72m",
   "creator": {
     "did": "did:plc:lyfdahuzifj577o5o6vphfl5",
     "handle": "ozone.fifo-f.eu",
@@ -15,9 +15,25 @@
     "createdAt": "2026-01-22T16:34:21.124Z",
     "indexedAt": "2026-01-22T21:42:28.923Z"
   },
-  "indexedAt": "2026-01-22T21:20:13.336Z",
+  "indexedAt": "2026-02-19T09:43:13.255Z",
   "labels": [],
   "policies": {
+    "labelValueDefinitions": [],
     "labelValues": []
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonSexual"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }

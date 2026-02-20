@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:dsjk7d74slgc2xyrhehf2sxk/app.bsky.labeler.service/self",
-  "cid": "bafyreidv6wecvnbbqmd7vzlxfjhmlex46h4kx2y3hudhadur5qjqwizbxe",
+  "cid": "bafyreiebrv4zjc3ijwestdcdiaxg5tw63vj3wo6edu3bodgfbbincdznbm",
   "creator": {
     "did": "did:plc:dsjk7d74slgc2xyrhehf2sxk",
     "handle": "built.blue",
     "displayName": "The Built Labeler",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dsjk7d74slgc2xyrhehf2sxk/bafkreiceajxsgu4b5bfjp66ch3wsque6fpmdgtryof64irsoov47gysqbi@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dsjk7d74slgc2xyrhehf2sxk/bafkreifpw5v6gurxmhjzzjmh5dlclhjp3efbgwiaujqh22iyy74mhjy3iy@jpeg",
     "associated": {
       "labeler": true,
       "chat": {
@@ -18,9 +18,9 @@
     "labels": [],
     "createdAt": "2023-07-15T22:00:19.058Z",
     "description": "This account is the nexus of a broader community of builders.\n\nSubscribe to this account, and follow the associated creative community accounts to see what people are choosing to build and share.",
-    "indexedAt": "2026-02-18T23:05:07.047Z"
+    "indexedAt": "2026-02-19T18:40:36.953Z"
   },
-  "indexedAt": "2026-02-17T21:23:07.056Z",
+  "indexedAt": "2026-02-19T18:43:23.251Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,26 +28,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "visual",
-        "locales": [
-          {
-            "description": "A Built Blue Visual creative community member.",
-            "lang": "en",
-            "name": "👓"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "audio",
         "locales": [
           {
-            "description": "A Built Blue Audio creative community member.",
+            "description": "Music and Spoken Arts",
             "lang": "en",
-            "name": "🎧"
+            "name": "🎙"
           }
         ],
         "severity": "inform"
@@ -59,9 +45,9 @@
         "identifier": "code",
         "locales": [
           {
-            "description": "A Built Blue Code creative community member.",
+            "description": "Code and Development",
             "lang": "en",
-            "name": "💻"
+            "name": "⚙️"
           }
         ],
         "severity": "inform"
@@ -73,9 +59,9 @@
         "identifier": "physical",
         "locales": [
           {
-            "description": "A Built Blue Physical creative community member.",
+            "description": "Crafts and Handwork",
             "lang": "en",
-            "name": "🤲"
+            "name": "⚒️"
           }
         ],
         "severity": "inform"
@@ -87,9 +73,65 @@
         "identifier": "word",
         "locales": [
           {
-            "description": "A Built Blue Word creative community member.",
+            "description": "Words and Literature",
             "lang": "en",
-            "name": "✍️"
+            "name": "📜"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "visual",
+        "locales": [
+          {
+            "description": "Visual Arts",
+            "lang": "en",
+            "name": "☀️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rhythm",
+        "locales": [
+          {
+            "description": "Rhythm and Dance",
+            "lang": "en",
+            "name": "👣"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "textile",
+        "locales": [
+          {
+            "description": "Woven and Textile Arts",
+            "lang": "en",
+            "name": "🪡"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "organic",
+        "locales": [
+          {
+            "description": "Gardens and Naturalists",
+            "lang": "en",
+            "name": "🌿"
           }
         ],
         "severity": "inform"
@@ -101,20 +143,23 @@
         "identifier": "admin",
         "locales": [
           {
-            "description": "The Built Blue Administrator account.",
+            "description": "Built Blue Administrator",
             "lang": "en",
-            "name": "⚠️"
+            "name": "🌩️"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "visual",
       "audio",
       "code",
       "physical",
       "word",
+      "visual",
+      "rhythm",
+      "textile",
+      "organic",
       "admin"
     ]
   }
