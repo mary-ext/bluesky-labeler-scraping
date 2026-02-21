@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreihar6csiwmdwiuzdhm2b5ytdiwn2ykiuch2rpto2il4fwjh6zooz4",
+  "cid": "bafyreidq2xxvtl7e2ulsrsuaa7a7yjpoa2ur4negj6jsdcurll7t4qt5za",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-02-17T10:10:22.866Z",
+  "indexedAt": "2026-02-20T14:15:32.593Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6715,6 +6715,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jj-vcs-jj",
+        "locales": [
+          {
+            "description": "A Git-compatible VCS that is both simple and powerful\nhttps://github.com/jj-vcs/jj",
+            "lang": "en",
+            "name": "jj-vcs/jj"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "margin-at-margin",
+        "locales": [
+          {
+            "description": "Margin's Monorepo, available under the MIT License\nhttps://github.com/margin-at/margin",
+            "lang": "en",
+            "name": "margin-at/margin"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7195,7 +7223,9 @@
       "npmx-dev-npmx-dev",
       "vtuberstv--github",
       "dfosco-storyboard",
-      "zeucapua-potatonet-app"
+      "zeucapua-potatonet-app",
+      "jj-vcs-jj",
+      "margin-at-margin"
     ]
   }
 }
