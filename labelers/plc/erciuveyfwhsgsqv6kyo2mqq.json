@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:erciuveyfwhsgsqv6kyo2mqq/app.bsky.labeler.service/self",
-  "cid": "bafyreibrnp7sc6brqhiqrbkprklad3jp6curpwf44r5buinun7f6eqdage",
+  "cid": "bafyreidqxtlu6kskifgjojdvyqeqxqsi2tve4y7wgvbijt3pvi7hgmdbuq",
   "creator": {
     "did": "did:plc:erciuveyfwhsgsqv6kyo2mqq",
     "handle": "zktls-labeler.bsky.social",
@@ -16,28 +16,14 @@
     "createdAt": "2025-06-27T01:03:15.836Z",
     "indexedAt": "2025-06-27T01:03:46.335Z"
   },
-  "indexedAt": "2025-07-08T00:52:00.643Z",
+  "indexedAt": "2026-02-21T16:27:23.257Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "twitter-100",
-        "locales": [
-          {
-            "description": "Has over 100 followers on Twitter",
-            "lang": "en",
-            "name": "Twitter Follower > 100 🐦"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
+        "defaultSetting": "ignore",
         "identifier": "twitter-1k",
         "locales": [
           {
@@ -46,12 +32,26 @@
             "name": "Twitter Follower > 1k 🐦"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
       },
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
+        "defaultSetting": "ignore",
+        "identifier": "twitter-5k",
+        "locales": [
+          {
+            "description": "Has over 5,000 followers on Twitter",
+            "lang": "en",
+            "name": "Twitter Follower > 5k 🐦"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
         "identifier": "twitter-10k",
         "locales": [
           {
@@ -60,43 +60,13 @@
             "name": "Twitter Follower > 10k 🐦"
           }
         ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "twitter-100k",
-        "locales": [
-          {
-            "description": "Has over 100,000 followers on Twitter",
-            "lang": "en",
-            "name": "Twitter Follower > 100k 🐦"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "twitter-1m",
-        "locales": [
-          {
-            "description": "Has over 1,000,000 followers on Twitter",
-            "lang": "en",
-            "name": "Twitter Follower > 1m 🐦"
-          }
-        ],
-        "severity": "inform"
+        "severity": "none"
       }
     ],
     "labelValues": [
-      "twitter-100",
       "twitter-1k",
-      "twitter-10k",
-      "twitter-100k",
-      "twitter-1m"
+      "twitter-5k",
+      "twitter-10k"
     ]
   }
 }
