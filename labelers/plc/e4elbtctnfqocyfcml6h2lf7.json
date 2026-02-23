@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreid2axt2q7eqaubpp52psqoqyuyzsmtcss2a6rtxzbuhx7digczgym",
+  "cid": "bafyreicg3p54c5kl5khcd4lqg3ypozxdkh7ixy7repc3xn5zz7rdv237i4",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,7 +20,7 @@
     "description": "Ceaseless watcher, turn your gaze upon this wretched thing.\n\nIndependent Labeling Service | Not able to perform takedowns.\n\nstats.skywatch.blue\n\nNot associated with SkySentry.",
     "indexedAt": "2025-07-12T21:42:44.432Z"
   },
-  "indexedAt": "2026-02-21T13:49:58.159Z",
+  "indexedAt": "2026-02-22T17:36:48.154Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,6 +34,62 @@
             "description": "Applied to accounts which claim to be or are verified to be US Government agencies.",
             "lang": "en",
             "name": "United States Government Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Applied to accounts engaged in behaviors which indicate they are likely spam. Escalatable to platform-manipulation.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "inauthentic-fundraising",
+        "locales": [
+          {
+            "description": "Applied to accounts engaged in fundraising appeals which demonstrate coordination or scam indicators. Escalatable to platform-manipulation.",
+            "lang": "en",
+            "name": "Inauthentic Fundraising"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "bulk-following",
+        "locales": [
+          {
+            "description": "Applied to accounts engaged in mass following, numeric handle floods, new account bulk follow, follow/unfollow farming. Escalatable to platform-manipulation on repeat or extreme velocity.",
+            "lang": "en",
+            "name": "Bulk Following"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "engagement-abuse",
+        "locales": [
+          {
+            "description": "Applied to accounts engaged in what appear to be engagement hacking tactics: hashtag stuffing, engagement farming, coordinated amplification. Escalatable to platform-manipulation on repeat or extreme instances.",
+            "lang": "en",
+            "name": "Engagement Abuse / Hacking"
           }
         ],
         "severity": "inform"
@@ -465,14 +521,17 @@
       "beans",
       "blue-heart-emoji",
       "bluesky-elder",
+      "bulk-following",
       "contains-slur",
       "discourse-bait",
       "disinformation-network",
       "elon-musk",
+      "engagement-abuse",
       "fringe-media",
       "follow-farming",
       "fundraising-link",
       "hammer-sickle",
+      "inauthentic-fundraising",
       "intolerance",
       "inverted-red-triangle",
       "low-quality-replies",
@@ -482,6 +541,7 @@
       "platform-manipulation",
       "rmve-imve",
       "sensual-alf",
+      "spam",
       "sports-betting",
       "suspect-inauthentic",
       "terf-gc",
