@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yx4ako43dvnqcahmhccuuoyf/app.bsky.labeler.service/self",
-  "cid": "bafyreie3juxd5oof7fenqpi6bjv2nt7a6kimrc47xb7esmwuvagevrb6ha",
+  "cid": "bafyreihufjrimhknvgcpvtvtnmgvugu5ap773jyi5qistpv7lfj4xar3ba",
   "creator": {
     "did": "did:plc:yx4ako43dvnqcahmhccuuoyf",
     "handle": "media-ownership.aendra.dev",
@@ -14,22 +14,22 @@
     },
     "labels": [],
     "createdAt": "2026-02-20T15:16:12.859Z",
-    "description": "A project by @aendra.com",
-    "indexedAt": "2026-02-20T16:24:28.054Z"
+    "description": "Labels posts linking to a known news org website. A project by @aendra.com. \n\nFeedback welcome! 💚\n\nThe source dataset is here: \nhttps://docs.google.com/spreadsheets/d/1KUj2syDgC6ym7PXLRwq9nt3RoDIJbux3159LEGNAEXE/view",
+    "indexedAt": "2026-02-23T03:19:09.947Z"
   },
-  "indexedAt": "2026-02-20T17:35:04.062Z",
+  "indexedAt": "2026-02-23T04:14:36.059Z",
   "labels": [],
   "policies": {
     "description": "Labels the ownership of media orgs on posts linking to news orgs in the Verified News feed",
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "independent",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/independent",
+            "description": "This title does not have a corporate owner and is independently financed.",
             "lang": "en",
             "name": "Independent"
           }
@@ -38,12 +38,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "nonprofit",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nonprofit",
+            "description": "This title is produced or managed by a non-profit organisation.",
             "lang": "en",
             "name": "Nonprofit"
           }
@@ -52,12 +52,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "worker-owned",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/worker-owned",
+            "description": "This title is owned by the people who work at it.",
             "lang": "en",
             "name": "Worker-Owned"
           }
@@ -66,12 +66,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "independent-nonprofit",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/independent-nonprofit",
+            "description": "This title is independently owned and has a non-profit designation.",
             "lang": "en",
             "name": "Independent Nonprofit"
           }
@@ -80,12 +80,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "nikkei-inc",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nikkei-inc",
+            "description": "Nikkei, Inc. (Japanese: 株式会社日本経済新聞社, Hepburn: Kabushiki gaisha Nihon Keizai Shinbun-sha) is a Japanese media and publishing company which owns The Nikkei and the Financial Times. Its first publication was in 1876 with the publication of The Chugai Bukka Shimpo (Domestic and Foreign Prices News). In 1946, the company name was changed to Nihon Keizai Shimbunsha, while the newspaper changed its title to the Nihon Keizai Shimbun, both of which were later shortened to Nikkei.\n\nNikkei is an employee-owned company; Japanese law does not allow newspaper companies to be publicly traded. In addition to the Japan-based The Nikkei newspaper (the world's largest business daily in terms of circulation), Nikkei, Inc. owns and publishes two international publications: the Nikkei Asia weekly news magazine and the London headquartered Financial Times daily newspaper. Furthermore, it is the owner of the TX Network, of which TV Tokyo is the flagship station. Nikkei, Inc.'s holdings include companies in books, magazines to digital media, database services, broadcasting, and other activities such as economic/cultural events.\n\nSource: https://en.wikipedia.org/wiki/Nikkei,_Inc.",
             "lang": "en",
             "name": "Nikkei, Inc."
           }
@@ -94,12 +94,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "journal-media-limited",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/journal-media-limited",
+            "description": "From their website:\n\nAn independently-owned and managed media organisation, we began small in 2010 with The Journal and a sports site that is now The 42, and have since established ourselves as a market leader in online news in Ireland. We employ dozens of journalists across our publications; The Journal, The 42, The Journal Investigates and The Journal FactCheck unit are now among the most iconic of Ireland's digital brands.\n\nOur FactCheck unit began operations in 2016 and has grown to become the leading factchecking entity in Ireland.\nSource: https://www.thejournal.ie/about-us/",
             "lang": "en",
             "name": "Journal Media Limited"
           }
@@ -108,12 +108,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "gray-media-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/gray-media-group",
+            "description": "Gray Media, Inc. is an American publicly traded television broadcasting company based in Atlanta. Founded in 1946 by James Harrison Gray as Gray Communications Systems, the company is the third-largest television station operator in the United States by number of stations, owning or operating 180 stations across the United States in 113 markets. Its station base consists of media markets ranging from as large as Atlanta to one of the smallest markets, North Platte, Nebraska.\n\nIn terms of quantity and numerical total, Gray Media is the largest group owner and operator of NBC-affiliated stations (with a total of 64 affiliates), ahead of Nexstar Media Group and Tegna Inc., and the second-largest group owner and operator of ABC affiliates, behind Sinclair Broadcast Group.\n\nSource: https://en.wikipedia.org/wiki/Gray_Media",
             "lang": "en",
             "name": "Gray Media Group"
           }
@@ -122,12 +122,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "boston-globe-media-partners",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/boston-globe-media-partners",
+            "description": "Boston Globe Media is a locally owned independent media company that serves Boston and the surrounding region with award-winning journalism from the largest newsroom in New England. Boston Globe Media brands include The Boston Globe, Globe Opinion, Boston.com, Boston magazine,  STAT, and more.\n\nThe Boston Globe, one of the most successful metro newspapers in the United States, has served Boston and the region for more than 152 years and has received dozens of national and international awards, including 20+ Pulitzer Prize Awards.\n\nHeadquartered in Boston, Boston Globe Media has a local presence in New Hampshire, Rhode Island, and Washington, D.C. Our employees bring fresh voices and unique perspectives that engage regional and national audiences.\n\nSource: https://www.bostonglobemedia.com/about",
             "lang": "en",
             "name": "Boston Globe Media Partners"
           }
@@ -136,12 +136,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "observer-media-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/observer-media-group",
+            "description": "Observer Media Group, Inc. (OMG) is a media company that publishes local newspapers and magazines in the U.S. state of Florida. The company publishes seven newspapers, nine quarterly magazines and maintains four news websites.\n\nObserver Media Group started when Matt Walsh and Lisa Walsh purchased the Longboat Observer in 1995 from Ralph and Claire Hunter, with the help of Lisa's parents and a small group of other investors. The Hunters had started the Longboat Observer in 1978.\n\nSince then, Observer Media Group established new local newspapers, such as the Sarasota Observer in 2004, and acquired other older newspapers, such as the 100+ year-old West Orange Times in 2014 and Financial News & Daily Record in 2017. OMG maintains journalistic offices in Tampa, Clearwater, Lakeland, Sarasota, Fort Myers, Naples, New Port Richey, Winter Garden, Lakewood Ranch and Port Charlotte.[1] The name was changed to Observer Media Group in 2012 from The Observer Group.\n\nSource: https://en.wikipedia.org/wiki/Observer_Media_Group",
             "lang": "en",
             "name": "Observer Media Group"
           }
@@ -150,26 +150,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "big-issue-group",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/big-issue-group",
-            "lang": "en",
-            "name": "Big Issue Group"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "evgeny-lebedev",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/evgeny-lebedev",
+            "description": "Evgeny Alexandrovich Lebedev, Baron Lebedev (Russian: Евгений Александрович Лебедев, romanized: Yevgeniy Aleksandrovich Lebedev,[a] pronounced [jɪvˈɡʲenʲɪj ˈlʲebʲɪdʲɪf]; born 8 May 1980), is a Russian-British businessman, who owns Lebedev Holdings Ltd, which in turn owns the Evening Standard and the now-defunct ESTV (London Live). He is also an investor in The Independent.\n\nIn July 2020, Lebedev was nominated for a life peerage by British prime minister Boris Johnson for philanthropy and services to the media, a move that drew widespread criticism due to Lebedev's father having been a KGB agent. He was appointed to be a crossbench life peer in the House of Lords as Lord Lebedev in November 2020. His full title is Baron Lebedev, of Hampton in the London Borough of Richmond upon Thames and of Siberia in the Russian Federation.\n\nSource: https://en.wikipedia.org/wiki/Evgeny_Lebedev",
             "lang": "en",
             "name": "Evgeny Lebedev"
           }
@@ -178,12 +164,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "national-world",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/national-world",
+            "description": "National World (NW) is a British multimedia company based in Leeds, England.\n\nFounded and listed on the London Stock Exchange (LSE) in September 2019 as a media takeover vehicle, it acquired JPIMedia for £10.2 million two years later. In April 2022, JPIMedia was rebranded to National World.\n\nSince purchasing JPIMedia, NW has launched sixteen new titles and made a further seven acquisitions, notably Insider Media. With The Scotsman, The Yorkshire Post, and Belfast's The News Letter among its flagship titles, it operates over 100 newspapers and websites around the United Kingdom.\n\nThe company reported 2022 revenues of £84.1M and adjusted EBITDA of £9.7M. In May 2025, Media Concierge, owner of Iconic Newspapers, acquired National World for £65.1 million.\n\nSource: https://en.wikipedia.org/wiki/National_World",
             "lang": "en",
             "name": "National World"
           }
@@ -192,12 +178,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "michael-moritz",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/michael-moritz",
+            "description": "Sir Michael Jonathan Moritz KBE (born 12 September 1954) is a Welsh billionaire venture capitalist, philanthropist, author, and former journalist. Moritz works for Sequoia Capital, wrote the first history of Apple Inc., The Little Kingdom, and authored Going for Broke: Lee Iacocca's Battle to Save Chrysler. Previously, Moritz was a staff writer at Time magazine and a member of the board of directors of Google. He studied at the University of Oxford and the Wharton School of the University of Pennsylvania and went on to found Technologic Partners before becoming a venture capitalist in the 1980s. Moritz was named as the No. 1 venture capitalist on the Forbes Midas List in 2006 and 2007.\n\nSource: https://en.wikipedia.org/wiki/Michael_Moritz",
             "lang": "en",
             "name": "Michael Moritz"
           }
@@ -206,26 +192,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "city-of-roses-newspapers",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "us-news-and-world-report",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/city-of-roses-newspapers",
-            "lang": "en",
-            "name": "City of Roses Newspapers"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "us-news-&-world-report",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/us-news-&-world-report",
+            "description": "U.S. News & World Report (USNWR, U.S. NEWS) is an American media company publishing news, consumer advice, rankings, and analysis. The company was launched in 1948 as the merger of domestic-focused weekly newspaper U.S. News and international-focused weekly magazine World Report.\n\nIn 1995, the company launched its website, usnews.com, and, in 2010, ceased printing its weekly news magazine, publishing only its ranking editions in print. U.S. News licences its name to the subjects it ranks, so they may then use the annual rankings in promotional literature.\n\nSource: https://en.wikipedia.org/wiki/U.S._News_%26_World_Report",
             "lang": "en",
             "name": "U.S. News & World Report"
           }
@@ -234,12 +206,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "dpg-media-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/dpg-media-group",
+            "description": "DPG Media Group is a Belgian media group. It is active in Belgium and the Netherlands. The exact ownership structure is not clear; it is believed that the group is mainly owned by the Belgian Van Thillo family. The company employs about 6,000 people.\n\nThe DPG Media Group operates through two national subsidiaries:\n\n• DPG Media België was founded on 1 January 2019, when Medialaan and de Persgroep Publishing merged into one organization. The company is active in television, radio, newspapers, magazines, and online services.\n•DPG Media Nederland is the largest media organization in the Netherlands. After the merger between Medialaan and de Persgroep Publishing into DPG Media Belgium, the Dutch branch Persgroep Nederland was renamed DPG Media Nederland. In 2020 the company took over the Dutch activities of Sanoma Media Netherlands. The company is also active in radio, newspapers, magazines, and online services in the Netherlands.\n\nSource: https://en.wikipedia.org/wiki/DPG_Media",
             "lang": "en",
             "name": "DPG Media Group"
           }
@@ -248,12 +220,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "public-broadcaster",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/public-broadcaster",
+            "description": "This is a broadcaster that is wholly or partially funded by its audience and has a public service mandate.",
             "lang": "en",
             "name": "Public Broadcaster"
           }
@@ -262,12 +234,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "worker-owned-nonprofit",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/worker-owned-nonprofit",
+            "description": "This title has a non-profit business structure and is owned by its employees.",
             "lang": "en",
             "name": "Worker-Owned Nonprofit"
           }
@@ -276,12 +248,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "states-newsroom",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/states-newsroom",
+            "description": "States Newsroom is a nonprofit news network in the United States. It has news organizations in 39 U.S. states and newsrooms in all 50 state capitals through partnerships, focusing primarily on state politics. States Newsroom grew out of NC Policy Watch, a progressive think tank founded in 2004 by Chris Fitzsimon, who is its current president. In 2017, the project expanded, using the liberal group the Hopewell Fund as an incubator. In 2019, States Newsroom became an independent 501(c)(3) nonprofit.\n\nSource: https://en.wikipedia.org/wiki/States_Newsroom",
             "lang": "en",
             "name": "States Newsroom"
           }
@@ -290,12 +262,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "calmatters",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/calmatters",
+            "description": "CalMatters, a nonprofit news organization covering California state politics and policies, launched in 2015. Founders cited the decline in coverage of state politics in the decade leading up to the founding of CalMatters as a major motivation. As of 2017, it was becoming one of the largest nonprofit newsrooms in the country raising 90 percent of its funding from individuals with only some foundation support. It has also credited its partnership with the LA Times and Capitol Public Radio, among others, as helping to grow the organization quickly.\n\nSource: https://en.wikipedia.org/wiki/CalMatters",
             "lang": "en",
             "name": "CalMatters"
           }
@@ -304,54 +276,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "marc-elias",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/marc-elias",
-            "lang": "en",
-            "name": "Marc Elias"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "cascadia-newspaper-company",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/cascadia-newspaper-company",
-            "lang": "en",
-            "name": "Cascadia Newspaper Company"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "range-media-partners",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/range-media-partners",
-            "lang": "en",
-            "name": "Range Media Partners"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "deep-south-today",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/deep-south-today",
+            "description": "From their website:\n\nDeep South Today is a nonprofit network of local newsrooms that includes The Current, The Garrison Project, Mississippi Today and Verite News.\n\nFounded in 2016, Mississippi Today is now one of the largest newsrooms in the state, and in 2023 it won the Pulitzer Prize for Local Reporting. Verite News launched in 2022 in New Orleans, where it covers inequities facing communities of color. The Current is a nonprofit news organization founded in 2018 serving Lafayette and southern Louisiana.\n\nWith its regional scale and scope, Deep South Today is rebuilding and re-energizing local journalism in communities where it had previously eroded, and ensuring its long-term growth and sustainability.",
             "lang": "en",
             "name": "Deep South Today"
           }
@@ -360,12 +290,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "noisy-creek",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/noisy-creek",
+            "description": "Noisy Creek is a publishing company owned by Brad Walkinshaw. Walkinshaw started Noisy Creek, and purchased a number of alt-weekly newspapers published by Index Media, such as The Stranger and Portland Mercury, in July 2024. \n\nSource: https://en.wikipedia.org/wiki/Brady_Walkinshaw",
             "lang": "en",
             "name": "Noisy Creek"
           }
@@ -374,26 +304,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "the-conversation-trust-limited",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/the-conversation-trust-limited",
-            "lang": "en",
-            "name": "The Conversation Trust Limited"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "indian-express-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/indian-express-group",
+            "description": "Indian Express Limited (IEL) is an Indian news media publishing company. It publishes several widely circulated dailies, including The Indian Express and The Financial Express in English, the Loksatta in Marathi and the Jansatta in Hindi. The company's newspapers are published from over a dozen cities daily, including New Delhi, Mumbai, Ahmedabad, Bengaluru, Kolkata, Pune, Chandigarh, Hyderabad, Kochi, Lucknow, Jaipur, Nagpur, Vadodara and Chennai. Its weekly entertainment magazine Screen, covering the Indian film industry, also has a popular following.\n\nSource: https://en.wikipedia.org/wiki/Indian_Express_Limited",
             "lang": "en",
             "name": "Indian Express Group"
           }
@@ -402,40 +318,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "nederlandse-omroep-stichting-(nos)-and-ntr",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nederlandse-omroep-stichting-(nos)-and-ntr",
-            "lang": "en",
-            "name": "Nederlandse Omroep Stichting (NOS) and NTR"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "stichting-rtv-nh-(radio-television-north-holland)",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/stichting-rtv-nh-(radio-television-north-holland)",
-            "lang": "en",
-            "name": "Stichting RTV NH (Radio Television North Holland)"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "mediahuis",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/mediahuis",
+            "description": "Mediahuis (Dutch pronunciation: [ˈmeːdijaːˌɦœys]; lit. 'Media House') is a European multinational newspaper and magazine publishing, distribution, printing, television, radio and online media company founded in 2014 with assets in Belgium, the Netherlands, Ireland, Luxembourg and Germany. Mediahuis publishes daily newspaper titles in Belgium, the Netherlands and Ireland as well as regional titles, and is involved in broadcasting a number of Dutch and French language TV and radio stations.\n\nIrish assets are held in Independent News & Media subsidiary.\n\nThe headquarters of Mediahuis is in Antwerp.\n\nSource: https://en.wikipedia.org/wiki/Mediahuis",
             "lang": "en",
             "name": "Mediahuis"
           }
@@ -444,40 +332,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "denník-n",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/denník-n",
-            "lang": "en",
-            "name": "Denník N"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "dublin-inquirer-ltd-(lois-kapila)",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/dublin-inquirer-ltd-(lois-kapila)",
-            "lang": "en",
-            "name": "Dublin Inquirer Ltd. (Lois Kapila)"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "comcast-corp",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/comcast-corp",
+            "description": "Comcast Corporation, formerly known as Comcast Holdings, is an American multinational mass media, telecommunications, and entertainment conglomerate. Comcast’s corporate headquarters is at the Comcast Center in Philadelphia, while NBCUniversal, Comcast’s New York operations and other major Comcast assets is headquartered at 30 Rockefeller Plaza in Midtown Manhattan in New York City. The company was ranked 51st in the Forbes Global 2000 in 2023. It is the fourth-largest telecommunications company by worldwide revenue, after AT&T, Verizon, and China Mobile. Comcast is the third-largest pay-TV company, the second-largest cable TV company by subscribers, and the largest home Internet service provider in the United States.\n\nIt owns and operates the Xfinity residential cable communications business segment and division; Comcast Business, a commercial services provider; and Xfinity Mobile, an MVNO of Verizon Communications. The company is also the nation's third-largest home telephone service provider, serving residential and commercial customers in 40 states and the District of Columbia.\n\nComcast has owned NBCUniversal, which is headquartered at 30 Rockefeller Plaza, and its various mass media subsidiaries since 2013. It is a high-volume producer of films for theatrical exhibition and television programming through its film studios: Universal Pictures, DreamWorks Animation, Illumination, and Focus Features. Its over-the-air national broadcast network channels include the National Broadcasting Company (NBC, one of America's Big Three television networks), Spanish-language channels Telemundo, TeleXitos, and Universo, television stations like Cozi TV, and pay-TV channel Bravo. It formerly owned multiple cable-only channels such as MS NOW (formerly MSNBC), CNBC, USA Network, Syfy, Oxygen True Crime, and E! until its spin-off to a company called Versant in 2026. NBCUniversal also works in news (NBC News and Noticias Telemundo) and sports (NBC Sports and Telemundo Deportes), bolstered by its 1996 acquisition of professional sports company Spectacor. It owns the video-on-demand streaming service Peacock; its holdings in digital distribution include thePlatform, acquired in 2006; and ad-tech company FreeWheel, acquired in 2014. Comcast has been the parent company of Sky Group since 2018, when it dropped out of the running to buy 21st Century Fox, Sky's then-largest shareholder, and instead acquired the company from Fox and other shareholders. The company also operates theme parks under its Universal Destinations & Experiences subsidiary.\n\nComcast is criticized and put under intense public scrutiny for a variety of reasons. Its customer satisfaction ratings were among the lowest in the cable industry from 2008 to 2010. It has violated net neutrality practices; it has offered a commitment to a narrow definition of net neutrality that critics say ignores the difference between Comcast's private network services and the rest of the Internet. Critics also note a lack of competition in the vast majority of Comcast's service areas; in particular, the limited competition among cable providers. Given its negotiating power as a large ISP, some suspect that it could use paid peering agreements to unfairly influence end-user connection speeds. Comcast's ownership of both content production (in NBCUniversal) and distribution (as an ISP) has raised antitrust concerns that scuttled the company's 2014 effort to acquire Time Warner Cable. Comcast was dubbed \"The Worst Company in America\" by The Consumerist in 2010 and 2014.\n\nSource: https://en.wikipedia.org/wiki/Comcast",
             "lang": "en",
             "name": "Comcast Corp"
           }
@@ -486,68 +346,54 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "scaleup-capital;-financial-times",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "scaleup-capital",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/scaleup-capital;-financial-times",
+            "description": "From their website:\n\nPartial and full buyouts in B2B software, services and media.\n\nWe partner with established, growing companies with revenues of £2m-£15m and provide dedicated resource, expert support, and capital to accelerate their growth, helping them scale to the next level.\n\nSource: https://scaleupcapital.com/",
             "lang": "en",
-            "name": "ScaleUp Capital; Financial Times"
+            "name": "ScaleUp Capital"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "buzzfeed-inc",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/buzzfeed-inc",
+            "description": "BuzzFeed, Inc. is an American Internet media, news, and entertainment company with a focus on digital media. Based in New York City, BuzzFeed was founded in 2006 by Jonah Peretti and John S. Johnson III to focus on tracking viral content. Kenneth Lerer, co-founder and chairman of The Huffington Post, started as a co-founder and investor in BuzzFeed and is now the executive chairman.\n\nSource: https://en.wikipedia.org/wiki/BuzzFeed",
             "lang": "en",
-            "name": "BuzzFeed Inc.."
+            "name": "BuzzFeed Inc."
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "nordstar-capital-lp-(jordan-bitove)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "torstar-corporation",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nordstar-capital-lp-(jordan-bitove)",
+            "description": "",
             "lang": "en",
-            "name": "NordStar Capital LP (Jordan Bitove)"
+            "name": "Torstar Corporation"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "the-venetoulis-institute-for-local-journalism",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/the-venetoulis-institute-for-local-journalism",
-            "lang": "en",
-            "name": "The Venetoulis Institute for Local Journalism"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "civic-news-company",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/civic-news-company",
+            "description": "In February 2023, Chalkbeat reorganized into having a parent organization called the Civic News Company to avoid confusion around the relationship between Chalkbeat and Votebeat, which was launched in 2020, as well as allowing room for growth. \n\nSource: https://en.wikipedia.org/wiki/Chalkbeat",
             "lang": "en",
             "name": "Civic News Company"
           }
@@ -556,12 +402,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "independent-not-for-profit",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/independent-not-for-profit",
+            "description": "This is an independently-run title funded by an organisation with a not-for-profit business structure.",
             "lang": "en",
             "name": "Independent Not-For-Profit"
           }
@@ -570,12 +416,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "stern-partners-inc",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/stern-partners-inc",
+            "description": "From their website:\n\nFounded over 35 years ago by Ronald N. Stern, Stern Partners is based in Vancouver, Canada, with the head offices of our independently managed operating businesses located primarily throughout North America.\n\nSource: https://sternpartners.com/",
             "lang": "en",
             "name": "Stern Partners Inc."
           }
@@ -584,12 +430,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "think-tank",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/think-tank",
+            "description": "Publication produced by a think tank of some variety.",
             "lang": "en",
             "name": "Think Tank"
           }
@@ -598,12 +444,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "condé-nast",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "conde-nast",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/condé-nast",
+            "description": "Condé Nast (/ˌkɒndeɪ ˈnæst/) is an American mass media company founded in 1909 by Condé Montrose Nast and owned by Advance Publications. Its headquarters are located at One World Trade Center in the Financial District of Lower Manhattan, New York City.\n\nThe company's media brands attract more than 72 million consumers in print, 394 million in digital and 454 million across social media platforms. These include Vogue, The New Yorker, Condé Nast Traveler, Condé Nast Traveller, GQ, Glamour, Architectural Digest, Vanity Fair, Pitchfork, Wired, Bon Appétit, and Ars Technica, among many others. Former U.S. Vogue editor-in-chief Anna Wintour serves as Artistic Director and Global Chief Content Officer. In 2011, the company launched the Condé Nast Entertainment division, tasked with developing film, television, social and digital video, and virtual reality content.\n\nSource: https://en.wikipedia.org/wiki/Cond%C3%A9_Nast",
             "lang": "en",
             "name": "Condé Nast"
           }
@@ -612,54 +458,68 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "-tfcf-srl-(the-fact-checking-factory)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "agora-sa",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/-tfcf-srl-(the-fact-checking-factory)",
+            "description": "",
             "lang": "en",
-            "name": " TFCF SRL (The Fact-Checking Factory)"
+            "name": "Agora S.A."
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "daily-mail-and-general-trust",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/",
+            "description": "",
             "lang": "en",
-            "name": ""
+            "name": "Daily Mail and General Trust (DMGT)"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "daily-mail-and-general-trust-plc-(dmgt)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mediafin",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/daily-mail-and-general-trust-plc-(dmgt)",
+            "description": "",
             "lang": "en",
-            "name": "Daily Mail and General Trust plc (DMGT)"
+            "name": "Mediafin"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "international-media-investments",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "International Media Investments"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "alden-global-capital",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/alden-global-capital",
+            "description": "",
             "lang": "en",
             "name": "Alden Global Capital"
           }
@@ -668,26 +528,96 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "news-corp-(murdoch-family-trust)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "win-mccormack",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/news-corp-(murdoch-family-trust)",
+            "description": "",
             "lang": "en",
-            "name": "News Corp (Murdoch Family Trust)"
+            "name": "Win McCormack"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "news-corp",
+        "locales": [
+          {
+            "description": "The second and current incarnation of News Corporation, doing business as News Corp, is an American mass media and publishing company headquartered at 1211 Avenue of the Americas in Midtown Manhattan, New York City. The company was formed on June 28, 2013, as a spin-off of the first News Corporation, whose legal successor was 21st Century Fox, which held its media and entertainment assets. Operating across digital real estate information, news media, book publishing, and cable television, News Corp's notable assets include: Dow Jones & Company, which is the publisher of The Wall Street Journal; News UK, publisher of The Sun and The Times; News Corp Australia; REA Group, operator of realestate.com.au and realtor.com; and book publisher HarperCollins.\n\nNews Corp and 21st Century Fox are two companies that succeeded the original News Corp., which included Fox Entertainment Group and other broadcasting and media properties. The spin-out was structured so that 21st Century Fox was the legal continuation of the original News Corporation, with the new News Corp being a new company formed by a stock split. Since March 2019, Fox Corporation, which holds 21st Century Fox's national broadcasting, news and sports assets, is also under the Murdoch family's control. In November 2023, Rupert Murdoch stepped down as News Corp's chairman, becoming \"chairman emeritus\".\n\nSource: https://en.wikipedia.org/wiki/News_Corp",
+            "lang": "en",
+            "name": "News Corp"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "el-comercio-group",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "El Comercio Group (GEC)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "public-broadcaster",
+        "locales": [
+          {
+            "description": "This is a broadcaster that is wholly or partially funded by its audience and has a public service mandate.",
+            "lang": "en",
+            "name": "Public broadcaster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "glen-taylor",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Glen Taylor"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "global-media-and-entertainment",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Global Media & Entertainment"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "the-economist-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/the-economist-group",
+            "description": "",
             "lang": "en",
             "name": "The Economist Group"
           }
@@ -696,12 +626,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "reach-plc",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/reach-plc",
+            "description": "",
             "lang": "en",
             "name": "Reach PLC"
           }
@@ -710,12 +640,26 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "worker-owned",
+        "locales": [
+          {
+            "description": "This title is owned by the people who work at it.",
+            "lang": "en",
+            "name": "Worker-owned"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "guardian-media-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/guardian-media-group",
+            "description": "",
             "lang": "en",
             "name": "Guardian Media Group"
           }
@@ -724,12 +668,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "digital-first-media",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/digital-first-media",
+            "description": "",
             "lang": "en",
             "name": "Digital First Media"
           }
@@ -738,12 +682,26 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "grupo-prisa",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Grupo PRISA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "situation-publishing",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/situation-publishing",
+            "description": "",
             "lang": "en",
             "name": "Situation Publishing"
           }
@@ -752,12 +710,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "thomson-reuters",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/thomson-reuters",
+            "description": "",
             "lang": "en",
             "name": "Thomson Reuters"
           }
@@ -766,12 +724,26 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "deseret-digital-media",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Deseret Digital Media (DDM)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "privately-owned",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/privately-owned",
+            "description": "",
             "lang": "en",
             "name": "Privately owned"
           }
@@ -780,264 +752,82 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "newsuk-(murdoch-family-trust)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "state-funded",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/newsuk-(murdoch-family-trust)",
+            "description": "",
             "lang": "en",
-            "name": "NewsUK (Murdoch Family Trust)"
+            "name": "State-funded"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "warner-bros-discovery",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "independent-nonprofit",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/warner-bros-discovery",
+            "description": "This title is independently owned and has a non-profit designation.",
             "lang": "en",
-            "name": "Warner Bros Discovery"
+            "name": "Independent nonprofit"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "the-woodbridge-company",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jppolitikens-hus",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/the-woodbridge-company",
+            "description": "",
             "lang": "en",
-            "name": "The Woodbridge Company"
+            "name": "JP/Politikens Hus"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "lvmh-(bernard-arnault)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nexstar-media-group",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/lvmh-(bernard-arnault)",
+            "description": "",
             "lang": "en",
-            "name": "LVMH (Bernard Arnault)"
+            "name": "Nexstar Media Group"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "heise-gruppe-gmbh-&-co-kg-(heise-group)",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "progressive-media-investments-ltd",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/heise-gruppe-gmbh-&-co-kg-(heise-group)",
+            "description": "",
             "lang": "en",
-            "name": "Heise Gruppe GmbH & Co. KG (Heise Group)"
+            "name": "Progressive Media Investments Ltd"
           }
         ],
         "severity": "inform"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "dvh-medien-gmbh",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/dvh-medien-gmbh",
-            "lang": "en",
-            "name": "DvH Medien GmbH"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "boston-university",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/boston-university",
-            "lang": "en",
-            "name": "Boston University"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "european-climate-foundation",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/european-climate-foundation",
-            "lang": "en",
-            "name": "European Climate Foundation"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "dragon-capital-(tomáš-fiala)",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/dragon-capital-(tomáš-fiala)",
-            "lang": "en",
-            "name": "Dragon Capital (Tomáš Fiala)"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "cox-enterprises",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/cox-enterprises",
-            "lang": "en",
-            "name": "Cox Enterprises"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "nant-capital-(patrick-soon-shiong)",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nant-capital-(patrick-soon-shiong)",
-            "lang": "en",
-            "name": "Nant Capital (Patrick Soon-Shiong)"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "time-usa-llc",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/time-usa-llc",
-            "lang": "en",
-            "name": "Time USA, LLC"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "axel-springer-se",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/axel-springer-se",
-            "lang": "en",
-            "name": "Axel Springer SE"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "integrated-whale-media-investments-(iwm)",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/integrated-whale-media-investments-(iwm)",
-            "lang": "en",
-            "name": "Integrated Whale Media Investments (IWM)"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "global-tetrahedron",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/global-tetrahedron",
-            "lang": "en",
-            "name": "Global Tetrahedron"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "vox-media",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/vox-media",
-            "lang": "en",
-            "name": "Vox Media"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "usa-today-co-inc-(formerly-gannett-co-inc)",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/usa-today-co-inc-(formerly-gannett-co-inc)",
-            "lang": "en",
-            "name": "USA TODAY Co., Inc. (formerly Gannett Co., Inc.)"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "nieman-foundation-for-journalism-at-harvard-university",
-        "locales": [
-          {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nieman-foundation-for-journalism-at-harvard-university",
-            "lang": "en",
-            "name": "Nieman Foundation for Journalism at Harvard University"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "the-new-york-times-company",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/the-new-york-times-company",
+            "description": "",
             "lang": "en",
             "name": "The New York Times Company"
           }
@@ -1046,12 +836,222 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "regent",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Regent"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vox-media",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Vox Media"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "warner-bros-discovery",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Warner Bros Discovery"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "the-woodbridge-company",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "The Woodbridge Company"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lvmh",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "LVMH (Bernard Arnault)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "heise-gruppe-gmbh-and-co-kg",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Heise Gruppe GmbH & Co. KG (Heise Group)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dvh-medien-gmbh",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "DvH Medien GmbH"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dragon-capital",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Dragon Capital (Tomáš Fiala)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cox-enterprises",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Cox Enterprises"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nant-capital",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Nant Capital (Patrick Soon-Shiong)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "time-usa-llc",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Time USA, LLC"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "axel-springer-se",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Axel Springer SE"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "integrated-whale-media-investments",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Integrated Whale Media Investments (IWM)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "global-tetrahedron",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Global Tetrahedron"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "usa-today-co-inc",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "USA TODAY Co., Inc. (formerly Gannett Co., Inc.)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "bloomberg-lp",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/bloomberg-lp",
+            "description": "",
             "lang": "en",
             "name": "Bloomberg L.P."
           }
@@ -1060,12 +1060,12 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "news2u-holdings-inc",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/news2u-holdings-inc",
+            "description": "",
             "lang": "en",
             "name": "News2u Holdings, Inc."
           }
@@ -1074,14 +1074,28 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "nash-holdings",
         "locales": [
           {
-            "description": "More info and context: https://media-ownership.aendra.dev/label/nash-holdings",
+            "description": "",
             "lang": "en",
             "name": "Nash Holdings"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "penske-media-corporation",
+        "locales": [
+          {
+            "description": "Penske Media Corporation (PMC /ˈpɛnski/) is an American mass media, publishing, and information services company based in Los Angeles and New York City. It publishes more than 20 digital and print brands, including Variety, Rolling Stone, Women's Wear Daily, Deadline Hollywood, Billboard, The Hollywood Reporter, Robb Report, Artforum, ARTNews, and others. PMC's Chairman and CEO since founding is Jay Penske.\n\nIn addition to media publications, Penske Media Corporation owns the Life Is Beautiful Music & Art Festival and is a 50 percent stakeholder in South by Southwest. It is also the owner of Dick Clark Productions which includes the award shows Golden Globe Awards, American Music Awards, Streamy Awards, Academy of Country Music Awards, and the Billboard Music Awards.",
+            "lang": "en",
+            "name": "Penske Media Corporation"
           }
         ],
         "severity": "inform"
@@ -1089,81 +1103,83 @@
     ],
     "labelValues": [
       "independent",
-      "nonprofit",
-      "worker-owned",
       "independent-nonprofit",
+      "states-newsroom",
+      "nonprofit",
+      "dpg-media-group",
+      "worker-owned",
       "nikkei-inc",
-      "journal-media-limited",
+      "public-broadcaster",
+      "reach-plc",
+      "conde-nast",
       "gray-media-group",
+      "comcast-corp",
+      "independent-not-for-profit",
+      "worker-owned",
+      "guardian-media-group",
+      "axel-springer-se",
+      "calmatters",
+      "mediahuis",
+      "alden-global-capital",
+      "news-corp",
+      "public-broadcaster",
+      "the-new-york-times-company",
+      "vox-media",
+      "dvh-medien-gmbh",
+      "journal-media-limited",
       "boston-globe-media-partners",
       "observer-media-group",
-      "big-issue-group",
       "evgeny-lebedev",
       "national-world",
       "michael-moritz",
-      "city-of-roses-newspapers",
-      "us-news-&-world-report",
-      "dpg-media-group",
-      "public-broadcaster",
+      "us-news-and-world-report",
       "worker-owned-nonprofit",
-      "states-newsroom",
-      "calmatters",
-      "marc-elias",
-      "cascadia-newspaper-company",
-      "range-media-partners",
       "deep-south-today",
       "noisy-creek",
-      "the-conversation-trust-limited",
       "indian-express-group",
-      "nederlandse-omroep-stichting-(nos)-and-ntr",
-      "stichting-rtv-nh-(radio-television-north-holland)",
-      "mediahuis",
-      "denník-n",
-      "dublin-inquirer-ltd-(lois-kapila)",
-      "comcast-corp",
-      "scaleup-capital;-financial-times",
+      "scaleup-capital",
       "buzzfeed-inc",
-      "nordstar-capital-lp-(jordan-bitove)",
-      "the-venetoulis-institute-for-local-journalism",
+      "torstar-corporation",
       "civic-news-company",
-      "independent-not-for-profit",
       "stern-partners-inc",
       "think-tank",
-      "condé-nast",
-      "-tfcf-srl-(the-fact-checking-factory)",
-      "",
-      "daily-mail-and-general-trust-plc-(dmgt)",
-      "alden-global-capital",
-      "news-corp-(murdoch-family-trust)",
+      "agora-sa",
+      "daily-mail-and-general-trust",
+      "mediafin",
+      "international-media-investments",
+      "win-mccormack",
+      "el-comercio-group",
+      "glen-taylor",
+      "global-media-and-entertainment",
       "the-economist-group",
-      "reach-plc",
-      "guardian-media-group",
       "digital-first-media",
+      "grupo-prisa",
       "situation-publishing",
       "thomson-reuters",
+      "deseret-digital-media",
       "privately-owned",
-      "newsuk-(murdoch-family-trust)",
+      "state-funded",
+      "independent-nonprofit",
+      "jppolitikens-hus",
+      "nexstar-media-group",
+      "progressive-media-investments-ltd",
+      "regent",
       "warner-bros-discovery",
       "the-woodbridge-company",
-      "lvmh-(bernard-arnault)",
-      "heise-gruppe-gmbh-&-co-kg-(heise-group)",
-      "dvh-medien-gmbh",
-      "boston-university",
-      "european-climate-foundation",
-      "dragon-capital-(tomáš-fiala)",
+      "lvmh",
+      "heise-gruppe-gmbh-and-co-kg",
+      "dragon-capital",
       "cox-enterprises",
-      "nant-capital-(patrick-soon-shiong)",
+      "nant-capital",
       "time-usa-llc",
-      "axel-springer-se",
-      "integrated-whale-media-investments-(iwm)",
+      "integrated-whale-media-investments",
       "global-tetrahedron",
-      "vox-media",
-      "usa-today-co-inc-(formerly-gannett-co-inc)",
-      "nieman-foundation-for-journalism-at-harvard-university",
-      "the-new-york-times-company",
+      "usa-today-co-inc",
       "bloomberg-lp",
       "news2u-holdings-inc",
-      "nash-holdings"
+      "nash-holdings",
+      "penske-media-corporation",
+      ""
     ]
   },
   "reasonTypes": [],
