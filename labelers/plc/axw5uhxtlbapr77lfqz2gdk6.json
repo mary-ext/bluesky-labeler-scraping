@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:axw5uhxtlbapr77lfqz2gdk6/app.bsky.labeler.service/self",
-  "cid": "bafyreihf7tpgkk6x2jrqx6uub4d2rphuspy4yhib6bhu7lygcmtcdi3iva",
+  "cid": "bafyreihq3vcrvyaxyjos6rfdirzhbpvcdu7wcyoe3i3p7qzhf4zidswdkq",
   "creator": {
     "did": "did:plc:axw5uhxtlbapr77lfqz2gdk6",
-    "handle": "skeetwolf-labels.bsky.social",
-    "displayName": "Skeetwolf Labels",
+    "handle": "propter-games.bsky.social",
+    "displayName": "Propter Games",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:axw5uhxtlbapr77lfqz2gdk6/bafkreie76qdkummizs2y36tdt2ly3gr3kals2pi2tlhslc5jwq2uapuh3u@jpeg",
     "associated": {
       "labeler": true,
@@ -14,30 +14,43 @@
     },
     "labels": [],
     "createdAt": "2026-02-23T15:48:19.552Z",
-    "description": "Labeler for Skeetwolf, a forum mafia game on Bluesky. Subscribe to filter game posts from your feeds. Run by @skeetwolf.bsky.social.",
-    "indexedAt": "2026-02-23T17:08:03.852Z"
+    "description": "Labeler for Propter game bots. Subscribe to filter game posts from your feeds.\n\nLabels: mafia (Skeetwolf), diplomacy (YourStaunchAlly)\n\nRun by @proptermalone.bsky.social",
+    "indexedAt": "2026-02-25T00:02:21.653Z"
   },
-  "indexedAt": "2026-02-23T16:03:49.665Z",
+  "indexedAt": "2026-02-25T00:02:27.349Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "hide",
-        "identifier": "skeetwolf-game",
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mafia",
         "locales": [
           {
-            "description": "Posts from a Skeetwolf game",
+            "description": "Posts from Skeetwolf mafia game threads",
             "lang": "en",
-            "name": "Skeetwolf Game"
+            "name": "Mafia Game Posts"
           }
         ],
-        "severity": "inform"
+        "severity": "none"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "diplomacy",
+        "locales": [
+          {
+            "description": "Posts from YourStaunchAlly diplomacy game threads",
+            "lang": "en",
+            "name": "Diplomacy Game Posts"
+          }
+        ],
+        "severity": "none"
       }
     ],
     "labelValues": [
-      "skeetwolf-game"
+      "mafia",
+      "diplomacy"
     ]
   }
 }
