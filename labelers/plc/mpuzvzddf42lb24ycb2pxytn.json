@@ -1,11 +1,11 @@
 {
   "uri": "at://did:plc:mpuzvzddf42lb24ycb2pxytn/app.bsky.labeler.service/self",
-  "cid": "bafyreia3xcmxwcr4oawuetsknpmgvuu3p4ijkm5zkm6t52qur3yoxzbgva",
+  "cid": "bafyreiadrhpkctglp4flzpafc6bxmyk7d7n3bxaoftyrfhuh5vpgmo2efu",
   "creator": {
     "did": "did:plc:mpuzvzddf42lb24ycb2pxytn",
     "handle": "neuromethods.bsky.social",
     "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mpuzvzddf42lb24ycb2pxytn/bafkreihkcuncmoblbua2lv55fiotc2n7viefmdi4eob6xrh2vidqxhpmm4@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mpuzvzddf42lb24ycb2pxytn/bafkreihifc6ic6757643xyceciqmqyjlcdwggkptx5knohz3t2cj2evare@jpeg",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,9 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-02-24T21:01:56.742Z",
-    "indexedAt": "2026-02-24T21:02:11.755Z"
+    "description": "(the labels are only visible if subscribed to the labeler.)",
+    "indexedAt": "2026-02-26T22:22:15.350Z"
   },
-  "indexedAt": "2026-02-25T20:10:46.458Z",
+  "indexedAt": "2026-02-26T21:50:09.354Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -27,9 +28,93 @@
         "identifier": "eeg",
         "locales": [
           {
-            "description": "Researcher that uses EEG.",
+            "description": "Researcher using non-invasive EEG.",
             "lang": "en",
             "name": "〰️ EEG"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "meg",
+        "locales": [
+          {
+            "description": "Researcher using magnetoencephalography.",
+            "lang": "en",
+            "name": "〰️ MEG"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "opm-meg",
+        "locales": [
+          {
+            "description": "Researcher using optically pumped magnetometer MEG.",
+            "lang": "en",
+            "name": "〰️ OPM-MEG"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ecog",
+        "locales": [
+          {
+            "description": "Researcher using intracranial EEG.",
+            "lang": "en",
+            "name": "〰️ iEEG"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fnirs",
+        "locales": [
+          {
+            "description": "Researcher using functional near-infrared spectroscopy.",
+            "lang": "en",
+            "name": "🔦 fNIRS"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ephys",
+        "locales": [
+          {
+            "description": "Researcher using extracellular electrophysiology (LFP/spikes).",
+            "lang": "en",
+            "name": "🪡 ephys"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "patch-clamp",
+        "locales": [
+          {
+            "description": "Researcher using patch-clamp electrophysiology.",
+            "lang": "en",
+            "name": "⚡ patch clamp"
           }
         ],
         "severity": "inform"
@@ -41,7 +126,7 @@
         "identifier": "fmri",
         "locales": [
           {
-            "description": "Researcher that uses functional MRI.",
+            "description": "Researcher using functional MRI.",
             "lang": "en",
             "name": "🧲 fMRI"
           }
@@ -55,7 +140,7 @@
         "identifier": "dmri",
         "locales": [
           {
-            "description": "Researcher that uses diffusion MRI.",
+            "description": "Researcher using diffusion MRI.",
             "lang": "en",
             "name": "🧭 dMRI"
           }
@@ -69,7 +154,7 @@
         "identifier": "pet",
         "locales": [
           {
-            "description": "Researcher that uses PET imaging.",
+            "description": "Researcher using PET imaging.",
             "lang": "en",
             "name": "☢️ PET"
           }
@@ -83,7 +168,7 @@
         "identifier": "tms",
         "locales": [
           {
-            "description": "Researcher that uses transcranial magnetic stimulation.",
+            "description": "Researcher using transcranial magnetic stimulation.",
             "lang": "en",
             "name": "🧲 TMS"
           }
@@ -97,7 +182,7 @@
         "identifier": "tdcs",
         "locales": [
           {
-            "description": "Researcher that uses transcranial direct current stimulation.",
+            "description": "Researcher using transcranial direct current stimulation.",
             "lang": "en",
             "name": "🔋 tDCS"
           }
@@ -108,26 +193,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ecog",
+        "identifier": "dbs",
         "locales": [
           {
-            "description": "Researcher that uses intracranial EEG.",
+            "description": "Researcher using deep brain stimulation.",
             "lang": "en",
-            "name": "〰️ iEEG"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "meg",
-        "locales": [
-          {
-            "description": "Researcher that uses MEG.",
-            "lang": "en",
-            "name": "〰️ MEG"
+            "name": "⚡ DBS"
           }
         ],
         "severity": "inform"
@@ -139,9 +210,79 @@
         "identifier": "calcium-imaging",
         "locales": [
           {
-            "description": "Researcher that uses calcium imaging.",
+            "description": "Researcher using calcium imaging.",
             "lang": "en",
             "name": "🔬 calcium imaging"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "two-photon",
+        "locales": [
+          {
+            "description": "Researcher using two-photon imaging.",
+            "lang": "en",
+            "name": "🔦 two photon imaging"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "optogenetics",
+        "locales": [
+          {
+            "description": "Researcher using optogenetic methods for circuit perturbation.",
+            "lang": "en",
+            "name": "💡 optogenetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "eye-tracking",
+        "locales": [
+          {
+            "description": "Researcher using eye tracking/pupillometry.",
+            "lang": "en",
+            "name": "👁️ eye tracking"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "movement-kinematics",
+        "locales": [
+          {
+            "description": "Researcher studying movement and kinematics.",
+            "lang": "en",
+            "name": "🏃‍♂️ movement kinematics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "psychophysics",
+        "locales": [
+          {
+            "description": "Researcher using psychophysics tasks.",
+            "lang": "en",
+            "name": "⌨️ psychophysics"
           }
         ],
         "severity": "inform"
@@ -159,49 +300,29 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "patch-clamp",
-        "locales": [
-          {
-            "description": "Researcher that uses patch-clamp electrophysiology.",
-            "lang": "en",
-            "name": "⚡ patch clamp"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "two-photon",
-        "locales": [
-          {
-            "description": "Researcher that uses two-photon microscopy.",
-            "lang": "en",
-            "name": "🔦 two photon imaging"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
       "eeg",
+      "meg",
+      "opm-meg",
+      "ecog",
+      "fnirs",
+      "ephys",
+      "patch-clamp",
       "fmri",
       "dmri",
       "pet",
       "tms",
       "tdcs",
-      "ecog",
-      "meg",
+      "dbs",
       "calcium-imaging",
-      "computational-modeling",
-      "patch-clamp",
-      "two-photon"
+      "two-photon",
+      "optogenetics",
+      "eye-tracking",
+      "movement-kinematics",
+      "psychophysics",
+      "computational-modeling"
     ]
   }
 }
