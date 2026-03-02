@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yemwxps6ptz2ziy2yq6gfjw4/app.bsky.labeler.service/self",
-  "cid": "bafyreibjylvysahy7j6pv2w5raphaitu6vpsluuwqd3ckx22g44kszrldi",
+  "cid": "bafyreibf4zwooeywkoacuwjtk5ggsmcxad6didrtfzb3rilwk6cg56ro2i",
   "creator": {
     "did": "did:plc:yemwxps6ptz2ziy2yq6gfjw4",
     "handle": "labeler.ucho-ten.net",
@@ -17,7 +17,7 @@
     "description": "テスト中\nanyway,,,,,,,,,,, only lang:ja post",
     "indexedAt": "2026-02-28T14:34:21.354Z"
   },
-  "indexedAt": "2026-02-25T15:38:39.158Z",
+  "indexedAt": "2026-03-01T13:38:18.358Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,17 +25,397 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "domain-casual",
+        "locales": [
+          {
+            "description": "この投稿は「日常」に分類されました",
+            "lang": "ja",
+            "name": "領域: 日常"
+          },
+          {
+            "description": "This post is categorized as 'casual'",
+            "lang": "en",
+            "name": "Domain: casual"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "domain-serious",
+        "locales": [
+          {
+            "description": "この投稿は「議論」に分類されました",
+            "lang": "ja",
+            "name": "領域: 議論"
+          },
+          {
+            "description": "This post is categorized as 'serious'",
+            "lang": "en",
+            "name": "Domain: serious"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "domain-fun",
+        "locales": [
+          {
+            "description": "この投稿は「楽しい」に分類されました",
+            "lang": "ja",
+            "name": "領域: 楽しい"
+          },
+          {
+            "description": "This post is categorized as 'fun'",
+            "lang": "en",
+            "name": "Domain: fun"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "domain-tech",
+        "locales": [
+          {
+            "description": "この投稿は「技術」に分類されました",
+            "lang": "ja",
+            "name": "領域: 技術"
+          },
+          {
+            "description": "This post is categorized as 'tech'",
+            "lang": "en",
+            "name": "Domain: tech"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "domain-other",
+        "locales": [
+          {
+            "description": "この投稿は「その他」に分類されました",
+            "lang": "ja",
+            "name": "領域: その他"
+          },
+          {
+            "description": "This post is categorized as 'other'",
+            "lang": "en",
+            "name": "Domain: other"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-joke",
+        "locales": [
+          {
+            "description": "この投稿は「ネタ」形式です",
+            "lang": "ja",
+            "name": "形式: ネタ"
+          },
+          {
+            "description": "This post style is 'joke'",
+            "lang": "en",
+            "name": "Style: joke"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-casual",
+        "locales": [
+          {
+            "description": "この投稿は「雑」形式です",
+            "lang": "ja",
+            "name": "形式: 雑"
+          },
+          {
+            "description": "This post style is 'casual'",
+            "lang": "en",
+            "name": "Style: casual"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-complaint",
+        "locales": [
+          {
+            "description": "この投稿は「愚痴」形式です",
+            "lang": "ja",
+            "name": "形式: 愚痴"
+          },
+          {
+            "description": "This post style is 'complaint'",
+            "lang": "en",
+            "name": "Style: complaint"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-fan",
+        "locales": [
+          {
+            "description": "この投稿は「応援」形式です",
+            "lang": "ja",
+            "name": "形式: 応援"
+          },
+          {
+            "description": "This post style is 'fan'",
+            "lang": "en",
+            "name": "Style: fan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-announce",
+        "locales": [
+          {
+            "description": "この投稿は「告知」形式です",
+            "lang": "ja",
+            "name": "形式: 告知"
+          },
+          {
+            "description": "This post style is 'announce'",
+            "lang": "en",
+            "name": "Style: announce"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-analysis",
+        "locales": [
+          {
+            "description": "この投稿は「考察」形式です",
+            "lang": "ja",
+            "name": "形式: 考察"
+          },
+          {
+            "description": "This post style is 'analysis'",
+            "lang": "en",
+            "name": "Style: analysis"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-news",
+        "locales": [
+          {
+            "description": "この投稿は「速報」形式です",
+            "lang": "ja",
+            "name": "形式: 速報"
+          },
+          {
+            "description": "This post style is 'news'",
+            "lang": "en",
+            "name": "Style: news"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-report",
+        "locales": [
+          {
+            "description": "この投稿は「報告」形式です",
+            "lang": "ja",
+            "name": "形式: 報告"
+          },
+          {
+            "description": "This post style is 'report'",
+            "lang": "en",
+            "name": "Style: report"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-question",
+        "locales": [
+          {
+            "description": "この投稿は「質問」形式です",
+            "lang": "ja",
+            "name": "形式: 質問"
+          },
+          {
+            "description": "This post style is 'question'",
+            "lang": "en",
+            "name": "Style: question"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "style-other",
+        "locales": [
+          {
+            "description": "この投稿は「その他」形式です",
+            "lang": "ja",
+            "name": "形式: その他"
+          },
+          {
+            "description": "This post style is 'other'",
+            "lang": "en",
+            "name": "Style: other"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sentiment-joy",
+        "locales": [
+          {
+            "description": "この投稿の感情は「喜び」です",
+            "lang": "ja",
+            "name": "感情: 喜び"
+          },
+          {
+            "description": "This post sentiment is 'joy'",
+            "lang": "en",
+            "name": "Sentiment: joy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sentiment-anger",
+        "locales": [
+          {
+            "description": "この投稿の感情は「怒り」です",
+            "lang": "ja",
+            "name": "感情: 怒り"
+          },
+          {
+            "description": "This post sentiment is 'anger'",
+            "lang": "en",
+            "name": "Sentiment: anger"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sentiment-sadness",
+        "locales": [
+          {
+            "description": "この投稿の感情は「悲しみ」です",
+            "lang": "ja",
+            "name": "感情: 悲しみ"
+          },
+          {
+            "description": "This post sentiment is 'sadness'",
+            "lang": "en",
+            "name": "Sentiment: sadness"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sentiment-calm",
+        "locales": [
+          {
+            "description": "この投稿の感情は「落ち着き」です",
+            "lang": "ja",
+            "name": "感情: 落ち着き"
+          },
+          {
+            "description": "This post sentiment is 'calm'",
+            "lang": "en",
+            "name": "Sentiment: calm"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sentiment-neutral",
+        "locales": [
+          {
+            "description": "この投稿の感情は「普通」です",
+            "lang": "ja",
+            "name": "感情: 普通"
+          },
+          {
+            "description": "This post sentiment is 'neutral'",
+            "lang": "en",
+            "name": "Sentiment: neutral"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "politics",
         "locales": [
           {
-            "description": "Political content and discussions",
+            "description": "politics related content",
             "lang": "en",
-            "name": "Politics"
+            "name": "politics"
           },
           {
-            "description": "政治関連の投稿",
+            "description": "politics関連の投稿",
             "lang": "ja",
-            "name": "政治"
+            "name": "politics"
           }
         ],
         "severity": "inform"
@@ -47,14 +427,14 @@
         "identifier": "sports",
         "locales": [
           {
-            "description": "Sports content and updates",
+            "description": "sports related content",
             "lang": "en",
-            "name": "Sports"
+            "name": "sports"
           },
           {
-            "description": "スポーツ関連の投稿",
+            "description": "sports関連の投稿",
             "lang": "ja",
-            "name": "スポーツ"
+            "name": "sports"
           }
         ],
         "severity": "inform"
@@ -66,14 +446,14 @@
         "identifier": "entertainment",
         "locales": [
           {
-            "description": "Entertainment, movies, TV, music",
+            "description": "entertainment related content",
             "lang": "en",
-            "name": "Entertainment"
+            "name": "entertainment"
           },
           {
-            "description": "エンタメ・芸能関連の投稿",
+            "description": "entertainment関連の投稿",
             "lang": "ja",
-            "name": "エンタメ"
+            "name": "entertainment"
           }
         ],
         "severity": "inform"
@@ -85,14 +465,14 @@
         "identifier": "technology",
         "locales": [
           {
-            "description": "Technology and science content",
+            "description": "technology related content",
             "lang": "en",
-            "name": "Technology"
+            "name": "technology"
           },
           {
-            "description": "テクノロジー・科学関連の投稿",
+            "description": "technology関連の投稿",
             "lang": "ja",
-            "name": "テクノロジー"
+            "name": "technology"
           }
         ],
         "severity": "inform"
@@ -104,14 +484,14 @@
         "identifier": "news",
         "locales": [
           {
-            "description": "News and current events",
+            "description": "news related content",
             "lang": "en",
-            "name": "News"
+            "name": "news"
           },
           {
-            "description": "ニュース・時事関連の投稿",
+            "description": "news関連の投稿",
             "lang": "ja",
-            "name": "ニュース"
+            "name": "news"
           }
         ],
         "severity": "inform"
@@ -123,20 +503,40 @@
         "identifier": "other",
         "locales": [
           {
-            "description": "Other topics",
+            "description": "other related content",
             "lang": "en",
-            "name": "Other"
+            "name": "other"
           },
           {
-            "description": "その他のトピック",
+            "description": "other関連の投稿",
             "lang": "ja",
-            "name": "その他"
+            "name": "other"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
+      "domain-casual",
+      "domain-serious",
+      "domain-fun",
+      "domain-tech",
+      "domain-other",
+      "style-joke",
+      "style-casual",
+      "style-complaint",
+      "style-fan",
+      "style-announce",
+      "style-analysis",
+      "style-news",
+      "style-report",
+      "style-question",
+      "style-other",
+      "sentiment-joy",
+      "sentiment-anger",
+      "sentiment-sadness",
+      "sentiment-calm",
+      "sentiment-neutral",
       "politics",
       "sports",
       "entertainment",

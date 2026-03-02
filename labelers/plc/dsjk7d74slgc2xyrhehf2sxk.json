@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dsjk7d74slgc2xyrhehf2sxk/app.bsky.labeler.service/self",
-  "cid": "bafyreiegcy5ylmlcrhoqpxrswkk6azvl52gglk5j6ucpykmqrti7fynmpe",
+  "cid": "bafyreidyhlh6be23teeyn6ow5czagaw6zkztwt57sa6q3xw7pduz24f3ii",
   "creator": {
     "did": "did:plc:dsjk7d74slgc2xyrhehf2sxk",
     "handle": "built.blue",
@@ -20,7 +20,7 @@
     "description": "This account is the nexus of a broader community of builders.\n\nSubscribe to this account, and follow the associated creative community accounts to see what people are choosing to build and share.",
     "indexedAt": "2026-02-20T19:01:11.356Z"
   },
-  "indexedAt": "2026-02-28T16:12:29.263Z",
+  "indexedAt": "2026-03-01T22:53:23.164Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -154,12 +154,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "built",
+        "identifier": "curate",
         "locales": [
           {
-            "description": "I like the @built.blue Labeler!",
+            "description": "I helped curate @built.blue",
             "lang": "en",
-            "name": "💙️"
+            "name": "↕️"
           }
         ],
         "severity": "inform"
@@ -171,9 +171,23 @@
         "identifier": "prints",
         "locales": [
           {
-            "description": "Fingerprint: I got my Built.Blue creative profile.",
+            "description": "Profile-printed on @built.blue",
             "lang": "en",
             "name": "🫆️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "built",
+        "locales": [
+          {
+            "description": "I like the @built.blue Labeler!",
+            "lang": "en",
+            "name": "💙️"
           }
         ],
         "severity": "inform"
@@ -189,8 +203,9 @@
       "visual",
       "word",
       "admin",
-      "built",
-      "prints"
+      "curate",
+      "prints",
+      "built"
     ]
   }
 }
