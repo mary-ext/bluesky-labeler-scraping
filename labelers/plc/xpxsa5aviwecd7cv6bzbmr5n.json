@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreiapwrazkz4cyckmzannhwvur55hbn2sik24zcj2mgon5gcqtsj6qm",
+  "cid": "bafyreigzxyyugz5i4wkcyqjkixskfixe3f4vsbizqxtdbncsuvut2pcg5q",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-02-28T21:46:06.473Z",
+  "indexedAt": "2026-03-02T02:55:32.391Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6785,6 +6785,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bluesky-social-pds",
+        "locales": [
+          {
+            "description": "Bluesky PDS (Personal Data Server) container image, compose file, and documentation\nhttps://github.com/bluesky-social/pds",
+            "lang": "en",
+            "name": "bluesky-social/pds"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7270,7 +7284,8 @@
       "margin-at-margin",
       "evantechdev-one-calendar",
       "therealfuntimeswithdanny-atprotocdn",
-      "opennextjs-opennextjs-netlify"
+      "opennextjs-opennextjs-netlify",
+      "bluesky-social-pds"
     ]
   }
 }
