@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:lyfdahuzifj577o5o6vphfl5/app.bsky.labeler.service/self",
-  "cid": "bafyreibanw2icy5jj5z2bnygxw72dohwype773zfte5hmyoekqfxlbv72m",
+  "cid": "bafyreiavg24ah4zg2nofdalqgrw7n7epj24dz6oxj27lhrw4ngk7fbb25m",
   "creator": {
     "did": "did:plc:lyfdahuzifj577o5o6vphfl5",
     "handle": "ozone.fifo-f.eu",
@@ -15,11 +15,67 @@
     "createdAt": "2026-01-22T16:34:21.124Z",
     "indexedAt": "2026-01-22T21:42:28.923Z"
   },
-  "indexedAt": "2026-02-19T09:43:13.255Z",
+  "indexedAt": "2026-03-03T11:17:18.356Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [],
-    "labelValues": []
+    "blurs": "none",
+    "defaultSetting": "ignore",
+    "identifier": "automated",
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Unsolicited or repetitive promotional content.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nsfw",
+        "locales": [
+          {
+            "description": "Content not suitable for professional environments.",
+            "lang": "en",
+            "name": "NSFW"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "violence",
+        "locales": [
+          {
+            "description": "Depictions or encouragement of physical harm.",
+            "lang": "en",
+            "name": "Violence"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "nsfw",
+      "violence",
+      "automated"
+    ],
+    "locales": [
+      {
+        "description": "This account is operated by software or posts automatically.",
+        "lang": "en",
+        "name": "Automated Account"
+      }
+    ],
+    "severity": "inform"
   },
   "reasonTypes": [
     "com.atproto.moderation.defs#reasonSpam",
@@ -27,13 +83,15 @@
     "com.atproto.moderation.defs#reasonRude",
     "com.atproto.moderation.defs#reasonSexual",
     "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonOther",
     "com.atproto.moderation.defs#reasonAppeal",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonSexual"
+    "com.atproto.moderation.defs#reasonOther"
   ],
   "subjectTypes": [
     "account",
-    "record"
+    "record",
+    "chat"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
   ]
 }
