@@ -1,0 +1,75 @@
+{
+  "uri": "at://did:plc:jcqd5bsmymiug5sutbwikihs/app.bsky.labeler.service/self",
+  "cid": "bafyreidjzgf443jhxdz5ftwjjy33a4vtypqrgadot5jsndrhwbzxgyjyra",
+  "creator": {
+    "did": "did:plc:jcqd5bsmymiug5sutbwikihs",
+    "handle": "sexy-guard.bsky.social",
+    "displayName": "涩情守护者",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jcqd5bsmymiug5sutbwikihs/bafkreifmszpehz3ctnuva7pzt4nsynvn5acrlzp5gbb7yvbu7zhhpaamxe@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-04T09:29:52.651Z",
+    "description": "一个涩情标签机，用于屏蔽 #男同 #粪便 #血腥 相关帖子。",
+    "indexedAt": "2026-03-04T09:32:07.847Z"
+  },
+  "indexedAt": "2026-03-04T22:17:12.267Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gay-text",
+        "locales": [
+          {
+            "description": "Posts containing gay-related keywords",
+            "lang": "en",
+            "name": "Gay Text Content"
+          },
+          {
+            "description": "包含男同/基相关关键词的帖子",
+            "lang": "zh",
+            "name": "男同文字内容"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "gay-media",
+        "locales": [
+          {
+            "description": "Images or videos containing gay intimacy/suggestive content",
+            "lang": "en",
+            "name": "Gay Media Content"
+          },
+          {
+            "description": "含男男亲密/性暗示图片或视频",
+            "lang": "zh",
+            "name": "男同媒体内容"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "gay-text",
+      "gay-media"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ]
+}
