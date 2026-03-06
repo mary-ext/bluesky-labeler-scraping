@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jcqd5bsmymiug5sutbwikihs/app.bsky.labeler.service/self",
-  "cid": "bafyreidjzgf443jhxdz5ftwjjy33a4vtypqrgadot5jsndrhwbzxgyjyra",
+  "cid": "bafyreib5yzhtrl34cjzevzjzp3ntaurhlwa25n2xxdkcpfm3q7co2nouuq",
   "creator": {
     "did": "did:plc:jcqd5bsmymiug5sutbwikihs",
     "handle": "sexy-guard.bsky.social",
@@ -17,52 +17,52 @@
     "description": "一个涩情标签机，用于屏蔽 #男同 #粪便 #血腥 相关帖子。",
     "indexedAt": "2026-03-04T09:32:07.847Z"
   },
-  "indexedAt": "2026-03-04T22:17:12.267Z",
+  "indexedAt": "2026-03-05T20:27:02.650Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "adultOnly": true,
+        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "gay-text",
+        "identifier": "gay-post",
         "locales": [
           {
-            "description": "Posts containing gay-related keywords",
+            "description": "Posts containing gay/bi keywords",
             "lang": "en",
-            "name": "Gay Text Content"
+            "name": "Gay Post"
           },
           {
             "description": "包含男同/基相关关键词的帖子",
             "lang": "zh",
-            "name": "男同文字内容"
+            "name": "男同帖子"
           }
         ],
         "severity": "alert"
       },
       {
-        "adultOnly": true,
-        "blurs": "media",
-        "defaultSetting": "hide",
-        "identifier": "gay-media",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gay-user",
         "locales": [
           {
-            "description": "Images or videos containing gay intimacy/suggestive content",
+            "description": "Users containing gay/bi keywords",
             "lang": "en",
-            "name": "Gay Media Content"
+            "name": "Gay User"
           },
           {
-            "description": "含男男亲密/性暗示图片或视频",
+            "description": "包含男同/基相关关键词的用户",
             "lang": "zh",
-            "name": "男同媒体内容"
+            "name": "男同用户"
           }
         ],
         "severity": "alert"
       }
     ],
     "labelValues": [
-      "gay-text",
-      "gay-media"
+      "gay-user",
+      "gay-post"
     ]
   },
   "reasonTypes": [

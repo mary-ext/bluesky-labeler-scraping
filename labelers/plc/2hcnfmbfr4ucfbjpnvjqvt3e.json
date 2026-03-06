@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:2hcnfmbfr4ucfbjpnvjqvt3e/app.bsky.labeler.service/self",
-  "cid": "bafyreicj4pwkda6as4dcvs3kddfasz3bulxdxbf4vf4pzewlaqimgacocu",
+  "cid": "bafyreigeym27c556lzh4z62hphp2upiviknxgqpvqlurs75p2mrqsdb6fe",
   "creator": {
     "did": "did:plc:2hcnfmbfr4ucfbjpnvjqvt3e",
     "handle": "vt3e.cat",
@@ -21,10 +21,36 @@
     "description": "help they . tuerned me into a squaer  ... :c",
     "indexedAt": "2026-03-04T20:33:04.451Z"
   },
-  "indexedAt": "2026-03-02T01:24:38.554Z",
+  "indexedAt": "2026-03-05T15:33:58.550Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [],
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miau",
+        "locales": [
+          {
+            "description": "meow2",
+            "lang": "en",
+            "name": "meow"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "miau"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ]
 }

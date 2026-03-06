@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:s45hbf5dqdkjpwuuq4djo6l2/app.bsky.labeler.service/self",
-  "cid": "bafyreidepfpdg5fxv5uwkfogs7ffqekhqhfywxlum2lhhp6xxffvhhvflm",
+  "cid": "bafyreidrukdsz2acw4osx6mygfx2w52hnr4w7bii5wanv7xqdsibdfjxka",
   "creator": {
     "did": "did:plc:s45hbf5dqdkjpwuuq4djo6l2",
     "handle": "antiantiai.bsky.social",
@@ -20,11 +20,12 @@
     "description": "Trying to make Bluesky usable for AI research and related discussion, especially for new accounts.",
     "indexedAt": "2025-09-25T09:49:44.944Z"
   },
-  "indexedAt": "2025-10-06T21:57:57.864Z",
+  "indexedAt": "2026-03-05T08:19:19.952Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "ai-hater",
@@ -38,6 +39,7 @@
         "severity": "inform"
       },
       {
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "ai-slurrer",
@@ -51,6 +53,7 @@
         "severity": "inform"
       },
       {
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "problem-not-otherwise-specified",
@@ -69,28 +72,5 @@
       "ai-slurrer",
       "problem-not-otherwise-specified"
     ]
-  },
-  "reasonTypes": [
-    "com.atproto.moderation.defs#reasonSpam",
-    "com.atproto.moderation.defs#reasonMisleading",
-    "com.atproto.moderation.defs#reasonRude",
-    "com.atproto.moderation.defs#reasonHarassment",
-    "com.atproto.moderation.defs#reasonViolence",
-    "com.atproto.moderation.defs#reasonSexual",
-    "com.atproto.moderation.defs#reasonCopyright",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonAppeal"
-  ],
-  "subjectTypes": [
-    "record",
-    "account",
-    "chat"
-  ],
-  "subjectCollections": [
-    "app.bsky.feed.post",
-    "app.bsky.actor.profile",
-    "app.bsky.convo.message",
-    "app.bsky.convo.thread"
-  ]
+  }
 }
