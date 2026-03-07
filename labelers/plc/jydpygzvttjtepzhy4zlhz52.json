@@ -1,0 +1,141 @@
+{
+  "uri": "at://did:plc:jydpygzvttjtepzhy4zlhz52/app.bsky.labeler.service/self",
+  "cid": "bafyreig4gq4zj22qtwnuirb6ynxuv4dg7ioaexrryiunj2hwzhh7jf7ezi",
+  "creator": {
+    "did": "did:plc:jydpygzvttjtepzhy4zlhz52",
+    "handle": "art.tartgames.com",
+    "displayName": "Art Council Bot",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jydpygzvttjtepzhy4zlhz52/bafkreid4gvjhha3vdkeoyxcb3xpy6nzd6pctgeol3q7yvpwansc6iwpvxe@jpeg",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-06T00:55:06.044Z",
+    "indexedAt": "2026-03-06T02:01:52.545Z"
+  },
+  "indexedAt": "2026-03-06T04:26:48.954Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-art",
+        "locales": [
+          {
+            "description": "The post contains some degree of AI-generated art.",
+            "lang": "en",
+            "name": "◼AI Art"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-prompter",
+        "locales": [
+          {
+            "description": "The profile posts or has posted AI-generated images.",
+            "lang": "en",
+            "name": "◼AI Prompter"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-traced",
+        "locales": [
+          {
+            "description": "The post shows patterns of AI-generated art tracing.",
+            "lang": "en",
+            "name": "◼AI Traced"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-tracer",
+        "locales": [
+          {
+            "description": "The profile posts or has posted content that shows patterns of AI-generated art tracing.",
+            "lang": "en",
+            "name": "◼AI Tracer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "suspected-ai-art",
+        "locales": [
+          {
+            "description": "There is suspicion that this post may contain some degree of AI-generated art.",
+            "lang": "en",
+            "name": "◻ Suspected AI Art"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "suspected-ai-user",
+        "locales": [
+          {
+            "description": "There is suspicion that this profile posts or has posted content that may contain some degree of AI-generated art.",
+            "lang": "en",
+            "name": "◻ Suspected AI User"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "investigating",
+        "locales": [
+          {
+            "description": "There is suspicion that this profile posts or has posted content that may contain some degree of AI-generated art.",
+            "lang": "en",
+            "name": "◽ Investigating"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "ai-art",
+      "ai-prompter",
+      "ai-traced",
+      "ai-tracer",
+      "suspected-ai-art",
+      "suspected-ai-user",
+      "investigating"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ]
+}

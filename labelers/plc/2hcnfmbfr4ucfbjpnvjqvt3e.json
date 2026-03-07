@@ -1,12 +1,12 @@
 {
   "uri": "at://did:plc:2hcnfmbfr4ucfbjpnvjqvt3e/app.bsky.labeler.service/self",
-  "cid": "bafyreigeym27c556lzh4z62hphp2upiviknxgqpvqlurs75p2mrqsdb6fe",
+  "cid": "bafyreig6ipf6krurj2ctffozlfm6stco4iyjn2rlqd542ddxr5q2jil4dy",
   "creator": {
     "did": "did:plc:2hcnfmbfr4ucfbjpnvjqvt3e",
     "handle": "vt3e.cat",
     "displayName": "vi",
     "pronouns": "it/she",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2hcnfmbfr4ucfbjpnvjqvt3e/bafkreiarhiynmessn7vpp3dwciv7zjhfkxjjwc64pufmun3mu6qndei7pq@jpeg",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2hcnfmbfr4ucfbjpnvjqvt3e/bafkreiarhiynmessn7vpp3dwciv7zjhfkxjjwc64pufmun3mu6qndei7pq",
     "associated": {
       "labeler": true,
       "chat": {
@@ -16,12 +16,20 @@
         "allowSubscriptions": "mutuals"
       }
     },
-    "labels": [],
+    "labels": [
+      {
+        "src": "did:plc:2hcnfmbfr4ucfbjpnvjqvt3e",
+        "uri": "at://did:plc:2hcnfmbfr4ucfbjpnvjqvt3e/app.bsky.actor.profile/self",
+        "cid": "bafyreibeih656j6cfzxvkyngycd5kuzuegepytlbvvl4ool5rm2faqspzu",
+        "val": "!no-unauthenticated",
+        "cts": "2025-04-16T00:47:01.517Z"
+      }
+    ],
     "createdAt": "2025-04-16T00:47:02.973Z",
-    "description": "help they . tuerned me into a squaer  ... :c",
-    "indexedAt": "2026-03-04T20:33:04.451Z"
+    "description": "it she",
+    "indexedAt": "2026-03-06T21:31:35.453Z"
   },
-  "indexedAt": "2026-03-05T15:33:58.550Z",
+  "indexedAt": "2026-03-06T21:09:33.650Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -29,10 +37,80 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "miau",
+        "identifier": "miau1",
         "locales": [
           {
-            "description": "meow2",
+            "description": "meow",
+            "lang": "en",
+            "name": "meow"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miau2",
+        "locales": [
+          {
+            "description": "meow",
+            "lang": "en",
+            "name": "meow"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miau3",
+        "locales": [
+          {
+            "description": "meow",
+            "lang": "en",
+            "name": "meow"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miau4",
+        "locales": [
+          {
+            "description": "meow",
+            "lang": "en",
+            "name": "meow"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miau5",
+        "locales": [
+          {
+            "description": "meow",
+            "lang": "en",
+            "name": "meow"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miau6",
+        "locales": [
+          {
+            "description": "meow",
             "lang": "en",
             "name": "meow"
           }
@@ -41,16 +119,13 @@
       }
     ],
     "labelValues": [
-      "miau"
+      "miau1",
+      "miau2",
+      "miau3",
+      "miau4",
+      "miau5",
+      "miau6"
     ]
   },
-  "reasonTypes": [
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonSpam",
-    "com.atproto.moderation.defs#reasonMisleading",
-    "com.atproto.moderation.defs#reasonRude",
-    "com.atproto.moderation.defs#reasonSexual",
-    "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonAppeal"
-  ]
+  "reasonTypes": []
 }

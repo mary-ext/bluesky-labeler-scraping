@@ -1,0 +1,174 @@
+{
+  "uri": "at://did:plc:btyteraqypld3yjd2yu5eiyt/app.bsky.labeler.service/self",
+  "cid": "bafyreic5cksm5b6ne6q24qqqxms2k2a3dkmivajmujwa6ayfvxtqf734we",
+  "creator": {
+    "did": "did:plc:btyteraqypld3yjd2yu5eiyt",
+    "handle": "adult-mode.bsky.social",
+    "displayName": "成人模式",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:btyteraqypld3yjd2yu5eiyt/bafkreicb6bfzczqjgnbjuiq7osau36bve3ifldbe3vcxwi7532hwtjy6hi@jpeg",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "all"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-06T09:56:59.247Z",
+    "description": "一键唤醒成人秘境，更解你的情欲诗篇。屏蔽 #男同 #gay #变性人 #粪便 #无意义色情内容 相关帖子/用户。",
+    "indexedAt": "2026-03-06T20:21:55.146Z"
+  },
+  "indexedAt": "2026-03-06T20:21:17.550Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "meaningless-sexy-post",
+        "locales": [
+          {
+            "description": "Posts with provocative or sexual content but lacking substance or context",
+            "lang": "en",
+            "name": "Meaningless Sexy Content"
+          },
+          {
+            "description": "带有挑逗或色情内容但缺乏实质或上下文的帖子",
+            "lang": "zh",
+            "name": "无意义色情内容"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gay-post",
+        "locales": [
+          {
+            "description": "Content related to gay men or bisexual themes",
+            "lang": "en",
+            "name": "Gay Content"
+          },
+          {
+            "description": "涉及男同性恋或双性恋主题的内容",
+            "lang": "zh",
+            "name": "男同内容"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gay-user",
+        "locales": [
+          {
+            "description": "Accounts that frequently post gay or bisexual content",
+            "lang": "en",
+            "name": "Gay User"
+          },
+          {
+            "description": "经常发布男同或双性恋相关内容的账号",
+            "lang": "zh",
+            "name": "男同用户"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "trans-post",
+        "locales": [
+          {
+            "description": "Content related to transgender individuals or experiences",
+            "lang": "en",
+            "name": "Trans Content"
+          },
+          {
+            "description": "涉及跨性别或变性人主题的内容",
+            "lang": "zh",
+            "name": "跨性别内容"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "trans-user",
+        "locales": [
+          {
+            "description": "Accounts that frequently post transgender-related content",
+            "lang": "en",
+            "name": "Trans User"
+          },
+          {
+            "description": "经常发布跨性别相关内容的账号",
+            "lang": "zh",
+            "name": "跨性别用户"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "scat-post",
+        "locales": [
+          {
+            "description": "Content involving scat, feces, or related fetish themes",
+            "lang": "en",
+            "name": "Scat Content"
+          },
+          {
+            "description": "涉及粪便、排泄或相关癖好主题的内容",
+            "lang": "zh",
+            "name": "粪便内容"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "scat-user",
+        "locales": [
+          {
+            "description": "Accounts that frequently post scat or feces-related content",
+            "lang": "en",
+            "name": "Scat User"
+          },
+          {
+            "description": "经常发布粪便或排泄相关内容的账号",
+            "lang": "zh",
+            "name": "粪便用户"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "meaningless-sexy-post",
+      "gay-post",
+      "gay-user",
+      "trans-post",
+      "trans-user",
+      "scat-post",
+      "scat-user"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ]
+}
