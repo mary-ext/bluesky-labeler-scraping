@@ -1,0 +1,55 @@
+{
+  "uri": "at://did:plc:pfyyashnoatlhgwwfq7ut64l/app.bsky.labeler.service/self",
+  "cid": "bafyreifo4mv5foqkm3hldqdp6v4z3elfwmrlxu3bz7ud2ipq6qru267iwe",
+  "creator": {
+    "did": "did:plc:pfyyashnoatlhgwwfq7ut64l",
+    "handle": "lore.farm",
+    "displayName": "lore.farm",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-07T16:00:16.046Z",
+    "description": "Decentralized canonization for shared worldbuilding. This labeler marks posts as lore or canon for various fictional worlds, creating verifiable records for collaborative storytelling across the social web.",
+    "indexedAt": "2026-03-07T16:26:32.546Z"
+  },
+  "indexedAt": "2026-03-07T15:47:25.766Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lore:reverie.house",
+        "locales": [
+          {
+            "description": "This post contributes lore to the world @reverie.house",
+            "lang": "en",
+            "name": "@reverie.house: lore"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "canon:reverie.house",
+        "locales": [
+          {
+            "description": "This post is established canon in the world @reverie.house",
+            "lang": "en",
+            "name": "@reverie.house: canon"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "lore:reverie.house",
+      "canon:reverie.house"
+    ]
+  }
+}
