@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreigir44l2hwuqptclcuetabtwszt4shejsa2vretdnc63lbxggpgqa",
+  "cid": "bafyreiay53nxzeugvke5a6mazb2q6yjhufz2yg6qolqa4xih57vvouxa5e",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\nstech.bluesky.labeler@gmail.com\nIcon:Flaticon",
     "indexedAt": "2026-03-03T21:30:29.845Z"
   },
-  "indexedAt": "2026-03-10T19:45:09.352Z",
+  "indexedAt": "2026-03-11T20:57:24.558Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -356,6 +356,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "made-over-twenty-five-posts-yesterday",
+        "locales": [
+          {
+            "description": "In the last 24 hrs this account made more than 25 original posts or quotes.",
+            "lang": "en",
+            "name": "Made over 25 posts yesterday"
+          }
+        ],
+        "severity": "none"
       }
     ],
     "labelValues": [
@@ -382,7 +396,8 @@
       "monthly-posts-over-ten-per-day",
       "monthly-posts-over-twenty-per-day",
       "monthly-replies-over-ten-per-day",
-      "monthly-replies-over-twenty-per-day"
+      "monthly-replies-over-twenty-per-day",
+      "made-over-twenty-five-posts-yesterday"
     ]
   }
 }
