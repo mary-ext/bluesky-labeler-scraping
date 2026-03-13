@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreiay53nxzeugvke5a6mazb2q6yjhufz2yg6qolqa4xih57vvouxa5e",
+  "cid": "bafyreidbznigp4g4a3dnkwsl4up6jhceaujwc34ouzhnfi5q2usit7yvj4",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\nstech.bluesky.labeler@gmail.com\nIcon:Flaticon",
     "indexedAt": "2026-03-03T21:30:29.845Z"
   },
-  "indexedAt": "2026-03-11T20:57:24.558Z",
+  "indexedAt": "2026-03-12T18:50:42.367Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -221,34 +221,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "posting-num-low",
-        "locales": [
-          {
-            "description": "In the last 24 hrs this account made more than 50 posts or replies",
-            "lang": "en",
-            "name": "Posts a lot: more than 50 times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "posting-num-mid",
-        "locales": [
-          {
-            "description": "In the last 24 hrs this account made more than 100 posts or replies",
-            "lang": "en",
-            "name": "Posts a lot: more than 100 times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "made-over-twenty-five-posts-yesterday",
         "locales": [
           {
@@ -370,6 +342,34 @@
           }
         ],
         "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "made-over-fifty-posts-yesterday",
+        "locales": [
+          {
+            "description": "In the last 24 hrs this account made more than 50 posts or quotes.",
+            "lang": "en",
+            "name": "Made over 50 posts yesterday"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "made-over-fifty-replies-yesterday",
+        "locales": [
+          {
+            "description": "In the last 24 hrs this account made more than 50 replies or quote-replies.",
+            "lang": "en",
+            "name": "Made over 50 replies yesterday"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -387,8 +387,6 @@
       "posted-same-url-low",
       "posted-same-url-mid",
       "posted-same-url-high",
-      "posting-num-low",
-      "posting-num-mid",
       "made-over-twenty-five-posts-yesterday",
       "made-over-hundred-posts-yesterday",
       "made-over-twenty-five-replies-yesterday",
@@ -397,7 +395,9 @@
       "monthly-posts-over-twenty-per-day",
       "monthly-replies-over-ten-per-day",
       "monthly-replies-over-twenty-per-day",
-      "made-over-twenty-five-posts-yesterday"
+      "made-over-twenty-five-posts-yesterday",
+      "made-over-fifty-posts-yesterday",
+      "made-over-fifty-replies-yesterday"
     ]
   }
 }
