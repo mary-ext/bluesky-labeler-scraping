@@ -1,0 +1,69 @@
+{
+  "uri": "at://did:plc:rh3vjqs4npfpmnkkmx4u4bzj/app.bsky.labeler.service/self",
+  "cid": "bafyreihpbxmste3dwfjrso4s62hij6vfr3j5rewq7km4twssadbuyhhrhe",
+  "creator": {
+    "did": "did:plc:rh3vjqs4npfpmnkkmx4u4bzj",
+    "handle": "alt-text-labeler.bsky.social",
+    "displayName": "Alt Text Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rh3vjqs4npfpmnkkmx4u4bzj/bafkreihwdrxq3elbjb2if52t3k7ol4qcc5epr7ijgwiwlhvrq4nyk7ybxu",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-12T21:41:31.247Z",
+    "description": "stop whining and use alt-text already omg",
+    "indexedAt": "2026-03-13T23:20:06.845Z"
+  },
+  "indexedAt": "2026-03-13T11:15:13.050Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "missing-alt-text",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post contains one or more still images and none of them has usable alt text.",
+            "lang": "en",
+            "name": "Missing alt text"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "partial-alt-text",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post contains multiple still images and only some of them have usable alt text.",
+            "lang": "en",
+            "name": "Partial alt text"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "missing-alt-text",
+      "partial-alt-text"
+    ]
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}

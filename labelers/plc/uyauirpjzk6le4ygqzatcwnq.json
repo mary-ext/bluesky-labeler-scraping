@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiaiim34xjuqj7b6pxfjccsas3tmx24el7lugfdcsxgkaxta5wvate",
+  "cid": "bafyreibbhfko4k5iyhr7gcfixcypresinvmaoegbwfljtqshkn7mcbgi5y",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-03-12T19:04:34.971Z",
+  "indexedAt": "2026-03-13T04:23:22.065Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -753,12 +753,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-syang-pds",
+        "identifier": "bot-mirrors",
         "locales": [
           {
-            "description": "Account is hosted by the pds.syang.xyz PDS",
+            "description": "Account is hosted by the mirrors.bot PDS",
             "lang": "en",
-            "name": "pds.syang.xyz"
+            "name": "mirrors.bot"
           }
         ],
         "severity": "inform"
@@ -767,12 +767,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-mirrors",
+        "identifier": "xyz-syang-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mirrors.bot PDS",
+            "description": "Account is hosted by the pds.syang.xyz PDS",
             "lang": "en",
-            "name": "mirrors.bot"
+            "name": "pds.syang.xyz"
           }
         ],
         "severity": "inform"
@@ -949,12 +949,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-mpi--sws-mpi--bluesky--pds",
+        "identifier": "app-fudini-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
+            "description": "Account is hosted by the pds.fudini.app PDS",
             "lang": "en",
-            "name": "mpi-bluesky-pds.mpi-sws.org"
+            "name": "pds.fudini.app"
           }
         ],
         "severity": "inform"
@@ -963,12 +963,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-fudini-pds",
+        "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.fudini.app PDS",
+            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
-            "name": "pds.fudini.app"
+            "name": "mpi-bluesky-pds.mpi-sws.org"
           }
         ],
         "severity": "inform"
@@ -1145,6 +1145,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "so-eur-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.eur.so PDS",
+            "lang": "en",
+            "name": "pds.eur.so"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-reme",
         "locales": [
           {
@@ -1215,6 +1229,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cloud-tgirl-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.tgirl.cloud PDS",
+            "lang": "en",
+            "name": "pds.tgirl.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "space-hf-ali525--xc1",
         "locales": [
           {
@@ -1235,20 +1263,6 @@
             "description": "Account is hosted by the pds-1f73e.squid.free PDS",
             "lang": "en",
             "name": "pds-1f73e.squid.free"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tgirl-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tgirl.cloud PDS",
-            "lang": "en",
-            "name": "pds.tgirl.cloud"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "eu-wsocial-dev--pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev-pds.wsocial.eu PDS",
-            "lang": "en",
-            "name": "dev-pds.wsocial.eu"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1503,8 +1503,8 @@
       "network-eny-pds-oyster",
       "ai-bigt-pds",
       "wtf-lamp",
-      "xyz-syang-pds",
       "bot-mirrors",
+      "xyz-syang-pds",
       "dev-fly-crimson--field--2410",
       "su-nyet",
       "app-certified-test-sds--eu--west4",
@@ -1517,8 +1517,8 @@
       "com-ripperoni-alt",
       "shop-si46",
       "cafe-pckt-pds",
-      "org-mpi--sws-mpi--bluesky--pds",
       "app-fudini-pds",
+      "org-mpi--sws-mpi--bluesky--pds",
       "at-podping-pds1",
       "me-tribesocial-pds",
       "blog-bestofmodels-bsky",
@@ -1531,14 +1531,15 @@
       "social-bsea-pds1",
       "app-certified-test-epds1",
       "dev-ngrok-jarlix",
+      "so-eur-pds",
       "social-reme",
       "chat-wndr",
       "space-quack-pds",
       "chat-wolp-bark-bsky",
       "social-gumby",
+      "cloud-tgirl-pds",
       "space-hf-ali525--xc1",
       "free-squid-pds--1f73e",
-      "cloud-tgirl-pds",
       "cloud-tgirl-pds",
       "network-wsocial-pds",
       "free-squid-pds--2db66",
@@ -1551,8 +1552,7 @@
       "systems-wizardry-testpds",
       "network-solidar-pds1--us--west--host",
       "surf-self",
-      "io-koda--agency-pds",
-      "eu-wsocial-dev--pds"
+      "io-koda--agency-pds"
     ]
   }
 }

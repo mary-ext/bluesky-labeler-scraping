@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:b6irkivf4f6kr5zetwycnzxd/app.bsky.labeler.service/self",
-  "cid": "bafyreib36b5pqmm3x2jrqtayiau53zc6yxqv6kfgejruvh6utnkbp4pjui",
+  "cid": "bafyreicgvqribcezfdp4sbgbfnmuysfdobfefncgpzwlyk24rl6fcblgle",
   "creator": {
     "did": "did:plc:b6irkivf4f6kr5zetwycnzxd",
     "handle": "milk-labeler.at.gayfamicom.lol",
@@ -18,7 +18,7 @@
     "description": "Welcome to the Milk Labeling Service! 🥛\n\nTo add a label:\n1. Subscribe to the labeler\n2. Check the \"Posts\" tab, and hit like on your favorite milk to drink!\nTo remove the label, hit like on the pinned post!\n\n\nmanaged by @gayfamicom.lol",
     "indexedAt": "2026-03-12T00:59:12.356Z"
   },
-  "indexedAt": "2025-11-29T07:39:54.132Z",
+  "indexedAt": "2026-03-14T00:12:10.955Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -161,6 +161,62 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chocolate",
+        "locales": [
+          {
+            "description": "This user drinks chocolate milk!",
+            "lang": "en",
+            "name": "Chocolate"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "heavy-cream",
+        "locales": [
+          {
+            "description": "This user drinks heavy cream!",
+            "lang": "en",
+            "name": "Heavy Cream"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "strawberry",
+        "locales": [
+          {
+            "description": "This user drinks strawberry milk!",
+            "lang": "en",
+            "name": "Strawberry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banana",
+        "locales": [
+          {
+            "description": "This user drinks banana milk!",
+            "lang": "en",
+            "name": "Banana"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -173,7 +229,11 @@
       "coconut",
       "oat",
       "goat",
-      "lactose-free"
+      "lactose-free",
+      "chocolate",
+      "heavy-cream",
+      "strawberry",
+      "banana"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreidbznigp4g4a3dnkwsl4up6jhceaujwc34ouzhnfi5q2usit7yvj4",
+  "cid": "bafyreicwvf6k6wrwttpvv4e4dgbotf52zyzxmbyddkiqqulkrldbx7yate",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,38 +17,10 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\nstech.bluesky.labeler@gmail.com\nIcon:Flaticon",
     "indexedAt": "2026-03-03T21:30:29.845Z"
   },
-  "indexedAt": "2026-03-12T18:50:42.367Z",
+  "indexedAt": "2026-03-13T20:06:19.953Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "high-follow-churn-five-hundred",
-        "locales": [
-          {
-            "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 500 other accounts.",
-            "lang": "en",
-            "name": "Unfollowed 500+ yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "high-follow-churn-one-hundred",
-        "locales": [
-          {
-            "description": "In a 24 hour period, account both unfollowed at least 25% as many accounts as it newly followed, and unfollowed at least 100 other accounts.",
-            "lang": "en",
-            "name": "Unfollowed 100+ yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -370,11 +342,93 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-high-unfollows-one-hundred-fifty",
+        "locales": [
+          {
+            "description": "In a 30 days period, the account unfollowed at least 150 other accounts.",
+            "lang": "en",
+            "name": "Unfollowed 150+ in the last month"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-high-unfollows-five-hundred",
+        "locales": [
+          {
+            "description": "In a 30 days period, the account unfollowed at least 500 other accounts.",
+            "lang": "en",
+            "name": "Unfollowed 500+ in the last month"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-high-unfollows-one-thousand",
+        "locales": [
+          {
+            "description": "In a 30 days period, the account unfollowed at least 1000 other accounts.",
+            "lang": "en",
+            "name": "Unfollowed 1000+ in the last month"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-follow-churn-fifty",
+        "locales": [
+          {
+            "description": "In a 24 hour period, the account unfollowed at least 50 other accounts",
+            "lang": "en",
+            "name": "Unfollowed 50+ yesterday"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-follow-churn-one-hundred",
+        "locales": [
+          {
+            "description": "In a 24 hour period, the account unfollowed at least 100 other accounts",
+            "lang": "en",
+            "name": "Unfollowed 100+ yesterday"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-follow-churn-five-hundred",
+        "locales": [
+          {
+            "description": "In a 24 hour period, the account unfollowed at least 500 other accounts.",
+            "lang": "en",
+            "name": "Unfollowed 500+ yesterday"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "high-follow-churn-five-hundred",
-      "high-follow-churn-one-hundred",
       "high-metadata-changes-five",
       "high-metadata-changes-ten",
       "high-metadata-changes-fifty",
@@ -397,7 +451,13 @@
       "monthly-replies-over-twenty-per-day",
       "made-over-twenty-five-posts-yesterday",
       "made-over-fifty-posts-yesterday",
-      "made-over-fifty-replies-yesterday"
+      "made-over-fifty-replies-yesterday",
+      "monthly-high-unfollows-one-hundred-fifty",
+      "monthly-high-unfollows-five-hundred",
+      "monthly-high-unfollows-one-thousand",
+      "high-follow-churn-fifty",
+      "high-follow-churn-one-hundred",
+      "high-follow-churn-five-hundred"
     ]
   }
 }
