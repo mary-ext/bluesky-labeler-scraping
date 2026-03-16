@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreieyaeft3w7t7jz7qrxjkbhb2xs6ntfqcsbv6hada3ijmr3lvuttjm",
+  "cid": "bafyreifx6qblqqapchnz2mrcmjc2dzgqmprffqyqxahlzwn3nlgzzpakg4",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.sh/@edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.sh/@edavis.dev/recordcollector/issues/new",
     "indexedAt": "2025-08-26T04:34:37.998Z"
   },
-  "indexedAt": "2026-03-07T20:35:14.864Z",
+  "indexedAt": "2026-03-15T04:06:52.858Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,6 +31,20 @@
             "description": "2048 on atproto (blue.2048.*)",
             "lang": "en",
             "name": "2048"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "computer-aetheros",
+        "locales": [
+          {
+            "description": "A cyberpunk web OS built natively for the AT Protocol (computer.aetheros.*)",
+            "lang": "en",
+            "name": "Aether OS"
           }
         ],
         "severity": "inform"
@@ -878,6 +892,7 @@
     ],
     "labelValues": [
       "blue-twentyfortyeight",
+      "computer-aetheros",
       "app-dropanchor",
       "net-anisota",
       "place-atwork",
