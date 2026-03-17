@@ -1,0 +1,125 @@
+{
+  "uri": "at://did:plc:g6juxaq3xv3mnep2p6dh22ea/app.bsky.labeler.service/self",
+  "cid": "bafyreig3wtjrrq4jgwrfkh5r7pvhgxqf3pmzehajwi2y7buylq6xx2uaja",
+  "creator": {
+    "did": "did:plc:g6juxaq3xv3mnep2p6dh22ea",
+    "handle": "labeler-wearemagen.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g6juxaq3xv3mnep2p6dh22ea/bafkreib7lyrnkcbgvgcwpwi7pyqonpaadqqotgwbyejli53ky2ohzbpaya",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-16T16:40:36.663Z",
+    "indexedAt": "2026-03-16T16:41:07.157Z"
+  },
+  "indexedAt": "2026-03-16T22:32:44.454Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultContent": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antisemitic-slur",
+        "locales": [
+          {
+            "description": "Marks posts that use direct antisemitic slurs, dehumanizing language, or explicit anti-Jewish epithets.",
+            "lang": "en",
+            "name": "Antisemitic Slur"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultContent": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "dogpile-risk",
+        "locales": [
+          {
+            "description": "Marks posts likely to trigger a coordinated pile-on against a Jewish person, event, or organization.",
+            "lang": "en",
+            "name": "Dogpile Risk"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultContent": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "extremist-glorification",
+        "locales": [
+          {
+            "description": "Marks praise, celebration, or recruitment messaging for extremist violence, antisemitic actors, or terror-linked movements.",
+            "lang": "en",
+            "name": "Extremist Glorification"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultContent": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misinfo-jewish-targeting",
+        "locales": [
+          {
+            "description": "Marks false or misleading claims that target Jews, Jewish institutions, or Jewish-linked civic activity in ways that can drive harassment or offline risk.",
+            "lang": "en",
+            "name": "Jewish Targeting Misinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultContent": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "targeted-harassment",
+        "locales": [
+          {
+            "description": "Marks coordinated or repeated abusive targeting of Jewish individuals, organizations, events, or communities.",
+            "lang": "en",
+            "name": "Targeted Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultContent": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "violent-threat",
+        "locales": [
+          {
+            "description": "Marks credible threats, incitement, or statements encouraging violence against Jews or Jewish-linked targets.",
+            "lang": "en",
+            "name": "Violent Threat"
+          }
+        ],
+        "severity": "critical"
+      }
+    ],
+    "labelValues": [
+      "antisemitic-slur",
+      "dogpile-risk",
+      "extremist-glorification",
+      "misinfo-jewish-targeting",
+      "targeted-harassment",
+      "violent-threat"
+    ]
+  },
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}
