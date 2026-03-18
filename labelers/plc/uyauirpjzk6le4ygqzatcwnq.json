@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiatvdufze4gdyymprbaumcvxsgkpalc3pyzz2k4yayempohzx7g74",
+  "cid": "bafyreiaaxecvgjeao56oqbmcgkj5xcp2iztbtzgq6cp6s6bwfncodb3vem",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-03-16T22:23:19.257Z",
+  "indexedAt": "2026-03-17T18:23:19.260Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -333,12 +333,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "to-tor0n",
+        "identifier": "social-surf",
         "locales": [
           {
-            "description": "Account is hosted by the tor0n.to PDS",
+            "description": "Account is hosted by the surf.social PDS",
             "lang": "en",
-            "name": "tor0n.to"
+            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -347,12 +347,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-surf",
+        "identifier": "to-tor0n",
         "locales": [
           {
-            "description": "Account is hosted by the surf.social PDS",
+            "description": "Account is hosted by the tor0n.to PDS",
             "lang": "en",
-            "name": "surf.social"
+            "name": "tor0n.to"
           }
         ],
         "severity": "inform"
@@ -781,6 +781,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "bot-mirrors",
+        "locales": [
+          {
+            "description": "Account is hosted by the mirrors.bot PDS",
+            "lang": "en",
+            "name": "mirrors.bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "su-nyet",
         "locales": [
           {
@@ -795,12 +809,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-mirrors",
+        "identifier": "ai-swarmchat-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mirrors.bot PDS",
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
             "lang": "en",
-            "name": "mirrors.bot"
+            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -851,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "space-hf-salu51--w",
+        "identifier": "app-certified-test-sds--eu--west4",
         "locales": [
           {
-            "description": "Account is hosted by the salu51-w.hf.space PDS",
+            "description": "Account is hosted by the sds-eu-west4.test.certified.app PDS",
             "lang": "en",
-            "name": "salu51-w.hf.space"
+            "name": "sds-eu-west4.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -865,12 +879,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-sds--eu--west4",
+        "identifier": "live-shxre",
         "locales": [
           {
-            "description": "Account is hosted by the sds-eu-west4.test.certified.app PDS",
+            "description": "Account is hosted by the shxre.live PDS",
             "lang": "en",
-            "name": "sds-eu-west4.test.certified.app"
+            "name": "shxre.live"
           }
         ],
         "severity": "inform"
@@ -935,20 +949,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "live-shxre",
-        "locales": [
-          {
-            "description": "Account is hosted by the shxre.live PDS",
-            "lang": "en",
-            "name": "shxre.live"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-ripperoni-alt",
         "locales": [
           {
@@ -977,12 +977,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
+        "identifier": "club-nacg",
         "locales": [
           {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "description": "Account is hosted by the nacg.club PDS",
             "lang": "en",
-            "name": "pds.swarmchat.ai"
+            "name": "nacg.club"
           }
         ],
         "severity": "inform"
@@ -1131,40 +1131,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cyou-shinigami",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the shinigami.cyou PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "shinigami.cyou"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "ge-shadowcaster-bsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
-            "lang": "en",
-            "name": "bsky.shadowcaster.ge"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "moe-waf-at",
-        "locales": [
-          {
-            "description": "Account is hosted by the at.waf.moe PDS",
-            "lang": "en",
-            "name": "at.waf.moe"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -1187,12 +1159,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-ocho",
+        "identifier": "cyou-shinigami",
         "locales": [
           {
-            "description": "Account is hosted by the ocho.app PDS",
+            "description": "Account is hosted by the shinigami.cyou PDS",
             "lang": "en",
-            "name": "ocho.app"
+            "name": "shinigami.cyou"
           }
         ],
         "severity": "inform"
@@ -1201,12 +1173,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
+        "identifier": "moe-waf-at",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "description": "Account is hosted by the at.waf.moe PDS",
             "lang": "en",
-            "name": "pds.wsocial.network"
+            "name": "at.waf.moe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ge-shadowcaster-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
+            "lang": "en",
+            "name": "bsky.shadowcaster.ge"
           }
         ],
         "severity": "inform"
@@ -1221,6 +1207,34 @@
             "description": "Account is hosted by the pds1.bsea.social PDS",
             "lang": "en",
             "name": "pds1.bsea.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-ocho",
+        "locales": [
+          {
+            "description": "Account is hosted by the ocho.app PDS",
+            "lang": "en",
+            "name": "ocho.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chat-wolp-bark-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "lang": "en",
+            "name": "bsky.bark.wolp.chat"
           }
         ],
         "severity": "inform"
@@ -1299,12 +1313,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
+        "identifier": "com-raceef-ds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "description": "Account is hosted by the ds.raceef.com PDS",
             "lang": "en",
-            "name": "bsky.bark.wolp.chat"
+            "name": "ds.raceef.com"
           }
         ],
         "severity": "inform"
@@ -1383,6 +1397,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-zimchu-epds",
+        "locales": [
+          {
+            "description": "Account is hosted by the epds.zimchu.com PDS",
+            "lang": "en",
+            "name": "epds.zimchu.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "eu-blsky-pds",
         "locales": [
           {
@@ -1411,40 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--stage",
+        "identifier": "one-certified",
         "locales": [
           {
-            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
+            "description": "Account is hosted by the certified.one PDS",
             "lang": "en",
-            "name": "pds-stage.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-scanash-cocoon",
-        "locales": [
-          {
-            "description": "Account is hosted by the cocoon.scanash.com PDS",
-            "lang": "en",
-            "name": "cocoon.scanash.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-raceef-ds",
-        "locales": [
-          {
-            "description": "Account is hosted by the ds.raceef.com PDS",
-            "lang": "en",
-            "name": "ds.raceef.com"
+            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -1473,8 +1473,8 @@
       "homes-si46",
       "social-novum",
       "chat-roomy",
-      "to-tor0n",
       "social-surf",
+      "to-tor0n",
       "at-admat-bsx",
       "es-peedee",
       "com-mulgez-api",
@@ -1505,21 +1505,21 @@
       "so-eur-pds",
       "network-eny-pds-oyster",
       "ai-bigt-pds",
-      "su-nyet",
       "bot-mirrors",
+      "su-nyet",
+      "ai-swarmchat-pds",
       "wtf-lamp",
       "xyz-syang-pds",
       "dev-fly-crimson--field--2410",
-      "space-hf-salu51--w",
       "app-certified-test-sds--eu--west4",
+      "live-shxre",
       "social-seabikes",
       "online-magallan",
       "es-nobitch-bpds",
       "com-chrise-bsky",
-      "live-shxre",
       "com-ripperoni-alt",
       "space-0-pds",
-      "ai-swarmchat-pds",
+      "club-nacg",
       "cafe-pckt-pds",
       "shop-si46",
       "network-certs-pds",
@@ -1530,29 +1530,29 @@
       "me-tribesocial-pds",
       "cc-mysocial-bsk",
       "uk-madebydanny-rose",
-      "cyou-shinigami",
-      "ge-shadowcaster-bsky",
-      "moe-waf-at",
-      "app-certified-test-epds1",
-      "app-ocho",
       "network-wsocial-pds",
+      "app-certified-test-epds1",
+      "cyou-shinigami",
+      "moe-waf-at",
+      "ge-shadowcaster-bsky",
       "social-bsea-pds1",
+      "app-ocho",
+      "chat-wolp-bark-bsky",
       "dev-ngrok-jarlix",
       "social-gumby",
       "social-reme",
       "chat-wndr",
       "space-quack-pds",
-      "chat-wolp-bark-bsky",
+      "com-raceef-ds",
       "cloud-tgirl-pds",
       "cloud-tgirl-pds",
       "space-hf-ali525--xc1",
       "free-squid-pds--1f73e",
       "free-squid-pds--2db66",
+      "com-zimchu-epds",
       "eu-blsky-pds",
       "systems-wizardry-buttercup",
-      "dev-wsocial-pds--stage",
-      "com-scanash-cocoon",
-      "com-raceef-ds"
+      "one-certified"
     ]
   }
 }
