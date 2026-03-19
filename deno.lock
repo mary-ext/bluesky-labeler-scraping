@@ -1,0 +1,24 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@atcute/bluesky@^1.0.11": "1.0.15_@atcute+client@2.0.9",
+    "npm:@atcute/client@^2.0.6": "2.0.9"
+  },
+  "npm": {
+    "@atcute/bluesky@1.0.15_@atcute+client@2.0.9": {
+      "integrity": "sha512-+EFiybmKQ97aBAgtaD+cKRJER5AMn3cZMkEwEg/pDdWyzxYJ9m1UgemmLdTgI8VrxPufKqdXS2nl7uO7TY6BPA==",
+      "dependencies": [
+        "@atcute/client"
+      ]
+    },
+    "@atcute/client@2.0.9": {
+      "integrity": "sha512-QNDm9gMP6x9LY77ArwY+urQOBtQW74/onEAz42c40JxRm6Rl9K9cU4ROvNKJ+5cpVmEm1sthEWVRmDr5CSZENA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@atcute/bluesky@^1.0.11",
+      "npm:@atcute/client@^2.0.6"
+    ]
+  }
+}

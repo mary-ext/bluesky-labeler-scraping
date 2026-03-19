@@ -15,22 +15,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
         with:
-          bun-version: latest
-
-      - name: Install dependencies
-        run: bun install --frozen-lockfile
+          deno-version: v2.x
 
       - name: Run scrape script
-        run: bun run ./scripts/scrape.ts
+        run: deno run -A ./scripts/scrape.ts
 
       - name: Run generate-markdown script
-        run: bun run ./scripts/generate-markdown.ts
+        run: deno run -A ./scripts/generate-markdown.ts
 
       - name: Run scrub-json script
-        run: ./scripts/scrub-json.sh
+        run: deno run -A ./scripts/scrub-json.ts
 
       - name: Push to repository
         run: |

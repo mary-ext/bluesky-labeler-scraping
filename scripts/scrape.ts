@@ -1,8 +1,5 @@
 import '@atcute/bluesky/lexicons';
 
-import * as fs from 'node:fs/promises';
-import * as path from 'node:path';
-
 import { simpleFetchHandler, XRPC } from '@atcute/client';
 import type { AppBskyLabelerDefs, At } from '@atcute/client/lexicons';
 
@@ -18,9 +15,9 @@ const chunked = <T>(arr: T[], size: number): T[][] => {
 
 let dids: At.DID[];
 
-await fs.rm('./labelers/', { force: true, recursive: true });
-await fs.mkdir('./labelers/plc', { recursive: true });
-await fs.mkdir('./labelers/web', { recursive: true });
+await Deno.remove('./labelers/', { recursive: true }).catch(() => {});
+await Deno.mkdir('./labelers/plc', { recursive: true });
+await Deno.mkdir('./labelers/web', { recursive: true });
 
 {
 	const resp = await fetch('https://blue.mackuba.eu/xrpc/blue.feeds.mod.getLabellers');
@@ -50,7 +47,7 @@ await fs.mkdir('./labelers/web', { recursive: true });
 				const did = view.creator.did;
 				const filename = `./labelers/${did.slice(4).replaceAll(':', '/')}.json`;
 
-				await fs.writeFile(filename, JSON.stringify(view, null, '\t'));
+				await Deno.writeTextFile(filename, JSON.stringify(view, null, 2) + '\n');
 			}
 		}),
 	);

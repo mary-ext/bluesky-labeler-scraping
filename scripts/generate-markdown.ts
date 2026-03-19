@@ -1,13 +1,15 @@
 import '@atcute/bluesky/lexicons';
 
-import * as fs from 'node:fs';
+import { glob } from 'node:fs/promises';
 
 import type { AppBskyLabelerDefs } from '@atcute/client/lexicons';
 
-const glob = new Bun.Glob('./labelers/**/*.json');
-const views = Array.from(glob.scanSync(), (f): AppBskyLabelerDefs.LabelerViewDetailed => {
-	return JSON.parse(fs.readFileSync(f, 'utf-8'));
-});
+const views: AppBskyLabelerDefs.LabelerViewDetailed[] = [];
+
+for await (const f of glob('./labelers/**/*.json')) {
+	const raw = await Deno.readTextFile(f);
+	views.push(JSON.parse(raw));
+}
 
 {
 	const TABLE_RE = /(?<=<!-- table-start -->)[^]*(?=<!-- table-end -->)/;
@@ -30,7 +32,10 @@ Last updated {{time}}[^1]
 	const sorted = views.toSorted((a, b) => {
 		return (
 			(b.likeCount ?? 0) - (a.likeCount ?? 0) ||
-			collator.compare(a.creator.displayName || a.creator.handle, b.creator.displayName || b.creator.handle)
+			collator.compare(
+				a.creator.displayName || a.creator.handle,
+				b.creator.displayName || b.creator.handle,
+			)
 		);
 	});
 
@@ -55,7 +60,7 @@ Last updated {{time}}[^1]
 	let shouldWrite = true;
 
 	try {
-		const source = fs.readFileSync('./README.md', 'utf-8');
+		const source = await Deno.readTextFile('./README.md');
 
 		if (TABLE_RE.exec(source)?.[0] === table) {
 			shouldWrite = false;
@@ -67,7 +72,7 @@ Last updated {{time}}[^1]
 	if (shouldWrite) {
 		const final = template.replace('{{time}}', new Date().toISOString()).replace(TABLE_RE, table);
 
-		fs.writeFileSync('./README.md', final);
+		await Deno.writeTextFile('./README.md', final);
 		console.log(`wrote to readme`);
 	} else {
 		console.log(`writing skipped`);
