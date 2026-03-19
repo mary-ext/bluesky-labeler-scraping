@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:5qgvgk3swxadfjxzlk2vp55m/app.bsky.labeler.service/self",
-  "cid": "bafyreidjij2nnotomiqwr73n67h3gfp5nrqfsbrnd6k23ymcflsqc2xttq",
+  "cid": "bafyreieh665ssblfgplz5ugqx5lo25eaxrcvv7yip6tj6sfyubdvav3tey",
   "creator": {
     "did": "did:plc:5qgvgk3swxadfjxzlk2vp55m",
     "handle": "news.aendra.dev",
-    "displayName": "News Labels",
+    "displayName": "News Classifier",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5qgvgk3swxadfjxzlk2vp55m/bafkreicbp5yjvlptglzmpjkkuwh3n3zdms5nr6owzx52aq6jtkvit5oqrm",
     "associated": {
       "labeler": true,
@@ -14,16 +14,471 @@
     },
     "labels": [],
     "createdAt": "2026-03-17T01:25:17.745Z",
-    "description": "Labels content from the 📰 News feed using a fine-tuned BERT-base-uncased text classification model. This will always be a work-in-progress.\n\nYet another experiment by @aendra.com.\n\nhttps://tangled.org/aendra.dev/news-labels",
-    "indexedAt": "2026-03-17T01:50:45.045Z"
+    "description": "Labels content from the 📰 News feed using a BERT text classification machine learning model. This will always be a work-in-progress.\n\nYet another experiment by @aendra.com.\n\nhttps://tangled.org/aendra.dev/news-labels",
+    "indexedAt": "2026-03-18T03:19:27.750Z"
   },
-  "indexedAt": "2026-03-17T15:40:40.852Z",
+  "indexedAt": "2026-03-18T03:20:10.359Z",
   "labels": [],
   "policies": {
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-arts-and-culture",
+        "locales": [
+          {
+            "description": "Content is in category \"arts & culture\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Arts & Culture"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-business",
+        "locales": [
+          {
+            "description": "Content is in category \"business\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Business"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-college",
+        "locales": [
+          {
+            "description": "Content is in category \"college\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "College"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-comedy",
+        "locales": [
+          {
+            "description": "Content is in category \"comedy\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Comedy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-crime",
+        "locales": [
+          {
+            "description": "Content is in category \"crime\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Crime"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-culture-and-arts",
+        "locales": [
+          {
+            "description": "Content is in category \"culture & arts\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Culture & Arts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-education",
+        "locales": [
+          {
+            "description": "Content is in category \"education\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Education"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-entertainment",
+        "locales": [
+          {
+            "description": "Content is in category \"entertainment\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Entertainment"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-environment",
+        "locales": [
+          {
+            "description": "Content is in category \"environment\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Environment"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-content-intended-for-people-over-50-years-of-age",
+        "locales": [
+          {
+            "description": "Content is in category \"content intended for people over 50 years of age\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Content Intended For People Over 50 Years Of Age"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-food-and-drink",
+        "locales": [
+          {
+            "description": "Content is in category \"food & drink\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Food & Drink"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-good-news",
+        "locales": [
+          {
+            "description": "Content is in category \"good news\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Good News"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-environmental-reporting",
+        "locales": [
+          {
+            "description": "Content is in category \"environmental reporting\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Environmental Reporting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-healthy-living",
+        "locales": [
+          {
+            "description": "Content is in category \"healthy living\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Healthy Living"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-home-and-living",
+        "locales": [
+          {
+            "description": "Content is in category \"home & living\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Home & Living"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-media",
+        "locales": [
+          {
+            "description": "Content is in category \"media\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Media"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-money",
+        "locales": [
+          {
+            "description": "Content is in category \"money\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Money"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-parenting",
+        "locales": [
+          {
+            "description": "Content is in category \"parenting\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Parenting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-politics",
+        "locales": [
+          {
+            "description": "Content is in category \"politics\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Politics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-religion",
+        "locales": [
+          {
+            "description": "Content is in category \"religion\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Religion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-science",
+        "locales": [
+          {
+            "description": "Content is in category \"science\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-sports",
+        "locales": [
+          {
+            "description": "Content is in category \"sports\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Sports"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-style-and-beauty",
+        "locales": [
+          {
+            "description": "Content is in category \"style & beauty\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Style & Beauty"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-tech",
+        "locales": [
+          {
+            "description": "Content is in category \"tech\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Tech"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-world-news",
+        "locales": [
+          {
+            "description": "Content is in category \"world news\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "World News"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-travel",
+        "locales": [
+          {
+            "description": "Content is in category \"travel\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Travel"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-u.s.-news",
+        "locales": [
+          {
+            "description": "Content is in category \"u.s. news\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "U.s. News"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-weddings",
+        "locales": [
+          {
+            "description": "Content is in category \"weddings\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Weddings"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-weird-news",
+        "locales": [
+          {
+            "description": "Content is in category \"weird news\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Weird News"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "info",
+        "identifier": "class-wellness",
+        "locales": [
+          {
+            "description": "Content is in category \"wellness\". \n\nThis label has been generated via machine learning and may not be accurate.",
+            "lang": "en",
+            "name": "Wellness"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "class-arts-and-culture",
+      "class-business",
+      "class-college",
+      "class-comedy",
+      "class-crime",
+      "class-culture-and-arts",
+      "class-education",
+      "class-entertainment",
+      "class-environment",
+      "class-content-intended-for-people-over-50-years-of-age",
+      "class-food-and-drink",
+      "class-good-news",
+      "class-environmental-reporting",
+      "class-healthy-living",
+      "class-home-and-living",
+      "class-media",
+      "class-money",
+      "class-parenting",
+      "class-politics",
+      "class-religion",
+      "class-science",
+      "class-sports",
+      "class-style-and-beauty",
+      "class-tech",
+      "class-world-news",
+      "class-travel",
+      "class-u.s.-news",
+      "class-weddings",
+      "class-weird-news",
+      "class-wellness"
+    ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonAppeal"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonOther"
   ],
   "subjectTypes": [
     "record"
