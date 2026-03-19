@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zj3ek5g7p4gxvg6mcnxazar5/app.bsky.labeler.service/self",
-  "cid": "bafyreig5vkr7zxatdqjml34bod6h427pvbic6xithll43v5txpasb53n3i",
+  "cid": "bafyreibuc3tcwpoije5mtvwoojesb54br2hai6h4himrpk2vnmt3aqf4cq",
   "creator": {
     "did": "did:plc:zj3ek5g7p4gxvg6mcnxazar5",
     "handle": "alternativeproto.net",
@@ -12,7 +12,7 @@
     },
     "labels": []
   },
-  "indexedAt": "2026-03-16T03:59:53.451Z",
+  "indexedAt": "2026-03-19T04:16:13.153Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -43,11 +43,26 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "alternativeproto-not-atproto",
+        "locales": [
+          {
+            "description": "Not an ATProto-based application.",
+            "lang": "en",
+            "name": "not-atproto"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "alternativeproto-verified",
-      "alternativeproto-community-verified"
+      "alternativeproto-community-verified",
+      "alternativeproto-not-atproto"
     ]
   }
 }

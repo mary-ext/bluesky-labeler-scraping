@@ -1,11 +1,11 @@
 {
-  "uri": "at://did:plc:ne3worfl2e6ixxsaoyuqmr7w/app.bsky.labeler.service/self",
-  "cid": "bafyreigqwkis6xrt7d6rb3ks3cdtxuj56sy632wnoxe5hqvaonguxschhi",
+  "uri": "at://did:plc:pxxznu4cm556vbi44bg5jsu4/app.bsky.labeler.service/self",
+  "cid": "bafyreifcesnqe7bwd47r4hu73vz7j4hdt5hnumbkjfhidblci6i7bqjiqq",
   "creator": {
-    "did": "did:plc:ne3worfl2e6ixxsaoyuqmr7w",
+    "did": "did:plc:pxxznu4cm556vbi44bg5jsu4",
     "handle": "trezy-test-labeler.bsky.social",
     "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ne3worfl2e6ixxsaoyuqmr7w/bafkreifgldsgmxirkaf62cx6zdit6vjv6rcy3nswoctgxek6jbeowildou",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pxxznu4cm556vbi44bg5jsu4/bafkreiczhww6pi7uzd6n6begl577sh42wy7acezjz5bsw5whlqd4idvyrm",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -13,14 +13,29 @@
       }
     },
     "labels": [],
-    "createdAt": "2026-03-17T14:25:28.355Z",
-    "indexedAt": "2026-03-17T14:25:42.960Z"
+    "createdAt": "2026-03-19T02:35:40.453Z",
+    "indexedAt": "2026-03-19T02:36:03.548Z"
   },
-  "indexedAt": "2026-03-17T20:33:48.463Z",
+  "indexedAt": "2026-03-19T04:06:50.852Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [],
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "identifier": "test",
+        "locales": [
+          {
+            "description": "tEsT",
+            "lang": "en",
+            "name": "Test"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "test"
+    ]
   },
   "reasonTypes": [
     "com.atproto.moderation.defs#reasonSpam",
