@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreicwvf6k6wrwttpvv4e4dgbotf52zyzxmbyddkiqqulkrldbx7yate",
+  "cid": "bafyreigpnduydk3rndngxzz4ohb5prgl6mg2baz5uyy3qbrvbns2ip3bp4",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\nstech.bluesky.labeler@gmail.com\nIcon:Flaticon",
     "indexedAt": "2026-03-03T21:30:29.845Z"
   },
-  "indexedAt": "2026-03-13T20:06:19.953Z",
+  "indexedAt": "2026-03-20T16:44:18.757Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -249,62 +249,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "monthly-posts-over-ten-per-day",
-        "locales": [
-          {
-            "description": "Over the last 30 days, this account made more than 300 original posts or quotes.",
-            "lang": "en",
-            "name": "Posts over ~10 times per day"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "monthly-posts-over-twenty-per-day",
-        "locales": [
-          {
-            "description": "Over the last 30 days, this account made more than 600 original posts or quotes.",
-            "lang": "en",
-            "name": "Posts over ~20 times per day "
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "monthly-replies-over-ten-per-day",
-        "locales": [
-          {
-            "description": "Over the last 30 days, this account made more than 300 replies or quote-replies.",
-            "lang": "en",
-            "name": "Replies over ~10 times per day"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "monthly-replies-over-twenty-per-day",
-        "locales": [
-          {
-            "description": "Over the last 30 days, this account made more than 600 replies or quote-replies.",
-            "lang": "en",
-            "name": "Replies over ~20 times per day"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "made-over-twenty-five-posts-yesterday",
         "locales": [
           {
@@ -426,6 +370,62 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-posts-over-fifteen-per-day",
+        "locales": [
+          {
+            "description": "Over the last 30 days, this account made more than 450 original posts or quotes.",
+            "lang": "en",
+            "name": "Posts over 15 times per day on average"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-posts-over-twenty-per-day",
+        "locales": [
+          {
+            "description": "Over the last 30 days, this account made more than 600 original posts or quotes.",
+            "lang": "en",
+            "name": "Posts over 20 times per day on average"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-replies-over-fifteen-per-day",
+        "locales": [
+          {
+            "description": "Over the last 30 days, this account made more than 450 replies or quote-replies.",
+            "lang": "en",
+            "name": "Replies over 15 times per day on average"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "monthly-replies-over-twenty-per-day",
+        "locales": [
+          {
+            "description": "Over the last 30 days, this account made more than 600 replies or quote-replies.",
+            "lang": "en",
+            "name": "Replies over 20 times per day on average"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -445,10 +445,6 @@
       "made-over-hundred-posts-yesterday",
       "made-over-twenty-five-replies-yesterday",
       "made-over-hundred-replies-yesterday",
-      "monthly-posts-over-ten-per-day",
-      "monthly-posts-over-twenty-per-day",
-      "monthly-replies-over-ten-per-day",
-      "monthly-replies-over-twenty-per-day",
       "made-over-twenty-five-posts-yesterday",
       "made-over-fifty-posts-yesterday",
       "made-over-fifty-replies-yesterday",
@@ -457,7 +453,11 @@
       "monthly-high-unfollows-one-thousand",
       "high-follow-churn-fifty",
       "high-follow-churn-one-hundred",
-      "high-follow-churn-five-hundred"
+      "high-follow-churn-five-hundred",
+      "monthly-posts-over-fifteen-per-day",
+      "monthly-posts-over-twenty-per-day",
+      "monthly-replies-over-fifteen-per-day",
+      "monthly-replies-over-twenty-per-day"
     ]
   }
 }
