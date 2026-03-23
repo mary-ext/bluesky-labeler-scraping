@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dsjk7d74slgc2xyrhehf2sxk/app.bsky.labeler.service/self",
-  "cid": "bafyreih67h4tu37cygjwpmmushowdzz2osbpkphyxk2elaykexkmkgp25m",
+  "cid": "bafyreif6clgaejvtrja6rk5shyyb44lh2xxay2b6meo3nq3vokmpcwgkh4",
   "creator": {
     "did": "did:plc:dsjk7d74slgc2xyrhehf2sxk",
     "handle": "built.blue",
@@ -20,7 +20,7 @@
     "description": "This account is the nexus of a broader community of builders.\n\nSubscribe to this account, and follow the associated creative community accounts to see what people are choosing to build and share.",
     "indexedAt": "2026-02-20T19:01:11.356Z"
   },
-  "indexedAt": "2026-03-02T07:36:05.567Z",
+  "indexedAt": "2026-03-22T22:34:41.659Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -191,6 +191,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "noalt",
+        "locales": [
+          {
+            "description": "No AltText on this image post.",
+            "lang": "en",
+            "name": "🚫️"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -205,7 +219,8 @@
       "admin",
       "prints",
       "curate",
-      "built"
+      "built",
+      "noalt"
     ]
   }
 }
