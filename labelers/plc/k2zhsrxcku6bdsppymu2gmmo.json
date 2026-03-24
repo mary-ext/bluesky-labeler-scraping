@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:k2zhsrxcku6bdsppymu2gmmo/app.bsky.labeler.service/self",
-  "cid": "bafyreidc6sezzxnz457i2jbmzjqomaqtyi2dr67m3mazgzfflggkrja7ra",
+  "cid": "bafyreiea2gwa24aqekedutckioycuhiutdqzcdfnipoio3y43cqq5zgw4i",
   "creator": {
     "did": "did:plc:k2zhsrxcku6bdsppymu2gmmo",
     "handle": "awacs.prtgn.org",
@@ -24,7 +24,7 @@
     "createdAt": "2026-02-15T06:28:14.247Z",
     "indexedAt": "2026-03-22T23:02:53.858Z"
   },
-  "indexedAt": "2026-02-19T01:12:12.859Z",
+  "indexedAt": "2026-03-23T04:00:55.251Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -38,6 +38,20 @@
             "description": "Users that ignore ignore dni rules(mdni following minors)",
             "lang": "en",
             "name": "DNI Ignorer"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "horrible_conduct",
+        "locales": [
+          {
+            "description": "zoos / pedos",
+            "lang": "en",
+            "name": "horrible conduct(zoos / pedos)"
           }
         ],
         "severity": "alert"
@@ -80,6 +94,20 @@
             "description": "Label description.",
             "lang": "en",
             "name": "Bot"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "haz",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Zoo/Pedo"
           }
         ],
         "severity": "alert"
