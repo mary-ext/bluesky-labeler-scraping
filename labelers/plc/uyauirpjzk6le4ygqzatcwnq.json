@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiepucz46owlnjdmmxwpygqkwjcqyavlwnwayhlxacwgj2ycb7b27y",
+  "cid": "bafyreia3rsugy4v5q4kb357klxebdgocdrkmyxexgmcc3g4uj4p5jw3lk4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-03-24T00:23:19.460Z",
+  "indexedAt": "2026-03-24T16:23:18.664Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -991,6 +991,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cafe-pckt-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "lang": "en",
+            "name": "pds.pckt.cafe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-chrise-bsky",
         "locales": [
           {
@@ -1011,20 +1025,6 @@
             "description": "Account is hosted by the pds.0.space PDS",
             "lang": "en",
             "name": "pds.0.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
-            "lang": "en",
-            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -1103,12 +1103,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-mpi--sws-mpi--bluesky--pds",
+        "identifier": "blog-bestofmodels-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
+            "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
             "lang": "en",
-            "name": "mpi-bluesky-pds.mpi-sws.org"
+            "name": "bsky.bestofmodels.blog"
           }
         ],
         "severity": "inform"
@@ -1117,12 +1117,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "blog-bestofmodels-bsky",
+        "identifier": "org-mpi--sws-mpi--bluesky--pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
+            "description": "Account is hosted by the mpi-bluesky-pds.mpi-sws.org PDS",
             "lang": "en",
-            "name": "bsky.bestofmodels.blog"
+            "name": "mpi-bluesky-pds.mpi-sws.org"
           }
         ],
         "severity": "inform"
@@ -1341,6 +1341,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ro-aiia-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "lang": "en",
+            "name": "pds.aiia.ro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "space-quack-pds",
         "locales": [
           {
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "free-squid-pds--1f73e",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds-1f73e.squid.free PDS",
-            "lang": "en",
-            "name": "pds-1f73e.squid.free"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1520,16 +1520,16 @@
       "social-seabikes",
       "online-magallan",
       "es-nobitch-bpds",
+      "cafe-pckt-pds",
       "com-chrise-bsky",
       "space-0-pds",
-      "cafe-pckt-pds",
       "com-ripperoni-alt",
       "network-certs-pds",
       "shop-si46",
       "app-certified-test-epds1",
       "app-fudini-pds",
-      "org-mpi--sws-mpi--bluesky--pds",
       "blog-bestofmodels-bsky",
+      "org-mpi--sws-mpi--bluesky--pds",
       "at-podping-pds1",
       "me-tribesocial-pds",
       "uk-madebydanny-rose",
@@ -1545,14 +1545,14 @@
       "dev-ngrok-jarlix",
       "social-reme",
       "chat-wndr",
+      "ro-aiia-pds",
       "space-quack-pds",
       "cloud-tgirl-pds",
       "cloud-tgirl-pds",
       "network-wsocial-pds",
       "app-certified-test-pds1",
       "space-hf-ali525--xc1",
-      "blog-bestofmodels-bluesky",
-      "free-squid-pds--1f73e"
+      "blog-bestofmodels-bluesky"
     ]
   }
 }

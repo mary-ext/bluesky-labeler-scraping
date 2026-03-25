@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreigah7jqdsj55nvd7iu5ps2fm2gfr4yx6sr6xl5fxc6k53ozr26sv4",
+  "cid": "bafyreidrvzu2fqxfwa4um6f4wudvn3afrz5kccxyd3aga4nr6j64seteka",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\nstech.bluesky.labeler@gmail.com\nIcon:Flaticon",
     "indexedAt": "2026-03-03T21:30:29.845Z"
   },
-  "indexedAt": "2026-03-23T20:25:44.856Z",
+  "indexedAt": "2026-03-24T13:24:23.856Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -151,20 +151,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "posted-same-url-low",
-        "locales": [
-          {
-            "description": "In the last 24 hrs this account posted the same url more than 5 times",
-            "lang": "en",
-            "name": "Posted same url 5+ times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "posted-same-url-mid",
         "locales": [
           {
@@ -185,20 +171,6 @@
             "description": "In the last 24 hrs this account posted the same url more than 15 times",
             "lang": "en",
             "name": "Posted same url 15+ times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "made-over-twenty-five-posts-yesterday",
-        "locales": [
-          {
-            "description": " In the last 24 hrs this account made more than 25 original posts or quotes.",
-            "lang": "en",
-            "name": "Made over 25 posts yesterday"
           }
         ],
         "severity": "inform"
@@ -244,20 +216,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "made-over-twenty-five-posts-yesterday",
-        "locales": [
-          {
-            "description": "In the last 24 hrs this account made more than 25 original posts or quotes.",
-            "lang": "en",
-            "name": "Made over 25 posts yesterday"
-          }
-        ],
-        "severity": "none"
       },
       {
         "adultOnly": false,
@@ -426,6 +384,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "made-over-thirty-posts-yesterday",
+        "locales": [
+          {
+            "description": "In the last 24 hrs this account made more than 30 original posts or quotes.",
+            "lang": "en",
+            "name": "Made over 30 posts yesterday "
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "made-over-thirty-replies-yesterday",
+        "locales": [
+          {
+            "description": "In the last 24 hrs this account made more than 30 replies or quote-replies.",
+            "lang": "en",
+            "name": "Made over 30 replies yesterday "
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -438,14 +424,11 @@
       "no-gap-more-than-one-hours",
       "no-gap-more-than-two-hours",
       "no-gap-more-than-four-hours",
-      "posted-same-url-low",
       "posted-same-url-mid",
       "posted-same-url-high",
-      "made-over-twenty-five-posts-yesterday",
       "made-over-hundred-posts-yesterday",
       "made-over-twenty-five-replies-yesterday",
       "made-over-hundred-replies-yesterday",
-      "made-over-twenty-five-posts-yesterday",
       "made-over-fifty-posts-yesterday",
       "made-over-fifty-replies-yesterday",
       "monthly-high-unfollows-one-hundred-fifty",
@@ -457,7 +440,9 @@
       "monthly-posts-over-fifteen-per-day",
       "monthly-posts-over-twenty-per-day",
       "monthly-replies-over-fifteen-per-day",
-      "monthly-replies-over-twenty-per-day"
+      "monthly-replies-over-twenty-per-day",
+      "made-over-thirty-posts-yesterday",
+      "made-over-thirty-replies-yesterday"
     ]
   }
 }

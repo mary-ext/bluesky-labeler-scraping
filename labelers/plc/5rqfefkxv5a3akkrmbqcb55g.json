@@ -1,11 +1,12 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreibxdtz6oeg6e7tt5anaacxcu2pwhxhtxziqmjh77qm3or2fmajvpm",
+  "cid": "bafyreihtnzeiimbtiuz6z2rc55odkitmyk22az7kpibiqh4mqhx2xn645q",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
-    "handle": "mod.blueat.net",
-    "displayName": "",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5rqfefkxv5a3akkrmbqcb55g/bafkreif4vy7u5tt23xc54fj4tdpaj2z56gky6ozehdjwfktqobt4qyy7mq",
+    "handle": "moderation.blueat.net",
+    "displayName": "BlueAT Moderation",
+    "pronouns": "moderation account",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5rqfefkxv5a3akkrmbqcb55g/bafkreif5y3i5yybb67vaeoxsadrdi3md2nkevyki5yvxumrnkyvweubona",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -14,12 +15,79 @@
     },
     "labels": [],
     "createdAt": "2026-03-19T15:15:57.350Z",
-    "indexedAt": "2026-03-19T15:16:05.353Z"
+    "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
+    "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-03-19T15:21:07.756Z",
+  "indexedAt": "2026-03-24T23:44:11.666Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [],
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blueat-admin",
+        "locales": [
+          {
+            "description": "This user has access to internal BlueAT Network tools and apps",
+            "lang": "en",
+            "name": "BlueAT Admin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blueat-bot",
+        "locales": [
+          {
+            "description": "This account is a bot that's run by the BlueAT Network and performs automated tasks",
+            "lang": "en",
+            "name": "BlueAT Bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "mirror-x",
+        "locales": [
+          {
+            "description": "This account is a mirror of an X account, mirrored using blueat.net/tweets2bsky. Content is hidden by default.",
+            "lang": "en",
+            "name": "Mirrored X Account"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "og",
+        "locales": [
+          {
+            "description": "This user has/had been one of the first people to use the BlueAT Network PDS ",
+            "lang": "en",
+            "name": "OG User"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "blueat-admin",
+      "blueat-bot",
+      "mirror-x",
+      "og"
+    ]
+  },
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }
