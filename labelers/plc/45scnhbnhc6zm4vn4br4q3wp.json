@@ -1,0 +1,48 @@
+{
+  "uri": "at://did:plc:45scnhbnhc6zm4vn4br4q3wp/app.bsky.labeler.service/self",
+  "cid": "bafyreif7bsmp74dlzv6guz57k2u6xscrk7tmm2tbkstv4rpc35wplf5r34",
+  "creator": {
+    "did": "did:plc:45scnhbnhc6zm4vn4br4q3wp",
+    "handle": "moderation.tokimeki.social",
+    "displayName": "TOKIMEKI Moderation Service",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-25T08:25:22.746Z",
+    "description": "I provide moderation for mochott, KAKU TOKIMEKI, and my other AT Protocol projects.\n* I do not provide moderation for Bluesky.",
+    "indexedAt": "2026-03-25T08:25:22.746Z"
+  },
+  "indexedAt": "2026-03-25T10:16:26.053Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Spam.",
+            "lang": "en",
+            "name": "Spam"
+          },
+          {
+            "description": "スパム。",
+            "lang": "ja",
+            "name": "スパム"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "disinformation"
+    ]
+  }
+}

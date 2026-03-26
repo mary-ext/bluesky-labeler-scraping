@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreia3rsugy4v5q4kb357klxebdgocdrkmyxexgmcc3g4uj4p5jw3lk4",
+  "cid": "bafyreigm6akbtleuluv2bwu6xnjv64x3go5ebcmpzffsssmzxxj25rapxm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-03-24T16:23:18.664Z",
+  "indexedAt": "2026-03-25T20:23:19.263Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -417,20 +417,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-mulgez-api",
-        "locales": [
-          {
-            "description": "Account is hosted by the api.mulgez.com PDS",
-            "lang": "en",
-            "name": "api.mulgez.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-selfhosted",
         "locales": [
           {
@@ -445,12 +431,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "news-1440-pds",
+        "identifier": "com-mulgez-api",
         "locales": [
           {
-            "description": "Account is hosted by the pds.1440.news PDS",
+            "description": "Account is hosted by the api.mulgez.com PDS",
             "lang": "en",
-            "name": "pds.1440.news"
+            "name": "api.mulgez.com"
           }
         ],
         "severity": "inform"
@@ -465,6 +451,20 @@
             "description": "Account is hosted by the npmx.social PDS",
             "lang": "en",
             "name": "npmx.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "news-1440-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.1440.news PDS",
+            "lang": "en",
+            "name": "pds.1440.news"
           }
         ],
         "severity": "inform"
@@ -753,6 +753,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ro-aiia-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "lang": "en",
+            "name": "pds.aiia.ro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-arankwende",
         "locales": [
           {
@@ -851,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-bigt-pds",
+        "identifier": "ai-swarmchat-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bigt.ai PDS",
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
             "lang": "en",
-            "name": "pds.bigt.ai"
+            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -865,12 +879,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
+        "identifier": "ai-bigt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "description": "Account is hosted by the pds.bigt.ai PDS",
             "lang": "en",
-            "name": "pds.swarmchat.ai"
+            "name": "pds.bigt.ai"
           }
         ],
         "severity": "inform"
@@ -913,6 +927,20 @@
             "description": "Account is hosted by the pds.syang.xyz PDS",
             "lang": "en",
             "name": "pds.syang.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fr-bowverse-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.bowverse.fr PDS",
+            "lang": "en",
+            "name": "pds.bowverse.fr"
           }
         ],
         "severity": "inform"
@@ -1047,6 +1075,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-test-epds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the epds1.test.certified.app PDS",
+            "lang": "en",
+            "name": "epds1.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "network-certs-pds",
         "locales": [
           {
@@ -1075,20 +1117,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-epds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the epds1.test.certified.app PDS",
-            "lang": "en",
-            "name": "epds1.test.certified.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "app-fudini-pds",
         "locales": [
           {
@@ -1109,6 +1137,20 @@
             "description": "Account is hosted by the bsky.bestofmodels.blog PDS",
             "lang": "en",
             "name": "bsky.bestofmodels.blog"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-gumby",
+        "locales": [
+          {
+            "description": "Account is hosted by the gumby.social PDS",
+            "lang": "en",
+            "name": "gumby.social"
           }
         ],
         "severity": "inform"
@@ -1187,6 +1229,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "xyz-endchill-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.endchill.xyz PDS",
+            "lang": "en",
+            "name": "pds.endchill.xyz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cc-mysocial-bsk",
         "locales": [
           {
@@ -1235,20 +1291,6 @@
             "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
             "lang": "en",
             "name": "bsky.bark.wolp.chat"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-gumby",
-        "locales": [
-          {
-            "description": "Account is hosted by the gumby.social PDS",
-            "lang": "en",
-            "name": "gumby.social"
           }
         ],
         "severity": "inform"
@@ -1313,6 +1355,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "space-quack-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.quack.space PDS",
+            "lang": "en",
+            "name": "pds.quack.space"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-reme",
         "locales": [
           {
@@ -1341,26 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ro-aiia-pds",
+        "identifier": "app-certified-test-pds1",
         "locales": [
           {
-            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "description": "Account is hosted by the pds1.test.certified.app PDS",
             "lang": "en",
-            "name": "pds.aiia.ro"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "space-quack-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.quack.space PDS",
-            "lang": "en",
-            "name": "pds.quack.space"
+            "name": "pds1.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -1406,48 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1.test.certified.app PDS",
-            "lang": "en",
-            "name": "pds1.test.certified.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "space-hf-ali525--xc1",
-        "locales": [
-          {
-            "description": "Account is hosted by the ali525-xc1.hf.space PDS",
-            "lang": "en",
-            "name": "ali525-xc1.hf.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blog-bestofmodels-bluesky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bluesky.bestofmodels.blog PDS",
-            "lang": "en",
-            "name": "bluesky.bestofmodels.blog"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1479,10 +1479,10 @@
       "es-peedee",
       "at-admat-bsx",
       "com-raceef-ds",
-      "com-mulgez-api",
       "social-selfhosted",
-      "news-1440-pds",
+      "com-mulgez-api",
       "social-npmx",
+      "news-1440-pds",
       "social-northsky",
       "space-cannect-pds",
       "pw-blam",
@@ -1503,6 +1503,7 @@
       "news-usapolitics-matrix",
       "com-zimchu-epds",
       "me-opnmt-pds",
+      "ro-aiia-pds",
       "com-arankwende",
       "systems-witchcraft-pds",
       "com-skeetcentral",
@@ -1510,11 +1511,12 @@
       "world-si46-pds--dev",
       "network-eny-pds-oyster",
       "bot-mirrors",
-      "ai-bigt-pds",
       "ai-swarmchat-pds",
+      "ai-bigt-pds",
       "su-nyet",
       "wtf-lamp",
       "xyz-syang-pds",
+      "fr-bowverse-pds",
       "dev-fly-crimson--field--2410",
       "app-certified-test-sds--eu--west4",
       "social-seabikes",
@@ -1524,35 +1526,33 @@
       "com-chrise-bsky",
       "space-0-pds",
       "com-ripperoni-alt",
+      "app-certified-test-epds1",
       "network-certs-pds",
       "shop-si46",
-      "app-certified-test-epds1",
       "app-fudini-pds",
       "blog-bestofmodels-bsky",
+      "social-gumby",
       "org-mpi--sws-mpi--bluesky--pds",
       "at-podping-pds1",
       "me-tribesocial-pds",
       "uk-madebydanny-rose",
       "moe-waf-at",
+      "xyz-endchill-pds",
       "cc-mysocial-bsk",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
       "chat-wolp-bark-bsky",
-      "social-gumby",
       "social-bsea-pds1",
       "app-ocho",
       "one-certified",
       "dev-ngrok-jarlix",
+      "space-quack-pds",
       "social-reme",
       "chat-wndr",
-      "ro-aiia-pds",
-      "space-quack-pds",
-      "cloud-tgirl-pds",
-      "cloud-tgirl-pds",
-      "network-wsocial-pds",
       "app-certified-test-pds1",
-      "space-hf-ali525--xc1",
-      "blog-bestofmodels-bluesky"
+      "cloud-tgirl-pds",
+      "cloud-tgirl-pds",
+      "network-wsocial-pds"
     ]
   }
 }

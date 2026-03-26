@@ -1,0 +1,106 @@
+{
+  "uri": "at://did:plc:qz2b34dblilq3z6f2xgjgzwe/app.bsky.labeler.service/self",
+  "cid": "bafyreiejeqor26uwojge3xv7g2vs2ceh2b6rbi3ra6s2txpvhwl35ia3xy",
+  "creator": {
+    "did": "did:plc:qz2b34dblilq3z6f2xgjgzwe",
+    "handle": "thcommu-labeler.bsky.social",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qz2b34dblilq3z6f2xgjgzwe/bafkreidz2urk5vbql7ghwfps5juaqeoa2ukajadtvjhrtgz5sscnf5e67q",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-25T06:30:44.147Z",
+    "indexedAt": "2026-03-25T07:46:00.048Z"
+  },
+  "indexedAt": "2026-03-25T16:54:06.952Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "commu-teacher",
+        "locales": [
+          {
+            "description": "Label for RP-community teachers",
+            "lang": "en",
+            "name": "Teacher"
+          },
+          {
+            "description": "Label สำหรับอาจารย์จาก Commu",
+            "lang": "th",
+            "name": "อาจารย์"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "commu-schoolpersonnel",
+        "locales": [
+          {
+            "description": "Label for RP-community school personnel",
+            "lang": "en",
+            "name": "Personnel"
+          },
+          {
+            "description": "Label สำหรับบุคลากรจาก Commu",
+            "lang": "th",
+            "name": "บุคลากร"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "commu-npc",
+        "locales": [
+          {
+            "description": "Label for RP-community townsfolk NPC",
+            "lang": "en",
+            "name": "NPC"
+          },
+          {
+            "description": "Label สำหรับ NPC ชาวเมืองจาก Commu",
+            "lang": "th",
+            "name": "ชาวเมือง"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "commu-student",
+        "locales": [
+          {
+            "description": "Label for RP-community students",
+            "lang": "en",
+            "name": "Student"
+          },
+          {
+            "description": "Label สำหรับนักเรียนจาก Commu",
+            "lang": "th",
+            "name": "นักเรียน"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "commu-teacher",
+      "commu-schoolpersonnel",
+      "commu-npc",
+      "commu-student"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tlbtb7crxvviwx54sdcat25a/app.bsky.labeler.service/self",
-  "cid": "bafyreievtgzgp5cb6ei6d5ew5uragi2gwsagyytqmep23fd2jap46nvfeq",
+  "cid": "bafyreif7f5k3p375gv4ohdbfhsyrpvr3en7uftwghsdlplbbjyl3jeg67u",
   "creator": {
     "did": "did:plc:tlbtb7crxvviwx54sdcat25a",
     "handle": "dymo.blue",
@@ -17,7 +17,7 @@
     "description": "Your friendly neighbourhood label maker.",
     "indexedAt": "2026-03-24T23:32:55.561Z"
   },
-  "indexedAt": "2026-03-25T00:22:54.572Z",
+  "indexedAt": "2026-03-25T00:56:49.457Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -188,6 +188,90 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "link-account-onlyfans-com",
+        "locales": [
+          {
+            "description": "Accounts that have been observed posting onlyfans.com links.",
+            "lang": "en",
+            "name": "Link - Account - onlyfans.com"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "link-post-onlyfans-com",
+        "locales": [
+          {
+            "description": "Posts that contain onlyfans.com links.",
+            "lang": "en",
+            "name": "Link - Post - onlyfans.com"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "link-account-justfor-fans",
+        "locales": [
+          {
+            "description": "Accounts that have been observed posting justfor.fans links.",
+            "lang": "en",
+            "name": "Link - Account - justfor.fans"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "link-post-justfor-fans",
+        "locales": [
+          {
+            "description": "Posts that contain justfor.fans links.",
+            "lang": "en",
+            "name": "Link - Post - justfor.fans"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "link-account-gofundme-com",
+        "locales": [
+          {
+            "description": "Accounts that have been observed posting gofundme.com links.",
+            "lang": "en",
+            "name": "Link - Account - gofundme.com"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "link-post-gofundme-com",
+        "locales": [
+          {
+            "description": "Posts that contain gofundme.com links.",
+            "lang": "en",
+            "name": "Link - Post - gofundme.com"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -202,7 +286,13 @@
       "link-account-twitter-com",
       "link-post-twitter-com",
       "link-account-tiktok-com",
-      "link-post-tiktok-com"
+      "link-post-tiktok-com",
+      "link-account-onlyfans-com",
+      "link-post-onlyfans-com",
+      "link-account-justfor-fans",
+      "link-post-justfor-fans",
+      "link-account-gofundme-com",
+      "link-post-gofundme-com"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreihtnzeiimbtiuz6z2rc55odkitmyk22az7kpibiqh4mqhx2xn645q",
+  "cid": "bafyreia6qsvfbs7gqgcamli5o5orvxgnbxt7kovz7v3wftxpp2bg42tyru",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-03-24T23:44:11.666Z",
+  "indexedAt": "2026-03-25T20:48:00.170Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -43,7 +43,7 @@
         "identifier": "blueat-bot",
         "locales": [
           {
-            "description": "This account is a bot that's run by the BlueAT Network and performs automated tasks",
+            "description": "This account is a bot that's run by the BlueAT Network and performs automated actions",
             "lang": "en",
             "name": "BlueAT Bot"
           }
@@ -57,7 +57,7 @@
         "identifier": "mirror-x",
         "locales": [
           {
-            "description": "This account is a mirror of an X account, mirrored using blueat.net/tweets2bsky. Content is hidden by default.",
+            "description": "This account is a mirror of an X account, mirrored using github.com/j4ckxyz/tweets-2-bsky. Content is hidden by default.",
             "lang": "en",
             "name": "Mirrored X Account"
           }
@@ -66,8 +66,8 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "og",
         "locales": [
           {
@@ -76,14 +76,44 @@
             "name": "OG User"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "official",
+        "locales": [
+          {
+            "description": "This is an official account run by the BlueAT Network and can be used as a trusted source of information. Accounts without this badge are unofficial.",
+            "lang": "en",
+            "name": "BlueAT Official"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified",
+        "locales": [
+          {
+            "description": "This user has been verified by BlueAT Moderation and has a verification check mark. Set moderation.blueat.net as a trusted verifier in your app settings to see the verification check mark for this account and other verified accounts.",
+            "lang": "en",
+            "name": "Verified"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "blueat-admin",
       "blueat-bot",
       "mirror-x",
-      "og"
+      "og",
+      "official",
+      "verified"
     ]
   },
   "subjectTypes": [
