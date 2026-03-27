@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreia6qsvfbs7gqgcamli5o5orvxgnbxt7kovz7v3wftxpp2bg42tyru",
+  "cid": "bafyreiaqiaxlqn56xv6xqweur3tr56tyoh455ovyq7drd54vyurwaqtxye",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-03-25T20:48:00.170Z",
+  "indexedAt": "2026-03-26T21:37:06.671Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -53,7 +53,7 @@
       {
         "adultOnly": false,
         "blurs": "content",
-        "defaultSetting": "hide",
+        "defaultSetting": "warn",
         "identifier": "mirror-x",
         "locales": [
           {
@@ -105,6 +105,90 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "member",
+        "locales": [
+          {
+            "description": "This user's identity (account) is hosted on the BlueAT Network PDS (rose.madebydanny.uk)\n\nThis label is automatically added every 24 hours. If this user has moved off the BlueAT PDS, please report the account so we can remove it.",
+            "lang": "en",
+            "name": "Member"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "bot-net",
+        "locales": [
+          {
+            "description": "This account seems to be a part of a larger bot network.",
+            "lang": "en",
+            "name": "Bot Network"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "This account has been marked as spam, post content is hidden.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sus-new",
+        "locales": [
+          {
+            "description": "This identity (account) was created recently and shows signs of suspicious activity (for example: lots of reposts, likes, and profile and/or comments seem to be AI-generated)",
+            "lang": "en",
+            "name": "New account acting suspicious"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "review",
+        "locales": [
+          {
+            "description": "This identity (account) needs to be reviewed by their PDS's moderation service. ",
+            "lang": "en",
+            "name": "Requires Review"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sus",
+        "locales": [
+          {
+            "description": "This identity (account) shows signs of suspicious activity (for example: lots of reposts, likes, and profile and/or comments seem to be AI-generated) ",
+            "lang": "en",
+            "name": "Account acting suspicious"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -113,7 +197,13 @@
       "mirror-x",
       "og",
       "official",
-      "verified"
+      "verified",
+      "member",
+      "bot-net",
+      "spam",
+      "sus-new",
+      "review",
+      "sus"
     ]
   },
   "subjectTypes": [

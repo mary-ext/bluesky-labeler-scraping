@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xmj7cqtpfuuek4vp6pa2yqpq/app.bsky.labeler.service/self",
-  "cid": "bafyreihilqnl5bwdfsndqyubzdocbb773nkenpse26726lvzq2x7uzkmmy",
+  "cid": "bafyreidos2er256c3ekkmo5mn64pevelhkyfsosyjxvhvwweczpxliz2lq",
   "creator": {
     "did": "did:plc:xmj7cqtpfuuek4vp6pa2yqpq",
     "handle": "labeler.frotting.party",
@@ -15,27 +15,71 @@
     "createdAt": "2026-03-25T21:25:21.951Z",
     "indexedAt": "2026-03-25T21:25:21.951Z"
   },
-  "indexedAt": "2026-03-25T22:15:09.254Z",
+  "indexedAt": "2026-03-26T20:06:23.452Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "content|media|none",
         "defaultSetting": "warn",
-        "identifier": "my-cool-label",
+        "identifier": "spirit-israeli",
         "locales": [
           {
-            "description": "woaw cool label !",
+            "description": "User is Spiritually Israeli 🇮🇱🤢",
             "lang": "en",
-            "name": "my cool label"
+            "name": "Spiritually Israeli"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pwetty",
+        "locales": [
+          {
+            "description": "hiiiiii,,,,,",
+            "lang": "en",
+            "name": "Pwetty"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "giwtwm",
+        "locales": [
+          {
+            "description": "need,,,,,",
+            "lang": "en",
+            "name": "giwtwm"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "my-cool-label"
+      "spirit-israeli",
+      "pwetty",
+      "giwtwm"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonRude"
+  ],
+  "subjectTypes": [
+    "account",
+    "record",
+    "chat"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:k2zhsrxcku6bdsppymu2gmmo/app.bsky.labeler.service/self",
-  "cid": "bafyreiea2gwa24aqekedutckioycuhiutdqzcdfnipoio3y43cqq5zgw4i",
+  "cid": "bafyreiegdxc3q6sgjmystxqhi2eig4fvxlpyq2vozjuhmezywdc45xnlh4",
   "creator": {
     "did": "did:plc:k2zhsrxcku6bdsppymu2gmmo",
     "handle": "awacs.prtgn.org",
@@ -24,70 +24,56 @@
     "createdAt": "2026-02-15T06:28:14.247Z",
     "indexedAt": "2026-03-22T23:02:53.858Z"
   },
-  "indexedAt": "2026-03-23T04:00:55.251Z",
+  "indexedAt": "2026-03-26T22:54:54.359Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "content|media|none",
         "defaultSetting": "warn",
-        "identifier": "DNIignorer",
-        "locales": [
-          {
-            "description": "Users that ignore ignore dni rules(mdni following minors)",
-            "lang": "en",
-            "name": "DNI Ignorer"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "horrible_conduct",
-        "locales": [
-          {
-            "description": "zoos / pedos",
-            "lang": "en",
-            "name": "horrible conduct(zoos / pedos)"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "verified",
+        "identifier": "pedo-or-zoo",
         "locales": [
           {
             "description": "Label description.",
             "lang": "en",
-            "name": "Verified User"
+            "name": "Pedo or Zoo"
           }
         ],
         "severity": "alert"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "horid",
+        "locales": [
+          {
+            "description": "Should Eat Co-60 and Cs-137",
+            "lang": "en",
+            "name": "Should Eat Co-60 and Cs-137"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
         "identifier": "fly",
         "locales": [
           {
-            "description": "Can be appealed if: account older than 2 months, has > 100 followers, or has >1k posts",
+            "description": "Label description.",
             "lang": "en",
-            "name": "Housefly"
+            "name": "the fly"
           }
         ],
         "severity": "alert"
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
+        "blurs": "content|media|none",
+        "defaultSetting": "inform",
         "identifier": "bot",
         "locales": [
           {
@@ -100,24 +86,55 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
+        "blurs": "content|media|none",
         "defaultSetting": "warn",
-        "identifier": "haz",
+        "identifier": "verified",
+        "locales": [
+          {
+            "description": "dm for verification",
+            "lang": "en",
+            "name": "Verified"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "DNIignorer",
         "locales": [
           {
             "description": "",
             "lang": "en",
-            "name": "Zoo/Pedo"
+            "name": "Ignores DNI"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "warn",
+        "identifier": "general-behavior",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Problematic"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "verified",
       "fly",
       "bot",
-      "DNIignorer"
+      "DNIignorer",
+      "pedo-or-zoo",
+      "general-behavior",
+      "horid"
     ]
   },
   "reasonTypes": [

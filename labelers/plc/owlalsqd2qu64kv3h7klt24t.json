@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:owlalsqd2qu64kv3h7klt24t/app.bsky.labeler.service/self",
-  "cid": "bafyreihwizwkdnaucnszzjc4b2fz2vxb4bx5ygww7d34xrya6diggsvjv4",
+  "cid": "bafyreihe5bekfav5h3oyxtl5af53qjjkp42sfaccjt7y4rrzdlxxvfk6zu",
   "creator": {
     "did": "did:plc:owlalsqd2qu64kv3h7klt24t",
     "handle": "gameengines.bsky.social",
@@ -17,10 +17,24 @@
     "description": "Identify the game engine that you use on your profile and everywhere you post!\n\nOwner: @tabularelf.com",
     "indexedAt": "2025-03-13T02:39:19.044Z"
   },
-  "indexedAt": "2025-05-09T15:58:08.854Z",
+  "indexedAt": "2026-03-26T21:02:31.854Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fluorite",
+        "locales": [
+          {
+            "description": "This user uses the Fluorite engine, from https://fluorite.game/",
+            "lang": "en",
+            "name": "Fluorite"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -743,6 +757,7 @@
       "game-modder",
       "game-platform-editor",
       "game-level-editor",
+      "fluorite",
       "custom-engine"
     ]
   }
