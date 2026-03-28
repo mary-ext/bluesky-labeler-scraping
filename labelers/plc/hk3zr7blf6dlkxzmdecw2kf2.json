@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hk3zr7blf6dlkxzmdecw2kf2/app.bsky.labeler.service/self",
-  "cid": "bafyreidzgyt4cax2lv56ymaoetvgqyrulnmxfmkzzl5p4ewvtgwrnmg6oe",
+  "cid": "bafyreihtsuei3mohzl3gwu4tzqzjzklpslku2z2zwonivqpqm64fgux2oy",
   "creator": {
     "did": "did:plc:hk3zr7blf6dlkxzmdecw2kf2",
     "handle": "hsd.lilacparty.us",
@@ -16,14 +16,27 @@
     "createdAt": "2026-03-26T21:06:07.756Z",
     "indexedAt": "2026-03-26T21:06:25.654Z"
   },
-  "indexedAt": "2026-03-26T21:08:19.853Z",
+  "indexedAt": "2026-03-27T18:40:41.354Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:rollins",
+        "identifier": "slop-ben-shapiro",
+        "locales": [
+          {
+            "description": "Post contains Ben Shapiro",
+            "lang": "en",
+            "name": "Ben Shapiro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-brooke-rollins",
         "locales": [
           {
             "description": "Post contains Brooke Rollins",
@@ -36,7 +49,46 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:wright",
+        "identifier": "slop-byron-donalds",
+        "locales": [
+          {
+            "description": "Post contains Byron Donalds",
+            "lang": "en",
+            "name": "Byron Donalds"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-candace-owens",
+        "locales": [
+          {
+            "description": "Post contains Candace Owens",
+            "lang": "en",
+            "name": "Candace Owens"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-charlie-kirk",
+        "locales": [
+          {
+            "description": "Post contains Charlie Kirk",
+            "lang": "en",
+            "name": "Charlie Kirk"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-chris-wright",
         "locales": [
           {
             "description": "Post contains Chris Wright",
@@ -49,7 +101,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:trump",
+        "identifier": "slop-donald-trump",
         "locales": [
           {
             "description": "Post contains Donald Trump",
@@ -62,7 +114,20 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:burgum",
+        "identifier": "slop-donald-trump-jr",
+        "locales": [
+          {
+            "description": "Post contains Donald Trump Jr.",
+            "lang": "en",
+            "name": "Donald Trump Jr."
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-doug-burgum",
         "locales": [
           {
             "description": "Post contains Doug Burgum",
@@ -75,7 +140,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:collins",
+        "identifier": "slop-doug-collins",
         "locales": [
           {
             "description": "Post contains Doug Collins",
@@ -88,7 +153,20 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:musk",
+        "identifier": "slop-elise-stefanik",
+        "locales": [
+          {
+            "description": "Post contains Elise Stefanik",
+            "lang": "en",
+            "name": "Elise Stefanik"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-elon-musk",
         "locales": [
           {
             "description": "Post contains Elon Musk",
@@ -101,7 +179,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:lutnick",
+        "identifier": "slop-eric-trump",
+        "locales": [
+          {
+            "description": "Post contains Eric Trump",
+            "lang": "en",
+            "name": "Eric Trump"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-glenn-youngkin",
+        "locales": [
+          {
+            "description": "Post contains Glenn Youngkin",
+            "lang": "en",
+            "name": "Glenn Youngkin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-howard-lutnick",
         "locales": [
           {
             "description": "Post contains Howard Lutnick",
@@ -114,7 +218,46 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:vance",
+        "identifier": "slop-ivanka-trump",
+        "locales": [
+          {
+            "description": "Post contains Ivanka Trump",
+            "lang": "en",
+            "name": "Ivanka Trump"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-james-comer",
+        "locales": [
+          {
+            "description": "Post contains James Comer",
+            "lang": "en",
+            "name": "James Comer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-jared-kushner",
+        "locales": [
+          {
+            "description": "Post contains Jared Kushner",
+            "lang": "en",
+            "name": "Jared Kushner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-jd-vance",
         "locales": [
           {
             "description": "Post contains JD Vance",
@@ -127,7 +270,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:fetterman",
+        "identifier": "slop-jeanine-pirro",
+        "locales": [
+          {
+            "description": "Post contains Jeanine Pirro",
+            "lang": "en",
+            "name": "Jeanine Pirro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-john-barrasso",
+        "locales": [
+          {
+            "description": "Post contains John Barrasso",
+            "lang": "en",
+            "name": "John Barrasso"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-john-fetterman",
         "locales": [
           {
             "description": "Post contains John Fetterman",
@@ -140,7 +309,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:ratcliffe",
+        "identifier": "slop-john-ratcliffe",
         "locales": [
           {
             "description": "Post contains John Ratcliffe",
@@ -153,7 +322,72 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:patel",
+        "identifier": "slop-john-roberts",
+        "locales": [
+          {
+            "description": "Post contains John Roberts",
+            "lang": "en",
+            "name": "John Roberts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-john-thune",
+        "locales": [
+          {
+            "description": "Post contains John Thune",
+            "lang": "en",
+            "name": "John Thune"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-josh-hawley",
+        "locales": [
+          {
+            "description": "Post contains Josh Hawley",
+            "lang": "en",
+            "name": "Josh Hawley"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-kari-lake",
+        "locales": [
+          {
+            "description": "Post contains Kari Lake",
+            "lang": "en",
+            "name": "Kari Lake"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-karoline-leavitt",
+        "locales": [
+          {
+            "description": "Post contains Karoline Leavitt",
+            "lang": "en",
+            "name": "Karoline Leavitt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-kash-patel",
         "locales": [
           {
             "description": "Post contains Kash Patel",
@@ -166,7 +400,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:noem",
+        "identifier": "slop-keith-kellogg",
+        "locales": [
+          {
+            "description": "Post contains Keith Kellogg",
+            "lang": "en",
+            "name": "Keith Kellogg"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-ken-paxton",
+        "locales": [
+          {
+            "description": "Post contains Ken Paxton",
+            "lang": "en",
+            "name": "Ken Paxton"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-kristi-noem",
         "locales": [
           {
             "description": "Post contains Kristi Noem",
@@ -179,7 +439,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:zeldin",
+        "identifier": "slop-lara-trump",
+        "locales": [
+          {
+            "description": "Post contains Lara Trump",
+            "lang": "en",
+            "name": "Lara Trump"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-laura-ingraham",
+        "locales": [
+          {
+            "description": "Post contains Laura Ingraham",
+            "lang": "en",
+            "name": "Laura Ingraham"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-lee-zeldin",
         "locales": [
           {
             "description": "Post contains Lee Zeldin",
@@ -192,7 +478,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:mcmahon",
+        "identifier": "slop-linda-mcmahon",
         "locales": [
           {
             "description": "Post contains Linda McMahon",
@@ -205,7 +491,20 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:chavez-deremer",
+        "identifier": "slop-lindsey-graham",
+        "locales": [
+          {
+            "description": "Post contains Lindsey Graham",
+            "lang": "en",
+            "name": "Lindsey Graham"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-lori-chavez-deremer",
         "locales": [
           {
             "description": "Post contains Lori Chavez-DeRemer",
@@ -218,7 +517,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:rubio",
+        "identifier": "slop-marco-rubio",
         "locales": [
           {
             "description": "Post contains Marco Rubio",
@@ -231,7 +530,163 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:bondi",
+        "identifier": "slop-maria-bartiromo",
+        "locales": [
+          {
+            "description": "Post contains Maria Bartiromo",
+            "lang": "en",
+            "name": "Maria Bartiromo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-marjorie-taylor-greene",
+        "locales": [
+          {
+            "description": "Post contains Marjorie Taylor Greene",
+            "lang": "en",
+            "name": "Marjorie Taylor Greene"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-mark-meadows",
+        "locales": [
+          {
+            "description": "Post contains Mark Meadows",
+            "lang": "en",
+            "name": "Mark Meadows"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-markwayne-mullin",
+        "locales": [
+          {
+            "description": "Post contains MarkWayne Mullin",
+            "lang": "en",
+            "name": "MarkWayne Mullin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-megyn-kelly",
+        "locales": [
+          {
+            "description": "Post contains Megyn Kelly",
+            "lang": "en",
+            "name": "Megyn Kelly"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-mehmet-oz",
+        "locales": [
+          {
+            "description": "Post contains Mehmet Oz",
+            "lang": "en",
+            "name": "Mehmet Oz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-michael-flynn",
+        "locales": [
+          {
+            "description": "Post contains Michael Flynn",
+            "lang": "en",
+            "name": "Michael Flynn"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-michael-waltz",
+        "locales": [
+          {
+            "description": "Post contains Michael Waltz",
+            "lang": "en",
+            "name": "Michael Waltz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-mike-johnson",
+        "locales": [
+          {
+            "description": "Post contains Mike Johnson",
+            "lang": "en",
+            "name": "Mike Johnson"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-mike-pompeo",
+        "locales": [
+          {
+            "description": "Post contains Mike Pompeo",
+            "lang": "en",
+            "name": "Mike Pompeo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-mitch-mcconnell",
+        "locales": [
+          {
+            "description": "Post contains Mitch McConnell",
+            "lang": "en",
+            "name": "Mitch McConnell"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-neil-gorsuch",
+        "locales": [
+          {
+            "description": "Post contains Neil Gorsuch",
+            "lang": "en",
+            "name": "Neil Gorsuch"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-pam-bondi",
         "locales": [
           {
             "description": "Post contains Pam Bondi",
@@ -244,7 +699,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:hegseth",
+        "identifier": "slop-pete-hegseth",
         "locales": [
           {
             "description": "Post contains Pete Hegseth",
@@ -257,7 +712,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:rfk",
+        "identifier": "slop-peter-navarro",
+        "locales": [
+          {
+            "description": "Post contains Peter Navarro",
+            "lang": "en",
+            "name": "Peter Navarro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-rick-scott",
+        "locales": [
+          {
+            "description": "Post contains Rick Scott",
+            "lang": "en",
+            "name": "Rick Scott"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-robert-f-kennedy-jr",
         "locales": [
           {
             "description": "Post contains Robert F. Kennedy Jr.",
@@ -270,7 +751,46 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:vought",
+        "identifier": "slop-roger-stone",
+        "locales": [
+          {
+            "description": "Post contains Roger Stone",
+            "lang": "en",
+            "name": "Roger Stone"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-ron-johnson",
+        "locales": [
+          {
+            "description": "Post contains Ron Johnson",
+            "lang": "en",
+            "name": "Ron Johnson"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-rudy-giuliani",
+        "locales": [
+          {
+            "description": "Post contains Rudy Giuliani",
+            "lang": "en",
+            "name": "Rudy Giuliani"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-russell-vought",
         "locales": [
           {
             "description": "Post contains Russell Vought",
@@ -283,7 +803,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:bessent",
+        "identifier": "slop-scott-bessent",
         "locales": [
           {
             "description": "Post contains Scott Bessent",
@@ -296,7 +816,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:duffy",
+        "identifier": "slop-sean-duffy",
         "locales": [
           {
             "description": "Post contains Sean Duffy",
@@ -309,7 +829,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:miller",
+        "identifier": "slop-sean-hannity",
+        "locales": [
+          {
+            "description": "Post contains Sean Hannity",
+            "lang": "en",
+            "name": "Sean Hannity"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-sebastian-gorka",
+        "locales": [
+          {
+            "description": "Post contains Sebastian Gorka",
+            "lang": "en",
+            "name": "Sebastian Gorka"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-stephen-miller",
         "locales": [
           {
             "description": "Post contains Stephen Miller",
@@ -322,7 +868,20 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:wiles",
+        "identifier": "slop-steve-scalise",
+        "locales": [
+          {
+            "description": "Post contains Steve Scalise",
+            "lang": "en",
+            "name": "Steve Scalise"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-susie-wiles",
         "locales": [
           {
             "description": "Post contains Susie Wiles",
@@ -335,7 +894,46 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:homan",
+        "identifier": "slop-ted-cruz",
+        "locales": [
+          {
+            "description": "Post contains Ted Cruz",
+            "lang": "en",
+            "name": "Ted Cruz"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-thomas-massie",
+        "locales": [
+          {
+            "description": "Post contains Thomas Massie",
+            "lang": "en",
+            "name": "Thomas Massie"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-tom-emmer",
+        "locales": [
+          {
+            "description": "Post contains Tom Emmer",
+            "lang": "en",
+            "name": "Tom Emmer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-tom-homan",
         "locales": [
           {
             "description": "Post contains Tom Homan",
@@ -348,7 +946,33 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:gabbard",
+        "identifier": "slop-tommy-tuberville",
+        "locales": [
+          {
+            "description": "Post contains Tommy Tuberville",
+            "lang": "en",
+            "name": "Tommy Tuberville"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-tucker-carlson",
+        "locales": [
+          {
+            "description": "Post contains Tucker Carlson",
+            "lang": "en",
+            "name": "Tucker Carlson"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "slop-tulsi-gabbard",
         "locales": [
           {
             "description": "Post contains Tulsi Gabbard",
@@ -361,7 +985,7 @@
       {
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "slop:ramaswamy",
+        "identifier": "slop-vivek-ramaswamy",
         "locales": [
           {
             "description": "Post contains Vivek Ramaswamy",
@@ -373,33 +997,81 @@
       }
     ],
     "labelValues": [
-      "slop:trump",
-      "slop:vance",
-      "slop:hegseth",
-      "slop:rubio",
-      "slop:bessent",
-      "slop:rfk",
-      "slop:noem",
-      "slop:bondi",
-      "slop:miller",
-      "slop:musk",
-      "slop:gabbard",
-      "slop:patel",
-      "slop:homan",
-      "slop:mcmahon",
-      "slop:zeldin",
-      "slop:ramaswamy",
-      "slop:wiles",
-      "slop:burgum",
-      "slop:vought",
-      "slop:duffy",
-      "slop:wright",
-      "slop:lutnick",
-      "slop:rollins",
-      "slop:chavez-deremer",
-      "slop:collins",
-      "slop:ratcliffe",
-      "slop:fetterman"
+      "slop-ben-shapiro",
+      "slop-brooke-rollins",
+      "slop-byron-donalds",
+      "slop-candace-owens",
+      "slop-charlie-kirk",
+      "slop-chris-wright",
+      "slop-donald-trump",
+      "slop-donald-trump-jr",
+      "slop-doug-burgum",
+      "slop-doug-collins",
+      "slop-elise-stefanik",
+      "slop-elon-musk",
+      "slop-eric-trump",
+      "slop-glenn-youngkin",
+      "slop-howard-lutnick",
+      "slop-ivanka-trump",
+      "slop-james-comer",
+      "slop-jared-kushner",
+      "slop-jd-vance",
+      "slop-jeanine-pirro",
+      "slop-john-barrasso",
+      "slop-john-fetterman",
+      "slop-john-ratcliffe",
+      "slop-john-roberts",
+      "slop-john-thune",
+      "slop-josh-hawley",
+      "slop-kari-lake",
+      "slop-karoline-leavitt",
+      "slop-kash-patel",
+      "slop-keith-kellogg",
+      "slop-ken-paxton",
+      "slop-kristi-noem",
+      "slop-lara-trump",
+      "slop-laura-ingraham",
+      "slop-lee-zeldin",
+      "slop-linda-mcmahon",
+      "slop-lindsey-graham",
+      "slop-lori-chavez-deremer",
+      "slop-marco-rubio",
+      "slop-maria-bartiromo",
+      "slop-marjorie-taylor-greene",
+      "slop-mark-meadows",
+      "slop-markwayne-mullin",
+      "slop-megyn-kelly",
+      "slop-mehmet-oz",
+      "slop-michael-flynn",
+      "slop-michael-waltz",
+      "slop-mike-johnson",
+      "slop-mike-pompeo",
+      "slop-mitch-mcconnell",
+      "slop-neil-gorsuch",
+      "slop-pam-bondi",
+      "slop-pete-hegseth",
+      "slop-peter-navarro",
+      "slop-rick-scott",
+      "slop-robert-f-kennedy-jr",
+      "slop-roger-stone",
+      "slop-ron-johnson",
+      "slop-rudy-giuliani",
+      "slop-russell-vought",
+      "slop-scott-bessent",
+      "slop-sean-duffy",
+      "slop-sean-hannity",
+      "slop-sebastian-gorka",
+      "slop-stephen-miller",
+      "slop-steve-scalise",
+      "slop-susie-wiles",
+      "slop-ted-cruz",
+      "slop-thomas-massie",
+      "slop-tom-emmer",
+      "slop-tom-homan",
+      "slop-tommy-tuberville",
+      "slop-tucker-carlson",
+      "slop-tulsi-gabbard",
+      "slop-vivek-ramaswamy"
     ]
   }
 }

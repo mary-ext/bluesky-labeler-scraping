@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreiaqiaxlqn56xv6xqweur3tr56tyoh455ovyq7drd54vyurwaqtxye",
+  "cid": "bafyreibt6454jmtcvo7y6yvwohav2xsewee2y66vffzrgmloodbizvaslm",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-03-26T21:37:06.671Z",
+  "indexedAt": "2026-03-27T14:27:40.961Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -113,7 +113,7 @@
         "identifier": "member",
         "locales": [
           {
-            "description": "This user's identity (account) is hosted on the BlueAT Network PDS (rose.madebydanny.uk)\n\nThis label is automatically added every 24 hours. If this user has moved off the BlueAT PDS, please report the account so we can remove it.",
+            "description": "This user's identity (account) is hosted on the BlueAT Network PDS (rose.madebydanny.uk)\n\nThis label is automatically updated every 24 hours.",
             "lang": "en",
             "name": "Member"
           }
@@ -155,7 +155,7 @@
         "identifier": "sus-new",
         "locales": [
           {
-            "description": "This identity (account) was created recently and shows signs of suspicious activity (for example: lots of reposts, likes, and profile and/or comments seem to be AI-generated)",
+            "description": "This identity (account) was created recently and shows signs of suspicious activity./n/n/Lots of reposts, likes, and profile and/or comments seem to be AI-generated.",
             "lang": "en",
             "name": "New account acting suspicious"
           }
@@ -183,9 +183,37 @@
         "identifier": "sus",
         "locales": [
           {
-            "description": "This identity (account) shows signs of suspicious activity (for example: lots of reposts, likes, and profile and/or comments seem to be AI-generated) ",
+            "description": "This identity (account) shows signs of suspicious activity./n/nLots of reposts, likes, and profile and/or comments seem to be AI-generated.",
             "lang": "en",
             "name": "Account acting suspicious"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cat-owner",
+        "locales": [
+          {
+            "description": "This person is a cat owner",
+            "lang": "en",
+            "name": "🐈 Cat owner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dog-owner",
+        "locales": [
+          {
+            "description": "This person is a dog owner",
+            "lang": "en",
+            "name": "🐕 Dog owner"
           }
         ],
         "severity": "inform"
@@ -203,7 +231,9 @@
       "spam",
       "sus-new",
       "review",
-      "sus"
+      "sus",
+      "cat-owner",
+      "dog-owner"
     ]
   },
   "subjectTypes": [

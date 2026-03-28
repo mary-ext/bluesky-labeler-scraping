@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tcdl7e7zaswykasnmfp6watk/app.bsky.labeler.service/self",
-  "cid": "bafyreidnrtnqh663ltuktpmesxwwgwoni5ovfcs4jmdvljeyguzqwyeazq",
+  "cid": "bafyreifemd62afslbn3kouin55the7wldtsiuegrmuaayw7jvqppngnmka",
   "creator": {
     "did": "did:plc:tcdl7e7zaswykasnmfp6watk",
     "handle": "wearemagen.org",
@@ -16,10 +16,38 @@
     "createdAt": "2026-03-18T18:08:53.652Z",
     "indexedAt": "2026-03-18T21:11:30.349Z"
   },
-  "indexedAt": "2026-03-18T18:25:45.661Z",
+  "indexedAt": "2026-03-27T21:04:25.860Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "anti-black-hate",
+        "locales": [
+          {
+            "description": "Marks direct anti-Black hate speech, dehumanizing hostility, or explicitly racist targeting of Black people or Black communities.",
+            "lang": "en",
+            "name": "Anti-Black"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antisemitic-hate",
+        "locales": [
+          {
+            "description": "Marks direct expressions of anti-Jewish hatred, contempt, or eliminationist hostility that do not fit more specific antisemitic subtypes.",
+            "lang": "en",
+            "name": "Jew Hater"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -30,6 +58,48 @@
             "description": "Marks posts that use direct antisemitic slurs, dehumanizing language, or explicit anti-Jewish epithets.",
             "lang": "en",
             "name": "Antisemitic Slur"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antizionist",
+        "locales": [
+          {
+            "description": "Marks antizionist rhetoric that demonizes Zionists or Zionism as a target for hostility, exclusion, or conspiratorial blame.",
+            "lang": "en",
+            "name": "Antizionist"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antizionist-blood-libel",
+        "locales": [
+          {
+            "description": "Marks antizionist framing that revives blood-libel tropes, ritual-murder claims, or conspiratorial accusations against Jews or Jewish collectives.",
+            "lang": "en",
+            "name": "Antizionist Blood Libel"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "blood-libel",
+        "locales": [
+          {
+            "description": "Marks classic blood-libel claims accusing Jews of ritual murder, child sacrifice, or other longstanding antisemitic atrocity myths.",
+            "lang": "en",
+            "name": "Old World Blood Libel"
           }
         ],
         "severity": "alert"
@@ -66,12 +136,40 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "holocaust-inversion",
+        "locales": [
+          {
+            "description": "Content that weaponizes Holocaust imagery, Nazi comparisons, or genocide inversion against Jews, Israelis, or Zionists in a way that distorts Holocaust history or reframes Jews as equivalent to their historical persecutors.",
+            "lang": "en",
+            "name": "Holocaust Inversion"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "misinfo-jewish-targeting",
         "locales": [
           {
-            "description": "Marks false or misleading claims that target Jews, Jewish institutions, or Jewish-linked civic activity in ways that can drive harassment or offline risk.",
+            "description": "Marks false or misleading claims that can drive harassment, panic, manipulation, or offline risk against a targeted person, group, or community.",
             "lang": "en",
-            "name": "Jewish Targeting Misinformation"
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "sealioning",
+        "locales": [
+          {
+            "description": "Bad-faith repeated questioning, demands for evidence, or performative requests for debate meant to exhaust, derail, or harass rather than engage honestly.",
+            "lang": "en",
+            "name": "Sea Lioning"
           }
         ],
         "severity": "inform"
@@ -103,15 +201,52 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "white-supremacist-propaganda",
+        "locales": [
+          {
+            "description": "Marks white supremacist slogans, recruitment material, or propaganda that targets Jews directly or through coded extremist messaging.",
+            "lang": "en",
+            "name": "White Supremacist Propaganda"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "zog-propaganda",
+        "locales": [
+          {
+            "description": "Marks Nazi or white supremacist propaganda promoting the ZOG conspiracy or related extremist claims about Jewish or Black control.",
+            "lang": "en",
+            "name": "ZOG Promoter - Nazi Propaganda"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
+      "anti-black-hate",
+      "antisemitic-hate",
       "antisemitic-slur",
+      "antizionist",
+      "antizionist-blood-libel",
+      "blood-libel",
       "dogpile-risk",
       "extremist-glorification",
+      "holocaust-inversion",
       "misinfo-jewish-targeting",
+      "sealioning",
       "targeted-harassment",
-      "violent-threat"
+      "violent-threat",
+      "white-supremacist-propaganda",
+      "zog-propaganda"
     ]
   },
   "subjectTypes": [

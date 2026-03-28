@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:roewhjzra5xtuliye7qf2ghy/app.bsky.labeler.service/self",
-  "cid": "bafyreibygoso24smrber7bgefyv3iwi3af6iot3juts3accsppw5btvhca",
+  "cid": "bafyreihup7abr3xqsiakifprx4tyypy7sublrwlj3rrkunzkjzaeww5tai",
   "creator": {
     "did": "did:plc:roewhjzra5xtuliye7qf2ghy",
     "handle": "flair.booksky.club",
@@ -16,7 +16,7 @@
     "createdAt": "2026-03-23T22:57:34.156Z",
     "indexedAt": "2026-03-24T23:30:20.552Z"
   },
-  "indexedAt": "2026-03-25T23:46:04.353Z",
+  "indexedAt": "2026-03-27T22:21:44.258Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -72,6 +72,20 @@
             "description": "BookSky admin account",
             "lang": "en",
             "name": "📕 BookSky Admin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "amultigenre-writer",
+        "locales": [
+          {
+            "description": "Author in Residence - writes across multiple genres",
+            "lang": "en",
+            "name": "✏️ Multigenre Writer"
           }
         ],
         "severity": "inform"
@@ -407,7 +421,7 @@
           {
             "description": "Patron perk - genres shown are this reader's all-time favorites",
             "lang": "en",
-            "name": "❤️ Favorite Genres"
+            "name": "💙 Favorite Genres"
           }
         ],
         "severity": "inform"
@@ -435,7 +449,7 @@
           {
             "description": "Patron perk - currently working on writing",
             "lang": "en",
-            "name": "✍️ Writing"
+            "name": "✍️ Currently Writing"
           }
         ],
         "severity": "inform"
@@ -782,6 +796,7 @@
       "aaaauthor-in-residence",
       "aaabankroller",
       "aaaadmin",
+      "amultigenre-writer",
       "afantasy-writer",
       "ascifi-writer",
       "ahorror-writer",
