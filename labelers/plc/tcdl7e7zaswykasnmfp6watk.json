@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tcdl7e7zaswykasnmfp6watk/app.bsky.labeler.service/self",
-  "cid": "bafyreifemd62afslbn3kouin55the7wldtsiuegrmuaayw7jvqppngnmka",
+  "cid": "bafyreifrago6yrvsye2efn2r35ea63lcuehncvsu2hnmfhxnr7uoq4hl7a",
   "creator": {
     "did": "did:plc:tcdl7e7zaswykasnmfp6watk",
     "handle": "wearemagen.org",
@@ -16,7 +16,7 @@
     "createdAt": "2026-03-18T18:08:53.652Z",
     "indexedAt": "2026-03-18T21:11:30.349Z"
   },
-  "indexedAt": "2026-03-27T21:04:25.860Z",
+  "indexedAt": "2026-03-29T12:37:37.055Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -178,6 +178,20 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "tankie-propaganda",
+        "locales": [
+          {
+            "description": "Content promoting or defending authoritarian communist propaganda, apologism for totalitarian regimes, or extremist anti-democratic ideological abuse in a way that is disruptive, propagandistic, or openly hostile.",
+            "lang": "en",
+            "name": "Tankie"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "targeted-harassment",
         "locales": [
           {
@@ -243,6 +257,7 @@
       "holocaust-inversion",
       "misinfo-jewish-targeting",
       "sealioning",
+      "tankie-propaganda",
       "targeted-harassment",
       "violent-threat",
       "white-supremacist-propaganda",
