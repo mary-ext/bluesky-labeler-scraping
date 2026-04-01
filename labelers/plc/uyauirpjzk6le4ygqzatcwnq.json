@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifoqofgfvrdlikkntqcci7e5qvwa5et654zkpej6lpuryorzsntf4",
+  "cid": "bafyreia6jrjzsuy46upjfto442fy33qus2pzbivb5a74q655dyguadjadm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-03-30T22:23:19.758Z",
+  "indexedAt": "2026-03-31T22:23:19.265Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -291,6 +291,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-surf",
+        "locales": [
+          {
+            "description": "Account is hosted by the surf.social PDS",
+            "lang": "en",
+            "name": "surf.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "network-nobody-node",
         "locales": [
           {
@@ -325,20 +339,6 @@
             "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
             "name": "si46.homes"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-surf",
-        "locales": [
-          {
-            "description": "Account is hosted by the surf.social PDS",
-            "lang": "en",
-            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -431,12 +431,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-mulgez-api",
+        "identifier": "social-npmx",
         "locales": [
           {
-            "description": "Account is hosted by the api.mulgez.com PDS",
+            "description": "Account is hosted by the npmx.social PDS",
             "lang": "en",
-            "name": "api.mulgez.com"
+            "name": "npmx.social"
           }
         ],
         "severity": "inform"
@@ -445,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-npmx",
+        "identifier": "com-mulgez-api",
         "locales": [
           {
-            "description": "Account is hosted by the npmx.social PDS",
+            "description": "Account is hosted by the api.mulgez.com PDS",
             "lang": "en",
-            "name": "npmx.social"
+            "name": "api.mulgez.com"
           }
         ],
         "severity": "inform"
@@ -557,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-nihilist",
+        "identifier": "app-railway-up-karmas--e2e--pds",
         "locales": [
           {
-            "description": "Account is hosted by the nihilist.cloud PDS",
+            "description": "Account is hosted by the karmas-e2e-pds.up.railway.app PDS",
             "lang": "en",
-            "name": "nihilist.cloud"
+            "name": "karmas-e2e-pds.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -571,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-karmas--e2e--pds",
+        "identifier": "cloud-nihilist",
         "locales": [
           {
-            "description": "Account is hosted by the karmas-e2e-pds.up.railway.app PDS",
+            "description": "Account is hosted by the nihilist.cloud PDS",
             "lang": "en",
-            "name": "karmas-e2e-pds.up.railway.app"
+            "name": "nihilist.cloud"
           }
         ],
         "severity": "inform"
@@ -655,6 +655,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "me-opnmt-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.opnmt.me PDS",
+            "lang": "en",
+            "name": "pds.opnmt.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "link-mybluesky",
         "locales": [
           {
@@ -675,20 +689,6 @@
             "description": "Account is hosted by the stroam.social PDS",
             "lang": "en",
             "name": "stroam.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "me-opnmt-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.opnmt.me PDS",
-            "lang": "en",
-            "name": "pds.opnmt.me"
           }
         ],
         "severity": "inform"
@@ -921,12 +921,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-syang-pds",
+        "identifier": "cafe-pckt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.syang.xyz PDS",
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
-            "name": "pds.syang.xyz"
+            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -935,12 +935,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
+        "identifier": "xyz-syang-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "description": "Account is hosted by the pds.syang.xyz PDS",
             "lang": "en",
-            "name": "pds.pckt.cafe"
+            "name": "pds.syang.xyz"
           }
         ],
         "severity": "inform"
@@ -1103,12 +1103,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "shop-si46",
+        "identifier": "social-gumby",
         "locales": [
           {
-            "description": "Account is hosted by the si46.shop PDS",
+            "description": "Account is hosted by the gumby.social PDS",
             "lang": "en",
-            "name": "si46.shop"
+            "name": "gumby.social"
           }
         ],
         "severity": "inform"
@@ -1117,12 +1117,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-fudini-pds",
+        "identifier": "shop-si46",
         "locales": [
           {
-            "description": "Account is hosted by the pds.fudini.app PDS",
+            "description": "Account is hosted by the si46.shop PDS",
             "lang": "en",
-            "name": "pds.fudini.app"
+            "name": "si46.shop"
           }
         ],
         "severity": "inform"
@@ -1145,12 +1145,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-gumby",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--14",
         "locales": [
           {
-            "description": "Account is hosted by the gumby.social PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-14.up.railway.app PDS",
             "lang": "en",
-            "name": "gumby.social"
+            "name": "certified-apppds-core-epds-pr-14.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-fudini-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.fudini.app PDS",
+            "lang": "en",
+            "name": "pds.fudini.app"
           }
         ],
         "severity": "inform"
@@ -1215,12 +1229,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-tribesocial-pds",
+        "identifier": "one-certified",
         "locales": [
           {
-            "description": "Account is hosted by the pds.tribesocial.me PDS",
+            "description": "Account is hosted by the certified.one PDS",
             "lang": "en",
-            "name": "pds.tribesocial.me"
+            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -1229,12 +1243,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "one-certified",
+        "identifier": "me-tribesocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the certified.one PDS",
+            "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
-            "name": "certified.one"
+            "name": "pds.tribesocial.me"
           }
         ],
         "severity": "inform"
@@ -1305,20 +1319,6 @@
             "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
             "lang": "en",
             "name": "bsky.shadowcaster.ge"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
-            "lang": "en",
-            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -1470,18 +1470,18 @@
       "to-bbi",
       "app-louisvillebsky-pds",
       "online-k4zka-bs",
+      "social-surf",
       "network-nobody-node",
       "chat-roomy",
       "homes-si46",
-      "social-surf",
       "social-novum",
       "to-tor0n",
       "es-peedee",
       "at-admat-bsx",
       "com-raceef-ds",
       "social-selfhosted",
-      "com-mulgez-api",
       "social-npmx",
+      "com-mulgez-api",
       "news-1440-pds",
       "social-northsky",
       "space-cannect-pds",
@@ -1489,16 +1489,16 @@
       "app-certified-test-pds--eu--west4",
       "social-fluester-pds",
       "global-bsky",
-      "cloud-nihilist",
       "app-railway-up-karmas--e2e--pds",
+      "cloud-nihilist",
       "org-climateai",
       "space-cannect",
       "cloud-hstgr-srv865737",
       "live-shxre",
       "fail-marta",
+      "me-opnmt-pds",
       "link-mybluesky",
       "social-stroam",
-      "me-opnmt-pds",
       "social-casjay",
       "com-atheistmass-pds",
       "com-zimchu-epds",
@@ -1515,8 +1515,8 @@
       "su-nyet",
       "ai-bigt-pds",
       "wtf-lamp",
-      "xyz-syang-pds",
       "cafe-pckt-pds",
+      "xyz-syang-pds",
       "dev-fly-crimson--field--2410",
       "app-certified-test-sds--eu--west4",
       "social-seabikes",
@@ -1528,22 +1528,22 @@
       "com-chrise-bsky",
       "space-0-pds",
       "network-certs-pds",
-      "shop-si46",
-      "app-fudini-pds",
-      "app-certified-test-pds1",
       "social-gumby",
+      "shop-si46",
+      "app-certified-test-pds1",
+      "app-railway-up-certified--apppds--core--epds--pr--14",
+      "app-fudini-pds",
       "blog-bestofmodels-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "uk-madebydanny-rose",
       "at-podping-pds1",
-      "me-tribesocial-pds",
       "one-certified",
+      "me-tribesocial-pds",
       "moe-waf-at",
       "cc-mysocial-bsk",
       "cyou-shinigami",
       "chat-wolp-bark-bsky",
       "ge-shadowcaster-bsky",
-      "network-wsocial-pds",
       "social-bsea-pds1",
       "app-ocho",
       "dev-ngrok-jarlix",
