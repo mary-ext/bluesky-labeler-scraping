@@ -1,0 +1,58 @@
+{
+  "uri": "at://did:plc:ql7n7gctfts2a32xp245fak7/app.bsky.labeler.service/self",
+  "cid": "bafyreicssxs37kablm7h727p6a5brrar62y5x54q3uvqbin2bhdgksthuu",
+  "creator": {
+    "did": "did:plc:ql7n7gctfts2a32xp245fak7",
+    "handle": "seermoderation.com",
+    "displayName": "Seer",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ql7n7gctfts2a32xp245fak7/bafkreia4ezarnvtu66wnmdw3pbadcsp2gnuj5tfbqh3bfrziwkyqmyrjcy",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-04-01T12:26:42.053Z",
+    "description": "This account is automated and not monitored.",
+    "indexedAt": "2026-04-01T12:51:33.448Z"
+  },
+  "indexedAt": "2026-04-01T13:00:14.667Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "accountbeforejerrification",
+        "locales": [
+          {
+            "description": "Account was created before Jerry was verified.",
+            "lang": "en",
+            "name": "Account Created Before Jerrification"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "accountafterjerrification",
+        "locales": [
+          {
+            "description": "Account was created after Jerry was verified.",
+            "lang": "en",
+            "name": "Account Created After Jerrification"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "accountbeforejerrification",
+      "accountafterjerrification"
+    ]
+  }
+}

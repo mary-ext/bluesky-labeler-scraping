@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreia6jrjzsuy46upjfto442fy33qus2pzbivb5a74q655dyguadjadm",
+  "cid": "bafyreigyw4gdjfbgdpomu4dro2m4fr2f4r2j2lrrdy7ipys7vza3hpb2na",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-03-31T22:23:19.265Z",
+  "indexedAt": "2026-04-01T14:23:19.260Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -543,12 +543,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "global-bsky",
+        "identifier": "app-railway-up-karmas--e2e--pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.global PDS",
+            "description": "Account is hosted by the karmas-e2e-pds.up.railway.app PDS",
             "lang": "en",
-            "name": "bsky.global"
+            "name": "karmas-e2e-pds.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -557,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-karmas--e2e--pds",
+        "identifier": "global-bsky",
         "locales": [
           {
-            "description": "Account is hosted by the karmas-e2e-pds.up.railway.app PDS",
+            "description": "Account is hosted by the bsky.global PDS",
             "lang": "en",
-            "name": "karmas-e2e-pds.up.railway.app"
+            "name": "bsky.global"
           }
         ],
         "severity": "inform"
@@ -851,12 +851,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-mirrors",
+        "identifier": "ai-swarmchat-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mirrors.bot PDS",
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
             "lang": "en",
-            "name": "mirrors.bot"
+            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -865,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
+        "identifier": "bot-mirrors",
         "locales": [
           {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "description": "Account is hosted by the mirrors.bot PDS",
             "lang": "en",
-            "name": "pds.swarmchat.ai"
+            "name": "mirrors.bot"
           }
         ],
         "severity": "inform"
@@ -1131,12 +1131,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds1",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--14",
         "locales": [
           {
-            "description": "Account is hosted by the pds1.test.certified.app PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-14.up.railway.app PDS",
             "lang": "en",
-            "name": "pds1.test.certified.app"
+            "name": "certified-apppds-core-epds-pr-14.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1145,12 +1145,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--14",
+        "identifier": "app-certified-test-pds1",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-14.up.railway.app PDS",
+            "description": "Account is hosted by the pds1.test.certified.app PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-14.up.railway.app"
+            "name": "pds1.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -1215,20 +1215,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-podping-pds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1.podping.at PDS",
-            "lang": "en",
-            "name": "pds1.podping.at"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "one-certified",
         "locales": [
           {
@@ -1243,12 +1229,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "at-podping-pds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds1.podping.at PDS",
+            "lang": "en",
+            "name": "pds1.podping.at"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "me-tribesocial-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.tribesocial.me PDS",
             "lang": "en",
             "name": "pds.tribesocial.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-krisyotam-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.krisyotam.com PDS",
+            "lang": "en",
+            "name": "bsky.krisyotam.com"
           }
         ],
         "severity": "inform"
@@ -1355,6 +1369,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "blog-bestofmodels-bluesky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bluesky.bestofmodels.blog PDS",
+            "lang": "en",
+            "name": "bluesky.bestofmodels.blog"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "dev-ngrok-jarlix",
         "locales": [
           {
@@ -1375,20 +1403,6 @@
             "description": "Account is hosted by the pds.quack.space PDS",
             "lang": "en",
             "name": "pds.quack.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blog-bestofmodels-bluesky",
-        "locales": [
-          {
-            "description": "Account is hosted by the bluesky.bestofmodels.blog PDS",
-            "lang": "en",
-            "name": "bluesky.bestofmodels.blog"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-tgirl-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.tgirl.cloud PDS",
-            "lang": "en",
-            "name": "pds.tgirl.cloud"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1488,8 +1488,8 @@
       "pw-blam",
       "app-certified-test-pds--eu--west4",
       "social-fluester-pds",
-      "global-bsky",
       "app-railway-up-karmas--e2e--pds",
+      "global-bsky",
       "cloud-nihilist",
       "org-climateai",
       "space-cannect",
@@ -1510,8 +1510,8 @@
       "com-skeetcentral",
       "world-si46-pds--dev",
       "network-eny-pds-oyster",
-      "bot-mirrors",
       "ai-swarmchat-pds",
+      "bot-mirrors",
       "su-nyet",
       "ai-bigt-pds",
       "wtf-lamp",
@@ -1530,15 +1530,16 @@
       "network-certs-pds",
       "social-gumby",
       "shop-si46",
-      "app-certified-test-pds1",
       "app-railway-up-certified--apppds--core--epds--pr--14",
+      "app-certified-test-pds1",
       "app-fudini-pds",
       "blog-bestofmodels-bsky",
       "org-mpi--sws-mpi--bluesky--pds",
       "uk-madebydanny-rose",
-      "at-podping-pds1",
       "one-certified",
+      "at-podping-pds1",
       "me-tribesocial-pds",
+      "com-krisyotam-bsky",
       "moe-waf-at",
       "cc-mysocial-bsk",
       "cyou-shinigami",
@@ -1546,13 +1547,12 @@
       "ge-shadowcaster-bsky",
       "social-bsea-pds1",
       "app-ocho",
+      "blog-bestofmodels-bluesky",
       "dev-ngrok-jarlix",
       "space-quack-pds",
-      "blog-bestofmodels-bluesky",
       "social-reme",
       "at-familiar-staging--pds",
-      "chat-wndr",
-      "cloud-tgirl-pds"
+      "chat-wndr"
     ]
   }
 }
