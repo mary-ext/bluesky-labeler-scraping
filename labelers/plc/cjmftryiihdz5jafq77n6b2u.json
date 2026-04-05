@@ -1,0 +1,125 @@
+{
+  "uri": "at://did:plc:cjmftryiihdz5jafq77n6b2u/app.bsky.labeler.service/self",
+  "cid": "bafyreihqhjjrqxnu5dz7f5jibv5lkraxzjt4zare3ucpmruzcsh23peqnq",
+  "creator": {
+    "did": "did:plc:cjmftryiihdz5jafq77n6b2u",
+    "handle": "atbuddy.app",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cjmftryiihdz5jafq77n6b2u/bafkreiauwafvlfoubgqofaa3qarmehat4uyznnmrux4uvntp4ziruktioe",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:cjmftryiihdz5jafq77n6b2u",
+        "uri": "at://did:plc:cjmftryiihdz5jafq77n6b2u/app.bsky.actor.profile/self",
+        "cid": "bafyreigb6qqpmqg7qtimqzma23zzaufpph26tjbr3donf6xpfvzx4s6swa",
+        "val": "bot",
+        "cts": "2026-04-04T06:22:34.714Z"
+      }
+    ],
+    "createdAt": "2026-04-04T06:22:36.846Z",
+    "description": "#ATBuddy - your virtual pet on #ATProto\n\nYour DID determines your buddy.\n\nDon't forget to pet and feed it.\n\nHatch yours at https://atbuddy.app or mention me with 'help'",
+    "indexedAt": "2026-04-04T15:38:17.753Z"
+  },
+  "indexedAt": "2026-04-04T15:04:37.357Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "buddy-common",
+        "locales": [
+          {
+            "description": "This user has hatched a Common buddy companion.",
+            "lang": "en",
+            "name": "Buddy: Common"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "buddy-uncommon",
+        "locales": [
+          {
+            "description": "This user has hatched an Uncommon buddy companion.",
+            "lang": "en",
+            "name": "Buddy: Uncommon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "buddy-rare",
+        "locales": [
+          {
+            "description": "This user has hatched a Rare buddy companion.",
+            "lang": "en",
+            "name": "Buddy: Rare"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "buddy-epic",
+        "locales": [
+          {
+            "description": "This user has hatched an Epic buddy companion.",
+            "lang": "en",
+            "name": "Buddy: Epic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "buddy-legendary",
+        "locales": [
+          {
+            "description": "This user has hatched a Legendary buddy companion.",
+            "lang": "en",
+            "name": "Buddy: Legendary"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "buddy-shiny",
+        "locales": [
+          {
+            "description": "This user has a rare Shiny variant buddy!",
+            "lang": "en",
+            "name": "Buddy: Shiny ✨"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "buddy-common",
+      "buddy-uncommon",
+      "buddy-rare",
+      "buddy-epic",
+      "buddy-legendary",
+      "buddy-shiny"
+    ]
+  }
+}

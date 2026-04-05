@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rh3vjqs4npfpmnkkmx4u4bzj/app.bsky.labeler.service/self",
-  "cid": "bafyreifqa34adcdwsgdesvdf5esyrx5xk44j2cu4kk6ku6eij5ivxrkyyi",
+  "cid": "bafyreidfdbpevjkztdmd5pnjqz35xgdqvkxwq7yvvq36zioczeofjga5ey",
   "creator": {
     "did": "did:plc:rh3vjqs4npfpmnkkmx4u4bzj",
     "handle": "alt-text-labeler.bsky.social",
@@ -17,49 +17,17 @@
     "description": "auto-labeling images without alt text\n\nstop whining and use alt-text already omg\n\nstatus: running live tests",
     "indexedAt": "2026-03-20T11:00:55.249Z"
   },
-  "indexedAt": "2026-03-28T00:14:41.662Z",
+  "indexedAt": "2026-04-04T22:44:31.753Z",
   "labels": [],
   "policies": {
-    "$type": "app.bsky.labeler.defs#labelerPolicies",
-    "labelValueDefinitions": [
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "media",
-        "defaultSetting": "warn",
-        "identifier": "missing-alt-text",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "This post contains one or more still images and none of them has usable alt text.",
-            "lang": "en",
-            "name": "Missing Alt Text"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "$type": "com.atproto.label.defs#labelValueDefinition",
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "partial-alt-text",
-        "locales": [
-          {
-            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "This post contains multiple still images and only some of them have usable alt text.",
-            "lang": "en",
-            "name": "Partial Alt Text"
-          }
-        ],
-        "severity": "inform"
-      }
-    ],
     "labelValues": [
       "missing-alt-text",
       "partial-alt-text"
     ]
   },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
   "subjectTypes": [
     "record"
   ],

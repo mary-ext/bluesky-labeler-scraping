@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreiex5yrnhil3kdg2ghgawic34axiawce7hiyvyacgepzp7vbgedmw4",
+  "cid": "bafyreicjq5pbweg77suffpaclldhozdw3pq64a45pauh3zfitiavr6zcai",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-03-21T17:38:10.084Z",
+  "indexedAt": "2026-04-04T11:25:09.372Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6827,6 +6827,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "emdash-cms-emdash",
+        "locales": [
+          {
+            "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress\nhttps://github.com/emdash-cms/emdash",
+            "lang": "en",
+            "name": "emdash-cms/emdash"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7315,7 +7329,8 @@
       "opennextjs-opennextjs-netlify",
       "bluesky-social-pds",
       "jfourckxyz-tweets-two-bsky",
-      "railwayapp-docs"
+      "railwayapp-docs",
+      "emdash-cms-emdash"
     ]
   }
 }
