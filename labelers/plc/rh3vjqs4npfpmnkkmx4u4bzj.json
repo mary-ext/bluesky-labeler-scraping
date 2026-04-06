@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rh3vjqs4npfpmnkkmx4u4bzj/app.bsky.labeler.service/self",
-  "cid": "bafyreidfdbpevjkztdmd5pnjqz35xgdqvkxwq7yvvq36zioczeofjga5ey",
+  "cid": "bafyreibujnlw7cwhx5vykajyp5xvfzncyt7moervliebts6i43eleft2vy",
   "creator": {
     "did": "did:plc:rh3vjqs4npfpmnkkmx4u4bzj",
     "handle": "alt-text-labeler.bsky.social",
@@ -14,20 +14,52 @@
     },
     "labels": [],
     "createdAt": "2026-03-12T21:41:31.247Z",
-    "description": "auto-labeling images without alt text\n\nstop whining and use alt-text already omg\n\nstatus: running live tests",
-    "indexedAt": "2026-03-20T11:00:55.249Z"
+    "description": "auto-labeling images without alt text\n\nstop whining and use alt-text already omg\n\nstatus: running full firehose live tests",
+    "indexedAt": "2026-04-05T22:35:10.650Z"
   },
-  "indexedAt": "2026-04-04T22:44:31.753Z",
+  "indexedAt": "2026-04-06T00:31:19.755Z",
   "labels": [],
   "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "missing-alt-text",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post contains one or more still images and none of them has usable alt text.",
+            "lang": "en",
+            "name": "Missing Alt Text"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "partial-alt-text",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post contains multiple still images and only some of them have usable alt text.",
+            "lang": "en",
+            "name": "Partial Alt Text"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
     "labelValues": [
       "missing-alt-text",
       "partial-alt-text"
     ]
   },
-  "reasonTypes": [
-    "com.atproto.moderation.defs#reasonOther"
-  ],
   "subjectTypes": [
     "record"
   ],
