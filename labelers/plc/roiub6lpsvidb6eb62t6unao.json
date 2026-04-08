@@ -1,0 +1,1115 @@
+{
+  "uri": "at://did:plc:roiub6lpsvidb6eb62t6unao/app.bsky.labeler.service/self",
+  "cid": "bafyreiat3mjqrojcljazo73gp4f2u55yfuhf23szjncd3yhhurobjinnma",
+  "creator": {
+    "did": "did:plc:roiub6lpsvidb6eb62t6unao",
+    "handle": "trustline.moddy.app",
+    "displayName": "Moddy Trustline",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:roiub6lpsvidb6eb62t6unao/bafkreihio3qpgu32t4yxomngqux4ffbkaixzncbiz3h5yx5thqjhrgrate",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:roiub6lpsvidb6eb62t6unao",
+        "uri": "at://did:plc:roiub6lpsvidb6eb62t6unao/app.bsky.actor.profile/self",
+        "cid": "bafyreie3wrq7yrg4k3jnsp4issbrvuri4rsp5ns5yi4sahbxspro3fjpfq",
+        "val": "bot",
+        "cts": "2026-04-07T16:40:14.552Z"
+      }
+    ],
+    "createdAt": "2026-04-07T16:40:13.345Z",
+    "indexedAt": "2026-04-07T17:04:07.262Z"
+  },
+  "indexedAt": "2026-04-07T19:51:20.171Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "blacklisted",
+        "locales": [
+          {
+            "description": "This user has been added to the Trustline blacklist for serious violations of community guidelines.",
+            "lang": "en",
+            "name": "Blacklisted"
+          },
+          {
+            "description": "Cet utilisateur a ete ajoute a la blacklist Trustline pour violation grave des regles communautaires.",
+            "lang": "fr",
+            "name": "Blackliste"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "This user has been reported for harassing other members of the community.",
+            "lang": "en",
+            "name": "Harassment"
+          },
+          {
+            "description": "Cet utilisateur a ete signale pour harcelement envers d'autres membres de la communaute.",
+            "lang": "fr",
+            "name": "Harcelement"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "This user has been reported for spreading hate speech (racism, homophobia, discrimination).",
+            "lang": "en",
+            "name": "Hate Speech"
+          },
+          {
+            "description": "Cet utilisateur a ete signale pour diffusion de discours de haine (racisme, homophobie, discrimination).",
+            "lang": "fr",
+            "name": "Discours de haine"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "threats",
+        "locales": [
+          {
+            "description": "This user has made physical threats or intimidation against others.",
+            "lang": "en",
+            "name": "Threats"
+          },
+          {
+            "description": "Cet utilisateur a profere des menaces physiques ou de l'intimidation envers d'autres personnes.",
+            "lang": "fr",
+            "name": "Menaces"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "doxxing",
+        "locales": [
+          {
+            "description": "This user has published private information about others without consent.",
+            "lang": "en",
+            "name": "Doxxing"
+          },
+          {
+            "description": "Cet utilisateur a publie des informations privees sur d'autres personnes sans leur consentement.",
+            "lang": "fr",
+            "name": "Doxxing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "This account impersonates another person, brand, or organization.",
+            "lang": "en",
+            "name": "Impersonation"
+          },
+          {
+            "description": "Ce compte usurpe l'identite d'une autre personne, marque ou organisation.",
+            "lang": "fr",
+            "name": "Usurpation d'identite"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "parody",
+        "locales": [
+          {
+            "description": "This account is a parody or satire account. It is not affiliated with the person, brand, or organization it references, and its content should be understood as humor or commentary.",
+            "lang": "en",
+            "name": "Parody Account"
+          },
+          {
+            "description": "Ce compte est un compte parodique ou satirique. Il n'est pas affilie a la personne, marque ou organisation qu'il reference, et son contenu doit etre compris comme de l'humour ou du commentaire.",
+            "lang": "fr",
+            "name": "Compte parodique"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "This account has been reported for posting spam or unsolicited mass messages.",
+            "lang": "en",
+            "name": "Spam"
+          },
+          {
+            "description": "Ce compte a ete signale pour envoi de spam ou de messages en masse non sollicites.",
+            "lang": "fr",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "scam",
+        "locales": [
+          {
+            "description": "This user has been reported for running scams or fraudulent schemes.",
+            "lang": "en",
+            "name": "Scam"
+          },
+          {
+            "description": "Cet utilisateur a ete signale pour arnaques ou escroqueries.",
+            "lang": "fr",
+            "name": "Arnaque"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "phishing",
+        "locales": [
+          {
+            "description": "This user has shared phishing links or attempted to steal credentials.",
+            "lang": "en",
+            "name": "Phishing"
+          },
+          {
+            "description": "Cet utilisateur a partage des liens de phishing ou tente de voler des identifiants.",
+            "lang": "fr",
+            "name": "Phishing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "malware",
+        "locales": [
+          {
+            "description": "This user has distributed malware or malicious software links.",
+            "lang": "en",
+            "name": "Malware"
+          },
+          {
+            "description": "Cet utilisateur a distribue des malwares ou des liens vers des logiciels malveillants.",
+            "lang": "fr",
+            "name": "Malware"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "raid",
+        "locales": [
+          {
+            "description": "This user has participated in organized raids against other communities.",
+            "lang": "en",
+            "name": "Raid"
+          },
+          {
+            "description": "Cet utilisateur a participe a des raids organises contre d'autres communautes.",
+            "lang": "fr",
+            "name": "Raid"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "misinformation",
+        "locales": [
+          {
+            "description": "This content contains false information shared without apparent malicious intent.",
+            "lang": "en",
+            "name": "Misinformation"
+          },
+          {
+            "description": "Ce contenu contient des informations fausses diffusees sans intention malveillante apparente.",
+            "lang": "fr",
+            "name": "Mesinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "disinformation",
+        "locales": [
+          {
+            "description": "This content contains deliberate disinformation or intentional manipulation.",
+            "lang": "en",
+            "name": "Disinformation"
+          },
+          {
+            "description": "Ce contenu contient de la desinformation deliberee ou de la manipulation intentionnelle.",
+            "lang": "fr",
+            "name": "Desinformation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "fake-news",
+        "locales": [
+          {
+            "description": "This content is a fabricated or distorted news article.",
+            "lang": "en",
+            "name": "Fake News"
+          },
+          {
+            "description": "Ce contenu est un article de presse invente ou deforme.",
+            "lang": "fr",
+            "name": "Fake News"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "conspiracy",
+        "locales": [
+          {
+            "description": "This content promotes harmful conspiracy theories.",
+            "lang": "en",
+            "name": "Conspiracy Theory"
+          },
+          {
+            "description": "Ce contenu promeut des theories du complot nuisibles.",
+            "lang": "fr",
+            "name": "Theorie du complot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-generated",
+        "locales": [
+          {
+            "description": "This content has been generated by AI and is not declared as such (deepfakes, images, texts).",
+            "lang": "en",
+            "name": "AI-Generated"
+          },
+          {
+            "description": "Ce contenu a ete genere par IA sans etre declare comme tel (deepfakes, images, textes).",
+            "lang": "fr",
+            "name": "Genere par IA"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "manipulated-media",
+        "locales": [
+          {
+            "description": "This media has been digitally manipulated (edited photos or videos).",
+            "lang": "en",
+            "name": "Manipulated Media"
+          },
+          {
+            "description": "Ce media a ete manipule numeriquement (photos ou videos truquees).",
+            "lang": "fr",
+            "name": "Media manipule"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "unverified",
+        "locales": [
+          {
+            "description": "This information has not been verified and requires additional context.",
+            "lang": "en",
+            "name": "Unverified"
+          },
+          {
+            "description": "Cette information n'a pas ete verifiee et necessite du contexte supplementaire.",
+            "lang": "fr",
+            "name": "Non verifie"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "flagged",
+        "locales": [
+          {
+            "description": "This account is currently under investigation by Trustline moderators.",
+            "lang": "en",
+            "name": "Flagged"
+          },
+          {
+            "description": "Ce compte fait actuellement l'objet d'une enquete par les moderateurs Trustline.",
+            "lang": "fr",
+            "name": "Signale"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "warning",
+        "locales": [
+          {
+            "description": "This account shows suspicious behavior but has not been confirmed as a violation.",
+            "lang": "en",
+            "name": "Warning"
+          },
+          {
+            "description": "Ce compte presente un comportement suspect mais non confirme comme une violation.",
+            "lang": "fr",
+            "name": "Avertissement"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "ban-evasion",
+        "locales": [
+          {
+            "description": "This account appears to be a new account created to evade a previous ban.",
+            "lang": "en",
+            "name": "Ban Evasion"
+          },
+          {
+            "description": "Ce compte semble etre un nouveau compte cree pour contourner un bannissement precedent.",
+            "lang": "fr",
+            "name": "Contournement de ban"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "underage",
+        "locales": [
+          {
+            "description": "This account appears to belong to a minor.",
+            "lang": "en",
+            "name": "Underage Account"
+          },
+          {
+            "description": "Ce compte semble appartenir a un mineur.",
+            "lang": "fr",
+            "name": "Compte mineur"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bot",
+        "locales": [
+          {
+            "description": "This account is automated but is not declared as a bot.",
+            "lang": "en",
+            "name": "Undeclared Bot"
+          },
+          {
+            "description": "Ce compte est automatise mais n'est pas declare comme un bot.",
+            "lang": "fr",
+            "name": "Bot non declare"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "trusted",
+        "locales": [
+          {
+            "description": "This user has been verified as trustworthy by the Trustline network.",
+            "lang": "en",
+            "name": "Trusted"
+          },
+          {
+            "description": "Cet utilisateur a ete verifie comme fiable par le reseau Trustline.",
+            "lang": "fr",
+            "name": "De confiance"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-mod",
+        "locales": [
+          {
+            "description": "This user is a recognized moderator of a partner community.",
+            "lang": "en",
+            "name": "Verified Moderator"
+          },
+          {
+            "description": "Cet utilisateur est un moderateur reconnu d'une communaute partenaire.",
+            "lang": "fr",
+            "name": "Moderateur verifie"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "partner",
+        "locales": [
+          {
+            "description": "This account belongs to an official Trustline partner community or server.",
+            "lang": "en",
+            "name": "Official Partner"
+          },
+          {
+            "description": "Ce compte appartient a une communaute ou un serveur partenaire officiel de Trustline.",
+            "lang": "fr",
+            "name": "Partenaire officiel"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "contributor",
+        "locales": [
+          {
+            "description": "This user is an active contributor to the Trustline network.",
+            "lang": "en",
+            "name": "Contributor"
+          },
+          {
+            "description": "Cet utilisateur est un contributeur actif au reseau Trustline.",
+            "lang": "fr",
+            "name": "Contributeur"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fact-checker",
+        "locales": [
+          {
+            "description": "This account is a recognized fact-checking organization or individual.",
+            "lang": "en",
+            "name": "Fact-Checker"
+          },
+          {
+            "description": "Ce compte est une organisation ou un individu de verification des faits reconnu.",
+            "lang": "fr",
+            "name": "Verificateur de faits"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "trusted-source",
+        "locales": [
+          {
+            "description": "This account is a verified and reliable source of information.",
+            "lang": "en",
+            "name": "Trusted Source"
+          },
+          {
+            "description": "Ce compte est une source d'information verifiee et fiable.",
+            "lang": "fr",
+            "name": "Source fiable"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "community-leader",
+        "locales": [
+          {
+            "description": "This user is a respected community leader within the Trustline network.",
+            "lang": "en",
+            "name": "Community Leader"
+          },
+          {
+            "description": "Cet utilisateur est un leader communautaire respecte au sein du reseau Trustline.",
+            "lang": "fr",
+            "name": "Leader communautaire"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "billionaire-owned",
+        "locales": [
+          {
+            "description": "Media outlet owned by a billionaire or billionaire family.",
+            "lang": "en",
+            "name": "Billionaire-Owned"
+          },
+          {
+            "description": "Media possede par un milliardaire ou une famille milliardaire.",
+            "lang": "fr",
+            "name": "Possede par un milliardaire"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-bollore",
+        "locales": [
+          {
+            "description": "Media outlet owned by the Bollore Group (CNews, Europe 1, JDD, Paris Match, Canal+, C8).",
+            "lang": "en",
+            "name": "Owned by Bollore Group"
+          },
+          {
+            "description": "Media possede par le groupe Bollore (CNews, Europe 1, JDD, Paris Match, Canal+, C8).",
+            "lang": "fr",
+            "name": "Possede par Bollore"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-dassault",
+        "locales": [
+          {
+            "description": "Media outlet owned by the Dassault family (Le Figaro).",
+            "lang": "en",
+            "name": "Owned by Dassault"
+          },
+          {
+            "description": "Media possede par la famille Dassault (Le Figaro).",
+            "lang": "fr",
+            "name": "Possede par Dassault"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-arnault",
+        "locales": [
+          {
+            "description": "Media outlet owned by Bernard Arnault or LVMH (Les Echos, Le Parisien).",
+            "lang": "en",
+            "name": "Owned by Arnault/LVMH"
+          },
+          {
+            "description": "Media possede par Bernard Arnault ou LVMH (Les Echos, Le Parisien).",
+            "lang": "fr",
+            "name": "Possede par Arnault/LVMH"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-niel",
+        "locales": [
+          {
+            "description": "Media outlet owned or co-owned by Xavier Niel (Le Monde partially).",
+            "lang": "en",
+            "name": "Owned by Xavier Niel"
+          },
+          {
+            "description": "Media possede ou co-possede par Xavier Niel (Le Monde partiellement).",
+            "lang": "fr",
+            "name": "Possede par Xavier Niel"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-pinault",
+        "locales": [
+          {
+            "description": "Media outlet owned by the Pinault family (Le Point).",
+            "lang": "en",
+            "name": "Owned by Pinault"
+          },
+          {
+            "description": "Media possede par la famille Pinault (Le Point).",
+            "lang": "fr",
+            "name": "Possede par Pinault"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-saade",
+        "locales": [
+          {
+            "description": "Media outlet owned by CMA CGM / Saade family (BFM TV, RMC, La Tribune).",
+            "lang": "en",
+            "name": "Owned by CMA CGM/Saade"
+          },
+          {
+            "description": "Media possede par CMA CGM / famille Saade (BFM TV, RMC, La Tribune).",
+            "lang": "fr",
+            "name": "Possede par CMA CGM/Saade"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-kretinsky",
+        "locales": [
+          {
+            "description": "Media outlet owned by Daniel Kretinsky (Marianne, Elle, Franc-Tireur).",
+            "lang": "en",
+            "name": "Owned by Kretinsky"
+          },
+          {
+            "description": "Media possede par Daniel Kretinsky (Marianne, Elle, Franc-Tireur).",
+            "lang": "fr",
+            "name": "Possede par Kretinsky"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "owner-lagardere",
+        "locales": [
+          {
+            "description": "Media outlet owned by Lagardere Group (now part of Vivendi/Bollore).",
+            "lang": "en",
+            "name": "Owned by Lagardere Group"
+          },
+          {
+            "description": "Media possede par le groupe Lagardere (desormais integre a Vivendi/Bollore).",
+            "lang": "fr",
+            "name": "Possede par Lagardere"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "far-right-leaning",
+        "locales": [
+          {
+            "description": "Media outlet with a documented far-right editorial orientation, based on academic and independent press analysis sources.",
+            "lang": "en",
+            "name": "Far-Right Leaning"
+          },
+          {
+            "description": "Media dont l'orientation editoriale d'extreme droite est documentee par des sources academiques et d'analyse independante de la presse.",
+            "lang": "fr",
+            "name": "Orientation extreme droite"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "right-leaning",
+        "locales": [
+          {
+            "description": "Media outlet with a documented right-leaning editorial orientation.",
+            "lang": "en",
+            "name": "Right Leaning"
+          },
+          {
+            "description": "Media dont l'orientation editoriale de droite est documentee.",
+            "lang": "fr",
+            "name": "Orientation droite"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "left-leaning",
+        "locales": [
+          {
+            "description": "Media outlet with a documented left-leaning editorial orientation.",
+            "lang": "en",
+            "name": "Left Leaning"
+          },
+          {
+            "description": "Media dont l'orientation editoriale de gauche est documentee.",
+            "lang": "fr",
+            "name": "Orientation gauche"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "far-left-leaning",
+        "locales": [
+          {
+            "description": "Media outlet with a documented far-left editorial orientation, based on academic and independent press analysis sources.",
+            "lang": "en",
+            "name": "Far-Left Leaning"
+          },
+          {
+            "description": "Media dont l'orientation editoriale d'extreme gauche est documentee par des sources academiques et d'analyse independante de la presse.",
+            "lang": "fr",
+            "name": "Orientation extreme gauche"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "center-leaning",
+        "locales": [
+          {
+            "description": "Media outlet with a documented centrist editorial orientation.",
+            "lang": "en",
+            "name": "Center Leaning"
+          },
+          {
+            "description": "Media dont l'orientation editoriale centriste est documentee.",
+            "lang": "fr",
+            "name": "Orientation centriste"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "opinion-media",
+        "locales": [
+          {
+            "description": "Opinion-based media outlet, as opposed to factual news reporting.",
+            "lang": "en",
+            "name": "Opinion Media"
+          },
+          {
+            "description": "Media d'opinion, par opposition a l'information factuelle.",
+            "lang": "fr",
+            "name": "Media d'opinion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "public-service-media",
+        "locales": [
+          {
+            "description": "Public service broadcaster or publication (e.g. France Info, Radio France, France TV, ARTE, BBC).",
+            "lang": "en",
+            "name": "Public Service Media"
+          },
+          {
+            "description": "Media de service public (France Info, Radio France, France TV, ARTE, BBC).",
+            "lang": "fr",
+            "name": "Media de service public"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "independent-media",
+        "locales": [
+          {
+            "description": "Truly independent media outlet not owned by a major corporation or billionaire (e.g. Mediapart, Blast, Le Canard Enchaine, Reporterre, Arret sur Images).",
+            "lang": "en",
+            "name": "Independent Media"
+          },
+          {
+            "description": "Media veritablement independant, non possede par une grande entreprise ou un milliardaire (Mediapart, Blast, Le Canard Enchaine, Reporterre, Arret sur Images).",
+            "lang": "fr",
+            "name": "Media independant"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fact-checking-dept",
+        "locales": [
+          {
+            "description": "Media outlet with a recognized fact-checking department (AFP Factuel, Les Decodeurs du Monde, CheckNews de Liberation).",
+            "lang": "en",
+            "name": "Fact-Checking Department"
+          },
+          {
+            "description": "Media disposant d'un departement fact-checking reconnu (AFP Factuel, Les Decodeurs du Monde, CheckNews de Liberation).",
+            "lang": "fr",
+            "name": "Departement fact-checking"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "press-freedom-concerns",
+        "locales": [
+          {
+            "description": "Media outlet or country identified by CPJ or RSF as having press freedom concerns.",
+            "lang": "en",
+            "name": "Press Freedom Concerns"
+          },
+          {
+            "description": "Media ou pays identifie par le CPJ ou RSF comme ayant des problemes de liberte de la presse.",
+            "lang": "fr",
+            "name": "Problemes de liberte de la presse"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "state-funded-media",
+        "locales": [
+          {
+            "description": "Media outlet receiving funding from a state (e.g. RT, Sputnik, CGTN, Press TV).",
+            "lang": "en",
+            "name": "State-Funded Media"
+          },
+          {
+            "description": "Media recevant un financement d'un Etat (RT, Sputnik, CGTN, Press TV).",
+            "lang": "fr",
+            "name": "Media finance par un Etat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "state-controlled-media",
+        "locales": [
+          {
+            "description": "Media outlet directly controlled by a state government, with limited editorial independence.",
+            "lang": "en",
+            "name": "State-Controlled Media"
+          },
+          {
+            "description": "Media directement controle par un gouvernement etatique, avec une independance editoriale limitee.",
+            "lang": "fr",
+            "name": "Media controle par un Etat"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "arcom-warning",
+        "locales": [
+          {
+            "description": "French media that has received official warnings from Arcom (French media regulator) for breaches of information honesty.",
+            "lang": "en",
+            "name": "Arcom Warning"
+          },
+          {
+            "description": "Media francais ayant recu des avertissements officiels de l'Arcom pour manquement a l'honnetete de l'information.",
+            "lang": "fr",
+            "name": "Avertissement Arcom"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "blacklisted",
+      "harassment",
+      "hate-speech",
+      "threats",
+      "doxxing",
+      "impersonation",
+      "parody",
+      "spam",
+      "scam",
+      "phishing",
+      "malware",
+      "raid",
+      "misinformation",
+      "disinformation",
+      "fake-news",
+      "conspiracy",
+      "ai-generated",
+      "manipulated-media",
+      "unverified",
+      "flagged",
+      "warning",
+      "ban-evasion",
+      "underage",
+      "bot",
+      "trusted",
+      "verified-mod",
+      "partner",
+      "contributor",
+      "fact-checker",
+      "trusted-source",
+      "community-leader",
+      "billionaire-owned",
+      "owner-bollore",
+      "owner-dassault",
+      "owner-arnault",
+      "owner-niel",
+      "owner-pinault",
+      "owner-saade",
+      "owner-kretinsky",
+      "owner-lagardere",
+      "far-right-leaning",
+      "right-leaning",
+      "left-leaning",
+      "far-left-leaning",
+      "center-leaning",
+      "opinion-media",
+      "public-service-media",
+      "independent-media",
+      "fact-checking-dept",
+      "press-freedom-concerns",
+      "state-funded-media",
+      "state-controlled-media",
+      "arcom-warning"
+    ],
+    "reasonTypes": [
+      "com.atproto.moderation.defs#reasonSpam",
+      "com.atproto.moderation.defs#reasonViolation",
+      "com.atproto.moderation.defs#reasonMisleading",
+      "com.atproto.moderation.defs#reasonSexual",
+      "com.atproto.moderation.defs#reasonRude",
+      "com.atproto.moderation.defs#reasonOther",
+      "com.atproto.moderation.defs#reasonAppeal"
+    ],
+    "subjectCollections": [
+      "app.bsky.feed.post",
+      "app.bsky.feed.generator",
+      "app.bsky.actor.profile",
+      "app.bsky.graph.list",
+      "app.bsky.graph.starterpack"
+    ],
+    "subjectTypes": [
+      "account",
+      "record"
+    ]
+  }
+}
