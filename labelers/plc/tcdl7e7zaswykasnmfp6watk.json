@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tcdl7e7zaswykasnmfp6watk/app.bsky.labeler.service/self",
-  "cid": "bafyreifrago6yrvsye2efn2r35ea63lcuehncvsu2hnmfhxnr7uoq4hl7a",
+  "cid": "bafyreigudjgnfdbn3edkvfyniuyxsfac7qccwe5m6cowdpe4z24zvyvcs4",
   "creator": {
     "did": "did:plc:tcdl7e7zaswykasnmfp6watk",
     "handle": "wearemagen.org",
@@ -16,7 +16,7 @@
     "createdAt": "2026-03-18T18:08:53.652Z",
     "indexedAt": "2026-03-18T21:11:30.349Z"
   },
-  "indexedAt": "2026-03-29T12:37:37.055Z",
+  "indexedAt": "2026-04-09T18:18:49.159Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -164,6 +164,34 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
+        "identifier": "oct-7-denial",
+        "locales": [
+          {
+            "description": "Denying, minimizing, or dismissing the atrocities committed on October 7.",
+            "lang": "en",
+            "name": "Oct 7 Denial"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "oct-7-inversion",
+        "locales": [
+          {
+            "description": "Reframing the victims of October 7 as the real perpetrators in order to morally invert the attack.",
+            "lang": "en",
+            "name": "Oct 7 Inversion"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
         "identifier": "sealioning",
         "locales": [
           {
@@ -198,6 +226,20 @@
             "description": "Marks coordinated or repeated abusive targeting of Jewish individuals, organizations, events, or communities.",
             "lang": "en",
             "name": "Targeted Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "victim-blaming-oct-7",
+        "locales": [
+          {
+            "description": "Content claiming that Israelis or Jews were responsible for, deserved, or caused the October 7 massacre committed against them, including narratives that invert victim and attacker.",
+            "lang": "en",
+            "name": "Victim Blaming, Oct 7"
           }
         ],
         "severity": "alert"
@@ -256,9 +298,12 @@
       "extremist-glorification",
       "holocaust-inversion",
       "misinfo-jewish-targeting",
+      "oct-7-denial",
+      "oct-7-inversion",
       "sealioning",
       "tankie-propaganda",
       "targeted-harassment",
+      "victim-blaming-oct-7",
       "violent-threat",
       "white-supremacist-propaganda",
       "zog-propaganda"

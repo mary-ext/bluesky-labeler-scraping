@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreiaeedqhbss3f4nsn7gyc7xglyvek7ywnz3gqvbkyow4b7qyupxqou",
+  "cid": "bafyreiasxhq3nfs6eajvy3k2ejd75sdpur733xlcir3rpfxgibmbok2o5e",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-04-02T19:59:16.666Z",
+  "indexedAt": "2026-04-09T13:19:52.060Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -136,6 +136,20 @@
       },
       {
         "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "m-fam",
+        "locales": [
+          {
+            "description": "This account seems to be a part of the 'mahmouds family' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
+            "lang": "en",
+            "name": "mahmouds family"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
         "identifier": "sus-new",
@@ -203,6 +217,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "impersonating-dead",
+        "locales": [
+          {
+            "description": "This account is impersonating a dead person.",
+            "lang": "en",
+            "name": "Impersonating dead"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -218,7 +246,9 @@
       "review",
       "sus",
       "cat-owner",
-      "dog-owner"
+      "dog-owner",
+      "m-fam",
+      "impersonating-dead"
     ]
   },
   "subjectTypes": [

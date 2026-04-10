@@ -1,0 +1,117 @@
+{
+  "uri": "at://did:plc:2hqbcy365topzgoci3oemywp/app.bsky.labeler.service/self",
+  "cid": "bafyreiegsh5qvm4f26yx5jt57hfotcawkdsh7fsjyurlo4eaf5zgns3xt4",
+  "creator": {
+    "did": "did:plc:2hqbcy365topzgoci3oemywp",
+    "handle": "alttextchamps.bsky.social",
+    "displayName": "Alt Text Champions Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2hqbcy365topzgoci3oemywp/bafkreiequeilbhsshxggvt62qbl3qcjgipsp7ol5ibtf4bprz4wnuqnmke",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:2hqbcy365topzgoci3oemywp",
+        "uri": "at://did:plc:2hqbcy365topzgoci3oemywp/app.bsky.actor.profile/self",
+        "cid": "bafyreicgwbd3qa2ndvxdsvtzigkh2uvam4idf6hxt7ogyps5s34ekyotbi",
+        "val": "bot",
+        "cts": "2026-04-08T23:56:55.681Z"
+      }
+    ],
+    "createdAt": "2026-04-08T23:56:56.990Z",
+    "description": "Labels accounts by counting alt text in their last 10 images. 9+ championship trophy. 7-8 gold. 4-6 silver. 1-3 bronze. 0 ALT-TIME LOSER. A procrastinating-instead-of-writing project by Kevin Ashton. Pfp/Background from BBC's \"We are the Champions.\"",
+    "indexedAt": "2026-04-09T03:56:27.351Z"
+  },
+  "indexedAt": "2026-04-09T22:53:00.854Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-champ",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "9-10 of their last 10 image posts have alt text",
+            "lang": "en",
+            "name": "🏆 Alt Text Champion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-gold",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "7-8 of their last 10 image posts have alt text",
+            "lang": "en",
+            "name": "🥇 Alt Text Gold"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-silver",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "4-6 of their last 10 image posts have alt text",
+            "lang": "en",
+            "name": "🥈 Alt Text Silver"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-bronze",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "1-3 of their last 10 image posts have alt text",
+            "lang": "en",
+            "name": "🥉 Alt Text Bronze"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-loser",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "0 of their last 10 image posts have alt text",
+            "lang": "en",
+            "name": "❌ Alt-Time Loser"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "alt-champ",
+      "alt-gold",
+      "alt-silver",
+      "alt-bronze",
+      "alt-loser"
+    ]
+  }
+}

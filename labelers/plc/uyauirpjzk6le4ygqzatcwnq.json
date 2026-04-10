@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreide3jg7bamrxdwampegyokbkbqu663c6p4r2pqo42ytb6yny5wyry",
+  "cid": "bafyreidz7mz6geoqavyxdfhib3jes4bpi24pc2p5qobwst4slqmlqwuria",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-04-08T23:11:45.254Z",
+  "indexedAt": "2026-04-09T11:11:45.452Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -431,12 +431,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "social-npmx",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the npmx.social PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "npmx.social"
           }
         ],
         "severity": "inform"
@@ -445,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-npmx",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the npmx.social PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "npmx.social"
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -591,6 +591,20 @@
             "description": "Account is hosted by the nihilist.cloud PDS",
             "lang": "en",
             "name": "nihilist.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--21",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-21.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-21.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -991,20 +1005,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--21",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-21.up.railway.app PDS",
-            "lang": "en",
-            "name": "certified-apppds-core-epds-pr-21.up.railway.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "wtf-lamp",
         "locales": [
           {
@@ -1137,6 +1137,20 @@
             "description": "Account is hosted by the pds.0.space PDS",
             "lang": "en",
             "name": "pds.0.space"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--48",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-48.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-48.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1383,6 +1397,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--55",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-55.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-55.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-bsea-pds1",
         "locales": [
           {
@@ -1420,34 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "moe-waf-at",
-        "locales": [
-          {
-            "description": "Account is hosted by the at.waf.moe PDS",
-            "lang": "en",
-            "name": "at.waf.moe"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--48",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-48.up.railway.app PDS",
-            "lang": "en",
-            "name": "certified-apppds-core-epds-pr-48.up.railway.app"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1480,8 +1480,8 @@
       "at-admat-bsx",
       "com-raceef-ds",
       "app-railway-up-karmas--e2e--pds",
-      "social-selfhosted",
       "social-npmx",
+      "social-selfhosted",
       "app-railway-up-certified--apppds--core--epds--pr--14",
       "com-mulgez-api",
       "social-northsky",
@@ -1492,6 +1492,7 @@
       "social-fluester-pds",
       "global-bsky",
       "cloud-nihilist",
+      "app-railway-up-certified--apppds--core--epds--pr--21",
       "org-climateai",
       "live-shxre",
       "space-cannect",
@@ -1520,7 +1521,6 @@
       "app-certified-test-epds1",
       "su-nyet",
       "ai-bigt-pds",
-      "app-railway-up-certified--apppds--core--epds--pr--21",
       "wtf-lamp",
       "xyz-syang-pds",
       "dev-fly-crimson--field--2410",
@@ -1531,6 +1531,7 @@
       "xyz-endchill-pds",
       "com-chrise-bsky",
       "space-0-pds",
+      "app-railway-up-certified--apppds--core--epds--pr--48",
       "social-gumby",
       "app-certified-test-pds1",
       "one-certified",
@@ -1548,11 +1549,10 @@
       "cc-mysocial-bsk",
       "cyou-shinigami",
       "ge-shadowcaster-bsky",
+      "app-railway-up-certified--apppds--core--epds--pr--55",
       "social-bsea-pds1",
       "surf-self",
-      "app-ocho",
-      "moe-waf-at",
-      "app-railway-up-certified--apppds--core--epds--pr--48"
+      "app-ocho"
     ]
   }
 }

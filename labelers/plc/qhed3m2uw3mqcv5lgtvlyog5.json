@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qhed3m2uw3mqcv5lgtvlyog5/app.bsky.labeler.service/self",
-  "cid": "bafyreihzamnfgcypa5xonexwzw5lspgqorhnx4n6oisvdqxairfgd4twmu",
+  "cid": "bafyreih3ogfmxax4djodb25n2mq2zhsi5bx75mb3rdueuqfeqvy2nutxei",
   "creator": {
     "did": "did:plc:qhed3m2uw3mqcv5lgtvlyog5",
     "handle": "verified.babesky.com",
@@ -17,20 +17,272 @@
     "description": "Subscribe to see adult industry creator labels, verified with AV by @Babesky.com 💖\n\nPlatform specific labels are opt-in (remove like to remove label): https://bsky.app/profile/verified.babesky.com/post/3mbtvkjjeak2v\n\n🔗 Browse Directory: club.babesky.com",
     "indexedAt": "2026-02-16T06:34:22.945Z"
   },
-  "indexedAt": "2026-02-22T04:09:03.051Z",
+  "indexedAt": "2026-04-09T20:38:00.552Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "warn",
+        "defaultSetting": "ignore",
         "identifier": "verified-creator",
         "locales": [
           {
-            "description": "Indicates this profile is a real creator who is age and ID verified through at least one widely recognized adult site.",
+            "description": "This account has been verified as a creator on this platform.",
             "lang": "en",
             "name": "Verified Creator"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "onlyfans",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Onlyfans.",
+            "lang": "en",
+            "name": "Onlyfans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "fansly",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Fansly.",
+            "lang": "en",
+            "name": "Fansly"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "tryst",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Tryst.",
+            "lang": "en",
+            "name": "Tryst"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "patreon",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Patreon.",
+            "lang": "en",
+            "name": "Patreon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "sextpanther",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Sextpanther.",
+            "lang": "en",
+            "name": "Sextpanther"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "niteflirt",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Niteflirt.",
+            "lang": "en",
+            "name": "Niteflirt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "myfreecams",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Myfreecams.",
+            "lang": "en",
+            "name": "Myfreecams"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "chaturbate",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Chaturbate.",
+            "lang": "en",
+            "name": "Chaturbate"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "manyvids",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Manyvids.",
+            "lang": "en",
+            "name": "Manyvids"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "twitch",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Twitch.",
+            "lang": "en",
+            "name": "Twitch"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "mintstars",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Mintstars.",
+            "lang": "en",
+            "name": "Mintstars"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "loyalfans",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Loyalfans.",
+            "lang": "en",
+            "name": "Loyalfans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "admireme",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Admireme.",
+            "lang": "en",
+            "name": "Admireme"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "justforfans",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Justforfans.",
+            "lang": "en",
+            "name": "Justforfans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "open-dms",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Open Dms.",
+            "lang": "en",
+            "name": "Open Dms"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "fmty",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Fmty.",
+            "lang": "en",
+            "name": "Fmty"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "customs",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Customs.",
+            "lang": "en",
+            "name": "Customs"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "premsnap",
+        "locales": [
+          {
+            "description": "This creator has claimed a presence on Premsnap.",
+            "lang": "en",
+            "name": "Premsnap"
           }
         ],
         "severity": "inform"
@@ -53,208 +305,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "onlyfans",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified OnlyFans creator.",
-            "lang": "en",
-            "name": "OnlyFans"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "fansly",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Fansly creator.",
-            "lang": "en",
-            "name": "Fansly"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "tryst",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Tryst provider.",
-            "lang": "en",
-            "name": "Tryst"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "patreon",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Patreon creator.",
-            "lang": "en",
-            "name": "Patreon"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "sextpanther",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Sextpanther model.",
-            "lang": "en",
-            "name": "Sextpanther"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "niteflirt",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Niteflirt model.",
-            "lang": "en",
-            "name": "Niteflirt"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "streamate",
         "locales": [
           {
             "description": "Indicates this profile is a verified Streamate model.",
             "lang": "en",
             "name": "Streamate"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "myfreecams",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified MyFreeCams model.",
-            "lang": "en",
-            "name": "MyFreeCams"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "chaturbate",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Chaturbate model.",
-            "lang": "en",
-            "name": "Chaturbate"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "manyvids",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified ManyVids creator.",
-            "lang": "en",
-            "name": "ManyVids"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "twitch",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Twitch creator.",
-            "lang": "en",
-            "name": "Twitch"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "mintstars",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified Mintstars creator.",
-            "lang": "en",
-            "name": "Mintstars"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "loyalfans",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified LoyalFans creator.",
-            "lang": "en",
-            "name": "LoyalFans"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "admireme",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified AdmireMe creator.",
-            "lang": "en",
-            "name": "AdmireMe"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "justforfans",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified JustForFans creator.",
-            "lang": "en",
-            "name": "JustForFans"
           }
         ],
         "severity": "inform"
@@ -305,34 +361,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "customs",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified model or creator who is offering custom content commissions.",
-            "lang": "en",
-            "name": "Available for Customs"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "premsnap",
-        "locales": [
-          {
-            "description": "Indicates this profile is a verified creator who is offering premium Snapchat subscriptions.",
-            "lang": "en",
-            "name": "Selling Premium Snapchat"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "spam-hide",
         "locales": [
           {
@@ -346,14 +374,12 @@
     ],
     "labelValues": [
       "verified-creator",
-      "babesky-official",
       "onlyfans",
       "fansly",
       "tryst",
       "patreon",
       "sextpanther",
       "niteflirt",
-      "streamate",
       "myfreecams",
       "chaturbate",
       "manyvids",
@@ -362,10 +388,14 @@
       "loyalfans",
       "admireme",
       "justforfans",
-      "openDMs",
-      "FMTY",
+      "open-dms",
+      "fmty",
       "customs",
-      "premsnap"
+      "premsnap",
+      "babesky-official",
+      "streamate",
+      "openDMs",
+      "FMTY"
     ]
   },
   "reasonTypes": [
