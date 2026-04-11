@@ -1,0 +1,51 @@
+{
+  "uri": "at://did:plc:sboy7tg4wrkonuxp4n7eknxs/app.bsky.labeler.service/self",
+  "cid": "bafyreie4jnfps2uazb47pnnwwgzsrpyiwn75jswvmsgfd4foxsa2nzl4ka",
+  "creator": {
+    "did": "did:plc:sboy7tg4wrkonuxp4n7eknxs",
+    "handle": "provyn-labeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sboy7tg4wrkonuxp4n7eknxs/bafkreidzvjy3dxvvcttxnpxe6cdiwitlxfaqhr4agohyeb6qh3oecfvm74",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-04-07T02:53:46.058Z",
+    "indexedAt": "2026-04-07T02:57:01.449Z"
+  },
+  "indexedAt": "2026-04-10T01:49:04.361Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "provyn-verified-author",
+        "locales": [
+          {
+            "description": "This image was verified as an original claim by Provyn.",
+            "lang": "en",
+            "name": "Verified Original Author"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "provyn-verified-author"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
+}
