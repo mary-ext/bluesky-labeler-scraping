@@ -1,0 +1,54 @@
+{
+  "uri": "at://did:plc:gm7ifwl7flkymfk6mjzt37st/app.bsky.labeler.service/self",
+  "cid": "bafyreiam4u5cdfzw4d36344sidsmc63aaen5ephe24agiew4ok2wapohia",
+  "creator": {
+    "did": "did:plc:gm7ifwl7flkymfk6mjzt37st",
+    "handle": "fucks.supply",
+    "displayName": "Fucks Supply",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gm7ifwl7flkymfk6mjzt37st/bafkreibc7utbn7ciuhl3ihyv22cqkni2yiot7lvavdsazhnrnhlccceihu",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2024-05-05T13:18:32.247Z",
+    "indexedAt": "2026-04-13T06:59:30.452Z"
+  },
+  "indexedAt": "2026-04-13T03:35:44.957Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "no-fucks",
+        "locales": [
+          {
+            "description": "This user has run out of fucks. Exercise extreme caution.",
+            "lang": "en",
+            "name": "No fucks left to give"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "no-fucks"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "tools.ozone.report.defs#reasonRuleOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.actor.profile",
+    "app.bsky.feed.post"
+  ]
+}
