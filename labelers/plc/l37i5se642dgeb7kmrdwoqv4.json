@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:l37i5se642dgeb7kmrdwoqv4/app.bsky.labeler.service/self",
-  "cid": "bafyreih7v72szwostxgsi7mrkmaneav3xu76v2yo2w3x3rdbypdybcsrke",
+  "cid": "bafyreihkflh3xikyjziliwi7h3bxvfkdz67ot4uilquag2hlbuxhy2nh5u",
   "creator": {
     "did": "did:plc:l37i5se642dgeb7kmrdwoqv4",
     "handle": "atls.city",
@@ -17,10 +17,27 @@
     "description": "Bringing the ATmosphere together\n\nGo to atls.city and find your place on the map.\n\nPersonalized feed: atls.city/go/near-you\n\nLive feed: atls.city/go/near-you-live\n\nCreated by @fema.monster and @richferro.com",
     "indexedAt": "2026-04-02T03:32:32.554Z"
   },
-  "indexedAt": "2026-02-21T07:25:16.755Z",
+  "indexedAt": "2026-04-14T19:06:21.563Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [],
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "atlas-user",
+        "locales": [
+          {
+            "description": "This account is a member of the ATlas community at atls.city",
+            "lang": "en",
+            "name": "ATlas User"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "atlas-user"
+    ]
   }
 }
