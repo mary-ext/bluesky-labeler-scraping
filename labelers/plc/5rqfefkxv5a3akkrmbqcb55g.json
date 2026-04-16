@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreiasxhq3nfs6eajvy3k2ejd75sdpur733xlcir3rpfxgibmbok2o5e",
+  "cid": "bafyreidxiennbxxrvrzublh4tnfdpdlsbk3a72ctxrwpdv7gk6jvlc3qai",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
-    "handle": "moderation.blueat.net",
+    "handle": "handle.invalid",
     "displayName": "BlueAT Moderation",
     "pronouns": "moderation account",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5rqfefkxv5a3akkrmbqcb55g/bafkreif5y3i5yybb67vaeoxsadrdi3md2nkevyki5yvxumrnkyvweubona",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-04-09T13:19:52.060Z",
+  "indexedAt": "2026-04-15T23:31:52.053Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -143,7 +143,7 @@
           {
             "description": "This account seems to be a part of the 'mahmouds family' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
             "lang": "en",
-            "name": "mahmouds family"
+            "name": "mahmouds family bot net"
           }
         ],
         "severity": "alert"
@@ -169,7 +169,7 @@
         "identifier": "review",
         "locales": [
           {
-            "description": "This identity (account) needs to be reviewed by their PDS's moderation service. ",
+            "description": "This identity (account) needs to be reviewed by their PDS's moderation service.",
             "lang": "en",
             "name": "Requires Review"
           }
@@ -183,7 +183,7 @@
         "identifier": "sus",
         "locales": [
           {
-            "description": "This identity (account) shows signs of suspicious activity./n/nLots of reposts, likes, and profile and/or comments seem to be AI-generated.",
+            "description": "This identity (account) shows signs of suspicious activity.\n\nLots of reposts, likes, and profile and/or comments seem to be AI-generated.",
             "lang": "en",
             "name": "Account acting suspicious"
           }
@@ -231,6 +231,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "a-fam",
+        "locales": [
+          {
+            "description": "This account seems to be a part of the 'Abdelfattah/Abed' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
+            "lang": "en",
+            "name": "Abdelfattah/Abed bot net"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -248,6 +262,7 @@
       "cat-owner",
       "dog-owner",
       "m-fam",
+      "a-fam",
       "impersonating-dead"
     ]
   },
