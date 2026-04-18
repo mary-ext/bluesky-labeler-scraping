@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreidxiennbxxrvrzublh4tnfdpdlsbk3a72ctxrwpdv7gk6jvlc3qai",
+  "cid": "bafyreify2a6onbsuorj7qivumuz5jwbj35tnp24gp6j2r7elpn5ggthyh4",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-04-15T23:31:52.053Z",
+  "indexedAt": "2026-04-17T12:41:26.752Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -245,6 +245,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "blueat-mod",
+        "locales": [
+          {
+            "description": "This user is a moderator, and has access to ozone.blueat.net",
+            "lang": "en",
+            "name": "BlueAT Moderator"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -263,7 +277,8 @@
       "dog-owner",
       "m-fam",
       "a-fam",
-      "impersonating-dead"
+      "impersonating-dead",
+      "blueat-mod"
     ]
   },
   "subjectTypes": [
