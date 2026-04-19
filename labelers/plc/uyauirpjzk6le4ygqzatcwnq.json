@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiebl2s7g3ez24g3j7p252no6vhdnurs26oswdp3l6s5t4cztrzzfa",
+  "cid": "bafyreiajpuavk575hiz53tfktgidlfuxhmvdwf4txmz7ii4odigheh7s7u",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-04-17T23:54:40.752Z",
+  "indexedAt": "2026-04-18T05:54:40.647Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -437,20 +437,6 @@
             "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
             "name": "selfhosted.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "es-peedee",
-        "locales": [
-          {
-            "description": "Account is hosted by the peedee.es PDS",
-            "lang": "en",
-            "name": "peedee.es"
           }
         ],
         "severity": "inform"
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-wsocial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "lang": "en",
+            "name": "pds.wsocial.network"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1481,7 +1481,6 @@
       "com-raceef-ds",
       "app-railway-up-karmas--e2e--pds",
       "social-selfhosted",
-      "es-peedee",
       "social-npmx",
       "social-northsky",
       "app-railway-up-certified--apppds--core--epds--pr--14",
@@ -1552,7 +1551,8 @@
       "blog-bestofmodels-bsky",
       "com-krisyotam-bsky",
       "at-podping-pds1",
-      "org-mpi--sws-mpi--bluesky--pds"
+      "org-mpi--sws-mpi--bluesky--pds",
+      "network-wsocial-pds"
     ]
   }
 }
