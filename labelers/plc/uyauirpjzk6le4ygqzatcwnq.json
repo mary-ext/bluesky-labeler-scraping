@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreick2luc5272337zjue7e7tqoygcetwrd4zpmvbfe7ta64vhmw63ju",
+  "cid": "bafyreihumvhjgh5tlrrstfi4hml7op67hghkwkfughjldmr46u44gv5fia",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-04-19T15:54:41.261Z",
+  "indexedAt": "2026-04-20T03:54:41.162Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -227,20 +227,6 @@
             "description": "Account is hosted by the pds.louisvillebsky.app PDS",
             "lang": "en",
             "name": "pds.louisvillebsky.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "quebec-stockage-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.stockage.quebec PDS",
-            "lang": "en",
-            "name": "pds.stockage.quebec"
           }
         ],
         "severity": "inform"
@@ -515,6 +501,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--pr--base",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-pr-base.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-pr-base.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "news-1440-pds",
         "locales": [
           {
@@ -549,20 +549,6 @@
             "description": "Account is hosted by the blam.pw PDS",
             "lang": "en",
             "name": "blam.pw"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--pr--base",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified-apppds-core-pr-base.up.railway.app PDS",
-            "lang": "en",
-            "name": "certified-apppds-core-pr-base.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -949,12 +935,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-witchcraft-pds",
+        "identifier": "club-nacg",
         "locales": [
           {
-            "description": "Account is hosted by the pds.witchcraft.systems PDS",
+            "description": "Account is hosted by the nacg.club PDS",
             "lang": "en",
-            "name": "pds.witchcraft.systems"
+            "name": "nacg.club"
           }
         ],
         "severity": "inform"
@@ -963,12 +949,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "club-nacg",
+        "identifier": "systems-witchcraft-pds",
         "locales": [
           {
-            "description": "Account is hosted by the nacg.club PDS",
+            "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
-            "name": "nacg.club"
+            "name": "pds.witchcraft.systems"
           }
         ],
         "severity": "inform"
@@ -1383,6 +1369,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-shxre-x",
+        "locales": [
+          {
+            "description": "Account is hosted by the x.shxre.net PDS",
+            "lang": "en",
+            "name": "x.shxre.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "blog-bestofmodels-bsky",
         "locales": [
           {
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-shxre-x",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the x.shxre.net PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "x.shxre.net"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -1466,7 +1466,6 @@
       "net-wafrn-app-at",
       "xyz-skystack",
       "app-louisvillebsky-pds",
-      "quebec-stockage-pds",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "online-k4zka-bs",
@@ -1486,10 +1485,10 @@
       "app-railway-up-certified--apppds--core--epds--pr--14",
       "com-mulgez-api",
       "app-railway-up-certified--apppds--core--epds--pr--84",
+      "app-railway-up-certified--apppds--core--pr--base",
       "news-1440-pds",
       "space-cannect-pds",
       "pw-blam",
-      "app-railway-up-certified--apppds--core--pr--base",
       "app-certified-test-pds--eu--west4",
       "app-railway-up-certified--apppds--core--epds--pr--21",
       "social-fluester-pds",
@@ -1517,8 +1516,8 @@
       "ro-aiia-pds",
       "com-arankwende",
       "app-certified-test-pds1",
-      "systems-witchcraft-pds",
       "club-nacg",
+      "systems-witchcraft-pds",
       "com-skeetcentral",
       "cafe-pckt-pds",
       "world-si46-pds--dev",
@@ -1548,11 +1547,12 @@
       "app-fudini-pds",
       "uk-madebydanny-rose",
       "chat-wolp-bark-bsky",
+      "net-shxre-x",
       "blog-bestofmodels-bsky",
       "com-krisyotam-bsky",
       "at-podping-pds1",
       "org-mpi--sws-mpi--bluesky--pds",
-      "net-shxre-x"
+      "network-wsocial-pds"
     ]
   }
 }

@@ -1,0 +1,69 @@
+{
+  "uri": "at://did:plc:rh3vjqs4npfpmnkkmx4u4bzj/app.bsky.labeler.service/self",
+  "cid": "bafyreie5wy24fqg7x47styapne76eg3u3ajdvr4widymnod2ekqsmi6ufy",
+  "creator": {
+    "did": "did:plc:rh3vjqs4npfpmnkkmx4u4bzj",
+    "handle": "alt-text-labeler.bsky.social",
+    "displayName": "Alt Text Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rh3vjqs4npfpmnkkmx4u4bzj/bafkreihwdrxq3elbjb2if52t3k7ol4qcc5epr7ijgwiwlhvrq4nyk7ybxu",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-12T21:41:31.247Z",
+    "description": "auto-labeling images without alt text\n\nstop whining and use alt-text already omg\n\nstatus: negotiating some annoying bluesky measures - no consistent service possible at this point",
+    "indexedAt": "2026-04-20T21:59:42.647Z"
+  },
+  "indexedAt": "2026-04-21T00:36:59.357Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "missing-alt-text",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post contains one or more still images and none of them has usable alt text.",
+            "lang": "en",
+            "name": "Missing Alt Text"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "partial-alt-text",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "This post contains multiple still images and only some of them have usable alt text.",
+            "lang": "en",
+            "name": "Partial Alt Text"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "missing-alt-text",
+      "partial-alt-text"
+    ]
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}

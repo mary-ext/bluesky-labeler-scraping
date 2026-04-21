@@ -1,0 +1,70 @@
+{
+  "uri": "at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self",
+  "cid": "bafyreidpzzcwutaksnvhve63cgfhh6igmaevrrpllpqmps37scwn43eqxa",
+  "creator": {
+    "did": "did:plc:pswneepkd5lesumj7ejmkbal",
+    "handle": "orglabeler.certified.one",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-04-20T04:05:09.149Z",
+    "indexedAt": "2026-04-20T04:05:09.149Z"
+  },
+  "indexedAt": "2026-04-20T04:22:01.745Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "likely-test",
+        "locales": [
+          {
+            "description": "This certified actor organization appears to contain test or placeholder data.",
+            "lang": "en",
+            "name": "⚠ Likely Test"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "standard",
+        "locales": [
+          {
+            "description": "A certified actor organization with basic profile information in place.",
+            "lang": "en",
+            "name": "● Standard"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-quality",
+        "locales": [
+          {
+            "description": "A certified actor organization with complete, well-documented profile details.",
+            "lang": "en",
+            "name": "✦ High Quality"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "likely-test",
+      "standard",
+      "high-quality"
+    ]
+  }
+}
