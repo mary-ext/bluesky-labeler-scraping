@@ -1,0 +1,78 @@
+{
+  "uri": "at://did:plc:gyh4pns3p2l3vg6fw52lefvj/app.bsky.labeler.service/self",
+  "cid": "bafyreihku2m6fnvbh5quwbvoth5vkpfs7d5tooxejdvh5mr47yqr6uoenq",
+  "creator": {
+    "did": "did:plc:gyh4pns3p2l3vg6fw52lefvj",
+    "handle": "snubstack.boo",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gyh4pns3p2l3vg6fw52lefvj/bafkreichk45os5mleyrcgqgwvaoiwnvc3bf6l6szi7iko7zm6yprasisae",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-04-22T00:55:57.447Z",
+    "indexedAt": "2026-04-22T00:56:31.148Z"
+  },
+  "indexedAt": "2026-04-22T02:52:52.953Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "substack",
+        "locales": [
+          {
+            "description": "Post contains a link to a Substack publication.",
+            "lang": "en",
+            "name": "Substack"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "nytimes",
+        "locales": [
+          {
+            "description": "Post contains a link to nytimes.com.",
+            "lang": "en",
+            "name": "NYTimes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "cbsnews",
+        "locales": [
+          {
+            "description": "Post contains a link to cbsnews.com.",
+            "lang": "en",
+            "name": "CBS News"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "substack",
+      "nytimes",
+      "cbsnews"
+    ]
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}
