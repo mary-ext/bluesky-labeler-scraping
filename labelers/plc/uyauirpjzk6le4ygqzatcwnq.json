@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreif2uaauueszbpqsuoqpsx3ngmdt2fwjybuao5luohpqvfovz3tpbe",
+  "cid": "bafyreifqifdvhckztewhaivntuogf34vsqlb6rhzrfyx4lzrd4cqwe34qq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-04-23T08:48:43.753Z",
+  "indexedAt": "2026-04-24T18:48:38.757Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -641,6 +641,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "org-climateai",
+        "locales": [
+          {
+            "description": "Account is hosted by the climateai.org PDS",
+            "lang": "en",
+            "name": "climateai.org"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "global-bsky",
         "locales": [
           {
@@ -703,20 +717,6 @@
             "description": "Account is hosted by the nihilist.cloud PDS",
             "lang": "en",
             "name": "nihilist.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "org-climateai",
-        "locales": [
-          {
-            "description": "Account is hosted by the climateai.org PDS",
-            "lang": "en",
-            "name": "climateai.org"
           }
         ],
         "severity": "inform"
@@ -907,6 +907,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-test-pds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds1.test.certified.app PDS",
+            "lang": "en",
+            "name": "pds1.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -941,20 +955,6 @@
             "description": "Account is hosted by the epds-poc1.test.certified.app PDS",
             "lang": "en",
             "name": "epds-poc1.test.certified.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1.test.certified.app PDS",
-            "lang": "en",
-            "name": "pds1.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -1173,6 +1173,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-haruhwa",
+        "locales": [
+          {
+            "description": "Account is hosted by the haruhwa.com PDS",
+            "lang": "en",
+            "name": "haruhwa.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-hsuanyuchou-taipei",
         "locales": [
           {
@@ -1193,20 +1207,6 @@
             "description": "Account is hosted by the crimson-field-2410.fly.dev PDS",
             "lang": "en",
             "name": "crimson-field-2410.fly.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-haruhwa",
-        "locales": [
-          {
-            "description": "Account is hosted by the haruhwa.com PDS",
-            "lang": "en",
-            "name": "haruhwa.com"
           }
         ],
         "severity": "inform"
@@ -1257,12 +1257,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "es-nobitch-bpds",
+        "identifier": "one-certified",
         "locales": [
           {
-            "description": "Account is hosted by the bpds.nobitch.es PDS",
+            "description": "Account is hosted by the certified.one PDS",
             "lang": "en",
-            "name": "bpds.nobitch.es"
+            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -1271,12 +1271,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "one-certified",
+        "identifier": "es-nobitch-bpds",
         "locales": [
           {
-            "description": "Account is hosted by the certified.one PDS",
+            "description": "Account is hosted by the bpds.nobitch.es PDS",
             "lang": "en",
-            "name": "certified.one"
+            "name": "bpds.nobitch.es"
           }
         ],
         "severity": "inform"
@@ -1397,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-fudini-pds",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.fudini.app PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "pds.fudini.app"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -1411,12 +1411,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
+        "identifier": "app-fudini-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "description": "Account is hosted by the pds.fudini.app PDS",
             "lang": "en",
-            "name": "pds.wsocial.network"
+            "name": "pds.fudini.app"
           }
         ],
         "severity": "inform"
@@ -1495,12 +1495,12 @@
       "app-railway-up-certified--apppds--core--epds--pr--21",
       "social-fluester-pds",
       "app-railway-up-certified--apppds--core--epds--pr--103",
+      "org-climateai",
       "global-bsky",
       "app-railway-up-certified--apppds--core--epds--pr--64",
       "live-shxre",
       "me-opnmt-pds",
       "cloud-nihilist",
-      "org-climateai",
       "space-cannect",
       "social-fazen",
       "cloud-hstgr-srv865737",
@@ -1514,10 +1514,10 @@
       "social-casjay",
       "com-atheistmass-pds",
       "bot-mirrors",
+      "app-certified-test-pds1",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "app-certified-test-epds--poc1",
-      "app-certified-test-pds1",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
       "com-arankwende",
@@ -1533,14 +1533,14 @@
       "ai-bigt-pds",
       "wtf-lamp",
       "xyz-syang-pds",
+      "com-haruhwa",
       "net-hsuanyuchou-taipei",
       "dev-fly-crimson--field--2410",
-      "com-haruhwa",
       "app-certified-test-sds--eu--west4",
       "social-seabikes",
       "online-magallan",
-      "es-nobitch-bpds",
       "one-certified",
+      "es-nobitch-bpds",
       "xyz-endchill-pds",
       "com-chrise-bsky",
       "space-0-pds",
@@ -1549,8 +1549,8 @@
       "network-certs-pds",
       "surf-self",
       "shop-si46",
-      "app-fudini-pds",
       "network-wsocial-pds",
+      "app-fudini-pds",
       "uk-madebydanny-rose",
       "chat-wolp-bark-bsky"
     ]
