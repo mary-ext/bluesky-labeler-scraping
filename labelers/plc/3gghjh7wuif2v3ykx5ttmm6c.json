@@ -1,0 +1,83 @@
+{
+  "uri": "at://did:plc:3gghjh7wuif2v3ykx5ttmm6c/app.bsky.labeler.service/self",
+  "cid": "bafyreidxe6m5t7xk3tivhkpz6domjpdukkqcbjzjqin5hvdogumqicy2te",
+  "creator": {
+    "did": "did:plc:3gghjh7wuif2v3ykx5ttmm6c",
+    "handle": "stemlabels.xyz",
+    "displayName": "STEM Moderation & Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3gghjh7wuif2v3ykx5ttmm6c/bafkreidotlhztsl3jc6d3gtueuvmvweduka6f4ejtpkotluu6pso24tbmi",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-04-23T21:16:55.547Z",
+    "description": "A STEM labeler for the scientists, engineers, and academics across the Atmosphere\n\nCreated by @richferro.com\nSupport:  https://ko-fi.com/richferro",
+    "indexedAt": "2026-04-25T08:26:41.844Z"
+  },
+  "indexedAt": "2026-04-25T08:32:39.151Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "mod-science-denial",
+        "locales": [
+          {
+            "description": "Content that rejects, misrepresents, or contradicts well-established scientific consensus without credible evidence.",
+            "lang": "en",
+            "name": "⚠ Science Misinformation"
+          },
+          {
+            "description": "Contenido que rechaza, tergiversa o contradice el consenso científico bien establecido sin pruebas creíbles.",
+            "lang": "es",
+            "name": "⚠ Desinformación Científica"
+          },
+          {
+            "description": "Conteúdo que rejeita, distorce ou contradiz o consenso científico bem estabelecido, sem evidências críveis.",
+            "lang": "pt",
+            "name": "⚠ Desinformação Científica"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "mod-aggregator",
+        "locales": [
+          {
+            "description": "Accounts that frequently engage in sharing sensationalized or inaccurate scientific or science-adjacent content, or science content without proper attribution or source verification. This content is frequently generated or paraphrased using AI tools, and may distort, oversimplify, or sensationalize original research for the purpose of maximizing engagement.",
+            "lang": "en",
+            "name": "⚠ Science Aggregator"
+          },
+          {
+            "description": "Cuentas que se dedican con frecuencia a compartir contenido científico —o relacionado con la ciencia— de carácter sensacionalista o inexacto, o bien contenido científico sin la debida atribución o verificación de fuentes. Este contenido suele ser generado o parafraseado mediante herramientas de inteligencia artificial, y puede distorsionar, simplificar en exceso o sensacionalizar las investigaciones originales con el fin de maximizar la interacción.",
+            "lang": "es",
+            "name": "⚠ Spam Científico"
+          },
+          {
+            "description": "Contas que frequentemente compartilham conteúdo científico — ou relacionado à ciência — de natureza sensacionalista ou imprecisa, ou conteúdo científico sem a devida atribuição ou verificação de fontes. Esse conteúdo é frequentemente gerado ou parafraseado com o auxílio de ferramentas de IA, podendo distorcer, simplificar excessivamente ou sensacionalizar pesquisas originais com o objetivo de maximizar o engajamento.",
+            "lang": "pt",
+            "name": "⚠ Spam Científico"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "mod-science-denial",
+      "mod-aggregator"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ]
+}
