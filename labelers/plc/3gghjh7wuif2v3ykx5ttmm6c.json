@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:3gghjh7wuif2v3ykx5ttmm6c/app.bsky.labeler.service/self",
-  "cid": "bafyreidxe6m5t7xk3tivhkpz6domjpdukkqcbjzjqin5hvdogumqicy2te",
+  "cid": "bafyreiew3ahrf2rjwjnet74ivshkm3wvftnsy6s5i3rbqj3z3akxida5re",
   "creator": {
     "did": "did:plc:3gghjh7wuif2v3ykx5ttmm6c",
     "handle": "stemlabels.xyz",
@@ -8,6 +8,9 @@
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3gghjh7wuif2v3ykx5ttmm6c/bafkreidotlhztsl3jc6d3gtueuvmvweduka6f4ejtpkotluu6pso24tbmi",
     "associated": {
       "labeler": true,
+      "chat": {
+        "allowIncoming": "all"
+      },
       "activitySubscription": {
         "allowSubscriptions": "followers"
       }
@@ -15,9 +18,9 @@
     "labels": [],
     "createdAt": "2026-04-23T21:16:55.547Z",
     "description": "A STEM labeler for the scientists, engineers, and academics across the Atmosphere\n\nCreated by @richferro.com\nSupport:  https://ko-fi.com/richferro",
-    "indexedAt": "2026-04-25T08:26:41.844Z"
+    "indexedAt": "2026-04-27T04:08:51.847Z"
   },
-  "indexedAt": "2026-04-25T08:32:39.151Z",
+  "indexedAt": "2026-04-27T23:16:24.176Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,17 +31,17 @@
         "identifier": "mod-science-denial",
         "locales": [
           {
-            "description": "Content that rejects, misrepresents, or contradicts well-established scientific consensus without credible evidence.",
+            "description": "Content that rejects, misrepresents, or contradicts well-established scientific consensus without credible evidence.\n\nAlways verify that science information in social media posts is accurate before sharing it.",
             "lang": "en",
             "name": "⚠ Science Misinformation"
           },
           {
-            "description": "Contenido que rechaza, tergiversa o contradice el consenso científico bien establecido sin pruebas creíbles.",
+            "description": "Contenido que rechaza, tergiversa o contradice el consenso científico bien establecido sin pruebas creíbles.\n\nVerifica siempre que la información científica en las publicaciones de redes sociales sea precisa antes de compartirla.",
             "lang": "es",
             "name": "⚠ Desinformación Científica"
           },
           {
-            "description": "Conteúdo que rejeita, distorce ou contradiz o consenso científico bem estabelecido, sem evidências críveis.",
+            "description": "Conteúdo que rejeita, distorce ou contradiz o consenso científico bem estabelecido, sem evidências críveis.\n\nSempre verifique se as informações científicas em postagens nas redes sociais são precisas antes de compartilhá-las.",
             "lang": "pt",
             "name": "⚠ Desinformação Científica"
           }
@@ -52,27 +55,6897 @@
         "identifier": "mod-aggregator",
         "locales": [
           {
-            "description": "Accounts that frequently engage in sharing sensationalized or inaccurate scientific or science-adjacent content, or science content without proper attribution or source verification. This content is frequently generated or paraphrased using AI tools, and may distort, oversimplify, or sensationalize original research for the purpose of maximizing engagement.",
+            "description": "Accounts that frequently engage in sharing sensationalized or inaccurate scientific content, or share science content without proper attribution or source verification. This content is frequently generated or paraphrased using AI tools, and may distort, oversimplify, or exaggerate original research for the purpose of maximizing engagement.\n\nAlways verify that science information in social media posts is accurate before sharing it.",
             "lang": "en",
             "name": "⚠ Science Aggregator"
           },
           {
-            "description": "Cuentas que se dedican con frecuencia a compartir contenido científico —o relacionado con la ciencia— de carácter sensacionalista o inexacto, o bien contenido científico sin la debida atribución o verificación de fuentes. Este contenido suele ser generado o parafraseado mediante herramientas de inteligencia artificial, y puede distorsionar, simplificar en exceso o sensacionalizar las investigaciones originales con el fin de maximizar la interacción.",
+            "description": "Cuentas que se dedican con frecuencia a compartir contenido científico sensacionalista o inexacto, o que comparten contenido científico sin la debida atribución o verificación de las fuentes. Este contenido suele generarse o parafrasearse mediante herramientas de inteligencia artificial, y puede distorsionar, simplificar en exceso o exagerar las investigaciones originales con el fin de maximizar la interacción.\n\nVerifica siempre que la información científica en las publicaciones de redes sociales sea precisa antes de compartirla.",
             "lang": "es",
             "name": "⚠ Spam Científico"
           },
           {
-            "description": "Contas que frequentemente compartilham conteúdo científico — ou relacionado à ciência — de natureza sensacionalista ou imprecisa, ou conteúdo científico sem a devida atribuição ou verificação de fontes. Esse conteúdo é frequentemente gerado ou parafraseado com o auxílio de ferramentas de IA, podendo distorcer, simplificar excessivamente ou sensacionalizar pesquisas originais com o objetivo de maximizar o engajamento.",
+            "description": "Contas que frequentemente compartilham conteúdo científico sensacionalista ou impreciso, ou que compartilham conteúdo científico sem a devida atribuição ou verificação das fontes. Esse conteúdo é frequentemente gerado ou parafraseado com o auxílio de ferramentas de IA, podendo distorcer, simplificar excessivamente ou exagerar as pesquisas originais com o objetivo de maximizar o engajamento.\n\nSempre verifique se as informações científicas em postagens nas redes sociais são precisas antes de compartilhá-las.",
             "lang": "pt",
             "name": "⚠ Spam Científico"
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biological-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biological Engineering",
+            "lang": "en",
+            "name": "Biological Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioacoustics",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioacoustics",
+            "lang": "en",
+            "name": "Bioacoustics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioengineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioengineering",
+            "lang": "en",
+            "name": "Bioengineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomedical-optics",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomedical Optics",
+            "lang": "en",
+            "name": "Biomedical Optics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biosignal-processing",
+        "locales": [
+          {
+            "description": "This user works in the field of Biosignal Processing",
+            "lang": "en",
+            "name": "Biosignal Processing"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biochemical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biochemical Engineering",
+            "lang": "en",
+            "name": "Biochemical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cellular-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Cellular Engineering",
+            "lang": "en",
+            "name": "Cellular Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "protein-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Protein Engineering",
+            "lang": "en",
+            "name": "Protein Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "systems-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Systems Biology",
+            "lang": "en",
+            "name": "Systems Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "synthetic-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Synthetic Biology",
+            "lang": "en",
+            "name": "Synthetic Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "agricultural-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Agricultural Engineering",
+            "lang": "en",
+            "name": "Agricultural Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "aquaculture-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Aquaculture Engineering",
+            "lang": "en",
+            "name": "Aquaculture Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioinstrumentation",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioinstrumentation",
+            "lang": "en",
+            "name": "Bioinstrumentation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biological-systems-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biological Systems Engineering",
+            "lang": "en",
+            "name": "Biological Systems Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomechanical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomechanical Engineering",
+            "lang": "en",
+            "name": "Biomechanical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomechanics",
+            "lang": "en",
+            "name": "Biomechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomechatronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomechatronics",
+            "lang": "en",
+            "name": "Biomechatronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomedical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomedical Engineering",
+            "lang": "en",
+            "name": "Biomedical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomedical-nanoengineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomedical Nanoengineering",
+            "lang": "en",
+            "name": "Biomedical Nanoengineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomolecular-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomolecular Engineering",
+            "lang": "en",
+            "name": "Biomolecular Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioprocess-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioprocess Engineering",
+            "lang": "en",
+            "name": "Bioprocess Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioresource-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioresource Engineering",
+            "lang": "en",
+            "name": "Bioresource Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biosystems-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biosystems Engineering",
+            "lang": "en",
+            "name": "Biosystems Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biotechnical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biotechnical Engineering",
+            "lang": "en",
+            "name": "Biotechnical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "clinical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Clinical Engineering",
+            "lang": "en",
+            "name": "Clinical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ecological-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Ecological Engineering",
+            "lang": "en",
+            "name": "Ecological Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "food-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Food Engineering",
+            "lang": "en",
+            "name": "Food Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "forestry",
+        "locales": [
+          {
+            "description": "This user works in the field of Forestry",
+            "lang": "en",
+            "name": "Forestry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "genetic-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Genetic Engineering",
+            "lang": "en",
+            "name": "Genetic Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "health-and-safety-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Health & Safety Engineering",
+            "lang": "en",
+            "name": "Health & Safety Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "medical-imaging",
+        "locales": [
+          {
+            "description": "This user works in the field of Medical Imaging",
+            "lang": "en",
+            "name": "Medical Imaging"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "microbiological-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Microbiological Engineering",
+            "lang": "en",
+            "name": "Microbiological Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "natural-resources-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Natural Resources Engineering",
+            "lang": "en",
+            "name": "Natural Resources Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "neural-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Neural Engineering",
+            "lang": "en",
+            "name": "Neural Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "pharmaceutical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Pharmaceutical Engineering",
+            "lang": "en",
+            "name": "Pharmaceutical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "rehabilitation-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Rehabilitation Engineering",
+            "lang": "en",
+            "name": "Rehabilitation Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "tissue-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Tissue Engineering",
+            "lang": "en",
+            "name": "Tissue Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "medical-research",
+        "locales": [
+          {
+            "description": "This user works in the field of Medical Research",
+            "lang": "en",
+            "name": "Medical Research"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biomaterials-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Biomaterials Engineering",
+            "lang": "en",
+            "name": "Biomaterials Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "architectural-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Architectural Engineering",
+            "lang": "en",
+            "name": "Architectural Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "civil-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Civil Engineering",
+            "lang": "en",
+            "name": "Civil Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geotechnical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Geotechnical Engineering",
+            "lang": "en",
+            "name": "Geotechnical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mining-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Mining Engineering",
+            "lang": "en",
+            "name": "Mining Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "municipal-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Municipal Engineering",
+            "lang": "en",
+            "name": "Municipal Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "structural-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Structural Engineering",
+            "lang": "en",
+            "name": "Structural Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "transport-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Transport Engineering",
+            "lang": "en",
+            "name": "Transport Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "urban-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Urban Engineering",
+            "lang": "en",
+            "name": "Urban Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "urban-planning",
+        "locales": [
+          {
+            "description": "This user works in the field of Urban Planning",
+            "lang": "en",
+            "name": "Urban Planning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "water-resource-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Water Resource Engineering",
+            "lang": "en",
+            "name": "Water Resource Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "sanitary-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Sanitary Engineering",
+            "lang": "en",
+            "name": "Sanitary Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "fire-protection-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Fire Protection Engineering",
+            "lang": "en",
+            "name": "Fire Protection Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "hydraulic-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Hydraulic Engineering",
+            "lang": "en",
+            "name": "Hydraulic Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "river-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of River Engineering",
+            "lang": "en",
+            "name": "River Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "coastal-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Coastal Engineering",
+            "lang": "en",
+            "name": "Coastal Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "groundwater-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Groundwater Engineering",
+            "lang": "en",
+            "name": "Groundwater Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "traffic-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Traffic Engineering",
+            "lang": "en",
+            "name": "Traffic Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "highway-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Highway Engineering",
+            "lang": "en",
+            "name": "Highway Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "earthquake-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Earthquake Engineering",
+            "lang": "en",
+            "name": "Earthquake Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "wind-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Wind Engineering",
+            "lang": "en",
+            "name": "Wind Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ocean-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Ocean Engineering",
+            "lang": "en",
+            "name": "Ocean Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "control-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Control Engineering",
+            "lang": "en",
+            "name": "Control Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electrical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Electrical Engineering",
+            "lang": "en",
+            "name": "Electrical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "fossil-fuel-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Fossil Fuel Engineering",
+            "lang": "en",
+            "name": "Fossil Fuel Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geothermal-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Geothermal Engineering",
+            "lang": "en",
+            "name": "Geothermal Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "hardware-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Hardware Engineering",
+            "lang": "en",
+            "name": "Hardware Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mechatronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Mechatronics",
+            "lang": "en",
+            "name": "Mechatronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nanoelectronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Nanoelectronics",
+            "lang": "en",
+            "name": "Nanoelectronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "optoelectronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Optoelectronics",
+            "lang": "en",
+            "name": "Optoelectronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "photonics",
+        "locales": [
+          {
+            "description": "This user works in the field of Photonics",
+            "lang": "en",
+            "name": "Photonics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Power Engineering",
+            "lang": "en",
+            "name": "Power Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "radio-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Radio Engineering",
+            "lang": "en",
+            "name": "Radio Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "renewable-energy-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Renewable Energy Engineering",
+            "lang": "en",
+            "name": "Renewable Energy Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "solar-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Solar Engineering",
+            "lang": "en",
+            "name": "Solar Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "wind-energy-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Wind Energy Engineering",
+            "lang": "en",
+            "name": "Wind Energy Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Electronics",
+            "lang": "en",
+            "name": "Electronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "analog-electronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Analog Electronics",
+            "lang": "en",
+            "name": "Analog Electronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "digital-electronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Digital Electronics",
+            "lang": "en",
+            "name": "Digital Electronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "consumer-electronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Consumer Electronics",
+            "lang": "en",
+            "name": "Consumer Electronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "embedded-systems",
+        "locales": [
+          {
+            "description": "This user works in the field of Embedded Systems",
+            "lang": "en",
+            "name": "Embedded Systems"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-electronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Power Electronics",
+            "lang": "en",
+            "name": "Power Electronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-system-planning",
+        "locales": [
+          {
+            "description": "This user works in the field of Power System Planning",
+            "lang": "en",
+            "name": "Power System Planning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-system-design",
+        "locales": [
+          {
+            "description": "This user works in the field of Power System Design",
+            "lang": "en",
+            "name": "Power System Design"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-system-operations",
+        "locales": [
+          {
+            "description": "This user works in the field of Power System Operations",
+            "lang": "en",
+            "name": "Power System Operations"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-system-protection",
+        "locales": [
+          {
+            "description": "This user works in the field of Power System Protection",
+            "lang": "en",
+            "name": "Power System Protection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "high-voltage-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of High Voltage Engineering",
+            "lang": "en",
+            "name": "High Voltage Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "hydroelectric-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Hydroelectric Engineering",
+            "lang": "en",
+            "name": "Hydroelectric Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cloud-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Cloud Engineering",
+            "lang": "en",
+            "name": "Cloud Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computer-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Computer Engineering",
+            "lang": "en",
+            "name": "Computer Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computer-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Computer Science",
+            "lang": "en",
+            "name": "Computer Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cybersecurity-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Cybersecurity Engineering",
+            "lang": "en",
+            "name": "Cybersecurity Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "information-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Information Engineering",
+            "lang": "en",
+            "name": "Information Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "information-technology",
+        "locales": [
+          {
+            "description": "This user works in the field of Information Technology",
+            "lang": "en",
+            "name": "Information Technology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "network-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Network Engineering",
+            "lang": "en",
+            "name": "Network Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "software-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Software Engineering",
+            "lang": "en",
+            "name": "Software Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "simulation-and-modeling",
+        "locales": [
+          {
+            "description": "This user works in the field of Simulation & Modeling",
+            "lang": "en",
+            "name": "Simulation & Modeling"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "control-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Control Theory",
+            "lang": "en",
+            "name": "Control Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "signal-processing",
+        "locales": [
+          {
+            "description": "This user works in the field of Signal Processing",
+            "lang": "en",
+            "name": "Signal Processing"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "image-processing",
+        "locales": [
+          {
+            "description": "This user works in the field of Image Processing",
+            "lang": "en",
+            "name": "Image Processing"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "information-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Information Theory",
+            "lang": "en",
+            "name": "Information Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computer-vision",
+        "locales": [
+          {
+            "description": "This user works in the field of Computer Vision",
+            "lang": "en",
+            "name": "Computer Vision"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "natural-language-processing",
+        "locales": [
+          {
+            "description": "This user works in the field of Natural Language Processing",
+            "lang": "en",
+            "name": "Natural Language Processing"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "medical-image-computing",
+        "locales": [
+          {
+            "description": "This user works in the field of Medical Image Computing",
+            "lang": "en",
+            "name": "Medical Image Computing"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "autonomous-robotics",
+        "locales": [
+          {
+            "description": "This user works in the field of Autonomous Robotics",
+            "lang": "en",
+            "name": "Autonomous Robotics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mobile-robotics",
+        "locales": [
+          {
+            "description": "This user works in the field of Mobile Robotics",
+            "lang": "en",
+            "name": "Mobile Robotics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cryptographic-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Cryptographic Engineering",
+            "lang": "en",
+            "name": "Cryptographic Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "web-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Web Engineering",
+            "lang": "en",
+            "name": "Web Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "teletraffic-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Teletraffic Engineering",
+            "lang": "en",
+            "name": "Teletraffic Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "network-maintenance",
+        "locales": [
+          {
+            "description": "This user works in the field of Network Maintenance",
+            "lang": "en",
+            "name": "Network Maintenance"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "it-system-security",
+        "locales": [
+          {
+            "description": "This user works in the field of IT System Security",
+            "lang": "en",
+            "name": "IT System Security"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "penetration-testing",
+        "locales": [
+          {
+            "description": "This user works in the field of Penetration Testing",
+            "lang": "en",
+            "name": "Penetration Testing"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "artificial-intelligence",
+        "locales": [
+          {
+            "description": "This user works in the field of Artificial Intelligence",
+            "lang": "en",
+            "name": "Artificial Intelligence"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioinformatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioinformatics",
+            "lang": "en",
+            "name": "Bioinformatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "data-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Data Science",
+            "lang": "en",
+            "name": "Data Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "machine-learning",
+        "locales": [
+          {
+            "description": "This user works in the field of Machine Learning",
+            "lang": "en",
+            "name": "Machine Learning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "telecomm-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Telecomm Engineering",
+            "lang": "en",
+            "name": "Telecomm Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "telecommunications",
+        "locales": [
+          {
+            "description": "This user works in the field of Telecommunications",
+            "lang": "en",
+            "name": "Telecommunications"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "applied-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Applied Engineering",
+            "lang": "en",
+            "name": "Applied Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cartography",
+        "locales": [
+          {
+            "description": "This user works in the field of Cartography",
+            "lang": "en",
+            "name": "Cartography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "engineering-management",
+        "locales": [
+          {
+            "description": "This user works in the field of Engineering Management",
+            "lang": "en",
+            "name": "Engineering Management"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "environmental-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Environmental Engineering",
+            "lang": "en",
+            "name": "Environmental Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ergonomics",
+        "locales": [
+          {
+            "description": "This user works in the field of Ergonomics",
+            "lang": "en",
+            "name": "Ergonomics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "forensic-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Forensic Science",
+            "lang": "en",
+            "name": "Forensic Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geological-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Geological Engineering",
+            "lang": "en",
+            "name": "Geological Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geomatics-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Geomatics Engineering",
+            "lang": "en",
+            "name": "Geomatics Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "industrial-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Industrial Engineering",
+            "lang": "en",
+            "name": "Industrial Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "instrumentation-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Instrumentation Engineering",
+            "lang": "en",
+            "name": "Instrumentation Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "military-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Military Engineering",
+            "lang": "en",
+            "name": "Military Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nuclear-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Nuclear Engineering",
+            "lang": "en",
+            "name": "Nuclear Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "process-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Process Engineering",
+            "lang": "en",
+            "name": "Process Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Engineering",
+            "lang": "en",
+            "name": "Quantum Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "robotics",
+        "locales": [
+          {
+            "description": "This user works in the field of Robotics",
+            "lang": "en",
+            "name": "Robotics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "scientific-illustration",
+        "locales": [
+          {
+            "description": "This user works in the field of Scientific Illustration",
+            "lang": "en",
+            "name": "Scientific Illustration"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "sustainability",
+        "locales": [
+          {
+            "description": "This user works in the field of Sustainability",
+            "lang": "en",
+            "name": "Sustainability"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "systems-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Systems Engineering",
+            "lang": "en",
+            "name": "Systems Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "supply-chain-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Supply Chain Engineering",
+            "lang": "en",
+            "name": "Supply Chain Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "textile-fashion-and-design",
+        "locales": [
+          {
+            "description": "This user works in the field of Textile Fashion & Design",
+            "lang": "en",
+            "name": "Textile Fashion & Design"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nuclear-reactor-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Nuclear Reactor Engineering",
+            "lang": "en",
+            "name": "Nuclear Reactor Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "radiation-protection",
+        "locales": [
+          {
+            "description": "This user works in the field of Radiation Protection",
+            "lang": "en",
+            "name": "Radiation Protection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "fusion-energy",
+        "locales": [
+          {
+            "description": "This user works in the field of Fusion Energy",
+            "lang": "en",
+            "name": "Fusion Energy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "petroleum-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Petroleum Engineering",
+            "lang": "en",
+            "name": "Petroleum Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "production-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Production Engineering",
+            "lang": "en",
+            "name": "Production Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "drilling-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Drilling Engineering",
+            "lang": "en",
+            "name": "Drilling Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "reservoir-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Reservoir Engineering",
+            "lang": "en",
+            "name": "Reservoir Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "surface-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Surface Science",
+            "lang": "en",
+            "name": "Surface Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ceramic-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Ceramic Engineering",
+            "lang": "en",
+            "name": "Ceramic Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chemical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Chemical Engineering",
+            "lang": "en",
+            "name": "Chemical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "composite-material",
+        "locales": [
+          {
+            "description": "This user works in the field of Composite Material",
+            "lang": "en",
+            "name": "Composite Material"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computational-materials-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Computational Materials Science",
+            "lang": "en",
+            "name": "Computational Materials Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "corrosion-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Corrosion Engineering",
+            "lang": "en",
+            "name": "Corrosion Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "material-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Material Engineering",
+            "lang": "en",
+            "name": "Material Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "metallurgical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Metallurgical Engineering",
+            "lang": "en",
+            "name": "Metallurgical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "molecular-dynamics",
+        "locales": [
+          {
+            "description": "This user works in the field of Molecular Dynamics",
+            "lang": "en",
+            "name": "Molecular Dynamics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nanoengineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Nanoengineering",
+            "lang": "en",
+            "name": "Nanoengineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nanomaterials",
+        "locales": [
+          {
+            "description": "This user works in the field of Nanomaterials",
+            "lang": "en",
+            "name": "Nanomaterials"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nanotechnology",
+        "locales": [
+          {
+            "description": "This user works in the field of Nanotechnology",
+            "lang": "en",
+            "name": "Nanotechnology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "polymer-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Polymer Engineering",
+            "lang": "en",
+            "name": "Polymer Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "semiconductors",
+        "locales": [
+          {
+            "description": "This user works in the field of Semiconductors",
+            "lang": "en",
+            "name": "Semiconductors"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "textile-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Textile Engineering",
+            "lang": "en",
+            "name": "Textile Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "materials-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Materials Science",
+            "lang": "en",
+            "name": "Materials Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electronic-structure",
+        "locales": [
+          {
+            "description": "This user works in the field of Electronic Structure",
+            "lang": "en",
+            "name": "Electronic Structure"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "density-functional-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Density Functional Theory",
+            "lang": "en",
+            "name": "Density Functional Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "phase-field-models",
+        "locales": [
+          {
+            "description": "This user works in the field of Phase Field Models",
+            "lang": "en",
+            "name": "Phase Field Models"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "material-characterisation",
+        "locales": [
+          {
+            "description": "This user works in the field of Material Characterisation",
+            "lang": "en",
+            "name": "Material Characterisation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electron-diffraction",
+        "locales": [
+          {
+            "description": "This user works in the field of Electron Diffraction",
+            "lang": "en",
+            "name": "Electron Diffraction"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electron-micropscopy",
+        "locales": [
+          {
+            "description": "This user works in the field of Electron Micropscopy",
+            "lang": "en",
+            "name": "Electron Micropscopy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "x-ray-diffraction",
+        "locales": [
+          {
+            "description": "This user works in the field of X-Ray Diffraction",
+            "lang": "en",
+            "name": "X-Ray Diffraction"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "molecular-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Molecular Engineering",
+            "lang": "en",
+            "name": "Molecular Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "fabric-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Fabric Engineering",
+            "lang": "en",
+            "name": "Fabric Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "wet-process-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Wet Process Engineering",
+            "lang": "en",
+            "name": "Wet Process Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "acoustics-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Acoustics Engineering",
+            "lang": "en",
+            "name": "Acoustics Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "aerospace-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Aerospace Engineering",
+            "lang": "en",
+            "name": "Aerospace Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "architectural-acoustics",
+        "locales": [
+          {
+            "description": "This user works in the field of Architectural Acoustics",
+            "lang": "en",
+            "name": "Architectural Acoustics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "automotive-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Automotive Engineering",
+            "lang": "en",
+            "name": "Automotive Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "avionics",
+        "locales": [
+          {
+            "description": "This user works in the field of Avionics",
+            "lang": "en",
+            "name": "Avionics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "energy-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Energy Engineering",
+            "lang": "en",
+            "name": "Energy Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "industrial-plant-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Industrial Plant Engineering",
+            "lang": "en",
+            "name": "Industrial Plant Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "manufacturing-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Manufacturing Engineering",
+            "lang": "en",
+            "name": "Manufacturing Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "marine-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Marine Engineering",
+            "lang": "en",
+            "name": "Marine Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mechanical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Mechanical Engineering",
+            "lang": "en",
+            "name": "Mechanical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "naval-architecture",
+        "locales": [
+          {
+            "description": "This user works in the field of Naval Architecture",
+            "lang": "en",
+            "name": "Naval Architecture"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "optical-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Optical Engineering",
+            "lang": "en",
+            "name": "Optical Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "optomechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Optomechanics",
+            "lang": "en",
+            "name": "Optomechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "optomechatronics",
+        "locales": [
+          {
+            "description": "This user works in the field of Optomechatronics",
+            "lang": "en",
+            "name": "Optomechatronics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "power-plant-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Power Plant Engineering",
+            "lang": "en",
+            "name": "Power Plant Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "psychoacoustics",
+        "locales": [
+          {
+            "description": "This user works in the field of Psychoacoustics",
+            "lang": "en",
+            "name": "Psychoacoustics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "railway-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Railway Engineering",
+            "lang": "en",
+            "name": "Railway Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "sports-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Sports Engineering",
+            "lang": "en",
+            "name": "Sports Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "thermal-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Thermal Engineering",
+            "lang": "en",
+            "name": "Thermal Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "underwater-acoustics",
+        "locales": [
+          {
+            "description": "This user works in the field of Underwater Acoustics",
+            "lang": "en",
+            "name": "Underwater Acoustics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "vehicle-engineering",
+        "locales": [
+          {
+            "description": "This user works in the field of Vehicle Engineering",
+            "lang": "en",
+            "name": "Vehicle Engineering"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "epidemiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Epidemiology",
+            "lang": "en",
+            "name": "Epidemiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "anthropology",
+        "locales": [
+          {
+            "description": "This user works in the field of Anthropology",
+            "lang": "en",
+            "name": "Anthropology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleoart",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleoart",
+            "lang": "en",
+            "name": "Paleoart"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "science-communication",
+        "locales": [
+          {
+            "description": "This user works in the field of Science Communication",
+            "lang": "en",
+            "name": "Science Communication"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "science-journalism",
+        "locales": [
+          {
+            "description": "This user works in the field of Science Journalism",
+            "lang": "en",
+            "name": "Science Journalism"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "stem-education",
+        "locales": [
+          {
+            "description": "This user works in the field of STEM Education",
+            "lang": "en",
+            "name": "STEM Education"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "applied-mathematics",
+        "locales": [
+          {
+            "description": "This user works in the field of Applied Mathematics",
+            "lang": "en",
+            "name": "Applied Mathematics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mathematics",
+        "locales": [
+          {
+            "description": "This user works in the field of Mathematics",
+            "lang": "en",
+            "name": "Mathematics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "statistics",
+        "locales": [
+          {
+            "description": "This user works in the field of Statistics",
+            "lang": "en",
+            "name": "Statistics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "abstract-algebra",
+        "locales": [
+          {
+            "description": "This user works in the field of Abstract Algebra",
+            "lang": "en",
+            "name": "Abstract Algebra"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "analysis",
+        "locales": [
+          {
+            "description": "This user works in the field of Analysis",
+            "lang": "en",
+            "name": "Analysis"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geometry",
+        "locales": [
+          {
+            "description": "This user works in the field of Geometry",
+            "lang": "en",
+            "name": "Geometry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "topology",
+        "locales": [
+          {
+            "description": "This user works in the field of Topology",
+            "lang": "en",
+            "name": "Topology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "number-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Number Theory",
+            "lang": "en",
+            "name": "Number Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "logic",
+        "locales": [
+          {
+            "description": "This user works in the field of Logic",
+            "lang": "en",
+            "name": "Logic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "discrete-maths",
+        "locales": [
+          {
+            "description": "This user works in the field of Discrete Maths",
+            "lang": "en",
+            "name": "Discrete Maths"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "algebra",
+        "locales": [
+          {
+            "description": "This user works in the field of Algebra",
+            "lang": "en",
+            "name": "Algebra"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "combinatorics",
+        "locales": [
+          {
+            "description": "This user works in the field of Combinatorics",
+            "lang": "en",
+            "name": "Combinatorics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mathematical-analysis",
+        "locales": [
+          {
+            "description": "This user works in the field of Mathematical Analysis",
+            "lang": "en",
+            "name": "Mathematical Analysis"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "trigonometry",
+        "locales": [
+          {
+            "description": "This user works in the field of Trigonometry",
+            "lang": "en",
+            "name": "Trigonometry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "calculus",
+        "locales": [
+          {
+            "description": "This user works in the field of Calculus",
+            "lang": "en",
+            "name": "Calculus"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "set-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Set Theory",
+            "lang": "en",
+            "name": "Set Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "order-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Order Theory",
+            "lang": "en",
+            "name": "Order Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "matrix-algebra",
+        "locales": [
+          {
+            "description": "This user works in the field of Matrix Algebra",
+            "lang": "en",
+            "name": "Matrix Algebra"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cartesian-geometry",
+        "locales": [
+          {
+            "description": "This user works in the field of Cartesian Geometry",
+            "lang": "en",
+            "name": "Cartesian Geometry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleobiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleobiology",
+            "lang": "en",
+            "name": "Paleobiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleobotany",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleobotany",
+            "lang": "en",
+            "name": "Paleobotany"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "atmospheric-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Atmospheric Science",
+            "lang": "en",
+            "name": "Atmospheric Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "climatology",
+        "locales": [
+          {
+            "description": "This user works in the field of Climatology",
+            "lang": "en",
+            "name": "Climatology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "coastal-geography",
+        "locales": [
+          {
+            "description": "This user works in the field of Coastal Geography",
+            "lang": "en",
+            "name": "Coastal Geography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geology",
+        "locales": [
+          {
+            "description": "This user works in the field of Geology",
+            "lang": "en",
+            "name": "Geology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "glaciology",
+        "locales": [
+          {
+            "description": "This user works in the field of Glaciology (The study of glaciers)",
+            "lang": "en",
+            "name": "Glaciology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "hydrology",
+        "locales": [
+          {
+            "description": "This user works in the field of Hydrology",
+            "lang": "en",
+            "name": "Hydrology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "limnology",
+        "locales": [
+          {
+            "description": "This user works in the field of Limnology (The study of inland aquatic ecosystems)",
+            "lang": "en",
+            "name": "Limnology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "metamorphic-petrology",
+        "locales": [
+          {
+            "description": "This user works in the field of Metamorphic Petrology",
+            "lang": "en",
+            "name": "Metamorphic Petrology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "meteorology",
+        "locales": [
+          {
+            "description": "This user works in the field of Meteorology",
+            "lang": "en",
+            "name": "Meteorology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "oceanography",
+        "locales": [
+          {
+            "description": "This user works in the field of Oceanography",
+            "lang": "en",
+            "name": "Oceanography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleaogeography",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleaogeography",
+            "lang": "en",
+            "name": "Paleaogeography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleoanthropology",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleoanthropology",
+            "lang": "en",
+            "name": "Paleoanthropology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "petrology",
+        "locales": [
+          {
+            "description": "This user works in the field of Petrology (The study of the origin, structure, and composition of rocks)",
+            "lang": "en",
+            "name": "Petrology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "physical-geography",
+        "locales": [
+          {
+            "description": "This user works in the field of Physical Geography",
+            "lang": "en",
+            "name": "Physical Geography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "sedimentary-petrology",
+        "locales": [
+          {
+            "description": "This user works in the field of Sedimentary Petrology",
+            "lang": "en",
+            "name": "Sedimentary Petrology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "sedimentology",
+        "locales": [
+          {
+            "description": "This user works in the field of Sedimentology (The study of modern sediments such as sand, silt, and clay)",
+            "lang": "en",
+            "name": "Sedimentology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "seismology",
+        "locales": [
+          {
+            "description": "This user works in the field of Seismology (The study of earthquakes)",
+            "lang": "en",
+            "name": "Seismology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "stratigraphy",
+        "locales": [
+          {
+            "description": "This user works in the field of Stratigraphy (The study of rock layering)",
+            "lang": "en",
+            "name": "Stratigraphy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "structural-geology",
+        "locales": [
+          {
+            "description": "This user works in the field of Structural Geology",
+            "lang": "en",
+            "name": "Structural Geology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "volcanology",
+        "locales": [
+          {
+            "description": "This user works in the field of Volcanology (The study of volcanoes)",
+            "lang": "en",
+            "name": "Volcanology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "engineering-geology",
+        "locales": [
+          {
+            "description": "This user works in the field of Engineering Geology",
+            "lang": "en",
+            "name": "Engineering Geology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "environmental-geography",
+        "locales": [
+          {
+            "description": "This user works in the field of Environmental Geography",
+            "lang": "en",
+            "name": "Environmental Geography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geomorphology",
+        "locales": [
+          {
+            "description": "This user works in the field of Geomorphology",
+            "lang": "en",
+            "name": "Geomorphology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "igneous-petrology",
+        "locales": [
+          {
+            "description": "This user works in the field of Igneous Petrology",
+            "lang": "en",
+            "name": "Igneous Petrology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mineralogy",
+        "locales": [
+          {
+            "description": "This user works in the field of Mineralogy",
+            "lang": "en",
+            "name": "Mineralogy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "natural-history",
+        "locales": [
+          {
+            "description": "This user works in the field of Natural History",
+            "lang": "en",
+            "name": "Natural History"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleontology",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleontology",
+            "lang": "en",
+            "name": "Paleontology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "paleopathology",
+        "locales": [
+          {
+            "description": "This user works in the field of Paleopathology",
+            "lang": "en",
+            "name": "Paleopathology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "continuum-mechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Continuum Mechanics",
+            "lang": "en",
+            "name": "Continuum Mechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "aerodynamics",
+        "locales": [
+          {
+            "description": "This user works in the field of Aerodynamics",
+            "lang": "en",
+            "name": "Aerodynamics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "atmospheric-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Atmospheric Physics",
+            "lang": "en",
+            "name": "Atmospheric Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Biophysics",
+            "lang": "en",
+            "name": "Biophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "classical-mechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Classical Mechanics",
+            "lang": "en",
+            "name": "Classical Mechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computational-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Computational Physics",
+            "lang": "en",
+            "name": "Computational Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "condensed-matter-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Condensed Matter Physics",
+            "lang": "en",
+            "name": "Condensed Matter Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "dynamics",
+        "locales": [
+          {
+            "description": "This user works in the field of Dynamics",
+            "lang": "en",
+            "name": "Dynamics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electricity",
+        "locales": [
+          {
+            "description": "This user works in the field of Electricity",
+            "lang": "en",
+            "name": "Electricity"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electromagnetism",
+        "locales": [
+          {
+            "description": "This user works in the field of Electromagnetism",
+            "lang": "en",
+            "name": "Electromagnetism"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "fluid-mechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Fluid Mechanics",
+            "lang": "en",
+            "name": "Fluid Mechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Geophysics",
+            "lang": "en",
+            "name": "Geophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "kinematics",
+        "locales": [
+          {
+            "description": "This user works in the field of Kinematics",
+            "lang": "en",
+            "name": "Kinematics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "magnetism",
+        "locales": [
+          {
+            "description": "This user works in the field of Magnetism",
+            "lang": "en",
+            "name": "Magnetism"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mathematical-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Mathematical Physics",
+            "lang": "en",
+            "name": "Mathematical Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "medical-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Medical Physics",
+            "lang": "en",
+            "name": "Medical Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nuclear-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Nuclear Physics",
+            "lang": "en",
+            "name": "Nuclear Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "optical-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Optical Physics",
+            "lang": "en",
+            "name": "Optical Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "particle-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Particle Physics",
+            "lang": "en",
+            "name": "Particle Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "photometry",
+        "locales": [
+          {
+            "description": "This user works in the field of Photometry",
+            "lang": "en",
+            "name": "Photometry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plasma-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Plasma Physics",
+            "lang": "en",
+            "name": "Plasma Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "psychophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Psychophysics",
+            "lang": "en",
+            "name": "Psychophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-field-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Field Theory",
+            "lang": "en",
+            "name": "Quantum Field Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-foundations",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Foundations",
+            "lang": "en",
+            "name": "Quantum Foundations"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-information-theory",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Information Theory",
+            "lang": "en",
+            "name": "Quantum Information Theory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Physics",
+            "lang": "en",
+            "name": "Quantum Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "spectroscopy",
+        "locales": [
+          {
+            "description": "This user works in the field of Spectroscopy",
+            "lang": "en",
+            "name": "Spectroscopy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "statistical-mechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Statistical Mechanics",
+            "lang": "en",
+            "name": "Statistical Mechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "thermodynamics",
+        "locales": [
+          {
+            "description": "This user works in the field of Thermodynamics",
+            "lang": "en",
+            "name": "Thermodynamics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Anatomy",
+            "lang": "en",
+            "name": "Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "comparative-anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Comparative Anatomy",
+            "lang": "en",
+            "name": "Comparative Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "embryology",
+        "locales": [
+          {
+            "description": "This user works in the field of Embryology",
+            "lang": "en",
+            "name": "Embryology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "evolutionary-developmental-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Evolutionary Developmental Biology",
+            "lang": "en",
+            "name": "Evolutionary Developmental Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "gross-anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Gross Anatomy",
+            "lang": "en",
+            "name": "Gross Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "histology",
+        "locales": [
+          {
+            "description": "This user works in the field of Histology",
+            "lang": "en",
+            "name": "Histology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "neuroanatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Neuroanatomy",
+            "lang": "en",
+            "name": "Neuroanatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "osteology",
+        "locales": [
+          {
+            "description": "This user works in the field of Osteology",
+            "lang": "en",
+            "name": "Osteology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "radiographic-anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Radiographic Anatomy",
+            "lang": "en",
+            "name": "Radiographic Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "surface-anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Surface Anatomy",
+            "lang": "en",
+            "name": "Surface Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cytology",
+        "locales": [
+          {
+            "description": "This user works in the field of Cytology",
+            "lang": "en",
+            "name": "Cytology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "clinical-anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Clinical Anatomy",
+            "lang": "en",
+            "name": "Clinical Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "structural-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Structural Biology",
+            "lang": "en",
+            "name": "Structural Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astrobiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Astrobiology",
+            "lang": "en",
+            "name": "Astrobiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bacteriology",
+        "locales": [
+          {
+            "description": "This user works in the field of Bacteriology",
+            "lang": "en",
+            "name": "Bacteriology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioarchaeology",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioarchaeology",
+            "lang": "en",
+            "name": "Bioarchaeology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biogeography",
+        "locales": [
+          {
+            "description": "This user works in the field of Biogeography",
+            "lang": "en",
+            "name": "Biogeography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biolinguistics",
+        "locales": [
+          {
+            "description": "This user works in the field of Biolinguistics",
+            "lang": "en",
+            "name": "Biolinguistics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biological-anthropology",
+        "locales": [
+          {
+            "description": "This user works in the field of Biological Anthropology",
+            "lang": "en",
+            "name": "Biological Anthropology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cell-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Cell Biology",
+            "lang": "en",
+            "name": "Cell Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chronobiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Chronobiology",
+            "lang": "en",
+            "name": "Chronobiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "developmental-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Developmental Biology",
+            "lang": "en",
+            "name": "Developmental Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "evolution",
+        "locales": [
+          {
+            "description": "This user works in the field of Evolution",
+            "lang": "en",
+            "name": "Evolution"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "evolutionary-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Evolutionary Biology",
+            "lang": "en",
+            "name": "Evolutionary Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "genetics",
+        "locales": [
+          {
+            "description": "This user works in the field of Genetics",
+            "lang": "en",
+            "name": "Genetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "genomics",
+        "locales": [
+          {
+            "description": "This user works in the field of Genomics",
+            "lang": "en",
+            "name": "Genomics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geobiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Geobiology",
+            "lang": "en",
+            "name": "Geobiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "gerontology",
+        "locales": [
+          {
+            "description": "This user works in the field of Gerontology (The study of aging)",
+            "lang": "en",
+            "name": "Gerontology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "immunology",
+        "locales": [
+          {
+            "description": "This user works in the field of Immunology",
+            "lang": "en",
+            "name": "Immunology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "marine-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Marine Biology",
+            "lang": "en",
+            "name": "Marine Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mathematical-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Mathematical Biology",
+            "lang": "en",
+            "name": "Mathematical Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "microbiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Microbiology",
+            "lang": "en",
+            "name": "Microbiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "molecular-genetics",
+        "locales": [
+          {
+            "description": "This user works in the field of Molecular Genetics",
+            "lang": "en",
+            "name": "Molecular Genetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mycology",
+        "locales": [
+          {
+            "description": "This user works in the field of Mycology (The study of fungi)",
+            "lang": "en",
+            "name": "Mycology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "neuroscience",
+        "locales": [
+          {
+            "description": "This user works in the field of Neuroscience",
+            "lang": "en",
+            "name": "Neuroscience"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "parasitology",
+        "locales": [
+          {
+            "description": "This user works in the field of Parasitology",
+            "lang": "en",
+            "name": "Parasitology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "photobiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Photobiology",
+            "lang": "en",
+            "name": "Photobiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "phycology",
+        "locales": [
+          {
+            "description": "This user works in the field of Phycology (The study of algae)",
+            "lang": "en",
+            "name": "Phycology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "physiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Physiology",
+            "lang": "en",
+            "name": "Physiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantitative-genetics",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantitative Genetics",
+            "lang": "en",
+            "name": "Quantitative Genetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "soil-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Soil Biology",
+            "lang": "en",
+            "name": "Soil Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "theoretical-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Theoretical Biology",
+            "lang": "en",
+            "name": "Theoretical Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "virology",
+        "locales": [
+          {
+            "description": "This user works in the field of Virology (The study of viruses)",
+            "lang": "en",
+            "name": "Virology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computational-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Computational Biology",
+            "lang": "en",
+            "name": "Computational Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cancer-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Cancer Biology",
+            "lang": "en",
+            "name": "Cancer Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "epigenetics",
+        "locales": [
+          {
+            "description": "This user works in the field of Epigenetics",
+            "lang": "en",
+            "name": "Epigenetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "botany",
+        "locales": [
+          {
+            "description": "This user works in the field of Botany (The study of plants)",
+            "lang": "en",
+            "name": "Botany"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "dendrochronology",
+        "locales": [
+          {
+            "description": "This user works in the field of Dendrochronology (Tree-ring dating)",
+            "lang": "en",
+            "name": "Dendrochronology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "economic-botany",
+        "locales": [
+          {
+            "description": "This user works in the field of Economic Botany",
+            "lang": "en",
+            "name": "Economic Botany"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ethnobotany",
+        "locales": [
+          {
+            "description": "This user works in the field of Ethnobotany",
+            "lang": "en",
+            "name": "Ethnobotany"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plant-anatomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Plant Anatomy",
+            "lang": "en",
+            "name": "Plant Anatomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plant-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Plant Ecology",
+            "lang": "en",
+            "name": "Plant Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plant-ecophysiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Plant Ecophysiology",
+            "lang": "en",
+            "name": "Plant Ecophysiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plant-genetics",
+        "locales": [
+          {
+            "description": "This user works in the field of Plant Genetics",
+            "lang": "en",
+            "name": "Plant Genetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plant-pathology",
+        "locales": [
+          {
+            "description": "This user works in the field of Plant Pathology",
+            "lang": "en",
+            "name": "Plant Pathology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plant-physiology",
+        "locales": [
+          {
+            "description": "This user works in the field of Plant Physiology",
+            "lang": "en",
+            "name": "Plant Physiology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "agrochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Agrochemistry",
+            "lang": "en",
+            "name": "Agrochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "analytical-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Analytical Chemistry",
+            "lang": "en",
+            "name": "Analytical Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "atmospheric-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Atmospheric Chemistry",
+            "lang": "en",
+            "name": "Atmospheric Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Biochemistry",
+            "lang": "en",
+            "name": "Biochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioinorganic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioinorganic Chemistry",
+            "lang": "en",
+            "name": "Bioinorganic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "bioorganic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Bioorganic Chemistry",
+            "lang": "en",
+            "name": "Bioorganic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "biophysical-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Biophysical Chemistry",
+            "lang": "en",
+            "name": "Biophysical Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "calorimetry",
+        "locales": [
+          {
+            "description": "This user works in the field of Calorimetry",
+            "lang": "en",
+            "name": "Calorimetry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chemical-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Chemical Biology",
+            "lang": "en",
+            "name": "Chemical Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chemical-kinetics",
+        "locales": [
+          {
+            "description": "This user works in the field of Chemical Kinetics",
+            "lang": "en",
+            "name": "Chemical Kinetics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chemical-oceanography",
+        "locales": [
+          {
+            "description": "This user works in the field of Chemical Oceanography",
+            "lang": "en",
+            "name": "Chemical Oceanography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chemical-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Chemical Physics",
+            "lang": "en",
+            "name": "Chemical Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chemo-informatics",
+        "locales": [
+          {
+            "description": "This user works in the field of Chemo-Informatics",
+            "lang": "en",
+            "name": "Chemo-Informatics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cluster-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Cluster Chemistry",
+            "lang": "en",
+            "name": "Cluster Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computational-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Computational Chemistry",
+            "lang": "en",
+            "name": "Computational Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "electrochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Electrochemistry",
+            "lang": "en",
+            "name": "Electrochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "environmental-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Environmental Chemistry",
+            "lang": "en",
+            "name": "Environmental Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "femtochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Femtochemistry",
+            "lang": "en",
+            "name": "Femtochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "flow-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Flow Chemistry",
+            "lang": "en",
+            "name": "Flow Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "geochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Geochemistry",
+            "lang": "en",
+            "name": "Geochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "green-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Green Chemistry",
+            "lang": "en",
+            "name": "Green Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "immunochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Immunochemistry",
+            "lang": "en",
+            "name": "Immunochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "immunohistochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Immunohistochemistry",
+            "lang": "en",
+            "name": "Immunohistochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "inorganic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Inorganic Chemistry",
+            "lang": "en",
+            "name": "Inorganic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "materials-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Materials Chemistry",
+            "lang": "en",
+            "name": "Materials Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mathematical-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Mathematical Chemistry",
+            "lang": "en",
+            "name": "Mathematical Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mechanochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Mechanochemistry",
+            "lang": "en",
+            "name": "Mechanochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "molecular-biology",
+        "locales": [
+          {
+            "description": "This user works in the field of Molecular Biology",
+            "lang": "en",
+            "name": "Molecular Biology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "molecular-mechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Molecular Mechanics",
+            "lang": "en",
+            "name": "Molecular Mechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nuclear-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Nuclear Chemistry",
+            "lang": "en",
+            "name": "Nuclear Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "organic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Organic Chemistry",
+            "lang": "en",
+            "name": "Organic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "organometallic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Organometallic Chemistry",
+            "lang": "en",
+            "name": "Organometallic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "petrochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Petrochemistry",
+            "lang": "en",
+            "name": "Petrochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "pharmacology",
+        "locales": [
+          {
+            "description": "This user works in the field of Pharmacology",
+            "lang": "en",
+            "name": "Pharmacology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "photochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Photochemistry",
+            "lang": "en",
+            "name": "Photochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "physical-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Physical Chemistry",
+            "lang": "en",
+            "name": "Physical Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "physical-organic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Physical Organic Chemistry",
+            "lang": "en",
+            "name": "Physical Organic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "polymer-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Polymer Chemistry",
+            "lang": "en",
+            "name": "Polymer Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Chemistry",
+            "lang": "en",
+            "name": "Quantum Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "radiochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Radiochemistry",
+            "lang": "en",
+            "name": "Radiochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "solid-state-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Solid-State Chemistry",
+            "lang": "en",
+            "name": "Solid-State Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "sonochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Sonochemistry",
+            "lang": "en",
+            "name": "Sonochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "stereochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Stereochemistry",
+            "lang": "en",
+            "name": "Stereochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "supramolecular-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Supramolecular Chemistry",
+            "lang": "en",
+            "name": "Supramolecular Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "synthetic-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Synthetic Chemistry",
+            "lang": "en",
+            "name": "Synthetic Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "theoretical-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Theoretical Chemistry",
+            "lang": "en",
+            "name": "Theoretical Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "thermochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Thermochemistry",
+            "lang": "en",
+            "name": "Thermochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "toxicology",
+        "locales": [
+          {
+            "description": "This user works in the field of Toxicology",
+            "lang": "en",
+            "name": "Toxicology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "wet-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Wet Chemistry",
+            "lang": "en",
+            "name": "Wet Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "digital-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Digital Chemistry",
+            "lang": "en",
+            "name": "Digital Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "food-chemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Food Chemistry",
+            "lang": "en",
+            "name": "Food Chemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "behavioral-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Behavioral Ecology",
+            "lang": "en",
+            "name": "Behavioral Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Ecology",
+            "lang": "en",
+            "name": "Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ecosystem-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Ecosystem Ecology",
+            "lang": "en",
+            "name": "Ecosystem Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "landscape-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Landscape Ecology",
+            "lang": "en",
+            "name": "Landscape Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "microbial-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Microbial Ecology",
+            "lang": "en",
+            "name": "Microbial Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "population-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Population Ecology",
+            "lang": "en",
+            "name": "Population Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "urban-ecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Urban Ecology",
+            "lang": "en",
+            "name": "Urban Ecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astrophotography",
+        "locales": [
+          {
+            "description": "This user works in the field of Astrophotography",
+            "lang": "en",
+            "name": "Astrophotography"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "archaeoastronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Archaeoastronomy",
+            "lang": "en",
+            "name": "Archaeoastronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astrochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Astrochemistry",
+            "lang": "en",
+            "name": "Astrochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astrodynamics",
+        "locales": [
+          {
+            "description": "This user works in the field of Astrodynamics",
+            "lang": "en",
+            "name": "Astrodynamics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astrometry",
+        "locales": [
+          {
+            "description": "This user works in the field of Astrometry",
+            "lang": "en",
+            "name": "Astrometry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Astronomy",
+            "lang": "en",
+            "name": "Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Astrophysics",
+            "lang": "en",
+            "name": "Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "celestial-mechanics",
+        "locales": [
+          {
+            "description": "This user works in the field of Celestial Mechanics",
+            "lang": "en",
+            "name": "Celestial Mechanics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "compact-objects",
+        "locales": [
+          {
+            "description": "This user works in the field of Compact Objects",
+            "lang": "en",
+            "name": "Compact Objects"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "computational-astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Computational Astrophysics",
+            "lang": "en",
+            "name": "Computational Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cosmic-ray-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Cosmic Ray Astronomy",
+            "lang": "en",
+            "name": "Cosmic Ray Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "dust-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Dust Astronomy",
+            "lang": "en",
+            "name": "Dust Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "extragalactic-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Extragalactic Astronomy",
+            "lang": "en",
+            "name": "Extragalactic Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "galactic-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Galactic Astronomy",
+            "lang": "en",
+            "name": "Galactic Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "gamma-ray-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Gamma-Ray Astronomy",
+            "lang": "en",
+            "name": "Gamma-Ray Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "gravitational-wave-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Gravitational Wave Astronomy",
+            "lang": "en",
+            "name": "Gravitational Wave Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "high-energy-astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of High Energy Astrophysics",
+            "lang": "en",
+            "name": "High Energy Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "infrared-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Infrared Astronomy",
+            "lang": "en",
+            "name": "Infrared Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "interstellar-astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Interstellar Astrophysics",
+            "lang": "en",
+            "name": "Interstellar Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "neutrino-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Neutrino Astronomy",
+            "lang": "en",
+            "name": "Neutrino Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "observational-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Observational Astronomy",
+            "lang": "en",
+            "name": "Observational Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "optical-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Optical Astronomy",
+            "lang": "en",
+            "name": "Optical Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "physical-cosmology",
+        "locales": [
+          {
+            "description": "This user works in the field of Physical Cosmology",
+            "lang": "en",
+            "name": "Physical Cosmology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-science",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Science",
+            "lang": "en",
+            "name": "Planetary Science"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Astronomy",
+            "lang": "en",
+            "name": "Planetary Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Astrophysics",
+            "lang": "en",
+            "name": "Planetary Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-atmosphere",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Atmosphere",
+            "lang": "en",
+            "name": "Planetary Atmosphere"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-geochemistry",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Geochemistry",
+            "lang": "en",
+            "name": "Planetary Geochemistry"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-geology",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Geology",
+            "lang": "en",
+            "name": "Planetary Geology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-geophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Geophysics",
+            "lang": "en",
+            "name": "Planetary Geophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planetary-interiors",
+        "locales": [
+          {
+            "description": "This user works in the field of Planetary Interiors",
+            "lang": "en",
+            "name": "Planetary Interiors"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "plasma-astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Plasma Astrophysics",
+            "lang": "en",
+            "name": "Plasma Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "quantum-cosmology",
+        "locales": [
+          {
+            "description": "This user works in the field of Quantum Cosmology",
+            "lang": "en",
+            "name": "Quantum Cosmology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "radio-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Radio Astronomy",
+            "lang": "en",
+            "name": "Radio Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "relativistic-astrophysics",
+        "locales": [
+          {
+            "description": "This user works in the field of Relativistic Astrophysics",
+            "lang": "en",
+            "name": "Relativistic Astrophysics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "solar-physics",
+        "locales": [
+          {
+            "description": "This user works in the field of Solar Physics",
+            "lang": "en",
+            "name": "Solar Physics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "stellar-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Stellar Astronomy",
+            "lang": "en",
+            "name": "Stellar Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "submillimetre-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of Submillimetre Astronomy",
+            "lang": "en",
+            "name": "Submillimetre Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "uv-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of UV Astronomy",
+            "lang": "en",
+            "name": "UV Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "x-ray-astronomy",
+        "locales": [
+          {
+            "description": "This user works in the field of X-Ray Astronomy",
+            "lang": "en",
+            "name": "X-Ray Astronomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "acarology",
+        "locales": [
+          {
+            "description": "This user works in the field of Acarology (The study of mites & ticks)",
+            "lang": "en",
+            "name": "Acarology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "arachnology",
+        "locales": [
+          {
+            "description": "This user works in the field of Arachnology (The study of arachnids)",
+            "lang": "en",
+            "name": "Arachnology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "carcinology",
+        "locales": [
+          {
+            "description": "This user works in the field of Carcinology (The study of crustaceans)",
+            "lang": "en",
+            "name": "Carcinology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cetology",
+        "locales": [
+          {
+            "description": "This user works in the field of Cetology (The study of whales)",
+            "lang": "en",
+            "name": "Cetology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "entomology",
+        "locales": [
+          {
+            "description": "This user works in the field of Entomology (The study of insects & other arthropods)",
+            "lang": "en",
+            "name": "Entomology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ethology",
+        "locales": [
+          {
+            "description": "This user works in the field of Ethology",
+            "lang": "en",
+            "name": "Ethology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "helminthology",
+        "locales": [
+          {
+            "description": "This user works in the field of Helminthology (The study of parasitic worms)",
+            "lang": "en",
+            "name": "Helminthology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "herpetology",
+        "locales": [
+          {
+            "description": "This user works in the field of Herpetology (The study of amphibians & reptiles)",
+            "lang": "en",
+            "name": "Herpetology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ichthyology",
+        "locales": [
+          {
+            "description": "This user works in the field of Ichthyology (The study of fish)",
+            "lang": "en",
+            "name": "Ichthyology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mammalogy",
+        "locales": [
+          {
+            "description": "This user works in the field of Mammalogy (The study of mammals)",
+            "lang": "en",
+            "name": "Mammalogy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ornithology",
+        "locales": [
+          {
+            "description": "This user works in the field of Ornithology (The study of birds)",
+            "lang": "en",
+            "name": "Ornithology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "primatology",
+        "locales": [
+          {
+            "description": "This user works in the field of Primatology (The study of primates)",
+            "lang": "en",
+            "name": "Primatology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "teuthology",
+        "locales": [
+          {
+            "description": "This user works in the field of Teuthology (The study of cephalopods)",
+            "lang": "en",
+            "name": "Teuthology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "zoology",
+        "locales": [
+          {
+            "description": "This user works in the field of Zoology",
+            "lang": "en",
+            "name": "Zoology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "arthropodology",
+        "locales": [
+          {
+            "description": "This user works in the field of Arthropodology (The study of arthropods)",
+            "lang": "en",
+            "name": "Arthropodology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "coleopterology",
+        "locales": [
+          {
+            "description": "This user works in the field of Coleopterology (The study of beetles)",
+            "lang": "en",
+            "name": "Coleopterology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "lepidopterology",
+        "locales": [
+          {
+            "description": "This user works in the field of Lepidopterology (The study of butterflies)",
+            "lang": "en",
+            "name": "Lepidopterology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "melittology",
+        "locales": [
+          {
+            "description": "This user works in the field of Melittology (The study of bees)",
+            "lang": "en",
+            "name": "Melittology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "myrmecology",
+        "locales": [
+          {
+            "description": "This user works in the field of Myrmecology (The study of ants)",
+            "lang": "en",
+            "name": "Myrmecology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "orthopterology",
+        "locales": [
+          {
+            "description": "This user works in the field of Orthopterology (The study of grasshoppers)",
+            "lang": "en",
+            "name": "Orthopterology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "myriapodology",
+        "locales": [
+          {
+            "description": "This user works in the field of Myriapodology (The study of millipedes & centipedes)",
+            "lang": "en",
+            "name": "Myriapodology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "malacology",
+        "locales": [
+          {
+            "description": "This user works in the field of Malacology (The study of mollusks)",
+            "lang": "en",
+            "name": "Malacology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "conchology",
+        "locales": [
+          {
+            "description": "This user works in the field of Conchology (The study of mollusk shells)",
+            "lang": "en",
+            "name": "Conchology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "nematology",
+        "locales": [
+          {
+            "description": "This user works in the field of Nematology (The study of roundworms)",
+            "lang": "en",
+            "name": "Nematology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "batrachology",
+        "locales": [
+          {
+            "description": "This user works in the field of Batrachology (The study of amphibians)",
+            "lang": "en",
+            "name": "Batrachology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cheloniology",
+        "locales": [
+          {
+            "description": "This user works in the field of Cheloniology (The study of turtles & tortoises)",
+            "lang": "en",
+            "name": "Cheloniology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "saurology",
+        "locales": [
+          {
+            "description": "This user works in the field of Saurology (The study of lizards)",
+            "lang": "en",
+            "name": "Saurology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "serpentology",
+        "locales": [
+          {
+            "description": "This user works in the field of Serpentology (The study of snakes)",
+            "lang": "en",
+            "name": "Serpentology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "planktology",
+        "locales": [
+          {
+            "description": "This user works in the field of Planktology (The study of plankton)",
+            "lang": "en",
+            "name": "Planktology"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "protozoology",
+        "locales": [
+          {
+            "description": "This user works in the field of Protozoology (The study of protozoan)",
+            "lang": "en",
+            "name": "Protozoology"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "mod-science-denial",
-      "mod-aggregator"
+      "mod-aggregator",
+      "biological-engineering",
+      "bioacoustics",
+      "bioengineering",
+      "biomedical-optics",
+      "biosignal-processing",
+      "biochemical-engineering",
+      "cellular-engineering",
+      "protein-engineering",
+      "systems-biology",
+      "synthetic-biology",
+      "agricultural-engineering",
+      "aquaculture-engineering",
+      "bioinstrumentation",
+      "biological-systems-engineering",
+      "biomechanical-engineering",
+      "biomechanics",
+      "biomechatronics",
+      "biomedical-engineering",
+      "biomedical-nanoengineering",
+      "biomolecular-engineering",
+      "bioprocess-engineering",
+      "bioresource-engineering",
+      "biosystems-engineering",
+      "biotechnical-engineering",
+      "clinical-engineering",
+      "ecological-engineering",
+      "food-engineering",
+      "forestry",
+      "genetic-engineering",
+      "health-and-safety-engineering",
+      "medical-imaging",
+      "microbiological-engineering",
+      "natural-resources-engineering",
+      "neural-engineering",
+      "pharmaceutical-engineering",
+      "rehabilitation-engineering",
+      "tissue-engineering",
+      "medical-research",
+      "biomaterials-engineering",
+      "architectural-engineering",
+      "civil-engineering",
+      "geotechnical-engineering",
+      "mining-engineering",
+      "municipal-engineering",
+      "structural-engineering",
+      "transport-engineering",
+      "urban-engineering",
+      "urban-planning",
+      "water-resource-engineering",
+      "sanitary-engineering",
+      "fire-protection-engineering",
+      "hydraulic-engineering",
+      "river-engineering",
+      "coastal-engineering",
+      "groundwater-engineering",
+      "traffic-engineering",
+      "highway-engineering",
+      "earthquake-engineering",
+      "wind-engineering",
+      "ocean-engineering",
+      "control-engineering",
+      "electrical-engineering",
+      "fossil-fuel-engineering",
+      "geothermal-engineering",
+      "hardware-engineering",
+      "mechatronics",
+      "nanoelectronics",
+      "optoelectronics",
+      "photonics",
+      "power-engineering",
+      "radio-engineering",
+      "renewable-energy-engineering",
+      "solar-engineering",
+      "wind-energy-engineering",
+      "electronics",
+      "analog-electronics",
+      "digital-electronics",
+      "consumer-electronics",
+      "embedded-systems",
+      "power-electronics",
+      "power-system-planning",
+      "power-system-design",
+      "power-system-operations",
+      "power-system-protection",
+      "high-voltage-engineering",
+      "hydroelectric-engineering",
+      "cloud-engineering",
+      "computer-engineering",
+      "computer-science",
+      "cybersecurity-engineering",
+      "information-engineering",
+      "information-technology",
+      "network-engineering",
+      "software-engineering",
+      "simulation-and-modeling",
+      "control-theory",
+      "signal-processing",
+      "image-processing",
+      "information-theory",
+      "computer-vision",
+      "natural-language-processing",
+      "medical-image-computing",
+      "autonomous-robotics",
+      "mobile-robotics",
+      "cryptographic-engineering",
+      "web-engineering",
+      "teletraffic-engineering",
+      "network-maintenance",
+      "it-system-security",
+      "penetration-testing",
+      "artificial-intelligence",
+      "bioinformatics",
+      "data-science",
+      "machine-learning",
+      "telecomm-engineering",
+      "telecommunications",
+      "applied-engineering",
+      "cartography",
+      "engineering-management",
+      "environmental-engineering",
+      "ergonomics",
+      "forensic-science",
+      "geological-engineering",
+      "geomatics-engineering",
+      "industrial-engineering",
+      "instrumentation-engineering",
+      "military-engineering",
+      "nuclear-engineering",
+      "process-engineering",
+      "quantum-engineering",
+      "robotics",
+      "scientific-illustration",
+      "sustainability",
+      "systems-engineering",
+      "supply-chain-engineering",
+      "textile-fashion-and-design",
+      "nuclear-reactor-engineering",
+      "radiation-protection",
+      "fusion-energy",
+      "petroleum-engineering",
+      "production-engineering",
+      "drilling-engineering",
+      "reservoir-engineering",
+      "surface-science",
+      "ceramic-engineering",
+      "chemical-engineering",
+      "composite-material",
+      "computational-materials-science",
+      "corrosion-engineering",
+      "material-engineering",
+      "metallurgical-engineering",
+      "molecular-dynamics",
+      "nanoengineering",
+      "nanomaterials",
+      "nanotechnology",
+      "polymer-engineering",
+      "semiconductors",
+      "textile-engineering",
+      "materials-science",
+      "electronic-structure",
+      "density-functional-theory",
+      "phase-field-models",
+      "material-characterisation",
+      "electron-diffraction",
+      "electron-micropscopy",
+      "x-ray-diffraction",
+      "molecular-engineering",
+      "fabric-engineering",
+      "wet-process-engineering",
+      "acoustics-engineering",
+      "aerospace-engineering",
+      "architectural-acoustics",
+      "automotive-engineering",
+      "avionics",
+      "energy-engineering",
+      "industrial-plant-engineering",
+      "manufacturing-engineering",
+      "marine-engineering",
+      "mechanical-engineering",
+      "naval-architecture",
+      "optical-engineering",
+      "optomechanics",
+      "optomechatronics",
+      "power-plant-engineering",
+      "psychoacoustics",
+      "railway-engineering",
+      "sports-engineering",
+      "thermal-engineering",
+      "underwater-acoustics",
+      "vehicle-engineering",
+      "epidemiology",
+      "anthropology",
+      "paleoart",
+      "science-communication",
+      "science-journalism",
+      "stem-education",
+      "applied-mathematics",
+      "mathematics",
+      "statistics",
+      "abstract-algebra",
+      "analysis",
+      "geometry",
+      "topology",
+      "number-theory",
+      "logic",
+      "discrete-maths",
+      "algebra",
+      "combinatorics",
+      "mathematical-analysis",
+      "trigonometry",
+      "calculus",
+      "set-theory",
+      "order-theory",
+      "matrix-algebra",
+      "cartesian-geometry",
+      "paleobiology",
+      "paleobotany",
+      "atmospheric-science",
+      "climatology",
+      "coastal-geography",
+      "geology",
+      "glaciology",
+      "hydrology",
+      "limnology",
+      "metamorphic-petrology",
+      "meteorology",
+      "oceanography",
+      "paleaogeography",
+      "paleoanthropology",
+      "petrology",
+      "physical-geography",
+      "sedimentary-petrology",
+      "sedimentology",
+      "seismology",
+      "stratigraphy",
+      "structural-geology",
+      "volcanology",
+      "engineering-geology",
+      "environmental-geography",
+      "geomorphology",
+      "igneous-petrology",
+      "mineralogy",
+      "natural-history",
+      "paleontology",
+      "paleopathology",
+      "continuum-mechanics",
+      "aerodynamics",
+      "atmospheric-physics",
+      "biophysics",
+      "classical-mechanics",
+      "computational-physics",
+      "condensed-matter-physics",
+      "dynamics",
+      "electricity",
+      "electromagnetism",
+      "fluid-mechanics",
+      "geophysics",
+      "kinematics",
+      "magnetism",
+      "mathematical-physics",
+      "medical-physics",
+      "nuclear-physics",
+      "optical-physics",
+      "particle-physics",
+      "photometry",
+      "plasma-physics",
+      "psychophysics",
+      "quantum-field-theory",
+      "quantum-foundations",
+      "quantum-information-theory",
+      "quantum-physics",
+      "spectroscopy",
+      "statistical-mechanics",
+      "thermodynamics",
+      "anatomy",
+      "comparative-anatomy",
+      "embryology",
+      "evolutionary-developmental-biology",
+      "gross-anatomy",
+      "histology",
+      "neuroanatomy",
+      "osteology",
+      "radiographic-anatomy",
+      "surface-anatomy",
+      "cytology",
+      "clinical-anatomy",
+      "structural-biology",
+      "astrobiology",
+      "bacteriology",
+      "bioarchaeology",
+      "biogeography",
+      "biolinguistics",
+      "biological-anthropology",
+      "cell-biology",
+      "chronobiology",
+      "developmental-biology",
+      "evolution",
+      "evolutionary-biology",
+      "genetics",
+      "genomics",
+      "geobiology",
+      "gerontology",
+      "immunology",
+      "marine-biology",
+      "mathematical-biology",
+      "microbiology",
+      "molecular-genetics",
+      "mycology",
+      "neuroscience",
+      "parasitology",
+      "photobiology",
+      "phycology",
+      "physiology",
+      "quantitative-genetics",
+      "soil-biology",
+      "theoretical-biology",
+      "virology",
+      "computational-biology",
+      "cancer-biology",
+      "epigenetics",
+      "botany",
+      "dendrochronology",
+      "economic-botany",
+      "ethnobotany",
+      "plant-anatomy",
+      "plant-ecology",
+      "plant-ecophysiology",
+      "plant-genetics",
+      "plant-pathology",
+      "plant-physiology",
+      "agrochemistry",
+      "analytical-chemistry",
+      "atmospheric-chemistry",
+      "biochemistry",
+      "bioinorganic-chemistry",
+      "bioorganic-chemistry",
+      "biophysical-chemistry",
+      "calorimetry",
+      "chemical-biology",
+      "chemical-kinetics",
+      "chemical-oceanography",
+      "chemical-physics",
+      "chemo-informatics",
+      "cluster-chemistry",
+      "computational-chemistry",
+      "electrochemistry",
+      "environmental-chemistry",
+      "femtochemistry",
+      "flow-chemistry",
+      "geochemistry",
+      "green-chemistry",
+      "immunochemistry",
+      "immunohistochemistry",
+      "inorganic-chemistry",
+      "materials-chemistry",
+      "mathematical-chemistry",
+      "mechanochemistry",
+      "molecular-biology",
+      "molecular-mechanics",
+      "nuclear-chemistry",
+      "organic-chemistry",
+      "organometallic-chemistry",
+      "petrochemistry",
+      "pharmacology",
+      "photochemistry",
+      "physical-chemistry",
+      "physical-organic-chemistry",
+      "polymer-chemistry",
+      "quantum-chemistry",
+      "radiochemistry",
+      "solid-state-chemistry",
+      "sonochemistry",
+      "stereochemistry",
+      "supramolecular-chemistry",
+      "synthetic-chemistry",
+      "theoretical-chemistry",
+      "thermochemistry",
+      "toxicology",
+      "wet-chemistry",
+      "digital-chemistry",
+      "food-chemistry",
+      "behavioral-ecology",
+      "ecology",
+      "ecosystem-ecology",
+      "landscape-ecology",
+      "microbial-ecology",
+      "population-ecology",
+      "urban-ecology",
+      "astrophotography",
+      "archaeoastronomy",
+      "astrochemistry",
+      "astrodynamics",
+      "astrometry",
+      "astronomy",
+      "astrophysics",
+      "celestial-mechanics",
+      "compact-objects",
+      "computational-astrophysics",
+      "cosmic-ray-astronomy",
+      "dust-astronomy",
+      "extragalactic-astronomy",
+      "galactic-astronomy",
+      "gamma-ray-astronomy",
+      "gravitational-wave-astronomy",
+      "high-energy-astrophysics",
+      "infrared-astronomy",
+      "interstellar-astrophysics",
+      "neutrino-astronomy",
+      "observational-astronomy",
+      "optical-astronomy",
+      "physical-cosmology",
+      "planetary-science",
+      "planetary-astronomy",
+      "planetary-astrophysics",
+      "planetary-atmosphere",
+      "planetary-geochemistry",
+      "planetary-geology",
+      "planetary-geophysics",
+      "planetary-interiors",
+      "plasma-astrophysics",
+      "quantum-cosmology",
+      "radio-astronomy",
+      "relativistic-astrophysics",
+      "solar-physics",
+      "stellar-astronomy",
+      "submillimetre-astronomy",
+      "uv-astronomy",
+      "x-ray-astronomy",
+      "acarology",
+      "arachnology",
+      "carcinology",
+      "cetology",
+      "entomology",
+      "ethology",
+      "helminthology",
+      "herpetology",
+      "ichthyology",
+      "mammalogy",
+      "ornithology",
+      "primatology",
+      "teuthology",
+      "zoology",
+      "arthropodology",
+      "coleopterology",
+      "lepidopterology",
+      "melittology",
+      "myrmecology",
+      "orthopterology",
+      "myriapodology",
+      "malacology",
+      "conchology",
+      "nematology",
+      "batrachology",
+      "cheloniology",
+      "saurology",
+      "serpentology",
+      "planktology",
+      "protozoology"
     ]
   },
   "reasonTypes": [

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreify2a6onbsuorj7qivumuz5jwbj35tnp24gp6j2r7elpn5ggthyh4",
+  "cid": "bafyreie5rnz6hdvbyaqcqp2hcpsxzv3vnaej2jh6bya6ess6pqvx54mxxi",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,7 +18,7 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nFollow @status.blueat.net for status updates\nMirrored Accounts using Tweets2bsky are hidden by default",
     "indexedAt": "2026-03-24T23:57:24.353Z"
   },
-  "indexedAt": "2026-04-17T12:41:26.752Z",
+  "indexedAt": "2026-04-27T20:59:44.947Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -239,9 +239,9 @@
         "identifier": "a-fam",
         "locales": [
           {
-            "description": "This account seems to be a part of the 'Abdelfattah/Abed' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
+            "description": "This account seems to be a part of the 'Amoon & Lolo' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
             "lang": "en",
-            "name": "Abdelfattah/Abed bot net"
+            "name": "Amoon & Lolo bot net"
           }
         ],
         "severity": "alert"
@@ -256,6 +256,48 @@
             "description": "This user is a moderator, and has access to ozone.blueat.net",
             "lang": "en",
             "name": "BlueAT Moderator"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-agent",
+        "locales": [
+          {
+            "description": "This account is an Ai agent",
+            "lang": "en",
+            "name": "Ai Agent"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "hacked",
+        "locales": [
+          {
+            "description": "This account seems to be Hijacked/Hacked and may be related to the Amoon & Lolo/Mohammed/Mahmoud bot net. \n\n DO NOT CLICK ANY LINKS FROM THIS ACCOUNT",
+            "lang": "en",
+            "name": "Hijacked/Hacked account"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mention spam",
+        "locales": [
+          {
+            "description": "This account engages in mention spam ",
+            "lang": "en",
+            "name": "Mention Spam"
           }
         ],
         "severity": "inform"
@@ -278,7 +320,10 @@
       "m-fam",
       "a-fam",
       "impersonating-dead",
-      "blueat-mod"
+      "blueat-mod",
+      "ai-agent",
+      "hacked",
+      "mention-spam"
     ]
   },
   "subjectTypes": [
