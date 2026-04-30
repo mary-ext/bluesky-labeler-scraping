@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hx65oouv7iwxm73nmh7tuhgq/app.bsky.labeler.service/self",
-  "cid": "bafyreief2i6pqmmrmi23x7b3brlpllyouxp4qeu73amerrxsq2wpt2bjmu",
+  "cid": "bafyreifugovgcayj37zndxkayddtmyvjfifzratmwwk73imjpkiy3ecoyy",
   "creator": {
     "did": "did:plc:hx65oouv7iwxm73nmh7tuhgq",
     "handle": "unclouder.com",
@@ -17,7 +17,7 @@
     "description": "UnClouder: Keeping your Bluesky clear of clouds of misinformation...\n\nSubscribe to see fact checks for posts on your timeline.\n\n100% powered by human fact checkers (see unclouder.com for info).\n\nDo(n't) like fact checks?  Subscribe to our (block)list!",
     "indexedAt": "2026-01-30T12:00:57.149Z"
   },
-  "indexedAt": "2026-02-23T10:01:13.450Z",
+  "indexedAt": "2026-04-29T17:16:23.474Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -56,9 +56,9 @@
         "identifier": "factcheck-aosfatos",
         "locales": [
           {
-            "description": "Check the comments below this post for a fact check about this content from Aos Fatos",
+            "description": "Confira nos comentários abaixo uma checagem sobre este conteúdo feita por Aos Fatos",
             "lang": "en",
-            "name": "Fact check available from Aos Fatos"
+            "name": "Checagem disponível em Aos Fatos"
           }
         ],
         "severity": "alert"
@@ -118,6 +118,20 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "factcheck-correctiv",
+        "locales": [
+          {
+            "description": "Check the comments below this post for a fact check about this content from Correctiv",
+            "lang": "en",
+            "name": "Fact check available from Correctiv"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -127,7 +141,8 @@
       "factcheck-vistinomer",
       "factcheck-maldita",
       "factcheck-dpa",
-      "factcheck-politifact"
+      "factcheck-politifact",
+      "factcheck-correctiv"
     ]
   },
   "reasonTypes": [
