@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreihnjr5jmcybzwaz24wfmxdyyokvqlfjt5eelgkqkxeqx344cq33a4",
+  "cid": "bafyreihnfiljyakltzrpnyqxnb3qqzr7vndowqc3x5tyh7p4jmqz2paldi",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-04-29T10:48:38.163Z",
+  "indexedAt": "2026-04-30T14:59:45.365Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -277,12 +277,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "to-bbi",
+        "identifier": "app-railway-up-certified--apppds--core--pr--base",
         "locales": [
           {
-            "description": "Account is hosted by the bbi.to PDS",
+            "description": "Account is hosted by the certified-apppds-core-pr-base.up.railway.app PDS",
             "lang": "en",
-            "name": "bbi.to"
+            "name": "certified-apppds-core-pr-base.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -291,12 +291,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--pr--base",
+        "identifier": "to-bbi",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-pr-base.up.railway.app PDS",
+            "description": "Account is hosted by the bbi.to PDS",
             "lang": "en",
-            "name": "certified-apppds-core-pr-base.up.railway.app"
+            "name": "bbi.to"
           }
         ],
         "severity": "inform"
@@ -613,12 +613,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--122",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-122.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-122.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-railway-up-certified--apppds--core--epds--pr--85",
         "locales": [
           {
             "description": "Account is hosted by the certified-apppds-core-epds-pr-85.up.railway.app PDS",
             "lang": "en",
             "name": "certified-apppds-core-epds-pr-85.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "org-climateai",
+        "locales": [
+          {
+            "description": "Account is hosted by the climateai.org PDS",
+            "lang": "en",
+            "name": "climateai.org"
           }
         ],
         "severity": "inform"
@@ -655,26 +683,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-climateai",
+        "identifier": "bot-mirrors",
         "locales": [
           {
-            "description": "Account is hosted by the climateai.org PDS",
+            "description": "Account is hosted by the mirrors.bot PDS",
             "lang": "en",
-            "name": "climateai.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-hsuanyuchou-taipei",
-        "locales": [
-          {
-            "description": "Account is hosted by the taipei.hsuanyuchou.net PDS",
-            "lang": "en",
-            "name": "taipei.hsuanyuchou.net"
+            "name": "mirrors.bot"
           }
         ],
         "severity": "inform"
@@ -689,6 +703,20 @@
             "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
             "name": "pds.opnmt.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "net-hsuanyuchou-taipei",
+        "locales": [
+          {
+            "description": "Account is hosted by the taipei.hsuanyuchou.net PDS",
+            "lang": "en",
+            "name": "taipei.hsuanyuchou.net"
           }
         ],
         "severity": "inform"
@@ -745,20 +773,6 @@
             "description": "Account is hosted by the nihilist.cloud PDS",
             "lang": "en",
             "name": "nihilist.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "bot-mirrors",
-        "locales": [
-          {
-            "description": "Account is hosted by the mirrors.bot PDS",
-            "lang": "en",
-            "name": "mirrors.bot"
           }
         ],
         "severity": "inform"
@@ -837,6 +851,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-test-pds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds1.test.certified.app PDS",
+            "lang": "en",
+            "name": "pds1.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-railway-up-certified--apppds--core--epds--pr--115",
         "locales": [
           {
@@ -871,20 +899,6 @@
             "description": "Account is hosted by the epds1.test.certified.app PDS",
             "lang": "en",
             "name": "epds1.test.certified.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds1",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1.test.certified.app PDS",
-            "lang": "en",
-            "name": "pds1.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -1005,12 +1019,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ro-aiia-pds",
+        "identifier": "cafe-pckt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
-            "name": "pds.aiia.ro"
+            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -1019,12 +1033,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
+        "identifier": "ro-aiia-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "description": "Account is hosted by the pds.aiia.ro PDS",
             "lang": "en",
-            "name": "pds.pckt.cafe"
+            "name": "pds.aiia.ro"
           }
         ],
         "severity": "inform"
@@ -1201,6 +1215,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "one-certified",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified.one PDS",
+            "lang": "en",
+            "name": "certified.one"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-haruhwa",
         "locales": [
           {
@@ -1221,20 +1249,6 @@
             "description": "Account is hosted by the crimson-field-2410.fly.dev PDS",
             "lang": "en",
             "name": "crimson-field-2410.fly.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "one-certified",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified.one PDS",
-            "lang": "en",
-            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -1341,12 +1355,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "tech-transparencia-pds",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.transparencia.tech PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "pds.transparencia.tech"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -1369,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
+        "identifier": "tech-transparencia-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "description": "Account is hosted by the pds.transparencia.tech PDS",
             "lang": "en",
-            "name": "pds.wsocial.network"
+            "name": "pds.transparencia.tech"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-fudini-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.fudini.app PDS",
-            "lang": "en",
-            "name": "pds.fudini.app"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1469,8 +1469,8 @@
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "online-k4zka-bs",
-      "to-bbi",
       "app-railway-up-certified--apppds--core--pr--base",
+      "to-bbi",
       "network-nobody-node",
       "chat-roomy",
       "homes-si46",
@@ -1493,26 +1493,27 @@
       "app-railway-up-certified--apppds--core--epds--pr--110",
       "app-railway-up-certified--apppds--core--epds--pr--100",
       "app-certified-test-pds--eu--west4",
+      "app-railway-up-certified--apppds--core--epds--pr--122",
       "app-railway-up-certified--apppds--core--epds--pr--85",
+      "org-climateai",
       "app-railway-up-certified--apppds--core--epds--pr--21",
       "social-fluester-pds",
-      "org-climateai",
-      "net-hsuanyuchou-taipei",
+      "bot-mirrors",
       "me-opnmt-pds",
+      "net-hsuanyuchou-taipei",
       "global-bsky",
       "app-railway-up-certified--apppds--core--epds--pr--64",
       "live-shxre",
       "cloud-nihilist",
-      "bot-mirrors",
       "space-cannect",
       "social-fazen",
       "cloud-hstgr-srv865737",
       "fail-marta",
       "link-mybluesky",
+      "app-certified-test-pds1",
       "app-railway-up-certified--apppds--core--epds--pr--115",
       "social-stroam",
       "app-certified-test-epds1",
-      "app-certified-test-pds1",
       "website-selting-social",
       "app-railway-up-certified--apppds--core--epds--pr--63",
       "social-casjay",
@@ -1521,8 +1522,8 @@
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "app-railway-up-certified--apppds--core--epds--pr--34",
-      "ro-aiia-pds",
       "cafe-pckt-pds",
+      "ro-aiia-pds",
       "com-arankwende",
       "club-nacg",
       "systems-witchcraft-pds",
@@ -1535,9 +1536,9 @@
       "ai-bigt-pds",
       "wtf-lamp",
       "xyz-syang-pds",
+      "one-certified",
       "com-haruhwa",
       "dev-fly-crimson--field--2410",
-      "one-certified",
       "app-certified-test-sds--eu--west4",
       "social-seabikes",
       "online-magallan",
@@ -1545,14 +1546,13 @@
       "xyz-endchill-pds",
       "com-chrise-bsky",
       "space-0-pds",
-      "tech-transparencia-pds",
-      "social-gumby",
       "network-wsocial-pds",
+      "social-gumby",
+      "tech-transparencia-pds",
       "surf-self",
       "network-certs-pds",
       "uk-madebydanny-rose",
-      "shop-si46",
-      "app-fudini-pds"
+      "shop-si46"
     ]
   }
 }
