@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreihkrugvodvvntasppht2ncf5movoqlggrxkeamcaehhaw457jca4q",
+  "cid": "bafyreidvjmixjyyqw6r5zdsmepkngm7z5ixrulrz7qw7eiviersmla3bwm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-05-02T02:59:45.369Z",
+  "indexedAt": "2026-05-03T00:59:45.166Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -389,12 +389,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--103",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-103.up.railway.app PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-103.up.railway.app"
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -403,12 +403,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--103",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-103.up.railway.app PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "certified-apppds-core-epds-pr-103.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -865,6 +865,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "at-forum--hietzing",
+        "locales": [
+          {
+            "description": "Account is hosted by the forum-hietzing.at PDS",
+            "lang": "en",
+            "name": "forum-hietzing.at"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-certified-test-pds1",
         "locales": [
           {
@@ -991,12 +1005,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-forum--hietzing",
+        "identifier": "cafe-pckt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the forum-hietzing.at PDS",
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
-            "name": "forum-hietzing.at"
+            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -1025,20 +1039,6 @@
             "description": "Account is hosted by the matrix.usapolitics.news PDS",
             "lang": "en",
             "name": "matrix.usapolitics.news"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
-            "lang": "en",
-            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -1355,6 +1355,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--137",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-137.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-137.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "xyz-endchill-pds",
         "locales": [
           {
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "uk-madebydanny-rose",
-        "locales": [
-          {
-            "description": "Account is hosted by the rose.madebydanny.uk PDS",
-            "lang": "en",
-            "name": "rose.madebydanny.uk"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1477,8 +1477,8 @@
       "social-novum",
       "to-tor0n",
       "app-railway-up-certified--apppds--core--epds--pr--48",
-      "app-railway-up-certified--apppds--core--epds--pr--103",
       "social-selfhosted",
+      "app-railway-up-certified--apppds--core--epds--pr--103",
       "at-admat-bsx",
       "com-raceef-ds",
       "app-railway-up-karmas--e2e--pds",
@@ -1511,6 +1511,7 @@
       "social-fazen",
       "cloud-hstgr-srv865737",
       "fail-marta",
+      "at-forum--hietzing",
       "app-certified-test-pds1",
       "link-mybluesky",
       "app-certified-test-epds1",
@@ -1520,10 +1521,9 @@
       "app-railway-up-certified--apppds--core--epds--pr--63",
       "social-casjay",
       "com-atheistmass-pds",
-      "at-forum--hietzing",
+      "cafe-pckt-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "cafe-pckt-pds",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
       "com-arankwende",
@@ -1546,13 +1546,13 @@
       "online-magallan",
       "es-nobitch-bpds",
       "network-wsocial-pds",
+      "app-railway-up-certified--apppds--core--epds--pr--137",
       "xyz-endchill-pds",
       "com-chrise-bsky",
       "space-0-pds",
       "social-gumby",
       "tech-transparencia-pds",
-      "surf-self",
-      "uk-madebydanny-rose"
+      "surf-self"
     ]
   }
 }

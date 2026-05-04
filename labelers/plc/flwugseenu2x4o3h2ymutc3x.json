@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreiaquvksz7qtoz7n3th56m24s5bl73cm4trpjhmtvlhqeb4skfphxe",
+  "cid": "bafyreibrx4drxwireyqes3t2hi2ig6nlxwcq6wn2g6trq6kexs2shlj7pa",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -17,13 +17,13 @@
     "description": "Labels AI imagery, and audio\n\nConsider following our main account @blackwall.gg\n\nreporting with proof helps the verification process.\n\nif you are an artist, uploading timelapses of your work somewhere greatly helps in cases of false reports.",
     "indexedAt": "2026-04-12T12:39:51.658Z"
   },
-  "indexedAt": "2026-02-28T17:13:57.464Z",
+  "indexedAt": "2026-05-03T13:07:05.070Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "media",
         "defaultSetting": "warn",
         "identifier": "aiprofile",
         "locales": [
@@ -37,7 +37,7 @@
       },
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "content",
         "defaultSetting": "warn",
         "identifier": "indirectimageryaccount",
         "locales": [
@@ -51,7 +51,7 @@
       },
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "imageryaccount",
         "locales": [
@@ -65,8 +65,8 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
+        "blurs": "media",
+        "defaultSetting": "warn",
         "identifier": "imagerypost",
         "locales": [
           {
@@ -79,7 +79,21 @@
       },
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "indirectimagerypost",
+        "locales": [
+          {
+            "description": "Individual that indirectly contain AI generated elements, such as when traced over by a human",
+            "lang": "en",
+            "name": "AI Imagery Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "textaccount",
         "locales": [
@@ -107,7 +121,7 @@
       },
       {
         "adultOnly": false,
-        "blurs": "none",
+        "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "audioaccount",
         "locales": [
@@ -171,6 +185,7 @@
       "imagerypost",
       "audiopost",
       "programmingpost",
+      "indirectimagerypost",
       "protomionalaccount",
       "promotionalpost",
       "textaccount",
