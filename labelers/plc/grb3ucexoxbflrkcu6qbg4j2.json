@@ -1,0 +1,60 @@
+{
+  "uri": "at://did:plc:grb3ucexoxbflrkcu6qbg4j2/app.bsky.labeler.service/self",
+  "cid": "bafyreif64ig7o7mxzahgkispnaq26vzevg2mqvca5g55scf4m3rnq53dbi",
+  "creator": {
+    "did": "did:plc:grb3ucexoxbflrkcu6qbg4j2",
+    "handle": "lexicons.harvester.blue",
+    "displayName": "Lexicon Verifier",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "none"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-05-05T02:24:09.564Z",
+    "description": "Labels accounts that have published valid com.atproto.lexicon.schema records.\n\nValid = DNS authority proven via _lexicon.<authority> TXT, and the schema passes lex-lint.",
+    "indexedAt": "2026-05-05T03:04:57.759Z"
+  },
+  "indexedAt": "2026-05-05T13:26:33.763Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-lexicon-publisher",
+        "locales": [
+          {
+            "description": "This account has published one or more com.atproto.lexicon.schema records that pass two checks: (1) DNS-level proof of authority over the NSID's domain, via a _lexicon.<authority> TXT record advertising the publisher's DID; and (2) the in-tree lex-lint, validating that the schema is structurally well-formed.",
+            "lang": "en",
+            "name": "Verified Lexicon Publisher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lexicon-domain-operator",
+        "locales": [
+          {
+            "description": "This account controls the DNS zone of a domain whose _lexicon.<authority> TXT advertises a verified lexicon publisher under a DIFFERENT DID. Evidence is the _atproto.<authority> TXT (or .well-known) at the same apex. Does NOT mean endorsement: a domain operator and a lexicon publisher can be different entities even when they share infrastructure.",
+            "lang": "en",
+            "name": "Lexicon Domain Operator"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verified-lexicon-publisher",
+      "lexicon-domain-operator"
+    ]
+  }
+}
