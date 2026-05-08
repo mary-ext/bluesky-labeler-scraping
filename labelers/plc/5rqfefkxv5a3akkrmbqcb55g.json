@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5rqfefkxv5a3akkrmbqcb55g/app.bsky.labeler.service/self",
-  "cid": "bafyreifgpbqyejrmdpt7x5p2sabyikxcv3e7umqxotmdnc2dp7a2ogju6u",
+  "cid": "bafyreiciku6xiqijsyvtt74akaggdrtzbeiyvm2cd4zfcqf43ce65gorjm",
   "creator": {
     "did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
     "handle": "moderation.blueat.net",
@@ -18,10 +18,38 @@
     "description": "The Official Moderation account for the BlueAT Network - @blueat.net\n\nRun by: @danielmorrisey.com & @p1timmy.weee.ee",
     "indexedAt": "2026-05-06T14:23:18.458Z"
   },
-  "indexedAt": "2026-05-06T17:44:57.771Z",
+  "indexedAt": "2026-05-07T02:19:50.460Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "amal-bot-net",
+        "locales": [
+          {
+            "description": "This account seems to be a part of the 'amal' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
+            "lang": "en",
+            "name": "amal Bot Network"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "abed-bot-net",
+        "locales": [
+          {
+            "description": "This account seems to be a part of the 'Abed/Abdelfattah/Nagham' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
+            "lang": "en",
+            "name": "Abed/Abdelfattah/Nagham Bot Network"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -138,7 +166,7 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "mahmouds-family-bot-net",
+        "identifier": "m-fam",
         "locales": [
           {
             "description": "This account seems to be a part of the 'mahmouds family' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
@@ -236,7 +264,7 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "amoon-and-lolo-bot-net",
+        "identifier": "a-fam",
         "locales": [
           {
             "description": "This account seems to be a part of the 'Amoon & Lolo' bot net. \n\n DO NOT CLICK ON ANY LINKS FROM THIS ACCOUNT.",
@@ -317,13 +345,15 @@
       "sus",
       "cat-owner",
       "dog-owner",
-      "mahmouds-family-bot-net",
-      "amoon-and-lolo-bot-net",
+      "m-fam",
+      "a-fam",
       "impersonating-dead",
       "blueat-mod",
       "ai-agent",
       "hacked",
-      "mention-spam"
+      "mention-spam",
+      "amal-bot-net",
+      "abed-bot-net"
     ]
   },
   "subjectTypes": [
