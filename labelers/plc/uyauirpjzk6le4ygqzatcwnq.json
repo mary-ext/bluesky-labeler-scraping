@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiblmk74w36o7j5hun5tmmvotie5zai4poswrmmzkh2obpdlb7sl6y",
+  "cid": "bafyreidqi5aa4aro6tiwxaxpag25ctzucbdbhki2ejmfdnno5rw3f6zwve",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-05-07T15:11:24.463Z",
+  "indexedAt": "2026-05-08T03:11:24.965Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -921,6 +921,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "at-forum--hietzing",
+        "locales": [
+          {
+            "description": "Account is hosted by the forum-hietzing.at PDS",
+            "lang": "en",
+            "name": "forum-hietzing.at"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-chatapt",
         "locales": [
           {
@@ -935,12 +949,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-forum--hietzing",
+        "identifier": "one-certified",
         "locales": [
           {
-            "description": "Account is hosted by the forum-hietzing.at PDS",
+            "description": "Account is hosted by the certified.one PDS",
             "lang": "en",
-            "name": "forum-hietzing.at"
+            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -991,12 +1005,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--115",
+        "identifier": "social-stroam",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-115.up.railway.app PDS",
+            "description": "Account is hosted by the stroam.social PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-115.up.railway.app"
+            "name": "stroam.social"
           }
         ],
         "severity": "inform"
@@ -1005,12 +1019,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-stroam",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--115",
         "locales": [
           {
-            "description": "Account is hosted by the stroam.social PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-115.up.railway.app PDS",
             "lang": "en",
-            "name": "stroam.social"
+            "name": "certified-apppds-core-epds-pr-115.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1047,12 +1061,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "one-certified",
+        "identifier": "com-atheistmass-pds",
         "locales": [
           {
-            "description": "Account is hosted by the certified.one PDS",
+            "description": "Account is hosted by the pds.atheistmass.com PDS",
             "lang": "en",
-            "name": "certified.one"
+            "name": "pds.atheistmass.com"
           }
         ],
         "severity": "inform"
@@ -1067,20 +1081,6 @@
             "description": "Account is hosted by the casjay.social PDS",
             "lang": "en",
             "name": "casjay.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-atheistmass-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.atheistmass.com PDS",
-            "lang": "en",
-            "name": "pds.atheistmass.com"
           }
         ],
         "severity": "inform"
@@ -1173,20 +1173,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-witchcraft-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.witchcraft.systems PDS",
-            "lang": "en",
-            "name": "pds.witchcraft.systems"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-skeetcentral",
         "locales": [
           {
@@ -1201,12 +1187,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-si46-pds--dev",
+        "identifier": "systems-witchcraft-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
-            "name": "pds-dev.si46.world"
+            "name": "pds.witchcraft.systems"
           }
         ],
         "severity": "inform"
@@ -1221,6 +1207,20 @@
             "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
             "name": "pds.wsocial.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "world-si46-pds--dev",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "lang": "en",
+            "name": "pds-dev.si46.world"
           }
         ],
         "severity": "inform"
@@ -1257,12 +1257,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-ripperoni-alt",
+        "identifier": "com-haruhwa",
         "locales": [
           {
-            "description": "Account is hosted by the alt.ripperoni.com PDS",
+            "description": "Account is hosted by the haruhwa.com PDS",
             "lang": "en",
-            "name": "alt.ripperoni.com"
+            "name": "haruhwa.com"
           }
         ],
         "severity": "inform"
@@ -1271,12 +1271,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-haruhwa",
+        "identifier": "com-ripperoni-alt",
         "locales": [
           {
-            "description": "Account is hosted by the haruhwa.com PDS",
+            "description": "Account is hosted by the alt.ripperoni.com PDS",
             "lang": "en",
-            "name": "haruhwa.com"
+            "name": "alt.ripperoni.com"
           }
         ],
         "severity": "inform"
@@ -1355,6 +1355,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-dev",
+        "locales": [
+          {
+            "description": "Account is hosted by the dev.certified.app PDS",
+            "lang": "en",
+            "name": "dev.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-certified-test-sds--eu--west4",
         "locales": [
           {
@@ -1411,20 +1425,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev.certified.app PDS",
-            "lang": "en",
-            "name": "dev.certified.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-pwkl-eu1-dev",
         "locales": [
           {
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--137",
+        "identifier": "uk-madebydanny-rose",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-137.up.railway.app PDS",
+            "description": "Account is hosted by the rose.madebydanny.uk PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-137.up.railway.app"
+            "name": "rose.madebydanny.uk"
           }
         ],
         "severity": "inform"
@@ -1515,44 +1515,44 @@
       "social-fazen",
       "cloud-hstgr-srv865737",
       "fail-marta",
-      "net-chatapt",
       "at-forum--hietzing",
+      "net-chatapt",
+      "one-certified",
       "cafe-pckt-pds",
       "app-certified-test-epds1",
       "link-mybluesky",
-      "app-railway-up-certified--apppds--core--epds--pr--115",
       "social-stroam",
+      "app-railway-up-certified--apppds--core--epds--pr--115",
       "website-selting-social",
       "app-railway-up-certified--apppds--core--epds--pr--63",
-      "one-certified",
-      "social-casjay",
       "com-atheistmass-pds",
+      "social-casjay",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
       "com-arankwende",
       "club-nacg",
-      "systems-witchcraft-pds",
       "com-skeetcentral",
-      "world-si46-pds--dev",
+      "systems-witchcraft-pds",
       "network-wsocial-pds",
+      "world-si46-pds--dev",
       "network-eny-pds-oyster",
       "ai-swarmchat-pds",
-      "com-ripperoni-alt",
       "com-haruhwa",
+      "com-ripperoni-alt",
       "su-nyet",
       "ai-bigt-pds",
       "wtf-lamp",
       "xyz-syang-pds",
       "dev-fly-crimson--field--2410",
+      "app-certified-dev",
       "app-certified-test-sds--eu--west4",
       "social-seabikes",
       "online-magallan",
       "es-nobitch-bpds",
-      "app-certified-dev",
       "social-pwkl-eu1-dev",
-      "app-railway-up-certified--apppds--core--epds--pr--137"
+      "uk-madebydanny-rose"
     ]
   }
 }
