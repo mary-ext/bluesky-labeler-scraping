@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreig3k6wxl5twtoozbw77bzqhzcm27ijrt6x4by5igr26gdez4n6o3u",
+  "cid": "bafyreid5rcuezppjlhbdchdncjt2drdhqoqbactftcx6t6x6ew4qhqxzea",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -20,10 +20,38 @@
     "description": "(Work in progress)\n\n❤️ to Add, 💔 to Remove.\n\n⚠️ Don't \"Hide\" any of the badges ⚠️",
     "indexedAt": "2024-12-25T20:32:18.543Z"
   },
-  "indexedAt": "2026-04-07T11:06:27.753Z",
+  "indexedAt": "2026-05-10T08:49:58.163Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "polygender",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Polygender"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "demirose",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Demirose"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1132,6 +1160,8 @@
       }
     ],
     "labelValues": [
+      "polygender",
+      "demirose",
       "apothiromantic",
       "autiboy",
       "autigirl",
