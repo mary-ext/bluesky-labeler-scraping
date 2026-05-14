@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:l37i5se642dgeb7kmrdwoqv4/app.bsky.labeler.service/self",
-  "cid": "bafyreiep4ysbordnbge6pnmwiq65ex4xolqbbl6y3sk535yxruddjgcki4",
+  "cid": "bafyreid4zxi6jh5cmrifa7nsuen6d5avggfcqocwiqggwzjqsdeovuubwe",
   "creator": {
     "did": "did:plc:l37i5se642dgeb7kmrdwoqv4",
     "handle": "atls.city",
@@ -17,7 +17,7 @@
     "description": "Bringing the ATmosphere together\n\nGo to atls.city and find your place on the map.\n\nPersonalized feed: atls.city/go/near-you\n\nLive feed: atls.city/go/near-you-live\n\nCreated by @fema.monster and @richferro.com",
     "indexedAt": "2026-04-02T03:32:32.554Z"
   },
-  "indexedAt": "2026-04-19T18:34:04.449Z",
+  "indexedAt": "2026-05-13T03:26:25.863Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -62,12 +62,27 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bio-location",
+        "locales": [
+          {
+            "description": "This account has been automatically placed in a city's local feed based on location text found in their profile bio. Their bio contains a recognizable city name, abbreviation, or local term. They are not an ATlas member — their city placement is inferred from their bio and may expire after 30 days if no longer confirmed.",
+            "lang": "en",
+            "name": "Bio Location"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "atlas-user",
       "hashtag-author",
-      "follow-graph"
+      "follow-graph",
+      "bio-location"
     ]
   }
 }
