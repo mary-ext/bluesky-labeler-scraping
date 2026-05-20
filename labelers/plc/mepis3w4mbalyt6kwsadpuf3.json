@@ -1,0 +1,352 @@
+{
+  "uri": "at://did:plc:mepis3w4mbalyt6kwsadpuf3/app.bsky.labeler.service/self",
+  "cid": "bafyreih5mhvdotav2qhpd3anliecz3ljenxopbppeqanbfalebmvffqn7y",
+  "creator": {
+    "did": "did:plc:mepis3w4mbalyt6kwsadpuf3",
+    "handle": "test-labeler.xlz.ca",
+    "displayName": "XLZ Test Labeller",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:mepis3w4mbalyt6kwsadpuf3",
+        "uri": "at://did:plc:mepis3w4mbalyt6kwsadpuf3/app.bsky.actor.profile/self",
+        "cid": "bafyreia7wny4n5bwb5vnxe2oonnw7ssg36itcxdyoguqigeig6fhtzneam",
+        "val": "bot",
+        "cts": "1970-01-01T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-05-19T04:37:52.063Z",
+    "indexedAt": "2026-05-19T04:37:52.258Z"
+  },
+  "indexedAt": "2026-05-19T15:44:15.772Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "test-inform-none-ignore",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=none, defaultSetting=ignore. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform None Ignore"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test-inform-none-warn",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=none, defaultSetting=warn. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform None Warn"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "test-inform-none-hide",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=none, defaultSetting=hide. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform None Hide"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "test-inform-content-ignore",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=content, defaultSetting=ignore. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform Content Ignore"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "test-inform-content-warn",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=content, defaultSetting=warn. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform Content Warn"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "test-inform-content-hide",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=content, defaultSetting=hide. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform Content Hide"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "test-inform-media-ignore",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=media, defaultSetting=ignore. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform Media Ignore"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "test-inform-media-warn",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=media, defaultSetting=warn. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform Media Warn"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "test-inform-media-hide",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=inform, blurs=media, defaultSetting=hide. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Inform Media Hide"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "test-alert-none-ignore",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=none, defaultSetting=ignore. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert None Ignore"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test-alert-none-warn",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=none, defaultSetting=warn. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert None Warn"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "test-alert-none-hide",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=none, defaultSetting=hide. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert None Hide"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "test-alert-content-ignore",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=content, defaultSetting=ignore. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert Content Ignore"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "test-alert-content-warn",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=content, defaultSetting=warn. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert Content Warn"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "test-alert-content-hide",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=content, defaultSetting=hide. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert Content Hide"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "test-alert-media-ignore",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=media, defaultSetting=ignore. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert Media Ignore"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "test-alert-media-warn",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=media, defaultSetting=warn. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert Media Warn"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "test-alert-media-hide",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Test value: severity=alert, blurs=media, defaultSetting=hide. Demo for the bskybot labeller pipeline.",
+            "lang": "en",
+            "name": "Test Alert Media Hide"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "test-inform-none-ignore",
+      "test-inform-none-warn",
+      "test-inform-none-hide",
+      "test-inform-content-ignore",
+      "test-inform-content-warn",
+      "test-inform-content-hide",
+      "test-inform-media-ignore",
+      "test-inform-media-warn",
+      "test-inform-media-hide",
+      "test-alert-none-ignore",
+      "test-alert-none-warn",
+      "test-alert-none-hide",
+      "test-alert-content-ignore",
+      "test-alert-content-warn",
+      "test-alert-content-hide",
+      "test-alert-media-ignore",
+      "test-alert-media-warn",
+      "test-alert-media-hide"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}

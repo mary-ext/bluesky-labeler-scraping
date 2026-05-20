@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreiegildpk5wgd4kpe6q6k34okcnt6k6terw67wxuclvmist535gjni",
+  "cid": "bafyreidfdiot56nwao3vs3k4sfg2mj3ttlauaqdjxawoypct4dv7jqqf2i",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,7 +20,7 @@
     "description": "Independent Labeling Service | Not able to perform takedowns.\n\nNot associated with SkySentry.",
     "indexedAt": "2026-03-29T18:08:32.754Z"
   },
-  "indexedAt": "2026-05-11T22:29:29.069Z",
+  "indexedAt": "2026-05-19T23:19:15.562Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -551,13 +551,29 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonAppeal",
-    "com.atproto.moderation.defs#reasonSpam",
-    "com.atproto.moderation.defs#reasonMisleading",
-    "com.atproto.moderation.defs#reasonRude",
-    "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal"
+    "tools.ozone.report.defs#reasonAppeal",
+    "tools.ozone.report.defs#reasonViolenceThreats",
+    "tools.ozone.report.defs#reasonViolenceGraphicContent",
+    "tools.ozone.report.defs#reasonViolenceGlorification",
+    "tools.ozone.report.defs#reasonViolenceExtremistContent",
+    "tools.ozone.report.defs#reasonViolenceTrafficking",
+    "tools.ozone.report.defs#reasonViolenceOther",
+    "tools.ozone.report.defs#reasonHarassmentTroll",
+    "tools.ozone.report.defs#reasonHarassmentTargeted",
+    "tools.ozone.report.defs#reasonHarassmentHateSpeech",
+    "tools.ozone.report.defs#reasonHarassmentDoxxing",
+    "tools.ozone.report.defs#reasonHarassmentOther",
+    "tools.ozone.report.defs#reasonMisleadingElections",
+    "tools.ozone.report.defs#reasonMisleadingSpam",
+    "tools.ozone.report.defs#reasonMisleadingScam",
+    "tools.ozone.report.defs#reasonRuleSiteSecurity",
+    "tools.ozone.report.defs#reasonRuleOther",
+    "tools.ozone.report.defs#reasonSexualNCII",
+    "tools.ozone.report.defs#reasonSexualDeepfake",
+    "tools.ozone.report.defs#reasonSelfHarmContent",
+    "tools.ozone.report.defs#reasonSelfHarmED",
+    "tools.ozone.report.defs#reasonSelfHarmStunts",
+    "tools.ozone.report.defs#reasonOther"
   ],
   "subjectTypes": [
     "account",

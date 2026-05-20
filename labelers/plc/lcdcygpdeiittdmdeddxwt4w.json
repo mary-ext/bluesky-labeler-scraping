@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:lcdcygpdeiittdmdeddxwt4w/app.bsky.labeler.service/self",
-  "cid": "bafyreid4uvmr34yekajhe4ewimqcctzmgmufc6lg4ikyofszmlos6y7n5u",
+  "cid": "bafyreibcgle5y2furbfrvz2jbgeg3vqjx3v42b63etlgjyvbv56qlkgzv4",
   "creator": {
     "did": "did:plc:lcdcygpdeiittdmdeddxwt4w",
     "handle": "laelaps.fyi",
@@ -20,7 +20,7 @@
     "description": "An anti-zoophilia labeller, from the team behind the Zoophile Mute List.\n\nCriteria and evidence: https://info.laelaps.fyi/\nSupport: https://ko-fi.com/laelapsfyi",
     "indexedAt": "2025-10-23T23:14:02.851Z"
   },
-  "indexedAt": "2025-06-04T01:19:58.852Z",
+  "indexedAt": "2026-05-19T19:44:49.865Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -109,10 +109,14 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal",
-    "com.atproto.moderation.defs#reasonSexual"
+    "tools.ozone.report.defs#reasonAppeal",
+    "tools.ozone.report.defs#reasonOther",
+    "tools.ozone.report.defs#reasonSexualNCII",
+    "tools.ozone.report.defs#reasonSexualAnimal",
+    "tools.ozone.report.defs#reasonSexualOther",
+    "tools.ozone.report.defs#reasonRuleProhibitedSales",
+    "tools.ozone.report.defs#reasonRuleBanEvasion",
+    "tools.ozone.report.defs#reasonRuleOther"
   ],
   "subjectTypes": [
     "account",
