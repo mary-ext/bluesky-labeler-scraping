@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:l37i5se642dgeb7kmrdwoqv4/app.bsky.labeler.service/self",
-  "cid": "bafyreid4zxi6jh5cmrifa7nsuen6d5avggfcqocwiqggwzjqsdeovuubwe",
+  "cid": "bafyreigrycuqe4xqw6zhrhtdcd665jjegt62kjmor5lra3hm5czhbxp37u",
   "creator": {
     "did": "did:plc:l37i5se642dgeb7kmrdwoqv4",
     "handle": "atls.city",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-01-14T19:11:43.024Z",
-    "description": "Bringing the ATmosphere together\n\nGo to atls.city and find your place on the map.\n\nPersonalized feed: atls.city/go/near-you\n\nLive feed: atls.city/go/near-you-live\n\nCreated by @fema.monster and @richferro.com",
-    "indexedAt": "2026-04-02T03:32:32.554Z"
+    "description": "Bringing the ATmosphere together\n\nGo to atls.city and find your place on the map.\nFeed settings: nearyou.atls.city\n\nPersonalized feed: atls.city/go/near-you\n\nLive feed: atls.city/go/near-you-live\n\nCreated by @fema.monster and @richferro.com",
+    "indexedAt": "2026-05-22T05:31:05.060Z"
   },
-  "indexedAt": "2026-05-13T03:26:25.863Z",
+  "indexedAt": "2026-05-22T05:26:03.561Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -76,13 +76,28 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "crowdsource",
+        "locales": [
+          {
+            "description": "This account has been placed in a city's local feed because multiple users in that city independently added them to their community lists. This is a community-driven signal that this account is relevant to the local area.",
+            "lang": "en",
+            "name": "Crowdsource"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "atlas-user",
       "hashtag-author",
       "follow-graph",
-      "bio-location"
+      "bio-location",
+      "crowdsource"
     ]
   }
 }
