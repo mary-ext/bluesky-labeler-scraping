@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiatcq6k6g42mkmgr4qfqgcahcsxvzfiqqs3jgxhzaot2ohztkggrq",
+  "cid": "bafyreierscssmjotvsbf6kimpf5u7twvoz2crrcadcnczkzx3hqrj2swsi",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-05-22T18:08:03.072Z",
+  "indexedAt": "2026-05-23T18:08:03.168Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -235,6 +235,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "one-certified",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified.one PDS",
+            "lang": "en",
+            "name": "certified.one"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-qualiaworks-eurosky--pds",
         "locales": [
           {
@@ -269,20 +283,6 @@
             "description": "Account is hosted by the bs.k4zka.online PDS",
             "lang": "en",
             "name": "bs.k4zka.online"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "one-certified",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified.one PDS",
-            "lang": "en",
-            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -711,12 +711,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-pds--eu--west4",
+        "identifier": "me-opnmt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
+            "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
-            "name": "pds-eu-west4.test.certified.app"
+            "name": "pds.opnmt.me"
           }
         ],
         "severity": "inform"
@@ -725,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-opnmt-pds",
+        "identifier": "app-certified-test-pds--eu--west4",
         "locales": [
           {
-            "description": "Account is hosted by the pds.opnmt.me PDS",
+            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
             "lang": "en",
-            "name": "pds.opnmt.me"
+            "name": "pds-eu-west4.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -907,6 +907,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cafe-pckt-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "lang": "en",
+            "name": "pds.pckt.cafe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "space-cannect",
         "locales": [
           {
@@ -935,12 +949,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "pds.pckt.cafe"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -969,20 +983,6 @@
             "description": "Account is hosted by the marta.fail PDS",
             "lang": "en",
             "name": "marta.fail"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
-            "lang": "en",
-            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -1229,12 +1229,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "systems-witchcraft-pds",
+        "identifier": "com-skeetcentral",
         "locales": [
           {
-            "description": "Account is hosted by the pds.witchcraft.systems PDS",
+            "description": "Account is hosted by the skeetcentral.com PDS",
             "lang": "en",
-            "name": "pds.witchcraft.systems"
+            "name": "skeetcentral.com"
           }
         ],
         "severity": "inform"
@@ -1243,12 +1243,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-skeetcentral",
+        "identifier": "systems-witchcraft-pds",
         "locales": [
           {
-            "description": "Account is hosted by the skeetcentral.com PDS",
+            "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
-            "name": "skeetcentral.com"
+            "name": "pds.witchcraft.systems"
           }
         ],
         "severity": "inform"
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bookhive",
+        "identifier": "surf-self",
         "locales": [
           {
-            "description": "Account is hosted by the bookhive.social PDS",
+            "description": "Account is hosted by the self.surf PDS",
             "lang": "en",
-            "name": "bookhive.social"
+            "name": "self.surf"
           }
         ],
         "severity": "inform"
@@ -1466,10 +1466,10 @@
       "so-sprk-pds",
       "net-wafrn-app-at",
       "xyz-skystack",
+      "one-certified",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "online-k4zka-bs",
-      "one-certified",
       "to-bbi",
       "eu-helvetet-bsky",
       "chat-roomy",
@@ -1500,8 +1500,8 @@
       "app-certified-test-epds--poc1",
       "pw-blam",
       "app-railway-up-certified--apppds--core--epds--pr--110",
-      "app-certified-test-pds--eu--west4",
       "me-opnmt-pds",
+      "app-certified-test-pds--eu--west4",
       "app-railway-up-certified--apppds--core--epds--pr--122",
       "app-railway-up-certified--apppds--core--epds--pr--85",
       "app-railway-up-certified--apppds--core--epds--pr--21",
@@ -1514,12 +1514,12 @@
       "live-shxre",
       "app-railway-up-certified--apppds--core--epds--pr--124",
       "cloud-nihilist",
+      "cafe-pckt-pds",
       "space-cannect",
       "social-fazen",
-      "cafe-pckt-pds",
+      "network-wsocial-pds",
       "cloud-hstgr-srv865737",
       "fail-marta",
-      "network-wsocial-pds",
       "net-chatapt",
       "app-certified-test-epds1",
       "link-mybluesky",
@@ -1537,8 +1537,8 @@
       "com-arankwende",
       "app-certified-dev",
       "club-nacg",
-      "systems-witchcraft-pds",
       "com-skeetcentral",
+      "systems-witchcraft-pds",
       "info-men--esthe-pds3",
       "social-pwkl-eu1-dev",
       "world-si46-pds--dev",
@@ -1552,7 +1552,7 @@
       "dev-fly-crimson--field--2410",
       "app-certified-test-sds--eu--west4",
       "social-seabikes",
-      "social-bookhive"
+      "surf-self"
     ]
   }
 }
