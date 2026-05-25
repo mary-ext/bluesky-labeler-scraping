@@ -1,0 +1,178 @@
+{
+  "uri": "at://did:plc:sr7hpjhseg2zqomswzw4tmin/app.bsky.labeler.service/self",
+  "cid": "bafyreicwg2klu5xxzcxcjrfhwiqf7dmacuaomjp4nh6n3dr6abpmhgl5je",
+  "creator": {
+    "did": "did:plc:sr7hpjhseg2zqomswzw4tmin",
+    "handle": "creatorlabeler.blackwall.gg",
+    "displayName": "Creator Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sr7hpjhseg2zqomswzw4tmin/bafkreia2idblbnqviz7ksqedjexz3uwy6x2dasaxrfavmopjx2vjs54gei",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-05-24T21:41:01.157Z",
+    "description": "@blackwall.gg 's Creator labeler",
+    "indexedAt": "2026-05-24T23:42:20.659Z"
+  },
+  "indexedAt": "2026-05-24T23:41:17.062Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "twodart",
+        "locales": [
+          {
+            "description": "Artists who work in two dimensional mediums",
+            "lang": "en",
+            "name": "2D Artist/Designer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "threedart",
+        "locales": [
+          {
+            "description": "Artists who work in 3D mediums",
+            "lang": "en",
+            "name": "3D Artist/Designer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "animator",
+        "locales": [
+          {
+            "description": "Artists who work in any medium of animation, whether 2d, 3d, digital, or traditional",
+            "lang": "en",
+            "name": "Animator"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cosplayer",
+        "locales": [
+          {
+            "description": "People who dress and or roleplay as fictional or real characters from culture",
+            "lang": "en",
+            "name": "Cosplayer"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "photographer",
+        "locales": [
+          {
+            "description": "People who take pictures of various subject matters",
+            "lang": "en",
+            "name": "Photographer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "actor",
+        "locales": [
+          {
+            "description": "People who play parts on stage, films, or television",
+            "lang": "en",
+            "name": "Actor"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "voiceactor",
+        "locales": [
+          {
+            "description": "i messed this one up",
+            "lang": "en",
+            "name": "people who do perform with their voice"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "voiceacting",
+        "locales": [
+          {
+            "description": "People who perform with their voice, either as characters or voicing over other media",
+            "lang": "en",
+            "name": "Voice Actor"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "musician",
+        "locales": [
+          {
+            "description": "People who create music",
+            "lang": "en",
+            "name": "Musician"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "writer",
+        "locales": [
+          {
+            "description": "People who write any content, be it stories, articles, books, or other mediums not considered",
+            "lang": "en",
+            "name": "Writer"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "twodart",
+      "threedart",
+      "animator",
+      "cosplayer",
+      "photographer",
+      "actor",
+      "voiceactor",
+      "voiceacting",
+      "musician",
+      "writer"
+    ]
+  }
+}
