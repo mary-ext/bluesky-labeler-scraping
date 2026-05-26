@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:djcot74d3xbuxbe3dkfvchwe/app.bsky.labeler.service/self",
-  "cid": "bafyreifuiqbpd4x72duq2x66vsvxawzvzifwaanfbeyeayiqtvfkevpvbm",
+  "cid": "bafyreibmc3iupwsbpolssne2wzz7k4xess3buqtn4z6qwwwcp3kevnpv3y",
   "creator": {
     "did": "did:plc:djcot74d3xbuxbe3dkfvchwe",
     "handle": "labeler.pikaparty.social",
@@ -15,9 +15,9 @@
     "labels": [],
     "createdAt": "2026-05-24T21:14:40.470Z",
     "description": "⚡️ Pikachu-approved custom labels for content creators!\n🌊 Maintained by @reefsnax.pikaparty.social\n🌐 Part of the pikaparty.social network\n💕 Support: https://ko-fi.com/reefsnax\n\nPlease report any AI/Bots using Artist/Designer!",
-    "indexedAt": "2026-05-25T00:23:18.458Z"
+    "indexedAt": "2026-05-25T02:12:42.062Z"
   },
-  "indexedAt": "2026-05-24T23:22:25.480Z",
+  "indexedAt": "2026-05-25T16:14:04.678Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -64,7 +64,7 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "3d-artist",
+        "identifier": "three-d-artist",
         "locales": [
           {
             "description": "Creators specializing in 3D graphics and modeling.",
@@ -1232,6 +1232,45 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "dj",
+        "locales": [
+          {
+            "description": "Creators who mix, produce, or perform DJ sets.",
+            "lang": "en",
+            "name": "DJ"
+          },
+          {
+            "description": "ミックス、プロデュース、またはDJセットを披露するクリエイター。",
+            "lang": "ja",
+            "name": "DJ"
+          },
+          {
+            "description": "Ersteller, die DJ-Sets mixen, produzieren oder aufführen.",
+            "lang": "de",
+            "name": "DJ"
+          },
+          {
+            "description": "Criadores que mixam, produzem ou fazem sets de DJ.",
+            "lang": "pt",
+            "name": "DJ"
+          },
+          {
+            "description": "Creadores que mezclan, producen o realizan sets de DJ.",
+            "lang": "es",
+            "name": "DJ"
+          },
+          {
+            "description": "Créateurs qui mixent, produisent ou exécutent des sets de DJ.",
+            "lang": "fr",
+            "name": "DJ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
         "blurs": "media",
         "defaultSetting": "hide",
         "identifier": "ai-artist",
@@ -1272,7 +1311,7 @@
     ],
     "labelValues": [
       "artist-designer",
-      "3d-artist",
+      "three-d-artist",
       "animator",
       "photographer",
       "voice-actor",
@@ -1302,6 +1341,7 @@
       "indie-games",
       "fps-battle-royale",
       "vrchat",
+      "dj",
       "ai-artist"
     ]
   },
