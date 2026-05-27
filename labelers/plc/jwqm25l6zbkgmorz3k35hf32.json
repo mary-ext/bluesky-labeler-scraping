@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreife63qyhuidjl6clgsogm4ugii5fue3ciojjcos2gymyrqrl5u6ka",
+  "cid": "bafyreicngtzlahgtojvz7m7mspmi43ssf5aretz6ikddr5utf35zgifl4y",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -60,10 +60,24 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)\n\n.",
     "indexedAt": "2026-05-02T19:02:59.067Z"
   },
-  "indexedAt": "2026-05-12T04:03:31.362Z",
+  "indexedAt": "2026-05-26T10:56:17.562Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "badge",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Badge"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -150,6 +164,7 @@
       }
     ],
     "labelValues": [
+      "badge",
       "test",
       "contains-patreon-substitutes",
       "contains-pin-emoji",

@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:iqnugdr4iua6r5psdmx2ufas/app.bsky.labeler.service/self",
-  "cid": "bafyreicpsibtl5c36ybdg2ebb4yo4njqrzhn5wsd4ybiwnu6xixf3bk4zm",
+  "cid": "bafyreihbm4kwtkixuqbqwgwqf456jy4ukgo7n3elgnrkuohffqlgbodyri",
   "creator": {
     "did": "did:plc:iqnugdr4iua6r5psdmx2ufas",
-    "handle": "discourse-labeler.bsky.social",
+    "handle": "discourse.manos.lol",
     "displayName": "",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iqnugdr4iua6r5psdmx2ufas/bafkreic5anqsyizhrhr64coxq7j4szxrdr4xfhvrlvns7y2d76vx2q72c4",
     "associated": {
@@ -16,9 +16,49 @@
     "createdAt": "2026-05-26T00:11:44.856Z",
     "indexedAt": "2026-05-26T00:12:13.558Z"
   },
-  "indexedAt": "2026-05-26T00:26:11.567Z",
+  "indexedAt": "2026-05-26T04:14:28.365Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "meta-discourse",
+        "locales": [
+          {
+            "description": "Evaluates, criticizes, or theorizes about the cultural and social experience of the Bluesky platform itself, including debates about site vibes, echo chambers, user behavior, and comparisons with other social networks.",
+            "lang": "en",
+            "name": "Meta-Discourse"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "possible-meta-discourse",
+        "locales": [
+          {
+            "description": "Content that likely discusses platform culture, vibes, or meta-commentary, flagged with lower classification confidence.",
+            "lang": "en",
+            "name": "Possible Meta-Discourse"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "meta-discourse",
+      "possible-meta-discourse"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
 }

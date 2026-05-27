@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
-  "cid": "bafyreic4eawgjblnu3md2tcrfdvm6fmv7ndmvthrttmufrajuoh2ry5pkm",
+  "cid": "bafyreicmwt3etbiqbjwqk2744jtl2xnacb7sjwalhonpngwkkgnto6vpj4",
   "creator": {
     "did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
     "handle": "moderation.blacksky.app",
@@ -21,7 +21,7 @@
     "description": "Building the intercommunal net\n\nThis account is a mod service for Bluesky. Subscribe to use our filters\n\nMain account: @blackskyweb.xyz\nSupport: support@blacksky.app\nAppeals: https://blackskyweb.xyz/about/support/moderation-appeal/",
     "indexedAt": "2026-05-18T20:46:39.261Z"
   },
-  "indexedAt": "2025-10-06T15:54:59.560Z",
+  "indexedAt": "2026-05-26T21:19:30.060Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -176,7 +176,7 @@
         "identifier": "misogynoir",
         "locales": [
           {
-            "description": "Content that expresses hatred, bias, or prejudice against Black women, specifically where racism, sexism, and/or transphobia intersect. This includes sexual harassment, objectification, and targeted attacks on Black women’s identity or appearance.",
+            "description": "Content that expresses hatred, bias, or prejudice against Black women, specifically where racism, sexism, and/or transphobia intersect. This includes sexual harassment, objectification, and targeted attacks on Black women's identity or appearance.",
             "lang": "en",
             "name": "Misogynoir"
           },
@@ -186,9 +186,57 @@
             "name": "Misogynoir"
           },
           {
-            "description": "Contenu exprimant de la haine, des préjugés ou des partis pris à l’égard des femmes noires, en particulier lorsque le racisme, le sexisme et/ou la transphobie se croisent. Cela comprend le harcèlement sexuel, l’objectification et les attaques ciblées sur l’identité ou l’apparence des femmes noires.",
+            "description": "Contenu exprimant de la haine, des préjugés ou des partis pris à l'égard des femmes noires, en particulier lorsque le racisme, le sexisme et/ou la transphobie se croisent. Cela comprend le harcèlement sexuel, l'objectification et les attaques ciblées sur l'identité ou l'apparence des femmes noires.",
             "lang": "fr",
             "name": "Misogynoir"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "fatphobia",
+        "locales": [
+          {
+            "description": "Content that expresses statements of fatphobia, including images, videos, and fatphobic language, in an effort to discriminate against fat bodies.",
+            "lang": "en",
+            "name": "Fatphobia"
+          },
+          {
+            "description": "Conteúdo que expressa declarações de gordofobia, incluindo imagens, vídeos e linguagem gordofóbica, com o objetivo de discriminar corpos gordos.",
+            "lang": "pt",
+            "name": "Gordofobia"
+          },
+          {
+            "description": "Contenu qui exprime des déclarations grossophobes, y compris des images, des vidéos et un langage grossophobe, dans le but de discriminer les corps gros.",
+            "lang": "fr",
+            "name": "Grossophobie"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "ableism",
+        "locales": [
+          {
+            "description": "Content that is harmful to people with disabilities, including harassing, abusive, or dehumanizing content directed at people with disabilities that are visible and invisible.",
+            "lang": "en",
+            "name": "Ableism"
+          },
+          {
+            "description": "Conteúdo prejudicial a pessoas com deficiência, incluindo conteúdo de assédio, abusivo ou desumanizante direcionado a pessoas com deficiências visíveis e invisíveis.",
+            "lang": "pt",
+            "name": "Capacitismo"
+          },
+          {
+            "description": "Contenu nuisible aux personnes en situation de handicap, y compris le contenu harcelant, abusif ou déshumanisant dirigé contre les personnes ayant des handicaps visibles et invisibles.",
+            "lang": "fr",
+            "name": "Capacitisme"
           }
         ],
         "severity": "alert"
@@ -201,7 +249,9 @@
       "doxxing",
       "non-consensual-intimate-imagery",
       "misogynoir",
-      "antiblack-harassment"
+      "antiblack-harassment",
+      "fatphobia",
+      "ableism"
     ]
   },
   "reasonTypes": [
