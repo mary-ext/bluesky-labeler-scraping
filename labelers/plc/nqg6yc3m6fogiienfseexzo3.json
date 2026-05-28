@@ -1,0 +1,40 @@
+{
+  "uri": "at://did:plc:nqg6yc3m6fogiienfseexzo3/app.bsky.labeler.service/self",
+  "cid": "bafyreid2iql6jokc63h7v2xkap6ysp2b3gewctz2xwmj26ukxpjneg257y",
+  "creator": {
+    "did": "did:plc:nqg6yc3m6fogiienfseexzo3",
+    "handle": "arabica-bot.arabica.systems",
+    "displayName": "Arabica Labeler",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "none"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-05-27T22:52:01.660Z",
+    "description": "WIP Labeler for @arabica.social",
+    "indexedAt": "2026-05-27T22:52:01.660Z"
+  },
+  "indexedAt": "2026-05-27T22:49:15.459Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValues": [
+      "trusted-user",
+      "trusted-roaster",
+      "verified-roaster",
+      "commercial-account"
+    ]
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "fm.teal.alpha.feed.status",
+    "social.arabica.alpha.like"
+  ]
+}
