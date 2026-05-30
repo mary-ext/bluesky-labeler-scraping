@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:iqnugdr4iua6r5psdmx2ufas/app.bsky.labeler.service/self",
-  "cid": "bafyreihbm4kwtkixuqbqwgwqf456jy4ukgo7n3elgnrkuohffqlgbodyri",
+  "cid": "bafyreiaewz7acchlc2pwk3w5eajlrhu3imun7rc4zvbfy2l3rnankezcy4",
   "creator": {
     "did": "did:plc:iqnugdr4iua6r5psdmx2ufas",
     "handle": "discourse.manos.lol",
@@ -16,49 +16,9 @@
     "createdAt": "2026-05-26T00:11:44.856Z",
     "indexedAt": "2026-05-26T00:12:13.558Z"
   },
-  "indexedAt": "2026-05-26T04:14:28.365Z",
+  "indexedAt": "2026-05-29T04:46:19.662Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "meta-discourse",
-        "locales": [
-          {
-            "description": "Evaluates, criticizes, or theorizes about the cultural and social experience of the Bluesky platform itself, including debates about site vibes, echo chambers, user behavior, and comparisons with other social networks.",
-            "lang": "en",
-            "name": "Meta-Discourse"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "possible-meta-discourse",
-        "locales": [
-          {
-            "description": "Content that likely discusses platform culture, vibes, or meta-commentary, flagged with lower classification confidence.",
-            "lang": "en",
-            "name": "Possible Meta-Discourse"
-          }
-        ],
-        "severity": "inform"
-      }
-    ],
-    "labelValues": [
-      "meta-discourse",
-      "possible-meta-discourse"
-    ]
-  },
-  "reasonTypes": [
-    "com.atproto.moderation.defs#reasonAppeal"
-  ],
-  "subjectTypes": [
-    "record"
-  ],
-  "subjectCollections": [
-    "app.bsky.feed.post"
-  ]
+    "labelValues": []
+  }
 }

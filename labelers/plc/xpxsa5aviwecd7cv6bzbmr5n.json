@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreicjq5pbweg77suffpaclldhozdw3pq64a45pauh3zfitiavr6zcai",
+  "cid": "bafyreiejqqfwi5rz2ye6i3b3rlfqgcwzpita673px7lq2ajjxwku2fdsoe",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-04-04T11:25:09.372Z",
+  "indexedAt": "2026-05-29T22:04:31.990Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6841,6 +6841,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rahilp-second-brain-cloudflare",
+        "locales": [
+          {
+            "description": "One memory layer, every AI tool. Store anything once — recall it in Claude, ChatGPT, Cursor, or any MCP client. Self-hosted on Cloudflare's free tier.\nhttps://github.com/rahilp/second-brain-cloudflare",
+            "lang": "en",
+            "name": "rahilp/second-brain-cloudflare"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rahilp-second-brain-obsidian-plugin",
+        "locales": [
+          {
+            "description": "Sync your Obsidian notes to your self-hosted Second Brain MCP server on Cloudflare Workers. Semantic search and recall across Claude, ChatGPT, and any MCP-compatible AI tool.\nhttps://github.com/rahilp/second-brain-obsidian-plugin",
+            "lang": "en",
+            "name": "rahilp/second-brain-obsidian-plugin"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7330,7 +7358,9 @@
       "bluesky-social-pds",
       "jfourckxyz-tweets-two-bsky",
       "railwayapp-docs",
-      "emdash-cms-emdash"
+      "emdash-cms-emdash",
+      "rahilp-second-brain-cloudflare",
+      "rahilp-second-brain-obsidian-plugin"
     ]
   }
 }
