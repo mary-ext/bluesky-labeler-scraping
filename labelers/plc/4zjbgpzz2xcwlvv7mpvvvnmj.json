@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4zjbgpzz2xcwlvv7mpvvvnmj/app.bsky.labeler.service/self",
-  "cid": "bafyreih4xdzrk7aqx4uagprhlegd7guz626nn4qvybyqw6apa5q7uqxt2q",
+  "cid": "bafyreie3dgvb3qi77txzgwxehobovcdlsj2i5m3zbfmfcpn3l6mkelumgy",
   "creator": {
     "did": "did:plc:4zjbgpzz2xcwlvv7mpvvvnmj",
     "handle": "labeler.indiemusi.ch",
@@ -16,12 +16,127 @@
     },
     "labels": [],
     "createdAt": "2026-05-17T15:37:36.868Z",
-    "description": "Run by @hilk.eu and @indiemusi.ch\nNot operational yet. We first need to install Ozone and define the label categories...",
-    "indexedAt": "2026-05-17T15:37:36.868Z"
+    "description": "Run by @hilk.eu and @indiemusi.ch\nLabel categories are defined and we are testing stuff. Reach out if something is off or if you want to get labeled ;-)",
+    "indexedAt": "2026-05-30T17:28:09.761Z"
   },
-  "indexedAt": "2026-05-17T21:39:16.468Z",
+  "indexedAt": "2026-05-30T16:56:13.968Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "music-artist",
+        "locales": [
+          {
+            "description": "Bands and artists creating music",
+            "lang": "en",
+            "name": "Artist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "music-label",
+        "locales": [
+          {
+            "description": "Music labels promoting and distributing music from artists",
+            "lang": "en",
+            "name": "Music Label"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "music-venue",
+        "locales": [
+          {
+            "description": "A venue, bar or concert hall where music is performed or presented",
+            "lang": "en",
+            "name": "Music Venue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "music-journalism",
+        "locales": [
+          {
+            "description": "Any outlet that informs people about music: radio, magazines, blogs, curators, etc.",
+            "lang": "en",
+            "name": "Music Journalism"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "music-business",
+        "locales": [
+          {
+            "description": "Businesses supporting music artists, such as management, booking or promotion agencies, lobbying organizations, etc.",
+            "lang": "en",
+            "name": "Music Business"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "music-service",
+        "locales": [
+          {
+            "description": "Organizations or companies providing technical infrastructure to the music ecosystem, such as music streaming, online stores, etc.",
+            "lang": "en",
+            "name": "Music Service"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "❌ This account is impersonating a music industry professional or organization.",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "music-artist",
+      "music-label",
+      "music-venue",
+      "music-journalism",
+      "music-business",
+      "music-service",
+      "impersonation"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account"
+  ]
 }
