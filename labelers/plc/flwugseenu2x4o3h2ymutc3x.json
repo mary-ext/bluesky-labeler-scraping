@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreibrx4drxwireyqes3t2hi2ig6nlxwcq6wn2g6trq6kexs2shlj7pa",
+  "cid": "bafyreibncrt5hacux3vzshml3wei634ztyapzw4ogzudx4wokatjfo5kdy",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -17,7 +17,7 @@
     "description": "Labels AI imagery, and audio\n\nConsider following our main account @blackwall.gg\n\nreporting with proof helps the verification process.\n\nif you are an artist, uploading timelapses of your work somewhere greatly helps in cases of false reports.",
     "indexedAt": "2026-04-12T12:39:51.658Z"
   },
-  "indexedAt": "2026-05-03T13:07:05.070Z",
+  "indexedAt": "2026-05-31T19:59:37.565Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -80,13 +80,27 @@
       {
         "adultOnly": false,
         "blurs": "media",
+        "defaultSetting": "inform",
+        "identifier": "thirdpartyimagerypost",
+        "locales": [
+          {
+            "description": "Screenshots of REAL posts, typically from political figures; which contain AI Generated Imagery, this label exists to avoid confusion about whether the POST ITSELF is legitimate",
+            "lang": "en",
+            "name": "Third Party Imagery Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
         "defaultSetting": "warn",
         "identifier": "indirectimagerypost",
         "locales": [
           {
-            "description": "Individual that indirectly contain AI generated elements, such as when traced over by a human",
+            "description": "Individual posts that indirectly contain AI generated elements, such as when traced over by a human",
             "lang": "en",
-            "name": "AI Imagery Post"
+            "name": "Indirect AI Imagery Post"
           }
         ],
         "severity": "inform"
@@ -179,13 +193,14 @@
     "labelValues": [
       "aiprofile",
       "imageryaccount",
+      "indirectimageryaccount",
       "audioaccount",
       "programmingaccount",
-      "indirectimageryaccount",
       "imagerypost",
+      "thirdpartyimagerypost",
+      "indirectimagerypost",
       "audiopost",
       "programmingpost",
-      "indirectimagerypost",
       "protomionalaccount",
       "promotionalpost",
       "textaccount",
