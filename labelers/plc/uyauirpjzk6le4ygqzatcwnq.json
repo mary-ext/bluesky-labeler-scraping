@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidjuowuoyxz4wfk37ughpikpnplc7ty6f5pbizv54i373s4e26k4a",
+  "cid": "bafyreigvkcgil6bndm4rzxneltrrd7fex4so7zhyl72uauwnrmmr2x5xwq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-06-01T00:42:50.580Z",
+  "indexedAt": "2026-06-01T02:42:50.968Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -507,6 +507,20 @@
             "description": "Account is hosted by the bsky.nrbrtspvk.com PDS",
             "lang": "en",
             "name": "bsky.nrbrtspvk.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "store-tz2at-marketplaces",
+        "locales": [
+          {
+            "description": "Account is hosted by the marketplaces.tz2at.store PDS",
+            "lang": "en",
+            "name": "marketplaces.tz2at.store"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-pwkl-eu1-dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
-            "lang": "en",
-            "name": "dev.eu1.pwkl.social"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1486,6 +1486,7 @@
       "net-goldentooth-pds",
       "social-selfhosted",
       "com-nrbrtspvk-bsky",
+      "store-tz2at-marketplaces",
       "net-riyo-pds",
       "com-haruhwa",
       "app-railway-up-certified--apppds--core--epds--pr--148",
@@ -1551,8 +1552,7 @@
       "systems-witchcraft-pds",
       "com-skeetcentral",
       "app-railway-up-certified--apppds--core--epds--pr--177",
-      "info-men--esthe-pds3",
-      "social-pwkl-eu1-dev"
+      "info-men--esthe-pds3"
     ]
   }
 }
