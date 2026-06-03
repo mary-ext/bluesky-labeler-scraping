@@ -1,0 +1,144 @@
+{
+  "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
+  "cid": "bafyreienvad6rekgotp66irmmws7noxpaw7vcxtcqgn6vb6y63kfrgcmru",
+  "creator": {
+    "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
+    "handle": "curationkeeper.bsky.social",
+    "displayName": "CurationKeeper",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jwqm25l6zbkgmorz3k35hf32/bafkreigo5axlnpdujk44ocijjplbrdjgkvmlso7gyfoflp3347j5funujy",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "all",
+        "allowGroupInvites": "all"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2024-06-17T17:11:39.257Z",
+    "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)\n\n.",
+    "indexedAt": "2026-06-01T03:05:54.162Z"
+  },
+  "indexedAt": "2026-06-02T20:38:03.669Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "badge",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Badge"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "test",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Test"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-patreon-substitutes",
+        "locales": [
+          {
+            "description": "Contains substitutes for the word \"Patreon\"",
+            "lang": "en",
+            "name": "Contains Patreon Obfuscation"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-pin-emoji",
+        "locales": [
+          {
+            "description": "Contains the pin emoji 📌",
+            "lang": "en",
+            "name": "Contains 📌"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-skeet",
+        "locales": [
+          {
+            "description": "Contains the word \"skeet\"",
+            "lang": "en",
+            "name": "Contains skeet"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-xitter",
+        "locales": [
+          {
+            "description": "Contains the word \"xitter\"",
+            "lang": "en",
+            "name": "Contains xitter"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "contains-xwitter",
+        "locales": [
+          {
+            "description": "Contains the word \"xwitter\"",
+            "lang": "en",
+            "name": "Contains xwitter"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "badge",
+      "test",
+      "contains-patreon-substitutes",
+      "contains-pin-emoji",
+      "contains-xwitter",
+      "contains-xitter",
+      "contains-skeet"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
+}
