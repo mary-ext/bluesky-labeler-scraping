@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:j5b2pfbj4dgvnrt34loaavfu/app.bsky.labeler.service/self",
-  "cid": "bafyreibrnv5mqk2um2jjpgxx6nhncuib47ug7fd4a4l2qw7dxm273kzmd4",
+  "cid": "bafyreiemlgbeayvmd7bnhshzadwsn7a35uy6pb7vupjwfwrvtclx4ijlce",
   "creator": {
     "did": "did:plc:j5b2pfbj4dgvnrt34loaavfu",
     "handle": "labtest212.bsky.social",
@@ -16,9 +16,37 @@
     "createdAt": "2026-06-01T19:39:24.058Z",
     "indexedAt": "2026-06-01T19:39:51.870Z"
   },
-  "indexedAt": "2026-06-01T20:21:24.275Z",
+  "indexedAt": "2026-06-03T17:05:20.264Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "sd-11",
+        "locales": [
+          {
+            "description": "Test label for CA-SD 11: https://calmatters.digitaldemocracy.org/legislators/scott-wiener-100936",
+            "lang": "en",
+            "name": "CA-SD 11"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "sd-11"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
 }
