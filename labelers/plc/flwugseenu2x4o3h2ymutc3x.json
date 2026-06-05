@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreibncrt5hacux3vzshml3wei634ztyapzw4ogzudx4wokatjfo5kdy",
+  "cid": "bafyreiaalr26xs5czr5ofmulfryan4qczyi3gz45eva6wksflo3xf2jt2e",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -17,7 +17,7 @@
     "description": "Labels AI imagery, and audio\n\nConsider following our main account @blackwall.gg\n\nreporting with proof helps the verification process.\n\nif you are an artist, uploading timelapses of your work somewhere greatly helps in cases of false reports.",
     "indexedAt": "2026-04-12T12:39:51.658Z"
   },
-  "indexedAt": "2026-05-31T19:59:37.565Z",
+  "indexedAt": "2026-06-04T12:31:13.971Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -81,10 +81,10 @@
         "adultOnly": false,
         "blurs": "media",
         "defaultSetting": "inform",
-        "identifier": "thirdpartyimagerypost",
+        "identifier": "indirectimageryaccount",
         "locales": [
           {
-            "description": "Screenshots of REAL posts, typically from political figures; which contain AI Generated Imagery, this label exists to avoid confusion about whether the POST ITSELF is legitimate",
+            "description": "Screenshots of REAL posts, typically from political figures; which contain AI generated Imagery, this label exists to avoid confusion about whether the POST ITSELF is legitimate",
             "lang": "en",
             "name": "Third Party Imagery Post"
           }
@@ -185,6 +185,20 @@
             "description": "Accounts that regularly post promotional material for generative AI products",
             "lang": "en",
             "name": "AI Promotional Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "imagerypost",
+        "locales": [
+          {
+            "description": "Individual posts containing AI Imagery. but with badge options",
+            "lang": "en",
+            "name": "AI Imagery Post [Badge]"
           }
         ],
         "severity": "inform"

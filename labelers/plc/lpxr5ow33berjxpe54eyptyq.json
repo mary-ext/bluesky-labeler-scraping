@@ -1,0 +1,53 @@
+{
+  "uri": "at://did:plc:lpxr5ow33berjxpe54eyptyq/app.bsky.labeler.service/self",
+  "cid": "bafyreib5ahgazkagqv6szzijgl7yfyhyvrlduqmm5dwustvnsllc6pm6oi",
+  "creator": {
+    "did": "did:plc:lpxr5ow33berjxpe54eyptyq",
+    "handle": "cmtest2.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lpxr5ow33berjxpe54eyptyq/bafkreifjelcqe63oaonp5bt3tegsdtsb7hksr2fruq5y5d45kiycijkv7a",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-06-04T21:26:05.759Z",
+    "indexedAt": "2026-06-04T21:26:17.557Z"
+  },
+  "indexedAt": "2026-06-04T22:31:33.265Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "sd-11",
+        "locales": [
+          {
+            "description": "CA Senate District 11 Representative\n\nDigital Democracy profile: https://calmatters.digitaldemocracy.org/legislators/scott-wiener-100936",
+            "lang": "en",
+            "name": "CA SD-11"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "sd-11"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}
