@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreienvad6rekgotp66irmmws7noxpaw7vcxtcqgn6vb6y63kfrgcmru",
+  "cid": "bafyreibizr4r4wfkjspvfu6cxo6bt4ol7s4dwpprvdjx27dzporteuwc2a",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -22,10 +22,24 @@
     "description": "Just experimenting with labellers 🙃\n\n(All lists are manually managed, they're for my own personal use)\n\n.",
     "indexedAt": "2026-06-03T20:18:45.658Z"
   },
-  "indexedAt": "2026-06-02T20:38:03.669Z",
+  "indexedAt": "2026-06-05T09:05:30.468Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-text-misuse",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Alt Text Misuse Test"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -126,6 +140,7 @@
       }
     ],
     "labelValues": [
+      "alt-text-misuse",
       "badge",
       "test",
       "contains-patreon-substitutes",

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:iqnugdr4iua6r5psdmx2ufas/app.bsky.labeler.service/self",
-  "cid": "bafyreiaewz7acchlc2pwk3w5eajlrhu3imun7rc4zvbfy2l3rnankezcy4",
+  "cid": "bafyreieprmnrtjdtygxxfx6q5uvour2mrwie2tzlq4eyq4iepl4j4tycoa",
   "creator": {
     "did": "did:plc:iqnugdr4iua6r5psdmx2ufas",
     "handle": "discourse.manos.lol",
@@ -16,9 +16,46 @@
     "createdAt": "2026-05-26T00:11:44.856Z",
     "indexedAt": "2026-05-26T00:12:13.558Z"
   },
-  "indexedAt": "2026-05-29T04:46:19.662Z",
+  "indexedAt": "2026-06-05T04:07:11.660Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "meta-discourse",
+        "locales": [
+          {
+            "description": "Posts discussing Bluesky, social dynamics on the network, or community culture.",
+            "lang": "en",
+            "name": "Meta-Discourse"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "possible-meta-discourse",
+        "locales": [
+          {
+            "description": "Posts that may be discussing network dynamics, platform culture, or meta-discourse.",
+            "lang": "en",
+            "name": "Possible Meta-Discourse"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "meta-discourse",
+      "possible-meta-discourse"
+    ]
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
 }
