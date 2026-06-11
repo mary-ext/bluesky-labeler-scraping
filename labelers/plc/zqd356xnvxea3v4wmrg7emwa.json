@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreid5rcuezppjlhbdchdncjt2drdhqoqbactftcx6t6x6ew4qhqxzea",
+  "cid": "bafyreihy3hwqnmeirgucsoczznbvaca34a5bnxhsrokarzzpepzflc2kgi",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -20,10 +20,38 @@
     "description": "(Work in progress)\n\n🌐 Web UI: https://pridelabeller.pages.dev/ 🌐\n\n⚠️ Don't \"Hide\" any of the badges ⚠️\n\n❤️ to Add, 💔 to Remove. (legacy method)",
     "indexedAt": "2026-06-01T08:47:27.060Z"
   },
-  "indexedAt": "2026-05-10T08:49:58.163Z",
+  "indexedAt": "2026-06-10T18:03:15.870Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "demifluix",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Demifluix"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "abroflux",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Abroflux"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1160,6 +1188,8 @@
       }
     ],
     "labelValues": [
+      "demifluix",
+      "abroflux",
       "polygender",
       "demirose",
       "apothiromantic",
