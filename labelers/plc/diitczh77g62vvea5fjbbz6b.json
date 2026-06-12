@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:diitczh77g62vvea5fjbbz6b/app.bsky.labeler.service/self",
-  "cid": "bafyreigjyly3givtypiclxkzaaciuflrjrsfa5f72i23whxyx3z2oyqjey",
+  "cid": "bafyreidtsjru36l6zsgdp3ip4o7x5pxcbcxytelrxwxfnqvnpl77utsw54",
   "creator": {
     "did": "did:plc:diitczh77g62vvea5fjbbz6b",
     "handle": "nyt-labeler-dev.bsky.social",
@@ -16,27 +16,1026 @@
     "createdAt": "2025-10-26T17:12:06.451Z",
     "indexedAt": "2025-10-26T17:12:06.451Z"
   },
-  "indexedAt": "2025-10-26T18:29:08.755Z",
+  "indexedAt": "2026-06-11T03:31:20.762Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
-        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "nyt-opinion",
+        "identifier": "admin",
         "locales": [
           {
-            "description": "This is an NYT opinion piece",
+            "description": "Articles in the Admin section of The New York Times",
             "lang": "en",
-            "name": "nyt opinion"
+            "name": "Admin Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "arts",
+        "locales": [
+          {
+            "description": "Articles in the Arts section of The New York Times",
+            "lang": "en",
+            "name": "Arts Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "books",
+        "locales": [
+          {
+            "description": "Articles in the Books section of The New York Times",
+            "lang": "en",
+            "name": "Books Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "briefing",
+        "locales": [
+          {
+            "description": "Articles in the Briefing section of The New York Times",
+            "lang": "en",
+            "name": "Briefing Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "business",
+        "locales": [
+          {
+            "description": "Articles in the Business section of The New York Times",
+            "lang": "en",
+            "name": "Business Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "climate",
+        "locales": [
+          {
+            "description": "Articles in the Climate section of The New York Times",
+            "lang": "en",
+            "name": "Climate Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "dining",
+        "locales": [
+          {
+            "description": "Articles in the Dining section of The New York Times",
+            "lang": "en",
+            "name": "Dining Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "fashion",
+        "locales": [
+          {
+            "description": "Articles in the Fashion section of The New York Times",
+            "lang": "en",
+            "name": "Fashion Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "health",
+        "locales": [
+          {
+            "description": "Articles in the Health section of The New York Times",
+            "lang": "en",
+            "name": "Health Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "insider",
+        "locales": [
+          {
+            "description": "Articles in the Insider section of The New York Times",
+            "lang": "en",
+            "name": "Insider Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "magazine",
+        "locales": [
+          {
+            "description": "Articles in the Magazine section of The New York Times",
+            "lang": "en",
+            "name": "Magazine Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "movies",
+        "locales": [
+          {
+            "description": "Articles in the Movies section of The New York Times",
+            "lang": "en",
+            "name": "Movies Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "nyregion",
+        "locales": [
+          {
+            "description": "Articles in the Nyregion section of The New York Times",
+            "lang": "en",
+            "name": "Nyregion Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "obituaries",
+        "locales": [
+          {
+            "description": "Articles in the Obituaries section of The New York Times",
+            "lang": "en",
+            "name": "Obituaries Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "opinion",
+        "locales": [
+          {
+            "description": "Articles in the Opinion section of The New York Times",
+            "lang": "en",
+            "name": "Opinion Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "pageoneplus",
+        "locales": [
+          {
+            "description": "Articles in the Pageoneplus section of The New York Times",
+            "lang": "en",
+            "name": "Pageoneplus Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "podcasts",
+        "locales": [
+          {
+            "description": "Articles in the Podcasts section of The New York Times",
+            "lang": "en",
+            "name": "Podcasts Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "realestate",
+        "locales": [
+          {
+            "description": "Articles in the Realestate section of The New York Times",
+            "lang": "en",
+            "name": "Realestate Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "science",
+        "locales": [
+          {
+            "description": "Articles in the Science section of The New York Times",
+            "lang": "en",
+            "name": "Science Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "sports",
+        "locales": [
+          {
+            "description": "Articles in the Sports section of The New York Times",
+            "lang": "en",
+            "name": "Sports Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "style",
+        "locales": [
+          {
+            "description": "Articles in the Style section of The New York Times",
+            "lang": "en",
+            "name": "Style Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "technology",
+        "locales": [
+          {
+            "description": "Articles in the Technology section of The New York Times",
+            "lang": "en",
+            "name": "Technology Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "theater",
+        "locales": [
+          {
+            "description": "Articles in the Theater section of The New York Times",
+            "lang": "en",
+            "name": "Theater Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "t-magazine",
+        "locales": [
+          {
+            "description": "Articles in the T-magazine section of The New York Times",
+            "lang": "en",
+            "name": "T-magazine Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "travel",
+        "locales": [
+          {
+            "description": "Articles in the Travel section of The New York Times",
+            "lang": "en",
+            "name": "Travel Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "upshot",
+        "locales": [
+          {
+            "description": "Articles in the Upshot section of The New York Times",
+            "lang": "en",
+            "name": "Upshot Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "us",
+        "locales": [
+          {
+            "description": "Articles in the Us section of The New York Times",
+            "lang": "en",
+            "name": "Us Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "weather",
+        "locales": [
+          {
+            "description": "Articles in the Weather section of The New York Times",
+            "lang": "en",
+            "name": "Weather Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "well",
+        "locales": [
+          {
+            "description": "Articles in the Well section of The New York Times",
+            "lang": "en",
+            "name": "Well Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "world",
+        "locales": [
+          {
+            "description": "Articles in the World section of The New York Times",
+            "lang": "en",
+            "name": "World Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "your-money",
+        "locales": [
+          {
+            "description": "Articles in the Your-money section of The New York Times",
+            "lang": "en",
+            "name": "Your-money Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "africa",
+        "locales": [
+          {
+            "description": "Articles in the Africa subsection of The New York Times",
+            "lang": "en",
+            "name": "Africa Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "americas",
+        "locales": [
+          {
+            "description": "Articles in the Americas subsection of The New York Times",
+            "lang": "en",
+            "name": "Americas Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "asia",
+        "locales": [
+          {
+            "description": "Articles in the Asia subsection of The New York Times",
+            "lang": "en",
+            "name": "Asia Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "australia",
+        "locales": [
+          {
+            "description": "Articles in the Australia subsection of The New York Times",
+            "lang": "en",
+            "name": "Australia Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "autoracing",
+        "locales": [
+          {
+            "description": "Articles in the Autoracing subsection of The New York Times",
+            "lang": "en",
+            "name": "Autoracing Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "basketball",
+        "locales": [
+          {
+            "description": "Articles in the Basketball subsection of The New York Times",
+            "lang": "en",
+            "name": "Basketball Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "canada",
+        "locales": [
+          {
+            "description": "Articles in the Canada subsection of The New York Times",
+            "lang": "en",
+            "name": "Canada Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "dance",
+        "locales": [
+          {
+            "description": "Articles in the Dance subsection of The New York Times",
+            "lang": "en",
+            "name": "Dance Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "dealbook",
+        "locales": [
+          {
+            "description": "Articles in the Dealbook subsection of The New York Times",
+            "lang": "en",
+            "name": "Dealbook Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "design",
+        "locales": [
+          {
+            "description": "Articles in the Design subsection of The New York Times",
+            "lang": "en",
+            "name": "Design Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "drinks",
+        "locales": [
+          {
+            "description": "Articles in the Drinks subsection of The New York Times",
+            "lang": "en",
+            "name": "Drinks Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "eat",
+        "locales": [
+          {
+            "description": "Articles in the Eat subsection of The New York Times",
+            "lang": "en",
+            "name": "Eat Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "economy",
+        "locales": [
+          {
+            "description": "Articles in the Economy subsection of The New York Times",
+            "lang": "en",
+            "name": "Economy Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "elections",
+        "locales": [
+          {
+            "description": "Articles in the Elections subsection of The New York Times",
+            "lang": "en",
+            "name": "Elections Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "energy-environment",
+        "locales": [
+          {
+            "description": "Articles in the Energy-environment subsection of The New York Times",
+            "lang": "en",
+            "name": "Energy-environment Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "europe",
+        "locales": [
+          {
+            "description": "Articles in the Europe subsection of The New York Times",
+            "lang": "en",
+            "name": "Europe Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "football",
+        "locales": [
+          {
+            "description": "Articles in the Football subsection of The New York Times",
+            "lang": "en",
+            "name": "Football Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "media",
+        "locales": [
+          {
+            "description": "Articles in the Media subsection of The New York Times",
+            "lang": "en",
+            "name": "Media Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "middleeast",
+        "locales": [
+          {
+            "description": "Articles in the Middleeast subsection of The New York Times",
+            "lang": "en",
+            "name": "Middleeast Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "mind",
+        "locales": [
+          {
+            "description": "Articles in the Mind subsection of The New York Times",
+            "lang": "en",
+            "name": "Mind Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "music",
+        "locales": [
+          {
+            "description": "Articles in the Music subsection of The New York Times",
+            "lang": "en",
+            "name": "Music Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "personaltech",
+        "locales": [
+          {
+            "description": "Articles in the Personaltech subsection of The New York Times",
+            "lang": "en",
+            "name": "Personaltech Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politics",
+        "locales": [
+          {
+            "description": "Articles in the Politics subsection of The New York Times",
+            "lang": "en",
+            "name": "Politics Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "review",
+        "locales": [
+          {
+            "description": "Articles in the Review subsection of The New York Times",
+            "lang": "en",
+            "name": "Review Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "soccer",
+        "locales": [
+          {
+            "description": "Articles in the Soccer subsection of The New York Times",
+            "lang": "en",
+            "name": "Soccer Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "space",
+        "locales": [
+          {
+            "description": "Articles in the Space subsection of The New York Times",
+            "lang": "en",
+            "name": "Space Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "television",
+        "locales": [
+          {
+            "description": "Articles in the Television subsection of The New York Times",
+            "lang": "en",
+            "name": "Television Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "the-headlines",
+        "locales": [
+          {
+            "description": "Articles in the The-headlines subsection of The New York Times",
+            "lang": "en",
+            "name": "The-headlines Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "ross-douthat",
+        "locales": [
+          {
+            "description": "Articles authored by Ross Douthat for The New York Times",
+            "lang": "en",
+            "name": "Ross Douthat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "jamelle-bouie",
+        "locales": [
+          {
+            "description": "Articles authored by Jamelle Bouie for The New York Times",
+            "lang": "en",
+            "name": "Jamelle Bouie"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "david-french",
+        "locales": [
+          {
+            "description": "Articles authored by David French for The New York Times",
+            "lang": "en",
+            "name": "David French"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "david-wallace-wells",
+        "locales": [
+          {
+            "description": "Articles authored by David Wallace-Wells for The New York Times",
+            "lang": "en",
+            "name": "David Wallace-Wells"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "the-editorial-board",
+        "locales": [
+          {
+            "description": "Articles authored by The Editorial Board for The New York Times",
+            "lang": "en",
+            "name": "The Editorial Board"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "bret-stephens",
+        "locales": [
+          {
+            "description": "Articles authored by Bret Stephens for The New York Times",
+            "lang": "en",
+            "name": "Bret Stephens"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "ezra-klein",
+        "locales": [
+          {
+            "description": "Articles authored by Ezra Klein for The New York Times",
+            "lang": "en",
+            "name": "Ezra Klein"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "frank-bruni",
+        "locales": [
+          {
+            "description": "Articles authored by Frank Bruni for The New York Times",
+            "lang": "en",
+            "name": "Frank Bruni"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "jessica-grose",
+        "locales": [
+          {
+            "description": "Articles authored by Jessica Grose for The New York Times",
+            "lang": "en",
+            "name": "Jessica Grose"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "maureen-dowd",
+        "locales": [
+          {
+            "description": "Articles authored by Maureen Dowd for The New York Times",
+            "lang": "en",
+            "name": "Maureen Dowd"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "michelle-goldberg",
+        "locales": [
+          {
+            "description": "Articles authored by Michelle Goldberg for The New York Times",
+            "lang": "en",
+            "name": "Michelle Goldberg"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "nicholas-kristof",
+        "locales": [
+          {
+            "description": "Articles authored by Nicholas Kristof for The New York Times",
+            "lang": "en",
+            "name": "Nicholas Kristof"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "tressie-mcmillan-cottom",
+        "locales": [
+          {
+            "description": "Articles authored by Tressie McMillan Cottom for The New York Times",
+            "lang": "en",
+            "name": "Tressie McMillan Cottom"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "nyt-opinion"
+      "admin",
+      "arts",
+      "books",
+      "briefing",
+      "business",
+      "climate",
+      "dining",
+      "fashion",
+      "health",
+      "insider",
+      "magazine",
+      "movies",
+      "nyregion",
+      "obituaries",
+      "opinion",
+      "pageoneplus",
+      "podcasts",
+      "realestate",
+      "science",
+      "sports",
+      "style",
+      "technology",
+      "theater",
+      "t-magazine",
+      "travel",
+      "upshot",
+      "us",
+      "weather",
+      "well",
+      "world",
+      "your-money",
+      "africa",
+      "americas",
+      "asia",
+      "australia",
+      "autoracing",
+      "basketball",
+      "canada",
+      "dance",
+      "dealbook",
+      "design",
+      "drinks",
+      "eat",
+      "economy",
+      "elections",
+      "energy-environment",
+      "europe",
+      "football",
+      "media",
+      "middleeast",
+      "mind",
+      "music",
+      "personaltech",
+      "politics",
+      "review",
+      "soccer",
+      "space",
+      "television",
+      "the-headlines",
+      "ross-douthat",
+      "jamelle-bouie",
+      "david-french",
+      "david-wallace-wells",
+      "the-editorial-board",
+      "bret-stephens",
+      "ezra-klein",
+      "frank-bruni",
+      "jessica-grose",
+      "maureen-dowd",
+      "michelle-goldberg",
+      "nicholas-kristof",
+      "tressie-mcmillan-cottom"
     ]
-  }
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
 }
