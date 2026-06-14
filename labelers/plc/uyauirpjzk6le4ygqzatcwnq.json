@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreie3ydhwnsvu52qhowbqkbvqkixkkp4te3x2uknfzxmp4olctqh76u",
+  "cid": "bafyreieslwflaajxygi7vwhnhc7u6ao6uiji65awexq2op52fwugyc67pa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-06-12T16:43:57.970Z",
+  "indexedAt": "2026-06-13T10:51:42.171Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -179,12 +179,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-louisvillebsky-pds",
+        "identifier": "store-tz2at-marketplaces",
         "locales": [
           {
-            "description": "Account is hosted by the pds.louisvillebsky.app PDS",
+            "description": "Account is hosted by the marketplaces.tz2at.store PDS",
             "lang": "en",
-            "name": "pds.louisvillebsky.app"
+            "name": "marketplaces.tz2at.store"
           }
         ],
         "severity": "inform"
@@ -193,12 +193,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "store-tz2at-marketplaces",
+        "identifier": "app-louisvillebsky-pds",
         "locales": [
           {
-            "description": "Account is hosted by the marketplaces.tz2at.store PDS",
+            "description": "Account is hosted by the pds.louisvillebsky.app PDS",
             "lang": "en",
-            "name": "marketplaces.tz2at.store"
+            "name": "pds.louisvillebsky.app"
           }
         ],
         "severity": "inform"
@@ -851,12 +851,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--14",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-14.up.railway.app PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-14.up.railway.app"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -865,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--14",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-14.up.railway.app PDS",
             "lang": "en",
-            "name": "pds.wsocial.network"
+            "name": "certified-apppds-core-epds-pr-14.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1257,12 +1257,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "link-mybluesky",
+        "identifier": "app-certified-dev",
         "locales": [
           {
-            "description": "Account is hosted by the mybluesky.link PDS",
+            "description": "Account is hosted by the dev.certified.app PDS",
             "lang": "en",
-            "name": "mybluesky.link"
+            "name": "dev.certified.app"
           }
         ],
         "severity": "inform"
@@ -1271,12 +1271,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-dev",
+        "identifier": "link-mybluesky",
         "locales": [
           {
-            "description": "Account is hosted by the dev.certified.app PDS",
+            "description": "Account is hosted by the mybluesky.link PDS",
             "lang": "en",
-            "name": "dev.certified.app"
+            "name": "mybluesky.link"
           }
         ],
         "severity": "inform"
@@ -1411,6 +1411,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "me-1095-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.1095.me PDS",
+            "lang": "en",
+            "name": "pds.1095.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-arankwende",
         "locales": [
           {
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "surf-self",
-        "locales": [
-          {
-            "description": "Account is hosted by the self.surf PDS",
-            "lang": "en",
-            "name": "self.surf"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1462,8 +1462,8 @@
       "info-keik",
       "social-surf",
       "computer-aesthetic-at",
-      "app-louisvillebsky-pds",
       "store-tz2at-marketplaces",
+      "app-louisvillebsky-pds",
       "app-railway-up-certified--apppds--core--pr--base",
       "net-yinzcloud-bsky-pds",
       "one-certified",
@@ -1510,8 +1510,8 @@
       "app-railway-up-karmas--e2e--pds",
       "app-railway-up-certified--apppds--core--epds--pr--128",
       "me-opnmt-pds",
-      "app-railway-up-certified--apppds--core--epds--pr--14",
       "network-wsocial-pds",
+      "app-railway-up-certified--apppds--core--epds--pr--14",
       "com-mulgez-api",
       "app-railway-up-certified--apppds--core--epds--pr--84",
       "news-1440-pds",
@@ -1539,8 +1539,8 @@
       "fail-marta",
       "net-chatapt",
       "app-certified-test-epds1",
-      "link-mybluesky",
       "app-certified-dev",
+      "link-mybluesky",
       "social-stroam",
       "app-railway-up-certified--apppds--core--epds--pr--115",
       "app-railway-up-certified--apppds--core--epds--pr--63",
@@ -1550,9 +1550,9 @@
       "org-climateai",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
+      "me-1095-pds",
       "com-arankwende",
-      "systems-witchcraft-pds",
-      "surf-self"
+      "systems-witchcraft-pds"
     ]
   }
 }
