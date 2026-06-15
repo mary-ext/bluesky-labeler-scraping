@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreiejx7cl4jpyfdstur7rwzosckbitcf4qdcwcuddmjq3gizrr3hjei",
+  "cid": "bafyreiejh2uuc6kyhgxzhkpjwii2txyj7jluzbpthosqmgzootvm3pbgdq",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-06-04T16:54:45.091Z",
+  "indexedAt": "2026-06-14T12:24:19.884Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6897,6 +6897,48 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hyperdxio-hyperdx",
+        "locales": [
+          {
+            "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.\nhttps://github.com/hyperdxio/hyperdx",
+            "lang": "en",
+            "name": "hyperdxio/hyperdx"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jordan-simonovski-helmver",
+        "locales": [
+          {
+            "description": "Helm Semver versioning with CHANGELOGs\nhttps://github.com/jordan-simonovski/helmver",
+            "lang": "en",
+            "name": "jordan-simonovski/helmver"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jordan-simonovski-helmcov",
+        "locales": [
+          {
+            "description": "Helm Unit Test Coverage Analysis\nhttps://github.com/jordan-simonovski/helmcov",
+            "lang": "en",
+            "name": "jordan-simonovski/helmcov"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7390,7 +7432,10 @@
       "rahilp-second-brain-cloudflare",
       "rahilp-second-brain-obsidian-plugin",
       "fedify-dev-fedify",
-      "bluesky-social-atproto"
+      "bluesky-social-atproto",
+      "hyperdxio-hyperdx",
+      "jordan-simonovski-helmver",
+      "jordan-simonovski-helmcov"
     ]
   }
 }

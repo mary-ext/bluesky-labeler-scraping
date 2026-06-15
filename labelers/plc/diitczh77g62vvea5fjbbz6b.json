@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:diitczh77g62vvea5fjbbz6b/app.bsky.labeler.service/self",
-  "cid": "bafyreiaq3tcmlio7e7dgbuver2afo3acyvphdtgtnratt7uvbhcvcveytm",
+  "cid": "bafyreibwahdmdu3qfy5lyle2xzaxb4n6gankp3rfvn3ilmw5dyrlgtd3ge",
   "creator": {
     "did": "did:plc:diitczh77g62vvea5fjbbz6b",
     "handle": "nyt-labeler-dev.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-10-26T17:12:06.451Z",
     "indexedAt": "2025-10-26T17:12:06.451Z"
   },
-  "indexedAt": "2026-06-13T02:57:00.367Z",
+  "indexedAt": "2026-06-14T15:44:13.877Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -364,9 +364,9 @@
         "identifier": "us",
         "locales": [
           {
-            "description": "Articles in the Us section of The New York Times",
+            "description": "Articles in the US section of The New York Times",
             "lang": "en",
-            "name": "Us Section"
+            "name": "US Section"
           }
         ],
         "severity": "inform"
@@ -881,12 +881,38 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ezra-klein",
+        "locales": [
+          {
+            "description": "Articles authored by Ezra Klein for The New York Times",
+            "lang": "en",
+            "name": "Ezra Klein"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "frank-bruni",
         "locales": [
           {
             "description": "Articles authored by Frank Bruni for The New York Times",
             "lang": "en",
             "name": "Frank Bruni"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "maureen-dowd",
+        "locales": [
+          {
+            "description": "Articles authored by Maureen Dowd for The New York Times",
+            "lang": "en",
+            "name": "Maureen Dowd"
           }
         ],
         "severity": "inform"
@@ -933,12 +959,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ezra-klein",
+        "identifier": "e-j-dionne-jr",
         "locales": [
           {
-            "description": "Articles authored by Ezra Klein for The New York Times",
+            "description": "Articles authored by E.J. Dionne Jr. for The New York Times",
             "lang": "en",
-            "name": "Ezra Klein"
+            "name": "E.J. Dionne Jr."
           }
         ],
         "severity": "inform"
@@ -972,12 +998,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "maureen-dowd",
+        "identifier": "michelle-cottle",
         "locales": [
           {
-            "description": "Articles authored by Maureen Dowd for The New York Times",
+            "description": "Articles authored by Michelle Cottle for The New York Times",
             "lang": "en",
-            "name": "Maureen Dowd"
+            "name": "Michelle Cottle"
           }
         ],
         "severity": "inform"
@@ -985,12 +1011,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "michelle-cottle",
+        "identifier": "new-york-times-opinion",
         "locales": [
           {
-            "description": "Articles authored by Michelle Cottle for The New York Times",
+            "description": "Articles authored by New York Times Opinion for The New York Times",
             "lang": "en",
-            "name": "Michelle Cottle"
+            "name": "New York Times Opinion"
           }
         ],
         "severity": "inform"
@@ -1017,6 +1043,19 @@
             "description": "Articles authored by Victoria Chamberlin for The New York Times",
             "lang": "en",
             "name": "Victoria Chamberlin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vishakha-darbha",
+        "locales": [
+          {
+            "description": "Articles authored by Vishakha Darbha for The New York Times",
+            "lang": "en",
+            "name": "Vishakha Darbha"
           }
         ],
         "severity": "inform"
@@ -1089,17 +1128,20 @@
       "david-french",
       "bret-stephens",
       "david-wallace-wells",
+      "ezra-klein",
       "frank-bruni",
+      "maureen-dowd",
       "michelle-goldberg",
       "the-editorial-board",
       "tressie-mcmillan-cottom",
-      "ezra-klein",
+      "e-j-dionne-jr",
       "jessica-grose",
       "john-guida",
-      "maureen-dowd",
       "michelle-cottle",
+      "new-york-times-opinion",
       "nicholas-kristof",
-      "victoria-chamberlin"
+      "victoria-chamberlin",
+      "vishakha-darbha"
     ]
   },
   "subjectTypes": [
