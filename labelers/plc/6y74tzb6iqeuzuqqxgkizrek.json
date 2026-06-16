@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:6y74tzb6iqeuzuqqxgkizrek/app.bsky.labeler.service/self",
-  "cid": "bafyreib53nv7agf5cnfvemsczr2wttc5gaovyjkp3soaqk5zgamkdai2cq",
+  "cid": "bafyreifjxeb7f3wmvg2s3p7xqccbqwdh36ileqch4vbdvmkdikddvo6ysi",
   "creator": {
     "did": "did:plc:6y74tzb6iqeuzuqqxgkizrek",
-    "handle": "atpcraft.lenooby09.tech",
+    "handle": "atpcraft.at",
     "displayName": "ATPcraft",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6y74tzb6iqeuzuqqxgkizrek/bafkreicinqjqvpraepjghb77kvwukrnwcozk6dcrbdevsigjhbn5mjeqfy",
     "associated": {
@@ -20,7 +20,7 @@
     "description": "online map: https://atpcraft.lenooby09.tech/\n\nby @lenooby09.tech",
     "indexedAt": "2026-05-11T06:46:13.458Z"
   },
-  "indexedAt": "2026-05-18T17:08:05.770Z",
+  "indexedAt": "2026-06-15T21:30:17.467Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,443 +31,9 @@
         "identifier": "online",
         "locales": [
           {
-            "description": "Player is currently online on the Minecraft server",
+            "description": "Player is currently online on the server",
             "lang": "en",
             "name": "Online"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-newcomer",
-        "locales": [
-          {
-            "description": "Player has reached the Newcomer playtime tier",
-            "lang": "en",
-            "name": "Playtime: Newcomer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-regular",
-        "locales": [
-          {
-            "description": "Player has reached the Regular playtime tier",
-            "lang": "en",
-            "name": "Playtime: Regular"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-enthusiast",
-        "locales": [
-          {
-            "description": "Player has reached the Enthusiast playtime tier",
-            "lang": "en",
-            "name": "Playtime: Enthusiast"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-dedicated",
-        "locales": [
-          {
-            "description": "Player has reached the Dedicated playtime tier",
-            "lang": "en",
-            "name": "Playtime: Dedicated"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-hardcore",
-        "locales": [
-          {
-            "description": "Player has reached the Hardcore playtime tier",
-            "lang": "en",
-            "name": "Playtime: Hardcore"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-veteran",
-        "locales": [
-          {
-            "description": "Player has reached the Veteran playtime tier",
-            "lang": "en",
-            "name": "Playtime: Veteran"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-expert",
-        "locales": [
-          {
-            "description": "Player has reached the Expert playtime tier",
-            "lang": "en",
-            "name": "Playtime: Expert"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-master",
-        "locales": [
-          {
-            "description": "Player has reached the Master playtime tier",
-            "lang": "en",
-            "name": "Playtime: Master"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-legend",
-        "locales": [
-          {
-            "description": "Player has reached the Legend playtime tier",
-            "lang": "en",
-            "name": "Playtime: Legend"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "playtime-titan",
-        "locales": [
-          {
-            "description": "Player has reached the Titan playtime tier",
-            "lang": "en",
-            "name": "Playtime: Titan"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "advancements-beginner",
-        "locales": [
-          {
-            "description": "Player has earned the Beginner advancement tier",
-            "lang": "en",
-            "name": "Advancements: Beginner"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "advancements-explorer",
-        "locales": [
-          {
-            "description": "Player has earned the Explorer advancement tier",
-            "lang": "en",
-            "name": "Advancements: Explorer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "advancements-achiever",
-        "locales": [
-          {
-            "description": "Player has earned the Achiever advancement tier",
-            "lang": "en",
-            "name": "Advancements: Achiever"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "advancements-collector",
-        "locales": [
-          {
-            "description": "Player has earned the Collector advancement tier",
-            "lang": "en",
-            "name": "Advancements: Collector"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "advancements-hunter",
-        "locales": [
-          {
-            "description": "Player has earned the Hunter advancement tier",
-            "lang": "en",
-            "name": "Advancements: Hunter"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "advancements-completionist",
-        "locales": [
-          {
-            "description": "Player has earned the Completionist advancement tier",
-            "lang": "en",
-            "name": "Advancements: Completionist"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "active-player",
-        "locales": [
-          {
-            "description": "Player has been active on the server recently",
-            "lang": "en",
-            "name": "Active Player"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "dimension-minecraft-overworld",
-        "locales": [
-          {
-            "description": "Player is currently in Overworld",
-            "lang": "en",
-            "name": "Dimension: Overworld"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "dimension-minecraft-the-nether",
-        "locales": [
-          {
-            "description": "Player is currently in The nether",
-            "lang": "en",
-            "name": "Dimension: The nether"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "dimension-minecraft-the-end",
-        "locales": [
-          {
-            "description": "Player is currently in The end",
-            "lang": "en",
-            "name": "Dimension: The end"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "deaths-casualty",
-        "locales": [
-          {
-            "description": "Player has reached the Casualty death tier",
-            "lang": "en",
-            "name": "Deaths: Casualty"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "deaths-reckless",
-        "locales": [
-          {
-            "description": "Player has reached the Reckless death tier",
-            "lang": "en",
-            "name": "Deaths: Reckless"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "deaths-daredevil",
-        "locales": [
-          {
-            "description": "Player has reached the Daredevil death tier",
-            "lang": "en",
-            "name": "Deaths: Daredevil"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "deaths-survivor",
-        "locales": [
-          {
-            "description": "Player has reached the Survivor death tier",
-            "lang": "en",
-            "name": "Deaths: Survivor"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "deaths-hardened",
-        "locales": [
-          {
-            "description": "Player has reached the Hardened death tier",
-            "lang": "en",
-            "name": "Deaths: Hardened"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "deaths-unstoppable",
-        "locales": [
-          {
-            "description": "Player has reached the Unstoppable death tier",
-            "lang": "en",
-            "name": "Deaths: Unstoppable"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xp-level-apprentice",
-        "locales": [
-          {
-            "description": "Player has reached the Apprentice XP tier",
-            "lang": "en",
-            "name": "XP Level: Apprentice"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xp-level-adept",
-        "locales": [
-          {
-            "description": "Player has reached the Adept XP tier",
-            "lang": "en",
-            "name": "XP Level: Adept"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xp-level-expert",
-        "locales": [
-          {
-            "description": "Player has reached the Expert XP tier",
-            "lang": "en",
-            "name": "XP Level: Expert"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xp-level-master",
-        "locales": [
-          {
-            "description": "Player has reached the Master XP tier",
-            "lang": "en",
-            "name": "XP Level: Master"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "xp-level-grandmaster",
-        "locales": [
-          {
-            "description": "Player has reached the Grandmaster XP tier",
-            "lang": "en",
-            "name": "XP Level: Grandmaster"
           }
         ],
         "severity": "inform"
@@ -479,7 +45,7 @@
         "identifier": "admin",
         "locales": [
           {
-            "description": "Player is a server administrator",
+            "description": "Player has operator privileges",
             "lang": "en",
             "name": "Admin"
           }
@@ -490,12 +56,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-kills-beginner",
+        "identifier": "playtime-bronze",
         "locales": [
           {
-            "description": "Player has reached the Beginner PvP kills tier",
+            "description": "Played for at least 10 hours",
             "lang": "en",
-            "name": "PvP Kills: Beginner"
+            "name": "Playtime: Bronze"
           }
         ],
         "severity": "inform"
@@ -504,12 +70,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-kills-skilled",
+        "identifier": "playtime-silver",
         "locales": [
           {
-            "description": "Player has reached the Skilled PvP kills tier",
+            "description": "Played for at least 100 hours",
             "lang": "en",
-            "name": "PvP Kills: Skilled"
+            "name": "Playtime: Silver"
           }
         ],
         "severity": "inform"
@@ -518,12 +84,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-kills-expert",
+        "identifier": "playtime-gold",
         "locales": [
           {
-            "description": "Player has reached the Expert PvP kills tier",
+            "description": "Played for at least 1000 hours",
             "lang": "en",
-            "name": "PvP Kills: Expert"
+            "name": "Playtime: Gold"
           }
         ],
         "severity": "inform"
@@ -532,12 +98,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-kills-veteran",
+        "identifier": "dragon-slayer",
         "locales": [
           {
-            "description": "Player has reached the Veteran PvP kills tier",
+            "description": "Defeated the Ender Dragon",
             "lang": "en",
-            "name": "PvP Kills: Veteran"
+            "name": "Dragon Slayer"
           }
         ],
         "severity": "inform"
@@ -546,12 +112,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-kills-master",
+        "identifier": "monster-hunter",
         "locales": [
           {
-            "description": "Player has reached the Master PvP kills tier",
+            "description": "Slain at least 1000 monsters",
             "lang": "en",
-            "name": "PvP Kills: Master"
+            "name": "Monster Hunter"
           }
         ],
         "severity": "inform"
@@ -560,12 +126,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-kills-legend",
+        "identifier": "death-defier",
         "locales": [
           {
-            "description": "Player has reached the Legend PvP kills tier",
+            "description": "Died at least 100 times and lived to tell the tale",
             "lang": "en",
-            "name": "PvP Kills: Legend"
+            "name": "Death Defier"
           }
         ],
         "severity": "inform"
@@ -574,12 +140,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-killstreak-triple",
+        "identifier": "rpg-actor",
         "locales": [
           {
-            "description": "Player has achieved a Triple killstreak",
+            "description": "Has a character profile on rpg.actor",
             "lang": "en",
-            "name": "PvP Killstreak: Triple"
+            "name": "RPG Actor"
           }
         ],
         "severity": "inform"
@@ -588,12 +154,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-killstreak-penta",
+        "identifier": "rpg-dnd",
         "locales": [
           {
-            "description": "Player has achieved a Penta killstreak",
+            "description": "Has a Dungeons & Dragons 5th Edition character on rpg.actor",
             "lang": "en",
-            "name": "PvP Killstreak: Penta"
+            "name": "D&D 5e Character"
           }
         ],
         "severity": "inform"
@@ -602,12 +168,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-killstreak-dominating",
+        "identifier": "rpg-dcc",
         "locales": [
           {
-            "description": "Player has achieved a Dominating killstreak",
+            "description": "Has a Dungeon Crawl Classics character on rpg.actor",
             "lang": "en",
-            "name": "PvP Killstreak: Dominating"
+            "name": "DCC Character"
           }
         ],
         "severity": "inform"
@@ -616,12 +182,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-killstreak-unstoppable",
+        "identifier": "rpg-mage",
         "locales": [
           {
-            "description": "Player has achieved a Unstoppable killstreak",
+            "description": "Has a Mage: The Ascension character on rpg.actor",
             "lang": "en",
-            "name": "PvP Killstreak: Unstoppable"
+            "name": "Mage Character"
           }
         ],
         "severity": "inform"
@@ -630,12 +196,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pvp-killstreak-godlike",
+        "identifier": "rpg-vampire",
         "locales": [
           {
-            "description": "Player has achieved a Godlike killstreak",
+            "description": "Has a Vampire: The Masquerade character on rpg.actor",
             "lang": "en",
-            "name": "PvP Killstreak: Godlike"
+            "name": "Vampire Character"
           }
         ],
         "severity": "inform"
@@ -644,12 +210,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "exploration-walker",
+        "identifier": "rpg-cyberpunk2020",
         "locales": [
           {
-            "description": "Player has reached the Walker exploration tier",
+            "description": "Has a Cyberpunk 2020 character on rpg.actor",
             "lang": "en",
-            "name": "Exploration: Walker"
+            "name": "Cyberpunk 2020 Character"
           }
         ],
         "severity": "inform"
@@ -658,12 +224,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "exploration-traveler",
+        "identifier": "rpg-pathfinder",
         "locales": [
           {
-            "description": "Player has reached the Traveler exploration tier",
+            "description": "Has a Pathfinder character on rpg.actor",
             "lang": "en",
-            "name": "Exploration: Traveler"
+            "name": "Pathfinder Character"
           }
         ],
         "severity": "inform"
@@ -672,12 +238,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "exploration-explorer",
+        "identifier": "rpg-starfinder",
         "locales": [
           {
-            "description": "Player has reached the Explorer exploration tier",
+            "description": "Has a Starfinder character on rpg.actor",
             "lang": "en",
-            "name": "Exploration: Explorer"
+            "name": "Starfinder Character"
           }
         ],
         "severity": "inform"
@@ -686,544 +252,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "exploration-adventurer",
+        "identifier": "rpg-maker",
         "locales": [
           {
-            "description": "Player has reached the Adventurer exploration tier",
+            "description": "Has an RPG Maker MZ character on rpg.actor",
             "lang": "en",
-            "name": "Exploration: Adventurer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "exploration-nomad",
-        "locales": [
-          {
-            "description": "Player has reached the Nomad exploration tier",
-            "lang": "en",
-            "name": "Exploration: Nomad"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "exploration-pilgrim",
-        "locales": [
-          {
-            "description": "Player has reached the Pilgrim exploration tier",
-            "lang": "en",
-            "name": "Exploration: Pilgrim"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "spawn-distance-explorer",
-        "locales": [
-          {
-            "description": "Player has traveled Explorer from spawn",
-            "lang": "en",
-            "name": "Spawn Distance: Explorer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "spawn-distance-wanderer",
-        "locales": [
-          {
-            "description": "Player has traveled Wanderer from spawn",
-            "lang": "en",
-            "name": "Spawn Distance: Wanderer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "spawn-distance-adventurer",
-        "locales": [
-          {
-            "description": "Player has traveled Adventurer from spawn",
-            "lang": "en",
-            "name": "Spawn Distance: Adventurer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "spawn-distance-frontiersman",
-        "locales": [
-          {
-            "description": "Player has traveled Frontiersman from spawn",
-            "lang": "en",
-            "name": "Spawn Distance: Frontiersman"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-mined-novice",
-        "locales": [
-          {
-            "description": "Player has reached the Novice mining tier",
-            "lang": "en",
-            "name": "Blocks Mined: Novice"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-mined-miner",
-        "locales": [
-          {
-            "description": "Player has reached the Miner mining tier",
-            "lang": "en",
-            "name": "Blocks Mined: Miner"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-mined-excavator",
-        "locales": [
-          {
-            "description": "Player has reached the Excavator mining tier",
-            "lang": "en",
-            "name": "Blocks Mined: Excavator"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-mined-quarrier",
-        "locales": [
-          {
-            "description": "Player has reached the Quarrier mining tier",
-            "lang": "en",
-            "name": "Blocks Mined: Quarrier"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-mined-devastator",
-        "locales": [
-          {
-            "description": "Player has reached the Devastator mining tier",
-            "lang": "en",
-            "name": "Blocks Mined: Devastator"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-placed-builder",
-        "locales": [
-          {
-            "description": "Player has reached the Builder building tier",
-            "lang": "en",
-            "name": "Blocks Placed: Builder"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-placed-architect",
-        "locales": [
-          {
-            "description": "Player has reached the Architect building tier",
-            "lang": "en",
-            "name": "Blocks Placed: Architect"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-placed-constructor",
-        "locales": [
-          {
-            "description": "Player has reached the Constructor building tier",
-            "lang": "en",
-            "name": "Blocks Placed: Constructor"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-placed-engineer",
-        "locales": [
-          {
-            "description": "Player has reached the Engineer building tier",
-            "lang": "en",
-            "name": "Blocks Placed: Engineer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "blocks-placed-artisan",
-        "locales": [
-          {
-            "description": "Player has reached the Artisan building tier",
-            "lang": "en",
-            "name": "Blocks Placed: Artisan"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-days-survivor",
-        "locales": [
-          {
-            "description": "Player has survived for Survivor playtime days",
-            "lang": "en",
-            "name": "Survival Days: Survivor"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-days-settler",
-        "locales": [
-          {
-            "description": "Player has survived for Settler playtime days",
-            "lang": "en",
-            "name": "Survival Days: Settler"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-days-veteran",
-        "locales": [
-          {
-            "description": "Player has survived for Veteran playtime days",
-            "lang": "en",
-            "name": "Survival Days: Veteran"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-days-elder",
-        "locales": [
-          {
-            "description": "Player has survived for Elder playtime days",
-            "lang": "en",
-            "name": "Survival Days: Elder"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-days-ancient",
-        "locales": [
-          {
-            "description": "Player has survived for Ancient playtime days",
-            "lang": "en",
-            "name": "Survival Days: Ancient"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-damage-bruised",
-        "locales": [
-          {
-            "description": "Player has taken Bruised damage",
-            "lang": "en",
-            "name": "Survival Damage: Bruised"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-damage-battered",
-        "locales": [
-          {
-            "description": "Player has taken Battered damage",
-            "lang": "en",
-            "name": "Survival Damage: Battered"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-damage-scarred",
-        "locales": [
-          {
-            "description": "Player has taken Scarred damage",
-            "lang": "en",
-            "name": "Survival Damage: Scarred"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "survival-damage-indestructible",
-        "locales": [
-          {
-            "description": "Player has taken Indestructible damage",
-            "lang": "en",
-            "name": "Survival Damage: Indestructible"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "economy-trader",
-        "locales": [
-          {
-            "description": "Player has reached the Trader trading tier",
-            "lang": "en",
-            "name": "Economy: Trader"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "economy-merchant",
-        "locales": [
-          {
-            "description": "Player has reached the Merchant trading tier",
-            "lang": "en",
-            "name": "Economy: Merchant"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "economy-baron",
-        "locales": [
-          {
-            "description": "Player has reached the Baron trading tier",
-            "lang": "en",
-            "name": "Economy: Baron"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "economy-magnate",
-        "locales": [
-          {
-            "description": "Player has reached the Magnate trading tier",
-            "lang": "en",
-            "name": "Economy: Magnate"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "economy-tycoon",
-        "locales": [
-          {
-            "description": "Player has reached the Tycoon trading tier",
-            "lang": "en",
-            "name": "Economy: Tycoon"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "equipment-enchanter",
-        "locales": [
-          {
-            "description": "Player has reached the Enchanter enchanting tier",
-            "lang": "en",
-            "name": "Equipment: Enchanter"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "equipment-sorcerer",
-        "locales": [
-          {
-            "description": "Player has reached the Sorcerer enchanting tier",
-            "lang": "en",
-            "name": "Equipment: Sorcerer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "equipment-wizard",
-        "locales": [
-          {
-            "description": "Player has reached the Wizard enchanting tier",
-            "lang": "en",
-            "name": "Equipment: Wizard"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "equipment-archmage",
-        "locales": [
-          {
-            "description": "Player has reached the Archmage enchanting tier",
-            "lang": "en",
-            "name": "Equipment: Archmage"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "equipment-netherite-knight",
-        "locales": [
-          {
-            "description": "Player wears a full set of netherite armor",
-            "lang": "en",
-            "name": "Equipment: Netherite Knight"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "achievements-dragon-slayer",
-        "locales": [
-          {
-            "description": "Player has defeated the Ender Dragon",
-            "lang": "en",
-            "name": "Achievement: Dragon Slayer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "achievements-wither-slayer",
-        "locales": [
-          {
-            "description": "Player has defeated the Wither",
-            "lang": "en",
-            "name": "Achievement: Wither Slayer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "achievements-raid-veteran",
-        "locales": [
-          {
-            "description": "Player has won a raid",
-            "lang": "en",
-            "name": "Achievement: Raid Veteran"
+            "name": "RPG Maker Character"
           }
         ],
         "severity": "inform"
@@ -1231,91 +265,22 @@
     ],
     "labelValues": [
       "online",
-      "playtime-newcomer",
-      "playtime-regular",
-      "playtime-enthusiast",
-      "playtime-dedicated",
-      "playtime-hardcore",
-      "playtime-veteran",
-      "playtime-expert",
-      "playtime-master",
-      "playtime-legend",
-      "playtime-titan",
-      "advancements-beginner",
-      "advancements-explorer",
-      "advancements-achiever",
-      "advancements-collector",
-      "advancements-hunter",
-      "advancements-completionist",
-      "active-player",
-      "dimension-minecraft-overworld",
-      "dimension-minecraft-the-nether",
-      "dimension-minecraft-the-end",
-      "deaths-casualty",
-      "deaths-reckless",
-      "deaths-daredevil",
-      "deaths-survivor",
-      "deaths-hardened",
-      "deaths-unstoppable",
-      "xp-level-apprentice",
-      "xp-level-adept",
-      "xp-level-expert",
-      "xp-level-master",
-      "xp-level-grandmaster",
       "admin",
-      "pvp-kills-beginner",
-      "pvp-kills-skilled",
-      "pvp-kills-expert",
-      "pvp-kills-veteran",
-      "pvp-kills-master",
-      "pvp-kills-legend",
-      "pvp-killstreak-triple",
-      "pvp-killstreak-penta",
-      "pvp-killstreak-dominating",
-      "pvp-killstreak-unstoppable",
-      "pvp-killstreak-godlike",
-      "exploration-walker",
-      "exploration-traveler",
-      "exploration-explorer",
-      "exploration-adventurer",
-      "exploration-nomad",
-      "exploration-pilgrim",
-      "spawn-distance-explorer",
-      "spawn-distance-wanderer",
-      "spawn-distance-adventurer",
-      "spawn-distance-frontiersman",
-      "blocks-mined-novice",
-      "blocks-mined-miner",
-      "blocks-mined-excavator",
-      "blocks-mined-quarrier",
-      "blocks-mined-devastator",
-      "blocks-placed-builder",
-      "blocks-placed-architect",
-      "blocks-placed-constructor",
-      "blocks-placed-engineer",
-      "blocks-placed-artisan",
-      "survival-days-survivor",
-      "survival-days-settler",
-      "survival-days-veteran",
-      "survival-days-elder",
-      "survival-days-ancient",
-      "survival-damage-bruised",
-      "survival-damage-battered",
-      "survival-damage-scarred",
-      "survival-damage-indestructible",
-      "economy-trader",
-      "economy-merchant",
-      "economy-baron",
-      "economy-magnate",
-      "economy-tycoon",
-      "equipment-enchanter",
-      "equipment-sorcerer",
-      "equipment-wizard",
-      "equipment-archmage",
-      "equipment-netherite-knight",
-      "achievements-dragon-slayer",
-      "achievements-wither-slayer",
-      "achievements-raid-veteran"
+      "playtime-bronze",
+      "playtime-silver",
+      "playtime-gold",
+      "dragon-slayer",
+      "monster-hunter",
+      "death-defier",
+      "rpg-actor",
+      "rpg-dnd",
+      "rpg-dcc",
+      "rpg-mage",
+      "rpg-vampire",
+      "rpg-cyberpunk2020",
+      "rpg-pathfinder",
+      "rpg-starfinder",
+      "rpg-maker"
     ]
   }
 }
