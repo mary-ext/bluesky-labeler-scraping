@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibjezy6zyzw5tm6fdutpino7uj4nucvhnzqsjyhwy2w2dckjzief4",
+  "cid": "bafyreicd4v7gqnn67unurabyirpk2p56a7zqud6xuf3ctcbko3yvtgql7q",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-06-17T00:06:48.366Z",
+  "indexedAt": "2026-06-17T20:44:17.065Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -207,12 +207,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-federdeck-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.federdeck.com PDS",
+            "lang": "en",
+            "name": "pds.federdeck.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-blacksky",
         "locales": [
           {
             "description": "Account is hosted by the blacksky.app PDS",
             "lang": "en",
             "name": "blacksky.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-cacheblasters-fmpds",
+        "locales": [
+          {
+            "description": "Account is hosted by the fmpds.cacheblasters.com PDS",
+            "lang": "en",
+            "name": "fmpds.cacheblasters.com"
           }
         ],
         "severity": "inform"
@@ -263,40 +291,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-cacheblasters-fmpds",
-        "locales": [
-          {
-            "description": "Account is hosted by the fmpds.cacheblasters.com PDS",
-            "lang": "en",
-            "name": "fmpds.cacheblasters.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "world-radical-r",
         "locales": [
           {
             "description": "Account is hosted by the r.radical.world PDS",
             "lang": "en",
             "name": "r.radical.world"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-federdeck-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.federdeck.com PDS",
-            "lang": "en",
-            "name": "pds.federdeck.com"
           }
         ],
         "severity": "inform"
@@ -963,6 +963,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "me-1095-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.1095.me PDS",
+            "lang": "en",
+            "name": "pds.1095.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-certified-test-epds--poc1",
         "locales": [
           {
@@ -1011,20 +1025,6 @@
             "description": "Account is hosted by the certified-apppds-core-epds-pr-110.up.railway.app PDS",
             "lang": "en",
             "name": "certified-apppds-core-epds-pr-110.up.railway.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "me-1095-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.1095.me PDS",
-            "lang": "en",
-            "name": "pds.1095.me"
           }
         ],
         "severity": "inform"
@@ -1257,12 +1257,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-test-epds1",
+        "identifier": "app-certified-dev",
         "locales": [
           {
-            "description": "Account is hosted by the epds1.test.certified.app PDS",
+            "description": "Account is hosted by the dev.certified.app PDS",
             "lang": "en",
-            "name": "epds1.test.certified.app"
+            "name": "dev.certified.app"
           }
         ],
         "severity": "inform"
@@ -1271,12 +1271,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-certified-dev",
+        "identifier": "app-certified-test-epds1",
         "locales": [
           {
-            "description": "Account is hosted by the dev.certified.app PDS",
+            "description": "Account is hosted by the epds1.test.certified.app PDS",
             "lang": "en",
-            "name": "dev.certified.app"
+            "name": "epds1.test.certified.app"
           }
         ],
         "severity": "inform"
@@ -1369,6 +1369,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "io-sslip-181-5-9-5",
+        "locales": [
+          {
+            "description": "Account is hosted by the 5.9.5.181.sslip.io PDS",
+            "lang": "en",
+            "name": "5.9.5.181.sslip.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "systems-witchcraft-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.witchcraft.systems PDS",
-            "lang": "en",
-            "name": "pds.witchcraft.systems"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1464,13 +1464,13 @@
       "com-haruhwa",
       "sh-tngl",
       "app-louisvillebsky-pds",
+      "com-federdeck-pds",
       "app-blacksky",
+      "com-cacheblasters-fmpds",
       "info-keik",
       "social-surf",
       "computer-aesthetic-at",
-      "com-cacheblasters-fmpds",
       "world-radical-r",
-      "com-federdeck-pds",
       "store-tz2at-marketplaces",
       "app-railway-up-certified--apppds--core--pr--base",
       "net-yinzcloud-bsky-pds",
@@ -1518,11 +1518,11 @@
       "net-hsuanyuchou-taipei",
       "app-railway-up-certified--apppds--core--epds--pr--154",
       "space-cannect-pds",
+      "me-1095-pds",
       "app-certified-test-epds--poc1",
       "app-railway-up-certified--apppds--core--epds--pr--100",
       "pw-blam",
       "app-railway-up-certified--apppds--core--epds--pr--110",
-      "me-1095-pds",
       "app-certified-test-pds--eu--west4",
       "app-railway-up-certified--apppds--core--epds--pr--122",
       "app-railway-up-certified--apppds--core--epds--pr--85",
@@ -1539,20 +1539,20 @@
       "cloud-hstgr-srv865737",
       "fail-marta",
       "net-chatapt",
-      "app-certified-test-epds1",
       "app-certified-dev",
+      "app-certified-test-epds1",
       "link-mybluesky",
       "social-stroam",
       "app-railway-up-certified--apppds--core--epds--pr--115",
       "app-railway-up-certified--apppds--core--epds--pr--63",
       "social-casjay",
       "com-dinakernel-test--pds",
+      "io-sslip-181-5-9-5",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
-      "com-arankwende",
-      "systems-witchcraft-pds"
+      "com-arankwende"
     ]
   }
 }
