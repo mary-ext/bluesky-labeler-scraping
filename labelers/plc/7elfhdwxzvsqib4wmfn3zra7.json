@@ -1,0 +1,147 @@
+{
+  "uri": "at://did:plc:7elfhdwxzvsqib4wmfn3zra7/app.bsky.labeler.service/self",
+  "cid": "bafyreifrzrlntqwyqrebpj3rtpxuymr42scwqt7i25ehhm2sydss4avobm",
+  "creator": {
+    "did": "did:plc:7elfhdwxzvsqib4wmfn3zra7",
+    "handle": "facts.kiesel.app",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "none",
+        "allowGroupInvites": "none"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": []
+  },
+  "indexedAt": "2026-06-18T19:53:24.875Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "fact-supported",
+        "locales": [
+          {
+            "description": "Independent fact-checkers have supported this claim.",
+            "lang": "en",
+            "name": "Fact-supported"
+          },
+          {
+            "description": "Unabhängige Faktenchecker haben diese Aussage bestätigt.",
+            "lang": "de",
+            "name": "Faktencheck: bestätigt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fact-refuted",
+        "locales": [
+          {
+            "description": "Independent fact-checkers have refuted this claim.",
+            "lang": "en",
+            "name": "Fact-refuted"
+          },
+          {
+            "description": "Unabhängige Faktenchecker haben diese Aussage widerlegt.",
+            "lang": "de",
+            "name": "Faktencheck: widerlegt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fact-disputed",
+        "locales": [
+          {
+            "description": "Fact-checkers disagree about this claim.",
+            "lang": "en",
+            "name": "Fact-disputed"
+          },
+          {
+            "description": "Faktenchecker sind sich uneinig über diese Aussage.",
+            "lang": "de",
+            "name": "Faktencheck: umstritten"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fact-mixed",
+        "locales": [
+          {
+            "description": "Independent fact-checkers found this claim partially true and partially false.",
+            "lang": "en",
+            "name": "Fact-mixed"
+          },
+          {
+            "description": "Unabhängige Faktenchecker fanden diese Aussage teils richtig, teils falsch.",
+            "lang": "de",
+            "name": "Faktencheck: teils-teils"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fact-outdated",
+        "locales": [
+          {
+            "description": "This claim was accurate at the time it was reviewed but is no longer current.",
+            "lang": "en",
+            "name": "Fact-outdated"
+          },
+          {
+            "description": "Diese Aussage war zum Prüfzeitpunkt korrekt, ist aber inzwischen veraltet.",
+            "lang": "de",
+            "name": "Faktencheck: veraltet"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "fact-unknown",
+        "locales": [
+          {
+            "description": "Fact-checkers could not establish whether this claim is true or false.",
+            "lang": "en",
+            "name": "Fact-unknown"
+          },
+          {
+            "description": "Faktenchecker konnten nicht feststellen, ob diese Aussage wahr oder falsch ist.",
+            "lang": "de",
+            "name": "Faktencheck: unbekannt"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "fact-supported",
+      "fact-refuted",
+      "fact-disputed",
+      "fact-mixed",
+      "fact-outdated",
+      "fact-unknown"
+    ]
+  }
+}
