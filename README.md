@@ -1,28 +1,28 @@
 # Bluesky labelers
 
-Last updated 2026-06-19T01:02:41.932Z[^1]
+Last updated 2026-06-20T00:52:53.741Z[^1]
 
 <!-- table-start -->
 | Labeler | Likes |
 | --- | --- |
-| <a href=https://bsky.app/profile/did:plc:hysbs7znfgxyb4tsvetzo4sk><b>TTRPG Class Identifier</b></a><br>Like &#38; Subscribe to find out your class | 31098 |
-| <a href=https://bsky.app/profile/did:plc:e4elbtctnfqocyfcml6h2lf7><b>Skywatch Blue</b></a><br>Independent Labeling Service &#124; Not able to perform takedowns. | 8164 |
+| <a href=https://bsky.app/profile/did:plc:hysbs7znfgxyb4tsvetzo4sk><b>TTRPG Class Identifier</b></a><br>Like &#38; Subscribe to find out your class | 31097 |
+| <a href=https://bsky.app/profile/did:plc:e4elbtctnfqocyfcml6h2lf7><b>Skywatch Blue</b></a><br>Independent Labeling Service &#124; Not able to perform takedowns. | 8162 |
 | <a href=https://bsky.app/profile/did:plc:yojwcfgpkxq35sv5wioglqad><b>Perisai 🛡️</b></a><br>Perisai adalah sistem pelabelan akun untuk melindungi kamu melihat akun dan konten yang kamu inginkan atau tidak inginkan pada lini masa. | 7140 |
-| <a href=https://bsky.app/profile/did:plc:d2mkddsbmnrgr3domzg5qexf><b>Blacksky Moderation</b></a><br>Building the intercommunal net | 6549 |
-| <a href=https://bsky.app/profile/did:plc:2qawvcwumvgxmed6iy6pmt6l><b>SonaSky</b></a><br>Show off your fursona (label)! | 5628 |
+| <a href=https://bsky.app/profile/did:plc:d2mkddsbmnrgr3domzg5qexf><b>Blacksky Moderation</b></a><br>Building the intercommunal net | 6548 |
+| <a href=https://bsky.app/profile/did:plc:2qawvcwumvgxmed6iy6pmt6l><b>SonaSky</b></a><br>Show off your fursona (label)! | 5629 |
 | <a href=https://bsky.app/profile/did:plc:l624mewisyr6hymexmrjkprc><b>Content Creator Labeler</b></a><br>Heyo! I'm the Content Creator Labeler! | 4507 |
-| <a href=https://bsky.app/profile/did:plc:4ugewi6aca52a62u62jccbl7><b>Asuka's Anti-Transphobia Field</b></a><br>You're transphobic? How disgusting. | 3722 |
-| <a href=https://bsky.app/profile/did:plc:l3nbhdfelt5d26btksecetxu><b>Pronoun Picker</b></a><br>Source Code: https://github.com/TheRipperoni/PronounPicker | 3151 |
+| <a href=https://bsky.app/profile/did:plc:4ugewi6aca52a62u62jccbl7><b>Asuka's Anti-Transphobia Field</b></a><br>You're transphobic? How disgusting. | 3721 |
+| <a href=https://bsky.app/profile/did:plc:l3nbhdfelt5d26btksecetxu><b>Pronoun Picker</b></a><br>Source Code: https://github.com/TheRipperoni/PronounPicker | 3152 |
 | <a href=https://bsky.app/profile/did:plc:gqaoe3na6isc3zyvp7iuqpu7><b>Art Theft Labeler・アート泥棒ラベラー</b></a><br>Fighting art plagiarism 🖌️✊ Report posts in bluesky and provide proof for them to be considered. | 2930 |
 | <a href=https://bsky.app/profile/did:plc:w6yx4bltuzdmiolooi4kd6zt><b>Bookmarks</b></a><br>To bookmark a post, report it to this labeler. | 2551 |
 | <a href=https://bsky.app/profile/did:plc:dsae6lz5garrdkbicuor4chs><b>Games Industry Labeller</b></a><br>A labeling service for the games industry. Check my posts for instructions. | 2396 |
-| <a href=https://bsky.app/profile/did:plc:lr5smbne6sydt7gjymthx3ld><b>Shiny Posts!</b></a><br>Every post has a 1 in 8192 chance to be a shiny! A label and like will be applied to the post when it is shiny. | 2347 |
-| <a href=https://bsky.app/profile/did:plc:oubsyca6hhgqhmbbk27lvs7c><b>Account Activity Labeler</b></a><br>A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research. | 1811 |
-| <a href=https://bsky.app/profile/did:plc:fqfzpua2rp5io5nmxcixvdvm><b>The Cave of Trophonius</b></a><br>Can you handle knowledge of your fate? Will you even remember? Will you be driven mad? | 1804 |
+| <a href=https://bsky.app/profile/did:plc:lr5smbne6sydt7gjymthx3ld><b>Shiny Posts!</b></a><br>Every post has a 1 in 8192 chance to be a shiny! A label and like will be applied to the post when it is shiny. | 2348 |
+| <a href=https://bsky.app/profile/did:plc:oubsyca6hhgqhmbbk27lvs7c><b>Account Activity Labeler</b></a><br>A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research. | 1815 |
+| <a href=https://bsky.app/profile/did:plc:fqfzpua2rp5io5nmxcixvdvm><b>The Cave of Trophonius</b></a><br>Can you handle knowledge of your fate? Will you even remember? Will you be driven mad? | 1802 |
 | <a href=https://bsky.app/profile/did:plc:pbmxe3tfpkts72wi74weijpo><b>Khronos, Time Zone Labels 🕛</b></a><br>SUBSCRIBE and LIKE the post(s) with your desired time zone (up to 4). | 1685 |
 | <a href=https://bsky.app/profile/did:plc:ylmdlijvrvgbe4md6v4dyce6><b>US Government Contributions</b></a><br>The organizations themselves did not donate, rather the money came from the organizations' PACs, their individual members or employees or owners, and those individuals' immediate families. Include subsidiaries and affiliates. | 1650 |
 | <a href=https://bsky.app/profile/did:plc:i65enriuag7n5fgkopbqtkyk><b>Profile Labeller</b></a><br>Labels accounts based on facts about profile records, post history, etc. Automatic. | 1634 |
-| <a href=https://bsky.app/profile/did:plc:newitj5jo3uel7o4mnf3vj2o><b>XBlock Screenshot Labeller</b></a><br>Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers. | 1574 |
+| <a href=https://bsky.app/profile/did:plc:newitj5jo3uel7o4mnf3vj2o><b>XBlock Screenshot Labeller</b></a><br>Automated label service allowing you to hide Twitter and other screenshots. Created and maintained by @aendra.com and the XBlock volunteers. | 1575 |
 | <a href=https://bsky.app/profile/did:plc:yv4nuaj3jshcuh2d2ivykgiz><b>Sorting Hat</b></a><br>There's nothing hidden in your head / The Sorting Hat can't see / So try me on and I will tell you / Where you ought to be | 1526 |
 | <a href=https://bsky.app/profile/did:plc:lcdcygpdeiittdmdeddxwt4w><b>Laelaps</b></a><br>An anti-zoophilia labeller, from the team behind the Zoophile Mute List. | 1261 |
 | <a href=https://bsky.app/profile/did:plc:hr236rnywyk3xjl4vt4emyc3><b>FurSky Creators</b></a><br>DM THIS ACCOUNT for label issues. | 1216 |
@@ -36,35 +36,35 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:fcikraffwejtuqffifeykcml><b>FF14ヒカセンラベリング/FFXIV WoL Labeling</b></a><br>下記の2つのサービスを提供しています。 | 828 |
 | <a href=https://bsky.app/profile/did:plc:3gtp7uvt63bwostaypbcb7ur><b>Etiquetas do Orkut</b></a><br>As legendas do Orkut agora em forma de etiquetas aqui no Bluesky! | 802 |
 | <a href=https://bsky.app/profile/did:plc:i54lpx4fcztc55vsaiheypxo><b>SonaSky (Pokémon)</b></a><br>Main: @sonasky.app &#60;-- subscribe to this too! | 729 |
-| <a href=https://bsky.app/profile/did:plc:4grtcppa6rdgx3hgomz6kfdj><b>Premium Verification by Tom™</b></a><br>Get your official, PREMIUM GOLD Verification by Tom™ badge! | 663 |
-| <a href=https://bsky.app/profile/did:plc:m6adptn62dcahfaq34tce3j5><b>Joined Labeler</b></a><br>Labels profiles based on when they were created. | 651 |
+| <a href=https://bsky.app/profile/did:plc:4grtcppa6rdgx3hgomz6kfdj><b>Premium Verification by Tom™</b></a><br>Get your official, PREMIUM GOLD Verification by Tom™ badge! | 664 |
+| <a href=https://bsky.app/profile/did:plc:m6adptn62dcahfaq34tce3j5><b>Joined Labeler</b></a><br>Labels profiles based on when they were created. | 653 |
 | <a href=https://bsky.app/profile/did:plc:yb2gz6yxpebbzlundrrfkv4d><b>Alt Heroes</b></a><br>Like and subscribe and like to get a fancy participation badge | 621 |
 | <a href=https://bsky.app/profile/did:plc:mtbmlt62wuf454ztne5wacev><b>Private School (and Landlord) Labeller</b></a><br>Labeller to show which (mostly UK) posters (mostly media/politics) on Bluesky went to private school, and what the current fees are for that school. Also check out @parents.blue  Problems? Reporting accounts? Report through BSky or Email mail@daddys.cash | 618 |
 | <a href=https://bsky.app/profile/did:plc:uac6er53o2pvr5y2qmvaf7hw><b>Public Education Forum Moderation</b></a><br>Read Pinned post for mission | 605 |
 | <a href=https://bsky.app/profile/did:plc:fmug4zegnl7lf6ljp7aokpeh><b>Medsky Moderation</b></a><br>A network of healthcare workers across the Atmosphere | 578 |
 | <a href=https://bsky.app/profile/did:plc:cdbp64nijvsmhuhodbuoqcwi><b>Zodiac Sign Labels</b></a><br>Set your ☀️/🌙/⬆️ signs! Like the labeler &#38; check its posts. | 573 |
-| <a href=https://bsky.app/profile/did:plc:saslbwamakedc4h6c5bmshvz><b>Hailey's Labeler</b></a><br>A labeler by @hailey.at, powered by https://github.com/roostorg/osprey | 568 |
+| <a href=https://bsky.app/profile/did:plc:saslbwamakedc4h6c5bmshvz><b>Hailey's Labeler</b></a><br>A labeler by @hailey.at, powered by https://github.com/roostorg/osprey | 569 |
 | <a href=https://bsky.app/profile/did:plc:4mvnkzobjzwuaxlnvcky3oh6><b>voresky.app</b></a><br>Labeler for the https://voresky.app/ RP overlay for Bluesky. Check the https://voresky.app/about page to learn more! | 553 |
 | <a href=https://bsky.app/profile/did:plc:jcce2sa3fgue4wiocvf7e7xj><b>Birthdays</b></a><br>Labels for showing when it's a user's birthday | 552 |
 | <a href=https://bsky.app/profile/did:plc:qezlipqc4yfk2lebu7533zyr><b>News Detective</b></a><br>Making the truth transparent to all. | 529 |
-| <a href=https://bsky.app/profile/did:plc:bxnuth7kms5l57v2milp5gb3><b>US Politics Labeler [OFFLINE]</b></a><br>You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health. Ran by @halsco.de. | 524 |
+| <a href=https://bsky.app/profile/did:plc:bxnuth7kms5l57v2milp5gb3><b>US Politics Labeler [OFFLINE]</b></a><br>You can use this labeler to hide US politics, including by topic or politician. For your sanity and mental health. Ran by @halsco.de. | 523 |
 | <a href=https://bsky.app/profile/did:plc:npns6hnu6v47oatctk4ruxv2><b>한국어 모더레이션 서비스 "그늘"</b></a><br>한국어 포스트를 자동으로 분류하여 필요에 따라 숨길 수 있는 라벨링 기능을 제공합니다. | 516 |
 | <a href=https://bsky.app/profile/did:plc:f7fr3fmpevkmhodlzktuobvx><b>Engagement Hacks Labeler</b></a><br>Labels accounts suspected of engagement hacking (e.g. mass following accounts in an effort to get return follows, especially if unfollowing afterwards). | 487 |
 | <a href=https://bsky.app/profile/did:plc:xpxsa5aviwecd7cv6bzbmr5n><b>GitHub Contributor Labeler</b></a><br>Adds labels for repositories you contribute to (max 4) | 474 |
 | <a href=https://bsky.app/profile/did:plc:owlalsqd2qu64kv3h7klt24t><b>Game Engine Labeller</b></a><br>Identify the game engine that you use on your profile and everywhere you post! | 473 |
 | <a href=https://bsky.app/profile/did:plc:wp7hxfjl5l4zlptn7y6774lk><b>Bad Accessibility / Alt Text Labeler</b></a><br>Moderation service for identifying posts and media with user-hostile accessibility properties. Managed by @baatl.bsky.social. | 472 |
-| <a href=https://bsky.app/profile/did:plc:uyauirpjzk6le4ygqzatcwnq><b>Independent PDS Labeler</b></a><br>Labels accounts that are hosted on a PDS not operated by Bluesky PBC. | 470 |
+| <a href=https://bsky.app/profile/did:plc:uyauirpjzk6le4ygqzatcwnq><b>Independent PDS Labeler</b></a><br>Labels accounts that are hosted on a PDS not operated by Bluesky PBC. | 472 |
 | <a href=https://bsky.app/profile/did:plc:7m7xz5ekdmw3tephpgn72ooz><b>Moods</b></a><br>Show the world how are you feeling today! 😎 | 452 |
 | <a href=https://bsky.app/profile/did:plc:2pduupjftektqoitfekc2x76><b>ab4n-labeler.bsky.social</b></a><br>A disinfo labeling account run by @antibot4navalny.bsky.social team. | 445 |
-| <a href=https://bsky.app/profile/did:plc:flwugseenu2x4o3h2ymutc3x><b>AI Media Labeler</b></a><br>Labels AI imagery, and audio | 346 |
+| <a href=https://bsky.app/profile/did:plc:flwugseenu2x4o3h2ymutc3x><b>AI Media Labeler</b></a><br>Labels AI imagery, and audio | 349 |
 | <a href=https://bsky.app/profile/did:plc:erl76ixakiifywkveug2fzkh><b>jerrified labeler</b></a><br>who gives a damn about being verified. we all want to be jerrified. | 346 |
 | <a href=https://bsky.app/profile/did:plc:lqstuil6alvccbl2uedtnv3m><b>Verified #AltGov labeler</b></a><br>Official labeler for #AltGov | 327 |
-| <a href=https://bsky.app/profile/did:plc:nwxpzxyajtoqytsorxuwgolt><b>Middle-earth Labeler</b></a><br>a fantasy atproto labeler game by @clarabelle.xyz | 324 |
+| <a href=https://bsky.app/profile/did:plc:nwxpzxyajtoqytsorxuwgolt><b>Middle-earth Labeler</b></a><br>a fantasy atproto labeler game by @clarabelle.xyz | 325 |
 | <a href=https://bsky.app/profile/did:plc:h2btirb6mgshvzf2jqrsggbc><b>NFLair</b></a><br>Get a user flair for the 2025 Super Bowl! | 306 |
-| <a href=https://bsky.app/profile/did:plc:zqd356xnvxea3v4wmrg7emwa><b>Pride Labeller</b></a><br>(Work in progress) | 305 |
+| <a href=https://bsky.app/profile/did:plc:zqd356xnvxea3v4wmrg7emwa><b>Pride Labeller</b></a><br>(Work in progress) | 306 |
 | <a href=https://bsky.app/profile/did:plc:xss2sw5p4bfhjqjorl7gk6z4><b>Bluesky.ms</b></a><br>Bluesky.ms is a community effort to connect with folks at Microsoft &#38; label accounts as | 297 |
-| <a href=https://bsky.app/profile/did:plc:zkd45zaim752t2nhdp4hx3tl><b>Rainbow Check Authority</b></a><br>Because one checkmark is not enough. | 296 |
-| <a href=https://bsky.app/profile/did:plc:q2xsp2z6li7wlzet4ova2edb><b>The Shadowbanner</b></a><br>Identifying disinfo, scapegoating, and harmful rhetoric to keep Bluesky safer. | 291 |
+| <a href=https://bsky.app/profile/did:plc:zkd45zaim752t2nhdp4hx3tl><b>Rainbow Check Authority</b></a><br>Because one checkmark is not enough. | 295 |
+| <a href=https://bsky.app/profile/did:plc:q2xsp2z6li7wlzet4ova2edb><b>The Shadowbanner</b></a><br>Identifying disinfo, scapegoating, and harmful rhetoric to keep Bluesky safer. | 293 |
 | <a href=https://bsky.app/profile/did:plc:ibqrpbheuctud7lc57zfv7k6><b>Etiketle!</b></a><br>Etiketle!, Türkiye’deki Bluesky topluluğu için sahte hesaplara karşı bir rozet sistemidir. Tanınmış kişileri taklit eden hesapları işaretleyerek kullanıcıların güvenliğini artırmayı hedefler. Topluluğu korumak için hep birlikte “Etiketle!” | 246 |
 | <a href=https://bsky.app/profile/did:plc:iwgztlbtspo6bjy25qgcllqi><b>Polski Zespół Moderacji</b></a><br>Promowanie kulturalnej dyskusji i dobrej zabawy poprzez moderowanie niewłaściwych zachowań. | 244 |
 | <a href=https://bsky.app/profile/did:plc:3eivfiql4memqxkryeu4tqnk><b>Spoiler Droid</b></a><br>A 3rd party Bluesky labeler service account run by @shawn.party | 244 |
@@ -116,7 +116,7 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:26lxvmm3akjgfn3abefw4v2h><b>Rainbow Check Authority</b></a><br>Because one checkmark is not enough. | 124 |
 | <a href=https://bsky.app/profile/did:plc:4djyfc24ob4vr4bypuvojfeq><b>Rainbow Check Authority</b></a><br>Because one checkmark is not enough. | 123 |
 | <a href=https://bsky.app/profile/did:plc:6okc3bhiiyc3wilnhlhva23k><b>Rainbow Check Authority</b></a><br>Because one checkmark is not enough. | 122 |
-| <a href=https://bsky.app/profile/did:plc:r67kluzdheusnbkbim32sb2k><b>Remember to Label your NSFW :)</b></a><br>For those of us who use our phones in public sometimes | 116 |
+| <a href=https://bsky.app/profile/did:plc:r67kluzdheusnbkbim32sb2k><b>Remember to Label your NSFW :)</b></a><br>For those of us who use our phones in public sometimes | 117 |
 | <a href=https://bsky.app/profile/did:plc:fq2de2e42ma6wfon77msqpe5><b>España Profunda (Servicio)</b></a><br>Servicio de moderación para reportar cuentas troll de extrema derecha. | 114 |
 | <a href=https://bsky.app/profile/did:plc:ecl4csxtybwgw5r45kmaditp><b>Verified Observer 🟡</b></a><br>Creator: @ghaspey.bsky.social | 111 |
 | <a href=https://bsky.app/profile/did:plc:5o2g6wwchb3tgwrhl2atauzu><b>Moderation Tripazeada</b></a><br>Maintaining safety for Tripazeada members and their CC's. | 105 |
@@ -124,10 +124,10 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:likrwr4zffx6ph4ishw7iuwi><b>Automo [paused]</b></a><br>Not currently maintained (as of 2025-01-31) | 101 |
 | <a href=https://bsky.app/profile/did:plc:2qhdv5xwffbogrfoqcqzpady><b>Pro Cycling Labeler</b></a><br>A labeling service for the Pro Cycling community. | 96 |
 | <a href=https://bsky.app/profile/did:plc:roewhjzra5xtuliye7qf2ghy><b>Labels/Flair for #BookSky</b></a><br>Add your favorite genres and writing projects to your profile! 📚💙 | 95 |
+| <a href=https://bsky.app/profile/did:plc:yg32lwtkzecszkswod6guvg5><b>12 𓅃</b></a><br>𝟴.𝟰𝗕 followers  𝟲𝟰 following  𝟭𝟮𝟯𝗠 posts | 92 |
 | <a href=https://bsky.app/profile/did:plc:mkj5rmeswytaiaqdd4bmdnfy><b>Perfect Skeeties Labeler</b></a><br>A labeler for some fun and silly labels. | 92 |
-| <a href=https://bsky.app/profile/did:plc:yg32lwtkzecszkswod6guvg5><b>12 𓅃</b></a><br>𝟴.𝟰𝗕 followers  𝟲𝟰 following  𝟭𝟮𝟯𝗠 posts | 91 |
+| <a href=https://bsky.app/profile/did:plc:qhed3m2uw3mqcv5lgtvlyog5><b>Verified Adult Creator Labeler</b></a><br>Subscribe to see adult industry creator labels, verified with AV by @Babesky.com 💖 | 91 |
 | <a href=https://bsky.app/profile/did:plc:3pyykdccdni5mdw2kgd465fw><b>Big Kid Now: Adult Account Labeler</b></a><br>An account labeler used to flag accounts as #NSFW, or for mature audiences only. | 90 |
-| <a href=https://bsky.app/profile/did:plc:qhed3m2uw3mqcv5lgtvlyog5><b>Verified Adult Creator Labeler</b></a><br>Subscribe to see adult industry creator labels, verified with AV by @Babesky.com 💖 | 90 |
 | <a href=https://bsky.app/profile/did:plc:adzprud3ccqhgldhortugwar><b>Trump Face Labeler</b></a><br>Labels images containing Trump's face. Self-funded project of @struthious.bsky.social. Any inaccuracies due to lack of time/money to optimize. Code at https://github.com/boltzmann-brain/bsky-face-labeller/tree/main | 89 |
 | <a href=https://bsky.app/profile/did:plc:r5zogjmxhhn6v23dv47li6pc><b>BlueSky App Labeler</b></a><br>Bringing you back the old Twitter experience to BlueSky | 88 |
 | <a href=https://bsky.app/profile/did:plc:pxowo44mhyygxdbfssz5w3xv><b>FFXIV Jobs</b></a><br>Lali-ho! Get your favorite FFXIV Job, or a random one. Like the feed to get a random job, and message it with 'setjob &#60;JOB>' to pick one. | 84 |
@@ -159,7 +159,7 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:kfs6qq5alv3klxr32zkmxbnv><b>Fanworks Labeler</b></a><br>Login to our website to add our labels to your fanworks posts! | 43 |
 | <a href=https://bsky.app/profile/did:plc:gm7ifwl7flkymfk6mjzt37st><b>Fucks Supply</b></a><br><i>No description</i> | 41 |
 | <a href=https://bsky.app/profile/did:plc:hwmrwmykflexnxm32pdat5gq><b>CourtesyBot</b></a><br>Examine a user's recent courtesy fav behavior by tagging @courtesybot.bsky.social in a reply to the target user. | 40 |
-| <a href=https://bsky.app/profile/did:plc:itsszxwp2d45yztcsnvseteh><b>OSRS Labeler</b></a><br>Subscribe and like a post to add that label to your profile. | 40 |
+| <a href=https://bsky.app/profile/did:plc:itsszxwp2d45yztcsnvseteh><b>OSRS Labeler</b></a><br>Subscribe and like a post to add that label to your profile. | 39 |
 | <a href=https://bsky.app/profile/did:plc:djcot74d3xbuxbe3dkfvchwe><b>Pika Labeler ⚡️ Content Creator Labels</b></a><br>⚡️ Pikachu-approved custom labels for content creators! | 39 |
 | <a href=https://bsky.app/profile/did:plc:joapxy5523zx5mm4ii4b6ieo><b>Bond Dogs Moderation Service</b></a><br><i>No description</i> | 38 |
 | <a href=https://bsky.app/profile/did:web:cgv.hukoubook.com><b>中国好声音标签机</b></a><br>中国好声音标签机✖️Fatesky | 38 |
@@ -313,7 +313,6 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:cfjz7vd47dqlsxfnygfk4vd2><b>followspot</b></a><br><i>No description</i> | 4 |
 | <a href=https://bsky.app/profile/did:plc:7q62iuxezg2w723o5k4ce6r5><b>Freakybob Team Labeler</b></a><br>Labels members of Freakybob Team and their roles. | 4 |
 | <a href=https://bsky.app/profile/did:plc:uhijwott53csgao4abvs7ajf><b>Indie labeler</b></a><br>Add some flair to your profile! Here's how: | 4 |
-| <a href=https://bsky.app/profile/did:plc:sfmur4r4wzriaupbgmz7sshy><b>Joshua Shew</b></a><br>384 followers   260 following   2.7K posts | 4 |
 | <a href=https://bsky.app/profile/did:plc:xmj7cqtpfuuek4vp6pa2yqpq><b>labeler.frotting.party</b></a><br><i>No description</i> | 4 |
 | <a href=https://bsky.app/profile/did:plc:4zw4oscaj6edhpud42ehhsnh><b>Masr Moderation / إشراف مجتمع مصر سوشال</b></a><br>خدمة إشرافية تساعدك تحسن جودة المحتوى اللي بيوصلك. | 4 |
 | <a href=https://bsky.app/profile/did:plc:5qgvgk3swxadfjxzlk2vp55m><b>News Classifier</b></a><br>Labels content from the 📰 News feed using a BERT text classification machine learning model. This will always be a work-in-progress. | 4 |
@@ -339,6 +338,7 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:u2s46qshgazlttfad7b7to5o><b>HHN Fan Labeler (In Development)</b></a><br>THIS LABELER IS STILL IN DEVELOPMENT | 3 |
 | <a href=https://bsky.app/profile/did:plc:d4qkzogjiqnn4uekdxh3pzda><b>It's Togepi</b></a><br>A Personal Moderator for @skiddle.id and all accounts on my PDS. | 3 |
 | <a href=https://bsky.app/profile/did:plc:ybpucsbaoq5ntkio2wuaoz5l><b>jimpick-labeler1</b></a><br>Test labeler run by @jimpick.com. Doing research for a potential project with @fireproof.storage | 3 |
+| <a href=https://bsky.app/profile/did:plc:sfmur4r4wzriaupbgmz7sshy><b>Joshua Shew</b></a><br>384 followers   260 following   2.7K posts | 3 |
 | <a href=https://bsky.app/profile/did:plc:4r7ezrlmmnoys7wfjo7sbhuy><b>kpop labels!</b></a><br><i>No description</i> | 3 |
 | <a href=https://bsky.app/profile/did:plc:bmx5j2ukbbixbn4lo5itsf5v><b>Label para boiolas</b></a><br>Boio.la Labs é criado e mantido por @refo.gay | 3 |
 | <a href=https://bsky.app/profile/did:plc:n65zyfxwmwxpgjpcrpjrdqmw><b>label.bettertori.fi</b></a><br><i>No description</i> | 3 |
@@ -441,6 +441,7 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:mwpict2w37xiw54gwkmcl6lw><b>userstatslabeldev.bsky.social</b></a><br><i>No description</i> | 2 |
 | <a href=https://bsky.app/profile/did:plc:tx2iuui555tu7dxtyu4v6fa5><b>VocaLabeler</b></a><br>DOES NOT WORK YET!! owner @julieraptor.bsky.social | 2 |
 | <a href=https://bsky.app/profile/did:plc:gpslhsq6j2g7zyybpaihkib6><b>vocalabeller! by ray deguchi</b></a><br>vocaloid labeller service by @kanshen.click &#124; wip | 2 |
+| <a href=https://bsky.app/profile/did:plc:am3r5ugi44s26fwouvel7mrz><b>W Social Moderation Service</b></a><br><i>No description</i> | 2 |
 | <a href=https://bsky.app/profile/did:plc:s53yivkg4tosixsn2ovbqc7c><b>wolfarnom test account</b></a><br>@wolfarmoon.dev is my master u//w//u | 2 |
 | <a href=https://bsky.app/profile/did:plc:6xtaptqae6wndifzlehl4bmy><b>zoolist.bsky.social</b></a><br><i>No description</i> | 2 |
 | <a href=https://bsky.app/profile/did:plc:ix4ghsjkw7zpivorhafvxsa2><b>(Not active yet) Missing ALT text</b></a><br>A labeler that tags images that lack ALT text so that you can hide it. Under construction. Bot created by @danirod.es. | 1 |
@@ -675,7 +676,6 @@ Last updated 2026-06-19T01:02:41.932Z[^1]
 | <a href=https://bsky.app/profile/did:plc:fvztowinpj4ldvw3bc76r2hj><b>Vaatigames</b></a><br>Propulse avec passion @democraft.fr et panne d'inspi | 0 |
 | <a href=https://bsky.app/profile/did:plc:mfaw2askex2zrfha55na53gz><b>verified-quest.bsky.social</b></a><br><i>No description</i> | 0 |
 | <a href=https://bsky.app/profile/did:plc:apttbwjt4ihwe5bcp4wa6fyw><b>W Social Internal Moderation Service</b></a><br><i>No description</i> | 0 |
-| <a href=https://bsky.app/profile/did:plc:am3r5ugi44s26fwouvel7mrz><b>W Social Moderation Service</b></a><br><i>No description</i> | 0 |
 | <a href=https://bsky.app/profile/did:plc:rmsfa5ayfj2y4c53tcikswav><b>wagesky.bsky.social</b></a><br><i>No description</i> | 0 |
 | <a href=https://bsky.app/profile/did:plc:4pe75mut3igezxkprcmxqxrm><b>whodoyousupport.bsky.social</b></a><br><i>No description</i> | 0 |
 | <a href=https://bsky.app/profile/did:plc:z7hy2qh5dsrcl2nmore2gr4s><b>willowlabeler.bsky.social</b></a><br><i>No description</i> | 0 |
