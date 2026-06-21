@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreifs4x62whi5mkt24zlwycgwqq6ezrqqsx3o2kpuigegagb7m6nbo4",
+  "cid": "bafyreibbwz473eljthn6nqwdpehptqsbfbkch55rzkmdkgef53bhzuwwly",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.org/edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.org/edavis.dev/recordcollector/issues/new",
     "indexedAt": "2026-04-05T02:28:07.450Z"
   },
-  "indexedAt": "2026-04-09T04:28:52.656Z",
+  "indexedAt": "2026-06-20T04:31:03.267Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -235,12 +235,54 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "dev-cartridge",
+        "locales": [
+          {
+            "description": "a games platform for the Atmosphere (dev.cartridge.*)",
+            "lang": "en",
+            "name": "Cartridge"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-cocore",
+        "locales": [
+          {
+            "description": "an experiment in member-owned AI (dev.cocore.*)",
+            "lang": "en",
+            "name": "co/core"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-deckbelcher",
         "locales": [
           {
             "description": "organize, build, and share decks on the atmosphere (com.deckbelcher.*)",
             "lang": "en",
             "name": "deck belcher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-derakkuma",
+        "locales": [
+          {
+            "description": "an interface for the rhythm game Maimai DX (com.derakkuma.*)",
+            "lang": "en",
+            "name": "Derakkuma"
           }
         ],
         "severity": "inform"
@@ -291,10 +333,10 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fyi-frontpage",
+        "identifier": "fyi-unravel-frontpage",
         "locales": [
           {
-            "description": "a decentralised and federated link aggregator (fyi.frontpage.*)",
+            "description": "a decentralised and federated link aggregator (fyi.unravel.frontpage.*)",
             "lang": "en",
             "name": "Frontpage"
           }
@@ -305,10 +347,10 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fyi-unravel-frontpage",
+        "identifier": "fyi-frontpage",
         "locales": [
           {
-            "description": "a decentralised and federated link aggregator (fyi.unravel.frontpage.*)",
+            "description": "a decentralised and federated link aggregator (fyi.frontpage.*)",
             "lang": "en",
             "name": "Frontpage"
           }
@@ -851,6 +893,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "games-gamesgamesgamesgames",
+        "locales": [
+          {
+            "description": "A unified namespace for storing games, contributions, reviews, and feeds in user-owned repositories (games.gamesgamesgamesgames.*)",
+            "lang": "en",
+            "name": "The Pentaract"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "stream-thought",
         "locales": [
           {
@@ -949,6 +1005,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "org-xmtp",
+        "locales": [
+          {
+            "description": "Decentralized, encrypted messaging protocol (org.xmtp.*)",
+            "lang": "en",
+            "name": "XMTP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-yoten",
         "locales": [
           {
@@ -976,12 +1046,15 @@
       "app-blento",
       "blue-badge",
       "buzz-bookhive",
+      "dev-cartridge",
+      "dev-cocore",
       "com-deckbelcher",
+      "com-derakkuma",
       "social-drydown",
       "blue-flashes",
       "im-flushing",
-      "fyi-frontpage",
       "fyi-unravel-frontpage",
+      "fyi-frontpage",
       "com-germnetwork",
       "garden-goals",
       "social-grain",
@@ -1020,6 +1093,7 @@
       "place-stream",
       "sh-tangled",
       "fm-teal",
+      "games-gamesgamesgamesgames",
       "stream-thought",
       "net-wafrn",
       "com-wamellow",
@@ -1027,6 +1101,7 @@
       "place-wisp",
       "link-woosh",
       "org-xcvr",
+      "org-xmtp",
       "app-yoten"
     ]
   },

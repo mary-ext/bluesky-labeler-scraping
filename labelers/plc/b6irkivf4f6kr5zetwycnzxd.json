@@ -1,12 +1,12 @@
 {
   "uri": "at://did:plc:b6irkivf4f6kr5zetwycnzxd/app.bsky.labeler.service/self",
-  "cid": "bafyreicgvqribcezfdp4sbgbfnmuysfdobfefncgpzwlyk24rl6fcblgle",
+  "cid": "bafyreihoq7pdmrkofh3k5em25hggt3dn3qb6b42jfvgvgca5qupzpkhnci",
   "creator": {
     "did": "did:plc:b6irkivf4f6kr5zetwycnzxd",
     "handle": "milk.meowing.zip",
     "displayName": "Milk Labeling Service",
     "pronouns": "i love milk!!!!!!!!!",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:b6irkivf4f6kr5zetwycnzxd/bafkreicdxivwb4t7tshgpgge6uvdtaopffmucfbi64rtr7irqwxboituha",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:b6irkivf4f6kr5zetwycnzxd/bafkreib3p3odhjdbk6dmcpoki5ncysfkpbbykf34gvu7kjoaeqe3gefwfy",
     "associated": {
       "labeler": true,
       "chat": {
@@ -21,16 +21,16 @@
       {
         "src": "did:plc:b6irkivf4f6kr5zetwycnzxd",
         "uri": "at://did:plc:b6irkivf4f6kr5zetwycnzxd/app.bsky.actor.profile/self",
-        "cid": "bafyreibpywjbtn43xogsagbnsigxr7exqqrljymrn5g4mkfb7gdqazwe7i",
+        "cid": "bafyreiaj6kingomqxco43cfjgbbsc6wgjs6x3gsskemc5bklfbfmhhab7a",
         "val": "bot",
         "cts": "2025-09-15T05:07:23.296Z"
       }
     ],
     "createdAt": "2025-09-15T05:07:23.704Z",
     "description": "Welcome to the Milk Labeling Service! 🥛\n\nTo add a label:\n1. Subscribe to the labeler\n2. Check the \"Posts\" tab, and hit like on your favorite milk to drink!\nTo remove the label, hit like on the pinned post!\n\n\nmanaged by @meowing.zip",
-    "indexedAt": "2026-05-04T02:50:45.757Z"
+    "indexedAt": "2026-06-20T09:28:26.857Z"
   },
-  "indexedAt": "2026-03-14T00:12:10.955Z",
+  "indexedAt": "2026-06-20T09:04:32.263Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -229,6 +229,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tailscale",
+        "locales": [
+          {
+            "description": "This user drinks Tailscale milk! [ joke label, poke @meowing.zip to be labeled ]",
+            "lang": "en",
+            "name": "Tailscale"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -245,7 +259,8 @@
       "chocolate",
       "heavy-cream",
       "strawberry",
-      "banana"
+      "banana",
+      "tailscale"
     ]
   }
 }
