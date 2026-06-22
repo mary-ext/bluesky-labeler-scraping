@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreie4rjwdyyzskiye24bexz7m6ox37hwhbvvnxsinj2hzzoneg5ntyu",
+  "cid": "bafyreicsnfrctg7rbwpc6pzcirtz7nzbtehmhaky4ze2kvafscfo2vivi4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-06-19T20:23:40.067Z",
+  "indexedAt": "2026-06-21T16:22:30.767Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -59,6 +59,48 @@
             "description": "Account is hosted by the wallets.tz2at.store PDS",
             "lang": "en",
             "name": "wallets.tz2at.store"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "to-bbi",
+        "locales": [
+          {
+            "description": "Account is hosted by the bbi.to PDS",
+            "lang": "en",
+            "name": "bbi.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-cacheblasters-fmpds",
+        "locales": [
+          {
+            "description": "Account is hosted by the fmpds.cacheblasters.com PDS",
+            "lang": "en",
+            "name": "fmpds.cacheblasters.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-federdeck-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.federdeck.com PDS",
+            "lang": "en",
+            "name": "pds.federdeck.com"
           }
         ],
         "severity": "inform"
@@ -115,48 +157,6 @@
             "description": "Account is hosted by the eurosky.social PDS",
             "lang": "en",
             "name": "eurosky.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "to-bbi",
-        "locales": [
-          {
-            "description": "Account is hosted by the bbi.to PDS",
-            "lang": "en",
-            "name": "bbi.to"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-federdeck-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.federdeck.com PDS",
-            "lang": "en",
-            "name": "pds.federdeck.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-cacheblasters-fmpds",
-        "locales": [
-          {
-            "description": "Account is hosted by the fmpds.cacheblasters.com PDS",
-            "lang": "en",
-            "name": "fmpds.cacheblasters.com"
           }
         ],
         "severity": "inform"
@@ -403,6 +403,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network-wsocial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "lang": "en",
+            "name": "pds.wsocial.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "so-sprk-pds",
         "locales": [
           {
@@ -451,20 +465,6 @@
             "description": "Account is hosted by the at.app.wafrn.net PDS",
             "lang": "en",
             "name": "at.app.wafrn.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
-            "lang": "en",
-            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -781,12 +781,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-raceef-ds",
+        "identifier": "me-1095-pds",
         "locales": [
           {
-            "description": "Account is hosted by the ds.raceef.com PDS",
+            "description": "Account is hosted by the pds.1095.me PDS",
             "lang": "en",
-            "name": "ds.raceef.com"
+            "name": "pds.1095.me"
           }
         ],
         "severity": "inform"
@@ -843,20 +843,6 @@
             "description": "Account is hosted by the certified-apppds-core-epds-pr-128.up.railway.app PDS",
             "lang": "en",
             "name": "certified-apppds-core-epds-pr-128.up.railway.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "me-1095-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.1095.me PDS",
-            "lang": "en",
-            "name": "pds.1095.me"
           }
         ],
         "severity": "inform"
@@ -1187,6 +1173,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-certified-dev",
+        "locales": [
+          {
+            "description": "Account is hosted by the dev.certified.app PDS",
+            "lang": "en",
+            "name": "dev.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-fazen",
         "locales": [
           {
@@ -1207,20 +1207,6 @@
             "description": "Account is hosted by the cannect.space PDS",
             "lang": "en",
             "name": "cannect.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-certified-dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev.certified.app PDS",
-            "lang": "en",
-            "name": "dev.certified.app"
           }
         ],
         "severity": "inform"
@@ -1448,19 +1434,33 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-ekamdor-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.ekamdor.social PDS",
+            "lang": "en",
+            "name": "pds.ekamdor.social"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "internal-independent",
       "internal-other",
       "store-tz2at-wallets",
+      "to-bbi",
+      "com-cacheblasters-fmpds",
+      "com-federdeck-pds",
       "website-selting-social",
       "club-nacg",
       "global-bsky",
       "social-eurosky",
-      "to-bbi",
-      "com-federdeck-pds",
-      "com-cacheblasters-fmpds",
       "com-haruhwa",
       "com-chrise-bsky",
       "store-tz2at-contracts",
@@ -1478,11 +1478,11 @@
       "com-atheistmass-pds",
       "one-certified",
       "live-shxre",
+      "network-wsocial-pds",
       "so-sprk-pds",
       "online-k4zka-bs",
       "dev-ridgeway-pds",
       "net-wafrn-app-at",
-      "network-wsocial-pds",
       "xyz-skystack",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
@@ -1505,12 +1505,11 @@
       "app-railway-up-certified--apppds--core--epds--pr--48",
       "app-railway-up-certified--apppds--core--pr--5c336d--148",
       "app-railway-up-certified--apppds--core--epds--pr--103",
-      "com-raceef-ds",
+      "me-1095-pds",
       "social-npmx",
       "at-admat-bsx",
       "app-railway-up-karmas--e2e--pds",
       "app-railway-up-certified--apppds--core--epds--pr--128",
-      "me-1095-pds",
       "me-opnmt-pds",
       "app-railway-up-certified--apppds--core--epds--pr--14",
       "com-mulgez-api",
@@ -1534,9 +1533,9 @@
       "app-certified-test-pds1",
       "cloud-nihilist",
       "app-railway-up-certified--apppds--core--epds--pr--124",
+      "app-certified-dev",
       "social-fazen",
       "space-cannect",
-      "app-certified-dev",
       "cloud-hstgr-srv865737",
       "fail-marta",
       "net-chatapt",
@@ -1552,7 +1551,8 @@
       "news-usapolitics-matrix",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
-      "com-arankwende"
+      "com-arankwende",
+      "social-ekamdor-pds"
     ]
   }
 }

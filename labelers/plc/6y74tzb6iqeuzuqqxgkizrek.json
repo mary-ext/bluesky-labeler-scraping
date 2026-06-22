@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:6y74tzb6iqeuzuqqxgkizrek/app.bsky.labeler.service/self",
-  "cid": "bafyreifjxeb7f3wmvg2s3p7xqccbqwdh36ileqch4vbdvmkdikddvo6ysi",
+  "cid": "bafyreifglexmioxlozshhxnhypiqlomafsbpoisvalbm6lbzzi4rksilsu",
   "creator": {
     "did": "did:plc:6y74tzb6iqeuzuqqxgkizrek",
     "handle": "atpcraft.at",
@@ -20,7 +20,7 @@
     "description": "online map: https://atpcraft.lenooby09.tech/\n\nby @lenooby09.tech",
     "indexedAt": "2026-05-11T06:46:13.458Z"
   },
-  "indexedAt": "2026-06-15T21:30:17.467Z",
+  "indexedAt": "2026-06-21T22:05:59.465Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -48,6 +48,34 @@
             "description": "Player has operator privileges",
             "lang": "en",
             "name": "Admin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vip",
+        "locales": [
+          {
+            "description": "Player has VIP status",
+            "lang": "en",
+            "name": "VIP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "donor",
+        "locales": [
+          {
+            "description": "Player has donated to the server",
+            "lang": "en",
+            "name": "Donor"
           }
         ],
         "severity": "inform"
@@ -210,12 +238,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "rpg-cyberpunk2020",
+        "identifier": "rpg-cyberpunk",
         "locales": [
           {
-            "description": "Has a Cyberpunk 2020 character on rpg.actor",
+            "description": "Has a Cyberpunk character on rpg.actor",
             "lang": "en",
-            "name": "Cyberpunk 2020 Character"
+            "name": "Cyberpunk Character"
           }
         ],
         "severity": "inform"
@@ -224,40 +252,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "rpg-pathfinder",
-        "locales": [
-          {
-            "description": "Has a Pathfinder character on rpg.actor",
-            "lang": "en",
-            "name": "Pathfinder Character"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "rpg-starfinder",
-        "locales": [
-          {
-            "description": "Has a Starfinder character on rpg.actor",
-            "lang": "en",
-            "name": "Starfinder Character"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "rpg-maker",
+        "identifier": "rpg-rmmz",
         "locales": [
           {
             "description": "Has an RPG Maker MZ character on rpg.actor",
             "lang": "en",
-            "name": "RPG Maker Character"
+            "name": "RPG Maker MZ Character"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rpg-reverie",
+        "locales": [
+          {
+            "description": "Has a Reverie character on rpg.actor",
+            "lang": "en",
+            "name": "Reverie Character"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rpg-playtopia",
+        "locales": [
+          {
+            "description": "Has a Playtopia character on rpg.actor",
+            "lang": "en",
+            "name": "Playtopia Character"
           }
         ],
         "severity": "inform"
@@ -266,6 +294,8 @@
     "labelValues": [
       "online",
       "admin",
+      "vip",
+      "donor",
       "playtime-bronze",
       "playtime-silver",
       "playtime-gold",
@@ -277,10 +307,10 @@
       "rpg-dcc",
       "rpg-mage",
       "rpg-vampire",
-      "rpg-cyberpunk2020",
-      "rpg-pathfinder",
-      "rpg-starfinder",
-      "rpg-maker"
+      "rpg-cyberpunk",
+      "rpg-rmmz",
+      "rpg-reverie",
+      "rpg-playtopia"
     ]
   }
 }
