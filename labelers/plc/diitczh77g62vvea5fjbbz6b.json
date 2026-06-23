@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:diitczh77g62vvea5fjbbz6b/app.bsky.labeler.service/self",
-  "cid": "bafyreifvu2o6xbdh6kr5f6zenpjoq6pwpde3owxotsqmzise6rw6udjsmu",
+  "cid": "bafyreifcvyzwvggslvd3ufolf4y7kvc5zjknncb6cclasto355segv5c7u",
   "creator": {
     "did": "did:plc:diitczh77g62vvea5fjbbz6b",
     "handle": "nyt-labeler-dev.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-10-26T17:12:06.451Z",
     "indexedAt": "2025-10-26T17:12:06.451Z"
   },
-  "indexedAt": "2026-06-21T07:01:22.267Z",
+  "indexedAt": "2026-06-22T07:02:42.166Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -120,6 +120,19 @@
             "description": "Articles in the Fashion section of The New York Times",
             "lang": "en",
             "name": "Fashion Section"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "headway",
+        "locales": [
+          {
+            "description": "Articles in the Headway section of The New York Times",
+            "lang": "en",
+            "name": "Headway Section"
           }
         ],
         "severity": "inform"
@@ -907,6 +920,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "bayliss-wagner",
+        "locales": [
+          {
+            "description": "Articles authored by Bayliss Wagner for The New York Times",
+            "lang": "en",
+            "name": "Bayliss Wagner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "erica-l-green",
         "locales": [
           {
@@ -926,19 +952,6 @@
             "description": "Articles authored by Maggie Haberman for The New York Times",
             "lang": "en",
             "name": "Maggie Haberman"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "bayliss-wagner",
-        "locales": [
-          {
-            "description": "Articles authored by Bayliss Wagner for The New York Times",
-            "lang": "en",
-            "name": "Bayliss Wagner"
           }
         ],
         "severity": "inform"
@@ -972,6 +985,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "patricia-mazzei",
+        "locales": [
+          {
+            "description": "Articles authored by Patricia Mazzei for The New York Times",
+            "lang": "en",
+            "name": "Patricia Mazzei"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "robert-jimison",
         "locales": [
           {
@@ -991,19 +1017,6 @@
             "description": "Articles authored by Alan Feuer for The New York Times",
             "lang": "en",
             "name": "Alan Feuer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "patricia-mazzei",
-        "locales": [
-          {
-            "description": "Articles authored by Patricia Mazzei for The New York Times",
-            "lang": "en",
-            "name": "Patricia Mazzei"
           }
         ],
         "severity": "inform"
@@ -1141,6 +1154,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "david-french",
+        "locales": [
+          {
+            "description": "Articles authored by David French for The New York Times",
+            "lang": "en",
+            "name": "David French"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "hamed-aleaziz",
         "locales": [
           {
@@ -1193,12 +1219,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "david-french",
+        "identifier": "anna-griffin",
         "locales": [
           {
-            "description": "Articles authored by David French for The New York Times",
+            "description": "Articles authored by Anna Griffin for The New York Times",
             "lang": "en",
-            "name": "David French"
+            "name": "Anna Griffin"
           }
         ],
         "severity": "inform"
@@ -1973,6 +1999,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "kenneth-p-vogel",
+        "locales": [
+          {
+            "description": "Articles authored by Kenneth P. Vogel for The New York Times",
+            "lang": "en",
+            "name": "Kenneth P. Vogel"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "matt-zdun",
         "locales": [
           {
@@ -1992,6 +2031,32 @@
             "description": "Articles authored by New York Times Opinion for The New York Times",
             "lang": "en",
             "name": "New York Times Opinion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "peter-wehner",
+        "locales": [
+          {
+            "description": "Articles authored by Peter Wehner for The New York Times",
+            "lang": "en",
+            "name": "Peter Wehner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "reis-thebault",
+        "locales": [
+          {
+            "description": "Articles authored by Reis Thebault for The New York Times",
+            "lang": "en",
+            "name": "Reis Thebault"
           }
         ],
         "severity": "inform"
@@ -2045,6 +2110,7 @@
       "climate",
       "dining",
       "fashion",
+      "headway",
       "health",
       "insider",
       "magazine",
@@ -2105,14 +2171,14 @@
       "jonathan-swan",
       "eric-schmitt",
       "zolan-kanno-youngs",
+      "bayliss-wagner",
       "erica-l-green",
       "maggie-haberman",
-      "bayliss-wagner",
       "julian-e-barnes",
       "nick-corasaniti",
+      "patricia-mazzei",
       "robert-jimison",
       "alan-feuer",
-      "patricia-mazzei",
       "reid-j-epstein",
       "ross-douthat",
       "theodore-schleifer",
@@ -2123,11 +2189,12 @@
       "annie-karni",
       "apoorva-mandavilli",
       "david-e-sanger",
+      "david-french",
       "hamed-aleaziz",
       "jamelle-bouie",
       "katie-glueck",
       "luke-broadwater",
-      "david-french",
+      "anna-griffin",
       "david-mccabe",
       "jenna-russell",
       "ronen-bergman",
@@ -2187,8 +2254,11 @@
       "helene-cooper",
       "jazmine-ulloa",
       "kathleen-tomaselli",
+      "kenneth-p-vogel",
       "matt-zdun",
       "new-york-times-opinion",
+      "peter-wehner",
+      "reis-thebault",
       "rollin-hu",
       "thomas-b-edsall",
       "thomas-l-friedman"
