@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:diitczh77g62vvea5fjbbz6b/app.bsky.labeler.service/self",
-  "cid": "bafyreifcvyzwvggslvd3ufolf4y7kvc5zjknncb6cclasto355segv5c7u",
+  "cid": "bafyreifxbfsn5k6jnfqvivr5lx5mvk5vke3vfz33257v6qnvcnkq7rahwm",
   "creator": {
     "did": "did:plc:diitczh77g62vvea5fjbbz6b",
     "handle": "nyt-labeler-dev.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2025-10-26T17:12:06.451Z",
     "indexedAt": "2025-10-26T17:12:06.451Z"
   },
-  "indexedAt": "2026-06-22T07:02:42.166Z",
+  "indexedAt": "2026-06-23T07:03:06.369Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -686,6 +686,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "family",
+        "locales": [
+          {
+            "description": "Articles in the Family subsection of The New York Times",
+            "lang": "en",
+            "name": "Family Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "football",
         "locales": [
           {
@@ -868,6 +881,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "world-cup",
+        "locales": [
+          {
+            "description": "Articles in the World-cup subsection of The New York Times",
+            "lang": "en",
+            "name": "World-cup Subsection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "tim-balk",
         "locales": [
           {
@@ -1024,6 +1050,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "kellen-browning",
+        "locales": [
+          {
+            "description": "Articles authored by Kellen Browning for The New York Times",
+            "lang": "en",
+            "name": "Kellen Browning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "reid-j-epstein",
         "locales": [
           {
@@ -1089,12 +1128,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "kellen-browning",
+        "identifier": "zach-montague",
         "locales": [
           {
-            "description": "Articles authored by Kellen Browning for The New York Times",
+            "description": "Articles authored by Zach Montague for The New York Times",
             "lang": "en",
-            "name": "Kellen Browning"
+            "name": "Zach Montague"
           }
         ],
         "severity": "inform"
@@ -1102,12 +1141,38 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "zach-montague",
+        "identifier": "katie-glueck",
         "locales": [
           {
-            "description": "Articles authored by Zach Montague for The New York Times",
+            "description": "Articles authored by Katie Glueck for The New York Times",
             "lang": "en",
-            "name": "Zach Montague"
+            "name": "Katie Glueck"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "luke-broadwater",
+        "locales": [
+          {
+            "description": "Articles authored by Luke Broadwater for The New York Times",
+            "lang": "en",
+            "name": "Luke Broadwater"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "anna-griffin",
+        "locales": [
+          {
+            "description": "Articles authored by Anna Griffin for The New York Times",
+            "lang": "en",
+            "name": "Anna Griffin"
           }
         ],
         "severity": "inform"
@@ -1193,38 +1258,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "katie-glueck",
+        "identifier": "jenna-russell",
         "locales": [
           {
-            "description": "Articles authored by Katie Glueck for The New York Times",
+            "description": "Articles authored by Jenna Russell for The New York Times",
             "lang": "en",
-            "name": "Katie Glueck"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "luke-broadwater",
-        "locales": [
-          {
-            "description": "Articles authored by Luke Broadwater for The New York Times",
-            "lang": "en",
-            "name": "Luke Broadwater"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "anna-griffin",
-        "locales": [
-          {
-            "description": "Articles authored by Anna Griffin for The New York Times",
-            "lang": "en",
-            "name": "Anna Griffin"
+            "name": "Jenna Russell"
           }
         ],
         "severity": "inform"
@@ -1245,12 +1284,25 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "jenna-russell",
+        "identifier": "lisa-lerer",
         "locales": [
           {
-            "description": "Articles authored by Jenna Russell for The New York Times",
+            "description": "Articles authored by Lisa Lerer for The New York Times",
             "lang": "en",
-            "name": "Jenna Russell"
+            "name": "Lisa Lerer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "maxine-joselow",
+        "locales": [
+          {
+            "description": "Articles authored by Maxine Joselow for The New York Times",
+            "lang": "en",
+            "name": "Maxine Joselow"
           }
         ],
         "severity": "inform"
@@ -1310,19 +1362,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "lisa-lerer",
-        "locales": [
-          {
-            "description": "Articles authored by Lisa Lerer for The New York Times",
-            "lang": "en",
-            "name": "Lisa Lerer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "rick-rojas",
         "locales": [
           {
@@ -1368,6 +1407,19 @@
             "description": "Articles authored by Abbie VanSickle for The New York Times",
             "lang": "en",
             "name": "Abbie VanSickle"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ann-e-marimow",
+        "locales": [
+          {
+            "description": "Articles authored by Ann E. Marimow for The New York Times",
+            "lang": "en",
+            "name": "Ann E. Marimow"
           }
         ],
         "severity": "inform"
@@ -1498,19 +1550,6 @@
             "description": "Articles authored by Amy Harmon for The New York Times",
             "lang": "en",
             "name": "Amy Harmon"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "ann-e-marimow",
-        "locales": [
-          {
-            "description": "Articles authored by Ann E. Marimow for The New York Times",
-            "lang": "en",
-            "name": "Ann E. Marimow"
           }
         ],
         "severity": "inform"
@@ -2012,6 +2051,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "linda-qiu",
+        "locales": [
+          {
+            "description": "Articles authored by Linda Qiu for The New York Times",
+            "lang": "en",
+            "name": "Linda Qiu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "matt-zdun",
         "locales": [
           {
@@ -2153,6 +2205,7 @@
       "elections",
       "energy-environment",
       "europe",
+      "family",
       "football",
       "media",
       "middleeast",
@@ -2167,6 +2220,7 @@
       "space",
       "television",
       "the-headlines",
+      "world-cup",
       "tim-balk",
       "jonathan-swan",
       "eric-schmitt",
@@ -2179,33 +2233,35 @@
       "patricia-mazzei",
       "robert-jimison",
       "alan-feuer",
+      "kellen-browning",
       "reid-j-epstein",
       "ross-douthat",
       "theodore-schleifer",
       "devlin-barrett",
       "dustin-volz",
-      "kellen-browning",
       "zach-montague",
+      "katie-glueck",
+      "luke-broadwater",
+      "anna-griffin",
       "annie-karni",
       "apoorva-mandavilli",
       "david-e-sanger",
       "david-french",
       "hamed-aleaziz",
       "jamelle-bouie",
-      "katie-glueck",
-      "luke-broadwater",
-      "anna-griffin",
-      "david-mccabe",
       "jenna-russell",
+      "david-mccabe",
+      "lisa-lerer",
+      "maxine-joselow",
       "ronen-bergman",
       "edward-wong",
       "emily-cochrane",
       "katie-rogers",
-      "lisa-lerer",
       "rick-rojas",
       "shawn-mccreesh",
       "taylor-robinson",
       "abbie-vansickle",
+      "ann-e-marimow",
       "bret-stephens",
       "david-w-chen",
       "eduardo-medina",
@@ -2216,7 +2272,6 @@
       "the-editorial-board",
       "adam-sella",
       "amy-harmon",
-      "ann-e-marimow",
       "anton-troianovski",
       "carl-hulse",
       "catie-edmondson",
@@ -2255,6 +2310,7 @@
       "jazmine-ulloa",
       "kathleen-tomaselli",
       "kenneth-p-vogel",
+      "linda-qiu",
       "matt-zdun",
       "new-york-times-opinion",
       "peter-wehner",

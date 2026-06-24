@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreiego2fflshkxu3ile226mohbqpyj6e22vqahmyg73o27bihtvuvnu",
+  "cid": "bafyreieyva3ewy2wviuc4p2jzjtga4lqif7aoauw3gheepzfd4r57fzpem",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -17,7 +17,7 @@
     "description": "Labels AI imagery, and audio\n\nConsider following our main account @blackwall.gg\n\nreporting with proof/reasoning helps the moderation process, but is not required. \n\nUpdates/relevant announcements are posted here, and reposted by our main.",
     "indexedAt": "2026-06-20T03:44:27.959Z"
   },
-  "indexedAt": "2026-06-19T02:14:56.466Z",
+  "indexedAt": "2026-06-23T07:57:31.365Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -165,20 +165,6 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "promotionalpost",
-        "locales": [
-          {
-            "description": "Posts that promote generative AI products",
-            "lang": "en",
-            "name": "AI Promotional Post"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
         "identifier": "protomionalaccount",
         "locales": [
           {
@@ -188,23 +174,37 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "promotionalpost",
+        "locales": [
+          {
+            "description": "Posts that promote generative AI products",
+            "lang": "en",
+            "name": "AI Promotional Post"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "aiprofile",
       "imageryaccount",
-      "indirectimageryaccount",
-      "audioaccount",
-      "programmingaccount",
       "imagerypost",
       "thirdpartyimagerypost",
+      "indirectimageryaccount",
       "indirectimagerypost",
+      "audioaccount",
       "audiopost",
-      "programmingpost",
       "protomionalaccount",
       "promotionalpost",
       "textaccount",
-      "textpost"
+      "textpost",
+      "programmingaccount",
+      "programmingpost"
     ]
   },
   "subjectTypes": [
