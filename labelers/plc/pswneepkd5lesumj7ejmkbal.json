@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self",
-  "cid": "bafyreibkerrjiqiy3v7jsj7mqjtj6yoh4l3u67lhoipzbotsjx2tgshley",
+  "cid": "bafyreihgdxjelhegty24s6uxgdt5mepitsacyouwcjb2eif3b3a4vx2aju",
   "creator": {
     "did": "did:plc:pswneepkd5lesumj7ejmkbal",
     "handle": "orglabeler.certified.one",
@@ -14,7 +14,7 @@
     "createdAt": "2026-04-20T04:05:09.149Z",
     "indexedAt": "2026-04-21T11:35:11.047Z"
   },
-  "indexedAt": "2026-04-29T09:17:25.360Z",
+  "indexedAt": "2026-06-25T22:41:02.961Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -39,7 +39,7 @@
         "identifier": "standard",
         "locales": [
           {
-            "description": "A certified actor organization with basic profile information in place.",
+            "description": "A certified actor organization with no detected test or placeholder signals, but below the high-quality completeness threshold.",
             "lang": "en",
             "name": "● Standard"
           }
@@ -68,10 +68,6 @@
     ]
   },
   "subjectTypes": [
-    "record"
-  ],
-  "subjectCollections": [
-    "app.certified.actor.profile",
-    "app.certified.actor.organization"
+    "account"
   ]
 }
