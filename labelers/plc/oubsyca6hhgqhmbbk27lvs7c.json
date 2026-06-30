@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreid3sdvq4z5tsmokfmttqnn2zlo2iejfuz4eaow7qwlkyd565acmce",
+  "cid": "bafyreifyy2ttbgejvoeh5qyl2h23ituaorcujndlakgs4sle4urxb4iena",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\ns.tech.cornell.edu/labeler\nIcon:Flaticon",
     "indexedAt": "2026-04-08T17:02:04.850Z"
   },
-  "indexedAt": "2026-05-01T03:03:50.872Z",
+  "indexedAt": "2026-06-30T00:30:52.127Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -45,20 +45,6 @@
             "description": "In a 24 hour period, account made at least 10 changes to its profile metadata (picture, bio, banner, etc.)",
             "lang": "en",
             "name": "Changed profile 10+ times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "high-metadata-changes-fifty",
-        "locales": [
-          {
-            "description": "In a 24 hour period, account made at least 50 changes to its profile metadata (picture, bio, banner, etc.)",
-            "lang": "en",
-            "name": "Changed profile 50+ times yesterday"
           }
         ],
         "severity": "inform"
@@ -100,7 +86,7 @@
           {
             "description": "This account made profile metadata changes on at least ten days in the last 30 days. These changes may be small; but most accounts do not make frequent such changes.",
             "lang": "en",
-            "name": "Profile changes often: more than 10 days in last 30 days"
+            "name": "Profile changes often: more than 7 days in last 30 days"
           }
         ],
         "severity": "inform"
@@ -389,7 +375,6 @@
     "labelValues": [
       "high-metadata-changes-five",
       "high-metadata-changes-ten",
-      "high-metadata-changes-fifty",
       "metadata-monthly-changes-low",
       "metadata-monthly-changes-medium",
       "metadata-monthly-changes-high",

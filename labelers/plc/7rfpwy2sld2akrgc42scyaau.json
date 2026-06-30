@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7rfpwy2sld2akrgc42scyaau/app.bsky.labeler.service/self",
-  "cid": "bafyreictup5blamxxjcatrivzzvv7t2zmjryb4655d4hgbcrjjk5d3vcb4",
+  "cid": "bafyreiafvnn6shfqc2meyecq3gyvp2ct64knlwjgu3splj22ryvoe2jmuq",
   "creator": {
     "did": "did:plc:7rfpwy2sld2akrgc42scyaau",
     "handle": "liquidaegisiondure.bsky.social",
@@ -35,7 +35,7 @@
     "description": "local ai running off of a homelab. v0.05a",
     "indexedAt": "2026-05-11T05:33:06.957Z"
   },
-  "indexedAt": "2026-06-16T02:08:40.973Z",
+  "indexedAt": "2026-06-29T08:24:40.174Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -444,6 +444,244 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-extreme-left",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Most Extreme Left' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Most Extreme Left"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-hyper-left",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Hyper-Partisan Left' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Hyper-Partisan Left"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-strong-left",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Strong Left' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Strong Left"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-skews-left",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Skews Left' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Skews Left"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-middle",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Middle / Balanced' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Middle / Balanced"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-skews-right",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Skews Right' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Skews Right"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-strong-right",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Strong Right' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Strong Right"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-hyper-right",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Hyper-Partisan Right' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Hyper-Partisan Right"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-bias-extreme-right",
+        "locales": [
+          {
+            "description": "Political bias rating from Ad Fontes Media: 'Most Extreme Right' (bias scale -42 left .. +42 right). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Bias: Most Extreme Right"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-original-fact",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Reliable; Original Fact Reporting' (reliability scale 0 .. 64; higher = more reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Original Fact Reporting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-fact",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Reliable; Fact Reporting' (reliability scale 0 .. 64; higher = more reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Fact Reporting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-analysis",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Reliable; Analysis/Fact Reporting' (reliability scale 0 .. 64; higher = more reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Analysis / Fact Reporting"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-generally-reliable",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Generally Reliable / Analysis OR Other Issues' (reliability scale 0 .. 64; higher = more reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Generally Reliable"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-mixed",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Mixed Reliability / Opinion OR Other Issues' (reliability scale 0 .. 64; higher = more reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Mixed Reliability"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-problematic",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Unreliable; Problematic' (reliability scale 0 .. 64; lower = less reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Unreliable (Problematic)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-misleading",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Unreliable; Misleading' (reliability scale 0 .. 64; lower = less reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Unreliable (Misleading)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "af-rel-inaccurate",
+        "locales": [
+          {
+            "description": "Reliability rating from Ad Fontes Media: 'Unreliable; Inaccurate' (reliability scale 0 .. 64; lower = less reliable). Source: adfontesmedia.com.",
+            "lang": "en",
+            "name": "Reliability: Unreliable (Inaccurate)"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -475,7 +713,24 @@
       "round-40",
       "round-45",
       "round-50",
-      "allach"
+      "allach",
+      "af-bias-extreme-left",
+      "af-bias-hyper-left",
+      "af-bias-strong-left",
+      "af-bias-skews-left",
+      "af-bias-middle",
+      "af-bias-skews-right",
+      "af-bias-strong-right",
+      "af-bias-hyper-right",
+      "af-bias-extreme-right",
+      "af-rel-original-fact",
+      "af-rel-fact",
+      "af-rel-analysis",
+      "af-rel-generally-reliable",
+      "af-rel-mixed",
+      "af-rel-problematic",
+      "af-rel-misleading",
+      "af-rel-inaccurate"
     ]
   }
 }
