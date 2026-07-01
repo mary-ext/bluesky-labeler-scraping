@@ -1,0 +1,45 @@
+{
+  "uri": "at://did:plc:aywbh7hovtsqpv2pzkldmqdv/app.bsky.labeler.service/self",
+  "cid": "bafyreidzf5fj4snmelcpdsq37k7on4jwtp7b2q77iwvwdtwfmxga2lwy4a",
+  "creator": {
+    "did": "did:plc:aywbh7hovtsqpv2pzkldmqdv",
+    "handle": "pub-search.waow.tech",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:aywbh7hovtsqpv2pzkldmqdv/bafkreihmcytutt3xti7p53dwgwm2iceygl5psdfj4f3kyx7getalvmj4xi",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-04-21T21:28:05.043Z",
+    "indexedAt": "2026-04-21T21:28:37.452Z"
+  },
+  "indexedAt": "2026-06-30T20:30:55.329Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "machine-generated",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "this account's content is produced by an automated system, not written by a person — e.g. registry/feed mirrors, transit-alert bots, catalogs, database exports. pub-search excludes these from its human-writing search.",
+            "lang": "en",
+            "name": "machine-generated"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "machine-generated"
+    ]
+  }
+}
