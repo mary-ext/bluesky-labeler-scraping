@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreid2bk5wjwh24jymbuhd3suu6o5sz5lpejtma3zkkqunqcc2l7zk5a",
+  "cid": "bafyreifg4jrldqah5kqvgx7thy4b5wzwyvsolvcr3ukno6qgukfvcomx5q",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-01T02:10:00.835Z",
+  "indexedAt": "2026-07-02T20:16:13.628Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -221,6 +221,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network-wsocial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "lang": "en",
+            "name": "pds.wsocial.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-blacksky",
         "locales": [
           {
@@ -241,20 +255,6 @@
             "description": "Account is hosted by the pds.louisvillebsky.app PDS",
             "lang": "en",
             "name": "pds.louisvillebsky.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
-            "lang": "en",
-            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -305,6 +305,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "one-certified",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified.one PDS",
+            "lang": "en",
+            "name": "certified.one"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "world-radical-r",
         "locales": [
           {
@@ -325,20 +339,6 @@
             "description": "Account is hosted by the marketplaces.tz2at.store PDS",
             "lang": "en",
             "name": "marketplaces.tz2at.store"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "one-certified",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified.one PDS",
-            "lang": "en",
-            "name": "certified.one"
           }
         ],
         "severity": "inform"
@@ -445,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-wafrn-app-at",
+        "identifier": "me-1095-pds",
         "locales": [
           {
-            "description": "Account is hosted by the at.app.wafrn.net PDS",
+            "description": "Account is hosted by the pds.1095.me PDS",
             "lang": "en",
-            "name": "at.app.wafrn.net"
+            "name": "pds.1095.me"
           }
         ],
         "severity": "inform"
@@ -459,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-1095-pds",
+        "identifier": "net-wafrn-app-at",
         "locales": [
           {
-            "description": "Account is hosted by the pds.1095.me PDS",
+            "description": "Account is hosted by the at.app.wafrn.net PDS",
             "lang": "en",
-            "name": "pds.1095.me"
+            "name": "at.app.wafrn.net"
           }
         ],
         "severity": "inform"
@@ -991,12 +991,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--110",
+        "identifier": "cafe-pckt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-110.up.railway.app PDS",
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-110.up.railway.app"
+            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -1005,12 +1005,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--110",
         "locales": [
           {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-110.up.railway.app PDS",
             "lang": "en",
-            "name": "pds.pckt.cafe"
+            "name": "certified-apppds-core-epds-pr-110.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1411,20 +1411,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-arankwende",
-        "locales": [
-          {
-            "description": "Account is hosted by the arankwende.com PDS",
-            "lang": "en",
-            "name": "arankwende.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-ekamdor-pds",
         "locales": [
           {
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-arankwende",
+        "locales": [
+          {
+            "description": "Account is hosted by the arankwende.com PDS",
+            "lang": "en",
+            "name": "arankwende.com"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1465,15 +1465,15 @@
       "store-tz2at-contracts",
       "world-si46-pds",
       "sh-tngl",
+      "network-wsocial-pds",
       "app-blacksky",
       "app-louisvillebsky-pds",
-      "network-wsocial-pds",
       "info-keik",
       "social-surf",
       "computer-aesthetic-at",
+      "one-certified",
       "world-radical-r",
       "store-tz2at-marketplaces",
-      "one-certified",
       "app-railway-up-certified--apppds--core--pr--base",
       "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
@@ -1481,8 +1481,8 @@
       "so-sprk-pds",
       "online-k4zka-bs",
       "dev-ridgeway-pds",
-      "net-wafrn-app-at",
       "me-1095-pds",
+      "net-wafrn-app-at",
       "xyz-skystack",
       "social-selfhosted",
       "com-qualiaworks-eurosky--pds",
@@ -1520,8 +1520,8 @@
       "app-certified-test-epds--poc1",
       "app-railway-up-certified--apppds--core--epds--pr--100",
       "pw-blam",
-      "app-railway-up-certified--apppds--core--epds--pr--110",
       "cafe-pckt-pds",
+      "app-railway-up-certified--apppds--core--epds--pr--110",
       "app-certified-test-pds--eu--west4",
       "app-railway-up-certified--apppds--core--epds--pr--122",
       "app-railway-up-certified--apppds--core--epds--pr--85",
@@ -1550,9 +1550,9 @@
       "news-usapolitics-matrix",
       "app-railway-up-certified--apppds--core--epds--pr--34",
       "ro-aiia-pds",
-      "com-arankwende",
       "social-ekamdor-pds",
-      "systems-witchcraft-pds"
+      "systems-witchcraft-pds",
+      "com-arankwende"
     ]
   }
 }

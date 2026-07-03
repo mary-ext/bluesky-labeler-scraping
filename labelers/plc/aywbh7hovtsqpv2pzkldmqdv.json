@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:aywbh7hovtsqpv2pzkldmqdv/app.bsky.labeler.service/self",
-  "cid": "bafyreidzf5fj4snmelcpdsq37k7on4jwtp7b2q77iwvwdtwfmxga2lwy4a",
+  "cid": "bafyreideugejmhem6bel5pvfwkhbj3pm7xj2mfuhgsuhjxcogpqg6no6dm",
   "creator": {
     "did": "did:plc:aywbh7hovtsqpv2pzkldmqdv",
     "handle": "pub-search.waow.tech",
@@ -16,7 +16,7 @@
     "createdAt": "2026-04-21T21:28:05.043Z",
     "indexedAt": "2026-04-21T21:28:37.452Z"
   },
-  "indexedAt": "2026-06-30T20:30:55.329Z",
+  "indexedAt": "2026-07-02T04:35:15.121Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.defs#labelerPolicies",
@@ -26,20 +26,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "ignore",
-        "identifier": "machine-generated",
+        "identifier": "bulk-generated",
         "locales": [
           {
             "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
-            "description": "this account's content is produced by an automated system, not written by a person — e.g. registry/feed mirrors, transit-alert bots, catalogs, database exports. pub-search excludes these from its human-writing search.",
+            "description": "this account's documents are generated from a data source — one per database row, feed event, or catalog entry — rather than composed by an author (a person or an AI). e.g. registry mirrors, transit-alert bots, catalogs, database exports. pub-search excludes these from search.",
             "lang": "en",
-            "name": "machine-generated"
+            "name": "bulk-generated"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "machine-generated"
+      "bulk-generated"
     ]
   }
 }
