@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:jkt5nuy2sfjzurlf6tpdfbdx/app.bsky.labeler.service/self",
+  "cid": "bafyreihv7ecphhcrnt6gh6kvayeepd2ugosxyskz5au4nnnefsk53bbaee",
+  "creator": {
+    "did": "did:plc:jkt5nuy2sfjzurlf6tpdfbdx",
+    "handle": "testlabelel.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jkt5nuy2sfjzurlf6tpdfbdx/bafkreicupulgx624umwgxdiew7panr3wxhuoqzwotehixzihv5bi7ei4fa",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-06T10:48:05.820Z",
+    "indexedAt": "2026-07-06T10:48:25.819Z"
+  },
+  "indexedAt": "2026-07-06T11:45:26.420Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "test-label",
+        "locales": [
+          {
+            "description": "A test label for development process",
+            "lang": "en",
+            "name": "Test Label"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "test-label-two",
+        "locales": [
+          {
+            "description": "Second tes label with alert severity",
+            "lang": "en",
+            "name": "Test Label 2"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "test-label",
+      "test-label-two"
+    ]
+  }
+}
