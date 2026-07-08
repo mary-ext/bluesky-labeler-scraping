@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreigzpsi4fieqahq7ke3nudigqik4pgtyhusufpdrfzzwygf7lqfb3y",
+  "cid": "bafyreigpgfna3p3ilv5v7nsdmdadlpv6tifa26marlwmneesw44jeygvmi",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -20,10 +20,24 @@
     "description": "(Work in progress)\n\n🌐 Web UI: https://pridelabeller.pages.dev/ 🌐\n\n⚠️ Don't \"Hide\" any of the badges ⚠️\n\n❤️ to Add, 💔 to Remove. (legacy method)",
     "indexedAt": "2026-06-01T08:47:27.060Z"
   },
-  "indexedAt": "2026-06-23T18:45:36.878Z",
+  "indexedAt": "2026-07-07T18:51:47.124Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "homoromantic",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Homoromantic"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1216,6 +1230,7 @@
       }
     ],
     "labelValues": [
+      "homoromantic",
       "outherine",
       "aroaceflux",
       "demifluix",

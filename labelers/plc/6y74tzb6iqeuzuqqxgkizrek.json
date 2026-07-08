@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:6y74tzb6iqeuzuqqxgkizrek/app.bsky.labeler.service/self",
-  "cid": "bafyreievlz2xcvaw24anzjakhj4mk4le3ztwexelg3r7x4dusu63uu73zu",
+  "cid": "bafyreiaztmc5565gdc36yttwp7b2xzglfdqwrszxaohmsfhzdurvkvbkvy",
   "creator": {
     "did": "did:plc:6y74tzb6iqeuzuqqxgkizrek",
     "handle": "atpcraft.at",
@@ -21,10 +21,24 @@
     "description": "homepage: https://atpcraft.at\nonline map: https://atpcraft.at/map\n\nfeedback: https://userinput.app/s/did:plc:6y74tzb6iqeuzuqqxgkizrek/3mp55co7djk2p\n\nby @lenooby09.tech",
     "indexedAt": "2026-06-30T23:44:05.027Z"
   },
-  "indexedAt": "2026-06-23T11:58:21.066Z",
+  "indexedAt": "2026-07-08T01:49:07.928Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "player",
+        "locales": [
+          {
+            "description": "Plays on this Minecraft server",
+            "lang": "en",
+            "name": "Player"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -167,6 +181,7 @@
       }
     ],
     "labelValues": [
+      "player",
       "online",
       "admin",
       "vip",

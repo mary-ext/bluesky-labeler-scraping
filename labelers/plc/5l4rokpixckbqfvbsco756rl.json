@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:5l4rokpixckbqfvbsco756rl/app.bsky.labeler.service/self",
-  "cid": "bafyreic2xxeyi7m2opk46fq4apjh6u7unr3ovaiqpu62r54b76dbqxuj5a",
+  "cid": "bafyreia3qxr3qwx673rd35t7mocsaz747asdpcywwzw7bj4nkmw3xh6oei",
   "creator": {
     "did": "did:plc:5l4rokpixckbqfvbsco756rl",
     "handle": "topchicken-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "created by @thebadcode.com\n\nall credit due to gracekind.net and @dave.9000ish.uk for uncovering the true meaning of Top Chicken",
     "indexedAt": "2026-06-24T00:23:38.258Z"
   },
-  "indexedAt": "2026-06-23T18:16:15.860Z",
+  "indexedAt": "2026-07-07T18:45:04.224Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -76,13 +76,28 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "top-chicken-eligible",
+        "locales": [
+          {
+            "description": "This post is currently in the running for Top Chicken: posted by an account under the 7,000-follower Grace Limit, and not yet judged in a daily crowning.",
+            "lang": "en",
+            "name": "Top Chicken Eligible 🐣"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "top-chicken",
       "top-chicken-alumni",
       "tiptop-chicken",
-      "top-chicken-post"
+      "top-chicken-post",
+      "top-chicken-eligible"
     ]
   }
 }
