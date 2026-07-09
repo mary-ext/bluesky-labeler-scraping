@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:byfitnu3kaxcjtdwx7g3wgob/app.bsky.labeler.service/self",
+  "cid": "bafyreiaafbgt3vecnkt5frmqq4t2pr4azeaeq2bg7txrs7awcee2bel3sa",
+  "creator": {
+    "did": "did:plc:byfitnu3kaxcjtdwx7g3wgob",
+    "handle": "cad-labeler.noirot.nyc",
+    "displayName": "CAD Labeler Experiment",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:byfitnu3kaxcjtdwx7g3wgob/bafkreiadiagjpd7ggxqqp7o2tbxi3roqqynqvsqd3i7xhfxyy3lev3mr2m",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-07T22:05:06.340Z",
+    "description": "Testing out moderating a custom lexicon for CAD using Ozone. You won't see anything in Bluesky, because this labeler only watches for nyc.noirot.cad.project and nyc.noirot.cad.source posts, not bsky ones!\n\nBuilt by @franknoirot.co as a test for zoo.dev.",
+    "indexedAt": "2026-07-08T05:14:01.716Z"
+  },
+  "indexedAt": "2026-07-08T04:47:43.321Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "competition-winner",
+        "locales": [
+          {
+            "description": "Project recognized by the issuing CAD labeler.",
+            "lang": "en",
+            "name": "Competition winner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "weapon",
+        "locales": [
+          {
+            "description": "CAD project appears to model a weapon or weapon component.",
+            "lang": "en",
+            "name": "Weapon"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "competition-winner",
+      "weapon"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonSpam"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "nyc.noirot.cad.project",
+    "nyc.noirot.cad.source"
+  ]
+}
