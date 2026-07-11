@@ -1,0 +1,102 @@
+{
+  "uri": "at://did:plc:czkszof2pfy3ke23vulzdjii/app.bsky.labeler.service/self",
+  "cid": "bafyreihafyj5bwxsyfaizqw5hs4wu4zbd6zwhwvfeot2yhuaalvxwf6hie",
+  "creator": {
+    "did": "did:plc:czkszof2pfy3ke23vulzdjii",
+    "handle": "nsfwlabeler1.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:czkszof2pfy3ke23vulzdjii/bafkreig5n2ooeo3ixz4yfygzcuablb4ovfm7fijbq7dorzbsfu2ezxrefy",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-10T20:49:34.265Z",
+    "indexedAt": "2026-07-10T20:49:39.870Z"
+  },
+  "indexedAt": "2026-07-10T21:01:00.573Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-nsfw-porn",
+        "locales": [
+          {
+            "description": "Real photographic pornography detected by AI classifier",
+            "lang": "en",
+            "name": "AI: Pornography"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-nsfw-sexual",
+        "locales": [
+          {
+            "description": "Real photographic sexual or nude content detected by AI classifier",
+            "lang": "en",
+            "name": "AI: Sexual Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-nsfw-abdl",
+        "locales": [
+          {
+            "description": "ABDL/diaper fetish content detected by AI classifier",
+            "lang": "en",
+            "name": "AI: ABDL Content"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-nsfw-anime",
+        "locales": [
+          {
+            "description": "Sexual anime/manga/illustrated content detected by AI classifier",
+            "lang": "en",
+            "name": "AI: Sexual Anime"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-nsfw-furry",
+        "locales": [
+          {
+            "description": "Sexual furry/anthropomorphic content detected by AI classifier",
+            "lang": "en",
+            "name": "AI: Sexual Furry"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "ai-nsfw-porn",
+      "ai-nsfw-sexual",
+      "ai-nsfw-abdl",
+      "ai-nsfw-anime",
+      "ai-nsfw-furry"
+    ]
+  }
+}
