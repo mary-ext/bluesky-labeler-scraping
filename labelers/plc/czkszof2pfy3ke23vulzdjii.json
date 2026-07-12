@@ -1,10 +1,9 @@
 {
   "uri": "at://did:plc:czkszof2pfy3ke23vulzdjii/app.bsky.labeler.service/self",
-  "cid": "bafyreihafyj5bwxsyfaizqw5hs4wu4zbd6zwhwvfeot2yhuaalvxwf6hie",
+  "cid": "bafyreibprqt4sy3ueufrwkojgpj6hb37gp7ez5vjesudeafwardx7j4mcm",
   "creator": {
     "did": "did:plc:czkszof2pfy3ke23vulzdjii",
     "handle": "nsfwlabeler1.bsky.social",
-    "displayName": "",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:czkszof2pfy3ke23vulzdjii/bafkreig5n2ooeo3ixz4yfygzcuablb4ovfm7fijbq7dorzbsfu2ezxrefy",
     "associated": {
       "labeler": true,
@@ -14,9 +13,10 @@
     },
     "labels": [],
     "createdAt": "2026-07-10T20:49:34.265Z",
-    "indexedAt": "2026-07-10T20:49:39.870Z"
+    "description": "Labeler utilizing https://huggingface.co/haiefff/nsfw-classifier-v2.\n\nThese labels are supplementary to Bluesky moderation's labels and user self labels. False positives will occur.",
+    "indexedAt": "2026-07-12T02:37:49.362Z"
   },
-  "indexedAt": "2026-07-10T21:01:00.573Z",
+  "indexedAt": "2026-07-12T02:36:40.568Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,24 +24,10 @@
         "adultOnly": false,
         "blurs": "media",
         "defaultSetting": "warn",
-        "identifier": "ai-nsfw-porn",
-        "locales": [
-          {
-            "description": "Real photographic pornography detected by AI classifier",
-            "lang": "en",
-            "name": "AI: Pornography"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "media",
-        "defaultSetting": "warn",
         "identifier": "ai-nsfw-sexual",
         "locales": [
           {
-            "description": "Real photographic sexual or nude content detected by AI classifier",
+            "description": "Photographic sexual, nude, or pornographic content detected by the image classifier",
             "lang": "en",
             "name": "AI: Sexual Content"
           }
@@ -52,12 +38,26 @@
         "adultOnly": false,
         "blurs": "media",
         "defaultSetting": "warn",
-        "identifier": "ai-nsfw-abdl",
+        "identifier": "ai-nsfw-abdl-real",
         "locales": [
           {
-            "description": "ABDL/diaper fetish content detected by AI classifier",
+            "description": "Photographic ABDL or visible adult diaper content detected by the image classifier",
             "lang": "en",
-            "name": "AI: ABDL Content"
+            "name": "AI: Photographic ABDL"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "ai-nsfw-abdl-illustrated",
+        "locales": [
+          {
+            "description": "Illustrated ABDL content detected by the image classifier",
+            "lang": "en",
+            "name": "AI: Illustrated ABDL"
           }
         ],
         "severity": "alert"
@@ -69,7 +69,7 @@
         "identifier": "ai-nsfw-anime",
         "locales": [
           {
-            "description": "Sexual anime/manga/illustrated content detected by AI classifier",
+            "description": "Sexual anime, manga, or illustrated content detected by the image classifier",
             "lang": "en",
             "name": "AI: Sexual Anime"
           }
@@ -83,7 +83,7 @@
         "identifier": "ai-nsfw-furry",
         "locales": [
           {
-            "description": "Sexual furry/anthropomorphic content detected by AI classifier",
+            "description": "Sexual furry or anthropomorphic content detected by the image classifier",
             "lang": "en",
             "name": "AI: Sexual Furry"
           }
@@ -92,9 +92,9 @@
       }
     ],
     "labelValues": [
-      "ai-nsfw-porn",
       "ai-nsfw-sexual",
-      "ai-nsfw-abdl",
+      "ai-nsfw-abdl-real",
+      "ai-nsfw-abdl-illustrated",
       "ai-nsfw-anime",
       "ai-nsfw-furry"
     ]

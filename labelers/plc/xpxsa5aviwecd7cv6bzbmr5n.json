@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreiejh2uuc6kyhgxzhkpjwii2txyj7jluzbpthosqmgzootvm3pbgdq",
+  "cid": "bafyreibskco6fwkenpzlzsz3sohe6zarqxc6vb2vf5m4ffq23gg5wm2rji",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-06-14T12:24:19.884Z",
+  "indexedAt": "2026-07-11T20:41:51.373Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6939,6 +6939,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "slopfest-sandogasa",
+        "locales": [
+          {
+            "description": "A collection of tools and libraries for Fedora package maintenance, built around shared API clients for Bugzilla, Bodhi, NVD, and dist-git\nhttps://github.com/slopfest/sandogasa",
+            "lang": "en",
+            "name": "slopfest/sandogasa"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "wilfred-difftastic",
+        "locales": [
+          {
+            "description": "a structural diff that understands syntax 🟥🟩\nhttps://github.com/Wilfred/difftastic",
+            "lang": "en",
+            "name": "Wilfred/difftastic"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7435,7 +7463,9 @@
       "bluesky-social-atproto",
       "hyperdxio-hyperdx",
       "jordan-simonovski-helmver",
-      "jordan-simonovski-helmcov"
+      "jordan-simonovski-helmcov",
+      "slopfest-sandogasa",
+      "wilfred-difftastic"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dc6jvqyw4e472txdbj7zbrkh/app.bsky.labeler.service/self",
-  "cid": "bafyreib37j5k442ohalfjowxqrir6fnbph6evuzusrbjtsuf2bcs5zdlgi",
+  "cid": "bafyreie2zosexekxy6m2amloxa3imvapp7euojqputkwa3wgkkpc6npiiq",
   "creator": {
     "did": "did:plc:dc6jvqyw4e472txdbj7zbrkh",
     "handle": "pronouns.northsky.social",
@@ -25,7 +25,7 @@
     "description": "The official Northsky Social pronouns labeler!\n\nLike a post to get the pronoun or use the handy pronoun labeling page to pick your pronoun combination\n\nOr use the picker on the pronoun site \nhttps://pronouns.northsky.app/",
     "indexedAt": "2026-07-10T11:35:29.068Z"
   },
-  "indexedAt": "2026-07-10T10:23:23.971Z",
+  "indexedAt": "2026-07-11T07:38:53.172Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -201,6 +201,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "she-we",
+        "locales": [
+          {
+            "description": "This person uses she/we pronouns.",
+            "lang": "en",
+            "name": "she/we"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "he-it",
         "locales": [
           {
@@ -271,12 +285,68 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "no-pronouns",
+        "locales": [
+          {
+            "description": "This person uses no pronouns pronouns.",
+            "lang": "en",
+            "name": "no pronouns"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "any-neopronouns",
+        "locales": [
+          {
+            "description": "This person uses any neopronouns pronouns.",
+            "lang": "en",
+            "name": "any neopronouns"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "see-bio",
+        "locales": [
+          {
+            "description": "This person uses Pronouns in Bio pronouns.",
+            "lang": "en",
+            "name": "Pronouns in Bio"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "xe-xem",
         "locales": [
           {
             "description": "This person uses xe/xem pronouns.",
             "lang": "en",
             "name": "xe/xem"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "xie-hir",
+        "locales": [
+          {
+            "description": "This person uses xie/hir pronouns.",
+            "lang": "en",
+            "name": "xie/hir"
           }
         ],
         "severity": "inform"
@@ -299,12 +369,138 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ze-hir",
+        "locales": [
+          {
+            "description": "This person uses ze/hir pronouns.",
+            "lang": "en",
+            "name": "ze/hir"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "fae-faer",
         "locales": [
           {
             "description": "This person uses fae/faer pronouns.",
             "lang": "en",
             "name": "fae/faer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ae-aer",
+        "locales": [
+          {
+            "description": "This person uses ae/aer pronouns.",
+            "lang": "en",
+            "name": "ae/aer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ya-ll",
+        "locales": [
+          {
+            "description": "This person uses ya'll pronouns.",
+            "lang": "en",
+            "name": "ya'll"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "name-any",
+        "locales": [
+          {
+            "description": "This person uses name/any pronouns.",
+            "lang": "en",
+            "name": "name/any"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "she-any",
+        "locales": [
+          {
+            "description": "This person uses she/any pronouns.",
+            "lang": "en",
+            "name": "she/any"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "he-any",
+        "locales": [
+          {
+            "description": "This person uses he/any pronouns.",
+            "lang": "en",
+            "name": "he/any"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "they-any",
+        "locales": [
+          {
+            "description": "This person uses they/any pronouns.",
+            "lang": "en",
+            "name": "they/any"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ey-em",
+        "locales": [
+          {
+            "description": "This person uses ey/em pronouns.",
+            "lang": "en",
+            "name": "ey/em"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cat-cats",
+        "locales": [
+          {
+            "description": "This person uses cat/cats pronouns.",
+            "lang": "en",
+            "name": "cat/cats"
           }
         ],
         "severity": "inform"
@@ -323,14 +519,28 @@
       "he-she",
       "she-it",
       "it-she",
+      "she-we",
       "he-it",
       "it-he",
       "they-it",
       "it-they",
       "any-pronouns",
+      "no-pronouns",
+      "any-neopronouns",
+      "see-bio",
       "xe-xem",
+      "xie-hir",
       "ze-zir",
-      "fae-faer"
+      "ze-hir",
+      "fae-faer",
+      "ae-aer",
+      "ya-ll",
+      "name-any",
+      "she-any",
+      "he-any",
+      "they-any",
+      "ey-em",
+      "cat-cats"
     ]
   },
   "reasonTypes": [],
