@@ -1,0 +1,65 @@
+{
+  "uri": "at://did:plc:qyw3svoo2hgvg4tju5qlnvya/app.bsky.labeler.service/self",
+  "cid": "bafyreiaspzwlp4jcxy2i2kpa76qki6hqeyztika4qv6hgu5k4dco63ivsu",
+  "creator": {
+    "did": "did:plc:qyw3svoo2hgvg4tju5qlnvya",
+    "handle": "mod.coffee.team",
+    "displayName": "coffee.team moderation services",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qyw3svoo2hgvg4tju5qlnvya/bafkreidyz75no7bfzoovmlnb2ucyh37opbwwst32vip7dabnvtddto7dcm",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-12T16:12:50.766Z",
+    "description": "Moderation services for users of the outof.coffee PDS",
+    "indexedAt": "2026-07-12T16:13:55.858Z"
+  },
+  "indexedAt": "2026-07-13T00:51:43.980Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "raw-beans",
+        "locales": [
+          {
+            "description": "I like raw beans! I'm weird!",
+            "lang": "en",
+            "name": "raw-beans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "espresso",
+        "locales": [
+          {
+            "description": "I like espresso!",
+            "lang": "en",
+            "name": "espresso"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "raw-beans",
+      "espresso"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account"
+  ]
+}
