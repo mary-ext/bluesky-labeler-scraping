@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:qyw3svoo2hgvg4tju5qlnvya/app.bsky.labeler.service/self",
-  "cid": "bafyreiaspzwlp4jcxy2i2kpa76qki6hqeyztika4qv6hgu5k4dco63ivsu",
+  "cid": "bafyreih4eg7xk7aedqqdwi5emcakk4iqcmhwf4my3osz5pmxy4fklchf6a",
   "creator": {
     "did": "did:plc:qyw3svoo2hgvg4tju5qlnvya",
     "handle": "mod.coffee.team",
-    "displayName": "coffee.team moderation services",
+    "displayName": "coffee.team labeling and moderation services",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qyw3svoo2hgvg4tju5qlnvya/bafkreidyz75no7bfzoovmlnb2ucyh37opbwwst32vip7dabnvtddto7dcm",
     "associated": {
       "labeler": true,
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-07-12T16:12:50.766Z",
-    "description": "Moderation services for users of the outof.coffee PDS",
-    "indexedAt": "2026-07-12T16:13:55.858Z"
+    "description": "Labels and moderation services for users of the outof.coffee PDS",
+    "indexedAt": "2026-07-13T13:07:36.474Z"
   },
-  "indexedAt": "2026-07-13T00:51:43.980Z",
+  "indexedAt": "2026-07-13T16:12:34.767Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -48,11 +48,221 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "americano",
+        "locales": [
+          {
+            "description": "I like my coffee black - just espresso.",
+            "lang": "en",
+            "name": "americano"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "coffee-black",
+        "locales": [
+          {
+            "description": "I like my coffee black - no distractions.",
+            "lang": "en",
+            "name": "coffee, black"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "coffee-milk",
+        "locales": [
+          {
+            "description": "I like coffee with milk. Don't judge.",
+            "lang": "en",
+            "name": "coffee, with milk"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cappuccino",
+        "locales": [
+          {
+            "description": "I like cappuccinos, mostly for the foam.",
+            "lang": "en",
+            "name": "cappuccino"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "latte",
+        "locales": [
+          {
+            "description": "I like lattes! Foam art appreciated.",
+            "lang": "en",
+            "name": "latte"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "mocha",
+        "locales": [
+          {
+            "description": "I like mocha - coffee that became dessert.",
+            "lang": "en",
+            "name": "mocha"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "cold-brew",
+        "locales": [
+          {
+            "description": "I like cold brew - patience in a glass.",
+            "lang": "en",
+            "name": "cold brew"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "decaf",
+        "locales": [
+          {
+            "description": "I like decaf. Yes, on purpose.",
+            "lang": "en",
+            "name": "decaf"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "tea",
+        "locales": [
+          {
+            "description": "I like tea! Wrong app, I know.",
+            "lang": "en",
+            "name": "tea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "chai",
+        "locales": [
+          {
+            "description": "I like chai! Tea with a kick.",
+            "lang": "en",
+            "name": "chai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "matcha",
+        "locales": [
+          {
+            "description": "I like matcha. Aggressively green.",
+            "lang": "en",
+            "name": "matcha"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "yerba-mate",
+        "locales": [
+          {
+            "description": "I like yerba mate, gourd and all.",
+            "lang": "en",
+            "name": "yerba mate"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "energy-drink",
+        "locales": [
+          {
+            "description": "I like energy drinks - coffee's feral cousin.",
+            "lang": "en",
+            "name": "energy drink"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "macchiato",
+        "locales": [
+          {
+            "description": "I like macchiato - your latte is weak!",
+            "lang": "en",
+            "name": "macchiato"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "raw-beans",
-      "espresso"
+      "espresso",
+      "americano",
+      "coffee-black",
+      "coffee-milk",
+      "cappuccino",
+      "latte",
+      "mocha",
+      "cold-brew",
+      "decaf",
+      "tea",
+      "chai",
+      "matcha",
+      "yerba-mate",
+      "energy-drink",
+      "macchiato"
     ]
   },
   "reasonTypes": [

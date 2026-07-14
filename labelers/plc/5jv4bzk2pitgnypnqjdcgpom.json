@@ -1,0 +1,66 @@
+{
+  "uri": "at://did:plc:5jv4bzk2pitgnypnqjdcgpom/app.bsky.labeler.service/self",
+  "cid": "bafyreibebejzs64qzq7j4h4gk4a2p45rvpsfwbydzrev34ogqkw6ufvqeq",
+  "creator": {
+    "did": "did:plc:5jv4bzk2pitgnypnqjdcgpom",
+    "handle": "trustcon-labeler.bsky.social",
+    "displayName": "ROOST's TrustCon Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5jv4bzk2pitgnypnqjdcgpom/bafkreifhmdnqjjco55cc7dzcfr5p372vrgmzskjth355cdbc5arzzxsfx4",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:5jv4bzk2pitgnypnqjdcgpom",
+        "uri": "at://did:plc:5jv4bzk2pitgnypnqjdcgpom/app.bsky.actor.profile/self",
+        "cid": "bafyreidmupnc2hgvfnfix2db6l6oh2dm4xjjraura3u3abqjj4zabj56h4",
+        "val": "bot",
+        "cts": "2026-07-14T00:18:58.321Z"
+      }
+    ],
+    "createdAt": "2026-07-14T00:18:59.061Z",
+    "description": "A demo labeler for mock actions to use for ROOST's workshop on Coop and Osprey",
+    "indexedAt": "2026-07-14T01:02:04.463Z"
+  },
+  "indexedAt": "2026-07-14T00:46:10.563Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bleep",
+        "locales": [
+          {
+            "description": "A benign demo label applied during the ROOST TrustCon workshop. It carries no judgment and exists only to show a real label reaching Bluesky.",
+            "lang": "en",
+            "name": "Bleep"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bloop",
+        "locales": [
+          {
+            "description": "A benign demo label applied during the ROOST TrustCon workshop. It carries no judgment and exists only to show a real label reaching Bluesky.",
+            "lang": "en",
+            "name": "Bloop"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "bleep",
+      "bloop"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vud7oo5sc7k256jjplfxlnhm/app.bsky.labeler.service/self",
-  "cid": "bafyreidsmsw7gzjxopjorvux4hpzbk24itpi7tcc4r6ku7ug3zkkkxeiqe",
+  "cid": "bafyreiccauntkjw6mkh7dthgz3bnmylggm547r5jbpoyw6mhdbliytpfoi",
   "creator": {
     "did": "did:plc:vud7oo5sc7k256jjplfxlnhm",
     "handle": "pronounsinb.io",
@@ -17,7 +17,7 @@
     "description": "The pronouns labeler I was using disappeared so I built this one.\n\nQuestions? Problems? Looking for a pronoun you don't see here? Contact @malwhere.northsky.social.",
     "indexedAt": "2026-02-08T19:57:50.345Z"
   },
-  "indexedAt": "2026-07-10T23:39:12.677Z",
+  "indexedAt": "2026-07-13T18:15:41.781Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1182,6 +1182,48 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mirror-pronouns",
+        "locales": [
+          {
+            "description": "This user's pronouns are whichever pronouns you use for yourself.",
+            "lang": "en",
+            "name": "mirror pronouns"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sprout-sproutself",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "sprout/sproutself"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "she-any",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "she/any"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1267,7 +1309,10 @@
       "they-it",
       "it-they",
       "gem-gems",
-      "vae-vaer"
+      "vae-vaer",
+      "mirror-pronouns",
+      "sprout-sproutself",
+      "she-any"
     ]
   }
 }
