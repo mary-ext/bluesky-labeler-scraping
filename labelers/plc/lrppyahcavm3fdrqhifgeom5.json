@@ -1,0 +1,148 @@
+{
+  "uri": "at://did:plc:lrppyahcavm3fdrqhifgeom5/app.bsky.labeler.service/self",
+  "cid": "bafyreic756gwzg5b6qlmpudcrlfn73bdam43amhs3p4lb76i4z5cmrd6ky",
+  "creator": {
+    "did": "did:plc:lrppyahcavm3fdrqhifgeom5",
+    "handle": "label.goat.navy",
+    "displayName": "The Great Labeler of Mashiko Town",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lrppyahcavm3fdrqhifgeom5/bafkreifb4sk3lisqkvrxhpipy4h3cr544quhiwfxlwtkujmsfkiithd5lq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-04-15T00:29:00.373Z",
+    "description": "Experimental labeler powered by hungry ghosts in jars. Attempt to clean up the uspol in my feed that got out of hand.\n\nCurrently tinkering, will change and/or stop without warning. \nhttps://github.com/edmundedgar/glmt\n\nMaintained by @goat.navy",
+    "indexedAt": "2026-07-14T06:37:53.363Z"
+  },
+  "indexedAt": "2026-07-15T01:18:13.176Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "uspol",
+        "locales": [
+          {
+            "description": "US politics: content about US political parties, politicians, elections, policy debates, or partisan commentary on US government and current affairs. Does not include politics of other countries unless directly compared to US politics.",
+            "lang": "en",
+            "name": "US Politics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "death",
+        "locales": [
+          {
+            "description": "Content primarily about death, mourning, or mortality.",
+            "lang": "en",
+            "name": "Death"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sports",
+        "locales": [
+          {
+            "description": "Content about organized sports, athletes, teams, games, and sports commentary.",
+            "lang": "en",
+            "name": "Sports"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "music",
+        "locales": [
+          {
+            "description": "Content about musicians, songs, albums, concerts, or music culture and commentary.",
+            "lang": "en",
+            "name": "Music"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "donald-trump",
+        "locales": [
+          {
+            "description": "Content specifically about Donald Trump -- his statements, actions, or commentary directly about him.",
+            "lang": "en",
+            "name": "Donald Trump"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gaming",
+        "locales": [
+          {
+            "description": "Content about video games, game culture, esports, or game-related commentary.",
+            "lang": "en",
+            "name": "Gaming"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mental-health",
+        "locales": [
+          {
+            "description": "Content about mental health, emotional wellbeing, therapy, or psychological experiences.",
+            "lang": "en",
+            "name": "Mental Health"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "technology",
+        "locales": [
+          {
+            "description": "Content about software, hardware, computing, or the technology industry.",
+            "lang": "en",
+            "name": "Technology"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "uspol",
+      "death",
+      "sports",
+      "music",
+      "donald-trump",
+      "gaming",
+      "mental-health",
+      "technology"
+    ]
+  }
+}

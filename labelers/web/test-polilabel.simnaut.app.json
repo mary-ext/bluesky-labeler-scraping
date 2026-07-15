@@ -1,6 +1,6 @@
 {
   "uri": "at://did:web:test-polilabel.simnaut.app/app.bsky.labeler.service/self",
-  "cid": "bafyreie3vv4b7w4rr5idnchs3bvjjuyv43qr65i6lgvbcloi7tfvch3lfe",
+  "cid": "bafyreibsnibsdrzsfcw3u2sxdyextfay2e3fodpyrakd72fuwqntc5bwxe",
   "creator": {
     "did": "did:web:test-polilabel.simnaut.app",
     "handle": "test-polilabel.simnaut.app",
@@ -12,7 +12,7 @@
     },
     "labels": []
   },
-  "indexedAt": "2026-07-13T03:15:58.908Z",
+  "indexedAt": "2026-07-15T00:48:54.271Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -20,12 +20,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "politician",
+        "identifier": "political-figure",
         "locales": [
           {
-            "description": "This post names a current or former politician — a head of state or government, a current national legislator, or a major party leader — matched against a public, published gazetteer. It is a factual tag about who is named, not a judgment about whether the post is political discourse. Applied per post, never per account. Ambiguous names (a surname shared with a common word or a notable non-politician) only receive this label when the politician reading is corroborated by context. It never infers the author's affiliation, ideology, or intent.",
+            "description": "This post names a public political figure — such as a politician, candidate, judge, senior appointed or party official, political operative, or prominent political activist — matched against a public, published gazetteer. It is a factual tag about who is named, not a judgment about whether the post is political discourse. Applied per post, never per account. Ambiguous names only receive this label when the public-figure reading is corroborated. It never infers the author's affiliation, ideology, or intent.",
             "lang": "en",
-            "name": "Names a politician"
+            "name": "Names a political figure"
           }
         ],
         "severity": "inform"
@@ -37,7 +37,7 @@
         "identifier": "political",
         "locales": [
           {
-            "description": "This post overtly discusses politics: it uses unambiguous political terminology (elections, legislation, parties, policy debate, political office) or names politicians in a political context, with enough corroborating signals to be confident. Determinations are made by published, deterministic rules — the term lists, weights, and thresholds are public in the project repository, and any labeling decision is reproducible from the post's text alone. Applied per post, never per account; it describes the post's topic only, not the author's affiliation, ideology, or intent. When in doubt, no label is applied.",
+            "description": "This post overtly discusses politics: it uses unambiguous political terminology (elections, legislation, parties, policy debate, political office) or names political figures in a political context, with enough corroborating signals to be confident. Determinations are made by published, deterministic rules — the term lists, weights, and thresholds are public in the project repository, and any labeling decision is reproducible from the post's text alone. Applied per post, never per account; it describes the post's topic only, not the author's affiliation, ideology, or intent. When in doubt, no label is applied.",
             "lang": "en",
             "name": "Political"
           }
@@ -60,7 +60,7 @@
       }
     ],
     "labelValues": [
-      "politician",
+      "political-figure",
       "political",
       "likely-political"
     ]

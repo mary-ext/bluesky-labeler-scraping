@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:dkv6mbtinydemx62wvaottxw/app.bsky.labeler.service/self",
-  "cid": "bafyreigusj64a3nrcycpcvn7ocsplpntr2jsyyxq6lsibcuzvk5nuk3xr4",
+  "cid": "bafyreig4bgy2z72lorw2n4jizb4gndj6uftaraehp36p7d7bgbdnyhi5vm",
   "creator": {
     "did": "did:plc:dkv6mbtinydemx62wvaottxw",
     "handle": "moderation.ouracorn.house",
@@ -12,9 +12,117 @@
     },
     "labels": []
   },
-  "indexedAt": "2026-07-14T02:05:32.564Z",
+  "indexedAt": "2026-07-14T05:13:44.472Z",
   "labels": [],
   "policies": {
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Unsolicited, repetitive, or low-quality promotional content.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Targeted abuse, bullying, or threats toward an individual or group.",
+            "lang": "en",
+            "name": "Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "hate-speech",
+        "locales": [
+          {
+            "description": "Dehumanizing or hateful content targeting protected characteristics.",
+            "lang": "en",
+            "name": "Hate speech"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "misinformation",
+        "locales": [
+          {
+            "description": "False or misleading claims that may cause harm.",
+            "lang": "en",
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "Uncivil or inflammatory behavior that violates community etiquette.",
+            "lang": "en",
+            "name": "Rude"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nsfw",
+        "locales": [
+          {
+            "description": "Sexually explicit or suggestive material.",
+            "lang": "en",
+            "name": "Adult content"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "Violent or graphic imagery.",
+            "lang": "en",
+            "name": "Graphic media"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "harassment",
+      "hate-speech",
+      "misinformation",
+      "rude",
+      "nsfw",
+      "graphic-media"
+    ]
   }
 }
