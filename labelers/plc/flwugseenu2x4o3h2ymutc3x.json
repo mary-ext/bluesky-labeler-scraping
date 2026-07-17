@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreieyva3ewy2wviuc4p2jzjtga4lqif7aoauw3gheepzfd4r57fzpem",
+  "cid": "bafyreibod3y42cphmaicjuue6iiqyuro3nbihkl73p5xnu46k3lb3wjgly",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -17,7 +17,7 @@
     "description": "Labels AI Media across AtProto.\n\nConsider following our main account @blackwall.gg and/or liking the labeler\n\nreporting with proof/reasoning helps, but is not required. \n\nUpdates/relevant announcements are posted here, and reposted by our main.",
     "indexedAt": "2026-07-10T21:27:42.571Z"
   },
-  "indexedAt": "2026-06-23T07:57:31.365Z",
+  "indexedAt": "2026-07-17T00:05:16.280Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -28,9 +28,23 @@
         "identifier": "aiprofile",
         "locales": [
           {
-            "description": "Displays a badge when a user has an AI Generated Profile picture or banner.",
+            "description": "When set to warn OR hide, blurs AI profile pictures and displays a badge under their profile",
             "lang": "en",
             "name": "AI Banner/PFP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "aiprofilebadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without blurring profile pictures, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Banner/PFP (badge)"
           }
         ],
         "severity": "inform"
@@ -61,7 +75,7 @@
             "name": "AI Imagery Poster"
           }
         ],
-        "severity": "alert"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
@@ -192,6 +206,7 @@
     ],
     "labelValues": [
       "aiprofile",
+      "aiprofilebadge",
       "imageryaccount",
       "imagerypost",
       "thirdpartyimagerypost",
