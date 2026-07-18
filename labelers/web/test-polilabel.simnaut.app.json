@@ -1,6 +1,6 @@
 {
   "uri": "at://did:web:test-polilabel.simnaut.app/app.bsky.labeler.service/self",
-  "cid": "bafyreibsnibsdrzsfcw3u2sxdyextfay2e3fodpyrakd72fuwqntc5bwxe",
+  "cid": "bafyreiaqyp6g7ncqie2ogvan3ooaynve4oxe4otfrsntcfrelzw744ppsm",
   "creator": {
     "did": "did:web:test-polilabel.simnaut.app",
     "handle": "test-polilabel.simnaut.app",
@@ -12,7 +12,7 @@
     },
     "labels": []
   },
-  "indexedAt": "2026-07-15T00:48:54.271Z",
+  "indexedAt": "2026-07-17T06:12:17.865Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -23,7 +23,7 @@
         "identifier": "political-figure",
         "locales": [
           {
-            "description": "This post names a public political figure — such as a politician, candidate, judge, senior appointed or party official, political operative, or prominent political activist — matched against a public, published gazetteer. It is a factual tag about who is named, not a judgment about whether the post is political discourse. Applied per post, never per account. Ambiguous names only receive this label when the public-figure reading is corroborated. It never infers the author's affiliation, ideology, or intent.",
+            "description": "This post names a public political figure — such as a politician, candidate, judge, senior appointed or party official, political operative, prominent political activist, or prominent political media figure — matched against a public, published gazetteer. It is a factual tag about who is named, not a judgment about whether the post is political discourse. Applied per post, never per account. Ambiguous names only receive this label when the public-figure reading is corroborated. It never infers the author's affiliation, ideology, or intent.",
             "lang": "en",
             "name": "Names a political figure"
           }
@@ -64,5 +64,15 @@
       "political",
       "likely-political"
     ]
-  }
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
 }

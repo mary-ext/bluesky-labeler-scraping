@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiejrh37ufaopierpr3kzyapoumyedpbssc77b2laqjsk4ntmm6kfm",
+  "cid": "bafyreidm5z66arjuvsmmitwi6ybm37yujz5nweuuhvgkww5avfbsfidc5u",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-17T02:19:43.069Z",
+  "indexedAt": "2026-07-18T02:22:55.575Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -109,6 +109,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "club-nacg",
+        "locales": [
+          {
+            "description": "Account is hosted by the nacg.club PDS",
+            "lang": "en",
+            "name": "nacg.club"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "global-bsky",
         "locales": [
           {
@@ -151,34 +165,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "club-nacg",
-        "locales": [
-          {
-            "description": "Account is hosted by the nacg.club PDS",
-            "lang": "en",
-            "name": "nacg.club"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "one-certified",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified.one PDS",
-            "lang": "en",
-            "name": "certified.one"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-haruhwa",
         "locales": [
           {
@@ -207,12 +193,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-blacksky",
+        "identifier": "one-certified",
         "locales": [
           {
-            "description": "Account is hosted by the blacksky.app PDS",
+            "description": "Account is hosted by the certified.one PDS",
             "lang": "en",
-            "name": "blacksky.app"
+            "name": "certified.one"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sh-tngl",
+        "locales": [
+          {
+            "description": "Account is hosted by the tngl.sh PDS",
+            "lang": "en",
+            "name": "tngl.sh"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-louisvillebsky-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.louisvillebsky.app PDS",
+            "lang": "en",
+            "name": "pds.louisvillebsky.app"
           }
         ],
         "severity": "inform"
@@ -241,20 +255,6 @@
             "description": "Account is hosted by the surf.social PDS",
             "lang": "en",
             "name": "surf.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-louisvillebsky-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.louisvillebsky.app PDS",
-            "lang": "en",
-            "name": "pds.louisvillebsky.app"
           }
         ],
         "severity": "inform"
@@ -515,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-nobody-node",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the node.nobody.network PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "node.nobody.network"
+            "name": "roomy.chat"
           }
         ],
         "severity": "inform"
@@ -549,6 +549,20 @@
             "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
             "name": "si46.homes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-eny-pds-oyster",
+        "locales": [
+          {
+            "description": "Account is hosted by the oyster.pds.eny.network PDS",
+            "lang": "en",
+            "name": "oyster.pds.eny.network"
           }
         ],
         "severity": "inform"
@@ -633,20 +647,6 @@
             "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
             "name": "northsky.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "sh-tngl",
-        "locales": [
-          {
-            "description": "Account is hosted by the tngl.sh PDS",
-            "lang": "en",
-            "name": "tngl.sh"
           }
         ],
         "severity": "inform"
@@ -809,12 +809,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-dinakernel-test--pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the test-pds.dinakernel.com PDS",
+            "lang": "en",
+            "name": "test-pds.dinakernel.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "me-opnmt-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
             "name": "pds.opnmt.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-blacksky",
+        "locales": [
+          {
+            "description": "Account is hosted by the blacksky.app PDS",
+            "lang": "en",
+            "name": "blacksky.app"
           }
         ],
         "severity": "inform"
@@ -977,12 +1005,54 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ge-shadowcaster-bsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
+            "lang": "en",
+            "name": "bsky.shadowcaster.ge"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "app-railway-up-certified--apppds--core--epds--pr--110",
         "locales": [
           {
             "description": "Account is hosted by the certified-apppds-core-epds-pr-110.up.railway.app PDS",
             "lang": "en",
             "name": "certified-apppds-core-epds-pr-110.up.railway.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-certified-test-pds--eu--west4",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds-eu-west4.test.certified.app PDS",
+            "lang": "en",
+            "name": "pds-eu-west4.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--198",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-198.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-198.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1019,12 +1089,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--198",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--21",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-198.up.railway.app PDS",
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-21.up.railway.app PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-198.up.railway.app"
+            "name": "certified-apppds-core-epds-pr-21.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1033,12 +1103,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--21",
+        "identifier": "bot-mirrors",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-21.up.railway.app PDS",
+            "description": "Account is hosted by the mirrors.bot PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-21.up.railway.app"
+            "name": "mirrors.bot"
           }
         ],
         "severity": "inform"
@@ -1061,12 +1131,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ge-shadowcaster-bsky",
+        "identifier": "app-certified-dev",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.shadowcaster.ge PDS",
+            "description": "Account is hosted by the dev.certified.app PDS",
             "lang": "en",
-            "name": "bsky.shadowcaster.ge"
+            "name": "dev.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-pwkl-eu1-dev",
+        "locales": [
+          {
+            "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
+            "lang": "en",
+            "name": "dev.eu1.pwkl.social"
           }
         ],
         "severity": "inform"
@@ -1173,12 +1257,54 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fail-marta",
+        "locales": [
+          {
+            "description": "Account is hosted by the marta.fail PDS",
+            "lang": "en",
+            "name": "marta.fail"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-chatapt",
         "locales": [
           {
             "description": "Account is hosted by the chatapt.net PDS",
             "lang": "en",
             "name": "chatapt.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-certified-test-epds1",
+        "locales": [
+          {
+            "description": "Account is hosted by the epds1.test.certified.app PDS",
+            "lang": "en",
+            "name": "epds1.test.certified.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-pwkl-us1-dev",
+        "locales": [
+          {
+            "description": "Account is hosted by the dev.us1.pwkl.social PDS",
+            "lang": "en",
+            "name": "dev.us1.pwkl.social"
           }
         ],
         "severity": "inform"
@@ -1201,20 +1327,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fun-plcs-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.plcs.fun PDS",
-            "lang": "en",
-            "name": "pds.plcs.fun"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "world-jalsa-u",
         "locales": [
           {
@@ -1229,12 +1341,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--115",
+        "identifier": "fun-plcs-pds",
         "locales": [
           {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-115.up.railway.app PDS",
+            "description": "Account is hosted by the pds.plcs.fun PDS",
             "lang": "en",
-            "name": "certified-apppds-core-epds-pr-115.up.railway.app"
+            "name": "pds.plcs.fun"
           }
         ],
         "severity": "inform"
@@ -1243,12 +1355,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-ekamdor-pds",
+        "identifier": "io-sslip-181-5-9-5",
         "locales": [
           {
-            "description": "Account is hosted by the pds.ekamdor.social PDS",
+            "description": "Account is hosted by the 5.9.5.181.sslip.io PDS",
             "lang": "en",
-            "name": "pds.ekamdor.social"
+            "name": "5.9.5.181.sslip.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-railway-up-certified--apppds--core--epds--pr--115",
+        "locales": [
+          {
+            "description": "Account is hosted by the certified-apppds-core-epds-pr-115.up.railway.app PDS",
+            "lang": "en",
+            "name": "certified-apppds-core-epds-pr-115.up.railway.app"
           }
         ],
         "severity": "inform"
@@ -1322,132 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "ro-aiia-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.aiia.ro PDS",
-            "lang": "en",
-            "name": "pds.aiia.ro"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bookhive",
-        "locales": [
-          {
-            "description": "Account is hosted by the bookhive.social PDS",
-            "lang": "en",
-            "name": "bookhive.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "surf-self",
-        "locales": [
-          {
-            "description": "Account is hosted by the self.surf PDS",
-            "lang": "en",
-            "name": "self.surf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-arankwende",
-        "locales": [
-          {
-            "description": "Account is hosted by the arankwende.com PDS",
-            "lang": "en",
-            "name": "arankwende.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-railway-up-certified--apppds--core--epds--pr--177",
-        "locales": [
-          {
-            "description": "Account is hosted by the certified-apppds-core-epds-pr-177.up.railway.app PDS",
-            "lang": "en",
-            "name": "certified-apppds-core-epds-pr-177.up.railway.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "info-men--esthe-pds3",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds3.men-esthe.info PDS",
-            "lang": "en",
-            "name": "pds3.men-esthe.info"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
-            "lang": "en",
-            "name": "pds.swarmchat.ai"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds-dev.wsocial.dev PDS",
-            "lang": "en",
-            "name": "pds-dev.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-ripperoni-alt",
-        "locales": [
-          {
-            "description": "Account is hosted by the alt.ripperoni.com PDS",
-            "lang": "en",
-            "name": "alt.ripperoni.com"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1457,17 +1457,17 @@
       "com-federdeck-pds",
       "store-tz2at-wallets",
       "website-selting-social",
+      "club-nacg",
       "global-bsky",
       "social-eurosky",
       "network-wsocial-pds",
-      "club-nacg",
-      "one-certified",
       "com-haruhwa",
       "world-si46-pds",
-      "app-blacksky",
+      "one-certified",
+      "sh-tngl",
+      "app-louisvillebsky-pds",
       "info-keik",
       "social-surf",
-      "app-louisvillebsky-pds",
       "store-tz2at-marketplaces",
       "computer-aesthetic-at",
       "world-radical-r",
@@ -1486,16 +1486,16 @@
       "net-hsuanyuchou-taipei",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
-      "network-nobody-node",
+      "chat-roomy",
       "ai-oathling-pds",
       "homes-si46",
+      "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
       "net-goldentooth-pds",
       "com-nrbrtspvk-bsky",
       "net-riyo-pds",
       "social-northsky",
-      "sh-tngl",
       "fan-radial-pds",
       "app-railway-up-certified--apppds--core--epds--pr--148",
       "to-tor0n",
@@ -1507,7 +1507,9 @@
       "at-admat-bsx",
       "app-railway-up-certified--apppds--core--epds--pr--187",
       "app-railway-up-karmas--e2e--pds",
+      "com-dinakernel-test--pds",
       "me-opnmt-pds",
+      "app-blacksky",
       "app-railway-up-certified--apppds--core--epds--pr--128",
       "app-railway-up-certified--apppds--core--epds--pr--14",
       "com-mulgez-api",
@@ -1519,13 +1521,17 @@
       "app-railway-up-certified--apppds--core--epds--pr--100",
       "cafe-pckt-pds",
       "pw-blam",
+      "ge-shadowcaster-bsky",
       "app-railway-up-certified--apppds--core--epds--pr--110",
+      "app-certified-test-pds--eu--west4",
+      "app-railway-up-certified--apppds--core--epds--pr--198",
       "app-railway-up-certified--apppds--core--epds--pr--122",
       "app-railway-up-certified--apppds--core--epds--pr--85",
-      "app-railway-up-certified--apppds--core--epds--pr--198",
       "app-railway-up-certified--apppds--core--epds--pr--21",
+      "bot-mirrors",
       "social-fluester-pds",
-      "ge-shadowcaster-bsky",
+      "app-certified-dev",
+      "social-pwkl-eu1-dev",
       "app-railway-up-certified--apppds--core--epds--pr--64",
       "app-certified-test-pds1",
       "cloud-nihilist",
@@ -1533,26 +1539,20 @@
       "social-fazen",
       "space-cannect",
       "cloud-hstgr-srv865737",
+      "fail-marta",
       "net-chatapt",
+      "app-certified-test-epds1",
+      "social-pwkl-us1-dev",
       "social-stroam",
-      "fun-plcs-pds",
       "world-jalsa-u",
+      "fun-plcs-pds",
+      "io-sslip-181-5-9-5",
       "app-railway-up-certified--apppds--core--epds--pr--115",
-      "social-ekamdor-pds",
       "app-railway-up-certified--apppds--core--epds--pr--63",
       "social-casjay",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "app-railway-up-certified--apppds--core--epds--pr--34",
-      "ro-aiia-pds",
-      "social-bookhive",
-      "surf-self",
-      "com-arankwende",
-      "app-railway-up-certified--apppds--core--epds--pr--177",
-      "info-men--esthe-pds3",
-      "ai-swarmchat-pds",
-      "dev-wsocial-pds--dev",
-      "com-ripperoni-alt"
+      "app-railway-up-certified--apppds--core--epds--pr--34"
     ]
   }
 }
