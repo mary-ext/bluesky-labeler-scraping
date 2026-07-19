@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qyw3svoo2hgvg4tju5qlnvya/app.bsky.labeler.service/self",
-  "cid": "bafyreih4eg7xk7aedqqdwi5emcakk4iqcmhwf4my3osz5pmxy4fklchf6a",
+  "cid": "bafyreihv6md7yuw5s7btlfkjvv5jep4qco5ypyxo4pkx656f36aei3hfve",
   "creator": {
     "did": "did:plc:qyw3svoo2hgvg4tju5qlnvya",
     "handle": "mod.coffee.team",
@@ -17,7 +17,7 @@
     "description": "Labels and moderation services for users of the outof.coffee PDS",
     "indexedAt": "2026-07-13T13:07:36.474Z"
   },
-  "indexedAt": "2026-07-13T16:12:34.767Z",
+  "indexedAt": "2026-07-18T19:00:05.978Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -244,6 +244,48 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "iced-coffee",
+        "locales": [
+          {
+            "description": "I like coffee - over ice!",
+            "lang": "en",
+            "name": "iced coffee"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "flat-white",
+        "locales": [
+          {
+            "description": "I like a flat white - less milk, more taste!",
+            "lang": "en",
+            "name": "flat white"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "filter-coffee",
+        "locales": [
+          {
+            "description": "I like making filter coffee. With or without a machine.",
+            "lang": "en",
+            "name": "filter coffee"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -262,7 +304,10 @@
       "matcha",
       "yerba-mate",
       "energy-drink",
-      "macchiato"
+      "macchiato",
+      "iced-coffee",
+      "flat-white",
+      "filter-coffee"
     ]
   },
   "reasonTypes": [

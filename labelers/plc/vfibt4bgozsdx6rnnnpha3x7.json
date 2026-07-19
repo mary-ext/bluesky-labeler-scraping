@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreibbwz473eljthn6nqwdpehptqsbfbkch55rzkmdkgef53bhzuwwly",
+  "cid": "bafyreictocqhgggsqm7m5vahymtzbuzq2qzdgdqlzwcuyah7r665lfelr4",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.org/edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.org/edavis.dev/recordcollector/issues/new",
     "indexedAt": "2026-04-05T02:28:07.450Z"
   },
-  "indexedAt": "2026-06-20T04:31:03.267Z",
+  "indexedAt": "2026-07-18T20:56:07.174Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -101,6 +101,20 @@
             "description": "Your Career. Your Data. Your Place. (place.atwork.*)",
             "lang": "en",
             "name": "at://work"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-atbuddy",
+        "locales": [
+          {
+            "description": "a decentralized pet companion on AT Protocol (app.atbuddy.*)",
+            "lang": "en",
+            "name": "ATBuddy"
           }
         ],
         "severity": "inform"
@@ -515,6 +529,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "site-mochott",
+        "locales": [
+          {
+            "description": "A blog platform powered by AT Protocol (site.mochott.*)",
+            "lang": "en",
+            "name": "mochott_"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "at-monomarks",
         "locales": [
           {
@@ -725,12 +753,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "id-sifa",
+        "locales": [
+          {
+            "description": "Professional identity on AT Protocol (id.sifa.*)",
+            "lang": "en",
+            "name": "Sifa ID"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "my-skylights",
         "locales": [
           {
             "description": "a simple, minimalist writing platform (my.skylights.*)",
             "lang": "en",
             "name": "Skylights"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "farm-smol-games-skyrdle",
+        "locales": [
+          {
+            "description": "a daily word puzzle game (farm.smol.games.skyrdle.*)",
+            "lang": "en",
+            "name": "Skyrdle"
           }
         ],
         "severity": "inform"
@@ -921,6 +977,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-twinkl",
+        "locales": [
+          {
+            "description": "Welcome to the new old web (social.twinkl.*)",
+            "lang": "en",
+            "name": "twinkl"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-wafrn",
         "locales": [
           {
@@ -1037,6 +1107,7 @@
       "net-anisota",
       "social-arabica",
       "place-atwork",
+      "app-atbuddy",
       "io-atcr",
       "blue-zio-atfile",
       "com-atprotofans",
@@ -1066,6 +1137,7 @@
       "garden-lexicon",
       "blue-linkat",
       "at-margin",
+      "site-mochott",
       "at-monomarks",
       "community-nooki",
       "dev-npmx",
@@ -1081,7 +1153,9 @@
       "space-roomy",
       "network-cosmik",
       "app-sidetrail",
+      "id-sifa",
       "my-skylights",
+      "farm-smol-games-skyrdle",
       "app-skyreader",
       "events-smokesignal",
       "st-snowpo",
@@ -1095,6 +1169,7 @@
       "fm-teal",
       "games-gamesgamesgamesgames",
       "stream-thought",
+      "social-twinkl",
       "net-wafrn",
       "com-wamellow",
       "com-whtwnd",
