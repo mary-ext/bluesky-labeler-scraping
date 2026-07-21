@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vud7oo5sc7k256jjplfxlnhm/app.bsky.labeler.service/self",
-  "cid": "bafyreiccauntkjw6mkh7dthgz3bnmylggm547r5jbpoyw6mhdbliytpfoi",
+  "cid": "bafyreigpt2lu2ehexbfhdyg6mmby7cgbpjni44hesx6u7h6u72wddws36m",
   "creator": {
     "did": "did:plc:vud7oo5sc7k256jjplfxlnhm",
     "handle": "pronounsinb.io",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-02-08T17:35:48.045Z",
-    "description": "The pronouns labeler I was using disappeared so I built this one.\n\nQuestions? Problems? Looking for a pronoun you don't see here? Contact @malwhere.northsky.social. [‼️maintainer is on a brief hiatus, check back soon].",
-    "indexedAt": "2026-07-19T14:51:30.764Z"
+    "description": "The pronouns labeler I was using disappeared so I built this one.\n\nQuestions? Problems? Looking for a pronoun you don't see here? Contact @malwhere.northsky.social.",
+    "indexedAt": "2026-07-20T13:17:27.264Z"
   },
-  "indexedAt": "2026-07-13T18:15:41.781Z",
+  "indexedAt": "2026-07-20T13:20:05.570Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1224,6 +1224,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "he-any",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "he/any"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1312,7 +1326,8 @@
       "vae-vaer",
       "mirror-pronouns",
       "sprout-sproutself",
-      "she-any"
+      "she-any",
+      "he-any"
     ]
   }
 }
