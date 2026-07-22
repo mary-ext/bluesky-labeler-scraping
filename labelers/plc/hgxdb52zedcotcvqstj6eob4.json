@@ -1,0 +1,53 @@
+{
+  "uri": "at://did:plc:hgxdb52zedcotcvqstj6eob4/app.bsky.labeler.service/self",
+  "cid": "bafyreih7agclqrk4nszau7g6bmbn7dzl752pqzd6jkncqcf7qsmds6olpm",
+  "creator": {
+    "did": "did:plc:hgxdb52zedcotcvqstj6eob4",
+    "handle": "labeler.colibri.social",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": []
+  },
+  "indexedAt": "2026-07-21T14:30:48.667Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "team",
+        "locales": [
+          {
+            "description": "Maintainers of Colibri Social",
+            "lang": "en",
+            "name": "Colibri Team"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "play-store-tester",
+        "locales": [
+          {
+            "description": "Users who have helped test Colibri for Android Devices via the Play Store.",
+            "lang": "en",
+            "name": "Colibri Play Store Tester"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "team",
+      "play-store-tester"
+    ]
+  }
+}
