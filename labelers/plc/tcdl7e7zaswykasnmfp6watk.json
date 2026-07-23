@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:tcdl7e7zaswykasnmfp6watk/app.bsky.labeler.service/self",
-  "cid": "bafyreigudjgnfdbn3edkvfyniuyxsfac7qccwe5m6cowdpe4z24zvyvcs4",
+  "cid": "bafyreidrxcpmfidecxg2mvtfxg7axmjhra5b4f2fydqwtzcg6bynxsdorm",
   "creator": {
     "did": "did:plc:tcdl7e7zaswykasnmfp6watk",
     "handle": "wearemagen.org",
@@ -16,10 +16,24 @@
     "createdAt": "2026-03-18T18:08:53.652Z",
     "indexedAt": "2026-03-18T21:11:30.349Z"
   },
-  "indexedAt": "2026-04-09T18:18:49.159Z",
+  "indexedAt": "2026-07-22T12:41:36.468Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "aipac-dog-whistle",
+        "locales": [
+          {
+            "description": "Uses AIPAC as a conspiratorial boogeyman, coded signal, or shorthand suggesting that Jews, Zionists, or a Jewish organization secretly control politicians, elections, government policy, media, or the United States.",
+            "lang": "en",
+            "name": "AIPAC Dog Whistle"
+          }
+        ],
+        "severity": "alert"
+      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -288,6 +302,7 @@
       }
     ],
     "labelValues": [
+      "aipac-dog-whistle",
       "anti-black-hate",
       "antisemitic-hate",
       "antisemitic-slur",

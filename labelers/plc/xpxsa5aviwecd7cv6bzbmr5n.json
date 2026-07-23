@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreibdswdtor5jwtbpp44pkntiawgsphoymcmmj4pz4jozsebwdmqw7m",
+  "cid": "bafyreien5jf75sdkujn2r454274ozzqpzxa5acsvxwm75k5xayzg35efzu",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-07-21T20:35:08.195Z",
+  "indexedAt": "2026-07-23T02:18:08.302Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -6981,6 +6981,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "siterelenby-git-leash",
+        "locales": [
+          {
+            "description": "A git commit hook to block commits in certain repos based on configurable time windows. \"Helps you stay focused on what you should be doing at certain times of day\". Especially if you're a puppy.\nhttps://github.com/SiteRelEnby/git-leash",
+            "lang": "en",
+            "name": "siterelenby/git-leash"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sheaf-project-sheaf",
+        "locales": [
+          {
+            "description": "Open source plural system tracker. Selfhostable, optional managed service backend, API-first design, supports imports from 7+ other trackers, 100% open-source, web/mobile/wearable apps, by systems with professional experience in infrastructure, security, and designing for scale.\nhttps://github.com/sheaf-project/sheaf",
+            "lang": "en",
+            "name": "sheaf-project/sheaf"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7480,7 +7508,9 @@
       "jordan-simonovski-helmcov",
       "slopfest-sandogasa",
       "wilfred-difftastic",
-      "rahilp-second-brain-cli"
+      "rahilp-second-brain-cli",
+      "siterelenby-git-leash",
+      "sheaf-project-sheaf"
     ]
   }
 }

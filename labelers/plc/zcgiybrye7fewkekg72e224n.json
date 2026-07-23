@@ -1,0 +1,117 @@
+{
+  "uri": "at://did:plc:zcgiybrye7fewkekg72e224n/app.bsky.labeler.service/self",
+  "cid": "bafyreihomsqtaml72qal5ep25gas4uvhf3ewpdr2fmmjlk46byjgsp4ikm",
+  "creator": {
+    "did": "did:plc:zcgiybrye7fewkekg72e224n",
+    "handle": "labeler.saito.run",
+    "displayName": "sail-judge Observatory",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-22T23:28:35.271Z",
+    "description": "Publishes SAIL/sail-judge disagreement labels -- see labeler.saito.run",
+    "indexedAt": "2026-07-23T00:03:19.265Z"
+  },
+  "indexedAt": "2026-07-22T23:49:45.072Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "length-collapse",
+        "locales": [
+          {
+            "description": "proxy credited success based on reply length alone",
+            "lang": "en",
+            "name": "Length collapse"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "possible-coincidental-overlap",
+        "locales": [
+          {
+            "description": "proxy credited success from one incidental shared word",
+            "lang": "en",
+            "name": "Possible coincidental overlap"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "reflexive-repetition",
+        "locales": [
+          {
+            "description": "proxy credited success from echoing the fired text",
+            "lang": "en",
+            "name": "Reflexive repetition"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "genuine-ambiguous",
+        "locales": [
+          {
+            "description": "judge's own reasoning signals real unclarity",
+            "lang": "en",
+            "name": "Genuinely ambiguous"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "topic-deflection",
+        "locales": [
+          {
+            "description": "proxy credited a substantive reply that judge says answers a different question than the one fired",
+            "lang": "en",
+            "name": "Topic deflection"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "uncategorized",
+        "locales": [
+          {
+            "description": "a real judge/proxy disagreement that matches none of the named mechanism rules, not a classifier failure",
+            "lang": "en",
+            "name": "Uncategorized"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "length-collapse",
+      "possible-coincidental-overlap",
+      "reflexive-repetition",
+      "genuine-ambiguous",
+      "topic-deflection",
+      "uncategorized"
+    ]
+  }
+}

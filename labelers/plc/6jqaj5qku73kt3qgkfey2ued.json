@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:6jqaj5qku73kt3qgkfey2ued/app.bsky.labeler.service/self",
+  "cid": "bafyreifcft646lmi45txfcl6oadutoes5j2rczkbmglgzpcj6tpod7t4qq",
+  "creator": {
+    "did": "did:plc:6jqaj5qku73kt3qgkfey2ued",
+    "handle": "veratify.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6jqaj5qku73kt3qgkfey2ued/bafkreido64xsnr6epct2ofeqshb3ydzsqq6brj2cosfes46dx3hlqpbpsq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-20T18:32:29.866Z",
+    "indexedAt": "2026-07-20T18:33:39.768Z"
+  },
+  "indexedAt": "2026-07-22T19:12:50.267Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "likely-false",
+        "locales": [
+          {
+            "description": "Veratify checked this claim against independent sources and found it contradicted.",
+            "lang": "en",
+            "name": "Likely False"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "needs-context",
+        "locales": [
+          {
+            "description": "Veratify found this claim is partially true but missing important context, or that reliable sources disagree.",
+            "lang": "en",
+            "name": "Needs Context"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "likely-false",
+      "needs-context"
+    ]
+  }
+}
