@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:hgxdb52zedcotcvqstj6eob4/app.bsky.labeler.service/self",
-  "cid": "bafyreih7agclqrk4nszau7g6bmbn7dzl752pqzd6jkncqcf7qsmds6olpm",
+  "cid": "bafyreifbdg7jqwbjurxnldpjw2n7ts6qtvjpiays3n3hz5jvst37sqfd7i",
   "creator": {
     "did": "did:plc:hgxdb52zedcotcvqstj6eob4",
-    "handle": "labeler.colibri.social",
+    "handle": "handle.invalid",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -12,7 +12,7 @@
     },
     "labels": []
   },
-  "indexedAt": "2026-07-21T14:30:48.667Z",
+  "indexedAt": "2026-07-23T20:56:14.171Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -43,11 +43,56 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "backer-five",
+        "locales": [
+          {
+            "description": "Backs Colibri with a $5 monthly donation",
+            "lang": "en",
+            "name": "$5 Backer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "sponsor-twenty-five",
+        "locales": [
+          {
+            "description": "Sponsors Colibri with a $25 monthly donation",
+            "lang": "en",
+            "name": "$25 Sponsor"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "donator",
+        "locales": [
+          {
+            "description": "Made a donation to support Colibri",
+            "lang": "en",
+            "name": "Donator"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "team",
-      "play-store-tester"
+      "play-store-tester",
+      "backer-five",
+      "sponsor-twenty-five",
+      "donator"
     ]
   }
 }
