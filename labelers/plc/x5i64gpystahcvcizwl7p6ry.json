@@ -1,9 +1,9 @@
 {
   "uri": "at://did:plc:x5i64gpystahcvcizwl7p6ry/app.bsky.labeler.service/self",
-  "cid": "bafyreibcirbhoujbi4vx4wb5jhxvyclt6yt3adzdb3vdidwqx7g4wksjpi",
+  "cid": "bafyreic753odjhg4efs2tot5oyidlxnnxwkgysmh4lcnabxhq2cczsglgy",
   "creator": {
     "did": "did:plc:x5i64gpystahcvcizwl7p6ry",
-    "handle": "mpi-labeller.mpi-bluesky-pds.mpi-sws.org",
+    "handle": "handle.invalid",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -12,42 +12,14 @@
     },
     "labels": []
   },
-  "indexedAt": "2025-09-09T12:24:18.306Z",
+  "indexedAt": "2026-07-24T10:05:20.566Z",
   "labels": [],
   "policies": {
-    "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "intolerant",
-        "locales": [
-          {
-            "description": "Discrimination and extremist language against protected groups",
-            "lang": "en",
-            "name": "Intolerant"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "rude",
-        "locales": [
-          {
-            "description": "Rude speech",
-            "lang": "en",
-            "name": "Rude"
-          }
-        ],
-        "severity": "alert"
-      }
-    ],
+    "labelValueDefinitions": [],
     "labelValues": [
       "intolerant",
-      "rude"
+      "rude",
+      "soumilabel"
     ]
   }
 }

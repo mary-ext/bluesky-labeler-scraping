@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:iewpoc3kqru4rgqpkojfixhx/app.bsky.labeler.service/self",
+  "cid": "bafyreicglqyt6szvq4mpg2vvpuvl3q2wuo3vj32t3iw2o362gnby5nqmau",
+  "creator": {
+    "did": "did:plc:iewpoc3kqru4rgqpkojfixhx",
+    "handle": "labeler.at.browserid.me",
+    "displayName": "browserid provenance",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-24T20:04:05.779Z",
+    "description": "Labels posts that carry verifiable browserid provenance — cryptographic proof of which identity a post is attributed to and which warranted agent wrote it. Verify any post yourself: https://bsky.browserid.me/verify",
+    "indexedAt": "2026-07-24T20:04:05.779Z"
+  },
+  "indexedAt": "2026-07-24T20:56:29.564Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "browserid-verified",
+        "locales": [
+          {
+            "description": "This post's identity was verified by browserid. For more info, copy a link to the post and paste it at bsky.browserid.me.",
+            "lang": "en",
+            "name": "browserid verified"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "browserid-on-behalf",
+        "locales": [
+          {
+            "description": "A verified agent posted this on behalf of the post's author. For more info, copy a link to the post and paste it at bsky.browserid.me.",
+            "lang": "en",
+            "name": "browserid on behalf of"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "browserid-broken",
+        "locales": [
+          {
+            "description": "This post claims a browserid identity, but verification failed. For more info, copy a link to the post and paste it at bsky.browserid.me.",
+            "lang": "en",
+            "name": "browserid provenance failed"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "browserid-verified",
+      "browserid-on-behalf",
+      "browserid-broken"
+    ]
+  }
+}
