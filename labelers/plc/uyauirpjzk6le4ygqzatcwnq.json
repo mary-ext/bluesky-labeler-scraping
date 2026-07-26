@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiccxbl7dwbiel7hxqd67z74hapu3kxuvvnangf242egpf4ull4zem",
+  "cid": "bafyreidy2mt2htfbz6e272qbyovwfzmgictkmhhxtrxwqyalyy6xikhu4a",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-25T01:08:42.375Z",
+  "indexedAt": "2026-07-25T23:57:53.971Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -403,6 +403,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fan-radial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.radial.fan PDS",
+            "lang": "en",
+            "name": "pds.radial.fan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-qualiaworks-eurosky--pds",
         "locales": [
           {
@@ -423,20 +437,6 @@
             "description": "Account is hosted by the pds.letspds.org PDS",
             "lang": "en",
             "name": "pds.letspds.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "fan-radial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.radial.fan PDS",
-            "lang": "en",
-            "name": "pds.radial.fan"
           }
         ],
         "severity": "inform"
@@ -571,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-riyo-pds",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.riyo.net PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "pds.riyo.net"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -585,12 +585,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "net-riyo-pds",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the pds.riyo.net PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "pds.riyo.net"
           }
         ],
         "severity": "inform"
@@ -627,12 +627,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-forum--hietzing",
+        "identifier": "com-dinakernel-test--pds",
         "locales": [
           {
-            "description": "Account is hosted by the forum-hietzing.at PDS",
+            "description": "Account is hosted by the test-pds.dinakernel.com PDS",
             "lang": "en",
-            "name": "forum-hietzing.at"
+            "name": "test-pds.dinakernel.com"
           }
         ],
         "severity": "inform"
@@ -641,12 +641,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-dinakernel-test--pds",
+        "identifier": "at-forum--hietzing",
         "locales": [
           {
-            "description": "Account is hosted by the test-pds.dinakernel.com PDS",
+            "description": "Account is hosted by the forum-hietzing.at PDS",
             "lang": "en",
-            "name": "test-pds.dinakernel.com"
+            "name": "forum-hietzing.at"
           }
         ],
         "severity": "inform"
@@ -921,20 +921,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-ekamdor-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.ekamdor.social PDS",
-            "lang": "en",
-            "name": "pds.ekamdor.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-stroam",
         "locales": [
           {
@@ -1005,6 +991,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bookhive",
+        "locales": [
+          {
+            "description": "Account is hosted by the bookhive.social PDS",
+            "lang": "en",
+            "name": "bookhive.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-skyphone-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "lang": "en",
+            "name": "pds.skyphone.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "systems-witchcraft-pds",
         "locales": [
           {
@@ -1053,20 +1067,6 @@
             "description": "Account is hosted by the arankwende.com PDS",
             "lang": "en",
             "name": "arankwende.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -1478,9 +1478,9 @@
       "social-selfhosted",
       "xyz-skystack",
       "net-hsuanyuchou-taipei",
+      "fan-radial-pds",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
-      "fan-radial-pds",
       "chat-roomy",
       "network-nobody-node",
       "ai-oathling-pds",
@@ -1490,12 +1490,12 @@
       "social-novum",
       "net-goldentooth-pds",
       "com-nrbrtspvk-bsky",
-      "net-riyo-pds",
       "social-northsky",
+      "net-riyo-pds",
       "to-tor0n",
       "social-npmx",
-      "at-forum--hietzing",
       "com-dinakernel-test--pds",
+      "at-forum--hietzing",
       "at-admat-bsx",
       "me-opnmt-pds",
       "com-mulgez-api",
@@ -1515,17 +1515,17 @@
       "net-chatapt",
       "world-jalsa-u",
       "fun-plcs-pds",
-      "social-ekamdor-pds",
       "social-stroam",
       "io-sslip-181-5-9-5",
       "social-casjay",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
+      "social-bookhive",
+      "social-skyphone-pds",
       "systems-witchcraft-pds",
       "ro-aiia-pds",
       "surf-self",
       "com-arankwende",
-      "social-skyphone-pds",
       "com-skeetcentral",
       "dev-wsocial-pds--dev",
       "info-men--esthe-pds3",

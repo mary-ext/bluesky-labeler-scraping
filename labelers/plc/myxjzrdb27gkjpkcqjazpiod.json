@@ -1,0 +1,42 @@
+{
+  "uri": "at://did:plc:myxjzrdb27gkjpkcqjazpiod/app.bsky.labeler.service/self",
+  "cid": "bafyreiabmhen7ysfkwf6hqqpqor566oiaqpbgzakibebg2bvwlsci24iki",
+  "creator": {
+    "did": "did:plc:myxjzrdb27gkjpkcqjazpiod",
+    "handle": "bb.bsky.natalie.ee",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:myxjzrdb27gkjpkcqjazpiod/bafkreifozhqtowcxcyy7hstg7oysh4bghj7tidt5k6j73k2nyke7ksnrma",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-25T06:02:18.960Z",
+    "indexedAt": "2026-07-25T06:02:26.863Z"
+  },
+  "indexedAt": "2026-07-25T06:09:38.365Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "bridged-account",
+        "locales": [
+          {
+            "description": "Accounts bridged into Bluesky from another network (e.g. the fediverse) rather than native Bluesky accounts. Set this label to Hide to remove their posts from your feeds.",
+            "lang": "en",
+            "name": "Bridged account"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "bridged-account"
+    ]
+  }
+}
