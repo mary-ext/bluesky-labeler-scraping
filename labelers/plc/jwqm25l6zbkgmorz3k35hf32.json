@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreibbyzcjtlbt73liofnfilk3ae5as245duajaamsrf66ben7jxrwei",
+  "cid": "bafyreih6knevmhjfu6axs3tfuspvmyreq34fpaj763l6x3fuuncfwhwaxm",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -35,12 +35,26 @@
     ],
     "createdAt": "2024-06-17T17:11:39.257Z",
     "description": "Just experimenting with labellers 🙃\n\n.\n\n.",
-    "indexedAt": "2026-07-25T02:59:05.260Z"
+    "indexedAt": "2026-07-26T08:05:58.362Z"
   },
-  "indexedAt": "2026-07-22T08:16:05.877Z",
+  "indexedAt": "2026-07-26T07:58:37.271Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alt-text-missing",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Alt Text Missing Test"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -85,7 +99,7 @@
       }
     ],
     "labelValues": [
-      "porn",
+      "alt-text-missing",
       "alt-text-misuse",
       "badge",
       "test"

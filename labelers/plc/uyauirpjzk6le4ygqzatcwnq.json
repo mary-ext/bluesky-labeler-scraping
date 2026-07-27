@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidy2mt2htfbz6e272qbyovwfzmgictkmhhxtrxwqyalyy6xikhu4a",
+  "cid": "bafyreibcredqaoxolobu5se5zc2k2akoufhu6zjzcj5m4r6ayavcuqwgnm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-25T23:57:53.971Z",
+  "indexedAt": "2026-07-26T23:22:17.077Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -375,6 +375,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fan-radial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.radial.fan PDS",
+            "lang": "en",
+            "name": "pds.radial.fan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "xyz-skystack",
         "locales": [
           {
@@ -395,20 +409,6 @@
             "description": "Account is hosted by the taipei.hsuanyuchou.net PDS",
             "lang": "en",
             "name": "taipei.hsuanyuchou.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "fan-radial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.radial.fan PDS",
-            "lang": "en",
-            "name": "pds.radial.fan"
           }
         ],
         "severity": "inform"
@@ -795,12 +795,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-nihilist",
+        "identifier": "social-pwkl-us1-dev",
         "locales": [
           {
-            "description": "Account is hosted by the nihilist.cloud PDS",
+            "description": "Account is hosted by the dev.us1.pwkl.social PDS",
             "lang": "en",
-            "name": "nihilist.cloud"
+            "name": "dev.us1.pwkl.social"
           }
         ],
         "severity": "inform"
@@ -809,12 +809,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-pwkl-us1-dev",
+        "identifier": "cloud-nihilist",
         "locales": [
           {
-            "description": "Account is hosted by the dev.us1.pwkl.social PDS",
+            "description": "Account is hosted by the nihilist.cloud PDS",
             "lang": "en",
-            "name": "dev.us1.pwkl.social"
+            "name": "nihilist.cloud"
           }
         ],
         "severity": "inform"
@@ -879,12 +879,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-chatapt",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the chatapt.net PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "chatapt.net"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -893,12 +893,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "net-chatapt",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the chatapt.net PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "chatapt.net"
           }
         ],
         "severity": "inform"
@@ -963,6 +963,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-skyphone-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "lang": "en",
+            "name": "pds.skyphone.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -983,34 +997,6 @@
             "description": "Account is hosted by the matrix.usapolitics.news PDS",
             "lang": "en",
             "name": "matrix.usapolitics.news"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bookhive",
-        "locales": [
-          {
-            "description": "Account is hosted by the bookhive.social PDS",
-            "lang": "en",
-            "name": "bookhive.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -1145,12 +1131,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--stage",
+        "identifier": "cafe-margin",
         "locales": [
           {
-            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
+            "description": "Account is hosted by the margin.cafe PDS",
             "lang": "en",
-            "name": "pds-stage.wsocial.dev"
+            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -1159,12 +1145,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-margin",
+        "identifier": "dev-wsocial-pds--stage",
         "locales": [
           {
-            "description": "Account is hosted by the margin.cafe PDS",
+            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
             "lang": "en",
-            "name": "margin.cafe"
+            "name": "pds-stage.wsocial.dev"
           }
         ],
         "severity": "inform"
@@ -1439,6 +1425,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-atchan",
+        "locales": [
+          {
+            "description": "Account is hosted by the atchan.net PDS",
+            "lang": "en",
+            "name": "atchan.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-missaamane",
         "locales": [
           {
@@ -1476,9 +1476,9 @@
       "dev-ridgeway-pds",
       "net-wafrn-app-at",
       "social-selfhosted",
+      "fan-radial-pds",
       "xyz-skystack",
       "net-hsuanyuchou-taipei",
-      "fan-radial-pds",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "chat-roomy",
@@ -1506,22 +1506,21 @@
       "social-pwkl-eu1-dev",
       "bot-mirrors",
       "social-fluester-pds",
-      "cloud-nihilist",
       "social-pwkl-us1-dev",
+      "cloud-nihilist",
       "social-fazen",
       "space-cannect",
       "cloud-hstgr-srv865737",
       "fail-marta",
-      "net-chatapt",
       "world-jalsa-u",
+      "net-chatapt",
       "fun-plcs-pds",
       "social-stroam",
       "io-sslip-181-5-9-5",
       "social-casjay",
+      "social-skyphone-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "social-bookhive",
-      "social-skyphone-pds",
       "systems-witchcraft-pds",
       "ro-aiia-pds",
       "surf-self",
@@ -1531,8 +1530,8 @@
       "info-men--esthe-pds3",
       "world-si46-pds--dev",
       "ai-swarmchat-pds",
-      "dev-wsocial-pds--stage",
       "cafe-margin",
+      "dev-wsocial-pds--stage",
       "com-ripperoni-alt",
       "su-nyet",
       "ai-bigt-pds",
@@ -1552,6 +1551,7 @@
       "solar-kairos",
       "space-0-pds",
       "network-solidar-pds1--us--west--host",
+      "net-atchan",
       "com-missaamane"
     ]
   }

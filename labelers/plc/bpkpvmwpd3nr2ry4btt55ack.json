@@ -1,0 +1,133 @@
+{
+  "uri": "at://did:plc:bpkpvmwpd3nr2ry4btt55ack/app.bsky.labeler.service/self",
+  "cid": "bafyreigow6ccjjtsxsbq6jd3lzttu6ducieayjkeyph3xrygoprfppezy4",
+  "creator": {
+    "did": "did:plc:bpkpvmwpd3nr2ry4btt55ack",
+    "handle": "aimod.social",
+    "displayName": "AI Imagery Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bpkpvmwpd3nr2ry4btt55ack/bafkreifrdp4xzd5josu3xpk2ryxozj2mjd6qjfm44xo46vsvyww5ogomjm",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2024-03-19T23:05:57.882Z",
+    "description": "Labeler for identifying suspected AI imagery.\n\nAppeals: please send a report. We do not regularly check this account for tags.\n\nVerify the labels on your account, and read our docs:\nhttps://query.aimod.social\n\nArt theft: report to @arttheft.bsky.social",
+    "indexedAt": "2026-07-26T07:30:36.764Z"
+  },
+  "indexedAt": "2026-07-26T07:26:27.374Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-informative",
+        "locales": [
+          {
+            "description": "Includes self-proclaimed or suspected AI imagery, but the post is not the primary source and the image is specifically used in the context of education, examination, or critical evaluation.",
+            "lang": "en",
+            "name": "AI Informative"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-assisted",
+        "locales": [
+          {
+            "description": "This image isn't specifically AI, but we suspect AI was used as part of its creation process. This could mean, for instance, an artist who created a piece by tracing AI.",
+            "lang": "en",
+            "name": "Suspected AI Assisted Imagery"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-modified",
+        "locales": [
+          {
+            "description": "A non-AI image that we suspect was modified by AI, such as by using a neural net based filter. For example, AI upscaling.",
+            "lang": "en",
+            "name": "Suspected AI Modified Imagery"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-avatar-or-banner",
+        "locales": [
+          {
+            "description": "We suspect the user's profile picture or header image uses generated AI imagery, or was modified by AI such as by a neural-net filter.",
+            "lang": "en",
+            "name": "Suspected AI Imagery in Avatar or Banner"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "user-occasional-ai-imagery",
+        "locales": [
+          {
+            "description": "An account that has posted suspected AI imagery more than once, although it is not their primary content. Applied to indicate repeat behaviour rather than a one-off.",
+            "lang": "en",
+            "name": "Occasionally Posts Suspected AI"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "user-frequent-ai-imagery",
+        "locales": [
+          {
+            "description": "An account we believe to be AI image focused, or that posts suspected AI imagery frequently or in large amounts.",
+            "lang": "en",
+            "name": "Frequently Posts Suspected AI"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "ai-imagery",
+        "locales": [
+          {
+            "description": "An image or video that we suspect to be AI generated, or to contain AI generated imagery - such as a screenshot of a news article with an AI image inset, or a drawn picture with an AI background.",
+            "lang": "en",
+            "name": "Suspected AI Imagery"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "ai-informative",
+      "ai-assisted",
+      "ai-modified",
+      "ai-avatar-or-banner",
+      "user-occasional-ai-imagery",
+      "user-frequent-ai-imagery",
+      "ai-imagery"
+    ]
+  }
+}
