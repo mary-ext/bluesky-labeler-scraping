@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibcredqaoxolobu5se5zc2k2akoufhu6zjzcj5m4r6ayavcuqwgnm",
+  "cid": "bafyreieaeu2iizmah7maqbedbamfkuksdb4n5ptvhfztvx3ams5kstpkdm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-26T23:22:17.077Z",
+  "indexedAt": "2026-07-27T23:25:02.068Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -515,6 +515,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-northsky",
+        "locales": [
+          {
+            "description": "Account is hosted by the northsky.social PDS",
+            "lang": "en",
+            "name": "northsky.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "at-nightbo-pds",
         "locales": [
           {
@@ -563,20 +577,6 @@
             "description": "Account is hosted by the bsky.nrbrtspvk.com PDS",
             "lang": "en",
             "name": "bsky.nrbrtspvk.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-northsky",
-        "locales": [
-          {
-            "description": "Account is hosted by the northsky.social PDS",
-            "lang": "en",
-            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -837,6 +837,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "world-jalsa-u",
+        "locales": [
+          {
+            "description": "Account is hosted by the u.jalsa.world PDS",
+            "lang": "en",
+            "name": "u.jalsa.world"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "space-cannect",
         "locales": [
           {
@@ -871,20 +885,6 @@
             "description": "Account is hosted by the marta.fail PDS",
             "lang": "en",
             "name": "marta.fail"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
-        "locales": [
-          {
-            "description": "Account is hosted by the u.jalsa.world PDS",
-            "lang": "en",
-            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -1117,20 +1117,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
-            "lang": "en",
-            "name": "pds.swarmchat.ai"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cafe-margin",
         "locales": [
           {
@@ -1151,6 +1137,20 @@
             "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
             "lang": "en",
             "name": "pds-stage.wsocial.dev"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai-swarmchat-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "lang": "en",
+            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -1369,12 +1369,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-endchill-pds",
+        "identifier": "solar-kairos",
         "locales": [
           {
-            "description": "Account is hosted by the pds.endchill.xyz PDS",
+            "description": "Account is hosted by the kairos.solar PDS",
             "lang": "en",
-            "name": "pds.endchill.xyz"
+            "name": "kairos.solar"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "solar-kairos",
+        "identifier": "xyz-endchill-pds",
         "locales": [
           {
-            "description": "Account is hosted by the kairos.solar PDS",
+            "description": "Account is hosted by the pds.endchill.xyz PDS",
             "lang": "en",
-            "name": "kairos.solar"
+            "name": "pds.endchill.xyz"
           }
         ],
         "severity": "inform"
@@ -1486,11 +1486,11 @@
       "ai-oathling-pds",
       "homes-si46",
       "network-eny-pds-oyster",
+      "social-northsky",
       "at-nightbo-pds",
       "social-novum",
       "net-goldentooth-pds",
       "com-nrbrtspvk-bsky",
-      "social-northsky",
       "net-riyo-pds",
       "to-tor0n",
       "social-npmx",
@@ -1509,10 +1509,10 @@
       "social-pwkl-us1-dev",
       "cloud-nihilist",
       "social-fazen",
+      "world-jalsa-u",
       "space-cannect",
       "cloud-hstgr-srv865737",
       "fail-marta",
-      "world-jalsa-u",
       "net-chatapt",
       "fun-plcs-pds",
       "social-stroam",
@@ -1529,9 +1529,9 @@
       "dev-wsocial-pds--dev",
       "info-men--esthe-pds3",
       "world-si46-pds--dev",
-      "ai-swarmchat-pds",
       "cafe-margin",
       "dev-wsocial-pds--stage",
+      "ai-swarmchat-pds",
       "com-ripperoni-alt",
       "su-nyet",
       "ai-bigt-pds",
@@ -1547,8 +1547,8 @@
       "tech-transparencia-pds",
       "app-fudini-pds",
       "chat-wolp-bark-bsky",
-      "xyz-endchill-pds",
       "solar-kairos",
+      "xyz-endchill-pds",
       "space-0-pds",
       "network-solidar-pds1--us--west--host",
       "net-atchan",
