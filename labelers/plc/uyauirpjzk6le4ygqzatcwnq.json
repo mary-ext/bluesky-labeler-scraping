@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreieaeu2iizmah7maqbedbamfkuksdb4n5ptvhfztvx3ams5kstpkdm",
+  "cid": "bafyreiep5kyriytgu4sur326i5shyd2xwdw7qg2mgkgpo5qwj4x6z4tm6m",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-27T23:25:02.068Z",
+  "indexedAt": "2026-07-28T23:58:44.076Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -613,6 +613,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-ekamdor-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.ekamdor.social PDS",
+            "lang": "en",
+            "name": "pds.ekamdor.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-npmx",
         "locales": [
           {
@@ -655,12 +669,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-admat-bsx",
+        "identifier": "me-opnmt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsx.admat.at PDS",
+            "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
-            "name": "bsx.admat.at"
+            "name": "pds.opnmt.me"
           }
         ],
         "severity": "inform"
@@ -669,12 +683,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-opnmt-pds",
+        "identifier": "at-admat-bsx",
         "locales": [
           {
-            "description": "Account is hosted by the pds.opnmt.me PDS",
+            "description": "Account is hosted by the bsx.admat.at PDS",
             "lang": "en",
-            "name": "pds.opnmt.me"
+            "name": "bsx.admat.at"
           }
         ],
         "severity": "inform"
@@ -697,12 +711,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "news-1440-pds",
+        "identifier": "cafe-pckt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.1440.news PDS",
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
-            "name": "pds.1440.news"
+            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -711,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
+        "identifier": "news-1440-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "description": "Account is hosted by the pds.1440.news PDS",
             "lang": "en",
-            "name": "pds.pckt.cafe"
+            "name": "pds.1440.news"
           }
         ],
         "severity": "inform"
@@ -823,12 +837,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-fazen",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the fazen.social PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "fazen.social"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -837,12 +851,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "social-fazen",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the fazen.social PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "fazen.social"
           }
         ],
         "severity": "inform"
@@ -921,6 +935,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-skyphone-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "lang": "en",
+            "name": "pds.skyphone.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-stroam",
         "locales": [
           {
@@ -955,20 +983,6 @@
             "description": "Account is hosted by the casjay.social PDS",
             "lang": "en",
             "name": "casjay.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -1103,12 +1117,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-si46-pds--dev",
+        "identifier": "cafe-margin",
         "locales": [
           {
-            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "description": "Account is hosted by the margin.cafe PDS",
             "lang": "en",
-            "name": "pds-dev.si46.world"
+            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -1117,12 +1131,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-margin",
+        "identifier": "world-si46-pds--dev",
         "locales": [
           {
-            "description": "Account is hosted by the margin.cafe PDS",
+            "description": "Account is hosted by the pds-dev.si46.world PDS",
             "lang": "en",
-            "name": "margin.cafe"
+            "name": "pds-dev.si46.world"
           }
         ],
         "severity": "inform"
@@ -1313,6 +1327,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-atchan",
+        "locales": [
+          {
+            "description": "Account is hosted by the atchan.net PDS",
+            "lang": "en",
+            "name": "atchan.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "es-nobitch-bpds",
         "locales": [
           {
@@ -1397,54 +1425,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "site-lasd-ana",
+        "locales": [
+          {
+            "description": "Account is hosted by the ana.lasd.site PDS",
+            "lang": "en",
+            "name": "ana.lasd.site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "space-0-pds",
         "locales": [
           {
             "description": "Account is hosted by the pds.0.space PDS",
             "lang": "en",
             "name": "pds.0.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-solidar-pds1--us--west--host",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds1-us-west-host.solidar.network PDS",
-            "lang": "en",
-            "name": "pds1-us-west-host.solidar.network"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "net-atchan",
-        "locales": [
-          {
-            "description": "Account is hosted by the atchan.net PDS",
-            "lang": "en",
-            "name": "atchan.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-missaamane",
-        "locales": [
-          {
-            "description": "Account is hosted by the missaamane.com PDS",
-            "lang": "en",
-            "name": "missaamane.com"
           }
         ],
         "severity": "inform"
@@ -1493,14 +1493,15 @@
       "com-nrbrtspvk-bsky",
       "net-riyo-pds",
       "to-tor0n",
+      "social-ekamdor-pds",
       "social-npmx",
       "com-dinakernel-test--pds",
       "at-forum--hietzing",
-      "at-admat-bsx",
       "me-opnmt-pds",
+      "at-admat-bsx",
       "com-mulgez-api",
-      "news-1440-pds",
       "cafe-pckt-pds",
+      "news-1440-pds",
       "space-cannect-pds",
       "pw-blam",
       "social-pwkl-eu1-dev",
@@ -1508,17 +1509,17 @@
       "social-fluester-pds",
       "social-pwkl-us1-dev",
       "cloud-nihilist",
-      "social-fazen",
       "world-jalsa-u",
+      "social-fazen",
       "space-cannect",
       "cloud-hstgr-srv865737",
       "fail-marta",
       "net-chatapt",
       "fun-plcs-pds",
+      "social-skyphone-pds",
       "social-stroam",
       "io-sslip-181-5-9-5",
       "social-casjay",
-      "social-skyphone-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "systems-witchcraft-pds",
@@ -1528,8 +1529,8 @@
       "com-skeetcentral",
       "dev-wsocial-pds--dev",
       "info-men--esthe-pds3",
-      "world-si46-pds--dev",
       "cafe-margin",
+      "world-si46-pds--dev",
       "dev-wsocial-pds--stage",
       "ai-swarmchat-pds",
       "com-ripperoni-alt",
@@ -1543,16 +1544,15 @@
       "online-magallan",
       "social-seabikes",
       "social-gumby",
+      "net-atchan",
       "es-nobitch-bpds",
       "tech-transparencia-pds",
       "app-fudini-pds",
       "chat-wolp-bark-bsky",
       "solar-kairos",
       "xyz-endchill-pds",
-      "space-0-pds",
-      "network-solidar-pds1--us--west--host",
-      "net-atchan",
-      "com-missaamane"
+      "site-lasd-ana",
+      "space-0-pds"
     ]
   }
 }

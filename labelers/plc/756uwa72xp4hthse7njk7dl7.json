@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:756uwa72xp4hthse7njk7dl7/app.bsky.labeler.service/self",
+  "cid": "bafyreifxv357jukpvaesfatsdjdkefcyg3acw3trktgvsihrgh6hqsfofy",
+  "creator": {
+    "did": "did:plc:756uwa72xp4hthse7njk7dl7",
+    "handle": "fussball-labeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:756uwa72xp4hthse7njk7dl7/bafkreicwhhhvsxlcgmffq6xxb7chdpqkunnx2wybzea5qboxqzcuoecxbe",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-07-28T13:38:26.262Z",
+    "indexedAt": "2026-07-28T13:38:46.966Z"
+  },
+  "indexedAt": "2026-07-28T20:01:54.669Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "fussball-begegnung",
+        "locales": [
+          {
+            "description": "Dieser Post enthält ein Spiel-Hashtag aus zwei Vereinskürzeln für eine zeitnah angesetzte Fußballbegegnung.",
+            "lang": "de",
+            "name": "Fußball-Begegnung"
+          },
+          {
+            "description": "This post contains a match hashtag made from two club codes for a scheduled football match.",
+            "lang": "en",
+            "name": "Football match"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "fussball-begegnung"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}

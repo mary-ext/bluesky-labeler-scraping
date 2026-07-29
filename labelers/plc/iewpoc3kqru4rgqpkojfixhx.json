@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:iewpoc3kqru4rgqpkojfixhx/app.bsky.labeler.service/self",
-  "cid": "bafyreidlf5oi2e6okmqt77ou7xo4nqiry7owwcaayvpldmif3t5ddaurgq",
+  "cid": "bafyreickb32e3etsmr6kagrsksjlptxl4b7cgnyxqxptchzhp375p4kebu",
   "creator": {
     "did": "did:plc:iewpoc3kqru4rgqpkojfixhx",
     "handle": "labeler.at.browserid.me",
@@ -16,7 +16,7 @@
     "description": "Labels posts that carry verifiable browserid provenance — cryptographic proof of which identity a post is attributed to and which warranted agent wrote it. Verify any post yourself: https://bsky.browserid.me/verify",
     "indexedAt": "2026-07-24T20:04:05.779Z"
   },
-  "indexedAt": "2026-07-26T10:23:35.475Z",
+  "indexedAt": "2026-07-28T19:55:18.980Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -201,6 +201,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "by-agent-55c4fd5c",
+        "locales": [
+          {
+            "description": "Posted by danmills+claude@sandmill.org on behalf of danmills.bsky.social, the owner of this handle.\nFor more information, copy the link to this post and paste it at bsky.browserid.me",
+            "lang": "en",
+            "name": "by agent"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -216,7 +230,8 @@
       "by-agent-1ca46780",
       "by-agent-ea7898db",
       "by-agent-5bc2d3d7",
-      "by-agent-5bfdcb0b"
+      "by-agent-5bfdcb0b",
+      "by-agent-55c4fd5c"
     ]
   }
 }
