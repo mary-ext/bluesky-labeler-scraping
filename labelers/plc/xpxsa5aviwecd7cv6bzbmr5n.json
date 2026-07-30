@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreien5jf75sdkujn2r454274ozzqpzxa5acsvxwm75k5xayzg35efzu",
+  "cid": "bafyreiesl73b3ielulnfw7dwkfaxdmkyooxvhgqw2hccmhpnc76t5ljka4",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-07-23T02:18:08.302Z",
+  "indexedAt": "2026-07-29T16:54:01.493Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -7009,6 +7009,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "carderne-signal-export",
+        "locales": [
+          {
+            "description": "Export your Signal chats to markdown files with attachments\nhttps://github.com/carderne/signal-export",
+            "lang": "en",
+            "name": "carderne/signal-export"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7510,7 +7524,8 @@
       "wilfred-difftastic",
       "rahilp-second-brain-cli",
       "siterelenby-git-leash",
-      "sheaf-project-sheaf"
+      "sheaf-project-sheaf",
+      "carderne-signal-export"
     ]
   }
 }

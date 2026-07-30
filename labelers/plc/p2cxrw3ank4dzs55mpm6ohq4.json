@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreicdjkxmwycwp3ffsufy4nxrdcbzqaxxirak44wwcso6st32lqxcpm",
+  "cid": "bafyreia44w5n2xwgcxlvpecmjsblewyy6i3wtmf67o7nywr4wnkhj5cmu4",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
     "handle": "moderation.northsky.social",
@@ -20,7 +20,7 @@
     "description": "🌌Moderation layer offered by Northsky Social🌌\n💚Staffed by a team of volunteer moderators💜\n⚖️Appeal in-app or via https://tally.so/r/b5KZe7\n🫰Support our efforts here: https://northskysocial.com/profile/products",
     "indexedAt": "2026-05-27T02:13:16.474Z"
   },
-  "indexedAt": "2026-06-16T09:12:24.668Z",
+  "indexedAt": "2026-07-29T22:19:17.366Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -376,20 +376,6 @@
       },
       {
         "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "self-harm",
-        "locales": [
-          {
-            "description": "Content or behavior that demonstrates or promotes self-harm.",
-            "lang": "en",
-            "name": "Self-Harm"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "hide",
         "identifier": "impersonation",
@@ -485,7 +471,6 @@
       "nsfw-doesnt-tag",
       "animal-abuse",
       "doxing",
-      "self-harm",
       "impersonation",
       "parody",
       "graphic-media",
@@ -494,11 +479,21 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonMisleading",
-    "com.atproto.moderation.defs#reasonRude",
-    "com.atproto.moderation.defs#reasonViolation",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal"
+    "tools.ozone.report.defs#reasonAppeal",
+    "tools.ozone.report.defs#reasonViolenceGraphicContent",
+    "tools.ozone.report.defs#reasonSexualAnimal",
+    "tools.ozone.report.defs#reasonSexualUnlabeled",
+    "tools.ozone.report.defs#reasonChildSafetyCSAM",
+    "tools.ozone.report.defs#reasonChildSafetyGroom",
+    "tools.ozone.report.defs#reasonChildSafetyPrivacy",
+    "tools.ozone.report.defs#reasonChildSafetyHarassment",
+    "tools.ozone.report.defs#reasonChildSafetyOther",
+    "tools.ozone.report.defs#reasonHarassmentTroll",
+    "tools.ozone.report.defs#reasonHarassmentTargeted",
+    "tools.ozone.report.defs#reasonHarassmentHateSpeech",
+    "tools.ozone.report.defs#reasonHarassmentDoxxing",
+    "tools.ozone.report.defs#reasonHarassmentOther",
+    "tools.ozone.report.defs#reasonMisleadingImpersonation"
   ],
   "subjectTypes": [
     "account",

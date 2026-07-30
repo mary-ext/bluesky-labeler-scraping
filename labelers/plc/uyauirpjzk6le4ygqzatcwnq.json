@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiep5kyriytgu4sur326i5shyd2xwdw7qg2mgkgpo5qwj4x6z4tm6m",
+  "cid": "bafyreiabbc5uqmxauwvez3b4he2szhz63tn3ja66ixycg4onesjkri2nfa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-07-28T23:58:44.076Z",
+  "indexedAt": "2026-07-30T00:19:57.873Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -305,12 +305,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "live-shxre",
+        "identifier": "so-sprk-pds",
         "locales": [
           {
-            "description": "Account is hosted by the shxre.live PDS",
+            "description": "Account is hosted by the pds.sprk.so PDS",
             "lang": "en",
-            "name": "shxre.live"
+            "name": "pds.sprk.so"
           }
         ],
         "severity": "inform"
@@ -319,12 +319,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "so-sprk-pds",
+        "identifier": "live-shxre",
         "locales": [
           {
-            "description": "Account is hosted by the pds.sprk.so PDS",
+            "description": "Account is hosted by the shxre.live PDS",
             "lang": "en",
-            "name": "pds.sprk.so"
+            "name": "shxre.live"
           }
         ],
         "severity": "inform"
@@ -361,12 +361,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "fan-radial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the pds.radial.fan PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "pds.radial.fan"
           }
         ],
         "severity": "inform"
@@ -375,12 +375,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fan-radial-pds",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the pds.radial.fan PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "pds.radial.fan"
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -409,6 +409,20 @@
             "description": "Account is hosted by the taipei.hsuanyuchou.net PDS",
             "lang": "en",
             "name": "taipei.hsuanyuchou.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-ekamdor-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.ekamdor.social PDS",
+            "lang": "en",
+            "name": "pds.ekamdor.social"
           }
         ],
         "severity": "inform"
@@ -605,20 +619,6 @@
             "description": "Account is hosted by the tor0n.to PDS",
             "lang": "en",
             "name": "tor0n.to"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-ekamdor-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.ekamdor.social PDS",
-            "lang": "en",
-            "name": "pds.ekamdor.social"
           }
         ],
         "severity": "inform"
@@ -991,6 +991,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bookhive",
+        "locales": [
+          {
+            "description": "Account is hosted by the bookhive.social PDS",
+            "lang": "en",
+            "name": "bookhive.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -1271,6 +1285,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-atchan",
+        "locales": [
+          {
+            "description": "Account is hosted by the atchan.net PDS",
+            "lang": "en",
+            "name": "atchan.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "dev-fly-crimson--field--2410",
         "locales": [
           {
@@ -1313,12 +1341,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-gumby",
+        "identifier": "site-lasd-ana",
         "locales": [
           {
-            "description": "Account is hosted by the gumby.social PDS",
+            "description": "Account is hosted by the ana.lasd.site PDS",
             "lang": "en",
-            "name": "gumby.social"
+            "name": "ana.lasd.site"
           }
         ],
         "severity": "inform"
@@ -1327,12 +1355,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-atchan",
+        "identifier": "social-gumby",
         "locales": [
           {
-            "description": "Account is hosted by the atchan.net PDS",
+            "description": "Account is hosted by the gumby.social PDS",
             "lang": "en",
-            "name": "atchan.net"
+            "name": "gumby.social"
           }
         ],
         "severity": "inform"
@@ -1411,40 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-endchill-pds",
+        "identifier": "network-wisy-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.endchill.xyz PDS",
+            "description": "Account is hosted by the pds.wisy.network PDS",
             "lang": "en",
-            "name": "pds.endchill.xyz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "site-lasd-ana",
-        "locales": [
-          {
-            "description": "Account is hosted by the ana.lasd.site PDS",
-            "lang": "en",
-            "name": "ana.lasd.site"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "space-0-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.0.space PDS",
-            "lang": "en",
-            "name": "pds.0.space"
+            "name": "pds.wisy.network"
           }
         ],
         "severity": "inform"
@@ -1471,14 +1471,15 @@
       "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
       "io-tdpl",
-      "live-shxre",
       "so-sprk-pds",
+      "live-shxre",
       "dev-ridgeway-pds",
       "net-wafrn-app-at",
-      "social-selfhosted",
       "fan-radial-pds",
+      "social-selfhosted",
       "xyz-skystack",
       "net-hsuanyuchou-taipei",
+      "social-ekamdor-pds",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "chat-roomy",
@@ -1493,7 +1494,6 @@
       "com-nrbrtspvk-bsky",
       "net-riyo-pds",
       "to-tor0n",
-      "social-ekamdor-pds",
       "social-npmx",
       "com-dinakernel-test--pds",
       "at-forum--hietzing",
@@ -1520,6 +1520,7 @@
       "social-stroam",
       "io-sslip-181-5-9-5",
       "social-casjay",
+      "social-bookhive",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "systems-witchcraft-pds",
@@ -1540,19 +1541,18 @@
       "org-climateai",
       "xyz-syang-pds",
       "net-socialsandbox3",
+      "net-atchan",
       "dev-fly-crimson--field--2410",
       "online-magallan",
       "social-seabikes",
+      "site-lasd-ana",
       "social-gumby",
-      "net-atchan",
       "es-nobitch-bpds",
       "tech-transparencia-pds",
       "app-fudini-pds",
       "chat-wolp-bark-bsky",
       "solar-kairos",
-      "xyz-endchill-pds",
-      "site-lasd-ana",
-      "space-0-pds"
+      "network-wisy-pds"
     ]
   }
 }
