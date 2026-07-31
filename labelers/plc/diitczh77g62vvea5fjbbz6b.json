@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:diitczh77g62vvea5fjbbz6b/app.bsky.labeler.service/self",
-  "cid": "bafyreiblfghusijjvjvevye6plvv22556qonus2vsl5prmdoncyjrtzdiq",
+  "cid": "bafyreigbq767eiizlf3cjrmfqvcb5qhyhnzmmrap5xfrqbtttrlclnqkne",
   "creator": {
     "did": "did:plc:diitczh77g62vvea5fjbbz6b",
     "handle": "nyt-labeler-dev.bsky.social",
@@ -17,7 +17,7 @@
     "description": "This labeler will add annotations to any skeet that contains a link to a NY Times article. It will add what section of the paper it is from and sometimes also the author, so you can tell if you are about to click into a hellscape before you do it.",
     "indexedAt": "2026-07-12T16:10:44.375Z"
   },
-  "indexedAt": "2026-07-29T07:02:15.384Z",
+  "indexedAt": "2026-07-30T07:02:35.278Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1142,19 +1142,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "julian-e-barnes",
-        "locales": [
-          {
-            "description": "Articles authored by Julian E. Barnes for The New York Times",
-            "lang": "en",
-            "name": "Julian E. Barnes"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "farnaz-fassihi",
         "locales": [
           {
@@ -1168,12 +1155,25 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "nick-corasaniti",
+        "identifier": "julian-e-barnes",
         "locales": [
           {
-            "description": "Articles authored by Nick Corasaniti for The New York Times",
+            "description": "Articles authored by Julian E. Barnes for The New York Times",
             "lang": "en",
-            "name": "Nick Corasaniti"
+            "name": "Julian E. Barnes"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "alan-feuer",
+        "locales": [
+          {
+            "description": "Articles authored by Alan Feuer for The New York Times",
+            "lang": "en",
+            "name": "Alan Feuer"
           }
         ],
         "severity": "inform"
@@ -1194,12 +1194,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "alan-feuer",
+        "identifier": "nick-corasaniti",
         "locales": [
           {
-            "description": "Articles authored by Alan Feuer for The New York Times",
+            "description": "Articles authored by Nick Corasaniti for The New York Times",
             "lang": "en",
-            "name": "Alan Feuer"
+            "name": "Nick Corasaniti"
           }
         ],
         "severity": "inform"
@@ -1285,12 +1285,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "erica-l-green",
+        "identifier": "devlin-barrett",
         "locales": [
           {
-            "description": "Articles authored by Erica L. Green for The New York Times",
+            "description": "Articles authored by Devlin Barrett for The New York Times",
             "lang": "en",
-            "name": "Erica L. Green"
+            "name": "Devlin Barrett"
           }
         ],
         "severity": "inform"
@@ -1298,12 +1298,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "devlin-barrett",
+        "identifier": "erica-l-green",
         "locales": [
           {
-            "description": "Articles authored by Devlin Barrett for The New York Times",
+            "description": "Articles authored by Erica L. Green for The New York Times",
             "lang": "en",
-            "name": "Devlin Barrett"
+            "name": "Erica L. Green"
           }
         ],
         "severity": "inform"
@@ -1330,6 +1330,19 @@
             "description": "Articles authored by Abbie VanSickle for The New York Times",
             "lang": "en",
             "name": "Abbie VanSickle"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mark-walker",
+        "locales": [
+          {
+            "description": "Articles authored by Mark Walker for The New York Times",
+            "lang": "en",
+            "name": "Mark Walker"
           }
         ],
         "severity": "inform"
@@ -1376,12 +1389,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "mark-walker",
+        "identifier": "michael-gold",
         "locales": [
           {
-            "description": "Articles authored by Mark Walker for The New York Times",
+            "description": "Articles authored by Michael Gold for The New York Times",
             "lang": "en",
-            "name": "Mark Walker"
+            "name": "Michael Gold"
           }
         ],
         "severity": "inform"
@@ -1389,12 +1402,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "michael-gold",
+        "identifier": "theodore-schleifer",
         "locales": [
           {
-            "description": "Articles authored by Michael Gold for The New York Times",
+            "description": "Articles authored by Theodore Schleifer for The New York Times",
             "lang": "en",
-            "name": "Michael Gold"
+            "name": "Theodore Schleifer"
           }
         ],
         "severity": "inform"
@@ -1428,6 +1441,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "jenna-russell",
+        "locales": [
+          {
+            "description": "Articles authored by Jenna Russell for The New York Times",
+            "lang": "en",
+            "name": "Jenna Russell"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "katie-glueck",
         "locales": [
           {
@@ -1447,32 +1473,6 @@
             "description": "Articles authored by Kellen Browning for The New York Times",
             "lang": "en",
             "name": "Kellen Browning"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "theodore-schleifer",
-        "locales": [
-          {
-            "description": "Articles authored by Theodore Schleifer for The New York Times",
-            "lang": "en",
-            "name": "Theodore Schleifer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "jenna-russell",
-        "locales": [
-          {
-            "description": "Articles authored by Jenna Russell for The New York Times",
-            "lang": "en",
-            "name": "Jenna Russell"
           }
         ],
         "severity": "inform"
@@ -1545,6 +1545,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "edward-wong",
+        "locales": [
+          {
+            "description": "Articles authored by Edward Wong for The New York Times",
+            "lang": "en",
+            "name": "Edward Wong"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "john-ismay",
         "locales": [
           {
@@ -1584,6 +1597,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "zach-montague",
+        "locales": [
+          {
+            "description": "Articles authored by Zach Montague for The New York Times",
+            "lang": "en",
+            "name": "Zach Montague"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "annie-karni",
         "locales": [
           {
@@ -1610,12 +1636,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "edward-wong",
+        "identifier": "emily-davies",
         "locales": [
           {
-            "description": "Articles authored by Edward Wong for The New York Times",
+            "description": "Articles authored by Emily Davies for The New York Times",
             "lang": "en",
-            "name": "Edward Wong"
+            "name": "Emily Davies"
           }
         ],
         "severity": "inform"
@@ -1623,12 +1649,38 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "zach-montague",
+        "identifier": "glenn-thrush",
         "locales": [
           {
-            "description": "Articles authored by Zach Montague for The New York Times",
+            "description": "Articles authored by Glenn Thrush for The New York Times",
             "lang": "en",
-            "name": "Zach Montague"
+            "name": "Glenn Thrush"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jonah-e-bromwich",
+        "locales": [
+          {
+            "description": "Articles authored by Jonah E. Bromwich for The New York Times",
+            "lang": "en",
+            "name": "Jonah E. Bromwich"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "karoun-demirjian",
+        "locales": [
+          {
+            "description": "Articles authored by Karoun Demirjian for The New York Times",
+            "lang": "en",
+            "name": "Karoun Demirjian"
           }
         ],
         "severity": "inform"
@@ -1688,45 +1740,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "emily-davies",
-        "locales": [
-          {
-            "description": "Articles authored by Emily Davies for The New York Times",
-            "lang": "en",
-            "name": "Emily Davies"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "glenn-thrush",
-        "locales": [
-          {
-            "description": "Articles authored by Glenn Thrush for The New York Times",
-            "lang": "en",
-            "name": "Glenn Thrush"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "jonah-e-bromwich",
-        "locales": [
-          {
-            "description": "Articles authored by Jonah E. Bromwich for The New York Times",
-            "lang": "en",
-            "name": "Jonah E. Bromwich"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "rick-rojas",
         "locales": [
           {
@@ -1766,12 +1779,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "karoun-demirjian",
+        "identifier": "jamelle-bouie",
         "locales": [
           {
-            "description": "Articles authored by Karoun Demirjian for The New York Times",
+            "description": "Articles authored by Jamelle Bouie for The New York Times",
             "lang": "en",
-            "name": "Karoun Demirjian"
+            "name": "Jamelle Bouie"
           }
         ],
         "severity": "inform"
@@ -1844,19 +1857,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "jamelle-bouie",
-        "locales": [
-          {
-            "description": "Articles authored by Jamelle Bouie for The New York Times",
-            "lang": "en",
-            "name": "Jamelle Bouie"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "jazmine-ulloa",
         "locales": [
           {
@@ -1915,6 +1915,32 @@
             "description": "Articles authored by Aruni Soni for The New York Times",
             "lang": "en",
             "name": "Aruni Soni"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "david-wallace-wells",
+        "locales": [
+          {
+            "description": "Articles authored by David Wallace-Wells for The New York Times",
+            "lang": "en",
+            "name": "David Wallace-Wells"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "eduardo-medina",
+        "locales": [
+          {
+            "description": "Articles authored by Eduardo Medina for The New York Times",
+            "lang": "en",
+            "name": "Eduardo Medina"
           }
         ],
         "severity": "inform"
@@ -1987,32 +2013,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "david-wallace-wells",
-        "locales": [
-          {
-            "description": "Articles authored by David Wallace-Wells for The New York Times",
-            "lang": "en",
-            "name": "David Wallace-Wells"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "eduardo-medina",
-        "locales": [
-          {
-            "description": "Articles authored by Eduardo Medina for The New York Times",
-            "lang": "en",
-            "name": "Eduardo Medina"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "eric-lipton",
         "locales": [
           {
@@ -2032,6 +2032,19 @@
             "description": "Articles authored by Greg Jaffe for The New York Times",
             "lang": "en",
             "name": "Greg Jaffe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "helene-cooper",
+        "locales": [
+          {
+            "description": "Articles authored by Helene Cooper for The New York Times",
+            "lang": "en",
+            "name": "Helene Cooper"
           }
         ],
         "severity": "inform"
@@ -2078,6 +2091,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "alan-rappeport",
+        "locales": [
+          {
+            "description": "Articles authored by Alan Rappeport for The New York Times",
+            "lang": "en",
+            "name": "Alan Rappeport"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "emily-cochrane",
         "locales": [
           {
@@ -2097,19 +2123,6 @@
             "description": "Articles authored by Ernesto Londoño for The New York Times",
             "lang": "en",
             "name": "Ernesto Londoño"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "helene-cooper",
-        "locales": [
-          {
-            "description": "Articles authored by Helene Cooper for The New York Times",
-            "lang": "en",
-            "name": "Helene Cooper"
           }
         ],
         "severity": "inform"
@@ -2169,12 +2182,51 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "alan-rappeport",
+        "identifier": "sheryl-gay-stolberg",
         "locales": [
           {
-            "description": "Articles authored by Alan Rappeport for The New York Times",
+            "description": "Articles authored by Sheryl Gay Stolberg for The New York Times",
             "lang": "en",
-            "name": "Alan Rappeport"
+            "name": "Sheryl Gay Stolberg"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "benjamin-weiser",
+        "locales": [
+          {
+            "description": "Articles authored by Benjamin Weiser for The New York Times",
+            "lang": "en",
+            "name": "Benjamin Weiser"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jess-bidgood",
+        "locales": [
+          {
+            "description": "Articles authored by Jess Bidgood for The New York Times",
+            "lang": "en",
+            "name": "Jess Bidgood"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jessica-grose",
+        "locales": [
+          {
+            "description": "Articles authored by Jessica Grose for The New York Times",
+            "lang": "en",
+            "name": "Jessica Grose"
           }
         ],
         "severity": "inform"
@@ -2201,6 +2253,19 @@
             "description": "Articles authored by Miriam Jordan for The New York Times",
             "lang": "en",
             "name": "Miriam Jordan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nicholas-kristof",
+        "locales": [
+          {
+            "description": "Articles authored by Nicholas Kristof for The New York Times",
+            "lang": "en",
+            "name": "Nicholas Kristof"
           }
         ],
         "severity": "inform"
@@ -2260,19 +2325,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "benjamin-weiser",
-        "locales": [
-          {
-            "description": "Articles authored by Benjamin Weiser for The New York Times",
-            "lang": "en",
-            "name": "Benjamin Weiser"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "clarence-williams",
         "locales": [
           {
@@ -2299,64 +2351,12 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "jess-bidgood",
-        "locales": [
-          {
-            "description": "Articles authored by Jess Bidgood for The New York Times",
-            "lang": "en",
-            "name": "Jess Bidgood"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "jessica-grose",
-        "locales": [
-          {
-            "description": "Articles authored by Jessica Grose for The New York Times",
-            "lang": "en",
-            "name": "Jessica Grose"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "michelle-cottle",
         "locales": [
           {
             "description": "Articles authored by Michelle Cottle for The New York Times",
             "lang": "en",
             "name": "Michelle Cottle"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "nicholas-kristof",
-        "locales": [
-          {
-            "description": "Articles authored by Nicholas Kristof for The New York Times",
-            "lang": "en",
-            "name": "Nicholas Kristof"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "sheryl-gay-stolberg",
-        "locales": [
-          {
-            "description": "Articles authored by Sheryl Gay Stolberg for The New York Times",
-            "lang": "en",
-            "name": "Sheryl Gay Stolberg"
           }
         ],
         "severity": "inform"
@@ -2689,6 +2689,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "carlos-lozada",
+        "locales": [
+          {
+            "description": "Articles authored by Carlos Lozada for The New York Times",
+            "lang": "en",
+            "name": "Carlos Lozada"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "john-mcwhorter",
         "locales": [
           {
@@ -2754,6 +2767,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "simon-ducroquet",
+        "locales": [
+          {
+            "description": "Articles authored by Simon Ducroquet for The New York Times",
+            "lang": "en",
+            "name": "Simon Ducroquet"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "sophia-alvarez-boyd",
         "locales": [
           {
@@ -2786,19 +2812,6 @@
             "description": "Articles authored by Ashley Wu for The New York Times",
             "lang": "en",
             "name": "Ashley Wu"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "carlos-lozada",
-        "locales": [
-          {
-            "description": "Articles authored by Carlos Lozada for The New York Times",
-            "lang": "en",
-            "name": "Carlos Lozada"
           }
         ],
         "severity": "inform"
@@ -2864,6 +2877,19 @@
             "description": "Articles authored by Jamie Kelter Davis for The New York Times",
             "lang": "en",
             "name": "Jamie Kelter Davis"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "jillian-weinberger",
+        "locales": [
+          {
+            "description": "Articles authored by Jillian Weinberger for The New York Times",
+            "lang": "en",
+            "name": "Jillian Weinberger"
           }
         ],
         "severity": "inform"
@@ -3040,19 +3066,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "jillian-weinberger",
-        "locales": [
-          {
-            "description": "Articles authored by Jillian Weinberger for The New York Times",
-            "lang": "en",
-            "name": "Jillian Weinberger"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "kate-shaw",
         "locales": [
           {
@@ -3131,6 +3144,19 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "minho-kim",
+        "locales": [
+          {
+            "description": "Articles authored by Minho Kim for The New York Times",
+            "lang": "en",
+            "name": "Minho Kim"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "molly-jong-fast",
         "locales": [
           {
@@ -3176,6 +3202,32 @@
             "description": "Articles authored by New York Times Opinion for The New York Times",
             "lang": "en",
             "name": "New York Times Opinion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rachael-bedard",
+        "locales": [
+          {
+            "description": "Articles authored by Rachael Bedard for The New York Times",
+            "lang": "en",
+            "name": "Rachael Bedard"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sharon-waxman",
+        "locales": [
+          {
+            "description": "Articles authored by Sharon Waxman for The New York Times",
+            "lang": "en",
+            "name": "Sharon Waxman"
           }
         ],
         "severity": "inform"
@@ -3508,19 +3560,6 @@
       {
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "minho-kim",
-        "locales": [
-          {
-            "description": "Articles authored by Minho Kim for The New York Times",
-            "lang": "en",
-            "name": "Minho Kim"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "peter-wehner",
         "locales": [
           {
@@ -3605,19 +3644,6 @@
             "description": "Articles authored by Serge Schmemann for The New York Times",
             "lang": "en",
             "name": "Serge Schmemann"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "sharon-waxman",
-        "locales": [
-          {
-            "description": "Articles authored by Sharon Waxman for The New York Times",
-            "lang": "en",
-            "name": "Sharon Waxman"
           }
         ],
         "severity": "inform"
@@ -3723,100 +3749,100 @@
       "tim-balk",
       "niko-gallogly",
       "bayliss-wagner",
-      "julian-e-barnes",
       "farnaz-fassihi",
-      "nick-corasaniti",
-      "ann-e-marimow",
+      "julian-e-barnes",
       "alan-feuer",
+      "ann-e-marimow",
+      "nick-corasaniti",
       "tyler-pager",
       "reid-j-epstein",
       "tariq-panja",
       "dustin-volz",
       "maggie-haberman",
       "robert-jimison",
-      "erica-l-green",
       "devlin-barrett",
+      "erica-l-green",
       "patricia-mazzei",
       "abbie-vansickle",
+      "mark-walker",
       "zolan-kanno-youngs",
       "david-e-sanger",
       "jonathan-swan",
-      "mark-walker",
       "michael-gold",
+      "theodore-schleifer",
       "hamed-aleaziz",
       "jack-healy",
+      "jenna-russell",
       "katie-glueck",
       "kellen-browning",
-      "theodore-schleifer",
-      "jenna-russell",
       "lisa-lerer",
       "maxine-joselow",
       "ross-douthat",
       "benjamin-oreskes",
       "david-french",
+      "edward-wong",
       "john-ismay",
       "luke-broadwater",
       "neil-vigdor",
+      "zach-montague",
       "annie-karni",
       "carl-hulse",
-      "edward-wong",
-      "zach-montague",
+      "emily-davies",
+      "glenn-thrush",
+      "jonah-e-bromwich",
+      "karoun-demirjian",
       "shane-goldmacher",
       "shawn-mccreesh",
       "bret-stephens",
       "david-m-halbfinger",
-      "emily-davies",
-      "glenn-thrush",
-      "jonah-e-bromwich",
       "rick-rojas",
       "soumya-karlamangla",
       "christina-jewett",
-      "karoun-demirjian",
+      "jamelle-bouie",
       "tony-romm",
       "apoorva-mandavilli",
       "catie-edmondson",
       "david-mccabe",
       "frank-bruni",
-      "jamelle-bouie",
       "jazmine-ulloa",
       "jennifer-schuessler",
       "the-editorial-board",
       "aishvarya-kavi",
       "aruni-soni",
+      "david-wallace-wells",
+      "eduardo-medina",
       "ezra-klein",
       "adam-liptak",
       "adam-sella",
       "anna-griffin",
       "campbell-robertson",
-      "david-wallace-wells",
-      "eduardo-medina",
       "eric-lipton",
       "greg-jaffe",
+      "helene-cooper",
       "madeleine-ngo",
       "olivia-diaz",
       "sarah-kliff",
+      "alan-rappeport",
       "emily-cochrane",
       "ernesto-londono",
-      "helene-cooper",
       "katie-rogers",
       "michael-crowley",
       "michelle-goldberg",
       "reis-thebault",
-      "alan-rappeport",
+      "sheryl-gay-stolberg",
+      "benjamin-weiser",
+      "jess-bidgood",
+      "jessica-grose",
       "michael-s-schmidt",
       "miriam-jordan",
+      "nicholas-kristof",
       "peter-baker",
       "stephanie-nolen",
       "william-k-rashbaum",
       "anton-troianovski",
-      "benjamin-weiser",
       "clarence-williams",
       "david-yaffe-bellany",
-      "jess-bidgood",
-      "jessica-grose",
       "michelle-cottle",
-      "nicholas-kristof",
-      "sheryl-gay-stolberg",
       "taylor-robinson",
       "chris-cameron",
       "david-a-fahrenthold",
@@ -3842,20 +3868,22 @@
       "vishakha-darbha",
       "amy-qin",
       "andrew-duehren",
+      "carlos-lozada",
       "john-mcwhorter",
       "michael-c-bender",
       "rollin-hu",
       "ronda-kaysen",
       "sabrina-tavernise",
+      "simon-ducroquet",
       "sophia-alvarez-boyd",
       "annie-galvin",
       "ashley-wu",
-      "carlos-lozada",
       "derek-arthur",
       "eileen-sullivan",
       "e-j-dionne-jr",
       "elizabeth-williamson",
       "jamie-kelter-davis",
+      "jillian-weinberger",
       "kate-kelly",
       "linda-qiu",
       "matt-zdun",
@@ -3869,17 +3897,19 @@
       "jack-mccordick",
       "jamie-leventhal",
       "jeffrey-toobin",
-      "jillian-weinberger",
       "kate-shaw",
       "kate-zernike",
       "kristen-soltis-anderson",
       "mara-gay",
       "matthew-yglesias",
       "megan-k-stack",
+      "minho-kim",
       "molly-jong-fast",
       "nadja-spiegelman",
       "natasha-sarin",
       "new-york-times-opinion",
+      "rachael-bedard",
+      "sharon-waxman",
       "sydney-cromwell",
       "victoria-chamberlin",
       "william-j-broad",
@@ -3905,7 +3935,6 @@
       "massimo-calabresi",
       "m-gessen",
       "michael-kruse",
-      "minho-kim",
       "peter-wehner",
       "robert-siegel",
       "robin-givhan",
@@ -3913,7 +3942,6 @@
       "rochelle-widdowson",
       "rowan-ricardo-phillips",
       "serge-schmemann",
-      "sharon-waxman",
       "tim-schneider"
     ]
   },
