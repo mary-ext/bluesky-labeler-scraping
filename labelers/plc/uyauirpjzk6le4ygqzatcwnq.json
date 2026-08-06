@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiagp3y5reh4ewdwhbfy2n2lormq576wb7ljerlvvextpfs27yhbqe",
+  "cid": "bafyreic4onwwuzter6k4yiz2ynsv7qxsp5uus3nqtae3urfoqjgl7keyhq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-05T00:25:13.973Z",
+  "indexedAt": "2026-08-06T00:25:13.670Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -473,12 +473,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-nobody-node",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the node.nobody.network PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "node.nobody.network"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -487,12 +487,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "network-nobody-node",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the node.nobody.network PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "node.nobody.network"
           }
         ],
         "severity": "inform"
@@ -1019,12 +1019,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cc-mirablossom",
+        "identifier": "social-bookhive",
         "locales": [
           {
-            "description": "Account is hosted by the mirablossom.cc PDS",
+            "description": "Account is hosted by the bookhive.social PDS",
             "lang": "en",
-            "name": "mirablossom.cc"
+            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -1039,6 +1039,20 @@
             "description": "Account is hosted by the casjay.social PDS",
             "lang": "en",
             "name": "casjay.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cc-mirablossom",
+        "locales": [
+          {
+            "description": "Account is hosted by the mirablossom.cc PDS",
+            "lang": "en",
+            "name": "mirablossom.cc"
           }
         ],
         "severity": "inform"
@@ -1285,12 +1299,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "wtf-lamp",
+        "identifier": "net-atchan",
         "locales": [
           {
-            "description": "Account is hosted by the lamp.wtf PDS",
+            "description": "Account is hosted by the atchan.net PDS",
             "lang": "en",
-            "name": "lamp.wtf"
+            "name": "atchan.net"
           }
         ],
         "severity": "inform"
@@ -1299,12 +1313,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-atchan",
+        "identifier": "wtf-lamp",
         "locales": [
           {
-            "description": "Account is hosted by the atchan.net PDS",
+            "description": "Account is hosted by the lamp.wtf PDS",
             "lang": "en",
-            "name": "atchan.net"
+            "name": "lamp.wtf"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "es-nobitch-bpds",
-        "locales": [
-          {
-            "description": "Account is hosted by the bpds.nobitch.es PDS",
-            "lang": "en",
-            "name": "bpds.nobitch.es"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1483,8 +1483,8 @@
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "chat-roomy",
-      "network-nobody-node",
       "social-northsky",
+      "network-nobody-node",
       "ai-oathling-pds",
       "homes-si46",
       "network-eny-pds-oyster",
@@ -1522,8 +1522,9 @@
       "fun-plcs-pds",
       "social-stroam",
       "io-sslip-181-5-9-5",
-      "cc-mirablossom",
+      "social-bookhive",
       "social-casjay",
+      "cc-mirablossom",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "surf-self",
@@ -1541,8 +1542,8 @@
       "com-ripperoni-alt",
       "su-nyet",
       "ai-bigt-pds",
-      "wtf-lamp",
       "net-atchan",
+      "wtf-lamp",
       "org-climateai",
       "xyz-syang-pds",
       "net-socialsandbox3",
@@ -1551,8 +1552,7 @@
       "network-wisy-pds",
       "social-seabikes",
       "site-lasd-ana",
-      "social-gumby",
-      "es-nobitch-bpds"
+      "social-gumby"
     ]
   }
 }

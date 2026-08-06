@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreih6knevmhjfu6axs3tfuspvmyreq34fpaj763l6x3fuuncfwhwaxm",
+  "cid": "bafyreihsdwb27pumtnl2ykd543v2mf7hkngyzsiutavbkogncnugicfuay",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -37,10 +37,24 @@
     "description": "Just experimenting with labellers 🙃\n\n.\n\n.",
     "indexedAt": "2026-07-31T12:39:18.770Z"
   },
-  "indexedAt": "2026-07-28T18:23:45.673Z",
+  "indexedAt": "2026-08-05T05:07:22.670Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "web-ui-exclusive",
+        "locales": [
+          {
+            "description": "This is a test description for a label you'd only be able to access through a web UI available at: https://example.com/",
+            "lang": "en",
+            "name": "🌸️"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -99,6 +113,7 @@
       }
     ],
     "labelValues": [
+      "web-ui-exclusive",
       "alt-text-missing",
       "alt-text-misuse",
       "badge",
