@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreic4onwwuzter6k4yiz2ynsv7qxsp5uus3nqtae3urfoqjgl7keyhq",
+  "cid": "bafyreibibgq6zbev3rrnp3lhdwmhxtv5jf5ctzrck5kmlthl2eftxdtix4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-06T00:25:13.670Z",
+  "indexedAt": "2026-08-06T12:25:14.170Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -781,12 +781,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "pw-blam",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the blam.pw PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "blam.pw"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -795,12 +795,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "pw-blam",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the blam.pw PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "blam.pw"
           }
         ],
         "severity": "inform"
@@ -1019,20 +1019,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bookhive",
-        "locales": [
-          {
-            "description": "Account is hosted by the bookhive.social PDS",
-            "lang": "en",
-            "name": "bookhive.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-casjay",
         "locales": [
           {
@@ -1061,6 +1047,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "surf-self",
+        "locales": [
+          {
+            "description": "Account is hosted by the self.surf PDS",
+            "lang": "en",
+            "name": "self.surf"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -1081,20 +1081,6 @@
             "description": "Account is hosted by the matrix.usapolitics.news PDS",
             "lang": "en",
             "name": "matrix.usapolitics.news"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "surf-self",
-        "locales": [
-          {
-            "description": "Account is hosted by the self.surf PDS",
-            "lang": "en",
-            "name": "self.surf"
           }
         ],
         "severity": "inform"
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "es-nobitch-bpds",
+        "locales": [
+          {
+            "description": "Account is hosted by the bpds.nobitch.es PDS",
+            "lang": "en",
+            "name": "bpds.nobitch.es"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1505,8 +1505,8 @@
       "cafe-pckt-pds",
       "news-1440-pds",
       "space-cannect-pds",
-      "pw-blam",
       "world-jalsa-u",
+      "pw-blam",
       "social-pwkl-eu1-dev",
       "bot-mirrors",
       "social-fluester-pds",
@@ -1522,12 +1522,11 @@
       "fun-plcs-pds",
       "social-stroam",
       "io-sslip-181-5-9-5",
-      "social-bookhive",
       "social-casjay",
       "cc-mirablossom",
+      "surf-self",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "surf-self",
       "systems-witchcraft-pds",
       "ro-aiia-pds",
       "com-arankwende",
@@ -1552,7 +1551,8 @@
       "network-wisy-pds",
       "social-seabikes",
       "site-lasd-ana",
-      "social-gumby"
+      "social-gumby",
+      "es-nobitch-bpds"
     ]
   }
 }

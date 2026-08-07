@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qhed3m2uw3mqcv5lgtvlyog5/app.bsky.labeler.service/self",
-  "cid": "bafyreicswcvngaeakorhuc766bfji6ihit6yuvk3j4ujbq5firxiv7a67e",
+  "cid": "bafyreibfoulooyebti5htf5wnaccmgqbunnh4v37leqvymrvgo7qujmlhe",
   "creator": {
     "did": "did:plc:qhed3m2uw3mqcv5lgtvlyog5",
     "handle": "verified.babesky.com",
@@ -17,7 +17,7 @@
     "description": "Subscribe to see adult industry creator labels, verified with AV by @Babesky.com 💖\n\nPlatform specific labels are opt-in (remove like to remove label): https://bsky.app/profile/verified.babesky.com/post/3mbtvkjjeak2v\n\n🔗 Browse Directory: club.babesky.com",
     "indexedAt": "2026-02-16T06:34:22.945Z"
   },
-  "indexedAt": "2026-06-12T22:35:55.271Z",
+  "indexedAt": "2026-08-07T02:23:16.174Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -62,6 +62,104 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "bbsky-suggestive",
+        "locales": [
+          {
+            "description": "Clothed-but-sexual or implied adult content — the middle ground Bluesky's binary nudity/porn labels miss. A Babesky adult-labeler perk for subscribers.",
+            "lang": "en",
+            "name": "Suggestive"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "bbsky-ai-nsfw",
+        "locales": [
+          {
+            "description": "Adult content detected as AI-generated rather than real. Bluesky does not distinguish AI from real NSFW. A Babesky adult-labeler perk for subscribers.",
+            "lang": "en",
+            "name": "AI-Generated NSFW"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "bbsky-gore-nonmedical",
+        "locales": [
+          {
+            "description": "Graphic violence / gore not in a medical or news context. Splits Bluesky's graphic-media label so subscribers can separate medical from non-medical. A Babesky adult-labeler perk.",
+            "lang": "en",
+            "name": "Non-Medical Gore"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bbsky-external-adult-link",
+        "locales": [
+          {
+            "description": "Post links to an age-gated external adult platform. Reuses Babesky's link-detection. A Babesky adult-labeler perk for subscribers.",
+            "lang": "en",
+            "name": "Links to Adult Site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "bbsky-porn",
+        "locales": [
+          {
+            "description": "Sexually explicit content, labeled by Babesky's classifier. Opt-in alternative to Bluesky's built-in porn label for subscribers who prefer our classification.",
+            "lang": "en",
+            "name": "Porn (Babesky)"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "bbsky-sexual",
+        "locales": [
+          {
+            "description": "Sexually suggestive but not explicitly pornographic, labeled by Babesky's classifier. Opt-in alternative to Bluesky's built-in sexual label.",
+            "lang": "en",
+            "name": "Sexual (Babesky)"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "bbsky-graphic-media",
+        "locales": [
+          {
+            "description": "Graphic violence / gore, labeled by Babesky's classifier. Opt-in alternative to Bluesky's built-in graphic-media label.",
+            "lang": "en",
+            "name": "Graphic Media (Babesky)"
+          }
+        ],
+        "severity": "alert"
       },
       {
         "adultOnly": false,
@@ -628,6 +726,13 @@
       "bbsky-verified-creator",
       "bbsky-verified-featured",
       "bbsky-official",
+      "bbsky-suggestive",
+      "bbsky-ai-nsfw",
+      "bbsky-gore-nonmedical",
+      "bbsky-external-adult-link",
+      "bbsky-porn",
+      "bbsky-sexual",
+      "bbsky-graphic-media",
       "link-onlyfans",
       "link-fansly",
       "link-tryst",
@@ -671,15 +776,14 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonSpam",
-    "com.atproto.moderation.defs#reasonMisleading",
-    "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal",
-    "com.atproto.moderation.defs#reasonRude"
+    "com.atproto.moderation.defs#reasonAppeal"
   ],
   "subjectTypes": [
     "account",
-    "record",
-    "chat"
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
   ]
 }
