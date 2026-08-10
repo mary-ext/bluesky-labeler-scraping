@@ -1,0 +1,315 @@
+{
+  "uri": "at://did:plc:asj3ovpyfjewdy3urskc25wk/app.bsky.labeler.service/self",
+  "cid": "bafyreibtjfus6l7yo4pav7xzwne53byip2mhkwlqgi4ps3nkajxwli7r2a",
+  "creator": {
+    "did": "did:plc:asj3ovpyfjewdy3urskc25wk",
+    "handle": "neatopause.tngl.sh",
+    "displayName": "Neatopause",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:asj3ovpyfjewdy3urskc25wk/bafkreiaolpw7p6bcsryknu7txgyljbpvgaznormcwucxcwvdoujfpf2cye",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-03-15T00:00:22.044Z",
+    "description": "Labels are not judgements. Take what serves you, leave the rest. Change your mind any time.",
+    "indexedAt": "2026-03-15T03:24:43.153Z"
+  },
+  "indexedAt": "2026-08-10T01:39:12.766Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "none",
+        "identifier": "test-label",
+        "locales": [
+          {
+            "description": "it's just for testing guys. I'm editing for more testing.",
+            "lang": "en",
+            "name": "test-label"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "inform-none-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=inform, blurs=none, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "inform-none-sfw"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "inform-media-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=inform, blurs=media, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "inform-media-sfw"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "inform-content-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=inform, blurs=content, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "inform-content-sfw"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "alert-none-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=alert, blurs=none, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "alert-none-sfw"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "alert-media-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=alert, blurs=media, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "alert-media-sfw"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "alert-content-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=alert, blurs=content, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "alert-content-sfw"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "none-none-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=none, blurs=none, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "none-none-sfw"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "none-media-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=none, blurs=media, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "none-media-sfw"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "none-content-sfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=content, blurs=content, no adult-only check returns. default is warn.",
+            "lang": "en",
+            "name": "none-content-sfw"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "inform-none-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=inform, blurs=nonw, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "inform-none-nsfw"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "inform-media-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=inform, blurs=media, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "inform-media-nsfw"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "inform-content-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=inform, blurs=content, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "inform-content-nsfw"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "alert-none-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=alert, blurs=none, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "alert-none-nsfw"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "alert-media-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=alert, blurs=media, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "alert-media-nsfw"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "alert-content-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=alert, blurs=content, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "alert-content-nsfw"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "none-none-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=none, blurs=none, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "none-none-nsfw"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "none-media-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=none, blurs=media, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "none-media-nsfw"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "none-content-nsfw",
+        "locales": [
+          {
+            "description": "demo showing what labeler with severity=none, blurs=content, adult-only checked returns. default is warn.",
+            "lang": "en",
+            "name": "none-content-nsfw"
+          }
+        ],
+        "severity": "none"
+      }
+    ],
+    "labelValues": [
+      "test-label",
+      "inform-none-sfw",
+      "inform-media-sfw",
+      "inform-content-sfw",
+      "alert-none-sfw",
+      "alert-media-sfw",
+      "alert-content-sfw",
+      "none-none-sfw",
+      "none-media-sfw",
+      "none-content-sfw",
+      "inform-none-nsfw",
+      "inform-media-nsfw",
+      "inform-content-nsfw",
+      "alert-none-nsfw",
+      "alert-media-nsfw",
+      "alert-content-nsfw",
+      "none-none-nsfw",
+      "none-media-nsfw",
+      "none-content-nsfw"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}
