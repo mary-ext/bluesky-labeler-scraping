@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreid7zbpavc5xywxvjr22o2el6hi42drpnhvxrg3fkecshvameh3yxa",
+  "cid": "bafyreiaj44isfvjqntsd34kc7jxk55hwrtmjylk4r37kq4fdqhkjjo3bn4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-09T23:12:33.770Z",
+  "indexedAt": "2026-08-10T12:17:01.669Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -865,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-pwkl-us1-dev",
+        "identifier": "social-skyphone-pds",
         "locales": [
           {
-            "description": "Account is hosted by the dev.us1.pwkl.social PDS",
+            "description": "Account is hosted by the pds.skyphone.social PDS",
             "lang": "en",
-            "name": "dev.us1.pwkl.social"
+            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -879,12 +879,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
+        "identifier": "social-pwkl-us1-dev",
         "locales": [
           {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "description": "Account is hosted by the dev.us1.pwkl.social PDS",
             "lang": "en",
-            "name": "pds.skyphone.social"
+            "name": "dev.us1.pwkl.social"
           }
         ],
         "severity": "inform"
@@ -1011,6 +1011,20 @@
             "description": "Account is hosted by the 5.9.5.181.sslip.io PDS",
             "lang": "en",
             "name": "5.9.5.181.sslip.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-bookhive",
+        "locales": [
+          {
+            "description": "Account is hosted by the bookhive.social PDS",
+            "lang": "en",
+            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "es-nobitch-bpds",
-        "locales": [
-          {
-            "description": "Account is hosted by the bpds.nobitch.es PDS",
-            "lang": "en",
-            "name": "bpds.nobitch.es"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1511,8 +1511,8 @@
       "bot-mirrors",
       "social-fluester-pds",
       "cloud-nihilist",
-      "social-pwkl-us1-dev",
       "social-skyphone-pds",
+      "social-pwkl-us1-dev",
       "cc-velvetnova",
       "social-fazen",
       "space-cannect",
@@ -1522,6 +1522,7 @@
       "fun-plcs-pds",
       "social-stroam",
       "io-sslip-181-5-9-5",
+      "social-bookhive",
       "social-casjay",
       "cc-mirablossom",
       "surf-self",
@@ -1551,8 +1552,7 @@
       "network-wisy-pds",
       "social-gumby",
       "social-seabikes",
-      "site-lasd-ana",
-      "es-nobitch-bpds"
+      "site-lasd-ana"
     ]
   }
 }

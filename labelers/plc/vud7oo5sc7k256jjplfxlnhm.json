@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vud7oo5sc7k256jjplfxlnhm/app.bsky.labeler.service/self",
-  "cid": "bafyreigpt2lu2ehexbfhdyg6mmby7cgbpjni44hesx6u7h6u72wddws36m",
+  "cid": "bafyreihs7tsere5nwthzbszlh4nwesgm6fciphngbbd257xxxzrbd7iuve",
   "creator": {
     "did": "did:plc:vud7oo5sc7k256jjplfxlnhm",
     "handle": "pronounsinb.io",
@@ -17,7 +17,7 @@
     "description": "The pronouns labeler I was using disappeared so I built this one.\n\nQuestions? Problems? Looking for a pronoun you don't see here? Contact @malwhere.northsky.social.",
     "indexedAt": "2026-07-20T13:17:27.264Z"
   },
-  "indexedAt": "2026-07-20T13:20:05.570Z",
+  "indexedAt": "2026-08-10T17:39:43.873Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1238,6 +1238,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "he-she-they",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "he/she/they"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fawn-fawnself",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "fawn/fawnself"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1327,7 +1355,9 @@
       "mirror-pronouns",
       "sprout-sproutself",
       "she-any",
-      "he-any"
+      "he-any",
+      "he-she-they",
+      "fawn-fawnself"
     ]
   }
 }
