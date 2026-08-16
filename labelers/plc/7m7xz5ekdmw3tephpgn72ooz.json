@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:7m7xz5ekdmw3tephpgn72ooz/app.bsky.labeler.service/self",
-  "cid": "bafyreihucpoizm46pwbit2lhmy33phc7kxar5svc4ah3gq3wm7lswsxhg4",
+  "cid": "bafyreiboncaasxzei6a3zf23ldn43dji6dzvzqad3ki3ati7djaqerrrnm",
   "creator": {
     "did": "did:plc:7m7xz5ekdmw3tephpgn72ooz",
     "handle": "moods.fran.pw",
@@ -28,10 +28,24 @@
     "description": "Show the world how are you feeling today! 😎\n\n1️⃣ Subscribe\n2️⃣ Find your mood in moods.fran.pw (or browse \"Posts\") and ❤️ (up to 4)\n❌ Remove with https://bsky.app/profile/moods.fran.pw/post/3l2wall4qyd2r\n\nCreated by @fran.pw\n\n📨 DM for requests",
     "indexedAt": "2026-03-19T18:24:53.355Z"
   },
-  "indexedAt": "2026-04-10T10:29:49.761Z",
+  "indexedAt": "2026-08-15T10:13:10.970Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "grinning-face-with-sweat",
+        "locales": [
+          {
+            "description": "I'm feeling n-nervous.",
+            "lang": "en",
+            "name": "Mood: 😅"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -2131,7 +2145,8 @@
       "fight-cloud",
       "hairy-creature",
       "orca",
-      "treasure-chest"
+      "treasure-chest",
+      "grinning-face-with-sweat"
     ]
   },
   "reasonTypes": [
