@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:evt4kscdlzz5phrhyrihrnh2/app.bsky.labeler.service/self",
+  "cid": "bafyreidqekxjfry3plzkpcl3bu5dvo3x736w6efktba2v4zl5x6usinn3q",
+  "creator": {
+    "did": "did:plc:evt4kscdlzz5phrhyrihrnh2",
+    "handle": "labeler.igav.ink",
+    "displayName": "labeler.igav.ink",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-08-16T07:18:18.766Z",
+    "indexedAt": "2026-08-16T07:18:18.766Z"
+  },
+  "indexedAt": "2026-08-16T08:42:21.768Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "lab-notice",
+        "locales": [
+          {
+            "description": "A neutral marker issued by hand from the igav.ink labeling lab. It asserts nothing about the account beyond the fact that someone asked for a label to be applied to it.",
+            "lang": "en",
+            "name": "Lab notice"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "lab-caution",
+        "locales": [
+          {
+            "description": "The same neutral marker as lab-notice, declared with the opposite presentation settings so the difference between `inform`/`media` and `alert`/`content` can be seen side by side. It is not a warning about the account.",
+            "lang": "en",
+            "name": "Lab caution"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "!warn",
+      "lab-notice",
+      "lab-caution"
+    ]
+  }
+}
