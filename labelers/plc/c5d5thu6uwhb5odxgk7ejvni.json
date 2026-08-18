@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:c5d5thu6uwhb5odxgk7ejvni/app.bsky.labeler.service/self",
-  "cid": "bafyreieyoh44bpaf4hynhfm7risc4bh3oeimniby6r5avvwgklltqcvooa",
+  "cid": "bafyreihm7jnouexvk6t4tucqmp2xxzaxafjxkuo37ar7cbit6povwaa26u",
   "creator": {
     "did": "did:plc:c5d5thu6uwhb5odxgk7ejvni",
     "handle": "labeler.urbanism.plus",
@@ -17,7 +17,7 @@
     "description": "Subscribe, Like, and Follow!\n\nMake a post with: \"@labeler.urbanism.plus listcommands\" to get your labels!\n\nGH: https://github.com/bikesky-social/bsky-community-bot\n\nUrbanism+ Feed: @urbanism.plus\n\nRun by @fema.monster",
     "indexedAt": "2025-04-23T16:07:04.173Z"
   },
-  "indexedAt": "2026-08-06T07:58:17.571Z",
+  "indexedAt": "2026-08-17T08:05:20.074Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -711,6 +711,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "anti-ebike",
+        "locales": [
+          {
+            "description": "This account has been flagged for being Anti e-bike. Don't gatekeep cycling!",
+            "lang": "en",
+            "name": "Anti e-bike"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "urbanist-parent",
         "locales": [
           {
@@ -766,7 +780,8 @@
       "x-scared-cities",
       "gadgetbahn",
       "victim-blaming",
-      "ableist"
+      "ableist",
+      "anti-ebike"
     ]
   }
 }
