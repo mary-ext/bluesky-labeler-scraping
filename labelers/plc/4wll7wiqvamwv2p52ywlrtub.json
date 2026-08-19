@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4wll7wiqvamwv2p52ywlrtub/app.bsky.labeler.service/self",
-  "cid": "bafyreifr5cxqh3qw54woihqapu3nli5pwqdvl7ezdyxxsjlrflchvyl2si",
+  "cid": "bafyreibkr2glz5nbmo4hqsl5wyftggy4du2lsf6fou33a2abz2c4mlmldq",
   "creator": {
     "did": "did:plc:4wll7wiqvamwv2p52ywlrtub",
     "handle": "labeler.unlabeled.fyi",
@@ -18,7 +18,7 @@
     "description": "Wait, its unlabeled and its a labeler?\n\nOperated by @jbc.lol under @tokyonight.city",
     "indexedAt": "2026-08-17T18:36:03.968Z"
   },
-  "indexedAt": "2026-08-14T16:45:04.763Z",
+  "indexedAt": "2026-08-18T06:23:03.372Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -95,6 +95,34 @@
       {
         "adultOnly": false,
         "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "green",
+        "locales": [
+          {
+            "description": "based on our trusted sources, this mysterious creature is green",
+            "lang": "en",
+            "name": "green"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "sep1",
+        "locales": [
+          {
+            "description": "below this are labels that doesn't have moderation standing. if you enable the seperator label istg",
+            "lang": "en",
+            "name": "================================"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
         "defaultSetting": "ignore",
         "identifier": "mdni",
         "locales": [
@@ -109,11 +137,13 @@
     ],
     "labelValues": [
       "mdni",
+      "sep1",
       "goop",
       "jonathan",
       "chibi",
       "fuckface",
-      "krislings"
+      "krislings",
+      "green"
     ]
   }
 }
