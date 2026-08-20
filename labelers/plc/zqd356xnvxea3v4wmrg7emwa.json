@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreigqxd2jaiuliodhiabr2bby2c5ldsk7br2msqmqzn5rcbmdrm6odu",
+  "cid": "bafyreidgrdswkr5t2pmoaxf25far7eseiyho3ycevo7pp5whntirzpr4xa",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -28,10 +28,24 @@
     "description": "(Work in progress)\n\n🌐 Web UI: https://pridelabeller.pages.dev/ 🌐\n\n⚠️ Don't \"Hide\" any of the badges ⚠️\n\n❤️ to Add, 💔 to Remove. (legacy method, new badges paused 2-5AM UTC)",
     "indexedAt": "2026-08-13T06:02:15.763Z"
   },
-  "indexedAt": "2026-08-07T23:46:05.173Z",
+  "indexedAt": "2026-08-19T07:41:21.077Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "skygender",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Skygender"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1252,6 +1266,7 @@
       }
     ],
     "labelValues": [
+      "skygender",
       "foxgender",
       "homoromantic",
       "outherine",

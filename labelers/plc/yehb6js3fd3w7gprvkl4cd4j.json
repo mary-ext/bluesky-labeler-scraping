@@ -1,102 +1,242 @@
 {
   "uri": "at://did:plc:yehb6js3fd3w7gprvkl4cd4j/app.bsky.labeler.service/self",
-  "cid": "bafyreiecuimn4zek7fiav5w2w2csw2vuemhnb5djaahxgx56sshfjntpii",
+  "cid": "bafyreiad2iftlr6demlmtjpc22oaxjifmgz2yeamtfz2xeqchx5hvbunuq",
   "creator": {
     "did": "did:plc:yehb6js3fd3w7gprvkl4cd4j",
     "handle": "merchantsguild.bsky.social",
-    "displayName": "",
+    "displayName": "TTRPG Industry Labeler & Playtest Finder",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yehb6js3fd3w7gprvkl4cd4j/bafkreiau3uvile46aq7lwdbfu755nhti2ojh4zlacdzrh7upf4nathyxei",
     "associated": {
       "labeler": true,
+      "chat": {
+        "allowIncoming": "all",
+        "allowGroupInvites": "all"
+      },
       "activitySubscription": {
         "allowSubscriptions": "followers"
       }
     },
     "labels": [],
     "createdAt": "2026-08-18T23:47:24.664Z",
-    "indexedAt": "2026-08-18T23:52:19.171Z"
+    "description": "This is a labeling service for those in the TTRPG Industry. It also doubles as a Job board. \n\nIf you're looking to Playtest games, request that role to let people know you're open to test their games.",
+    "indexedAt": "2026-08-19T09:58:37.061Z"
   },
-  "indexedAt": "2026-08-19T01:02:44.578Z",
+  "indexedAt": "2026-08-19T03:10:24.464Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "writer",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-writer",
         "locales": [
           {
-            "description": "",
+            "description": "Writes adventures, settings, rules text, fiction, or other tabletop roleplaying material.",
             "lang": "en",
             "name": "TTRPG Writer"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "editor",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-artist",
         "locales": [
           {
-            "description": "",
-            "lang": "en",
-            "name": "TTRPG Editor"
-          }
-        ],
-        "severity": "none"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "artist",
-        "locales": [
-          {
-            "description": "",
+            "description": "Creates illustration, character, environment, token, map, or cover art for tabletop roleplaying games.",
             "lang": "en",
             "name": "TTRPG Artist"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "designer",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-editor",
         "locales": [
           {
-            "description": "",
+            "description": "Edits, proofreads, or develops tabletop roleplaying game text.",
+            "lang": "en",
+            "name": "TTRPG Editor"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-designer",
+        "locales": [
+          {
+            "description": "Designs tabletop roleplaying games, rules, procedures, or play experiences.",
             "lang": "en",
             "name": "TTRPG Designer"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
       },
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "layouts",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-layout-artist",
         "locales": [
           {
-            "description": "",
+            "description": "Builds page systems, typography, and production-ready layouts for tabletop roleplaying games.",
             "lang": "en",
-            "name": "TTRPG Layout"
+            "name": "TTRPG Layout Artist"
           }
         ],
-        "severity": "none"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-cartographer",
+        "locales": [
+          {
+            "description": "Creates maps, diagrams, and spatial references for tabletop roleplaying games.",
+            "lang": "en",
+            "name": "TTRPG Cartographer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-organizer",
+        "locales": [
+          {
+            "description": "Organizes conventions, events, communities, jams, or coordinated tabletop play.",
+            "lang": "en",
+            "name": "TTRPG Organizer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-open-to-work",
+        "locales": [
+          {
+            "description": "Currently open to tabletop roleplaying work opportunities. Active role badges determine which role-specific Open to Work lists include this profile. Remove this label when unavailable.",
+            "lang": "en",
+            "name": "Open to TTRPG Work"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-playtester",
+        "locales": [
+          {
+            "description": "Currently open to invitations to playtest tabletop roleplaying games. Remove this label when unavailable.",
+            "lang": "en",
+            "name": "TTRPG Playtester"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-publisher",
+        "locales": [
+          {
+            "description": "✅ This profile has been independently reviewed.\n\nPublishes tabletop roleplaying games, supplements, adventures, or related materials.",
+            "lang": "en",
+            "name": "TTRPG Publisher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-retailer",
+        "locales": [
+          {
+            "description": "✅ This profile has been independently reviewed.\n\nA physical or digital retailer that sells tabletop roleplaying games and related materials.",
+            "lang": "en",
+            "name": "TTRPG Retailer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-community",
+        "locales": [
+          {
+            "description": "✅ This profile has been independently reviewed.\n\nAn account representing a tabletop roleplaying community, club, network, or organized group.",
+            "lang": "en",
+            "name": "TTRPG Community"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-archives",
+        "locales": [
+          {
+            "description": "✅ This profile has been independently reviewed.\n\nAn archive, library, museum, or preservation project focused on tabletop roleplaying games.",
+            "lang": "en",
+            "name": "TTRPG Archives"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "ttrpg-publication",
+        "locales": [
+          {
+            "description": "✅ This profile has been independently reviewed.\n\nA magazine, newsletter, blog, or editorial and news outlet covering tabletop roleplaying games.",
+            "lang": "en",
+            "name": "TTRPG Publication"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "writer",
-      "editor",
-      "artist",
-      "designer",
-      "layouts"
+      "ttrpg-writer",
+      "ttrpg-artist",
+      "ttrpg-editor",
+      "ttrpg-designer",
+      "ttrpg-layout-artist",
+      "ttrpg-cartographer",
+      "ttrpg-organizer",
+      "ttrpg-open-to-work",
+      "ttrpg-playtester",
+      "ttrpg-publisher",
+      "ttrpg-retailer",
+      "ttrpg-community",
+      "ttrpg-archives",
+      "ttrpg-publication"
     ]
   }
 }

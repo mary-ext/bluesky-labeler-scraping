@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:6plvpxzrnka5vmydjmvjujze/app.bsky.labeler.service/self",
-  "cid": "bafyreifss5ahxhvpjw6g6cplk6swccnc5tpwkg3o6spv2j6ue7jejcn6fe",
+  "cid": "bafyreifvvmvdlfez3h2pxzm3azjhy7hx5edyr7zoaw6v3ctggpcar4muym",
   "creator": {
     "did": "did:plc:6plvpxzrnka5vmydjmvjujze",
     "handle": "primsky-labeler.bsky.social",
@@ -16,7 +16,7 @@
     "createdAt": "2026-08-12T13:30:04.267Z",
     "indexedAt": "2026-08-12T13:30:22.258Z"
   },
-  "indexedAt": "2026-08-18T09:24:00.569Z",
+  "indexedAt": "2026-08-19T19:57:51.170Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -47,13 +47,159 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "graphic content",
+            "lang": "en",
+            "name": "graphic-media"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "threat",
+        "locales": [
+          {
+            "description": "threats",
+            "lang": "en",
+            "name": "threat"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "self-harm",
+        "locales": [
+          {
+            "description": "self-harm related content",
+            "lang": "en",
+            "name": "self-harm"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "porn",
+        "locales": [
+          {
+            "description": "pornography",
+            "lang": "en",
+            "name": "porn"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "graphic content",
+            "lang": "en",
+            "name": "graphic-media"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "nudity",
+        "locales": [
+          {
+            "description": "nude imagery",
+            "lang": "en",
+            "name": "nudity"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "graphic content",
+            "lang": "en",
+            "name": "graphic-media"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "sexual-figurative",
+        "locales": [
+          {
+            "description": "digital sexual content/figurative imagery",
+            "lang": "en",
+            "name": "sexual-figurative"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "sexual-figurative",
+        "locales": [
+          {
+            "description": "digital sexual content/figurative imagery",
+            "lang": "en",
+            "name": "sexual-figurative"
+          }
+        ],
+        "severity": "warn"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "ignore",
+        "identifier": "sexual",
+        "locales": [
+          {
+            "description": "sexual content",
+            "lang": "en",
+            "name": "sexual"
+          }
+        ],
+        "severity": "warn"
       }
     ],
     "labelValues": [
       "primsky-labeler-test",
       "intolerant",
       "rude",
-      "graphic-media"
+      "graphic-media",
+      "threat",
+      "self-harm",
+      "porn",
+      "nudity",
+      "sexual-figurative",
+      "sexual"
     ]
   }
 }
