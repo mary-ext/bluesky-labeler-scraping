@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiffblw37b55ephscfgvz3ingorjsamk2m22uo3sjsruqk3oc4wa6m",
+  "cid": "bafyreidmjkcwicwbiq3tylk4mfpbj4jina47ef3qkjssotahyk5zwsmkeu",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-14T14:34:37.778Z",
+  "indexedAt": "2026-08-20T18:10:09.374Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -207,20 +207,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-surf",
-        "locales": [
-          {
-            "description": "Account is hosted by the surf.social PDS",
-            "lang": "en",
-            "name": "surf.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "me-1095-pds",
         "locales": [
           {
@@ -235,12 +221,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "computer-aesthetic-at",
+        "identifier": "chat-roomy",
         "locales": [
           {
-            "description": "Account is hosted by the at.aesthetic.computer PDS",
+            "description": "Account is hosted by the roomy.chat PDS",
             "lang": "en",
-            "name": "at.aesthetic.computer"
+            "name": "roomy.chat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-surf",
+        "locales": [
+          {
+            "description": "Account is hosted by the surf.social PDS",
+            "lang": "en",
+            "name": "surf.social"
           }
         ],
         "severity": "inform"
@@ -255,6 +255,20 @@
             "description": "Account is hosted by the tdpl.io PDS",
             "lang": "en",
             "name": "tdpl.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "computer-aesthetic-at",
+        "locales": [
+          {
+            "description": "Account is hosted by the at.aesthetic.computer PDS",
+            "lang": "en",
+            "name": "at.aesthetic.computer"
           }
         ],
         "severity": "inform"
@@ -319,12 +333,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "live-shxre",
+        "identifier": "fan-radial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the shxre.live PDS",
+            "description": "Account is hosted by the pds.radial.fan PDS",
             "lang": "en",
-            "name": "shxre.live"
+            "name": "pds.radial.fan"
           }
         ],
         "severity": "inform"
@@ -333,12 +347,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fan-radial-pds",
+        "identifier": "live-shxre",
         "locales": [
           {
-            "description": "Account is hosted by the pds.radial.fan PDS",
+            "description": "Account is hosted by the shxre.live PDS",
             "lang": "en",
-            "name": "pds.radial.fan"
+            "name": "shxre.live"
           }
         ],
         "severity": "inform"
@@ -473,20 +487,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-roomy",
-        "locales": [
-          {
-            "description": "Account is hosted by the roomy.chat PDS",
-            "lang": "en",
-            "name": "roomy.chat"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "network-nobody-node",
         "locales": [
           {
@@ -501,12 +501,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-oathling-pds",
+        "identifier": "homes-si46",
         "locales": [
           {
-            "description": "Account is hosted by the pds.oathling.ai PDS",
+            "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
-            "name": "pds.oathling.ai"
+            "name": "si46.homes"
           }
         ],
         "severity": "inform"
@@ -515,12 +515,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "homes-si46",
+        "identifier": "ai-oathling-pds",
         "locales": [
           {
-            "description": "Account is hosted by the si46.homes PDS",
+            "description": "Account is hosted by the pds.oathling.ai PDS",
             "lang": "en",
-            "name": "si46.homes"
+            "name": "pds.oathling.ai"
           }
         ],
         "severity": "inform"
@@ -613,12 +613,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "to-tor0n",
+        "identifier": "social-npmx",
         "locales": [
           {
-            "description": "Account is hosted by the tor0n.to PDS",
+            "description": "Account is hosted by the npmx.social PDS",
             "lang": "en",
-            "name": "tor0n.to"
+            "name": "npmx.social"
           }
         ],
         "severity": "inform"
@@ -627,12 +627,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-npmx",
+        "identifier": "to-tor0n",
         "locales": [
           {
-            "description": "Account is hosted by the npmx.social PDS",
+            "description": "Account is hosted by the tor0n.to PDS",
             "lang": "en",
-            "name": "npmx.social"
+            "name": "tor0n.to"
           }
         ],
         "severity": "inform"
@@ -655,12 +655,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-forum--hietzing",
+        "identifier": "me-opnmt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the forum-hietzing.at PDS",
+            "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
-            "name": "forum-hietzing.at"
+            "name": "pds.opnmt.me"
           }
         ],
         "severity": "inform"
@@ -669,12 +669,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-opnmt-pds",
+        "identifier": "at-forum--hietzing",
         "locales": [
           {
-            "description": "Account is hosted by the pds.opnmt.me PDS",
+            "description": "Account is hosted by the forum-hietzing.at PDS",
             "lang": "en",
-            "name": "pds.opnmt.me"
+            "name": "forum-hietzing.at"
           }
         ],
         "severity": "inform"
@@ -725,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-pckt-pds",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the pds.pckt.cafe PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "pds.pckt.cafe"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -739,12 +739,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "cafe-pckt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "pds.pckt.cafe"
           }
         ],
         "severity": "inform"
@@ -991,6 +991,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bookhive",
+        "locales": [
+          {
+            "description": "Account is hosted by the bookhive.social PDS",
+            "lang": "en",
+            "name": "bookhive.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-stroam",
         "locales": [
           {
@@ -1011,20 +1025,6 @@
             "description": "Account is hosted by the 5.9.5.181.sslip.io PDS",
             "lang": "en",
             "name": "5.9.5.181.sslip.io"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bookhive",
-        "locales": [
-          {
-            "description": "Account is hosted by the bookhive.social PDS",
-            "lang": "en",
-            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -1131,6 +1131,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network-wisy-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.wisy.network PDS",
+            "lang": "en",
+            "name": "pds.wisy.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "systems-witchcraft-pds",
         "locales": [
           {
@@ -1159,20 +1173,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cc-honeyvale",
-        "locales": [
-          {
-            "description": "Account is hosted by the honeyvale.cc PDS",
-            "lang": "en",
-            "name": "honeyvale.cc"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "net-atchan",
         "locales": [
           {
@@ -1187,12 +1187,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wisy-pds",
+        "identifier": "cc-honeyvale",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wisy.network PDS",
+            "description": "Account is hosted by the honeyvale.cc PDS",
             "lang": "en",
-            "name": "pds.wisy.network"
+            "name": "honeyvale.cc"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-fly-crimson--field--2410",
+        "identifier": "org-seiran--beta",
         "locales": [
           {
-            "description": "Account is hosted by the crimson-field-2410.fly.dev PDS",
+            "description": "Account is hosted by the seiran-beta.org PDS",
             "lang": "en",
-            "name": "crimson-field-2410.fly.dev"
+            "name": "seiran-beta.org"
           }
         ],
         "severity": "inform"
@@ -1397,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "online-magallan",
+        "identifier": "dev-fly-crimson--field--2410",
         "locales": [
           {
-            "description": "Account is hosted by the magallan.online PDS",
+            "description": "Account is hosted by the crimson-field-2410.fly.dev PDS",
             "lang": "en",
-            "name": "magallan.online"
+            "name": "crimson-field-2410.fly.dev"
           }
         ],
         "severity": "inform"
@@ -1425,12 +1425,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-seabikes",
+        "identifier": "online-magallan",
         "locales": [
           {
-            "description": "Account is hosted by the seabikes.social PDS",
+            "description": "Account is hosted by the magallan.online PDS",
             "lang": "en",
-            "name": "seabikes.social"
+            "name": "magallan.online"
           }
         ],
         "severity": "inform"
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
+        "identifier": "social-seabikes",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "description": "Account is hosted by the seabikes.social PDS",
             "lang": "en",
-            "name": "bsky.bark.wolp.chat"
+            "name": "seabikes.social"
           }
         ],
         "severity": "inform"
@@ -1464,16 +1464,17 @@
       "app-blacksky",
       "app-louisvillebsky-pds",
       "info-keik",
-      "social-surf",
       "me-1095-pds",
-      "computer-aesthetic-at",
+      "chat-roomy",
+      "social-surf",
       "io-tdpl",
+      "computer-aesthetic-at",
       "world-radical-r",
       "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
       "so-sprk-pds",
-      "live-shxre",
       "fan-radial-pds",
+      "live-shxre",
       "social-ekamdor-pds",
       "dev-ridgeway-pds",
       "net-wafrn-app-at",
@@ -1483,26 +1484,25 @@
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "social-northsky",
-      "chat-roomy",
       "network-nobody-node",
-      "ai-oathling-pds",
       "homes-si46",
+      "ai-oathling-pds",
       "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
       "net-goldentooth-pds",
       "com-nrbrtspvk-bsky",
       "net-riyo-pds",
-      "to-tor0n",
       "social-npmx",
+      "to-tor0n",
       "com-dinakernel-test--pds",
-      "at-forum--hietzing",
       "me-opnmt-pds",
+      "at-forum--hietzing",
       "at-admat-bsx",
       "dev-alley-chicago--com-pds",
       "com-perohub-pds",
-      "cafe-pckt-pds",
       "world-jalsa-u",
+      "cafe-pckt-pds",
       "com-mulgez-api",
       "news-1440-pds",
       "space-cannect-pds",
@@ -1520,9 +1520,9 @@
       "fail-marta",
       "net-chatapt",
       "fun-plcs-pds",
+      "social-bookhive",
       "social-stroam",
       "io-sslip-181-5-9-5",
-      "social-bookhive",
       "social-casjay",
       "cc-mirablossom",
       "surf-self",
@@ -1530,11 +1530,11 @@
       "news-usapolitics-matrix",
       "cafe-margin",
       "ro-aiia-pds",
+      "network-wisy-pds",
       "systems-witchcraft-pds",
       "com-arankwende",
-      "cc-honeyvale",
       "net-atchan",
-      "network-wisy-pds",
+      "cc-honeyvale",
       "com-skeetcentral",
       "dev-wsocial-pds--dev",
       "info-men--esthe-pds3",
@@ -1548,11 +1548,11 @@
       "org-climateai",
       "xyz-syang-pds",
       "net-socialsandbox3",
+      "org-seiran--beta",
       "dev-fly-crimson--field--2410",
-      "online-magallan",
       "social-gumby",
-      "social-seabikes",
-      "chat-wolp-bark-bsky"
+      "online-magallan",
+      "social-seabikes"
     ]
   }
 }
