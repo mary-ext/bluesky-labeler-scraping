@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:fmug4zegnl7lf6ljp7aokpeh/app.bsky.labeler.service/self",
-  "cid": "bafyreicw66iyocn4ijl7zgps7y7nqp3o73jlsl732ml6fugwdfpp77ua3q",
+  "cid": "bafyreibx63k7t7y47cqdwxaks343eboihp7kp5qkhwpgbywzclfq5drbei",
   "creator": {
     "did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
     "handle": "moderation.medsky.network",
@@ -20,7 +20,7 @@
     "description": "A network of healthcare workers across the Atmosphere\n\nSubscribe to view medical specialty and moderation labels\n\nDonate: support.medsky.network\nContact: support@medsky.network\n\nPowered by @medsky.network",
     "indexedAt": "2026-04-25T04:27:59.543Z"
   },
-  "indexedAt": "2026-03-29T07:26:08.170Z",
+  "indexedAt": "2026-08-22T00:34:13.379Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -164,6 +164,30 @@
             "description": "Algo que se refere a alegações infundadas que minimizam os benefícios e exageram os riscos associados ao tratamento de afirmação de gênero para pessoas transgênero.\n\nIntervenções destinadas a apoiar e afirmar a identidade de gênero de uma pessoa demonstram ter impactos positivos profundos e duradouros na saúde mental, incluindo a redução das taxas de depressão e ansiedade, bem como uma redução de até 70% no risco de suicídio. A disseminação de informações errôneas sobre o tratamento de afirmação de gênero alimenta o assédio contra pessoas transgênero, bem como ameaças e violência contra profissionais que prestam esse tipo de tratamento.\n\nA taxa de arrependimento após o tratamento de afirmação de gênero, como cirurgias, também é baixa. Uma metanálise de 2021 do The International Open Access Journal of the American Society of Plastic Surgeons concluiu que a prevalência de arrependimento após cirurgia de afirmação de gênero foi de 1%, inferior à taxa relatada para cirurgia bariátrica (2-15%) e cirurgia de reconstrução mamária (5-9%). A Associação Médica Americana, a Academia Americana de Pediatria, a Associação Americana de Psiquiatria e pelo menos outras 18 importantes sociedades médicas com membros internacionais endossam a segurança e a importância dos cuidados de afirmação de gênero.",
             "lang": "pt",
             "name": "⚠ Falso: O Cuidado Afirmativo de Gênero é seguro e eficaz."
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "mod-spam",
+        "locales": [
+          {
+            "description": "Engaging in repetitive and unsolicited engagement on the Medsky feeds, either in an antisocial manner or in a way to artificially inflate user engagement through posting low-quality, clickbait-like, misleading, and emotionally triggering content (i.e. engagement farming).",
+            "lang": "en",
+            "name": "⚠ Spam"
+          },
+          {
+            "description": "Participar en interacciones repetitivas y no solicitadas en los feeds de Medsky, ya sea de manera antisocial o de una manera que infla artificialmente la participación del usuario mediante la publicación de contenido de baja calidad, similar a un clickbait, engañoso y que desencadena emociones (es decir, molesto solo para generar seguidores).",
+            "lang": "es",
+            "name": "⚠ Spam"
+          },
+          {
+            "description": "Realizar interações repetitivas e não solicitadas nos feeds do Medsky, seja de maneira antissocial ou com o objetivo de inflar artificialmente o engajamento dos usuários por meio da publicação de conteúdo de baixa qualidade, do tipo caça-clique, enganoso ou que visa provocar reações emocionais intensas.",
+            "lang": "pt",
+            "name": "⚠ Spam"
           }
         ],
         "severity": "alert"
@@ -4026,6 +4050,7 @@
       "mod-misinfo-hydroxychloroquine",
       "mod-misinfo-ivermectin",
       "mod-misinfo-gender-affirming-care",
+      "mod-spam",
       "medical-school",
       "dental-school",
       "anesthesiology",

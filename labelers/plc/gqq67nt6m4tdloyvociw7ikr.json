@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:gqq67nt6m4tdloyvociw7ikr/app.bsky.labeler.service/self",
-  "cid": "bafyreiae7hb6kr3fi64uvc7elhodnal3kmklqf7ezlmy3jfgf25qyaupny",
+  "cid": "bafyreidwirg2vexoxk6asp6srbaxj5vribvpvaisdaxmabzamervm7z2we",
   "creator": {
     "did": "did:plc:gqq67nt6m4tdloyvociw7ikr",
     "handle": "moderation.latinsky.app",
@@ -17,7 +17,7 @@
     "description": "A digital barrio centering Latine/x/o/a, Afrolatine/x/o/a, Immigrant, & Indigenous voices from across the ATmosphere.\n\nLatinsky Feed: https://bsky.app/profile/did:plc:an5cb3ab3cjswxhb3czqqjov/feed/latinsky\nCommunity Guidelines: https://tinyurl.com/3knwb8s8",
     "indexedAt": "2026-05-17T12:27:45.265Z"
   },
-  "indexedAt": "2025-09-21T05:13:50.503Z",
+  "indexedAt": "2026-08-21T23:16:46.596Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -36,6 +36,44 @@
             "description": "Comunicar odio, alentar la violencia, perpetuar estereotipos dañinos o deshumanizar a personas en función de su cultura, raza, religión, identidad de género u orientación sexual.",
             "lang": "es",
             "name": "Discurso de Odio"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "immigrant-harassment",
+        "locales": [
+          {
+            "description": "Content that aims to demean, intimidate, or exclude people based on their actual or perceived foreign birth, national origin, citizenship, or immigration status. Such content includes but is not limited to verbal abuse, intimidation, misinformation, and broad generalizations about the immigrant community.",
+            "lang": "en",
+            "name": "Anti-Immigrant Harassment"
+          },
+          {
+            "description": "Contenido que tiene como objetivo denigrar, intimidar o excluir a personas debido a su nacimiento en el extranjero —real o percibido—, su origen nacional, su ciudadanía o su estatus migratorio. Dicho contenido incluye, entre otros, el abuso verbal, la intimidación, la desinformación y las generalizaciones amplias sobre la comunidad inmigrante.",
+            "lang": "es",
+            "name": "Acoso Contra los Inmigrantes"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "indigenous-harassment",
+        "locales": [
+          {
+            "description": "Content that aims to demean, intimidate, or exclude people based on their indigeneity, race, ancestry, or culture. Such content includes but is not limited to verbal abuse, intimidation, misinformation, and broad generalizations about the indigenous community.",
+            "lang": "en",
+            "name": "Anti-Indigenous Harassment"
+          },
+          {
+            "description": "Contenido que tiene como objetivo denigrar, intimidar o excluir a personas por su condición de indígenas, raza, ascendencia o cultura. Dicho contenido incluye, entre otros, el abuso verbal, la intimidación, la desinformación y las generalizaciones amplias sobre la comunidad indígena.",
+            "lang": "es",
+            "name": "Acoso Contra los Pueblos Indígenas"
           }
         ],
         "severity": "alert"
@@ -81,6 +119,8 @@
     ],
     "labelValues": [
       "hate-speech",
+      "immigrant-harassment",
+      "indigenous-harassment",
       "harassment",
       "spam"
     ]
