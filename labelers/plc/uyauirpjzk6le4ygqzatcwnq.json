@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreia4u7rta2wzt3tbipiaiafhe6owilujz4smaeqkn2ugceggyx2avy",
+  "cid": "bafyreidylgi2fgtlru6retnyg4b53dw4o4zkfgfz4s4cbybaphncti4bx4",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-21T06:10:09.467Z",
+  "indexedAt": "2026-08-23T00:10:10.075Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1075,6 +1075,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cafe-margin",
+        "locales": [
+          {
+            "description": "Account is hosted by the margin.cafe PDS",
+            "lang": "en",
+            "name": "margin.cafe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -1095,20 +1109,6 @@
             "description": "Account is hosted by the matrix.usapolitics.news PDS",
             "lang": "en",
             "name": "matrix.usapolitics.news"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cafe-margin",
-        "locales": [
-          {
-            "description": "Account is hosted by the margin.cafe PDS",
-            "lang": "en",
-            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -1159,12 +1159,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-arankwende",
+        "identifier": "net-atchan",
         "locales": [
           {
-            "description": "Account is hosted by the arankwende.com PDS",
+            "description": "Account is hosted by the atchan.net PDS",
             "lang": "en",
-            "name": "arankwende.com"
+            "name": "atchan.net"
           }
         ],
         "severity": "inform"
@@ -1173,12 +1173,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-atchan",
+        "identifier": "com-arankwende",
         "locales": [
           {
-            "description": "Account is hosted by the atchan.net PDS",
+            "description": "Account is hosted by the arankwende.com PDS",
             "lang": "en",
-            "name": "atchan.net"
+            "name": "arankwende.com"
           }
         ],
         "severity": "inform"
@@ -1369,12 +1369,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-socialsandbox3",
+        "identifier": "org-seiran--beta",
         "locales": [
           {
-            "description": "Account is hosted by the socialsandbox3.net PDS",
+            "description": "Account is hosted by the seiran-beta.org PDS",
             "lang": "en",
-            "name": "socialsandbox3.net"
+            "name": "seiran-beta.org"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-seiran--beta",
+        "identifier": "net-socialsandbox3",
         "locales": [
           {
-            "description": "Account is hosted by the seiran-beta.org PDS",
+            "description": "Account is hosted by the socialsandbox3.net PDS",
             "lang": "en",
-            "name": "seiran-beta.org"
+            "name": "socialsandbox3.net"
           }
         ],
         "severity": "inform"
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "chat-wolp-bark-bsky",
+        "identifier": "com-wouldcop-pds",
         "locales": [
           {
-            "description": "Account is hosted by the bsky.bark.wolp.chat PDS",
+            "description": "Account is hosted by the pds.wouldcop.com PDS",
             "lang": "en",
-            "name": "bsky.bark.wolp.chat"
+            "name": "pds.wouldcop.com"
           }
         ],
         "severity": "inform"
@@ -1526,14 +1526,14 @@
       "social-casjay",
       "cc-mirablossom",
       "surf-self",
+      "cafe-margin",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "cafe-margin",
       "network-wisy-pds",
       "ro-aiia-pds",
       "systems-witchcraft-pds",
-      "com-arankwende",
       "net-atchan",
+      "com-arankwende",
       "cc-honeyvale",
       "com-skeetcentral",
       "dev-wsocial-pds--dev",
@@ -1547,12 +1547,12 @@
       "wtf-lamp",
       "org-climateai",
       "xyz-syang-pds",
-      "net-socialsandbox3",
       "org-seiran--beta",
+      "net-socialsandbox3",
       "dev-fly-crimson--field--2410",
       "social-gumby",
       "online-magallan",
-      "chat-wolp-bark-bsky"
+      "com-wouldcop-pds"
     ]
   }
 }
