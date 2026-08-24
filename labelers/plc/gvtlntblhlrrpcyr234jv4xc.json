@@ -1,0 +1,149 @@
+{
+  "uri": "at://did:plc:gvtlntblhlrrpcyr234jv4xc/app.bsky.labeler.service/self",
+  "cid": "bafyreihaghm47l7c3ysgcquji5hr2zpredqr22h5xt2jmv6iuvz63d37su",
+  "creator": {
+    "did": "did:plc:gvtlntblhlrrpcyr234jv4xc",
+    "handle": "moderation.arisnet.top",
+    "displayName": "Arisnet 内容审核服务",
+    "pronouns": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gvtlntblhlrrpcyr234jv4xc/bafkreie4jahhej7cy3wnonh5f2o4vl3um3v2vtuy57ops4zo7vjc7iicky",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-08-23T05:30:55.811Z",
+    "description": "Arisnet的内容审核标签器",
+    "indexedAt": "2026-08-23T06:57:03.862Z"
+  },
+  "indexedAt": "2026-08-23T06:54:25.668Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "SPAM",
+            "lang": "en",
+            "name": "SPAM"
+          },
+          {
+            "description": "垃圾广告和骚扰信息",
+            "lang": "zh",
+            "name": "垃圾信息"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "politics",
+        "locales": [
+          {
+            "description": "Political discussions that may have inappropriate positions and viewpoints.",
+            "lang": "en",
+            "name": "Political inappropriate"
+          },
+          {
+            "description": "可能具有不当立场和观点的政治讨论。",
+            "lang": "zh",
+            "name": "政治不当"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "r18",
+        "locales": [
+          {
+            "description": "Content unsuitable for minors, such as descriptions related to sex or violence.",
+            "lang": "en",
+            "name": "R18"
+          },
+          {
+            "description": "不适合未成年人的内容，如性或暴力相关的描写。",
+            "lang": "zh",
+            "name": "R18"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "argument",
+        "locales": [
+          {
+            "description": "Empty and low-quality debates, and insults.",
+            "lang": "en",
+            "name": "Senseless argument"
+          },
+          {
+            "description": "言之无物的低质量辩论和相互辱骂。",
+            "lang": "zh",
+            "name": "无意义争论"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "aislop",
+        "locales": [
+          {
+            "description": "Low-quality content produced in bulk by AI.",
+            "lang": "en",
+            "name": "AI Slop"
+          },
+          {
+            "description": "由AI批量生产的低质量内容。",
+            "lang": "zh",
+            "name": "AI Slop"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "fakenews",
+        "locales": [
+          {
+            "description": "Reports related to social incidents that did not actually occur.",
+            "lang": "en",
+            "name": "Fake news"
+          },
+          {
+            "description": "实际上并未真实发生的“社会事件”相关的报道。",
+            "lang": "zh",
+            "name": "假新闻"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "politics",
+      "r18",
+      "argument",
+      "aislop",
+      "fakenews"
+    ]
+  }
+}
