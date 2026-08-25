@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:flwugseenu2x4o3h2ymutc3x/app.bsky.labeler.service/self",
-  "cid": "bafyreiemrfn7ilhh35apjkt2go6enpu6aodgvjhsujepgnnhwqd5ovcsim",
+  "cid": "bafyreieg32nuh6d2gp4q2guf3g53osehqu7c4fbwouc4dym2hyi6yqub5y",
   "creator": {
     "did": "did:plc:flwugseenu2x4o3h2ymutc3x",
     "handle": "labeler.blackwall.gg",
@@ -21,7 +21,7 @@
     "description": "Labels AI Media across AtProto.\n\nConsider following our main account @blackwall.gg and/or liking the labeler\n\nreporting with proof/reasoning helps, but is not required. \n\nThe DMs of this account are open for inquiries regarding reports",
     "indexedAt": "2026-08-14T09:07:34.368Z"
   },
-  "indexedAt": "2026-07-17T15:28:58.978Z",
+  "indexedAt": "2026-08-24T22:54:28.665Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -69,6 +69,20 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "indirectimageryaccountbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "Indirect AI Imagery Poster (badge)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "imageryaccount",
@@ -77,6 +91,20 @@
             "description": "Accounts that frequently or un-apologetically post AI images.",
             "lang": "en",
             "name": "AI Imagery Poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "imageryaccountbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Imagery Poster (badge)"
           }
         ],
         "severity": "inform"
@@ -97,14 +125,42 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "imagerypost",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Imagery Post (badge)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
         "blurs": "media",
         "defaultSetting": "inform",
-        "identifier": "indirectimageryaccount",
+        "identifier": "thirdpartyimagerypost",
         "locales": [
           {
             "description": "Screenshots of REAL posts, typically from political figures; which contain AI generated Imagery, this label exists to avoid confusion about whether the POST ITSELF is legitimate",
             "lang": "en",
             "name": "Third Party Imagery Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "thirdpartyimagerypostbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "Third Party Imagery Post (badge)"
           }
         ],
         "severity": "inform"
@@ -125,6 +181,20 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "indirectimagerypostbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "Indirect AI Imagery Post (badge)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "textaccount",
@@ -133,6 +203,20 @@
             "description": "Accounts that frequently or un-apologetically post LLM generated posts, articles, or other texts containing LLM generated content",
             "lang": "en",
             "name": "LLM Text Poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "indirectimagerypostbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "LLM Text Poster (badge)"
           }
         ],
         "severity": "inform"
@@ -153,6 +237,20 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "textpostbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "LLM Text Post (badge)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "audioaccount",
@@ -161,6 +259,20 @@
             "description": "Accounts that frequently or un-apologetically post AI Audio, such as AI generated voices or instrumentals.",
             "lang": "en",
             "name": "AI Audio Poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "audioaccountbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Audio Poster (badge)"
           }
         ],
         "severity": "inform"
@@ -181,14 +293,42 @@
       },
       {
         "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "audiopostbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Audio Post (badge)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "protomionalaccount",
+        "identifier": "promotionalaccount",
         "locales": [
           {
             "description": "Accounts that regularly post promotional material for generative AI products",
             "lang": "en",
             "name": "AI Promotional Account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "promotionalaccountbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Promotional Account (badge)"
           }
         ],
         "severity": "inform"
@@ -206,11 +346,24 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "promotionalpostbadge",
+        "locales": [
+          {
+            "description": "Unlike the first one, this ONLY shows a badge without warning or hiding the content, if you do not set the above one to off you will see two badges.",
+            "lang": "en",
+            "name": "AI Promotional Post (badge)"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "aiprofile",
-      "aiprofilebadge",
       "imageryaccount",
       "imagerypost",
       "thirdpartyimagerypost",
@@ -218,17 +371,26 @@
       "indirectimagerypost",
       "audioaccount",
       "audiopost",
-      "protomionalaccount",
+      "promotionalaccount",
       "promotionalpost",
       "textaccount",
       "textpost",
-      "programmingaccount",
-      "programmingpost"
+      "aiprofilebadge",
+      "imageryaccountbadge",
+      "imagerypostbadge",
+      "thirdpartyimagerypostbadge",
+      "indirectimageryaccountbadge",
+      "indirectimagerypostbadge",
+      "audioaccountbadge",
+      "audiopostbadge",
+      "protomionalaccountbadge",
+      "promotionalpostbadge",
+      "textaccountbadge",
+      "textpostbadge"
     ]
   },
   "subjectTypes": [
     "account",
-    "chat",
     "record"
   ]
 }

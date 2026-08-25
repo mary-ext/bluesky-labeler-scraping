@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vud7oo5sc7k256jjplfxlnhm/app.bsky.labeler.service/self",
-  "cid": "bafyreidvvjwkxmcs5mll5lz242zcbqauvjsuklatah7dltjidikn33mil4",
+  "cid": "bafyreidzcxqi4v7ajnl2j5adcrqyatunh5dpi6to4sujae7kmol3pc46nq",
   "creator": {
     "did": "did:plc:vud7oo5sc7k256jjplfxlnhm",
     "handle": "pronounsinb.io",
@@ -17,7 +17,7 @@
     "description": "The pronouns labeler I was using disappeared so I built this one.\n\nQuestions? Problems? Looking for a pronoun you don't see here? Contact @malwhere.northsky.social.",
     "indexedAt": "2026-07-20T13:17:27.264Z"
   },
-  "indexedAt": "2026-08-19T19:18:40.176Z",
+  "indexedAt": "2026-08-24T15:28:32.378Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1294,6 +1294,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "critter-creature",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "critter/creature"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cub-cubs",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "cub/cubs"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1387,7 +1415,9 @@
       "he-she-they",
       "fawn-fawnself",
       "paw-paws",
-      "mer-mers"
+      "mer-mers",
+      "critter-creature",
+      "cub-cubs"
     ]
   }
 }
