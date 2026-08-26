@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreigdsvirbu2krat3kzp2rw4dvgrvdcwf6wcw6nea6zhrjxiu75ga74",
+  "cid": "bafyreigu6gotd3rwytd4iczc2shbpys34zbmjwj26zvfgazfkuuscuy22m",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-24T00:10:10.568Z",
+  "indexedAt": "2026-08-25T22:10:10.773Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -53,12 +53,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-eurosky",
+        "identifier": "network-wsocial-pds",
         "locales": [
           {
-            "description": "Account is hosted by the eurosky.social PDS",
+            "description": "Account is hosted by the pds.wsocial.network PDS",
             "lang": "en",
-            "name": "eurosky.social"
+            "name": "pds.wsocial.network"
           }
         ],
         "severity": "inform"
@@ -67,12 +67,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wsocial-pds",
+        "identifier": "social-eurosky",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wsocial.network PDS",
+            "description": "Account is hosted by the eurosky.social PDS",
             "lang": "en",
-            "name": "pds.wsocial.network"
+            "name": "eurosky.social"
           }
         ],
         "severity": "inform"
@@ -291,6 +291,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fan-radial-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.radial.fan PDS",
+            "lang": "en",
+            "name": "pds.radial.fan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-yinzcloud-bsky-pds",
         "locales": [
           {
@@ -311,20 +325,6 @@
             "description": "Account is hosted by the pds.atheistmass.com PDS",
             "lang": "en",
             "name": "pds.atheistmass.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "fan-radial-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.radial.fan PDS",
-            "lang": "en",
-            "name": "pds.radial.fan"
           }
         ],
         "severity": "inform"
@@ -459,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-qualiaworks-eurosky--pds",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the eurosky-pds.qualiaworks.com PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "eurosky-pds.qualiaworks.com"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -473,12 +473,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "com-qualiaworks-eurosky--pds",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the eurosky-pds.qualiaworks.com PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "eurosky-pds.qualiaworks.com"
           }
         ],
         "severity": "inform"
@@ -711,12 +711,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-alley-chicago--com-pds",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the pds.chicago-com.alley.dev PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "pds.chicago-com.alley.dev"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -725,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "dev-alley-chicago--com-pds",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the pds.chicago-com.alley.dev PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "pds.chicago-com.alley.dev"
           }
         ],
         "severity": "inform"
@@ -907,6 +907,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-bookhive",
+        "locales": [
+          {
+            "description": "Account is hosted by the bookhive.social PDS",
+            "lang": "en",
+            "name": "bookhive.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cc-velvetnova",
         "locales": [
           {
@@ -927,20 +941,6 @@
             "description": "Account is hosted by the fazen.social PDS",
             "lang": "en",
             "name": "fazen.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bookhive",
-        "locales": [
-          {
-            "description": "Account is hosted by the bookhive.social PDS",
-            "lang": "en",
-            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -1397,6 +1397,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-ofdev-pds3",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds3.ofdev.net PDS",
+            "lang": "en",
+            "name": "pds3.ofdev.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "org-seiran--beta",
         "locales": [
           {
@@ -1434,27 +1448,13 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-gumby",
-        "locales": [
-          {
-            "description": "Account is hosted by the gumby.social PDS",
-            "lang": "en",
-            "name": "gumby.social"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
       "internal-independent",
       "internal-other",
-      "social-eurosky",
       "network-wsocial-pds",
+      "social-eurosky",
       "club-nacg",
       "global-bsky",
       "one-certified",
@@ -1470,9 +1470,9 @@
       "io-tdpl",
       "computer-aesthetic-at",
       "world-radical-r",
+      "fan-radial-pds",
       "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
-      "fan-radial-pds",
       "so-sprk-pds",
       "live-shxre",
       "social-ekamdor-pds",
@@ -1482,8 +1482,8 @@
       "social-selfhosted",
       "xyz-skystack",
       "net-hsuanyuchou-taipei",
-      "com-qualiaworks-eurosky--pds",
       "social-northsky",
+      "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "network-nobody-node",
       "homes-si46",
@@ -1500,8 +1500,8 @@
       "me-opnmt-pds",
       "at-forum--hietzing",
       "at-admat-bsx",
-      "dev-alley-chicago--com-pds",
       "world-jalsa-u",
+      "dev-alley-chicago--com-pds",
       "com-perohub-pds",
       "cafe-pckt-pds",
       "com-mulgez-api",
@@ -1514,9 +1514,9 @@
       "social-skyphone-pds",
       "cloud-nihilist",
       "social-pwkl-us1-dev",
+      "social-bookhive",
       "cc-velvetnova",
       "social-fazen",
-      "social-bookhive",
       "space-cannect",
       "cloud-hstgr-srv865737",
       "fail-marta",
@@ -1549,10 +1549,10 @@
       "com-wouldcop-pds",
       "org-climateai",
       "xyz-syang-pds",
+      "net-ofdev-pds3",
       "org-seiran--beta",
       "net-socialsandbox3",
-      "dev-fly-crimson--field--2410",
-      "social-gumby"
+      "dev-fly-crimson--field--2410"
     ]
   }
 }

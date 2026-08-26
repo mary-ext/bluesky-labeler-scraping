@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreia44w5n2xwgcxlvpecmjsblewyy6i3wtmf67o7nywr4wnkhj5cmu4",
+  "cid": "bafyreidpexyrey527zgxventzzf6uewrt7ol4x6k46n5rtioqbpia52cpm",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
     "handle": "moderation.northsky.social",
@@ -20,7 +20,7 @@
     "description": "🌌Moderation layer offered by Northsky Social🌌\n💚Staffed by a team of volunteer moderators💜\n⚖️Appeal in-app or via https://tally.so/r/b5KZe7\n🫰Support our efforts here: https://northskysocial.com/profile/products",
     "indexedAt": "2026-05-27T02:13:16.474Z"
   },
-  "indexedAt": "2026-07-29T22:19:17.366Z",
+  "indexedAt": "2026-08-26T00:08:06.671Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -443,6 +443,34 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "youth-endangerment",
+        "locales": [
+          {
+            "description": "Behavior or content that endangers the safety of minors. This includes CSAM, child grooming or solicitation, pedophilia apologia, and anything that puts minors at risk of harm.",
+            "lang": "en",
+            "name": "Youth Endangerment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "fatphobia",
+        "locales": [
+          {
+            "description": "Content that ridicules, devalues, or otherwise disparages people who are fat.",
+            "lang": "en",
+            "name": "Fatphobia"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -475,7 +503,9 @@
       "parody",
       "graphic-media",
       "csam",
-      "bestiality"
+      "bestiality",
+      "youth-endangerment",
+      "fatphobia"
     ]
   },
   "reasonTypes": [
