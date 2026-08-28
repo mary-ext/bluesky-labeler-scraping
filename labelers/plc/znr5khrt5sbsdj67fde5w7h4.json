@@ -1,0 +1,184 @@
+{
+  "uri": "at://did:plc:znr5khrt5sbsdj67fde5w7h4/app.bsky.labeler.service/self",
+  "cid": "bafyreihdrxqm4ys5mrinbwueffe5jqfi77hakueikl5mtd5xwfzegb2z7q",
+  "creator": {
+    "did": "did:plc:znr5khrt5sbsdj67fde5w7h4",
+    "handle": "politics-labeler.bsky.social",
+    "displayName": "Politik-Themenfilter",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:znr5khrt5sbsdj67fde5w7h4/bafkreidrp5iels4tmekrqbig77vt2po7krw3e4utlytf5qwmdzdqul2vrq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-08-22T18:16:58.170Z",
+    "description": "Neutraler Themenfilter für Posts über Politiker:innen – nach Partei bzw. international kategorisiert.\n\nAufbauphase: noch keine öffentlichen Labels.\nhttps://politik-labeler.coreworks.dev/about/",
+    "indexedAt": "2026-08-22T18:33:19.867Z"
+  },
+  "indexedAt": "2026-08-28T07:26:32.466Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-cdu",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell der CDU zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · CDU"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-csu",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell der CSU zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · CSU"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-spd",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell der SPD zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · SPD"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-gruene",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell Bündnis 90/Die Grünen zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · Grüne"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-fdp",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell der FDP zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · FDP"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-linke",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell der Partei Die Linke zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · Die Linke"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-afd",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell der AfD zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · AfD"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-bsw",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer aktuell dem BSW zugeordneten deutschen Politikerin oder eines Politikers.",
+            "lang": "de",
+            "name": "Politik · BSW"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-de-sonstige",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer gepflegten deutschen Politikerin oder eines Politikers ohne eigene Parteikategorie.",
+            "lang": "de",
+            "name": "Politik · weitere DE"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "politik-international",
+        "locales": [
+          {
+            "description": "Der Post nennt den vollständigen Namen einer gepflegten Politikerin oder eines Politikers außerhalb Deutschlands.",
+            "lang": "de",
+            "name": "Politik · international"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "politik-de-cdu",
+      "politik-de-csu",
+      "politik-de-spd",
+      "politik-de-gruene",
+      "politik-de-fdp",
+      "politik-de-linke",
+      "politik-de-afd",
+      "politik-de-bsw",
+      "politik-de-sonstige",
+      "politik-international"
+    ]
+  },
+  "subjectTypes": [
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}
