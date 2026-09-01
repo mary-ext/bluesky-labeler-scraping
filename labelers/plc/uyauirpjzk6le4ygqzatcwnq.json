@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidxpmrml4m4p5jqrtbvlh4cnjcc74bcm3fjh2hsgnleyrnp3p6a4q",
+  "cid": "bafyreieezb6s3ooihx2amclt57ephwmdcn4sofso2puy5cipenugjrhofu",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-08-30T22:10:10.877Z",
+  "indexedAt": "2026-08-31T22:10:11.015Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -661,6 +661,20 @@
             "description": "Account is hosted by the test-pds.dinakernel.com PDS",
             "lang": "en",
             "name": "test-pds.dinakernel.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "me-opnmt-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.opnmt.me PDS",
+            "lang": "en",
+            "name": "pds.opnmt.me"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "online-magallan",
-        "locales": [
-          {
-            "description": "Account is hosted by the magallan.online PDS",
-            "lang": "en",
-            "name": "magallan.online"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1497,6 +1497,7 @@
       "social-npmx",
       "to-tor0n",
       "com-dinakernel-test--pds",
+      "me-opnmt-pds",
       "at-forum--hietzing",
       "at-admat-bsx",
       "world-jalsa-u",
@@ -1551,8 +1552,7 @@
       "xyz-syang-pds",
       "net-socialsandbox3",
       "dev-fly-crimson--field--2410",
-      "social-gumby",
-      "online-magallan"
+      "social-gumby"
     ]
   }
 }
