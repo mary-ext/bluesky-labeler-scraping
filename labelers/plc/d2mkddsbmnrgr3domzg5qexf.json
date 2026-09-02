@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
-  "cid": "bafyreid5wjihorco6gjyn4ny3lfolx4f6r4epu7nlhkcjb42gnzifnhkou",
+  "cid": "bafyreihk47ex6oaa76gioiztkgvxrcooxt7inp2pflqccr2ebk2y2qe4ba",
   "creator": {
     "did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
     "handle": "moderation.blacksky.app",
@@ -21,7 +21,7 @@
     "description": "Building the intercommunal net\n\nThis account is a mod service for Blacksky, subscribe to use our filters\n\nMain account: @blackskyweb.xyz\nAppeals: https://blackskyweb.xyz/about/support/moderation-appeal/",
     "indexedAt": "2026-07-23T18:15:28.268Z"
   },
-  "indexedAt": "2026-08-27T21:03:18.876Z",
+  "indexedAt": "2026-09-01T16:40:42.905Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -240,6 +240,30 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "digital-blackface",
+        "locales": [
+          {
+            "description": "Digital Blackface is a form of anti-Black violence where a non-Black user impersonates a Black person.",
+            "lang": "en",
+            "name": "Digital Blackface"
+          },
+          {
+            "description": "Blackface digital é uma forma de violência antinegra na qual um usuário não-negro se passa por uma pessoa negra.",
+            "lang": "pt",
+            "name": "Blackface Digital"
+          },
+          {
+            "description": "Le blackface numérique est une forme de violence anti-noire dans laquelle un utilisateur non-noir se fait passer pour une personne noire sur n'importe.",
+            "lang": "fr",
+            "name": "Blackface Numérique"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -252,7 +276,7 @@
       "antiblack-harassment",
       "fatphobia",
       "ableism",
-      "Digital Blackface"
+      "digital-blackface"
     ]
   },
   "reasonTypes": [

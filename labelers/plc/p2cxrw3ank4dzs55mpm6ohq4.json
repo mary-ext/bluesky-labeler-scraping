@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p2cxrw3ank4dzs55mpm6ohq4/app.bsky.labeler.service/self",
-  "cid": "bafyreidpexyrey527zgxventzzf6uewrt7ol4x6k46n5rtioqbpia52cpm",
+  "cid": "bafyreic3zmmvkeznokgs6c4kw7sd4bgceeylnwnpcpgskxuntfrfs3fjnq",
   "creator": {
     "did": "did:plc:p2cxrw3ank4dzs55mpm6ohq4",
     "handle": "moderation.northsky.social",
@@ -20,7 +20,7 @@
     "description": "🌌Moderation layer offered by Northsky Social🌌\n💚Staffed by a team of volunteer moderators💜\n⚖️Appeal in-app or via https://tally.so/r/b5KZe7\n🫰Support our efforts here: https://northskysocial.com/profile/products",
     "indexedAt": "2026-05-27T02:13:16.474Z"
   },
-  "indexedAt": "2026-08-26T00:08:06.671Z",
+  "indexedAt": "2026-09-01T04:03:58.103Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -31,7 +31,7 @@
         "identifier": "ableism",
         "locales": [
           {
-            "description": "Beliefs that sees persons with disabilities as being less worthy of respect and consideration, less able to contribute and participate, or of less inherent value than others.",
+            "description": "Ableist slurs or rhetoric that describes persons with disabilities as being less worthy of respect and consideration, less able to contribute and participate, or of less inherent value than others.",
             "lang": "en",
             "name": "Ableism"
           }
@@ -70,62 +70,6 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "apologia-abuse",
-        "locales": [
-          {
-            "description": "Apologia: defense or minimizing of the harm of abuse (sexual or otherwise)",
-            "lang": "en",
-            "name": "Apologia: Abuse"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "apologia-pedophilia",
-        "locales": [
-          {
-            "description": "Apologia: defense or minimizing of the harm of pedophilia and CSAM",
-            "lang": "en",
-            "name": "Apologia: Pedophilia"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "apologia-zoophilia",
-        "locales": [
-          {
-            "description": "Apologia: defense or minimizing of the harm of zoophilia or bestiality",
-            "lang": "en",
-            "name": "Apologia: Zoophilia"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "apologia-transphobia",
-        "locales": [
-          {
-            "description": "Apologia: defense or minimizing of the harm of trans or nonbinary people",
-            "lang": "en",
-            "name": "Apologia: Transphobia"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
         "identifier": "biphobia",
         "locales": [
           {
@@ -143,7 +87,7 @@
         "identifier": "enbyphobia",
         "locales": [
           {
-            "description": "Content that dehumanizes, demeans, others, or otherwise calls for suspicion or harm of non-binary people.",
+            "description": "Content that dehumanizes, demeans, others, or otherwise calls for suspicion or harm of non-binary or gender diverse people.",
             "lang": "en",
             "name": "Enbyphobia"
           }
@@ -227,7 +171,7 @@
         "identifier": "transphobia",
         "locales": [
           {
-            "description": "Content that dehumanizes, demeans, others, or otherwise calls for suspicion or harm of trans people.",
+            "description": "Content that dehumanizes, demeans, edangers, others, or otherwise calls for suspicion or harm of trans people.",
             "lang": "en",
             "name": "Transphobia"
           }
@@ -241,7 +185,7 @@
         "identifier": "whorephobia",
         "locales": [
           {
-            "description": "Discrimination, stigmatization, and hatred directed at sex workers or people who express their sexuality openly.",
+            "description": "Discrimination, stigmatization, hatred, and mistratment of sex workers or people who express their sexuality openly.",
             "lang": "en",
             "name": "Whorephobia"
           }
@@ -255,7 +199,7 @@
         "identifier": "xenophobia",
         "locales": [
           {
-            "description": "Fear, hatred, or mistrust of immigrants, refugees, or foreigners or things considered foreign.",
+            "description": "Fear, hatred, or mistrust of immigrants, refugees, or foreigners or things considered foreign, including nativist rhetoric.",
             "lang": "en",
             "name": "Xenophobia"
           }
@@ -269,51 +213,9 @@
         "identifier": "harassment",
         "locales": [
           {
-            "description": "Consistent behavior of targeting and harassing individuals or members of groups, usually involving repeated unwanted contact and obviation of blocks.",
+            "description": "Targeted harassment of individuals or groups. Abusive behavior such as repeated unwanted contact, stalking and obviating blocks, inappropriate sexual conduct, brigading, and excusing abusive behavior.",
             "lang": "en",
             "name": "Harassment"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "stalking",
-        "locales": [
-          {
-            "description": "Consistent behavior of bypassing boundaries and blocks to stalk an individual or group, or otherwise exhibiting unwanted obsessive attention.",
-            "lang": "en",
-            "name": "Stalking"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "endangering-minor",
-        "locales": [
-          {
-            "description": "Demonstrating behavior that endangers the safety of a minor.",
-            "lang": "en",
-            "name": "Endangering Minor"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "undermining-wrecking",
-        "locales": [
-          {
-            "description": "Engaging in behavior that is aimed at undermining or wrecking a group or organization.",
-            "lang": "en",
-            "name": "Undermining-Wrecking"
           }
         ],
         "severity": "alert"
@@ -325,7 +227,7 @@
         "identifier": "spreading-misinformation",
         "locales": [
           {
-            "description": "Consistently spreading misinformation and not issuing retractions when corrected.",
+            "description": "Consistentl spreading of misinformation, deliberately or inadvertantly, without issuing corrections.",
             "lang": "en",
             "name": "Spreading Misinformation"
           }
@@ -339,23 +241,9 @@
         "identifier": "nsfw-doesnt-tag",
         "locales": [
           {
-            "description": "Consistently fails to tag their NSFW posts against Community Guidelines after being warned by moderation. (this will limit post visibility until corrected)",
+            "description": "Northsky PDS Accounts Only: Failure to tag NSFW posts in accordance with our Community Guidelines. (this will limit post visibility until corrected)",
             "lang": "en",
             "name": "NSFW Doesn't Tag"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "animal-abuse",
-        "locales": [
-          {
-            "description": "Content or behavior that harms or promotes the harm of animals.",
-            "lang": "en",
-            "name": "Animal Abuse"
           }
         ],
         "severity": "alert"
@@ -420,34 +308,6 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "csam",
-        "locales": [
-          {
-            "description": "Content that portrays subjects (real or drawn) that appear under the age of 18 in a sexualized manner or engaging in sexual acts.",
-            "lang": "en",
-            "name": "CSAM (Child Sexual Abuse Material)"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
-        "identifier": "bestiality",
-        "locales": [
-          {
-            "description": "Content that depicts sexual acts involving realistic animals.",
-            "lang": "en",
-            "name": "Bestiality"
-          }
-        ],
-        "severity": "alert"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "hide",
         "identifier": "youth-endangerment",
         "locales": [
           {
@@ -477,10 +337,6 @@
       "ableism",
       "acephobia",
       "antisemitism",
-      "apologia-pedophilia",
-      "apologia-zoophilia",
-      "apologia-abuse",
-      "apologia-transphobia",
       "biphobia",
       "enbyphobia",
       "homophobia",
@@ -492,18 +348,12 @@
       "whorephobia",
       "xenophobia",
       "harassment",
-      "stalking",
-      "endangering-minor",
-      "undermining-wrecking",
       "spreading-misinformation",
       "nsfw-doesnt-tag",
-      "animal-abuse",
       "doxing",
       "impersonation",
       "parody",
       "graphic-media",
-      "csam",
-      "bestiality",
       "youth-endangerment",
       "fatphobia"
     ]
