@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreihfkw7agrkctlynzl3k3rexedng3hwkbat4vrlkwtdkvlss7vlkre",
+  "cid": "bafyreihb2mnkfrqxltvpldjtprxnr7vrhkehg2q7y2ftq4hdk5werrm6di",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-02T02:50:07.710Z",
+  "indexedAt": "2026-09-02T14:50:08.204Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -591,6 +591,20 @@
             "description": "Account is hosted by the pds.goldentooth.net PDS",
             "lang": "en",
             "name": "pds.goldentooth.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-dadavidtseng-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.dadavidtseng.com PDS",
+            "lang": "en",
+            "name": "pds.dadavidtseng.com"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "su-nyet",
-        "locales": [
-          {
-            "description": "Account is hosted by the nyet.su PDS",
-            "lang": "en",
-            "name": "nyet.su"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1492,6 +1492,7 @@
       "at-nightbo-pds",
       "social-novum",
       "net-goldentooth-pds",
+      "com-dadavidtseng-pds",
       "com-nrbrtspvk-bsky",
       "net-riyo-pds",
       "social-npmx",
@@ -1551,8 +1552,7 @@
       "ai-swarmchat-pds",
       "com-wouldcop-pds",
       "org-seiran--beta",
-      "com-ripperoni-alt",
-      "su-nyet"
+      "com-ripperoni-alt"
     ]
   }
 }
