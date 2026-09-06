@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:yehb6js3fd3w7gprvkl4cd4j/app.bsky.labeler.service/self",
-  "cid": "bafyreihfyx7jzwbkq2sp23bgorlfcgqzr4u3ikb7wcyx4aprskn5tptkym",
+  "cid": "bafyreihnqmea7cr76e2olfmmuodtpnj3jup537vrd3wv4lx4m2pcczq6yi",
   "creator": {
     "did": "did:plc:yehb6js3fd3w7gprvkl4cd4j",
     "handle": "merchantsguild.bsky.social",
@@ -21,7 +21,7 @@
     "description": "This is a labeling service for those in the TTRPG Industry. It also doubles as a Job board. \n\nIf you're looking to Playtest games, request that role to let people know you're open to test their games.",
     "indexedAt": "2026-08-19T09:58:37.061Z"
   },
-  "indexedAt": "2026-09-03T23:19:56.668Z",
+  "indexedAt": "2026-09-05T15:39:14.071Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -158,7 +158,7 @@
         "identifier": "ttrpg-publisher",
         "locales": [
           {
-            "description": "This profile has been independently reviewed.\n\nPublishes tabletop roleplaying games, supplements, adventures, or related materials.",
+            "description": "✅ This profile has been independently reviewed.\n\nPublishes tabletop roleplaying games, supplements, adventures, or related materials.",
             "lang": "en",
             "name": "TTRPG Publisher"
           }
@@ -172,7 +172,7 @@
         "identifier": "ttrpg-retailer",
         "locales": [
           {
-            "description": "This profile has been independently reviewed.\n\nA physical or digital retailer that sells tabletop roleplaying games and related materials.",
+            "description": "✅ This profile has been independently reviewed.\n\nA physical or digital retailer that sells tabletop roleplaying games and related materials.",
             "lang": "en",
             "name": "TTRPG Retailer"
           }
@@ -186,7 +186,7 @@
         "identifier": "ttrpg-community",
         "locales": [
           {
-            "description": "This profile has been independently reviewed.\n\nAn account representing a tabletop roleplaying community, club, network, or organized group.",
+            "description": "✅ This profile has been independently reviewed.\n\nAn account representing a tabletop roleplaying community, club, network, or organized group.",
             "lang": "en",
             "name": "TTRPG Community"
           }
@@ -200,7 +200,7 @@
         "identifier": "ttrpg-archives",
         "locales": [
           {
-            "description": "This profile has been independently reviewed.\n\nAn archive, library, museum, or preservation project focused on tabletop roleplaying games.",
+            "description": "✅ This profile has been independently reviewed.\n\nAn archive, library, museum, or preservation project focused on tabletop roleplaying games.",
             "lang": "en",
             "name": "TTRPG Archives"
           }
@@ -214,7 +214,7 @@
         "identifier": "ttrpg-publication",
         "locales": [
           {
-            "description": "This profile has been independently reviewed.\n\nA magazine, newsletter, blog, or editorial and news outlet covering tabletop roleplaying games.",
+            "description": "✅ This profile has been independently reviewed.\n\nA magazine, newsletter, blog, or editorial and news outlet covering tabletop roleplaying games.",
             "lang": "en",
             "name": "TTRPG Publication"
           }
@@ -228,9 +228,37 @@
         "identifier": "class-alchemist",
         "locales": [
           {
-            "description": "Transforms careful experiments into strange remedies, volatile tools, and useful surprises.",
+            "description": "Creates bombs, elixirs, poisons, and other tools through alchemy.",
             "lang": "en",
-            "name": "Alchemist"
+            "name": "Class · Alchemist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "class-animist",
+        "locales": [
+          {
+            "description": "Works with spirits and borrows their powers, knowledge, and abilities.",
+            "lang": "en",
+            "name": "Class · Animist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "class-barbarian",
+        "locales": [
+          {
+            "description": "Fights with instinct, rage, and overwhelming physical force.",
+            "lang": "en",
+            "name": "Class · Barbarian"
           }
         ],
         "severity": "inform"
@@ -242,9 +270,9 @@
         "identifier": "class-bard",
         "locales": [
           {
-            "description": "Turns performance, wit, and hard-won stories into courage, connection, and change.",
+            "description": "Uses performance and occult magic to support allies and unsettle enemies.",
             "lang": "en",
-            "name": "Bard"
+            "name": "Class · Bard"
           }
         ],
         "severity": "inform"
@@ -253,12 +281,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-berserker",
+        "identifier": "class-champion",
         "locales": [
           {
-            "description": "Meets danger with fierce momentum, startling endurance, and force that is difficult to stop.",
+            "description": "A heavily armored warrior empowered by devotion to a cause or deity.",
             "lang": "en",
-            "name": "Berserker"
+            "name": "Class · Champion"
           }
         ],
         "severity": "inform"
@@ -270,9 +298,9 @@
         "identifier": "class-cleric",
         "locales": [
           {
-            "description": "Carries a sacred calling through restorative rites, protective acts, and decisive miracles.",
+            "description": "Wields divine magic granted by a deity, faith, or sacred calling.",
             "lang": "en",
-            "name": "Cleric"
+            "name": "Class · Cleric"
           }
         ],
         "severity": "inform"
@@ -284,9 +312,9 @@
         "identifier": "class-commander",
         "locales": [
           {
-            "description": "Reads the field, coordinates allies, and makes a capable group work as one.",
+            "description": "Directs allies through tactics, coordinated movement, and battlefield leadership.",
             "lang": "en",
-            "name": "Commander"
+            "name": "Class · Commander"
           }
         ],
         "severity": "inform"
@@ -298,9 +326,23 @@
         "identifier": "class-druid",
         "locales": [
           {
-            "description": "Draws power and perspective from wild places, living cycles, weather, and change.",
+            "description": "Wields primal magic drawn from nature, animals, elements, and the seasons.",
             "lang": "en",
-            "name": "Druid"
+            "name": "Class · Druid"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "class-exemplar",
+        "locales": [
+          {
+            "description": "A mythic hero whose deeds and signature items channel divine power.",
+            "lang": "en",
+            "name": "Class · Exemplar"
           }
         ],
         "severity": "inform"
@@ -312,9 +354,9 @@
         "identifier": "class-fighter",
         "locales": [
           {
-            "description": "Builds mastery through discipline, practiced technique, and command of arms.",
+            "description": "A martial specialist defined by superior weapon skill and combat technique.",
             "lang": "en",
-            "name": "Fighter"
+            "name": "Class · Fighter"
           }
         ],
         "severity": "inform"
@@ -326,9 +368,9 @@
         "identifier": "class-guardian",
         "locales": [
           {
-            "description": "Stands between danger and the people, places, or promises that must endure.",
+            "description": "Protects allies by controlling space, absorbing pressure, and drawing enemy attention.",
             "lang": "en",
-            "name": "Guardian"
+            "name": "Class · Guardian"
           }
         ],
         "severity": "inform"
@@ -337,12 +379,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-healer",
+        "identifier": "class-gunslinger",
         "locales": [
           {
-            "description": "Keeps companions moving through medicine, restoration, patience, and care.",
+            "description": "A precision fighter specializing in firearms, crossbows, and quick reactions.",
             "lang": "en",
-            "name": "Healer"
+            "name": "Class · Gunslinger"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "class-inventor",
+        "locales": [
+          {
+            "description": "Builds and upgrades a powerful custom weapon, armor suit, or construct.",
+            "lang": "en",
+            "name": "Class · Inventor"
           }
         ],
         "severity": "inform"
@@ -354,9 +410,9 @@
         "identifier": "class-investigator",
         "locales": [
           {
-            "description": "Finds the telling detail, tests every theory, and follows questions others overlook.",
+            "description": "Solves problems through deduction, preparation, and carefully chosen strikes.",
             "lang": "en",
-            "name": "Investigator"
+            "name": "Class · Investigator"
           }
         ],
         "severity": "inform"
@@ -365,12 +421,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-mage",
+        "identifier": "class-kineticist",
         "locales": [
           {
-            "description": "Shapes magic through study, instinct, tradition, or a method entirely their own.",
+            "description": "Shapes raw elemental forces directly through body and will.",
             "lang": "en",
-            "name": "Mage"
+            "name": "Class · Kineticist"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "class-magus",
+        "locales": [
+          {
+            "description": "Combines weapon attacks and arcane spells in the same strike.",
+            "lang": "en",
+            "name": "Class · Magus"
           }
         ],
         "severity": "inform"
@@ -382,9 +452,23 @@
         "identifier": "class-monk",
         "locales": [
           {
-            "description": "Refines movement, focus, and inner discipline into extraordinary action.",
+            "description": "Uses disciplined movement, unarmed combat, and focused inner power.",
             "lang": "en",
-            "name": "Monk"
+            "name": "Class · Monk"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "show",
+        "identifier": "class-necromancer",
+        "locales": [
+          {
+            "description": "Commands necromantic magic and temporary undead thralls.",
+            "lang": "en",
+            "name": "Class · Necromancer"
           }
         ],
         "severity": "inform"
@@ -396,9 +480,9 @@
         "identifier": "class-oracle",
         "locales": [
           {
-            "description": "Reads signs at the edge of certainty and carries truths that rarely arrive without a cost.",
+            "description": "Channels divine mystery through powerful magic that carries a personal curse.",
             "lang": "en",
-            "name": "Oracle"
+            "name": "Class · Oracle"
           }
         ],
         "severity": "inform"
@@ -407,26 +491,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-paladin",
+        "identifier": "class-psychic",
         "locales": [
           {
-            "description": "Turns a chosen oath into protection, conviction, and action when the stakes are highest.",
+            "description": "Uses focused thought and emotion to amplify occult spellcasting.",
             "lang": "en",
-            "name": "Paladin"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "class-psion",
-        "locales": [
-          {
-            "description": "Uses disciplined thought, perception, and will to reach beyond ordinary limits.",
-            "lang": "en",
-            "name": "Psion"
+            "name": "Class · Psychic"
           }
         ],
         "severity": "inform"
@@ -438,9 +508,9 @@
         "identifier": "class-ranger",
         "locales": [
           {
-            "description": "Navigates difficult ground, studies worthy quarry, and thrives beyond familiar roads.",
+            "description": "Hunts chosen targets using tracking, fieldcraft, and specialized combat techniques.",
             "lang": "en",
-            "name": "Ranger"
+            "name": "Class · Ranger"
           }
         ],
         "severity": "inform"
@@ -452,9 +522,9 @@
         "identifier": "class-rogue",
         "locales": [
           {
-            "description": "Solves problems with timing, nerve, practiced skill, and an eye for the overlooked route.",
+            "description": "Exploits openings with stealth, precision, mobility, and a broad range of skills.",
             "lang": "en",
-            "name": "Rogue"
+            "name": "Class · Rogue"
           }
         ],
         "severity": "inform"
@@ -463,12 +533,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-scholar",
+        "identifier": "class-runesmith",
         "locales": [
           {
-            "description": "Makes knowledge practical by preserving, questioning, and applying what others have forgotten.",
+            "description": "Inscribes temporary magical runes on weapons, armor, creatures, and terrain.",
             "lang": "en",
-            "name": "Scholar"
+            "name": "Class · Runesmith"
           }
         ],
         "severity": "inform"
@@ -477,12 +547,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-shaman",
+        "identifier": "class-sorcerer",
         "locales": [
           {
-            "description": "Works through relationships with spirits, ancestors, places, and unseen communities.",
+            "description": "Casts innate magic inherited or awakened through a supernatural bloodline.",
             "lang": "en",
-            "name": "Shaman"
+            "name": "Class · Sorcerer"
           }
         ],
         "severity": "inform"
@@ -494,9 +564,9 @@
         "identifier": "class-summoner",
         "locales": [
           {
-            "description": "Builds bonds across impossible distances and calls remarkable allies to their side.",
+            "description": "Fights alongside a bonded eidolon and shares magic, actions, and vitality with it.",
             "lang": "en",
-            "name": "Summoner"
+            "name": "Class · Summoner"
           }
         ],
         "severity": "inform"
@@ -505,12 +575,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-tinkerer",
+        "identifier": "class-swashbuckler",
         "locales": [
           {
-            "description": "Coaxes useful, improbable things from mechanisms, scraps, and persistent curiosity.",
+            "description": "Gains momentum through daring skill and spends it on precise finishing attacks.",
             "lang": "en",
-            "name": "Tinkerer"
+            "name": "Class · Swashbuckler"
           }
         ],
         "severity": "inform"
@@ -519,12 +589,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-warlock",
+        "identifier": "class-thaumaturge",
         "locales": [
           {
-            "description": "Wields power shaped by a consequential pact, bargain, inheritance, or obligation.",
+            "description": "Exploits supernatural weaknesses using esoteric knowledge and symbolic implements.",
             "lang": "en",
-            "name": "Warlock"
+            "name": "Class · Thaumaturge"
           }
         ],
         "severity": "inform"
@@ -536,9 +606,9 @@
         "identifier": "class-witch",
         "locales": [
           {
-            "description": "Practices personal magic through craft, intuition, old knowledge, and unusual relationships.",
+            "description": "Learns magic through a familiar connected to a mysterious patron.",
             "lang": "en",
-            "name": "Witch"
+            "name": "Class · Witch"
           }
         ],
         "severity": "inform"
@@ -547,236 +617,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "show",
-        "identifier": "class-warden",
+        "identifier": "class-wizard",
         "locales": [
           {
-            "description": "Defends a living place or community with resilience, vigilance, and grounded strength.",
+            "description": "Prepares arcane spells through study, a spellbook, and a chosen magical curriculum.",
             "lang": "en",
-            "name": "Warden"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-celestial",
-        "locales": [
-          {
-            "description": "An adventurer whose lineage or chosen form carries a trace of the heavens.",
-            "lang": "en",
-            "name": "Celestial"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-construct",
-        "locales": [
-          {
-            "description": "An adventurer with a made body, an awakened purpose, and a life of their own.",
-            "lang": "en",
-            "name": "Construct"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-dragonkin",
-        "locales": [
-          {
-            "description": "An adventurer marked by draconic form, legacy, kinship, or transformation.",
-            "lang": "en",
-            "name": "Dragonkin"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-dwarf",
-        "locales": [
-          {
-            "description": "A dwarven adventurer shaped by their own community, travels, and ambitions.",
-            "lang": "en",
-            "name": "Dwarf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-elf",
-        "locales": [
-          {
-            "description": "An elven adventurer shaped by their own memory, culture, and chosen path.",
-            "lang": "en",
-            "name": "Elf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-fae",
-        "locales": [
-          {
-            "description": "An adventurer tied to strange courts, old bargains, wild magic, or another wondrous realm.",
-            "lang": "en",
-            "name": "Fae"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-giantkin",
-        "locales": [
-          {
-            "description": "An adventurer with giant heritage, stature, magic, or an adopted giant tradition.",
-            "lang": "en",
-            "name": "Giantkin"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-gnome",
-        "locales": [
-          {
-            "description": "A gnomish adventurer defined by their own work, relationships, and curiosity.",
-            "lang": "en",
-            "name": "Gnome"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-goblin",
-        "locales": [
-          {
-            "description": "A goblin adventurer with a story, community, and purpose entirely their own.",
-            "lang": "en",
-            "name": "Goblin"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-halfling",
-        "locales": [
-          {
-            "description": "A halfling adventurer carrying their own history, comforts, and reasons to roam.",
-            "lang": "en",
-            "name": "Halfling"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-human",
-        "locales": [
-          {
-            "description": "A human adventurer shaped by culture, circumstance, and the choices still ahead.",
-            "lang": "en",
-            "name": "Human"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-infernal",
-        "locales": [
-          {
-            "description": "An adventurer whose lineage or chosen form bears a connection to infernal realms.",
-            "lang": "en",
-            "name": "Infernal"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-kobold",
-        "locales": [
-          {
-            "description": "A kobold adventurer guided by their own craft, community, and daring.",
-            "lang": "en",
-            "name": "Kobold"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-orc",
-        "locales": [
-          {
-            "description": "An orc adventurer shaped by their own people, experiences, and convictions.",
-            "lang": "en",
-            "name": "Orc"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-shapeshifter",
-        "locales": [
-          {
-            "description": "An adventurer whose form is fluid, borrowed, multiple, or deliberately remade.",
-            "lang": "en",
-            "name": "Shapeshifter"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "show",
-        "identifier": "ancestry-undead",
-        "locales": [
-          {
-            "description": "An adventurer continuing beyond death with purpose, memory, and unfinished choices.",
-            "lang": "en",
-            "name": "Undead"
+            "name": "Class · Wizard"
           }
         ],
         "severity": "inform"
@@ -798,45 +644,34 @@
       "ttrpg-archives",
       "ttrpg-publication",
       "class-alchemist",
+      "class-animist",
+      "class-barbarian",
       "class-bard",
-      "class-berserker",
+      "class-champion",
       "class-cleric",
       "class-commander",
       "class-druid",
+      "class-exemplar",
       "class-fighter",
       "class-guardian",
-      "class-healer",
+      "class-gunslinger",
+      "class-inventor",
       "class-investigator",
-      "class-mage",
+      "class-kineticist",
+      "class-magus",
       "class-monk",
+      "class-necromancer",
       "class-oracle",
-      "class-paladin",
-      "class-psion",
+      "class-psychic",
       "class-ranger",
       "class-rogue",
-      "class-scholar",
-      "class-shaman",
+      "class-runesmith",
+      "class-sorcerer",
       "class-summoner",
-      "class-tinkerer",
-      "class-warlock",
+      "class-swashbuckler",
+      "class-thaumaturge",
       "class-witch",
-      "class-warden",
-      "ancestry-celestial",
-      "ancestry-construct",
-      "ancestry-dragonkin",
-      "ancestry-dwarf",
-      "ancestry-elf",
-      "ancestry-fae",
-      "ancestry-giantkin",
-      "ancestry-gnome",
-      "ancestry-goblin",
-      "ancestry-halfling",
-      "ancestry-human",
-      "ancestry-infernal",
-      "ancestry-kobold",
-      "ancestry-orc",
-      "ancestry-shapeshifter",
-      "ancestry-undead"
+      "class-wizard"
     ]
   }
 }
