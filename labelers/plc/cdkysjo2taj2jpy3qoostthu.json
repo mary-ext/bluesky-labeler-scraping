@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cdkysjo2taj2jpy3qoostthu/app.bsky.labeler.service/self",
-  "cid": "bafyreiapafqvi2pslf7lnqz25xxrdcqhh3krlmvblpj2l6eum2moi57ski",
+  "cid": "bafyreiaxgffa23qy5fp3snq5prkeoqxspnt3ziwezo26ovwg4tngzysuiy",
   "creator": {
     "did": "did:plc:cdkysjo2taj2jpy3qoostthu",
     "handle": "bottags.bsky.social",
@@ -14,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2025-07-27T14:52:38.897Z",
-    "description": "\nLabels top-level posts that tag chat bots (e.g. \"hey @bot...\"), as well as posts with bot replies.\n\nCreated by @gracekind.net",
-    "indexedAt": "2026-09-01T02:06:16.403Z"
+    "description": "Labels for bot tags, replies, and accounts, to orient yourself in human-bot spaces.\n\nSee pinned post for source lists.\n\nCreated by @gracekind.net",
+    "indexedAt": "2026-09-07T02:36:03.756Z"
   },
-  "indexedAt": "2026-09-01T01:44:56.797Z",
+  "indexedAt": "2026-09-07T01:45:35.865Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -48,11 +48,26 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "undisclosed-bot",
+        "locales": [
+          {
+            "description": "An automated account that doesn't have the 'automated' label",
+            "lang": "en",
+            "name": "Undisclosed bot"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
       "bottag-toplevel",
-      "bot-reply"
+      "bot-reply",
+      "undisclosed-bot"
     ]
   }
 }

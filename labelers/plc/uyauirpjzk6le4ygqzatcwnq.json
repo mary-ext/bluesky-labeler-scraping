@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreie45fzgezi7qzsolaoduqyfujd4yxlsyrssek5gya2u5bylg25ety",
+  "cid": "bafyreihyqg2xdwjsrpcvmjepg63rjmje3xf6rq7ahaelenrkaojff3ygei",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-04T20:08:26.571Z",
+  "indexedAt": "2026-09-07T01:05:10.262Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -123,20 +123,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-haruhwa",
-        "locales": [
-          {
-            "description": "Account is hosted by the haruhwa.com PDS",
-            "lang": "en",
-            "name": "haruhwa.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "world-si46-pds",
         "locales": [
           {
@@ -171,6 +157,20 @@
             "description": "Account is hosted by the keik.info PDS",
             "lang": "en",
             "name": "keik.info"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-haruhwa",
+        "locales": [
+          {
+            "description": "Account is hosted by the haruhwa.com PDS",
+            "lang": "en",
+            "name": "haruhwa.com"
           }
         ],
         "severity": "inform"
@@ -263,20 +263,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "computer-aesthetic-at",
-        "locales": [
-          {
-            "description": "Account is hosted by the at.aesthetic.computer PDS",
-            "lang": "en",
-            "name": "at.aesthetic.computer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "fan-radial-pds",
         "locales": [
           {
@@ -291,12 +277,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "computer-aesthetic-at",
+        "locales": [
+          {
+            "description": "Account is hosted by the at.aesthetic.computer PDS",
+            "lang": "en",
+            "name": "at.aesthetic.computer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "world-radical-r",
         "locales": [
           {
             "description": "Account is hosted by the r.radical.world PDS",
             "lang": "en",
             "name": "r.radical.world"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cloud-nihilist",
+        "locales": [
+          {
+            "description": "Account is hosted by the nihilist.cloud PDS",
+            "lang": "en",
+            "name": "nihilist.cloud"
           }
         ],
         "severity": "inform"
@@ -431,12 +445,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "xyz-skystack",
+        "identifier": "social-northsky",
         "locales": [
           {
-            "description": "Account is hosted by the skystack.xyz PDS",
+            "description": "Account is hosted by the northsky.social PDS",
             "lang": "en",
-            "name": "skystack.xyz"
+            "name": "northsky.social"
           }
         ],
         "severity": "inform"
@@ -445,12 +459,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-northsky",
+        "identifier": "xyz-skystack",
         "locales": [
           {
-            "description": "Account is hosted by the northsky.social PDS",
+            "description": "Account is hosted by the skystack.xyz PDS",
             "lang": "en",
-            "name": "northsky.social"
+            "name": "skystack.xyz"
           }
         ],
         "severity": "inform"
@@ -571,20 +585,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-nightbo-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.nightbo.at PDS",
-            "lang": "en",
-            "name": "pds.nightbo.at"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-nrbrtspvk-bsky",
         "locales": [
           {
@@ -599,12 +599,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-novum",
+        "identifier": "at-nightbo-pds",
         "locales": [
           {
-            "description": "Account is hosted by the novum.social PDS",
+            "description": "Account is hosted by the pds.nightbo.at PDS",
             "lang": "en",
-            "name": "novum.social"
+            "name": "pds.nightbo.at"
           }
         ],
         "severity": "inform"
@@ -619,6 +619,20 @@
             "description": "Account is hosted by the pds.dadavidtseng.com PDS",
             "lang": "en",
             "name": "pds.dadavidtseng.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-novum",
+        "locales": [
+          {
+            "description": "Account is hosted by the novum.social PDS",
+            "lang": "en",
+            "name": "novum.social"
           }
         ],
         "severity": "inform"
@@ -711,12 +725,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-admat-bsx",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the bsx.admat.at PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "bsx.admat.at"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -725,12 +739,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "at-admat-bsx",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the bsx.admat.at PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "bsx.admat.at"
           }
         ],
         "severity": "inform"
@@ -949,20 +963,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-nihilist",
-        "locales": [
-          {
-            "description": "Account is hosted by the nihilist.cloud PDS",
-            "lang": "en",
-            "name": "nihilist.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cc-velvetnova",
         "locales": [
           {
@@ -1173,20 +1173,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-wisy-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.wisy.network PDS",
-            "lang": "en",
-            "name": "pds.wisy.network"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -1215,6 +1201,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cc-honeyvale",
+        "locales": [
+          {
+            "description": "Account is hosted by the honeyvale.cc PDS",
+            "lang": "en",
+            "name": "honeyvale.cc"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "ro-aiia-pds",
         "locales": [
           {
@@ -1235,20 +1235,6 @@
             "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
             "name": "pds.witchcraft.systems"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cc-honeyvale",
-        "locales": [
-          {
-            "description": "Account is hosted by the honeyvale.cc PDS",
-            "lang": "en",
-            "name": "honeyvale.cc"
           }
         ],
         "severity": "inform"
@@ -1341,6 +1327,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ai-swarmchat-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "lang": "en",
+            "name": "pds.swarmchat.ai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds5",
         "locales": [
           {
@@ -1383,20 +1383,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
-            "lang": "en",
-            "name": "pds.swarmchat.ai"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "dev-wsocial-pds--stage-pds01",
         "locales": [
           {
@@ -1425,6 +1411,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "net-socialsandbox3",
+        "locales": [
+          {
+            "description": "Account is hosted by the socialsandbox3.net PDS",
+            "lang": "en",
+            "name": "socialsandbox3.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "org-seiran--beta",
         "locales": [
           {
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-socialsandbox3",
+        "identifier": "com-ripperoni-alt",
         "locales": [
           {
-            "description": "Account is hosted by the socialsandbox3.net PDS",
+            "description": "Account is hosted by the alt.ripperoni.com PDS",
             "lang": "en",
-            "name": "socialsandbox3.net"
+            "name": "alt.ripperoni.com"
           }
         ],
         "severity": "inform"
@@ -1458,19 +1458,20 @@
       "club-nacg",
       "global-bsky",
       "one-certified",
-      "com-haruhwa",
       "world-si46-pds",
       "sh-tngl",
       "info-keik",
+      "com-haruhwa",
       "app-blacksky",
       "me-1095-pds",
       "app-louisvillebsky-pds",
       "io-tdpl",
       "chat-roomy",
       "social-surf",
-      "computer-aesthetic-at",
       "fan-radial-pds",
+      "computer-aesthetic-at",
       "world-radical-r",
+      "cloud-nihilist",
       "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
       "so-sprk-pds",
@@ -1480,8 +1481,8 @@
       "net-wafrn-app-at",
       "dev-ridgeway-pds",
       "social-selfhosted",
-      "xyz-skystack",
       "social-northsky",
+      "xyz-skystack",
       "net-hsuanyuchou-taipei",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
@@ -1490,18 +1491,18 @@
       "ai-oathling-pds",
       "network-eny-pds-oyster",
       "net-goldentooth-pds",
-      "at-nightbo-pds",
       "com-nrbrtspvk-bsky",
-      "social-novum",
+      "at-nightbo-pds",
       "com-dadavidtseng-pds",
+      "social-novum",
       "net-riyo-pds",
       "social-npmx",
       "to-tor0n",
       "com-dinakernel-test--pds",
       "me-opnmt-pds",
       "at-forum--hietzing",
-      "at-admat-bsx",
       "world-jalsa-u",
+      "at-admat-bsx",
       "com-perohub-pds",
       "dev-alley-chicago--com-pds",
       "cafe-pckt-pds",
@@ -1517,7 +1518,6 @@
       "site-bskytool-pds3",
       "social-bookhive",
       "site-bskytool-pds4",
-      "cloud-nihilist",
       "cc-velvetnova",
       "social-fazen",
       "space-cannect",
@@ -1533,26 +1533,26 @@
       "surf-self",
       "site-bskytool-pds2",
       "net-atchan",
-      "network-wisy-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
+      "cc-honeyvale",
       "ro-aiia-pds",
       "systems-witchcraft-pds",
-      "cc-honeyvale",
       "com-arankwende",
       "dev-wsocial-pds--dev-pds00",
       "com-skeetcentral",
       "dev-wsocial-pds--dev",
       "site-bskytool-pds6",
       "info-men--esthe-pds3",
+      "ai-swarmchat-pds",
       "site-bskytool-pds5",
       "world-si46-pds--dev",
       "dev-wsocial-pds--stage",
-      "ai-swarmchat-pds",
       "dev-wsocial-pds--stage-pds01",
       "com-wouldcop-pds",
+      "net-socialsandbox3",
       "org-seiran--beta",
-      "net-socialsandbox3"
+      "com-ripperoni-alt"
     ]
   }
 }
