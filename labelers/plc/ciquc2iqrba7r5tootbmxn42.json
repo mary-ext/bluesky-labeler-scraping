@@ -1,0 +1,44 @@
+{
+  "uri": "at://did:plc:ciquc2iqrba7r5tootbmxn42/app.bsky.labeler.service/self",
+  "cid": "bafyreiedow2xeyte7qhgl4rb6e3qykatmxju4wlb7lryjidsaq4t7ppyka",
+  "creator": {
+    "did": "did:plc:ciquc2iqrba7r5tootbmxn42",
+    "handle": "areen-labeler.bsky.social",
+    "displayName": "Areen-pattern spam labeler",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-08T21:34:53.859Z",
+    "description": "Automatically labels accounts whose current handles match the configured areen-pattern spam rule. Subscribe and set areen-spam to Hide.",
+    "indexedAt": "2026-09-09T02:32:06.756Z"
+  },
+  "indexedAt": "2026-09-09T02:31:43.264Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "areen-spam",
+        "locales": [
+          {
+            "description": "Accounts whose current handles match the configured areen-pattern spam rule.",
+            "lang": "en",
+            "name": "Areen-pattern spam"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "areen-spam"
+    ]
+  },
+  "subjectTypes": [
+    "account"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:d2mkddsbmnrgr3domzg5qexf/app.bsky.labeler.service/self",
-  "cid": "bafyreihk47ex6oaa76gioiztkgvxrcooxt7inp2pflqccr2ebk2y2qe4ba",
+  "cid": "bafyreibv3rgzswl2inxoqxjppg7k6hmbahchxaqkjo3ibhomz54w7pxfsu",
   "creator": {
     "did": "did:plc:d2mkddsbmnrgr3domzg5qexf",
     "handle": "moderation.blacksky.app",
@@ -21,7 +21,7 @@
     "description": "Building the intercommunal net\n\nThis account is a mod service for Blacksky, subscribe to use our filters\n\nMain account: @blackskyweb.xyz\nAppeals: https://blackskyweb.xyz/about/support/moderation-appeal/",
     "indexedAt": "2026-07-23T18:15:28.268Z"
   },
-  "indexedAt": "2026-09-01T16:40:42.905Z",
+  "indexedAt": "2026-09-08T14:42:39.662Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -248,19 +248,43 @@
         "identifier": "digital-blackface",
         "locales": [
           {
-            "description": "Digital Blackface is a form of anti-Black violence where a non-Black user impersonates a Black person.",
+            "description": "Digital Blackface is a form of anti-Black violence where a non-Black user impersonates a Black person on any PDS.",
             "lang": "en",
             "name": "Digital Blackface"
           },
           {
-            "description": "Blackface digital é uma forma de violência antinegra na qual um usuário não-negro se passa por uma pessoa negra.",
+            "description": "Blackface digital é uma forma de violência antinegra na qual um usuário não-negro se passa por uma pessoa negra em qualquer PDS.",
             "lang": "pt",
             "name": "Blackface Digital"
           },
           {
-            "description": "Le blackface numérique est une forme de violence anti-noire dans laquelle un utilisateur non-noir se fait passer pour une personne noire sur n'importe.",
+            "description": "Le blackface numérique est une forme de violence anti-noire dans laquelle un utilisateur non-noir se fait passer pour une personne noire sur n'importe quel PDS.",
             "lang": "fr",
             "name": "Blackface Numérique"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "normalization-of-sexual-violence",
+        "locales": [
+          {
+            "description": "Content that seeks to promote, validate or in any other way normalize sexually violent acts which include, but aren't limited to grooming, (spousal) sexual assault, sexual exploitation, trafficking, revenge porn and sexual abuse.",
+            "lang": "en",
+            "name": "Normalization of Sexual Violence"
+          },
+          {
+            "description": "Conteúdo que busca promover, validar ou de qualquer outra forma normalizar atos de violência sexual, que incluem, mas não se limitam a, aliciamento (grooming), agressão sexual (inclusive conjugal), exploração sexual, tráfico de pessoas, pornografia de vingança e abuso sexual.",
+            "lang": "pt",
+            "name": "Normalização da Violência Sexual"
+          },
+          {
+            "description": "Contenu qui cherche à promouvoir, valider ou normaliser de toute autre manière des actes de violence sexuelle, incluant, sans s'y limiter, le grooming (manipulation à des fins sexuelles), l'agression sexuelle (y compris conjugale), l'exploitation sexuelle, la traite des personnes, la pornographie de vengeance et l'abus sexuel.",
+            "lang": "fr",
+            "name": "Normalisation de la Violence Sexuelle"
           }
         ],
         "severity": "alert"
@@ -276,7 +300,8 @@
       "antiblack-harassment",
       "fatphobia",
       "ableism",
-      "digital-blackface"
+      "digital-blackface",
+      "normalization-of-sexual-violence"
     ]
   },
   "reasonTypes": [

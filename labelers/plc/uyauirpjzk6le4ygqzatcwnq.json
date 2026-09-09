@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreigrpvw2am2rvhmcb65bvn3ksx44n3pupoo3ewrltvpmzznib2fnga",
+  "cid": "bafyreiaqujblhcbptplunla5jrdto3sjuukhwbwrufa662ia4ty4d5zecm",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-08T00:30:14.972Z",
+  "indexedAt": "2026-09-08T19:29:03.575Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -123,6 +123,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-haruhwa",
+        "locales": [
+          {
+            "description": "Account is hosted by the haruhwa.com PDS",
+            "lang": "en",
+            "name": "haruhwa.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "world-si46-pds",
         "locales": [
           {
@@ -157,20 +171,6 @@
             "description": "Account is hosted by the keik.info PDS",
             "lang": "en",
             "name": "keik.info"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-haruhwa",
-        "locales": [
-          {
-            "description": "Account is hosted by the haruhwa.com PDS",
-            "lang": "en",
-            "name": "haruhwa.com"
           }
         ],
         "severity": "inform"
@@ -1299,6 +1299,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "site-aidgaza-ai",
+        "locales": [
+          {
+            "description": "Account is hosted by the ai.aidgaza.site PDS",
+            "lang": "en",
+            "name": "ai.aidgaza.site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "dev-wsocial-pds--dev",
         "locales": [
           {
@@ -1313,12 +1327,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "site-bskytool-pds6",
+        "identifier": "ai-swarmchat-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds6.bskytool.site PDS",
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
             "lang": "en",
-            "name": "pds6.bskytool.site"
+            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -1327,12 +1341,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
+        "identifier": "site-bskytool-pds6",
         "locales": [
           {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "description": "Account is hosted by the pds6.bskytool.site PDS",
             "lang": "en",
-            "name": "pds.swarmchat.ai"
+            "name": "pds6.bskytool.site"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "org-seiran--beta",
-        "locales": [
-          {
-            "description": "Account is hosted by the seiran-beta.org PDS",
-            "lang": "en",
-            "name": "seiran-beta.org"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1458,10 +1458,10 @@
       "club-nacg",
       "global-bsky",
       "one-certified",
+      "com-haruhwa",
       "world-si46-pds",
       "sh-tngl",
       "info-keik",
-      "com-haruhwa",
       "app-blacksky",
       "me-1095-pds",
       "app-louisvillebsky-pds",
@@ -1542,17 +1542,17 @@
       "com-arankwende",
       "dev-wsocial-pds--dev-pds00",
       "com-skeetcentral",
+      "site-aidgaza-ai",
       "dev-wsocial-pds--dev",
-      "site-bskytool-pds6",
       "ai-swarmchat-pds",
+      "site-bskytool-pds6",
       "info-men--esthe-pds3",
       "site-bskytool-pds5",
       "world-si46-pds--dev",
       "dev-wsocial-pds--stage",
       "dev-wsocial-pds--stage-pds01",
       "com-wouldcop-pds",
-      "net-socialsandbox3",
-      "org-seiran--beta"
+      "net-socialsandbox3"
     ]
   }
 }
