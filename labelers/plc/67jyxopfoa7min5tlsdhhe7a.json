@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:67jyxopfoa7min5tlsdhhe7a/app.bsky.labeler.service/self",
-  "cid": "bafyreidlyrqhafgn34jrh4gxq27s5rj4acbbugohspekkgtf6iobbbrt6m",
+  "cid": "bafyreigcwxokohzzrrncljmtli5t4vipaz4ysr3vmeurut4p27b2et7i2m",
   "creator": {
     "did": "did:plc:67jyxopfoa7min5tlsdhhe7a",
     "handle": "moderation.atmosphere.money",
@@ -16,9 +16,73 @@
     "createdAt": "2026-09-11T00:20:09.959Z",
     "indexedAt": "2026-09-11T00:27:40.858Z"
   },
-  "indexedAt": "2026-09-11T02:04:20.266Z",
+  "indexedAt": "2026-09-11T15:09:58.965Z",
   "labels": [],
   "policies": {
-    "labelValues": []
-  }
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Unsolicited, repetitive or deceptive promotion identified by ATM Moderation.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "scam",
+        "locales": [
+          {
+            "description": "Deceptive content intended to obtain money, credentials or other sensitive information, identified by ATM Moderation.",
+            "lang": "en",
+            "name": "Scam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "Misleading representation of another person or organization, identified by ATM Moderation. Clearly disclosed parody and fan accounts are not impersonation.",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "porn",
+      "sexual",
+      "nudity",
+      "spam",
+      "scam",
+      "impersonation"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
 }

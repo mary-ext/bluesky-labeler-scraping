@@ -1,10 +1,11 @@
 {
   "uri": "at://did:plc:ciquc2iqrba7r5tootbmxn42/app.bsky.labeler.service/self",
-  "cid": "bafyreiedow2xeyte7qhgl4rb6e3qykatmxju4wlb7lryjidsaq4t7ppyka",
+  "cid": "bafyreifdrzf5p4cstxdojt6zbqk2wzkzfk2aodpkm4ghwtwq7hddcfdt2m",
   "creator": {
     "did": "did:plc:ciquc2iqrba7r5tootbmxn42",
     "handle": "areen-labeler.bsky.social",
-    "displayName": "Areen-pattern spam labeler",
+    "displayName": "דינוסקאם",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ciquc2iqrba7r5tootbmxn42/bafkreiemvt6qorrmmm7h2u7kzodbbiknehq2uwb2c62oudaglpoobkdiv4",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -13,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2026-09-08T21:34:53.859Z",
-    "description": "Automatically labels accounts whose current handles match the configured areen-pattern spam rule. Subscribe and set areen-spam to Hide.",
-    "indexedAt": "2026-09-09T02:32:06.756Z"
+    "description": "„אירוע הכחדה קטן לבעיית ספאם גדולה”",
+    "indexedAt": "2026-09-11T20:01:19.856Z"
   },
-  "indexedAt": "2026-09-09T02:31:43.264Z",
+  "indexedAt": "2026-09-11T20:39:38.162Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -32,10 +33,48 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "coordinated-solicitation-spam",
+        "locales": [
+          {
+            "description": "Accounts created and operated by a single person or organization to mass-post large volumes of identical or near-identical content.",
+            "lang": "en",
+            "name": "Coordinated solicitation spam"
+          },
+          {
+            "description": "חשבונות שנוצרו ומופעלים על ידי אדם או גוף בודד כדי לפרסם בהמוניות תוכן זהה או כמעט זהה.",
+            "lang": "he",
+            "name": "ספאם גיוס תרומות"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "israeli-politics",
+        "locales": [
+          {
+            "description": "Posts mentioning specific Israeli political figures (Netanyahu, Eisenkot, and others). An early, name-based first pass toward a broader Israeli political-content filter — opt-in for anyone who wants it.",
+            "lang": "en",
+            "name": "Israeli politics"
+          },
+          {
+            "description": "פוסטים המזכירים דמויות פוליטיות ישראליות ספציפיות (נתניהו, אייזנקוט ואחרים). שלב ראשוני מבוסס שמות לקראת סינון רחב יותר של תוכן פוליטי ישראלי — אופציונלי לכל מי שמעוניין בו.",
+            "lang": "he",
+            "name": "פוליטיקה ישראלית"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "areen-spam"
+      "areen-spam",
+      "coordinated-solicitation-spam",
+      "israeli-politics"
     ]
   },
   "subjectTypes": [
