@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:jwqm25l6zbkgmorz3k35hf32/app.bsky.labeler.service/self",
-  "cid": "bafyreicxhfknik3njobfqaihpycu2edqi7btslvomttzj6pxse57eumpwe",
+  "cid": "bafyreieyzrdu33i63uiwo6mfqbfcmrpmudcqcraz5byzukbs5gayciy47m",
   "creator": {
     "did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
     "handle": "curationkeeper.bsky.social",
@@ -37,7 +37,7 @@
     "description": "Just experimenting with labellers 🙃\n\n.\n\n.",
     "indexedAt": "2026-08-26T11:29:48.662Z"
   },
-  "indexedAt": "2026-08-26T13:27:34.476Z",
+  "indexedAt": "2026-09-12T17:30:07.167Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -45,80 +45,22 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "web-ui-exclusive",
-        "locales": [
-          {
-            "description": "This is a test description for a label you'd only be able to access through a web UI available at: https://example.com/",
-            "lang": "en",
-            "name": "🌸️"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "alt-text-missing",
+        "identifier": "missing-alt-text",
         "locales": [
           {
             "description": "",
             "lang": "en",
-            "name": "Alt Text Missing Test"
+            "name": "Alt Text Missing (stopped)"
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "alt-text-misuse",
-        "locales": [
-          {
-            "description": "",
-            "lang": "en",
-            "name": "Alt Text Misuse Test"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "badge",
-        "locales": [
-          {
-            "description": "",
-            "lang": "en",
-            "name": "Badge"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "warn",
-        "identifier": "test",
-        "locales": [
-          {
-            "description": "",
-            "lang": "en",
-            "name": "Test"
-          }
-        ],
-        "severity": "alert"
       }
     ],
     "labelValues": [
-      "porn",
-      "web-ui-exclusive",
-      "alt-text-missing",
-      "alt-text-misuse",
-      "badge",
-      "test"
+      "missing-alt-text",
+      "contains-skeet",
+      "contains-xitter",
+      "contains-xwitter"
     ]
   },
   "reasonTypes": [

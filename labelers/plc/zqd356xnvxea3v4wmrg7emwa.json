@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zqd356xnvxea3v4wmrg7emwa/app.bsky.labeler.service/self",
-  "cid": "bafyreidgrdswkr5t2pmoaxf25far7eseiyho3ycevo7pp5whntirzpr4xa",
+  "cid": "bafyreiczgqea26fxkceutkistww2zw6atyl4zlhpouycqsbh5udvd7x5vq",
   "creator": {
     "did": "did:plc:zqd356xnvxea3v4wmrg7emwa",
     "handle": "pridelabeller.bsky.social",
@@ -28,10 +28,24 @@
     "description": "(Work in progress)\n\n🌐 Web UI: https://pridelabeller.pages.dev/ 🌐\n\n⚠️ Don't \"Hide\" any of the badges ⚠️\n\n❤️ to Add, 💔 to Remove. (legacy method, new badges paused 2-7AM UTC)",
     "indexedAt": "2026-09-06T20:00:58.867Z"
   },
-  "indexedAt": "2026-08-19T07:41:21.077Z",
+  "indexedAt": "2026-09-12T17:05:23.164Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "greyrose",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Greyrose"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -1266,6 +1280,7 @@
       }
     ],
     "labelValues": [
+      "greyrose",
       "skygender",
       "foxgender",
       "homoromantic",
