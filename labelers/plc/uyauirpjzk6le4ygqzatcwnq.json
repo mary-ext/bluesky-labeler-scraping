@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifj3yi27dbco35ymcvo35qgebuggnx2ehd7fgya7r343j5ibwyjue",
+  "cid": "bafyreicygecuiputuglbzpksxvgw7exvuqo2cs5gzajpb35jdnrvoxso7y",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-13T05:11:28.867Z",
+  "indexedAt": "2026-09-14T23:11:28.957Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -403,12 +403,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-wafrn-app-at",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the at.app.wafrn.net PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "at.app.wafrn.net"
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -417,12 +417,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "net-wafrn-app-at",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the at.app.wafrn.net PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "at.app.wafrn.net"
           }
         ],
         "severity": "inform"
@@ -557,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-eny-pds-oyster",
+        "identifier": "net-goldentooth-pds",
         "locales": [
           {
-            "description": "Account is hosted by the oyster.pds.eny.network PDS",
+            "description": "Account is hosted by the pds.goldentooth.net PDS",
             "lang": "en",
-            "name": "oyster.pds.eny.network"
+            "name": "pds.goldentooth.net"
           }
         ],
         "severity": "inform"
@@ -571,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-goldentooth-pds",
+        "identifier": "network-eny-pds-oyster",
         "locales": [
           {
-            "description": "Account is hosted by the pds.goldentooth.net PDS",
+            "description": "Account is hosted by the oyster.pds.eny.network PDS",
             "lang": "en",
-            "name": "pds.goldentooth.net"
+            "name": "oyster.pds.eny.network"
           }
         ],
         "severity": "inform"
@@ -1005,6 +1005,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "fun-plcs-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.plcs.fun PDS",
+            "lang": "en",
+            "name": "pds.plcs.fun"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cloud-hstgr-srv865737",
         "locales": [
           {
@@ -1025,20 +1039,6 @@
             "description": "Account is hosted by the marta.fail PDS",
             "lang": "en",
             "name": "marta.fail"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "fun-plcs-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.plcs.fun PDS",
-            "lang": "en",
-            "name": "pds.plcs.fun"
           }
         ],
         "severity": "inform"
@@ -1075,12 +1075,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-stroam",
+        "identifier": "cc-mirablossom",
         "locales": [
           {
-            "description": "Account is hosted by the stroam.social PDS",
+            "description": "Account is hosted by the mirablossom.cc PDS",
             "lang": "en",
-            "name": "stroam.social"
+            "name": "mirablossom.cc"
           }
         ],
         "severity": "inform"
@@ -1089,12 +1089,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cc-mirablossom",
+        "identifier": "social-stroam",
         "locales": [
           {
-            "description": "Account is hosted by the mirablossom.cc PDS",
+            "description": "Account is hosted by the stroam.social PDS",
             "lang": "en",
-            "name": "mirablossom.cc"
+            "name": "stroam.social"
           }
         ],
         "severity": "inform"
@@ -1159,6 +1159,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cc-honeyvale",
+        "locales": [
+          {
+            "description": "Account is hosted by the honeyvale.cc PDS",
+            "lang": "en",
+            "name": "honeyvale.cc"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds2",
         "locales": [
           {
@@ -1179,20 +1193,6 @@
             "description": "Account is hosted by the atchan.net PDS",
             "lang": "en",
             "name": "atchan.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cc-honeyvale",
-        "locales": [
-          {
-            "description": "Account is hosted by the honeyvale.cc PDS",
-            "lang": "en",
-            "name": "honeyvale.cc"
           }
         ],
         "severity": "inform"
@@ -1285,12 +1285,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "space-getair-demo-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.demo.getair.space PDS",
+            "lang": "en",
+            "name": "pds.demo.getair.space"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-skeetcentral",
         "locales": [
           {
             "description": "Account is hosted by the skeetcentral.com PDS",
             "lang": "en",
             "name": "skeetcentral.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "community-clear-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.clear.community PDS",
+            "lang": "en",
+            "name": "pds.clear.community"
           }
         ],
         "severity": "inform"
@@ -1411,40 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-wouldcop-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.wouldcop.com PDS",
-            "lang": "en",
-            "name": "pds.wouldcop.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "net-socialsandbox3",
         "locales": [
           {
             "description": "Account is hosted by the socialsandbox3.net PDS",
             "lang": "en",
             "name": "socialsandbox3.net"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "org-seiran--beta",
-        "locales": [
-          {
-            "description": "Account is hosted by the seiran-beta.org PDS",
-            "lang": "en",
-            "name": "seiran-beta.org"
           }
         ],
         "severity": "inform"
@@ -1478,8 +1478,8 @@
       "live-shxre",
       "social-ekamdor-pds",
       "site-bskytool-pds",
-      "net-wafrn-app-at",
       "social-selfhosted",
+      "net-wafrn-app-at",
       "dev-ridgeway-pds",
       "social-northsky",
       "xyz-skystack",
@@ -1489,8 +1489,8 @@
       "network-nobody-node",
       "homes-si46",
       "ai-oathling-pds",
-      "network-eny-pds-oyster",
       "net-goldentooth-pds",
+      "network-eny-pds-oyster",
       "com-nrbrtspvk-bsky",
       "com-dadavidtseng-pds",
       "at-nightbo-pds",
@@ -1521,27 +1521,29 @@
       "cc-velvetnova",
       "social-fazen",
       "space-cannect",
+      "fun-plcs-pds",
       "cloud-hstgr-srv865737",
       "fail-marta",
-      "fun-plcs-pds",
       "net-chatapt",
       "cafe-margin",
-      "social-stroam",
       "cc-mirablossom",
+      "social-stroam",
       "io-sslip-181-5-9-5",
       "network-wisy-pds",
       "social-casjay",
       "surf-self",
+      "cc-honeyvale",
       "site-bskytool-pds2",
       "net-atchan",
-      "cc-honeyvale",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "systems-witchcraft-pds",
       "ro-aiia-pds",
       "com-arankwende",
       "dev-wsocial-pds--dev-pds00",
+      "space-getair-demo-pds",
       "com-skeetcentral",
+      "community-clear-pds",
       "ai-swarmchat-pds",
       "dev-wsocial-pds--dev",
       "site-bskytool-pds6",
@@ -1550,9 +1552,7 @@
       "world-si46-pds--dev",
       "dev-wsocial-pds--stage",
       "dev-wsocial-pds--stage-pds01",
-      "com-wouldcop-pds",
-      "net-socialsandbox3",
-      "org-seiran--beta"
+      "net-socialsandbox3"
     ]
   }
 }

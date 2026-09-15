@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:e42ykmdzvfam7qqk6ghzljdg/app.bsky.labeler.service/self",
+  "cid": "bafyreiegwanghfogs2ixl2tkzhfdrh4wynokd5p5kw4imhnw4i7l6fcapa",
+  "creator": {
+    "did": "did:plc:e42ykmdzvfam7qqk6ghzljdg",
+    "handle": "news-quality.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e42ykmdzvfam7qqk6ghzljdg/bafkreidfrcicfrvyujy52hnex2gbpvqmmlsao6ugcdyznck24hyv5lzchu",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-15T00:43:20.954Z",
+    "indexedAt": "2026-09-15T00:44:07.958Z"
+  },
+  "indexedAt": "2026-09-15T03:07:03.565Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "low-quality-news-source",
+        "locales": [
+          {
+            "description": "This post links to a source in our provisional low-quality    category, directly or through one quoted post. This rates the    source, not the article or author. Based on Lin et al. (2023);    thresholds are project choices.",
+            "lang": "en",
+            "name": "Low quality news source"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "medium-quality-news-source",
+        "locales": [
+          {
+            "description": "This post links to a source in our provisional medium-quality    category, directly or through one quoted post. This rates the    source, not the article or author. Based on Lin et al. (2023);    thresholds are project choices.",
+            "lang": "en",
+            "name": "Medium quality news source"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "high-quality-news-source",
+        "locales": [
+          {
+            "description": "This post links to a source in our provisional high-quality    category, directly or through one quoted post. This rates the    source, not the article or author. Based on Lin et al. (2023);    thresholds are project choices.",
+            "lang": "en",
+            "name": "High quality news source"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "low-quality-news-source",
+      "medium-quality-news-source",
+      "high-quality-news-source"
+    ]
+  }
+}
