@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:nwxpzxyajtoqytsorxuwgolt/app.bsky.labeler.service/self",
-  "cid": "bafyreigpexnf7kiqerf6gebvcer2si74dmqaqy43zfcwitqdadvymcwy4a",
+  "cid": "bafyreihzjb4apptr6dgwzgvrluhzqg3lyvphbvweb6s5exenvh73zj3y5a",
   "creator": {
     "did": "did:plc:nwxpzxyajtoqytsorxuwgolt",
     "handle": "middleearth.quest",
@@ -17,7 +17,7 @@
     "description": "a fantasy atproto labeler game by @clarabelle.xyz\n\nthe rings of power (and other Tolkien artifacts) have been unleashed 💍 middleearth.quest\n\nto play 👉🏻 subscribe to, like AND then follow the labeler",
     "indexedAt": "2026-08-28T15:43:24.274Z"
   },
-  "indexedAt": "2026-09-01T02:31:44.712Z",
+  "indexedAt": "2026-09-17T02:35:20.271Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1131,6 +1131,34 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "aeglos",
+        "locales": [
+          {
+            "description": "A spear out of Lindon, old beyond memory, its point said to gleam like frost.",
+            "lang": "en",
+            "name": "with Aeglos, the Snow-point ⚔️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mallorn-longbow",
+        "locales": [
+          {
+            "description": "Cut and strung beneath the golden boughs of Lothlórien. Light as air, sure as starlight.",
+            "lang": "en",
+            "name": "with a mallorn-wood longbow 🏹"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "mithril-coat",
         "locales": [
           {
@@ -1341,6 +1369,62 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "palantir-minas-morgul",
+        "locales": [
+          {
+            "description": "Captured at the fall of Minas Ithil. A window that watches back, and reports to darker eyes.",
+            "lang": "en",
+            "name": "with the Palantír of Minas Morgul 🔮"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "red-arrow",
+        "locales": [
+          {
+            "description": "Fletched in Gondor's armories, sent north to Edoras when the beacons alone are not enough.",
+            "lang": "en",
+            "name": "with the Red Arrow 🏹"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "black-numenorean-war-armor",
+        "locales": [
+          {
+            "description": "Forged in the black smithies of Umbar, for those who never forgot Númenor's old pride, or its old sins.",
+            "lang": "en",
+            "name": "with Black Númenórean war-armor 🛡️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "shield-khazad-dum",
+        "locales": [
+          {
+            "description": "Mithril-bound, raised first in the deep halls of Khazad-dûm, long before the shadow came.",
+            "lang": "en",
+            "name": "with a shield of Khazad-dûm 🛡️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "elven-blade",
         "locales": [
           {
@@ -1487,6 +1571,20 @@
             "description": "Coated in venom",
             "lang": "en",
             "name": "with a poisoned blade 🗡️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "long-knife-woodland-realm",
+        "locales": [
+          {
+            "description": "Carried by the wood-elves who patrol the eaves of the Woodland Realm, quick and quiet as its owner.",
+            "lang": "en",
+            "name": "with a long-knife of the Woodland Realm 🗡️"
           }
         ],
         "severity": "inform"
@@ -1669,6 +1767,20 @@
             "description": "From the Golden Wood. Plant it and wonder grows",
             "lang": "en",
             "name": "with a Mallorn seed 🌰"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "warhorn-mark",
+        "locales": [
+          {
+            "description": "Sounded across the fields of the Mark, to call the Riders to muster.",
+            "lang": "en",
+            "name": "with a warhorn of the Mark 📯"
           }
         ],
         "severity": "inform"
@@ -2860,6 +2972,8 @@
       "staff-istari",
       "numenorean-longsword",
       "barrow-blade",
+      "aeglos",
+      "mallorn-longbow",
       "mithril-coat",
       "phial-galadriel",
       "palantir-orthanc",
@@ -2875,6 +2989,10 @@
       "red-book-westmarch",
       "helm-herald",
       "dragon-scale-armor",
+      "palantir-minas-morgul",
+      "red-arrow",
+      "black-numenorean-war-armor",
+      "shield-khazad-dum",
       "elven-blade",
       "black-numenorean-mace",
       "dwarven-axe",
@@ -2886,6 +3004,7 @@
       "corsair-cutlass",
       "black-orc-scimitar",
       "poisoned-blade",
+      "long-knife-woodland-realm",
       "dwarven-mail",
       "elven-cloak",
       "elven-rope",
@@ -2899,6 +3018,7 @@
       "map-thror",
       "key-erebor",
       "mallorn-seed",
+      "warhorn-mark",
       "banner-black-serpent",
       "mumakil-goad",
       "wainrider-spear",

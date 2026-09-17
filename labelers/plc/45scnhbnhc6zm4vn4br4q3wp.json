@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:45scnhbnhc6zm4vn4br4q3wp/app.bsky.labeler.service/self",
-  "cid": "bafyreif7bsmp74dlzv6guz57k2u6xscrk7tmm2tbkstv4rpc35wplf5r34",
+  "cid": "bafyreihnc6lqv6iog4mnnmcfazha2ybsz7p5pdvobc5poadrjjxj3ruyae",
   "creator": {
     "did": "did:plc:45scnhbnhc6zm4vn4br4q3wp",
     "handle": "moderation.tokimeki.social",
@@ -16,7 +16,7 @@
     "description": "I provide moderation for mochott, KAKU TOKIMEKI, and my other AT Protocol projects.\n* I do not provide moderation for Bluesky.",
     "indexedAt": "2026-03-25T08:25:22.746Z"
   },
-  "indexedAt": "2026-03-25T10:16:26.053Z",
+  "indexedAt": "2026-09-16T13:25:56.065Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,25 +24,86 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "spam",
+        "identifier": "supporter",
         "locales": [
           {
-            "description": "Spam.",
+            "description": "Supports TOKIMEKI.",
             "lang": "en",
-            "name": "Spam"
+            "name": "Supporter"
           },
           {
-            "description": "スパム。",
+            "description": "TOKIMEKIを支援しています。",
             "lang": "ja",
-            "name": "スパム"
+            "name": "Supporter"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sponsor",
+        "locales": [
+          {
+            "description": "Sponsors TOKIMEKI.",
+            "lang": "en",
+            "name": "Sponsor"
+          },
+          {
+            "description": "TOKIMEKIのスポンサーです。",
+            "lang": "ja",
+            "name": "Sponsor"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tokimeki-gold",
+        "locales": [
+          {
+            "description": "TOKIMEKI GOLD supporter.",
+            "lang": "en",
+            "name": "TOKIMEKI GOLD"
+          },
+          {
+            "description": "TOKIMEKI GOLD 支援者です。",
+            "lang": "ja",
+            "name": "TOKIMEKI GOLD"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tokimeki-platinum",
+        "locales": [
+          {
+            "description": "TOKIMEKI PLATINUM supporter.",
+            "lang": "en",
+            "name": "TOKIMEKI PLATINUM"
+          },
+          {
+            "description": "TOKIMEKI PLATINUM 支援者です。",
+            "lang": "ja",
+            "name": "TOKIMEKI PLATINUM"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "spam",
-      "disinformation"
+      "disinformation",
+      "supporter",
+      "sponsor",
+      "tokimeki-gold",
+      "tokimeki-platinum"
     ]
   }
 }
