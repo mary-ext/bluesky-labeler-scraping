@@ -1,0 +1,56 @@
+{
+  "uri": "at://did:plc:s62ipbsd3gtxeewykhlaccnv/app.bsky.labeler.service/self",
+  "cid": "bafyreiafgnpztoamso3nzq4arzxy6nkl57oonzbs7p7p5d5mg67r2rxf2u",
+  "creator": {
+    "did": "did:plc:s62ipbsd3gtxeewykhlaccnv",
+    "handle": "labeler.breadcrumbs.run",
+    "displayName": "labeler.breadcrumbs.run",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-18T20:03:41.062Z",
+    "indexedAt": "2026-09-18T20:03:41.062Z"
+  },
+  "indexedAt": "2026-09-18T20:14:54.462Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "genuine-acknowledgement",
+        "locales": [
+          {
+            "description": "Jev judged this acknowledgement's own text as a real attestation to the claim, not pro-forma or bot-like.",
+            "lang": "en",
+            "name": "Genuine acknowledgement"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pro-forma-acknowledgement",
+        "locales": [
+          {
+            "description": "Jev judged this acknowledgement as templated, bot-like, or not actually engaging with the specific claim.",
+            "lang": "en",
+            "name": "Pro-forma acknowledgement"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "genuine-acknowledgement",
+      "pro-forma-acknowledgement"
+    ]
+  }
+}
