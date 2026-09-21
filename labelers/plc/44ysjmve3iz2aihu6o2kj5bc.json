@@ -1,0 +1,118 @@
+{
+  "uri": "at://did:plc:44ysjmve3iz2aihu6o2kj5bc/app.bsky.labeler.service/self",
+  "cid": "bafyreidkjtmemfderph66pdi7uh6pe5yb7sezluqyf4qjrx7eizjdwm23q",
+  "creator": {
+    "did": "did:plc:44ysjmve3iz2aihu6o2kj5bc",
+    "handle": "moderation.kelosocial.eu",
+    "displayName": "Kelo Social Moderation",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:44ysjmve3iz2aihu6o2kj5bc/bafkreihn6ugabv5e6daamkbxyucfoi2uiy42hsdferhxsuja73hcod2wbm",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-20T11:00:49.764Z",
+    "description": "Le compte de modération de @kelosocial.eu",
+    "indexedAt": "2026-09-20T11:02:05.057Z"
+  },
+  "indexedAt": "2026-09-20T21:16:08.560Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Contenu indésirable ou promotionnel non sollicité.",
+            "lang": "fr",
+            "name": "Spam"
+          },
+          {
+            "description": "Unwanted or unsolicited promotional content.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "harassment",
+        "locales": [
+          {
+            "description": "Contenu visant à harceler ou intimider une personne.",
+            "lang": "fr",
+            "name": "Harcèlement"
+          },
+          {
+            "description": "Content intended to harass or intimidate a person.",
+            "lang": "en",
+            "name": "Harassment"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misleading",
+        "locales": [
+          {
+            "description": "Contenu présentant des informations trompeuses ou manipulatrices.",
+            "lang": "fr",
+            "name": "Trompeur"
+          },
+          {
+            "description": "Content presenting misleading or manipulative information.",
+            "lang": "en",
+            "name": "Misleading"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nsfw",
+        "locales": [
+          {
+            "description": "Contenu pouvant être sensible ou réservé à un public adulte.",
+            "lang": "fr",
+            "name": "Contenu sensible"
+          },
+          {
+            "description": "Content that may be sensitive or intended for adults.",
+            "lang": "en",
+            "name": "Sensitive content"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "harassment",
+      "misleading",
+      "nsfw"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
+  ]
+}
