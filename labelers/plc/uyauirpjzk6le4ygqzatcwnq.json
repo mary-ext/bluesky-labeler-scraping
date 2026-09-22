@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibodchapev734fbux3phmqex62ua6tg5766n2i6snl2wr3uwza3ke",
+  "cid": "bafyreih6ul4dlsfgdy5wx3l3ji3xztkxaxc4pqdrl5lmfgshcd4ddnu6re",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-20T11:24:43.471Z",
+  "indexedAt": "2026-09-21T18:55:46.673Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -157,20 +157,6 @@
             "description": "Account is hosted by the keik.info PDS",
             "lang": "en",
             "name": "keik.info"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-blacksky",
-        "locales": [
-          {
-            "description": "Account is hosted by the blacksky.app PDS",
-            "lang": "en",
-            "name": "blacksky.app"
           }
         ],
         "severity": "inform"
@@ -319,12 +305,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-atheistmass-pds",
+        "identifier": "so-sprk-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.atheistmass.com PDS",
+            "description": "Account is hosted by the pds.sprk.so PDS",
             "lang": "en",
-            "name": "pds.atheistmass.com"
+            "name": "pds.sprk.so"
           }
         ],
         "severity": "inform"
@@ -333,12 +319,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "so-sprk-pds",
+        "identifier": "com-atheistmass-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.sprk.so PDS",
+            "description": "Account is hosted by the pds.atheistmass.com PDS",
             "lang": "en",
-            "name": "pds.sprk.so"
+            "name": "pds.atheistmass.com"
           }
         ],
         "severity": "inform"
@@ -375,12 +361,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "site-bskytool-pds",
+        "identifier": "social-selfhosted",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bskytool.site PDS",
+            "description": "Account is hosted by the selfhosted.social PDS",
             "lang": "en",
-            "name": "pds.bskytool.site"
+            "name": "selfhosted.social"
           }
         ],
         "severity": "inform"
@@ -389,12 +375,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-selfhosted",
+        "identifier": "site-bskytool-pds",
         "locales": [
           {
-            "description": "Account is hosted by the selfhosted.social PDS",
+            "description": "Account is hosted by the pds.bskytool.site PDS",
             "lang": "en",
-            "name": "selfhosted.social"
+            "name": "pds.bskytool.site"
           }
         ],
         "severity": "inform"
@@ -739,6 +725,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-blacksky",
+        "locales": [
+          {
+            "description": "Account is hosted by the blacksky.app PDS",
+            "lang": "en",
+            "name": "blacksky.app"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "at-admat-bsx",
         "locales": [
           {
@@ -907,6 +907,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "community-clear-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.clear.community PDS",
+            "lang": "en",
+            "name": "pds.clear.community"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-fluester-pds",
         "locales": [
           {
@@ -949,40 +963,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "community-clear-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.clear.community PDS",
-            "lang": "en",
-            "name": "pds.clear.community"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds4",
         "locales": [
           {
             "description": "Account is hosted by the pds4.bskytool.site PDS",
             "lang": "en",
             "name": "pds4.bskytool.site"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cc-velvetnova",
-        "locales": [
-          {
-            "description": "Account is hosted by the velvetnova.cc PDS",
-            "lang": "en",
-            "name": "velvetnova.cc"
           }
         ],
         "severity": "inform"
@@ -1117,20 +1103,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "io-sslip-181-5-9-5",
-        "locales": [
-          {
-            "description": "Account is hosted by the 5.9.5.181.sslip.io PDS",
-            "lang": "en",
-            "name": "5.9.5.181.sslip.io"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "network-wisy-pds",
         "locales": [
           {
@@ -1145,12 +1117,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-casjay",
+        "identifier": "io-sslip-181-5-9-5",
         "locales": [
           {
-            "description": "Account is hosted by the casjay.social PDS",
+            "description": "Account is hosted by the 5.9.5.181.sslip.io PDS",
             "lang": "en",
-            "name": "casjay.social"
+            "name": "5.9.5.181.sslip.io"
           }
         ],
         "severity": "inform"
@@ -1179,6 +1151,20 @@
             "description": "Account is hosted by the atchan.net PDS",
             "lang": "en",
             "name": "atchan.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-casjay",
+        "locales": [
+          {
+            "description": "Account is hosted by the casjay.social PDS",
+            "lang": "en",
+            "name": "casjay.social"
           }
         ],
         "severity": "inform"
@@ -1271,6 +1257,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ai-swarmchat-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "lang": "en",
+            "name": "pds.swarmchat.ai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-arankwende",
         "locales": [
           {
@@ -1291,20 +1291,6 @@
             "description": "Account is hosted by the skeetcentral.com PDS",
             "lang": "en",
             "name": "skeetcentral.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
-            "lang": "en",
-            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -1355,12 +1341,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--dev",
+        "identifier": "net-socialsandbox3",
         "locales": [
           {
-            "description": "Account is hosted by the pds-dev.wsocial.dev PDS",
+            "description": "Account is hosted by the socialsandbox3.net PDS",
             "lang": "en",
-            "name": "pds-dev.wsocial.dev"
+            "name": "socialsandbox3.net"
           }
         ],
         "severity": "inform"
@@ -1369,12 +1355,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-socialsandbox3",
+        "identifier": "dev-wsocial-pds--dev",
         "locales": [
           {
-            "description": "Account is hosted by the socialsandbox3.net PDS",
+            "description": "Account is hosted by the pds-dev.wsocial.dev PDS",
             "lang": "en",
-            "name": "socialsandbox3.net"
+            "name": "pds-dev.wsocial.dev"
           }
         ],
         "severity": "inform"
@@ -1448,6 +1434,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-wsocial-pds--stage-pds01",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds01.pds-stage.wsocial.dev PDS",
+            "lang": "en",
+            "name": "pds01.pds-stage.wsocial.dev"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1461,7 +1461,6 @@
       "world-si46-pds",
       "sh-tngl",
       "info-keik",
-      "app-blacksky",
       "me-1095-pds",
       "io-tdpl",
       "app-louisvillebsky-pds",
@@ -1472,12 +1471,12 @@
       "world-radical-r",
       "cloud-nihilist",
       "net-yinzcloud-bsky-pds",
-      "com-atheistmass-pds",
       "so-sprk-pds",
+      "com-atheistmass-pds",
       "live-shxre",
       "social-ekamdor-pds",
-      "site-bskytool-pds",
       "social-selfhosted",
+      "site-bskytool-pds",
       "net-wafrn-app-at",
       "dev-ridgeway-pds",
       "social-northsky",
@@ -1502,6 +1501,7 @@
       "world-jalsa-u",
       "at-forum--hietzing",
       "com-perohub-pds",
+      "app-blacksky",
       "at-admat-bsx",
       "cafe-pckt-pds",
       "dev-alley-chicago--com-pds",
@@ -1514,12 +1514,11 @@
       "social-bookhive",
       "social-skyphone-pds",
       "bot-mirrors",
+      "community-clear-pds",
       "social-fluester-pds",
       "social-pwkl-us1-dev",
       "site-bskytool-pds3",
-      "community-clear-pds",
       "site-bskytool-pds4",
-      "cc-velvetnova",
       "social-fazen",
       "fun-plcs-pds",
       "cafe-margin",
@@ -1529,30 +1528,31 @@
       "net-chatapt",
       "cc-mirablossom",
       "social-stroam",
-      "io-sslip-181-5-9-5",
       "network-wisy-pds",
-      "social-casjay",
+      "io-sslip-181-5-9-5",
       "cc-honeyvale",
       "net-atchan",
+      "social-casjay",
       "surf-self",
       "site-bskytool-pds2",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
       "systems-witchcraft-pds",
       "ro-aiia-pds",
+      "ai-swarmchat-pds",
       "com-arankwende",
       "com-skeetcentral",
-      "ai-swarmchat-pds",
       "dev-wsocial-pds--dev-pds00",
       "com-clipsymphony-social-pds",
       "com-wouldcop-pds",
-      "dev-wsocial-pds--dev",
       "net-socialsandbox3",
+      "dev-wsocial-pds--dev",
       "site-bskytool-pds6",
       "info-men--esthe-pds3",
       "site-bskytool-pds5",
       "world-si46-pds--dev",
-      "dev-wsocial-pds--stage"
+      "dev-wsocial-pds--stage",
+      "dev-wsocial-pds--stage-pds01"
     ]
   }
 }
