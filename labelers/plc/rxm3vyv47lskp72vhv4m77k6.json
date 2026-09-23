@@ -1,0 +1,74 @@
+{
+  "uri": "at://did:plc:rxm3vyv47lskp72vhv4m77k6/app.bsky.labeler.service/self",
+  "cid": "bafyreibjbm23v2wdljkepk3fd2m2fcodeklcabkpoh73t34p5dtrlg6kiu",
+  "creator": {
+    "did": "did:plc:rxm3vyv47lskp72vhv4m77k6",
+    "handle": "atap.eurosky.social",
+    "displayName": "ATAP Dev",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-08-26T13:23:44.960Z",
+    "description": "Test labeler",
+    "indexedAt": "2026-08-26T13:23:44.960Z"
+  },
+  "indexedAt": "2026-09-22T13:04:38.057Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cat-lover",
+        "locales": [
+          {
+            "description": "This account has been observed to be fond of cats. It's just a test label; it carries no verification meaning.",
+            "lang": "en",
+            "name": "Cat lover"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dog-lover",
+        "locales": [
+          {
+            "description": "This account has been observed to be fond of dogs. It's just a test label; it carries no verification meaning.",
+            "lang": "en",
+            "name": "Dog lover"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-dog-lover",
+        "locales": [
+          {
+            "description": "This account has been verified to be fond of dogs. It's just a test label; it carries no verification meaning.",
+            "lang": "en",
+            "name": "Verified Dog lover"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "cat-lover",
+      "dog-lover",
+      "verified-dog-lover"
+    ]
+  },
+  "reasonTypes": [],
+  "subjectTypes": []
+}

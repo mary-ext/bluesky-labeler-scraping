@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreih6ul4dlsfgdy5wx3l3ji3xztkxaxc4pqdrl5lmfgshcd4ddnu6re",
+  "cid": "bafyreiag2jtmyhceqguzkukanxl7kfcqtwlrlmdlpadbtfazwhkhdy35we",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-21T18:55:46.673Z",
+  "indexedAt": "2026-09-22T06:55:47.173Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -157,6 +157,20 @@
             "description": "Account is hosted by the keik.info PDS",
             "lang": "en",
             "name": "keik.info"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "app-blacksky",
+        "locales": [
+          {
+            "description": "Account is hosted by the blacksky.app PDS",
+            "lang": "en",
+            "name": "blacksky.app"
           }
         ],
         "severity": "inform"
@@ -725,20 +739,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-blacksky",
-        "locales": [
-          {
-            "description": "Account is hosted by the blacksky.app PDS",
-            "lang": "en",
-            "name": "blacksky.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "at-admat-bsx",
         "locales": [
           {
@@ -893,12 +893,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-mirrors",
+        "identifier": "community-clear-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mirrors.bot PDS",
+            "description": "Account is hosted by the pds.clear.community PDS",
             "lang": "en",
-            "name": "mirrors.bot"
+            "name": "pds.clear.community"
           }
         ],
         "severity": "inform"
@@ -907,12 +907,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "community-clear-pds",
+        "identifier": "bot-mirrors",
         "locales": [
           {
-            "description": "Account is hosted by the pds.clear.community PDS",
+            "description": "Account is hosted by the mirrors.bot PDS",
             "lang": "en",
-            "name": "pds.clear.community"
+            "name": "mirrors.bot"
           }
         ],
         "severity": "inform"
@@ -969,6 +969,20 @@
             "description": "Account is hosted by the pds4.bskytool.site PDS",
             "lang": "en",
             "name": "pds4.bskytool.site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cc-velvetnova",
+        "locales": [
+          {
+            "description": "Account is hosted by the velvetnova.cc PDS",
+            "lang": "en",
+            "name": "velvetnova.cc"
           }
         ],
         "severity": "inform"
@@ -1145,12 +1159,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-atchan",
+        "identifier": "social-casjay",
         "locales": [
           {
-            "description": "Account is hosted by the atchan.net PDS",
+            "description": "Account is hosted by the casjay.social PDS",
             "lang": "en",
-            "name": "atchan.net"
+            "name": "casjay.social"
           }
         ],
         "severity": "inform"
@@ -1159,12 +1173,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-casjay",
+        "identifier": "net-atchan",
         "locales": [
           {
-            "description": "Account is hosted by the casjay.social PDS",
+            "description": "Account is hosted by the atchan.net PDS",
             "lang": "en",
-            "name": "casjay.social"
+            "name": "atchan.net"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--stage-pds01",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds01.pds-stage.wsocial.dev PDS",
-            "lang": "en",
-            "name": "pds01.pds-stage.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1461,6 +1461,7 @@
       "world-si46-pds",
       "sh-tngl",
       "info-keik",
+      "app-blacksky",
       "me-1095-pds",
       "io-tdpl",
       "app-louisvillebsky-pds",
@@ -1501,7 +1502,6 @@
       "world-jalsa-u",
       "at-forum--hietzing",
       "com-perohub-pds",
-      "app-blacksky",
       "at-admat-bsx",
       "cafe-pckt-pds",
       "dev-alley-chicago--com-pds",
@@ -1513,12 +1513,13 @@
       "pw-blam",
       "social-bookhive",
       "social-skyphone-pds",
-      "bot-mirrors",
       "community-clear-pds",
+      "bot-mirrors",
       "social-fluester-pds",
       "social-pwkl-us1-dev",
       "site-bskytool-pds3",
       "site-bskytool-pds4",
+      "cc-velvetnova",
       "social-fazen",
       "fun-plcs-pds",
       "cafe-margin",
@@ -1531,8 +1532,8 @@
       "network-wisy-pds",
       "io-sslip-181-5-9-5",
       "cc-honeyvale",
-      "net-atchan",
       "social-casjay",
+      "net-atchan",
       "surf-self",
       "site-bskytool-pds2",
       "com-zimchu-epds",
@@ -1551,8 +1552,7 @@
       "info-men--esthe-pds3",
       "site-bskytool-pds5",
       "world-si46-pds--dev",
-      "dev-wsocial-pds--stage",
-      "dev-wsocial-pds--stage-pds01"
+      "dev-wsocial-pds--stage"
     ]
   }
 }
