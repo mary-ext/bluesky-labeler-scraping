@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiag2jtmyhceqguzkukanxl7kfcqtwlrlmdlpadbtfazwhkhdy35we",
+  "cid": "bafyreid2m2hl3mctmot55kzdp7pfzea725ajislnt675oncsd6hniuoaau",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-22T06:55:47.173Z",
+  "indexedAt": "2026-09-24T01:19:48.367Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -599,6 +599,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-npmx",
+        "locales": [
+          {
+            "description": "Account is hosted by the npmx.social PDS",
+            "lang": "en",
+            "name": "npmx.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "at-nightbo-pds",
         "locales": [
           {
@@ -619,20 +633,6 @@
             "description": "Account is hosted by the novum.social PDS",
             "lang": "en",
             "name": "novum.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-npmx",
-        "locales": [
-          {
-            "description": "Account is hosted by the npmx.social PDS",
-            "lang": "en",
-            "name": "npmx.social"
           }
         ],
         "severity": "inform"
@@ -1005,12 +1005,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fun-plcs-pds",
+        "identifier": "cafe-margin",
         "locales": [
           {
-            "description": "Account is hosted by the pds.plcs.fun PDS",
+            "description": "Account is hosted by the margin.cafe PDS",
             "lang": "en",
-            "name": "pds.plcs.fun"
+            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -1019,12 +1019,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-margin",
+        "identifier": "fun-plcs-pds",
         "locales": [
           {
-            "description": "Account is hosted by the margin.cafe PDS",
+            "description": "Account is hosted by the pds.plcs.fun PDS",
             "lang": "en",
-            "name": "margin.cafe"
+            "name": "pds.plcs.fun"
           }
         ],
         "severity": "inform"
@@ -1313,20 +1313,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--dev-pds00",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds00.pds-dev.wsocial.dev PDS",
-            "lang": "en",
-            "name": "pds00.pds-dev.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-clipsymphony-social-pds",
         "locales": [
           {
@@ -1341,12 +1327,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-wouldcop-pds",
+        "identifier": "dev-wsocial-pds--dev-pds00",
         "locales": [
           {
-            "description": "Account is hosted by the pds.wouldcop.com PDS",
+            "description": "Account is hosted by the pds00.pds-dev.wsocial.dev PDS",
             "lang": "en",
-            "name": "pds.wouldcop.com"
+            "name": "pds00.pds-dev.wsocial.dev"
           }
         ],
         "severity": "inform"
@@ -1361,6 +1347,20 @@
             "description": "Account is hosted by the socialsandbox3.net PDS",
             "lang": "en",
             "name": "socialsandbox3.net"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-wouldcop-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.wouldcop.com PDS",
+            "lang": "en",
+            "name": "pds.wouldcop.com"
           }
         ],
         "severity": "inform"
@@ -1425,12 +1425,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-si46-pds--dev",
+        "identifier": "com-missaamane",
         "locales": [
           {
-            "description": "Account is hosted by the pds-dev.si46.world PDS",
+            "description": "Account is hosted by the missaamane.com PDS",
             "lang": "en",
-            "name": "pds-dev.si46.world"
+            "name": "missaamane.com"
           }
         ],
         "severity": "inform"
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--stage",
+        "identifier": "world-si46-pds--dev",
         "locales": [
           {
-            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
+            "description": "Account is hosted by the pds-dev.si46.world PDS",
             "lang": "en",
-            "name": "pds-stage.wsocial.dev"
+            "name": "pds-dev.si46.world"
           }
         ],
         "severity": "inform"
@@ -1492,9 +1492,9 @@
       "com-nrbrtspvk-bsky",
       "com-dadavidtseng-pds",
       "network-eny-pds-oyster",
+      "social-npmx",
       "at-nightbo-pds",
       "social-novum",
-      "social-npmx",
       "net-riyo-pds",
       "to-tor0n",
       "com-dinakernel-test--pds",
@@ -1521,8 +1521,8 @@
       "site-bskytool-pds4",
       "cc-velvetnova",
       "social-fazen",
-      "fun-plcs-pds",
       "cafe-margin",
+      "fun-plcs-pds",
       "space-cannect",
       "cloud-hstgr-srv865737",
       "fail-marta",
@@ -1543,16 +1543,16 @@
       "ai-swarmchat-pds",
       "com-arankwende",
       "com-skeetcentral",
-      "dev-wsocial-pds--dev-pds00",
       "com-clipsymphony-social-pds",
-      "com-wouldcop-pds",
+      "dev-wsocial-pds--dev-pds00",
       "net-socialsandbox3",
+      "com-wouldcop-pds",
       "dev-wsocial-pds--dev",
       "site-bskytool-pds6",
       "info-men--esthe-pds3",
       "site-bskytool-pds5",
-      "world-si46-pds--dev",
-      "dev-wsocial-pds--stage"
+      "com-missaamane",
+      "world-si46-pds--dev"
     ]
   }
 }

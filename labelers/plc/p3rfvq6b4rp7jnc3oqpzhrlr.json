@@ -1,0 +1,84 @@
+{
+  "uri": "at://did:plc:p3rfvq6b4rp7jnc3oqpzhrlr/app.bsky.labeler.service/self",
+  "cid": "bafyreifwgxegx7kh7givs3oaei5r3lnxk7gzly3mgwpy7i6xj5g626edd4",
+  "creator": {
+    "did": "did:plc:p3rfvq6b4rp7jnc3oqpzhrlr",
+    "handle": "contraria-bot.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:p3rfvq6b4rp7jnc3oqpzhrlr/bafkreihkelcwwuce4vjcxc2qlzt27bep6efyjidpq6iltagkwgq4bdkujy",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:p3rfvq6b4rp7jnc3oqpzhrlr",
+        "uri": "at://did:plc:p3rfvq6b4rp7jnc3oqpzhrlr/app.bsky.actor.profile/self",
+        "cid": "bafyreifzighc2kkwauvme632vwdjoj6soilay5y7um2scxir6sxuloml6m",
+        "val": "bot",
+        "cts": "2026-09-21T13:51:03.090Z"
+      }
+    ],
+    "createdAt": "2026-09-21T13:51:05.170Z",
+    "indexedAt": "2026-09-21T14:23:00.757Z"
+  },
+  "indexedAt": "2026-09-23T18:06:27.165Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "possivel-desinformacao",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "O modelo ou um checador identificou esta publicação como falsa ou enganosa.",
+            "lang": "pt-BR",
+            "name": "Possível Desinformação"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "provavel-bot",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Esta conta exibe comportamento automatizado ou inautêntico.",
+            "lang": "pt-BR",
+            "name": "Provável Bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "evidencia-insuficiente",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Não há evidências suficientes para checar esta afirmação.",
+            "lang": "pt-BR",
+            "name": "Evidência Insuficiente"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "possivel-desinformacao",
+      "provavel-bot",
+      "evidencia-insuficiente"
+    ]
+  }
+}

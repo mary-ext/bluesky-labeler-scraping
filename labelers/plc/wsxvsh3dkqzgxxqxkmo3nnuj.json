@@ -1,0 +1,76 @@
+{
+  "uri": "at://did:plc:wsxvsh3dkqzgxxqxkmo3nnuj/app.bsky.labeler.service/self",
+  "cid": "bafyreichscpok66vtyitd6bziccbzftp6sqwt3moog23agtrvm4l2xrcgy",
+  "creator": {
+    "did": "did:plc:wsxvsh3dkqzgxxqxkmo3nnuj",
+    "handle": "contraria-labeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wsxvsh3dkqzgxxqxkmo3nnuj/bafkreibuu4kbgfocogrvjxn4wjyqidazpwejcdrolqnlf4r56rxvn3wu2i",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-23T19:57:33.860Z",
+    "indexedAt": "2026-09-23T19:57:42.962Z"
+  },
+  "indexedAt": "2026-09-23T20:13:24.070Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "possivel-desinformacao",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "O modelo ou um checador identificou esta publicação como falsa ou enganosa.",
+            "lang": "pt-BR",
+            "name": "Possível Desinformação"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "provavel-bot",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Esta conta exibe comportamento automatizado ou inautêntico.",
+            "lang": "pt-BR",
+            "name": "Provável Bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "evidencia-insuficiente",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Não há evidências suficientes para checar esta afirmação.",
+            "lang": "pt-BR",
+            "name": "Evidência Insuficiente"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "possivel-desinformacao",
+      "provavel-bot",
+      "evidencia-insuficiente"
+    ]
+  }
+}
