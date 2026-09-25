@@ -1,0 +1,61 @@
+{
+  "uri": "at://did:plc:5jdjunle4twtclxozfbr4ho2/app.bsky.labeler.service/self",
+  "cid": "bafyreidbmmzxstlaefl42c2jzuohsr7jurmbnx6j3xnrhcjj7tvpperuwi",
+  "creator": {
+    "did": "did:plc:5jdjunle4twtclxozfbr4ho2",
+    "handle": "automod.grilledcheese.app",
+    "displayName": "Grilled Cheese Automod",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-25T01:34:15.062Z",
+    "description": "Automated labels from Grilled Cheese's content scan. These are machine judgements, not human review.",
+    "indexedAt": "2026-09-25T01:34:15.062Z"
+  },
+  "indexedAt": "2026-09-25T01:34:15.085Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "violence",
+        "locales": [
+          {
+            "description": "Depictions of violence, injury or gore.",
+            "lang": "en",
+            "name": "Graphic Violence"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "other",
+        "locales": [
+          {
+            "description": "Content a Grilled Cheese moderator marked sensitive.",
+            "lang": "en",
+            "name": "Sensitive"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "nudity",
+      "sexual",
+      "violence",
+      "other"
+    ]
+  },
+  "reasonTypes": [],
+  "subjectTypes": []
+}
