@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibz2apqm6uqugywgbuku25a3y4fe2uagavr6rkt5m546m6uwbwfdi",
+  "cid": "bafyreihwcutkgv5atr3qega433xotb6l6yo65otgvlwdlx7tmt7pp6ih7y",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-09-25T00:22:28.864Z",
+  "indexedAt": "2026-09-25T10:22:29.364Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -851,6 +851,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-skyphone-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "lang": "en",
+            "name": "pds.skyphone.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "pw-blam",
         "locales": [
           {
@@ -871,20 +885,6 @@
             "description": "Account is hosted by the bookhive.social PDS",
             "lang": "en",
             "name": "bookhive.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -1299,12 +1299,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-skeetcentral",
+        "identifier": "com-clipsymphony-social-pds",
         "locales": [
           {
-            "description": "Account is hosted by the skeetcentral.com PDS",
+            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
             "lang": "en",
-            "name": "skeetcentral.com"
+            "name": "pds.social.clipsymphony.com"
           }
         ],
         "severity": "inform"
@@ -1313,12 +1313,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-clipsymphony-social-pds",
+        "identifier": "com-skeetcentral",
         "locales": [
           {
-            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
+            "description": "Account is hosted by the skeetcentral.com PDS",
             "lang": "en",
-            "name": "pds.social.clipsymphony.com"
+            "name": "skeetcentral.com"
           }
         ],
         "severity": "inform"
@@ -1369,20 +1369,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds-dev.wsocial.dev PDS",
-            "lang": "en",
-            "name": "pds-dev.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds6",
         "locales": [
           {
@@ -1425,6 +1411,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ai-afrilingua-gist",
+        "locales": [
+          {
+            "description": "Account is hosted by the gist.afrilingua.ai PDS",
+            "lang": "en",
+            "name": "gist.afrilingua.ai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds5",
         "locales": [
           {
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-afrilingua-gist",
+        "identifier": "world-si46-pds--dev",
         "locales": [
           {
-            "description": "Account is hosted by the gist.afrilingua.ai PDS",
+            "description": "Account is hosted by the pds-dev.si46.world PDS",
             "lang": "en",
-            "name": "gist.afrilingua.ai"
+            "name": "pds-dev.si46.world"
           }
         ],
         "severity": "inform"
@@ -1510,9 +1510,9 @@
       "news-1440-pds",
       "space-cannect-pds",
       "social-pwkl-eu1-dev",
+      "social-skyphone-pds",
       "pw-blam",
       "social-bookhive",
-      "social-skyphone-pds",
       "community-clear-pds",
       "bot-mirrors",
       "social-fluester-pds",
@@ -1542,17 +1542,17 @@
       "systems-witchcraft-pds",
       "ro-aiia-pds",
       "com-arankwende",
-      "com-skeetcentral",
       "com-clipsymphony-social-pds",
+      "com-skeetcentral",
       "dev-wsocial-pds--dev-pds00",
       "net-socialsandbox3",
       "com-wouldcop-pds",
-      "dev-wsocial-pds--dev",
       "site-bskytool-pds6",
       "com-missaamane",
       "info-men--esthe-pds3",
+      "ai-afrilingua-gist",
       "site-bskytool-pds5",
-      "ai-afrilingua-gist"
+      "world-si46-pds--dev"
     ]
   }
 }

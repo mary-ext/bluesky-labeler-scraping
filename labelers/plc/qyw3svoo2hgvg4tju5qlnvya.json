@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qyw3svoo2hgvg4tju5qlnvya/app.bsky.labeler.service/self",
-  "cid": "bafyreicyneesnif7pd2tf24en2uoo32uezzgf5uji6r4agszjp2m6mo4nu",
+  "cid": "bafyreicwxd4iebw6teeaicw4zocu6cbyxdizwkgrcru65ezpf67cfuzjsu",
   "creator": {
     "did": "did:plc:qyw3svoo2hgvg4tju5qlnvya",
     "handle": "mod.coffee.team",
@@ -15,9 +15,9 @@
     "labels": [],
     "createdAt": "2026-07-12T16:12:50.766Z",
     "description": "Labels and moderation services for users of the outof.coffee PDS",
-    "indexedAt": "2026-07-13T13:07:36.474Z"
+    "indexedAt": "2026-09-25T10:31:25.859Z"
   },
-  "indexedAt": "2026-08-12T09:36:59.264Z",
+  "indexedAt": "2026-09-25T10:28:01.562Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -30,7 +30,7 @@
           {
             "description": "I like raw beans! I'm weird!",
             "lang": "en",
-            "name": "raw-beans"
+            "name": "raw beans"
           }
         ],
         "severity": "inform"
@@ -300,6 +300,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "rotten-bean",
+        "locales": [
+          {
+            "description": "Made from rotten beans; no one wants to smell that.",
+            "lang": "en",
+            "name": "rotten bean"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -322,12 +336,14 @@
       "iced-coffee",
       "flat-white",
       "filter-coffee",
-      "hot-sauce"
+      "hot-sauce",
+      "rotten-bean"
     ]
   },
   "reasonTypes": [
     "com.atproto.moderation.defs#reasonOther",
-    "com.atproto.moderation.defs#reasonAppeal"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonMisleading"
   ],
   "subjectTypes": [
     "account"
