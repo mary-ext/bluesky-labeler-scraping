@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:e4elbtctnfqocyfcml6h2lf7/app.bsky.labeler.service/self",
-  "cid": "bafyreih3t5z3qcjstemsnt3xyd7jhi2ooobog5bugewmsiit3cfaurpkry",
+  "cid": "bafyreigprw2ci7imiqdswnbehcj2arg27se7cuflqkogaygc7ok6tdn3xa",
   "creator": {
     "did": "did:plc:e4elbtctnfqocyfcml6h2lf7",
     "handle": "skywatch.blue",
@@ -20,7 +20,7 @@
     "description": "Independent Labeling Service | Not able to perform takedowns.\n\nNot associated with SkySentry.",
     "indexedAt": "2026-09-12T15:49:49.958Z"
   },
-  "indexedAt": "2026-07-30T02:13:58.766Z",
+  "indexedAt": "2026-09-27T21:43:58.271Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -37,6 +37,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "threats",
+        "locales": [
+          {
+            "description": "Promotes violence or harm towards others, including threats, incitement, or advocacy of harm.",
+            "lang": "en",
+            "name": "Threats"
+          }
+        ],
+        "severity": "alert"
       },
       {
         "adultOnly": false,
@@ -90,20 +104,6 @@
             "description": "Applied to accounts engaged in what appear to be engagement hacking tactics: hashtag stuffing, engagement farming, coordinated amplification, and content theft. Escalatable to platform-manipulation on repeat or extreme instances.",
             "lang": "en",
             "name": "Engagement Abuse / Hacking"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "content",
-        "defaultSetting": "ignore",
-        "identifier": "no-dms",
-        "locales": [
-          {
-            "description": "Applied to accounts with 'No DMs' in their bio, but they have DMs open.",
-            "lang": "en",
-            "name": "🚫: No DMs"
           }
         ],
         "severity": "inform"
@@ -536,7 +536,6 @@
       "inverted-red-triangle",
       "low-quality-replies",
       "maga-trump",
-      "no-dms",
       "nazi-symbolism",
       "platform-manipulation",
       "rmve-imve",
@@ -545,6 +544,7 @@
       "prediction-betting",
       "suspect-inauthentic",
       "terf-gc",
+      "threats",
       "troll",
       "speculative",
       "us-gov-account"
