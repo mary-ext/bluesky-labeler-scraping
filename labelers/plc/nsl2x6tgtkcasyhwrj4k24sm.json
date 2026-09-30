@@ -1,0 +1,103 @@
+{
+  "uri": "at://did:plc:nsl2x6tgtkcasyhwrj4k24sm/app.bsky.labeler.service/self",
+  "cid": "bafyreigji6aljstcp6ocnoerstwquojfkghqo6mkemlwv6w5evw2ja7kfi",
+  "creator": {
+    "did": "did:plc:nsl2x6tgtkcasyhwrj4k24sm",
+    "handle": "labeler.tenna.party",
+    "displayName": "the label?",
+    "pronouns": "",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-09-29T08:01:34.760Z",
+    "description": "A complementary labeler for a third-party client.\nRan by @kris.darkworld.download",
+    "indexedAt": "2026-09-29T11:32:44.059Z"
+  },
+  "indexedAt": "2026-09-29T12:16:54.360Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "privatevessel-violative-post",
+        "locales": [
+          {
+            "description": "This private post may violate the Bluesky or tenna.party community guidelines. Such content may be taken down from our AppView. Learn more about private posting at https://private-post.tenna.party/",
+            "lang": "en",
+            "name": "Violative Private Post"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "calls-them-jaronas",
+        "locales": [
+          {
+            "description": "As nature intended! Not posting, tweeting, skeeting, etc.",
+            "lang": "en",
+            "name": "Calls them \"Jaronas\""
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "boop",
+        "locales": [
+          {
+            "description": "You're a friend! (ping kris or appeal the label if you don't it)",
+            "lang": "en",
+            "name": "*boop*"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bsky-client",
+        "locales": [
+          {
+            "description": "A third-party/alternative client for the Bluesky Social app",
+            "lang": "en",
+            "name": "Bluesky client"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "privatevessel-violative-post",
+      "privatevessel-banned",
+      "calls-them-jaronas",
+      "boop",
+      "bsky-client",
+      "!warn"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ]
+}
