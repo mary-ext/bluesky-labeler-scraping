@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:ciquc2iqrba7r5tootbmxn42/app.bsky.labeler.service/self",
-  "cid": "bafyreifdrzf5p4cstxdojt6zbqk2wzkzfk2aodpkm4ghwtwq7hddcfdt2m",
+  "cid": "bafyreiciu4xqcshijeh4w4tnilbxbtupyhm6jphvof26slgvl7rtpfhhpa",
   "creator": {
     "did": "did:plc:ciquc2iqrba7r5tootbmxn42",
     "handle": "areen-labeler.bsky.social",
@@ -17,19 +17,24 @@
     "description": "„אירוע הכחדה קטן לבעיית ספאם גדולה”",
     "indexedAt": "2026-09-11T20:01:19.856Z"
   },
-  "indexedAt": "2026-09-11T20:39:38.162Z",
+  "indexedAt": "2026-09-30T06:46:09.163Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "areen-spam",
+        "identifier": "dino-scam",
         "locales": [
           {
-            "description": "Accounts whose current handles match the configured areen-pattern spam rule.",
+            "description": "Accounts attempting to steal from you, typically by impersonating a legitimate fundraising campaign or organization to solicit donations for a fabricated cause.",
             "lang": "en",
-            "name": "Areen-pattern spam"
+            "name": "Scam"
+          },
+          {
+            "description": "חשבונות המנסים לגנוב מכן",
+            "lang": "he",
+            "name": "סקאם"
           }
         ],
         "severity": "alert"
@@ -37,17 +42,17 @@
       {
         "blurs": "content",
         "defaultSetting": "hide",
-        "identifier": "coordinated-solicitation-spam",
+        "identifier": "dino-spam",
         "locales": [
           {
             "description": "Accounts created and operated by a single person or organization to mass-post large volumes of identical or near-identical content.",
             "lang": "en",
-            "name": "Coordinated solicitation spam"
+            "name": "Spam"
           },
           {
             "description": "חשבונות שנוצרו ומופעלים על ידי אדם או גוף בודד כדי לפרסם בהמוניות תוכן זהה או כמעט זהה.",
             "lang": "he",
-            "name": "ספאם גיוס תרומות"
+            "name": "ספאם"
           }
         ],
         "severity": "alert"
@@ -72,12 +77,23 @@
       }
     ],
     "labelValues": [
-      "areen-spam",
-      "coordinated-solicitation-spam",
+      "dino-scam",
+      "dino-spam",
       "israeli-politics"
     ]
   },
+  "reasonTypes": [
+    "tools.ozone.report.defs#reasonMisleadingScam",
+    "tools.ozone.report.defs#reasonMisleadingSpam",
+    "tools.ozone.report.defs#reasonMisleadingElections",
+    "tools.ozone.report.defs#reasonOther"
+  ],
   "subjectTypes": [
-    "account"
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
   ]
 }
