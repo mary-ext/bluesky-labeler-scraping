@@ -1,0 +1,160 @@
+{
+  "uri": "at://did:plc:lpncv7lmktxkwts6dduldjue/app.bsky.labeler.service/self",
+  "cid": "bafyreihhsuagqsnatugm5od6eczgxdsq52j3f4f4j7jscntw52esuaylde",
+  "creator": {
+    "did": "did:plc:lpncv7lmktxkwts6dduldjue",
+    "handle": "poasters.club",
+    "displayName": "Poasters Club",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lpncv7lmktxkwts6dduldjue/bafkreiffitoc2q4ezm4ponyrfovv2clqgy6yyq4jbctykakshta337v7yy",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-01T17:14:52.842Z",
+    "description": "An exclusive club for people who poast!\npoasters.club\npds.poasters.club\n\nCreated by @chris.pardy.family",
+    "indexedAt": "2026-10-01T19:38:54.055Z"
+  },
+  "indexedAt": "2026-10-01T18:53:12.063Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "certified-poaster",
+        "locales": [
+          {
+            "description": "A member of poasters.club.",
+            "lang": "en",
+            "name": "Certified Poaster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "poaster",
+        "locales": [
+          {
+            "description": "Poasts. Vouched for by a poasters.club member.",
+            "lang": "en",
+            "name": "Poaster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "reply-guy",
+        "locales": [
+          {
+            "description": "Will reply to your post. Reported by a poasters.club member.",
+            "lang": "en",
+            "name": "Reply Guy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "quote-dunker",
+        "locales": [
+          {
+            "description": "Quotes posts to dunk on them. Reported by a poasters.club member.",
+            "lang": "en",
+            "name": "Quote Dunker"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "thread-guy",
+        "locales": [
+          {
+            "description": "1/🧵 Posts in threads. Reported by a poasters.club member.",
+            "lang": "en",
+            "name": "Thread Guy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "posting-through-it",
+        "locales": [
+          {
+            "description": "Getting dragged and still posting. Reported by a poasters.club member.",
+            "lang": "en",
+            "name": "Posting Through It"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lurker",
+        "locales": [
+          {
+            "description": "Rarely posts, sees everything. Reported by a poasters.club member.",
+            "lang": "en",
+            "name": "Lurker"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "banger",
+        "locales": [
+          {
+            "description": "This post is a banger. Called by a poasters.club member.",
+            "lang": "en",
+            "name": "Banger"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "certified-poaster",
+      "poaster",
+      "reply-guy",
+      "quote-dunker",
+      "thread-guy",
+      "posting-through-it",
+      "lurker",
+      "banger"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "tools.ozone.report.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.actor.profile",
+    "app.bsky.feed.post"
+  ]
+}
