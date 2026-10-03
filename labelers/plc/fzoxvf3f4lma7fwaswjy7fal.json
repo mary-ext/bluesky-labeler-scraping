@@ -1,0 +1,51 @@
+{
+  "uri": "at://did:plc:fzoxvf3f4lma7fwaswjy7fal/app.bsky.labeler.service/self",
+  "cid": "bafyreifbdets3tyukyanfqf2tivjd6eytowmzhhncbskktosp3oitq3ega",
+  "creator": {
+    "did": "did:plc:fzoxvf3f4lma7fwaswjy7fal",
+    "handle": "moderator.atproto.cz",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fzoxvf3f4lma7fwaswjy7fal/bafkreicvcxgdscvfh6sq4t4mjcqcas55m3u2vbhi5i75vi5r5ayihbrsea",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-02T20:47:46.660Z",
+    "indexedAt": "2026-10-02T20:49:05.160Z"
+  },
+  "indexedAt": "2026-10-02T21:51:23.458Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Hromadné nevyžádané odpovědi, zmínky, odkazy, kopírovaný obsah",
+            "lang": "cz",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform|alert|none"
+      }
+    ],
+    "labelValues": [
+      "spam"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSpam"
+  ]
+}

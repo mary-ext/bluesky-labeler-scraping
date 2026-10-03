@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:3eivfiql4memqxkryeu4tqnk/app.bsky.labeler.service/self",
-  "cid": "bafyreihbded2bn5ru6rxmd2gne5bszmvhtqyas677kqo37nxtyj5s2uvsm",
+  "cid": "bafyreihlbykf33enblsty7nytw2ileopvm2gzkjjyuqejuyw2qfevytd5e",
   "creator": {
     "did": "did:plc:3eivfiql4memqxkryeu4tqnk",
     "handle": "mod.shawn.party",
@@ -17,69 +17,13 @@
     },
     "labels": [],
     "createdAt": "2024-03-14T15:43:58.957Z",
-    "description": "A 3rd party Bluesky labeler service account run by @shawn.party\n\nMy primary purpose is labeling #spoiler posts here on BlueSky",
-    "indexedAt": "2024-11-11T20:47:53.313Z"
+    "description": "Labels posts that warn of #spoilers and rumors. To flag an unmarked spoiler: like this labeler or follow me, then reply to it with \"@mod.shawn.party spoiler\" or report it to Spoiler Droid. Run by @shawn.party",
+    "indexedAt": "2026-10-03T00:59:33.458Z"
   },
-  "indexedAt": "2025-12-07T01:36:49.729Z",
+  "indexedAt": "2026-10-03T01:03:17.765Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "Star Wars Fan",
-        "locales": [
-          {
-            "description": "Vanity label for fans of the Star Wars galaxy",
-            "lang": "en",
-            "name": "Star Wars Fan"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "star-wars-content",
-        "locales": [
-          {
-            "description": "Vanity label for curated content related to Star Wars",
-            "lang": "en",
-            "name": "Star Wars"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "star-wars-creator",
-        "locales": [
-          {
-            "description": "Vanity label bestowed upon only the best Star Wars content creators in the galaxy",
-            "lang": "en",
-            "name": "Galactic Content Creator"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "list-fiend",
-        "locales": [
-          {
-            "description": "Vanity label for individuals who simply want to be included on a list and labeled as such",
-            "lang": "en",
-            "name": "List Admirers"
-          }
-        ],
-        "severity": "inform"
-      },
       {
         "adultOnly": false,
         "blurs": "content",
@@ -148,14 +92,10 @@
       }
     ],
     "labelValues": [
-      "rumor-parent",
-      "rumor",
-      "spoiler-parent",
-      "star-wars-fan",
       "spoiler",
-      "star-wars-content",
-      "star-wars-creator",
-      "list-fiend"
+      "spoiler-parent",
+      "rumor",
+      "rumor-parent"
     ]
   }
 }
