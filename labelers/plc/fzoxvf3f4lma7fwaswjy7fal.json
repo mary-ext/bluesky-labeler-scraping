@@ -1,10 +1,10 @@
 {
   "uri": "at://did:plc:fzoxvf3f4lma7fwaswjy7fal/app.bsky.labeler.service/self",
-  "cid": "bafyreifbdets3tyukyanfqf2tivjd6eytowmzhhncbskktosp3oitq3ega",
+  "cid": "bafyreiglv6jdfprxor644jrgzmpnfqolfdnub22gt3ht3aqeslqihd664q",
   "creator": {
     "did": "did:plc:fzoxvf3f4lma7fwaswjy7fal",
-    "handle": "moderator.atproto.cz",
-    "displayName": "",
+    "handle": "moderace.atproto.cz",
+    "displayName": "Moderace - atproto.cz",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fzoxvf3f4lma7fwaswjy7fal/bafkreicvcxgdscvfh6sq4t4mjcqcas55m3u2vbhi5i75vi5r5ayihbrsea",
     "associated": {
       "labeler": true,
@@ -14,29 +14,77 @@
     },
     "labels": [],
     "createdAt": "2026-10-02T20:47:46.660Z",
-    "indexedAt": "2026-10-02T20:49:05.160Z"
+    "description": "Komunitní moderační služba pro české Bluesky.\n\nOznačujeme spam, podvody a falešné identity.\n\nPravidla a kontakt: https://moderace.atproto.cz",
+    "indexedAt": "2026-10-03T19:48:06.357Z"
   },
-  "indexedAt": "2026-10-02T21:51:23.458Z",
+  "indexedAt": "2026-10-03T18:32:30.865Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "content|media|none",
+        "blurs": "content",
         "defaultSetting": "hide",
         "identifier": "spam",
         "locales": [
           {
-            "description": "Hromadné nevyžádané odpovědi, zmínky, odkazy, kopírovaný obsah",
-            "lang": "cz",
+            "description": "Hromadné nevyžádané odpovědi, zmínky, odkazy nebo kopírovaný obsah.",
+            "lang": "cs",
+            "name": "Spam"
+          },
+          {
+            "description": "Unwanted, repeated, or unrelated replies, mentions, and links.",
+            "lang": "en",
             "name": "Spam"
           }
         ],
-        "severity": "inform|alert|none"
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "scam",
+        "locales": [
+          {
+            "description": "Podvodné nabídky, phishing a snahy vylákat peníze nebo přihlašovací údaje.",
+            "lang": "cs",
+            "name": "Podvod"
+          },
+          {
+            "description": "Fraudulent offers, phishing, and attempts to extract money or login credentials.",
+            "lang": "en",
+            "name": "Scam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "hide",
+        "identifier": "impersonation",
+        "locales": [
+          {
+            "description": "Účet se bez svolení vydává za jinou osobu, značku nebo organizaci. Netýká se zjevné parodie.",
+            "lang": "cs",
+            "name": "Falešná identita"
+          },
+          {
+            "description": "Pretending to be another person, brand, or organization without permission. Does not apply to clearly marked parody.",
+            "lang": "en",
+            "name": "Impersonation"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "spam"
+      "!hide",
+      "!warn",
+      "spam",
+      "scam",
+      "impersonation"
     ]
   },
   "reasonTypes": [
@@ -47,5 +95,9 @@
     "com.atproto.moderation.defs#reasonAppeal",
     "com.atproto.moderation.defs#reasonMisleading",
     "com.atproto.moderation.defs#reasonSpam"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
   ]
 }
