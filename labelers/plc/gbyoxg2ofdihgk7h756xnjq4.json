@@ -1,0 +1,68 @@
+{
+  "uri": "at://did:plc:gbyoxg2ofdihgk7h756xnjq4/app.bsky.labeler.service/self",
+  "cid": "bafyreifqqsgynopjqaqn7vlhyjxhkuedbid2qq7ux3pjjrms2imqgsmiky",
+  "creator": {
+    "did": "did:plc:gbyoxg2ofdihgk7h756xnjq4",
+    "handle": "classify.my.id",
+    "displayName": "Classify My ID",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gbyoxg2ofdihgk7h756xnjq4/bafkreigwrwk7x6gs6tzb7bjqfgdkncjf6uowt2k3y6hjy2gdokz3yq2g64",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-04T10:24:34.257Z",
+    "description": "Labeler for Bluesky under Development.",
+    "indexedAt": "2026-10-04T11:42:04.364Z"
+  },
+  "indexedAt": "2026-10-04T11:21:39.164Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ja",
+        "locales": [
+          {
+            "description": "This user chose Yes.",
+            "lang": "en",
+            "name": "Yes"
+          },
+          {
+            "description": "Den här användaren valde Ja.",
+            "lang": "sv",
+            "name": "Ja"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nej",
+        "locales": [
+          {
+            "description": "This user chose No.",
+            "lang": "en",
+            "name": "No"
+          },
+          {
+            "description": "Den här användaren valde Nej.",
+            "lang": "sv",
+            "name": "Nej"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "ja",
+      "nej"
+    ]
+  }
+}
