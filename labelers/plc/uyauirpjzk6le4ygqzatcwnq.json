@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibdg3s4belggjj4fg7r6dbpo6t5uwha5suf4ye4dxl7jpzcv7jiz4",
+  "cid": "bafyreif2y7es2o4cda7qgksspamfnaj7tcpjmozqblhdqsdik2l4oykvqa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-06T14:02:55.569Z",
+  "indexedAt": "2026-10-07T14:12:32.880Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -501,6 +501,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "community-clear-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.clear.community PDS",
+            "lang": "en",
+            "name": "pds.clear.community"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-dinakernel-test--pds",
         "locales": [
           {
@@ -767,20 +781,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "community-clear-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.clear.community PDS",
-            "lang": "en",
-            "name": "pds.clear.community"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "dev-alley-chicago--com-pds",
         "locales": [
           {
@@ -991,6 +991,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "town-delve-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.delve.town PDS",
+            "lang": "en",
+            "name": "pds.delve.town"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds4",
         "locales": [
           {
@@ -1011,20 +1025,6 @@
             "description": "Account is hosted by the pds.plcs.fun PDS",
             "lang": "en",
             "name": "pds.plcs.fun"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.delve.town PDS",
-            "lang": "en",
-            "name": "pds.delve.town"
           }
         ],
         "severity": "inform"
@@ -1229,26 +1229,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-zimchu-epds",
+        "identifier": "com-clipsymphony-social-pds",
         "locales": [
           {
-            "description": "Account is hosted by the epds.zimchu.com PDS",
+            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
             "lang": "en",
-            "name": "epds.zimchu.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "news-usapolitics-matrix",
-        "locales": [
-          {
-            "description": "Account is hosted by the matrix.usapolitics.news PDS",
-            "lang": "en",
-            "name": "matrix.usapolitics.news"
+            "name": "pds.social.clipsymphony.com"
           }
         ],
         "severity": "inform"
@@ -1271,12 +1257,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-clipsymphony-social-pds",
+        "identifier": "com-zimchu-epds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
+            "description": "Account is hosted by the epds.zimchu.com PDS",
             "lang": "en",
-            "name": "pds.social.clipsymphony.com"
+            "name": "epds.zimchu.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "news-usapolitics-matrix",
+        "locales": [
+          {
+            "description": "Account is hosted by the matrix.usapolitics.news PDS",
+            "lang": "en",
+            "name": "matrix.usapolitics.news"
           }
         ],
         "severity": "inform"
@@ -1313,12 +1313,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-arankwende",
+        "identifier": "ai-afrilingua-gist",
         "locales": [
           {
-            "description": "Account is hosted by the arankwende.com PDS",
+            "description": "Account is hosted by the gist.afrilingua.ai PDS",
             "lang": "en",
-            "name": "arankwende.com"
+            "name": "gist.afrilingua.ai"
           }
         ],
         "severity": "inform"
@@ -1327,12 +1327,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-afrilingua-gist",
+        "identifier": "com-arankwende",
         "locales": [
           {
-            "description": "Account is hosted by the gist.afrilingua.ai PDS",
+            "description": "Account is hosted by the arankwende.com PDS",
             "lang": "en",
-            "name": "gist.afrilingua.ai"
+            "name": "arankwende.com"
           }
         ],
         "severity": "inform"
@@ -1383,6 +1383,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-colibri",
+        "locales": [
+          {
+            "description": "Account is hosted by the colibri.social PDS",
+            "lang": "en",
+            "name": "colibri.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-wouldcop-pds",
         "locales": [
           {
@@ -1403,20 +1417,6 @@
             "description": "Account is hosted by the atlas-pds.rebuildingus.org PDS",
             "lang": "en",
             "name": "atlas-pds.rebuildingus.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-colibri",
-        "locales": [
-          {
-            "description": "Account is hosted by the colibri.social PDS",
-            "lang": "en",
-            "name": "colibri.social"
           }
         ],
         "severity": "inform"
@@ -1485,6 +1485,7 @@
       "net-hsuanyuchou-taipei",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
+      "community-clear-pds",
       "com-dinakernel-test--pds",
       "network-nobody-node",
       "net-goldentooth-pds",
@@ -1504,7 +1505,6 @@
       "at-forum--hietzing",
       "cafe-pckt-pds",
       "at-admat-bsx",
-      "community-clear-pds",
       "dev-alley-chicago--com-pds",
       "space-getair-demo-pds",
       "social-skyphone-pds",
@@ -1520,9 +1520,9 @@
       "site-bskytool-pds3",
       "social-fazen",
       "cafe-margin",
+      "town-delve-pds",
       "site-bskytool-pds4",
       "fun-plcs-pds",
-      "town-delve-pds",
       "space-cannect",
       "cc-mirablossom",
       "cloud-hstgr-srv865737",
@@ -1537,20 +1537,20 @@
       "net-atchan",
       "surf-self",
       "site-bskytool-pds2",
+      "com-clipsymphony-social-pds",
+      "systems-witchcraft-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "systems-witchcraft-pds",
-      "com-clipsymphony-social-pds",
       "com-skeetcentral",
       "ro-aiia-pds",
-      "com-arankwende",
       "ai-afrilingua-gist",
+      "com-arankwende",
       "net-socialsandbox3",
       "com-missaamane",
       "dev-wsocial-pds--dev-pds00",
+      "social-colibri",
       "com-wouldcop-pds",
       "org-rebuildingus-atlas--pds",
-      "social-colibri",
       "site-bskytool-pds6",
       "info-men--esthe-pds3"
     ]

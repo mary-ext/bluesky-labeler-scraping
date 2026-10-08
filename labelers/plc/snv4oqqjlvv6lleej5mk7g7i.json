@@ -1,9 +1,10 @@
 {
   "uri": "at://did:plc:snv4oqqjlvv6lleej5mk7g7i/app.bsky.labeler.service/self",
-  "cid": "bafyreicw4ryoun3x2x3vcib7mci6ecrdg5scrqplcjklpmgptsz5t3h7zy",
+  "cid": "bafyreic3aypfg4eit544frx2fjqwzsig4a6qlehl3e2ey6moafiqcrwjn4",
   "creator": {
     "did": "did:plc:snv4oqqjlvv6lleej5mk7g7i",
     "handle": "usagi-labeler.nikkori.cafe",
+    "displayName": "ごちうさラベラー",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:snv4oqqjlvv6lleej5mk7g7i/bafkreicfdsxgnkesuf35d7ggrdnz7np6kf2avff46o7o7h4a2ritulzmt4",
     "associated": {
       "labeler": true,
@@ -11,12 +12,20 @@
         "allowSubscriptions": "followers"
       }
     },
-    "labels": [],
+    "labels": [
+      {
+        "src": "did:plc:snv4oqqjlvv6lleej5mk7g7i",
+        "uri": "at://did:plc:snv4oqqjlvv6lleej5mk7g7i/app.bsky.actor.profile/self",
+        "cid": "bafyreibnwrvt45qhsszmgmzluxowiur3rbnrusiex4ajfnhzpr2y2pomiq",
+        "val": "bot",
+        "cts": "2026-06-20T14:59:51.172Z"
+      }
+    ],
     "createdAt": "2026-06-20T14:59:52.664Z",
-    "description": "工事中のため、機能しません。",
-    "indexedAt": "2026-06-24T23:47:12.477Z"
+    "description": "『ご注文はうさぎですか？』の推しをラベリングします。推し活に使ってみてね☕️\n\n#gochiusa \n\n管理: @yusura.nikkori.cafe",
+    "indexedAt": "2026-10-07T17:05:57.467Z"
   },
-  "indexedAt": "2026-10-06T22:37:58.266Z",
+  "indexedAt": "2026-10-07T16:49:15.458Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -24,17 +33,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "earth",
+        "identifier": "cocoa",
         "locales": [
           {
-            "description": "Earth",
+            "description": "保登心愛さんを推しています！",
             "lang": "en",
-            "name": "Earth 🌎"
-          },
-          {
-            "description": "Terra",
-            "lang": "pt-BR",
-            "name": "Terra 🌎"
+            "name": "ココア推し🩷 "
           }
         ],
         "severity": "inform"
@@ -43,17 +47,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fire",
+        "identifier": "chino",
         "locales": [
           {
-            "description": "Fire",
+            "description": "香風智乃さんを推しています！",
             "lang": "en",
-            "name": "Fire 🔥"
-          },
-          {
-            "description": "Fogo",
-            "lang": "pt-BR",
-            "name": "Fogo 🔥"
+            "name": "チノ推し🩵"
           }
         ],
         "severity": "inform"
@@ -62,17 +61,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "air",
+        "identifier": "rize",
         "locales": [
           {
-            "description": "Air",
+            "description": "天々座理世さんを推しています！",
             "lang": "en",
-            "name": "Air 💨"
-          },
-          {
-            "description": "Ar",
-            "lang": "pt-BR",
-            "name": "Ar 💨"
+            "name": "リゼ推し💜"
           }
         ],
         "severity": "inform"
@@ -81,17 +75,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "water",
+        "identifier": "chiya",
         "locales": [
           {
-            "description": "Water",
+            "description": "宇治松千夜さんを推しています！",
             "lang": "en",
-            "name": "Water 💧"
-          },
-          {
-            "description": "Água",
-            "lang": "pt-BR",
-            "name": "Água 💧"
+            "name": "千夜推し💚"
           }
         ],
         "severity": "inform"
@@ -100,28 +89,158 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "love",
+        "identifier": "syaro",
         "locales": [
           {
-            "description": "Love",
+            "description": "桐間紗路さんを推しています！",
             "lang": "en",
-            "name": "Love 💞"
-          },
+            "name": "シャロ推し💛"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "maya",
+        "locales": [
           {
-            "description": "Amor",
-            "lang": "pt-BR",
-            "name": "Amor 💞"
+            "description": "条河麻耶さんを推しています！",
+            "lang": "en",
+            "name": "マヤ推し💙"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "megu",
+        "locales": [
+          {
+            "description": "奈津恵さんを推しています！",
+            "lang": "en",
+            "name": "メグ推し❤️"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fuyu",
+        "locales": [
+          {
+            "description": "風衣葉冬優さんを推しています！",
+            "lang": "en",
+            "name": "フユ推し🐈‍⬛"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "elu",
+        "locales": [
+          {
+            "description": "神沙映月さんを推しています！",
+            "lang": "en",
+            "name": "エル推し"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "natsume",
+        "locales": [
+          {
+            "description": "神沙夏明さんを推しています！",
+            "lang": "en",
+            "name": "ナツメ推し"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "aoyama",
+        "locales": [
+          {
+            "description": "青山ブルーマウンテン先生を推しています！",
+            "lang": "en",
+            "name": "青山推し"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "rin",
+        "locales": [
+          {
+            "description": "真手凛さんを推しています！",
+            "lang": "en",
+            "name": "凛推し"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mocha",
+        "locales": [
+          {
+            "description": "保登モカさんを推しています！",
+            "lang": "en",
+            "name": "モカ推し"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "yura",
+        "locales": [
+          {
+            "description": "狩手結良さんを推しています！",
+            "lang": "en",
+            "name": "ユラ推し"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "earth",
-      "fire",
-      "air",
-      "water",
-      "love"
+      "cocoa",
+      "chino",
+      "rize",
+      "chiya",
+      "syaro",
+      "maya",
+      "megu",
+      "fuyu",
+      "elu",
+      "natsume",
+      "aoyama",
+      "rin",
+      "mocha",
+      "yura"
     ]
   }
 }

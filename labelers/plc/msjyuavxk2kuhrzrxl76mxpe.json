@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:msjyuavxk2kuhrzrxl76mxpe/app.bsky.labeler.service/self",
-  "cid": "bafyreicaa6i2n6asjr4yen73uismqaqevmfjmygrip3apld7f76o7psp3q",
+  "cid": "bafyreigty6ondi2sj3xinpy5g6irqgnvodsac6mwelcthnsuiitbw3ughm",
   "creator": {
     "did": "did:plc:msjyuavxk2kuhrzrxl76mxpe",
     "handle": "parties.mplabeller.uk",
@@ -17,7 +17,7 @@
     "description": "Subscribe to see labels on all UK MP posts and profiles with their party membership.\n\nYou can also subscribe to @constituencies.mplabeller.uk and @roles.mplabeller.uk.\n\nData from TheyWorkForYou, list of Bluesky MPs from PoliticsHome.",
     "indexedAt": "2025-02-24T19:24:20.145Z"
   },
-  "indexedAt": "2025-02-20T20:39:45.653Z",
+  "indexedAt": "2026-10-07T20:41:12.669Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -174,6 +174,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "your-party",
+        "locales": [
+          {
+            "description": "This MP is a representative of Your Party. Data from TheyWorkForYou.",
+            "lang": "en",
+            "name": "Your Party"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -187,7 +201,8 @@
       "green",
       "plaid-cymru",
       "social-democratic-and-labour-party",
-      "speaker"
+      "speaker",
+      "your-party"
     ]
   }
 }
