@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:znr5khrt5sbsdj67fde5w7h4/app.bsky.labeler.service/self",
-  "cid": "bafyreici436okspz3bwbgf52y3s6x3zj6iw6uzhldzfvhzff6c5ziurvra",
+  "cid": "bafyreihhmrhyj3g3pji2vafvqbclehhorbkd5t5nho7fn5pjw4qyrkqkpu",
   "creator": {
     "did": "did:plc:znr5khrt5sbsdj67fde5w7h4",
     "handle": "politics-labeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "🧪 ÖFFENTLICHE BETA\nNeutraler Themenfilter für Posts über Politiker:innen – nach Partei bzw. international kategorisiert.\n\nLabels sind standardmäßig aus.\nhttps://politik-labeler.coreworks.dev/about/",
     "indexedAt": "2026-09-06T10:18:38.455Z"
   },
-  "indexedAt": "2026-09-20T16:28:24.566Z",
+  "indexedAt": "2026-10-08T13:40:08.456Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -160,6 +160,20 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "politik-de-alltag",
+        "locales": [
+          {
+            "description": "Der Post nennt gepflegte Begriffe zu Regierung, Parlamenten oder politischen Verfahren in Deutschland. Mehrdeutige Alltagsbegriffe benötigen einen nahen ausdrücklichen Bezug zur deutschen Politik. Separat von Parteikategorien auswählbar.",
+            "lang": "de",
+            "name": "Politischer Alltag (Deutschland)"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -172,7 +186,8 @@
       "politik-de-afd",
       "politik-de-bsw",
       "politik-de-sonstige",
-      "politik-international"
+      "politik-international",
+      "politik-de-alltag"
     ]
   },
   "subjectTypes": [
