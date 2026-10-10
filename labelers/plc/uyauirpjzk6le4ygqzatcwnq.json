@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiekoyfn6ucwsu3hxcktdny72rdyxtsjc76ruhctvgk7rynnmxfnsy",
+  "cid": "bafyreigxmenxl3xenmcl3ue5m6t7tx4x7qsngt7qdwxlv2n4ts2p4w2v3y",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-09T02:22:46.265Z",
+  "indexedAt": "2026-10-09T14:32:36.359Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -725,6 +725,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "pics-mychat",
+        "locales": [
+          {
+            "description": "Account is hosted by the mychat.pics PDS",
+            "lang": "en",
+            "name": "mychat.pics"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-perohub-pds",
         "locales": [
           {
@@ -935,12 +949,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
+        "identifier": "cafe-margin",
         "locales": [
           {
-            "description": "Account is hosted by the pds.delve.town PDS",
+            "description": "Account is hosted by the margin.cafe PDS",
             "lang": "en",
-            "name": "pds.delve.town"
+            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -955,6 +969,20 @@
             "description": "Account is hosted by the velvetnova.cc PDS",
             "lang": "en",
             "name": "velvetnova.cc"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "town-delve-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.delve.town PDS",
+            "lang": "en",
+            "name": "pds.delve.town"
           }
         ],
         "severity": "inform"
@@ -983,20 +1011,6 @@
             "description": "Account is hosted by the pds3.bskytool.site PDS",
             "lang": "en",
             "name": "pds3.bskytool.site"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cafe-margin",
-        "locales": [
-          {
-            "description": "Account is hosted by the margin.cafe PDS",
-            "lang": "en",
-            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -1327,12 +1341,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-arankwende",
+        "identifier": "com-missaamane",
         "locales": [
           {
-            "description": "Account is hosted by the arankwende.com PDS",
+            "description": "Account is hosted by the missaamane.com PDS",
             "lang": "en",
-            "name": "arankwende.com"
+            "name": "missaamane.com"
           }
         ],
         "severity": "inform"
@@ -1341,12 +1355,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-missaamane",
+        "identifier": "com-arankwende",
         "locales": [
           {
-            "description": "Account is hosted by the missaamane.com PDS",
+            "description": "Account is hosted by the arankwende.com PDS",
             "lang": "en",
-            "name": "missaamane.com"
+            "name": "arankwende.com"
           }
         ],
         "severity": "inform"
@@ -1434,20 +1448,6 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "site-bskytool-pds6",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds6.bskytool.site PDS",
-            "lang": "en",
-            "name": "pds6.bskytool.site"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -1501,6 +1501,7 @@
       "me-opnmt-pds",
       "to-tor0n",
       "world-jalsa-u",
+      "pics-mychat",
       "com-perohub-pds",
       "at-forum--hietzing",
       "cafe-pckt-pds",
@@ -1516,11 +1517,11 @@
       "bot-mirrors",
       "social-fluester-pds",
       "social-pwkl-us1-dev",
-      "town-delve-pds",
+      "cafe-margin",
       "cc-velvetnova",
+      "town-delve-pds",
       "social-fazen",
       "site-bskytool-pds3",
-      "cafe-margin",
       "site-bskytool-pds4",
       "fun-plcs-pds",
       "cc-mirablossom",
@@ -1544,15 +1545,14 @@
       "ai-afrilingua-gist",
       "ro-aiia-pds",
       "com-clipsymphony-social-pds",
-      "com-arankwende",
       "com-missaamane",
+      "com-arankwende",
       "net-socialsandbox3",
       "dev-wsocial-pds--dev-pds00",
       "social-colibri",
       "com-wouldcop-pds",
       "org-rebuildingus-atlas--pds",
-      "social-scenius-pds",
-      "site-bskytool-pds6"
+      "social-scenius-pds"
     ]
   }
 }
