@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:p22r625jumw54ast5uk6mjpn/app.bsky.labeler.service/self",
-  "cid": "bafyreibsc7kcikiwh36e7m4rxxzkufip6kg5oaobmng25ddmyzrfqfoerm",
+  "cid": "bafyreialmxk5ujlrbqjklyljzl3keqsvtou5s6phdysppvyhxrtw34igxe",
   "creator": {
     "did": "did:plc:p22r625jumw54ast5uk6mjpn",
     "handle": "moderation.bsky.kandayuri.net",
@@ -23,35 +23,51 @@
     "createdAt": "2026-08-29T08:23:14.768Z",
     "indexedAt": "2026-08-31T12:39:46.207Z"
   },
-  "indexedAt": "2026-09-13T00:40:24.559Z",
+  "indexedAt": "2026-10-11T01:55:42.758Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "Verified",
+        "blurs": "content|media|none",
+        "defaultSetting": "warn|hide",
+        "identifier": "spam",
         "locales": [
           {
-            "description": "Verified account.\nVerifying by KandaYuri.",
-            "lang": "en",
-            "name": "Verified"
-          },
-          {
-            "description": "已驗證帳號。\n由神田ゆり驗證。",
-            "lang": "zh-TW",
-            "name": "已驗證"
+            "description": "",
+            "lang": "zh",
+            "name": "垃圾、詐騙、騷擾帳號、內容"
           }
         ],
-        "severity": "none"
+        "severity": "inform|alert|none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content|media|none",
+        "defaultSetting": "ignore|warn|hide",
+        "identifier": "TPP",
+        "locales": [
+          {
+            "description": "藍白支持者、小草、...等。",
+            "lang": "zh",
+            "name": "藍白帳號"
+          }
+        ],
+        "severity": "inform|alert|none"
       }
     ],
     "labelValues": [
-      "Verified"
+      "spam",
+      "TPP"
     ]
   },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonSpam"
+  ],
   "subjectTypes": [
-    "account"
+    "account",
+    "record",
+    "chat"
   ]
 }

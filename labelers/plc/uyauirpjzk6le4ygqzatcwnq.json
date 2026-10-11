@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreigxmenxl3xenmcl3ue5m6t7tx4x7qsngt7qdwxlv2n4ts2p4w2v3y",
+  "cid": "bafyreibvcng4rgjfb5ou4bateggyk5w3mmqqbj5gnew4tt2kb3x3ehb56e",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-09T14:32:36.359Z",
+  "indexedAt": "2026-10-10T14:42:34.056Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -291,20 +291,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-nihilist",
-        "locales": [
-          {
-            "description": "Account is hosted by the nihilist.cloud PDS",
-            "lang": "en",
-            "name": "nihilist.cloud"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "so-sprk-pds",
         "locales": [
           {
@@ -473,6 +459,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-dinakernel-test--pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the test-pds.dinakernel.com PDS",
+            "lang": "en",
+            "name": "test-pds.dinakernel.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-qualiaworks-eurosky--pds",
         "locales": [
           {
@@ -493,20 +493,6 @@
             "description": "Account is hosted by the pds.letspds.org PDS",
             "lang": "en",
             "name": "pds.letspds.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-dinakernel-test--pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the test-pds.dinakernel.com PDS",
-            "lang": "en",
-            "name": "test-pds.dinakernel.com"
           }
         ],
         "severity": "inform"
@@ -865,6 +851,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "town-delve-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.delve.town PDS",
+            "lang": "en",
+            "name": "pds.delve.town"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "space-cannect-pds",
         "locales": [
           {
@@ -899,6 +899,20 @@
             "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
             "lang": "en",
             "name": "dev.eu1.pwkl.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cafe-margin",
+        "locales": [
+          {
+            "description": "Account is hosted by the margin.cafe PDS",
+            "lang": "en",
+            "name": "margin.cafe"
           }
         ],
         "severity": "inform"
@@ -949,40 +963,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cafe-margin",
-        "locales": [
-          {
-            "description": "Account is hosted by the margin.cafe PDS",
-            "lang": "en",
-            "name": "margin.cafe"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cc-velvetnova",
         "locales": [
           {
             "description": "Account is hosted by the velvetnova.cc PDS",
             "lang": "en",
             "name": "velvetnova.cc"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.delve.town PDS",
-            "lang": "en",
-            "name": "pds.delve.town"
           }
         ],
         "severity": "inform"
@@ -1011,6 +997,20 @@
             "description": "Account is hosted by the pds3.bskytool.site PDS",
             "lang": "en",
             "name": "pds3.bskytool.site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cloud-nihilist",
+        "locales": [
+          {
+            "description": "Account is hosted by the nihilist.cloud PDS",
+            "lang": "en",
+            "name": "nihilist.cloud"
           }
         ],
         "severity": "inform"
@@ -1327,12 +1327,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-clipsymphony-social-pds",
+        "identifier": "com-missaamane",
         "locales": [
           {
-            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
+            "description": "Account is hosted by the missaamane.com PDS",
             "lang": "en",
-            "name": "pds.social.clipsymphony.com"
+            "name": "missaamane.com"
           }
         ],
         "severity": "inform"
@@ -1341,12 +1341,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-missaamane",
+        "identifier": "com-clipsymphony-social-pds",
         "locales": [
           {
-            "description": "Account is hosted by the missaamane.com PDS",
+            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
             "lang": "en",
-            "name": "missaamane.com"
+            "name": "pds.social.clipsymphony.com"
           }
         ],
         "severity": "inform"
@@ -1411,6 +1411,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-scenius-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.scenius.social PDS",
+            "lang": "en",
+            "name": "pds.scenius.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-wouldcop-pds",
         "locales": [
           {
@@ -1431,20 +1445,6 @@
             "description": "Account is hosted by the atlas-pds.rebuildingus.org PDS",
             "lang": "en",
             "name": "atlas-pds.rebuildingus.org"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-scenius-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.scenius.social PDS",
-            "lang": "en",
-            "name": "pds.scenius.social"
           }
         ],
         "severity": "inform"
@@ -1470,7 +1470,6 @@
       "social-surf",
       "computer-aesthetic-at",
       "world-radical-r",
-      "cloud-nihilist",
       "so-sprk-pds",
       "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
@@ -1483,9 +1482,9 @@
       "dev-ridgeway-pds",
       "xyz-skystack",
       "net-hsuanyuchou-taipei",
+      "com-dinakernel-test--pds",
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
-      "com-dinakernel-test--pds",
       "community-clear-pds",
       "network-nobody-node",
       "net-goldentooth-pds",
@@ -1511,17 +1510,18 @@
       "social-skyphone-pds",
       "com-mulgez-api",
       "news-1440-pds",
+      "town-delve-pds",
       "space-cannect-pds",
       "social-bookhive",
       "social-pwkl-eu1-dev",
+      "cafe-margin",
       "bot-mirrors",
       "social-fluester-pds",
       "social-pwkl-us1-dev",
-      "cafe-margin",
       "cc-velvetnova",
-      "town-delve-pds",
       "social-fazen",
       "site-bskytool-pds3",
+      "cloud-nihilist",
       "site-bskytool-pds4",
       "fun-plcs-pds",
       "cc-mirablossom",
@@ -1544,15 +1544,15 @@
       "com-skeetcentral",
       "ai-afrilingua-gist",
       "ro-aiia-pds",
-      "com-clipsymphony-social-pds",
       "com-missaamane",
+      "com-clipsymphony-social-pds",
       "com-arankwende",
       "net-socialsandbox3",
       "dev-wsocial-pds--dev-pds00",
       "social-colibri",
+      "social-scenius-pds",
       "com-wouldcop-pds",
-      "org-rebuildingus-atlas--pds",
-      "social-scenius-pds"
+      "org-rebuildingus-atlas--pds"
     ]
   }
 }
