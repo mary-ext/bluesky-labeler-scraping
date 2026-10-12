@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibvcng4rgjfb5ou4bateggyk5w3mmqqbj5gnew4tt2kb3x3ehb56e",
+  "cid": "bafyreihm53snuwsepnktr7hvqmtb53h6cbbwu7qa2bfj54et7py6ojc6ci",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-10T14:42:34.056Z",
+  "indexedAt": "2026-10-11T14:52:43.467Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -557,12 +557,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "homes-si46",
+        "identifier": "com-dadavidtseng-pds",
         "locales": [
           {
-            "description": "Account is hosted by the si46.homes PDS",
+            "description": "Account is hosted by the pds.dadavidtseng.com PDS",
             "lang": "en",
-            "name": "si46.homes"
+            "name": "pds.dadavidtseng.com"
           }
         ],
         "severity": "inform"
@@ -571,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-dadavidtseng-pds",
+        "identifier": "homes-si46",
         "locales": [
           {
-            "description": "Account is hosted by the pds.dadavidtseng.com PDS",
+            "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
-            "name": "pds.dadavidtseng.com"
+            "name": "si46.homes"
           }
         ],
         "severity": "inform"
@@ -823,6 +823,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "town-delve-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.delve.town PDS",
+            "lang": "en",
+            "name": "pds.delve.town"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-mulgez-api",
         "locales": [
           {
@@ -851,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
+        "identifier": "social-bookhive",
         "locales": [
           {
-            "description": "Account is hosted by the pds.delve.town PDS",
+            "description": "Account is hosted by the bookhive.social PDS",
             "lang": "en",
-            "name": "pds.delve.town"
+            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -871,20 +885,6 @@
             "description": "Account is hosted by the pds.cannect.space PDS",
             "lang": "en",
             "name": "pds.cannect.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-bookhive",
-        "locales": [
-          {
-            "description": "Account is hosted by the bookhive.social PDS",
-            "lang": "en",
-            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -1285,20 +1285,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-skeetcentral",
-        "locales": [
-          {
-            "description": "Account is hosted by the skeetcentral.com PDS",
-            "lang": "en",
-            "name": "skeetcentral.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "ai-afrilingua-gist",
         "locales": [
           {
@@ -1313,12 +1299,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ro-aiia-pds",
+        "identifier": "com-skeetcentral",
         "locales": [
           {
-            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "description": "Account is hosted by the skeetcentral.com PDS",
             "lang": "en",
-            "name": "pds.aiia.ro"
+            "name": "skeetcentral.com"
           }
         ],
         "severity": "inform"
@@ -1333,6 +1319,20 @@
             "description": "Account is hosted by the missaamane.com PDS",
             "lang": "en",
             "name": "missaamane.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ro-aiia-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "lang": "en",
+            "name": "pds.aiia.ro"
           }
         ],
         "severity": "inform"
@@ -1489,8 +1489,8 @@
       "network-nobody-node",
       "net-goldentooth-pds",
       "com-nrbrtspvk-bsky",
-      "homes-si46",
       "com-dadavidtseng-pds",
+      "homes-si46",
       "ai-oathling-pds",
       "social-npmx",
       "network-eny-pds-oyster",
@@ -1508,11 +1508,11 @@
       "dev-alley-chicago--com-pds",
       "space-getair-demo-pds",
       "social-skyphone-pds",
+      "town-delve-pds",
       "com-mulgez-api",
       "news-1440-pds",
-      "town-delve-pds",
-      "space-cannect-pds",
       "social-bookhive",
+      "space-cannect-pds",
       "social-pwkl-eu1-dev",
       "cafe-margin",
       "bot-mirrors",
@@ -1541,10 +1541,10 @@
       "systems-witchcraft-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "com-skeetcentral",
       "ai-afrilingua-gist",
-      "ro-aiia-pds",
+      "com-skeetcentral",
       "com-missaamane",
+      "ro-aiia-pds",
       "com-clipsymphony-social-pds",
       "com-arankwende",
       "net-socialsandbox3",

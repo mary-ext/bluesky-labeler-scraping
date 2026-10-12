@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:4wll7wiqvamwv2p52ywlrtub/app.bsky.labeler.service/self",
-  "cid": "bafyreibkr2glz5nbmo4hqsl5wyftggy4du2lsf6fou33a2abz2c4mlmldq",
+  "cid": "bafyreig3qmoqebzpruh5croxijo5dgbkopkz57xmn2o3p5d7rhokqbeckm",
   "creator": {
     "did": "did:plc:4wll7wiqvamwv2p52ywlrtub",
     "handle": "labeler.unlabeled.fyi",
@@ -18,7 +18,7 @@
     "description": "Wait, its unlabeled and its a labeler?\n\nOperated by @jbc.lol under @tokyonight.city",
     "indexedAt": "2026-08-17T18:36:03.968Z"
   },
-  "indexedAt": "2026-08-18T06:23:03.372Z",
+  "indexedAt": "2026-10-11T12:30:23.463Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -127,15 +127,75 @@
         "identifier": "mdni",
         "locales": [
           {
-            "description": "profile info contains text mostly seen on minors dni or 18+ accounts.\n\nTHIS IS AUTOMATED. PING @jbc.lol or @night.vn.ua FOR ANY ISSUES.",
+            "description": "We are currently replacing this classification model.\n\nprofile info contains text mostly seen on minors dni or 18+ accounts.\n\nTHIS IS AUTOMATED. PING @jbc.lol or @night.vn.ua FOR ANY ISSUES.",
             "lang": "en",
-            "name": "18+/Minors DNI profile"
+            "name": "18+/Minors DNI profile (ClassificationV1)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "minors-dni",
+        "locales": [
+          {
+            "description": "profile info or pinned post says minors shouldn't interact (mdni, no minors, 18+ only, etc).\n\nTHIS IS AUTOMATED. USE THE APPEAL BUTTON OR PING @jbc.lol or @night.vn.ua FOR ANY ISSUES.",
+            "lang": "en",
+            "name": "Minors DNI profile"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "nsfw-dni",
+        "locales": [
+          {
+            "description": "profile info or pinned post asks NSFW accounts not to interact (nsfw dni, no nsfw, sfw only, etc).\n\nTHIS IS AUTOMATED. USE THE APPEAL BUTTON OR PING @jbc.lol or @night.vn.ua FOR ANY ISSUES.",
+            "lang": "en",
+            "name": "NSFW DNI profile"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "nsfw-account",
+        "locales": [
+          {
+            "description": "profile info or pinned post suggests this account posts NSFW content (🔞, nsfw, lewd, etc).\n\nTHIS IS AUTOMATED. USE THE APPEAL BUTTON OR PING @jbc.lol or @night.vn.ua FOR ANY ISSUES.",
+            "lang": "en",
+            "name": "NSFW account"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "suggestive-account",
+        "locales": [
+          {
+            "description": "profile info or pinned post says the account posts suggestive content, short of explicitly NSFW.\n\nTHIS IS AUTOMATED. USE THE APPEAL BUTTON OR PING @jbc.lol or @night.vn.ua FOR ANY ISSUES.",
+            "lang": "en",
+            "name": "Suggestive account"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
+      "minors-dni",
+      "nsfw-dni",
+      "nsfw-account",
+      "suggestive-account",
       "mdni",
       "sep1",
       "goop",
