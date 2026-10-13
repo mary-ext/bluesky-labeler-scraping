@@ -1,0 +1,102 @@
+{
+  "uri": "at://did:plc:yphpo6x4qvbfz4h45lffjire/app.bsky.labeler.service/self",
+  "cid": "bafyreicxzzdmgcgqjfntpwonvato5tcawpsfl3uevobci5bzupikj7dwbu",
+  "creator": {
+    "did": "did:plc:yphpo6x4qvbfz4h45lffjire",
+    "handle": "wlabeler.bsky.social",
+    "displayName": "",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yphpo6x4qvbfz4h45lffjire/bafkreieay5ts4lecks6kthltnscy3o2f22nzky7osfrkpyszivsn5v77zu",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-12T19:47:35.559Z",
+    "indexedAt": "2026-10-12T19:48:01.261Z"
+  },
+  "indexedAt": "2026-10-12T19:51:42.451Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "wsocial-personal",
+        "locales": [
+          {
+            "description": "This account has been verified as a real person by W Social.",
+            "lang": "en",
+            "name": "Verified person"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "wsocial-org",
+        "locales": [
+          {
+            "description": "This account has been verified as a legitimate organisation by W Social.",
+            "lang": "en",
+            "name": "Verified organisation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "wsocial-bot",
+        "locales": [
+          {
+            "description": "This is a verified automated account (bot) operated by a known W Social user.",
+            "lang": "en",
+            "name": "Verified bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "wsocial-service",
+        "locales": [
+          {
+            "description": "This is a verified service account operated by W Social or an affiliated organisation on behalf of W Social.",
+            "lang": "en",
+            "name": "Verified service"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "wsocial-test",
+        "locales": [
+          {
+            "description": "This is a verified test account used for development or QA purposes.",
+            "lang": "en",
+            "name": "Test account"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "wsocial-personal",
+      "wsocial-org",
+      "wsocial-bot",
+      "wsocial-service",
+      "wsocial-test"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xpxsa5aviwecd7cv6bzbmr5n/app.bsky.labeler.service/self",
-  "cid": "bafyreialn6j6tjonkvoey6sagn3lkggrk3z55vjyvfmnbv4bq6keqm5rou",
+  "cid": "bafyreie4smtzurztyr76matpwsokzaxl56fsg2ijsdko44vluvehnlyxxm",
   "creator": {
     "did": "did:plc:xpxsa5aviwecd7cv6bzbmr5n",
     "handle": "github-labeler.bsky.social",
@@ -20,7 +20,7 @@
     "description": "Adds labels for repositories you contribute to (max 4)\n\nSetup Instructions:\n\n1. Follow this labeler (hint: click the \"...\" menu > \"Follow\")\n2. Subscribe to the labeler\n3. Like the labeler\n\nAll steps required. #3 sends a DM to continue setup",
     "indexedAt": "2024-11-12T05:48:43.805Z"
   },
-  "indexedAt": "2026-09-30T01:50:40.072Z",
+  "indexedAt": "2026-10-12T04:58:07.867Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -7093,6 +7093,34 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "derekparks-notintoit",
+        "locales": [
+          {
+            "description": "PoC MCP for doing US Federal Taxes\nhttps://github.com/DerekParks/NotIntoIt",
+            "lang": "en",
+            "name": "DerekParks/NotIntoIt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "derekparks-hoardertopod",
+        "locales": [
+          {
+            "description": "Make your articles saved to your hoarder instance into a podcast\nhttps://github.com/DerekParks/HoarderToPod",
+            "lang": "en",
+            "name": "DerekParks/HoarderToPod"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -7600,7 +7628,9 @@
       "heikadog-laelaps",
       "bevyengine-bevy",
       "paoloricciuti-tmcp",
-      "microsoft-typescript"
+      "microsoft-typescript",
+      "derekparks-notintoit",
+      "derekparks-hoardertopod"
     ]
   }
 }
