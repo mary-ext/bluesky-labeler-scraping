@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:wqnwulql7ndcz6xmtvaovl6u/app.bsky.labeler.service/self",
-  "cid": "bafyreibrc2xhymkllomfw6g5awjdzpksudnb2cg2anabw2raxiwbcfr5nu",
+  "cid": "bafyreige5olji7e7t4befvxmu4xwyetizo5r4fltkq4h4tcuxerw66kezi",
   "creator": {
     "did": "did:plc:wqnwulql7ndcz6xmtvaovl6u",
     "handle": "loser-club.7rnx.net",
@@ -12,9 +12,59 @@
     },
     "labels": []
   },
-  "indexedAt": "2026-07-16T03:08:22.784Z",
+  "indexedAt": "2026-10-14T01:38:41.160Z",
   "labels": [],
   "policies": {
-    "labelValues": []
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Unwanted promotion or repetitive posting, as judged by loser-club moderators.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "off-topic",
+        "locales": [
+          {
+            "description": "Off-topic for the loser-club community.",
+            "lang": "en",
+            "name": "Off-topic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "loser-club-member",
+        "locales": [
+          {
+            "description": "A member of the loser-club community.",
+            "lang": "en",
+            "name": "loser-club member"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "spam",
+      "off-topic",
+      "!warn",
+      "!hide",
+      "loser-club-member"
+    ]
   }
 }
