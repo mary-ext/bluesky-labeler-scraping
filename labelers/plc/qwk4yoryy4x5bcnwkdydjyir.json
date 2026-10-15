@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qwk4yoryy4x5bcnwkdydjyir/app.bsky.labeler.service/self",
-  "cid": "bafyreidduy7t3u5xsfkagaxwpzgzmhbq4q4kof5gmw7v6suv5ke2mi64mm",
+  "cid": "bafyreifzs4see4dgdt7b7odya7yzmr3a3uw4vrheglzhem4v2szjcrs7vq",
   "creator": {
     "did": "did:plc:qwk4yoryy4x5bcnwkdydjyir",
     "handle": "vocalsynth.bluesky.bot",
@@ -16,19 +16,38 @@
       {
         "src": "did:plc:qwk4yoryy4x5bcnwkdydjyir",
         "uri": "at://did:plc:qwk4yoryy4x5bcnwkdydjyir/app.bsky.actor.profile/self",
-        "cid": "bafyreihiqj5aaoa3tclequako72yebftllfmzl7db4xsds66ex4m3fygbi",
+        "cid": "bafyreibg5fbvpjyxzpb6zmyypqur6sbw7st6v5m3xtkrjr2776vtfx7p5q",
         "val": "bot",
         "cts": "2026-10-13T15:51:30.338Z"
       }
     ],
     "createdAt": "2026-10-13T15:51:31.855Z",
-    "description": "Subscribe and like the labeler, then like the post for your preferred vocal synth to receive your label.\nOnly Crypton Vocaloids for now. For Project SEKAI characters, check out @prsk-oshi.bsky.idsmile.xyz.\n\n(Creator: @seremegu.me)",
-    "indexedAt": "2026-10-14T00:52:46.453Z"
+    "description": "Subscribe and like the labeler, then like the post for your preferred vocal synth to receive your label.\nFor Project SEKAI characters, check out @prsk-oshi.bsky.idsmile.xyz.\n\n(Creator: @seremegu.me)",
+    "indexedAt": "2026-10-14T19:57:21.252Z"
   },
-  "indexedAt": "2026-10-13T22:15:16.266Z",
+  "indexedAt": "2026-10-14T20:11:53.855Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "vocaloids",
+        "locales": [
+          {
+            "description": "Vocal synth characters for the software Vocaloid.",
+            "lang": "en",
+            "name": "Vocaloids"
+          },
+          {
+            "description": "ソフトウェア「ボーカロイド」用のボーカルシンセキャラクター。",
+            "lang": "ja",
+            "name": "ボーカロイド"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -41,7 +60,7 @@
             "name": "🩵 Hatsune Miku"
           },
           {
-            "description": "このユーザーが好んで使うボーカルシンセは、初代ボーカロイドである初音ミクです。",
+            "description": "このユーザーが好んで使うボーカルシンセは、初代ボーカロイドである「初音ミク」です。",
             "lang": "ja",
             "name": "🩵 初音ミク"
           }
@@ -60,7 +79,7 @@
             "name": "💛 Rin Kagamine"
           },
           {
-            "description": "このユーザーが好んで使うボーカルシンセは、2人目のボーカロイドである鏡音リンです。",
+            "description": "このユーザーが好んで使うボーカルシンセは、2番目に登場したボーカロイドである「鏡音リン」です。",
             "lang": "ja",
             "name": "💛 鏡音リン"
           }
@@ -79,7 +98,7 @@
             "name": "💛 Len Kagamine"
           },
           {
-            "description": "このユーザーが好んで使うボーカルシンセは、2人目のボーカロイドである鏡音レンです。。",
+            "description": "このユーザーが好んで使うボーカルシンセは、2番目に登場したボーカロイドである「鏡音レン」です。",
             "lang": "ja",
             "name": "💛 鏡音レン"
           }
@@ -93,7 +112,7 @@
         "identifier": "rinlen",
         "locales": [
           {
-            "description": "This user's preferred vocal synth are both Rin and Len Kagamine, the second Vocaloid.",
+            "description": "This user's preferred vocal synth are both Rin and Len Kagamine, the second Vocaloids.",
             "lang": "en",
             "name": "💛 Rin/Len Kagamine"
           },
@@ -119,7 +138,7 @@
           {
             "description": "このユーザーが好んで使うボーカルシンセは、3人目のボーカロイドであり、初の成人向けボーカロイド、そして初のバイリンガルボーカロイドである「巡音ルカ」です。",
             "lang": "ja",
-            "name": "🩷 鏡音レン"
+            "name": "🩷 巡音ルカ"
           }
         ],
         "severity": "inform"
@@ -150,27 +169,228 @@
         "identifier": "kaito",
         "locales": [
           {
-            "description": "This user's preferred vocal synth is KAITO.",
+            "description": "This user's preferred vocal synth is KAITO, a Vocaloid.",
             "lang": "en",
             "name": "💙 KAITO"
           },
           {
-            "description": "このユーザーが好んで使うボーカルシンセは、KAITOです。",
+            "description": "このユーザーが好んで使っているボーカルシンセは、ボーカロイドの「KAITO」です。",
             "lang": "ja",
             "name": "💙 KAITO"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "utauloids",
+        "locales": [
+          {
+            "description": "Vocal synth characters for the software UTAU.",
+            "lang": "en",
+            "name": "UTAUloids"
+          },
+          {
+            "description": "ソフトウェア「UTAU」用のボーカルシンセキャラクター。",
+            "lang": "ja",
+            "name": "ウタウ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "teto",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Teto Kasane, an UTAUloid.",
+            "lang": "en",
+            "name": "❤️ Teto Kasane"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「重音テト」です。",
+            "lang": "ja",
+            "name": "❤️ 重音テト"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "momo",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Momo Momone, an UTAUloid.",
+            "lang": "en",
+            "name": "🩷 Momo Momone"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「桃音モモ」です。",
+            "lang": "ja",
+            "name": "🩷 桃音モモ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "yufu",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Yufu Sekka, an UTAUloid.",
+            "lang": "en",
+            "name": "🤍 Yufu Sekka"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「雪歌ユフ」です。",
+            "lang": "ja",
+            "name": "🤍 雪歌ユフ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sora",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Sora Suiga, an UTAUloid.",
+            "lang": "en",
+            "name": "💛 Sora Suiga"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「穂歌ソラ」です。",
+            "lang": "ja",
+            "name": "💛 穂歌ソラ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "tei",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Tei Sukone, an UTAUloid.",
+            "lang": "en",
+            "name": "🩶 Tei Sukone"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「健音テイ」です。",
+            "lang": "ja",
+            "name": "🩶 健音テイ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "hate",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Hate Aino, an UTAUloid.",
+            "lang": "en",
+            "name": "❤️ Hate Aino"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「健音テイ」です。",
+            "lang": "ja",
+            "name": "❤️ 愛野ハテ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "miko",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Miko Ooka , an UTAUloid.",
+            "lang": "en",
+            "name": "🤎 Miko Ooka"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「櫻歌ミコ」です。",
+            "lang": "ja",
+            "name": "🤎 櫻歌ミコ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nana",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Nana Haruka, an UTAUloid.",
+            "lang": "en",
+            "name": "🩷 Nana Haruka"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「春歌ナナ」です。",
+            "lang": "ja",
+            "name": "🩷 春歌ナナ"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nene",
+        "locales": [
+          {
+            "description": "This user's preferred vocal synth is Nene Nene, an UTAUloid.",
+            "lang": "en",
+            "name": "🤍 Nene Nene"
+          },
+          {
+            "description": "このユーザーが好んで使っているボーカルシンセは、UTAUロイドの「根音ネネ」です。",
+            "lang": "ja",
+            "name": "🤍 根音ネネ"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
+      "vocaloids",
       "miku",
       "rin",
       "len",
       "rinlen",
       "luka",
       "meiko",
-      "kaito"
+      "kaito",
+      "utauloids",
+      "teto",
+      "momo",
+      "yufu",
+      "sora",
+      "tei",
+      "hate",
+      "miko",
+      "nana",
+      "nene"
     ]
   }
 }
