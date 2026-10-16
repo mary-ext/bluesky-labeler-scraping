@@ -1,0 +1,151 @@
+{
+  "uri": "at://did:plc:ztvspwyz7wgfluacz327meu4/app.bsky.labeler.service/self",
+  "cid": "bafyreicci6jv6joh43mv4qn3a6khfbbg7b6qtqyndnf3own4na2cp2p7di",
+  "creator": {
+    "did": "did:plc:ztvspwyz7wgfluacz327meu4",
+    "handle": "etiquetasodio.bsky.social",
+    "displayName": "Etiquetas de odio",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ztvspwyz7wgfluacz327meu4/bafkreiglrbny4jg4ff2o7mvr3jhiaittociuheuekdrwga2p2tbgdhpbp4",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "all"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "none"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-15T09:51:21.258Z",
+    "description": "Labeler en español. Señala LGTBIfobia, odio racista, machismo, extrema derecha, desinformación y spam. Cada etiqueta la revisa una persona antes de publicarse. ¿Crees que es un error? Escríbeme por MD. Criterios en el post fijado.",
+    "indexedAt": "2026-10-15T11:12:05.257Z"
+  },
+  "indexedAt": "2026-10-15T10:38:48.056Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "lgtbifobia",
+        "locales": [
+          {
+            "description": "Ataques, deshumanización, acoso o llamadas a la discriminación contra personas LGTBI+ o el colectivo.",
+            "lang": "es",
+            "name": "LGTBIfobia"
+          },
+          {
+            "description": "Attacks, dehumanization, harassment or calls for discrimination against LGBTI+ people.",
+            "lang": "en",
+            "name": "LGBTIphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "odio-racista",
+        "locales": [
+          {
+            "description": "Ataques, deshumanización o incitación a la discriminación por origen étnico, color de piel, nacionalidad o condición migrante.",
+            "lang": "es",
+            "name": "Odio racista"
+          },
+          {
+            "description": "Attacks, dehumanization or incitement to discrimination based on ethnicity, skin colour, nationality or migrant status.",
+            "lang": "en",
+            "name": "Racist hate"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "machismo",
+        "locales": [
+          {
+            "description": "Misoginia, ataques o acoso a mujeres por su género y justificación de la violencia machista.",
+            "lang": "es",
+            "name": "Machismo"
+          },
+          {
+            "description": "Misogyny, attacks or harassment of women because of their gender, and justification of gender violence.",
+            "lang": "en",
+            "name": "Sexism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "extrema-derecha",
+        "locales": [
+          {
+            "description": "Propaganda o promoción activa de ideología de extrema derecha: simbología, llamadas a la exclusión, exaltación de dictaduras o del fascismo. No etiqueta opiniones políticas en general.",
+            "lang": "es",
+            "name": "Extrema derecha"
+          },
+          {
+            "description": "Active far-right propaganda or promotion: symbols, calls for exclusion, glorification of dictatorships or fascism. Not ordinary political opinions.",
+            "lang": "en",
+            "name": "Far right"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "desinformacion",
+        "locales": [
+          {
+            "description": "Bulos verificables y difusión reiterada de contenido falso ya desmentido.",
+            "lang": "es",
+            "name": "Desinformación"
+          },
+          {
+            "description": "Verifiably false claims and repeated spreading of debunked content.",
+            "lang": "en",
+            "name": "Disinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Bots, estafas, publicidad masiva, suplantaciones y cuentas fraudulentas.",
+            "lang": "es",
+            "name": "Spam"
+          },
+          {
+            "description": "Bots, scams, mass advertising, impersonation and fraudulent accounts.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "lgtbifobia",
+      "odio-racista",
+      "machismo",
+      "extrema-derecha",
+      "desinformacion",
+      "spam"
+    ]
+  }
+}
