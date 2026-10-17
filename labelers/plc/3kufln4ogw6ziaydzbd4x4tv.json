@@ -1,0 +1,4605 @@
+{
+  "uri": "at://did:plc:3kufln4ogw6ziaydzbd4x4tv/app.bsky.labeler.service/self",
+  "cid": "bafyreialgzvrzufegepjjavrfn56extbgsimd6fgzdaehqhxbt5hyrz6by",
+  "creator": {
+    "did": "did:plc:3kufln4ogw6ziaydzbd4x4tv",
+    "handle": "scribe.hum.social",
+    "displayName": "COINTERFACE",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3kufln4ogw6ziaydzbd4x4tv/bafkreihszasnszgmk4i6sf76neu4fcdsx4sccsr4d2sljkgjefhszna6da",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "following"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2024-03-16T05:32:28.618Z",
+    "indexedAt": "2024-11-08T20:05:35.379Z"
+  },
+  "indexedAt": "2026-10-16T21:04:45.758Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-she-her",
+        "locales": [
+          {
+            "description": "Pronouns: she/her",
+            "lang": "en",
+            "name": "she/her"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-he-him",
+        "locales": [
+          {
+            "description": "Pronouns: he/him",
+            "lang": "en",
+            "name": "he/him"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-they-them",
+        "locales": [
+          {
+            "description": "Pronouns: they/them",
+            "lang": "en",
+            "name": "they/them"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-she-they",
+        "locales": [
+          {
+            "description": "Pronouns: she/they",
+            "lang": "en",
+            "name": "she/they"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-he-they",
+        "locales": [
+          {
+            "description": "Pronouns: he/they",
+            "lang": "en",
+            "name": "he/they"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-it-its",
+        "locales": [
+          {
+            "description": "Pronouns: it/its",
+            "lang": "en",
+            "name": "it/its"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-xe-xem",
+        "locales": [
+          {
+            "description": "Pronouns: xe/xem",
+            "lang": "en",
+            "name": "xe/xem"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-ze-zir",
+        "locales": [
+          {
+            "description": "Pronouns: ze/zir",
+            "lang": "en",
+            "name": "ze/zir"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-any-all",
+        "locales": [
+          {
+            "description": "Pronouns: any/all",
+            "lang": "en",
+            "name": "any/all"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "pronouns-ask-me",
+        "locales": [
+          {
+            "description": "Pronouns: ask me",
+            "lang": "en",
+            "name": "ask me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-woman",
+        "locales": [
+          {
+            "description": "Gender: Woman",
+            "lang": "en",
+            "name": "Woman"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-man",
+        "locales": [
+          {
+            "description": "Gender: Man",
+            "lang": "en",
+            "name": "Man"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-non-binary",
+        "locales": [
+          {
+            "description": "Gender: Non-binary",
+            "lang": "en",
+            "name": "Non-binary"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-trans-woman",
+        "locales": [
+          {
+            "description": "Gender: Trans woman",
+            "lang": "en",
+            "name": "Trans woman"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-trans-man",
+        "locales": [
+          {
+            "description": "Gender: Trans man",
+            "lang": "en",
+            "name": "Trans man"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-genderfluid",
+        "locales": [
+          {
+            "description": "Gender: Genderfluid",
+            "lang": "en",
+            "name": "Genderfluid"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-genderqueer",
+        "locales": [
+          {
+            "description": "Gender: Genderqueer",
+            "lang": "en",
+            "name": "Genderqueer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "gender-agender",
+        "locales": [
+          {
+            "description": "Gender: Agender",
+            "lang": "en",
+            "name": "Agender"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-straight",
+        "locales": [
+          {
+            "description": "Orientation: Straight",
+            "lang": "en",
+            "name": "Straight"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-gay",
+        "locales": [
+          {
+            "description": "Orientation: Gay",
+            "lang": "en",
+            "name": "Gay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-lesbian",
+        "locales": [
+          {
+            "description": "Orientation: Lesbian",
+            "lang": "en",
+            "name": "Lesbian"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-bisexual",
+        "locales": [
+          {
+            "description": "Orientation: Bisexual",
+            "lang": "en",
+            "name": "Bisexual"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-pansexual",
+        "locales": [
+          {
+            "description": "Orientation: Pansexual",
+            "lang": "en",
+            "name": "Pansexual"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-asexual",
+        "locales": [
+          {
+            "description": "Orientation: Asexual",
+            "lang": "en",
+            "name": "Asexual"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-queer",
+        "locales": [
+          {
+            "description": "Orientation: Queer",
+            "lang": "en",
+            "name": "Queer"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "orientation-questioning",
+        "locales": [
+          {
+            "description": "Orientation: Questioning",
+            "lang": "en",
+            "name": "Questioning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "relationship-single",
+        "locales": [
+          {
+            "description": "Relationship: Single",
+            "lang": "en",
+            "name": "Single"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "relationship-in-a-relationship",
+        "locales": [
+          {
+            "description": "Relationship: In a relationship",
+            "lang": "en",
+            "name": "In a relationship"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "relationship-engaged",
+        "locales": [
+          {
+            "description": "Relationship: Engaged",
+            "lang": "en",
+            "name": "Engaged"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "relationship-married",
+        "locales": [
+          {
+            "description": "Relationship: Married",
+            "lang": "en",
+            "name": "Married"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "relationship-open-relationship",
+        "locales": [
+          {
+            "description": "Relationship: Open relationship",
+            "lang": "en",
+            "name": "Open relationship"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "relationship-it-s-complicated",
+        "locales": [
+          {
+            "description": "Relationship: It's complicated",
+            "lang": "en",
+            "name": "It's complicated"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "looking-friends",
+        "locales": [
+          {
+            "description": "Looking for: Friends",
+            "lang": "en",
+            "name": "Looking for friends"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "looking-dating",
+        "locales": [
+          {
+            "description": "Looking for: Dating",
+            "lang": "en",
+            "name": "Looking for dating"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "looking-relationship",
+        "locales": [
+          {
+            "description": "Looking for: Relationship",
+            "lang": "en",
+            "name": "Looking for relationship"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "looking-networking",
+        "locales": [
+          {
+            "description": "Looking for: Networking",
+            "lang": "en",
+            "name": "Looking for networking"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "looking-collaborators",
+        "locales": [
+          {
+            "description": "Looking for: Collaborators",
+            "lang": "en",
+            "name": "Looking for collaborators"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-en",
+        "locales": [
+          {
+            "description": "Speaks English",
+            "lang": "en",
+            "name": "Speaks English"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-es",
+        "locales": [
+          {
+            "description": "Speaks Spanish",
+            "lang": "en",
+            "name": "Speaks Spanish"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-pt",
+        "locales": [
+          {
+            "description": "Speaks Portuguese",
+            "lang": "en",
+            "name": "Speaks Portuguese"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-fr",
+        "locales": [
+          {
+            "description": "Speaks French",
+            "lang": "en",
+            "name": "Speaks French"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-de",
+        "locales": [
+          {
+            "description": "Speaks German",
+            "lang": "en",
+            "name": "Speaks German"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-it",
+        "locales": [
+          {
+            "description": "Speaks Italian",
+            "lang": "en",
+            "name": "Speaks Italian"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-nl",
+        "locales": [
+          {
+            "description": "Speaks Dutch",
+            "lang": "en",
+            "name": "Speaks Dutch"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-ja",
+        "locales": [
+          {
+            "description": "Speaks Japanese",
+            "lang": "en",
+            "name": "Speaks Japanese"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-ko",
+        "locales": [
+          {
+            "description": "Speaks Korean",
+            "lang": "en",
+            "name": "Speaks Korean"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-zh",
+        "locales": [
+          {
+            "description": "Speaks Chinese",
+            "lang": "en",
+            "name": "Speaks Chinese"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-ar",
+        "locales": [
+          {
+            "description": "Speaks Arabic",
+            "lang": "en",
+            "name": "Speaks Arabic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-hi",
+        "locales": [
+          {
+            "description": "Speaks Hindi",
+            "lang": "en",
+            "name": "Speaks Hindi"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-ru",
+        "locales": [
+          {
+            "description": "Speaks Russian",
+            "lang": "en",
+            "name": "Speaks Russian"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-uk",
+        "locales": [
+          {
+            "description": "Speaks Ukrainian",
+            "lang": "en",
+            "name": "Speaks Ukrainian"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-pl",
+        "locales": [
+          {
+            "description": "Speaks Polish",
+            "lang": "en",
+            "name": "Speaks Polish"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-tr",
+        "locales": [
+          {
+            "description": "Speaks Turkish",
+            "lang": "en",
+            "name": "Speaks Turkish"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-sv",
+        "locales": [
+          {
+            "description": "Speaks Swedish",
+            "lang": "en",
+            "name": "Speaks Swedish"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "speaks-fi",
+        "locales": [
+          {
+            "description": "Speaks Finnish",
+            "lang": "en",
+            "name": "Speaks Finnish"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ad",
+        "locales": [
+          {
+            "description": "Lives in Andorra",
+            "lang": "en",
+            "name": "🇦🇩 Andorra"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ae",
+        "locales": [
+          {
+            "description": "Lives in United Arab Emirates",
+            "lang": "en",
+            "name": "🇦🇪 United Arab Emirates"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-af",
+        "locales": [
+          {
+            "description": "Lives in Afghanistan",
+            "lang": "en",
+            "name": "🇦🇫 Afghanistan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ag",
+        "locales": [
+          {
+            "description": "Lives in Antigua & Barbuda",
+            "lang": "en",
+            "name": "🇦🇬 Antigua & Barbuda"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ai",
+        "locales": [
+          {
+            "description": "Lives in Anguilla",
+            "lang": "en",
+            "name": "🇦🇮 Anguilla"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-al",
+        "locales": [
+          {
+            "description": "Lives in Albania",
+            "lang": "en",
+            "name": "🇦🇱 Albania"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-am",
+        "locales": [
+          {
+            "description": "Lives in Armenia",
+            "lang": "en",
+            "name": "🇦🇲 Armenia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ao",
+        "locales": [
+          {
+            "description": "Lives in Angola",
+            "lang": "en",
+            "name": "🇦🇴 Angola"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-aq",
+        "locales": [
+          {
+            "description": "Lives in Antarctica",
+            "lang": "en",
+            "name": "🇦🇶 Antarctica"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ar",
+        "locales": [
+          {
+            "description": "Lives in Argentina",
+            "lang": "en",
+            "name": "🇦🇷 Argentina"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-as",
+        "locales": [
+          {
+            "description": "Lives in American Samoa",
+            "lang": "en",
+            "name": "🇦🇸 American Samoa"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-at",
+        "locales": [
+          {
+            "description": "Lives in Austria",
+            "lang": "en",
+            "name": "🇦🇹 Austria"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-au",
+        "locales": [
+          {
+            "description": "Lives in Australia",
+            "lang": "en",
+            "name": "🇦🇺 Australia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-aw",
+        "locales": [
+          {
+            "description": "Lives in Aruba",
+            "lang": "en",
+            "name": "🇦🇼 Aruba"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ax",
+        "locales": [
+          {
+            "description": "Lives in Åland Islands",
+            "lang": "en",
+            "name": "🇦🇽 Åland Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-az",
+        "locales": [
+          {
+            "description": "Lives in Azerbaijan",
+            "lang": "en",
+            "name": "🇦🇿 Azerbaijan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ba",
+        "locales": [
+          {
+            "description": "Lives in Bosnia & Herzegovina",
+            "lang": "en",
+            "name": "🇧🇦 Bosnia & Herzegovina"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bb",
+        "locales": [
+          {
+            "description": "Lives in Barbados",
+            "lang": "en",
+            "name": "🇧🇧 Barbados"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bd",
+        "locales": [
+          {
+            "description": "Lives in Bangladesh",
+            "lang": "en",
+            "name": "🇧🇩 Bangladesh"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-be",
+        "locales": [
+          {
+            "description": "Lives in Belgium",
+            "lang": "en",
+            "name": "🇧🇪 Belgium"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bf",
+        "locales": [
+          {
+            "description": "Lives in Burkina Faso",
+            "lang": "en",
+            "name": "🇧🇫 Burkina Faso"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bg",
+        "locales": [
+          {
+            "description": "Lives in Bulgaria",
+            "lang": "en",
+            "name": "🇧🇬 Bulgaria"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bh",
+        "locales": [
+          {
+            "description": "Lives in Bahrain",
+            "lang": "en",
+            "name": "🇧🇭 Bahrain"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bi",
+        "locales": [
+          {
+            "description": "Lives in Burundi",
+            "lang": "en",
+            "name": "🇧🇮 Burundi"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bj",
+        "locales": [
+          {
+            "description": "Lives in Benin",
+            "lang": "en",
+            "name": "🇧🇯 Benin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bl",
+        "locales": [
+          {
+            "description": "Lives in St. Barthélemy",
+            "lang": "en",
+            "name": "🇧🇱 St. Barthélemy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bm",
+        "locales": [
+          {
+            "description": "Lives in Bermuda",
+            "lang": "en",
+            "name": "🇧🇲 Bermuda"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bn",
+        "locales": [
+          {
+            "description": "Lives in Brunei",
+            "lang": "en",
+            "name": "🇧🇳 Brunei"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bo",
+        "locales": [
+          {
+            "description": "Lives in Bolivia",
+            "lang": "en",
+            "name": "🇧🇴 Bolivia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bq",
+        "locales": [
+          {
+            "description": "Lives in Caribbean Netherlands",
+            "lang": "en",
+            "name": "🇧🇶 Caribbean Netherlands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-br",
+        "locales": [
+          {
+            "description": "Lives in Brazil",
+            "lang": "en",
+            "name": "🇧🇷 Brazil"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bs",
+        "locales": [
+          {
+            "description": "Lives in Bahamas",
+            "lang": "en",
+            "name": "🇧🇸 Bahamas"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bt",
+        "locales": [
+          {
+            "description": "Lives in Bhutan",
+            "lang": "en",
+            "name": "🇧🇹 Bhutan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bv",
+        "locales": [
+          {
+            "description": "Lives in Bouvet Island",
+            "lang": "en",
+            "name": "🇧🇻 Bouvet Island"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bw",
+        "locales": [
+          {
+            "description": "Lives in Botswana",
+            "lang": "en",
+            "name": "🇧🇼 Botswana"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-by",
+        "locales": [
+          {
+            "description": "Lives in Belarus",
+            "lang": "en",
+            "name": "🇧🇾 Belarus"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-bz",
+        "locales": [
+          {
+            "description": "Lives in Belize",
+            "lang": "en",
+            "name": "🇧🇿 Belize"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ca",
+        "locales": [
+          {
+            "description": "Lives in Canada",
+            "lang": "en",
+            "name": "🇨🇦 Canada"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cc",
+        "locales": [
+          {
+            "description": "Lives in Cocos (Keeling) Islands",
+            "lang": "en",
+            "name": "🇨🇨 Cocos (Keeling) Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cd",
+        "locales": [
+          {
+            "description": "Lives in Congo - Kinshasa",
+            "lang": "en",
+            "name": "🇨🇩 Congo - Kinshasa"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cf",
+        "locales": [
+          {
+            "description": "Lives in Central African Republic",
+            "lang": "en",
+            "name": "🇨🇫 Central African Republic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cg",
+        "locales": [
+          {
+            "description": "Lives in Congo - Brazzaville",
+            "lang": "en",
+            "name": "🇨🇬 Congo - Brazzaville"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ch",
+        "locales": [
+          {
+            "description": "Lives in Switzerland",
+            "lang": "en",
+            "name": "🇨🇭 Switzerland"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ci",
+        "locales": [
+          {
+            "description": "Lives in Côte d’Ivoire",
+            "lang": "en",
+            "name": "🇨🇮 Côte d’Ivoire"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ck",
+        "locales": [
+          {
+            "description": "Lives in Cook Islands",
+            "lang": "en",
+            "name": "🇨🇰 Cook Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cl",
+        "locales": [
+          {
+            "description": "Lives in Chile",
+            "lang": "en",
+            "name": "🇨🇱 Chile"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cm",
+        "locales": [
+          {
+            "description": "Lives in Cameroon",
+            "lang": "en",
+            "name": "🇨🇲 Cameroon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cn",
+        "locales": [
+          {
+            "description": "Lives in China",
+            "lang": "en",
+            "name": "🇨🇳 China"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-co",
+        "locales": [
+          {
+            "description": "Lives in Colombia",
+            "lang": "en",
+            "name": "🇨🇴 Colombia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cr",
+        "locales": [
+          {
+            "description": "Lives in Costa Rica",
+            "lang": "en",
+            "name": "🇨🇷 Costa Rica"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cu",
+        "locales": [
+          {
+            "description": "Lives in Cuba",
+            "lang": "en",
+            "name": "🇨🇺 Cuba"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cv",
+        "locales": [
+          {
+            "description": "Lives in Cape Verde",
+            "lang": "en",
+            "name": "🇨🇻 Cape Verde"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cw",
+        "locales": [
+          {
+            "description": "Lives in Curaçao",
+            "lang": "en",
+            "name": "🇨🇼 Curaçao"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cx",
+        "locales": [
+          {
+            "description": "Lives in Christmas Island",
+            "lang": "en",
+            "name": "🇨🇽 Christmas Island"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cy",
+        "locales": [
+          {
+            "description": "Lives in Cyprus",
+            "lang": "en",
+            "name": "🇨🇾 Cyprus"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-cz",
+        "locales": [
+          {
+            "description": "Lives in Czechia",
+            "lang": "en",
+            "name": "🇨🇿 Czechia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-de",
+        "locales": [
+          {
+            "description": "Lives in Germany",
+            "lang": "en",
+            "name": "🇩🇪 Germany"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-dj",
+        "locales": [
+          {
+            "description": "Lives in Djibouti",
+            "lang": "en",
+            "name": "🇩🇯 Djibouti"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-dk",
+        "locales": [
+          {
+            "description": "Lives in Denmark",
+            "lang": "en",
+            "name": "🇩🇰 Denmark"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-dm",
+        "locales": [
+          {
+            "description": "Lives in Dominica",
+            "lang": "en",
+            "name": "🇩🇲 Dominica"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-do",
+        "locales": [
+          {
+            "description": "Lives in Dominican Republic",
+            "lang": "en",
+            "name": "🇩🇴 Dominican Republic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-dz",
+        "locales": [
+          {
+            "description": "Lives in Algeria",
+            "lang": "en",
+            "name": "🇩🇿 Algeria"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ec",
+        "locales": [
+          {
+            "description": "Lives in Ecuador",
+            "lang": "en",
+            "name": "🇪🇨 Ecuador"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ee",
+        "locales": [
+          {
+            "description": "Lives in Estonia",
+            "lang": "en",
+            "name": "🇪🇪 Estonia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-eg",
+        "locales": [
+          {
+            "description": "Lives in Egypt",
+            "lang": "en",
+            "name": "🇪🇬 Egypt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-eh",
+        "locales": [
+          {
+            "description": "Lives in Western Sahara",
+            "lang": "en",
+            "name": "🇪🇭 Western Sahara"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-er",
+        "locales": [
+          {
+            "description": "Lives in Eritrea",
+            "lang": "en",
+            "name": "🇪🇷 Eritrea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-es",
+        "locales": [
+          {
+            "description": "Lives in Spain",
+            "lang": "en",
+            "name": "🇪🇸 Spain"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-et",
+        "locales": [
+          {
+            "description": "Lives in Ethiopia",
+            "lang": "en",
+            "name": "🇪🇹 Ethiopia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-fi",
+        "locales": [
+          {
+            "description": "Lives in Finland",
+            "lang": "en",
+            "name": "🇫🇮 Finland"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-fj",
+        "locales": [
+          {
+            "description": "Lives in Fiji",
+            "lang": "en",
+            "name": "🇫🇯 Fiji"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-fk",
+        "locales": [
+          {
+            "description": "Lives in Falkland Islands",
+            "lang": "en",
+            "name": "🇫🇰 Falkland Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-fm",
+        "locales": [
+          {
+            "description": "Lives in Micronesia",
+            "lang": "en",
+            "name": "🇫🇲 Micronesia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-fo",
+        "locales": [
+          {
+            "description": "Lives in Faroe Islands",
+            "lang": "en",
+            "name": "🇫🇴 Faroe Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-fr",
+        "locales": [
+          {
+            "description": "Lives in France",
+            "lang": "en",
+            "name": "🇫🇷 France"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ga",
+        "locales": [
+          {
+            "description": "Lives in Gabon",
+            "lang": "en",
+            "name": "🇬🇦 Gabon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gb",
+        "locales": [
+          {
+            "description": "Lives in United Kingdom",
+            "lang": "en",
+            "name": "🇬🇧 United Kingdom"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gd",
+        "locales": [
+          {
+            "description": "Lives in Grenada",
+            "lang": "en",
+            "name": "🇬🇩 Grenada"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ge",
+        "locales": [
+          {
+            "description": "Lives in Georgia",
+            "lang": "en",
+            "name": "🇬🇪 Georgia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gf",
+        "locales": [
+          {
+            "description": "Lives in French Guiana",
+            "lang": "en",
+            "name": "🇬🇫 French Guiana"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gg",
+        "locales": [
+          {
+            "description": "Lives in Guernsey",
+            "lang": "en",
+            "name": "🇬🇬 Guernsey"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gh",
+        "locales": [
+          {
+            "description": "Lives in Ghana",
+            "lang": "en",
+            "name": "🇬🇭 Ghana"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gi",
+        "locales": [
+          {
+            "description": "Lives in Gibraltar",
+            "lang": "en",
+            "name": "🇬🇮 Gibraltar"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gl",
+        "locales": [
+          {
+            "description": "Lives in Greenland",
+            "lang": "en",
+            "name": "🇬🇱 Greenland"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gm",
+        "locales": [
+          {
+            "description": "Lives in Gambia",
+            "lang": "en",
+            "name": "🇬🇲 Gambia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gn",
+        "locales": [
+          {
+            "description": "Lives in Guinea",
+            "lang": "en",
+            "name": "🇬🇳 Guinea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gp",
+        "locales": [
+          {
+            "description": "Lives in Guadeloupe",
+            "lang": "en",
+            "name": "🇬🇵 Guadeloupe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gq",
+        "locales": [
+          {
+            "description": "Lives in Equatorial Guinea",
+            "lang": "en",
+            "name": "🇬🇶 Equatorial Guinea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gr",
+        "locales": [
+          {
+            "description": "Lives in Greece",
+            "lang": "en",
+            "name": "🇬🇷 Greece"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gs",
+        "locales": [
+          {
+            "description": "Lives in South Georgia & South Sandwich Islands",
+            "lang": "en",
+            "name": "🇬🇸 South Georgia & South Sandwich Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gt",
+        "locales": [
+          {
+            "description": "Lives in Guatemala",
+            "lang": "en",
+            "name": "🇬🇹 Guatemala"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gu",
+        "locales": [
+          {
+            "description": "Lives in Guam",
+            "lang": "en",
+            "name": "🇬🇺 Guam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gw",
+        "locales": [
+          {
+            "description": "Lives in Guinea-Bissau",
+            "lang": "en",
+            "name": "🇬🇼 Guinea-Bissau"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-gy",
+        "locales": [
+          {
+            "description": "Lives in Guyana",
+            "lang": "en",
+            "name": "🇬🇾 Guyana"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-hk",
+        "locales": [
+          {
+            "description": "Lives in Hong Kong SAR China",
+            "lang": "en",
+            "name": "🇭🇰 Hong Kong SAR China"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-hm",
+        "locales": [
+          {
+            "description": "Lives in Heard & McDonald Islands",
+            "lang": "en",
+            "name": "🇭🇲 Heard & McDonald Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-hn",
+        "locales": [
+          {
+            "description": "Lives in Honduras",
+            "lang": "en",
+            "name": "🇭🇳 Honduras"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-hr",
+        "locales": [
+          {
+            "description": "Lives in Croatia",
+            "lang": "en",
+            "name": "🇭🇷 Croatia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ht",
+        "locales": [
+          {
+            "description": "Lives in Haiti",
+            "lang": "en",
+            "name": "🇭🇹 Haiti"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-hu",
+        "locales": [
+          {
+            "description": "Lives in Hungary",
+            "lang": "en",
+            "name": "🇭🇺 Hungary"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-id",
+        "locales": [
+          {
+            "description": "Lives in Indonesia",
+            "lang": "en",
+            "name": "🇮🇩 Indonesia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ie",
+        "locales": [
+          {
+            "description": "Lives in Ireland",
+            "lang": "en",
+            "name": "🇮🇪 Ireland"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-il",
+        "locales": [
+          {
+            "description": "Lives in Israel",
+            "lang": "en",
+            "name": "🇮🇱 Israel"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-im",
+        "locales": [
+          {
+            "description": "Lives in Isle of Man",
+            "lang": "en",
+            "name": "🇮🇲 Isle of Man"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-in",
+        "locales": [
+          {
+            "description": "Lives in India",
+            "lang": "en",
+            "name": "🇮🇳 India"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-io",
+        "locales": [
+          {
+            "description": "Lives in British Indian Ocean Territory",
+            "lang": "en",
+            "name": "🇮🇴 British Indian Ocean Territory"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-iq",
+        "locales": [
+          {
+            "description": "Lives in Iraq",
+            "lang": "en",
+            "name": "🇮🇶 Iraq"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ir",
+        "locales": [
+          {
+            "description": "Lives in Iran",
+            "lang": "en",
+            "name": "🇮🇷 Iran"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-is",
+        "locales": [
+          {
+            "description": "Lives in Iceland",
+            "lang": "en",
+            "name": "🇮🇸 Iceland"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-it",
+        "locales": [
+          {
+            "description": "Lives in Italy",
+            "lang": "en",
+            "name": "🇮🇹 Italy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-je",
+        "locales": [
+          {
+            "description": "Lives in Jersey",
+            "lang": "en",
+            "name": "🇯🇪 Jersey"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-jm",
+        "locales": [
+          {
+            "description": "Lives in Jamaica",
+            "lang": "en",
+            "name": "🇯🇲 Jamaica"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-jo",
+        "locales": [
+          {
+            "description": "Lives in Jordan",
+            "lang": "en",
+            "name": "🇯🇴 Jordan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-jp",
+        "locales": [
+          {
+            "description": "Lives in Japan",
+            "lang": "en",
+            "name": "🇯🇵 Japan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ke",
+        "locales": [
+          {
+            "description": "Lives in Kenya",
+            "lang": "en",
+            "name": "🇰🇪 Kenya"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kg",
+        "locales": [
+          {
+            "description": "Lives in Kyrgyzstan",
+            "lang": "en",
+            "name": "🇰🇬 Kyrgyzstan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kh",
+        "locales": [
+          {
+            "description": "Lives in Cambodia",
+            "lang": "en",
+            "name": "🇰🇭 Cambodia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ki",
+        "locales": [
+          {
+            "description": "Lives in Kiribati",
+            "lang": "en",
+            "name": "🇰🇮 Kiribati"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-km",
+        "locales": [
+          {
+            "description": "Lives in Comoros",
+            "lang": "en",
+            "name": "🇰🇲 Comoros"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kn",
+        "locales": [
+          {
+            "description": "Lives in St. Kitts & Nevis",
+            "lang": "en",
+            "name": "🇰🇳 St. Kitts & Nevis"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kp",
+        "locales": [
+          {
+            "description": "Lives in North Korea",
+            "lang": "en",
+            "name": "🇰🇵 North Korea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kr",
+        "locales": [
+          {
+            "description": "Lives in South Korea",
+            "lang": "en",
+            "name": "🇰🇷 South Korea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kw",
+        "locales": [
+          {
+            "description": "Lives in Kuwait",
+            "lang": "en",
+            "name": "🇰🇼 Kuwait"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ky",
+        "locales": [
+          {
+            "description": "Lives in Cayman Islands",
+            "lang": "en",
+            "name": "🇰🇾 Cayman Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-kz",
+        "locales": [
+          {
+            "description": "Lives in Kazakhstan",
+            "lang": "en",
+            "name": "🇰🇿 Kazakhstan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-la",
+        "locales": [
+          {
+            "description": "Lives in Laos",
+            "lang": "en",
+            "name": "🇱🇦 Laos"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lb",
+        "locales": [
+          {
+            "description": "Lives in Lebanon",
+            "lang": "en",
+            "name": "🇱🇧 Lebanon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lc",
+        "locales": [
+          {
+            "description": "Lives in St. Lucia",
+            "lang": "en",
+            "name": "🇱🇨 St. Lucia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-li",
+        "locales": [
+          {
+            "description": "Lives in Liechtenstein",
+            "lang": "en",
+            "name": "🇱🇮 Liechtenstein"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lk",
+        "locales": [
+          {
+            "description": "Lives in Sri Lanka",
+            "lang": "en",
+            "name": "🇱🇰 Sri Lanka"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lr",
+        "locales": [
+          {
+            "description": "Lives in Liberia",
+            "lang": "en",
+            "name": "🇱🇷 Liberia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ls",
+        "locales": [
+          {
+            "description": "Lives in Lesotho",
+            "lang": "en",
+            "name": "🇱🇸 Lesotho"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lt",
+        "locales": [
+          {
+            "description": "Lives in Lithuania",
+            "lang": "en",
+            "name": "🇱🇹 Lithuania"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lu",
+        "locales": [
+          {
+            "description": "Lives in Luxembourg",
+            "lang": "en",
+            "name": "🇱🇺 Luxembourg"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-lv",
+        "locales": [
+          {
+            "description": "Lives in Latvia",
+            "lang": "en",
+            "name": "🇱🇻 Latvia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ly",
+        "locales": [
+          {
+            "description": "Lives in Libya",
+            "lang": "en",
+            "name": "🇱🇾 Libya"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ma",
+        "locales": [
+          {
+            "description": "Lives in Morocco",
+            "lang": "en",
+            "name": "🇲🇦 Morocco"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mc",
+        "locales": [
+          {
+            "description": "Lives in Monaco",
+            "lang": "en",
+            "name": "🇲🇨 Monaco"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-md",
+        "locales": [
+          {
+            "description": "Lives in Moldova",
+            "lang": "en",
+            "name": "🇲🇩 Moldova"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-me",
+        "locales": [
+          {
+            "description": "Lives in Montenegro",
+            "lang": "en",
+            "name": "🇲🇪 Montenegro"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mf",
+        "locales": [
+          {
+            "description": "Lives in St. Martin",
+            "lang": "en",
+            "name": "🇲🇫 St. Martin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mg",
+        "locales": [
+          {
+            "description": "Lives in Madagascar",
+            "lang": "en",
+            "name": "🇲🇬 Madagascar"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mh",
+        "locales": [
+          {
+            "description": "Lives in Marshall Islands",
+            "lang": "en",
+            "name": "🇲🇭 Marshall Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mk",
+        "locales": [
+          {
+            "description": "Lives in North Macedonia",
+            "lang": "en",
+            "name": "🇲🇰 North Macedonia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ml",
+        "locales": [
+          {
+            "description": "Lives in Mali",
+            "lang": "en",
+            "name": "🇲🇱 Mali"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mm",
+        "locales": [
+          {
+            "description": "Lives in Myanmar (Burma)",
+            "lang": "en",
+            "name": "🇲🇲 Myanmar (Burma)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mn",
+        "locales": [
+          {
+            "description": "Lives in Mongolia",
+            "lang": "en",
+            "name": "🇲🇳 Mongolia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mo",
+        "locales": [
+          {
+            "description": "Lives in Macao SAR China",
+            "lang": "en",
+            "name": "🇲🇴 Macao SAR China"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mp",
+        "locales": [
+          {
+            "description": "Lives in Northern Mariana Islands",
+            "lang": "en",
+            "name": "🇲🇵 Northern Mariana Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mq",
+        "locales": [
+          {
+            "description": "Lives in Martinique",
+            "lang": "en",
+            "name": "🇲🇶 Martinique"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mr",
+        "locales": [
+          {
+            "description": "Lives in Mauritania",
+            "lang": "en",
+            "name": "🇲🇷 Mauritania"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ms",
+        "locales": [
+          {
+            "description": "Lives in Montserrat",
+            "lang": "en",
+            "name": "🇲🇸 Montserrat"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mt",
+        "locales": [
+          {
+            "description": "Lives in Malta",
+            "lang": "en",
+            "name": "🇲🇹 Malta"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mu",
+        "locales": [
+          {
+            "description": "Lives in Mauritius",
+            "lang": "en",
+            "name": "🇲🇺 Mauritius"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mv",
+        "locales": [
+          {
+            "description": "Lives in Maldives",
+            "lang": "en",
+            "name": "🇲🇻 Maldives"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mw",
+        "locales": [
+          {
+            "description": "Lives in Malawi",
+            "lang": "en",
+            "name": "🇲🇼 Malawi"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mx",
+        "locales": [
+          {
+            "description": "Lives in Mexico",
+            "lang": "en",
+            "name": "🇲🇽 Mexico"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-my",
+        "locales": [
+          {
+            "description": "Lives in Malaysia",
+            "lang": "en",
+            "name": "🇲🇾 Malaysia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-mz",
+        "locales": [
+          {
+            "description": "Lives in Mozambique",
+            "lang": "en",
+            "name": "🇲🇿 Mozambique"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-na",
+        "locales": [
+          {
+            "description": "Lives in Namibia",
+            "lang": "en",
+            "name": "🇳🇦 Namibia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-nc",
+        "locales": [
+          {
+            "description": "Lives in New Caledonia",
+            "lang": "en",
+            "name": "🇳🇨 New Caledonia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ne",
+        "locales": [
+          {
+            "description": "Lives in Niger",
+            "lang": "en",
+            "name": "🇳🇪 Niger"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-nf",
+        "locales": [
+          {
+            "description": "Lives in Norfolk Island",
+            "lang": "en",
+            "name": "🇳🇫 Norfolk Island"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ng",
+        "locales": [
+          {
+            "description": "Lives in Nigeria",
+            "lang": "en",
+            "name": "🇳🇬 Nigeria"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ni",
+        "locales": [
+          {
+            "description": "Lives in Nicaragua",
+            "lang": "en",
+            "name": "🇳🇮 Nicaragua"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-nl",
+        "locales": [
+          {
+            "description": "Lives in Netherlands",
+            "lang": "en",
+            "name": "🇳🇱 Netherlands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-no",
+        "locales": [
+          {
+            "description": "Lives in Norway",
+            "lang": "en",
+            "name": "🇳🇴 Norway"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-np",
+        "locales": [
+          {
+            "description": "Lives in Nepal",
+            "lang": "en",
+            "name": "🇳🇵 Nepal"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-nr",
+        "locales": [
+          {
+            "description": "Lives in Nauru",
+            "lang": "en",
+            "name": "🇳🇷 Nauru"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-nu",
+        "locales": [
+          {
+            "description": "Lives in Niue",
+            "lang": "en",
+            "name": "🇳🇺 Niue"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-nz",
+        "locales": [
+          {
+            "description": "Lives in New Zealand",
+            "lang": "en",
+            "name": "🇳🇿 New Zealand"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-om",
+        "locales": [
+          {
+            "description": "Lives in Oman",
+            "lang": "en",
+            "name": "🇴🇲 Oman"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pa",
+        "locales": [
+          {
+            "description": "Lives in Panama",
+            "lang": "en",
+            "name": "🇵🇦 Panama"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pe",
+        "locales": [
+          {
+            "description": "Lives in Peru",
+            "lang": "en",
+            "name": "🇵🇪 Peru"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pf",
+        "locales": [
+          {
+            "description": "Lives in French Polynesia",
+            "lang": "en",
+            "name": "🇵🇫 French Polynesia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pg",
+        "locales": [
+          {
+            "description": "Lives in Papua New Guinea",
+            "lang": "en",
+            "name": "🇵🇬 Papua New Guinea"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ph",
+        "locales": [
+          {
+            "description": "Lives in Philippines",
+            "lang": "en",
+            "name": "🇵🇭 Philippines"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pk",
+        "locales": [
+          {
+            "description": "Lives in Pakistan",
+            "lang": "en",
+            "name": "🇵🇰 Pakistan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pl",
+        "locales": [
+          {
+            "description": "Lives in Poland",
+            "lang": "en",
+            "name": "🇵🇱 Poland"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pm",
+        "locales": [
+          {
+            "description": "Lives in St. Pierre & Miquelon",
+            "lang": "en",
+            "name": "🇵🇲 St. Pierre & Miquelon"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pn",
+        "locales": [
+          {
+            "description": "Lives in Pitcairn Islands",
+            "lang": "en",
+            "name": "🇵🇳 Pitcairn Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pr",
+        "locales": [
+          {
+            "description": "Lives in Puerto Rico",
+            "lang": "en",
+            "name": "🇵🇷 Puerto Rico"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ps",
+        "locales": [
+          {
+            "description": "Lives in Palestinian Territories",
+            "lang": "en",
+            "name": "🇵🇸 Palestinian Territories"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pt",
+        "locales": [
+          {
+            "description": "Lives in Portugal",
+            "lang": "en",
+            "name": "🇵🇹 Portugal"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-pw",
+        "locales": [
+          {
+            "description": "Lives in Palau",
+            "lang": "en",
+            "name": "🇵🇼 Palau"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-py",
+        "locales": [
+          {
+            "description": "Lives in Paraguay",
+            "lang": "en",
+            "name": "🇵🇾 Paraguay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-qa",
+        "locales": [
+          {
+            "description": "Lives in Qatar",
+            "lang": "en",
+            "name": "🇶🇦 Qatar"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-re",
+        "locales": [
+          {
+            "description": "Lives in Réunion",
+            "lang": "en",
+            "name": "🇷🇪 Réunion"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ro",
+        "locales": [
+          {
+            "description": "Lives in Romania",
+            "lang": "en",
+            "name": "🇷🇴 Romania"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-rs",
+        "locales": [
+          {
+            "description": "Lives in Serbia",
+            "lang": "en",
+            "name": "🇷🇸 Serbia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ru",
+        "locales": [
+          {
+            "description": "Lives in Russia",
+            "lang": "en",
+            "name": "🇷🇺 Russia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-rw",
+        "locales": [
+          {
+            "description": "Lives in Rwanda",
+            "lang": "en",
+            "name": "🇷🇼 Rwanda"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sa",
+        "locales": [
+          {
+            "description": "Lives in Saudi Arabia",
+            "lang": "en",
+            "name": "🇸🇦 Saudi Arabia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sb",
+        "locales": [
+          {
+            "description": "Lives in Solomon Islands",
+            "lang": "en",
+            "name": "🇸🇧 Solomon Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sc",
+        "locales": [
+          {
+            "description": "Lives in Seychelles",
+            "lang": "en",
+            "name": "🇸🇨 Seychelles"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sd",
+        "locales": [
+          {
+            "description": "Lives in Sudan",
+            "lang": "en",
+            "name": "🇸🇩 Sudan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-se",
+        "locales": [
+          {
+            "description": "Lives in Sweden",
+            "lang": "en",
+            "name": "🇸🇪 Sweden"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sg",
+        "locales": [
+          {
+            "description": "Lives in Singapore",
+            "lang": "en",
+            "name": "🇸🇬 Singapore"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sh",
+        "locales": [
+          {
+            "description": "Lives in St. Helena",
+            "lang": "en",
+            "name": "🇸🇭 St. Helena"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-si",
+        "locales": [
+          {
+            "description": "Lives in Slovenia",
+            "lang": "en",
+            "name": "🇸🇮 Slovenia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sj",
+        "locales": [
+          {
+            "description": "Lives in Svalbard & Jan Mayen",
+            "lang": "en",
+            "name": "🇸🇯 Svalbard & Jan Mayen"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sk",
+        "locales": [
+          {
+            "description": "Lives in Slovakia",
+            "lang": "en",
+            "name": "🇸🇰 Slovakia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sl",
+        "locales": [
+          {
+            "description": "Lives in Sierra Leone",
+            "lang": "en",
+            "name": "🇸🇱 Sierra Leone"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sm",
+        "locales": [
+          {
+            "description": "Lives in San Marino",
+            "lang": "en",
+            "name": "🇸🇲 San Marino"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sn",
+        "locales": [
+          {
+            "description": "Lives in Senegal",
+            "lang": "en",
+            "name": "🇸🇳 Senegal"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-so",
+        "locales": [
+          {
+            "description": "Lives in Somalia",
+            "lang": "en",
+            "name": "🇸🇴 Somalia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sr",
+        "locales": [
+          {
+            "description": "Lives in Suriname",
+            "lang": "en",
+            "name": "🇸🇷 Suriname"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ss",
+        "locales": [
+          {
+            "description": "Lives in South Sudan",
+            "lang": "en",
+            "name": "🇸🇸 South Sudan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-st",
+        "locales": [
+          {
+            "description": "Lives in São Tomé & Príncipe",
+            "lang": "en",
+            "name": "🇸🇹 São Tomé & Príncipe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sv",
+        "locales": [
+          {
+            "description": "Lives in El Salvador",
+            "lang": "en",
+            "name": "🇸🇻 El Salvador"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sx",
+        "locales": [
+          {
+            "description": "Lives in Sint Maarten",
+            "lang": "en",
+            "name": "🇸🇽 Sint Maarten"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sy",
+        "locales": [
+          {
+            "description": "Lives in Syria",
+            "lang": "en",
+            "name": "🇸🇾 Syria"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-sz",
+        "locales": [
+          {
+            "description": "Lives in Eswatini",
+            "lang": "en",
+            "name": "🇸🇿 Eswatini"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tc",
+        "locales": [
+          {
+            "description": "Lives in Turks & Caicos Islands",
+            "lang": "en",
+            "name": "🇹🇨 Turks & Caicos Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-td",
+        "locales": [
+          {
+            "description": "Lives in Chad",
+            "lang": "en",
+            "name": "🇹🇩 Chad"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tf",
+        "locales": [
+          {
+            "description": "Lives in French Southern Territories",
+            "lang": "en",
+            "name": "🇹🇫 French Southern Territories"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tg",
+        "locales": [
+          {
+            "description": "Lives in Togo",
+            "lang": "en",
+            "name": "🇹🇬 Togo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-th",
+        "locales": [
+          {
+            "description": "Lives in Thailand",
+            "lang": "en",
+            "name": "🇹🇭 Thailand"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tj",
+        "locales": [
+          {
+            "description": "Lives in Tajikistan",
+            "lang": "en",
+            "name": "🇹🇯 Tajikistan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tk",
+        "locales": [
+          {
+            "description": "Lives in Tokelau",
+            "lang": "en",
+            "name": "🇹🇰 Tokelau"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tl",
+        "locales": [
+          {
+            "description": "Lives in Timor-Leste",
+            "lang": "en",
+            "name": "🇹🇱 Timor-Leste"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tm",
+        "locales": [
+          {
+            "description": "Lives in Turkmenistan",
+            "lang": "en",
+            "name": "🇹🇲 Turkmenistan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tn",
+        "locales": [
+          {
+            "description": "Lives in Tunisia",
+            "lang": "en",
+            "name": "🇹🇳 Tunisia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-to",
+        "locales": [
+          {
+            "description": "Lives in Tonga",
+            "lang": "en",
+            "name": "🇹🇴 Tonga"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tr",
+        "locales": [
+          {
+            "description": "Lives in Türkiye",
+            "lang": "en",
+            "name": "🇹🇷 Türkiye"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tt",
+        "locales": [
+          {
+            "description": "Lives in Trinidad & Tobago",
+            "lang": "en",
+            "name": "🇹🇹 Trinidad & Tobago"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tv",
+        "locales": [
+          {
+            "description": "Lives in Tuvalu",
+            "lang": "en",
+            "name": "🇹🇻 Tuvalu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tw",
+        "locales": [
+          {
+            "description": "Lives in Taiwan",
+            "lang": "en",
+            "name": "🇹🇼 Taiwan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-tz",
+        "locales": [
+          {
+            "description": "Lives in Tanzania",
+            "lang": "en",
+            "name": "🇹🇿 Tanzania"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ua",
+        "locales": [
+          {
+            "description": "Lives in Ukraine",
+            "lang": "en",
+            "name": "🇺🇦 Ukraine"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ug",
+        "locales": [
+          {
+            "description": "Lives in Uganda",
+            "lang": "en",
+            "name": "🇺🇬 Uganda"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-um",
+        "locales": [
+          {
+            "description": "Lives in U.S. Outlying Islands",
+            "lang": "en",
+            "name": "🇺🇲 U.S. Outlying Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-us",
+        "locales": [
+          {
+            "description": "Lives in United States",
+            "lang": "en",
+            "name": "🇺🇸 United States"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-uy",
+        "locales": [
+          {
+            "description": "Lives in Uruguay",
+            "lang": "en",
+            "name": "🇺🇾 Uruguay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-uz",
+        "locales": [
+          {
+            "description": "Lives in Uzbekistan",
+            "lang": "en",
+            "name": "🇺🇿 Uzbekistan"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-va",
+        "locales": [
+          {
+            "description": "Lives in Vatican City",
+            "lang": "en",
+            "name": "🇻🇦 Vatican City"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-vc",
+        "locales": [
+          {
+            "description": "Lives in St. Vincent & Grenadines",
+            "lang": "en",
+            "name": "🇻🇨 St. Vincent & Grenadines"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ve",
+        "locales": [
+          {
+            "description": "Lives in Venezuela",
+            "lang": "en",
+            "name": "🇻🇪 Venezuela"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-vg",
+        "locales": [
+          {
+            "description": "Lives in British Virgin Islands",
+            "lang": "en",
+            "name": "🇻🇬 British Virgin Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-vi",
+        "locales": [
+          {
+            "description": "Lives in U.S. Virgin Islands",
+            "lang": "en",
+            "name": "🇻🇮 U.S. Virgin Islands"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-vn",
+        "locales": [
+          {
+            "description": "Lives in Vietnam",
+            "lang": "en",
+            "name": "🇻🇳 Vietnam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-vu",
+        "locales": [
+          {
+            "description": "Lives in Vanuatu",
+            "lang": "en",
+            "name": "🇻🇺 Vanuatu"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-wf",
+        "locales": [
+          {
+            "description": "Lives in Wallis & Futuna",
+            "lang": "en",
+            "name": "🇼🇫 Wallis & Futuna"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ws",
+        "locales": [
+          {
+            "description": "Lives in Samoa",
+            "lang": "en",
+            "name": "🇼🇸 Samoa"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-ye",
+        "locales": [
+          {
+            "description": "Lives in Yemen",
+            "lang": "en",
+            "name": "🇾🇪 Yemen"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-yt",
+        "locales": [
+          {
+            "description": "Lives in Mayotte",
+            "lang": "en",
+            "name": "🇾🇹 Mayotte"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-za",
+        "locales": [
+          {
+            "description": "Lives in South Africa",
+            "lang": "en",
+            "name": "🇿🇦 South Africa"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-zm",
+        "locales": [
+          {
+            "description": "Lives in Zambia",
+            "lang": "en",
+            "name": "🇿🇲 Zambia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "lives-zw",
+        "locales": [
+          {
+            "description": "Lives in Zimbabwe",
+            "lang": "en",
+            "name": "🇿🇼 Zimbabwe"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "birthday-today",
+        "locales": [
+          {
+            "description": "It's their birthday today",
+            "lang": "en",
+            "name": "🎂 Birthday"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "pronouns-she-her",
+      "pronouns-he-him",
+      "pronouns-they-them",
+      "pronouns-she-they",
+      "pronouns-he-they",
+      "pronouns-it-its",
+      "pronouns-xe-xem",
+      "pronouns-ze-zir",
+      "pronouns-any-all",
+      "pronouns-ask-me",
+      "gender-woman",
+      "gender-man",
+      "gender-non-binary",
+      "gender-trans-woman",
+      "gender-trans-man",
+      "gender-genderfluid",
+      "gender-genderqueer",
+      "gender-agender",
+      "orientation-straight",
+      "orientation-gay",
+      "orientation-lesbian",
+      "orientation-bisexual",
+      "orientation-pansexual",
+      "orientation-asexual",
+      "orientation-queer",
+      "orientation-questioning",
+      "relationship-single",
+      "relationship-in-a-relationship",
+      "relationship-engaged",
+      "relationship-married",
+      "relationship-open-relationship",
+      "relationship-it-s-complicated",
+      "looking-friends",
+      "looking-dating",
+      "looking-relationship",
+      "looking-networking",
+      "looking-collaborators",
+      "speaks-en",
+      "speaks-es",
+      "speaks-pt",
+      "speaks-fr",
+      "speaks-de",
+      "speaks-it",
+      "speaks-nl",
+      "speaks-ja",
+      "speaks-ko",
+      "speaks-zh",
+      "speaks-ar",
+      "speaks-hi",
+      "speaks-ru",
+      "speaks-uk",
+      "speaks-pl",
+      "speaks-tr",
+      "speaks-sv",
+      "speaks-fi",
+      "lives-ad",
+      "lives-ae",
+      "lives-af",
+      "lives-ag",
+      "lives-ai",
+      "lives-al",
+      "lives-am",
+      "lives-ao",
+      "lives-aq",
+      "lives-ar",
+      "lives-as",
+      "lives-at",
+      "lives-au",
+      "lives-aw",
+      "lives-ax",
+      "lives-az",
+      "lives-ba",
+      "lives-bb",
+      "lives-bd",
+      "lives-be",
+      "lives-bf",
+      "lives-bg",
+      "lives-bh",
+      "lives-bi",
+      "lives-bj",
+      "lives-bl",
+      "lives-bm",
+      "lives-bn",
+      "lives-bo",
+      "lives-bq",
+      "lives-br",
+      "lives-bs",
+      "lives-bt",
+      "lives-bv",
+      "lives-bw",
+      "lives-by",
+      "lives-bz",
+      "lives-ca",
+      "lives-cc",
+      "lives-cd",
+      "lives-cf",
+      "lives-cg",
+      "lives-ch",
+      "lives-ci",
+      "lives-ck",
+      "lives-cl",
+      "lives-cm",
+      "lives-cn",
+      "lives-co",
+      "lives-cr",
+      "lives-cu",
+      "lives-cv",
+      "lives-cw",
+      "lives-cx",
+      "lives-cy",
+      "lives-cz",
+      "lives-de",
+      "lives-dj",
+      "lives-dk",
+      "lives-dm",
+      "lives-do",
+      "lives-dz",
+      "lives-ec",
+      "lives-ee",
+      "lives-eg",
+      "lives-eh",
+      "lives-er",
+      "lives-es",
+      "lives-et",
+      "lives-fi",
+      "lives-fj",
+      "lives-fk",
+      "lives-fm",
+      "lives-fo",
+      "lives-fr",
+      "lives-ga",
+      "lives-gb",
+      "lives-gd",
+      "lives-ge",
+      "lives-gf",
+      "lives-gg",
+      "lives-gh",
+      "lives-gi",
+      "lives-gl",
+      "lives-gm",
+      "lives-gn",
+      "lives-gp",
+      "lives-gq",
+      "lives-gr",
+      "lives-gs",
+      "lives-gt",
+      "lives-gu",
+      "lives-gw",
+      "lives-gy",
+      "lives-hk",
+      "lives-hm",
+      "lives-hn",
+      "lives-hr",
+      "lives-ht",
+      "lives-hu",
+      "lives-id",
+      "lives-ie",
+      "lives-il",
+      "lives-im",
+      "lives-in",
+      "lives-io",
+      "lives-iq",
+      "lives-ir",
+      "lives-is",
+      "lives-it",
+      "lives-je",
+      "lives-jm",
+      "lives-jo",
+      "lives-jp",
+      "lives-ke",
+      "lives-kg",
+      "lives-kh",
+      "lives-ki",
+      "lives-km",
+      "lives-kn",
+      "lives-kp",
+      "lives-kr",
+      "lives-kw",
+      "lives-ky",
+      "lives-kz",
+      "lives-la",
+      "lives-lb",
+      "lives-lc",
+      "lives-li",
+      "lives-lk",
+      "lives-lr",
+      "lives-ls",
+      "lives-lt",
+      "lives-lu",
+      "lives-lv",
+      "lives-ly",
+      "lives-ma",
+      "lives-mc",
+      "lives-md",
+      "lives-me",
+      "lives-mf",
+      "lives-mg",
+      "lives-mh",
+      "lives-mk",
+      "lives-ml",
+      "lives-mm",
+      "lives-mn",
+      "lives-mo",
+      "lives-mp",
+      "lives-mq",
+      "lives-mr",
+      "lives-ms",
+      "lives-mt",
+      "lives-mu",
+      "lives-mv",
+      "lives-mw",
+      "lives-mx",
+      "lives-my",
+      "lives-mz",
+      "lives-na",
+      "lives-nc",
+      "lives-ne",
+      "lives-nf",
+      "lives-ng",
+      "lives-ni",
+      "lives-nl",
+      "lives-no",
+      "lives-np",
+      "lives-nr",
+      "lives-nu",
+      "lives-nz",
+      "lives-om",
+      "lives-pa",
+      "lives-pe",
+      "lives-pf",
+      "lives-pg",
+      "lives-ph",
+      "lives-pk",
+      "lives-pl",
+      "lives-pm",
+      "lives-pn",
+      "lives-pr",
+      "lives-ps",
+      "lives-pt",
+      "lives-pw",
+      "lives-py",
+      "lives-qa",
+      "lives-re",
+      "lives-ro",
+      "lives-rs",
+      "lives-ru",
+      "lives-rw",
+      "lives-sa",
+      "lives-sb",
+      "lives-sc",
+      "lives-sd",
+      "lives-se",
+      "lives-sg",
+      "lives-sh",
+      "lives-si",
+      "lives-sj",
+      "lives-sk",
+      "lives-sl",
+      "lives-sm",
+      "lives-sn",
+      "lives-so",
+      "lives-sr",
+      "lives-ss",
+      "lives-st",
+      "lives-sv",
+      "lives-sx",
+      "lives-sy",
+      "lives-sz",
+      "lives-tc",
+      "lives-td",
+      "lives-tf",
+      "lives-tg",
+      "lives-th",
+      "lives-tj",
+      "lives-tk",
+      "lives-tl",
+      "lives-tm",
+      "lives-tn",
+      "lives-to",
+      "lives-tr",
+      "lives-tt",
+      "lives-tv",
+      "lives-tw",
+      "lives-tz",
+      "lives-ua",
+      "lives-ug",
+      "lives-um",
+      "lives-us",
+      "lives-uy",
+      "lives-uz",
+      "lives-va",
+      "lives-vc",
+      "lives-ve",
+      "lives-vg",
+      "lives-vi",
+      "lives-vn",
+      "lives-vu",
+      "lives-wf",
+      "lives-ws",
+      "lives-ye",
+      "lives-yt",
+      "lives-za",
+      "lives-zm",
+      "lives-zw",
+      "birthday-today"
+    ]
+  }
+}

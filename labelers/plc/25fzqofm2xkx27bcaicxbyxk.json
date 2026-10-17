@@ -1,0 +1,66 @@
+{
+  "uri": "at://did:plc:25fzqofm2xkx27bcaicxbyxk/app.bsky.labeler.service/self",
+  "cid": "bafyreic37rf5absitwgcwgto5a27el3xkcoxdxbggaopxpbtwfm3vth4ie",
+  "creator": {
+    "did": "did:plc:25fzqofm2xkx27bcaicxbyxk",
+    "handle": "handle.invalid",
+    "displayName": "wisp.place moderation",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-16T20:29:15.557Z",
+    "description": "Moderation labels for sites hosted on wisp.place. Acceptable use policy: https://wisp.place/acceptable-use",
+    "indexedAt": "2026-10-16T21:19:59.859Z"
+  },
+  "indexedAt": "2026-10-16T21:19:59.669Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "A wisp.place site or account that publishes SEO, backlink, affiliate or advertising spam.",
+            "lang": "en",
+            "name": "Spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "mass-created",
+        "locales": [
+          {
+            "description": "One of a batch of wisp.place accounts or sites created by the same operator.",
+            "lang": "en",
+            "name": "Mass-created"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "!takedown",
+      "!hide",
+      "spam",
+      "mass-created"
+    ]
+  },
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "place.wisp.fs"
+  ]
+}
