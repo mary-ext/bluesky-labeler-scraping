@@ -1,0 +1,108 @@
+{
+  "uri": "at://did:plc:kgpqgx33bhqf4sn7lb7thnzw/app.bsky.labeler.service/self",
+  "cid": "bafyreibcpcf7r3io75qp6axjw4avi3jykxltbsyc4mvvmysmvoeguvxkym",
+  "creator": {
+    "did": "did:plc:kgpqgx33bhqf4sn7lb7thnzw",
+    "handle": "moderation.at.yugoslavia.best",
+    "displayName": "Yugoslavia Moderation Service",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kgpqgx33bhqf4sn7lb7thnzw/bafkreigowp26hslk5ymxb45hpz3fpn5wek7w2ergoacjhpi3zfi4gsbriq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2025-09-23T12:28:50.001Z",
+    "description": "Official Yugoslavian PDS moderation service.\nhttps://yugoslavia.best/fuck",
+    "indexedAt": "2025-09-23T14:03:25.097Z"
+  },
+  "indexedAt": "2026-10-17T21:48:20.356Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "offical",
+        "locales": [
+          {
+            "description": "✅ officialLabel description.  Official account for otfficial. ",
+            "lang": "en",
+            "name": "✅ Offical, real,"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "evil",
+        "locales": [
+          {
+            "description": "literally just pure fuckign evil",
+            "lang": "en",
+            "name": "Evil"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "security-concerns",
+        "locales": [
+          {
+            "description": "uh oh!",
+            "lang": "en",
+            "name": "Security Concerns"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "none",
+        "defaultSetting": "inform",
+        "identifier": "misinformation",
+        "locales": [
+          {
+            "description": "⚠️⚠️ This user is spreading MISINFORMMATION",
+            "lang": "en",
+            "name": "Misinformation"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "blurs": "media",
+        "defaultSetting": "inform",
+        "identifier": "problematic",
+        "locales": [
+          {
+            "description": "uh ohhhh :orangebitingnails:",
+            "lang": "en",
+            "name": "Problematic Media"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "security-concerns",
+      "misinformation",
+      "offical",
+      "evil",
+      "problematic"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
+}
