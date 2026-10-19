@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreichdny7veonzijblg53mj5l4377xauime536pdiyuaeyw3nrkxuny",
+  "cid": "bafyreidbsexevb3gjt47h3uwe7h5o4hwcqyydfpbw55252phgt2x6yyx3y",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,10 +17,38 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.org/edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.org/edavis.dev/recordcollector/issues/new",
     "indexedAt": "2026-04-05T02:28:07.450Z"
   },
-  "indexedAt": "2026-09-04T21:44:28.968Z",
+  "indexedAt": "2026-10-18T05:25:06.168Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "atmosphere",
+        "locales": [
+          {
+            "description": "Lexicon activity outside of Bluesky in general",
+            "lang": "en",
+            "name": "Atmosphere"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "other",
+        "locales": [
+          {
+            "description": "Lexicon activity outside of Bluesky but not recognized by recordcollector",
+            "lang": "en",
+            "name": "Other"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -95,6 +123,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-askeverything",
+        "locales": [
+          {
+            "description": "Ask, answer, & explore questions about everything (app.askeverything.*)",
+            "lang": "en",
+            "name": "Ask Everything"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "place-atwork",
         "locales": [
           {
@@ -151,12 +193,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "games-atmosphere",
+        "locales": [
+          {
+            "description": "Portable AT Protocol schemas for games and live status (games.atmosphere.*)",
+            "lang": "en",
+            "name": "ATmosphere Games"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-atprotofans",
         "locales": [
           {
             "description": "Connecting Fans and Creators (com.atprotofans.*)",
             "lang": "en",
             "name": "ATProtoFans"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "fm-atradio",
+        "locales": [
+          {
+            "description": "atradio.fm is a social internet radio platform (fm.atradio.*)",
+            "lang": "en",
+            "name": "atradio.fm"
           }
         ],
         "severity": "inform"
@@ -263,6 +333,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-bulleted",
+        "locales": [
+          {
+            "description": "An outliner where your writing stays yours (app.bulleted.*)",
+            "lang": "en",
+            "name": "Bulleted"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "dev-cartridge",
         "locales": [
           {
@@ -291,12 +375,54 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-colibri",
+        "locales": [
+          {
+            "description": "Chats where you truly own your data (social.colibri.*)",
+            "lang": "en",
+            "name": "Colibri"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "is-currents",
+        "locales": [
+          {
+            "description": "Save inspiration from anywhere, curate collections that reflect your taste, and tune your feed to find exactly what you love (is.currents.*)",
+            "lang": "en",
+            "name": "Currents"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-deckbelcher",
         "locales": [
           {
             "description": "organize, build, and share decks on the atmosphere (com.deckbelcher.*)",
             "lang": "en",
             "name": "deck belcher"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "town-delve",
+        "locales": [
+          {
+            "description": "a multi-agent society where agents and humans can engage with one another and develop the institutions needed for cooperative coexistence (town.delve.*)",
+            "lang": "en",
+            "name": "Delvetown"
           }
         ],
         "severity": "inform"
@@ -350,7 +476,7 @@
         "identifier": "im-flushing",
         "locales": [
           {
-            "description": "The Decentralized Toilet Network of Planet Earth & Simulation 12B (im.flushing.*)",
+            "description": "The Internet's Bathroom (im.flushing.*)",
             "lang": "en",
             "name": "Flushes"
           }
@@ -451,6 +577,20 @@
             "description": "social components (at.inlay.*)",
             "lang": "en",
             "name": "Inlay"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-keytrace",
+        "locales": [
+          {
+            "description": "Keytrace links your atproto handle to the accounts you already own with signed, portable proofs (dev.keytrace.*)",
+            "lang": "en",
+            "name": "Keytrace"
           }
         ],
         "severity": "inform"
@@ -571,20 +711,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "community-nooki",
-        "locales": [
-          {
-            "description": "a federated social media inspired by Tumblr (community.nooki.*)",
-            "lang": "en",
-            "name": "Nooki"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "dev-npmx",
         "locales": [
           {
@@ -619,6 +745,20 @@
             "description": "The internet's cutest blogging site (probably) (blog.pckt.*)",
             "lang": "en",
             "name": "pckt"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-pinkleap",
+        "locales": [
+          {
+            "description": "Your decentralized feed in pictures and videos (social.pinkleap.*)",
+            "lang": "en",
+            "name": "Pinkleap"
           }
         ],
         "severity": "inform"
@@ -683,6 +823,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "at-postgame",
+        "locales": [
+          {
+            "description": "Manage your video game library. Powered by AT Protocol. (at.postgame.*)",
+            "lang": "en",
+            "name": "Postgame"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "fyi-questionable",
         "locales": [
           {
@@ -731,6 +885,20 @@
             "description": "group chat on atproto (space.roomy.*)",
             "lang": "en",
             "name": "Roomy"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "actor-rpg",
+        "locales": [
+          {
+            "description": "Universal character compendium (actor.rpg.*)",
+            "lang": "en",
+            "name": "rpg.actor"
           }
         ],
         "severity": "inform"
@@ -879,6 +1047,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-standard-reader",
+        "locales": [
+          {
+            "description": "A home for the writing you love (app.standard-reader.*)",
+            "lang": "en",
+            "name": "Standard Reader"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-standard",
         "locales": [
           {
@@ -1005,6 +1187,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "app-userinput",
+        "locales": [
+          {
+            "description": "Where user input shapes what you build (app.userinput.*)",
+            "lang": "en",
+            "name": "User Input"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-wafrn",
         "locales": [
           {
@@ -1115,16 +1311,21 @@
       }
     ],
     "labelValues": [
+      "atmosphere",
+      "other",
       "blue-twentyfortyeight",
       "computer-aetheros",
       "app-dropanchor",
       "net-anisota",
       "social-arabica",
+      "app-askeverything",
       "place-atwork",
       "app-atbuddy",
       "io-atcr",
       "blue-zio-atfile",
+      "games-atmosphere",
       "com-atprotofans",
+      "fm-atradio",
       "com-suibari-atsumeat",
       "app-beaconbits",
       "community-blacksky-assembly",
@@ -1132,9 +1333,13 @@
       "blue-badge",
       "buzz-bookhive",
       "com-bskythirtyeight",
+      "app-bulleted",
       "dev-cartridge",
       "dev-cocore",
+      "social-colibri",
+      "is-currents",
       "com-deckbelcher",
+      "town-delve",
       "com-derakkuma",
       "social-drydown",
       "blue-flashes",
@@ -1146,6 +1351,7 @@
       "social-grain",
       "app-greengale",
       "at-inlay",
+      "dev-keytrace",
       "social-kibun",
       "app-lanyards",
       "pub-leaflet",
@@ -1154,18 +1360,20 @@
       "at-margin",
       "site-mochott",
       "at-monomarks",
-      "community-nooki",
       "dev-npmx",
       "app-offprint",
       "blog-pckt",
+      "social-pinkleap",
       "com-shinolabs-pinksea",
       "host-plural",
       "fm-plyr",
       "social-popfeed",
+      "at-postgame",
       "fyi-questionable",
       "exchange-recipe",
       "app-rocksky",
       "space-roomy",
+      "actor-rpg",
       "network-cosmik",
       "app-sidetrail",
       "id-sifa",
@@ -1176,6 +1384,7 @@
       "st-snowpo",
       "so-sprk",
       "coop-hypha-spores",
+      "app-standard-reader",
       "site-standard",
       "io-zzstoatzz-status",
       "xyz-statusphere",
@@ -1185,6 +1394,7 @@
       "games-gamesgamesgamesgames",
       "stream-thought",
       "social-twinkl",
+      "app-userinput",
       "net-wafrn",
       "com-wamellow",
       "com-whtwnd",

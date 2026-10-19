@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreigghfgzhbpbpbgggzpashc6fuzj6f4nqbukzqe7r3byw6bnghxrtu",
+  "cid": "bafyreifpiumdng6dmedxd5qbyof45lpubbgru5bdacuehreavuxmfji2zy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-17T15:47:13.266Z",
+  "indexedAt": "2026-10-18T15:57:36.359Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -179,12 +179,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-blacksky",
+        "identifier": "io-tdpl",
         "locales": [
           {
-            "description": "Account is hosted by the blacksky.app PDS",
+            "description": "Account is hosted by the tdpl.io PDS",
             "lang": "en",
-            "name": "blacksky.app"
+            "name": "tdpl.io"
           }
         ],
         "severity": "inform"
@@ -193,12 +193,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "io-tdpl",
+        "identifier": "app-blacksky",
         "locales": [
           {
-            "description": "Account is hosted by the tdpl.io PDS",
+            "description": "Account is hosted by the blacksky.app PDS",
             "lang": "en",
-            "name": "tdpl.io"
+            "name": "blacksky.app"
           }
         ],
         "severity": "inform"
@@ -571,6 +571,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "town-delve-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.delve.town PDS",
+            "lang": "en",
+            "name": "pds.delve.town"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "homes-si46",
         "locales": [
           {
@@ -605,20 +619,6 @@
             "description": "Account is hosted by the pds.oathling.ai PDS",
             "lang": "en",
             "name": "pds.oathling.ai"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.delve.town PDS",
-            "lang": "en",
-            "name": "pds.delve.town"
           }
         ],
         "severity": "inform"
@@ -795,12 +795,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-alley-chicago--com-pds",
+        "identifier": "social-skyphone-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.chicago-com.alley.dev PDS",
+            "description": "Account is hosted by the pds.skyphone.social PDS",
             "lang": "en",
-            "name": "pds.chicago-com.alley.dev"
+            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -809,12 +809,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
+        "identifier": "dev-alley-chicago--com-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "description": "Account is hosted by the pds.chicago-com.alley.dev PDS",
             "lang": "en",
-            "name": "pds.skyphone.social"
+            "name": "pds.chicago-com.alley.dev"
           }
         ],
         "severity": "inform"
@@ -893,12 +893,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-pwkl-eu1-dev",
+        "identifier": "bot-did-pds",
         "locales": [
           {
-            "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
+            "description": "Account is hosted by the pds.did.bot PDS",
             "lang": "en",
-            "name": "dev.eu1.pwkl.social"
+            "name": "pds.did.bot"
           }
         ],
         "severity": "inform"
@@ -907,12 +907,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-did-pds",
+        "identifier": "social-pwkl-eu1-dev",
         "locales": [
           {
-            "description": "Account is hosted by the pds.did.bot PDS",
+            "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
             "lang": "en",
-            "name": "pds.did.bot"
+            "name": "dev.eu1.pwkl.social"
           }
         ],
         "severity": "inform"
@@ -1462,8 +1462,8 @@
       "world-si46-pds",
       "info-keik",
       "me-1095-pds",
-      "app-blacksky",
       "io-tdpl",
+      "app-blacksky",
       "app-louisvillebsky-pds",
       "chat-roomy",
       "fan-radial-pds",
@@ -1490,10 +1490,10 @@
       "com-nrbrtspvk-bsky",
       "com-dadavidtseng-pds",
       "network-nobody-node",
+      "town-delve-pds",
       "homes-si46",
       "social-npmx",
       "ai-oathling-pds",
-      "town-delve-pds",
       "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
@@ -1506,15 +1506,15 @@
       "cafe-pckt-pds",
       "at-forum--hietzing",
       "at-admat-bsx",
-      "dev-alley-chicago--com-pds",
       "social-skyphone-pds",
+      "dev-alley-chicago--com-pds",
       "space-getair-demo-pds",
       "com-mulgez-api",
       "news-1440-pds",
       "social-bookhive",
       "space-cannect-pds",
-      "social-pwkl-eu1-dev",
       "bot-did-pds",
+      "social-pwkl-eu1-dev",
       "cafe-margin",
       "social-fazen",
       "cc-velvetnova",
