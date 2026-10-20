@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifpiumdng6dmedxd5qbyof45lpubbgru5bdacuehreavuxmfji2zy",
+  "cid": "bafyreigl7fnd4uc5haegmo7j24jvsirg35axkdripuy3pjjoman6n2kosa",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-18T15:57:36.359Z",
+  "indexedAt": "2026-10-19T22:07:46.160Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -515,6 +515,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "town-delve-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.delve.town PDS",
+            "lang": "en",
+            "name": "pds.delve.town"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "net-goldentooth-pds",
         "locales": [
           {
@@ -563,20 +577,6 @@
             "description": "Account is hosted by the node.nobody.network PDS",
             "lang": "en",
             "name": "node.nobody.network"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.delve.town PDS",
-            "lang": "en",
-            "name": "pds.delve.town"
           }
         ],
         "severity": "inform"
@@ -851,6 +851,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "bot-did-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.did.bot PDS",
+            "lang": "en",
+            "name": "pds.did.bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "news-1440-pds",
         "locales": [
           {
@@ -885,20 +899,6 @@
             "description": "Account is hosted by the pds.cannect.space PDS",
             "lang": "en",
             "name": "pds.cannect.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "bot-did-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.did.bot PDS",
-            "lang": "en",
-            "name": "pds.did.bot"
           }
         ],
         "severity": "inform"
@@ -1067,6 +1067,20 @@
             "description": "Account is hosted by the pds.scenius.social PDS",
             "lang": "en",
             "name": "pds.scenius.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dev-wsocial-pds--stage",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
+            "lang": "en",
+            "name": "pds-stage.wsocial.dev"
           }
         ],
         "severity": "inform"
@@ -1299,6 +1313,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-skeetcentral",
+        "locales": [
+          {
+            "description": "Account is hosted by the skeetcentral.com PDS",
+            "lang": "en",
+            "name": "skeetcentral.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "com-zimchu-epds",
         "locales": [
           {
@@ -1319,20 +1347,6 @@
             "description": "Account is hosted by the matrix.usapolitics.news PDS",
             "lang": "en",
             "name": "matrix.usapolitics.news"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-skeetcentral",
-        "locales": [
-          {
-            "description": "Account is hosted by the skeetcentral.com PDS",
-            "lang": "en",
-            "name": "skeetcentral.com"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-arankwende",
+        "identifier": "social-colibri",
         "locales": [
           {
-            "description": "Account is hosted by the arankwende.com PDS",
+            "description": "Account is hosted by the colibri.social PDS",
             "lang": "en",
-            "name": "arankwende.com"
+            "name": "colibri.social"
           }
         ],
         "severity": "inform"
@@ -1397,12 +1411,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-colibri",
+        "identifier": "com-arankwende",
         "locales": [
           {
-            "description": "Account is hosted by the colibri.social PDS",
+            "description": "Account is hosted by the arankwende.com PDS",
             "lang": "en",
-            "name": "colibri.social"
+            "name": "arankwende.com"
           }
         ],
         "severity": "inform"
@@ -1431,20 +1445,6 @@
             "description": "Account is hosted by the pds00.pds-dev.wsocial.dev PDS",
             "lang": "en",
             "name": "pds00.pds-dev.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "org-rebuildingus-atlas--pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the atlas-pds.rebuildingus.org PDS",
-            "lang": "en",
-            "name": "atlas-pds.rebuildingus.org"
           }
         ],
         "severity": "inform"
@@ -1486,11 +1486,11 @@
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "community-clear-pds",
+      "town-delve-pds",
       "net-goldentooth-pds",
       "com-nrbrtspvk-bsky",
       "com-dadavidtseng-pds",
       "network-nobody-node",
-      "town-delve-pds",
       "homes-si46",
       "social-npmx",
       "ai-oathling-pds",
@@ -1510,10 +1510,10 @@
       "dev-alley-chicago--com-pds",
       "space-getair-demo-pds",
       "com-mulgez-api",
+      "bot-did-pds",
       "news-1440-pds",
       "social-bookhive",
       "space-cannect-pds",
-      "bot-did-pds",
       "social-pwkl-eu1-dev",
       "cafe-margin",
       "social-fazen",
@@ -1526,6 +1526,7 @@
       "cloud-nihilist",
       "site-bskytool-pds4",
       "social-scenius-pds",
+      "dev-wsocial-pds--stage",
       "cc-mirablossom",
       "space-cannect",
       "cloud-hstgr-srv865737",
@@ -1542,17 +1543,16 @@
       "social-casjay",
       "site-bskytool-pds2",
       "systems-witchcraft-pds",
+      "com-skeetcentral",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "com-skeetcentral",
       "com-clipsymphony-social-pds",
       "com-missaamane",
       "ro-aiia-pds",
-      "com-arankwende",
       "social-colibri",
+      "com-arankwende",
       "net-socialsandbox3",
-      "dev-wsocial-pds--dev-pds00",
-      "org-rebuildingus-atlas--pds"
+      "dev-wsocial-pds--dev-pds00"
     ]
   }
 }

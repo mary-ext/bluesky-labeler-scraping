@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:cdkysjo2taj2jpy3qoostthu/app.bsky.labeler.service/self",
-  "cid": "bafyreiaxgffa23qy5fp3snq5prkeoqxspnt3ziwezo26ovwg4tngzysuiy",
+  "cid": "bafyreigyo23mmkgueg2voknxiod7mq7vxm6hsbdvm2t7l6cag5kby2iqqi",
   "creator": {
     "did": "did:plc:cdkysjo2taj2jpy3qoostthu",
     "handle": "bottags.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Labels for bot tags, replies, and accounts, to orient yourself in human-bot spaces.\n\nSee pinned post for source lists.\n\nCreated by @gracekind.net",
     "indexedAt": "2026-10-17T21:25:10.257Z"
   },
-  "indexedAt": "2026-09-07T01:45:35.865Z",
+  "indexedAt": "2026-10-19T12:34:29.356Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -62,12 +62,27 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "undisclosed-human",
+        "locales": [
+          {
+            "description": "A human-run account that has the 'automated' label",
+            "lang": "en",
+            "name": "Undisclosed human"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
       "bottag-toplevel",
       "bot-reply",
-      "undisclosed-bot"
+      "undisclosed-bot",
+      "undisclosed-human"
     ]
   }
 }
