@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:nsl2x6tgtkcasyhwrj4k24sm/app.bsky.labeler.service/self",
-  "cid": "bafyreibee4fqp4nzvexb3orbdz4dt433w6yban3lx2pkyajwsdv7u4kmxi",
+  "cid": "bafyreiafqv5qoo36lo2kjpjmrs6gjmjmb7p5arb2xp5ghk2uhwpbifidfe",
   "creator": {
     "did": "did:plc:nsl2x6tgtkcasyhwrj4k24sm",
     "handle": "labeler.tenna.party",
@@ -17,7 +17,7 @@
     "description": "A complementary labeler for a third-party client.\nRan by @kris.darkworld.download",
     "indexedAt": "2026-09-29T11:32:44.059Z"
   },
-  "indexedAt": "2026-09-30T18:20:16.457Z",
+  "indexedAt": "2026-10-21T20:02:54.746Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -96,12 +96,27 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "ignore-labels-spam",
+        "locales": [
+          {
+            "description": "Negate labeler that's supposed to be customizable in-app on tenna.party.",
+            "lang": "en",
+            "name": "ignore-labels-spam"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "privatevessel-violative-post",
       "privatevessel-banned",
       "calls-them-jaronas",
+      "ignore-labels-spam",
       "boop",
       "bsky-client",
       "!warn"
