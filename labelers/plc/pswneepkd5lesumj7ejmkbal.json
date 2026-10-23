@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self",
-  "cid": "bafyreihgdxjelhegty24s6uxgdt5mepitsacyouwcjb2eif3b3a4vx2aju",
+  "cid": "bafyreia257dfchtiezjwoqwhhoy6yqi55klocwil4yqr4vadg3shhvlkky",
   "creator": {
     "did": "did:plc:pswneepkd5lesumj7ejmkbal",
     "handle": "orglabeler.certified.one",
@@ -14,7 +14,7 @@
     "createdAt": "2026-04-20T04:05:09.149Z",
     "indexedAt": "2026-04-21T11:35:11.047Z"
   },
-  "indexedAt": "2026-06-25T22:41:02.961Z",
+  "indexedAt": "2026-10-22T15:44:14.839Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,7 +25,7 @@
         "identifier": "likely-test",
         "locales": [
           {
-            "description": "This certified actor organization appears to contain test or placeholder data.",
+            "description": "Contextual synthetic/test-data signal; not identity or legitimacy verification.",
             "lang": "en",
             "name": "⚠ Likely Test"
           }
@@ -39,7 +39,7 @@
         "identifier": "standard",
         "locales": [
           {
-            "description": "A certified actor organization with no detected test or placeholder signals, but below the high-quality completeness threshold.",
+            "description": "Standard content-quality assessment; not identity or legitimacy verification.",
             "lang": "en",
             "name": "● Standard"
           }
@@ -53,7 +53,7 @@
         "identifier": "high-quality",
         "locales": [
           {
-            "description": "A certified actor organization with complete, well-documented profile details.",
+            "description": "High content-quality assessment; not identity or legitimacy verification.",
             "lang": "en",
             "name": "✦ High Quality"
           }
@@ -68,6 +68,10 @@
     ]
   },
   "subjectTypes": [
-    "account"
+    "record"
+  ],
+  "subjectCollections": [
+    "app.certified.actor.profile",
+    "app.certified.actor.organization"
   ]
 }
