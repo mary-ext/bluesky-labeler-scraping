@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xnk7t5cvnnvzkmbf7wpss527/app.bsky.labeler.service/self",
-  "cid": "bafyreieqnof4yqhjvkrinpkmdbdukgxsqa2ggpn5kmutm5skwge2fytgxu",
+  "cid": "bafyreifmzthuqt7fusky3c3lmt5vsu225mb4ut7khqwhafl7wo3zz2ffje",
   "creator": {
     "did": "did:plc:xnk7t5cvnnvzkmbf7wpss527",
     "handle": "moderation.plyr.fm",
@@ -17,7 +17,7 @@
     "description": "moderation for @plyr.fm\n\nmoderation.plyr.fm",
     "indexedAt": "2025-11-30T21:06:11.825Z"
   },
-  "indexedAt": "2026-07-16T05:37:09.165Z",
+  "indexedAt": "2026-10-23T05:53:33.042Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -34,12 +34,27 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ai",
+        "locales": [
+          {
+            "description": "this account publishes AI-generated audio",
+            "lang": "en",
+            "name": "ai-generated audio"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
       "copyright-violation",
       "sexual",
-      "porn"
+      "porn",
+      "ai"
     ]
   }
 }

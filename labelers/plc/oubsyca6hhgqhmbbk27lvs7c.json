@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreifyqaw47kt5ia3rxx576lcyke7qmjuuwahdll4lr54u4zti45qore",
+  "cid": "bafyreigirvf3rxme5ikrnt3c3trsuu3o5mgooldki6ct4f7tl7jyl4acgu",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,24 +17,10 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\ns.tech.cornell.edu/labeler\nIcon:Flaticon",
     "indexedAt": "2026-04-08T17:02:04.850Z"
   },
-  "indexedAt": "2026-08-07T00:29:41.770Z",
+  "indexedAt": "2026-10-24T03:24:04.439Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "high-metadata-changes-five",
-        "locales": [
-          {
-            "description": "In a 24 hour period, account made at least 5 changes to its profile metadata (picture, bio, banner, etc.)",
-            "lang": "en",
-            "name": "Changed profile 5+ times yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -171,20 +157,6 @@
             "description": "In the last 24 hrs this account made more than 100 original posts or quotes.",
             "lang": "en",
             "name": "Made over 100 posts yesterday"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "made-over-twenty-five-replies-yesterday",
-        "locales": [
-          {
-            "description": "In the last 24 hrs this account made more than 25 replies or quote-replies.",
-            "lang": "en",
-            "name": "Made over 25 replies yesterday"
           }
         ],
         "severity": "inform"
@@ -373,7 +345,6 @@
       }
     ],
     "labelValues": [
-      "high-metadata-changes-five",
       "high-metadata-changes-ten",
       "metadata-monthly-changes-low",
       "metadata-monthly-changes-medium",
@@ -384,7 +355,6 @@
       "posted-same-url-mid",
       "posted-same-url-high",
       "made-over-hundred-posts-yesterday",
-      "made-over-twenty-five-replies-yesterday",
       "made-over-hundred-replies-yesterday",
       "made-over-fifty-posts-yesterday",
       "made-over-fifty-replies-yesterday",
