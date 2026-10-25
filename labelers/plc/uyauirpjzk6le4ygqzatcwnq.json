@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicr5x5ugysbpqiaodkaznudm5fwzfq4jgcqcrx2huuls5dfjbkobi",
+  "cid": "bafyreigpgswx325oquyaphs4slqvyssx64cbbscwujnegjonyi56ei3nru",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-23T23:10:51.144Z",
+  "indexedAt": "2026-10-25T02:56:57.546Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -767,6 +767,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "bot-did-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.did.bot PDS",
+            "lang": "en",
+            "name": "pds.did.bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cafe-pckt-pds",
         "locales": [
           {
@@ -781,12 +795,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-did-pds",
+        "identifier": "social-skyphone-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.did.bot PDS",
+            "description": "Account is hosted by the pds.skyphone.social PDS",
             "lang": "en",
-            "name": "pds.did.bot"
+            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -815,20 +829,6 @@
             "description": "Account is hosted by the bsx.admat.at PDS",
             "lang": "en",
             "name": "bsx.admat.at"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -879,12 +879,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "news-1440-pds",
+        "identifier": "social-bookhive",
         "locales": [
           {
-            "description": "Account is hosted by the pds.1440.news PDS",
+            "description": "Account is hosted by the bookhive.social PDS",
             "lang": "en",
-            "name": "pds.1440.news"
+            "name": "bookhive.social"
           }
         ],
         "severity": "inform"
@@ -893,12 +893,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-bookhive",
+        "identifier": "news-1440-pds",
         "locales": [
           {
-            "description": "Account is hosted by the bookhive.social PDS",
+            "description": "Account is hosted by the pds.1440.news PDS",
             "lang": "en",
-            "name": "bookhive.social"
+            "name": "pds.1440.news"
           }
         ],
         "severity": "inform"
@@ -955,6 +955,20 @@
             "description": "Account is hosted by the fazen.social PDS",
             "lang": "en",
             "name": "fazen.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-scenius-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.scenius.social PDS",
+            "lang": "en",
+            "name": "pds.scenius.social"
           }
         ],
         "severity": "inform"
@@ -1061,20 +1075,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-scenius-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.scenius.social PDS",
-            "lang": "en",
-            "name": "pds.scenius.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds4",
         "locales": [
           {
@@ -1095,6 +1095,20 @@
             "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
             "lang": "en",
             "name": "pds-stage.wsocial.dev"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-oso-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.oso.social PDS",
+            "lang": "en",
+            "name": "pds.oso.social"
           }
         ],
         "severity": "inform"
@@ -1313,20 +1327,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-oso-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.oso.social PDS",
-            "lang": "en",
-            "name": "pds.oso.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "systems-witchcraft-pds",
         "locales": [
           {
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ro-aiia-pds",
+        "identifier": "ca-zedsocial",
         "locales": [
           {
-            "description": "Account is hosted by the pds.aiia.ro PDS",
+            "description": "Account is hosted by the zedsocial.ca PDS",
             "lang": "en",
-            "name": "pds.aiia.ro"
+            "name": "zedsocial.ca"
           }
         ],
         "severity": "inform"
@@ -1504,20 +1504,21 @@
       "to-tor0n",
       "pics-mychat",
       "com-perohub-pds",
-      "cafe-pckt-pds",
       "bot-did-pds",
+      "cafe-pckt-pds",
+      "social-skyphone-pds",
       "at-forum--hietzing",
       "at-admat-bsx",
-      "social-skyphone-pds",
       "dev-alley-chicago--com-pds",
       "space-getair-demo-pds",
       "com-mulgez-api",
-      "news-1440-pds",
       "social-bookhive",
+      "news-1440-pds",
       "space-cannect-pds",
       "social-pwkl-eu1-dev",
       "cafe-margin",
       "social-fazen",
+      "social-scenius-pds",
       "fun-plcs-pds",
       "cc-velvetnova",
       "bot-mirrors",
@@ -1525,9 +1526,9 @@
       "social-pwkl-us1-dev",
       "site-bskytool-pds3",
       "cloud-nihilist",
-      "social-scenius-pds",
       "site-bskytool-pds4",
       "dev-wsocial-pds--stage",
+      "social-oso-pds",
       "cc-mirablossom",
       "space-cannect",
       "cloud-hstgr-srv865737",
@@ -1543,7 +1544,6 @@
       "net-atchan",
       "social-casjay",
       "site-bskytool-pds2",
-      "social-oso-pds",
       "systems-witchcraft-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
@@ -1552,7 +1552,7 @@
       "com-missaamane",
       "social-colibri",
       "app-workolio-pds",
-      "ro-aiia-pds"
+      "ca-zedsocial"
     ]
   }
 }

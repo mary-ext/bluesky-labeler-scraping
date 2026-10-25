@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:oubsyca6hhgqhmbbk27lvs7c/app.bsky.labeler.service/self",
-  "cid": "bafyreigirvf3rxme5ikrnt3c3trsuu3o5mgooldki6ct4f7tl7jyl4acgu",
+  "cid": "bafyreiexkmek3hwzdcmyiseyr2cdrhphre2twtrgcnjhu45uvus5rlqlvu",
   "creator": {
     "did": "did:plc:oubsyca6hhgqhmbbk27lvs7c",
     "handle": "stechlab-labels.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A Cornell Tech research project: labels providing context about accounts you interact with. Public data may be used for research.\n\nIf you subscribe, we’d appreciate a like – it helps support the project.\n\ns.tech.cornell.edu/labeler\nIcon:Flaticon",
     "indexedAt": "2026-04-08T17:02:04.850Z"
   },
-  "indexedAt": "2026-10-24T03:24:04.439Z",
+  "indexedAt": "2026-10-24T03:29:00.746Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -123,10 +123,24 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "posted-same-url-low",
+        "locales": [
+          {
+            "description": "In the last 24 hrs this account posted the same url at least 5 times",
+            "lang": "en",
+            "name": "Posted same url 5+ times yesterday"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "posted-same-url-mid",
         "locales": [
           {
-            "description": "In the last 24 hrs this account posted the same url more than 10 times",
+            "description": "In the last 24 hrs this account posted the same url at least 10 times",
             "lang": "en",
             "name": "Posted same url 10+ times yesterday"
           }
@@ -140,7 +154,7 @@
         "identifier": "posted-same-url-high",
         "locales": [
           {
-            "description": "In the last 24 hrs this account posted the same url more than 15 times",
+            "description": "In the last 24 hrs this account posted the same url at least 15 times",
             "lang": "en",
             "name": "Posted same url 15+ times yesterday"
           }
@@ -352,6 +366,7 @@
       "no-gap-more-than-one-hours",
       "no-gap-more-than-two-hours",
       "no-gap-more-than-four-hours",
+      "posted-same-url-low",
       "posted-same-url-mid",
       "posted-same-url-high",
       "made-over-hundred-posts-yesterday",
