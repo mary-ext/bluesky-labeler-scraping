@@ -1,10 +1,11 @@
 {
   "uri": "at://did:plc:4ffrdzuhiq4coouadh5btkbf/app.bsky.labeler.service/self",
-  "cid": "bafyreihe4bkkpmm6gtwadlwv755e55u6lwc4iwe3552f5az7dsqwd64xte",
+  "cid": "bafyreiap2ev3kqnwrlgojc4f6nfigyssm3laclrwrgsrrvdv6yt35c5bl4",
   "creator": {
     "did": "did:plc:4ffrdzuhiq4coouadh5btkbf",
     "handle": "papercut.rodeo",
     "displayName": "Papercut Rodeo",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4ffrdzuhiq4coouadh5btkbf/bafkreierjnqylssuqr7ox7dazo54okqaxvh7updd27oc6heiqo7tinf7zy",
     "associated": {
       "labeler": true,
       "activitySubscription": {
@@ -13,10 +14,10 @@
     },
     "labels": [],
     "createdAt": "2024-05-18T18:32:25.737Z",
-    "description": "Labeler for behaviors that aren’t malicious, but that some people find mildly irritating.\n\nDisclaimer: This labeler is fully automated, there’s no human passing judgement on you, and only subscribers will see them.",
-    "indexedAt": "2024-05-30T00:44:24.055Z"
+    "description": "Experimental labeler for posts which aren’t malicious, but some people may wish to avoid.\n\nDisclaimer: This labeler is fully automated, there’s no human passing judgement on you, and only subscribers will see them.",
+    "indexedAt": "2026-10-26T00:11:32.246Z"
   },
-  "indexedAt": "2024-05-19T23:24:38.927Z",
+  "indexedAt": "2026-10-26T01:00:44.043Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -66,12 +67,40 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "gif-enthusiast",
+        "identifier": "quote-bait",
         "locales": [
           {
-            "description": "Accounts whose replies frequently include animated GIFs.",
+            "description": "Posts with more quotes than retweets (likely either ragebait or prompts), and posts quoting them.",
             "lang": "en",
-            "name": "GIF Enthusiast"
+            "name": "Quote Bait"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gif-reply-stranger",
+        "locales": [
+          {
+            "description": "GIF-only replies to people who don't follow the replier.",
+            "lang": "en",
+            "name": "GIF Reply to Stranger"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "gif-text-reply-stranger",
+        "locales": [
+          {
+            "description": "GIF replies including text to people who don't follow the replier.",
+            "lang": "en",
+            "name": "GIF + Text Reply to Stranger"
           }
         ],
         "severity": "inform"
@@ -81,7 +110,9 @@
       "gif",
       "gif-only",
       "quote-chain",
-      "gif-enthusiast"
+      "quote-bait",
+      "gif-reply-stranger",
+      "gif-text-reply-stranger"
     ]
   }
 }

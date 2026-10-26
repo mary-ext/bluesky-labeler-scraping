@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreigpgswx325oquyaphs4slqvyssx64cbbscwujnegjonyi56ei3nru",
+  "cid": "bafyreiextdyfjgw356kn53irwagznah33adeznkzhf6cuytcnksvixy2ea",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-25T02:56:57.546Z",
+  "indexedAt": "2026-10-25T17:07:07.141Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -683,12 +683,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-riyo-pds",
+        "identifier": "me-opnmt-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.riyo.net PDS",
+            "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
-            "name": "pds.riyo.net"
+            "name": "pds.opnmt.me"
           }
         ],
         "severity": "inform"
@@ -697,12 +697,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "me-opnmt-pds",
+        "identifier": "net-riyo-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.opnmt.me PDS",
+            "description": "Account is hosted by the pds.riyo.net PDS",
             "lang": "en",
-            "name": "pds.opnmt.me"
+            "name": "pds.riyo.net"
           }
         ],
         "severity": "inform"
@@ -767,6 +767,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-skyphone-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "lang": "en",
+            "name": "pds.skyphone.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "bot-did-pds",
         "locales": [
           {
@@ -787,20 +801,6 @@
             "description": "Account is hosted by the pds.pckt.cafe PDS",
             "lang": "en",
             "name": "pds.pckt.cafe"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -1397,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-missaamane",
+        "identifier": "social-colibri",
         "locales": [
           {
-            "description": "Account is hosted by the missaamane.com PDS",
+            "description": "Account is hosted by the colibri.social PDS",
             "lang": "en",
-            "name": "missaamane.com"
+            "name": "colibri.social"
           }
         ],
         "severity": "inform"
@@ -1411,12 +1411,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-colibri",
+        "identifier": "com-missaamane",
         "locales": [
           {
-            "description": "Account is hosted by the colibri.social PDS",
+            "description": "Account is hosted by the missaamane.com PDS",
             "lang": "en",
-            "name": "colibri.social"
+            "name": "missaamane.com"
           }
         ],
         "severity": "inform"
@@ -1498,15 +1498,15 @@
       "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
-      "net-riyo-pds",
       "me-opnmt-pds",
+      "net-riyo-pds",
       "world-jalsa-u",
       "to-tor0n",
       "pics-mychat",
       "com-perohub-pds",
+      "social-skyphone-pds",
       "bot-did-pds",
       "cafe-pckt-pds",
-      "social-skyphone-pds",
       "at-forum--hietzing",
       "at-admat-bsx",
       "dev-alley-chicago--com-pds",
@@ -1549,8 +1549,8 @@
       "news-usapolitics-matrix",
       "com-clipsymphony-social-pds",
       "com-skeetcentral",
-      "com-missaamane",
       "social-colibri",
+      "com-missaamane",
       "app-workolio-pds",
       "ca-zedsocial"
     ]
