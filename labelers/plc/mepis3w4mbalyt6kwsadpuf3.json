@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:mepis3w4mbalyt6kwsadpuf3/app.bsky.labeler.service/self",
-  "cid": "bafyreih5mhvdotav2qhpd3anliecz3ljenxopbppeqanbfalebmvffqn7y",
+  "cid": "bafyreib7ouabrq2e2hnktmlleecs4spi44mzmzcfjjmlxrykmo2luaahqi",
   "creator": {
     "did": "did:plc:mepis3w4mbalyt6kwsadpuf3",
     "handle": "test-labeler.xlz.ca",
@@ -23,7 +23,7 @@
     "createdAt": "2026-05-19T04:37:52.063Z",
     "indexedAt": "2026-05-19T04:37:52.258Z"
   },
-  "indexedAt": "2026-05-19T15:44:15.772Z",
+  "indexedAt": "2026-10-26T09:10:04.947Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.defs#labelerPolicies",
@@ -339,14 +339,40 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonOther"
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
   ],
   "subjectTypes": [
     "account",
-    "record"
+    "record",
+    "chat"
   ],
   "subjectCollections": [
     "app.bsky.feed.post",
-    "app.bsky.actor.profile"
+    "app.bsky.actor.profile",
+    "app.bsky.feed.generator",
+    "app.bsky.graph.list",
+    "app.bsky.graph.starterpack",
+    "app.bsky.labeler.service",
+    "app.bsky.feed.like",
+    "app.bsky.feed.repost",
+    "app.bsky.graph.follow",
+    "app.bsky.graph.block",
+    "app.bsky.graph.listitem",
+    "app.bsky.graph.listblock",
+    "app.bsky.graph.verification",
+    "app.bsky.feed.threadgate",
+    "app.bsky.feed.postgate",
+    "app.bsky.actor.status",
+    "app.bsky.actor.link",
+    "app.bsky.actor.contentVisibilityDeclaration",
+    "app.bsky.graph.referencelistoptout",
+    "app.bsky.notification.declaration",
+    "chat.bsky.actor.declaration"
   ]
 }

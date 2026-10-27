@@ -1,0 +1,62 @@
+{
+  "uri": "at://did:plc:hqyudxj3prlec2prd6vtpwjv/app.bsky.labeler.service/self",
+  "cid": "bafyreidgxlznvc5m4jlgo5tz6r7i5qsujbclsrke4fk7nb2qg4tqlqxvgm",
+  "creator": {
+    "did": "did:plc:hqyudxj3prlec2prd6vtpwjv",
+    "handle": "labeler.xlz.ca",
+    "displayName": "xlz labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hqyudxj3prlec2prd6vtpwjv/bafkreigm7vznirm5gp6krg5xowfiura33rjrykxl243fplflxikclvzbvy",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:hqyudxj3prlec2prd6vtpwjv",
+        "uri": "at://did:plc:hqyudxj3prlec2prd6vtpwjv/app.bsky.actor.profile/self",
+        "cid": "bafyreidrnjbygy4arz3eimerhujrbflc4m5olm43ylzde2o3ot5v6u5wm4",
+        "val": "bot",
+        "cts": "1970-01-01T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-05-19T04:14:14.757Z",
+    "description": "a labeler. run by @nsnw.ca.",
+    "indexedAt": "2026-10-26T10:04:20.736Z"
+  },
+  "indexedAt": "2026-10-26T09:58:47.943Z",
+  "labels": [],
+  "policies": {
+    "$type": "app.bsky.labeler.defs#labelerPolicies",
+    "labelValueDefinitions": [
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "calgary",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Calgary, Alberta-related people",
+            "lang": "en",
+            "name": "Calgary, AB"
+          }
+        ],
+        "severity": "none"
+      }
+    ],
+    "labelValues": [
+      "calgary"
+    ]
+  },
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.actor.profile",
+    "app.bsky.feed.post"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreiextdyfjgw356kn53irwagznah33adeznkzhf6cuytcnksvixy2ea",
+  "cid": "bafyreigdzleqvffvrfz7kowwv7tepti6if2obe5asb2jhpsj5fgmsauqqy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-25T17:07:07.141Z",
+  "indexedAt": "2026-10-26T17:17:15.539Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -725,6 +725,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "bot-did-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.did.bot PDS",
+            "lang": "en",
+            "name": "pds.did.bot"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "to-tor0n",
         "locales": [
           {
@@ -773,20 +787,6 @@
             "description": "Account is hosted by the pds.skyphone.social PDS",
             "lang": "en",
             "name": "pds.skyphone.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "bot-did-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.did.bot PDS",
-            "lang": "en",
-            "name": "pds.did.bot"
           }
         ],
         "severity": "inform"
@@ -1089,12 +1089,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--stage",
+        "identifier": "social-oso-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
+            "description": "Account is hosted by the pds.oso.social PDS",
             "lang": "en",
-            "name": "pds-stage.wsocial.dev"
+            "name": "pds.oso.social"
           }
         ],
         "severity": "inform"
@@ -1103,12 +1103,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-oso-pds",
+        "identifier": "dev-wsocial-pds--stage",
         "locales": [
           {
-            "description": "Account is hosted by the pds.oso.social PDS",
+            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
             "lang": "en",
-            "name": "pds.oso.social"
+            "name": "pds-stage.wsocial.dev"
           }
         ],
         "severity": "inform"
@@ -1145,6 +1145,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "ai-swarmchat-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "lang": "en",
+            "name": "pds.swarmchat.ai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cloud-hstgr-srv865737",
         "locales": [
           {
@@ -1173,20 +1187,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
-            "lang": "en",
-            "name": "pds.swarmchat.ai"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "net-chatapt",
         "locales": [
           {
@@ -1201,12 +1201,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cc-honeyvale",
+        "identifier": "ai-afrilingua-gist",
         "locales": [
           {
-            "description": "Account is hosted by the honeyvale.cc PDS",
+            "description": "Account is hosted by the gist.afrilingua.ai PDS",
             "lang": "en",
-            "name": "honeyvale.cc"
+            "name": "gist.afrilingua.ai"
           }
         ],
         "severity": "inform"
@@ -1215,12 +1215,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-afrilingua-gist",
+        "identifier": "cc-honeyvale",
         "locales": [
           {
-            "description": "Account is hosted by the gist.afrilingua.ai PDS",
+            "description": "Account is hosted by the honeyvale.cc PDS",
             "lang": "en",
-            "name": "gist.afrilingua.ai"
+            "name": "honeyvale.cc"
           }
         ],
         "severity": "inform"
@@ -1271,20 +1271,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "surf-self",
-        "locales": [
-          {
-            "description": "Account is hosted by the self.surf PDS",
-            "lang": "en",
-            "name": "self.surf"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "net-atchan",
         "locales": [
           {
@@ -1313,12 +1299,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-clipsymphony-social-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
+            "lang": "en",
+            "name": "pds.social.clipsymphony.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds2",
         "locales": [
           {
             "description": "Account is hosted by the pds2.bskytool.site PDS",
             "lang": "en",
             "name": "pds2.bskytool.site"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "surf-self",
+        "locales": [
+          {
+            "description": "Account is hosted by the self.surf PDS",
+            "lang": "en",
+            "name": "self.surf"
           }
         ],
         "severity": "inform"
@@ -1369,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-clipsymphony-social-pds",
+        "identifier": "app-workolio-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
+            "description": "Account is hosted by the pds.workolio.app PDS",
             "lang": "en",
-            "name": "pds.social.clipsymphony.com"
+            "name": "pds.workolio.app"
           }
         ],
         "severity": "inform"
@@ -1389,6 +1403,20 @@
             "description": "Account is hosted by the skeetcentral.com PDS",
             "lang": "en",
             "name": "skeetcentral.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ca-zedsocial",
+        "locales": [
+          {
+            "description": "Account is hosted by the zedsocial.ca PDS",
+            "lang": "en",
+            "name": "zedsocial.ca"
           }
         ],
         "severity": "inform"
@@ -1417,34 +1445,6 @@
             "description": "Account is hosted by the missaamane.com PDS",
             "lang": "en",
             "name": "missaamane.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "app-workolio-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.workolio.app PDS",
-            "lang": "en",
-            "name": "pds.workolio.app"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "ca-zedsocial",
-        "locales": [
-          {
-            "description": "Account is hosted by the zedsocial.ca PDS",
-            "lang": "en",
-            "name": "zedsocial.ca"
           }
         ],
         "severity": "inform"
@@ -1501,11 +1501,11 @@
       "me-opnmt-pds",
       "net-riyo-pds",
       "world-jalsa-u",
+      "bot-did-pds",
       "to-tor0n",
       "pics-mychat",
       "com-perohub-pds",
       "social-skyphone-pds",
-      "bot-did-pds",
       "cafe-pckt-pds",
       "at-forum--hietzing",
       "at-admat-bsx",
@@ -1527,32 +1527,32 @@
       "site-bskytool-pds3",
       "cloud-nihilist",
       "site-bskytool-pds4",
-      "dev-wsocial-pds--stage",
       "social-oso-pds",
+      "dev-wsocial-pds--stage",
       "cc-mirablossom",
       "space-cannect",
+      "ai-swarmchat-pds",
       "cloud-hstgr-srv865737",
       "fail-marta",
-      "ai-swarmchat-pds",
       "net-chatapt",
-      "cc-honeyvale",
       "ai-afrilingua-gist",
+      "cc-honeyvale",
       "social-stroam",
       "network-wisy-pds",
       "io-sslip-181-5-9-5",
-      "surf-self",
       "net-atchan",
       "social-casjay",
+      "com-clipsymphony-social-pds",
       "site-bskytool-pds2",
+      "surf-self",
       "systems-witchcraft-pds",
       "com-zimchu-epds",
       "news-usapolitics-matrix",
-      "com-clipsymphony-social-pds",
-      "com-skeetcentral",
-      "social-colibri",
-      "com-missaamane",
       "app-workolio-pds",
-      "ca-zedsocial"
+      "com-skeetcentral",
+      "ca-zedsocial",
+      "social-colibri",
+      "com-missaamane"
     ]
   }
 }
