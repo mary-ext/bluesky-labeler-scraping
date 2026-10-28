@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:hqyudxj3prlec2prd6vtpwjv/app.bsky.labeler.service/self",
-  "cid": "bafyreidgxlznvc5m4jlgo5tz6r7i5qsujbclsrke4fk7nb2qg4tqlqxvgm",
+  "cid": "bafyreihzyfsw4wrukplo7s3tocueguqosickytl36aqzzrppkyemsknvgu",
   "creator": {
     "did": "did:plc:hqyudxj3prlec2prd6vtpwjv",
     "handle": "labeler.xlz.ca",
@@ -21,11 +21,11 @@
         "cts": "1970-01-01T00:00:00.000Z"
       }
     ],
-    "createdAt": "2026-05-19T04:14:14.757Z",
+    "createdAt": "2026-05-19T04:14:14.670Z",
     "description": "a labeler. run by @nsnw.ca.",
-    "indexedAt": "2026-10-26T10:04:20.736Z"
+    "indexedAt": "2026-10-26T10:04:20.671Z"
   },
-  "indexedAt": "2026-10-26T09:58:47.943Z",
+  "indexedAt": "2026-10-27T21:10:07.669Z",
   "labels": [],
   "policies": {
     "$type": "app.bsky.labeler.defs#labelerPolicies",
@@ -45,10 +45,27 @@
           }
         ],
         "severity": "none"
+      },
+      {
+        "$type": "com.atproto.label.defs#labelValueDefinition",
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dem-tea-party",
+        "locales": [
+          {
+            "$type": "com.atproto.label.defs#labelValueDefinitionStrings",
+            "description": "Account takes part in the 'dem tea party' like farm: automated mass-liking of posts that match search keywords",
+            "lang": "en",
+            "name": "Dem Tea Party"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
-      "calgary"
+      "calgary",
+      "dem-tea-party"
     ]
   },
   "subjectTypes": [

@@ -1,0 +1,127 @@
+{
+  "uri": "at://did:plc:r2eny46gosrxmgoop66aaljo/app.bsky.labeler.service/self",
+  "cid": "bafyreiat64cpzyi2wgfpb5qb2qbtkrg335xeveuthdc3dcloaiq35rifvm",
+  "creator": {
+    "did": "did:plc:r2eny46gosrxmgoop66aaljo",
+    "handle": "damga.pds.152-53-100-18.sslip.io",
+    "displayName": "Damga (sistem)",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-27T21:54:04.985Z",
+    "description": "Damga ağının sistem hesabı: özgün damgaları ve akışları yayınlar.",
+    "indexedAt": "2026-10-27T21:54:04.985Z"
+  },
+  "indexedAt": "2026-10-27T21:54:04.985Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun",
+        "locales": [
+          {
+            "description": "Özgün damgası: kontrolden geçti, ilk kaynak bu gönderi.",
+            "lang": "tr",
+            "name": "🔏 Özgün"
+          },
+          {
+            "description": "Original stamp: passed the check; this post is the first source.",
+            "lang": "en",
+            "name": "🔏 Original"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-red",
+        "locales": [
+          {
+            "description": "Bu gönderi özgün olarak işaretlendi ama damgalı bir içeriğe çok benziyor.",
+            "lang": "tr",
+            "name": "Özgün iddiası reddedildi"
+          },
+          {
+            "description": "Marked as original but closely matches a stamped post.",
+            "lang": "en",
+            "name": "Originality claim rejected"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kaynak-eksik",
+        "locales": [
+          {
+            "description": "Türev olarak paylaşıldı ama kaynak (alıntı ya da link) eklenmemiş.",
+            "lang": "tr",
+            "name": "Kaynak eksik"
+          },
+          {
+            "description": "Shared as derivative without a source (quote or link).",
+            "lang": "en",
+            "name": "Source missing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kaynaksiz-kopya",
+        "locales": [
+          {
+            "description": "Damgalı bir içeriğin kaynak gösterilmeden paylaşılmış kopyası.",
+            "lang": "tr",
+            "name": "Kaynaksız kopya"
+          },
+          {
+            "description": "Copy of a stamped post shared without credit.",
+            "lang": "en",
+            "name": "Uncredited copy"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-cezali",
+        "locales": [
+          {
+            "description": "Bu hesap kısa sürede çok sayıda yanlış özgünlük iddiasında bulundu; bir süre özgün damga alamaz.",
+            "lang": "tr",
+            "name": "Özgün paylaşım cezası"
+          },
+          {
+            "description": "This account made too many false originality claims and cannot receive stamps for a while.",
+            "lang": "en",
+            "name": "Originality penalty"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "ozgun",
+      "ozgun-red",
+      "kaynak-eksik",
+      "kaynaksiz-kopya",
+      "ozgun-cezali"
+    ]
+  }
+}
