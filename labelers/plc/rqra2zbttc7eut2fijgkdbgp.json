@@ -1,0 +1,78 @@
+{
+  "uri": "at://did:plc:rqra2zbttc7eut2fijgkdbgp/app.bsky.labeler.service/self",
+  "cid": "bafyreigj7uonw6hlkvvcpks74hvwmtfewv6pnzo3s2rzsjlb3dlbai55ae",
+  "creator": {
+    "did": "did:plc:rqra2zbttc7eut2fijgkdbgp",
+    "handle": "flixabot.flixa.stream",
+    "displayName": "Flixa Moderation & Verification",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-25T02:05:26.850Z",
+    "description": "Official labeler and verification service for Flixa.",
+    "indexedAt": "2026-10-25T02:05:26.850Z"
+  },
+  "indexedAt": "2026-10-29T19:40:59.485Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "flixa-verified",
+        "locales": [
+          {
+            "description": "Official account verified by FLIXA.",
+            "lang": "en",
+            "name": "Flixa Verified"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "flame-war",
+        "locales": [
+          {
+            "description": "Discussions that be be too heated.",
+            "lang": "en",
+            "name": "Flame War"
+          }
+        ],
+        "severity": "none"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "spoiler",
+        "locales": [
+          {
+            "description": "Posts that may give away the plot of a show.",
+            "lang": "en",
+            "name": "Spoiler Alert"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "!hide",
+      "!warn",
+      "porn",
+      "sexual",
+      "nudity",
+      "graphic-media",
+      "flixa-verified",
+      "flame-war",
+      "spoiler"
+    ]
+  }
+}
