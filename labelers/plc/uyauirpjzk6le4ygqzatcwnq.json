@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreicnh3yjlzifvufucv25ndv2m7pdksunhe22hapnngdmybjwtepes4",
+  "cid": "bafyreibcrzuxadddv7bgxg27icw3y7acj7elym3tyr2wtdubnwhxweeobq",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-29T22:53:46.383Z",
+  "indexedAt": "2026-10-30T21:56:37.385Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -627,12 +627,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "homes-si46",
+        "identifier": "social-npmx",
         "locales": [
           {
-            "description": "Account is hosted by the si46.homes PDS",
+            "description": "Account is hosted by the npmx.social PDS",
             "lang": "en",
-            "name": "si46.homes"
+            "name": "npmx.social"
           }
         ],
         "severity": "inform"
@@ -641,12 +641,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-npmx",
+        "identifier": "homes-si46",
         "locales": [
           {
-            "description": "Account is hosted by the npmx.social PDS",
+            "description": "Account is hosted by the si46.homes PDS",
             "lang": "en",
-            "name": "npmx.social"
+            "name": "si46.homes"
           }
         ],
         "severity": "inform"
@@ -753,12 +753,40 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "network-objkt-pds-01",
+        "locales": [
+          {
+            "description": "Account is hosted by the 01.pds.objkt.network PDS",
+            "lang": "en",
+            "name": "01.pds.objkt.network"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "to-tor0n",
         "locales": [
           {
             "description": "Account is hosted by the tor0n.to PDS",
             "lang": "en",
             "name": "tor0n.to"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-oso-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.oso.social PDS",
+            "lang": "en",
+            "name": "pds.oso.social"
           }
         ],
         "severity": "inform"
@@ -809,20 +837,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-oso-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.oso.social PDS",
-            "lang": "en",
-            "name": "pds.oso.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cafe-pckt-pds",
         "locales": [
           {
@@ -843,20 +857,6 @@
             "description": "Account is hosted by the forum-hietzing.at PDS",
             "lang": "en",
             "name": "forum-hietzing.at"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-objkt-pds-01",
-        "locales": [
-          {
-            "description": "Account is hosted by the 01.pds.objkt.network PDS",
-            "lang": "en",
-            "name": "01.pds.objkt.network"
           }
         ],
         "severity": "inform"
@@ -1313,6 +1313,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "dev-jcollie-knot",
+        "locales": [
+          {
+            "description": "Account is hosted by the knot.jcollie.dev PDS",
+            "lang": "en",
+            "name": "knot.jcollie.dev"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "surf-self",
         "locales": [
           {
@@ -1369,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ca-zedsocial",
+        "identifier": "app-workolio-pds",
         "locales": [
           {
-            "description": "Account is hosted by the zedsocial.ca PDS",
+            "description": "Account is hosted by the pds.workolio.app PDS",
             "lang": "en",
-            "name": "zedsocial.ca"
+            "name": "pds.workolio.app"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "app-workolio-pds",
+        "identifier": "ca-zedsocial",
         "locales": [
           {
-            "description": "Account is hosted by the pds.workolio.app PDS",
+            "description": "Account is hosted by the zedsocial.ca PDS",
             "lang": "en",
-            "name": "pds.workolio.app"
+            "name": "zedsocial.ca"
           }
         ],
         "severity": "inform"
@@ -1431,20 +1445,6 @@
             "description": "Account is hosted by the pds.witchcraft.systems PDS",
             "lang": "en",
             "name": "pds.witchcraft.systems"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-zimchu-epds",
-        "locales": [
-          {
-            "description": "Account is hosted by the epds.zimchu.com PDS",
-            "lang": "en",
-            "name": "epds.zimchu.com"
           }
         ],
         "severity": "inform"
@@ -1494,8 +1494,8 @@
       "com-dadavidtseng-pds",
       "com-nrbrtspvk-bsky",
       "network-nobody-node",
-      "homes-si46",
       "social-npmx",
+      "homes-si46",
       "ai-oathling-pds",
       "network-eny-pds-oyster",
       "me-opnmt-pds",
@@ -1503,14 +1503,14 @@
       "social-novum",
       "net-riyo-pds",
       "world-jalsa-u",
+      "network-objkt-pds-01",
       "to-tor0n",
+      "social-oso-pds",
       "pics-mychat",
       "com-perohub-pds",
       "social-skyphone-pds",
-      "social-oso-pds",
       "cafe-pckt-pds",
       "at-forum--hietzing",
-      "network-objkt-pds-01",
       "at-admat-bsx",
       "dev-alley-chicago--com-pds",
       "space-getair-demo-pds",
@@ -1543,16 +1543,16 @@
       "social-stroam",
       "network-wisy-pds",
       "io-sslip-181-5-9-5",
+      "dev-jcollie-knot",
       "surf-self",
       "net-atchan",
       "com-clipsymphony-social-pds",
       "social-casjay",
-      "ca-zedsocial",
       "app-workolio-pds",
+      "ca-zedsocial",
       "site-bskytool-pds2",
       "social-colibri",
-      "systems-witchcraft-pds",
-      "com-zimchu-epds"
+      "systems-witchcraft-pds"
     ]
   }
 }

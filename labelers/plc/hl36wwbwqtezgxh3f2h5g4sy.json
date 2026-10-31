@@ -1,0 +1,180 @@
+{
+  "uri": "at://did:plc:hl36wwbwqtezgxh3f2h5g4sy/app.bsky.labeler.service/self",
+  "cid": "bafyreibsjtzae7jeuukl7h5xfo3ceznzdksvo43lob6aaftz3f2r3vq6py",
+  "creator": {
+    "did": "did:plc:hl36wwbwqtezgxh3f2h5g4sy",
+    "handle": "moderasyon.origmark.com",
+    "displayName": "Origmark Moderasyon",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-30T17:44:38.491Z",
+    "description": "Origmark etiketleri: özgün damga, kopya ve ceza işaretleri. / Origmark labels: original stamps, copies and penalties.",
+    "indexedAt": "2026-10-30T17:44:38.491Z"
+  },
+  "indexedAt": "2026-10-30T17:48:55.382Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun",
+        "locales": [
+          {
+            "description": "Özgün damgası: kontrolden geçti, ilk kaynak bu gönderi.",
+            "lang": "tr",
+            "name": "🔏 Özgün"
+          },
+          {
+            "description": "Original stamp: passed the check; this post is the first source.",
+            "lang": "en",
+            "name": "🔏 Original"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-red",
+        "locales": [
+          {
+            "description": "Bu gönderi özgün olarak işaretlendi ama damgalı bir içeriğe çok benziyor.",
+            "lang": "tr",
+            "name": "Özgün iddiası reddedildi"
+          },
+          {
+            "description": "Marked as original but closely matches a stamped post.",
+            "lang": "en",
+            "name": "Originality claim rejected"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kaynak-eksik",
+        "locales": [
+          {
+            "description": "Türev olarak paylaşıldı ama kaynak (alıntı ya da link) eklenmemiş.",
+            "lang": "tr",
+            "name": "Kaynak eksik"
+          },
+          {
+            "description": "Shared as derivative without a source (quote or link).",
+            "lang": "en",
+            "name": "Source missing"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "kaynaksiz-kopya",
+        "locales": [
+          {
+            "description": "Damgalı bir içeriğin kaynak gösterilmeden paylaşılmış kopyası.",
+            "lang": "tr",
+            "name": "Kaynaksız kopya"
+          },
+          {
+            "description": "Copy of a stamped post shared without credit.",
+            "lang": "en",
+            "name": "Uncredited copy"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-cezali",
+        "locales": [
+          {
+            "description": "Bu hesap kısa sürede çok sayıda yanlış özgünlük iddiasında bulundu; bir süre özgün damga alamaz.",
+            "lang": "tr",
+            "name": "Özgün paylaşım cezası"
+          },
+          {
+            "description": "This account made too many false originality claims and cannot receive stamps for a while.",
+            "lang": "en",
+            "name": "Originality penalty"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-uyari",
+        "locales": [
+          {
+            "description": "Bu hesap yakın zamanda birkaç yanlış özgünlük iddiasında bulundu. Tekrarı yasakla sonuçlanır.",
+            "lang": "tr",
+            "name": "Özgünlük uyarısı"
+          },
+          {
+            "description": "This account recently made several false originality claims. Repeating leads to a ban.",
+            "lang": "en",
+            "name": "Originality warning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-iptal",
+        "locales": [
+          {
+            "description": "İnceleme sonucunda bu içeriğin daha eski bir kaynağı olduğu anlaşıldı; damga geri alındı.",
+            "lang": "tr",
+            "name": "Özgün damgası iptal edildi"
+          },
+          {
+            "description": "After review, an earlier source was found for this content; the stamp was revoked.",
+            "lang": "en",
+            "name": "Original stamp revoked"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "ozgun",
+      "ozgun-red",
+      "kaynak-eksik",
+      "kaynaksiz-kopya",
+      "ozgun-cezali",
+      "ozgun-uyari",
+      "ozgun-iptal"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ]
+}

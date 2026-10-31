@@ -1,0 +1,53 @@
+{
+  "uri": "at://did:plc:liuuwugrsmbf3kqv4prqwpaf/app.bsky.labeler.service/self",
+  "cid": "bafyreifidezhepj6syzyu2issu7naeooonwdhv6p5zyebqpsw64xiseqou",
+  "creator": {
+    "did": "did:plc:liuuwugrsmbf3kqv4prqwpaf",
+    "handle": "beanslabeltest.bsky.social",
+    "displayName": "The Beans Labeler (Test)",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:liuuwugrsmbf3kqv4prqwpaf/bafkreiabyj3hdequw3qkaqvnjmy7ds7jus5s445lfgswvp7k3to6bm33eq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-28T21:32:21.674Z",
+    "description": "Testing by @blowdart.me",
+    "indexedAt": "2026-10-30T15:23:03.778Z"
+  },
+  "indexedAt": "2026-10-30T15:10:04.037Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "beansonista",
+        "locales": [
+          {
+            "description": "A test label for this labeler setup; not a moderation judgement.",
+            "lang": "en",
+            "name": "Beansonista test"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "beansonista"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "app.bsky.feed.post"
+  ]
+}

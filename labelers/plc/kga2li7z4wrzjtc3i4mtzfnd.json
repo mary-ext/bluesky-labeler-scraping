@@ -1,0 +1,50 @@
+{
+  "uri": "at://did:plc:kga2li7z4wrzjtc3i4mtzfnd/app.bsky.labeler.service/self",
+  "cid": "bafyreibtesax6p36m2cukry4h3gvfhtbqows7af37fzzvlcrkvc2effaym",
+  "creator": {
+    "did": "did:plc:kga2li7z4wrzjtc3i4mtzfnd",
+    "handle": "labeler.svpn.com",
+    "displayName": "Blue Watch Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kga2li7z4wrzjtc3i4mtzfnd/bafkreierzkmhkoej73esh6pj6miq5oxveuy3efrwj4z5nxtx2s26thuoom",
+    "associated": {
+      "labeler": true,
+      "chat": {
+        "allowIncoming": "following"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-30T01:13:37.481Z",
+    "description": "Blue Watch monitors all verified Bluesky account posts in real-time, we label all https://blue.svpn.com/constructive accounts.\n\nLabeler operated by @svpn.com",
+    "indexedAt": "2026-10-30T07:50:19.673Z"
+  },
+  "indexedAt": "2026-10-30T07:31:11.273Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "constructive",
+        "locales": [
+          {
+            "description": "Full details at https://blue.svpn.com — This is a positive signal based on analysis of a minimum of 10 original posts. Not a finding, or endorsement, about a person or organization.",
+            "lang": "en",
+            "name": "Constructive Account"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "constructive"
+    ]
+  },
+  "reasonTypes": [],
+  "subjectTypes": [
+    "account"
+  ]
+}

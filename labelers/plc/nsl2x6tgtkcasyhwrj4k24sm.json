@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:nsl2x6tgtkcasyhwrj4k24sm/app.bsky.labeler.service/self",
-  "cid": "bafyreiafqv5qoo36lo2kjpjmrs6gjmjmb7p5arb2xp5ghk2uhwpbifidfe",
+  "cid": "bafyreihwsugrfl5kswzuffbmn6shsmzkwsargt36347njclq3s6nq6yt7u",
   "creator": {
     "did": "did:plc:nsl2x6tgtkcasyhwrj4k24sm",
     "handle": "labeler.tenna.party",
@@ -17,7 +17,7 @@
     "description": "A complementary labeler for a third-party client.\nRan by @kris.darkworld.download",
     "indexedAt": "2026-09-29T11:32:44.059Z"
   },
-  "indexedAt": "2026-10-21T20:02:54.746Z",
+  "indexedAt": "2026-10-30T08:40:30.676Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -25,17 +25,17 @@
         "adultOnly": false,
         "blurs": "content",
         "defaultSetting": "warn",
-        "identifier": "privatevessel-violative-post",
+        "identifier": "privatevessel-maybe-violative-post",
         "locales": [
           {
             "description": "This private post may violate the Bluesky or tenna.party community guidelines. Such content may be taken down from our AppView. Learn more about private posting at https://private-post.tenna.party/",
             "lang": "en",
-            "name": "Violative Private Post"
+            "name": "Maybe a Violative Private Post"
           },
           {
-            "description": "Šis privātāis ieraksts var pārkāpt Bluesky vai tenna.party kopienas vadlīnijas. Šādu saturu mēs varam bloķēt no mūsu AppView. Uzzini vairāk par privātajiem ierakstiem https://private-post.tenna.party/",
+            "description": "Šis privātāis ieraksts var pārkāpt Bluesky vai tenna.party kopienas vadlīnijas. Šādu saturu var bloķēt no privāto ierakstu AppView. Uzzini vairāk par privātajiem ierakstiem https://private-post.tenna.party/",
             "lang": "lv",
-            "name": "Noteikumu pārkapjošs privātais ieraksts"
+            "name": "Varbūt Noteikumu pārkapjošs privātais ieraksts"
           }
         ],
         "severity": "inform"
@@ -113,8 +113,10 @@
       }
     ],
     "labelValues": [
+      "privatevessel-maybe-violative-post",
       "privatevessel-violative-post",
       "privatevessel-banned",
+      "tennalings-no-unauthenticated",
       "calls-them-jaronas",
       "ignore-labels-spam",
       "boop",

@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:rn6spz2zedgovfgjxczjor4i/app.bsky.labeler.service/self",
-  "cid": "bafyreids4wqfubewhgtg23umsav62w62n2lyy2ny5fkeqd3xan57v3miku",
+  "cid": "bafyreifa4tqm3ppst345femwcee7zct6psuplqujxog5ediivadx4qcciu",
   "creator": {
     "did": "did:plc:rn6spz2zedgovfgjxczjor4i",
     "handle": "ozone.astronomi.ca",
@@ -17,10 +17,66 @@
     "description": "Labels based on cosmeffect.com/aspects\nAccount hosted on astronomi.ca PDS\nReplacement of @proto.cosm.blue",
     "indexedAt": "2026-10-26T04:56:17.837Z"
   },
-  "indexedAt": "2026-10-24T21:50:00.237Z",
+  "indexedAt": "2026-10-31T01:51:35.875Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "modeactive",
+        "locales": [
+          {
+            "description": "An active mode is one that can be seen as an antecedent causal factor of any other responsive mode, akin to a material cause. Leading up to or transmuting into a mode of either passivity or receptivity after its initial causal activity, an active mode moves towards something downstream of itself. This initial activity could be said to be the active force behind anything subsequent of it. Not necessarily the first cause in anything, an active mode is a mode of functioning that drives most action behind any and all causes.",
+            "lang": "en",
+            "name": "Active"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "modepassive",
+        "locales": [
+          {
+            "description": "A passive mode may exhibit and be considered as an intermediary step between initial causes and the effects afterward, akin to a formal cause. As an in-between state from cause to effect, along with the receptive mode, these two modes follow from an active input being processed before there is a decision, or a reactive output, is made. The passive differs from the receptive in that the passive mode is more of a direct and opposite response of an action and isn’t necessarily passive but will likely yield to any active occurrences. A passive mode takes the path of least resistance and is directed more toward efficiency rather than efficacy.",
+            "lang": "en",
+            "name": "Passive"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "modereceptive",
+        "locales": [
+          {
+            "description": "A receptive mode may exhibit qualities like that of a vessel or a gathering of information before a reaction occurs, akin to an efficient cause. Similar to the passive mode, it is also an intermediary step between any apparent causes and reactive effects, except here, receptivity takes in what occurs from activity and makes a decision towards a subsequent reaction. The receptive, more directed towards efficacy over efficiency, lays itself out as a counterpoint to the passive mode. Both the receptive and passive are neither direct causes nor effects but can guide causes toward specific desired effects.",
+            "lang": "en",
+            "name": "Receptive"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "modereactive",
+        "locales": [
+          {
+            "description": "The reactive mode is the effect that any active mode attempts to achieve, akin to a final cause. The active and reactive are in opposition, not from being either a cause or an effect, but the reactive opposes the active in the sense that they are coinciding opposites of action and may be considered complementary of one another. Any reaction that occurs is the result of sequential processes from the active to the passive or receptive and then to a reactive mode. This whole process is never fully complete though, as when a process of action to reaction occur in any single moment, they lead directly into another process of action to reaction.",
+            "lang": "en",
+            "name": "Reactive"
+          }
+        ],
+        "severity": "inform"
+      },
       {
         "adultOnly": false,
         "blurs": "none",
@@ -132,65 +188,13 @@
           }
         ],
         "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "modeactive",
-        "locales": [
-          {
-            "description": "An active mode is one that can be seen as an antecedent causal factor of any other responsive mode, akin to a material cause. Leading up to or transmuting into a mode of either passivity or receptivity after its initial causal activity, an active mode moves towards something downstream of itself. This initial activity could be said to be the active force behind anything subsequent of it. Not necessarily the first cause in anything, an active mode is a mode of functioning that drives most action behind any and all causes.",
-            "lang": "en",
-            "name": "Active"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "modepassive",
-        "locales": [
-          {
-            "description": "A passive mode may exhibit and be considered as an intermediary step between initial causes and the effects afterward, akin to a formal cause. As an in-between state from cause to effect, along with the receptive mode, these two modes follow from an active input being processed before there is a decision, or a reactive output, is made. The passive differs from the receptive in that the passive mode is more of a direct and opposite response of an action and isn’t necessarily passive but will likely yield to any active occurrences. A passive mode takes the path of least resistance and is directed more toward efficiency rather than efficacy.",
-            "lang": "en",
-            "name": "Passive"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "modereceptive",
-        "locales": [
-          {
-            "description": "A receptive mode may exhibit qualities like that of a vessel or a gathering of information before a reaction occurs, akin to an efficient cause. Similar to the passive mode, it is also an intermediary step between any apparent causes and reactive effects, except here, receptivity takes in what occurs from activity and makes a decision towards a subsequent reaction. The receptive, more directed towards efficacy over efficiency, lays itself out as a counterpoint to the passive mode. Both the receptive and passive are neither direct causes nor effects but can guide causes toward specific desired effects.",
-            "lang": "en",
-            "name": "Receptive"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "modereactive",
-        "locales": [
-          {
-            "description": "The reactive mode is the effect that any active mode attempts to achieve, akin to a final cause. The active and reactive are in opposition, not from being either a cause or an effect, but the reactive opposes the active in the sense that they are coinciding opposites of action and may be considered complementary of one another. Any reaction that occurs is the result of sequential processes from the active to the passive or receptive and then to a reactive mode. This whole process is never fully complete though, as when a process of action to reaction occur in any single moment, they lead directly into another process of action to reaction.",
-            "lang": "en",
-            "name": "Reactive"
-          }
-        ],
-        "severity": "inform"
       }
     ],
     "labelValues": [
+      "modeactive",
+      "modepassive",
+      "modereceptive",
+      "modereactive",
       "quiddityfluid",
       "quiddityvivid",
       "quidditylucid",
@@ -198,15 +202,12 @@
       "vitalityactuality",
       "vitalityability",
       "vitalitycapacity",
-      "vitalityvirtuality",
-      "modeactive",
-      "modepassive",
-      "modereceptive",
-      "modereactive"
+      "vitalityvirtuality"
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonAppeal"
+    "com.atproto.moderation.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonOther"
   ],
   "subjectTypes": [
     "account",

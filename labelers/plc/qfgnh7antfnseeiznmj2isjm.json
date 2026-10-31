@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:qfgnh7antfnseeiznmj2isjm/app.bsky.labeler.service/self",
-  "cid": "bafyreiaalpyhm27uvelwfjup4haiuhwlgq32on27ni7liz4jurfqytsvky",
+  "cid": "bafyreictx4wu7fiililfhhbev3duikkr6fbg3f6lbdegi5s66etyuwrhmq",
   "creator": {
     "did": "did:plc:qfgnh7antfnseeiznmj2isjm",
     "handle": "origmark.com",
@@ -16,7 +16,7 @@
     "description": "Origmark resmi hesabı: özgün damgaları ve akışları yayınlar. / Official Origmark account.",
     "indexedAt": "2026-10-29T23:48:16.190Z"
   },
-  "indexedAt": "2026-10-29T23:48:16.190Z",
+  "indexedAt": "2026-10-30T16:55:52.287Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -114,6 +114,44 @@
           }
         ],
         "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-uyari",
+        "locales": [
+          {
+            "description": "Bu hesap yakın zamanda birkaç yanlış özgünlük iddiasında bulundu. Tekrarı yasakla sonuçlanır.",
+            "lang": "tr",
+            "name": "Özgünlük uyarısı"
+          },
+          {
+            "description": "This account recently made several false originality claims. Repeating leads to a ban.",
+            "lang": "en",
+            "name": "Originality warning"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "ozgun-iptal",
+        "locales": [
+          {
+            "description": "İnceleme sonucunda bu içeriğin daha eski bir kaynağı olduğu anlaşıldı; damga geri alındı.",
+            "lang": "tr",
+            "name": "Özgün damgası iptal edildi"
+          },
+          {
+            "description": "After review, an earlier source was found for this content; the stamp was revoked.",
+            "lang": "en",
+            "name": "Original stamp revoked"
+          }
+        ],
+        "severity": "alert"
       }
     ],
     "labelValues": [
@@ -121,7 +159,9 @@
       "ozgun-red",
       "kaynak-eksik",
       "kaynaksiz-kopya",
-      "ozgun-cezali"
+      "ozgun-cezali",
+      "ozgun-uyari",
+      "ozgun-iptal"
     ]
   }
 }
