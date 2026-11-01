@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibcrzuxadddv7bgxg27icw3y7acj7elym3tyr2wtdubnwhxweeobq",
+  "cid": "bafyreicrujuedmjqjtzjj3wssvf6e7a3gzvmqlxzp6xhbvaupclns3p3ta",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-10-30T21:56:37.385Z",
+  "indexedAt": "2026-10-31T18:45:20.486Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -613,12 +613,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-nobody-node",
+        "identifier": "social-npmx",
         "locales": [
           {
-            "description": "Account is hosted by the node.nobody.network PDS",
+            "description": "Account is hosted by the npmx.social PDS",
             "lang": "en",
-            "name": "node.nobody.network"
+            "name": "npmx.social"
           }
         ],
         "severity": "inform"
@@ -627,12 +627,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-npmx",
+        "identifier": "network-nobody-node",
         "locales": [
           {
-            "description": "Account is hosted by the npmx.social PDS",
+            "description": "Account is hosted by the node.nobody.network PDS",
             "lang": "en",
-            "name": "npmx.social"
+            "name": "node.nobody.network"
           }
         ],
         "severity": "inform"
@@ -669,12 +669,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-eny-pds-oyster",
+        "identifier": "network-objkt-pds-01",
         "locales": [
           {
-            "description": "Account is hosted by the oyster.pds.eny.network PDS",
+            "description": "Account is hosted by the 01.pds.objkt.network PDS",
             "lang": "en",
-            "name": "oyster.pds.eny.network"
+            "name": "01.pds.objkt.network"
           }
         ],
         "severity": "inform"
@@ -689,6 +689,20 @@
             "description": "Account is hosted by the pds.opnmt.me PDS",
             "lang": "en",
             "name": "pds.opnmt.me"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "network-eny-pds-oyster",
+        "locales": [
+          {
+            "description": "Account is hosted by the oyster.pds.eny.network PDS",
+            "lang": "en",
+            "name": "oyster.pds.eny.network"
           }
         ],
         "severity": "inform"
@@ -745,20 +759,6 @@
             "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
             "name": "u.jalsa.world"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "network-objkt-pds-01",
-        "locales": [
-          {
-            "description": "Account is hosted by the 01.pds.objkt.network PDS",
-            "lang": "en",
-            "name": "01.pds.objkt.network"
           }
         ],
         "severity": "inform"
@@ -1159,12 +1159,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cc-mirablossom",
+        "identifier": "ai-swarmchat-pds",
         "locales": [
           {
-            "description": "Account is hosted by the mirablossom.cc PDS",
+            "description": "Account is hosted by the pds.swarmchat.ai PDS",
             "lang": "en",
-            "name": "mirablossom.cc"
+            "name": "pds.swarmchat.ai"
           }
         ],
         "severity": "inform"
@@ -1173,12 +1173,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-swarmchat-pds",
+        "identifier": "cc-mirablossom",
         "locales": [
           {
-            "description": "Account is hosted by the pds.swarmchat.ai PDS",
+            "description": "Account is hosted by the mirablossom.cc PDS",
             "lang": "en",
-            "name": "pds.swarmchat.ai"
+            "name": "mirablossom.cc"
           }
         ],
         "severity": "inform"
@@ -1369,20 +1369,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-casjay",
-        "locales": [
-          {
-            "description": "Account is hosted by the casjay.social PDS",
-            "lang": "en",
-            "name": "casjay.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "app-workolio-pds",
         "locales": [
           {
@@ -1403,6 +1389,20 @@
             "description": "Account is hosted by the zedsocial.ca PDS",
             "lang": "en",
             "name": "zedsocial.ca"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-casjay",
+        "locales": [
+          {
+            "description": "Account is hosted by the casjay.social PDS",
+            "lang": "en",
+            "name": "casjay.social"
           }
         ],
         "severity": "inform"
@@ -1493,17 +1493,17 @@
       "net-goldentooth-pds",
       "com-dadavidtseng-pds",
       "com-nrbrtspvk-bsky",
-      "network-nobody-node",
       "social-npmx",
+      "network-nobody-node",
       "homes-si46",
       "ai-oathling-pds",
-      "network-eny-pds-oyster",
+      "network-objkt-pds-01",
       "me-opnmt-pds",
+      "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
       "net-riyo-pds",
       "world-jalsa-u",
-      "network-objkt-pds-01",
       "to-tor0n",
       "social-oso-pds",
       "pics-mychat",
@@ -1532,8 +1532,8 @@
       "cloud-nihilist",
       "site-bskytool-pds4",
       "dev-wsocial-pds--stage",
-      "cc-mirablossom",
       "ai-swarmchat-pds",
+      "cc-mirablossom",
       "space-cannect",
       "ai-afrilingua-gist",
       "cloud-hstgr-srv865737",
@@ -1547,9 +1547,9 @@
       "surf-self",
       "net-atchan",
       "com-clipsymphony-social-pds",
-      "social-casjay",
       "app-workolio-pds",
       "ca-zedsocial",
+      "social-casjay",
       "site-bskytool-pds2",
       "social-colibri",
       "systems-witchcraft-pds"
