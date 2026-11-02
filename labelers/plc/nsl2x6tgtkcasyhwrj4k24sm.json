@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:nsl2x6tgtkcasyhwrj4k24sm/app.bsky.labeler.service/self",
-  "cid": "bafyreihwsugrfl5kswzuffbmn6shsmzkwsargt36347njclq3s6nq6yt7u",
+  "cid": "bafyreigwqxpincrtln622uz7u3askpprjgkafrf5iagbioe5ny5efydfiy",
   "creator": {
     "did": "did:plc:nsl2x6tgtkcasyhwrj4k24sm",
     "handle": "labeler.tenna.party",
@@ -17,7 +17,7 @@
     "description": "A complementary labeler for a third-party client.\nRan by @kris.darkworld.download",
     "indexedAt": "2026-09-29T11:32:44.059Z"
   },
-  "indexedAt": "2026-10-30T08:40:30.676Z",
+  "indexedAt": "2026-11-01T17:06:59.178Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -104,9 +104,23 @@
         "identifier": "ignore-labels-spam",
         "locales": [
           {
-            "description": "Negate labeler that's supposed to be customizable in-app on tenna.party.",
+            "description": "Labeler flag that will be customizable on tenna.party soon enough.",
             "lang": "en",
             "name": "ignore-labels-spam"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "ignore-labels-spam-labeler",
+        "locales": [
+          {
+            "description": "Labeler flag that will be customizable on tenna.party soon enough.",
+            "lang": "en",
+            "name": "ignore-labels-spam (labeler-specific flag)"
           }
         ],
         "severity": "inform"
@@ -118,9 +132,10 @@
       "privatevessel-banned",
       "tennalings-no-unauthenticated",
       "calls-them-jaronas",
-      "ignore-labels-spam",
       "boop",
       "bsky-client",
+      "ignore-labels-spam",
+      "ignore-labels-spam-labeler",
       "!warn"
     ]
   },
