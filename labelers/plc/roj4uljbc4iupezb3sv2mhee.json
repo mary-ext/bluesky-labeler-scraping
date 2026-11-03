@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:roj4uljbc4iupezb3sv2mhee/app.bsky.labeler.service/self",
-  "cid": "bafyreiagloablprykgykyurpg5uvsync44tkdntdxxmhrwxottxq7kmrqu",
+  "cid": "bafyreiho6n3uc53ivjiap2gbugb5wljl355ylky2yzzpf3lr2igywqs55a",
   "creator": {
     "did": "did:plc:roj4uljbc4iupezb3sv2mhee",
     "handle": "teletextlabeler.bsky.social",
@@ -17,7 +17,7 @@
     "description": "A labeling service for Teletext enthusiasts!\n\n1. Subscribe to see your own and other people's labels\n2. Like the relevant posts to apply labels to your own account\n\nYour likes may vanish when the labeler is refreshed, but don't worry, the labels won't.",
     "indexedAt": "2024-10-25T15:04:17.812Z"
   },
-  "indexedAt": "2025-09-16T14:30:56.003Z",
+  "indexedAt": "2026-11-02T16:33:51.677Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -87,6 +87,20 @@
             "description": "This person makes hardware for the display and/or insertion of teletext.",
             "lang": "en",
             "name": "🛠 Teletext Hardware Maker"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "historian",
+        "locales": [
+          {
+            "description": "This person curates historical teletext pages.",
+            "lang": "en",
+            "name": "🏛️ Teletext Historian"
           }
         ],
         "severity": "inform"
@@ -210,6 +224,7 @@
       "employee",
       "fan",
       "hardware",
+      "historian",
       "merch",
       "podcast",
       "recoverer",

@@ -1,0 +1,95 @@
+{
+  "uri": "at://did:plc:ty452htswh2bf4forlfw6ww3/app.bsky.labeler.service/self",
+  "cid": "bafyreidld4pt3q7iqsxiigjqlppo236iytz54jgk252wbeoemzxwtwf4u4",
+  "creator": {
+    "did": "did:plc:ty452htswh2bf4forlfw6ww3",
+    "handle": "shitposting.gay",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ty452htswh2bf4forlfw6ww3/bafkreibngoti2jsj34ymb5vcltrwgjhmr2jk4s4im5efn4yqh2bdvlwxv4",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:ty452htswh2bf4forlfw6ww3",
+        "uri": "at://did:plc:ty452htswh2bf4forlfw6ww3/app.bsky.actor.profile/self",
+        "cid": "bafyreid3f4jc3w3vlpj3lgfa5fwrepuzycg5wdu5ln2d2sdxeluqzzm4sm",
+        "val": "bot",
+        "cts": "2026-11-02T22:28:05.045Z"
+      }
+    ],
+    "createdAt": "2026-11-02T22:28:05.493Z",
+    "description": "Automated anti-harassment labeler\n\nModeration queue is not monitored\n\nLabels are applied automatically from the firehose\n\nBlocking will not prevent labeling or listing\n\nMass reporting behavior will result in reports to bluesky safety's escalation path",
+    "indexedAt": "2026-11-03T02:51:35.975Z"
+  },
+  "indexedAt": "2026-11-02T22:48:30.484Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "nafo",
+        "locales": [
+          {
+            "description": "This post uses a #NAFO hashtag.",
+            "lang": "en",
+            "name": "NAFO hashtag"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "nafo-poster",
+        "locales": [
+          {
+            "description": "This account has posted using #NAFO hashtags. Set to Hide to remove its posts from your feeds.",
+            "lang": "en",
+            "name": "NAFO poster"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "nafo-article5",
+        "locales": [
+          {
+            "description": "This post uses #NAFOarticle5, a call for coordinated harassment: directing a group to dogpile a targeted account.",
+            "lang": "en",
+            "name": "NAFO Article 5 harassment call"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "nafo-article5-poster",
+        "locales": [
+          {
+            "description": "This account has posted #NAFOarticle5 harassment calls, directing a group to dogpile targeted accounts. Set to Hide to remove its posts from your feeds.",
+            "lang": "en",
+            "name": "NAFO Article 5 harassment"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "nafo",
+      "nafo-poster",
+      "nafo-article5",
+      "nafo-article5-poster"
+    ]
+  }
+}
