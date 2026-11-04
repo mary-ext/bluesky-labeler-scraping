@@ -1,0 +1,83 @@
+{
+  "uri": "at://did:plc:v7itjf4h3sb5zuegiiskctqb/app.bsky.labeler.service/self",
+  "cid": "bafyreicdvu36ofttr43jkzjp6i7ba4hqiwhh7etdvrqhqiexqderpefja4",
+  "creator": {
+    "did": "did:plc:v7itjf4h3sb5zuegiiskctqb",
+    "handle": "resenha.ink",
+    "displayName": "Resenha",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:v7itjf4h3sb5zuegiiskctqb/bafkreif3hgt6mivt7yefmxoijmeh6a2hhcaux5w4m6ei2qkoq5zgryugjq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-10-18T15:37:50.753Z",
+    "description": "Resenha is for social reading.\nA BookHive client focused on long-form book reviews.\nAn ebook and comics reader.\n\nAvailable for macOS, iPadOS and iOS.",
+    "indexedAt": "2026-10-28T16:31:04.573Z"
+  },
+  "indexedAt": "2026-11-03T23:43:24.275Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "resenha-removed",
+        "locales": [
+          {
+            "description": "A comment Resenha's maintainer removed after a report.",
+            "lang": "en",
+            "name": "Removed by Resenha"
+          },
+          {
+            "description": "Um comentário que o responsável pelo Resenha removeu após uma denúncia.",
+            "lang": "pt",
+            "name": "Removido pelo Resenha"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "resenha-hidden",
+        "locales": [
+          {
+            "description": "An account Resenha keeps out of its suggestions and starter pack.",
+            "lang": "en",
+            "name": "Not suggested on Resenha"
+          },
+          {
+            "description": "Uma conta que o Resenha mantém fora das sugestões e do pacote inicial.",
+            "lang": "pt",
+            "name": "Não sugerido no Resenha"
+          }
+        ],
+        "severity": "none"
+      }
+    ],
+    "labelValues": [
+      "resenha-removed",
+      "resenha-hidden"
+    ]
+  },
+  "reasonTypes": [
+    "com.atproto.moderation.defs#reasonSpam",
+    "com.atproto.moderation.defs#reasonMisleading",
+    "com.atproto.moderation.defs#reasonSexual",
+    "com.atproto.moderation.defs#reasonRude",
+    "com.atproto.moderation.defs#reasonViolation",
+    "com.atproto.moderation.defs#reasonOther"
+  ],
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "ink.resenha.feed.comment"
+  ]
+}
