@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreidfxe37bf7aztfsvtfkrdfsxpy545sht5vvpjouz7ubifk3jcgycu",
+  "cid": "bafyreidf5xdxkocyuwi34eiuybqhqhau4nvh6xgq6gyf5jmjbu5hmxyima",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-11-04T02:05:35.587Z",
+  "indexedAt": "2026-11-04T18:46:55.977Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -165,6 +165,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "io-tdpl",
+        "locales": [
+          {
+            "description": "Account is hosted by the tdpl.io PDS",
+            "lang": "en",
+            "name": "tdpl.io"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "world-si46-pds",
         "locales": [
           {
@@ -185,20 +199,6 @@
             "description": "Account is hosted by the keik.info PDS",
             "lang": "en",
             "name": "keik.info"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "io-tdpl",
-        "locales": [
-          {
-            "description": "Account is hosted by the tdpl.io PDS",
-            "lang": "en",
-            "name": "tdpl.io"
           }
         ],
         "severity": "inform"
@@ -571,12 +571,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "town-delve-pds",
+        "identifier": "community-clear-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.delve.town PDS",
+            "description": "Account is hosted by the pds.clear.community PDS",
             "lang": "en",
-            "name": "pds.delve.town"
+            "name": "pds.clear.community"
           }
         ],
         "severity": "inform"
@@ -585,12 +585,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "community-clear-pds",
+        "identifier": "town-delve-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.clear.community PDS",
+            "description": "Account is hosted by the pds.delve.town PDS",
             "lang": "en",
-            "name": "pds.clear.community"
+            "name": "pds.delve.town"
           }
         ],
         "severity": "inform"
@@ -711,6 +711,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-oso-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.oso.social PDS",
+            "lang": "en",
+            "name": "pds.oso.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "network-eny-pds-oyster",
         "locales": [
           {
@@ -745,20 +759,6 @@
             "description": "Account is hosted by the novum.social PDS",
             "lang": "en",
             "name": "novum.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-oso-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.oso.social PDS",
-            "lang": "en",
-            "name": "pds.oso.social"
           }
         ],
         "severity": "inform"
@@ -1131,12 +1131,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "site-bskytool-pds4",
+        "identifier": "dev-wsocial-pds--stage",
         "locales": [
           {
-            "description": "Account is hosted by the pds4.bskytool.site PDS",
+            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
             "lang": "en",
-            "name": "pds4.bskytool.site"
+            "name": "pds-stage.wsocial.dev"
           }
         ],
         "severity": "inform"
@@ -1145,12 +1145,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-wsocial-pds--stage",
+        "identifier": "site-bskytool-pds4",
         "locales": [
           {
-            "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
+            "description": "Account is hosted by the pds4.bskytool.site PDS",
             "lang": "en",
-            "name": "pds-stage.wsocial.dev"
+            "name": "pds4.bskytool.site"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1383,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-clipsymphony-social-pds",
+        "identifier": "social-casjay",
         "locales": [
           {
-            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
+            "description": "Account is hosted by the casjay.social PDS",
             "lang": "en",
-            "name": "pds.social.clipsymphony.com"
+            "name": "casjay.social"
           }
         ],
         "severity": "inform"
@@ -1397,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-casjay",
+        "identifier": "com-clipsymphony-social-pds",
         "locales": [
           {
-            "description": "Account is hosted by the casjay.social PDS",
+            "description": "Account is hosted by the pds.social.clipsymphony.com PDS",
             "lang": "en",
-            "name": "casjay.social"
+            "name": "pds.social.clipsymphony.com"
           }
         ],
         "severity": "inform"
@@ -1461,9 +1461,9 @@
       "one-certified",
       "sh-tngl",
       "me-1095-pds",
+      "io-tdpl",
       "world-si46-pds",
       "info-keik",
-      "io-tdpl",
       "app-blacksky",
       "app-louisvillebsky-pds",
       "fan-radial-pds",
@@ -1490,8 +1490,8 @@
       "com-qualiaworks-eurosky--pds",
       "org-letspds-pds",
       "network-objkt-pds-01",
-      "town-delve-pds",
       "community-clear-pds",
+      "town-delve-pds",
       "net-goldentooth-pds",
       "com-dadavidtseng-pds",
       "com-nrbrtspvk-bsky",
@@ -1500,10 +1500,10 @@
       "homes-si46",
       "ai-oathling-pds",
       "me-opnmt-pds",
+      "social-oso-pds",
       "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
-      "social-oso-pds",
       "net-riyo-pds",
       "world-jalsa-u",
       "to-tor0n",
@@ -1530,8 +1530,8 @@
       "social-pwkl-us1-dev",
       "site-bskytool-pds3",
       "cloud-nihilist",
-      "site-bskytool-pds4",
       "dev-wsocial-pds--stage",
+      "site-bskytool-pds4",
       "ai-swarmchat-pds",
       "ai-afrilingua-gist",
       "cc-mirablossom",
@@ -1548,8 +1548,8 @@
       "ca-zedsocial",
       "surf-self",
       "net-atchan",
-      "com-clipsymphony-social-pds",
       "social-casjay",
+      "com-clipsymphony-social-pds",
       "site-bskytool-pds2",
       "social-colibri",
       "network-touchgrass-pds"

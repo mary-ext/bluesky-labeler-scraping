@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:liuuwugrsmbf3kqv4prqwpaf/app.bsky.labeler.service/self",
-  "cid": "bafyreifidezhepj6syzyu2issu7naeooonwdhv6p5zyebqpsw64xiseqou",
+  "cid": "bafyreid7mjz6fkeqkrpxff2gdd2t6xpqbbjzfjzhnaq4up7a5cmd2gzd5a",
   "creator": {
     "did": "did:plc:liuuwugrsmbf3kqv4prqwpaf",
     "handle": "beanslabeltest.bsky.social",
@@ -17,7 +17,7 @@
     "description": "Testing by @blowdart.me",
     "indexedAt": "2026-10-30T15:23:03.778Z"
   },
-  "indexedAt": "2026-11-01T21:24:47.676Z",
+  "indexedAt": "2026-11-04T14:28:40.579Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -41,13 +41,17 @@
     ]
   },
   "reasonTypes": [
-    "com.atproto.moderation.defs#reasonOther"
+    "tools.ozone.report.defs#reasonOther",
+    "tools.ozone.report.defs#reasonAppeal",
+    "com.atproto.moderation.defs#reasonOther",
+    "com.atproto.moderation.defs#reasonAppeal"
   ],
   "subjectTypes": [
     "account",
     "record"
   ],
   "subjectCollections": [
-    "app.bsky.feed.post"
+    "app.bsky.feed.post",
+    "app.bsky.actor.profile"
   ]
 }
