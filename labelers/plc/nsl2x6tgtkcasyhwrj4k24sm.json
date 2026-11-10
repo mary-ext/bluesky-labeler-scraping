@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:nsl2x6tgtkcasyhwrj4k24sm/app.bsky.labeler.service/self",
-  "cid": "bafyreifzkgttoflib67cwvg3frlurs5bq2dxhrevzcfu4p7geykn6slkti",
+  "cid": "bafyreid3ngu5tmttsrphv6fqhivvp4nsbyjqlbotxzqxfs32k3hbr5slbu",
   "creator": {
     "did": "did:plc:nsl2x6tgtkcasyhwrj4k24sm",
     "handle": "labeler.tenna.party",
@@ -17,7 +17,7 @@
     "description": "A complementary labeler for a third-party client.\nRan by @kris.darkworld.download",
     "indexedAt": "2026-09-29T11:32:44.059Z"
   },
-  "indexedAt": "2026-11-07T19:38:07.881Z",
+  "indexedAt": "2026-11-09T09:22:16.671Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -124,6 +124,25 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "the-opps",
+        "locales": [
+          {
+            "description": "The opposite of the boop label.",
+            "lang": "en",
+            "name": "The Opps"
+          },
+          {
+            "description": "Definīcija ārpus politikas. Negatīvā boop atzīme.",
+            "lang": "lv",
+            "name": "Opozīcija"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -137,6 +156,7 @@
       "bsky-client",
       "ignore-labels-spam",
       "ignore-labels-spam-labeler",
+      "the-opps",
       "!warn"
     ]
   },

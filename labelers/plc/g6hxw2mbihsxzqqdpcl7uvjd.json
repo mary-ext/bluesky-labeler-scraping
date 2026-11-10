@@ -1,0 +1,165 @@
+{
+  "uri": "at://did:plc:g6hxw2mbihsxzqqdpcl7uvjd/app.bsky.labeler.service/self",
+  "cid": "bafyreiep25675eccabah4hkttwtz7y7dptugfyha2yaoxi2giut4hfoib4",
+  "creator": {
+    "did": "did:plc:g6hxw2mbihsxzqqdpcl7uvjd",
+    "handle": "moderation.labeler.oysters.pub",
+    "displayName": "oyste.rs moderation labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g6hxw2mbihsxzqqdpcl7uvjd/bafkreicfybiy64h5lviaphp6m4j27iph5php4p6xbivviymopbwr7edlwq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:g6hxw2mbihsxzqqdpcl7uvjd",
+        "uri": "at://did:plc:g6hxw2mbihsxzqqdpcl7uvjd/app.bsky.actor.profile/self",
+        "cid": "bafyreihdvlsu6r5lvskddidp77pf6noal5gqnskzqo52n6w36mxam65csy",
+        "val": "bot",
+        "cts": "2026-11-09T02:29:44.416Z"
+      }
+    ],
+    "createdAt": "2026-11-09T02:29:46.275Z",
+    "indexedAt": "2026-11-09T02:40:27.175Z"
+  },
+  "indexedAt": "2026-11-09T10:35:00.571Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "spam",
+        "locales": [
+          {
+            "description": "Repetitive or commercial",
+            "lang": "en",
+            "name": "spam"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "self-promo",
+        "locales": [
+          {
+            "description": "Mostly own content",
+            "lang": "en",
+            "name": "self-promo"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "off-topic",
+        "locales": [
+          {
+            "description": "Not technical",
+            "lang": "en",
+            "name": "off-topic"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "misleading",
+        "locales": [
+          {
+            "description": "Title misrepresents link",
+            "lang": "en",
+            "name": "misleading"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "rude",
+        "locales": [
+          {
+            "description": "Personal attacks",
+            "lang": "en",
+            "name": "rude"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "duplicate",
+        "locales": [
+          {
+            "description": "Already submitted",
+            "lang": "en",
+            "name": "duplicate"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "paywall",
+        "locales": [
+          {
+            "description": "Link is paywalled",
+            "lang": "en",
+            "name": "paywall"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "automated",
+        "locales": [
+          {
+            "description": "Bot or scripted account",
+            "lang": "en",
+            "name": "automated"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "!hide",
+      "!warn",
+      "spam",
+      "self-promo",
+      "off-topic",
+      "misleading",
+      "rude",
+      "duplicate",
+      "paywall",
+      "automated"
+    ]
+  },
+  "subjectTypes": [
+    "record",
+    "account"
+  ],
+  "subjectCollections": [
+    "pub.oysters.post",
+    "pub.oysters.comment"
+  ]
+}
