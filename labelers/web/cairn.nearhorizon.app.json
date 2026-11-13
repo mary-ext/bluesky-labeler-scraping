@@ -1,0 +1,379 @@
+{
+  "uri": "at://did:web:cairn.nearhorizon.app/app.bsky.labeler.service/self",
+  "cid": "bafyreidf553d2sx6rodfv2nfxcn7ytpgim6fp6l4rcb52svivt5d5jkznm",
+  "creator": {
+    "did": "did:web:cairn.nearhorizon.app",
+    "handle": "cairn.nearhorizon.app",
+    "displayName": "Cairn Moderation",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:web:cairn.nearhorizon.app/bafkreigmpdp5mjiegwgrrs7malpoo2fe5fqsqbmmiy4oybk5k35hhcqxl4",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-13T02:34:50.274Z",
+    "indexedAt": "2026-11-13T02:34:50.274Z"
+  },
+  "indexedAt": "2026-11-13T03:51:56.479Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antiblack-harassment",
+        "locales": [
+          {
+            "description": "Derogatory or dehumanizing content targeting Black people",
+            "lang": "en",
+            "name": "Antiblackness"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "antisemitism",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against Jewish people",
+            "lang": "en",
+            "name": "Antisemitism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "racism",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against people because of race or ethnicity",
+            "lang": "en",
+            "name": "Racism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misogynoir",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against Black women",
+            "lang": "en",
+            "name": "Misogynoir"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "white-supremacy",
+        "locales": [
+          {
+            "description": "Promotion of white supremacist ideology, symbols or groups",
+            "lang": "en",
+            "name": "White supremacy"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "digital-blackface",
+        "locales": [
+          {
+            "description": "Use of Black people's images, voices or vernacular as caricature or costume",
+            "lang": "en",
+            "name": "Digital blackface"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "islamophobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against Muslims",
+            "lang": "en",
+            "name": "Islamophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "xenophobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against immigrants or people seen as foreign",
+            "lang": "en",
+            "name": "Xenophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "misogyny",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against women",
+            "lang": "en",
+            "name": "Misogyny"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "homophobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against gay and lesbian people",
+            "lang": "en",
+            "name": "Homophobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "biphobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against bisexual people",
+            "lang": "en",
+            "name": "Biphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "transphobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against transgender people",
+            "lang": "en",
+            "name": "Transphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "enbyphobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against nonbinary people",
+            "lang": "en",
+            "name": "Enbyphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "queerphobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against queer people",
+            "lang": "en",
+            "name": "Queerphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "acephobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against asexual and aromantic people",
+            "lang": "en",
+            "name": "Acephobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "ableism",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against disabled people",
+            "lang": "en",
+            "name": "Ableism"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "fatphobia",
+        "locales": [
+          {
+            "description": "Hatred of or prejudice against fat people",
+            "lang": "en",
+            "name": "Fatphobia"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "whorephobia",
+        "locales": [
+          {
+            "description": "Posts contain perspectives against sex work.",
+            "lang": "en",
+            "name": "Anti Sex Work"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "parody",
+        "locales": [
+          {
+            "description": "A parody or satire account or post",
+            "lang": "en",
+            "name": "Parody"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "antiblack-harassment",
+      "antisemitism",
+      "racism",
+      "misogynoir",
+      "white-supremacy",
+      "digital-blackface",
+      "islamophobia",
+      "xenophobia",
+      "misogyny",
+      "homophobia",
+      "biphobia",
+      "transphobia",
+      "enbyphobia",
+      "queerphobia",
+      "acephobia",
+      "ableism",
+      "fatphobia",
+      "whorephobia",
+      "parody"
+    ]
+  },
+  "reasonTypes": [
+    "tools.ozone.report.defs#reasonAppeal",
+    "tools.ozone.report.defs#reasonOther",
+    "tools.ozone.report.defs#reasonViolenceAnimal",
+    "tools.ozone.report.defs#reasonViolenceThreats",
+    "tools.ozone.report.defs#reasonViolenceGraphicContent",
+    "tools.ozone.report.defs#reasonViolenceGlorification",
+    "tools.ozone.report.defs#reasonViolenceExtremistContent",
+    "tools.ozone.report.defs#reasonViolenceTrafficking",
+    "tools.ozone.report.defs#reasonViolenceOther",
+    "tools.ozone.report.defs#reasonSexualAbuseContent",
+    "tools.ozone.report.defs#reasonSexualNCII",
+    "tools.ozone.report.defs#reasonSexualDeepfake",
+    "tools.ozone.report.defs#reasonSexualAnimal",
+    "tools.ozone.report.defs#reasonSexualUnlabeled",
+    "tools.ozone.report.defs#reasonSexualOther",
+    "tools.ozone.report.defs#reasonChildSafetyCSAM",
+    "tools.ozone.report.defs#reasonChildSafetyGroom",
+    "tools.ozone.report.defs#reasonChildSafetyPrivacy",
+    "tools.ozone.report.defs#reasonChildSafetyHarassment",
+    "tools.ozone.report.defs#reasonChildSafetyOther",
+    "tools.ozone.report.defs#reasonHarassmentTargeted",
+    "tools.ozone.report.defs#reasonHarassmentHateSpeech",
+    "tools.ozone.report.defs#reasonHarassmentDoxxing",
+    "tools.ozone.report.defs#reasonHarassmentOther",
+    "tools.ozone.report.defs#reasonMisleadingImpersonation",
+    "tools.ozone.report.defs#reasonMisleadingSpam",
+    "tools.ozone.report.defs#reasonMisleadingElections",
+    "tools.ozone.report.defs#reasonMisleadingOther",
+    "tools.ozone.report.defs#reasonRuleSiteSecurity",
+    "tools.ozone.report.defs#reasonRuleProhibitedSales",
+    "tools.ozone.report.defs#reasonRuleBanEvasion",
+    "tools.ozone.report.defs#reasonRuleOther",
+    "tools.ozone.report.defs#reasonSelfHarmContent",
+    "tools.ozone.report.defs#reasonSelfHarmED",
+    "tools.ozone.report.defs#reasonSelfHarmSubstances",
+    "tools.ozone.report.defs#reasonSelfHarmOther",
+    "tools.cairn.report.defs#reasonAntiblackHarassment",
+    "tools.cairn.report.defs#reasonMisogynoir",
+    "tools.cairn.report.defs#reasonWhiteSupremacy",
+    "tools.cairn.report.defs#reasonDigitalBlackface",
+    "tools.cairn.report.defs#reasonRacism",
+    "tools.cairn.report.defs#reasonAntisemitism",
+    "tools.cairn.report.defs#reasonIslamophobia",
+    "tools.cairn.report.defs#reasonXenophobia",
+    "tools.cairn.report.defs#reasonMisogyny",
+    "tools.cairn.report.defs#reasonHomophobia",
+    "tools.cairn.report.defs#reasonBiphobia",
+    "tools.cairn.report.defs#reasonTransphobia",
+    "tools.cairn.report.defs#reasonEnbyphobia",
+    "tools.cairn.report.defs#reasonQueerphobia",
+    "tools.cairn.report.defs#reasonAcephobia",
+    "tools.cairn.report.defs#reasonAbleism",
+    "tools.cairn.report.defs#reasonFatphobia",
+    "tools.cairn.report.defs#reasonWhorephobia",
+    "tools.cairn.report.defs#reasonSexualViolenceNormalization",
+    "tools.cairn.report.defs#reasonSyntheticMedia",
+    "tools.cairn.report.defs#reasonMisinformation",
+    "tools.cairn.report.defs#reasonAphobia"
+  ],
+  "subjectTypes": [
+    "account",
+    "record"
+  ],
+  "subjectCollections": [
+    "tools.kryphocron.feed.postPrivate"
+  ]
+}
