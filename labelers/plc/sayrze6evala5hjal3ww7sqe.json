@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:sayrze6evala5hjal3ww7sqe/app.bsky.labeler.service/self",
+  "cid": "bafyreignjd3kyjoe3j7ylnd2iorppqv7y2rfj5xvy5s5pbkrdxjkqdm4cu",
+  "creator": {
+    "did": "did:plc:sayrze6evala5hjal3ww7sqe",
+    "handle": "tech-justice.weat.media",
+    "displayName": "Техническая экспертиза",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T09:35:52.096Z",
+    "description": "Инженеры проверяют код-примеры и выводы статей: компилируют, запускают, замеряют.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T09:35:52.096Z"
+  },
+  "indexedAt": "2026-11-14T10:30:57.742Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.insufficient-expertise",
+        "locales": [
+          {
+            "description": "Техническая экспертиза: Недостаточная техническая экспертиза: ошибки, поверхностные выводы",
+            "lang": "ru",
+            "name": "Недостаточная техническая экспертиза: ошибки, поверхностные выво"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.broken-code",
+        "locales": [
+          {
+            "description": "Техническая экспертиза: Код из статьи не работает или искажён",
+            "lang": "ru",
+            "name": "Код из статьи не работает или искажён"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.fake-benchmarks",
+        "locales": [
+          {
+            "description": "Техническая экспертиза: Сфабрикованные бенчмарки",
+            "lang": "ru",
+            "name": "Сфабрикованные бенчмарки"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "verdict.insufficient-expertise",
+      "verdict.broken-code",
+      "verdict.fake-benchmarks"
+    ]
+  }
+}

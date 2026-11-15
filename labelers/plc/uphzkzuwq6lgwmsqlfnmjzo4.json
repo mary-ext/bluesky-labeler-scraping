@@ -1,0 +1,87 @@
+{
+  "uri": "at://did:plc:uphzkzuwq6lgwmsqlfnmjzo4/app.bsky.labeler.service/self",
+  "cid": "bafyreibtb2uidari6kvqalocpfrra2y7izussflmuj6aijjgz6hwl3oct4",
+  "creator": {
+    "did": "did:plc:uphzkzuwq6lgwmsqlfnmjzo4",
+    "handle": "nsfw-justice.weat.media",
+    "displayName": "Коллегия 18+",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T10:30:55.785Z",
+    "description": "Контент для взрослых: откровенные материалы и шокирующие изображения. Значения меток — общие для всей сети AT.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T10:30:55.785Z"
+  },
+  "indexedAt": "2026-11-14T10:30:55.546Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": true,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "porn",
+        "locales": [
+          {
+            "description": "Коллегия 18+: Порнография",
+            "lang": "ru",
+            "name": "Порнография"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "sexual",
+        "locales": [
+          {
+            "description": "Коллегия 18+: Откровенный сексуальный контент",
+            "lang": "ru",
+            "name": "Откровенный сексуальный контент"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "nudity",
+        "locales": [
+          {
+            "description": "Коллегия 18+: Нагота (в том числе художественная)",
+            "lang": "ru",
+            "name": "Нагота (в том числе художественная)"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "Коллегия 18+: Шокирующие изображения: насилие, травмы",
+            "lang": "ru",
+            "name": "Шокирующие изображения: насилие, травмы"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "porn",
+      "sexual",
+      "nudity",
+      "graphic-media"
+    ]
+  }
+}

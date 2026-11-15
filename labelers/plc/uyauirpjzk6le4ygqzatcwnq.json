@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreib5zvlggpocxb6hhdfnb4xsqitvyin72kgnzd2zh6fo3n6gqloqpu",
+  "cid": "bafyreibfgxzaboaajzo64qqith7c3sc264udai5x2lttffwgh4hiu35yye",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-11-14T04:53:32.644Z",
+  "indexedAt": "2026-11-14T20:23:33.246Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -823,6 +823,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-skyphone-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "lang": "en",
+            "name": "pds.skyphone.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "pics-mychat",
         "locales": [
           {
@@ -843,20 +857,6 @@
             "description": "Account is hosted by the pds.test.atvoto.ch PDS",
             "lang": "en",
             "name": "pds.test.atvoto.ch"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
-            "lang": "en",
-            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -991,12 +991,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "town-techne-pds",
+        "identifier": "fun-plcs-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.techne.town PDS",
+            "description": "Account is hosted by the pds.plcs.fun PDS",
             "lang": "en",
-            "name": "pds.techne.town"
+            "name": "pds.plcs.fun"
           }
         ],
         "severity": "inform"
@@ -1005,12 +1005,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fun-plcs-pds",
+        "identifier": "town-techne-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.plcs.fun PDS",
+            "description": "Account is hosted by the pds.techne.town PDS",
             "lang": "en",
-            "name": "pds.plcs.fun"
+            "name": "pds.techne.town"
           }
         ],
         "severity": "inform"
@@ -1159,6 +1159,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-raceef-ds",
+        "locales": [
+          {
+            "description": "Account is hosted by the ds.raceef.com PDS",
+            "lang": "en",
+            "name": "ds.raceef.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "site-bskytool-pds3",
         "locales": [
           {
@@ -1179,20 +1193,6 @@
             "description": "Account is hosted by the pds-stage.wsocial.dev PDS",
             "lang": "en",
             "name": "pds-stage.wsocial.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-raceef-ds",
-        "locales": [
-          {
-            "description": "Account is hosted by the ds.raceef.com PDS",
-            "lang": "en",
-            "name": "ds.raceef.com"
           }
         ],
         "severity": "inform"
@@ -1257,12 +1257,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "network-touchgrass-pds",
+        "identifier": "ca-zedsocial",
         "locales": [
           {
-            "description": "Account is hosted by the pds.touchgrass.network PDS",
+            "description": "Account is hosted by the zedsocial.ca PDS",
             "lang": "en",
-            "name": "pds.touchgrass.network"
+            "name": "zedsocial.ca"
           }
         ],
         "severity": "inform"
@@ -1271,12 +1271,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ca-zedsocial",
+        "identifier": "network-touchgrass-pds",
         "locales": [
           {
-            "description": "Account is hosted by the zedsocial.ca PDS",
+            "description": "Account is hosted by the pds.touchgrass.network PDS",
             "lang": "en",
-            "name": "zedsocial.ca"
+            "name": "pds.touchgrass.network"
           }
         ],
         "severity": "inform"
@@ -1299,20 +1299,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cc-mirablossom",
-        "locales": [
-          {
-            "description": "Account is hosted by the mirablossom.cc PDS",
-            "lang": "en",
-            "name": "mirablossom.cc"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-dinakernel-pds",
         "locales": [
           {
@@ -1327,40 +1313,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "space-cannect",
+        "identifier": "cc-mirablossom",
         "locales": [
           {
-            "description": "Account is hosted by the cannect.space PDS",
+            "description": "Account is hosted by the mirablossom.cc PDS",
             "lang": "en",
-            "name": "cannect.space"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "com-kieransweetman-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.kieransweetman.com PDS",
-            "lang": "en",
-            "name": "pds.kieransweetman.com"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-hstgr-srv865737",
-        "locales": [
-          {
-            "description": "Account is hosted by the srv865737.hstgr.cloud PDS",
-            "lang": "en",
-            "name": "srv865737.hstgr.cloud"
+            "name": "mirablossom.cc"
           }
         ],
         "severity": "inform"
@@ -1383,12 +1341,82 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "one-shxre-arc",
+        "locales": [
+          {
+            "description": "Account is hosted by the arc.shxre.one PDS",
+            "lang": "en",
+            "name": "arc.shxre.one"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "com-kieransweetman-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.kieransweetman.com PDS",
+            "lang": "en",
+            "name": "pds.kieransweetman.com"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "space-cannect",
+        "locales": [
+          {
+            "description": "Account is hosted by the cannect.space PDS",
+            "lang": "en",
+            "name": "cannect.space"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cloud-hstgr-srv865737",
+        "locales": [
+          {
+            "description": "Account is hosted by the srv865737.hstgr.cloud PDS",
+            "lang": "en",
+            "name": "srv865737.hstgr.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "fail-marta",
         "locales": [
           {
             "description": "Account is hosted by the marta.fail PDS",
             "lang": "en",
             "name": "marta.fail"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cloud-fileorbit-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.fileorbit.cloud PDS",
+            "lang": "en",
+            "name": "pds.fileorbit.cloud"
           }
         ],
         "severity": "inform"
@@ -1417,34 +1445,6 @@
             "description": "Account is hosted by the org.tngl.sh PDS",
             "lang": "en",
             "name": "org.tngl.sh"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cc-honeyvale",
-        "locales": [
-          {
-            "description": "Account is hosted by the honeyvale.cc PDS",
-            "lang": "en",
-            "name": "honeyvale.cc"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "cloud-fileorbit-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.fileorbit.cloud PDS",
-            "lang": "en",
-            "name": "pds.fileorbit.cloud"
           }
         ],
         "severity": "inform"
@@ -1508,9 +1508,9 @@
       "world-jalsa-u",
       "com-perohub-pds",
       "to-tor0n",
+      "social-skyphone-pds",
       "pics-mychat",
       "ch-atvoto-test-pds",
-      "social-skyphone-pds",
       "cafe-pckt-pds",
       "cafe-margin",
       "org-recoil-git",
@@ -1520,8 +1520,8 @@
       "dev-alley-chicago--com-pds",
       "social-bookhive",
       "com-mulgez-api",
-      "town-techne-pds",
       "fun-plcs-pds",
+      "town-techne-pds",
       "social-fazen",
       "news-1440-pds",
       "space-cannect-pds",
@@ -1532,27 +1532,27 @@
       "bot-mirrors",
       "social-fluester-pds",
       "social-pwkl-us1-dev",
+      "com-raceef-ds",
       "site-bskytool-pds3",
       "dev-wsocial-pds--stage",
-      "com-raceef-ds",
       "cloud-nihilist",
       "site-bskytool-pds4",
       "blue-espelunca",
       "app-workolio-pds",
-      "network-touchgrass-pds",
       "ca-zedsocial",
+      "network-touchgrass-pds",
       "dev-oathling-pds",
-      "cc-mirablossom",
       "com-dinakernel-pds",
-      "space-cannect",
-      "com-kieransweetman-pds",
-      "cloud-hstgr-srv865737",
+      "cc-mirablossom",
       "quest-blackstar-pds-ref",
+      "one-shxre-arc",
+      "com-kieransweetman-pds",
+      "space-cannect",
+      "cloud-hstgr-srv865737",
       "fail-marta",
+      "cloud-fileorbit-pds",
       "net-chatapt",
-      "sh-tngl-org",
-      "cc-honeyvale",
-      "cloud-fileorbit-pds"
+      "sh-tngl-org"
     ]
   }
 }

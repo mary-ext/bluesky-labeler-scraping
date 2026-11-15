@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:it54wd3k3ltr7zovcfdsk23f/app.bsky.labeler.service/self",
+  "cid": "bafyreicsmxznikpb4twv2iyvfc6un2p52yjd4q6h5ccvb4z4j2elkv64pa",
+  "creator": {
+    "did": "did:plc:it54wd3k3ltr7zovcfdsk23f",
+    "handle": "general-justice.weat.media",
+    "displayName": "Общая коллегия",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T09:35:47.598Z",
+    "description": "Всё, что не подходит профильным коллегиям: недостоверность, плагиат, иные нарушения правил.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T09:35:47.598Z"
+  },
+  "indexedAt": "2026-11-14T10:30:51.744Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.misleading",
+        "locales": [
+          {
+            "description": "Общая коллегия: Содержит существенно недостоверные утверждения",
+            "lang": "ru",
+            "name": "Содержит существенно недостоверные утверждения"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.plagiarism",
+        "locales": [
+          {
+            "description": "Общая коллегия: Плагиат без указания источника",
+            "lang": "ru",
+            "name": "Плагиат без указания источника"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.other",
+        "locales": [
+          {
+            "description": "Общая коллегия: Иное нарушение правил площадки",
+            "lang": "ru",
+            "name": "Иное нарушение правил площадки"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verdict.misleading",
+      "verdict.plagiarism",
+      "verdict.other"
+    ]
+  }
+}

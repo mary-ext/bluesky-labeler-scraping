@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:vfibt4bgozsdx6rnnnpha3x7/app.bsky.labeler.service/self",
-  "cid": "bafyreig5oyhnl7hmfehnrp2vxm7r4j2vso3alxrtq3subnxo2eozt5ltza",
+  "cid": "bafyreibwjtyq5w7jnzefqacq4x6b72ukez6u62eyp27uk77uezvzgmjsbm",
   "creator": {
     "did": "did:plc:vfibt4bgozsdx6rnnnpha3x7",
     "handle": "recordcollector.edavis.dev",
@@ -17,7 +17,7 @@
     "description": "adds labels to accounts that have created records outside of Bluesky\n\noperator: @edavis.dev\n\ncode: https://tangled.org/edavis.dev/recordcollector\n\nrequest new labels by opening an issue: https://tangled.org/edavis.dev/recordcollector/issues/new",
     "indexedAt": "2026-04-05T02:28:07.450Z"
   },
-  "indexedAt": "2026-11-10T06:32:46.174Z",
+  "indexedAt": "2026-11-14T06:58:51.143Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -459,6 +459,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "com-emdashcms",
+        "locales": [
+          {
+            "description": "a full-stack serverless CMS built on Astro (com.emdashcms.*)",
+            "lang": "en",
+            "name": "EmDash"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "blue-flashes",
         "locales": [
           {
@@ -487,10 +501,10 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fyi-unravel-frontpage",
+        "identifier": "fyi-frontpage",
         "locales": [
           {
-            "description": "a decentralised and federated link aggregator (fyi.unravel.frontpage.*)",
+            "description": "a decentralised and federated link aggregator (fyi.frontpage.*)",
             "lang": "en",
             "name": "Frontpage"
           }
@@ -501,10 +515,10 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "fyi-frontpage",
+        "identifier": "fyi-unravel-frontpage",
         "locales": [
           {
-            "description": "a decentralised and federated link aggregator (fyi.frontpage.*)",
+            "description": "a decentralised and federated link aggregator (fyi.unravel.frontpage.*)",
             "lang": "en",
             "name": "Frontpage"
           }
@@ -675,6 +689,20 @@
             "description": "Write on the margins of the internet (at.margin.*)",
             "lang": "en",
             "name": "Margin"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "at-marque",
+        "locales": [
+          {
+            "description": "A domain registrar built on the AT Protocol (at.marque.*)",
+            "lang": "en",
+            "name": "Marque"
           }
         ],
         "severity": "inform"
@@ -1342,10 +1370,11 @@
       "town-delve",
       "com-derakkuma",
       "social-drydown",
+      "com-emdashcms",
       "blue-flashes",
       "im-flushing",
-      "fyi-unravel-frontpage",
       "fyi-frontpage",
+      "fyi-unravel-frontpage",
       "com-germnetwork",
       "garden-goals",
       "social-grain",
@@ -1358,6 +1387,7 @@
       "garden-lexicon",
       "blue-linkat",
       "at-margin",
+      "at-marque",
       "site-mochott",
       "at-monomarks",
       "dev-npmx",

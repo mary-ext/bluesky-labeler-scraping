@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:de4erniajsm6q7fvshslwo57/app.bsky.labeler.service/self",
+  "cid": "bafyreiapbe4wzucsk5u2jbwyy5252t4x4msjk2frhg36bvgitwlpsfftsq",
+  "creator": {
+    "did": "did:plc:de4erniajsm6q7fvshslwo57",
+    "handle": "spam.justice.weat.media",
+    "displayName": "Коллегия по накруткам и спаму",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T09:35:50.363Z",
+    "description": "Искусственный рейтинг: купленные голоса, боты, накрутка просмотров и подписчиков.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T09:35:50.363Z"
+  },
+  "indexedAt": "2026-11-14T10:30:57.144Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.upvote-fraud",
+        "locales": [
+          {
+            "description": "Коллегия по накруткам и спаму: Накрутка рейтинга и голосов",
+            "lang": "ru",
+            "name": "Накрутка рейтинга и голосов"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.view-fraud",
+        "locales": [
+          {
+            "description": "Коллегия по накруткам и спаму: Накрутка просмотров, боты, купленные подписчики",
+            "lang": "ru",
+            "name": "Накрутка просмотров, боты, купленные подписчики"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verdict.upvote-fraud",
+      "verdict.view-fraud"
+    ]
+  }
+}

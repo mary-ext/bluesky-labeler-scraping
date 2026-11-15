@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:zexhusqo6gf4ysqnb4ln3moq/app.bsky.labeler.service/self",
-  "cid": "bafyreibxbgasaljxnequ4hkjpasx4zunmaf3bujh4zumljoeshyim6ugeq",
+  "cid": "bafyreidyz5h7t6hqr5gp5xtqkkgwtjurrdwfgzzbksc63ong5q26b7hz3u",
   "creator": {
     "did": "did:plc:zexhusqo6gf4ysqnb4ln3moq",
     "handle": "ukunilabeller.bsky.social",
@@ -20,27 +20,752 @@
     "createdAt": "2026-11-12T23:55:08.178Z",
     "indexedAt": "2026-11-12T23:55:28.976Z"
   },
-  "indexedAt": "2026-11-14T00:54:44.870Z",
+  "indexedAt": "2026-11-15T04:54:29.955Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
       {
         "adultOnly": false,
         "blurs": "none",
-        "defaultSetting": "ignore",
-        "identifier": "test",
+        "defaultSetting": "warn",
+        "identifier": "aberdeen",
         "locales": [
           {
-            "description": "Test",
+            "description": "",
             "lang": "en",
-            "name": "Test"
+            "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 University of Aberdeen"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "abertay",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Abertay University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "aberystwyth",
+        "locales": [
+          {
+            "description": "",
+            "lang": "cy",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Prifysgol Aberystwyth"
+          },
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Aberystwyth University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "anglia-ruskin",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Anglia Ruskin University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "arden",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Arden University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "london-arts",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of the Arts London"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bournemouth-arts",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Arts University Bournemouth"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "plymouth-arts",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Arts University Plymouth"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "aston",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Aston University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bangor",
+        "locales": [
+          {
+            "description": "",
+            "lang": "cy",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Prifysgol Bangor"
+          },
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Bangor University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bath-spa",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Bath Spa University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bath",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Bath"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bedfordshire",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Bedfordshire"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bimm",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 BIMM University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "london-birkbeck",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Birkbeck, University of London"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "birmingham",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Birmingham"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "birmingham-city",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Birmingham City University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "birmingham-newman",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Birmingham Newman University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bournemouth",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Bournemouth University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bpp",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 BPP University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bradford",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Bradford"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "brighton",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Brighton"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "bristol",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Bristol"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "london-brunel",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Brunel University of London"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "buckingham",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Buckingham"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "buckinghamshire",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Buckinghamshire New University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cambridge",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Cambridge"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "canterbury",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Canterbury Christ Church University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cardiff-met",
+        "locales": [
+          {
+            "description": "",
+            "lang": "cy",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Prifysgol Metropolitan Caerdydd"
+          },
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Cardiff Metropolitan University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cardiff",
+        "locales": [
+          {
+            "description": "",
+            "lang": "cy",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Prifysgol Caerdydd"
+          },
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Cardiff University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chester",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Chester"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "chichester",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Chichester"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "london-city-st-georges",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 City St George's, University of London"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "coventry",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Coventry University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cranfield",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Cranfield University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "creative-arts",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University for the Creative Arts"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "cumbria",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Cumbria"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "de-montfort",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 De Montfort University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "derby",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Derby"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "dundee",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 University of Dundee"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "durham",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Durham University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "east-anglia",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of East Anglia"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "east-london",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of East London"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "edge-hill",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Edge Hill University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "edinburgh-napier",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh Napier University"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "edinburgh",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 University of Edinburgh"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "essex",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Essex"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "exeter",
+        "locales": [
+          {
+            "description": "",
+            "lang": "en",
+            "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 University of Exeter"
           }
         ],
         "severity": "inform"
       }
     ],
     "labelValues": [
-      "test"
+      "aberdeen",
+      "abertay",
+      "aberystwyth",
+      "anglia-ruskin",
+      "arden",
+      "london-arts",
+      "bournemouth-arts",
+      "plymouth-arts",
+      "aston",
+      "bangor",
+      "bath-spa",
+      "bath",
+      "bedfordshire",
+      "bimm",
+      "london-birkbeck",
+      "birmingham",
+      "birmingham-city",
+      "birmingham-newman",
+      "bournemouth",
+      "bpp",
+      "bradford",
+      "brighton",
+      "bristol",
+      "london-brunel",
+      "buckingham",
+      "buckinghamshire",
+      "cambridge",
+      "canterbury",
+      "cardiff-met",
+      "cardiff",
+      "chester",
+      "chichester",
+      "london-city-st-georges",
+      "coventry",
+      "cranfield",
+      "creative-arts",
+      "cumbria",
+      "de-montfort",
+      "derby",
+      "dundee",
+      "durham",
+      "east-anglia",
+      "east-london",
+      "edge-hill",
+      "edinburgh-napier",
+      "edinburgh",
+      "essex",
+      "exeter"
     ]
   }
 }

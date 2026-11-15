@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:52nak4qhdphhh5yx42qw5tgm/app.bsky.labeler.service/self",
+  "cid": "bafyreifxhszqdhxnadz72dlnvqsnlonpuw23nbt24qhrnkle4gzaadjcia",
+  "creator": {
+    "did": "did:plc:52nak4qhdphhh5yx42qw5tgm",
+    "handle": "tone-justice.weat.media",
+    "displayName": "Коллегия тона и манеры",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T09:35:53.897Z",
+    "description": "Токсичность, переходы на личности, рекламный тон. Подписка — по желанию.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T09:35:53.897Z"
+  },
+  "indexedAt": "2026-11-14T10:30:58.244Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.promo",
+        "locales": [
+          {
+            "description": "Коллегия тона и манеры: Скрытая реклама без маркировки",
+            "lang": "ru",
+            "name": "Скрытая реклама без маркировки"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "ignore",
+        "identifier": "verdict.toxic",
+        "locales": [
+          {
+            "description": "Коллегия тона и манеры: Токсичность, переход на личности",
+            "lang": "ru",
+            "name": "Токсичность, переход на личности"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verdict.promo",
+      "verdict.toxic"
+    ]
+  }
+}

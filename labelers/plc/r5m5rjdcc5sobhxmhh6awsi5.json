@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:r5m5rjdcc5sobhxmhh6awsi5/app.bsky.labeler.service/self",
+  "cid": "bafyreiec6lw6sijaib2pnyacyvdj5tohlvtpy34jjy4q4peah37wzcfnnm",
+  "creator": {
+    "did": "did:plc:r5m5rjdcc5sobhxmhh6awsi5",
+    "handle": "politics-justice.weat.media",
+    "displayName": "Политическая коллегия",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T10:30:56.885Z",
+    "description": "Политическая агитация без маркировки, пропаганда под видом фактов, разжигание вражды.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T10:30:56.885Z"
+  },
+  "indexedAt": "2026-11-14T10:30:56.643Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.political-ad",
+        "locales": [
+          {
+            "description": "Политическая коллегия: Политическая агитация без маркировки",
+            "lang": "ru",
+            "name": "Политическая агитация без маркировки"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verdict.propaganda",
+        "locales": [
+          {
+            "description": "Политическая коллегия: Пропаганда: односторонняя подача под видом фактов",
+            "lang": "ru",
+            "name": "Пропаганда: односторонняя подача под видом фактов"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.hate",
+        "locales": [
+          {
+            "description": "Политическая коллегия: Разжигание вражды по признаку группы",
+            "lang": "ru",
+            "name": "Разжигание вражды по признаку группы"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "verdict.political-ad",
+      "verdict.propaganda",
+      "verdict.hate"
+    ]
+  }
+}

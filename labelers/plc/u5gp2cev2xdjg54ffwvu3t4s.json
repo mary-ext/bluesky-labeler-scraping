@@ -1,0 +1,72 @@
+{
+  "uri": "at://did:plc:u5gp2cev2xdjg54ffwvu3t4s/app.bsky.labeler.service/self",
+  "cid": "bafyreieiecpynopcwt4owgbsjtyrgau5l5jv7uj4iu7qysawbdwzrrk5yi",
+  "creator": {
+    "did": "did:plc:u5gp2cev2xdjg54ffwvu3t4s",
+    "handle": "law-justice.weat.media",
+    "displayName": "Коллегия по законности",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-14T09:35:48.665Z",
+    "description": "Возможные нарушения закона: запрещённый контент, авторские права, персональные данные. Не заменяет решение суда.\n\nКоллегия присяжных weat.media.",
+    "indexedAt": "2026-11-14T09:35:48.665Z"
+  },
+  "indexedAt": "2026-11-14T10:30:52.246Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.illegal",
+        "locales": [
+          {
+            "description": "Коллегия по законности: Нарушение закона",
+            "lang": "ru",
+            "name": "Нарушение закона"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.copyright",
+        "locales": [
+          {
+            "description": "Коллегия по законности: Нарушение авторских прав",
+            "lang": "ru",
+            "name": "Нарушение авторских прав"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "verdict.personal-data",
+        "locales": [
+          {
+            "description": "Коллегия по законности: Раскрытие персональных данных без согласия",
+            "lang": "ru",
+            "name": "Раскрытие персональных данных без согласия"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "verdict.illegal",
+      "verdict.copyright",
+      "verdict.personal-data"
+    ]
+  }
+}
