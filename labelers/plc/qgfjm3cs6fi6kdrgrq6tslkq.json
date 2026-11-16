@@ -1,0 +1,144 @@
+{
+  "uri": "at://did:plc:qgfjm3cs6fi6kdrgrq6tslkq/app.bsky.labeler.service/self",
+  "cid": "bafyreieplnvqooh5dmai36uzh3nnyws44fs3l4xwidlub2m2eoamk3nvda",
+  "creator": {
+    "did": "did:plc:qgfjm3cs6fi6kdrgrq6tslkq",
+    "handle": "labeler.bluesky.bot",
+    "displayName": "Bluesky.bot Labeler",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qgfjm3cs6fi6kdrgrq6tslkq/bafkreibrhgqbmogerqgtgpkhfik3duj3xcjfh3fkb2x3ourxc7dcwiuxny",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:qgfjm3cs6fi6kdrgrq6tslkq",
+        "uri": "at://did:plc:qgfjm3cs6fi6kdrgrq6tslkq/app.bsky.actor.profile/self",
+        "cid": "bafyreibbiyzg2432r44ebg6lkef62eaqh2bqvxy7qwm6n2m2rhhy5uwghi",
+        "val": "bot",
+        "cts": "2026-11-13T10:44:32.465Z"
+      }
+    ],
+    "createdAt": "2026-11-13T10:44:34.471Z",
+    "description": "Bot labels for Bluesky. Tap Subscribe to see a Verified bot badge on bots whose handle we verified, a Certified badge on bots we reviewed and an Official badge on our own accounts. Free, no sign-up.",
+    "indexedAt": "2026-11-15T15:25:10.753Z"
+  },
+  "indexedAt": "2026-11-15T16:18:11.040Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "verified-bot",
+        "locales": [
+          {
+            "description": "This account is a bot. Its bluesky.bot handle was claimed by its creator and is verified by Bluesky.bot.",
+            "lang": "en",
+            "name": "Verified bot"
+          },
+          {
+            "description": "Ce compte est un bot. Son handle bluesky.bot a été réservé par la personne qui l’a créé et il est vérifié par Bluesky.bot.",
+            "lang": "fr",
+            "name": "Bot vérifié"
+          },
+          {
+            "description": "Esta cuenta es un bot. Su handle bluesky.bot lo reservó quien lo creó y Bluesky.bot lo verifica.",
+            "lang": "es",
+            "name": "Bot verificado"
+          },
+          {
+            "description": "Esta conta é um bot. O handle bluesky.bot foi reservado por quem o criou e é verificado pelo Bluesky.bot.",
+            "lang": "pt",
+            "name": "Bot verificado"
+          },
+          {
+            "description": "このアカウントはボットです。bluesky.bot ハンドルは作成者が取得し、Bluesky.bot が確認しています。",
+            "lang": "ja",
+            "name": "認証済みボット"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "certified-bot",
+        "locales": [
+          {
+            "description": "This bot was reviewed and certified by Bluesky.bot: a verified handle for a while, good practices, a creator in good standing.",
+            "lang": "en",
+            "name": "Certified by Bluesky.bot"
+          },
+          {
+            "description": "Ce bot a été examiné et certifié par Bluesky.bot : un handle vérifié depuis un moment, de bonnes pratiques, une personne créatrice en règle.",
+            "lang": "fr",
+            "name": "Certifié par Bluesky.bot"
+          },
+          {
+            "description": "Bluesky.bot revisó y certificó este bot: un handle verificado desde hace tiempo, buenas prácticas y una persona creadora sin sanciones.",
+            "lang": "es",
+            "name": "Certificado por Bluesky.bot"
+          },
+          {
+            "description": "Este bot foi analisado e certificado pelo Bluesky.bot: um handle verificado há algum tempo, boas práticas e quem o criou sem sanções.",
+            "lang": "pt",
+            "name": "Certificado pelo Bluesky.bot"
+          },
+          {
+            "description": "このボットは Bluesky.bot の審査を受けて認定されています。一定期間確認済みのハンドル、良い運用、問題のない作成者が条件です。",
+            "lang": "ja",
+            "name": "Bluesky.bot 認定"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "official-bot",
+        "locales": [
+          {
+            "description": "This account is run by Bluesky.bot itself.",
+            "lang": "en",
+            "name": "Official Bluesky.bot account"
+          },
+          {
+            "description": "Ce compte est géré par Bluesky.bot.",
+            "lang": "fr",
+            "name": "Compte officiel Bluesky.bot"
+          },
+          {
+            "description": "Esta cuenta la gestiona Bluesky.bot.",
+            "lang": "es",
+            "name": "Cuenta oficial de Bluesky.bot"
+          },
+          {
+            "description": "Esta conta é gerida pelo Bluesky.bot.",
+            "lang": "pt",
+            "name": "Conta oficial do Bluesky.bot"
+          },
+          {
+            "description": "このアカウントは Bluesky.bot が運営しています。",
+            "lang": "ja",
+            "name": "Bluesky.bot 公式アカウント"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "verified-bot",
+      "certified-bot",
+      "official-bot"
+    ]
+  },
+  "subjectTypes": [
+    "account"
+  ]
+}
