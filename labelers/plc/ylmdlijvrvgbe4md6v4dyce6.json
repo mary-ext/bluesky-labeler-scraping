@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:ylmdlijvrvgbe4md6v4dyce6/app.bsky.labeler.service/self",
-  "cid": "bafyreiatwe37tqg24kwz7llichaedosmcv72mesrvdhiowxx6hwyfuxh5e",
+  "cid": "bafyreibg3r7drt2uouuad525oerepbwgzsafrjsyopi6fhnqoy7aia2tmy",
   "creator": {
     "did": "did:plc:ylmdlijvrvgbe4md6v4dyce6",
     "handle": "contributions.fyi",
@@ -20,7 +20,7 @@
     "description": "Who funds your member of Congress? Labels every member's account with their top funding sectors and contributors from FEC filings: each organization's PAC plus donations from its employees.\n\nExplore it all: contributions.fyi",
     "indexedAt": "2026-11-15T09:46:47.147Z"
   },
-  "indexedAt": "2026-11-17T00:38:10.374Z",
+  "indexedAt": "2026-11-17T09:13:38.061Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -1260,20 +1260,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "no-employer",
-        "locales": [
-          {
-            "description": "No Employer is one of the top 3 contributors to this member of Congress's campaign, 2021–2026, per FEC filings.\n\nThe organizations themselves did not donate; the money came from their PACs and from their employees, members or owners. Individual donations are counted by the employer donors listed.\n\nDetails: https://contributions.fyi",
-            "lang": "en",
-            "name": "No Employer"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "cleveland-cliffs-inc",
         "locales": [
           {
@@ -1294,6 +1280,20 @@
             "description": "University of Toledo is one of the top 3 contributors to this member of Congress's campaign, 2021–2026, per FEC filings.\n\nThe organizations themselves did not donate; the money came from their PACs and from their employees, members or owners. Individual donations are counted by the employer donors listed.\n\nDetails: https://contributions.fyi",
             "lang": "en",
             "name": "University of Toledo"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "first-solar",
+        "locales": [
+          {
+            "description": "First Solar is one of the top 3 contributors to this member of Congress's campaign, 2021–2026, per FEC filings.\n\nThe organizations themselves did not donate; the money came from their PACs and from their employees, members or owners. Individual donations are counted by the employer donors listed.\n\nDetails: https://contributions.fyi",
+            "lang": "en",
+            "name": "First Solar"
           }
         ],
         "severity": "inform"
@@ -5532,9 +5532,9 @@
       "dentons-us-llp",
       "prudential-financial-inc",
       "ideological-and-single-issue",
-      "no-employer",
       "cleveland-cliffs-inc",
       "university-of-toledo",
+      "first-solar",
       "laborers-international-union-of-north-america",
       "southwest-airlines",
       "united-airlines",
