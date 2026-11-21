@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:xelfroz65ivei2p2um222kew/app.bsky.labeler.service/self",
-  "cid": "bafyreifj7d3hjekbrud56zt563ynu6qjcimygg5uxq77dxsoanqrkvuew4",
+  "cid": "bafyreihbtk6s67rqs3adgtfu42dzshdwjl7ebi3vesl3aoge2hf3oci7u4",
   "creator": {
     "did": "did:plc:xelfroz65ivei2p2um222kew",
     "handle": "gkmas-labeler.endless.dance",
@@ -12,12 +12,20 @@
         "allowSubscriptions": "followers"
       }
     },
-    "labels": [],
+    "labels": [
+      {
+        "src": "did:plc:xelfroz65ivei2p2um222kew",
+        "uri": "at://did:plc:xelfroz65ivei2p2um222kew/app.bsky.actor.profile/self",
+        "cid": "bafyreidxoroktmqgrepylnre2k5ebcypp7dzxe5nixo5764ognpnexzhqa",
+        "val": "bot",
+        "cts": "2026-01-14T09:02:33.874Z"
+      }
+    ],
     "createdAt": "2026-01-14T09:02:38.229Z",
     "description": "学園アイドルマスターの登場人物、ユニットをラベリングする非公式ラベラーです。\n\nOperated by @l-tan.dolciss.net\n\nTHE IDOLM@STER™ & ©Bandai Namco Entertainment Inc.",
-    "indexedAt": "2026-01-17T13:53:13.825Z"
+    "indexedAt": "2026-11-21T04:26:10.445Z"
   },
-  "indexedAt": "2026-05-08T11:12:49.562Z",
+  "indexedAt": "2026-11-21T04:14:18.544Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -272,6 +280,25 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "idol-kanae",
+        "locales": [
+          {
+            "description": "倉本家のメイドとして、倉本千奈の近侍を務める。真面目で献身的な努力家。主を中心に物事を考えており、自分自身の気持ちにはひどく鈍い。アイドルへの関心や素質を秘めているものの、本人はあくまで『お嬢様を支えるための研修』と考えている。",
+            "lang": "ja",
+            "name": "氷渡香名江"
+          },
+          {
+            "description": "",
+            "lang": "en",
+            "name": "Kanae Hiwatari"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "idol-rinha",
         "locales": [
           {
@@ -495,6 +522,25 @@
           }
         ],
         "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "unit-kaigou",
+        "locales": [
+          {
+            "description": "初星学園アイドル科に所属する雨夜燕、有村麻央の2人で結成されたユニット。",
+            "lang": "ja",
+            "name": "乖轟"
+          },
+          {
+            "description": "",
+            "lang": "en",
+            "name": "KAIGOU"
+          }
+        ],
+        "severity": "inform"
       }
     ],
     "labelValues": [
@@ -511,6 +557,7 @@
       "idol-misuzu",
       "idol-sena",
       "idol-tsubame",
+      "idol-kanae",
       "idol-rinha",
       "idol-nadeshiko",
       "idol-shion",
@@ -522,7 +569,8 @@
       "unit-syngup",
       "unit-yumepathy",
       "unit-reversi",
-      "unit-ripplesign"
+      "unit-ripplesign",
+      "unit-kaigou"
     ]
   }
 }
