@@ -1,0 +1,88 @@
+{
+  "uri": "at://did:plc:5c73jtbt5ihy7tva7ljopqm6/app.bsky.labeler.service/self",
+  "cid": "bafyreidlvv2jzrdsjpgcup2slw5hjgcwm6o24h3go7t74ggs4nmff2bahi",
+  "creator": {
+    "did": "did:plc:5c73jtbt5ihy7tva7ljopqm6",
+    "handle": "moderation.kelosocial.eu",
+    "displayName": "Moderation Kelo Social",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5c73jtbt5ihy7tva7ljopqm6/bafkreih3twlwd7usgbv2dw573ubx7rc3kdh7ur6btcs5kkivxpjb5wyp2i",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-23T17:21:28.803Z",
+    "description": "Compte de moderation officiel de @kelosocial.eu",
+    "indexedAt": "2026-11-23T22:28:42.848Z"
+  },
+  "indexedAt": "2026-11-23T22:11:31.144Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "hide",
+        "identifier": "porn",
+        "locales": [
+          {
+            "description": "Contenu pornographique ou sexuellement explicite.",
+            "lang": "en",
+            "name": "Contenu adulte"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "sexual",
+        "locales": [
+          {
+            "description": "Contenu sexuellement suggestif, sans nudité explicite.",
+            "lang": "en",
+            "name": "Suggestif"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": true,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "nudity",
+        "locales": [
+          {
+            "description": "Nudité non sexuelle (artistique, naturelle).",
+            "lang": "en",
+            "name": "Nudité"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "media",
+        "defaultSetting": "warn",
+        "identifier": "graphic-media",
+        "locales": [
+          {
+            "description": "Images ou vidéos violentes ou choquantes.",
+            "lang": "en",
+            "name": "Contenu graphique"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "porn",
+      "sexual",
+      "nudity",
+      "graphic-media"
+    ]
+  }
+}
