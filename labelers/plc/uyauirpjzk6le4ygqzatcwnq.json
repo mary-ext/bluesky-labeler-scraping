@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreibxxemazexxntsdx6f24u2t24ra4ftsy7guufuy6uydoicwwyeyoa",
+  "cid": "bafyreihnmg3qjc2fct67nt5hnwfatj43gzcl57silv5wu2e5kpjwj63gfy",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-11-23T22:51:54.148Z",
+  "indexedAt": "2026-11-24T22:06:19.446Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -795,12 +795,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-perohub-pds",
+        "identifier": "social-skyphone-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.perohub.com PDS",
+            "description": "Account is hosted by the pds.skyphone.social PDS",
             "lang": "en",
-            "name": "pds.perohub.com"
+            "name": "pds.skyphone.social"
           }
         ],
         "severity": "inform"
@@ -809,12 +809,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-skyphone-pds",
+        "identifier": "com-perohub-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.skyphone.social PDS",
+            "description": "Account is hosted by the pds.perohub.com PDS",
             "lang": "en",
-            "name": "pds.skyphone.social"
+            "name": "pds.perohub.com"
           }
         ],
         "severity": "inform"
@@ -865,12 +865,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-recoil-git",
+        "identifier": "com-faxo-pds",
         "locales": [
           {
-            "description": "Account is hosted by the git.recoil.org PDS",
+            "description": "Account is hosted by the pds.faxo.com PDS",
             "lang": "en",
-            "name": "git.recoil.org"
+            "name": "pds.faxo.com"
           }
         ],
         "severity": "inform"
@@ -879,12 +879,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-faxo-pds",
+        "identifier": "sg-com-holotype-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.faxo.com PDS",
+            "description": "Account is hosted by the pds.holotype.com.sg PDS",
             "lang": "en",
-            "name": "pds.faxo.com"
+            "name": "pds.holotype.com.sg"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "org-recoil-git",
+        "locales": [
+          {
+            "description": "Account is hosted by the git.recoil.org PDS",
+            "lang": "en",
+            "name": "git.recoil.org"
           }
         ],
         "severity": "inform"
@@ -949,6 +963,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "social-fazen",
+        "locales": [
+          {
+            "description": "Account is hosted by the fazen.social PDS",
+            "lang": "en",
+            "name": "fazen.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "dev-alley-chicago--com-pds",
         "locales": [
           {
@@ -969,20 +997,6 @@
             "description": "Account is hosted by the pds.techne.town PDS",
             "lang": "en",
             "name": "pds.techne.town"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "social-fazen",
-        "locales": [
-          {
-            "description": "Account is hosted by the fazen.social PDS",
-            "lang": "en",
-            "name": "fazen.social"
           }
         ],
         "severity": "inform"
@@ -1103,20 +1117,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-pwkl-eu1-dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
-            "lang": "en",
-            "name": "dev.eu1.pwkl.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "network-touchgrass-pds",
         "locales": [
           {
@@ -1145,12 +1145,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "quest-blackstar-pds-ref",
+        "identifier": "social-pwkl-eu1-dev",
         "locales": [
           {
-            "description": "Account is hosted by the ref.pds.blackstar.quest PDS",
+            "description": "Account is hosted by the dev.eu1.pwkl.social PDS",
             "lang": "en",
-            "name": "ref.pds.blackstar.quest"
+            "name": "dev.eu1.pwkl.social"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "social-ekamdor",
+        "locales": [
+          {
+            "description": "Account is hosted by the ekamdor.social PDS",
+            "lang": "en",
+            "name": "ekamdor.social"
           }
         ],
         "severity": "inform"
@@ -1173,12 +1187,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-ekamdor",
+        "identifier": "quest-blackstar-pds-ref",
         "locales": [
           {
-            "description": "Account is hosted by the ekamdor.social PDS",
+            "description": "Account is hosted by the ref.pds.blackstar.quest PDS",
             "lang": "en",
-            "name": "ekamdor.social"
+            "name": "ref.pds.blackstar.quest"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "at-hailey-cocoon",
+        "locales": [
+          {
+            "description": "Account is hosted by the cocoon.hailey.at PDS",
+            "lang": "en",
+            "name": "cocoon.hailey.at"
           }
         ],
         "severity": "inform"
@@ -1243,12 +1271,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "at-hailey-cocoon",
+        "identifier": "cloud-fileorbit-pds",
         "locales": [
           {
-            "description": "Account is hosted by the cocoon.hailey.at PDS",
+            "description": "Account is hosted by the pds.fileorbit.cloud PDS",
             "lang": "en",
-            "name": "cocoon.hailey.at"
+            "name": "pds.fileorbit.cloud"
           }
         ],
         "severity": "inform"
@@ -1257,12 +1285,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-fileorbit-pds",
+        "identifier": "tech-sparknexus",
         "locales": [
           {
-            "description": "Account is hosted by the pds.fileorbit.cloud PDS",
+            "description": "Account is hosted by the sparknexus.tech PDS",
             "lang": "en",
-            "name": "pds.fileorbit.cloud"
+            "name": "sparknexus.tech"
           }
         ],
         "severity": "inform"
@@ -1299,6 +1327,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "sh-tngl-org",
+        "locales": [
+          {
+            "description": "Account is hosted by the org.tngl.sh PDS",
+            "lang": "en",
+            "name": "org.tngl.sh"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "social-fluester-pds",
         "locales": [
           {
@@ -1327,12 +1369,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "tech-sparknexus",
+        "identifier": "buzz-upscrolled",
         "locales": [
           {
-            "description": "Account is hosted by the sparknexus.tech PDS",
+            "description": "Account is hosted by the upscrolled.buzz PDS",
             "lang": "en",
-            "name": "sparknexus.tech"
+            "name": "upscrolled.buzz"
           }
         ],
         "severity": "inform"
@@ -1355,12 +1397,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "sh-tngl-org",
+        "identifier": "dev-riikkako-pds",
         "locales": [
           {
-            "description": "Account is hosted by the org.tngl.sh PDS",
+            "description": "Account is hosted by the pds.riikkako.dev PDS",
             "lang": "en",
-            "name": "org.tngl.sh"
+            "name": "pds.riikkako.dev"
           }
         ],
         "severity": "inform"
@@ -1383,48 +1425,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-riikkako-pds",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds.riikkako.dev PDS",
-            "lang": "en",
-            "name": "pds.riikkako.dev"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "site-bskytool-pds3",
-        "locales": [
-          {
-            "description": "Account is hosted by the pds3.bskytool.site PDS",
-            "lang": "en",
-            "name": "pds3.bskytool.site"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "buzz-upscrolled",
-        "locales": [
-          {
-            "description": "Account is hosted by the upscrolled.buzz PDS",
-            "lang": "en",
-            "name": "upscrolled.buzz"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "one-shxre-arc",
         "locales": [
           {
@@ -1439,12 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-nihilist",
+        "identifier": "site-bskytool-pds3",
         "locales": [
           {
-            "description": "Account is hosted by the nihilist.cloud PDS",
+            "description": "Account is hosted by the pds3.bskytool.site PDS",
             "lang": "en",
-            "name": "nihilist.cloud"
+            "name": "pds3.bskytool.site"
           }
         ],
         "severity": "inform"
@@ -1506,20 +1506,21 @@
       "social-novum",
       "net-riyo-pds",
       "world-jalsa-u",
-      "com-perohub-pds",
       "social-skyphone-pds",
+      "com-perohub-pds",
       "cafe-pckt-pds",
       "to-tor0n",
       "pics-mychat",
-      "org-recoil-git",
       "com-faxo-pds",
+      "sg-com-holotype-pds",
+      "org-recoil-git",
       "at-admat-bsx",
       "cafe-margin",
       "space-getair-demo-pds",
       "social-2ndscreen",
+      "social-fazen",
       "dev-alley-chicago--com-pds",
       "town-techne-pds",
-      "social-fazen",
       "social-bookhive",
       "ch-atvoto-test-pds",
       "com-raceef-ds",
@@ -1528,31 +1529,30 @@
       "ai-afrilingua-gist",
       "news-1440-pds",
       "space-cannect-pds",
-      "social-pwkl-eu1-dev",
       "network-touchgrass-pds",
       "dev-oathling-pds",
-      "quest-blackstar-pds-ref",
-      "app-workolio-pds",
+      "social-pwkl-eu1-dev",
       "social-ekamdor",
+      "app-workolio-pds",
+      "quest-blackstar-pds-ref",
+      "at-hailey-cocoon",
       "com-kieransweetman-pds",
       "com-dinakernel-pds",
       "ca-zedsocial",
       "dev-wsocial-pds--stage",
-      "at-hailey-cocoon",
       "cloud-fileorbit-pds",
+      "tech-sparknexus",
       "cc-velvetnova",
       "bot-mirrors",
+      "sh-tngl-org",
       "social-fluester-pds",
       "social-pwkl-us1-dev",
-      "tech-sparknexus",
-      "blue-espelunca",
-      "sh-tngl-org",
-      "world-oathling-pds",
-      "dev-riikkako-pds",
-      "site-bskytool-pds3",
       "buzz-upscrolled",
+      "blue-espelunca",
+      "dev-riikkako-pds",
+      "world-oathling-pds",
       "one-shxre-arc",
-      "cloud-nihilist"
+      "site-bskytool-pds3"
     ]
   }
 }
