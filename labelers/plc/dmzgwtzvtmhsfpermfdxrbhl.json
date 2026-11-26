@@ -1,0 +1,67 @@
+{
+  "uri": "at://did:plc:dmzgwtzvtmhsfpermfdxrbhl/app.bsky.labeler.service/self",
+  "cid": "bafyreifrbovxsd2dcvonjsabgqqbl7zvrkln43pnc6gpbhpe776j5zv7oq",
+  "creator": {
+    "did": "did:plc:dmzgwtzvtmhsfpermfdxrbhl",
+    "handle": "shut.croft.click",
+    "displayName": "shut",
+    "pronouns": "it/its",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dmzgwtzvtmhsfpermfdxrbhl/bafkreicfosc2wbbgvezhisysqhcsfrbmpbl6wyoamww6ravi7nd4a7ghsq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [
+      {
+        "src": "did:plc:dmzgwtzvtmhsfpermfdxrbhl",
+        "uri": "at://did:plc:dmzgwtzvtmhsfpermfdxrbhl/app.bsky.actor.profile/self",
+        "cid": "bafyreihi2msd3j6ye6geivotbrzzsibcol7q7fxwmjh5nw62o5fv5pgbo4",
+        "val": "bot",
+        "cts": "2026-11-25T17:03:11.582Z"
+      }
+    ],
+    "createdAt": "2026-11-25T17:03:17.555Z",
+    "description": "A labeller that marks posts and profiles using incel language. Subscribe to hide them, or choose to warn or show.\n\nAutomated word matching, English only, so quotes and criticism get labelled too.\n\nWrong label? github.com/ewanc26/shut/issues",
+    "indexedAt": "2026-11-25T18:03:30.347Z"
+  },
+  "indexedAt": "2026-11-26T02:31:49.043Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "hide",
+        "identifier": "incel-language",
+        "locales": [
+          {
+            "description": "Uses vocabulary from incel and related communities. Applied automatically by word matching, so it also covers quotes and criticism that repeat those terms. It describes the words, not the author.",
+            "lang": "en",
+            "name": "Incel language"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "ignore",
+        "identifier": "incel-language-strict",
+        "locales": [
+          {
+            "description": "A stricter version of \"Incel language\", off by default. It also covers a single ambiguous term, such as \"cope\" or \"red pill\", and broad words and names, such as \"toilet\" or \"Chad\". Most of what it adds is unrelated to incels. Applied automatically by word matching. It describes the words, not the author.",
+            "lang": "en",
+            "name": "Incel language (strict)"
+          }
+        ],
+        "severity": "inform"
+      }
+    ],
+    "labelValues": [
+      "incel-language",
+      "incel-language-strict"
+    ]
+  }
+}

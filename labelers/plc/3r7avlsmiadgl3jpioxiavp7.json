@@ -1,0 +1,57 @@
+{
+  "uri": "at://did:plc:3r7avlsmiadgl3jpioxiavp7/app.bsky.labeler.service/self",
+  "cid": "bafyreiaspx5ktb77ojevqg4fs4ly3tefb43rel2wzjkxrb2wqxpya6vc2e",
+  "creator": {
+    "did": "did:plc:3r7avlsmiadgl3jpioxiavp7",
+    "handle": "strawberryantt.bsky.social",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3r7avlsmiadgl3jpioxiavp7/bafkreihorukqif2q7vifnyshapqcm7e3gzicvhfxdqxhvp4c6rbp5uwshq",
+    "associated": {
+      "labeler": true,
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2026-11-26T01:58:24.850Z",
+    "description": "anti-rq labeler. under construction.",
+    "indexedAt": "2026-11-26T04:30:13.842Z"
+  },
+  "indexedAt": "2026-11-26T03:49:29.342Z",
+  "labels": [],
+  "policies": {
+    "labelValueDefinitions": [
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "radq",
+        "locales": [
+          {
+            "description": "This user self-identifies as a radqueer, posts radqueer content, or signals that they are a radqueer with codes such as emojis.",
+            "lang": "en",
+            "name": "Radqueer"
+          }
+        ],
+        "severity": "alert"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "content",
+        "defaultSetting": "warn",
+        "identifier": "transid",
+        "locales": [
+          {
+            "description": "This user uses transidentity labels, not including transgender or transspecies, but may not identify explicitly as a radqueer.",
+            "lang": "en",
+            "name": "TransID"
+          }
+        ],
+        "severity": "alert"
+      }
+    ],
+    "labelValues": [
+      "radq",
+      "transid"
+    ]
+  }
+}
