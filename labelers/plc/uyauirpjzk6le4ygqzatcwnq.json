@@ -1,6 +1,6 @@
 {
   "uri": "at://did:plc:uyauirpjzk6le4ygqzatcwnq/app.bsky.labeler.service/self",
-  "cid": "bafyreifjsczah4hug4m5542s6ojz3eobptm3k5qberltwq3efpk34ph7yq",
+  "cid": "bafyreihavllr426qjhbbqnb2zuwqm2wdxpwcxkxtppydzhidkbg4szczde",
   "creator": {
     "did": "did:plc:uyauirpjzk6le4ygqzatcwnq",
     "handle": "pds.labeler.tny.im",
@@ -17,7 +17,7 @@
     "description": "Labels accounts that are hosted on a PDS not operated by Bluesky PBC.\n\nBuilt by @gbl08ma.com\nSource: https://tangled.org/@gbl08ma.com/pdslabeler\n\nPlease ❤️ the labeler if you use it, for usage metrics.\n\n⚠️ To disable certain labels, use \"Off\" and not \"Hide\"!",
     "indexedAt": "2025-09-29T23:24:28.847Z"
   },
-  "indexedAt": "2026-11-27T02:26:57.048Z",
+  "indexedAt": "2026-11-27T22:36:36.850Z",
   "labels": [],
   "policies": {
     "labelValueDefinitions": [
@@ -333,12 +333,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-yinzcloud-bsky-pds",
+        "identifier": "bot-did-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.bsky.yinzcloud.net PDS",
+            "description": "Account is hosted by the pds.did.bot PDS",
             "lang": "en",
-            "name": "pds.bsky.yinzcloud.net"
+            "name": "pds.did.bot"
           }
         ],
         "severity": "inform"
@@ -347,12 +347,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "bot-did-pds",
+        "identifier": "net-yinzcloud-bsky-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.did.bot PDS",
+            "description": "Account is hosted by the pds.bsky.yinzcloud.net PDS",
             "lang": "en",
-            "name": "pds.did.bot"
+            "name": "pds.bsky.yinzcloud.net"
           }
         ],
         "severity": "inform"
@@ -599,12 +599,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "org-letspds-pds",
+        "identifier": "net-goldentooth-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.letspds.org PDS",
+            "description": "Account is hosted by the pds.goldentooth.net PDS",
             "lang": "en",
-            "name": "pds.letspds.org"
+            "name": "pds.goldentooth.net"
           }
         ],
         "severity": "inform"
@@ -613,12 +613,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-goldentooth-pds",
+        "identifier": "org-letspds-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.goldentooth.net PDS",
+            "description": "Account is hosted by the pds.letspds.org PDS",
             "lang": "en",
-            "name": "pds.goldentooth.net"
+            "name": "pds.letspds.org"
           }
         ],
         "severity": "inform"
@@ -767,12 +767,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "net-riyo-pds",
+        "identifier": "com-faxo-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.riyo.net PDS",
+            "description": "Account is hosted by the pds.faxo.com PDS",
             "lang": "en",
-            "name": "pds.riyo.net"
+            "name": "pds.faxo.com"
           }
         ],
         "severity": "inform"
@@ -781,12 +781,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-jalsa-u",
+        "identifier": "net-riyo-pds",
         "locales": [
           {
-            "description": "Account is hosted by the u.jalsa.world PDS",
+            "description": "Account is hosted by the pds.riyo.net PDS",
             "lang": "en",
-            "name": "u.jalsa.world"
+            "name": "pds.riyo.net"
           }
         ],
         "severity": "inform"
@@ -809,12 +809,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-perohub-pds",
+        "identifier": "world-jalsa-u",
         "locales": [
           {
-            "description": "Account is hosted by the pds.perohub.com PDS",
+            "description": "Account is hosted by the u.jalsa.world PDS",
             "lang": "en",
-            "name": "pds.perohub.com"
+            "name": "u.jalsa.world"
           }
         ],
         "severity": "inform"
@@ -823,12 +823,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-faxo-pds",
+        "identifier": "com-perohub-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.faxo.com PDS",
+            "description": "Account is hosted by the pds.perohub.com PDS",
             "lang": "en",
-            "name": "pds.faxo.com"
+            "name": "pds.perohub.com"
           }
         ],
         "severity": "inform"
@@ -1075,20 +1075,6 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "ai-afrilingua-gist",
-        "locales": [
-          {
-            "description": "Account is hosted by the gist.afrilingua.ai PDS",
-            "lang": "en",
-            "name": "gist.afrilingua.ai"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "com-mulgez-api",
         "locales": [
           {
@@ -1145,12 +1131,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "dev-oathling-pds",
+        "identifier": "space-ship-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.oathling.dev PDS",
+            "description": "Account is hosted by the pds.ship.space PDS",
             "lang": "en",
-            "name": "pds.oathling.dev"
+            "name": "pds.ship.space"
           }
         ],
         "severity": "inform"
@@ -1159,12 +1145,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "space-ship-pds",
+        "identifier": "dev-oathling-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.ship.space PDS",
+            "description": "Account is hosted by the pds.oathling.dev PDS",
             "lang": "en",
-            "name": "pds.ship.space"
+            "name": "pds.oathling.dev"
           }
         ],
         "severity": "inform"
@@ -1229,12 +1215,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "quest-blackstar-pds-ref",
+        "identifier": "com-dinakernel-pds",
         "locales": [
           {
-            "description": "Account is hosted by the ref.pds.blackstar.quest PDS",
+            "description": "Account is hosted by the pds.dinakernel.com PDS",
             "lang": "en",
-            "name": "ref.pds.blackstar.quest"
+            "name": "pds.dinakernel.com"
           }
         ],
         "severity": "inform"
@@ -1243,12 +1229,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "com-dinakernel-pds",
+        "identifier": "quest-blackstar-pds-ref",
         "locales": [
           {
-            "description": "Account is hosted by the pds.dinakernel.com PDS",
+            "description": "Account is hosted by the ref.pds.blackstar.quest PDS",
             "lang": "en",
-            "name": "pds.dinakernel.com"
+            "name": "ref.pds.blackstar.quest"
           }
         ],
         "severity": "inform"
@@ -1271,6 +1257,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "cloud-fileorbit-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.fileorbit.cloud PDS",
+            "lang": "en",
+            "name": "pds.fileorbit.cloud"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "ca-zedsocial",
         "locales": [
           {
@@ -1285,12 +1285,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "cloud-fileorbit-pds",
+        "identifier": "ai-afrilingua-gist",
         "locales": [
           {
-            "description": "Account is hosted by the pds.fileorbit.cloud PDS",
+            "description": "Account is hosted by the gist.afrilingua.ai PDS",
             "lang": "en",
-            "name": "pds.fileorbit.cloud"
+            "name": "gist.afrilingua.ai"
           }
         ],
         "severity": "inform"
@@ -1355,6 +1355,20 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
+        "identifier": "world-oathling-pds",
+        "locales": [
+          {
+            "description": "Account is hosted by the pds.oathling.world PDS",
+            "lang": "en",
+            "name": "pds.oathling.world"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
         "identifier": "cc-velvetnova",
         "locales": [
           {
@@ -1369,12 +1383,26 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "world-oathling-pds",
+        "identifier": "ai-sandboxlabs-pds",
         "locales": [
           {
-            "description": "Account is hosted by the pds.oathling.world PDS",
+            "description": "Account is hosted by the pds.sandboxlabs.ai PDS",
             "lang": "en",
-            "name": "pds.oathling.world"
+            "name": "pds.sandboxlabs.ai"
+          }
+        ],
+        "severity": "inform"
+      },
+      {
+        "adultOnly": false,
+        "blurs": "none",
+        "defaultSetting": "warn",
+        "identifier": "one-shxre-arc",
+        "locales": [
+          {
+            "description": "Account is hosted by the arc.shxre.one PDS",
+            "lang": "en",
+            "name": "arc.shxre.one"
           }
         ],
         "severity": "inform"
@@ -1411,40 +1439,12 @@
         "adultOnly": false,
         "blurs": "none",
         "defaultSetting": "warn",
-        "identifier": "social-pwkl-us1-dev",
-        "locales": [
-          {
-            "description": "Account is hosted by the dev.us1.pwkl.social PDS",
-            "lang": "en",
-            "name": "dev.us1.pwkl.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
         "identifier": "social-snrd",
         "locales": [
           {
             "description": "Account is hosted by the snrd.social PDS",
             "lang": "en",
             "name": "snrd.social"
-          }
-        ],
-        "severity": "inform"
-      },
-      {
-        "adultOnly": false,
-        "blurs": "none",
-        "defaultSetting": "warn",
-        "identifier": "one-shxre-arc",
-        "locales": [
-          {
-            "description": "Account is hosted by the arc.shxre.one PDS",
-            "lang": "en",
-            "name": "arc.shxre.one"
           }
         ],
         "severity": "inform"
@@ -1473,8 +1473,8 @@
       "computer-aesthetic-at",
       "world-radical-r",
       "so-sprk-pds",
-      "net-yinzcloud-bsky-pds",
       "bot-did-pds",
+      "net-yinzcloud-bsky-pds",
       "com-atheistmass-pds",
       "com-vublox-pds",
       "social-oso-pds",
@@ -1492,8 +1492,8 @@
       "town-delve-pds",
       "net-hsuanyuchou-taipei",
       "com-qualiaworks-eurosky--pds",
-      "org-letspds-pds",
       "net-goldentooth-pds",
+      "org-letspds-pds",
       "com-dadavidtseng-pds",
       "social-npmx",
       "org-latha-roost",
@@ -1504,11 +1504,11 @@
       "network-eny-pds-oyster",
       "at-nightbo-pds",
       "social-novum",
-      "net-riyo-pds",
-      "world-jalsa-u",
-      "social-skyphone-pds",
-      "com-perohub-pds",
       "com-faxo-pds",
+      "net-riyo-pds",
+      "social-skyphone-pds",
+      "world-jalsa-u",
+      "com-perohub-pds",
       "cafe-pckt-pds",
       "to-tor0n",
       "pics-mychat",
@@ -1526,33 +1526,33 @@
       "at-hailey-cocoon",
       "ch-atvoto-test-pds",
       "ai-swarmchat-pds",
-      "ai-afrilingua-gist",
       "com-mulgez-api",
       "social-ekamdor",
       "network-touchgrass-pds",
       "news-1440-pds",
-      "dev-oathling-pds",
       "space-ship-pds",
+      "dev-oathling-pds",
       "space-cannect-pds",
       "social-pwkl-eu1-dev",
       "app-workolio-pds",
       "com-kieransweetman-pds",
-      "quest-blackstar-pds-ref",
       "com-dinakernel-pds",
+      "quest-blackstar-pds-ref",
       "dev-wsocial-pds--stage",
-      "ca-zedsocial",
       "cloud-fileorbit-pds",
+      "ca-zedsocial",
+      "ai-afrilingua-gist",
       "tech-sparknexus",
       "sh-tngl-org",
       "dev-riikkako-pds",
       "buzz-upscrolled",
-      "cc-velvetnova",
       "world-oathling-pds",
+      "cc-velvetnova",
+      "ai-sandboxlabs-pds",
+      "one-shxre-arc",
       "bot-mirrors",
       "social-fluester-pds",
-      "social-pwkl-us1-dev",
-      "social-snrd",
-      "one-shxre-arc"
+      "social-snrd"
     ]
   }
 }
